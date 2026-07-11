@@ -320,6 +320,44 @@ html.light-mode a:not(.btn-primary):hover{
 }
 /* === END LIGHT MODE READABILITY FIX === */
 
+
+/* === LIGHT MODE MOBILE MENU VISIBILITY FIX === */
+html.light-mode .hamburger,
+html.light-mode .theme-toggle{
+  color:#2f1e28 !important;
+  background:rgba(255,255,255,.88) !important;
+  border-color:rgba(184,63,120,.24) !important;
+}
+html.light-mode .mobile-menu{
+  background:linear-gradient(160deg,rgba(255,255,255,.99),rgba(255,239,247,.98)) !important;
+  border-left-color:#d63f84 !important;
+  box-shadow:-12px 0 34px rgba(106,43,74,.18) !important;
+}
+html.light-mode .mobile-menu>a,
+html.light-mode .mobile-group summary{
+  color:#2f1e28 !important;
+}
+html.light-mode .mobile-submenu a{
+  color:#654d5b !important;
+}
+html.light-mode .mobile-menu>a:hover,
+html.light-mode .mobile-group summary:hover,
+html.light-mode .mobile-submenu a:hover{
+  color:#b83f78 !important;
+}
+html.light-mode .mobile-menu>a,
+html.light-mode .mobile-group{
+  border-bottom-color:rgba(184,63,120,.16) !important;
+}
+.member-detail{
+  display:block;
+  margin-top:7px;
+  color:var(--muted);
+  font-size:.84rem;
+  font-weight:700;
+}
+html.light-mode .member-detail{color:#654d5b !important;}
+/* === END LIGHT MODE MOBILE MENU VISIBILITY FIX === */
 </style>
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
 </head>

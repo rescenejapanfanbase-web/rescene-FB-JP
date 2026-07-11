@@ -320,6 +320,72 @@ html.light-mode a:not(.btn-primary):hover{
 }
 /* === END LIGHT MODE READABILITY FIX === */
 
+
+/* === LIGHT MODE MOBILE MENU VISIBILITY FIX === */
+html.light-mode .hamburger,
+html.light-mode .theme-toggle{
+  color:#2f1e28 !important;
+  background:rgba(255,255,255,.88) !important;
+  border-color:rgba(184,63,120,.24) !important;
+}
+html.light-mode .mobile-menu{
+  background:linear-gradient(160deg,rgba(255,255,255,.99),rgba(255,239,247,.98)) !important;
+  border-left-color:#d63f84 !important;
+  box-shadow:-12px 0 34px rgba(106,43,74,.18) !important;
+}
+html.light-mode .mobile-menu>a,
+html.light-mode .mobile-group summary{
+  color:#2f1e28 !important;
+}
+html.light-mode .mobile-submenu a{
+  color:#654d5b !important;
+}
+html.light-mode .mobile-menu>a:hover,
+html.light-mode .mobile-group summary:hover,
+html.light-mode .mobile-submenu a:hover{
+  color:#b83f78 !important;
+}
+html.light-mode .mobile-menu>a,
+html.light-mode .mobile-group{
+  border-bottom-color:rgba(184,63,120,.16) !important;
+}
+.member-detail{
+  display:block;
+  margin-top:7px;
+  color:var(--muted);
+  font-size:.84rem;
+  font-weight:700;
+}
+html.light-mode .member-detail{color:#654d5b !important;}
+/* === END LIGHT MODE MOBILE MENU VISIBILITY FIX === */
+
+.member-showcase-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.member-showcase{display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:center;overflow:hidden;padding:14px}
+.member-showcase-photo{aspect-ratio:4/5;border-radius:18px;overflow:hidden;background:rgba(255,255,255,.05);border:1px solid var(--border)}
+.member-showcase-photo img,.member-preview-photo img,.member-detail-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.member-showcase-copy h3{margin:8px 0 3px;font-size:1.45rem}.member-showcase-copy p{margin:0;color:var(--muted);font-size:.92rem}
+.member-showcase-meta{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.member-order{font-size:.72rem;color:var(--muted);font-weight:900;letter-spacing:.12em}
+.member-color-chip{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;border:1px solid color-mix(in srgb,var(--chip) 50%, rgba(255,255,255,.18));background:color-mix(in srgb,var(--chip) 18%, rgba(255,255,255,.04));font-size:.7rem;font-weight:900;letter-spacing:.08em;color:var(--text)}
+.member-color-chip::before{content:'';width:10px;height:10px;border-radius:50%;background:var(--chip);box-shadow:0 0 0 3px rgba(255,255,255,.08)}
+.member-color-chip.large{font-size:.75rem;padding:9px 14px}
+.member-preview-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.member-preview-card{padding:0;overflow:hidden}.member-preview-link{display:block}
+.member-preview-photo{aspect-ratio:4/5;overflow:hidden;background:rgba(255,255,255,.05)}
+.member-preview-copy{padding:18px 20px 20px}.member-preview-copy h2{margin:9px 0 6px;font-size:1.45rem}.member-preview-copy small{font-size:.78rem;color:var(--muted)}.member-preview-copy p{margin:0 0 10px;color:var(--muted);font-weight:700}
+.member-detail-stack{display:grid;gap:24px}.member-detail-card{display:grid;grid-template-columns:minmax(240px,320px) 1fr;gap:24px;align-items:stretch;padding:18px;scroll-margin-top:90px}
+.member-detail-photo-wrap{display:flex}.member-detail-photo{width:100%;min-height:100%;aspect-ratio:4/5;overflow:hidden;border-radius:22px;border:1px solid var(--border);background:rgba(255,255,255,.05)}
+.member-detail-main{display:flex;flex-direction:column;gap:16px;padding:8px 4px}.member-detail-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start;flex-wrap:wrap}.member-detail-head h2{margin:10px 0 0;font-size:2rem;line-height:1.2}.member-detail-head h2 small{display:block;margin-top:5px;font-size:.92rem;color:var(--muted);font-weight:700}.member-description{margin:0;color:var(--text);font-size:1rem}
+.member-profile-meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.member-profile-meta div{padding:14px 16px;border-radius:16px;background:var(--soft-bg);border:1px solid var(--border)}.member-profile-meta span{display:block;font-size:.7rem;letter-spacing:.12em;color:var(--muted);margin-bottom:6px;font-weight:900}.member-profile-meta strong{font-size:1rem;line-height:1.5}
+.member-profile-note{padding:18px;border-radius:18px;background:linear-gradient(135deg,rgba(255,255,255,.05),rgba(255,255,255,.02));border:1px solid var(--border)}.member-profile-note h3{margin:0 0 8px;font-size:1rem;color:var(--pink)}.member-profile-note p{margin:0;color:var(--muted)}
+.member-woni .member-color-chip,.member-woni .badge{--chip:#79d98c}.member-liv .member-color-chip,.member-liv .badge{--chip:#202020}.member-minami .member-color-chip,.member-minami .badge{--chip:#4f8dff}.member-may .member-color-chip,.member-may .badge{--chip:#f4d04b}.member-zena .member-color-chip,.member-zena .badge{--chip:#9c72ff}
+html.light-mode .member-color-chip{color:#3a2330 !important;border-color:rgba(184,63,120,.15)!important;background:rgba(255,255,255,.82)!important}
+html.light-mode .member-showcase-copy p, html.light-mode .member-preview-copy p, html.light-mode .member-preview-copy small, html.light-mode .member-profile-note p{color:#654d5b !important}
+html.light-mode .member-profile-meta div{background:#fff7fb !important;border-color:rgba(184,63,120,.12)!important}
+html.light-mode .member-profile-meta span{color:#9e7387 !important}
+html.light-mode .member-profile-note{background:#fff9fc !important;border-color:rgba(184,63,120,.12)!important}
+@media (max-width:900px){.member-showcase-grid,.member-preview-grid{grid-template-columns:1fr}.member-detail-card{grid-template-columns:1fr}.member-profile-meta{grid-template-columns:1fr}.member-detail-photo{max-height:none}}
+@media (max-width:640px){.member-showcase{grid-template-columns:92px 1fr;gap:14px;padding:12px}.member-showcase-copy h3{font-size:1.2rem}.member-detail-head h2{font-size:1.7rem}}
+
 </style>
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
 </head>
@@ -355,13 +421,193 @@ html.light-mode a:not(.btn-primary):hover{
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
 <main class="container">
-<section class="page-header section" id="top"><span class="page-kicker">MEMBERS</span><h1>メンバー</h1><p>RESCENEを作る5人のメンバー。</p></section>
-<section class="section member-profile-grid">
-<article class="card member-profile-card" id="woni"><span class="member-index">01</span><div class="member-letter">W</div><div><span class="badge">WONI</span><h2>WONI <small>원이</small></h2><p>柔らかな魅力と存在感でRESCENEの場面を彩るメンバー。</p></div></article>
-<article class="card member-profile-card" id="liv"><span class="member-index">02</span><div class="member-letter">L</div><div><span class="badge">LIV</span><h2>LIV <small>리브</small></h2><p>ステージで印象的な色を残すRESCENEのメンバー。</p></div></article>
-<article class="card member-profile-card" id="minami"><span class="member-index">03</span><div class="member-letter">M</div><div><span class="badge">MINAMI</span><h2>MINAMI <small>미나미</small></h2><p>日本と韓国をつなぎ、繊細な表現を届けるメンバー。</p></div></article>
-<article class="card member-profile-card" id="may"><span class="member-index">04</span><div class="member-letter">M</div><div><span class="badge">MAY</span><h2>MAY <small>메이</small></h2><p>明るいエネルギーでRESCENEの空気を作るメンバー。</p></div></article>
-<article class="card member-profile-card" id="zena"><span class="member-index">05</span><div class="member-letter">Z</div><div><span class="badge">ZENA</span><h2>ZENA <small>제나</small></h2><p>個性的な魅力とパフォーマンスで記憶に残るメンバー。</p></div></article>
+<section class="page-header section" id="top"><span class="page-kicker">MEMBERS</span><h1>メンバー</h1><p>RESCENEを作る5人のメンバー。写真付きの一覧と詳細プロフィールをまとめています。</p></section>
+<section class="section member-preview-grid">
+<article class="card member-preview-card member-woni">
+  <a class="member-preview-link" href="#woni-profile">
+    <div class="member-preview-photo"><img src="assets/members/woni.jpg" alt="WONI photo"></div>
+    <div class="member-preview-copy">
+      <span class="member-index">01</span>
+      <h2>WONI <small>원이</small></h2>
+      <p>ウォニ</p>
+      <span class="member-color-chip" style="--chip:#79d98c">MEMBER COLOR · GREEN</span>
+    </div>
+  </a>
+</article>
+<article class="card member-preview-card member-liv">
+  <a class="member-preview-link" href="#liv-profile">
+    <div class="member-preview-photo"><img src="assets/members/liv.jpg" alt="LIV photo"></div>
+    <div class="member-preview-copy">
+      <span class="member-index">02</span>
+      <h2>LIV <small>리브</small></h2>
+      <p>リブ</p>
+      <span class="member-color-chip" style="--chip:#202020">MEMBER COLOR · BLACK</span>
+    </div>
+  </a>
+</article>
+<article class="card member-preview-card member-minami">
+  <a class="member-preview-link" href="#minami-profile">
+    <div class="member-preview-photo"><img src="assets/members/minami.jpg" alt="MINAMI photo"></div>
+    <div class="member-preview-copy">
+      <span class="member-index">03</span>
+      <h2>MINAMI <small>미나미</small></h2>
+      <p>ミナミ</p>
+      <span class="member-color-chip" style="--chip:#4f8dff">MEMBER COLOR · BLUE</span>
+    </div>
+  </a>
+</article>
+<article class="card member-preview-card member-may">
+  <a class="member-preview-link" href="#may-profile">
+    <div class="member-preview-photo"><img src="assets/members/may.jpg" alt="MAY photo"></div>
+    <div class="member-preview-copy">
+      <span class="member-index">04</span>
+      <h2>MAY <small>메이</small></h2>
+      <p>メイ</p>
+      <span class="member-color-chip" style="--chip:#f4d04b">MEMBER COLOR · YELLOW</span>
+    </div>
+  </a>
+</article>
+<article class="card member-preview-card member-zena">
+  <a class="member-preview-link" href="#zena-profile">
+    <div class="member-preview-photo"><img src="assets/members/zena.jpg" alt="ZENA photo"></div>
+    <div class="member-preview-copy">
+      <span class="member-index">05</span>
+      <h2>ZENA <small>제나</small></h2>
+      <p>ゼナ</p>
+      <span class="member-color-chip" style="--chip:#9c72ff">MEMBER COLOR · PURPLE</span>
+    </div>
+  </a>
+</article>
+</section>
+<section class="section">
+  <div class="section-head"><div><span class="section-kicker">PROFILE</span><h2 class="section-title">詳細プロフィール</h2></div><a class="section-link" href="#top">ページ上部へ ↑</a></div>
+  <div class="member-detail-stack">
+<article class="card member-detail-card member-woni" id="woni-profile">
+  <div class="member-detail-photo-wrap">
+    <div class="member-detail-photo"><img src="assets/members/woni.jpg" alt="WONI detailed profile photo"></div>
+  </div>
+  <div class="member-detail-main">
+    <div class="member-detail-head">
+      <div>
+        <span class="badge">WONI</span>
+        <h2>WONI <small>원이 / ウォニ</small></h2>
+      </div>
+      <span class="member-color-chip large" style="--chip:#79d98c">MEMBER COLOR · GREEN</span>
+    </div>
+    <p class="member-description">リーダー。柔らかな雰囲気と芯のある存在感で、RESCENEの世界観を包み込むメンバー。</p>
+    <div class="member-profile-meta">
+      <div><span>生年月日</span><strong>2004.05.25</strong></div>
+      <div><span>出身地</span><strong>韓国・巨済市</strong></div>
+      <div><span>国籍</span><strong>韓国</strong></div>
+      <div><span>KEYWORDS</span><strong>Leader / Warm / Elegant</strong></div>
+    </div>
+    <div class="member-profile-note">
+      <h3>PROFILE</h3>
+      <p>メンバーカラーは <b style="color:#79d98c">GREEN</b>。サイト内の紹介カードにもこのカラーを反映しています。追加したい情報があれば、このブロックへ誕生日、血液型、ニックネーム、趣味、好きなものなどをさらに増やせます。</p>
+    </div>
+  </div>
+</article>
+<article class="card member-detail-card member-liv" id="liv-profile">
+  <div class="member-detail-photo-wrap">
+    <div class="member-detail-photo"><img src="assets/members/liv.jpg" alt="LIV detailed profile photo"></div>
+  </div>
+  <div class="member-detail-main">
+    <div class="member-detail-head">
+      <div>
+        <span class="badge">LIV</span>
+        <h2>LIV <small>리브 / リブ</small></h2>
+      </div>
+      <span class="member-color-chip large" style="--chip:#202020">MEMBER COLOR · BLACK</span>
+    </div>
+    <p class="member-description">クールさと透明感をあわせ持ち、ステージで強い印象を残すメンバー。</p>
+    <div class="member-profile-meta">
+      <div><span>生年月日</span><strong>2006.10.11</strong></div>
+      <div><span>出身地</span><strong>韓国・水原市</strong></div>
+      <div><span>国籍</span><strong>韓国</strong></div>
+      <div><span>KEYWORDS</span><strong>Chic / Cool / Clean</strong></div>
+    </div>
+    <div class="member-profile-note">
+      <h3>PROFILE</h3>
+      <p>メンバーカラーは <b style="color:#202020">BLACK</b>。サイト内の紹介カードにもこのカラーを反映しています。追加したい情報があれば、このブロックへ誕生日、血液型、ニックネーム、趣味、好きなものなどをさらに増やせます。</p>
+    </div>
+  </div>
+</article>
+<article class="card member-detail-card member-minami" id="minami-profile">
+  <div class="member-detail-photo-wrap">
+    <div class="member-detail-photo"><img src="assets/members/minami.jpg" alt="MINAMI detailed profile photo"></div>
+  </div>
+  <div class="member-detail-main">
+    <div class="member-detail-head">
+      <div>
+        <span class="badge">MINAMI</span>
+        <h2>MINAMI <small>미나미 / ミナミ</small></h2>
+      </div>
+      <span class="member-color-chip large" style="--chip:#4f8dff">MEMBER COLOR · BLUE</span>
+    </div>
+    <p class="member-description">日本出身メンバー。繊細な表情と爽やかな魅力で、RESCENEの色を広げる存在。</p>
+    <div class="member-profile-meta">
+      <div><span>生年月日</span><strong>2006.11.29</strong></div>
+      <div><span>出身地</span><strong>日本・千葉県佐倉市</strong></div>
+      <div><span>国籍</span><strong>日本</strong></div>
+      <div><span>KEYWORDS</span><strong>Japanese Member / Fresh / Delicate</strong></div>
+    </div>
+    <div class="member-profile-note">
+      <h3>PROFILE</h3>
+      <p>メンバーカラーは <b style="color:#4f8dff">BLUE</b>。サイト内の紹介カードにもこのカラーを反映しています。追加したい情報があれば、このブロックへ誕生日、血液型、ニックネーム、趣味、好きなものなどをさらに増やせます。</p>
+    </div>
+  </div>
+</article>
+<article class="card member-detail-card member-may" id="may-profile">
+  <div class="member-detail-photo-wrap">
+    <div class="member-detail-photo"><img src="assets/members/may.jpg" alt="MAY detailed profile photo"></div>
+  </div>
+  <div class="member-detail-main">
+    <div class="member-detail-head">
+      <div>
+        <span class="badge">MAY</span>
+        <h2>MAY <small>메이 / メイ</small></h2>
+      </div>
+      <span class="member-color-chip large" style="--chip:#f4d04b">MEMBER COLOR · YELLOW</span>
+    </div>
+    <p class="member-description">明るく愛らしいムードで、グループにやわらかなエネルギーを届けるメンバー。</p>
+    <div class="member-profile-meta">
+      <div><span>生年月日</span><strong>2008.08.19</strong></div>
+      <div><span>出身地</span><strong>韓国・高陽市</strong></div>
+      <div><span>国籍</span><strong>韓国</strong></div>
+      <div><span>KEYWORDS</span><strong>Bright / Lovely / Energy</strong></div>
+    </div>
+    <div class="member-profile-note">
+      <h3>PROFILE</h3>
+      <p>メンバーカラーは <b style="color:#f4d04b">YELLOW</b>。サイト内の紹介カードにもこのカラーを反映しています。追加したい情報があれば、このブロックへ誕生日、血液型、ニックネーム、趣味、好きなものなどをさらに増やせます。</p>
+    </div>
+  </div>
+</article>
+<article class="card member-detail-card member-zena" id="zena-profile">
+  <div class="member-detail-photo-wrap">
+    <div class="member-detail-photo"><img src="assets/members/zena.jpg" alt="ZENA detailed profile photo"></div>
+  </div>
+  <div class="member-detail-main">
+    <div class="member-detail-head">
+      <div>
+        <span class="badge">ZENA</span>
+        <h2>ZENA <small>제나 / ゼナ</small></h2>
+      </div>
+      <span class="member-color-chip large" style="--chip:#9c72ff">MEMBER COLOR · PURPLE</span>
+    </div>
+    <p class="member-description">個性的な空気感と目を引く魅力で、ひと目で記憶に残るメンバー。</p>
+    <div class="member-profile-meta">
+      <div><span>生年月日</span><strong>2008.11.27</strong></div>
+      <div><span>出身地</span><strong>韓国・慶州市</strong></div>
+      <div><span>国籍</span><strong>韓国</strong></div>
+      <div><span>KEYWORDS</span><strong>Unique / Charming / Memorable</strong></div>
+    </div>
+    <div class="member-profile-note">
+      <h3>PROFILE</h3>
+      <p>メンバーカラーは <b style="color:#9c72ff">PURPLE</b>。サイト内の紹介カードにもこのカラーを反映しています。追加したい情報があれば、このブロックへ誕生日、血液型、ニックネーム、趣味、好きなものなどをさらに増やせます。</p>
+    </div>
+  </div>
+</article>
+  </div>
 </section>
 </main>
 <footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FB</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="contact.html">CONTACT</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FB</div></footer>

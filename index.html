@@ -320,6 +320,72 @@ html.light-mode a:not(.btn-primary):hover{
 }
 /* === END LIGHT MODE READABILITY FIX === */
 
+
+/* === LIGHT MODE MOBILE MENU VISIBILITY FIX === */
+html.light-mode .hamburger,
+html.light-mode .theme-toggle{
+  color:#2f1e28 !important;
+  background:rgba(255,255,255,.88) !important;
+  border-color:rgba(184,63,120,.24) !important;
+}
+html.light-mode .mobile-menu{
+  background:linear-gradient(160deg,rgba(255,255,255,.99),rgba(255,239,247,.98)) !important;
+  border-left-color:#d63f84 !important;
+  box-shadow:-12px 0 34px rgba(106,43,74,.18) !important;
+}
+html.light-mode .mobile-menu>a,
+html.light-mode .mobile-group summary{
+  color:#2f1e28 !important;
+}
+html.light-mode .mobile-submenu a{
+  color:#654d5b !important;
+}
+html.light-mode .mobile-menu>a:hover,
+html.light-mode .mobile-group summary:hover,
+html.light-mode .mobile-submenu a:hover{
+  color:#b83f78 !important;
+}
+html.light-mode .mobile-menu>a,
+html.light-mode .mobile-group{
+  border-bottom-color:rgba(184,63,120,.16) !important;
+}
+.member-detail{
+  display:block;
+  margin-top:7px;
+  color:var(--muted);
+  font-size:.84rem;
+  font-weight:700;
+}
+html.light-mode .member-detail{color:#654d5b !important;}
+/* === END LIGHT MODE MOBILE MENU VISIBILITY FIX === */
+
+.member-showcase-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.member-showcase{display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:center;overflow:hidden;padding:14px}
+.member-showcase-photo{aspect-ratio:4/5;border-radius:18px;overflow:hidden;background:rgba(255,255,255,.05);border:1px solid var(--border)}
+.member-showcase-photo img,.member-preview-photo img,.member-detail-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.member-showcase-copy h3{margin:8px 0 3px;font-size:1.45rem}.member-showcase-copy p{margin:0;color:var(--muted);font-size:.92rem}
+.member-showcase-meta{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.member-order{font-size:.72rem;color:var(--muted);font-weight:900;letter-spacing:.12em}
+.member-color-chip{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;border:1px solid color-mix(in srgb,var(--chip) 50%, rgba(255,255,255,.18));background:color-mix(in srgb,var(--chip) 18%, rgba(255,255,255,.04));font-size:.7rem;font-weight:900;letter-spacing:.08em;color:var(--text)}
+.member-color-chip::before{content:'';width:10px;height:10px;border-radius:50%;background:var(--chip);box-shadow:0 0 0 3px rgba(255,255,255,.08)}
+.member-color-chip.large{font-size:.75rem;padding:9px 14px}
+.member-preview-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.member-preview-card{padding:0;overflow:hidden}.member-preview-link{display:block}
+.member-preview-photo{aspect-ratio:4/5;overflow:hidden;background:rgba(255,255,255,.05)}
+.member-preview-copy{padding:18px 20px 20px}.member-preview-copy h2{margin:9px 0 6px;font-size:1.45rem}.member-preview-copy small{font-size:.78rem;color:var(--muted)}.member-preview-copy p{margin:0 0 10px;color:var(--muted);font-weight:700}
+.member-detail-stack{display:grid;gap:24px}.member-detail-card{display:grid;grid-template-columns:minmax(240px,320px) 1fr;gap:24px;align-items:stretch;padding:18px;scroll-margin-top:90px}
+.member-detail-photo-wrap{display:flex}.member-detail-photo{width:100%;min-height:100%;aspect-ratio:4/5;overflow:hidden;border-radius:22px;border:1px solid var(--border);background:rgba(255,255,255,.05)}
+.member-detail-main{display:flex;flex-direction:column;gap:16px;padding:8px 4px}.member-detail-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start;flex-wrap:wrap}.member-detail-head h2{margin:10px 0 0;font-size:2rem;line-height:1.2}.member-detail-head h2 small{display:block;margin-top:5px;font-size:.92rem;color:var(--muted);font-weight:700}.member-description{margin:0;color:var(--text);font-size:1rem}
+.member-profile-meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.member-profile-meta div{padding:14px 16px;border-radius:16px;background:var(--soft-bg);border:1px solid var(--border)}.member-profile-meta span{display:block;font-size:.7rem;letter-spacing:.12em;color:var(--muted);margin-bottom:6px;font-weight:900}.member-profile-meta strong{font-size:1rem;line-height:1.5}
+.member-profile-note{padding:18px;border-radius:18px;background:linear-gradient(135deg,rgba(255,255,255,.05),rgba(255,255,255,.02));border:1px solid var(--border)}.member-profile-note h3{margin:0 0 8px;font-size:1rem;color:var(--pink)}.member-profile-note p{margin:0;color:var(--muted)}
+.member-woni .member-color-chip,.member-woni .badge{--chip:#79d98c}.member-liv .member-color-chip,.member-liv .badge{--chip:#202020}.member-minami .member-color-chip,.member-minami .badge{--chip:#4f8dff}.member-may .member-color-chip,.member-may .badge{--chip:#f4d04b}.member-zena .member-color-chip,.member-zena .badge{--chip:#9c72ff}
+html.light-mode .member-color-chip{color:#3a2330 !important;border-color:rgba(184,63,120,.15)!important;background:rgba(255,255,255,.82)!important}
+html.light-mode .member-showcase-copy p, html.light-mode .member-preview-copy p, html.light-mode .member-preview-copy small, html.light-mode .member-profile-note p{color:#654d5b !important}
+html.light-mode .member-profile-meta div{background:#fff7fb !important;border-color:rgba(184,63,120,.12)!important}
+html.light-mode .member-profile-meta span{color:#9e7387 !important}
+html.light-mode .member-profile-note{background:#fff9fc !important;border-color:rgba(184,63,120,.12)!important}
+@media (max-width:900px){.member-showcase-grid,.member-preview-grid{grid-template-columns:1fr}.member-detail-card{grid-template-columns:1fr}.member-profile-meta{grid-template-columns:1fr}.member-detail-photo{max-height:none}}
+@media (max-width:640px){.member-showcase{grid-template-columns:92px 1fr;gap:14px;padding:12px}.member-showcase-copy h3{font-size:1.2rem}.member-detail-head h2{font-size:1.7rem}}
+
 </style>
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
 </head>
@@ -405,13 +471,48 @@ html.light-mode a:not(.btn-primary):hover{
 </section>
 
 <section class="section">
-  <h2 class="section-title">メンバー</h2>
-  <div class="member-mini-grid">
-    <a class="member-mini card card-link" href="members.html#woni"><span>01</span><strong>WONI</strong><small>원이</small></a>
-    <a class="member-mini card card-link" href="members.html#liv"><span>02</span><strong>LIV</strong><small>리브</small></a>
-    <a class="member-mini card card-link" href="members.html#minami"><span>03</span><strong>MINAMI</strong><small>미나미</small></a>
-    <a class="member-mini card card-link" href="members.html#may"><span>04</span><strong>MAY</strong><small>메이</small></a>
-    <a class="member-mini card card-link" href="members.html#zena"><span>05</span><strong>ZENA</strong><small>제나</small></a>
+  <div class="section-head"><div><span class="section-kicker">MEMBERS</span><h2 class="section-title">メンバー</h2></div><a class="section-link" href="members.html">プロフィールを見る →</a></div>
+  <div class="member-showcase-grid">
+    <a class="member-showcase card card-link member-woni" href="members.html#woni-profile">
+      <div class="member-showcase-photo"><img src="assets/members/woni.jpg" alt="WONI photo"></div>
+      <div class="member-showcase-copy">
+        <div class="member-showcase-meta"><span class="member-order">01</span><span class="member-color-chip" style="--chip:#79d98c">GREEN</span></div>
+        <h3>WONI</h3>
+        <p>원이 / ウォニ</p>
+      </div>
+    </a>
+    <a class="member-showcase card card-link member-liv" href="members.html#liv-profile">
+      <div class="member-showcase-photo"><img src="assets/members/liv.jpg" alt="LIV photo"></div>
+      <div class="member-showcase-copy">
+        <div class="member-showcase-meta"><span class="member-order">02</span><span class="member-color-chip" style="--chip:#202020">BLACK</span></div>
+        <h3>LIV</h3>
+        <p>리브 / リブ</p>
+      </div>
+    </a>
+    <a class="member-showcase card card-link member-minami" href="members.html#minami-profile">
+      <div class="member-showcase-photo"><img src="assets/members/minami.jpg" alt="MINAMI photo"></div>
+      <div class="member-showcase-copy">
+        <div class="member-showcase-meta"><span class="member-order">03</span><span class="member-color-chip" style="--chip:#4f8dff">BLUE</span></div>
+        <h3>MINAMI</h3>
+        <p>미나미 / ミナミ</p>
+      </div>
+    </a>
+    <a class="member-showcase card card-link member-may" href="members.html#may-profile">
+      <div class="member-showcase-photo"><img src="assets/members/may.jpg" alt="MAY photo"></div>
+      <div class="member-showcase-copy">
+        <div class="member-showcase-meta"><span class="member-order">04</span><span class="member-color-chip" style="--chip:#f4d04b">YELLOW</span></div>
+        <h3>MAY</h3>
+        <p>메이 / メイ</p>
+      </div>
+    </a>
+    <a class="member-showcase card card-link member-zena" href="members.html#zena-profile">
+      <div class="member-showcase-photo"><img src="assets/members/zena.jpg" alt="ZENA photo"></div>
+      <div class="member-showcase-copy">
+        <div class="member-showcase-meta"><span class="member-order">05</span><span class="member-color-chip" style="--chip:#9c72ff">PURPLE</span></div>
+        <h3>ZENA</h3>
+        <p>제나 / ゼナ</p>
+      </div>
+    </a>
   </div>
 </section>
 
