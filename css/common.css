@@ -354,3 +354,73 @@ html.light-mode .member-detail{color:#654d5b !important;}
 html.light-mode .discography-jump a{color:#3a2330!important;background:#fff7fb!important;border-color:rgba(184,63,120,.16)!important}html.light-mode .category-head p,html.light-mode .release-empty p{color:#654d5b!important}
 @media(max-width:640px){.category-head{align-items:flex-start;flex-direction:column}.discography-jump{gap:8px}.discography-jump a{font-size:.7rem;padding:8px 11px}}
 
+
+
+/* === RESCENE GROUP PHOTO HERO === */
+.hero-group-card{
+  position:relative;
+  padding:0;
+  overflow:hidden;
+  min-height:560px;
+  background:#eeb8cb;
+  border-color:rgba(255,110,169,.45);
+}
+.hero-group-photo{
+  position:absolute;
+  inset:0;
+}
+.hero-group-photo img{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+  object-position:center 38%;
+  transition:transform .45s ease;
+}
+.hero-group-card:hover .hero-group-photo img{transform:scale(1.025)}
+.hero-group-photo::after{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg,transparent 44%,rgba(16,10,20,.08) 58%,rgba(13,8,18,.84) 100%);
+}
+.hero-group-caption{
+  position:absolute;
+  z-index:2;
+  left:22px;
+  right:22px;
+  bottom:20px;
+  color:#fff;
+  text-shadow:0 2px 12px rgba(0,0,0,.45);
+}
+.hero-group-caption .badge{
+  color:#fff;
+  border-color:rgba(255,255,255,.38);
+  background:rgba(255,255,255,.16);
+  backdrop-filter:blur(10px);
+}
+.hero-group-caption h2{
+  margin:12px 0 4px;
+  font-size:clamp(1.65rem,3vw,2.35rem);
+  line-height:1.08;
+}
+.hero-group-caption p{
+  margin:0;
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:.09em;
+  color:rgba(255,255,255,.88);
+}
+html.light-mode .hero-group-card{
+  border-color:rgba(184,63,120,.24)!important;
+  background:#f3bfd1!important;
+}
+@media(max-width:979px){
+  .hero-group-card{min-height:640px}
+}
+@media(max-width:640px){
+  .hero-group-card{min-height:500px}
+  .hero-group-caption{left:16px;right:16px;bottom:16px}
+  .hero-group-photo img{object-position:center 34%}
+}
+/* === END RESCENE GROUP PHOTO HERO === */
