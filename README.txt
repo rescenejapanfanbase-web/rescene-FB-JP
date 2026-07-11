@@ -1,8 +1,10 @@
+RESCENE JAPAN FB — GREEN & BLUE EDITION
 
-RESCENE JAPAN FB - NSWER JAPAN style version
+画像を使わず、HTML・CSS・JavaScriptのみで制作したサイトです。
+深い青緑の背景、ミントグリーン、水色、ガラス調カード、香りと水面を意識したCSS装飾を採用しています。
 
-・画像ファイル、imgタグ、background-imageは使用していません。
-・index.htmlをブラウザで開くと確認できます。
-・背景色、カード、グラデーション、ナビゲーション、配置はNSWER JAPANのサイトを参考にしたデザインです。
-・外部リンクの「#」は、公開前に実際の公式URLへ変更してください。
-・GitHub PagesへはZIPを展開し、中身をリポジトリ直下へアップロードしてください。
+確認方法:
+1. ZIPを展開
+2. index.htmlを開く
+
+GitHub PagesではZIP内のファイルをリポジトリ直下へアップロードしてください。
