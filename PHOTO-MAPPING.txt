@@ -1,0 +1,9 @@
+Correct member-photo mapping:
+
+1st uploaded image: ZENA
+2nd uploaded image: MAY
+3rd uploaded image: MINAMI
+4th uploaded image: LIV
+5th uploaded image: WONI
+
+The same mapping is applied both to assets/members/ and the embedded images in index.html / members.html.
