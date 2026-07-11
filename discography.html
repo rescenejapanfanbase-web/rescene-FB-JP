@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark light">
-<title>ディスコグラフィ | RESCENE JAPAN FB</title>
-<meta name="description" content="RESCENEのアルバムとシングルをまとめています。">
+<title>ディスコグラフィ | RESCENE JAPAN FANBASE</title>
+<meta name="description" content="RESCENEのミニアルバム、フルアルバム、シングル、OSTをカテゴリー別にまとめています。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
@@ -39,7 +39,7 @@ html.light-mode body{--bg:#f5f6fb;--bg2:#eceff7;--card:#fff;--card2:#f7f8fd;--bo
 
 
 /* =========================================================
-   RESCENE JAPAN FB — SCENT / WATER / LIGHT THEME
+   RESCENE JAPAN FANBASE — SCENT / WATER / LIGHT THEME
    Image-free visual system. Green and blue are the key colors.
    ========================================================= */
 :root{
@@ -358,13 +358,19 @@ html.light-mode .mobile-group{
 }
 html.light-mode .member-detail{color:#654d5b !important;}
 /* === END LIGHT MODE MOBILE MENU VISIBILITY FIX === */
+
+.discography-jump{display:flex;gap:10px;flex-wrap:wrap;margin:-10px 0 34px}.discography-jump a{padding:10px 15px;border-radius:999px;border:1px solid var(--border);background:var(--soft-bg);font-size:.76rem;font-weight:900;letter-spacing:.05em;transition:.2s}.discography-jump a:hover{color:var(--pink);border-color:var(--pink);transform:translateY(-2px)}
+.discography-category{scroll-margin-top:92px;margin-bottom:62px}.category-head{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin-bottom:20px;padding-bottom:13px;border-bottom:1px solid var(--border)}.category-head h2{margin:4px 0 0;font-size:clamp(1.75rem,4vw,2.45rem)}.category-head p{margin:0;color:var(--muted);font-size:.88rem}.category-count{font-size:.72rem;font-weight:900;color:var(--pink);letter-spacing:.12em;white-space:nowrap}.release-card .release-type{display:inline-block;margin-bottom:8px;font-size:.68rem;color:var(--muted);font-weight:900;letter-spacing:.1em}.release-empty{min-height:180px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}.release-empty h3{margin:7px 0 4px;font-size:1.35rem}.release-empty p{margin:0;color:var(--muted)}
+html.light-mode .discography-jump a{color:#3a2330!important;background:#fff7fb!important;border-color:rgba(184,63,120,.16)!important}html.light-mode .category-head p,html.light-mode .release-empty p{color:#654d5b!important}
+@media(max-width:640px){.category-head{align-items:flex-start;flex-direction:column}.discography-jump{gap:8px}.discography-jump a{font-size:.7rem;padding:8px 11px}}
+
 </style>
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
 </head>
 <body class="">
 <header>
 <div class="nav">
-<a class="logo" href="index.html"><span>RESCENE</span> JAPAN FB</a>
+<a class="logo" href="index.html"><span>RESCENE</span> JAPAN FANBASE</a>
 <nav class="nav-links" aria-label="メインナビゲーション">
 <a href="index.html">ホーム</a>
 <a href="news.html">ニュース</a>
@@ -393,16 +399,54 @@ html.light-mode .member-detail{color:#654d5b !important;}
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
 <main class="container">
-<section class="page-header section" id="top"><span class="page-kicker">DISCOGRAPHY</span><h1>ディスコグラフィ</h1><p>RESCENEの作品を新しい順にまとめています。</p></section>
-<section class="section release-grid">
-<article class="card release-card"><div class="release-mark">03</div><div class="release-meta"><span class="badge badge-green">MINI ALBUM</span><time>2026</time></div><h2>lip bomb</h2><p>balm ver. / tint ver. の2形態で展開された3rd Mini Album。</p><a class="text-button" href="streaming.html">応援方法を見る →</a></article>
-<article class="card release-card"><div class="release-mark">DS</div><div class="release-meta"><span class="badge">DIGITAL SINGLE</span><time>2026</time></div><h2>Runaway</h2><p>デジタルで届けられたRESCENEの新しい場面。</p><a class="text-button" href="mv.html">MVを見る →</a></article>
-<article class="card release-card"><div class="release-mark">02</div><div class="release-meta"><span class="badge">MINI ALBUM</span><time>2025</time></div><h2>Glow Up</h2><p>RESCENEの音楽的な色をさらに広げた作品。</p><a class="text-button" href="streaming.html">配信サービスへ →</a></article>
-<article class="card release-card"><div class="release-mark">01</div><div class="release-meta"><span class="badge">MINI ALBUM</span><time>2024</time></div><h2>SCENEDROME</h2><p>RESCENEの世界観を深く体験できる作品。</p><a class="text-button" href="mv.html">MVを見る →</a></article>
-<article class="card release-card"><div class="release-mark">D</div><div class="release-meta"><span class="badge">SINGLE ALBUM</span><time>2024.03.26</time></div><h2>Re:Scene</h2><p>RESCENEのデビューを刻んだ1st Single Album。</p><a class="text-button" href="about.html">グループを知る →</a></article>
+<section class="page-header section" id="top"><span class="page-kicker">DISCOGRAPHY</span><h1>ディスコグラフィ</h1><p>RESCENEの作品をカテゴリー別・新しい順にまとめています。</p></section>
+<nav class="discography-jump" aria-label="ディスコグラフィカテゴリー">
+  <a href="#special-single">SPECIAL / DIGITAL SINGLE</a>
+  <a href="#mini-album">MINI ALBUM</a>
+  <a href="#full-album">FULL ALBUM</a>
+  <a href="#single-album">SINGLE ALBUM</a>
+  <a href="#ost">OST</a>
+</nav>
+
+<section class="discography-category" id="special-single">
+  <div class="category-head"><div><span class="section-kicker">SPECIAL & DIGITAL SINGLE</span><h2>スペシャル・デジタルシングル</h2><p>配信を中心に発表されたシングル作品。</p></div><span class="category-count">2 RELEASES</span></div>
+  <div class="release-grid">
+    <article class="card release-card"><div class="release-mark">PG</div><div class="release-meta"><span class="badge">SPECIAL SINGLE</span><time>2026.07.08</time></div><span class="release-type">1ST SPECIAL SINGLE</span><h2>Pretty Girl</h2><p>2026年7月8日にリリースされたスペシャルシングル。</p><a class="text-button" href="streaming.html">ストリーミングガイド →</a></article>
+    <article class="card release-card"><div class="release-mark">DS</div><div class="release-meta"><span class="badge">DIGITAL SINGLE</span><time>2026.04.08</time></div><span class="release-type">1ST DIGITAL SINGLE</span><h2>Runaway</h2><p>RESCENEの新しい場面を届けたデジタルシングル。</p><a class="text-button" href="mv.html">MVを見る →</a></article>
+  </div>
+</section>
+
+<section class="discography-category" id="mini-album">
+  <div class="category-head"><div><span class="section-kicker">MINI ALBUM</span><h2>ミニアルバム</h2><p>RESCENEの世界観をまとまった作品として楽しめるカテゴリー。</p></div><span class="category-count">3 RELEASES</span></div>
+  <div class="release-grid">
+    <article class="card release-card"><div class="release-mark">03</div><div class="release-meta"><span class="badge badge-green">MINI ALBUM</span><time>2025</time></div><span class="release-type">3RD MINI ALBUM</span><h2>lip bomb</h2><p>balm ver. / tint ver. の2形態で展開された3rd Mini Album。</p><a class="text-button" href="streaming.html">応援方法を見る →</a></article>
+    <article class="card release-card"><div class="release-mark">02</div><div class="release-meta"><span class="badge">MINI ALBUM</span><time>2025</time></div><span class="release-type">2ND MINI ALBUM</span><h2>Glow Up</h2><p>RESCENEの音楽的な色をさらに広げた2nd Mini Album。</p><a class="text-button" href="streaming.html">配信サービスへ →</a></article>
+    <article class="card release-card"><div class="release-mark">01</div><div class="release-meta"><span class="badge">MINI ALBUM</span><time>2024</time></div><span class="release-type">1ST MINI ALBUM</span><h2>SCENEDROME</h2><p>RESCENEの世界観を深く体験できる1st Mini Album。</p><a class="text-button" href="mv.html">MVを見る →</a></article>
+  </div>
+</section>
+
+<section class="discography-category" id="full-album">
+  <div class="category-head"><div><span class="section-kicker">FULL ALBUM</span><h2>フルアルバム</h2><p>フルアルバム作品を掲載するカテゴリー。</p></div><span class="category-count">0 RELEASES</span></div>
+  <div class="card release-empty"><span class="badge">COMING LATER</span><h3>現在掲載中の作品はありません</h3><p>フルアルバムがリリースされた際に追加します。</p></div>
+</section>
+
+<section class="discography-category" id="single-album">
+  <div class="category-head"><div><span class="section-kicker">SINGLE ALBUM</span><h2>シングルアルバム</h2><p>フィジカル作品として発表されたシングルアルバム。</p></div><span class="category-count">2 RELEASES</span></div>
+  <div class="release-grid">
+    <article class="card release-card"><div class="release-mark">02</div><div class="release-meta"><span class="badge">SINGLE ALBUM</span><time>2025</time></div><span class="release-type">2ND SINGLE ALBUM</span><h2>Dearest</h2><p>「Deja Vu」などを通じて新たな魅力を届けた2nd Single Album。</p><a class="text-button" href="mv.html">MVを見る →</a></article>
+    <article class="card release-card"><div class="release-mark">01</div><div class="release-meta"><span class="badge">SINGLE ALBUM</span><time>2024.03.26</time></div><span class="release-type">1ST SINGLE ALBUM</span><h2>Re:Scene</h2><p>RESCENEのデビューを刻んだ1st Single Album。</p><a class="text-button" href="about.html">グループを知る →</a></article>
+  </div>
+</section>
+
+<section class="discography-category" id="ost">
+  <div class="category-head"><div><span class="section-kicker">ORIGINAL SOUNDTRACK</span><h2>OST</h2><p>ドラマや作品のために歌唱したオリジナルサウンドトラック。</p></div><span class="category-count">2 RELEASES</span></div>
+  <div class="release-grid">
+    <article class="card release-card"><div class="release-mark">LF</div><div class="release-meta"><span class="badge">OST</span><time>2025.09.17</time></div><span class="release-type">ORIGINAL SOUNDTRACK</span><h2>Love Frequency</h2><p>「Just For Meeting You」のOriginal Soundtrack。全2曲で構成されたシングル。</p><a class="text-button" href="streaming.html">配信サービスへ →</a></article>
+    <article class="card release-card"><div class="release-mark">BB</div><div class="release-meta"><span class="badge">OST</span><time>2025.06.12</time></div><span class="release-type">THE FIRST NIGHT WITH THE DUKE OST PT.1</span><h2>BamBamBam</h2><p>ドラマ「The First Night With The Duke」のOriginal Television Soundtrack Pt.1。</p><a class="text-button" href="streaming.html">配信サービスへ →</a></article>
+  </div>
 </section>
 </main>
-<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FB</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="contact.html">CONTACT</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FB</div></footer>
+<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="contact.html">CONTACT</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
 <script>
 
 (()=>{

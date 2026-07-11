@@ -1,4 +1,4 @@
-RESCENE JAPAN FB — CSS埋め込み版
+RESCENE JAPAN FANBASE — CSS埋め込み版
 
 この版は各HTML内にデザインCSSを直接埋め込んでいます。
 そのため css フォルダを読み込めない環境でも背景色・カード・配置が表示されます。
