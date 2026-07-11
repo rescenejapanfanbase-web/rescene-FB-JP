@@ -358,6 +358,16 @@ html.light-mode .mobile-group{
 }
 html.light-mode .member-detail{color:#654d5b !important;}
 /* === END LIGHT MODE MOBILE MENU VISIBILITY FIX === */
+
+.release-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto;padding-top:8px}
+.release-link{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:10px 14px;border-radius:999px;border:1px solid var(--border);background:var(--soft-bg);font-size:.76rem;font-weight:900;transition:.2s}
+.release-link:hover{transform:translateY(-2px);border-color:var(--pink);color:var(--pink)}
+.release-link.primary{background:linear-gradient(135deg,var(--pink),var(--purple));color:#fff;border-color:transparent}
+.release-link.primary:hover{color:#fff;filter:brightness(1.06)}
+html.light-mode .release-link{color:#3a2330!important;background:#fff7fb!important;border-color:rgba(184,63,120,.18)!important}
+html.light-mode .release-link.primary{color:#fff!important;background:linear-gradient(135deg,#e65392,#a66ee5)!important;border-color:transparent!important}
+.official-list a[target="_blank"] small,.mv-text-card[target="_blank"] b{color:var(--pink)}
+
 </style>
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
 </head>
@@ -393,9 +403,16 @@ html.light-mode .member-detail{color:#654d5b !important;}
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
 <main class="container">
-<section class="page-header section" id="top"><span class="page-kicker">OFFICIAL LINKS</span><h1>リンク</h1><p>RESCENEの公式アカウントと配信サービスへの入口。</p></section>
-<section class="section"><h2 class="section-title">RESCENE Official</h2><div class="official-list card"><a href="#"><span>01</span><strong>Official X</strong><small>OPEN ↗</small></a><a href="#"><span>02</span><strong>Instagram</strong><small>OPEN ↗</small></a><a href="#"><span>03</span><strong>TikTok</strong><small>OPEN ↗</small></a><a href="#"><span>04</span><strong>YouTube</strong><small>OPEN ↗</small></a><a href="#"><span>05</span><strong>Fan Community</strong><small>OPEN ↗</small></a></div></section>
-<section class="section"><h2 class="section-title">Music</h2><div class="grid-2"><a class="card card-link service-card" href="#"><span>STREAMING</span><h3>Spotify</h3><b>↗</b></a><a class="card card-link service-card" href="#"><span>STREAMING</span><h3>Apple Music</h3><b>↗</b></a></div></section>
+<section class="page-header section" id="top"><span class="page-kicker">OFFICIAL LINKS</span><h1>公式リンク</h1><p>RESCENEの公式SNS、ファンコミュニティ、音楽配信サービスへの入口。</p></section>
+<section class="section"><h2 class="section-title">RESCENE Official</h2><div class="official-list card">
+<a href="https://x.com/RESCENEofficial" target="_blank" rel="noopener noreferrer"><span>01</span><strong>Official X</strong><small>OPEN ↗</small></a>
+<a href="https://x.com/RESCENE_twt" target="_blank" rel="noopener noreferrer"><span>02</span><strong>Members X</strong><small>OPEN ↗</small></a>
+<a href="https://www.instagram.com/rescene_official/" target="_blank" rel="noopener noreferrer"><span>03</span><strong>Instagram</strong><small>OPEN ↗</small></a>
+<a href="https://www.tiktok.com/@rescene_official" target="_blank" rel="noopener noreferrer"><span>04</span><strong>TikTok</strong><small>OPEN ↗</small></a>
+<a href="https://www.youtube.com/@RESCENE_official" target="_blank" rel="noopener noreferrer"><span>05</span><strong>YouTube</strong><small>OPEN ↗</small></a>
+<a href="https://artist.mnetplus.world/main/stg/rescene-official" target="_blank" rel="noopener noreferrer"><span>06</span><strong>Mnet Plus</strong><small>OPEN ↗</small></a>
+</div></section>
+<section class="section"><h2 class="section-title">Music</h2><div class="grid-2"><a class="card card-link service-card" href="https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S" target="_blank" rel="noopener noreferrer"><span>STREAMING</span><h3>Spotify</h3><b>↗</b></a><a class="card card-link service-card" href="https://music.apple.com/jp/artist/rescene/1732658659" target="_blank" rel="noopener noreferrer"><span>STREAMING</span><h3>Apple Music</h3><b>↗</b></a></div></section>
 </main>
 <footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="contact.html">CONTACT</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
 <script>

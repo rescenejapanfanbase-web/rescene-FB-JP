@@ -456,6 +456,16 @@ html.light-mode .hero-group-card{
 }
 /* === END RESCENE GROUP PHOTO HERO === */
 
+
+.release-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto;padding-top:8px}
+.release-link{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:10px 14px;border-radius:999px;border:1px solid var(--border);background:var(--soft-bg);font-size:.76rem;font-weight:900;transition:.2s}
+.release-link:hover{transform:translateY(-2px);border-color:var(--pink);color:var(--pink)}
+.release-link.primary{background:linear-gradient(135deg,var(--pink),var(--purple));color:#fff;border-color:transparent}
+.release-link.primary:hover{color:#fff;filter:brightness(1.06)}
+html.light-mode .release-link{color:#3a2330!important;background:#fff7fb!important;border-color:rgba(184,63,120,.18)!important}
+html.light-mode .release-link.primary{color:#fff!important;background:linear-gradient(135deg,#e65392,#a66ee5)!important;border-color:transparent!important}
+.official-list a[target="_blank"] small,.mv-text-card[target="_blank"] b{color:var(--pink)}
+
 </style>
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
 </head>
@@ -589,10 +599,10 @@ html.light-mode .hero-group-card{
 </section>
 
 <section class="section">
-  <h2 class="section-title">公式リンク</h2>
+  <div class="section-head"><div><span class="section-kicker">OFFICIAL</span><h2 class="section-title">公式リンク</h2></div><a class="section-link" href="links.html">すべて見る →</a></div>
   <div class="grid-2">
-    <div class="card link-group"><h3>RESCENE Official</h3><div class="link-items"><a class="link-card" href="#"><b>𝕏</b><span>Official X</span></a><a class="link-card" href="#"><b>◎</b><span>Instagram</span></a><a class="link-card" href="#"><b>♪</b><span>TikTok</span></a><a class="link-card" href="#"><b>▶</b><span>YouTube</span></a></div></div>
-    <div class="card link-group"><h3>Music</h3><div class="link-items"><a class="link-card" href="discography.html"><b>♫</b><span>Discography</span></a><a class="link-card" href="mv.html"><b>▶</b><span>Music Video</span></a><a class="link-card" href="streaming.html"><b>◉</b><span>Streaming</span></a><a class="link-card" href="voting.html"><b>✓</b><span>Voting</span></a></div></div>
+    <div class="card link-group"><h3>RESCENE Official</h3><div class="link-items"><a class="link-card" href="https://x.com/RESCENEofficial" target="_blank" rel="noopener noreferrer"><b>𝕏</b><span>Official X</span></a><a class="link-card" href="https://www.instagram.com/rescene_official/" target="_blank" rel="noopener noreferrer"><b>◎</b><span>Instagram</span></a><a class="link-card" href="https://www.tiktok.com/@rescene_official" target="_blank" rel="noopener noreferrer"><b>♪</b><span>TikTok</span></a><a class="link-card" href="https://www.youtube.com/@RESCENE_official" target="_blank" rel="noopener noreferrer"><b>▶</b><span>YouTube</span></a></div></div>
+    <div class="card link-group"><h3>Music</h3><div class="link-items"><a class="link-card" href="https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S" target="_blank" rel="noopener noreferrer"><b>♫</b><span>Spotify</span></a><a class="link-card" href="https://music.apple.com/jp/artist/rescene/1732658659" target="_blank" rel="noopener noreferrer"><b>♪</b><span>Apple Music</span></a><a class="link-card" href="discography.html"><b>◉</b><span>Discography</span></a><a class="link-card" href="mv.html"><b>▶</b><span>Music Video</span></a></div></div>
   </div>
 </section>
 </main>
