@@ -1,75 +1,118 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#f4f6f1">
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark light">
+<title>RESCENE JAPAN FB | リセンヌ日本ファンベース</title>
+<meta name="description" content="RESCENEを応援する日本ファンベース。最新情報、スケジュール、作品、ストリーミング、投票ガイドをまとめています。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/common.css">
-<script>try{if(localStorage.getItem('rescene-theme')==='dark')document.documentElement.dataset.theme='dark'}catch(e){}</script><title>RESCENE JAPAN FB | リセンヌ日本ファンベース</title><meta name="description" content="RESCENEを応援する日本ファンベース。最新ニュース、スケジュール、メンバー、作品、応援ガイドをまとめています。"></head><body><header class="site-header" id="top">
-  <div class="nav-wrap">
-    <a class="brand" href="index.html" aria-label="RESCENE JAPAN FB ホーム">
-      <span class="brand-main">RESCENE</span><span class="brand-sub">JAPAN FB</span>
-    </a>
-    <nav class="desktop-nav" aria-label="メインナビゲーション">
-      <a href="index.html">HOME</a><a href="news.html">NEWS</a><a href="schedule.html">SCHEDULE</a>
-      <div class="nav-group"><button type="button" aria-expanded="false">RESCENE <span>＋</span></button><div class="nav-drop"><a href="about.html">ABOUT</a><a href="members.html">MEMBERS</a></div></div>
-      <div class="nav-group"><button type="button" aria-expanded="false">MUSIC <span>＋</span></button><div class="nav-drop"><a href="discography.html">DISCOGRAPHY</a><a href="mv.html">MV</a></div></div>
-      <div class="nav-group"><button type="button" aria-expanded="false">SUPPORT <span>＋</span></button><div class="nav-drop"><a href="streaming.html">STREAMING</a><a href="voting.html">VOTING</a></div></div>
-      <a href="links.html">LINKS</a>
-    </nav>
-    <div class="nav-actions"><button class="theme-button" id="themeButton" type="button" aria-label="表示テーマを切り替える"><span aria-hidden="true">◐</span></button><button class="menu-button" id="menuButton" type="button" aria-controls="mobileMenu" aria-expanded="false" aria-label="メニューを開く"><span></span><span></span></button></div>
+<script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
+</head>
+<body class="">
+<header>
+<div class="nav">
+<a class="logo" href="index.html"><span>RESCENE</span> JAPAN FB</a>
+<nav class="nav-links" aria-label="メインナビゲーション">
+<a href="index.html">ホーム</a>
+<a href="news.html">ニュース</a>
+<a href="schedule.html">スケジュール</a>
+<div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu">
+<a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu">
+<a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu">
+<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
+<a href="links.html">公式リンク</a><a href="contact.html">お問い合わせ</a>
+</div></div></nav>
+<div class="nav-actions"><button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマ切り替え">☾</button><button class="hamburger" id="hamburger" type="button" aria-label="メニューを開く" aria-controls="mobileMenu" aria-expanded="false">☰</button></div>
+</div>
+</header>
+<nav class="mobile-menu" id="mobileMenu" aria-label="モバイルナビゲーション">
+<a href="index.html">ホーム</a><a href="news.html">ニュース</a><a href="schedule.html">スケジュール</a>
+<details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></details>
+<details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a></div></details>
+<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a></div></details>
+<details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a><a href="contact.html">お問い合わせ</a></div></details></nav>
+<div class="menu-backdrop" id="menuBackdrop"></div>
+<div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+<main class="container">
+<section class="hero hero-relaunch section" id="top">
+  <div class="hero-copy">
+    <span class="hero-kicker">RESCENE JAPANESE FANBASE / FOR REMINE</span>
+    <h1>RESCENE<br><span>JAPAN FB</span></h1>
+    <p class="hero-lead">RESCENEの最新ニュース、スケジュール、音楽、ストリーミング、投票情報を日本のREMINE向けにまとめています。</p>
+    <div class="hero-actions"><a class="btn btn-primary" href="news.html">最新情報を見る</a><a class="btn btn-secondary" href="schedule.html">スケジュール</a><a class="btn btn-secondary" href="streaming.html">応援方法を見る</a></div>
   </div>
-  <nav class="mobile-nav" id="mobileMenu" aria-label="モバイルナビゲーション">
-    <a href="index.html">HOME</a><a href="news.html">NEWS</a><a href="schedule.html">SCHEDULE</a><a href="about.html">ABOUT RESCENE</a><a href="members.html">MEMBERS</a><a href="discography.html">DISCOGRAPHY</a><a href="mv.html">MV</a><a href="streaming.html">STREAMING</a><a href="voting.html">VOTING</a><a href="links.html">LINKS</a>
-  </nav>
-</header><main>
-<section class="hero page-shell">
-  <div class="hero-orbit orbit-a" aria-hidden="true"></div><div class="hero-orbit orbit-b" aria-hidden="true"></div>
-  <div class="hero-copy reveal">
-    <p class="eyebrow">RESCENE JAPANESE FANBASE</p>
-    <h1><span>SCENE</span><br>IN SCENT.</h1>
-    <p class="hero-lead">香りのように記憶に残る、RESCENEの音楽と瞬間。<br>日本のREMINEへ、必要な情報をひとつの場所に。</p>
-    <div class="button-row"><a class="button button-solid" href="news.html">最新情報を見る</a><a class="button button-line" href="about.html">RESCENEを知る</a></div>
-  </div>
-  <aside class="hero-now reveal" aria-label="現在の注目情報">
-    <p class="micro-label">NOW</p><p class="hero-date">2026.07</p><h2>PRETTY GIRL</h2><p>Special Single</p><a href="discography.html">RELEASE DETAILS <span>↗</span></a>
+  <aside class="hero-panel card glow-card">
+    <div class="badge">NOW</div><p class="panel-overline">CURRENT FOCUS</p><h2>REMINEと見る<br>RESCENEの今</h2>
+    <div class="feature-list">
+      <a href="discography.html"><strong>最新リリース</strong><span>作品・収録曲をまとめて確認</span></a>
+      <a href="schedule.html"><strong>スケジュール</strong><span>イベント・放送・記念日</span></a>
+      <a href="streaming.html"><strong>応援ガイド</strong><span>音源・MV再生の基本</span></a>
+    </div>
   </aside>
-  <div class="scroll-note" aria-hidden="true"><span></span>SCROLL</div>
 </section>
 
-<section class="section page-shell reveal">
-  <div class="section-heading"><div><p class="eyebrow">START HERE</p><h2>今、見るべき情報</h2></div><a class="text-link" href="news.html">ALL NEWS →</a></div>
-  <div class="feature-grid">
-    <a class="feature-card feature-card-main" href="discography.html"><span class="card-index">01</span><div><p class="card-kicker">LATEST RELEASE</p><h3>Pretty Girl</h3><p>最新リリースとこれまでの作品をまとめて確認。</p></div><span class="card-arrow">↗</span></a>
-    <a class="feature-card" href="schedule.html"><span class="card-index">02</span><div><p class="card-kicker">SCHEDULE</p><h3>日本・韓国の予定</h3><p>イベント、放送、記念日を見やすく整理。</p></div><span class="card-arrow">↗</span></a>
-    <a class="feature-card" href="streaming.html"><span class="card-index">03</span><div><p class="card-kicker">SUPPORT</p><h3>応援ガイド</h3><p>ストリーミングや投票を日本語で案内。</p></div><span class="card-arrow">↗</span></a>
+<section class="section">
+  <div class="section-head"><div><span class="section-kicker">QUICK ACCESS</span><h2 class="section-title">まず見るページ</h2></div><a class="section-link" href="news.html">ニュース一覧へ →</a></div>
+  <div class="grid-4 quick-grid">
+    <a class="card card-link quick-card" href="news.html"><span class="quick-icon">N</span><h3>ニュース</h3><p>リリース・イベント・お知らせ</p></a>
+    <a class="card card-link quick-card" href="schedule.html"><span class="quick-icon">S</span><h3>スケジュール</h3><p>出演・イベント・誕生日</p></a>
+    <a class="card card-link quick-card" href="streaming.html"><span class="quick-icon">▶</span><h3>ストリーミング</h3><p>音源・MV再生ガイド</p></a>
+    <a class="card card-link quick-card" href="voting.html"><span class="quick-icon">V</span><h3>投票ガイド</h3><p>音楽番組を応援する方法</p></a>
   </div>
 </section>
 
-<section class="section section-contrast reveal">
- <div class="page-shell statement-grid"><p class="vertical-word" aria-hidden="true">RESCENE</p><div><p class="eyebrow">ABOUT THE GROUP</p><h2 class="statement">A scene that stays<br>like a scent.</h2><p class="statement-jp">「香りを通じて場面を思い出す」という世界観を持つ、5人組ガールズグループ。WONI・LIV・MINAMI・MAY・ZENA、それぞれの色が重なり、RESCENEだけの音楽を作ります。</p><a class="button button-light" href="about.html">MORE ABOUT RESCENE</a></div></div>
-</section>
-
-<section class="section page-shell reveal">
-  <div class="section-heading"><div><p class="eyebrow">MEMBERS</p><h2>Five notes, one scent.</h2></div><a class="text-link" href="members.html">VIEW PROFILES →</a></div>
-  <div class="member-strip">
-    <a href="members.html#woni"><span>01</span><strong>WONI</strong><small>원이</small></a>
-    <a href="members.html#liv"><span>02</span><strong>LIV</strong><small>리브</small></a>
-    <a href="members.html#minami"><span>03</span><strong>MINAMI</strong><small>미나미</small></a>
-    <a href="members.html#may"><span>04</span><strong>MAY</strong><small>메이</small></a>
-    <a href="members.html#zena"><span>05</span><strong>ZENA</strong><small>제나</small></a>
+<section class="section focus-section">
+  <div class="card focus-card">
+    <div class="focus-copy"><span class="badge badge-green">ABOUT</span><h2>A scene that remains<br><span>like a scent.</span></h2><p>香りを通じて場面を思い出すように、音楽で人々の記憶に長く残る。RESCENEの世界観と5人のメンバーを紹介します。</p><div class="hero-actions"><a class="btn btn-primary" href="about.html">RESCENEを知る</a><a class="btn btn-secondary" href="members.html">メンバーを見る</a></div></div>
+    <div class="focus-stats"><div><strong>5</strong><span>MEMBERS</span></div><div><strong>REMINE</strong><span>FANDOM</span></div><div><strong>2024</strong><span>DEBUT</span></div></div>
   </div>
 </section>
 
-<section class="section page-shell reveal">
-  <div class="section-heading"><div><p class="eyebrow">RECENT UPDATES</p><h2>最新情報</h2></div><a class="text-link" href="news.html">ALL UPDATES →</a></div>
-  <div class="news-list" id="homeNews"></div>
+<section class="section">
+  <h2 class="section-title">初めて来た方へ</h2>
+  <div class="route-grid">
+    <a class="card card-link" href="about.html"><span class="route-num">01</span><h3>RESCENEを知る</h3><p class="subtle">グループのコンセプトと歩み</p></a>
+    <a class="card card-link" href="members.html"><span class="route-num">02</span><h3>5人を知る</h3><p class="subtle">WONI・LIV・MINAMI・MAY・ZENA</p></a>
+    <a class="card card-link" href="discography.html"><span class="route-num">03</span><h3>音楽を聴く</h3><p class="subtle">アルバム・シングル・MV</p></a>
+    <a class="card card-link" href="streaming.html"><span class="route-num">04</span><h3>一緒に応援する</h3><p class="subtle">ストリーミングと投票の基本</p></a>
+  </div>
 </section>
 
-<section class="section page-shell reveal">
-  <div class="support-banner"><div><p class="eyebrow">FOR REMINE</p><h2>応援を、もっとわかりやすく。</h2><p>初めてでも迷わないように、音源再生・MV再生・投票の基本を日本語で整理します。</p></div><div class="button-row"><a class="button button-solid" href="streaming.html">STREAMING</a><a class="button button-line" href="voting.html">VOTING</a></div></div>
+<section class="section">
+  <div class="section-head"><div><span class="section-kicker">LATEST</span><h2 class="section-title">最新情報</h2></div><a class="section-link" href="news.html">もっと見る →</a></div>
+  <div class="news-grid" id="newsGrid"></div>
 </section>
-<script src="js/home.js"></script>
-</main><footer class="site-footer">
-  <div class="footer-top"><a class="brand footer-brand" href="index.html"><span class="brand-main">RESCENE</span><span class="brand-sub">JAPAN FB</span></a><p>香りのように残るRESCENEの音楽と瞬間を、日本から届ける非公式ファンベース。</p></div>
-  <div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="contact.html">CONTACT</a><a href="#top">PAGE TOP ↑</a></div>
-  <div class="footer-bottom"><small>© <span data-year></span> RESCENE JAPAN FB</small><small>Unofficial Japanese fanbase. Please also check official sources.</small></div>
-</footer><script src="js/common.js"></script></body></html>
+
+<section class="section">
+  <h2 class="section-title">メンバー</h2>
+  <div class="member-mini-grid">
+    <a class="member-mini card card-link" href="members.html#woni"><span>01</span><strong>WONI</strong><small>원이</small></a>
+    <a class="member-mini card card-link" href="members.html#liv"><span>02</span><strong>LIV</strong><small>리브</small></a>
+    <a class="member-mini card card-link" href="members.html#minami"><span>03</span><strong>MINAMI</strong><small>미나미</small></a>
+    <a class="member-mini card card-link" href="members.html#may"><span>04</span><strong>MAY</strong><small>메이</small></a>
+    <a class="member-mini card card-link" href="members.html#zena"><span>05</span><strong>ZENA</strong><small>제나</small></a>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title">公式・ファンベースリンク</h2>
+  <div class="grid-3">
+    <div class="card link-group"><h3>RESCENE Official</h3><div class="link-items"><a class="link-card" href="#"><b>𝕏</b><span>Official X</span></a><a class="link-card" href="#"><b>◎</b><span>Instagram</span></a><a class="link-card" href="#"><b>♪</b><span>TikTok</span></a><a class="link-card" href="#"><b>▶</b><span>YouTube</span></a></div></div>
+    <div class="card link-group"><h3>Music</h3><div class="link-items"><a class="link-card" href="discography.html"><b>♫</b><span>Discography</span></a><a class="link-card" href="mv.html"><b>▶</b><span>Music Video</span></a><a class="link-card" href="streaming.html"><b>◉</b><span>Streaming</span></a><a class="link-card" href="voting.html"><b>✓</b><span>Voting</span></a></div></div>
+    <div class="card link-group"><h3>RESCENE JAPAN FB</h3><div class="link-items"><a class="link-card" href="#"><b>𝕏</b><span>X</span></a><a class="link-card" href="#"><b>◎</b><span>Instagram</span></a><a class="link-card" href="links.html"><b>↗</b><span>All Links</span></a><a class="link-card" href="contact.html"><b>✉</b><span>Contact</span></a></div></div>
+  </div>
+</section>
+</main>
+<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FB</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="contact.html">CONTACT</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FB</div></footer>
+<script src="js/common.js"></script><script src="js/data.js"></script><script src="js/home.js"></script>
+</body></html>
