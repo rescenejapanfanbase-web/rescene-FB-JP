@@ -238,6 +238,88 @@ html.light-mode .hero-panel{background:linear-gradient(155deg,rgba(255,255,255,.
 @media(max-width:719px){.hero{border-radius:25px}.card{border-radius:20px}}
 /* === END RESCENE PINK THEME === */
 
+
+/* === LIGHT MODE READABILITY FIX === */
+html.light-mode body{
+  --text:#2f1e28;
+  --muted:#654d5b;
+  --green:#b83f78;
+  --blue:#476b9f;
+  --purple:#8559ac;
+}
+html.light-mode body,
+html.light-mode h1,
+html.light-mode h2,
+html.light-mode h3,
+html.light-mode h4,
+html.light-mode strong,
+html.light-mode .news-title,
+html.light-mode .official-list strong,
+html.light-mode .contact-side p,
+html.light-mode .feature-list strong{
+  color:var(--text);
+}
+html.light-mode p,
+html.light-mode small,
+html.light-mode .subtle,
+html.light-mode .hero-lead,
+html.light-mode .page-header p,
+html.light-mode .editorial-card p,
+html.light-mode .info-card p,
+html.light-mode .concept-card p,
+html.light-mode .callout p,
+html.light-mode .quick-card p,
+html.light-mode .focus-copy p,
+html.light-mode .focus-stats span,
+html.light-mode .route-grid p,
+html.light-mode .news-date,
+html.light-mode .news-text,
+html.light-mode .member-mini small,
+html.light-mode .member-profile-card p,
+html.light-mode .release-card p,
+html.light-mode .schedule-row p,
+html.light-mode .mv-text-card p,
+html.light-mode .guide-card ul,
+html.light-mode .official-list span,
+html.light-mode .official-list small,
+html.light-mode .service-card span,
+html.light-mode .contact-main p,
+html.light-mode .error-page p,
+html.light-mode .feature-list span,
+html.light-mode .section-link,
+html.light-mode .mobile-submenu a{
+  color:var(--muted);
+}
+html.light-mode .page-header h1,
+html.light-mode .error-code{
+  background:linear-gradient(120deg,#d63f84 0%,#ef73aa 52%,#8b5db1 100%);
+  -webkit-background-clip:text;
+  background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+html.light-mode .route-num,
+html.light-mode .member-mini span,
+html.light-mode .member-index,
+html.light-mode .mv-number,
+html.light-mode .text-button,
+html.light-mode .focus-copy h2 span,
+html.light-mode .focus-stats strong,
+html.light-mode .info-card strong,
+html.light-mode .schedule-date strong,
+html.light-mode .release-card h2,
+html.light-mode .link-group h3{
+  color:#b83f78;
+}
+html.light-mode .badge-green{
+  color:#5f477d;
+  background:rgba(133,89,172,.08);
+  border-color:rgba(133,89,172,.20);
+}
+html.light-mode a:not(.btn-primary):hover{
+  color:#b83f78;
+}
+/* === END LIGHT MODE READABILITY FIX === */
+
 </style>
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
 </head>
