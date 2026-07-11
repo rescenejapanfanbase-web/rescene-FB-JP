@@ -8,3 +8,5 @@ RESCENE JAPAN FB — GREEN & BLUE EDITION
 2. index.htmlを開く
 
 GitHub PagesではZIP内のファイルをリポジトリ直下へアップロードしてください。
+
+デザイン更新: Montserrat + Noto Sans JP、ピンクを主役にしたRESCENEテーマ。

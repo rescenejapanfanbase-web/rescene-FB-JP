@@ -8,7 +8,7 @@
 <meta name="description" content="RESCENEのストリーミングとMV再生の基本を案内します。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
 <style id="rescene-main-style">
 
 :root{
@@ -17,7 +17,7 @@
  --shadow:0 16px 36px rgba(0,0,0,.30);--radius:20px;--header-bg:rgba(13,14,25,.90);
  --header-border:rgba(255,255,255,.08);--hover-bg:rgba(255,255,255,.055);--soft-bg:rgba(255,255,255,.04);
 }
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:'Manrope','Noto Sans JP',sans-serif;background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 55%,var(--bg) 100%);color:var(--text);line-height:1.75;min-height:100vh;overflow-x:hidden}a{color:inherit;text-decoration:none}button{font:inherit}.container{position:relative;z-index:1;width:min(92%,1120px);margin:auto;padding:56px 0 84px}.section{margin-bottom:68px}.subtle,.muted{color:var(--muted)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:'Montserrat','Noto Sans JP',sans-serif;background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 55%,var(--bg) 100%);color:var(--text);line-height:1.75;min-height:100vh;overflow-x:hidden}a{color:inherit;text-decoration:none}button{font:inherit}.container{position:relative;z-index:1;width:min(92%,1120px);margin:auto;padding:56px 0 84px}.section{margin-bottom:68px}.subtle,.muted{color:var(--muted)}
 .ambient{position:fixed;z-index:0;border-radius:50%;filter:blur(10px);pointer-events:none;opacity:.24}.ambient-one{width:420px;height:420px;right:-180px;top:90px;background:radial-gradient(circle,var(--purple),transparent 67%)}.ambient-two{width:380px;height:380px;left:-190px;top:55vh;background:radial-gradient(circle,var(--green),transparent 68%)}
 header{position:sticky;top:0;z-index:1000;background:var(--header-bg);backdrop-filter:blur(14px);border-bottom:1px solid var(--header-border);box-shadow:0 6px 18px rgba(0,0,0,.2)}.nav{width:min(92%,1120px);margin:auto;padding:14px 0;display:flex;justify-content:space-between;align-items:center;gap:18px}.logo{font-size:1.22rem;font-weight:900;letter-spacing:.02em;white-space:nowrap}.logo span{background:linear-gradient(135deg,var(--pink),var(--purple),var(--green));-webkit-background-clip:text;-webkit-text-fill-color:transparent}.nav-links{display:none;align-items:center;gap:17px}.nav-links>a,.dropdown-toggle{font-size:.88rem;font-weight:800;color:var(--text);opacity:.95;cursor:pointer;transition:.2s}.nav-links>a:hover,.dropdown-toggle:hover{color:var(--pink)}.dropdown{position:relative}.dropdown-toggle{display:inline-flex;align-items:center;gap:6px}.dropdown-toggle::after{content:'⌄';font-size:.8em;color:var(--muted)}.dropdown-menu{position:absolute;top:calc(100% + 14px);left:0;min-width:210px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:8px;box-shadow:var(--shadow);opacity:0;visibility:hidden;transform:translateY(8px);transition:.22s}.dropdown:hover .dropdown-menu,.dropdown:focus-within .dropdown-menu{opacity:1;visibility:visible;transform:none}.dropdown-menu a{display:block;padding:11px 12px;border-radius:10px;font-size:.86rem;font-weight:700}.dropdown-menu a:hover{background:var(--hover-bg);color:var(--pink)}.nav-actions{display:flex;align-items:center;gap:8px}.theme-toggle,.hamburger{border:1px solid var(--border);background:var(--soft-bg);color:var(--text);border-radius:999px;cursor:pointer}.theme-toggle{width:40px;height:40px}.hamburger{width:43px;height:40px;font-size:1.2rem}.mobile-menu{position:fixed;top:0;right:-100%;width:min(84vw,320px);height:100%;background:var(--card);border-left:2px solid var(--pink);box-shadow:-10px 0 30px rgba(0,0,0,.4);transition:right .28s ease;padding:84px 22px 28px;z-index:999;overflow-y:auto}.mobile-menu.active{right:0}.mobile-menu>a,.mobile-group{border-bottom:1px solid var(--border)}.mobile-menu>a{display:block;padding:13px 0;font-weight:800}.mobile-group summary{list-style:none;cursor:pointer;padding:13px 0;font-weight:800}.mobile-group summary::-webkit-details-marker{display:none}.mobile-submenu{padding:0 0 10px 14px}.mobile-submenu a{display:block;padding:8px 0;color:var(--muted)}.menu-backdrop{position:fixed;inset:0;z-index:998;background:rgba(0,0,0,.45);opacity:0;visibility:hidden;transition:.25s}.menu-backdrop.active{opacity:1;visibility:visible}
 .card{background:linear-gradient(145deg,var(--card),color-mix(in srgb,var(--card2) 68%,var(--card)));border:1px solid var(--border);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}.card-link{transition:.22s}.card-link:hover{transform:translateY(-5px);border-color:color-mix(in srgb,var(--pink) 65%,var(--border));box-shadow:0 20px 42px rgba(0,0,0,.34)}.grid-2,.grid-3,.grid-4{display:grid;grid-template-columns:1fr;gap:20px}.badge{display:inline-block;padding:4px 10px;border-radius:999px;font-size:.69rem;font-weight:900;color:var(--pink);border:1px solid var(--border);background:rgba(255,110,169,.09);letter-spacing:.08em}.badge-green{color:var(--green);background:rgba(142,227,193,.09)}
@@ -69,7 +69,7 @@ body{
    radial-gradient(circle at 70% 74%,rgba(118,214,255,.08),transparent 33%),
    linear-gradient(145deg,#041315 0%,var(--bg) 32%,var(--bg2) 68%,#061a23 100%)!important;
  color:var(--text)!important;
- font-family:'Manrope','Noto Sans JP',sans-serif;
+ font-family:'Montserrat','Noto Sans JP',sans-serif;
 }
 body::before{
  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.34;
@@ -156,6 +156,87 @@ html.light-mode .hero,html.light-mode .page-header{background:radial-gradient(ci
 html.light-mode .hero-panel{background:linear-gradient(155deg,rgba(255,255,255,.93),rgba(235,248,248,.90))}
 html.light-mode .btn-primary{color:#062027}
 @media(max-width:719px){.hero::after{display:none}.hero{border-radius:26px}.card{border-radius:20px}}
+
+
+/* === RESCENE PINK THEME === */
+:root{
+ --bg:#120c16;--bg2:#20121f;--card:#2a1727;--card2:#341b30;
+ --border:rgba(255,179,214,.17);--text:#fff9fc;--muted:#d4b7c8;
+ --pink:#ff6fae;--pink-soft:#ff9bc7;--purple:#c8a4ff;--green:#8fe3ca;--blue:#8ec9ff;
+ --shadow:0 18px 48px rgba(20,2,16,.38);--header-bg:rgba(18,12,22,.90);
+ --header-border:rgba(255,174,212,.10);--hover-bg:rgba(255,139,190,.07);--soft-bg:rgba(255,233,244,.045)
+}
+body{
+ font-family:'Montserrat','Noto Sans JP',sans-serif;
+ background:
+  radial-gradient(circle at 8% 7%,rgba(255,111,174,.20),transparent 29%),
+  radial-gradient(circle at 92% 12%,rgba(200,164,255,.13),transparent 31%),
+  radial-gradient(circle at 82% 88%,rgba(142,201,255,.055),transparent 30%),
+  linear-gradient(145deg,#120c16 0%,#211120 48%,#150e1a 100%)!important;
+}
+.ambient-one{background:radial-gradient(circle,var(--pink),transparent 68%);opacity:.20}
+.ambient-two{background:radial-gradient(circle,var(--purple),transparent 68%);opacity:.13}
+header{background:var(--header-bg);border-bottom-color:var(--header-border)}
+.logo span{background:linear-gradient(120deg,#ff6fae 0%,#ff9bc7 48%,#d8aaff 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.nav-links>a:hover,.dropdown-toggle:hover,.dropdown-menu a:hover,.section-link:hover,.news-title a:hover,.footer-links a:hover{color:var(--pink)}
+.mobile-menu{background:rgba(31,14,28,.98);border-left-color:var(--pink)}
+.card{
+ background:linear-gradient(145deg,rgba(48,25,44,.94),rgba(34,18,33,.88));
+ border-color:var(--border);box-shadow:var(--shadow);backdrop-filter:blur(16px)
+}
+.card-link:hover{border-color:rgba(255,111,174,.55);box-shadow:0 24px 62px rgba(17,1,13,.48),0 0 38px rgba(255,111,174,.09)}
+.badge{color:var(--pink-soft);background:rgba(255,111,174,.10);border-color:rgba(255,155,199,.26)}
+.badge-green{color:var(--blue);background:rgba(142,201,255,.08);border-color:rgba(142,201,255,.20)}
+.hero{
+ background:
+  radial-gradient(circle at 88% 8%,rgba(255,111,174,.25),transparent 31%),
+  radial-gradient(circle at 12% 93%,rgba(200,164,255,.15),transparent 36%),
+  linear-gradient(135deg,rgba(57,27,51,.92),rgba(28,16,31,.88));
+ border-color:rgba(255,173,211,.24);border-radius:30px
+}
+.hero::before{
+ background:radial-gradient(circle,transparent 34%,rgba(255,155,199,.12) 35%,rgba(255,155,199,.12) 35.8%,transparent 36.5%,transparent 51%,rgba(200,164,255,.08) 52%,rgba(200,164,255,.08) 52.8%,transparent 53.5%)
+}
+.hero::after{color:rgba(255,210,230,.42)}
+.hero-kicker,.page-kicker,.section-kicker{color:var(--pink-soft)}
+.hero-kicker{background:rgba(255,111,174,.06);border-color:rgba(255,155,199,.24)}
+.hero h1 span{background:linear-gradient(120deg,#ff6fae 0%,#ff9bc7 48%,#c8a4ff 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.btn-primary{background:linear-gradient(120deg,#ff5fa5 0%,#ff82ba 58%,#c69cff 100%);color:#fff;box-shadow:0 14px 32px rgba(255,95,165,.23)}
+.btn-primary:hover{box-shadow:0 18px 42px rgba(255,95,165,.34)}
+.btn-secondary{background:rgba(255,236,245,.055);border-color:rgba(255,180,215,.20)}
+.hero-panel{background:linear-gradient(155deg,rgba(53,26,47,.94),rgba(30,17,31,.88))}
+.glow-card::after{background:radial-gradient(circle,var(--pink),transparent 70%);opacity:.23}
+.feature-list a:hover{color:var(--pink-soft)}
+.section-title{border-left-color:var(--pink)}
+.quick-icon{border-radius:14px;background:linear-gradient(145deg,rgba(255,111,174,.22),rgba(200,164,255,.17));color:#ffd8ea;border:1px solid rgba(255,178,214,.18)}
+.quick-card:nth-child(2) .quick-icon{color:#d9c5ff}.quick-card:nth-child(3) .quick-icon{color:#bdeaff}.quick-card:nth-child(4) .quick-icon{color:#bff3df}
+.focus-card{background:radial-gradient(circle at 88% 8%,rgba(255,111,174,.20),transparent 31%),radial-gradient(circle at 14% 100%,rgba(200,164,255,.11),transparent 34%),linear-gradient(135deg,rgba(52,25,47,.97),rgba(29,17,31,.94))}
+.focus-copy h2 span{color:var(--pink-soft)}
+.focus-stats strong,.info-card strong,.schedule-date strong,.release-card h2,.link-group h3{color:var(--pink-soft)}
+.focus-stats div{background:linear-gradient(145deg,rgba(255,233,244,.065),rgba(200,164,255,.035));border-color:rgba(255,180,215,.16)}
+.route-num,.member-mini span,.member-index,.mv-number,.text-button{color:var(--pink-soft)}
+.news-card{background:linear-gradient(145deg,rgba(47,24,43,.92),rgba(32,18,32,.88));border-color:var(--border)}
+.member-mini::after{border-color:rgba(255,111,174,.13);box-shadow:0 0 0 18px rgba(200,164,255,.025)}
+.link-card:hover{border-color:var(--pink);color:var(--pink-soft)}
+.page-header{background:radial-gradient(circle at 90% 10%,rgba(255,111,174,.20),transparent 32%),radial-gradient(circle at 8% 100%,rgba(200,164,255,.12),transparent 34%),linear-gradient(135deg,rgba(54,27,49,.94),rgba(29,17,32,.88));border-radius:28px}
+.member-letter{background:linear-gradient(135deg,#ff6fae,#c8a4ff);color:#fff;box-shadow:0 12px 30px rgba(255,111,174,.20)}
+.member-profile-card:nth-child(2n) .member-letter{background:linear-gradient(135deg,#ff91c1,#91cfff)}
+.release-mark{color:rgba(255,155,199,.04)}
+.filter.active,.filter:hover{background:linear-gradient(120deg,var(--pink),var(--purple));color:#fff}
+.notice{border-left-color:var(--pink)}
+.guide-num{color:rgba(255,111,174,.30)}
+.service-card::after{border-color:rgba(255,111,174,.18)}
+.site-footer{border-top-color:rgba(255,179,214,.14)}
+html.light-mode body{
+ --bg:#fff4f8;--bg2:#f9eff8;--card:#ffffff;--card2:#fff7fb;--border:rgba(184,74,126,.15);--text:#402233;--muted:#806174;
+ --shadow:0 16px 38px rgba(137,55,97,.11);--header-bg:rgba(255,249,252,.90);--header-border:rgba(177,72,124,.11);--hover-bg:rgba(211,74,139,.06);--soft-bg:rgba(197,72,132,.045)
+}
+html.light-mode body{background:radial-gradient(circle at 8% 5%,rgba(255,155,199,.26),transparent 28%),radial-gradient(circle at 92% 13%,rgba(200,164,255,.18),transparent 31%),linear-gradient(145deg,#fffafd 0%,#fff2f8 48%,#f7f1ff 100%)!important}
+html.light-mode .card,html.light-mode .news-card{background:linear-gradient(145deg,rgba(255,255,255,.97),rgba(255,246,251,.94))}
+html.light-mode .hero,html.light-mode .page-header{background:radial-gradient(circle at 90% 10%,rgba(255,155,199,.24),transparent 32%),radial-gradient(circle at 8% 100%,rgba(200,164,255,.18),transparent 34%),linear-gradient(135deg,rgba(255,255,255,.96),rgba(255,242,248,.92))}
+html.light-mode .hero-panel{background:linear-gradient(155deg,rgba(255,255,255,.96),rgba(255,241,248,.92))}
+@media(max-width:719px){.hero{border-radius:25px}.card{border-radius:20px}}
+/* === END RESCENE PINK THEME === */
 
 </style>
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
