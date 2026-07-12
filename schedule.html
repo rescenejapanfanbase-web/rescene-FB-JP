@@ -360,6 +360,20 @@ html.light-mode .member-detail{color:#654d5b !important;}
 /* === END LIGHT MODE MOBILE MENU VISIBILITY FIX === */
 </style>
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
+<style id="calendar-style">.calendar-shell{padding:18px}.calendar-toolbar{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:18px}.calendar-toolbar h2{margin:0;font-size:1.3rem}.calendar-toolbar button{width:42px;height:42px;border-radius:50%;border:1px solid var(--border);background:var(--soft-bg);color:var(--text);cursor:pointer}.calendar-weekdays,.calendar-grid{display:grid;grid-template-columns:repeat(7,1fr)}.calendar-weekdays span{text-align:center;padding:8px 2px;color:var(--muted);font-size:.74rem;font-weight:900}.calendar-day{min-height:88px;padding:8px;border:1px solid var(--border);background:rgba(255,255,255,.018)}.calendar-day.is-outside{opacity:.28}.calendar-day time{font-size:.75rem;font-weight:900}.calendar-event{display:block;margin-top:5px;padding:4px 5px;border-radius:7px;background:rgba(255,111,174,.14);color:var(--pink-soft);font-size:.62rem;font-weight:800;line-height:1.3}.calendar-event.birthday{background:rgba(200,164,255,.14);color:#d9c8ff}.calendar-event.record{background:rgba(142,227,202,.12);color:#b8f3df}.schedule-sync-note{margin-top:16px;color:var(--muted);font-size:.8rem}.schedule-row h2{margin:6px 0}.schedule-row p{margin:0;color:var(--muted)}@media(max-width:600px){.calendar-day{min-height:66px;padding:5px}.calendar-event{font-size:0;width:7px;height:7px;padding:0;border-radius:50%}.calendar-event+ .calendar-event{margin-left:3px;display:inline-block}.calendar-day time{font-size:.68rem}}</style>
+
+<style id="site-refinement-style">
+.quick-icon svg,.social-svg,.official-icon svg{width:23px;height:23px;display:block;fill:currentColor}
+.quick-icon{color:#fff!important;box-shadow:0 0 22px rgba(255,155,199,.20)}
+.quick-card:nth-child(1) .quick-icon{background:linear-gradient(135deg,#ff72b0,#ffd0e4)!important}
+.quick-card:nth-child(2) .quick-icon{background:linear-gradient(135deg,#8fcfff,#c8a4ff)!important}
+.quick-card:nth-child(3) .quick-icon{background:linear-gradient(135deg,#ff95c5,#ffe19b)!important}
+.quick-card:nth-child(4) .quick-icon{background:linear-gradient(135deg,#bfa5ff,#8ee5ce)!important}
+.social-icon-wrap,.official-icon{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,rgba(255,111,174,.22),rgba(200,164,255,.17));color:#fff;border:1px solid rgba(255,190,220,.22)}
+html.light-mode .social-icon-wrap,html.light-mode .official-icon{color:#a63d72;background:linear-gradient(135deg,#ffe0ee,#eee1ff)}
+.hero-members{margin:8px 0 0;color:#ffe8f3!important;font-weight:900;letter-spacing:.05em;font-size:1rem}
+html.light-mode .hero-members{color:#9f3a6c!important}
+</style>
 </head>
 <body class="">
 <header>
@@ -367,16 +381,16 @@ html.light-mode .member-detail{color:#654d5b !important;}
 <a class="logo" href="index.html"><span>RESCENE</span> JAPAN FANBASE</a>
 <nav class="nav-links" aria-label="メインナビゲーション">
 <a href="index.html">ホーム</a>
-<a href="news.html">ニュース</a>
-<a href="schedule.html">スケジュール</a>
 <div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu">
 <a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a>
 </div></div>
+<a href="schedule.html">スケジュール</a>
+<a href="news.html">ニュース</a>
 <div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu">
 <a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a>
 </div></div>
 <div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu">
-<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a>
+<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a>
 </div></div>
 <div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
 <a href="links.html">公式リンク</a>
@@ -385,18 +399,15 @@ html.light-mode .member-detail{color:#654d5b !important;}
 </div>
 </header>
 <nav class="mobile-menu" id="mobileMenu" aria-label="モバイルナビゲーション">
-<a href="index.html">ホーム</a><a href="news.html">ニュース</a><a href="schedule.html">スケジュール</a>
+<a href="index.html">ホーム</a>
 <details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></details>
+<a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
 <details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a></div></details>
-<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a></div></details>
+<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a></div></details>
 <details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details></nav>
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
-<main class="container">
-<section class="page-header section" id="top"><span class="page-kicker">SCHEDULE</span><h1>スケジュール</h1><p>イベント、放送、リリース、メンバーの記念日を一覧で確認できます。</p></section>
-<section class="section"><div class="card notice"><strong>更新について</strong><p>掲載内容は変更される場合があります。参加前に必ず主催者・公式SNSの最新案内をご確認ください。</p></div></section>
-<section class="section"><div class="schedule-list"><article class="schedule-row card"><div class="schedule-date"><strong>03.26</strong><span>ANNUAL</span></div><div><span class="badge badge-green">ANNIVERSARY</span><h2>RESCENE Debut Anniversary</h2><p>RESCENEがデビューした大切な記念日。</p></div></article><article class="schedule-row card"><div class="schedule-date"><strong>TBA</strong><span>UPDATE</span></div><div><span class="badge">EVENT</span><h2>日本イベント</h2><p>詳細発表後に日時・会場・参加方法を掲載します。</p></div></article><article class="schedule-row card"><div class="schedule-date"><strong>TBA</strong><span>UPDATE</span></div><div><span class="badge">BROADCAST</span><h2>韓国音楽番組・放送</h2><p>カムバック期間の放送予定を順次追加します。</p></div></article></div></section>
-</main>
+<main class="container"><section class="page-header section" id="top"><span class="page-kicker">SCHEDULE</span><h1>スケジュール</h1><p>RESCENEのリリース、出演、記念日、メンバーの誕生日をカレンダーで確認できます。</p></section><section class="section"><div class="calendar-shell card"><div class="calendar-toolbar"><button type="button" id="prevMonth" aria-label="前の月">←</button><h2 id="calendarTitle"></h2><button type="button" id="nextMonth" aria-label="次の月">→</button></div><div class="calendar-weekdays" aria-hidden="true"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div><div class="calendar-grid" id="calendarGrid"></div></div></section><section class="section"><div class="section-head"><div><span class="section-kicker">EVENTS</span><h2 class="section-title">登録済みの予定</h2></div></div><div class="schedule-list" id="scheduleEvents"></div><p class="schedule-sync-note">今後、NotionとGitHub Actionsの連携後は、このカレンダーへ予定を自動反映する予定です。</p></section></main>
 <footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
 <script>
 
@@ -411,4 +422,5 @@ html.light-mode .member-detail{color:#654d5b !important;}
 })();
 
 </script>
+<script id="calendar-script">(()=>{const events=[{date:'2026-03-26',title:'デビュー記念日',type:'record'},{date:'2026-05-25',title:'WONI 誕生日',type:'birthday'},{date:'2026-07-08',title:'Pretty Girl リリース',type:'release'},{date:'2026-07-12',title:'人気歌謡 リアルタイム投票1位',type:'record'},{date:'2026-08-19',title:'MAY 誕生日',type:'birthday'},{date:'2026-10-11',title:'LIV 誕生日',type:'birthday'},{date:'2026-11-27',title:'ZENA 誕生日',type:'birthday'},{date:'2026-11-29',title:'MINAMI 誕生日',type:'birthday'}];let view=new Date(2026,6,1);const grid=document.getElementById('calendarGrid'),title=document.getElementById('calendarTitle'),list=document.getElementById('scheduleEvents');const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;function render(){const y=view.getFullYear(),m=view.getMonth();title.textContent=`${y}年 ${m+1}月`;const first=new Date(y,m,1),start=new Date(y,m,1-first.getDay());grid.innerHTML='';for(let i=0;i<42;i++){const d=new Date(start);d.setDate(start.getDate()+i);const key=iso(d),dayEvents=events.filter(e=>e.date===key);const cell=document.createElement('div');cell.className='calendar-day'+(d.getMonth()!==m?' is-outside':'');cell.innerHTML=`<time datetime="${key}">${d.getDate()}</time>`+dayEvents.map(e=>`<span class="calendar-event ${e.type}" title="${e.title}">${e.title}</span>`).join('');grid.appendChild(cell)}const monthly=events.filter(e=>{const d=new Date(e.date+'T00:00:00');return d.getFullYear()===y&&d.getMonth()===m});list.innerHTML=monthly.length?monthly.map(e=>{const d=new Date(e.date+'T00:00:00');return `<article class="schedule-row card"><div class="schedule-date"><strong>${String(d.getMonth()+1).padStart(2,'0')}.${String(d.getDate()).padStart(2,'0')}</strong><span>${d.toLocaleDateString('ja-JP',{weekday:'short'})}</span></div><div><span class="badge">${e.type==='birthday'?'BIRTHDAY':e.type==='release'?'RELEASE':'RECORD'}</span><h2>${e.title}</h2><p>詳細はニュース・公式案内もあわせてご確認ください。</p></div></article>`}).join(''):'<div class="card"><p class="muted">この月に登録されている予定はありません。</p></div>'}document.getElementById('prevMonth').addEventListener('click',()=>{view=new Date(view.getFullYear(),view.getMonth()-1,1);render()});document.getElementById('nextMonth').addEventListener('click',()=>{view=new Date(view.getFullYear(),view.getMonth()+1,1);render()});render()})();</script>
 </body></html>

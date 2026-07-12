@@ -370,6 +370,19 @@ html.light-mode .release-link.primary{color:#fff!important;background:linear-gra
 
 </style>
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
+
+<style id="site-refinement-style">
+.quick-icon svg,.social-svg,.official-icon svg{width:23px;height:23px;display:block;fill:currentColor}
+.quick-icon{color:#fff!important;box-shadow:0 0 22px rgba(255,155,199,.20)}
+.quick-card:nth-child(1) .quick-icon{background:linear-gradient(135deg,#ff72b0,#ffd0e4)!important}
+.quick-card:nth-child(2) .quick-icon{background:linear-gradient(135deg,#8fcfff,#c8a4ff)!important}
+.quick-card:nth-child(3) .quick-icon{background:linear-gradient(135deg,#ff95c5,#ffe19b)!important}
+.quick-card:nth-child(4) .quick-icon{background:linear-gradient(135deg,#bfa5ff,#8ee5ce)!important}
+.social-icon-wrap,.official-icon{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,rgba(255,111,174,.22),rgba(200,164,255,.17));color:#fff;border:1px solid rgba(255,190,220,.22)}
+html.light-mode .social-icon-wrap,html.light-mode .official-icon{color:#a63d72;background:linear-gradient(135deg,#ffe0ee,#eee1ff)}
+.hero-members{margin:8px 0 0;color:#ffe8f3!important;font-weight:900;letter-spacing:.05em;font-size:1rem}
+html.light-mode .hero-members{color:#9f3a6c!important}
+</style>
 </head>
 <body class="">
 <header>
@@ -377,16 +390,16 @@ html.light-mode .release-link.primary{color:#fff!important;background:linear-gra
 <a class="logo" href="index.html"><span>RESCENE</span> JAPAN FANBASE</a>
 <nav class="nav-links" aria-label="メインナビゲーション">
 <a href="index.html">ホーム</a>
-<a href="news.html">ニュース</a>
-<a href="schedule.html">スケジュール</a>
 <div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu">
 <a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a>
 </div></div>
+<a href="schedule.html">スケジュール</a>
+<a href="news.html">ニュース</a>
 <div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu">
 <a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a>
 </div></div>
 <div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu">
-<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a>
+<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a>
 </div></div>
 <div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
 <a href="links.html">公式リンク</a>
@@ -395,21 +408,22 @@ html.light-mode .release-link.primary{color:#fff!important;background:linear-gra
 </div>
 </header>
 <nav class="mobile-menu" id="mobileMenu" aria-label="モバイルナビゲーション">
-<a href="index.html">ホーム</a><a href="news.html">ニュース</a><a href="schedule.html">スケジュール</a>
+<a href="index.html">ホーム</a>
 <details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></details>
+<a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
 <details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a></div></details>
-<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a></div></details>
+<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a></div></details>
 <details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details></nav>
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
 <main class="container">
 <section class="page-header section" id="top"><span class="page-kicker">OFFICIAL LINKS</span><h1>公式リンク</h1><p>RESCENEの公式SNS、ファンコミュニティ、音楽配信サービスへの入口。</p></section>
 <section class="section"><h2 class="section-title">RESCENE Official</h2><div class="official-list card">
-<a href="https://x.com/RESCENEofficial" target="_blank" rel="noopener noreferrer"><span>01</span><strong>Official X</strong><small>OPEN ↗</small></a>
+<a href="https://x.com/RESCENEofficial" target="_blank" rel="noopener noreferrer"><span class="official-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.3 2H22l-8.1 9.3L23.4 22H16l-5.8-7.6L3.6 22H0l8.5-9.7L-.6 2H7l5.2 6.9L18.3 2zm-1.3 18h2L5.9 3.9H3.8L17 20z"/></svg></span><strong>Official X</strong><small>OPEN ↗</small></a>
 <a href="https://x.com/RESCENE_twt" target="_blank" rel="noopener noreferrer"><span>02</span><strong>Members X</strong><small>OPEN ↗</small></a>
-<a href="https://www.instagram.com/rescene_official/" target="_blank" rel="noopener noreferrer"><span>03</span><strong>Instagram</strong><small>OPEN ↗</small></a>
-<a href="https://www.tiktok.com/@rescene_official" target="_blank" rel="noopener noreferrer"><span>04</span><strong>TikTok</strong><small>OPEN ↗</small></a>
-<a href="https://www.youtube.com/@RESCENE_official" target="_blank" rel="noopener noreferrer"><span>05</span><strong>YouTube</strong><small>OPEN ↗</small></a>
+<a href="https://www.instagram.com/rescene_official/" target="_blank" rel="noopener noreferrer"><span class="official-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm11.5 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg></span><strong>Instagram</strong><small>OPEN ↗</small></a>
+<a href="https://www.tiktok.com/@rescene_official" target="_blank" rel="noopener noreferrer"><span class="official-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2h3a5 5 0 0 0 5 5v3a8 8 0 0 1-5-1.7V16a6 6 0 1 1-6-6h1v3a3 3 0 1 0 2 2.8V2z"/></svg></span><strong>TikTok</strong><small>OPEN ↗</small></a>
+<a href="https://www.youtube.com/@RESCENE_official" target="_blank" rel="noopener noreferrer"><span class="official-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2C.5 9.1.5 12 .5 12s0 2.9.5 4.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1c.5-1.9.5-4.8.5-4.8s0-2.9-.5-4.8zM9.6 15.4V8.6L15.5 12l-5.9 3.4z"/></svg></span><strong>YouTube</strong><small>OPEN ↗</small></a>
 <a href="https://artist.mnetplus.world/main/stg/rescene-official" target="_blank" rel="noopener noreferrer"><span>06</span><strong>Mnet Plus</strong><small>OPEN ↗</small></a>
 </div></section>
 <section class="section"><h2 class="section-title">Music</h2><div class="grid-2"><a class="card card-link service-card" href="https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S" target="_blank" rel="noopener noreferrer"><span>STREAMING</span><h3>Spotify</h3><b>↗</b></a><a class="card card-link service-card" href="https://music.apple.com/jp/artist/rescene/1732658659" target="_blank" rel="noopener noreferrer"><span>STREAMING</span><h3>Apple Music</h3><b>↗</b></a></div></section>

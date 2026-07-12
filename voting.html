@@ -381,6 +381,20 @@ html.light-mode .vote-status,html.light-mode .guide-details{background:linear-gr
 @media(max-width:639px){.voting-jump{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.voting-jump a{justify-content:center;text-align:center}.program-data div{grid-template-columns:74px 1fr}.guide-placeholder{min-height:180px}}
 </style>
 
+<style id="voting-app-icon-style">.app-logo-image{width:58px;height:58px;border-radius:17px;display:block;flex:0 0 auto;box-shadow:0 10px 24px rgba(10,0,12,.22);object-fit:cover;background:#fff;border:1px solid rgba(255,179,214,.18)}.score-note b{color:var(--pink-soft)}html.light-mode .score-note b{color:#a83f72}</style>
+
+<style id="site-refinement-style">
+.quick-icon svg,.social-svg,.official-icon svg{width:23px;height:23px;display:block;fill:currentColor}
+.quick-icon{color:#fff!important;box-shadow:0 0 22px rgba(255,155,199,.20)}
+.quick-card:nth-child(1) .quick-icon{background:linear-gradient(135deg,#ff72b0,#ffd0e4)!important}
+.quick-card:nth-child(2) .quick-icon{background:linear-gradient(135deg,#8fcfff,#c8a4ff)!important}
+.quick-card:nth-child(3) .quick-icon{background:linear-gradient(135deg,#ff95c5,#ffe19b)!important}
+.quick-card:nth-child(4) .quick-icon{background:linear-gradient(135deg,#bfa5ff,#8ee5ce)!important}
+.social-icon-wrap,.official-icon{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,rgba(255,111,174,.22),rgba(200,164,255,.17));color:#fff;border:1px solid rgba(255,190,220,.22)}
+html.light-mode .social-icon-wrap,html.light-mode .official-icon{color:#a63d72;background:linear-gradient(135deg,#ffe0ee,#eee1ff)}
+.hero-members{margin:8px 0 0;color:#ffe8f3!important;font-weight:900;letter-spacing:.05em;font-size:1rem}
+html.light-mode .hero-members{color:#9f3a6c!important}
+</style>
 </head>
 <body class="">
 <header>
@@ -388,16 +402,16 @@ html.light-mode .vote-status,html.light-mode .guide-details{background:linear-gr
 <a class="logo" href="index.html"><span>RESCENE</span> JAPAN FANBASE</a>
 <nav class="nav-links" aria-label="メインナビゲーション">
 <a href="index.html">ホーム</a>
-<a href="news.html">ニュース</a>
-<a href="schedule.html">スケジュール</a>
 <div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu">
 <a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a>
 </div></div>
+<a href="schedule.html">スケジュール</a>
+<a href="news.html">ニュース</a>
 <div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu">
 <a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a>
 </div></div>
 <div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu">
-<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a>
+<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a>
 </div></div>
 <div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
 <a href="links.html">公式リンク</a>
@@ -406,10 +420,11 @@ html.light-mode .vote-status,html.light-mode .guide-details{background:linear-gr
 </div>
 </header>
 <nav class="mobile-menu" id="mobileMenu" aria-label="モバイルナビゲーション">
-<a href="index.html">ホーム</a><a href="news.html">ニュース</a><a href="schedule.html">スケジュール</a>
+<a href="index.html">ホーム</a>
 <details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></details>
+<a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
 <details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a></div></details>
-<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a></div></details>
+<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a></div></details>
 <details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details></nav>
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
@@ -452,36 +467,36 @@ html.light-mode .vote-status,html.light-mode .guide-details{background:linear-gr
   <div class="vote-overview">
     <article class="card program-card" data-mark="TS">
       <div class="program-top"><div class="program-name"><span class="program-icon">TS</span><div><h3>THE SHOW</h3><small>SBS M・火曜日</small></div></div><span class="vote-type">事前投票</span></div>
-      <dl class="program-data"><div><dt>使用アプリ</dt><dd>BIGC</dd></div><div><dt>準備するもの</dt><dd>ROYAL GEM / FREE GEM</dd></div><div><dt>投票レート</dt><dd>1票＝20 ROYAL / 400 FREE</dd></div></dl>
+      <dl class="program-data"><div><dt>放送</dt><dd>火曜 18:00～</dd></div><div><dt>事前投票</dt><dd>金曜17:00～月曜10:00</dd></div><div><dt>使用アプリ</dt><dd>BIGC</dd></div><div><dt>投票レート</dt><dd>1票＝20 ROYAL / 400 FREE</dd></div></dl>
       <p class="program-note">「THE SHOW 投票」→「THE K-POP」→「PRE-VOTE 1st Place Nominees」からRESCENEへ投票します。</p>
     </article>
     <article class="card program-card" data-mark="SC">
-      <div class="program-top"><div class="program-name"><span class="program-icon">SC</span><div><h3>SHOW CHAMPION</h3><small>MBC M</small></div></div><span class="vote-type">事前投票</span></div>
+      <div class="program-top"><div class="program-name"><span class="program-icon">SC</span><div><h3>SHOW CHAMPION</h3><small>MBC M・水曜日</small></div></div><span class="vote-type">事前投票</span></div>
       <dl class="program-data"><div><dt>使用アプリ</dt><dd>IDOLCHAMP</dd></div><div><dt>準備するもの</dt><dd>CHAMSIM</dd></div><div><dt>参加前</dt><dd>ログイン・投票通貨の収集</dd></div></dl>
       <p class="program-note">対象曲や投票回数は、投票ページ内の案内を必ず確認してください。</p>
     </article>
     <article class="card program-card" data-mark="MC">
-      <div class="program-top"><div class="program-name"><span class="program-icon">MC</span><div><h3>M COUNTDOWN</h3><small>Mnet</small></div></div><span class="vote-type">事前・ライブ</span></div>
+      <div class="program-top"><div class="program-name"><span class="program-icon">MC</span><div><h3>M COUNTDOWN</h3><small>Mnet・木曜日</small></div></div><span class="vote-type">事前・リアルタイム</span></div>
       <dl class="program-data"><div><dt>使用アプリ</dt><dd>Mnet Plus</dd></div><div><dt>準備するもの</dt><dd>投票券不要</dd></div><div><dt>参加前</dt><dd>アカウント作成・ログイン</dd></div></dl>
-      <p class="program-note">投票受付中のみ投票メニューが表示されます。ライブ投票は対象者発表後に参加します。</p>
+      <p class="program-note">投票受付中のみ投票メニューが表示されます。リアルタイム投票は対象者発表後に参加します。</p>
     </article>
     <article class="card program-card" data-mark="MB">
-      <div class="program-top"><div class="program-name"><span class="program-icon">MB</span><div><h3>Music Bank</h3><small>KBS2</small></div></div><span class="vote-type">事前投票</span></div>
+      <div class="program-top"><div class="program-name"><span class="program-icon">MB</span><div><h3>Music Bank</h3><small>KBS2・金曜日</small></div></div><span class="vote-type">事前投票</span></div>
       <dl class="program-data"><div><dt>使用アプリ</dt><dd>Fancast</dd></div><div><dt>準備するもの</dt><dd>Hearts</dd></div><div><dt>参加前</dt><dd>ログイン・Heartsの収集</dd></div></dl>
       <p class="program-note">Music Bankの投票バナーから対象投票へ進みます。</p>
     </article>
     <article class="card program-card" data-mark="MBC">
-      <div class="program-top"><div class="program-name"><span class="program-icon">MBC</span><div><h3>Show! Music Core</h3><small>MBC</small></div></div><span class="vote-type">事前・ライブ</span></div>
+      <div class="program-top"><div class="program-name"><span class="program-icon">MBC</span><div><h3>Show! Music Core</h3><small>MBC・土曜日</small></div></div><span class="vote-type">事前・リアルタイム</span></div>
       <dl class="program-data"><div><dt>使用アプリ</dt><dd>Mubeat</dd></div><div><dt>準備するもの</dt><dd>Heart Beats</dd></div><div><dt>参加前</dt><dd>ログイン・Heart Beatsの収集</dd></div></dl>
       <p class="program-note">投票種別によって使用する投票通貨や参加条件が異なる場合があります。</p>
     </article>
     <article class="card program-card" data-mark="SBS">
-      <div class="program-top"><div class="program-name"><span class="program-icon">SBS</span><div><h3>Inkigayo</h3><small>SBS</small></div></div><span class="vote-type">事前投票</span></div>
+      <div class="program-top"><div class="program-name"><span class="program-icon">SBS</span><div><h3>Inkigayo</h3><small>SBS・日曜日</small></div></div><span class="vote-type">事前投票</span></div>
       <dl class="program-data"><div><dt>使用アプリ</dt><dd>LiNC</dd></div><div><dt>準備するもの</dt><dd>ファンポイント</dd></div><div><dt>参加前</dt><dd>ログイン・ポイントの収集</dd></div></dl>
       <p class="program-note">LiNCはInkigayoの事前投票で使用します。</p>
     </article>
     <article class="card program-card" data-mark="LIVE">
-      <div class="program-top"><div class="program-name"><span class="program-icon">H</span><div><h3>Inkigayo</h3><small>SBS</small></div></div><span class="vote-type">リアルタイム</span></div>
+      <div class="program-top"><div class="program-name"><span class="program-icon">H</span><div><h3>Inkigayo</h3><small>SBS・日曜日</small></div></div><span class="vote-type">リアルタイム</span></div>
       <dl class="program-data"><div><dt>使用アプリ</dt><dd>HIGHER</dd></div><div><dt>準備するもの</dt><dd>ルビー</dd></div><div><dt>参加前</dt><dd>ログイン・ルビーの収集</dd></div></dl>
       <p class="program-note">リアルタイム投票は放送中の短い時間だけ行われます。事前にアプリを開ける状態にしてください。</p>
     </article>
@@ -504,7 +519,7 @@ html.light-mode .vote-status,html.light-mode .guide-details{background:linear-gr
     <summary>テキスト版の配分も見る</summary>
     <div class="text-score-content">
       <div class="score-distribution-grid" style="margin-top:18px">
-        <article class="card score-card"><h3>THE SHOW</h3><p class="score-meta">火曜日 / BIGC</p><ul class="score-list"><li><span>事前投票</span><strong>BIGC</strong></li><li><span>投票券</span><strong>ROYAL / FREE GEM</strong></li></ul><p class="score-note">THE SHOWの総合スコア配分は、対象回の公式案内を確認してください。</p></article>
+        <article class="card score-card"><h3>THE SHOW</h3><p class="score-meta">火曜日 18:00～ / BIGC</p><ul class="score-list"><li><span>事前投票期間</span><strong>金17:00～月10:00</strong></li><li><span>音源（デジタル）</span><strong>40%</strong></li><li><span>音盤（アルバム）</span><strong>20%</strong></li><li><span>FAN ENGAGEMENT</span><strong>20%</strong></li><li><span>事前投票</span><strong>20%</strong></li><li><span>当日投票</span><strong>＋20%</strong></li></ul><p class="score-note"><b>事前集計：</b>音源40%＋音盤20%＋FAN ENGAGEMENT20%＋事前投票20%（合計100%）<br><b>当日集計：</b>事前集計100%＋当日投票20%<br><b>集計元：</b>音源はサークルチャート、音盤はハントチャート。<br><b>FAN ENGAGEMENT：</b>公式YouTube・SNSでのグローバルファンダムの変化や活動接数などを、客観的なデータで算出したスコアです。</p></article>
         <article class="card score-card"><h3>SHOW CHAMPION</h3><p class="score-meta">水曜日 / IDOLCHAMP</p><ul class="score-list"><li><span>音源</span><strong>35%</strong></li><li><span>音盤</span><strong>15%</strong></li><li><span>SNS（YouTube）</span><strong>10%</strong></li><li><span>事前投票</span><strong>20%</strong></li><li><span>放送点数</span><strong>20%</strong></li></ul></article>
         <article class="card score-card"><h3>M COUNTDOWN</h3><p class="score-meta">木曜日 / Mnet Plus</p><ul class="score-list"><li><span>音源</span><strong>50%</strong></li><li><span>音盤</span><strong>15%</strong></li><li><span>SNS（YouTube・TikTok）</span><strong>15%</strong></li><li><span>事前投票</span><strong>10%</strong></li><li><span>リアルタイム投票</span><strong>10%</strong></li><li><span>放送点数</span><strong>10%</strong></li></ul></article>
         <article class="card score-card"><h3>Music Bank</h3><p class="score-meta">金曜日 / Fancast</p><ul class="score-list"><li><span>音源</span><strong>60%</strong></li><li><span>音盤</span><strong>5%</strong></li><li><span>SNS（YouTube）</span><strong>5%</strong></li><li><span>事前投票</span><strong>10%</strong></li><li><span>放送点数</span><strong>20%</strong></li></ul></article>
@@ -529,13 +544,13 @@ html.light-mode .vote-status,html.light-mode .guide-details{background:linear-gr
 <section class="section" id="apps" aria-labelledby="apps-title">
   <div class="section-heading"><div><span class="section-kicker">VOTING APPS</span><h2 class="section-title" id="apps-title">投票アプリ一覧</h2></div></div>
   <div class="app-list">
-    <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">BIGC</span><div><h3>BIGC</h3><p>THE SHOW 事前投票</p></div></div><div class="app-tags"><span>ROYAL GEM</span><span>FREE GEM</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/search?term=BIGC" target="_blank" rel="noopener noreferrer">App Storeで検索 ↗</a><a href="https://play.google.com/store/search?q=BIGC&c=apps" target="_blank" rel="noopener noreferrer">Google Playで検索 ↗</a></div></article>
-    <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">IDOL<br>CHAMP</span><div><h3>IDOLCHAMP</h3><p>SHOW CHAMPION</p></div></div><div class="app-tags"><span>CHAMSIM</span><span>事前投票</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/idolchamp/id1185735018" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=com.nwz.ichampclient" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
-    <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">Mnet<br>Plus</span><div><h3>Mnet Plus</h3><p>M COUNTDOWN</p></div></div><div class="app-tags"><span>投票券不要</span><span>事前・ライブ</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/mnet-plus/id6443405421" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=world.mnetplus" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
-    <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">FAN<br>CAST</span><div><h3>Fancast</h3><p>Music Bank</p></div></div><div class="app-tags"><span>Hearts</span><span>事前投票</span></div><div class="store-buttons"><a href="https://apps.apple.com/app/id1641638840" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=com.contentsmadang.fancast" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
-    <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">Mu<br>beat</span><div><h3>Mubeat</h3><p>Show! Music Core</p></div></div><div class="app-tags"><span>Heart Beats</span><span>事前・ライブ</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/id1320789688" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=com.vlending.apps.mubeat" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
-    <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">LiNC</span><div><h3>LiNC</h3><p>Inkigayo 事前投票</p></div></div><div class="app-tags"><span>ファンポイント</span><span>事前投票</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/id6467824343" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=io.stayge.youmeonapp" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
-    <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">HIGHER</span><div><h3>HIGHER</h3><p>Inkigayo リアルタイム投票</p></div></div><div class="app-tags"><span>ルビー</span><span>リアルタイム</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/id1672001935" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=com.dalcomsoft.mysu.a" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
+    <article class="card app-card"><div class="app-card-head"><img class="app-logo-image" src="assets/voting/apps/bigc.webp" alt="BIGC アイコン" width="58" height="58"><div><h3>BIGC</h3><p>THE SHOW 事前投票</p></div></div><div class="app-tags"><span>ROYAL GEM</span><span>FREE GEM</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/search?term=BIGC" target="_blank" rel="noopener noreferrer">App Storeで検索 ↗</a><a href="https://play.google.com/store/search?q=BIGC&c=apps" target="_blank" rel="noopener noreferrer">Google Playで検索 ↗</a></div></article>
+    <article class="card app-card"><div class="app-card-head"><img class="app-logo-image" src="assets/voting/apps/idolchamp.png" alt="IDOLCHAMP アイコン" width="58" height="58"><div><h3>IDOLCHAMP</h3><p>SHOW CHAMPION</p></div></div><div class="app-tags"><span>CHAMSIM</span><span>事前投票</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/idolchamp/id1185735018" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=com.nwz.ichampclient" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
+    <article class="card app-card"><div class="app-card-head"><img class="app-logo-image" src="assets/voting/apps/mnetplus.png" alt="Mnet Plus アイコン" width="58" height="58"><div><h3>Mnet Plus</h3><p>M COUNTDOWN</p></div></div><div class="app-tags"><span>投票券不要</span><span>事前・リアルタイム</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/mnet-plus/id6443405421" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=world.mnetplus" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
+    <article class="card app-card"><div class="app-card-head"><img class="app-logo-image" src="assets/voting/apps/fancast.png" alt="Fancast アイコン" width="58" height="58"><div><h3>Fancast</h3><p>Music Bank</p></div></div><div class="app-tags"><span>Hearts</span><span>事前投票</span></div><div class="store-buttons"><a href="https://apps.apple.com/app/id1641638840" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=com.contentsmadang.fancast" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
+    <article class="card app-card"><div class="app-card-head"><img class="app-logo-image" src="assets/voting/apps/mubeat.png" alt="Mubeat アイコン" width="58" height="58"><div><h3>Mubeat</h3><p>Show! Music Core</p></div></div><div class="app-tags"><span>Heart Beats</span><span>事前・リアルタイム</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/id1320789688" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=com.vlending.apps.mubeat" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
+    <article class="card app-card"><div class="app-card-head"><img class="app-logo-image" src="assets/voting/apps/linc.jpg" alt="LiNC アイコン" width="58" height="58"><div><h3>LiNC</h3><p>Inkigayo 事前投票</p></div></div><div class="app-tags"><span>ファンポイント</span><span>事前投票</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/id6467824343" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=io.stayge.youmeonapp" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
+    <article class="card app-card"><div class="app-card-head"><img class="app-logo-image" src="assets/voting/apps/higher.png" alt="HIGHER アイコン" width="58" height="58"><div><h3>HIGHER</h3><p>Inkigayo リアルタイム投票</p></div></div><div class="app-tags"><span>ルビー</span><span>リアルタイム</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/id1672001935" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=com.dalcomsoft.mysu.a" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
   </div>
 </section>
 
@@ -561,7 +576,7 @@ html.light-mode .vote-status,html.light-mode .guide-details{background:linear-gr
 
     <details class="guide-details"><summary><span class="guide-summary-title"><span>M+</span><span>Mnet Plus<small>M COUNTDOWN</small></span></span></summary><div class="guide-content"><div class="guide-steps">
       <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>mnetplus-01-home.jpg</code></div></div><div class="guide-caption"><b>1. ホーム</b><p>M COUNTDOWNのコンテンツを開きます。</p></div></article>
-      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>mnetplus-02-mcountdown.jpg</code></div></div><div class="guide-caption"><b>2. 投票ページ</b><p>受付中の事前投票またはライブ投票へ進みます。</p></div></article>
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>mnetplus-02-mcountdown.jpg</code></div></div><div class="guide-caption"><b>2. 投票ページ</b><p>受付中の事前投票またはリアルタイム投票へ進みます。</p></div></article>
       <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>mnetplus-03-vote.jpg</code></div></div><div class="guide-caption"><b>3. RESCENEを選択</b><p>曲名を確認し、画面の案内に沿って投票を完了します。</p></div></article>
     </div><p class="guide-note">Mnet Plusは投票通貨を集める形式ではありません。事前にアカウントへログインしてください。</p></div></details>
 
@@ -585,8 +600,8 @@ html.light-mode .vote-status,html.light-mode .guide-details{background:linear-gr
 
     <details class="guide-details"><summary><span class="guide-summary-title"><span>H</span><span>HIGHER<small>Inkigayo リアルタイム投票</small></span></span></summary><div class="guide-content"><div class="guide-steps">
       <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>higher-01-home.jpg</code></div></div><div class="guide-caption"><b>1. ホーム</b><p>Inkigayoのリアルタイム投票入口を確認します。</p></div></article>
-      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>higher-02-livevote.jpg</code></div></div><div class="guide-caption"><b>2. ライブ投票</b><p>放送中に候補が表示されたらRESCENEを選択します。</p></div></article>
-      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>higher-03-ruby.jpg</code></div></div><div class="guide-caption"><b>3. ルビー</b><p>ライブ投票前に必要数を確認して集めておきます。</p></div></article>
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>higher-02-livevote.jpg</code></div></div><div class="guide-caption"><b>2. リアルタイム投票</b><p>放送中に候補が表示されたらRESCENEを選択します。</p></div></article>
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>higher-03-ruby.jpg</code></div></div><div class="guide-caption"><b>3. ルビー</b><p>リアルタイム投票前に必要数を確認して集めておきます。</p></div></article>
     </div><p class="guide-note">リアルタイム投票は受付時間が短いため、放送前にログインと通信環境を確認してください。</p></div></details>
   </div>
 </section>

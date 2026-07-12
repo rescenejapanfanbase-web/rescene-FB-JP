@@ -468,6 +468,19 @@ html.light-mode .release-link.primary{color:#fff!important;background:linear-gra
 
 </style>
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
+
+<style id="site-refinement-style">
+.quick-icon svg,.social-svg,.official-icon svg{width:23px;height:23px;display:block;fill:currentColor}
+.quick-icon{color:#fff!important;box-shadow:0 0 22px rgba(255,155,199,.20)}
+.quick-card:nth-child(1) .quick-icon{background:linear-gradient(135deg,#ff72b0,#ffd0e4)!important}
+.quick-card:nth-child(2) .quick-icon{background:linear-gradient(135deg,#8fcfff,#c8a4ff)!important}
+.quick-card:nth-child(3) .quick-icon{background:linear-gradient(135deg,#ff95c5,#ffe19b)!important}
+.quick-card:nth-child(4) .quick-icon{background:linear-gradient(135deg,#bfa5ff,#8ee5ce)!important}
+.social-icon-wrap,.official-icon{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,rgba(255,111,174,.22),rgba(200,164,255,.17));color:#fff;border:1px solid rgba(255,190,220,.22)}
+html.light-mode .social-icon-wrap,html.light-mode .official-icon{color:#a63d72;background:linear-gradient(135deg,#ffe0ee,#eee1ff)}
+.hero-members{margin:8px 0 0;color:#ffe8f3!important;font-weight:900;letter-spacing:.05em;font-size:1rem}
+html.light-mode .hero-members{color:#9f3a6c!important}
+</style>
 </head>
 <body class="">
 <header>
@@ -475,16 +488,16 @@ html.light-mode .release-link.primary{color:#fff!important;background:linear-gra
 <a class="logo" href="index.html"><span>RESCENE</span> JAPAN FANBASE</a>
 <nav class="nav-links" aria-label="メインナビゲーション">
 <a href="index.html">ホーム</a>
-<a href="news.html">ニュース</a>
-<a href="schedule.html">スケジュール</a>
 <div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu">
 <a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a>
 </div></div>
+<a href="schedule.html">スケジュール</a>
+<a href="news.html">ニュース</a>
 <div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu">
 <a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a>
 </div></div>
 <div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu">
-<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a>
+<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a>
 </div></div>
 <div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
 <a href="links.html">公式リンク</a>
@@ -493,10 +506,11 @@ html.light-mode .release-link.primary{color:#fff!important;background:linear-gra
 </div>
 </header>
 <nav class="mobile-menu" id="mobileMenu" aria-label="モバイルナビゲーション">
-<a href="index.html">ホーム</a><a href="news.html">ニュース</a><a href="schedule.html">スケジュール</a>
+<a href="index.html">ホーム</a>
 <details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></details>
+<a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
 <details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a></div></details>
-<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a></div></details>
+<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a></div></details>
 <details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details></nav>
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
@@ -514,8 +528,7 @@ html.light-mode .release-link.primary{color:#fff!important;background:linear-gra
     </div>
     <div class="hero-group-caption">
       <span class="badge">RESCENE</span>
-      <h2>Five members,<br>one unforgettable scene.</h2>
-      <p>WONI · LIV · MINAMI · MAY · ZENA</p>
+      <p class="hero-members">WONI · LIV · MINAMI · MAY · ZENA</p>
     </div>
   </aside>
 </section>
@@ -523,10 +536,10 @@ html.light-mode .release-link.primary{color:#fff!important;background:linear-gra
 <section class="section">
   <div class="section-head"><div><span class="section-kicker">QUICK ACCESS</span><h2 class="section-title">まず見るページ</h2></div><a class="section-link" href="news.html">ニュース一覧へ →</a></div>
   <div class="grid-4 quick-grid">
-    <a class="card card-link quick-card" href="news.html"><span class="quick-icon">N</span><h3>ニュース</h3><p>リリース・イベント・お知らせ</p></a>
-    <a class="card card-link quick-card" href="schedule.html"><span class="quick-icon">S</span><h3>スケジュール</h3><p>出演・イベント・誕生日</p></a>
-    <a class="card card-link quick-card" href="streaming.html"><span class="quick-icon">▶</span><h3>ストリーミング</h3><p>音源・MV再生ガイド</p></a>
-    <a class="card card-link quick-card" href="voting.html"><span class="quick-icon">V</span><h3>投票ガイド</h3><p>音楽番組を応援する方法</p></a>
+    <a class="card card-link quick-card" href="news.html"><span class="quick-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V3zm3 4v2h10V7H7zm0 4v2h10v-2H7zm0 4v2h7v-2H7z"/></svg></span><h3>ニュース</h3><p>リリース・イベント・お知らせ</p></a>
+    <a class="card card-link quick-card" href="schedule.html"><span class="quick-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h2v2h6V2h2v2h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2V2zm12 8H5v10h14V10zM5 6v2h14V6H5z"/></svg></span><h3>スケジュール</h3><p>出演・イベント・誕生日</p></a>
+    <a class="card card-link quick-card" href="streaming.html"><span class="quick-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-2 6 7 4-7 4V8z"/></svg></span><h3>ストリーミング</h3><p>音源・MV再生ガイド</p></a>
+    <a class="card card-link quick-card" href="voting.html"><span class="quick-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.2 15.4-3.6-3.6 1.4-1.4 2.2 2.2 5.8-5.8 1.4 1.4-7.2 7.2zM4 20a2 2 0 0 1-2-2V6h4V2h12v4h4v12a2 2 0 0 1-2 2H4zm4-14h8V4H8v2zm-4 2v10h16V8h-2v2H6V8H4z"/></svg></span><h3>投票ガイド</h3><p>音楽番組を応援する方法</p></a>
   </div>
 </section>
 
@@ -601,7 +614,7 @@ html.light-mode .release-link.primary{color:#fff!important;background:linear-gra
 <section class="section">
   <div class="section-head"><div><span class="section-kicker">OFFICIAL</span><h2 class="section-title">公式リンク</h2></div><a class="section-link" href="links.html">すべて見る →</a></div>
   <div class="grid-2">
-    <div class="card link-group"><h3>RESCENE Official</h3><div class="link-items"><a class="link-card" href="https://x.com/RESCENEofficial" target="_blank" rel="noopener noreferrer"><b>𝕏</b><span>Official X</span></a><a class="link-card" href="https://www.instagram.com/rescene_official/" target="_blank" rel="noopener noreferrer"><b>◎</b><span>Instagram</span></a><a class="link-card" href="https://www.tiktok.com/@rescene_official" target="_blank" rel="noopener noreferrer"><b>♪</b><span>TikTok</span></a><a class="link-card" href="https://www.youtube.com/@RESCENE_official" target="_blank" rel="noopener noreferrer"><b>▶</b><span>YouTube</span></a></div></div>
+    <div class="card link-group"><h3>RESCENE Official</h3><div class="link-items"><a class="link-card" href="https://x.com/RESCENEofficial" target="_blank" rel="noopener noreferrer"><span class="social-icon-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.3 2H22l-8.1 9.3L23.4 22H16l-5.8-7.6L3.6 22H0l8.5-9.7L-.6 2H7l5.2 6.9L18.3 2zm-1.3 18h2L5.9 3.9H3.8L17 20z"/></svg></span><span>Official X</span></a><a class="link-card" href="https://www.instagram.com/rescene_official/" target="_blank" rel="noopener noreferrer"><span class="social-icon-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm11.5 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg></span><span>Instagram</span></a><a class="link-card" href="https://www.tiktok.com/@rescene_official" target="_blank" rel="noopener noreferrer"><span class="social-icon-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2h3a5 5 0 0 0 5 5v3a8 8 0 0 1-5-1.7V16a6 6 0 1 1-6-6h1v3a3 3 0 1 0 2 2.8V2z"/></svg></span><span>TikTok</span></a><a class="link-card" href="https://www.youtube.com/@RESCENE_official" target="_blank" rel="noopener noreferrer"><span class="social-icon-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2C.5 9.1.5 12 .5 12s0 2.9.5 4.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1c.5-1.9.5-4.8.5-4.8s0-2.9-.5-4.8zM9.6 15.4V8.6L15.5 12l-5.9 3.4z"/></svg></span><span>YouTube</span></a></div></div>
     <div class="card link-group"><h3>Music</h3><div class="link-items"><a class="link-card" href="https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S" target="_blank" rel="noopener noreferrer"><b>♫</b><span>Spotify</span></a><a class="link-card" href="https://music.apple.com/jp/artist/rescene/1732658659" target="_blank" rel="noopener noreferrer"><b>♪</b><span>Apple Music</span></a><a class="link-card" href="discography.html"><b>◉</b><span>Discography</span></a><a class="link-card" href="mv.html"><b>▶</b><span>Music Video</span></a></div></div>
   </div>
 </section>
@@ -622,23 +635,23 @@ html.light-mode .release-link.primary{color:#fff!important;background:linear-gra
 </script><script>
 
 window.RESCENE_NEWS=[
- {date:'2026.07.12',category:'notice',label:'RECORD',title:'「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得',text:'2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。',link:'https://x.com/higher_twt/status/2076211910865994220?s=46'},
- {date:'2026.07.08',category:'notice',label:'MELON RECORD',title:'RESCENEがMelon TOP100で初の1位を記録',text:'2026年7月8日23時、RESCENEがMelon TOP100でグループ初となる1位を記録しました。',link:'discography.html#special-single'},
- {date:'2026.07.08',category:'release',label:'PRETTY GIRL',title:'「Pretty Girl」がリリース1時間でMelon TOP100 22位にランクイン',text:'7月8日にリリースされたSpecial Single「Pretty Girl」は、リリース1時間後にMelon TOP100 22位にランクイン。その後、最高4位を記録しました。',link:'discography.html#special-single'},
- {date:'2026.07.02',category:'ambassador',label:'AMBASSADOR',title:'京畿道 高陽市 広報大使に任命',text:'メイの故郷・高陽市の広報大使にRESCENEが任命されました。',link:'https://m.entertain.naver.com/home/article/079/0004164566'},
- {date:'2026.06.29',category:'ambassador',label:'AMBASSADOR',title:'慶尚北道 慶州市 広報大使に任命',text:'ゼナの故郷・慶州市の観光広報大使にRESCENEが任命されました。',link:'https://m.entertain.naver.com/home/article/311/0002027805'},
- {date:'2026.06.24',category:'ambassador',label:'AMBASSADOR',title:'京畿道 水原市 広報大使に任命',text:'リブの故郷・水原市の広報大使にRESCENEが任命されました。',link:'https://m.entertain.naver.com/home/article/408/0000312710'},
- {date:'2026.05.22',category:'ambassador',label:'AMBASSADOR',title:'慶尚南道 巨済市 広報大使に任命',text:'ウォニの故郷・巨済市の広報大使にRESCENEが任命されました。',link:'https://n.news.naver.com/article/030/0003430663?sid=103'},
- {date:'2026.04.08',category:'release',label:'RELEASE',title:'Digital Single「Runaway」',text:'デジタルシングルの情報を作品ページに追加しました。',link:'discography.html#special-single'},
- {date:'2026.03.26',category:'notice',label:'ANNIVERSARY',title:'RESCENE Debut 2nd Anniversary',text:'デビュー2周年を迎えたRESCENEを日本から一緒にお祝いします。',link:'about.html'},
- {date:'2026.03',category:'event',label:'PROJECT',title:'デビュー2周年広告プロジェクト',text:'日本・韓国で実施した2周年広告プロジェクトのお知らせです。',link:'news.html'},
- {date:'2025',category:'release',label:'MINI ALBUM',title:'3rd Mini Album「lip bomb」',text:'balm ver. / tint ver. の作品情報を掲載しています。',link:'discography.html#mini-album'},
- {date:'UPDATE',category:'notice',label:'NOTICE',title:'RESCENE JAPAN FANBASE ウェブサイト',text:'日本のREMINEに必要な情報をまとめるサイトを準備しています。',link:'about.html'},
+ {slug:'love-attack-inkigayo-realtime-first',date:'2026.07.12',category:'notice',label:'RECORD',title:'「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得',text:'2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。',image:'assets/mv/love-attack.jpg',sourceLink:'https://x.com/higher_twt/status/2076211910865994220?s=46',sourceLabel:'HIGHER公式Xで記事を見る'},
+ {slug:'melon-top100-first-number-one',date:'2026.07.08',category:'notice',label:'MELON RECORD',title:'RESCENEがMelon TOP100で初の1位を記録',text:'2026年7月8日22時、RESCENEがMelon TOP100でグループ初となる1位を記録しました。記録達成時のYouTubeライブもあわせてご覧いただけます。',image:'assets/mv/pretty-girl.jpg',sourceLink:'https://www.youtube.com/live/v6n4XQdX6_8?si=trciEexVgiGpYX3C',sourceLabel:'記録達成時のYouTubeライブを見る'},
+ {slug:'pretty-girl-melon-entry',date:'2026.07.08',category:'release',label:'PRETTY GIRL',title:'「Pretty Girl」がリリース1時間でMelon TOP100 22位にランクイン',text:'7月8日にリリースされたSpecial Single「Pretty Girl」は、リリース1時間後にMelon TOP100 22位にランクイン。その後、最高4位を記録しました。',image:'assets/mv/pretty-girl.jpg',sourceLink:'discography.html#special-single',sourceLabel:'ディスコグラフィを見る'},
+ {slug:'goyang-ambassador',date:'2026.07.02',category:'ambassador',label:'AMBASSADOR',title:'京畿道 高陽市 広報大使に任命',text:'メイの故郷・高陽市の広報大使にRESCENEが任命されました。',image:'assets/members/may.jpg',sourceLink:'https://m.entertain.naver.com/home/article/079/0004164566',sourceLabel:'記事を見る'},
+ {slug:'gyeongju-ambassador',date:'2026.06.29',category:'ambassador',label:'AMBASSADOR',title:'慶尚北道 慶州市 広報大使に任命',text:'ゼナの故郷・慶州市の観光広報大使にRESCENEが任命されました。',image:'assets/members/zena.jpg',sourceLink:'https://m.entertain.naver.com/home/article/311/0002027805',sourceLabel:'記事を見る'},
+ {slug:'suwon-ambassador',date:'2026.06.24',category:'ambassador',label:'AMBASSADOR',title:'京畿道 水原市 広報大使に任命',text:'リブの故郷・水原市の広報大使にRESCENEが任命されました。',image:'assets/members/liv.jpg',sourceLink:'https://m.entertain.naver.com/home/article/408/0000312710',sourceLabel:'記事を見る'},
+ {slug:'geoje-ambassador',date:'2026.05.22',category:'ambassador',label:'AMBASSADOR',title:'慶尚南道 巨済市 広報大使に任命',text:'ウォニの故郷・巨済市の広報大使にRESCENEが任命されました。',image:'assets/members/woni.jpg',sourceLink:'https://n.news.naver.com/article/030/0003430663?sid=103',sourceLabel:'記事を見る'},
+ {slug:'runaway-release',date:'2026.04.08',category:'release',label:'RELEASE',title:'Digital Single「Runaway」',text:'デジタルシングル「Runaway」の作品情報と配信リンクを掲載しています。',image:'assets/mv/runaway.jpg',sourceLink:'discography.html#special-single',sourceLabel:'作品情報を見る'},
+ {slug:'second-anniversary',date:'2026.03.26',category:'notice',label:'ANNIVERSARY',title:'RESCENE Debut 2nd Anniversary',text:'デビュー2周年を迎えたRESCENEを日本から一緒にお祝いします。',image:'assets/group/rescene-group.jpg',sourceLink:'about.html',sourceLabel:'RESCENEについて見る'},
+ {slug:'second-anniversary-project',date:'2026.03',category:'event',label:'PROJECT',title:'デビュー2周年広告プロジェクト',text:'日本・韓国で実施した2周年広告プロジェクトのお知らせです。',image:'assets/group/rescene-group.jpg',sourceLink:'news.html',sourceLabel:'ニュース一覧へ戻る'},
+ {slug:'lip-bomb-release',date:'2025',category:'release',label:'MINI ALBUM',title:'3rd Mini Album「lip bomb」',text:'balm ver. / tint ver. の作品情報を掲載しています。',image:'assets/mv/bloom.jpg',sourceLink:'discography.html#mini-album',sourceLabel:'作品情報を見る'},
+ {slug:'fanbase-site',date:'UPDATE',category:'notice',label:'NOTICE',title:'RESCENE JAPAN FANBASE ウェブサイト',text:'日本のREMINEに必要な情報をまとめるサイトを準備しています。',image:'assets/group/rescene-group.jpg',sourceLink:'about.html',sourceLabel:'サイトについて見る'}
 ];
 
 </script><script>
 
-(()=>{const el=document.getElementById('newsGrid');if(!el||!window.RESCENE_NEWS)return;el.innerHTML=RESCENE_NEWS.slice(0,4).map(n=>{const external=/^https?:\/\//.test(n.link);return `<article class="news-card"><div class="news-meta"><span class="news-date">${n.date}</span><span class="badge">${n.label}</span></div><div class="news-title"><a href="${n.link}"${external?' target="_blank" rel="noopener noreferrer"':''}>${n.title}</a></div><div class="news-text">${n.text}</div></article>`}).join('')})();
+(()=>{const el=document.getElementById('newsGrid');if(!el||!window.RESCENE_NEWS)return;el.innerHTML=RESCENE_NEWS.slice(0,4).map(n=>{const href=`article.html?id=${encodeURIComponent(n.slug)}`;return `<article class="news-card"><div class="news-meta"><span class="news-date">${n.date}</span><span class="badge">${n.label}</span></div><div class="news-title"><a href="${href}">${n.title}</a></div><div class="news-text">${n.text}</div></article>`}).join('')})();
 
 </script>
 </body></html>

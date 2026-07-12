@@ -16,3 +16,13 @@ THE SHOW / BIGC
 - musicbank-score.png
 - musiccore-score.png
 - inkigayo-score.png
+
+
+投票アプリアイコン（ユーザー提供）
+- apps/bigc.webp
+- apps/idolchamp.png
+- apps/mnetplus.png
+- apps/fancast.png
+- apps/mubeat.png
+- apps/linc.jpg
+- apps/higher.png

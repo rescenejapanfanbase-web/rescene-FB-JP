@@ -378,6 +378,20 @@ html.light-mode .mv-gallery-body p{color:#654d5b!important}
 
 </style>
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
+<style id="mv-filter-style">.mv-filter-section{margin-top:-36px}.mv-filter-section .filter-row{justify-content:center}.mv-gallery-card[hidden]{display:none!important}.mv-gallery-meta{justify-content:flex-end}.mv-gallery-meta .badge{margin-left:auto}</style>
+
+<style id="site-refinement-style">
+.quick-icon svg,.social-svg,.official-icon svg{width:23px;height:23px;display:block;fill:currentColor}
+.quick-icon{color:#fff!important;box-shadow:0 0 22px rgba(255,155,199,.20)}
+.quick-card:nth-child(1) .quick-icon{background:linear-gradient(135deg,#ff72b0,#ffd0e4)!important}
+.quick-card:nth-child(2) .quick-icon{background:linear-gradient(135deg,#8fcfff,#c8a4ff)!important}
+.quick-card:nth-child(3) .quick-icon{background:linear-gradient(135deg,#ff95c5,#ffe19b)!important}
+.quick-card:nth-child(4) .quick-icon{background:linear-gradient(135deg,#bfa5ff,#8ee5ce)!important}
+.social-icon-wrap,.official-icon{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,rgba(255,111,174,.22),rgba(200,164,255,.17));color:#fff;border:1px solid rgba(255,190,220,.22)}
+html.light-mode .social-icon-wrap,html.light-mode .official-icon{color:#a63d72;background:linear-gradient(135deg,#ffe0ee,#eee1ff)}
+.hero-members{margin:8px 0 0;color:#ffe8f3!important;font-weight:900;letter-spacing:.05em;font-size:1rem}
+html.light-mode .hero-members{color:#9f3a6c!important}
+</style>
 </head>
 <body class="">
 <header>
@@ -385,16 +399,16 @@ html.light-mode .mv-gallery-body p{color:#654d5b!important}
 <a class="logo" href="index.html"><span>RESCENE</span> JAPAN FANBASE</a>
 <nav class="nav-links" aria-label="メインナビゲーション">
 <a href="index.html">ホーム</a>
-<a href="news.html">ニュース</a>
-<a href="schedule.html">スケジュール</a>
 <div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu">
 <a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a>
 </div></div>
+<a href="schedule.html">スケジュール</a>
+<a href="news.html">ニュース</a>
 <div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu">
 <a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a>
 </div></div>
 <div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu">
-<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a>
+<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a>
 </div></div>
 <div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
 <a href="links.html">公式リンク</a>
@@ -403,60 +417,61 @@ html.light-mode .mv-gallery-body p{color:#654d5b!important}
 </div>
 </header>
 <nav class="mobile-menu" id="mobileMenu" aria-label="モバイルナビゲーション">
-<a href="index.html">ホーム</a><a href="news.html">ニュース</a><a href="schedule.html">スケジュール</a>
+<a href="index.html">ホーム</a>
 <details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></details>
+<a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
 <details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a></div></details>
-<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a></div></details>
+<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a></div></details>
 <details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details></nav>
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
 <main class="container">
-<section class="page-header section" id="top"><span class="page-kicker">MUSIC VIDEO</span><h1>MV一覧</h1><p>送ってもらったサムネイル画像をそのまま使用し、各カードから関連動画へ移動できます。</p></section>
-<section class="section mv-gallery-grid"><a class="card mv-gallery-card" href="https://www.youtube.com/watch?v=qZlu2j2SiBA" target="_blank" rel="noopener noreferrer">
+<section class="page-header section" id="top"><span class="page-kicker">MUSIC VIDEO</span><h1>MV一覧</h1></section><section class="section mv-filter-section"><div class="filter-row" role="group" aria-label="MVカテゴリー絞り込み"><button class="filter active" data-mv-filter="all" aria-pressed="true">すべて</button><button class="filter" data-mv-filter="2026" aria-pressed="false">2026</button><button class="filter" data-mv-filter="2025" aria-pressed="false">2025</button><button class="filter" data-mv-filter="2024" aria-pressed="false">2024</button><button class="filter" data-mv-filter="official" aria-pressed="false">OFFICIAL MV</button><button class="filter" data-mv-filter="special" aria-pressed="false">SPECIAL / OST</button></div></section>
+<section class="section mv-gallery-grid"><a class="card mv-gallery-card" data-mv-year="2026" data-type="special" href="https://www.youtube.com/watch?v=qZlu2j2SiBA" target="_blank" rel="noopener noreferrer">
   <div class="mv-gallery-thumb"><img src="assets/mv/pretty-girl.jpg" alt="Pretty Girl thumbnail" loading="lazy"></div>
-  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="mv-number">01</span><span class="badge">SPECIAL VIDEO</span></div><h2>Pretty Girl</h2><p>2026.07.08</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
-</a><a class="card mv-gallery-card" href="https://www.youtube.com/watch?v=rsZwrTNklos" target="_blank" rel="noopener noreferrer">
+  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="badge">SPECIAL VIDEO</span></div><h2>Pretty Girl</h2><p>2026.07.08</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
+</a><a class="card mv-gallery-card" data-mv-year="2026" data-type="official" href="https://www.youtube.com/watch?v=rsZwrTNklos" target="_blank" rel="noopener noreferrer">
   <div class="mv-gallery-thumb"><img src="assets/mv/runaway.jpg" alt="Runaway thumbnail" loading="lazy"></div>
-  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="mv-number">02</span><span class="badge">OFFICIAL MV</span></div><h2>Runaway</h2><p>2026.04.08</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
-</a><a class="card mv-gallery-card" href="https://www.youtube.com/watch?v=ewubELWBMaE" target="_blank" rel="noopener noreferrer">
+  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="badge">OFFICIAL MV</span></div><h2>Runaway</h2><p>2026.04.08</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
+</a><a class="card mv-gallery-card" data-mv-year="2026" data-type="special" href="https://www.youtube.com/watch?v=ewubELWBMaE" target="_blank" rel="noopener noreferrer">
   <div class="mv-gallery-thumb"><img src="assets/mv/busy-boy.jpg" alt="Busy Boy thumbnail" loading="lazy"></div>
-  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="mv-number">03</span><span class="badge">PERFORMANCE VIDEO</span></div><h2>Busy Boy</h2><p>2026.02.27</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
-</a><a class="card mv-gallery-card" href="https://www.youtube.com/watch?v=MC6-82GRK5I" target="_blank" rel="noopener noreferrer">
+  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="badge">PERFORMANCE VIDEO</span></div><h2>Busy Boy</h2><p>2026.02.27</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
+</a><a class="card mv-gallery-card" data-mv-year="2025" data-type="official" href="https://www.youtube.com/watch?v=MC6-82GRK5I" target="_blank" rel="noopener noreferrer">
   <div class="mv-gallery-thumb"><img src="assets/mv/bloom.jpg" alt="Bloom thumbnail" loading="lazy"></div>
-  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="mv-number">04</span><span class="badge">OFFICIAL MV</span></div><h2>Bloom</h2><p>2025.11.25</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
-</a><a class="card mv-gallery-card" href="https://www.youtube.com/watch?v=ByX8EZq8500" target="_blank" rel="noopener noreferrer">
+  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="badge">OFFICIAL MV</span></div><h2>Bloom</h2><p>2025.11.25</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
+</a><a class="card mv-gallery-card" data-mv-year="2025" data-type="official" href="https://www.youtube.com/watch?v=ByX8EZq8500" target="_blank" rel="noopener noreferrer">
   <div class="mv-gallery-thumb"><img src="assets/mv/heart-drop.jpg" alt="Heart Drop thumbnail" loading="lazy"></div>
-  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="mv-number">05</span><span class="badge">OFFICIAL MV</span></div><h2>Heart Drop</h2><p>2025.11.06</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
-</a><a class="card mv-gallery-card" href="https://www.youtube.com/watch?v=Ihsh9VRZLlo" target="_blank" rel="noopener noreferrer">
+  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="badge">OFFICIAL MV</span></div><h2>Heart Drop</h2><p>2025.11.06</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
+</a><a class="card mv-gallery-card" data-mv-year="2025" data-type="special" href="https://www.youtube.com/watch?v=Ihsh9VRZLlo" target="_blank" rel="noopener noreferrer">
   <div class="mv-gallery-thumb"><img src="assets/mv/love-frequency.jpg" alt="고백주파수 thumbnail" loading="lazy"></div>
-  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="mv-number">06</span><span class="badge">SPECIAL CLIP</span></div><h2>고백주파수</h2><p>2025.09.17</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
-</a><a class="card mv-gallery-card" href="https://www.youtube.com/watch?v=ZbO9PBdFRdc" target="_blank" rel="noopener noreferrer">
+  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="badge">SPECIAL CLIP</span></div><h2>고백주파수</h2><p>2025.09.17</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
+</a><a class="card mv-gallery-card" data-mv-year="2025" data-type="official" href="https://www.youtube.com/watch?v=ZbO9PBdFRdc" target="_blank" rel="noopener noreferrer">
   <div class="mv-gallery-thumb"><img src="assets/mv/deja-vu.jpg" alt="Deja Vu thumbnail" loading="lazy"></div>
-  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="mv-number">07</span><span class="badge">OFFICIAL MV</span></div><h2>Deja Vu</h2><p>2025.07.02</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
-</a><a class="card mv-gallery-card" href="https://www.youtube.com/watch?v=v5we0mJpoDM" target="_blank" rel="noopener noreferrer">
+  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="badge">OFFICIAL MV</span></div><h2>Deja Vu</h2><p>2025.07.02</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
+</a><a class="card mv-gallery-card" data-mv-year="2025" data-type="special" href="https://www.youtube.com/watch?v=v5we0mJpoDM" target="_blank" rel="noopener noreferrer">
   <div class="mv-gallery-thumb"><img src="assets/mv/mood.jpg" alt="Mood thumbnail" loading="lazy"></div>
-  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="mv-number">08</span><span class="badge">THE FILM</span></div><h2>Mood</h2><p>2025.07.03</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
-</a><a class="card mv-gallery-card" href="https://www.youtube.com/watch?v=WfQ9TeFHJp4" target="_blank" rel="noopener noreferrer">
+  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="badge">THE FILM</span></div><h2>Mood</h2><p>2025.07.03</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
+</a><a class="card mv-gallery-card" data-mv-year="2025" data-type="special" href="https://www.youtube.com/watch?v=WfQ9TeFHJp4" target="_blank" rel="noopener noreferrer">
   <div class="mv-gallery-thumb"><img src="assets/mv/bambambam.jpg" alt="밤밤밤(BamBamBam) thumbnail" loading="lazy"></div>
-  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="mv-number">09</span><span class="badge">OST MV</span></div><h2>밤밤밤(BamBamBam)</h2><p>2025.06.12</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
-</a><a class="card mv-gallery-card" href="https://www.youtube.com/watch?v=h0xUtrb_JBc" target="_blank" rel="noopener noreferrer">
+  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="badge">OST MV</span></div><h2>밤밤밤(BamBamBam)</h2><p>2025.06.12</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
+</a><a class="card mv-gallery-card" data-mv-year="2025" data-type="official" href="https://www.youtube.com/watch?v=h0xUtrb_JBc" target="_blank" rel="noopener noreferrer">
   <div class="mv-gallery-thumb"><img src="assets/mv/glow-up.jpg" alt="Glow Up thumbnail" loading="lazy"></div>
-  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="mv-number">10</span><span class="badge">OFFICIAL MV</span></div><h2>Glow Up</h2><p>2025.02.05</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
-</a><a class="card mv-gallery-card" href="https://www.youtube.com/watch?v=B8JJ8RNM-60" target="_blank" rel="noopener noreferrer">
+  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="badge">OFFICIAL MV</span></div><h2>Glow Up</h2><p>2025.02.05</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
+</a><a class="card mv-gallery-card" data-mv-year="2024" data-type="official" href="https://www.youtube.com/watch?v=B8JJ8RNM-60" target="_blank" rel="noopener noreferrer">
   <div class="mv-gallery-thumb"><img src="assets/mv/pinball.jpg" alt="Pinball thumbnail" loading="lazy"></div>
-  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="mv-number">11</span><span class="badge">OFFICIAL MV</span></div><h2>Pinball</h2><p>2024.09.21</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
-</a><a class="card mv-gallery-card" href="https://www.youtube.com/watch?v=QNXeGm-Wkms" target="_blank" rel="noopener noreferrer">
+  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="badge">OFFICIAL MV</span></div><h2>Pinball</h2><p>2024.09.21</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
+</a><a class="card mv-gallery-card" data-mv-year="2024" data-type="official" href="https://www.youtube.com/watch?v=QNXeGm-Wkms" target="_blank" rel="noopener noreferrer">
   <div class="mv-gallery-thumb"><img src="assets/mv/new-world.jpg" alt="New World thumbnail" loading="lazy"></div>
-  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="mv-number">12</span><span class="badge">OFFICIAL MV</span></div><h2>New World</h2><p>2024.09.12</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
-</a><a class="card mv-gallery-card" href="https://www.youtube.com/watch?v=9XttLI0oH0I" target="_blank" rel="noopener noreferrer">
+  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="badge">OFFICIAL MV</span></div><h2>New World</h2><p>2024.09.12</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
+</a><a class="card mv-gallery-card" data-mv-year="2024" data-type="official" href="https://www.youtube.com/watch?v=9XttLI0oH0I" target="_blank" rel="noopener noreferrer">
   <div class="mv-gallery-thumb"><img src="assets/mv/love-attack.jpg" alt="LOVE ATTACK thumbnail" loading="lazy"></div>
-  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="mv-number">13</span><span class="badge">OFFICIAL MV</span></div><h2>LOVE ATTACK</h2><p>2024.08.27</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
-</a><a class="card mv-gallery-card" href="https://www.youtube.com/watch?v=zpSejlkSXLA" target="_blank" rel="noopener noreferrer">
+  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="badge">OFFICIAL MV</span></div><h2>LOVE ATTACK</h2><p>2024.08.27</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
+</a><a class="card mv-gallery-card" data-mv-year="2024" data-type="official" href="https://www.youtube.com/watch?v=zpSejlkSXLA" target="_blank" rel="noopener noreferrer">
   <div class="mv-gallery-thumb"><img src="assets/mv/uhuh.jpg" alt="UhUh thumbnail" loading="lazy"></div>
-  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="mv-number">14</span><span class="badge">OFFICIAL MV</span></div><h2>UhUh</h2><p>2024.03.26</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
-</a><a class="card mv-gallery-card" href="https://www.youtube.com/watch?v=uDYy2UyO1X4" target="_blank" rel="noopener noreferrer">
+  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="badge">OFFICIAL MV</span></div><h2>UhUh</h2><p>2024.03.26</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
+</a><a class="card mv-gallery-card" data-mv-year="2024" data-type="official" href="https://www.youtube.com/watch?v=uDYy2UyO1X4" target="_blank" rel="noopener noreferrer">
   <div class="mv-gallery-thumb"><img src="assets/mv/yoyo.jpg" alt="YoYo thumbnail" loading="lazy"></div>
-  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="mv-number">15</span><span class="badge">OFFICIAL MV</span></div><h2>YoYo</h2><p>2024.02.29</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
+  <div class="mv-gallery-body"><div class="mv-gallery-meta"><span class="badge">OFFICIAL MV</span></div><h2>YoYo</h2><p>2024.02.29</p><span class="mv-gallery-link">公式動画を見る ↗</span></div>
 </a>
 </section>
 </main>
@@ -474,4 +489,5 @@ html.light-mode .mv-gallery-body p{color:#654d5b!important}
 })();
 
 </script>
+<script id="mv-filter-script">(()=>{const buttons=[...document.querySelectorAll('[data-mv-filter]')],cards=[...document.querySelectorAll('.mv-gallery-card')];buttons.forEach(btn=>btn.addEventListener('click',()=>{const f=btn.dataset.mvFilter;buttons.forEach(b=>{b.classList.toggle('active',b===btn);b.setAttribute('aria-pressed',String(b===btn))});cards.forEach(c=>{c.hidden=!(f==='all'||c.dataset.mvYear===f||c.dataset.type===f)})}))})();</script>
 </body></html>
