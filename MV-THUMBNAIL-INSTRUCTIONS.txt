@@ -1,0 +1,1 @@
+MV thumbnails have been integrated into assets/mv/ using the provided images.

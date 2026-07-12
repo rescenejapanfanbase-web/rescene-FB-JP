@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff6ea9"/><stop offset="0.55" stop-color="#b69cff"/><stop offset="1" stop-color="#75bfff"/></linearGradient></defs>
+<rect width="1600" height="900" fill="#141526"/><circle cx="1360" cy="120" r="420" fill="url(#g)" opacity=".32"/><circle cx="180" cy="780" r="360" fill="#ff6ea9" opacity=".18"/>
+<text x="100" y="150" fill="#ffffff" opacity=".75" font-family="Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="8">RESCENE</text>
+<text x="100" y="680" fill="#ffffff" font-family="Arial,sans-serif" font-size="100" font-weight="900">Mood: The film</text>
+<text x="105" y="760" fill="#ffffff" opacity=".7" font-family="Arial,sans-serif" font-size="34">CUSTOM THUMBNAIL PLACEHOLDER</text>
+</svg>
