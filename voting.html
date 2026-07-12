@@ -360,6 +360,21 @@ html.light-mode .member-detail{color:#654d5b !important;}
 /* === END LIGHT MODE MOBILE MENU VISIBILITY FIX === */
 </style>
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
+
+<style id="voting-page-style">
+.voting-title-jp{white-space:nowrap}.voting-jump{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.voting-jump a{display:inline-flex;align-items:center;gap:7px;padding:10px 14px;border:1px solid var(--border);border-radius:999px;background:var(--soft-bg);font-size:.82rem;font-weight:900;transition:.2s}.voting-jump a:hover{transform:translateY(-2px);border-color:rgba(255,111,174,.55);color:var(--pink-soft)}
+.vote-status{display:grid;gap:18px;padding:24px;background:radial-gradient(circle at 92% 8%,rgba(255,111,174,.18),transparent 36%),linear-gradient(145deg,rgba(48,25,44,.96),rgba(32,18,32,.90));border:1px solid rgba(255,179,214,.22);border-radius:24px}.vote-status-main{display:flex;align-items:flex-start;gap:15px}.status-dot{width:13px;height:13px;border-radius:50%;margin-top:8px;background:var(--pink);box-shadow:0 0 0 7px rgba(255,111,174,.11),0 0 24px rgba(255,111,174,.45);flex:0 0 auto}.vote-status h2{margin:0 0 5px;font-size:1.25rem}.vote-status p{margin:0;color:var(--muted)}.status-meta{display:flex;flex-wrap:wrap;gap:8px}.status-meta span{padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.045);border:1px solid var(--border);font-size:.75rem;font-weight:800;color:var(--muted)}
+.vote-overview{display:grid;grid-template-columns:1fr;gap:16px}.program-card{position:relative;overflow:hidden}.program-card::after{content:attr(data-mark);position:absolute;right:12px;bottom:-24px;font-size:5rem;font-weight:900;color:rgba(255,155,199,.045);line-height:1;pointer-events:none}.program-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:15px}.program-name{display:flex;align-items:center;gap:12px}.program-icon{display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:linear-gradient(135deg,rgba(255,111,174,.24),rgba(200,164,255,.18));border:1px solid rgba(255,179,214,.20);font-size:.79rem;font-weight:900;color:#ffd9ea;letter-spacing:.03em}.program-card h3{margin:0;font-size:1.05rem}.program-card small{display:block;color:var(--muted);font-weight:700}.vote-type{padding:5px 9px;border-radius:999px;border:1px solid var(--border);background:var(--soft-bg);font-size:.68rem;font-weight:900;color:var(--pink-soft);white-space:nowrap}.program-data{display:grid;gap:9px;margin:0}.program-data div{display:grid;grid-template-columns:82px 1fr;gap:10px;padding-top:9px;border-top:1px solid var(--border)}.program-data dt{font-size:.75rem;font-weight:900;color:var(--muted)}.program-data dd{margin:0;font-size:.84rem;font-weight:800}.program-note{margin:14px 0 0;padding:10px 12px;border-radius:12px;background:rgba(255,111,174,.06);font-size:.76rem;color:var(--muted)}
+.prepare-grid{display:grid;grid-template-columns:1fr;gap:16px}.prepare-card{position:relative;padding-left:76px;min-height:130px}.prepare-number{position:absolute;left:22px;top:19px;font-size:2.5rem;line-height:1;font-weight:900;color:rgba(255,111,174,.34)}.prepare-card h3{margin:0 0 7px}.prepare-card p{margin:0;color:var(--muted);font-size:.87rem}
+.app-list{display:grid;grid-template-columns:1fr;gap:16px}.app-card{display:flex;flex-direction:column;gap:17px}.app-card-head{display:flex;gap:14px;align-items:center}.app-logo-text{display:grid;place-items:center;width:58px;height:58px;border-radius:17px;background:linear-gradient(145deg,rgba(255,111,174,.25),rgba(200,164,255,.16));border:1px solid rgba(255,179,214,.20);font-size:.73rem;font-weight:900;text-align:center;line-height:1.1;color:#ffe0ee;flex:0 0 auto}.app-card h3{margin:0}.app-card p{margin:2px 0 0;color:var(--muted);font-size:.82rem}.app-tags{display:flex;flex-wrap:wrap;gap:7px}.app-tags span{padding:5px 9px;border-radius:999px;background:rgba(255,255,255,.04);border:1px solid var(--border);font-size:.68rem;font-weight:800;color:var(--muted)}.store-buttons{display:flex;flex-wrap:wrap;gap:9px;margin-top:auto}.store-buttons a{display:inline-flex;align-items:center;justify-content:center;min-width:114px;padding:9px 13px;border-radius:12px;border:1px solid var(--border);background:var(--soft-bg);font-size:.75rem;font-weight:900;transition:.2s}.store-buttons a:hover{transform:translateY(-2px);border-color:rgba(255,111,174,.50);color:var(--pink-soft)}
+.guide-stack{display:grid;gap:15px}.guide-details{border:1px solid var(--border);border-radius:20px;background:linear-gradient(145deg,rgba(48,25,44,.90),rgba(32,18,32,.84));overflow:hidden;box-shadow:var(--shadow)}.guide-details summary{display:flex;align-items:center;justify-content:space-between;gap:18px;cursor:pointer;padding:19px 21px;font-weight:900;list-style:none}.guide-details summary::-webkit-details-marker{display:none}.guide-details summary::after{content:'＋';font-size:1.3rem;color:var(--pink-soft);transition:.2s}.guide-details[open] summary::after{content:'−'}.guide-summary-title{display:flex;align-items:center;gap:12px}.guide-summary-title span:first-child{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:rgba(255,111,174,.12);color:var(--pink-soft);font-size:.72rem}.guide-summary-title small{display:block;color:var(--muted);font-size:.7rem;margin-top:2px}.guide-content{padding:0 21px 22px;border-top:1px solid var(--border)}.guide-steps{display:grid;grid-template-columns:1fr;gap:15px;padding-top:19px}.guide-step{overflow:hidden;border:1px solid var(--border);border-radius:17px;background:rgba(255,255,255,.025)}.guide-placeholder{display:grid;place-items:center;min-height:220px;padding:22px;text-align:center;background:linear-gradient(135deg,rgba(255,111,174,.10),rgba(200,164,255,.06));border-bottom:1px solid var(--border);position:relative}.guide-placeholder::before{content:'IMAGE';position:absolute;font-size:3.7rem;font-weight:900;color:rgba(255,255,255,.025);letter-spacing:.12em}.guide-placeholder strong{position:relative;display:block;color:var(--pink-soft)}.guide-placeholder code{position:relative;display:block;margin-top:8px;padding:6px 9px;border-radius:9px;background:rgba(0,0,0,.16);font-size:.68rem;color:var(--muted);word-break:break-all}.guide-caption{padding:14px}.guide-caption b{display:block;margin-bottom:4px}.guide-caption p{margin:0;color:var(--muted);font-size:.78rem}.guide-note{margin:16px 0 0;padding:12px 14px;border-left:3px solid var(--pink);background:rgba(255,111,174,.06);border-radius:0 12px 12px 0;color:var(--muted);font-size:.78rem}
+.voting-rules{display:grid;grid-template-columns:1fr;gap:14px}.rule-card{display:flex;gap:14px;align-items:flex-start}.rule-icon{display:grid;place-items:center;width:39px;height:39px;border-radius:12px;background:rgba(255,111,174,.10);color:var(--pink-soft);font-weight:900;flex:0 0 auto}.rule-card h3{margin:0 0 4px;font-size:.95rem}.rule-card p{margin:0;color:var(--muted);font-size:.8rem}.update-note{margin-top:18px;font-size:.76rem;color:var(--muted)}
+html.light-mode .vote-status,html.light-mode .guide-details{background:linear-gradient(145deg,rgba(255,255,255,.97),rgba(255,246,251,.94))}html.light-mode .guide-placeholder{background:linear-gradient(135deg,rgba(255,155,199,.18),rgba(200,164,255,.10))}html.light-mode .guide-placeholder::before{color:rgba(184,63,120,.035)}html.light-mode .app-logo-text,html.light-mode .program-icon{color:#8d3d65}
+@media(min-width:640px){.vote-overview,.prepare-grid,.app-list,.voting-rules{grid-template-columns:repeat(2,minmax(0,1fr))}.guide-steps{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(min-width:980px){.vote-overview{grid-template-columns:repeat(3,minmax(0,1fr))}.prepare-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.app-list{grid-template-columns:repeat(3,minmax(0,1fr))}.voting-rules{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:639px){.voting-jump{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.voting-jump a{justify-content:center;text-align:center}.program-data div{grid-template-columns:74px 1fr}.guide-placeholder{min-height:180px}}
+</style>
+
 </head>
 <body class="">
 <header>
@@ -393,9 +408,147 @@ html.light-mode .member-detail{color:#654d5b !important;}
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
 <main class="container">
-<section class="page-header section" id="top"><span class="page-kicker">VOTING GUIDE</span><h1>投票ガイド</h1><p>音楽番組や各種投票に参加するときの共通ポイント。</p></section>
-<section class="section"><div class="route-grid"><article class="card"><span class="route-num">01</span><h3>公式案内を確認</h3><p class="subtle">投票期間、使用アプリ、締切時刻を確認します。</p></article><article class="card"><span class="route-num">02</span><h3>事前に準備</h3><p class="subtle">アプリ登録や投票券の収集は余裕をもって進めます。</p></article><article class="card"><span class="route-num">03</span><h3>時間に注意</h3><p class="subtle">韓国時間と日本時間、ライブ投票の時間を確認します。</p></article><article class="card"><span class="route-num">04</span><h3>結果を共有</h3><p class="subtle">個人情報を隠し、必要な範囲で参加報告を共有します。</p></article></div></section>
-<section class="section"><div class="card notice"><strong>掲載予定</strong><p>カムバック時には、対象番組・アプリ・投票期間・配点をこのページに追加します。</p></div></section>
+<section class="page-header section" id="top">
+  <span class="page-kicker">VOTING GUIDE</span>
+  <h1>RESCENE <span class="voting-title-jp">投票ガイド</span></h1>
+  <p>音楽番組の投票アプリ、事前準備、投票券の集め方をひとつのページにまとめています。カムバック前から準備して、投票開始後すぐに参加できる状態にしておきましょう。</p>
+  <nav class="voting-jump" aria-label="投票ガイド内メニュー">
+    <a href="#quick-table">▦ 投票早見表</a>
+    <a href="#preparation">✓ 事前準備</a>
+    <a href="#apps">▣ アプリ一覧</a>
+    <a href="#image-guides">▧ 画像ガイド</a>
+  </nav>
+</section>
+
+<section class="section" aria-labelledby="current-vote-title">
+  <div class="vote-status">
+    <div class="vote-status-main">
+      <span class="status-dot" aria-hidden="true"></span>
+      <div>
+        <span class="section-kicker">CURRENT STATUS</span>
+        <h2 id="current-vote-title">現在の投票案内</h2>
+        <p>現在、常設で案内しているRESCENE対象の投票はありません。投票が始まり次第、対象番組・期間・締切・投票方法をここに掲載します。</p>
+      </div>
+    </div>
+    <div class="status-meta">
+      <span>最終確認：2026年7月</span>
+      <span>韓国時間＝日本時間</span>
+      <span>公式告知を優先</span>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="quick-table" aria-labelledby="quick-table-title">
+  <div class="section-heading">
+    <div><span class="section-kicker">QUICK TABLE</span><h2 class="section-title" id="quick-table-title">投票早見表</h2></div>
+  </div>
+  <div class="vote-overview">
+    <article class="card program-card" data-mark="SC">
+      <div class="program-top"><div class="program-name"><span class="program-icon">SC</span><div><h3>SHOW CHAMPION</h3><small>MBC M</small></div></div><span class="vote-type">事前投票</span></div>
+      <dl class="program-data"><div><dt>使用アプリ</dt><dd>IDOLCHAMP</dd></div><div><dt>準備するもの</dt><dd>CHAMSIM</dd></div><div><dt>参加前</dt><dd>ログイン・投票通貨の収集</dd></div></dl>
+      <p class="program-note">対象曲や投票回数は、投票ページ内の案内を必ず確認してください。</p>
+    </article>
+    <article class="card program-card" data-mark="MC">
+      <div class="program-top"><div class="program-name"><span class="program-icon">MC</span><div><h3>M COUNTDOWN</h3><small>Mnet</small></div></div><span class="vote-type">事前・ライブ</span></div>
+      <dl class="program-data"><div><dt>使用アプリ</dt><dd>Mnet Plus</dd></div><div><dt>準備するもの</dt><dd>投票券不要</dd></div><div><dt>参加前</dt><dd>アカウント作成・ログイン</dd></div></dl>
+      <p class="program-note">投票受付中のみ投票メニューが表示されます。ライブ投票は対象者発表後に参加します。</p>
+    </article>
+    <article class="card program-card" data-mark="MB">
+      <div class="program-top"><div class="program-name"><span class="program-icon">MB</span><div><h3>Music Bank</h3><small>KBS2</small></div></div><span class="vote-type">事前投票</span></div>
+      <dl class="program-data"><div><dt>使用アプリ</dt><dd>Fancast</dd></div><div><dt>準備するもの</dt><dd>Hearts</dd></div><div><dt>参加前</dt><dd>ログイン・Heartsの収集</dd></div></dl>
+      <p class="program-note">Music Bankの投票バナーから対象投票へ進みます。</p>
+    </article>
+    <article class="card program-card" data-mark="MBC">
+      <div class="program-top"><div class="program-name"><span class="program-icon">MBC</span><div><h3>Show! Music Core</h3><small>MBC</small></div></div><span class="vote-type">事前・ライブ</span></div>
+      <dl class="program-data"><div><dt>使用アプリ</dt><dd>Mubeat</dd></div><div><dt>準備するもの</dt><dd>Heart Beats</dd></div><div><dt>参加前</dt><dd>ログイン・Heart Beatsの収集</dd></div></dl>
+      <p class="program-note">投票種別によって使用する投票通貨や参加条件が異なる場合があります。</p>
+    </article>
+    <article class="card program-card" data-mark="SBS">
+      <div class="program-top"><div class="program-name"><span class="program-icon">SBS</span><div><h3>Inkigayo</h3><small>SBS</small></div></div><span class="vote-type">事前投票</span></div>
+      <dl class="program-data"><div><dt>使用アプリ</dt><dd>LiNC</dd></div><div><dt>準備するもの</dt><dd>ファンポイント</dd></div><div><dt>参加前</dt><dd>ログイン・ポイントの収集</dd></div></dl>
+      <p class="program-note">LiNCはInkigayoの事前投票で使用します。</p>
+    </article>
+    <article class="card program-card" data-mark="LIVE">
+      <div class="program-top"><div class="program-name"><span class="program-icon">H</span><div><h3>Inkigayo</h3><small>SBS</small></div></div><span class="vote-type">リアルタイム</span></div>
+      <dl class="program-data"><div><dt>使用アプリ</dt><dd>HIGHER</dd></div><div><dt>準備するもの</dt><dd>ルビー</dd></div><div><dt>参加前</dt><dd>ログイン・ルビーの収集</dd></div></dl>
+      <p class="program-note">リアルタイム投票は放送中の短い時間だけ行われます。事前にアプリを開ける状態にしてください。</p>
+    </article>
+  </div>
+  <p class="update-note">※ 配点、投票期間、必要ポイント、投票可能回数は変更される場合があります。カムバック時にRESCENE JAPAN FANBASEの案内と各公式投票画面を確認してください。</p>
+</section>
+
+<section class="section" id="preparation" aria-labelledby="preparation-title">
+  <div class="section-heading"><div><span class="section-kicker">BEFORE COMEBACK</span><h2 class="section-title" id="preparation-title">カムバック前にやること</h2></div></div>
+  <div class="prepare-grid">
+    <article class="card prepare-card"><span class="prepare-number">01</span><h3>アプリをインストール</h3><p>下のアプリ一覧から必要なアプリを入れ、アップデートも済ませておきます。</p></article>
+    <article class="card prepare-card"><span class="prepare-number">02</span><h3>アカウントを作成</h3><p>メール認証やニックネーム設定まで完了し、ログインできるか確認します。</p></article>
+    <article class="card prepare-card"><span class="prepare-number">03</span><h3>投票通貨を集める</h3><p>ログイン、広告視聴、ミッションなどで、期限のある通貨から計画的に集めます。</p></article>
+  </div>
+</section>
+
+<section class="section" id="apps" aria-labelledby="apps-title">
+  <div class="section-heading"><div><span class="section-kicker">VOTING APPS</span><h2 class="section-title" id="apps-title">投票アプリ一覧</h2></div></div>
+  <div class="app-list">
+    <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">IDOL<br>CHAMP</span><div><h3>IDOLCHAMP</h3><p>SHOW CHAMPION</p></div></div><div class="app-tags"><span>CHAMSIM</span><span>事前投票</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/idolchamp/id1185735018" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=com.nwz.ichampclient" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
+    <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">Mnet<br>Plus</span><div><h3>Mnet Plus</h3><p>M COUNTDOWN</p></div></div><div class="app-tags"><span>投票券不要</span><span>事前・ライブ</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/mnet-plus/id6443405421" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=world.mnetplus" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
+    <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">FAN<br>CAST</span><div><h3>Fancast</h3><p>Music Bank</p></div></div><div class="app-tags"><span>Hearts</span><span>事前投票</span></div><div class="store-buttons"><a href="https://apps.apple.com/app/id1641638840" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=com.contentsmadang.fancast" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
+    <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">Mu<br>beat</span><div><h3>Mubeat</h3><p>Show! Music Core</p></div></div><div class="app-tags"><span>Heart Beats</span><span>事前・ライブ</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/id1320789688" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=com.vlending.apps.mubeat" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
+    <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">LiNC</span><div><h3>LiNC</h3><p>Inkigayo 事前投票</p></div></div><div class="app-tags"><span>ファンポイント</span><span>事前投票</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/id6467824343" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=io.stayge.youmeonapp" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
+    <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">HIGHER</span><div><h3>HIGHER</h3><p>Inkigayo リアルタイム投票</p></div></div><div class="app-tags"><span>ルビー</span><span>リアルタイム</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/id1672001935" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=com.dalcomsoft.mysu.a" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
+  </div>
+</section>
+
+<section class="section" id="image-guides" aria-labelledby="image-guides-title">
+  <div class="section-heading"><div><span class="section-kicker">SCREENSHOT GUIDE</span><h2 class="section-title" id="image-guides-title">画像付き投票ガイド</h2></div></div>
+  <div class="card notice"><strong>画像は後から追加します</strong><p>各アプリ3枚を基本に、ホーム画面・投票画面・投票通貨の集め方を掲載できる枠を用意しました。画像を受け取り次第、この場所へ差し替えます。</p></div>
+  <div class="guide-stack" style="margin-top:18px">
+    <details class="guide-details" open><summary><span class="guide-summary-title"><span>IC</span><span>IDOLCHAMP<small>SHOW CHAMPION</small></span></span></summary><div class="guide-content"><div class="guide-steps">
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>idolchamp-01-home.jpg</code></div></div><div class="guide-caption"><b>1. ホーム</b><p>アプリを開き、投票メニューへ進みます。</p></div></article>
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>idolchamp-02-vote.jpg</code></div></div><div class="guide-caption"><b>2. 投票一覧</b><p>SHOW CHAMPIONの対象投票を選択します。</p></div></article>
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>idolchamp-03-chamsim.jpg</code></div></div><div class="guide-caption"><b>3. CHAMSIM</b><p>ミッションや広告などで必要な通貨を準備します。</p></div></article>
+    </div><p class="guide-note">投票前にRESCENEの曲名・アーティスト名・投票締切を確認してください。</p></div></details>
+
+    <details class="guide-details"><summary><span class="guide-summary-title"><span>M+</span><span>Mnet Plus<small>M COUNTDOWN</small></span></span></summary><div class="guide-content"><div class="guide-steps">
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>mnetplus-01-home.jpg</code></div></div><div class="guide-caption"><b>1. ホーム</b><p>M COUNTDOWNのコンテンツを開きます。</p></div></article>
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>mnetplus-02-mcountdown.jpg</code></div></div><div class="guide-caption"><b>2. 投票ページ</b><p>受付中の事前投票またはライブ投票へ進みます。</p></div></article>
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>mnetplus-03-vote.jpg</code></div></div><div class="guide-caption"><b>3. RESCENEを選択</b><p>曲名を確認し、画面の案内に沿って投票を完了します。</p></div></article>
+    </div><p class="guide-note">Mnet Plusは投票通貨を集める形式ではありません。事前にアカウントへログインしてください。</p></div></details>
+
+    <details class="guide-details"><summary><span class="guide-summary-title"><span>FC</span><span>Fancast<small>Music Bank</small></span></span></summary><div class="guide-content"><div class="guide-steps">
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>fancast-01-home.jpg</code></div></div><div class="guide-caption"><b>1. ホーム</b><p>Music Bankの投票バナーを探します。</p></div></article>
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>fancast-02-musicbank.jpg</code></div></div><div class="guide-caption"><b>2. Music Bank</b><p>対象回の事前投票を選択します。</p></div></article>
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>fancast-03-hearts.jpg</code></div></div><div class="guide-caption"><b>3. Hearts</b><p>広告やミッションで投票に必要なHeartsを集めます。</p></div></article>
+    </div></div></details>
+
+    <details class="guide-details"><summary><span class="guide-summary-title"><span>MB</span><span>Mubeat<small>Show! Music Core</small></span></span></summary><div class="guide-content"><div class="guide-steps">
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>mubeat-01-home.jpg</code></div></div><div class="guide-caption"><b>1. ホーム</b><p>投票タブからMusic Coreの投票へ進みます。</p></div></article>
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>mubeat-02-musiccore.jpg</code></div></div><div class="guide-caption"><b>2. 投票画面</b><p>RESCENEが対象に含まれていることを確認します。</p></div></article>
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>mubeat-03-heartbeats.jpg</code></div></div><div class="guide-caption"><b>3. Heart Beats</b><p>期限と種類を確認しながら投票通貨を集めます。</p></div></article>
+    </div></div></details>
+
+    <details class="guide-details"><summary><span class="guide-summary-title"><span>Li</span><span>LiNC<small>Inkigayo 事前投票</small></span></span></summary><div class="guide-content"><div class="guide-steps">
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>linc-01-home.jpg</code></div></div><div class="guide-caption"><b>1. ホーム</b><p>Inkigayoの投票メニューを開きます。</p></div></article>
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>linc-02-inkigayo.jpg</code></div></div><div class="guide-caption"><b>2. 事前投票</b><p>対象回を選び、RESCENEへ投票します。</p></div></article>
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>linc-03-fanpoint.jpg</code></div></div><div class="guide-caption"><b>3. ファンポイント</b><p>ポイント獲得メニューから事前に準備します。</p></div></article>
+    </div></div></details>
+
+    <details class="guide-details"><summary><span class="guide-summary-title"><span>H</span><span>HIGHER<small>Inkigayo リアルタイム投票</small></span></span></summary><div class="guide-content"><div class="guide-steps">
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>higher-01-home.jpg</code></div></div><div class="guide-caption"><b>1. ホーム</b><p>Inkigayoのリアルタイム投票入口を確認します。</p></div></article>
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>higher-02-livevote.jpg</code></div></div><div class="guide-caption"><b>2. ライブ投票</b><p>放送中に候補が表示されたらRESCENEを選択します。</p></div></article>
+      <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>higher-03-ruby.jpg</code></div></div><div class="guide-caption"><b>3. ルビー</b><p>ライブ投票前に必要数を確認して集めておきます。</p></div></article>
+    </div><p class="guide-note">リアルタイム投票は受付時間が短いため、放送前にログインと通信環境を確認してください。</p></div></details>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="rules-title">
+  <div class="section-heading"><div><span class="section-kicker">IMPORTANT</span><h2 class="section-title" id="rules-title">投票するときの注意</h2></div></div>
+  <div class="voting-rules">
+    <article class="card rule-card"><span class="rule-icon">1</span><div><h3>公式画面を優先</h3><p>アプリの仕様変更や臨時ルールがある場合、最新の公式案内を優先します。</p></div></article>
+    <article class="card rule-card"><span class="rule-icon">2</span><div><h3>曲名を確認</h3><p>同名曲や候補の取り違えを防ぐため、RESCENEと対象曲を確認してから投票します。</p></div></article>
+    <article class="card rule-card"><span class="rule-icon">3</span><div><h3>期限を確認</h3><p>日本と韓国は同じ時刻ですが、投票締切の日付と曜日を必ず確認してください。</p></div></article>
+    <article class="card rule-card"><span class="rule-icon">4</span><div><h3>無理なく参加</h3><p>課金は必須ではありません。無料でできる範囲から安全に参加してください。</p></div></article>
+  </div>
+</section>
 </main>
 <footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
 <script>
