@@ -358,6 +358,11 @@ html.light-mode .mobile-group{
 }
 html.light-mode .member-detail{color:#654d5b !important;}
 /* === END LIGHT MODE MOBILE MENU VISIBILITY FIX === */
+
+/* THE SHOW / score distribution additions */
+.score-distribution-grid{display:grid;grid-template-columns:1fr;gap:18px}
+.score-card h3{margin:0 0 4px}.score-card .score-meta{margin:0 0 14px;color:var(--muted);font-size:.88rem}.score-list{display:grid;gap:9px;margin:0;padding:0;list-style:none}.score-list li{display:flex;justify-content:space-between;gap:14px;padding:9px 11px;border-radius:12px;background:var(--soft-bg);border:1px solid var(--border)}.score-list strong{color:var(--pink-soft);white-space:nowrap}.score-note{margin:13px 0 0;color:var(--muted);font-size:.86rem}.gem-grid{display:grid;grid-template-columns:1fr;gap:14px;margin:16px 0}.gem-card{padding:16px;border-radius:16px;background:var(--soft-bg);border:1px solid var(--border)}.gem-card h4{margin:0 0 6px;color:var(--pink-soft)}.gem-card p{margin:0}.the-show-steps{margin:15px 0 0;padding-left:1.25rem}.the-show-steps li{margin:8px 0}.the-show-steps strong{color:var(--pink-soft)}
+@media(min-width:720px){.score-distribution-grid{grid-template-columns:repeat(2,1fr)}.gem-grid{grid-template-columns:repeat(2,1fr)}}
 </style>
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
 
@@ -369,9 +374,10 @@ html.light-mode .member-detail{color:#654d5b !important;}
 .app-list{display:grid;grid-template-columns:1fr;gap:16px}.app-card{display:flex;flex-direction:column;gap:17px}.app-card-head{display:flex;gap:14px;align-items:center}.app-logo-text{display:grid;place-items:center;width:58px;height:58px;border-radius:17px;background:linear-gradient(145deg,rgba(255,111,174,.25),rgba(200,164,255,.16));border:1px solid rgba(255,179,214,.20);font-size:.73rem;font-weight:900;text-align:center;line-height:1.1;color:#ffe0ee;flex:0 0 auto}.app-card h3{margin:0}.app-card p{margin:2px 0 0;color:var(--muted);font-size:.82rem}.app-tags{display:flex;flex-wrap:wrap;gap:7px}.app-tags span{padding:5px 9px;border-radius:999px;background:rgba(255,255,255,.04);border:1px solid var(--border);font-size:.68rem;font-weight:800;color:var(--muted)}.store-buttons{display:flex;flex-wrap:wrap;gap:9px;margin-top:auto}.store-buttons a{display:inline-flex;align-items:center;justify-content:center;min-width:114px;padding:9px 13px;border-radius:12px;border:1px solid var(--border);background:var(--soft-bg);font-size:.75rem;font-weight:900;transition:.2s}.store-buttons a:hover{transform:translateY(-2px);border-color:rgba(255,111,174,.50);color:var(--pink-soft)}
 .guide-stack{display:grid;gap:15px}.guide-details{border:1px solid var(--border);border-radius:20px;background:linear-gradient(145deg,rgba(48,25,44,.90),rgba(32,18,32,.84));overflow:hidden;box-shadow:var(--shadow)}.guide-details summary{display:flex;align-items:center;justify-content:space-between;gap:18px;cursor:pointer;padding:19px 21px;font-weight:900;list-style:none}.guide-details summary::-webkit-details-marker{display:none}.guide-details summary::after{content:'＋';font-size:1.3rem;color:var(--pink-soft);transition:.2s}.guide-details[open] summary::after{content:'−'}.guide-summary-title{display:flex;align-items:center;gap:12px}.guide-summary-title span:first-child{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:rgba(255,111,174,.12);color:var(--pink-soft);font-size:.72rem}.guide-summary-title small{display:block;color:var(--muted);font-size:.7rem;margin-top:2px}.guide-content{padding:0 21px 22px;border-top:1px solid var(--border)}.guide-steps{display:grid;grid-template-columns:1fr;gap:15px;padding-top:19px}.guide-step{overflow:hidden;border:1px solid var(--border);border-radius:17px;background:rgba(255,255,255,.025)}.guide-placeholder{display:grid;place-items:center;min-height:220px;padding:22px;text-align:center;background:linear-gradient(135deg,rgba(255,111,174,.10),rgba(200,164,255,.06));border-bottom:1px solid var(--border);position:relative}.guide-placeholder::before{content:'IMAGE';position:absolute;font-size:3.7rem;font-weight:900;color:rgba(255,255,255,.025);letter-spacing:.12em}.guide-placeholder strong{position:relative;display:block;color:var(--pink-soft)}.guide-placeholder code{position:relative;display:block;margin-top:8px;padding:6px 9px;border-radius:9px;background:rgba(0,0,0,.16);font-size:.68rem;color:var(--muted);word-break:break-all}.guide-caption{padding:14px}.guide-caption b{display:block;margin-bottom:4px}.guide-caption p{margin:0;color:var(--muted);font-size:.78rem}.guide-note{margin:16px 0 0;padding:12px 14px;border-left:3px solid var(--pink);background:rgba(255,111,174,.06);border-radius:0 12px 12px 0;color:var(--muted);font-size:.78rem}
 .voting-rules{display:grid;grid-template-columns:1fr;gap:14px}.rule-card{display:flex;gap:14px;align-items:flex-start}.rule-icon{display:grid;place-items:center;width:39px;height:39px;border-radius:12px;background:rgba(255,111,174,.10);color:var(--pink-soft);font-weight:900;flex:0 0 auto}.rule-card h3{margin:0 0 4px;font-size:.95rem}.rule-card p{margin:0;color:var(--muted);font-size:.8rem}.update-note{margin-top:18px;font-size:.76rem;color:var(--muted)}
+.score-image-grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}.score-image-card{padding:0;overflow:hidden}.score-figure{margin:0;border-bottom:1px solid var(--border);background:rgba(255,255,255,.03)}.score-figure img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}.score-caption{padding:16px 18px 18px}.score-caption h3{margin:0 0 4px;font-size:1.02rem}.score-caption p{margin:0;color:var(--muted);font-size:.82rem}.text-score-details{margin-top:18px;padding:0;overflow:hidden}.text-score-details summary{cursor:pointer;list-style:none;padding:18px 20px;font-weight:900}.text-score-details summary::-webkit-details-marker{display:none}.text-score-details summary::after{content:"＋";float:right;color:var(--pink-soft);font-size:1.1rem}.text-score-details[open] summary::after{content:"−"}.text-score-content{padding:0 18px 18px;border-top:1px solid var(--border)}
 html.light-mode .vote-status,html.light-mode .guide-details{background:linear-gradient(145deg,rgba(255,255,255,.97),rgba(255,246,251,.94))}html.light-mode .guide-placeholder{background:linear-gradient(135deg,rgba(255,155,199,.18),rgba(200,164,255,.10))}html.light-mode .guide-placeholder::before{color:rgba(184,63,120,.035)}html.light-mode .app-logo-text,html.light-mode .program-icon{color:#8d3d65}
-@media(min-width:640px){.vote-overview,.prepare-grid,.app-list,.voting-rules{grid-template-columns:repeat(2,minmax(0,1fr))}.guide-steps{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media(min-width:980px){.vote-overview{grid-template-columns:repeat(3,minmax(0,1fr))}.prepare-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.app-list{grid-template-columns:repeat(3,minmax(0,1fr))}.voting-rules{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(min-width:640px){.vote-overview,.prepare-grid,.app-list,.voting-rules,.score-image-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.guide-steps{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(min-width:980px){.vote-overview{grid-template-columns:repeat(3,minmax(0,1fr))}.prepare-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.app-list{grid-template-columns:repeat(3,minmax(0,1fr))}.voting-rules{grid-template-columns:repeat(4,minmax(0,1fr))}.score-image-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:639px){.voting-jump{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.voting-jump a{justify-content:center;text-align:center}.program-data div{grid-template-columns:74px 1fr}.guide-placeholder{min-height:180px}}
 </style>
 
@@ -414,6 +420,7 @@ html.light-mode .vote-status,html.light-mode .guide-details{background:linear-gr
   <p>音楽番組の投票アプリ、事前準備、投票券の集め方をひとつのページにまとめています。カムバック前から準備して、投票開始後すぐに参加できる状態にしておきましょう。</p>
   <nav class="voting-jump" aria-label="投票ガイド内メニュー">
     <a href="#quick-table">▦ 投票早見表</a>
+    <a href="#score-distribution">◔ スコア配分</a>
     <a href="#preparation">✓ 事前準備</a>
     <a href="#apps">▣ アプリ一覧</a>
     <a href="#image-guides">▧ 画像ガイド</a>
@@ -443,6 +450,11 @@ html.light-mode .vote-status,html.light-mode .guide-details{background:linear-gr
     <div><span class="section-kicker">QUICK TABLE</span><h2 class="section-title" id="quick-table-title">投票早見表</h2></div>
   </div>
   <div class="vote-overview">
+    <article class="card program-card" data-mark="TS">
+      <div class="program-top"><div class="program-name"><span class="program-icon">TS</span><div><h3>THE SHOW</h3><small>SBS M・火曜日</small></div></div><span class="vote-type">事前投票</span></div>
+      <dl class="program-data"><div><dt>使用アプリ</dt><dd>BIGC</dd></div><div><dt>準備するもの</dt><dd>ROYAL GEM / FREE GEM</dd></div><div><dt>投票レート</dt><dd>1票＝20 ROYAL / 400 FREE</dd></div></dl>
+      <p class="program-note">「THE SHOW 投票」→「THE K-POP」→「PRE-VOTE 1st Place Nominees」からRESCENEへ投票します。</p>
+    </article>
     <article class="card program-card" data-mark="SC">
       <div class="program-top"><div class="program-name"><span class="program-icon">SC</span><div><h3>SHOW CHAMPION</h3><small>MBC M</small></div></div><span class="vote-type">事前投票</span></div>
       <dl class="program-data"><div><dt>使用アプリ</dt><dd>IDOLCHAMP</dd></div><div><dt>準備するもの</dt><dd>CHAMSIM</dd></div><div><dt>参加前</dt><dd>ログイン・投票通貨の収集</dd></div></dl>
@@ -477,6 +489,34 @@ html.light-mode .vote-status,html.light-mode .guide-details{background:linear-gr
   <p class="update-note">※ 配点、投票期間、必要ポイント、投票可能回数は変更される場合があります。カムバック時にRESCENE JAPAN FANBASEの案内と各公式投票画面を確認してください。</p>
 </section>
 
+<section class="section" id="score-distribution" aria-labelledby="score-distribution-title">
+  <div class="section-heading"><div><span class="section-kicker">SCORE DISTRIBUTION</span><h2 class="section-title" id="score-distribution-title">音楽番組のスコア配分</h2></div></div>
+  <div class="card notice"><strong>日本から貢献しやすい項目</strong><p>音盤購入、YouTubeなどのSNS、事前投票、リアルタイム投票は日本からも参加できます。配点や集計方式は改定される場合があるため、カムバック時は公式案内を優先してください。</p></div>
+  <div class="score-image-grid" aria-label="音楽番組の早見表画像">
+    <article class="card score-image-card"><figure class="score-figure"><img src="assets/voting/theshow-score.png" alt="THE SHOW の早見表画像" width="1600" height="900" loading="lazy"></figure><div class="score-caption"><h3>THE SHOW</h3><p>火曜日 / BIGC</p></div></article>
+    <article class="card score-image-card"><figure class="score-figure"><img src="assets/voting/showchampion-score.png" alt="SHOW CHAMPION の早見表画像" width="1600" height="900" loading="lazy"></figure><div class="score-caption"><h3>SHOW CHAMPION</h3><p>水曜日 / IDOLCHAMP</p></div></article>
+    <article class="card score-image-card"><figure class="score-figure"><img src="assets/voting/mcountdown-score.png" alt="M COUNTDOWN の早見表画像" width="1600" height="900" loading="lazy"></figure><div class="score-caption"><h3>M COUNTDOWN</h3><p>木曜日 / Mnet Plus</p></div></article>
+    <article class="card score-image-card"><figure class="score-figure"><img src="assets/voting/musicbank-score.png" alt="Music Bank の早見表画像" width="1600" height="900" loading="lazy"></figure><div class="score-caption"><h3>Music Bank</h3><p>金曜日 / Fancast</p></div></article>
+    <article class="card score-image-card"><figure class="score-figure"><img src="assets/voting/musiccore-score.png" alt="Show! Music Core の早見表画像" width="1600" height="900" loading="lazy"></figure><div class="score-caption"><h3>Show! Music Core</h3><p>土曜日 / Mubeat</p></div></article>
+    <article class="card score-image-card"><figure class="score-figure"><img src="assets/voting/inkigayo-score.png" alt="Inkigayo の早見表画像" width="1600" height="900" loading="lazy"></figure><div class="score-caption"><h3>Inkigayo</h3><p>日曜日 / LiNC・HIGHER</p></div></article>
+  </div>
+  <details class="card text-score-details">
+    <summary>テキスト版の配分も見る</summary>
+    <div class="text-score-content">
+      <div class="score-distribution-grid" style="margin-top:18px">
+        <article class="card score-card"><h3>THE SHOW</h3><p class="score-meta">火曜日 / BIGC</p><ul class="score-list"><li><span>事前投票</span><strong>BIGC</strong></li><li><span>投票券</span><strong>ROYAL / FREE GEM</strong></li></ul><p class="score-note">THE SHOWの総合スコア配分は、対象回の公式案内を確認してください。</p></article>
+        <article class="card score-card"><h3>SHOW CHAMPION</h3><p class="score-meta">水曜日 / IDOLCHAMP</p><ul class="score-list"><li><span>音源</span><strong>35%</strong></li><li><span>音盤</span><strong>15%</strong></li><li><span>SNS（YouTube）</span><strong>10%</strong></li><li><span>事前投票</span><strong>20%</strong></li><li><span>放送点数</span><strong>20%</strong></li></ul></article>
+        <article class="card score-card"><h3>M COUNTDOWN</h3><p class="score-meta">木曜日 / Mnet Plus</p><ul class="score-list"><li><span>音源</span><strong>50%</strong></li><li><span>音盤</span><strong>15%</strong></li><li><span>SNS（YouTube・TikTok）</span><strong>15%</strong></li><li><span>事前投票</span><strong>10%</strong></li><li><span>リアルタイム投票</span><strong>10%</strong></li><li><span>放送点数</span><strong>10%</strong></li></ul></article>
+        <article class="card score-card"><h3>Music Bank</h3><p class="score-meta">金曜日 / Fancast</p><ul class="score-list"><li><span>音源</span><strong>60%</strong></li><li><span>音盤</span><strong>5%</strong></li><li><span>SNS（YouTube）</span><strong>5%</strong></li><li><span>事前投票</span><strong>10%</strong></li><li><span>放送点数</span><strong>20%</strong></li></ul></article>
+        <article class="card score-card"><h3>Show! Music Core</h3><p class="score-meta">土曜日 / Mubeat</p><ul class="score-list"><li><span>音源</span><strong>50%</strong></li><li><span>音盤</span><strong>15%</strong></li><li><span>SNS（YouTube）</span><strong>15%</strong></li><li><span>事前投票</span><strong>10%</strong></li><li><span>リアルタイム投票</span><strong>10%</strong></li><li><span>放送点数</span><strong>10%</strong></li><li><span>視聴者評価</span><strong>5%</strong></li></ul></article>
+        <article class="card score-card"><h3>Inkigayo</h3><p class="score-meta">日曜日 / LiNC・HIGHER</p><ul class="score-list"><li><span>音源</span><strong>50%</strong></li><li><span>音盤</span><strong>10%</strong></li><li><span>SNS（YouTube）</span><strong>20%</strong></li><li><span>事前投票</span><strong>5%</strong></li><li><span>リアルタイム投票</span><strong>5%</strong></li><li><span>放送点数</span><strong>10%</strong></li></ul></article>
+      </div>
+      <p class="update-note">※ テキスト版のスコア配分は、ユーザー提供のNMIXX投票サイト資料をもとに掲載しています。番組改編などで変更される可能性があります。</p>
+    </div>
+  </details>
+  <p class="update-note">※ 早見表画像は、ユーザー提供の画像をそのまま掲載しています。画像版とテキスト版の両方で確認できます。</p>
+</section>
+
 <section class="section" id="preparation" aria-labelledby="preparation-title">
   <div class="section-heading"><div><span class="section-kicker">BEFORE COMEBACK</span><h2 class="section-title" id="preparation-title">カムバック前にやること</h2></div></div>
   <div class="prepare-grid">
@@ -489,6 +529,7 @@ html.light-mode .vote-status,html.light-mode .guide-details{background:linear-gr
 <section class="section" id="apps" aria-labelledby="apps-title">
   <div class="section-heading"><div><span class="section-kicker">VOTING APPS</span><h2 class="section-title" id="apps-title">投票アプリ一覧</h2></div></div>
   <div class="app-list">
+    <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">BIGC</span><div><h3>BIGC</h3><p>THE SHOW 事前投票</p></div></div><div class="app-tags"><span>ROYAL GEM</span><span>FREE GEM</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/search?term=BIGC" target="_blank" rel="noopener noreferrer">App Storeで検索 ↗</a><a href="https://play.google.com/store/search?q=BIGC&c=apps" target="_blank" rel="noopener noreferrer">Google Playで検索 ↗</a></div></article>
     <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">IDOL<br>CHAMP</span><div><h3>IDOLCHAMP</h3><p>SHOW CHAMPION</p></div></div><div class="app-tags"><span>CHAMSIM</span><span>事前投票</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/idolchamp/id1185735018" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=com.nwz.ichampclient" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
     <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">Mnet<br>Plus</span><div><h3>Mnet Plus</h3><p>M COUNTDOWN</p></div></div><div class="app-tags"><span>投票券不要</span><span>事前・ライブ</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/mnet-plus/id6443405421" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=world.mnetplus" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
     <article class="card app-card"><div class="app-card-head"><span class="app-logo-text">FAN<br>CAST</span><div><h3>Fancast</h3><p>Music Bank</p></div></div><div class="app-tags"><span>Hearts</span><span>事前投票</span></div><div class="store-buttons"><a href="https://apps.apple.com/app/id1641638840" target="_blank" rel="noopener noreferrer">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=com.contentsmadang.fancast" target="_blank" rel="noopener noreferrer">Google Play ↗</a></div></article>
@@ -502,7 +543,17 @@ html.light-mode .vote-status,html.light-mode .guide-details{background:linear-gr
   <div class="section-heading"><div><span class="section-kicker">SCREENSHOT GUIDE</span><h2 class="section-title" id="image-guides-title">画像付き投票ガイド</h2></div></div>
   <div class="card notice"><strong>画像は後から追加します</strong><p>各アプリ3枚を基本に、ホーム画面・投票画面・投票通貨の集め方を掲載できる枠を用意しました。画像を受け取り次第、この場所へ差し替えます。</p></div>
   <div class="guide-stack" style="margin-top:18px">
-    <details class="guide-details" open><summary><span class="guide-summary-title"><span>IC</span><span>IDOLCHAMP<small>SHOW CHAMPION</small></span></span></summary><div class="guide-content"><div class="guide-steps">
+    <details class="guide-details" open><summary><span class="guide-summary-title"><span>BC</span><span>BIGC<small>THE SHOW 事前投票</small></span></span></summary><div class="guide-content">
+      <div class="gem-grid"><div class="gem-card"><h4>1. ROYAL GEM</h4><p>有償のみ入手可能。<strong>1票＝20 ROYAL GEM</strong></p></div><div class="gem-card"><h4>2. FREE GEM</h4><p>毎日の出席チェック、広告視聴、ミッション参加で入手可能。<strong>1票＝400 FREE GEM</strong></p></div></div>
+      <ol class="the-show-steps"><li>「BIGC」アプリをインストールして開く</li><li><strong>「THE SHOW 投票」</strong>をクリック</li><li>「全体／THE K-POP／BIGC Choice」から<strong>「THE K-POP」</strong>をクリック</li><li><strong>「PRE-VOTE 1st Place Nominees」</strong>をクリック</li><li>下へスクロールし、「RESCENE」の「投票」を押す</li><li>投票数を入力して<strong>「投票する」</strong>を押せば完了</li></ol>
+      <div class="guide-steps" style="margin-top:18px">
+        <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>bigc-01-the-show.jpg</code></div></div><div class="guide-caption"><b>1. THE SHOW 投票</b><p>BIGCのホームから「THE SHOW 投票」を開きます。</p></div></article>
+        <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>bigc-02-the-kpop.jpg</code></div></div><div class="guide-caption"><b>2. THE K-POP</b><p>「THE K-POP」から「PRE-VOTE 1st Place Nominees」へ進みます。</p></div></article>
+        <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>bigc-03-rescene-vote.jpg</code></div></div><div class="guide-caption"><b>3. RESCENEへ投票</b><p>投票数を入力して「投票する」を押します。</p></div></article>
+      </div><p class="guide-note">無料参加の場合は、毎日の出席チェック・広告視聴・ミッションでFREE GEMを事前に集めてください。</p>
+    </div></details>
+
+    <details class="guide-details"><summary><span class="guide-summary-title"><span>IC</span><span>IDOLCHAMP<small>SHOW CHAMPION</small></span></span></summary><div class="guide-content"><div class="guide-steps">
       <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>idolchamp-01-home.jpg</code></div></div><div class="guide-caption"><b>1. ホーム</b><p>アプリを開き、投票メニューへ進みます。</p></div></article>
       <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>idolchamp-02-vote.jpg</code></div></div><div class="guide-caption"><b>2. 投票一覧</b><p>SHOW CHAMPIONの対象投票を選択します。</p></div></article>
       <article class="guide-step"><div class="guide-placeholder"><div><strong>画像準備中</strong><code>idolchamp-03-chamsim.jpg</code></div></div><div class="guide-caption"><b>3. CHAMSIM</b><p>ミッションや広告などで必要な通貨を準備します。</p></div></article>
