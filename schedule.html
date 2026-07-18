@@ -373,6 +373,14 @@ html.light-mode .member-detail{color:#654d5b !important;}
 html.light-mode .social-icon-wrap,html.light-mode .official-icon{color:#a63d72;background:linear-gradient(135deg,#ffe0ee,#eee1ff)}
 .hero-members{margin:8px 0 0;color:#ffe8f3!important;font-weight:900;letter-spacing:.05em;font-size:1rem}
 html.light-mode .hero-members{color:#9f3a6c!important}
+.calendar-event.event{background:rgba(255,163,92,.15);color:#ffd0a7}
+.calendar-event.release{background:rgba(255,111,174,.14);color:var(--pink-soft)}
+.calendar-event.vote{background:rgba(114,185,255,.14);color:#bee2ff}
+.calendar-event.notice{background:rgba(255,224,139,.14);color:#ffe6a8}
+.schedule-detail-image{margin:0 0 16px;overflow:hidden;border-radius:16px;border:1px solid var(--border);background:var(--soft-bg)}
+.schedule-detail-image img{display:block;width:100%;max-height:420px;object-fit:cover}
+.schedule-time{display:inline-block;margin-top:5px;color:var(--muted);font-size:.76rem;font-weight:800}
+.schedule-empty{padding:24px}
 </style>
 </head>
 <body class="">
@@ -407,7 +415,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 <details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details></nav>
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
-<main class="container"><section class="page-header section" id="top"><span class="page-kicker">SCHEDULE</span><h1>スケジュール</h1><p>RESCENEのリリース、出演、記念日、メンバーの誕生日をカレンダーで確認できます。</p></section><section class="section"><div class="schedule-image-grid"><article class="card schedule-photo-card"><figure><img src="assets/schedule/music-show-list.png" alt="RESCENEが参加できる主な音楽番組一覧" width="1600" height="900" loading="lazy"><figcaption><span class="badge">MUSIC SHOWS</span><h3>音楽番組一覧</h3><p>各番組の放送日を画像でもすぐに確認できます。投票ガイドとあわせて準備にご活用ください。</p></figcaption></figure></article><article class="card schedule-photo-card"><figure><img src="assets/schedule/music-show-schedule.png" alt="RESCENEの音楽番組週間スケジュール" width="1600" height="900" loading="lazy"><figcaption><span class="badge">WEEKLY SCHEDULE</span><h3>音楽番組スケジュール</h3><p>1週間の出演・投票タイミングをまとめた画像です。最新の予定は公式案内もあわせてご確認ください。</p></figcaption></figure></article></div></section><section class="section"><div class="calendar-shell card"><div class="calendar-toolbar"><button type="button" id="prevMonth" aria-label="前の月">←</button><h2 id="calendarTitle"></h2><button type="button" id="nextMonth" aria-label="次の月">→</button></div><div class="calendar-weekdays" aria-hidden="true"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div><div class="calendar-grid" id="calendarGrid"></div></div></section><section class="section"><div class="section-head"><div><span class="section-kicker">EVENTS</span><h2 class="section-title">登録済みの予定</h2></div></div><div class="schedule-list" id="scheduleEvents"></div><p class="schedule-sync-note">今後、NotionとGitHub Actionsの連携後は、このカレンダーへ予定を自動反映する予定です。</p></section></main>
+<main class="container"><section class="page-header section" id="top"><span class="page-kicker">SCHEDULE</span><h1>スケジュール</h1><p>RESCENEのリリース、出演、記念日、メンバーの誕生日をカレンダーで確認できます。</p></section><section class="section"><div class="schedule-image-grid"><article class="card schedule-photo-card"><figure><img src="schedule/music-show-list.png" alt="RESCENEが参加できる主な音楽番組一覧" width="1600" height="900" loading="lazy"><figcaption><span class="badge">MUSIC SHOWS</span><h3>音楽番組一覧</h3><p>各番組の放送日を画像でもすぐに確認できます。投票ガイドとあわせて準備にご活用ください。</p></figcaption></figure></article><article class="card schedule-photo-card"><figure><img src="schedule/music-show-schedule.png" alt="RESCENEの音楽番組週間スケジュール" width="1600" height="900" loading="lazy"><figcaption><span class="badge">WEEKLY SCHEDULE</span><h3>音楽番組スケジュール</h3><p>1週間の出演・投票タイミングをまとめた画像です。最新の予定は公式案内もあわせてご確認ください。</p></figcaption></figure></article></div></section><section class="section"><div class="calendar-shell card"><div class="calendar-toolbar"><button type="button" id="prevMonth" aria-label="前の月">←</button><h2 id="calendarTitle"></h2><button type="button" id="nextMonth" aria-label="次の月">→</button></div><div class="calendar-weekdays" aria-hidden="true"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div><div class="calendar-grid" id="calendarGrid"></div></div></section><section class="section"><div class="section-head"><div><span class="section-kicker">EVENTS</span><h2 class="section-title">登録済みの予定</h2></div></div><div class="schedule-list" id="scheduleEvents"></div><p class="schedule-sync-note">Notionで「公開」にチェックした予定を、GitHub Actionsから自動反映しています。</p></section></main>
 <footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
 <script>
 
@@ -422,5 +430,108 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 })();
 
 </script>
-<script id="calendar-script">(()=>{const events=[{date:'2026-03-26',title:'デビュー記念日',type:'record',description:'2024年3月26日にデビューしたRESCENEの記念日です。',link:'about.html',linkLabel:'RESCENEについて見る'},{date:'2026-05-25',title:'WONI 誕生日',type:'birthday',description:'ウォニの誕生日です。メンバー情報もあわせて確認できます。',link:'members.html#woni-profile',linkLabel:'WONIプロフィールを見る'},{date:'2026-07-02',title:'高陽市 広報大使任命',type:'record',description:'メイの故郷・高陽市の広報大使にRESCENEが任命されました。',link:'article.html?id=goyang-ambassador',linkLabel:'詳細を見る'},{date:'2026-07-08',title:'Pretty Girl リリース',type:'release',description:'Special Single「Pretty Girl」の配信開始日です。',link:'discography.html#special-single',linkLabel:'作品情報を見る'},{date:'2026-07-12',title:'人気歌謡 リアルタイム投票1位',type:'record',description:'SBS「人気歌謡」で「LOVE ATTACK」がリアルタイム投票1位を獲得しました。',link:'article.html?id=love-attack-inkigayo-realtime-first',linkLabel:'ニュースを見る'},{date:'2026-07-14',title:'THE SHOW 音楽番組初1位',type:'record',description:'「Pretty Girl」でRESCENE初の音楽番組1位を獲得しました。',link:'article.html?id=pretty-girl-first-music-show-win',linkLabel:'ニュースを見る'},{date:'2026-08-19',title:'MAY 誕生日',type:'birthday',description:'メイの誕生日です。',link:'members.html#may-profile',linkLabel:'MAYプロフィールを見る'},{date:'2026-10-11',title:'LIV 誕生日',type:'birthday',description:'リブの誕生日です。',link:'members.html#liv-profile',linkLabel:'LIVプロフィールを見る'},{date:'2026-11-27',title:'ZENA 誕生日',type:'birthday',description:'ゼナの誕生日です。',link:'members.html#zena-profile',linkLabel:'ZENAプロフィールを見る'},{date:'2026-11-29',title:'MINAMI 誕生日',type:'birthday',description:'ミナミの誕生日です。',link:'members.html#minami-profile',linkLabel:'MINAMIプロフィールを見る'}];let view=new Date(2026,6,1);const grid=document.getElementById('calendarGrid'),title=document.getElementById('calendarTitle'),list=document.getElementById('scheduleEvents');const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;function render(){const y=view.getFullYear(),m=view.getMonth();title.textContent=`${y}年 ${m+1}月`;const first=new Date(y,m,1),start=new Date(y,m,1-first.getDay());grid.innerHTML='';for(let i=0;i<42;i++){const d=new Date(start);d.setDate(start.getDate()+i);const key=iso(d),dayEvents=events.filter(e=>e.date===key);const cell=document.createElement('div');cell.className='calendar-day'+(d.getMonth()!==m?' is-outside':'');cell.innerHTML=`<time datetime="${key}">${d.getDate()}</time>`+dayEvents.map(e=>`<span class="calendar-event ${e.type}" title="${e.title}">${e.title}</span>`).join('');grid.appendChild(cell)}const monthly=events.filter(e=>{const d=new Date(e.date+'T00:00:00');return d.getFullYear()===y&&d.getMonth()===m});list.innerHTML=monthly.length?monthly.map((e,idx)=>{const d=new Date(e.date+'T00:00:00');const badge=e.type==='birthday'?'BIRTHDAY':e.type==='release'?'RELEASE':'RECORD';const action=e.link?`<a class="btn btn-secondary" href="${e.link}">${e.linkLabel||'詳細を見る'} ${/^https?:/i.test(e.link)?'↗':''}</a>`:'';return `<details class="schedule-row card" ${idx===0?'open':''}><summary><div class="schedule-date"><strong>${String(d.getMonth()+1).padStart(2,'0')}.${String(d.getDate()).padStart(2,'0')}</strong><span>${d.toLocaleDateString('ja-JP',{weekday:'short'})}</span></div><div><span class="badge">${badge}</span><h2>${e.title}</h2><p>${e.description}</p></div></summary><div class="schedule-detail"><p>${e.description}</p>${action}</div></details>`}).join(''):'<div class="card"><p class="muted">この月に登録されている予定はありません。</p></div>'}document.getElementById('prevMonth').addEventListener('click',()=>{view=new Date(view.getFullYear(),view.getMonth()-1,1);render()});document.getElementById('nextMonth').addEventListener('click',()=>{view=new Date(view.getFullYear(),view.getMonth()+1,1);render()});render()})();</script>
+<script src="data/schedule-data.js"></script>
+<script id="calendar-script">
+(() => {
+  const events = Array.isArray(window.RESCENE_SCHEDULE) ? window.RESCENE_SCHEDULE : [];
+  const grid = document.getElementById("calendarGrid");
+  const title = document.getElementById("calendarTitle");
+  const list = document.getElementById("scheduleEvents");
+  const prev = document.getElementById("prevMonth");
+  const next = document.getElementById("nextMonth");
+  if (!grid || !title || !list || !prev || !next) return;
+
+  const escapeHtml = (value = "") => String(value).replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+  })[char]);
+  const safeUrl = (value = "") => {
+    const url = String(value).trim();
+    if (!url) return "";
+    if (/^(https?:\/\/|[A-Za-z0-9_.\/-]+\.html(?:[?#].*)?|#[A-Za-z0-9_-]+)$/i.test(url)) return url;
+    return "";
+  };
+  const toDate = (value) => {
+    const date = new Date(value.includes("T") ? value : `${value}T00:00:00`);
+    return Number.isNaN(date.getTime()) ? null : date;
+  };
+  const iso = (date) => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+  const eventDates = (event) => {
+    const start = toDate(event.date || event.start || "");
+    if (!start) return [];
+    const end = toDate(event.end || event.date || event.start || "") || start;
+    const dates = [];
+    const cursor = new Date(start.getFullYear(), start.getMonth(), start.getDate());
+    const last = new Date(end.getFullYear(), end.getMonth(), end.getDate());
+    while (cursor <= last && dates.length < 370) {
+      dates.push(iso(cursor));
+      cursor.setDate(cursor.getDate() + 1);
+    }
+    return dates;
+  };
+  const formatTime = (event) => {
+    if (!String(event.start || "").includes("T")) return "";
+    const start = toDate(event.start);
+    const end = event.end ? toDate(event.end) : null;
+    if (!start) return "";
+    const fmt = new Intl.DateTimeFormat("ja-JP", { hour: "2-digit", minute: "2-digit" });
+    return end ? `${fmt.format(start)}〜${fmt.format(end)}` : fmt.format(start);
+  };
+  const badgeLabel = (event) => ({
+    birthday: "BIRTHDAY", release: "RELEASE", record: "RECORD", vote: "VOTE", notice: "NOTICE", event: "EVENT",
+  })[event.type] || String(event.category || "EVENT").toUpperCase();
+
+  const today = new Date();
+  const nextEvent = events.map((event) => ({ event, date: toDate(event.date || event.start || "") }))
+    .filter((item) => item.date && item.date >= new Date(today.getFullYear(), today.getMonth(), today.getDate()))
+    .sort((a, b) => a.date - b.date)[0];
+  let view = nextEvent?.date ? new Date(nextEvent.date.getFullYear(), nextEvent.date.getMonth(), 1) : new Date(today.getFullYear(), today.getMonth(), 1);
+
+  function render() {
+    const year = view.getFullYear();
+    const month = view.getMonth();
+    title.textContent = `${year}年 ${month + 1}月`;
+
+    const first = new Date(year, month, 1);
+    const start = new Date(year, month, 1 - first.getDay());
+    grid.innerHTML = "";
+
+    for (let index = 0; index < 42; index += 1) {
+      const date = new Date(start);
+      date.setDate(start.getDate() + index);
+      const key = iso(date);
+      const dayEvents = events.filter((event) => eventDates(event).includes(key));
+      const cell = document.createElement("div");
+      cell.className = `calendar-day${date.getMonth() !== month ? " is-outside" : ""}`;
+      cell.innerHTML = `<time datetime="${key}">${date.getDate()}</time>${dayEvents.map((event) => `<span class="calendar-event ${escapeHtml(event.type || "event")}" title="${escapeHtml(event.title)}">${escapeHtml(event.title)}</span>`).join("")}`;
+      grid.appendChild(cell);
+    }
+
+    const monthly = events.filter((event) => {
+      const date = toDate(event.date || event.start || "");
+      return date && date.getFullYear() === year && date.getMonth() === month;
+    });
+
+    if (!monthly.length) {
+      list.innerHTML = '<div class="card schedule-empty"><p class="muted">この月に公開されている予定はありません。</p></div>';
+      return;
+    }
+
+    list.innerHTML = monthly.map((event, index) => {
+      const date = toDate(event.date || event.start || "");
+      const time = formatTime(event);
+      const link = safeUrl(event.link);
+      const image = safeUrl(event.image);
+      const external = /^https?:\/\//i.test(link);
+      const action = link ? `<a class="btn btn-secondary" href="${escapeHtml(link)}"${external ? ' target="_blank" rel="noopener noreferrer"' : ""}>${escapeHtml(event.linkLabel || "詳細を見る")}${external ? " ↗" : ""}</a>` : "";
+      const imageBlock = image ? `<figure class="schedule-detail-image"><img src="${escapeHtml(image)}" alt="${escapeHtml(event.title)}" loading="lazy"></figure>` : "";
+      const description = escapeHtml(event.description || "詳細は公式案内もあわせてご確認ください。");
+      return `<details class="schedule-row card" ${index === 0 ? "open" : ""}><summary><div class="schedule-date"><strong>${String(date.getMonth() + 1).padStart(2, "0")}.${String(date.getDate()).padStart(2, "0")}</strong><span>${date.toLocaleDateString("ja-JP", { weekday: "short" })}</span></div><div><span class="badge">${escapeHtml(badgeLabel(event))}</span><h2>${escapeHtml(event.title)}</h2><p>${description}</p>${time ? `<span class="schedule-time">${escapeHtml(time)}</span>` : ""}</div></summary><div class="schedule-detail">${imageBlock}<p>${description}</p>${action}</div></details>`;
+    }).join("");
+  }
+
+  prev.addEventListener("click", () => { view = new Date(view.getFullYear(), view.getMonth() - 1, 1); render(); });
+  next.addEventListener("click", () => { view = new Date(view.getFullYear(), view.getMonth() + 1, 1); render(); });
+  render();
+})();
+</script>
 </body></html>

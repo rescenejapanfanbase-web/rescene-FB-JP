@@ -1,0 +1,34 @@
+RESCENE JAPAN FANBASE — Notionカレンダー自動連携設定
+
+対象リポジトリ:
+https://github.com/rescenejapanfanbase-web/rescene-FB-JP
+
+対象NotionデータソースID:
+eea8a017-8ad1-4c00-ba09-8bca95cf8618
+
+【GitHubで必要な作業】
+1. Notionで内部インテグレーションを作成し、Read content権限を付ける。
+2. 「📅 共有カレンダー」の Connections に、そのインテグレーションを追加する。
+3. GitHubリポジトリを開く。
+4. Settings → Secrets and variables → Actions → Secrets。
+5. New repository secret を押し、次を登録する。
+   Name: NOTION_TOKEN
+   Secret: NotionのInternal Integration Secret
+6. Variablesタブで次を登録する（未登録でもスクリプト内の既定値で動作します）。
+   Name: NOTION_DATA_SOURCE_ID
+   Value: eea8a017-8ad1-4c00-ba09-8bca95cf8618
+7. Settings → Actions → General → Workflow permissions で
+   Read and write permissions を選択して保存する。
+8. Actions → Sync Notion Calendar → Run workflow を押す。
+
+【Notionで予定を公開する方法】
+- イベント名: サイトに表示するタイトル
+- 日付: 日付または日時（終了日時も設定可能）
+- カテゴリー: イベント / Birthday など
+- メモ: 詳細説明
+- リンク: MV、記事、公式X、サイト内ページのURL
+- リンク名: MVを見る、記事を見る、詳細を見る など
+- 画像URL: 必要な場合のみ公開画像URL
+- 公開: サイトへ出す予定だけチェック
+
+GitHub Actionsは毎時17分・47分に確認し、予定が変わったときだけdata/schedule.jsonとdata/schedule-data.jsを更新します。
