@@ -397,12 +397,71 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 </style>
 
 <style id="voting-app-icon-size-fix">
-.program-icon{flex:0 0 46px;overflow:hidden}
-.program-icon img{display:block;width:30px!important;height:30px!important;max-width:30px!important;max-height:30px!important;object-fit:contain}
-.guide-summary-title .guide-app-icon{display:grid!important;place-items:center!important;flex:0 0 42px!important;width:42px!important;height:42px!important;min-width:42px!important;min-height:42px!important;max-width:42px!important;max-height:42px!important;padding:0!important;overflow:hidden!important;border-radius:13px;background:rgba(255,111,174,.12);border:1px solid var(--border)}
-.guide-summary-title .guide-app-icon img{display:block!important;width:28px!important;height:28px!important;min-width:0!important;min-height:0!important;max-width:28px!important;max-height:28px!important;object-fit:contain!important}
-@media(max-width:640px){.guide-summary-title .guide-app-icon{flex-basis:38px!important;width:38px!important;height:38px!important;min-width:38px!important;min-height:38px!important;max-width:38px!important;max-height:38px!important}.guide-summary-title .guide-app-icon img{width:25px!important;height:25px!important;max-width:25px!important;max-height:25px!important}}
+/* Match the app-list icon treatment while keeping compact card proportions. */
+.program-icon{
+  display:block!important;flex:0 0 46px!important;width:46px!important;height:46px!important;
+  min-width:46px!important;min-height:46px!important;max-width:46px!important;max-height:46px!important;
+  padding:0!important;overflow:hidden!important;border-radius:14px!important;background:#fff!important;
+  border:1px solid rgba(255,179,214,.18)!important;box-shadow:0 8px 20px rgba(10,0,12,.20)!important;
+}
+.program-icon img{display:block!important;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:cover!important;border-radius:13px!important}
+.guide-summary-title .guide-app-icon{
+  display:block!important;flex:0 0 46px!important;width:46px!important;height:46px!important;
+  min-width:46px!important;min-height:46px!important;max-width:46px!important;max-height:46px!important;
+  padding:0!important;overflow:hidden!important;border-radius:14px!important;background:#fff!important;
+  border:1px solid rgba(255,179,214,.18)!important;box-shadow:0 8px 20px rgba(10,0,12,.20)!important;
+}
+.guide-summary-title .guide-app-icon img{display:block!important;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:cover!important;border-radius:13px!important}
+@media(max-width:640px){
+  .program-icon,.guide-summary-title .guide-app-icon{flex-basis:42px!important;width:42px!important;height:42px!important;min-width:42px!important;min-height:42px!important;max-width:42px!important;max-height:42px!important}
+}
 </style>
+<style id="voting-icon-final-fix">
+/* 投票早見表：PC・スマホ共通でアプリアイコンを自然な正方形に統一 */
+.program-icon{
+  display:grid!important;
+  place-items:center!important;
+  flex:0 0 42px!important;
+  width:42px!important;
+  height:42px!important;
+  min-width:42px!important;
+  min-height:42px!important;
+  max-width:42px!important;
+  max-height:42px!important;
+  padding:0!important;
+  overflow:hidden!important;
+  border-radius:11px!important;
+  background:transparent!important;
+  border:1px solid var(--border)!important;
+  box-shadow:0 5px 14px rgba(0,0,0,.14)!important;
+}
+.program-icon img{
+  display:block!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:100%!important;
+  max-height:100%!important;
+  object-fit:cover!important;
+  object-position:center!important;
+  border-radius:10px!important;
+}
+@media(max-width:640px){
+  .program-icon{
+    flex-basis:38px!important;
+    width:38px!important;
+    height:38px!important;
+    min-width:38px!important;
+    min-height:38px!important;
+    max-width:38px!important;
+    max-height:38px!important;
+    border-radius:10px!important;
+  }
+  .program-icon img{border-radius:9px!important}
+}
+</style>
+
 </head>
 <body class="">
 <header>

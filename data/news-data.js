@@ -1,29 +1,14 @@
 window.RESCENE_NEWS = [
   {
-    "slug": "fanbase-site",
-    "date": "UPDATE",
-    "category": "notice",
-    "label": "NOTICE",
-    "title": "RESCENE JAPAN FANBASE ウェブサイト",
-    "text": "RESCENE JAPAN FANBASEのウェブサイトが出来ました！",
-    "image": "news/fanbase-site.jpg",
-    "sourceLink": "https://x.com/Rescene_FB_JP",
-    "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
-  },
-  {
     "slug": "pretty-girl-first-music-show-win",
     "date": "2026.07.14",
     "category": "notice",
     "label": "1ST WIN",
     "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
-    "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
+    "text": "2026年7月14日放送のSBS Life「THE SHOW」で、「Pretty Girl」がRESCENE初の音楽番組1位を獲得しました。10,000点のフルスコアでの1位となり、THE SHOWでフルスコアを記録したのはBTS、Wanna Oneに続く3組目です。",
     "image": "news/the-show-first-win.jpeg",
     "sourceLink": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
-    "sourceLabel": "THE K-POP公式動画を見る",
-    "categoryName": "記念日",
-    "body": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEが「Pretty Girl」でグループ初となる\n音楽番組1位を獲得しました。\n\n最終スコアは10,000点のフルスコアとなりました。",
-    "notionPageId": "3a2229d2-19da-806e-a09b-c4bc9d88fde7",
-    "notionUrl": "https://app.notion.com/p/RESCENE-Pretty-Girl-1-3a2229d219da806ea09bc4bc9d88fde7"
+    "sourceLabel": "THE K-POP公式動画を見る"
   },
   {
     "slug": "love-attack-inkigayo-realtime-first",
@@ -42,10 +27,10 @@ window.RESCENE_NEWS = [
     "category": "notice",
     "label": "MELON RECORD",
     "title": "RESCENEがMelon TOP100で初の1位を記録",
-    "text": "2026年7月8日22時、RESCENEがMelon TOP100でグループ初となる1位を記録しました。記録達成時のYouTubeライブもあわせてご覧いただけます。",
+    "text": "2026年7月8日22時、RESCENEがMelon TOP100でグループ初となる1位を記録しました。記録達成後のYouTubeライブもあわせてご覧いただけます。",
     "image": "news/melon-top100-first.jpg",
     "sourceLink": "https://www.youtube.com/live/v6n4XQdX6_8?si=trciEexVgiGpYX3C",
-    "sourceLabel": "記録達成時のYouTubeライブを見る"
+    "sourceLabel": "記録達成後のYouTubeライブを見る"
   },
   {
     "slug": "pretty-girl-release",
@@ -55,7 +40,7 @@ window.RESCENE_NEWS = [
     "title": "Special Single「Pretty Girl」配信開始",
     "text": "Special Single「Pretty Girl」の配信がスタートしました。リリース1時間後にMelon TOP100 22位へランクインし、最高4位を記録しました。",
     "image": "assets/mv/pretty-girl.jpg",
-    "sourceLink": "discography.html#special-single",
+    "sourceLink": "discography.html#release-pretty-girl",
     "sourceLabel": "作品情報・配信リンクを見る"
   },
   {
@@ -110,7 +95,7 @@ window.RESCENE_NEWS = [
     "title": "Digital Single「Runaway」配信開始",
     "text": "RESCENE初のDigital Single「Runaway」の配信がスタートしました。",
     "image": "assets/mv/runaway.jpg",
-    "sourceLink": "discography.html#special-single",
+    "sourceLink": "discography.html#release-runaway",
     "sourceLabel": "作品情報・配信リンクを見る"
   },
   {
@@ -126,13 +111,13 @@ window.RESCENE_NEWS = [
   },
   {
     "slug": "second-anniversary-project",
-    "date": "2026.03.20",
+    "date": "2026.03.19",
     "category": "event",
     "label": "PROJECT",
     "title": "デビュー2周年広告プロジェクト",
     "text": "韓国で実施した2周年広告プロジェクトのお知らせです。",
     "image": "news/debut-2nd-anniversary-project.jpg",
-    "sourceLink": "https://x.com/Rescene_FB_JP/status/2034548076568801350",
+    "sourceLink": "https://x.com/rescene_fb_jp/status/2034547997087088775?s=46",
     "sourceLabel": "FANBASEの告知ポストを見る"
   },
   {
@@ -143,7 +128,7 @@ window.RESCENE_NEWS = [
     "title": "[RESCENE X ???]「Busy Boy」配信開始",
     "text": "コラボレーションデジタルシングル「Busy Boy」の配信がスタートしました。",
     "image": "assets/mv/busy-boy.jpg",
-    "sourceLink": "discography.html#special-single",
+    "sourceLink": "discography.html#release-busy-boy",
     "sourceLabel": "作品情報・配信リンクを見る"
   },
   {
@@ -154,7 +139,7 @@ window.RESCENE_NEWS = [
     "title": "「ピンボール(Pinball)」配信開始",
     "text": "「Pinball」の日本語バージョンが配信されました。",
     "image": "assets/mv/pinball.jpg",
-    "sourceLink": "discography.html#special-single",
+    "sourceLink": "discography.html#release-pinball-japanese",
     "sourceLabel": "作品情報・配信リンクを見る"
   },
   {
@@ -165,7 +150,7 @@ window.RESCENE_NEWS = [
     "title": "3rd Mini Album「lip bomb」リリース",
     "text": "Heart Drop、Bloomを含む3rd Mini Album「lip bomb」がリリースされました。",
     "image": "assets/mv/bloom.jpg",
-    "sourceLink": "discography.html#mini-album",
+    "sourceLink": "discography.html#release-lip-bomb",
     "sourceLabel": "作品情報・配信リンクを見る"
   },
   {
@@ -176,7 +161,7 @@ window.RESCENE_NEWS = [
     "title": "2nd Single Album「Dearest」リリース",
     "text": "Deja Vu、Moodを収録した2nd Single Album「Dearest」がリリースされました。",
     "image": "assets/mv/deja-vu.jpg",
-    "sourceLink": "discography.html#single-album",
+    "sourceLink": "discography.html#release-dearest",
     "sourceLabel": "作品情報・配信リンクを見る"
   },
   {
@@ -187,7 +172,7 @@ window.RESCENE_NEWS = [
     "title": "2nd Mini Album「Glow Up」リリース",
     "text": "タイトル曲「Glow Up」を含む2nd Mini Albumがリリースされました。",
     "image": "assets/mv/glow-up.jpg",
-    "sourceLink": "discography.html#mini-album",
+    "sourceLink": "discography.html#release-glow-up",
     "sourceLabel": "作品情報・配信リンクを見る"
   },
   {
@@ -198,7 +183,7 @@ window.RESCENE_NEWS = [
     "title": "1st Mini Album「SCENEDROME」リリース",
     "text": "LOVE ATTACK、Pinballなどを収録した1st Mini Albumがリリースされました。",
     "image": "assets/mv/love-attack.jpg",
-    "sourceLink": "discography.html#mini-album",
+    "sourceLink": "discography.html#release-scenedrome",
     "sourceLabel": "作品情報・配信リンクを見る"
   },
   {
@@ -209,7 +194,18 @@ window.RESCENE_NEWS = [
     "title": "1st Single Album「Re:Scene」リリース",
     "text": "YoYo、UhUhを収録したデビューシングルアルバム「Re:Scene」がリリースされました。",
     "image": "assets/mv/uhuh.jpg",
-    "sourceLink": "discography.html#single-album",
+    "sourceLink": "discography.html#release-rescene",
     "sourceLabel": "作品情報・配信リンクを見る"
+  },
+  {
+    "slug": "fanbase-site",
+    "date": "UPDATE",
+    "category": "notice",
+    "label": "NOTICE",
+    "title": "RESCENE JAPAN FANBASE ウェブサイト",
+    "text": "RESCENE JAPAN FANBASEのウェブサイトが出来ました！",
+    "image": "news/fanbase-site.jpg",
+    "sourceLink": "https://x.com/Rescene_FB_JP",
+    "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   }
 ];

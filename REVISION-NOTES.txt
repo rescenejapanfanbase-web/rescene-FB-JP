@@ -9,3 +9,7 @@ RESCENE JAPAN FANBASE 修正版
 ・投票早見表とテキスト版の項目順を統一
 ・各種サービス／投票アプリ／公式リンクのアイコンを反映
 ・スケジュール詳細リンクを反映
+
+2026-07-19 cumulative corrections:
+- About/member/schedule/news/discography/streaming/voting/chants/official-links updated.
+- News manual seed updated so Notion sync preserves corrections.
