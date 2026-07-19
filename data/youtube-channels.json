@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T15:41:39.652Z",
+  "generatedAt": "2026-07-19T21:11:26.288Z",
   "source": "YouTube channel tabs via yt-dlp",
   "collectionMode": "all-public-videos-with-verified-live-metadata",
   "channels": [
@@ -11,9 +11,9 @@
       "url": "https://www.youtube.com/@RESCENE_official",
       "description": "ミュージックビデオ、Re:log、ビハインドなどRESCENEの公式コンテンツ。",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtKtCiaWRz-d3EZn2xd1mdA",
-      "totalVideos": 1639,
+      "totalVideos": 1638,
       "typeCounts": {
-        "video": 453,
+        "video": 452,
         "short": 1186,
         "live": 0
       },
@@ -6128,25 +6128,6 @@
           ],
           "sourceVideoIds": [
             "XRFGyzK2Prk"
-          ],
-          "dateAccuracy": "exact",
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
-          "videoId": "Ay-PdxOh86I",
-          "title": "원나미의 저녁 먹방😋💓",
-          "url": "https://www.youtube.com/watch?v=Ay-PdxOh86I",
-          "thumbnail": "https://i.ytimg.com/vi_webp/Ay-PdxOh86I/maxresdefault.webp",
-          "publishedAt": "2024-11-17T00:00:00.000Z",
-          "updatedAt": "2024-11-17T00:00:00.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "live",
-            "video"
-          ],
-          "sourceVideoIds": [
-            "Ay-PdxOh86I"
           ],
           "dateAccuracy": "exact",
           "liveMetadataVerified": true,
@@ -26858,10 +26839,10 @@
       "url": "https://www.youtube.com/@helloiamwoninicetomeetyou",
       "description": "ウォニの日常やメンバーとの楽しいコンテンツを届ける個人YouTubeチャンネル。",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWpY0eSJtyO-qNAPbKFRSSg",
-      "totalVideos": 92,
+      "totalVideos": 90,
       "typeCounts": {
         "video": 23,
-        "short": 69,
+        "short": 67,
         "live": 0
       },
       "videos": [
@@ -26871,7 +26852,7 @@
           "url": "https://www.youtube.com/watch?v=8r-YPb_tKlM",
           "thumbnail": "https://i1.ytimg.com/vi/8r-YPb_tKlM/hqdefault.jpg",
           "publishedAt": "2026-07-17T10:00:12+00:00",
-          "updatedAt": "2026-07-19T14:45:37+00:00",
+          "updatedAt": "2026-07-19T21:06:32+00:00",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -27022,22 +27003,6 @@
           ],
           "sourceVideoIds": [
             "5qmyo1nR3no"
-          ],
-          "dateAccuracy": "exact"
-        },
-        {
-          "videoId": "GUHzPMtxAqY",
-          "title": "고멘네!",
-          "url": "https://www.youtube.com/watch?v=GUHzPMtxAqY",
-          "thumbnail": "https://i4.ytimg.com/vi/GUHzPMtxAqY/hqdefault.jpg",
-          "publishedAt": "2026-06-29T06:51:13+00:00",
-          "updatedAt": "2026-07-01T21:58:31+00:00",
-          "videoType": "short",
-          "sourceTypes": [
-            "short"
-          ],
-          "sourceVideoIds": [
-            "GUHzPMtxAqY"
           ],
           "dateAccuracy": "exact"
         },
@@ -27534,22 +27499,6 @@
           ],
           "sourceVideoIds": [
             "8u4vD5IwZQc"
-          ],
-          "dateAccuracy": "unknown"
-        },
-        {
-          "videoId": "8VN-5OxoTMc",
-          "title": "나오라고 하면 됩니다",
-          "url": "https://www.youtube.com/watch?v=8VN-5OxoTMc",
-          "thumbnail": "https://i.ytimg.com/vi/8VN-5OxoTMc/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCkPkmm20UWnrQCsBX5_x0X2Gl5VQ&usqp=CCk",
-          "publishedAt": null,
-          "updatedAt": null,
-          "videoType": "short",
-          "sourceTypes": [
-            "short"
-          ],
-          "sourceVideoIds": [
-            "8VN-5OxoTMc"
           ],
           "dateAccuracy": "unknown"
         },
