@@ -1,0 +1,110 @@
+name: Weekly Site Backup
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "18 4 * * 1"
+      timezone: "Asia/Tokyo"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: weekly-site-backup
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Check site before backup
+        id: sitecheck
+        continue-on-error: true
+        run: python3 scripts/check-site-links.py
+
+      - name: Create site backup ZIP
+        id: package
+        shell: bash
+        env:
+          SITE_CHECK_RESULT: ${{ steps.sitecheck.outcome }}
+        run: |
+          set -euo pipefail
+
+          timestamp_jst="$(TZ=Asia/Tokyo date +'%Y%m%d-%H%M')"
+          created_jst="$(TZ=Asia/Tokyo date +'%Y-%m-%d %H:%M:%S %Z')"
+          short_sha="${GITHUB_SHA::7}"
+          backup_name="rescene-FB-JP-backup-${timestamp_jst}-${short_sha}"
+          package_root="backup-work/${backup_name}"
+          site_root="${package_root}/rescene-FB-JP"
+          output_root="backup-output"
+          zip_path="${output_root}/${backup_name}.zip"
+          checksum_path="${zip_path}.sha256"
+
+          mkdir -p "${site_root}" "${output_root}"
+
+          # Gitで管理されているファイルだけを復元用フォルダへコピーします。
+          git ls-files -z | tar --null -T - -cf - | tar -xf - -C "${site_root}"
+
+          cat > "${package_root}/BACKUP-INFO.txt" <<EOF
+          RESCENE JAPAN FANBASE 自動バックアップ
+          ========================================
+
+          作成日時: ${created_jst}
+          リポジトリ: ${GITHUB_REPOSITORY}
+          ブランチ: ${GITHUB_REF_NAME}
+          コミット: ${GITHUB_SHA}
+          Actions実行番号: ${GITHUB_RUN_NUMBER}
+          サイト内チェック: ${SITE_CHECK_RESULT}
+
+          【内容】
+          rescene-FB-JP フォルダ内に、このコミットでGit管理されているサイト一式を保存しています。
+          data/*.json、data/*.js、ICS、画像、HTML、CSS、JavaScript、GitHub Actions設定を含みます。
+
+          【復元手順】
+          1. このZIPを展開します。
+          2. rescene-FB-JP フォルダを開きます。
+          3. 中身をGitHubリポジトリ直下へ、フォルダ構成を保ったまま上書きします。
+          4. Commit directly to the main branch で保存します。
+          5. 必要に応じてNotion・YouTube同期を手動実行します。
+
+          【ZIPに含まれないもの】
+          GitHub Secrets、Actions Variables、リポジトリ設定、GitHub Pages設定、DNS設定は含まれません。
+          NOTION_TOKEN、NOTION_DATA_SOURCE_ID、NOTION_NEWS_DATA_SOURCE_IDなどは別途再設定が必要です。
+          EOF
+
+          git log -n 30 --date=iso-local --pretty=format:'%h | %ad | %an | %s' > "${package_root}/RECENT-COMMITS.txt"
+
+          (cd backup-work && zip -q -r "${GITHUB_WORKSPACE}/${zip_path}" "${backup_name}")
+          sha256sum "${zip_path}" > "${checksum_path}"
+
+          echo "artifact_name=weekly-site-backup-${timestamp_jst}-run-${GITHUB_RUN_NUMBER}" >> "${GITHUB_OUTPUT}"
+          echo "zip_path=${zip_path}" >> "${GITHUB_OUTPUT}"
+          echo "checksum_path=${checksum_path}" >> "${GITHUB_OUTPUT}"
+          echo "backup_name=${backup_name}" >> "${GITHUB_OUTPUT}"
+
+          {
+            echo "## RESCENEサイト 自動バックアップ"
+            echo ""
+            echo "- ファイル: \`${backup_name}.zip\`"
+            echo "- 作成日時: ${created_jst}"
+            echo "- コミット: \`${GITHUB_SHA}\`"
+            echo "- サイト内チェック: \`${SITE_CHECK_RESULT}\`"
+            echo "- 保存期間: 90日"
+          } >> "${GITHUB_STEP_SUMMARY}"
+
+      - name: Upload backup artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ steps.package.outputs.artifact_name }}
+          path: |
+            ${{ steps.package.outputs.zip_path }}
+            ${{ steps.package.outputs.checksum_path }}
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 0
