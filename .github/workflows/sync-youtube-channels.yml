@@ -1,0 +1,49 @@
+name: Sync YouTube Channels
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 */3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: youtube-channels-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Sync YouTube channels
+        env:
+          YOUTUBE_MAX_VIDEOS: "12"
+        run: node scripts/sync-youtube-channels.mjs
+
+      - name: Commit YouTube channel changes
+        shell: bash
+        run: |
+          if git diff --quiet -- data/youtube-channels.json; then
+            echo "YouTube動画一覧の変更はありません。"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/youtube-channels.json
+          git commit -m "chore: sync YouTube channels"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
