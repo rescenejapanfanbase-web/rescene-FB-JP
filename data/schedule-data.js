@@ -476,6 +476,20 @@ window.RESCENE_SCHEDULE = [
     "notionUrl": "https://app.notion.com/p/3a2229d219da80f88202e0f1b9752d07"
   },
   {
+    "id": "3a2229d2-19da-80e2-a166-d7b575feb5f0",
+    "title": "KCON LA 2026",
+    "date": "2026-08-14",
+    "start": "2026-08-14",
+    "end": "2026-08-16",
+    "category": "イベント",
+    "type": "event",
+    "description": "KCON LA 2026に出演\n8/14~8/16にLAで開催される、KCON LA 2026にRESCENEが出演します！",
+    "link": "https://x.com/kcon_official?s=11",
+    "linkLabel": "KCON公式Xで情報を見る",
+    "image": "",
+    "notionUrl": "https://app.notion.com/p/KCON-LA-2026-3a2229d219da80e2a166d7b575feb5f0"
+  },
+  {
     "id": "39d229d2-19da-8042-adf1-d3b21aab71b4",
     "title": "MAY HappyBirthday🎂",
     "date": "2026-08-19",
