@@ -412,11 +412,48 @@ html.light-mode .hero-members{color:#9f3a6c!important}
   .schedule-empty{grid-column:1/-1}
 }
 </style>
+<style id="schedule-card-layout-fix">
+.schedule-row{display:block}
+.schedule-row .schedule-date{border-right:0}
+.schedule-row[open] summary p{display:none}
+.schedule-row .schedule-detail{border-top:0;margin:0 14px 14px;padding:16px 18px 18px;border-radius:14px;background:var(--soft-bg)}
+@media(min-width:900px){
+  .schedule-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
+  .schedule-row{min-width:0;align-self:start}
+  .schedule-row summary{position:relative;grid-template-columns:72px minmax(0,1fr);gap:15px;align-items:start;padding:18px 48px 18px 18px}
+  .schedule-row summary::after{position:absolute;right:18px;top:18px}
+  .schedule-date{display:block;padding:10px 7px;border:1px solid var(--border)!important;border-radius:13px;background:var(--soft-bg);text-align:center}
+  .schedule-date strong{font-size:1rem;line-height:1.2}
+  .schedule-date span{display:block;margin-top:3px;font-size:.62rem}
+  .schedule-row h2{margin:6px 0 4px;font-size:1.02rem;line-height:1.45}
+  .schedule-row summary p{font-size:.8rem;line-height:1.55;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+  .schedule-time{font-size:.68rem}
+  .schedule-detail p{font-size:.82rem;line-height:1.65}
+}
+@media(min-width:720px) and (max-width:899px){
+  .schedule-row summary{position:relative;padding-right:48px}
+  .schedule-row summary::after{position:absolute;right:18px;top:18px}
+  .schedule-date{padding:10px 8px;border:1px solid var(--border)!important;border-radius:13px;background:var(--soft-bg);text-align:center}
+}
+@media(max-width:719px){
+  .schedule-row[open] summary{grid-template-columns:1fr}
+  .schedule-row[open] .schedule-date{border-right:0!important;border-bottom:1px solid var(--border);padding:0 24px 7px 0}
+  .schedule-row .schedule-detail{margin:0 10px 10px;padding:13px 14px 15px}
+}
+</style>
 <style id="schedule-weekly-position-fix">
 .schedule-image-grid-single{grid-template-columns:minmax(0,760px)!important;justify-content:center}
 @media(max-width:719px){.schedule-image-grid-single{grid-template-columns:1fr!important}.schedule-image-grid-single .schedule-photo-card{width:calc(100% - 12px);margin-inline:auto}}
 </style><style id="site-search-link-style">
 .search-toggle{width:40px;height:40px;border:1px solid var(--border);background:var(--soft-bg);color:var(--text);border-radius:999px;display:grid;place-items:center;transition:.2s;flex:0 0 auto}.search-toggle:hover{color:var(--pink);border-color:rgba(255,111,174,.5);transform:translateY(-1px)}.search-toggle svg{width:19px;height:19px;fill:currentColor}.mobile-menu>a.mobile-search-link{color:var(--pink-soft,var(--pink))}
+@media(max-width:719px){
+  html,body{max-width:100%;overflow-x:clip}
+  .nav{gap:8px;min-width:0}
+  .logo{min-width:0;font-size:0;overflow:hidden;white-space:nowrap}
+  .logo span{font-size:.98rem}
+  .nav-actions{flex:0 0 auto;gap:6px}
+  .search-toggle{width:36px;height:36px}
+}
 </style>
 </head>
 <body class="">
@@ -637,7 +674,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
       return;
     }
 
-    const autoOpenFirst = window.matchMedia("(min-width: 720px)").matches;
+    const autoOpenFirst = false;
     list.innerHTML = monthly.map((event, index) => {
       const date = toDate(event.date || event.start || "");
       const time = formatTime(event);

@@ -377,6 +377,14 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 </style>
 <style id="site-search-link-style">
 .search-toggle{width:40px;height:40px;border:1px solid var(--border);background:var(--soft-bg);color:var(--text);border-radius:999px;display:grid;place-items:center;transition:.2s;flex:0 0 auto}.search-toggle:hover{color:var(--pink);border-color:rgba(255,111,174,.5);transform:translateY(-1px)}.search-toggle svg{width:19px;height:19px;fill:currentColor}.mobile-menu>a.mobile-search-link{color:var(--pink-soft,var(--pink))}
+@media(max-width:719px){
+  html,body{max-width:100%;overflow-x:clip}
+  .nav{gap:8px;min-width:0}
+  .logo{min-width:0;font-size:0;overflow:hidden;white-space:nowrap}
+  .logo span{font-size:.98rem}
+  .nav-actions{flex:0 0 auto;gap:6px}
+  .search-toggle{width:36px;height:36px}
+}
 </style>
 </head>
 <body class="">
