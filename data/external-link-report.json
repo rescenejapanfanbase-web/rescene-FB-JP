@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "generatedAt": null,
+  "startedAt": null,
+  "elapsedSeconds": 0,
+  "summary": {
+    "checked": 0,
+    "ok": 0,
+    "warning": 0,
+    "broken": 0,
+    "hosts": 0
+  },
+  "services": [],
+  "items": [],
+  "notes": [
+    "初回チェック前です。GitHub Actionsの「Check External Links」を実行してください。",
+    "404・410・451と、YouTubeで明確に視聴不可と判定できたリンクをリンク切れとして扱います。",
+    "X・Instagram・TikTokなど自動アクセスを制限するサービスは、誤検知防止のため要確認として扱う場合があります。"
+  ]
+}

@@ -1,0 +1,23 @@
+RESCENEサイト 外部リンク自動チェック追加
+===========================================
+
+追加ファイル:
+- .github/workflows/check-external-links.yml
+- scripts/check-external-links.py
+- external-links.html
+- js/external-links.js
+- data/external-link-report.json
+- EXTERNAL-LINK-CHECK-GUIDE.txt
+
+更新ファイル:
+- sync-status.html
+- js/sync-status.js
+
+反映後:
+1. Actionsを開く
+2. Check External Linksを選ぶ
+3. Run workflowを実行
+4. 完了後にexternal-links.htmlを確認
+
+リンク切れがある場合、Actionsが失敗表示になり、GitHub Issueが自動作成されます。
+Xなど自動アクセスを拒否するサービスは、誤検知防止のため「要確認」になる場合があります。

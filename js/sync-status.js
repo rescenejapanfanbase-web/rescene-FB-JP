@@ -2,7 +2,7 @@
   'use strict';
 
   const REPOSITORY='rescenejapanfanbase-web/rescene-FB-JP';
-  const API_CACHE_KEY='rescene-sync-status-api-v3';
+  const API_CACHE_KEY='rescene-sync-status-api-v4';
   const API_CACHE_MS=5*60*1000;
   const workflowBase=`https://github.com/${REPOSITORY}/actions/workflows/`;
 
@@ -80,6 +80,25 @@
       workflow:'backup-site.yml',
       dataUrl:null,
       parseData(){return {count:'SITE ZIP',detail:'サイト一式＋復元情報を90日保存',generatedAt:null,state:'success',message:'最新のバックアップ実行結果を確認しています。Artifactは最新ログからダウンロードできます。'};},
+    },
+    externallinks:{
+      workflow:'check-external-links.yml',
+      dataUrl:'data/external-link-report.json',
+      parseData(data){
+        const summary=data?.summary||{};
+        const checked=Number(summary.checked)||0;
+        const broken=Number(summary.broken)||0;
+        const warning=Number(summary.warning)||0;
+        const ok=Number(summary.ok)||0;
+        const pending=!data?.generatedAt;
+        return {
+          count:pending?'未実行':`${checked}件`,
+          detail:pending?'初回の外部リンクチェックを実行してください。':`リンク切れ ${broken} / 要確認 ${warning} / 正常 ${ok}`,
+          generatedAt:data?.generatedAt||null,
+          state:broken?'error':pending||warning?'warning':'success',
+          message:pending?'Actionsから「Check External Links」を一度実行してください。':broken?`${broken}件のリンク切れがあります。詳細レポートから記載ページを確認してください。`:warning?`リンク切れはありません。自動確認できなかった項目が${warning}件あります。`:`${checked}件の外部リンクを確認し、リンク切れはありませんでした。`,
+        };
+      },
     },
     sitecheck:{
       workflow:'check-site.yml',
@@ -214,6 +233,7 @@
     let state=runState(run);
     if(apiError)state='unknown';
     if(!dataResult.ok)state='error';
+    else if(dataResult.value.state==='error'&&state!=='running')state='error';
     else if(dataResult.value.state==='warning'&&state==='success')state='warning';
 
     if(run){
@@ -255,7 +275,7 @@
     const hasWarning=states.includes('warning')||states.includes('unknown');
     let state='success';
     let title='すべて正常';
-    let description='最新の同期・トップページ更新・画像最適化・バックアップ・チェックは正常に完了しています。';
+    let description='最新の同期・トップページ更新・画像最適化・バックアップ・外部リンク・サイトチェックは正常に完了しています。';
     let mark='✓';
     if(hasError){state='error';title='問題があります';description='失敗またはデータ読み込みエラーがあります。対象カードの最新ログを確認してください。';mark='!';}
     else if(hasRunning){state='running';title='同期を実行中';description='GitHub Actionsの処理が進行中です。完了後にもう一度確認してください。';mark='↻';}

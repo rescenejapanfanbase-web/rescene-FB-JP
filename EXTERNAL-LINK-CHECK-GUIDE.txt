@@ -1,0 +1,75 @@
+RESCENE JAPAN FANBASE 外部リンク自動チェックガイド
+====================================================
+
+1. 概要
+-------
+サイト内で利用者が押す外部リンクを自動確認します。
+
+主な対象:
+- YouTube
+- X
+- Instagram / TikTok
+- Apple Music / App Store
+- Spotify
+- Google Play
+- NAVER / Mnet Plus
+- GitHub
+
+Notionの管理用URL、画像CDN、Google Fonts、サイト自身のURLは対象外です。
+
+2. 実行タイミング
+-----------------
+- 毎日 5:32（日本時間）
+- GitHub Actionsからの手動実行
+- HTMLまたはチェック処理を変更したとき
+
+GitHub Actions:
+Actions → Check External Links → Run workflow
+
+3. 判定
+-------
+正常:
+公開先へアクセスできたリンクです。
+
+要確認:
+X・Instagram・TikTokなどの自動アクセス制限、レート制限、
+一時的な通信障害、外部サービス側の5xxエラーなどです。
+リンク切れとは断定しません。
+
+リンク切れ:
+HTTP 404 / 410 / 451、またはYouTubeで削除・非公開・利用不可と
+明確に確認できたリンクです。
+
+4. 結果の確認
+-------------
+サイト:
+external-links.html
+
+管理ページ:
+sync-status.html
+
+JSON:
+data/external-link-report.json
+
+GitHub Actions Artifact:
+Check External Linksの実行ページ下部から、30日間ダウンロードできます。
+
+5. 通知
+-------
+リンク切れを検出すると、Actionsを失敗状態にして、GitHub Issuesに
+「[自動チェック] 外部リンク切れを検出」を作成または更新します。
+リンク切れが0件になると、そのIssueを自動で閉じます。
+
+リポジトリでIssuesが無効な場合でも、チェック結果と管理ページは更新されます。
+
+6. 修正後
+---------
+リンクを修正してmainへ反映した後、Check External Linksを手動実行してください。
+リンク切れが0件になればActionsが成功し、通知Issueも自動で閉じます。
+
+7. 注意
+-------
+- 外部サービスのアクセス制限により「要確認」が残る場合があります。
+- 削除済みYouTube動画は、通常のHTTP 200だけでなく公開可否も確認します。
+- GitHub SecretsやAPIキーは不要です。
+- 同じURLが複数ページにある場合、レポートには記載場所をまとめて表示します。
