@@ -433,7 +433,14 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 <script src="data/schedule-data.js"></script>
 <script id="calendar-script">
 (() => {
-  const events = Array.isArray(window.RESCENE_SCHEDULE) ? window.RESCENE_SCHEDULE : [];
+  const baseEvents = Array.isArray(window.RESCENE_SCHEDULE) ? window.RESCENE_SCHEDULE : [];
+  const recurringBirthdays = [
+    { name: "WONI", month: 5, day: 25, description: "ウォニの誕生日です。", link: "members.html#woni-profile" },
+    { name: "MAY", month: 8, day: 19, description: "メイの誕生日です。", link: "members.html#may-profile" },
+    { name: "LIV", month: 10, day: 11, description: "リブの誕生日です。", link: "members.html#liv-profile" },
+    { name: "ZENA", month: 11, day: 27, description: "ゼナの誕生日です。", link: "members.html#zena-profile" },
+    { name: "MINAMI", month: 11, day: 29, description: "ミナミの誕生日です。", link: "members.html#minami-profile" },
+  ];
   const grid = document.getElementById("calendarGrid");
   const title = document.getElementById("calendarTitle");
   const list = document.getElementById("scheduleEvents");
@@ -480,8 +487,68 @@ html.light-mode .hero-members{color:#9f3a6c!important}
     birthday: "BIRTHDAY", release: "RELEASE", record: "RECORD", vote: "VOTE", notice: "NOTICE", event: "EVENT",
   })[event.type] || String(event.category || "EVENT").toUpperCase();
 
+  const recurringEventsForYear = (year) => {
+    const events = recurringBirthdays.map((member) => ({
+      id: `auto-birthday-${member.name.toLowerCase()}-${year}`,
+      title: `${member.name} 誕生日`,
+      date: `${year}-${String(member.month).padStart(2, "0")}-${String(member.day).padStart(2, "0")}`,
+      start: `${year}-${String(member.month).padStart(2, "0")}-${String(member.day).padStart(2, "0")}`,
+      end: "",
+      category: "Birthday",
+      type: "birthday",
+      description: member.description,
+      link: member.link,
+      linkLabel: `${member.name}プロフィールを見る`,
+      image: "",
+      recurringMember: member.name,
+    }));
+
+    if (year >= 2024) {
+      const anniversary = year - 2024;
+      events.push({
+        id: `auto-debut-anniversary-${year}`,
+        title: anniversary > 0 ? `RESCENE デビュー${anniversary}周年` : "RESCENE デビュー記念日",
+        date: `${year}-03-26`,
+        start: `${year}-03-26`,
+        end: "",
+        category: "記録",
+        type: "record",
+        description: anniversary > 0
+          ? `2024年3月26日にデビューしたRESCENEのデビュー${anniversary}周年記念日です。`
+          : "2024年3月26日にRESCENEがデビューしました。",
+        link: "about.html",
+        linkLabel: "RESCENEについて見る",
+        image: "",
+        recurringAnniversary: true,
+      });
+    }
+    return events;
+  };
+
+  const isSameCalendarDate = (event, dateText) => eventDates(event).includes(dateText);
+  const isRecurringDuplicate = (candidate, sourceEvents) => sourceEvents.some((event) => {
+    if (!isSameCalendarDate(event, candidate.date)) return false;
+    const titleText = String(event.title || "").toUpperCase().replace(/\s+/g, "");
+    if (candidate.recurringMember) {
+      return titleText.includes(candidate.recurringMember) && (event.type === "birthday" || String(event.category || "").toLowerCase() === "birthday");
+    }
+    return candidate.recurringAnniversary && /デビュー|ANNIVERSARY/.test(titleText);
+  });
+
+  const eventsForYears = (...years) => {
+    const uniqueYears = [...new Set(years)];
+    const recurring = uniqueYears.flatMap(recurringEventsForYear)
+      .filter((candidate) => !isRecurringDuplicate(candidate, baseEvents));
+    return [...baseEvents, ...recurring].sort((a, b) => {
+      const aDate = String(a.start || a.date || "");
+      const bDate = String(b.start || b.date || "");
+      return aDate.localeCompare(bDate) || String(a.title || "").localeCompare(String(b.title || ""), "ja");
+    });
+  };
+
   const today = new Date();
-  const nextEvent = events.map((event) => ({ event, date: toDate(event.date || event.start || "") }))
+  const initialEvents = eventsForYears(today.getFullYear(), today.getFullYear() + 1);
+  const nextEvent = initialEvents.map((event) => ({ event, date: toDate(event.date || event.start || "") }))
     .filter((item) => item.date && item.date >= new Date(today.getFullYear(), today.getMonth(), today.getDate()))
     .sort((a, b) => a.date - b.date)[0];
   let view = nextEvent?.date ? new Date(nextEvent.date.getFullYear(), nextEvent.date.getMonth(), 1) : new Date(today.getFullYear(), today.getMonth(), 1);
@@ -489,6 +556,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
   function render() {
     const year = view.getFullYear();
     const month = view.getMonth();
+    const events = eventsForYears(year - 1, year, year + 1);
     title.textContent = `${year}年 ${month + 1}月`;
 
     const first = new Date(year, month, 1);
