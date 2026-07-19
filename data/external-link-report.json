@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T15:36:10Z",
-  "startedAt": "2026-07-19T15:36:07Z",
-  "elapsedSeconds": 3.25,
+  "generatedAt": "2026-07-19T15:46:33Z",
+  "startedAt": "2026-07-19T15:46:28Z",
+  "elapsedSeconds": 5.7,
   "summary": {
     "checked": 103,
-    "ok": 100,
-    "warning": 1,
+    "ok": 101,
+    "warning": 0,
     "broken": 2,
     "hosts": 12
   },
@@ -18,14 +18,6 @@
       "ok": 9,
       "warning": 0,
       "broken": 2
-    },
-    {
-      "key": "instagram",
-      "label": "Instagram",
-      "checked": 1,
-      "ok": 0,
-      "warning": 1,
-      "broken": 0
     },
     {
       "key": "apple-music",
@@ -48,6 +40,14 @@
       "label": "Google Play",
       "checked": 8,
       "ok": 8,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
+      "checked": 1,
+      "ok": 1,
       "warning": 0,
       "broken": 0
     },
@@ -134,29 +134,6 @@
           "file": "voting.html",
           "line": 676,
           "label": "App Storeで検索 ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "warning",
-      "httpStatus": 429,
-      "message": "HTTP 429（自動確認が制限されています）",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "index.html",
-          "line": 683,
-          "label": "Instagram"
-        },
-        {
-          "file": "links.html",
-          "line": 472,
-          "label": "Instagram OPEN ↗"
         }
       ]
     },
@@ -855,6 +832,29 @@
       ]
     },
     {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "index.html",
+          "line": 683,
+          "label": "Instagram"
+        },
+        {
+          "file": "links.html",
+          "line": 472,
+          "label": "Instagram OPEN ↗"
+        }
+      ]
+    },
+    {
       "url": "https://artist.mnetplus.world/main/stg/rescene-official",
       "normalizedUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
       "finalUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
@@ -1003,13 +1003,13 @@
     {
       "url": "https://open.spotify.com/album/3H7MTJVprjcvlvCeQdRe1H",
       "normalizedUrl": "https://open.spotify.com/album/3H7MTJVprjcvlvCeQdRe1H",
-      "finalUrl": "https://open.spotify.com/album/3H7MTJVprjcvlvCeQdRe1H",
+      "finalUrl": "https://open.spotify.com/intl-ja/album/3H7MTJVprjcvlvCeQdRe1H",
       "service": "Spotify",
       "serviceKey": "spotify",
       "status": "ok",
       "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
+      "message": "HTTP 200",
+      "method": "spotify-page",
       "sources": [
         {
           "file": "discography.html",
