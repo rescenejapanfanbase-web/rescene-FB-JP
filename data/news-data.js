@@ -1,14 +1,29 @@
 window.RESCENE_NEWS = [
   {
+    "slug": "fanbase-site",
+    "date": "UPDATE",
+    "category": "notice",
+    "label": "NOTICE",
+    "title": "RESCENE JAPAN FANBASE ウェブサイト",
+    "text": "RESCENE JAPAN FANBASEのウェブサイトが出来ました！",
+    "image": "news/fanbase-site.jpg",
+    "sourceLink": "https://x.com/Rescene_FB_JP",
+    "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
+  },
+  {
     "slug": "pretty-girl-first-music-show-win",
     "date": "2026.07.14",
     "category": "notice",
     "label": "1ST WIN",
     "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
-    "text": "2026年7月14日放送のSBS Life「THE SHOW」で、「Pretty Girl」がRESCENE初の音楽番組1位を獲得しました。10,000点のフルスコアでの1位となり、THE SHOWでフルスコアを記録したのはBTS、Wanna Oneに続く3組目です。",
-    "image": "news/the-show-first-win.jpeg",
+    "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
+    "image": "assets/news/the-show-first-win.jpeg",
     "sourceLink": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
-    "sourceLabel": "THE K-POP公式動画を見る"
+    "sourceLabel": "THE K-POP公式動画を見る",
+    "categoryName": "記念日",
+    "body": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEが「Pretty Girl」でグループ初となる\n音楽番組1位を獲得しました。\n\n最終スコアは10,000点のフルスコアとなりました。",
+    "notionPageId": "3a2229d2-19da-806e-a09b-c4bc9d88fde7",
+    "notionUrl": "https://app.notion.com/p/RESCENE-Pretty-Girl-1-3a2229d219da806ea09bc4bc9d88fde7"
   },
   {
     "slug": "love-attack-inkigayo-realtime-first",
@@ -196,16 +211,5 @@ window.RESCENE_NEWS = [
     "image": "assets/mv/uhuh.jpg",
     "sourceLink": "discography.html#single-album",
     "sourceLabel": "作品情報・配信リンクを見る"
-  },
-  {
-    "slug": "fanbase-site",
-    "date": "UPDATE",
-    "category": "notice",
-    "label": "NOTICE",
-    "title": "RESCENE JAPAN FANBASE ウェブサイト",
-    "text": "RESCENE JAPAN FANBASEのウェブサイトが出来ました！",
-    "image": "news/fanbase-site.jpg",
-    "sourceLink": "https://x.com/Rescene_FB_JP",
-    "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   }
 ];
