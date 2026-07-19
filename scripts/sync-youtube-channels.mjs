@@ -14,7 +14,7 @@ const channelConfigs = [
   },
   {
     key: "woni",
-    label: "WONI Channel",
+    label: "안녕하세요원이입니다잘부탁드립니다",
     handle: "@helloiamwoninicetomeetyou",
     url: "https://www.youtube.com/@helloiamwoninicetomeetyou",
     description: "ウォニの日常やメンバーとの楽しいコンテンツを届ける個人YouTubeチャンネル。",
@@ -95,6 +95,43 @@ function parseFeed(xml) {
     .filter((video) => video.videoId && video.title);
 }
 
+
+function fallbackVideoType(video) {
+  const title = video.title || "";
+  if (/\bLIVE\b|생방송|라이브\s*스트림|ライブ配信/i.test(title)) return "live";
+  if (/#shorts?\b|\bshorts?\b|쇼츠|ショート/i.test(title)) return "short";
+  return "video";
+}
+
+async function detectVideoType(video) {
+  try {
+    const response = await fetch(`https://www.youtube.com/shorts/${video.videoId}`, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; RESCENE-JAPAN-FANBASE/1.0)",
+        "Accept-Language": "ja,en-US;q=0.8,en;q=0.6",
+      },
+      redirect: "follow",
+    });
+    if (!response.ok) return fallbackVideoType(video);
+    const html = await response.text();
+    if (/\"isLiveContent\":true|\"isLiveNow\":true|\"isUpcoming\":true|LIVE_STREAM_OFFLINE/.test(html)) return "live";
+    const canonical = html.match(/<link[^>]+rel=["']canonical["'][^>]+href=["']([^"']+)/i)?.[1] || "";
+    if (/youtube\.com\/shorts\//i.test(response.url) || /youtube\.com\/shorts\//i.test(canonical) || /\"isShort\":true/.test(html)) return "short";
+    return fallbackVideoType(video);
+  } catch {
+    return fallbackVideoType(video);
+  }
+}
+
+async function addVideoTypes(videos) {
+  const typed = [];
+  for (let i = 0; i < videos.length; i += 4) {
+    const batch = videos.slice(i, i + 4);
+    typed.push(...await Promise.all(batch.map(async (video) => ({ ...video, videoType: await detectVideoType(video) }))));
+  }
+  return typed;
+}
+
 async function readPrevious() {
   try {
     return JSON.parse(await readFile(outputPath, "utf8"));
@@ -120,7 +157,7 @@ for (const config of channelConfigs) {
     const channelId = findChannelId(channelHtml);
     const feedUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
     const feedXml = await fetchText(feedUrl);
-    const videos = parseFeed(feedXml);
+    const videos = await addVideoTypes(parseFeed(feedXml));
 
     if (!videos.length) throw new Error("YouTube RSSから動画を取得できませんでした。");
 
