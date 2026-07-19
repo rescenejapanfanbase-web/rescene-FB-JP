@@ -28,22 +28,50 @@ jobs:
           node-version: "24"
           package-manager-cache: false
 
-      - name: Sync YouTube channels
-        env:
-          YOUTUBE_MAX_VIDEOS: "12"
-        run: node scripts/sync-youtube-channels.mjs
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
 
-      - name: Commit YouTube channel changes
+      - name: Install YouTube channel extractor
+        run: python -m pip install --disable-pip-version-check --upgrade yt-dlp
+
+      - name: Sync and commit all public YouTube videos
         shell: bash
         run: |
-          if git diff --quiet -- data/youtube-channels.json; then
-            echo "YouTube動画一覧の変更はありません。"
-            exit 0
-          fi
+          set -euo pipefail
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/youtube-channels.json
-          git commit -m "chore: sync YouTube channels"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+          branch="${GITHUB_REF_NAME}"
+
+          for attempt in 1 2 3; do
+            echo "YouTube同期を実行します（${attempt}/3）"
+
+            # 同期開始直前にmainの最新状態へ合わせる。
+            # push直前に別の更新が入った場合は、rebaseせず最新状態から再生成する。
+            git fetch origin "${branch}"
+            git reset --hard "origin/${branch}"
+
+            node scripts/sync-youtube-channels.mjs
+
+            if git diff --quiet -- data/youtube-channels.json; then
+              echo "YouTube動画一覧の変更はありません。"
+              exit 0
+            fi
+
+            git add data/youtube-channels.json
+            git commit -m "chore: sync all YouTube videos"
+
+            if git push origin "HEAD:${branch}"; then
+              echo "YouTube動画一覧を更新しました。"
+              exit 0
+            fi
+
+            echo "push中に別の更新が入りました。最新のmainから再同期します。"
+            sleep $((attempt * 5))
+          done
+
+          echo "3回試行しましたが更新を反映できませんでした。"
+          exit 1
