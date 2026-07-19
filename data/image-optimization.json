@@ -1,21 +1,25 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": null,
-  "sourceFiles": 0,
-  "uniqueImages": 0,
-  "optimizedImages": 0,
-  "uniqueOptimizedAssets": 0,
-  "derivatives": 0,
-  "generatedNow": 0,
+  "generatedAt": "2026-07-19T15:05:39Z",
+  "sourceFiles": 170,
+  "uniqueImages": 97,
+  "optimizedImages": 170,
+  "uniqueOptimizedAssets": 97,
+  "derivatives": 272,
+  "generatedNow": 272,
   "reusedNow": 0,
   "failedImages": 0,
   "failures": [],
-  "originalBytes": 0,
-  "estimatedDeliveryBytes": 0,
-  "estimatedSavedBytes": 0,
-  "estimatedSavingPercent": 0,
-  "generatedStorageBytes": 0,
+  "originalBytes": 93645858,
+  "estimatedDeliveryBytes": 22393442,
+  "estimatedSavedBytes": 71252416,
+  "estimatedSavingPercent": 76.1,
+  "generatedStorageBytes": 22836036,
   "removedOrphans": 0,
-  "notes": ["初回はGitHub ActionsのOptimize Site Imagesを実行してください。"]
+  "notes": [
+    "元画像は削除せず、表示時に画面幅へ合うWebPを選択します。",
+    "同一内容の画像はハッシュでまとめ、WebPの重複生成を防ぎます。",
+    "推定削減率は各画像を最大1200px相当で配信した場合の概算です。"
+  ]
 }
