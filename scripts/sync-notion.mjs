@@ -22,6 +22,7 @@ const categoryType = {
   その他: "event",
   仕事: "event",
   プライベート: "event",
+  音楽番組: "event",
 };
 
 async function queryAllPages() {
@@ -75,6 +76,15 @@ function convertPage(page) {
   if (!title || !date?.start) return null;
 
   const category = properties["カテゴリー"]?.select?.name ?? "イベント";
+  const summary = plainText(properties["テキスト"]?.rich_text);
+  const memo = plainText(properties["メモ"]?.rich_text);
+  const description = [...new Set([summary, memo].filter(Boolean))].join("\n");
+  const link = properties["リンク"]?.url ?? properties["リンク (1)"]?.url ?? "";
+  const linkLabel =
+    plainText(properties["リンク名"]?.rich_text) ||
+    plainText(properties["リンク名 (1)"]?.rich_text) ||
+    "詳細を見る";
+
   return {
     id: page.id,
     title,
@@ -83,21 +93,33 @@ function convertPage(page) {
     end: date.end ?? "",
     category,
     type: categoryType[category] ?? "event",
-    description: plainText(properties["メモ"]?.rich_text),
-    link: properties["リンク"]?.url ?? "",
-    linkLabel: plainText(properties["リンク名"]?.rich_text) || "詳細を見る",
+    description,
+    link,
+    linkLabel,
     image: properties["画像URL"]?.url ?? "",
     notionUrl: page.url ?? "",
   };
 }
 
-async function readExistingEvents() {
+async function readExistingSchedule() {
   try {
     const raw = await readFile("data/schedule.json", "utf8");
     const parsed = JSON.parse(raw);
-    return Array.isArray(parsed.events) ? parsed.events : [];
+    return {
+      exists: true,
+      generatedAt: parsed.generatedAt ?? null,
+      events: Array.isArray(parsed.events) ? parsed.events : [],
+    };
   } catch {
-    return [];
+    return { exists: false, generatedAt: null, events: [] };
+  }
+}
+
+async function readExistingText(path) {
+  try {
+    return await readFile(path, "utf8");
+  } catch {
+    return "";
   }
 }
 
@@ -107,25 +129,33 @@ const events = pages
   .filter(Boolean)
   .sort((a, b) => a.start.localeCompare(b.start) || a.title.localeCompare(b.title, "ja"));
 
-const existingEvents = await readExistingEvents();
-if (JSON.stringify(existingEvents) === JSON.stringify(events)) {
+const existingSchedule = await readExistingSchedule();
+const existingScript = await readExistingText("data/schedule-data.js");
+const desiredScript = `window.RESCENE_SCHEDULE = ${JSON.stringify(events, null, 2)};\n`;
+const eventsChanged =
+  !existingSchedule.exists ||
+  JSON.stringify(existingSchedule.events) !== JSON.stringify(events);
+const scriptChanged = existingScript !== desiredScript;
+
+if (!eventsChanged && !scriptChanged) {
   console.log(`変更なし（公開予定 ${events.length}件）`);
   process.exit(0);
 }
 
 await mkdir("data", { recursive: true });
-const payload = {
-  generatedAt: new Date().toISOString(),
-  source: "notion",
-  dataSourceId,
-  events,
-};
 
-await writeFile("data/schedule.json", `${JSON.stringify(payload, null, 2)}\n`, "utf8");
-await writeFile(
-  "data/schedule-data.js",
-  `window.RESCENE_SCHEDULE = ${JSON.stringify(events, null, 2)};\n`,
-  "utf8",
-);
+if (eventsChanged) {
+  const payload = {
+    generatedAt: new Date().toISOString(),
+    source: "notion",
+    dataSourceId,
+    events,
+  };
+  await writeFile("data/schedule.json", `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+}
 
-console.log(`${events.length}件の公開予定を同期しました。`);
+if (scriptChanged) {
+  await writeFile("data/schedule-data.js", desiredScript, "utf8");
+}
+
+console.log(`${events.length}件の公開予定を同期しました。JSON更新: ${eventsChanged ? "あり" : "なし"} / JS更新: ${scriptChanged ? "あり" : "なし"}`);

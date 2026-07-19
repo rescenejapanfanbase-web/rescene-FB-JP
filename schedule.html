@@ -432,8 +432,17 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 </script>
 <script src="data/schedule-data.js"></script>
 <script id="calendar-script">
-(() => {
-  const baseEvents = Array.isArray(window.RESCENE_SCHEDULE) ? window.RESCENE_SCHEDULE : [];
+(async () => {
+  let baseEvents = Array.isArray(window.RESCENE_SCHEDULE) ? window.RESCENE_SCHEDULE : [];
+  try {
+    const response = await fetch(`data/schedule.json?v=${Date.now()}`, { cache: "no-store" });
+    if (response.ok) {
+      const payload = await response.json();
+      if (Array.isArray(payload?.events)) baseEvents = payload.events;
+    }
+  } catch (error) {
+    console.warn("最新スケジュールJSONの取得に失敗したため、JSデータを使用します。", error);
+  }
   const recurringBirthdays = [
     { name: "WONI", month: 5, day: 25, description: "ウォニの誕生日です。", link: "members.html#woni-profile" },
     { name: "MAY", month: 8, day: 19, description: "メイの誕生日です。", link: "members.html#may-profile" },
@@ -592,7 +601,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
       const external = /^https?:\/\//i.test(link);
       const action = link ? `<a class="btn btn-secondary" href="${escapeHtml(link)}"${external ? ' target="_blank" rel="noopener noreferrer"' : ""}>${escapeHtml(event.linkLabel || "詳細を見る")}${external ? " ↗" : ""}</a>` : "";
       const imageBlock = image ? `<figure class="schedule-detail-image"><img src="${escapeHtml(image)}" alt="${escapeHtml(event.title)}" loading="lazy"></figure>` : "";
-      const description = escapeHtml(event.description || "詳細は公式案内もあわせてご確認ください。");
+      const description = escapeHtml(event.description || "詳細は公式案内もあわせてご確認ください。").replace(/\n/g, "<br>");
       return `<details class="schedule-row card" ${index === 0 ? "open" : ""}><summary><div class="schedule-date"><strong>${String(date.getMonth() + 1).padStart(2, "0")}.${String(date.getDate()).padStart(2, "0")}</strong><span>${date.toLocaleDateString("ja-JP", { weekday: "short" })}</span></div><div><span class="badge">${escapeHtml(badgeLabel(event))}</span><h2>${escapeHtml(event.title)}</h2><p>${description}</p>${time ? `<span class="schedule-time">${escapeHtml(time)}</span>` : ""}</div></summary><div class="schedule-detail">${imageBlock}<p>${description}</p>${action}</div></details>`;
     }).join("");
   }
