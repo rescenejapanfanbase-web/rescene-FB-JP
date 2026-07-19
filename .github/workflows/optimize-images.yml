@@ -1,0 +1,91 @@
+name: Optimize Site Images
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.png"
+      - "**/*.jpg"
+      - "**/*.jpeg"
+      - "**/*.webp"
+      - "!assets/optimized/**"
+      - "scripts/optimize-images.py"
+      - ".github/workflows/optimize-images.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-image-optimization
+  cancel-in-progress: true
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install image tools
+        run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+
+      - name: Generate and commit responsive WebP images
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="${GITHUB_REF_NAME}"
+
+          for attempt in 1 2 3; do
+            echo "画像を最適化します（${attempt}/3）"
+            git fetch origin "${branch}"
+            git reset --hard "origin/${branch}"
+
+            python scripts/optimize-images.py
+            python scripts/check-site-links.py
+
+            if git diff --quiet -- assets/optimized data/image-manifest.json data/image-optimization.json; then
+              echo "画像最適化データに変更はありません。"
+              exit 0
+            fi
+
+            git add -A assets/optimized data/image-manifest.json data/image-optimization.json
+            git commit -m "chore: optimize site images"
+
+            if git push origin "HEAD:${branch}"; then
+              echo "画像最適化データを更新しました。"
+              python - <<'PY'
+          import json, os
+          from pathlib import Path
+          data=json.loads(Path('data/image-optimization.json').read_text(encoding='utf-8'))
+          summary=Path(os.environ['GITHUB_STEP_SUMMARY'])
+          with summary.open('a',encoding='utf-8') as out:
+              out.write('## RESCENEサイト 画像最適化\n\n')
+              out.write(f"- 元画像: {data.get('sourceFiles',0)}件\n")
+              out.write(f"- 重複除外後: {data.get('uniqueImages',0)}種類\n")
+              out.write(f"- WebP派生画像: {data.get('derivatives',0)}件\n")
+              out.write(f"- 推定転送量削減: {data.get('estimatedSavingPercent',0)}%\n")
+              out.write(f"- 今回生成: {data.get('generatedNow',0)}件\n")
+          PY
+              exit 0
+            fi
+
+            echo "push中に別の更新が入りました。最新のmainから再生成します。"
+            sleep $((attempt * 5))
+          done
+
+          echo "3回試行しましたが更新を反映できませんでした。"
+          exit 1
