@@ -1,0 +1,13 @@
+YouTube同期のGit競合修正（2026-07-19）
+
+変更ファイル:
+.github/workflows/sync-youtube-channels.yml
+
+修正内容:
+- data/youtube-channels.jsonをcommit後にgit pull --rebaseする方式を廃止
+- 同期直前にorigin/mainの最新状態へreset
+- pushが競合した場合、最新mainから動画一覧を再生成して最大3回再試行
+- 生成済みJSON同士のrebase競合を防止
+
+反映後:
+Actions → Sync YouTube Channels → Run workflow
