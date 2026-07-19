@@ -1,28 +1,14 @@
-RESCENE JAPAN FANBASE — PINK EDITION
+サイト内チェック修正版
 
-GitHub Pages向けの静的サイトです。
-Montserrat + Noto Sans JP、ピンクを主役にしたデザインを採用しています。
+次の3ファイルを同じ場所へ上書きしてください。
 
-今回の更新:
-- サイト名を RESCENE JAPAN FANBASE に統一
-- ファンベース自身へのリンクを削除
-- メンバープロフィールのキーワードを修正
-- ディスコグラフィをカテゴリー別に再構成
-- OSTカテゴリーを追加
-- 2026年7月8日 Special Single「Pretty Girl」を追加
+1. scripts/check-site-links.py
+2. article.html
+3. assets/voting/apps/muniverse.png
 
-公開方法:
-1. ZIPを展開
-2. 中身をGitHubリポジトリ直下へ上書き
-3. GitHub Pagesの公開完了後にブラウザを強制再読み込み
+上書き後、GitHub Actions の「Check Site Files」を再実行してください。
 
-
-Group photo: assets/group/rescene-group.jpg
-
-
-2026-07 comprehensive update:
-- news detail page (article.html)
-- fan chant page (chants.html)
-- schedule calendar
-- MV filters
-- THE SHOW score correction
+修正内容:
+- data/*.json と js/*.js 内のサイトパスをリポジトリ直下基準で検査
+- article.html の予備ニュース画像を news/fanbase-site.jpg に変更
+- 不足していた Muniverse アイコンを追加

@@ -57,6 +57,13 @@ def should_ignore(reference: str) -> bool:
 
 
 def resolve_reference(source: Path, reference: str) -> Path | None:
+    """Resolve a site reference to a repository path.
+
+    HTML/CSS references are relative to their containing file. Paths stored in
+    site data files (.js/.json), such as ``news/example.jpg`` and
+    ``discography.html#album``, are browser paths and therefore relative to the
+    GitHub Pages site root unless explicitly prefixed with ./ or ../.
+    """
     if should_ignore(reference):
         return None
 
@@ -65,8 +72,12 @@ def resolve_reference(source: Path, reference: str) -> Path | None:
     if not raw_path:
         return None
 
+    explicit_relative = raw_path.startswith("./") or raw_path.startswith("../")
+
     if raw_path.startswith("/"):
         candidate = ROOT / raw_path.lstrip("/")
+    elif source.suffix.lower() in {".js", ".json"} and not explicit_relative:
+        candidate = ROOT / raw_path
     else:
         candidate = source.parent / raw_path
 
@@ -96,7 +107,7 @@ def collect_references(path: Path) -> list[tuple[str, int]]:
         line = text.count("\n", 0, match.start()) + 1
         refs.append((match.group(2).strip(), line))
 
-    # Also catches paths stored inside JavaScript/JSON data, such as news image paths.
+    # Also catches paths stored inside JavaScript/JSON data.
     for match in QUOTED_LOCAL_RE.finditer(text):
         line = text.count("\n", 0, match.start()) + 1
         refs.append((match.group("path"), line))
@@ -127,7 +138,6 @@ def main() -> int:
             if target is None:
                 continue
 
-            # Only validate local paths inside this repository.
             try:
                 target.relative_to(ROOT.resolve())
             except ValueError:
@@ -136,11 +146,9 @@ def main() -> int:
             if target.exists():
                 continue
 
-            # Extensionless local page references can map to .html.
             if target.suffix == "" and target.with_suffix(".html").exists():
                 continue
 
-            # Ignore non-file fragments accidentally captured by broad text scanning.
             if target.suffix.lower() not in ASSET_EXTENSIONS and Path(urlsplit(reference).path).suffix:
                 continue
 
