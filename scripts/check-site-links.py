@@ -16,6 +16,10 @@ ASSET_EXTENSIONS = {
     ".png", ".jpg", ".jpeg", ".gif", ".webp", ".avif", ".svg", ".ico",
     ".mp3", ".m4a", ".wav", ".mp4", ".webm", ".pdf",
 }
+IGNORED_FILES = {
+    Path("js/data.js"),  # 現在のページから読み込まれていない旧ニュースデータ
+}
+
 IGNORE_PREFIXES = (
     "http://", "https://", "mailto:", "tel:", "javascript:", "data:", "blob:",
 )
@@ -125,6 +129,7 @@ def main() -> int:
         and p.suffix.lower() in TEXT_EXTENSIONS
         and ".git" not in p.parts
         and "node_modules" not in p.parts
+        and p.relative_to(ROOT) not in IGNORED_FILES
     )
 
     for source in files:
