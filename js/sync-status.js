@@ -31,12 +31,21 @@
         const channels=Array.isArray(data?.channels)?data.channels:[];
         const videos=channels.reduce((sum,channel)=>sum+(Array.isArray(channel?.videos)?channel.videos.length:0),0);
         const errors=channels.filter(channel=>channel?.syncError);
+        const allMode=data?.collectionMode==='all-public-videos';
+        const typeCounts=channels.reduce((counts,channel)=>{
+          const source=channel?.typeCounts||{};
+          counts.video+=Number(source.video)||0;
+          counts.short+=Number(source.short)||0;
+          counts.live+=Number(source.live)||0;
+          return counts;
+        },{video:0,short:0,live:0});
+        const typeDetail=allMode?`通常 ${typeCounts.video} / ショート ${typeCounts.short} / ライブ ${typeCounts.live}`:`${channels.length}チャンネル`;
         return {
           count:`${videos}件`,
-          detail:`最新動画（${channels.length}チャンネル）`,
+          detail:allMode?`全公開動画（${typeDetail}）`:`最新動画（${typeDetail}）`,
           generatedAt:data?.generatedAt||null,
           state:errors.length?'warning':'success',
-          message:errors.length?`${errors.map(channel=>channel.label||channel.key).join('、')}の取得で警告があります。前回データを表示中です。`:`${channels.length}チャンネル・${videos}件の動画データを読み込みました。`,
+          message:errors.length?`${errors.map(channel=>channel.label||channel.key).join('、')}の一部取得で警告があります。取得済みデータを表示しています。`:`${channels.length}チャンネル・${videos}件の${allMode?'全公開動画':'動画'}データを読み込みました。`,
         };
       },
     },

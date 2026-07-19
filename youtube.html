@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark light">
 <title>YouTube | RESCENE JAPAN FANBASE</title>
-<meta name="description" content="RESCENE公式YouTubeチャンネルとウォニのYouTubeチャンネル、最新動画をまとめています。">
+<meta name="description" content="RESCENE公式YouTubeチャンネルとウォニのYouTubeチャンネルで公開されている動画をまとめています。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://i.ytimg.com">
@@ -47,7 +47,10 @@ try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.
   .youtube-filter-row .filter{padding:7px 9px;font-size:.64rem}
 }
 </style>
-<style id="youtube-video-type-filter-style">.video-labels{display:flex;align-items:center;gap:7px;flex-wrap:wrap}.video-type-pill{display:inline-flex;padding:3px 7px;border-radius:999px;font-size:.58rem;font-weight:900;letter-spacing:.05em;border:1px solid rgba(255,152,201,.28);color:#ffd8ea;background:rgba(255,109,169,.12)}.video-type-pill.type-short{color:#d7c7ff;background:rgba(174,132,255,.15)}.video-type-pill.type-live{color:#fff;background:linear-gradient(135deg,#ff477f,#d93669);border-color:transparent}.youtube-filter-row .filter[data-filter="woni"]{max-width:100%;overflow-wrap:anywhere}@media(max-width:719px){.video-labels{gap:4px}.video-type-pill{font-size:.49rem;padding:2px 5px}.youtube-filter-row .filter[data-filter="woni"]{font-size:.56rem}}</style>
+<style id="youtube-video-type-filter-style">
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.video-labels{display:flex;align-items:center;gap:7px;flex-wrap:wrap}.video-type-pill{display:inline-flex;padding:3px 7px;border-radius:999px;font-size:.58rem;font-weight:900;letter-spacing:.05em;border:1px solid rgba(255,152,201,.28);color:#ffd8ea;background:rgba(255,109,169,.12)}.video-type-pill.type-short{color:#d7c7ff;background:rgba(174,132,255,.15)}.video-type-pill.type-live{color:#fff;background:linear-gradient(135deg,#ff477f,#d93669);border-color:transparent}.youtube-filter-row .filter[data-filter="woni"]{max-width:100%;overflow-wrap:anywhere}.youtube-search-wrap{width:min(100%,440px);margin:0 0 16px}.youtube-search{width:100%;min-height:46px;padding:11px 15px;border:1px solid var(--border);border-radius:14px;background:var(--card);color:var(--text);font:inherit;font-size:.9rem;outline:none}.youtube-search:focus{border-color:rgba(255,111,174,.72);box-shadow:0 0 0 3px rgba(255,111,174,.12)}.youtube-search::placeholder{color:var(--muted)}.video-pager{display:flex;justify-content:center;margin-top:28px}.video-pager[hidden]{display:none}.load-more-button{min-width:220px}.channel-count{display:block;margin-top:5px;color:var(--pink);font-size:.72rem;font-weight:900}
+@media(max-width:719px){.video-labels{gap:4px}.video-type-pill{font-size:.49rem;padding:2px 5px}.youtube-filter-row .filter[data-filter="woni"]{font-size:.56rem}.youtube-search-wrap{margin-bottom:12px}.youtube-search{min-height:42px;font-size:.78rem}.load-more-button{width:100%;min-width:0}}
+</style>
 </head>
 <body>
 <header>
@@ -75,7 +78,7 @@ try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
 <main class="container">
-<section class="page-header youtube-hero" id="top"><span class="page-kicker">OFFICIAL & WONI CHANNEL</span><h1>YouTube</h1><p>RESCENE公式チャンネルと、ウォニの個人チャンネルの最新動画をまとめています。</p></section>
+<section class="page-header youtube-hero" id="top"><span class="page-kicker">OFFICIAL & WONI CHANNEL</span><h1>YouTube</h1><p>RESCENE公式チャンネルと、ウォニの個人チャンネルで公開されている動画をまとめています。</p></section>
 
 <section class="section">
 <div class="section-head"><div><span class="section-kicker">CHANNELS</span><h2 class="section-title">チャンネル</h2></div></div>
@@ -86,30 +89,78 @@ try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.
 </section>
 
 <section class="section">
-<div class="section-head"><div><span class="section-kicker">LATEST VIDEOS</span><h2 class="section-title">最新動画</h2></div></div>
-<div class="youtube-controls"><div class="youtube-filter-row" role="group" aria-label="チャンネル絞り込み"><button class="filter active" type="button" data-filter="all">すべて</button><button class="filter" type="button" data-filter="rescene">RESCENE Official</button><button class="filter" type="button" data-filter="woni">안녕하세요원이입니다잘부탁드립니다</button><button class="filter" type="button" data-filter="short">ショート</button><button class="filter" type="button" data-filter="video">通常の横動画</button><button class="filter" type="button" data-filter="live">ライブ</button></div><div class="youtube-status" id="youtubeStatus">動画一覧を読み込んでいます。</div></div>
-<div class="video-grid" id="videoGrid"><div class="card loading-card">YouTubeの最新動画を読み込んでいます。</div></div>
+<div class="section-head"><div><span class="section-kicker">ALL PUBLIC VIDEOS</span><h2 class="section-title">投稿動画一覧</h2></div></div>
+<div class="youtube-search-wrap"><label class="sr-only" for="youtubeSearch">動画タイトルを検索</label><input class="youtube-search" id="youtubeSearch" type="search" placeholder="動画タイトルを検索" autocomplete="off"></div>
+<div class="youtube-controls"><div class="youtube-filter-row" role="group" aria-label="チャンネル・動画種類の絞り込み"><button class="filter active" type="button" data-filter="all">すべて</button><button class="filter" type="button" data-filter="rescene">RESCENE Official</button><button class="filter" type="button" data-filter="woni">안녕하세요원이입니다잘부탁드립니다</button><button class="filter" type="button" data-filter="short">ショート</button><button class="filter" type="button" data-filter="video">通常の横動画</button><button class="filter" type="button" data-filter="live">ライブ</button></div><div class="youtube-status" id="youtubeStatus" aria-live="polite">動画一覧を読み込んでいます。</div></div>
+<div class="video-grid" id="videoGrid"><div class="card loading-card">YouTubeの公開動画を読み込んでいます。</div></div>
+<div class="video-pager" id="videoPager" hidden><button class="btn btn-secondary load-more-button" id="loadMoreVideos" type="button">さらに24件表示</button></div>
 </section>
 </main>
 <footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">掲載動画の権利は各権利者に帰属します。公式情報は各チャンネルの案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
 <script src="js/common.js"></script>
 <script>
 (()=>{
+ const PAGE_SIZE=24;
  const grid=document.getElementById('videoGrid');
  const status=document.getElementById('youtubeStatus');
+ const search=document.getElementById('youtubeSearch');
+ const pager=document.getElementById('videoPager');
+ const loadMore=document.getElementById('loadMoreVideos');
  const buttons=[...document.querySelectorAll('[data-filter]')];
  let channels=[];
  let active='all';
+ let keyword='';
+ let shown=PAGE_SIZE;
+ let syncLabel='';
  const escapeHtml=(value='')=>String(value).replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));
  const formatDate=value=>{if(!value)return '';const date=new Date(value);return Number.isNaN(date.getTime())?'':new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'numeric',day:'numeric'}).format(date)};
- const renderLatest=()=>channels.forEach(channel=>{const target=document.querySelector(`[data-latest="${channel.key}"]`);if(!target)return;const latest=channel.videos?.[0];target.innerHTML=latest?`LATEST<strong>${escapeHtml(latest.title)}</strong>`:'最新動画は同期後に表示されます。'});
+ const timestamp=value=>{const time=value?new Date(value).getTime():0;return Number.isFinite(time)?time:0};
+ const allVideos=()=>channels.flatMap(channel=>(channel.videos||[]).map(video=>({...video,channelKey:channel.key,channelLabel:channel.label}))).sort((a,b)=>timestamp(b.publishedAt)-timestamp(a.publishedAt));
+ const filteredVideos=()=>allVideos().filter(video=>{
+  const matchesFilter=active==='all'||video.channelKey===active||(video.videoType||'video')===active;
+  const haystack=`${video.title||''} ${video.channelLabel||''}`.toLocaleLowerCase();
+  return matchesFilter&&(!keyword||haystack.includes(keyword));
+ });
+ const renderLatest=()=>channels.forEach(channel=>{
+  const target=document.querySelector(`[data-latest="${channel.key}"]`);
+  if(!target)return;
+  const latest=channel.videos?.[0];
+  const count=Array.isArray(channel.videos)?channel.videos.length:0;
+  target.innerHTML=latest?`LATEST<strong>${escapeHtml(latest.title)}</strong><span class="channel-count">公開動画 ${count}件</span>`:'公開動画は同期後に表示されます。';
+ });
  const render=()=>{
-  const videos=channels.flatMap(channel=>(channel.videos||[]).map(video=>({...video,channelKey:channel.key,channelLabel:channel.label}))).filter(video=>active==='all'||video.channelKey===active||(video.videoType||'video')===active).sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt));
-  if(!videos.length){grid.innerHTML='<div class="card empty-state"><h3>動画データを準備中です</h3><p>GitHub Actionsの「Sync YouTube Channels」を一度実行すると、最新動画が表示されます。</p></div>';return}
-  const typeLabel={short:'SHORTS',video:'通常動画',live:'LIVE'};grid.innerHTML=videos.map(video=>{const type=video.videoType||'video';return `<a class="card video-card" href="${escapeHtml(video.url)}" target="_blank" rel="noopener noreferrer"><div class="video-thumb"><img src="${escapeHtml(video.thumbnail)}" alt="${escapeHtml(video.title)}" loading="lazy" width="480" height="270"><span class="play-mark" aria-hidden="true"></span></div><div class="video-copy"><div class="video-meta"><div class="video-labels"><span class="channel-pill">${escapeHtml(video.channelLabel)}</span><span class="video-type-pill type-${type}">${typeLabel[type]||'通常動画'}</span></div><time class="video-date" datetime="${escapeHtml(video.publishedAt)}">${formatDate(video.publishedAt)}</time></div><h3 class="video-title">${escapeHtml(video.title)}</h3><span class="video-open">YouTubeで見る ↗</span></div></a>`}).join('');
+  const videos=filteredVideos();
+  const visible=videos.slice(0,shown);
+  if(!videos.length){
+   grid.innerHTML='<div class="card empty-state"><h3>条件に一致する動画がありません</h3><p>検索語または絞り込み条件を変更してください。</p></div>';
+   pager.hidden=true;
+   status.textContent=`${syncLabel}${syncLabel?' / ':''}該当0件`;
+   return;
+  }
+  const typeLabel={short:'SHORTS',video:'通常動画',live:'LIVE'};
+  grid.innerHTML=visible.map(video=>{const type=video.videoType||'video';const dateText=formatDate(video.publishedAt);return `<a class="card video-card" href="${escapeHtml(video.url)}" target="_blank" rel="noopener noreferrer"><div class="video-thumb"><img src="${escapeHtml(video.thumbnail)}" alt="${escapeHtml(video.title)}" loading="lazy" width="480" height="270"><span class="play-mark" aria-hidden="true"></span></div><div class="video-copy"><div class="video-meta"><div class="video-labels"><span class="channel-pill">${escapeHtml(video.channelLabel)}</span><span class="video-type-pill type-${type}">${typeLabel[type]||'通常動画'}</span></div>${dateText?`<time class="video-date" datetime="${escapeHtml(video.publishedAt)}">${dateText}</time>`:''}</div><h3 class="video-title">${escapeHtml(video.title)}</h3><span class="video-open">YouTubeで見る ↗</span></div></a>`}).join('');
+  pager.hidden=visible.length>=videos.length;
+  loadMore.textContent=`さらに${Math.min(PAGE_SIZE,videos.length-visible.length)}件表示`;
+  status.textContent=`${syncLabel}${syncLabel?' / ':''}${videos.length}件中 ${visible.length}件表示`;
  };
- buttons.forEach(button=>button.addEventListener('click',()=>{active=button.dataset.filter;buttons.forEach(item=>item.classList.toggle('active',item===button));render()}));
- fetch(`data/youtube-channels.json?v=${Date.now()}`,{cache:'no-store'}).then(response=>{if(!response.ok)throw new Error(`HTTP ${response.status}`);return response.json()}).then(data=>{channels=Array.isArray(data.channels)?data.channels:[];renderLatest();render();status.textContent=data.generatedAt?`最終更新：${new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(new Date(data.generatedAt))}`:'初回同期前です。'}).catch(error=>{console.error(error);grid.innerHTML='<div class="card empty-state"><h3>動画一覧を読み込めませんでした</h3><p>時間をおいて再読み込みしてください。チャンネルへのリンクは上から利用できます。</p></div>';status.textContent='読み込みエラー';document.querySelectorAll('[data-latest]').forEach(el=>el.textContent='チャンネルのリンクから最新動画を確認できます。')});
+ const resetAndRender=()=>{shown=PAGE_SIZE;render()};
+ buttons.forEach(button=>button.addEventListener('click',()=>{active=button.dataset.filter;buttons.forEach(item=>item.classList.toggle('active',item===button));resetAndRender()}));
+ search?.addEventListener('input',()=>{keyword=search.value.trim().toLocaleLowerCase();resetAndRender()});
+ loadMore?.addEventListener('click',()=>{shown+=PAGE_SIZE;render()});
+ fetch(`data/youtube-channels.json?v=${Date.now()}`,{cache:'no-store'}).then(response=>{if(!response.ok)throw new Error(`HTTP ${response.status}`);return response.json()}).then(data=>{
+  channels=Array.isArray(data.channels)?data.channels:[];
+  const total=allVideos().length;
+  const updated=data.generatedAt?new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(new Date(data.generatedAt)):'';
+  syncLabel=updated?`最終更新：${updated}`:'';
+  renderLatest();
+  render();
+ }).catch(error=>{
+  console.error(error);
+  grid.innerHTML='<div class="card empty-state"><h3>動画一覧を読み込めませんでした</h3><p>時間をおいて再読み込みしてください。チャンネルへのリンクは上から利用できます。</p></div>';
+  status.textContent='読み込みエラー';
+  pager.hidden=true;
+  document.querySelectorAll('[data-latest]').forEach(el=>el.textContent='チャンネルのリンクから最新動画を確認できます。');
+ });
 })();
 </script>
 </body>
