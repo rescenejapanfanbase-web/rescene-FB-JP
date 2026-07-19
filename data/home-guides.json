@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T14:38:14.519Z",
+  "generatedAt": "2026-07-19T15:04:38.613Z",
   "source": "git-history",
   "guides": [
     {
@@ -8,8 +8,8 @@
       "summary": "音楽番組の投票方法、アプリ、スコア配分を確認できます。",
       "url": "voting.html",
       "category": "VOTING",
-      "updatedAt": "2026-07-19T22:58:02+09:00",
-      "commit": "d4b67ea"
+      "updatedAt": "2026-07-20T00:04:24+09:00",
+      "commit": "e8b4bdf"
     },
     {
       "key": "chants",
@@ -17,8 +17,8 @@
       "summary": "楽曲ごとの掛け声をサムネイルからすぐに開けます。",
       "url": "chants.html",
       "category": "FANCHANT",
-      "updatedAt": "2026-07-19T22:58:02+09:00",
-      "commit": "d4b67ea"
+      "updatedAt": "2026-07-20T00:04:24+09:00",
+      "commit": "e8b4bdf"
     },
     {
       "key": "streaming",
@@ -26,8 +26,8 @@
       "summary": "YouTube、Spotify、Apple Musicなどの応援方法をまとめています。",
       "url": "streaming.html",
       "category": "STREAMING",
-      "updatedAt": "2026-07-19T22:58:02+09:00",
-      "commit": "d4b67ea"
+      "updatedAt": "2026-07-20T00:04:24+09:00",
+      "commit": "e8b4bdf"
     },
     {
       "key": "youtube",
@@ -35,8 +35,8 @@
       "summary": "公式・ウォニチャンネルの動画、ショート、ライブを横断して確認できます。",
       "url": "youtube.html",
       "category": "YOUTUBE",
-      "updatedAt": "2026-07-19T22:58:02+09:00",
-      "commit": "d4b67ea"
+      "updatedAt": "2026-07-20T00:04:24+09:00",
+      "commit": "e8b4bdf"
     },
     {
       "key": "mv",
@@ -44,8 +44,8 @@
       "summary": "RESCENEのミュージックビデオを作品別に確認できます。",
       "url": "mv.html",
       "category": "MUSIC VIDEO",
-      "updatedAt": "2026-07-19T22:58:02+09:00",
-      "commit": "d4b67ea"
+      "updatedAt": "2026-07-20T00:04:24+09:00",
+      "commit": "e8b4bdf"
     },
     {
       "key": "discography",
@@ -53,8 +53,8 @@
       "summary": "アルバム、シングル、OST、収録曲と配信リンクを掲載しています。",
       "url": "discography.html",
       "category": "DISCOGRAPHY",
-      "updatedAt": "2026-07-19T22:58:02+09:00",
-      "commit": "d4b67ea"
+      "updatedAt": "2026-07-20T00:04:24+09:00",
+      "commit": "e8b4bdf"
     }
   ]
 }
