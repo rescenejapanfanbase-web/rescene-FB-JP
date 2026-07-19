@@ -37,14 +37,14 @@ jobs:
       - name: Commit schedule changes
         shell: bash
         run: |
-          if git diff --quiet -- data/schedule.json data/schedule-data.js; then
+          if git diff --quiet -- data/schedule.json data/schedule-data.js data/rescene-schedule.ics; then
             echo "予定の変更はありません。"
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/schedule.json data/schedule-data.js
+          git add data/schedule.json data/schedule-data.js data/rescene-schedule.ics
           git commit -m "chore: sync schedule from Notion"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"

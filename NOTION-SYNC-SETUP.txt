@@ -31,4 +31,4 @@ eea8a017-8ad1-4c00-ba09-8bca95cf8618
 - 画像URL: 必要な場合のみ公開画像URL
 - 公開: サイトへ出す予定だけチェック
 
-GitHub Actionsは毎時17分・47分に確認し、予定が変わったときだけdata/schedule.jsonとdata/schedule-data.jsを更新します。
+GitHub Actionsは毎時17分・47分に確認し、予定が変わったときだけdata/schedule.json、data/schedule-data.js、購読用data/rescene-schedule.icsを更新します。

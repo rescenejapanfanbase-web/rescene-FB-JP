@@ -1,3 +1,4 @@
+import { buildScheduleIcs } from "./calendar-ics.mjs";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const token = process.env.NOTION_TOKEN;
@@ -131,13 +132,22 @@ const events = pages
 
 const existingSchedule = await readExistingSchedule();
 const existingScript = await readExistingText("data/schedule-data.js");
+const existingIcs = await readExistingText("data/rescene-schedule.ics");
 const desiredScript = `window.RESCENE_SCHEDULE = ${JSON.stringify(events, null, 2)};\n`;
 const eventsChanged =
   !existingSchedule.exists ||
   JSON.stringify(existingSchedule.events) !== JSON.stringify(events);
+const generatedAt = eventsChanged
+  ? new Date().toISOString()
+  : existingSchedule.generatedAt || new Date().toISOString();
+const desiredIcs = buildScheduleIcs(events, {
+  generatedAt,
+  siteUrl: process.env.SITE_BASE_URL || "https://rescene-fb.jp",
+});
 const scriptChanged = existingScript !== desiredScript;
+const icsChanged = existingIcs !== desiredIcs;
 
-if (!eventsChanged && !scriptChanged) {
+if (!eventsChanged && !scriptChanged && !icsChanged) {
   console.log(`変更なし（公開予定 ${events.length}件）`);
   process.exit(0);
 }
@@ -146,7 +156,7 @@ await mkdir("data", { recursive: true });
 
 if (eventsChanged) {
   const payload = {
-    generatedAt: new Date().toISOString(),
+    generatedAt,
     source: "notion",
     dataSourceId,
     events,
@@ -158,4 +168,8 @@ if (scriptChanged) {
   await writeFile("data/schedule-data.js", desiredScript, "utf8");
 }
 
-console.log(`${events.length}件の公開予定を同期しました。JSON更新: ${eventsChanged ? "あり" : "なし"} / JS更新: ${scriptChanged ? "あり" : "なし"}`);
+if (icsChanged) {
+  await writeFile("data/rescene-schedule.ics", desiredIcs, "utf8");
+}
+
+console.log(`${events.length}件の公開予定を同期しました。JSON更新: ${eventsChanged ? "あり" : "なし"} / JS更新: ${scriptChanged ? "あり" : "なし"} / ICS更新: ${icsChanged ? "あり" : "なし"}`);

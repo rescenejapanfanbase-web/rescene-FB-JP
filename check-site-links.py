@@ -14,7 +14,7 @@ TEXT_EXTENSIONS = {".html", ".css", ".js", ".json"}
 ASSET_EXTENSIONS = {
     ".html", ".css", ".js", ".json", ".xml", ".txt",
     ".png", ".jpg", ".jpeg", ".gif", ".webp", ".avif", ".svg", ".ico",
-    ".mp3", ".m4a", ".wav", ".mp4", ".webm", ".pdf",
+    ".mp3", ".m4a", ".wav", ".mp4", ".webm", ".pdf", ".ics",
 }
 IGNORE_PREFIXES = (
     "http://", "https://", "mailto:", "tel:", "javascript:", "data:", "blob:",
