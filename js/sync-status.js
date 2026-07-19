@@ -57,6 +57,25 @@
         return {count:`${guides.length}件`,detail:'トップページに表示するガイド更新情報',generatedAt:data?.generatedAt||null,state:'success',message:`ガイド更新情報 ${guides.length}件を読み込みました。`};
       },
     },
+    imageopt:{
+      workflow:'optimize-images.yml',
+      dataUrl:'data/image-optimization.json',
+      parseData(data){
+        const sourceFiles=Number(data?.sourceFiles)||0;
+        const uniqueImages=Number(data?.uniqueImages)||0;
+        const derivatives=Number(data?.derivatives)||0;
+        const failed=Number(data?.failedImages)||0;
+        const saving=Number(data?.estimatedSavingPercent)||0;
+        const pending=!data?.generatedAt||sourceFiles===0;
+        return {
+          count:pending?'未生成':`${sourceFiles}枚`,
+          detail:pending?'初回の画像最適化を実行してください。':`重複除外 ${uniqueImages}種類 / WebP ${derivatives}件 / 推定 ${saving}%削減`,
+          generatedAt:data?.generatedAt||null,
+          state:pending||failed?'warning':'success',
+          message:pending?'Actionsから「Optimize Site Images」を一度実行すると、元画像を残したまま画面幅別WebPを生成します。':failed?`${failed}件の画像を最適化できませんでした。レポートと最新ログを確認してください。`:`${sourceFiles}枚を画面幅別WebPへ自動変換しています。元画像は保持されています。`,
+        };
+      },
+    },
     backup:{
       workflow:'backup-site.yml',
       dataUrl:null,
@@ -236,7 +255,7 @@
     const hasWarning=states.includes('warning')||states.includes('unknown');
     let state='success';
     let title='すべて正常';
-    let description='最新の同期・トップページ更新・バックアップ・チェックは正常に完了しています。';
+    let description='最新の同期・トップページ更新・画像最適化・バックアップ・チェックは正常に完了しています。';
     let mark='✓';
     if(hasError){state='error';title='問題があります';description='失敗またはデータ読み込みエラーがあります。対象カードの最新ログを確認してください。';mark='!';}
     else if(hasRunning){state='running';title='同期を実行中';description='GitHub Actionsの処理が進行中です。完了後にもう一度確認してください。';mark='↻';}

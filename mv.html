@@ -515,4 +515,5 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 
 </script>
 <script id="mv-filter-script">(()=>{const buttons=[...document.querySelectorAll('[data-mv-filter]')],cards=[...document.querySelectorAll('.mv-gallery-card')];buttons.forEach(btn=>btn.addEventListener('click',()=>{const f=btn.dataset.mvFilter;buttons.forEach(b=>{b.classList.toggle('active',b===btn);b.setAttribute('aria-pressed',String(b===btn))});cards.forEach(c=>{c.hidden=!(f==='all'||c.dataset.mvYear===f||c.dataset.type===f)})}))})();</script>
+<script src="js/image-optimizer.js"></script>
 </body></html>

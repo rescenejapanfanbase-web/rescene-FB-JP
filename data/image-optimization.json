@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "settingsVersion": 2,
+  "generatedAt": null,
+  "sourceFiles": 0,
+  "uniqueImages": 0,
+  "optimizedImages": 0,
+  "uniqueOptimizedAssets": 0,
+  "derivatives": 0,
+  "generatedNow": 0,
+  "reusedNow": 0,
+  "failedImages": 0,
+  "failures": [],
+  "originalBytes": 0,
+  "estimatedDeliveryBytes": 0,
+  "estimatedSavedBytes": 0,
+  "estimatedSavingPercent": 0,
+  "generatedStorageBytes": 0,
+  "removedOrphans": 0,
+  "notes": ["初回はGitHub ActionsのOptimize Site Imagesを実行してください。"]
+}
