@@ -374,6 +374,22 @@ html.light-mode .social-icon-wrap,html.light-mode .official-icon{color:#a63d72;b
 .hero-members{margin:8px 0 0;color:#ffe8f3!important;font-weight:900;letter-spacing:.05em;font-size:1rem}
 html.light-mode .hero-members{color:#9f3a6c!important}
 </style>
+
+<style id="mobile-two-column-news-style">
+@media(max-width:719px){
+  .news-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .news-card{min-width:0}
+  .news-card-content{padding:11px 11px 13px}
+  .news-meta{align-items:flex-start;gap:4px;margin-bottom:7px}
+  .news-date{font-size:.6rem;line-height:1.35}
+  .news-card .badge{padding:2px 5px;font-size:.52rem;letter-spacing:.03em}
+  .news-title{font-size:.78rem;line-height:1.42;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .news-text{margin-top:5px;font-size:.66rem;line-height:1.45;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .news-detail-link{margin-top:9px;font-size:.64rem}
+  .filter-row{gap:6px}
+  .filter{padding:7px 10px;font-size:.66rem}
+}
+</style>
 </head>
 <body class="">
 <header>

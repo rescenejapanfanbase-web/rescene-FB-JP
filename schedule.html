@@ -382,6 +382,37 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 .schedule-time{display:inline-block;margin-top:5px;color:var(--muted);font-size:.76rem;font-weight:800}
 .schedule-empty{padding:24px}
 </style>
+
+<style id="mobile-two-column-schedule-style">
+@media(max-width:719px){
+  .schedule-image-grid,.schedule-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .schedule-photo-card{min-width:0}
+  .schedule-photo-card figcaption{padding:10px 10px 12px}
+  .schedule-photo-card .badge{padding:2px 5px;font-size:.51rem;letter-spacing:.03em}
+  .schedule-photo-card h3{margin:6px 0 4px;font-size:.76rem;line-height:1.35}
+  .schedule-photo-card p{font-size:.62rem;line-height:1.42;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .schedule-list{align-items:start}
+  .schedule-row{min-width:0;align-self:start}
+  .schedule-row[open]{grid-column:1/-1}
+  .schedule-row summary{position:relative;grid-template-columns:1fr;gap:7px;padding:11px}
+  .schedule-row summary::after{position:absolute;right:9px;top:8px;font-size:.9rem}
+  .schedule-date{display:block;border-right:0;border-bottom:1px solid var(--border);padding:0 24px 7px 0}
+  .schedule-date strong{font-size:.88rem;line-height:1.2}
+  .schedule-date span{font-size:.55rem}
+  .schedule-row .badge{padding:2px 5px;font-size:.5rem;letter-spacing:.03em}
+  .schedule-row h2{margin:5px 0 3px;padding-right:10px;font-size:.75rem;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .schedule-row summary p{font-size:.61rem;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .schedule-time{font-size:.58rem}
+  .schedule-row[open] summary{grid-template-columns:72px 1fr;padding:14px}
+  .schedule-row[open] .schedule-date{border-bottom:0;border-right:1px solid var(--border);padding:0 10px 0 0}
+  .schedule-row[open] h2{font-size:.9rem;-webkit-line-clamp:unset}
+  .schedule-row[open] summary p{font-size:.7rem;-webkit-line-clamp:unset}
+  .schedule-detail{padding:13px 14px 15px}
+  .schedule-detail p{font-size:.72rem;line-height:1.55}
+  .schedule-detail .btn{width:100%;padding:9px 8px;font-size:.68rem}
+  .schedule-empty{grid-column:1/-1}
+}
+</style>
 </head>
 <body class="">
 <header>
@@ -593,6 +624,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
       return;
     }
 
+    const autoOpenFirst = window.matchMedia("(min-width: 720px)").matches;
     list.innerHTML = monthly.map((event, index) => {
       const date = toDate(event.date || event.start || "");
       const time = formatTime(event);
@@ -602,7 +634,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
       const action = link ? `<a class="btn btn-secondary" href="${escapeHtml(link)}"${external ? ' target="_blank" rel="noopener noreferrer"' : ""}>${escapeHtml(event.linkLabel || "詳細を見る")}${external ? " ↗" : ""}</a>` : "";
       const imageBlock = image ? `<figure class="schedule-detail-image"><img src="${escapeHtml(image)}" alt="${escapeHtml(event.title)}" loading="lazy"></figure>` : "";
       const description = escapeHtml(event.description || "詳細は公式案内もあわせてご確認ください。").replace(/\n/g, "<br>");
-      return `<details class="schedule-row card" ${index === 0 ? "open" : ""}><summary><div class="schedule-date"><strong>${String(date.getMonth() + 1).padStart(2, "0")}.${String(date.getDate()).padStart(2, "0")}</strong><span>${date.toLocaleDateString("ja-JP", { weekday: "short" })}</span></div><div><span class="badge">${escapeHtml(badgeLabel(event))}</span><h2>${escapeHtml(event.title)}</h2><p>${description}</p>${time ? `<span class="schedule-time">${escapeHtml(time)}</span>` : ""}</div></summary><div class="schedule-detail">${imageBlock}<p>${description}</p>${action}</div></details>`;
+      return `<details class="schedule-row card" ${autoOpenFirst && index === 0 ? "open" : ""}><summary><div class="schedule-date"><strong>${String(date.getMonth() + 1).padStart(2, "0")}.${String(date.getDate()).padStart(2, "0")}</strong><span>${date.toLocaleDateString("ja-JP", { weekday: "short" })}</span></div><div><span class="badge">${escapeHtml(badgeLabel(event))}</span><h2>${escapeHtml(event.title)}</h2><p>${description}</p>${time ? `<span class="schedule-time">${escapeHtml(time)}</span>` : ""}</div></summary><div class="schedule-detail">${imageBlock}<p>${description}</p>${action}</div></details>`;
     }).join("");
   }
 
