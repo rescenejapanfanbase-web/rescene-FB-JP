@@ -1,0 +1,14 @@
+RESCENE / WONI YouTubeページ 追加手順
+
+1. 更新ZIPを展開し、HTML・scripts・dataをGitHubへアップロードします。
+2. .githubフォルダをアップロードできない場合：
+   Add file → Create new file
+   ファイル名：.github/workflows/sync-youtube-channels.yml
+   sync-youtube-channels.ymlの内容を貼り付けてCommitします。
+3. Actions → Sync YouTube Channels → Run workflow を一度実行します。
+4. youtube.htmlを開き、RESCENE公式とWONIの最新動画が表示されることを確認します。
+
+公開URL：
+https://rescenejapanfanbase-web.github.io/rescene-FB-JP/youtube.html
+
+※ 以前のYouTube掲載候補機能は、この公開ページには不要です。

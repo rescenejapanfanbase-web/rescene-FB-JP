@@ -1,0 +1,26 @@
+{
+  "generatedAt": null,
+  "source": "YouTube RSS",
+  "channels": [
+    {
+      "key": "rescene",
+      "label": "RESCENE Official",
+      "handle": "@RESCENE_official",
+      "url": "https://www.youtube.com/@RESCENE_official",
+      "description": "ミュージックビデオ、Re:log、ビハインドなどRESCENEの公式コンテンツ。",
+      "channelId": "",
+      "feedUrl": "",
+      "videos": []
+    },
+    {
+      "key": "woni",
+      "label": "WONI Channel",
+      "handle": "@helloiamwoninicetomeetyou",
+      "url": "https://www.youtube.com/@helloiamwoninicetomeetyou",
+      "description": "ウォニの日常やメンバーとの楽しいコンテンツを届ける個人YouTubeチャンネル。",
+      "channelId": "",
+      "feedUrl": "",
+      "videos": []
+    }
+  ]
+}
