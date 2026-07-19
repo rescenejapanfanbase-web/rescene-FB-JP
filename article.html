@@ -380,10 +380,14 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 @media(max-width:719px){
   html,body{max-width:100%;overflow-x:clip}
   .nav{gap:8px;min-width:0}
-  .logo{min-width:0;font-size:0;overflow:hidden;white-space:nowrap}
-  .logo span{font-size:.98rem}
+  .logo{min-width:0;max-width:145px;flex:1 1 auto;overflow:visible;white-space:normal;font-size:.67rem;line-height:1.05;letter-spacing:.025em}
+  .logo span{display:block;font-size:.98rem;line-height:1.05}
   .nav-actions{flex:0 0 auto;gap:6px}
   .search-toggle{width:36px;height:36px}
+}
+@media(max-width:340px){
+  .logo{max-width:118px;font-size:.6rem;letter-spacing:.01em}
+  .logo span{font-size:.88rem}
 }
 </style>
 </head>
