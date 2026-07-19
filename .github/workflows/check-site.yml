@@ -1,0 +1,38 @@
+name: Check Site Files
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.html"
+      - "**/*.css"
+      - "**/*.js"
+      - "**/*.json"
+      - "**/*.png"
+      - "**/*.jpg"
+      - "**/*.jpeg"
+      - "**/*.webp"
+      - "**/*.avif"
+      - "**/*.svg"
+      - "scripts/check-site-links.py"
+      - ".github/workflows/check-site.yml"
+
+  schedule:
+    - cron: "27 3 * * 0"
+
+permissions:
+  contents: read
+
+jobs:
+  check-site:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Check internal links and images
+        run: python3 scripts/check-site-links.py
