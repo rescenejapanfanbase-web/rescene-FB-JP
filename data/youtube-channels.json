@@ -1,5 +1,5 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-07-19T07:47:16.810Z",
   "source": "YouTube RSS",
   "channels": [
     {
@@ -8,9 +8,106 @@
       "handle": "@RESCENE_official",
       "url": "https://www.youtube.com/@RESCENE_official",
       "description": "ミュージックビデオ、Re:log、ビハインドなどRESCENEの公式コンテンツ。",
-      "channelId": "",
-      "feedUrl": "",
-      "videos": []
+      "channelId": "UCtKtCiaWRz-d3EZn2xd1mdA",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtKtCiaWRz-d3EZn2xd1mdA",
+      "videos": [
+        {
+          "videoId": "hbtySm_xlsk",
+          "title": "프리티걸 3번째 애햄이 🥰",
+          "url": "https://www.youtube.com/watch?v=hbtySm_xlsk",
+          "thumbnail": "https://i1.ytimg.com/vi/hbtySm_xlsk/hqdefault.jpg",
+          "publishedAt": "2026-07-19T06:00:28+00:00",
+          "updatedAt": "2026-07-19T06:39:54+00:00"
+        },
+        {
+          "videoId": "Czv-BYOVfcM",
+          "title": "#JINYU #TERU 님과 어디서나 당당하게 걷기 🎀",
+          "url": "https://www.youtube.com/watch?v=Czv-BYOVfcM",
+          "thumbnail": "https://i4.ytimg.com/vi/Czv-BYOVfcM/hqdefault.jpg",
+          "publishedAt": "2026-07-19T05:00:18+00:00",
+          "updatedAt": "2026-07-19T06:12:02+00:00"
+        },
+        {
+          "videoId": "-ZItqrst69U",
+          "title": "뽀로로 따라 프리티걸 챌린지",
+          "url": "https://www.youtube.com/watch?v=-ZItqrst69U",
+          "thumbnail": "https://i2.ytimg.com/vi/-ZItqrst69U/hqdefault.jpg",
+          "publishedAt": "2026-07-18T09:00:29+00:00",
+          "updatedAt": "2026-07-18T13:50:32+00:00"
+        },
+        {
+          "videoId": "ygZobPp1RG4",
+          "title": "#전민욱 #장여준 님과 어디서나 당당하게 걷기 🎀",
+          "url": "https://www.youtube.com/watch?v=ygZobPp1RG4",
+          "thumbnail": "https://i2.ytimg.com/vi/ygZobPp1RG4/hqdefault.jpg",
+          "publishedAt": "2026-07-18T08:00:22+00:00",
+          "updatedAt": "2026-07-19T07:11:37+00:00"
+        },
+        {
+          "videoId": "amIUmWfalBo",
+          "title": "교복 애햄이 💜",
+          "url": "https://www.youtube.com/watch?v=amIUmWfalBo",
+          "thumbnail": "https://i2.ytimg.com/vi/amIUmWfalBo/hqdefault.jpg",
+          "publishedAt": "2026-07-18T06:00:07+00:00",
+          "updatedAt": "2026-07-18T07:27:58+00:00"
+        },
+        {
+          "videoId": "hcCz-RVTC58",
+          "title": "메라디오는 그립감이 좋다~!😚",
+          "url": "https://www.youtube.com/watch?v=hcCz-RVTC58",
+          "thumbnail": "https://i1.ytimg.com/vi/hcCz-RVTC58/hqdefault.jpg",
+          "publishedAt": "2026-07-17T12:40:42+00:00",
+          "updatedAt": "2026-07-18T18:26:35+00:00"
+        },
+        {
+          "videoId": "Bvtjr3fQhjI",
+          "title": "#구한나 님과 어디서나 당당하게 걷기 🎀",
+          "url": "https://www.youtube.com/watch?v=Bvtjr3fQhjI",
+          "thumbnail": "https://i3.ytimg.com/vi/Bvtjr3fQhjI/hqdefault.jpg",
+          "publishedAt": "2026-07-17T08:00:25+00:00",
+          "updatedAt": "2026-07-18T07:46:41+00:00"
+        },
+        {
+          "videoId": "zdMrF3AIzAA",
+          "title": "Yeah yeah yeah yeah 🎀💗",
+          "url": "https://www.youtube.com/watch?v=zdMrF3AIzAA",
+          "thumbnail": "https://i3.ytimg.com/vi/zdMrF3AIzAA/hqdefault.jpg",
+          "publishedAt": "2026-07-17T06:00:24+00:00",
+          "updatedAt": "2026-07-17T20:54:25+00:00"
+        },
+        {
+          "videoId": "zDTijSf4UHo",
+          "title": "???: 리센느 영상 다봤다💗 YouTube: 어림도 없지 아직 안 푼 이야기 대방출 갑니다! | YouTube 케봉박두 EP.2 RESCENE(리센느)",
+          "url": "https://www.youtube.com/watch?v=zDTijSf4UHo",
+          "thumbnail": "https://i3.ytimg.com/vi/zDTijSf4UHo/hqdefault.jpg",
+          "publishedAt": "2026-07-16T11:00:25+00:00",
+          "updatedAt": "2026-07-18T02:38:19+00:00"
+        },
+        {
+          "videoId": "dglF9_PJqto",
+          "title": "RESCENE (리센느) 'Pretty Girl' Dance Practice",
+          "url": "https://www.youtube.com/watch?v=dglF9_PJqto",
+          "thumbnail": "https://i1.ytimg.com/vi/dglF9_PJqto/hqdefault.jpg",
+          "publishedAt": "2026-07-16T09:59:00+00:00",
+          "updatedAt": "2026-07-17T21:41:00+00:00"
+        },
+        {
+          "videoId": "-vjpAIrm8No",
+          "title": "#마시로 님과 어디서나 당당하게 걷기 🎀",
+          "url": "https://www.youtube.com/watch?v=-vjpAIrm8No",
+          "thumbnail": "https://i2.ytimg.com/vi/-vjpAIrm8No/hqdefault.jpg",
+          "publishedAt": "2026-07-16T08:00:01+00:00",
+          "updatedAt": "2026-07-17T21:20:47+00:00"
+        },
+        {
+          "videoId": "iZwSXs8jZB4",
+          "title": "#시안 님과 어디서나 당당하게 걷기 🎀",
+          "url": "https://www.youtube.com/watch?v=iZwSXs8jZB4",
+          "thumbnail": "https://i2.ytimg.com/vi/iZwSXs8jZB4/hqdefault.jpg",
+          "publishedAt": "2026-07-16T06:00:01+00:00",
+          "updatedAt": "2026-07-16T07:55:13+00:00"
+        }
+      ]
     },
     {
       "key": "woni",
@@ -18,9 +115,106 @@
       "handle": "@helloiamwoninicetomeetyou",
       "url": "https://www.youtube.com/@helloiamwoninicetomeetyou",
       "description": "ウォニの日常やメンバーとの楽しいコンテンツを届ける個人YouTubeチャンネル。",
-      "channelId": "",
-      "feedUrl": "",
-      "videos": []
+      "channelId": "UCWpY0eSJtyO-qNAPbKFRSSg",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWpY0eSJtyO-qNAPbKFRSSg",
+      "videos": [
+        {
+          "videoId": "8r-YPb_tKlM",
+          "title": "안원잘부 미방분",
+          "url": "https://www.youtube.com/watch?v=8r-YPb_tKlM",
+          "thumbnail": "https://i1.ytimg.com/vi/8r-YPb_tKlM/hqdefault.jpg",
+          "publishedAt": "2026-07-17T10:00:12+00:00",
+          "updatedAt": "2026-07-19T07:04:10+00:00"
+        },
+        {
+          "videoId": "F5CbMShscuk",
+          "title": "Endless Rain",
+          "url": "https://www.youtube.com/watch?v=F5CbMShscuk",
+          "thumbnail": "https://i3.ytimg.com/vi/F5CbMShscuk/hqdefault.jpg",
+          "publishedAt": "2026-07-10T17:31:24+00:00",
+          "updatedAt": "2026-07-16T08:28:22+00:00"
+        },
+        {
+          "videoId": "VUufd3Hd_2Q",
+          "title": "오빻",
+          "url": "https://www.youtube.com/watch?v=VUufd3Hd_2Q",
+          "thumbnail": "https://i3.ytimg.com/vi/VUufd3Hd_2Q/hqdefault.jpg",
+          "publishedAt": "2026-07-10T13:13:39+00:00",
+          "updatedAt": "2026-07-14T02:07:53+00:00"
+        },
+        {
+          "videoId": "qzhjmlxNl8s",
+          "title": "거제 불주먹 양키",
+          "url": "https://www.youtube.com/watch?v=qzhjmlxNl8s",
+          "thumbnail": "https://i2.ytimg.com/vi/qzhjmlxNl8s/hqdefault.jpg",
+          "publishedAt": "2026-07-10T13:13:19+00:00",
+          "updatedAt": "2026-07-14T02:03:39+00:00"
+        },
+        {
+          "videoId": "5spDxl-yzUQ",
+          "title": "양키의 하루 배워보기 | 캐릭터 외전",
+          "url": "https://www.youtube.com/watch?v=5spDxl-yzUQ",
+          "thumbnail": "https://i2.ytimg.com/vi/5spDxl-yzUQ/hqdefault.jpg",
+          "publishedAt": "2026-07-10T10:00:07+00:00",
+          "updatedAt": "2026-07-16T08:20:36+00:00"
+        },
+        {
+          "videoId": "jilQNKreZBM",
+          "title": "원이의 꿈",
+          "url": "https://www.youtube.com/watch?v=jilQNKreZBM",
+          "thumbnail": "https://i3.ytimg.com/vi/jilQNKreZBM/hqdefault.jpg",
+          "publishedAt": "2026-07-04T12:40:01+00:00",
+          "updatedAt": "2026-07-08T04:12:28+00:00"
+        },
+        {
+          "videoId": "4ciHuGLi_1I",
+          "title": "센빠이!",
+          "url": "https://www.youtube.com/watch?v=4ciHuGLi_1I",
+          "thumbnail": "https://i1.ytimg.com/vi/4ciHuGLi_1I/hqdefault.jpg",
+          "publishedAt": "2026-07-04T12:35:54+00:00",
+          "updatedAt": "2026-07-08T04:15:11+00:00"
+        },
+        {
+          "videoId": "FxbR-V8GOjE",
+          "title": "새로운 등교 친구",
+          "url": "https://www.youtube.com/watch?v=FxbR-V8GOjE",
+          "thumbnail": "https://i3.ytimg.com/vi/FxbR-V8GOjE/hqdefault.jpg",
+          "publishedAt": "2026-07-04T12:29:55+00:00",
+          "updatedAt": "2026-07-12T04:17:37+00:00"
+        },
+        {
+          "videoId": "tDs3mcabrFM",
+          "title": "좋지 않아?",
+          "url": "https://www.youtube.com/watch?v=tDs3mcabrFM",
+          "thumbnail": "https://i1.ytimg.com/vi/tDs3mcabrFM/hqdefault.jpg",
+          "publishedAt": "2026-07-04T12:29:18+00:00",
+          "updatedAt": "2026-07-13T06:58:33+00:00"
+        },
+        {
+          "videoId": "Yy58f1A6F-c",
+          "title": "미나미의 뿌리를 찾아서 | 최종화",
+          "url": "https://www.youtube.com/watch?v=Yy58f1A6F-c",
+          "thumbnail": "https://i2.ytimg.com/vi/Yy58f1A6F-c/hqdefault.jpg",
+          "publishedAt": "2026-07-03T10:00:06+00:00",
+          "updatedAt": "2026-07-08T09:36:51+00:00"
+        },
+        {
+          "videoId": "5qmyo1nR3no",
+          "title": "서예하는 미나미",
+          "url": "https://www.youtube.com/watch?v=5qmyo1nR3no",
+          "thumbnail": "https://i2.ytimg.com/vi/5qmyo1nR3no/hqdefault.jpg",
+          "publishedAt": "2026-06-29T07:54:26+00:00",
+          "updatedAt": "2026-07-03T00:32:15+00:00"
+        },
+        {
+          "videoId": "GUHzPMtxAqY",
+          "title": "고멘네!",
+          "url": "https://www.youtube.com/watch?v=GUHzPMtxAqY",
+          "thumbnail": "https://i4.ytimg.com/vi/GUHzPMtxAqY/hqdefault.jpg",
+          "publishedAt": "2026-06-29T06:51:13+00:00",
+          "updatedAt": "2026-07-01T21:58:31+00:00"
+        }
+      ]
     }
   ]
 }
