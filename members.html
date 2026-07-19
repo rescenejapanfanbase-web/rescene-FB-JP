@@ -422,6 +422,22 @@ html.light-mode .hero-members{color:#9f3a6c!important}
   .member-woni .member-detail-picture img{object-fit:contain!important;object-position:center center!important}
 }
 </style>
+
+<style id="mobile-two-column-members">
+@media(max-width:719px){
+  .member-preview-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px}
+  .member-preview-card{min-width:0}
+  .member-preview-photo{aspect-ratio:4/5}
+  .member-preview-copy{padding:12px 11px 14px}
+  .member-preview-copy h2{font-size:1rem;line-height:1.2;margin:5px 0 3px}
+  .member-preview-copy h2 small{display:block;font-size:.64rem;margin-top:3px}
+  .member-preview-copy p{font-size:.75rem;margin:0 0 8px}
+  .member-preview-copy .member-color-chip{font-size:.5rem;line-height:1.25;padding:5px 6px;gap:5px;letter-spacing:.02em;white-space:normal}
+  .member-preview-copy .member-color-chip::before{width:7px;height:7px;flex:0 0 auto}
+  .member-preview-card:last-child:nth-child(odd){grid-column:1/-1;width:calc(50% - 6px);justify-self:center}
+}
+</style>
+
 </head>
 <body class="">
 <header>

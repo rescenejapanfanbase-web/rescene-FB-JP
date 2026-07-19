@@ -1,0 +1,16 @@
+スマホ版2列表示・追加調整
+
+このZIP内のHTMLファイルを、GitHubリポジトリ直下の同名ファイルへ上書きしてください。
+
+対象：
+- about.html
+- members.html
+- mv.html
+- discography.html
+- voting.html
+- chants.html
+- links.html
+- streaming.html
+- contact.html
+
+詳細を開くカードは、開いた時だけ横幅いっぱいの1列表示になります。

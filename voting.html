@@ -462,6 +462,58 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 }
 </style>
 
+
+<style id="mobile-two-column-voting">
+@media(max-width:719px){
+  .vote-overview,.prepare-grid,.app-list,.guide-stack,.voting-rules,.score-image-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .program-card,.prepare-card,.app-card,.rule-card,.score-image-card{min-width:0}
+  .program-card{padding:13px 10px}
+  .program-top{display:block;margin-bottom:10px}
+  .program-name{gap:8px;align-items:center}
+  .program-icon{width:38px!important;height:38px!important;min-width:38px!important;min-height:38px!important;max-width:38px!important;max-height:38px!important;flex-basis:38px!important;border-radius:10px!important}
+  .program-card h3{font-size:.86rem;line-height:1.25}
+  .program-card small{font-size:.61rem}
+  .vote-type{display:inline-flex;margin-top:8px;font-size:.55rem;padding:4px 6px;white-space:normal}
+  .program-data{gap:6px}
+  .program-data div{display:block;padding-top:7px}
+  .program-data dt{font-size:.58rem;margin-bottom:2px}
+  .program-data dd{font-size:.68rem;line-height:1.4}
+  .program-note{font-size:.62rem;line-height:1.4;padding:8px;margin-top:9px}
+  .prepare-card{padding:44px 11px 12px;min-height:0}
+  .prepare-number{left:11px;top:10px;font-size:1.8rem}
+  .prepare-card h3{font-size:.86rem;line-height:1.35}
+  .prepare-card p{font-size:.68rem;line-height:1.45}
+  .prepare-card:last-child:nth-child(odd){grid-column:1/-1}
+  .app-card{padding:13px 10px;gap:10px}
+  .app-card-head{display:block}
+  .app-logo-text,.app-icon{width:46px!important;height:46px!important;min-width:46px!important;min-height:46px!important;max-width:46px!important;max-height:46px!important;margin-bottom:8px;border-radius:12px!important}
+  .app-card h3{font-size:.9rem;line-height:1.25}
+  .app-card p{font-size:.66rem;line-height:1.45}
+  .app-tags{gap:4px}
+  .app-tags span{font-size:.53rem;padding:3px 5px}
+  .store-buttons{display:grid;grid-template-columns:1fr;gap:5px}
+  .store-buttons a{min-width:0;padding:7px 5px;font-size:.58rem;border-radius:8px}
+  .guide-details{min-width:0;border-radius:15px}
+  .guide-details[open]{grid-column:1/-1}
+  .guide-details summary{padding:13px 10px;gap:7px;font-size:.75rem;line-height:1.3}
+  .guide-summary-title{gap:7px;min-width:0}
+  .guide-summary-title span:first-child{width:31px;height:31px;min-width:31px;border-radius:9px;font-size:.58rem}
+  .guide-summary-title>span:last-child{min-width:0}
+  .guide-summary-title small{font-size:.55rem;overflow-wrap:anywhere}
+  .guide-details summary::after{font-size:1rem}
+  .guide-details[open] summary{padding:16px 15px;font-size:.9rem}
+  .guide-details[open] .guide-summary-title span:first-child{width:38px;height:38px;min-width:38px;font-size:.68rem}
+  .guide-content{padding:0 14px 16px}
+  .rule-card{display:block;padding:12px 10px}
+  .rule-icon{width:32px;height:32px;margin-bottom:8px}
+  .rule-card h3{font-size:.8rem}
+  .rule-card p{font-size:.65rem;line-height:1.45}
+  .score-caption{padding:11px 10px 12px}
+  .score-caption h3{font-size:.82rem;line-height:1.3}
+  .score-caption p{font-size:.64rem;line-height:1.4}
+}
+</style>
+
 </head>
 <body class="">
 <header>
