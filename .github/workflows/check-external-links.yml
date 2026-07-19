@@ -35,23 +35,64 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Check public external links
+      - name: Check, publish, and commit external-link report
         id: linkcheck
         shell: bash
         run: |
-          set +e
-          python3 scripts/check-external-links.py \
-            --report data/external-link-report.json \
-            --issue-body .external-link-issue.md \
-            --workers 12 \
-            --fail-on-broken
-          result=$?
-          set -e
-          echo "result=$result" >> "$GITHUB_OUTPUT"
-          if [ "$result" -eq 1 ] || [ "$result" -gt 2 ]; then
-            echo "Unexpected checker exit code: $result" >&2
-            exit "$result"
-          fi
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          branch="${GITHUB_REF_NAME:-main}"
+          final_result=""
+
+          for attempt in 1 2 3; do
+            echo "外部リンク確認を実行します（${attempt}/3）"
+
+            # 実行開始直前にmainの最新状態へ合わせる。
+            # push直前に別の更新が入った場合もrebaseせず、最新状態から
+            # レポートを再生成することでJSON同士の競合を防ぐ。
+            git fetch origin "${branch}"
+            git reset --hard "origin/${branch}"
+
+            set +e
+            python3 scripts/check-external-links.py \
+              --report data/external-link-report.json \
+              --issue-body .external-link-issue.md \
+              --workers 12 \
+              --fail-on-broken
+            result=$?
+            set -e
+
+            if [ "$result" -eq 1 ] || [ "$result" -gt 2 ]; then
+              echo "Unexpected checker exit code: $result" >&2
+              exit "$result"
+            fi
+            final_result="$result"
+
+            git add data/external-link-report.json
+
+            if git diff --cached --quiet; then
+              echo "外部リンクレポートの変更はありません。"
+              echo "result=${final_result}" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+
+            git commit -m "chore: update external link report"
+
+            if git push origin "HEAD:${branch}"; then
+              echo "外部リンクレポートを更新しました。"
+              echo "result=${final_result}" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+
+            echo "push中に別の更新が入りました。最新のmainから再確認します。"
+            sleep $((attempt * 5))
+          done
+
+          echo "3回試行しましたが、外部リンクレポートを反映できませんでした。" >&2
+          exit 1
 
       - name: Upload detailed report
         uses: actions/upload-artifact@v7
@@ -62,33 +103,6 @@ jobs:
             .external-link-issue.md
           retention-days: 30
           if-no-files-found: error
-
-      - name: Commit public report
-        shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/external-link-report.json
-
-          if git diff --cached --quiet; then
-            echo "External link report has not changed."
-            exit 0
-          fi
-
-          git commit -m "chore: update external link report"
-
-          for attempt in 1 2 3; do
-            if git push origin HEAD:main; then
-              exit 0
-            fi
-            echo "Push failed. Replaying the report commit on the latest main ($attempt/3)."
-            git fetch origin main
-            git rebase origin/main
-          done
-
-          echo "Could not push the external link report after 3 attempts." >&2
-          exit 1
 
       - name: Create or update broken-link Issue
         if: steps.linkcheck.outputs.result == '2'
