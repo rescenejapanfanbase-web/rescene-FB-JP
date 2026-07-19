@@ -1,0 +1,66 @@
+RESCENE JAPAN FANBASE 自動バックアップガイド
+作成日: 2026-07-19
+
+【ワークフロー】
+.github/workflows/backup-site.yml
+
+【実行日時】
+毎週月曜日 4:18（日本時間）
+GitHub Actionsから手動実行も可能です。
+
+【保存場所】
+GitHub Actions → Weekly Site Backup → 各実行結果 → Artifacts
+
+【保存期間】
+90日間
+毎週実行されるため、通常は約12〜13世代のバックアップが残ります。
+長期保存したい重要なバックアップは、期限前にPCや外部ストレージへダウンロードしてください。
+
+【バックアップ内容】
+- HTML、CSS、JavaScript
+- 画像・アイコン
+- data内のニュース、スケジュール、YouTubeデータ
+- 購読用ICS
+- GitHub Actionsのワークフロー
+- 各種説明ファイル
+- 作成日時・対象コミット・直近30件の更新履歴
+- ZIPのSHA-256チェックサム
+
+Gitで管理されているファイルのみをバックアップします。
+
+【バックアップに含まれないもの】
+- GitHub Secrets
+- GitHub Actions Variables
+- リポジトリやGitHub Pagesの設定
+- ドメイン管理会社側のDNS設定
+- Gitの全履歴
+
+再設定時に必要な主な項目:
+- Secret: NOTION_TOKEN
+- Variable: NOTION_DATA_SOURCE_ID
+- Variable: NOTION_NEWS_DATA_SOURCE_ID
+- GitHub Pagesの公開元とカスタムドメイン設定
+- rescene-fb.jpのDNS設定
+
+【ダウンロード方法】
+1. GitHubリポジトリでActionsを開く
+2. 左側のWeekly Site Backupを開く
+3. 成功した実行を開く
+4. ページ下部のArtifactsからweekly-site-backup-...を選ぶ
+5. ダウンロードしたArtifactを展開する
+6. 中にあるrescene-FB-JP-backup-....zipがサイト一式です
+
+【復元方法】
+1. rescene-FB-JP-backup-....zipを展開する
+2. 中のrescene-FB-JPフォルダを開く
+3. 全ファイルをGitHubリポジトリ直下へアップロードする
+4. フォルダ構成を保ったまま上書きする
+5. Commit directly to the main branchで保存する
+6. GitHub Pagesの公開を確認する
+7. Sync Notion Calendar、Sync Notion News、Sync YouTube Channelsを必要に応じて手動実行する
+8. Ctrl+F5でサイトを再読み込みする
+
+【注意】
+ArtifactをダウンロードするにはGitHubへのログインとリポジトリの閲覧権限が必要です。
+バックアップ作成前のサイト内チェックが失敗しても、現状を失わないためZIP作成は継続します。
+その場合はBACKUP-INFO.txtの「サイト内チェック」がfailureになります。

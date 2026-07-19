@@ -1,0 +1,17 @@
+RESCENE JAPAN FANBASE 自動バックアップ機能追加
+作成日: 2026-07-19
+
+追加・変更ファイル:
+- .github/workflows/backup-site.yml
+- AUTO-BACKUP-GUIDE.txt
+- AUTO-BACKUP-UPDATE.txt
+- sync-status.html
+- js/sync-status.js
+
+主な機能:
+- 毎週月曜4:18（日本時間）にサイト一式をZIP化
+- GitHub Actions Artifactとして90日保存
+- 手動実行対応
+- 作成日時、コミット、サイト内チェック結果、直近30件のコミットを同梱
+- SHA-256チェックサムを生成
+- 同期状況ページで最新バックアップの成功・失敗と実行日時を確認
