@@ -17,7 +17,7 @@ window.RESCENE_NEWS = [
     "label": "1ST WIN",
     "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
     "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
-    "image": "assets/news/the-show-first-win.jpeg",
+    "image": "news/the-show-first-win.jpeg",
     "sourceLink": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
     "sourceLabel": "THE K-POP公式動画を見る",
     "categoryName": "記念日",
