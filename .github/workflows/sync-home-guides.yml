@@ -1,0 +1,75 @@
+name: Refresh Homepage Guides
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "voting.html"
+      - "chants.html"
+      - "streaming.html"
+      - "youtube.html"
+      - "mv.html"
+      - "discography.html"
+      - "scripts/generate-home-guides.mjs"
+      - ".github/workflows/sync-home-guides.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: homepage-guide-refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Generate and commit guide update data
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="${GITHUB_REF_NAME}"
+
+          for attempt in 1 2 3; do
+            echo "ホーム用ガイド更新情報を生成します（${attempt}/3）"
+            git fetch origin "${branch}"
+            git reset --hard "origin/${branch}"
+
+            node scripts/generate-home-guides.mjs
+
+            if git diff --quiet -- data/home-guides.json; then
+              echo "ガイド更新情報に変更はありません。"
+              exit 0
+            fi
+
+            git add data/home-guides.json
+            git commit -m "chore: refresh homepage guide updates"
+
+            if git push origin "HEAD:${branch}"; then
+              echo "ホーム用ガイド更新情報を更新しました。"
+              exit 0
+            fi
+
+            echo "push中に別の更新が入りました。最新のmainから再生成します。"
+            sleep $((attempt * 5))
+          done
+
+          echo "3回試行しましたが更新を反映できませんでした。"
+          exit 1
