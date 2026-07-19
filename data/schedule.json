@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T06:29:46.672Z",
+  "generatedAt": "2026-07-19T06:57:35.847Z",
   "source": "notion",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "events": [
@@ -263,15 +263,15 @@
       "end": "",
       "category": "音楽番組",
       "type": "event",
-      "description": "じせ",
-      "link": "",
-      "linkLabel": "詳細を見る",
+      "description": "事前投票:7/4 0:00~7/6 23:59",
+      "link": "投票アプリ｢Mnet Plus｣",
+      "linkLabel": "https://apps.apple.com/app/id6443405421",
       "image": "",
       "notionUrl": "https://app.notion.com/p/M-COUNTDOWN-3a2229d219da80389571e9a758d02c31"
     },
     {
       "id": "3a2229d2-19da-80e4-bd20-c1a2a7324d53",
-      "title": "Music Bank 事前収録(サノク)",
+      "title": "Music Bank 事前収録",
       "date": "2026-07-10",
       "start": "2026-07-10T08:15:00.000+09:00",
       "end": "",
@@ -284,6 +284,34 @@
       "notionUrl": "https://app.notion.com/p/Music-Bank-3a2229d219da80e4bd20c1a2a7324d53"
     },
     {
+      "id": "3a2229d2-19da-80f1-8d87-d13b32b0ced0",
+      "title": "Music Bank 出演",
+      "date": "2026-07-10",
+      "start": "2026-07-10T17:00:00.000+09:00",
+      "end": "",
+      "category": "音楽番組",
+      "type": "event",
+      "description": "事前投票:7/5 15:00~7/8 11:00",
+      "link": "投票アプリ｢Fancast｣",
+      "linkLabel": "https://apps.apple.com/app/id1641638840",
+      "image": "",
+      "notionUrl": "https://app.notion.com/p/Music-Bank-3a2229d219da80f18d87d13b32b0ced0"
+    },
+    {
+      "id": "3a2229d2-19da-807e-a65d-ec6c6f44cf8d",
+      "title": "SHOW!音楽中心 出演",
+      "date": "2026-07-11",
+      "start": "2026-07-11T15:20:00.000+09:00",
+      "end": "",
+      "category": "音楽番組",
+      "type": "event",
+      "description": "事前投票:7/7 18:00~7/9 11:00",
+      "link": "https://apps.apple.com/app/id1641638840",
+      "linkLabel": "投票アプリ｢Mubeat,Muniverse｣",
+      "image": "",
+      "notionUrl": "https://app.notion.com/p/SHOW-3a2229d219da807ea65dec6c6f44cf8d"
+    },
+    {
       "id": "3a2229d2-19da-8052-bfb6-e1a065fce7ad",
       "title": "人気歌謡 出演",
       "date": "2026-07-12",
@@ -291,9 +319,9 @@
       "end": "",
       "category": "音楽番組",
       "type": "event",
-      "description": "SBS｢人気歌謡｣出演予定",
-      "link": "",
-      "linkLabel": "詳細を見る",
+      "description": "事前投票:7/6 12:00~7/10 23:59",
+      "link": "投票アプリ｢LiNC,Higher｣",
+      "linkLabel": "https://apps.apple.com/app/id6467824343",
       "image": "",
       "notionUrl": "https://app.notion.com/p/3a2229d219da8052bfb6e1a065fce7ad"
     },
@@ -305,7 +333,7 @@
       "end": "",
       "category": "音楽番組",
       "type": "event",
-      "description": "SBS｢人気歌謡｣出演予定",
+      "description": "事前投票:7/13 12:00~7/17 23:59",
       "link": "",
       "linkLabel": "詳細を見る",
       "image": "",
