@@ -2,7 +2,7 @@
   'use strict';
 
   const REPOSITORY='rescenejapanfanbase-web/rescene-FB-JP';
-  const API_CACHE_KEY='rescene-sync-status-api-v2';
+  const API_CACHE_KEY='rescene-sync-status-api-v3';
   const API_CACHE_MS=5*60*1000;
   const workflowBase=`https://github.com/${REPOSITORY}/actions/workflows/`;
 
@@ -47,6 +47,14 @@
           state:errors.length?'warning':'success',
           message:errors.length?`${errors.map(channel=>channel.label||channel.key).join('、')}の一部取得で警告があります。取得済みデータを表示しています。`:`${channels.length}チャンネル・${videos}件の${allMode?'全公開動画':'動画'}データを読み込みました。`,
         };
+      },
+    },
+    homeguides:{
+      workflow:'sync-home-guides.yml',
+      dataUrl:'data/home-guides.json',
+      parseData(data){
+        const guides=Array.isArray(data?.guides)?data.guides:[];
+        return {count:`${guides.length}件`,detail:'トップページに表示するガイド更新情報',generatedAt:data?.generatedAt||null,state:'success',message:`ガイド更新情報 ${guides.length}件を読み込みました。`};
       },
     },
     backup:{
@@ -228,7 +236,7 @@
     const hasWarning=states.includes('warning')||states.includes('unknown');
     let state='success';
     let title='すべて正常';
-    let description='最新の同期・バックアップ・チェックは正常に完了しています。';
+    let description='最新の同期・トップページ更新・バックアップ・チェックは正常に完了しています。';
     let mark='✓';
     if(hasError){state='error';title='問題があります';description='失敗またはデータ読み込みエラーがあります。対象カードの最新ログを確認してください。';mark='!';}
     else if(hasRunning){state='running';title='同期を実行中';description='GitHub Actionsの処理が進行中です。完了後にもう一度確認してください。';mark='↻';}

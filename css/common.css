@@ -465,3 +465,5 @@ html.light-mode .mv-gallery-body p{color:#654d5b!important}
   .logo{max-width:118px;font-size:.6rem;letter-spacing:.01em}
   .logo span{font-size:.88rem}
 }
+/* Keep the final desktop dropdown inside the viewport on compact laptop widths. */
+@media(min-width:980px) and (max-width:1120px){.nav-links .dropdown:last-child .dropdown-menu{left:auto;right:0}}

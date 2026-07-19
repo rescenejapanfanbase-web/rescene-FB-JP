@@ -525,6 +525,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
   .logo span{font-size:.88rem}
 }
 </style>
+<link rel="stylesheet" href="css/home-latest.css">
 </head>
 <body class="">
 <header>
@@ -577,6 +578,31 @@ html.light-mode .hero-members{color:#9f3a6c!important}
   </aside>
 </section>
 
+<section class="section home-latest-section" aria-labelledby="homeLatestTitle">
+  <div class="section-head home-latest-head">
+    <div><span class="section-kicker">NOW ON RESCENE</span><h2 class="section-title" id="homeLatestTitle">最新情報まとめ</h2></div>
+    <p class="home-latest-note" id="homeLatestStatus" aria-live="polite">最新データを読み込んでいます。</p>
+  </div>
+  <div class="home-latest-grid">
+    <article class="card home-feed-card home-feed-schedule" aria-labelledby="homeScheduleTitle">
+      <div class="home-feed-heading"><div><span class="home-feed-kicker">UP NEXT</span><h3 id="homeScheduleTitle">次の予定</h3></div><a href="schedule.html">すべて見る →</a></div>
+      <div class="home-feed-body home-feed-loading" id="homeNextSchedule"><span></span><span></span></div>
+    </article>
+    <article class="card home-feed-card home-feed-news" aria-labelledby="homeNewsTitle">
+      <div class="home-feed-heading"><div><span class="home-feed-kicker">LATEST NEWS</span><h3 id="homeNewsTitle">最新ニュース</h3></div><a href="news.html">一覧へ →</a></div>
+      <div class="home-feed-body home-feed-loading" id="homeLatestNews"><span></span><span></span></div>
+    </article>
+    <article class="card home-feed-card home-feed-youtube" aria-labelledby="homeYoutubeTitle">
+      <div class="home-feed-heading"><div><span class="home-feed-kicker">NEW VIDEO</span><h3 id="homeYoutubeTitle">最新YouTube</h3></div><a href="youtube.html">動画一覧 →</a></div>
+      <div class="home-feed-body home-feed-loading" id="homeLatestYoutube"><span></span><span></span></div>
+    </article>
+    <article class="card home-feed-card home-feed-guides" aria-labelledby="homeGuidesTitle">
+      <div class="home-feed-heading"><div><span class="home-feed-kicker">GUIDE UPDATE</span><h3 id="homeGuidesTitle">最近追加・更新したガイド</h3></div><a href="search.html?q=%E3%82%AC%E3%82%A4%E3%83%89">検索する →</a></div>
+      <div class="home-feed-body home-feed-loading" id="homeLatestGuides"><span></span><span></span></div>
+    </article>
+  </div>
+</section>
+
 <section class="section">
   <div class="section-head"><div><span class="section-kicker">QUICK ACCESS</span><h2 class="section-title">まず見るページ</h2></div><a class="section-link" href="news.html">ニュース一覧へ →</a></div>
   <div class="grid-4 quick-grid">
@@ -604,10 +630,6 @@ html.light-mode .hero-members{color:#9f3a6c!important}
   </div>
 </section>
 
-<section class="section">
-  <div class="section-head"><div><span class="section-kicker">LATEST</span><h2 class="section-title">最新情報</h2></div><a class="section-link" href="news.html">もっと見る →</a></div>
-  <div class="news-grid" id="newsGrid"></div>
-</section>
 
 <section class="section">
   <div class="section-head"><div><span class="section-kicker">MEMBERS</span><h2 class="section-title">メンバー</h2></div><a class="section-link" href="members.html">プロフィールを見る →</a></div>
@@ -676,9 +698,5 @@ html.light-mode .hero-members{color:#9f3a6c!important}
  document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
 })();
 
-</script><script src="data/news-data.js"></script><script>
-
-(()=>{const el=document.getElementById('newsGrid');if(!el||!window.RESCENE_NEWS)return;el.innerHTML=RESCENE_NEWS.slice(0,4).map(n=>{const href=`article.html?id=${encodeURIComponent(n.slug)}`;return `<article class="news-card"><div class="news-meta"><span class="news-date">${n.date}</span><span class="badge">${n.label}</span></div><div class="news-title"><a href="${href}">${n.title}</a></div><div class="news-text">${n.text}</div></article>`}).join('')})();
-
-</script>
+</script><script src="data/news-data.js"></script><script src="js/home-latest.js"></script>
 </body></html>
