@@ -372,6 +372,9 @@ html.light-mode .member-detail{color:#654d5b !important;}
 }
 </style>
 
+<style id="site-search-link-style">
+.search-toggle{width:40px;height:40px;border:1px solid var(--border);background:var(--soft-bg);color:var(--text);border-radius:999px;display:grid;place-items:center;transition:.2s;flex:0 0 auto}.search-toggle:hover{color:var(--pink);border-color:rgba(255,111,174,.5);transform:translateY(-1px)}.search-toggle svg{width:19px;height:19px;fill:currentColor}.mobile-menu>a.mobile-search-link{color:var(--pink-soft,var(--pink))}
+</style>
 </head>
 <body class="">
 <header>
@@ -393,11 +396,11 @@ html.light-mode .member-detail{color:#654d5b !important;}
 <div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
 <a href="links.html">公式リンク</a><a href="contact.html">お問い合わせ</a>
 </div></div></nav>
-<div class="nav-actions"><button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマ切り替え">☾</button><button class="hamburger" id="hamburger" type="button" aria-label="メニューを開く" aria-controls="mobileMenu" aria-expanded="false">☰</button></div>
+<div class="nav-actions"><a class="search-toggle" href="search.html" aria-label="サイト内検索" title="サイト内検索"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m20.7 19.3-4.2-4.2a7.5 7.5 0 1 0-1.4 1.4l4.2 4.2a1 1 0 0 0 1.4-1.4ZM5 10.5a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0Z"/></svg></a><button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマ切り替え">☾</button><button class="hamburger" id="hamburger" type="button" aria-label="メニューを開く" aria-controls="mobileMenu" aria-expanded="false">☰</button></div>
 </div>
 </header>
 <nav class="mobile-menu" id="mobileMenu" aria-label="モバイルナビゲーション">
-<a href="index.html">ホーム</a><a href="news.html">ニュース</a><a href="schedule.html">スケジュール</a>
+<a href="index.html">ホーム</a><a class="mobile-search-link" href="search.html">サイト内検索</a><a href="news.html">ニュース</a><a href="schedule.html">スケジュール</a>
 <details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></details>
 <details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a></div></details>
 <details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a></div></details>
@@ -408,7 +411,7 @@ html.light-mode .member-detail{color:#654d5b !important;}
 <section class="page-header section" id="top"><span class="page-kicker">CONTACT</span><h1>お問い合わせ</h1><p>掲載内容の訂正、情報提供、企画・広告に関するご連絡。</p></section>
 <section class="section"><div class="contact-grid"><div class="card contact-main"><span class="badge badge-green">CONTACT</span><h2>RESCENE JAPAN FANBASEへ<br>連絡する</h2><p>お問い合わせはファンベース公式SNSのダイレクトメッセージ、または公開しているメールアドレスからお願いします。</p><a class="btn btn-primary" href="#">公式Xを開く</a></div><div class="contact-side"><div class="card"><span class="route-num">01</span><h3>掲載内容の訂正</h3><p class="subtle">対象ページと正しい情報、確認できる公式ソースをお送りください。</p></div><div class="card"><span class="route-num">02</span><h3>企画・広告のご相談</h3><p class="subtle">目的、実施希望時期、概要を添えてご連絡ください。</p></div><div class="card"><span class="route-num">03</span><h3>返信について</h3><p class="subtle">内容によっては返信まで時間をいただく場合があります。</p></div></div></div></section>
 </main>
-<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="contact.html">CONTACT</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
+<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="contact.html">CONTACT</a><a href="search.html">SEARCH</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
 <script>
 
 (()=>{

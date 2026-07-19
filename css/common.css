@@ -445,3 +445,8 @@ html.light-mode .member-ambassador{background:#fff7fb!important;border-color:rgb
 @media(max-width:760px){.mv-gallery-grid{grid-template-columns:1fr}.mv-gallery-body h2{font-size:1.3rem}}
 html.light-mode .mv-gallery-body p{color:#654d5b!important}
 
+
+
+/* === SITE SEARCH LINK === */
+.search-toggle{width:40px;height:40px;border:1px solid var(--border);background:var(--soft-bg);color:var(--text);border-radius:999px;display:grid;place-items:center;transition:.2s;flex:0 0 auto}.search-toggle:hover{color:var(--pink);border-color:rgba(255,111,174,.5);transform:translateY(-1px)}.search-toggle svg{width:19px;height:19px;fill:currentColor}.mobile-menu>a.mobile-search-link{color:var(--pink-soft,var(--pink))}
+/* === END SITE SEARCH LINK === */

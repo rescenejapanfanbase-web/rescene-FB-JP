@@ -416,6 +416,9 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 }
 </style>
 
+<style id="site-search-link-style">
+.search-toggle{width:40px;height:40px;border:1px solid var(--border);background:var(--soft-bg);color:var(--text);border-radius:999px;display:grid;place-items:center;transition:.2s;flex:0 0 auto}.search-toggle:hover{color:var(--pink);border-color:rgba(255,111,174,.5);transform:translateY(-1px)}.search-toggle svg{width:19px;height:19px;fill:currentColor}.mobile-menu>a.mobile-search-link{color:var(--pink-soft,var(--pink))}
+</style>
 </head>
 <body class="">
 <header>
@@ -437,11 +440,11 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 <div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
 <a href="links.html">公式リンク</a>
 </div></div></nav>
-<div class="nav-actions"><button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマ切り替え">☾</button><button class="hamburger" id="hamburger" type="button" aria-label="メニューを開く" aria-controls="mobileMenu" aria-expanded="false">☰</button></div>
+<div class="nav-actions"><a class="search-toggle" href="search.html" aria-label="サイト内検索" title="サイト内検索"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m20.7 19.3-4.2-4.2a7.5 7.5 0 1 0-1.4 1.4l4.2 4.2a1 1 0 0 0 1.4-1.4ZM5 10.5a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0Z"/></svg></a><button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマ切り替え">☾</button><button class="hamburger" id="hamburger" type="button" aria-label="メニューを開く" aria-controls="mobileMenu" aria-expanded="false">☰</button></div>
 </div>
 </header>
 <nav class="mobile-menu" id="mobileMenu" aria-label="モバイルナビゲーション">
-<a href="index.html">ホーム</a>
+<a href="index.html">ホーム</a><a class="mobile-search-link" href="search.html">サイト内検索</a>
 <details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></details>
 <a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
 <details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a></div></details>
@@ -461,7 +464,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 </div></section>
 <section class="section"><h2 class="section-title">Music</h2><div class="grid-2"><a class="card card-link service-card" href="https://music.apple.com/jp/artist/rescene/1732658659" target="_blank" rel="noopener noreferrer"><span class="service-logo"><img src="assets/platform-icons/apple-music.png" alt="Apple Music"></span><span>STREAMING</span><h3>Apple Music</h3><b>↗</b></a><a class="card card-link service-card" href="https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S" target="_blank" rel="noopener noreferrer"><span class="service-logo"><img src="assets/platform-icons/spotify.png" alt="Spotify"></span><span>STREAMING</span><h3>Spotify</h3><b>↗</b></a></div></section>
 </main>
-<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
+<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
 <script>
 
 (()=>{

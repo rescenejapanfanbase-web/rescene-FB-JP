@@ -1,0 +1,35 @@
+RESCENE JAPAN FANBASE サイト内検索
+更新日: 2026-07-19
+
+【追加ファイル】
+- search.html
+- css/search.css
+- js/search.js
+- data/search-index.json
+
+【検索対象】
+- 固定ページ
+- メンバープロフィール
+- ディスコグラフィ・収録曲
+- MV
+- 掛け声
+- 投票番組・投票アプリ
+- ストリーミングガイド
+- Notion同期ニュース（data/news.json）
+- Notion同期スケジュール（data/schedule.json）
+- YouTube同期動画（data/youtube-channels.json）
+
+【主な仕様】
+- 日本語・韓国語・英語の表記ゆれに対応
+  例: WONI / ウォニ / 원이、RESCENE / リセンヌ / 리센느
+- カテゴリー絞り込み
+- 16件ずつ追加表示
+- URLへ検索語とカテゴリーを保存
+- スマホ対応
+- スケジュール検索結果から該当月・該当予定を直接表示
+- ニュース・スケジュール・YouTubeは検索時に最新JSONを読み込むため、自動同期後の内容も検索対象になる
+
+【固定ページを更新したとき】
+固定ページ、作品、MV、掛け声、投票アプリなどを追加・変更した場合は、
+data/search-index.jsonもあわせて更新する。
+ニュース・スケジュール・YouTubeはJSONから自動取得するため、手動更新は不要。
