@@ -1,20 +1,2139 @@
 {
   "version": 1,
-  "generatedAt": null,
-  "startedAt": null,
-  "elapsedSeconds": 0,
+  "generatedAt": "2026-07-19T15:36:10Z",
+  "startedAt": "2026-07-19T15:36:07Z",
+  "elapsedSeconds": 3.25,
   "summary": {
-    "checked": 0,
-    "ok": 0,
-    "warning": 0,
-    "broken": 0,
-    "hosts": 0
+    "checked": 103,
+    "ok": 100,
+    "warning": 1,
+    "broken": 2,
+    "hosts": 12
   },
-  "services": [],
-  "items": [],
+  "services": [
+    {
+      "key": "app-store",
+      "label": "App Store",
+      "checked": 11,
+      "ok": 9,
+      "warning": 0,
+      "broken": 2
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
+      "checked": 1,
+      "ok": 0,
+      "warning": 1,
+      "broken": 0
+    },
+    {
+      "key": "apple-music",
+      "label": "Apple Music",
+      "checked": 18,
+      "ok": 18,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "github",
+      "label": "GitHub",
+      "checked": 3,
+      "ok": 3,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "google-play",
+      "label": "Google Play",
+      "checked": 8,
+      "ok": 8,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "mnetplus",
+      "label": "Mnet Plus",
+      "checked": 1,
+      "ok": 1,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "naver",
+      "label": "NAVER",
+      "checked": 4,
+      "ok": 4,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "spotify",
+      "label": "Spotify",
+      "checked": 18,
+      "ok": 18,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "tiktok",
+      "label": "TikTok",
+      "checked": 1,
+      "ok": 1,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "x",
+      "label": "X",
+      "checked": 6,
+      "ok": 6,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "youtube",
+      "label": "YouTube",
+      "checked": 32,
+      "ok": 32,
+      "warning": 0,
+      "broken": 0
+    }
+  ],
+  "items": [
+    {
+      "url": "https://apps.apple.com/jp/search?term=BIGC",
+      "normalizedUrl": "https://apps.apple.com/jp/search?term=BIGC",
+      "finalUrl": "https://apps.apple.com/jp/search?term=BIGC",
+      "service": "App Store",
+      "serviceKey": "app-store",
+      "status": "broken",
+      "httpStatus": 404,
+      "message": "HTTP 404（参照先が見つかりません）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 669,
+          "label": "App Storeで検索 ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/jp/search?term=Muniverse",
+      "normalizedUrl": "https://apps.apple.com/jp/search?term=Muniverse",
+      "finalUrl": "https://apps.apple.com/jp/search?term=Muniverse",
+      "service": "App Store",
+      "serviceKey": "app-store",
+      "status": "broken",
+      "httpStatus": 404,
+      "message": "HTTP 404（参照先が見つかりません）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 676,
+          "label": "App Storeで検索 ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "warning",
+      "httpStatus": 429,
+      "message": "HTTP 429（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "index.html",
+          "line": 683,
+          "label": "Instagram"
+        },
+        {
+          "file": "links.html",
+          "line": 472,
+          "label": "Instagram OPEN ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/app/id1185735018",
+      "normalizedUrl": "https://apps.apple.com/app/id1185735018",
+      "finalUrl": "https://apps.apple.com/app/id1185735018",
+      "service": "App Store",
+      "serviceKey": "app-store",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 393,
+          "label": "SHOW CHAMPION 出演"
+        }
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/app/id1575835045",
+      "normalizedUrl": "https://apps.apple.com/app/id1575835045",
+      "finalUrl": "https://apps.apple.com/app/id1575835045",
+      "service": "App Store",
+      "serviceKey": "app-store",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 351,
+          "label": "THE SHOW 出演"
+        }
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/app/id1641638840",
+      "normalizedUrl": "https://apps.apple.com/app/id1641638840",
+      "finalUrl": "https://apps.apple.com/app/id1641638840",
+      "service": "App Store",
+      "serviceKey": "app-store",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 296,
+          "label": "SHOW!音楽中心 出演"
+        },
+        {
+          "file": "voting.html",
+          "line": 672,
+          "label": "App Store ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/app/id6467824343",
+      "normalizedUrl": "https://apps.apple.com/app/id6467824343",
+      "finalUrl": "https://apps.apple.com/app/id6467824343",
+      "service": "App Store",
+      "serviceKey": "app-store",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 323,
+          "label": "人気歌謡 出演"
+        }
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/jp/app/id1320789688",
+      "normalizedUrl": "https://apps.apple.com/jp/app/id1320789688",
+      "finalUrl": "https://apps.apple.com/jp/app/id1320789688",
+      "service": "App Store",
+      "serviceKey": "app-store",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 673,
+          "label": "App Store ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/jp/app/id1672001935",
+      "normalizedUrl": "https://apps.apple.com/jp/app/id1672001935",
+      "finalUrl": "https://apps.apple.com/jp/app/id1672001935",
+      "service": "App Store",
+      "serviceKey": "app-store",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 675,
+          "label": "App Store ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/jp/app/id6467824343",
+      "normalizedUrl": "https://apps.apple.com/jp/app/id6467824343",
+      "finalUrl": "https://apps.apple.com/jp/app/id6467824343",
+      "service": "App Store",
+      "serviceKey": "app-store",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 674,
+          "label": "App Store ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/jp/app/idolchamp/id1185735018",
+      "normalizedUrl": "https://apps.apple.com/jp/app/idolchamp/id1185735018",
+      "finalUrl": "https://apps.apple.com/jp/app/idolchamp/id1185735018",
+      "service": "App Store",
+      "serviceKey": "app-store",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 670,
+          "label": "App Store ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/jp/app/mnet-plus/id6443405421",
+      "normalizedUrl": "https://apps.apple.com/jp/app/mnet-plus/id6443405421",
+      "finalUrl": "https://apps.apple.com/jp/app/mnet-plus/id6443405421",
+      "service": "App Store",
+      "serviceKey": "app-store",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 671,
+          "label": "App Store ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/%E3%83%92-%E3%83%B3%E3%83%9B-%E3%83%BC%E3%83%AB-pinball-single/1861483257",
+      "normalizedUrl": "https://music.apple.com/jp/album/%E3%83%92-%E3%83%B3%E3%83%9B-%E3%83%BC%E3%83%AB-pinball-single/1861483257",
+      "finalUrl": "https://music.apple.com/jp/album/%E3%83%92-%E3%83%B3%E3%83%9B-%E3%83%BC%E3%83%AB-pinball-single/1861483257",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/busy-boy-galantis-remix-single/1882991102",
+      "normalizedUrl": "https://music.apple.com/jp/album/busy-boy-galantis-remix-single/1882991102",
+      "finalUrl": "https://music.apple.com/jp/album/busy-boy-galantis-remix-single/1882991102",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/counting-star-the-magic-star-single/1752835268",
+      "normalizedUrl": "https://music.apple.com/jp/album/counting-star-the-magic-star-single/1752835268",
+      "finalUrl": "https://music.apple.com/jp/album/counting-star-the-magic-star-single/1752835268",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 512,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/dearest-single/1822439985",
+      "normalizedUrl": "https://music.apple.com/jp/album/dearest-single/1822439985",
+      "finalUrl": "https://music.apple.com/jp/album/dearest-single/1822439985",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 508,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/glow-up-english-version-single/1796323288",
+      "normalizedUrl": "https://music.apple.com/jp/album/glow-up-english-version-single/1796323288",
+      "finalUrl": "https://music.apple.com/jp/album/glow-up-english-version-single/1796323288",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/glow-up-ep/1794040636",
+      "normalizedUrl": "https://music.apple.com/jp/album/glow-up-ep/1794040636",
+      "finalUrl": "https://music.apple.com/jp/album/glow-up-ep/1794040636",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 500,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/lip-bomb-ep/1852644693",
+      "normalizedUrl": "https://music.apple.com/jp/album/lip-bomb-ep/1852644693",
+      "finalUrl": "https://music.apple.com/jp/album/lip-bomb-ep/1852644693",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 500,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/love-frequency-original-soundtrack-from-just-for-meeting/1839109522",
+      "normalizedUrl": "https://music.apple.com/jp/album/love-frequency-original-soundtrack-from-just-for-meeting/1839109522",
+      "finalUrl": "https://music.apple.com/jp/album/love-frequency-original-soundtrack-from-just-for-meeting/1839109522",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 512,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/music-from-the-specials-single/1879526015",
+      "normalizedUrl": "https://music.apple.com/jp/album/music-from-the-specials-single/1879526015",
+      "finalUrl": "https://music.apple.com/jp/album/music-from-the-specials-single/1879526015",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 512,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/pretty-girl-single/6786111944",
+      "normalizedUrl": "https://music.apple.com/jp/album/pretty-girl-single/6786111944",
+      "finalUrl": "https://music.apple.com/jp/album/pretty-girl-single/6786111944",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/re-scene-single/1737172693",
+      "normalizedUrl": "https://music.apple.com/jp/album/re-scene-single/1737172693",
+      "finalUrl": "https://music.apple.com/jp/album/re-scene-single/1737172693",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 508,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/rescene-x-single/1879473478",
+      "normalizedUrl": "https://music.apple.com/jp/album/rescene-x-single/1879473478",
+      "finalUrl": "https://music.apple.com/jp/album/rescene-x-single/1879473478",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/runaway-single/1889474645",
+      "normalizedUrl": "https://music.apple.com/jp/album/runaway-single/1889474645",
+      "finalUrl": "https://music.apple.com/jp/album/runaway-single/1889474645",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/scenedrome-ep/1764485168",
+      "normalizedUrl": "https://music.apple.com/jp/album/scenedrome-ep/1764485168",
+      "finalUrl": "https://music.apple.com/jp/album/scenedrome-ep/1764485168",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 500,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/the-first-night-with-the-duke-original/1819840260",
+      "normalizedUrl": "https://music.apple.com/jp/album/the-first-night-with-the-duke-original/1819840260",
+      "finalUrl": "https://music.apple.com/jp/album/the-first-night-with-the-duke-original/1819840260",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 512,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/uhuh-japanese-version-single/1780523703",
+      "normalizedUrl": "https://music.apple.com/jp/album/uhuh-japanese-version-single/1780523703",
+      "finalUrl": "https://music.apple.com/jp/album/uhuh-japanese-version-single/1780523703",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/album/yoyo-japanese-version-single/1760327407",
+      "normalizedUrl": "https://music.apple.com/jp/album/yoyo-japanese-version-single/1760327407",
+      "finalUrl": "https://music.apple.com/jp/album/yoyo-japanese-version-single/1760327407",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://music.apple.com/jp/artist/rescene/1732658659",
+      "normalizedUrl": "https://music.apple.com/jp/artist/rescene/1732658659",
+      "finalUrl": "https://music.apple.com/jp/artist/rescene/1732658659",
+      "service": "Apple Music",
+      "serviceKey": "apple-music",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "index.html",
+          "line": 684,
+          "label": "Apple Music"
+        },
+        {
+          "file": "links.html",
+          "line": 477,
+          "label": "STREAMING Apple Music ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP",
+      "normalizedUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP",
+      "finalUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP",
+      "service": "GitHub",
+      "serviceKey": "github",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "sync-status.html",
+          "line": 91,
+          "label": "GitHubリポジトリ サイトファイルと更新履歴を確認 ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions",
+      "normalizedUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions",
+      "finalUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions",
+      "service": "GitHub",
+      "serviceKey": "github",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "sync-status.html",
+          "line": 91,
+          "label": "GitHub Actions一覧 すべての同期・チェック履歴を確認 ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/backup-site.yml",
+      "normalizedUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/backup-site.yml",
+      "finalUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/backup-site.yml",
+      "service": "GitHub",
+      "serviceKey": "github",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "sync-status.html",
+          "line": 91,
+          "label": "バックアップ一覧 保存ZIPの作成履歴とArtifactを確認 ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.contentsmadang.fancast",
+      "normalizedUrl": "https://play.google.com/store/apps/details?id=com.contentsmadang.fancast",
+      "finalUrl": "https://play.google.com/store/apps/details?id=com.contentsmadang.fancast",
+      "service": "Google Play",
+      "serviceKey": "google-play",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 672,
+          "label": "Google Play ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.dalcomsoft.mysu.a",
+      "normalizedUrl": "https://play.google.com/store/apps/details?id=com.dalcomsoft.mysu.a",
+      "finalUrl": "https://play.google.com/store/apps/details?id=com.dalcomsoft.mysu.a",
+      "service": "Google Play",
+      "serviceKey": "google-play",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 675,
+          "label": "Google Play ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.nwz.ichampclient",
+      "normalizedUrl": "https://play.google.com/store/apps/details?id=com.nwz.ichampclient",
+      "finalUrl": "https://play.google.com/store/apps/details?id=com.nwz.ichampclient",
+      "service": "Google Play",
+      "serviceKey": "google-play",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 670,
+          "label": "Google Play ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.vlending.apps.mubeat",
+      "normalizedUrl": "https://play.google.com/store/apps/details?id=com.vlending.apps.mubeat",
+      "finalUrl": "https://play.google.com/store/apps/details?id=com.vlending.apps.mubeat",
+      "service": "Google Play",
+      "serviceKey": "google-play",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 673,
+          "label": "Google Play ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=io.stayge.youmeonapp",
+      "normalizedUrl": "https://play.google.com/store/apps/details?id=io.stayge.youmeonapp",
+      "finalUrl": "https://play.google.com/store/apps/details?id=io.stayge.youmeonapp",
+      "service": "Google Play",
+      "serviceKey": "google-play",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 674,
+          "label": "Google Play ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=world.mnetplus",
+      "normalizedUrl": "https://play.google.com/store/apps/details?id=world.mnetplus",
+      "finalUrl": "https://play.google.com/store/apps/details?id=world.mnetplus",
+      "service": "Google Play",
+      "serviceKey": "google-play",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 671,
+          "label": "Google Play ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://play.google.com/store/search?q=BIGC&c=apps",
+      "normalizedUrl": "https://play.google.com/store/search?q=BIGC&c=apps",
+      "finalUrl": "https://play.google.com/store/search?q=BIGC&c=apps",
+      "service": "Google Play",
+      "serviceKey": "google-play",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 669,
+          "label": "Google Playで検索 ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://play.google.com/store/search?q=Muniverse&c=apps",
+      "normalizedUrl": "https://play.google.com/store/search?q=Muniverse&c=apps",
+      "finalUrl": "https://play.google.com/store/search?q=Muniverse&c=apps",
+      "service": "Google Play",
+      "serviceKey": "google-play",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 676,
+          "label": "Google Playで検索 ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://artist.mnetplus.world/main/stg/rescene-official",
+      "normalizedUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
+      "finalUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
+      "service": "Mnet Plus",
+      "serviceKey": "mnetplus",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "links.html",
+          "line": 475,
+          "label": "Plus Chat OPEN ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://m.entertain.naver.com/home/article/079/0004164566",
+      "normalizedUrl": "https://m.entertain.naver.com/home/article/079/0004164566",
+      "finalUrl": "https://m.entertain.naver.com/home/article/079/0004164566",
+      "service": "NAVER",
+      "serviceKey": "naver",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/news-manual.json",
+          "line": 54,
+          "label": "京畿道 高陽市 広報大使に任命"
+        },
+        {
+          "file": "data/news.json",
+          "line": 74,
+          "label": "京畿道 高陽市 広報大使に任命"
+        }
+      ]
+    },
+    {
+      "url": "https://m.entertain.naver.com/home/article/311/0002027805",
+      "normalizedUrl": "https://m.entertain.naver.com/home/article/311/0002027805",
+      "finalUrl": "https://m.entertain.naver.com/home/article/311/0002027805",
+      "service": "NAVER",
+      "serviceKey": "naver",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/news-manual.json",
+          "line": 65,
+          "label": "慶尚北道 慶州市 広報大使に任命"
+        },
+        {
+          "file": "data/news.json",
+          "line": 85,
+          "label": "慶尚北道 慶州市 広報大使に任命"
+        }
+      ]
+    },
+    {
+      "url": "https://m.entertain.naver.com/home/article/408/0000312710",
+      "normalizedUrl": "https://m.entertain.naver.com/home/article/408/0000312710",
+      "finalUrl": "https://m.entertain.naver.com/home/article/408/0000312710",
+      "service": "NAVER",
+      "serviceKey": "naver",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/news-manual.json",
+          "line": 76,
+          "label": "京畿道 水原市 広報大使に任命"
+        },
+        {
+          "file": "data/news.json",
+          "line": 96,
+          "label": "京畿道 水原市 広報大使に任命"
+        }
+      ]
+    },
+    {
+      "url": "https://n.news.naver.com/article/030/0003430663?sid=103",
+      "normalizedUrl": "https://n.news.naver.com/article/030/0003430663?sid=103",
+      "finalUrl": "https://n.news.naver.com/article/030/0003430663?sid=103",
+      "service": "NAVER",
+      "serviceKey": "naver",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/news-manual.json",
+          "line": 87,
+          "label": "慶尚南道 巨済市 広報大使に任命"
+        },
+        {
+          "file": "data/news.json",
+          "line": 107,
+          "label": "慶尚南道 巨済市 広報大使に任命"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/album/0msC9kyzmtznRwIxwafISH",
+      "normalizedUrl": "https://open.spotify.com/album/0msC9kyzmtznRwIxwafISH",
+      "finalUrl": "https://open.spotify.com/album/0msC9kyzmtznRwIxwafISH",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 500,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/album/2xi6m9KfCxbzuieSDZKCGl",
+      "normalizedUrl": "https://open.spotify.com/album/2xi6m9KfCxbzuieSDZKCGl",
+      "finalUrl": "https://open.spotify.com/album/2xi6m9KfCxbzuieSDZKCGl",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 512,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/album/3H7MTJVprjcvlvCeQdRe1H",
+      "normalizedUrl": "https://open.spotify.com/album/3H7MTJVprjcvlvCeQdRe1H",
+      "finalUrl": "https://open.spotify.com/album/3H7MTJVprjcvlvCeQdRe1H",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 500,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/album/5fooRwtJmNvt64WhLN5Chy",
+      "normalizedUrl": "https://open.spotify.com/album/5fooRwtJmNvt64WhLN5Chy",
+      "finalUrl": "https://open.spotify.com/album/5fooRwtJmNvt64WhLN5Chy",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S",
+      "normalizedUrl": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S",
+      "finalUrl": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "index.html",
+          "line": 684,
+          "label": "Spotify"
+        },
+        {
+          "file": "links.html",
+          "line": 477,
+          "label": "STREAMING Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/intl-ja/album/0dbuXh0XcMsrgQsVep3jAk",
+      "normalizedUrl": "https://open.spotify.com/intl-ja/album/0dbuXh0XcMsrgQsVep3jAk",
+      "finalUrl": "https://open.spotify.com/intl-ja/album/0dbuXh0XcMsrgQsVep3jAk",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/intl-ja/album/0Ka3xa6oOWmW1hIjjjxEW0",
+      "normalizedUrl": "https://open.spotify.com/intl-ja/album/0Ka3xa6oOWmW1hIjjjxEW0",
+      "finalUrl": "https://open.spotify.com/intl-ja/album/0Ka3xa6oOWmW1hIjjjxEW0",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 500,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/intl-ja/album/1C78MdRvc88435lTnGxGUF",
+      "normalizedUrl": "https://open.spotify.com/intl-ja/album/1C78MdRvc88435lTnGxGUF",
+      "finalUrl": "https://open.spotify.com/intl-ja/album/1C78MdRvc88435lTnGxGUF",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 508,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/intl-ja/album/1HNgrDrFTqZotDo4scF2IK",
+      "normalizedUrl": "https://open.spotify.com/intl-ja/album/1HNgrDrFTqZotDo4scF2IK",
+      "finalUrl": "https://open.spotify.com/intl-ja/album/1HNgrDrFTqZotDo4scF2IK",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 512,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/intl-ja/album/2oXZPVj5JczGoUR82tc28h",
+      "normalizedUrl": "https://open.spotify.com/intl-ja/album/2oXZPVj5JczGoUR82tc28h",
+      "finalUrl": "https://open.spotify.com/intl-ja/album/2oXZPVj5JczGoUR82tc28h",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 508,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/intl-ja/album/3cgYAtoLlt8nO7YdoEuY2l",
+      "normalizedUrl": "https://open.spotify.com/intl-ja/album/3cgYAtoLlt8nO7YdoEuY2l",
+      "finalUrl": "https://open.spotify.com/intl-ja/album/3cgYAtoLlt8nO7YdoEuY2l",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 512,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/intl-ja/album/4wywAxm5NwYkpngq2hIFWj",
+      "normalizedUrl": "https://open.spotify.com/intl-ja/album/4wywAxm5NwYkpngq2hIFWj",
+      "finalUrl": "https://open.spotify.com/intl-ja/album/4wywAxm5NwYkpngq2hIFWj",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/intl-ja/album/5ImFXutiGomYRjY0iZsaEI",
+      "normalizedUrl": "https://open.spotify.com/intl-ja/album/5ImFXutiGomYRjY0iZsaEI",
+      "finalUrl": "https://open.spotify.com/intl-ja/album/5ImFXutiGomYRjY0iZsaEI",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/intl-ja/album/6wL6HetMdQwsTqZzCBpGGJ",
+      "normalizedUrl": "https://open.spotify.com/intl-ja/album/6wL6HetMdQwsTqZzCBpGGJ",
+      "finalUrl": "https://open.spotify.com/intl-ja/album/6wL6HetMdQwsTqZzCBpGGJ",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/intl-ja/track/0Jl0gg7riUgpPyNhmPDG7w",
+      "normalizedUrl": "https://open.spotify.com/intl-ja/track/0Jl0gg7riUgpPyNhmPDG7w",
+      "finalUrl": "https://open.spotify.com/intl-ja/track/0Jl0gg7riUgpPyNhmPDG7w",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/intl-ja/track/1rHDWZLK5NVKfF2u55xmR7",
+      "normalizedUrl": "https://open.spotify.com/intl-ja/track/1rHDWZLK5NVKfF2u55xmR7",
+      "finalUrl": "https://open.spotify.com/intl-ja/track/1rHDWZLK5NVKfF2u55xmR7",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 512,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/intl-ja/track/2oLz5wJhDoJvcH0z4mOJ6X",
+      "normalizedUrl": "https://open.spotify.com/intl-ja/track/2oLz5wJhDoJvcH0z4mOJ6X",
+      "finalUrl": "https://open.spotify.com/intl-ja/track/2oLz5wJhDoJvcH0z4mOJ6X",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/intl-ja/track/6fJJO72ssk4vPYfd3HgNUm",
+      "normalizedUrl": "https://open.spotify.com/intl-ja/track/6fJJO72ssk4vPYfd3HgNUm",
+      "finalUrl": "https://open.spotify.com/intl-ja/track/6fJJO72ssk4vPYfd3HgNUm",
+      "service": "Spotify",
+      "serviceKey": "spotify",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Spotifyの公開コンテンツを確認しました。",
+      "method": "spotify-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tiktok.com/@rescene_official",
+      "normalizedUrl": "https://www.tiktok.com/@rescene_official",
+      "finalUrl": "https://www.tiktok.com/@rescene_official",
+      "service": "TikTok",
+      "serviceKey": "tiktok",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "index.html",
+          "line": 683,
+          "label": "TikTok"
+        },
+        {
+          "file": "links.html",
+          "line": 473,
+          "label": "TikTok OPEN ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/higher_twt/status/2076211910865994220?s=46",
+      "normalizedUrl": "https://x.com/higher_twt/status/2076211910865994220",
+      "finalUrl": "https://x.com/higher_twt/status/2076211910865994220",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "data/news-manual.json",
+          "line": 21,
+          "label": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得"
+        },
+        {
+          "file": "data/news.json",
+          "line": 41,
+          "label": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/Rescene_FB_JP",
+      "normalizedUrl": "https://x.com/Rescene_FB_JP",
+      "finalUrl": "https://x.com/Rescene_FB_JP",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/news-manual.json",
+          "line": 208,
+          "label": "RESCENE JAPAN FANBASE ウェブサイト"
+        },
+        {
+          "file": "data/news.json",
+          "line": 15,
+          "label": "RESCENE JAPAN FANBASE ウェブサイト"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/rescene_fb_jp/status/2034547997087088775?s=46",
+      "normalizedUrl": "https://x.com/rescene_fb_jp/status/2034547997087088775",
+      "finalUrl": "https://x.com/rescene_fb_jp/status/2034547997087088775",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "data/news-manual.json",
+          "line": 120,
+          "label": "デビュー2周年広告プロジェクト"
+        },
+        {
+          "file": "data/news.json",
+          "line": 140,
+          "label": "デビュー2周年広告プロジェクト"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/RESCENE_twt",
+      "normalizedUrl": "https://x.com/RESCENE_twt",
+      "finalUrl": "https://x.com/RESCENE_twt",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "links.html",
+          "line": 471,
+          "label": "Members X OPEN ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/RESCENEofficial",
+      "normalizedUrl": "https://x.com/RESCENEofficial",
+      "finalUrl": "https://x.com/RESCENEofficial",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "index.html",
+          "line": 683,
+          "label": "Official X"
+        },
+        {
+          "file": "links.html",
+          "line": 470,
+          "label": "Official X OPEN ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/RESCENEofficial/status/2036820409807413626",
+      "normalizedUrl": "https://x.com/RESCENEofficial/status/2036820409807413626",
+      "finalUrl": "https://x.com/RESCENEofficial/status/2036820409807413626",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "data/news-manual.json",
+          "line": 109,
+          "label": "RESCENE Debut 2nd Anniversary"
+        },
+        {
+          "file": "data/news.json",
+          "line": 129,
+          "label": "RESCENE Debut 2nd Anniversary"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/@helloiamwoninicetomeetyou",
+      "normalizedUrl": "https://www.youtube.com/@helloiamwoninicetomeetyou",
+      "finalUrl": "https://www.youtube.com/@helloiamwoninicetomeetyou",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "youtube-page",
+      "sources": [
+        {
+          "file": "data/youtube-channels.json",
+          "line": null,
+          "label": "안녕하세요원이입니다잘부탁드립니다"
+        },
+        {
+          "file": "youtube.html",
+          "line": 102,
+          "label": "チャンネルを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/@RESCENE_official",
+      "normalizedUrl": "https://www.youtube.com/@RESCENE_official",
+      "finalUrl": "https://www.youtube.com/@RESCENE_official",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "youtube-page",
+      "sources": [
+        {
+          "file": "data/youtube-channels.json",
+          "line": null,
+          "label": "RESCENE Official"
+        },
+        {
+          "file": "index.html",
+          "line": 683,
+          "label": "YouTube"
+        },
+        {
+          "file": "links.html",
+          "line": 474,
+          "label": "YouTube OPEN ↗"
+        },
+        {
+          "file": "youtube.html",
+          "line": 101,
+          "label": "チャンネルを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/live/v6n4XQdX6_8?si=trciEexVgiGpYX3C",
+      "normalizedUrl": "https://www.youtube.com/watch?v=v6n4XQdX6_8",
+      "finalUrl": "https://www.youtube.com/watch?v=v6n4XQdX6_8",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：이게 다 리마인 덕분이야 🩷。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "data/news-manual.json",
+          "line": 32,
+          "label": "RESCENEがMelon TOP100で初の1位を記録"
+        },
+        {
+          "file": "data/news.json",
+          "line": 52,
+          "label": "RESCENEがMelon TOP100で初の1位を記録"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-55bUrG1qjg",
+      "normalizedUrl": "https://www.youtube.com/watch?v=-55bUrG1qjg",
+      "finalUrl": "https://www.youtube.com/watch?v=-55bUrG1qjg",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Glow Up' 응원법 (Fanchant Guide)。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "chants.html",
+          "line": 436,
+          "label": "公式掛け声動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7DZlkZ4bMpU",
+      "normalizedUrl": "https://www.youtube.com/watch?v=7DZlkZ4bMpU",
+      "finalUrl": "https://www.youtube.com/watch?v=7DZlkZ4bMpU",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Runaway' 응원법 (Fanchant Guide)。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "chants.html",
+          "line": 436,
+          "label": "公式掛け声動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9FlQOv6-Mjc",
+      "normalizedUrl": "https://www.youtube.com/watch?v=9FlQOv6-Mjc",
+      "finalUrl": "https://www.youtube.com/watch?v=9FlQOv6-Mjc",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Deja Vu' 응원법 (Fanchant Guide)。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "chants.html",
+          "line": 436,
+          "label": "公式掛け声動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9XttLI0oH0I",
+      "normalizedUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
+      "finalUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) ‘LOVE ATTACK’ Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 500,
+          "label": "▶"
+        },
+        {
+          "file": "mv.html",
+          "line": 491,
+          "label": "OFFICIAL MV LOVE ATTACK 2024.08.27 公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
+      "normalizedUrl": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
+      "finalUrl": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) ‘Pinball’ Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 500,
+          "label": "▶"
+        },
+        {
+          "file": "mv.html",
+          "line": 485,
+          "label": "OFFICIAL MV Pinball 2024.09.21 公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ByX8EZq8500",
+      "normalizedUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
+      "finalUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Heart Drop' Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 500,
+          "label": "▶"
+        },
+        {
+          "file": "mv.html",
+          "line": 467,
+          "label": "OFFICIAL MV Heart Drop 2025.11.06 公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ewubELWBMaE",
+      "normalizedUrl": "https://www.youtube.com/watch?v=ewubELWBMaE",
+      "finalUrl": "https://www.youtube.com/watch?v=ewubELWBMaE",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE 'Busy Boy' Performance Video。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "▶"
+        },
+        {
+          "file": "mv.html",
+          "line": 461,
+          "label": "PERFORMANCE VIDEO Busy Boy 2026.02.27 公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
+      "normalizedUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
+      "finalUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) ‘Glow Up’ Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 500,
+          "label": "▶"
+        },
+        {
+          "file": "mv.html",
+          "line": 482,
+          "label": "OFFICIAL MV Glow Up 2025.02.05 公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Ihsh9VRZLlo",
+      "normalizedUrl": "https://www.youtube.com/watch?v=Ihsh9VRZLlo",
+      "finalUrl": "https://www.youtube.com/watch?v=Ihsh9VRZLlo",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：[Official] RESCENE (리센느) - 고백주파수 Special Clip。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 512,
+          "label": "▶"
+        },
+        {
+          "file": "mv.html",
+          "line": 470,
+          "label": "SPECIAL CLIP 고백주파수 2025.09.17 公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
+      "normalizedUrl": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
+      "finalUrl": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：[THE SHOW CHOICE] Pretty Girl - RESCENE [THE SHOW] 260714 방송。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "data/news-manual.json",
+          "line": 10,
+          "label": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得"
+        },
+        {
+          "file": "data/news.json",
+          "line": 26,
+          "label": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Ma6IENHO584",
+      "normalizedUrl": "https://www.youtube.com/watch?v=Ma6IENHO584",
+      "finalUrl": "https://www.youtube.com/watch?v=Ma6IENHO584",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Bloom' 응원법 (Fanchant Guide)。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "chants.html",
+          "line": 436,
+          "label": "公式掛け声動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MC6-82GRK5I",
+      "normalizedUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
+      "finalUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Bloom' Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 500,
+          "label": "▶"
+        },
+        {
+          "file": "mv.html",
+          "line": 464,
+          "label": "OFFICIAL MV Bloom 2025.11.25 公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QNXeGm-Wkms",
+      "normalizedUrl": "https://www.youtube.com/watch?v=QNXeGm-Wkms",
+      "finalUrl": "https://www.youtube.com/watch?v=QNXeGm-Wkms",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) ‘New World’ Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 500,
+          "label": "▶"
+        },
+        {
+          "file": "mv.html",
+          "line": 488,
+          "label": "OFFICIAL MV New World 2024.09.12 公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qZlu2j2SiBA",
+      "normalizedUrl": "https://www.youtube.com/watch?v=qZlu2j2SiBA",
+      "finalUrl": "https://www.youtube.com/watch?v=qZlu2j2SiBA",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Pretty Girl' Special Video。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "▶"
+        },
+        {
+          "file": "mv.html",
+          "line": 455,
+          "label": "SPECIAL VIDEO Pretty Girl 2026.07.08 公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=rsZwrTNklos",
+      "normalizedUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
+      "finalUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Runaway' Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 496,
+          "label": "▶"
+        },
+        {
+          "file": "mv.html",
+          "line": 458,
+          "label": "OFFICIAL MV Runaway 2026.04.08 公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RX592yMx7P0",
+      "normalizedUrl": "https://www.youtube.com/watch?v=RX592yMx7P0",
+      "finalUrl": "https://www.youtube.com/watch?v=RX592yMx7P0",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Pretty Girl' 응원법 (Fanchant Guide)。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "chants.html",
+          "line": 436,
+          "label": "公式掛け声動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=s1S-lnU-yMI",
+      "normalizedUrl": "https://www.youtube.com/watch?v=s1S-lnU-yMI",
+      "finalUrl": "https://www.youtube.com/watch?v=s1S-lnU-yMI",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'UhUh' 응원법 (Fanchant Guide)。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "chants.html",
+          "line": 436,
+          "label": "公式掛け声動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
+      "normalizedUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
+      "finalUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) ‘YoYo’ MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 508,
+          "label": "▶"
+        },
+        {
+          "file": "mv.html",
+          "line": 497,
+          "label": "OFFICIAL MV YoYo 2024.02.29 公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=v5we0mJpoDM",
+      "normalizedUrl": "https://www.youtube.com/watch?v=v5we0mJpoDM",
+      "finalUrl": "https://www.youtube.com/watch?v=v5we0mJpoDM",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Mood': The film。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 508,
+          "label": "▶"
+        },
+        {
+          "file": "mv.html",
+          "line": 476,
+          "label": "THE FILM Mood 2025.07.03 公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VKlrVbgJG-g",
+      "normalizedUrl": "https://www.youtube.com/watch?v=VKlrVbgJG-g",
+      "finalUrl": "https://www.youtube.com/watch?v=VKlrVbgJG-g",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Heart Drop' 응원법 (Fanchant Guide)。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "chants.html",
+          "line": 436,
+          "label": "公式掛け声動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WfQ9TeFHJp4",
+      "normalizedUrl": "https://www.youtube.com/watch?v=WfQ9TeFHJp4",
+      "finalUrl": "https://www.youtube.com/watch?v=WfQ9TeFHJp4",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) - BamBamBam (밤밤밤) | The First Night With the Duke OST。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 512,
+          "label": "▶"
+        },
+        {
+          "file": "mv.html",
+          "line": 479,
+          "label": "OST MV 밤밤밤(BamBamBam) 2025.06.12 公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xn12KH78Dx4",
+      "normalizedUrl": "https://www.youtube.com/watch?v=xn12KH78Dx4",
+      "finalUrl": "https://www.youtube.com/watch?v=xn12KH78Dx4",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'LOVE ATTACK' 응원법 (Fanchant Guide)。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "chants.html",
+          "line": 436,
+          "label": "公式掛け声動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YyixhiYpkkY",
+      "normalizedUrl": "https://www.youtube.com/watch?v=YyixhiYpkkY",
+      "finalUrl": "https://www.youtube.com/watch?v=YyixhiYpkkY",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Pinball' 응원법 (Fanchant Guide)。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "chants.html",
+          "line": 436,
+          "label": "公式掛け声動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
+      "normalizedUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
+      "finalUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Deja Vu' Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 508,
+          "label": "▶"
+        },
+        {
+          "file": "mv.html",
+          "line": 473,
+          "label": "OFFICIAL MV Deja Vu 2025.07.02 公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zpSejlkSXLA",
+      "normalizedUrl": "https://www.youtube.com/watch?v=zpSejlkSXLA",
+      "finalUrl": "https://www.youtube.com/watch?v=zpSejlkSXLA",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) ‘UhUh’ MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 508,
+          "label": "▶"
+        },
+        {
+          "file": "mv.html",
+          "line": 494,
+          "label": "OFFICIAL MV UhUh 2024.03.26 公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://youtu.be/HlR_f2gHxoo?si=iDkzbWCqMHNIer1s",
+      "normalizedUrl": "https://www.youtube.com/watch?v=HlR_f2gHxoo",
+      "finalUrl": "https://www.youtube.com/watch?v=HlR_f2gHxoo",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：Higher。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 512,
+          "label": "▶"
+        }
+      ]
+    },
+    {
+      "url": "https://youtu.be/mBAEnI5kjdI?si=dT_feIKfMjQFiZZ9",
+      "normalizedUrl": "https://www.youtube.com/watch?v=mBAEnI5kjdI",
+      "finalUrl": "https://www.youtube.com/watch?v=mBAEnI5kjdI",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：Counting Star。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "discography.html",
+          "line": 512,
+          "label": "▶"
+        }
+      ]
+    },
+    {
+      "url": "https://youtu.be/MVikEeU99x8?si=NL97-AokTTEpEyPJ",
+      "normalizedUrl": "https://www.youtube.com/watch?v=MVikEeU99x8",
+      "finalUrl": "https://www.youtube.com/watch?v=MVikEeU99x8",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센드) 'Busy Boy' 응원법 (Fanchant Guide)。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "chants.html",
+          "line": 436,
+          "label": "掛け声動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://youtu.be/ykVJo0wFlQ4?si=nzdJrTUe26vxhrAt",
+      "normalizedUrl": "https://www.youtube.com/watch?v=ykVJo0wFlQ4",
+      "finalUrl": "https://www.youtube.com/watch?v=ykVJo0wFlQ4",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센드) 'YoYo' 응원법 (Fanchant Guide)。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "chants.html",
+          "line": 436,
+          "label": "掛け声動画を見る ↗"
+        }
+      ]
+    }
+  ],
   "notes": [
-    "初回チェック前です。GitHub Actionsの「Check External Links」を実行してください。",
     "404・410・451と、YouTubeで明確に視聴不可と判定できたリンクをリンク切れとして扱います。",
-    "X・Instagram・TikTokなど自動アクセスを制限するサービスは、誤検知防止のため要確認として扱う場合があります。"
+    "X・Instagram・TikTokなど自動アクセスを制限するサービスは、誤検知防止のため要確認として扱う場合があります。",
+    "要確認には一時的な通信障害、アクセス制限、レート制限、外部サービス側の5xxエラーが含まれます。"
   ]
 }
