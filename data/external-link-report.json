@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T15:46:54Z",
-  "startedAt": "2026-07-19T15:46:51Z",
-  "elapsedSeconds": 2.45,
+  "generatedAt": "2026-07-19T23:42:11Z",
+  "startedAt": "2026-07-19T23:42:07Z",
+  "elapsedSeconds": 3.54,
   "summary": {
-    "checked": 103,
-    "ok": 100,
+    "checked": 104,
+    "ok": 101,
     "warning": 1,
     "broken": 2,
     "hosts": 12
@@ -86,8 +86,8 @@
     {
       "key": "x",
       "label": "X",
-      "checked": 6,
-      "ok": 6,
+      "checked": 7,
+      "ok": 7,
       "warning": 0,
       "broken": 0
     },
@@ -1336,6 +1336,24 @@
           "file": "data/news.json",
           "line": 41,
           "label": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/kcon_official?s=11",
+      "normalizedUrl": "https://x.com/kcon_official",
+      "finalUrl": "https://x.com/kcon_official",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 491,
+          "label": "KCON LA 2026"
         }
       ]
     },
