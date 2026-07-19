@@ -1,0 +1,25 @@
+RESCENE Notionニュース自動同期 設定
+====================================
+
+Notionニュース データソースID
+3a2229d2-19da-8034-a171-000b9f6bfff2
+
+GitHubで追加するRepository variable
+名前: NOTION_NEWS_DATA_SOURCE_ID
+値: 3a2229d2-19da-8034-a171-000b9f6bfff2
+
+NOTION_TOKENは、スケジュール同期で登録した既存のSecretをそのまま使います。
+新しいトークンを作る必要はありません。
+
+同期対象
+- 公開 = チェックあり
+- 公開日 = 入力あり
+
+自動実行
+- 毎時12分・42分
+- Actions画面のRun workflowでも手動実行可能
+
+安全設計
+- data/news-manual.jsonに現在のニュースを保存しています。
+- Notion記事が未公開・0件でも、既存ニュースは消えません。
+- Notion記事のタイトルが既存ニュースと同じ場合は、既存記事をNotion内容で上書きし、記事URLのslugは維持します。
