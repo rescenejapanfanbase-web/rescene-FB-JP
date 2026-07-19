@@ -1,15 +1,22 @@
 {
-  "generatedAt": "2026-07-19T11:14:00.946Z",
-  "source": "YouTube RSS",
+  "generatedAt": "2026-07-19T11:54:02.579Z",
+  "source": "YouTube channel tabs via yt-dlp",
+  "collectionMode": "all-public-videos",
   "channels": [
     {
       "key": "rescene",
       "label": "RESCENE Official",
       "handle": "@RESCENE_official",
+      "channelId": "UCtKtCiaWRz-d3EZn2xd1mdA",
       "url": "https://www.youtube.com/@RESCENE_official",
       "description": "ミュージックビデオ、Re:log、ビハインドなどRESCENEの公式コンテンツ。",
-      "channelId": "UCtKtCiaWRz-d3EZn2xd1mdA",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtKtCiaWRz-d3EZn2xd1mdA",
+      "totalVideos": 12,
+      "typeCounts": {
+        "video": 3,
+        "short": 9,
+        "live": 0
+      },
       "videos": [
         {
           "videoId": "Fuv_YNCpcCc",
@@ -119,16 +126,23 @@
           "updatedAt": "2026-07-17T21:41:00+00:00",
           "videoType": "video"
         }
-      ]
+      ],
+      "syncError": "通常動画タブの取得に失敗しました：/usr/bin/python: No module named yt_dlp / ショートタブの取得に失敗しました：/usr/bin/python: No module named yt_dlp / ライブタブの取得に失敗しました：/usr/bin/python: No module named yt_dlp"
     },
     {
       "key": "woni",
       "label": "안녕하세요원이입니다잘부탁드립니다",
       "handle": "@helloiamwoninicetomeetyou",
+      "channelId": "UCWpY0eSJtyO-qNAPbKFRSSg",
       "url": "https://www.youtube.com/@helloiamwoninicetomeetyou",
       "description": "ウォニの日常やメンバーとの楽しいコンテンツを届ける個人YouTubeチャンネル。",
-      "channelId": "UCWpY0eSJtyO-qNAPbKFRSSg",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWpY0eSJtyO-qNAPbKFRSSg",
+      "totalVideos": 12,
+      "typeCounts": {
+        "video": 3,
+        "short": 9,
+        "live": 0
+      },
       "videos": [
         {
           "videoId": "8r-YPb_tKlM",
@@ -136,7 +150,7 @@
           "url": "https://www.youtube.com/watch?v=8r-YPb_tKlM",
           "thumbnail": "https://i1.ytimg.com/vi/8r-YPb_tKlM/hqdefault.jpg",
           "publishedAt": "2026-07-17T10:00:12+00:00",
-          "updatedAt": "2026-07-19T10:54:00+00:00",
+          "updatedAt": "2026-07-19T11:40:34+00:00",
           "videoType": "video"
         },
         {
@@ -238,7 +252,8 @@
           "updatedAt": "2026-07-01T21:58:31+00:00",
           "videoType": "short"
         }
-      ]
+      ],
+      "syncError": "通常動画タブの取得に失敗しました：/usr/bin/python: No module named yt_dlp / ショートタブの取得に失敗しました：/usr/bin/python: No module named yt_dlp / ライブタブの取得に失敗しました：/usr/bin/python: No module named yt_dlp"
     }
   ]
 }
