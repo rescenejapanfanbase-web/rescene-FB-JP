@@ -1,0 +1,128 @@
+name: Check External Links
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "32 20 * * *"
+
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.html"
+      - "scripts/check-external-links.py"
+      - ".github/workflows/check-external-links.yml"
+      - "EXTERNAL-LINK-CHECK-GUIDE.txt"
+      - "!data/external-link-report.json"
+
+concurrency:
+  group: external-link-check
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check-external-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Check public external links
+        id: linkcheck
+        shell: bash
+        run: |
+          set +e
+          python3 scripts/check-external-links.py \
+            --report data/external-link-report.json \
+            --issue-body .external-link-issue.md \
+            --workers 12 \
+            --fail-on-broken
+          result=$?
+          set -e
+          echo "result=$result" >> "$GITHUB_OUTPUT"
+          if [ "$result" -eq 1 ] || [ "$result" -gt 2 ]; then
+            echo "Unexpected checker exit code: $result" >&2
+            exit "$result"
+          fi
+
+      - name: Upload detailed report
+        uses: actions/upload-artifact@v7
+        with:
+          name: external-link-report-${{ github.run_number }}
+          path: |
+            data/external-link-report.json
+            .external-link-issue.md
+          retention-days: 30
+          if-no-files-found: error
+
+      - name: Commit public report
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/external-link-report.json
+
+          if git diff --cached --quiet; then
+            echo "External link report has not changed."
+            exit 0
+          fi
+
+          git commit -m "chore: update external link report"
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push failed. Replaying the report commit on the latest main ($attempt/3)."
+            git fetch origin main
+            git rebase origin/main
+          done
+
+          echo "Could not push the external link report after 3 attempts." >&2
+          exit 1
+
+      - name: Create or update broken-link Issue
+        if: steps.linkcheck.outputs.result == '2'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_TITLE: "[自動チェック] 外部リンク切れを検出"
+        shell: bash
+        run: |
+          set -euo pipefail
+          existing="$(gh issue list --state open --search "${ISSUE_TITLE} in:title" --json number,title --limit 20 --jq '.[0].number // empty')"
+          if [ -n "$existing" ]; then
+            gh issue edit "$existing" --body-file .external-link-issue.md
+            gh issue comment "$existing" --body "最新の自動チェック結果へ更新しました。Actions run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          else
+            gh issue create --title "$ISSUE_TITLE" --body-file .external-link-issue.md
+          fi
+
+      - name: Close resolved broken-link Issue
+        if: steps.linkcheck.outputs.result == '0'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_TITLE: "[自動チェック] 外部リンク切れを検出"
+        shell: bash
+        run: |
+          set -euo pipefail
+          existing="$(gh issue list --state open --search "${ISSUE_TITLE} in:title" --json number,title --limit 20 --jq '.[0].number // empty')"
+          if [ -n "$existing" ]; then
+            gh issue close "$existing" --comment "外部リンク切れが0件になったため、自動で閉じます。"
+          fi
+
+      - name: Fail when definite broken links exist
+        if: steps.linkcheck.outputs.result == '2'
+        run: |
+          echo "Definite broken external links were found. Check the report and GitHub Issue." >&2
+          exit 1
