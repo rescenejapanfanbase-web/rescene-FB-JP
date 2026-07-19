@@ -13,3 +13,10 @@ RESCENE JAPAN FANBASE 修正版
 2026-07-19 cumulative corrections:
 - About/member/schedule/news/discography/streaming/voting/chants/official-links updated.
 - News manual seed updated so Notion sync preserves corrections.
+
+2026-07-19 同期状況管理ページ追加:
+- sync-status.html を追加
+- スケジュール・ニュース・YouTube・サイト内チェックの最新GitHub Actions結果を表示
+- 公開データの件数とデータ変更日時を表示
+- 手動実行先、最新ログ、管理リンクを集約
+- 全ページのフッターに SYNC STATUS リンクを追加
