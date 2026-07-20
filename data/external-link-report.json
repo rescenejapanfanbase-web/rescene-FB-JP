@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T12:16:49Z",
-  "startedAt": "2026-07-20T12:16:46Z",
-  "elapsedSeconds": 3.2,
+  "generatedAt": "2026-07-20T13:14:35Z",
+  "startedAt": "2026-07-20T13:14:33Z",
+  "elapsedSeconds": 2.66,
   "summary": {
     "checked": 44,
     "ok": 43,
@@ -130,7 +130,7 @@
       "sources": [
         {
           "file": "data/official-links.json",
-          "line": 90,
+          "line": 96,
           "label": "Facebook"
         }
       ]
@@ -391,7 +391,7 @@
       "sources": [
         {
           "file": "data/official-links.json",
-          "line": 116,
+          "line": 124,
           "label": "Apple Music"
         },
         {
@@ -414,7 +414,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 113,
+          "line": 111,
           "label": "GitHubリポジトリ サイトファイルと更新履歴を確認 ↗"
         }
       ]
@@ -432,7 +432,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 113,
+          "line": 111,
           "label": "GitHub Actions一覧 すべての同期・チェック履歴を確認 ↗"
         }
       ]
@@ -450,7 +450,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 113,
+          "line": 111,
           "label": "バックアップ一覧 保存ZIPの作成履歴とArtifactを確認 ↗"
         }
       ]
@@ -652,7 +652,7 @@
       "sources": [
         {
           "file": "data/official-links.json",
-          "line": 51,
+          "line": 54,
           "label": "Instagram"
         },
         {
@@ -805,7 +805,7 @@
       "sources": [
         {
           "file": "data/official-links.json",
-          "line": 129,
+          "line": 138,
           "label": "Spotify"
         },
         {
@@ -828,7 +828,7 @@
       "sources": [
         {
           "file": "data/official-links.json",
-          "line": 64,
+          "line": 68,
           "label": "TikTok"
         },
         {
@@ -841,7 +841,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784549808208&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784553274369&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -851,7 +851,7 @@
       "sources": [
         {
           "file": "data/official-links.json",
-          "line": 103,
+          "line": 110,
           "label": "Weibo"
         }
       ]
@@ -971,7 +971,7 @@
       "sources": [
         {
           "file": "data/official-links.json",
-          "line": 38,
+          "line": 40,
           "label": "Members X"
         }
       ]
@@ -989,7 +989,7 @@
       "sources": [
         {
           "file": "data/official-links.json",
-          "line": 25,
+          "line": 26,
           "label": "Official X"
         },
         {
@@ -1063,7 +1063,7 @@
       "sources": [
         {
           "file": "data/official-links.json",
-          "line": 77,
+          "line": 82,
           "label": "YouTube"
         },
         {
