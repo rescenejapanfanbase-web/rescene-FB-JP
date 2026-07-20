@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T12:16:22Z",
-  "startedAt": "2026-07-20T12:16:19Z",
-  "elapsedSeconds": 2.96,
+  "generatedAt": "2026-07-20T12:16:49Z",
+  "startedAt": "2026-07-20T12:16:46Z",
+  "elapsedSeconds": 3.2,
   "summary": {
     "checked": 44,
-    "ok": 42,
-    "warning": 2,
+    "ok": 43,
+    "warning": 1,
     "broken": 0,
     "hosts": 14
   },
@@ -14,14 +14,6 @@
     {
       "key": "facebook",
       "label": "Facebook",
-      "checked": 1,
-      "ok": 0,
-      "warning": 1,
-      "broken": 0
-    },
-    {
-      "key": "instagram",
-      "label": "Instagram",
       "checked": 1,
       "ok": 0,
       "warning": 1,
@@ -56,6 +48,14 @@
       "label": "Google Play",
       "checked": 8,
       "ok": 8,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
+      "checked": 1,
+      "ok": 1,
       "warning": 0,
       "broken": 0
     },
@@ -132,29 +132,6 @@
           "file": "data/official-links.json",
           "line": 90,
           "label": "Facebook"
-        }
-      ]
-    },
-    {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "warning",
-      "httpStatus": 429,
-      "message": "HTTP 429（自動確認が制限されています）",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 51,
-          "label": "Instagram"
-        },
-        {
-          "file": "index.html",
-          "line": 666,
-          "label": "Instagram"
         }
       ]
     },
@@ -437,7 +414,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 111,
+          "line": 113,
           "label": "GitHubリポジトリ サイトファイルと更新履歴を確認 ↗"
         }
       ]
@@ -455,7 +432,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 111,
+          "line": 113,
           "label": "GitHub Actions一覧 すべての同期・チェック履歴を確認 ↗"
         }
       ]
@@ -473,7 +450,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 111,
+          "line": 113,
           "label": "バックアップ一覧 保存ZIPの作成履歴とArtifactを確認 ↗"
         }
       ]
@@ -663,6 +640,29 @@
       ]
     },
     {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 51,
+          "label": "Instagram"
+        },
+        {
+          "file": "index.html",
+          "line": 666,
+          "label": "Instagram"
+        }
+      ]
+    },
+    {
       "url": "https://artist.mnetplus.world/main/stg/rescene-official",
       "normalizedUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
       "finalUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
@@ -841,7 +841,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784549781597&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784549808208&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
