@@ -1,13 +1,14 @@
 {
-  "generatedAt": null,
-  "source": "initial",
+  "generatedAt": "2026-07-20T06:12:07.829Z",
+  "source": "notion",
   "dataSourceId": "8e870649-722b-45aa-9b0f-3da6d51b139b",
   "notionDatabaseUrl": "https://app.notion.com/p/db7689f9a5b2445fbe3fb9f7cd9a04de",
   "status": {
     "title": "現在の投票案内",
     "description": "現在、常設で案内しているRESCENE対象の投票はありません。投票が始まり次第、対象番組・期間・締切・投票方法をここに掲載します。",
     "type": "常設案内なし",
-    "lastChecked": "2026年7月"
+    "lastChecked": "2026年7月",
+    "notionUrl": "https://app.notion.com/p/3a3229d219da818e8236e73b0fbad7ce"
   },
   "programs": [
     {
@@ -50,8 +51,9 @@
             "value": "—"
           }
         ],
-        "note": "事前投票：\n金17:00～月10:00\n事前集計：\n音源40%＋音盤20%＋FAN ENGAGEMENT20%＋事前投票20%（100%）\n当日集計：\n事前集計100%＋当日投票20%\n集計元：\n音源はサークルチャート、音盤はハントチャート。\nFAN ENGAGEMENT：\n公式YouTube・SNSのグローバルなファンダム変化や活動接数などを客観的なデータで算出したスコアです。"
-      }
+        "note": "事前投票：金17:00～月10:00\n事前集計：音源40%＋音盤20%＋FAN ENGAGEMENT20%＋事前投票20%（100%）\n当日集計：事前集計100%＋当日投票20%\n集計元：音源はサークルチャート、音盤はハントチャート。\nFAN ENGAGEMENT：公式YouTube・SNSのグローバルなファンダム変化や活動接数などを客観的なデータで算出したスコアです。"
+      },
+      "notionUrl": "https://app.notion.com/p/THE-SHOW-3a3229d219da81c2b616c1a685e28196"
     },
     {
       "title": "SHOW CHAMPION",
@@ -94,7 +96,8 @@
           }
         ],
         "note": ""
-      }
+      },
+      "notionUrl": "https://app.notion.com/p/SHOW-CHAMPION-3a3229d219da813a8ebfd2ce15b83ac0"
     },
     {
       "title": "M COUNTDOWN",
@@ -137,7 +140,8 @@
           }
         ],
         "note": ""
-      }
+      },
+      "notionUrl": "https://app.notion.com/p/M-COUNTDOWN-3a3229d219da81c68e3fe5dba2d758c7"
     },
     {
       "title": "Music Bank",
@@ -180,7 +184,8 @@
           }
         ],
         "note": ""
-      }
+      },
+      "notionUrl": "https://app.notion.com/p/Music-Bank-3a3229d219da81d59800ebc6162b67e9"
     },
     {
       "title": "Show! Music Core",
@@ -223,7 +228,8 @@
           }
         ],
         "note": ""
-      }
+      },
+      "notionUrl": "https://app.notion.com/p/Show-Music-Core-3a3229d219da81c59e07e59e782b0761"
     },
     {
       "title": "Inkigayo",
@@ -238,7 +244,7 @@
       "order": 60,
       "score": {
         "image": "assets/voting/inkigayo-score.png",
-        "meta": "日曜日 / LiNC・HIGHER",
+        "meta": "日曜日 / LiNC",
         "items": [
           {
             "label": "音源",
@@ -266,7 +272,8 @@
           }
         ],
         "note": ""
-      }
+      },
+      "notionUrl": "https://app.notion.com/p/Inkigayo-3a3229d219da813eb2f2ed45167e39d1"
     },
     {
       "title": "Inkigayo",
@@ -281,10 +288,11 @@
       "order": 70,
       "score": {
         "image": "",
-        "meta": "",
+        "meta": "日曜日 / HIGHER",
         "items": [],
         "note": ""
-      }
+      },
+      "notionUrl": "https://app.notion.com/p/Inkigayo-3a3229d219da810faa3cfcc12e2ad843"
     }
   ],
   "apps": [
@@ -319,7 +327,8 @@
         ],
         "note": "無料参加の場合は、毎日の出席チェック・広告視聴・ミッションでFREE GEMを事前に集めてください。"
       },
-      "order": 10
+      "order": 10,
+      "notionUrl": "https://app.notion.com/p/BIGC-3a3229d219da81a1b94bd3f28b09137c"
     },
     {
       "title": "IDOLCHAMP",
@@ -352,7 +361,8 @@
         ],
         "note": "投票前にRESCENEの曲名・アーティスト名・投票締切を確認してください。"
       },
-      "order": 20
+      "order": 20,
+      "notionUrl": "https://app.notion.com/p/IDOLCHAMP-3a3229d219da81d1a640eb6b354e4c8e"
     },
     {
       "title": "Mnet Plus",
@@ -380,7 +390,8 @@
         ],
         "note": "Mnet Plusは投票通貨を集める形式ではありません。事前にアカウントへログインしてください。"
       },
-      "order": 30
+      "order": 30,
+      "notionUrl": "https://app.notion.com/p/Mnet-Plus-3a3229d219da81a4ad35cacc805b9a05"
     },
     {
       "title": "Fancast",
@@ -433,7 +444,8 @@
         ],
         "note": ""
       },
-      "order": 40
+      "order": 40,
+      "notionUrl": "https://app.notion.com/p/Fancast-3a3229d219da81b292d4f08980e33589"
     },
     {
       "title": "Mubeat",
@@ -481,7 +493,8 @@
         ],
         "note": ""
       },
-      "order": 50
+      "order": 50,
+      "notionUrl": "https://app.notion.com/p/Mubeat-3a3229d219da81be9b13c0e253789c5b"
     },
     {
       "title": "LiNC",
@@ -519,7 +532,8 @@
         ],
         "note": ""
       },
-      "order": 60
+      "order": 60,
+      "notionUrl": "https://app.notion.com/p/LiNC-3a3229d219da8188bcf3cce618f98ea9"
     },
     {
       "title": "HIGHER",
@@ -552,7 +566,8 @@
         ],
         "note": "リアルタイム投票は受付時間が短いため、放送前にログインと通信環境を確認してください。"
       },
-      "order": 70
+      "order": 70,
+      "notionUrl": "https://app.notion.com/p/HIGHER-3a3229d219da811e9f3bf59511a422ea"
     },
     {
       "title": "Muniverse",
@@ -585,7 +600,8 @@
         ],
         "note": "MuniverseとPlus Chatは現在の主要番組投票一覧には含めていませんが、今後のイベントや補助アプリとして使う場合に備えて画像を掲載しています。"
       },
-      "order": 80
+      "order": 80,
+      "notionUrl": "https://app.notion.com/p/Muniverse-3a3229d219da81a5b2aae66a5f84981d"
     }
   ]
 }
