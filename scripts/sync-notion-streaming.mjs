@@ -140,15 +140,20 @@ async function convertGuide(page, usedIcons, usedGuides) {
     if (row.title || row.text || image) steps.push({ title: row.title, text: row.text, image });
   }
 
+  const isStationhead = /^Stationhead$/i.test(title);
+  const sanitizeFanText = (value) => String(value || "").replace(/\bNSWER\b/gi, "ファン");
+  const sanitizedSteps = steps.map((step) => ({ ...step, title: sanitizeFanText(step.title), text: sanitizeFanText(step.text) }));
+  const rawLink = propertyText(p["リンクURL"]);
+  const invalidNswerRoom = isStationhead && /stationhead\.com\/c\/nswer/i.test(rawLink);
   return {
     title,
     type: p["種類"]?.select?.name ?? "",
-    subtitle: propertyText(p["サブタイトル"]),
-    description: propertyText(p["説明"]),
-    points: splitLines(propertyText(p["ポイント"])),
-    steps,
-    link: propertyText(p["リンクURL"]),
-    buttonLabel: propertyText(p["ボタン文言"]),
+    subtitle: sanitizeFanText(propertyText(p["サブタイトル"])),
+    description: sanitizeFanText(propertyText(p["説明"])),
+    points: splitLines(propertyText(p["ポイント"])).map(sanitizeFanText),
+    steps: sanitizedSteps,
+    link: invalidNswerRoom ? "" : rawLink,
+    buttonLabel: invalidNswerRoom ? "" : propertyText(p["ボタン文言"]),
     icon,
     note: propertyText(p["注記"]),
     anchor: propertyText(p["アンカー"]) || `streaming-${slug}`,

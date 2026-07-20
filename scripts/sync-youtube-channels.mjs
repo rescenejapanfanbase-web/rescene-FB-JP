@@ -272,9 +272,13 @@ function mergeVideos(videoGroups) {
   });
 }
 
-function preferredNonLiveType(sourceTypes = []) {
+function typeFromChannelTabs(sourceTypes = [], metadataSaysLive = false) {
+  // YouTubeのチャンネルタブを分類の正とする。
+  // /streams にある動画は、終了済みで live_status が not_live でも「ライブ」のまま扱う。
+  if (sourceTypes.includes("live")) return "live";
   if (sourceTypes.includes("short")) return "short";
-  return "video";
+  if (sourceTypes.includes("video")) return "video";
+  return metadataSaysLive ? "live" : "video";
 }
 
 function shouldRefreshLiveMetadata(previousVideo) {
@@ -441,10 +445,11 @@ async function verifyVideoMetadata(videos, previousVideoMap, channelLabel) {
     if (!metadata) return video;
 
     const canonicalId = videoIdFromEntry(metadata) || video.videoId;
-    const actualLive = isActualLive(metadata);
+    const metadataSaysLive = isActualLive(metadata);
+    const nextType = typeFromChannelTabs(video.sourceTypes, metadataSaysLive);
+    const actualLive = nextType === "live";
     const liveStatus = String(metadata.live_status || (metadata.was_live ? "was_live" : "not_live")).toLowerCase();
     const publishedAt = exactPublishedDate(metadata, actualLive) || video.publishedAt;
-    const nextType = actualLive ? "live" : preferredNonLiveType(video.sourceTypes);
 
     if (publishedAt && publishedAt !== video.publishedAt) correctedDates += 1;
     if (nextType !== video.videoType) correctedTypes += 1;

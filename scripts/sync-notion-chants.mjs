@@ -72,15 +72,20 @@ async function convertPage(page) {
   if (!title) return null;
   const anchor = safeAnchor(propertyText(properties["アンカー"]), title, page.id);
   const slug = anchor.replace(/^chant-/, "") || safeSlug(title, page.id);
-  const categoryTitle = propertyText(properties["カテゴリー"]) || "その他";
-  const categoryKey = safeKey(propertyText(properties["カテゴリースラッグ"]), categoryTitle, page.id);
+  const rawCategoryTitle = propertyText(properties["カテゴリー"]) || "その他";
+  const rawAlbum = propertyText(properties["作品名"]) || rawCategoryTitle;
+  const isJapaneseVersion = /^(?:Japanese\s+Single|Pinball\s+Japanese\s+Ver\.?|JAPANESE\s+VERSION)$/i.test(rawCategoryTitle)
+    || /^(?:Japanese\s+Single|JAPANESE\s+VERSION)$/i.test(rawAlbum)
+    || /Pinball\s+Japanese\s+Ver\.?/i.test(title);
+  const categoryTitle = isJapaneseVersion ? "JAPANESE VERSION" : rawCategoryTitle;
+  const categoryKey = isJapaneseVersion ? "japanese-version" : safeKey(propertyText(properties["カテゴリースラッグ"]), categoryTitle, page.id);
   const uploaded = notionFile(properties["掛け声画像"]);
   const localImage = propertyText(properties["画像パス"]);
   const image = uploaded?.url ? await saveImage(uploaded, slug) : localImage;
   const videoType = properties["動画区分"]?.select?.name || (properties["動画URL"]?.url ? "公式" : "なし");
   return {
     anchor, slug, title,
-    album: propertyText(properties["作品名"]) || categoryTitle,
+    album: isJapaneseVersion ? "JAPANESE VERSION" : rawAlbum,
     categoryKey, categoryTitle,
     categoryOrder: properties["カテゴリー表示順"]?.number ?? 9999,
     image,

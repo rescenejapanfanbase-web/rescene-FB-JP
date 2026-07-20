@@ -1,0 +1,9 @@
+RESCENE JAPAN FANBASE 分類・表記修正
+
+- 掛け声ガイドのPinball Japanese Ver.カテゴリーをJAPANESE VERSIONへ統一
+- カテゴリー内部キーをjapanese-versionへ統一
+- YouTubeは公式チャンネルの動画・ショート・ライブ各タブを分類の正とする
+- ライブタブ掲載動画は終了済みでもライブに分類
+- MV自動追加からティザー、リアクション、鑑賞、メイキング、ビハインド等を除外
+- MVの自動追加対象を完成版OFFICIAL MV / OST MVに限定
+- ストリーミングガイドから誤って混入したNSWER表記と専用ルームリンクを削除

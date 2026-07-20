@@ -113,8 +113,14 @@ function dateInTokyo(value) {
   return `${map.year}-${map.month}-${map.day}`;
 }
 
+function isNonMvCompanionVideo(title = "") {
+  const value = String(title).normalize("NFKC");
+  return /(?:TEASER|TRAILER|PREVIEW|HIGHLIGHT\s+MEDLEY|SPOILER|REACTION|REACTS?|REVIEW|COMMENTARY|MAKING|BEHIND(?:\s+THE\s+SCENES)?|DANCE\s+PRACTICE|CHALLENGE|리액션|감상|鑑賞|リアクション|ティザー|メイキング|ビハインド|촬영|메이킹)/i.test(value);
+}
+
 function classifyTitle(title = "") {
   const value = String(title).normalize("NFKC");
+  if (isNonMvCompanionVideo(value)) return "";
   if (/\bOST\b/i.test(value) && /(M\/?V|MUSIC\s*VIDEO|VIDEO|CLIP|뮤직비디오)/i.test(value)) return "OST MV";
   if (/THE\s+FILM/i.test(value)) return "THE FILM";
   if (/SPECIAL\s+CLIP/i.test(value)) return "SPECIAL CLIP";
@@ -187,7 +193,8 @@ function convertPage(page) {
 function sourceCandidate(video) {
   if (!video || video.videoType === "short" || video.videoType === "live") return null;
   const kind = classifyTitle(video.title);
-  if (!kind) return null;
+  // 自動追加は完成版の公式MV／OST MVだけ。SPECIAL VIDEO等はNotionで明示管理する。
+  if (!["OFFICIAL MV", "OST MV"].includes(kind)) return null;
   const date = dateInTokyo(video.publishedAt || video.updatedAt);
   return {
     videoId: video.videoId,
