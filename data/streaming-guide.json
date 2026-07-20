@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-20T00:00:00.000Z",
-  "source": "initial",
+  "generatedAt": "2026-07-20T06:40:12.926Z",
+  "source": "notion",
   "dataSourceId": "c769b3a6-e306-4665-84c7-dcfff92cfe5b",
   "notionDatabaseUrl": "https://app.notion.com/p/a0180c81202a46b780f0045abfd0f00e",
   "guides": [
@@ -32,7 +32,7 @@
       "note": "",
       "anchor": "streaming-youtube",
       "order": 10,
-      "notionUrl": "https://app.notion.com/p/3a3229d219da8156827bd834ec9cc4d6"
+      "notionUrl": "https://app.notion.com/p/YouTube-3a3229d219da8156827bd834ec9cc4d6"
     },
     {
       "title": "Spotify",
@@ -62,7 +62,7 @@
       "note": "",
       "anchor": "streaming-spotify",
       "order": 20,
-      "notionUrl": "https://app.notion.com/p/3a3229d219da816dab53faa14702edf6"
+      "notionUrl": "https://app.notion.com/p/Spotify-3a3229d219da816dab53faa14702edf6"
     },
     {
       "title": "Apple Music",
@@ -92,7 +92,7 @@
       "note": "",
       "anchor": "streaming-apple-music",
       "order": 30,
-      "notionUrl": "https://app.notion.com/p/3a3229d219da8118bf3fdf91a4245afb"
+      "notionUrl": "https://app.notion.com/p/Apple-Music-3a3229d219da8118bf3fdf91a4245afb"
     },
     {
       "title": "Stationhead",
@@ -122,7 +122,7 @@
       "note": "",
       "anchor": "streaming-stationhead",
       "order": 40,
-      "notionUrl": "https://app.notion.com/p/3a3229d219da81548311eac0e0abd20b"
+      "notionUrl": "https://app.notion.com/p/Stationhead-3a3229d219da81548311eac0e0abd20b"
     },
     {
       "title": "TikTok",
@@ -157,7 +157,7 @@
       "note": "",
       "anchor": "streaming-tiktok",
       "order": 50,
-      "notionUrl": "https://app.notion.com/p/3a3229d219da81c9a3abc133e32dd996"
+      "notionUrl": "https://app.notion.com/p/TikTok-3a3229d219da81c9a3abc133e32dd996"
     },
     {
       "title": "Duck AD",
@@ -192,7 +192,7 @@
       "note": "対象サービス、回数、投票券の有効期限はイベントごとに変わるため、アプリ内の最新案内を確認してください。",
       "anchor": "streaming-duck-ad",
       "order": 60,
-      "notionUrl": "https://app.notion.com/p/3a3229d219da814fb7b6d76fd1f8ce15"
+      "notionUrl": "https://app.notion.com/p/Duck-AD-3a3229d219da814fb7b6d76fd1f8ce15"
     }
   ]
 }
