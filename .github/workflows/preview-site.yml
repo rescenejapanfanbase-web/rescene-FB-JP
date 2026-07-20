@@ -37,7 +37,7 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Run quality gate
-        run: ./scripts/run-prepublish-checks.sh
+        run: bash ./scripts/run-prepublish-checks.sh
 
       - name: Render responsive screenshots
         run: python scripts/visual-smoke.py

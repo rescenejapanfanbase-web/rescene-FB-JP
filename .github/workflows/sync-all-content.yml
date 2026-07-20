@@ -66,7 +66,7 @@ jobs:
             git fetch origin "${branch}"
             git reset --hard "origin/${branch}"
 
-            ./scripts/sync-all-content.sh
+            bash ./scripts/sync-all-content.sh
 
             if git diff --quiet && test -z "$(git status --porcelain)"; then
               echo "公開内容に変更はありません。"
