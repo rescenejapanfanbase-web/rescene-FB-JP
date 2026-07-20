@@ -1,11 +1,11 @@
 window.RESCENE_HOMEPAGE = {
-  "generatedAt": "2026-07-20T20:43:46.151Z",
+  "generatedAt": "2026-07-20T21:54:03.401Z",
   "source": "notion",
   "dataSourceId": "1a98fbc6-21d6-4a11-8ed9-19b228250182",
   "notionDatabaseUrl": "https://app.notion.com/p/23afd46c4c68443d89de65c74f605d68",
   "items": [
     {
-      "slug": "home-0d0656b9",
+      "slug": "home-settings",
       "title": "ホームページ設定",
       "type": "ページ設定",
       "englishLabel": "HOME",
@@ -29,7 +29,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da816a89a2ebda0d0656b9"
     },
     {
-      "slug": "home-fda70b46",
+      "slug": "hero",
       "title": "ホームヒーロー",
       "type": "ヒーロー",
       "englishLabel": "RESCENE JAPANESE FANBASE / FOR REMINE",
@@ -53,7 +53,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da81389cf5f02dfda70b46"
     },
     {
-      "slug": "home-d6d3da99",
+      "slug": "latest",
       "title": "最新情報まとめ",
       "type": "セクション見出し",
       "englishLabel": "NOW ON RESCENE",
@@ -77,7 +77,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da81cd950beaa7d6d3da99"
     },
     {
-      "slug": "home-914cf438",
+      "slug": "quick-heading",
       "title": "まず見るページ",
       "type": "セクション見出し",
       "englishLabel": "QUICK ACCESS",
@@ -101,7 +101,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da81119402e4ff914cf438"
     },
     {
-      "slug": "home-ea03fd87",
+      "slug": "quick-news",
       "title": "ニュース",
       "type": "クイックアクセス",
       "englishLabel": "",
@@ -125,7 +125,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da816ebb6ad18aea03fd87"
     },
     {
-      "slug": "home-ce8fd556",
+      "slug": "quick-schedule",
       "title": "スケジュール",
       "type": "クイックアクセス",
       "englishLabel": "",
@@ -149,7 +149,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da81f6a67cc5d9ce8fd556"
     },
     {
-      "slug": "home-9bd21d84",
+      "slug": "quick-streaming",
       "title": "ストリーミング",
       "type": "クイックアクセス",
       "englishLabel": "",
@@ -173,7 +173,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da8155bb53cd5f9bd21d84"
     },
     {
-      "slug": "home-fe39d017",
+      "slug": "quick-voting",
       "title": "投票ガイド",
       "type": "クイックアクセス",
       "englishLabel": "",
@@ -197,7 +197,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da81c3abb3c7c8fe39d017"
     },
     {
-      "slug": "rescene",
+      "slug": "about-focus",
       "title": "RESCENE紹介",
       "type": "紹介セクション",
       "englishLabel": "ABOUT",
@@ -221,7 +221,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/RESCENE-3a3229d219da81da91c1c77c3987a475"
     },
     {
-      "slug": "home-85f1eb0b",
+      "slug": "stat-members",
       "title": "メンバー数",
       "type": "統計",
       "englishLabel": "",
@@ -245,7 +245,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da8172b6fccc7285f1eb0b"
     },
     {
-      "slug": "home-360c66d9",
+      "slug": "stat-fandom",
       "title": "ファンダム",
       "type": "統計",
       "englishLabel": "",
@@ -269,7 +269,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da81a396fcddb2360c66d9"
     },
     {
-      "slug": "home-d5500b4a",
+      "slug": "stat-debut",
       "title": "デビュー年",
       "type": "統計",
       "englishLabel": "",
@@ -293,7 +293,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da81589900f84ed5500b4a"
     },
     {
-      "slug": "home-3239b66e",
+      "slug": "routes-heading",
       "title": "初めて来た方へ",
       "type": "セクション見出し",
       "englishLabel": "",
@@ -317,7 +317,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da810fb5f4ee9b3239b66e"
     },
     {
-      "slug": "rescene",
+      "slug": "route-about",
       "title": "RESCENEを知る",
       "type": "初めてガイド",
       "englishLabel": "",
@@ -341,7 +341,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/RESCENE-3a3229d219da816296c9e157c554d289"
     },
     {
-      "slug": "5",
+      "slug": "route-members",
       "title": "5人を知る",
       "type": "初めてガイド",
       "englishLabel": "",
@@ -365,7 +365,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/5-3a3229d219da81cda5d0c98b76c8b294"
     },
     {
-      "slug": "home-043b7fcc",
+      "slug": "route-music",
       "title": "音楽を聴く",
       "type": "初めてガイド",
       "englishLabel": "",
@@ -389,7 +389,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da81c787efda21043b7fcc"
     },
     {
-      "slug": "home-220a2f32",
+      "slug": "route-support",
       "title": "一緒に応援する",
       "type": "初めてガイド",
       "englishLabel": "",
@@ -413,7 +413,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da8116b639c63f220a2f32"
     },
     {
-      "slug": "home-6c51e38d",
+      "slug": "members-heading",
       "title": "メンバーセクション",
       "type": "セクション見出し",
       "englishLabel": "MEMBERS",
@@ -437,7 +437,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da810b97a7e3f86c51e38d"
     },
     {
-      "slug": "home-c35a67ff",
+      "slug": "official-heading",
       "title": "公式リンクセクション",
       "type": "セクション見出し",
       "englishLabel": "OFFICIAL",
@@ -461,7 +461,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da81c693a2e5e7c35a67ff"
     },
     {
-      "slug": "home-87073752",
+      "slug": "footer-main",
       "title": "共通フッター",
       "type": "フッター",
       "englishLabel": "",
@@ -485,7 +485,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da8130af12dafb87073752"
     },
     {
-      "slug": "home-354edfea",
+      "slug": "footer-note",
       "title": "共通フッター注意書き",
       "type": "フッター",
       "englishLabel": "",
@@ -509,7 +509,7 @@ window.RESCENE_HOMEPAGE = {
       "notionUrl": "https://app.notion.com/p/3a3229d219da81878a69dab1354edfea"
     },
     {
-      "slug": "404",
+      "slug": "not-found",
       "title": "404ページ",
       "type": "404",
       "englishLabel": "404",
