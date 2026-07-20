@@ -6,6 +6,13 @@
   const resolveAddress=(value,base)=>Reflect.construct(window['URL'],[value,base]);
   const siteBase=resolveAddress('../',script.src);
   const manifestUrl=resolveAddress('data/image-manifest.json',siteBase);
+  const i18nUrl=resolveAddress('js/i18n.js',siteBase);
+  if(!document.querySelector('script[data-rescene-i18n]')){
+    const languageScript=document.createElement('script');
+    languageScript.src=i18nUrl.href;
+    languageScript.dataset.resceneI18n='true';
+    document.head.appendChild(languageScript);
+  }
   const siteBasePath=decodeURIComponent(siteBase.pathname);
   let manifest=null;
   let observer=null;

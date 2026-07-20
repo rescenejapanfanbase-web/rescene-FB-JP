@@ -61,7 +61,7 @@
   if(Number.isNaN(date.getTime()))return String(value).slice(0,10).replaceAll('-','.');
   return new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'2-digit',day:'2-digit'}).format(date);
  };
- const categoryGroup=category=>({discography:'music',mv:'music',streaming:'guides',voting:'guides',officiallinks:'guides',site:'guides'}[category]||category);
+ const categoryGroup=category=>({discography:'music',mv:'music',streaming:'guides',voting:'guides',officiallinks:'guides',about:'guides',site:'guides'}[category]||category);
  const typeLabel=type=>({short:'SHORT',live:'LIVE',video:'VIDEO'}[type]||'VIDEO');
  const normalizeEntry=(entry,index)=>{
   const safe={
@@ -128,6 +128,12 @@
   image:item.icon||'',external:/^https?:\/\//i.test(item.url||''),priority:70,
  }));
 
+ const aboutEntries=data=>(Array.isArray(data?.items)?data.items:[]).filter(item=>item?.type!=='ページ設定').map((item,index)=>({
+  id:`about-${item.slug||index}`,category:'about',categoryLabel:item.englishLabel||item.type||'ABOUT RESCENE',title:item.heading||item.value||item.title||'RESCENEについて',
+  summary:item.description||item.note||'',url:`about.html${item.anchor?`#${item.anchor}`:''}`,keywords:`${item.type||''} ${item.englishLabel||''} ${item.value||''} RESCENE グループ 紹介 コンセプト デビュー REMINE`,
+  image:item.image||'',date:item.date||'',priority:77,
+ }));
+
  const votingEntries=data=>{
   const programs=(Array.isArray(data?.programs)?data.programs:[]).map((item,index)=>({
    id:`voting-program-${index}`,category:'voting',categoryLabel:'VOTING PROGRAM',title:item.title||'音楽番組',summary:`${item.subtitle||''} ${item.voteType||''}。使用アプリ：${item.app||'未設定'}。${item.note||''}`,
@@ -158,6 +164,7 @@
    ['ストリーミングガイド',()=>fetchJson('data/streaming-guide.json')],
    ['メンバー',()=>fetchJson('data/members.json')],
    ['公式リンク',()=>fetchJson('data/official-links.json')],
+   ['About',()=>fetchJson('data/about.json')],
   ];
   const settled=await Promise.allSettled(requests.map(([,loader])=>loader()));
   let entries=[];
@@ -175,6 +182,7 @@
    if(index===8){entries=entries.filter(entry=>entry.category!=='streaming'||entry.url==='streaming.html');entries.push(...streamingEntries(result.value));}
    if(index===9){entries=entries.filter(entry=>entry.category!=='members'||entry.url==='members.html');entries.push(...memberEntries(result.value));}
    if(index===10){entries=entries.filter(entry=>entry.category!=='officiallinks');entries.push(...officialLinkEntries(result.value));}
+   if(index===11)entries.push(...aboutEntries(result.value));
   });
   const seen=new Set();
   allEntries=entries.map(normalizeEntry).filter(entry=>{

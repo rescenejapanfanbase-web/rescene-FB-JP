@@ -1,0 +1,11 @@
+RESCENEサイト 更新内容
+
+・Aboutページを現在のデザインのままNotion管理へ移行
+・ハンバーガーメニュー内にLanguage（JP / KR / ENG）を追加
+・対応ブラウザでは日本語から韓国語・英語へページ内容を翻訳
+・YouTubeの動画／ショートバッジをライトモードでも読みやすく修正
+・ディスコグラフィ17作品のApple Music／Spotify URLをNotionへ復旧
+・Notion側のURLが一時的に空欄でも既存公開リンクを保持する安全策を追加
+
+AboutデータソースID
+ea6db3e1-e0ad-4441-9b7f-c41a739b92bd

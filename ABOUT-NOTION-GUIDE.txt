@@ -1,0 +1,19 @@
+RESCENE Aboutページ Notion管理ガイド
+
+Notion管理ページ:
+https://app.notion.com/p/233f65d59c4347188049afdeda030c80
+
+データソースID:
+ea6db3e1-e0ad-4441-9b7f-c41a739b92bd
+
+任意のActions Variable:
+NOTION_ABOUT_DATA_SOURCE_ID
+
+初回設定:
+1. NotionのAboutページ管理を開く
+2. 右上の「…」→「接続」
+3. RESCENE Schedule Syncを接続
+4. GitHub Actionsで「Sync Notion About Page」を実行
+
+現在のデザインは変更せず、既存の各表示箇所へNotionの内容を反映します。
+メンバー欄は「RESCENE メンバープロフィール管理」のデータを共通利用します。

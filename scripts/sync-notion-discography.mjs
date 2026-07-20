@@ -135,7 +135,7 @@ async function saveCover(file, slug) {
   return path.replaceAll("\\", "/");
 }
 
-async function convertPage(page) {
+async function convertPage(page, previousByAnchor, previousByTitle) {
   const properties = page.properties ?? {};
   const title = propertyText(properties["タイトル"]);
   const releaseDate = properties["発売日"]?.date?.start?.slice(0, 10) ?? "";
@@ -143,6 +143,7 @@ async function convertPage(page) {
   const categoryName = properties["カテゴリー"]?.select?.name ?? "スペシャル／デジタル";
   const category = categoryMap[categoryName] ?? "special";
   const anchor = safeAnchor(propertyText(properties["アンカー"]), title, page.id);
+  const previousRelease = previousByAnchor.get(anchor) ?? previousByTitle.get(title) ?? null;
   const slug = anchor.replace(/^release-/, "") || safeSlug(title, page.id);
   const localImage = propertyText(properties["画像パス"]);
   const uploaded = notionFile(properties["ジャケット"]);
@@ -160,8 +161,8 @@ async function convertPage(page) {
     type: propertyText(properties["表示タイプ"]) || categoryName,
     description: propertyText(properties["説明"]),
     tracks: parseTracks(propertyText(properties["曲一覧"])),
-    appleMusic: properties["Apple Music"]?.url ?? "",
-    spotify: properties["Spotify"]?.url ?? "",
+    appleMusic: properties["Apple Music"]?.url || previousRelease?.appleMusic || "",
+    spotify: properties["Spotify"]?.url || previousRelease?.spotify || "",
     cover,
     order: properties["表示順"]?.number ?? 9999,
     published: true,
@@ -174,10 +175,15 @@ async function readJson(path, fallback) {
   try { return JSON.parse(await readFile(path, "utf8")); } catch { return fallback; }
 }
 
+const previous = await readJson("data/discography.json", {});
+const previousReleases = Array.isArray(previous.releases) ? previous.releases : [];
+const previousByAnchor = new Map(previousReleases.filter((item) => item?.anchor).map((item) => [item.anchor, item]));
+const previousByTitle = new Map(previousReleases.filter((item) => item?.title).map((item) => [item.title, item]));
+
 const pages = await queryAllPages();
 const converted = [];
 for (const page of pages) {
-  const release = await convertPage(page);
+  const release = await convertPage(page, previousByAnchor, previousByTitle);
   if (release) converted.push(release);
 }
 const categoryOrder = Object.fromEntries(categories.map((category, index) => [category.key, index]));
@@ -196,7 +202,6 @@ for (const name of await readdir(coverDirectory).catch(() => [])) {
   if (!usedCovers.has(path)) await unlink(path).catch(() => {});
 }
 
-const previous = await readJson("data/discography.json", {});
 const comparablePrevious = { categories: previous.categories ?? [], releases: previous.releases ?? [] };
 const comparableNext = { categories, releases };
 const changed = JSON.stringify(comparablePrevious) !== JSON.stringify(comparableNext);
