@@ -1,16 +1,24 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T00:14:53Z",
-  "startedAt": "2026-07-20T00:14:50Z",
-  "elapsedSeconds": 2.47,
+  "generatedAt": "2026-07-20T00:50:31Z",
+  "startedAt": "2026-07-20T00:50:27Z",
+  "elapsedSeconds": 3.68,
   "summary": {
     "checked": 104,
-    "ok": 104,
-    "warning": 0,
+    "ok": 103,
+    "warning": 1,
     "broken": 0,
     "hosts": 12
   },
   "services": [
+    {
+      "key": "instagram",
+      "label": "Instagram",
+      "checked": 1,
+      "ok": 0,
+      "warning": 1,
+      "broken": 0
+    },
     {
       "key": "app-store",
       "label": "App Store",
@@ -40,14 +48,6 @@
       "label": "Google Play",
       "checked": 8,
       "ok": 8,
-      "warning": 0,
-      "broken": 0
-    },
-    {
-      "key": "instagram",
-      "label": "Instagram",
-      "checked": 1,
-      "ok": 1,
       "warning": 0,
       "broken": 0
     },
@@ -102,6 +102,29 @@
   ],
   "items": [
     {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "warning",
+      "httpStatus": 429,
+      "message": "HTTP 429（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "index.html",
+          "line": 683,
+          "label": "Instagram"
+        },
+        {
+          "file": "links.html",
+          "line": 472,
+          "label": "Instagram OPEN ↗"
+        }
+      ]
+    },
+    {
       "url": "https://apps.apple.com/app/id1185735018",
       "normalizedUrl": "https://apps.apple.com/app/id1185735018",
       "finalUrl": "https://apps.apple.com/app/id1185735018",
@@ -155,7 +178,7 @@
         },
         {
           "file": "voting.html",
-          "line": 672,
+          "line": 677,
           "label": "App Store ↗"
         }
       ]
@@ -191,7 +214,7 @@
       "sources": [
         {
           "file": "voting.html",
-          "line": 669,
+          "line": 674,
           "label": "App Storeで開く ↗"
         }
       ]
@@ -209,7 +232,7 @@
       "sources": [
         {
           "file": "voting.html",
-          "line": 673,
+          "line": 678,
           "label": "App Store ↗"
         }
       ]
@@ -227,7 +250,7 @@
       "sources": [
         {
           "file": "voting.html",
-          "line": 675,
+          "line": 680,
           "label": "App Store ↗"
         }
       ]
@@ -245,7 +268,7 @@
       "sources": [
         {
           "file": "voting.html",
-          "line": 674,
+          "line": 679,
           "label": "App Store ↗"
         }
       ]
@@ -263,7 +286,7 @@
       "sources": [
         {
           "file": "voting.html",
-          "line": 670,
+          "line": 675,
           "label": "App Store ↗"
         }
       ]
@@ -281,7 +304,7 @@
       "sources": [
         {
           "file": "voting.html",
-          "line": 671,
+          "line": 676,
           "label": "App Store ↗"
         }
       ]
@@ -299,7 +322,7 @@
       "sources": [
         {
           "file": "voting.html",
-          "line": 676,
+          "line": 681,
           "label": "App Storeで開く ↗"
         }
       ]
@@ -700,7 +723,7 @@
       "sources": [
         {
           "file": "voting.html",
-          "line": 672,
+          "line": 677,
           "label": "Google Play ↗"
         }
       ]
@@ -718,7 +741,7 @@
       "sources": [
         {
           "file": "voting.html",
-          "line": 675,
+          "line": 680,
           "label": "Google Play ↗"
         }
       ]
@@ -736,7 +759,7 @@
       "sources": [
         {
           "file": "voting.html",
-          "line": 670,
+          "line": 675,
           "label": "Google Play ↗"
         }
       ]
@@ -754,7 +777,7 @@
       "sources": [
         {
           "file": "voting.html",
-          "line": 676,
+          "line": 681,
           "label": "Google Playで開く ↗"
         }
       ]
@@ -772,7 +795,7 @@
       "sources": [
         {
           "file": "voting.html",
-          "line": 673,
+          "line": 678,
           "label": "Google Play ↗"
         }
       ]
@@ -790,7 +813,7 @@
       "sources": [
         {
           "file": "voting.html",
-          "line": 669,
+          "line": 674,
           "label": "Google Playで開く ↗"
         }
       ]
@@ -808,7 +831,7 @@
       "sources": [
         {
           "file": "voting.html",
-          "line": 674,
+          "line": 679,
           "label": "Google Play ↗"
         }
       ]
@@ -826,31 +849,8 @@
       "sources": [
         {
           "file": "voting.html",
-          "line": 671,
+          "line": 676,
           "label": "Google Play ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "index.html",
-          "line": 683,
-          "label": "Instagram"
-        },
-        {
-          "file": "links.html",
-          "line": 472,
-          "label": "Instagram OPEN ↗"
         }
       ]
     },
@@ -1485,7 +1485,7 @@
         },
         {
           "file": "youtube.html",
-          "line": 102,
+          "line": 107,
           "label": "チャンネルを見る ↗"
         }
       ]
@@ -1518,7 +1518,7 @@
         },
         {
           "file": "youtube.html",
-          "line": 101,
+          "line": 106,
           "label": "チャンネルを見る ↗"
         }
       ]
@@ -1559,7 +1559,7 @@
       "sources": [
         {
           "file": "chants.html",
-          "line": 436,
+          "line": 446,
           "label": "公式掛け声動画を見る ↗"
         }
       ]
@@ -1577,7 +1577,7 @@
       "sources": [
         {
           "file": "chants.html",
-          "line": 436,
+          "line": 446,
           "label": "公式掛け声動画を見る ↗"
         }
       ]
@@ -1595,7 +1595,7 @@
       "sources": [
         {
           "file": "chants.html",
-          "line": 436,
+          "line": 446,
           "label": "公式掛け声動画を見る ↗"
         }
       ]
@@ -1774,7 +1774,7 @@
       "sources": [
         {
           "file": "chants.html",
-          "line": 436,
+          "line": 446,
           "label": "公式掛け声動画を見る ↗"
         }
       ]
@@ -1884,7 +1884,7 @@
       "sources": [
         {
           "file": "chants.html",
-          "line": 436,
+          "line": 446,
           "label": "公式掛け声動画を見る ↗"
         }
       ]
@@ -1902,7 +1902,7 @@
       "sources": [
         {
           "file": "chants.html",
-          "line": 436,
+          "line": 446,
           "label": "公式掛け声動画を見る ↗"
         }
       ]
@@ -1966,7 +1966,7 @@
       "sources": [
         {
           "file": "chants.html",
-          "line": 436,
+          "line": 446,
           "label": "公式掛け声動画を見る ↗"
         }
       ]
@@ -2007,7 +2007,7 @@
       "sources": [
         {
           "file": "chants.html",
-          "line": 436,
+          "line": 446,
           "label": "公式掛け声動画を見る ↗"
         }
       ]
@@ -2025,7 +2025,7 @@
       "sources": [
         {
           "file": "chants.html",
-          "line": 436,
+          "line": 446,
           "label": "公式掛け声動画を見る ↗"
         }
       ]
@@ -2125,7 +2125,7 @@
       "sources": [
         {
           "file": "chants.html",
-          "line": 436,
+          "line": 446,
           "label": "掛け声動画を見る ↗"
         }
       ]
@@ -2143,7 +2143,7 @@
       "sources": [
         {
           "file": "chants.html",
-          "line": 436,
+          "line": 446,
           "label": "掛け声動画を見る ↗"
         }
       ]
