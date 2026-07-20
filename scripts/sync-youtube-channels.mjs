@@ -29,7 +29,7 @@ const channelConfigs = [
 ];
 
 const tabConfigs = [
-  { path: "videos", type: "video", label: "通常動画" },
+  { path: "videos", type: "video", label: "動画" },
   { path: "shorts", type: "short", label: "ショート" },
   { path: "streams", type: "live", label: "ライブ" },
 ];
@@ -161,6 +161,7 @@ function normalizeEntry(entry, videoType, previousVideo) {
     sourceTypes: uniqueTypes(previousVideo?.sourceTypes || [], videoType),
     sourceVideoIds: uniqueVideoIds(previousVideo?.sourceVideoIds || [], previousVideo?.videoId, videoId),
     dateAccuracy: previousExactPublishedAt ? "exact" : (extractedPublishedAt ? "approximate" : (previousVideo?.dateAccuracy || "unknown")),
+    ...(previousVideo?.dateMetadataVerified ? { dateMetadataVerified: true } : {}),
     ...(previousVideo?.liveMetadataVerified ? {
       liveMetadataVerified: true,
       liveStatus: previousVideo.liveStatus,
@@ -351,12 +352,12 @@ async function extractExactVideoMetadata(videos) {
         env: { ...process.env, PYTHONIOENCODING: "utf-8" },
       });
       const parsed = parseJsonLines(result.stdout);
-      console.log(`ライブ詳細日時の確認 ${batchIndex + 1}/${batches.length}: ${parsed.length}/${batch.length}件`);
+      console.log(`動画詳細日時の確認 ${batchIndex + 1}/${batches.length}: ${parsed.length}/${batch.length}件`);
       return parsed;
     } catch (error) {
       const parsed = parseJsonLines(error.stdout || "");
       const reason = String(error.stderr || error.message || "").trim().split("\n").filter(Boolean).at(-1);
-      console.warn(`::warning::ライブ詳細日時の確認 ${batchIndex + 1}/${batches.length}で一部失敗しました（${parsed.length}/${batch.length}件${reason ? ` / ${reason}` : ""}）`);
+      console.warn(`::warning::動画詳細日時の確認 ${batchIndex + 1}/${batches.length}で一部失敗しました（${parsed.length}/${batch.length}件${reason ? ` / ${reason}` : ""}）`);
       return parsed;
     }
   });
@@ -379,6 +380,21 @@ function exactLiveDate(metadata) {
     || null;
 }
 
+function exactPublishedDate(metadata, actualLive) {
+  if (actualLive) return exactLiveDate(metadata);
+  return timestampToIso(metadata?.release_timestamp)
+    || timestampToIso(metadata?.timestamp)
+    || uploadDateToIso(metadata?.release_date)
+    || uploadDateToIso(metadata?.upload_date)
+    || null;
+}
+
+function shouldRefreshVideoMetadata(previousVideo) {
+  if (!previousVideo?.dateMetadataVerified) return true;
+  if (!previousVideo?.liveMetadataVerified) return false;
+  return !terminalLiveStatuses.has(previousVideo.liveStatus);
+}
+
 function isActualLive(metadata) {
   const liveStatus = String(metadata?.live_status || "").toLowerCase();
   if (["is_live", "is_upcoming", "post_live"].includes(liveStatus)) return true;
@@ -386,22 +402,20 @@ function isActualLive(metadata) {
   return metadata?.was_live === true;
 }
 
-async function verifyLiveVideos(videos, previousVideoMap, channelLabel) {
-  const liveCandidates = videos.filter((video) => video.sourceTypes?.includes("live") || video.videoType === "live");
-  if (!liveCandidates.length) return videos;
+async function verifyVideoMetadata(videos, previousVideoMap, channelLabel) {
+  if (!videos.length) return videos;
 
-  const needFetch = liveCandidates.filter((video) => shouldRefreshLiveMetadata(previousVideoMap.get(video.videoId)));
+  const needFetch = videos.filter((video) => shouldRefreshVideoMetadata(previousVideoMap.get(video.videoId)));
   const metadataMap = await extractExactVideoMetadata(needFetch);
   let correctedDates = 0;
   let correctedTypes = 0;
   let reused = 0;
 
   const verified = videos.map((video) => {
-    if (!(video.sourceTypes?.includes("live") || video.videoType === "live")) return video;
-
     const previousVideo = previousVideoMap.get(video.videoId);
     const metadata = metadataMap.get(video.videoId);
-    if (!metadata && previousVideo?.liveMetadataVerified) {
+
+    if (!metadata && previousVideo?.dateMetadataVerified) {
       reused += 1;
       return {
         ...video,
@@ -415,8 +429,11 @@ async function verifyLiveVideos(videos, previousVideoMap, channelLabel) {
         sourceTypes: uniqueTypes(video.sourceTypes || [], previousVideo.sourceTypes || [], previousVideo.videoType),
         sourceVideoIds: uniqueVideoIds(video.sourceVideoIds || [], video.videoId, previousVideo.sourceVideoIds || [], previousVideo.videoId),
         dateAccuracy: previousVideo.dateAccuracy || video.dateAccuracy,
-        liveMetadataVerified: true,
-        liveStatus: previousVideo.liveStatus,
+        dateMetadataVerified: true,
+        ...(previousVideo.liveMetadataVerified ? {
+          liveMetadataVerified: true,
+          liveStatus: previousVideo.liveStatus,
+        } : {}),
       };
     }
     if (!metadata) return video;
@@ -424,7 +441,7 @@ async function verifyLiveVideos(videos, previousVideoMap, channelLabel) {
     const canonicalId = videoIdFromEntry(metadata) || video.videoId;
     const actualLive = isActualLive(metadata);
     const liveStatus = String(metadata.live_status || (metadata.was_live ? "was_live" : "not_live")).toLowerCase();
-    const publishedAt = exactLiveDate(metadata) || video.publishedAt;
+    const publishedAt = exactPublishedDate(metadata, actualLive) || video.publishedAt;
     const nextType = actualLive ? "live" : preferredNonLiveType(video.sourceTypes);
 
     if (publishedAt && publishedAt !== video.publishedAt) correctedDates += 1;
@@ -440,6 +457,7 @@ async function verifyLiveVideos(videos, previousVideoMap, channelLabel) {
       updatedAt: publishedAt || video.updatedAt,
       videoType: nextType,
       dateAccuracy: publishedAt ? "exact" : video.dateAccuracy,
+      dateMetadataVerified: Boolean(publishedAt),
       liveMetadataVerified: true,
       liveStatus,
       sourceTypes: uniqueTypes(video.sourceTypes || [], nextType),
@@ -449,7 +467,7 @@ async function verifyLiveVideos(videos, previousVideoMap, channelLabel) {
 
   const merged = mergeVideos([verified]);
   const removedDuplicates = verified.length - merged.length;
-  console.log(`${channelLabel} / ライブ確認: 対象${liveCandidates.length}件、詳細取得${metadataMap.size}件、日時修正${correctedDates}件、分類修正${correctedTypes}件、再利用${reused}件、重複除去${removedDuplicates}件。`);
+  console.log(`${channelLabel} / 詳細日時確認: 全${videos.length}件、詳細取得${metadataMap.size}件、日時修正${correctedDates}件、分類修正${correctedTypes}件、再利用${reused}件、重複除去${removedDuplicates}件。`);
   return merged;
 }
 
@@ -474,6 +492,7 @@ function enrichWithFeed(videos, feedVideos) {
       videoType: video.videoType,
       sourceTypes: video.sourceTypes,
       dateAccuracy: "exact",
+      dateMetadataVerified: true,
       ...(video.liveMetadataVerified ? {
         liveMetadataVerified: true,
         liveStatus: video.liveStatus,
@@ -552,7 +571,7 @@ for (const config of channelConfigs) {
 
   let finalVideos = mergeVideos(groups);
   if (!finalVideos.length && previousVideos.length) finalVideos = mergeVideos([previousVideos]);
-  finalVideos = await verifyLiveVideos(finalVideos, previousVideoMap, config.label);
+  finalVideos = await verifyVideoMetadata(finalVideos, previousVideoMap, config.label);
 
   let feedUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${config.channelId}`;
   try {
@@ -581,7 +600,7 @@ if (!channels.some((channel) => channel.videos.length)) {
 const candidate = {
   generatedAt: new Date().toISOString(),
   source: "YouTube channel tabs via yt-dlp",
-  collectionMode: "all-public-videos-with-verified-live-metadata",
+  collectionMode: "all-public-videos-with-verified-publish-dates",
   channels,
 };
 

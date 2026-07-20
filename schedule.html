@@ -467,6 +467,11 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 @media(min-width:780px){.calendar-subscribe{grid-template-columns:minmax(0,1fr) auto;align-items:center}.calendar-subscribe-status,.calendar-help{grid-column:1/-1}}
 @media(max-width:600px){.calendar-subscribe{padding:18px}.calendar-subscribe-actions{display:grid;grid-template-columns:1fr}.calendar-subscribe-actions .btn{width:100%}.schedule-actions{display:grid;grid-template-columns:1fr 1fr}.schedule-actions .btn{width:100%;padding:9px 7px;font-size:.65rem}}
 </style>
+
+<style id="schedule-notion-category-style">
+.schedule-category-panel{display:grid;gap:16px}.schedule-category-panel h2{margin:4px 0 6px;font-size:1.25rem}.schedule-category-panel p{margin:0;color:var(--muted);font-size:.84rem}.schedule-category-filters{display:flex;gap:9px;flex-wrap:wrap}.schedule-category-filter{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--border);background:var(--soft-bg);color:var(--text);padding:8px 12px;border-radius:999px;font-size:.72rem;font-weight:900;cursor:pointer}.schedule-category-filter::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--category-color,var(--pink))}.schedule-category-filter.active{background:var(--category-bg,rgba(255,111,174,.16));border-color:var(--category-color,var(--pink));color:var(--category-color,var(--pink))}.calendar-event{background:var(--category-bg,rgba(255,111,174,.14))!important;color:var(--category-color,var(--pink-soft))!important;border-left:3px solid var(--category-color,var(--pink));padding-left:5px}.schedule-category-badge{display:inline-flex;align-items:center;gap:7px;padding:4px 9px;border-radius:999px;border:1px solid var(--category-color,var(--pink));background:var(--category-bg,rgba(255,111,174,.1));color:var(--category-color,var(--pink));font-size:.65rem;font-weight:900;letter-spacing:.04em}.schedule-category-badge::before{content:'';width:7px;height:7px;border-radius:50%;background:currentColor}.schedule-category-field{display:flex;align-items:center;gap:8px;margin:0 0 7px;color:var(--muted);font-size:.7rem;font-weight:800}.schedule-category-field strong{color:var(--text)}
+@media(max-width:600px){.schedule-category-filters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}.schedule-category-filter{flex:0 0 auto}.calendar-event{border-left:0!important;padding-left:0!important}}
+</style>
 </head>
 <body class="">
 <header>
@@ -483,7 +488,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 <a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a>
 </div></div>
 <div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu">
-<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a>
+<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a>
 </div></div>
 <div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
 <a href="links.html">公式リンク</a>
@@ -496,11 +501,11 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 <details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></details>
 <a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
 <details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a></div></details>
-<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a></div></details>
+<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a></div></details>
 <details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details></nav>
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div aria-hidden="true" class="ambient ambient-one"></div><div aria-hidden="true" class="ambient ambient-two"></div>
-<main class="container"><section class="page-header section" id="top"><span class="page-kicker">SCHEDULE</span><h1>スケジュール</h1><p>RESCENEのリリース、出演、記念日、メンバーの誕生日をカレンダーで確認できます。</p></section><section class="section"><div class="calendar-subscribe card"><div class="calendar-subscribe-copy"><span class="section-kicker">CALENDAR SUBSCRIPTION</span><h2>すべての予定をカレンダーで受け取る</h2><p>購読すると、Notionで公開された新しい予定や変更がカレンダーへ反映されます。</p></div><div class="calendar-subscribe-actions"><a class="btn calendar-apple" href="webcal://rescene-fb.jp/data/rescene-schedule.ics">Appleで購読</a><button class="btn calendar-google" id="googleCalendarSubscribe" type="button">Googleで購読</button><a class="btn calendar-copy" href="data/rescene-schedule.ics" download="RESCENE-JAPAN-FANBASE-Schedule.ics">ICSを保存</a></div><p class="calendar-subscribe-status" id="calendarSubscribeStatus" aria-live="polite"></p><p class="calendar-help"><strong>Googleの全予定購読：</strong>購読URLをコピーしてGoogleカレンダーの登録画面を開きます。全予定の購読はPCブラウザで行ってください。各予定の個別追加はスマホでも利用できます。</p></div></section><section class="section"><div class="calendar-shell card"><div class="calendar-toolbar"><button aria-label="前の月" id="prevMonth" type="button">←</button><h2 id="calendarTitle"></h2><button aria-label="次の月" id="nextMonth" type="button">→</button></div><div aria-hidden="true" class="calendar-weekdays"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div><div class="calendar-grid" id="calendarGrid"></div></div></section><section class="section"><div class="section-head"><div><span class="section-kicker">EVENTS</span><h2 class="section-title">登録済みの予定</h2></div></div><div class="schedule-list" id="scheduleEvents"></div></section><section aria-labelledby="weekly-music-show-title" class="section"><div class="section-head"><div><span class="section-kicker">MUSIC SHOW WEEK</span><h2 class="section-title" id="weekly-music-show-title">音楽番組スケジュール</h2></div></div><div class="schedule-image-grid schedule-image-grid-single"><article class="card schedule-photo-card"><figure><img alt="RESCENEの音楽番組週間スケジュール" height="900" loading="lazy" src="schedule/music-show-schedule.png" width="1600"/><figcaption><span class="badge">WEEKLY SCHEDULE</span><h3>音楽番組スケジュール</h3><p>1週間の出演・投票タイミングをまとめた画像です。最新の予定は公式案内もあわせてご確認ください。</p></figcaption></figure></article></div></section></main>
+<main class="container"><section class="page-header section" id="top"><span class="page-kicker">SCHEDULE</span><h1>スケジュール</h1><p>RESCENEのリリース、出演、記念日、メンバーの誕生日をカレンダーで確認できます。</p></section><section class="section"><div class="calendar-subscribe card"><div class="calendar-subscribe-copy"><span class="section-kicker">CALENDAR SUBSCRIPTION</span><h2>すべての予定をカレンダーで受け取る</h2><p>購読すると、Notionで公開された新しい予定や変更がカレンダーへ反映されます。</p></div><div class="calendar-subscribe-actions"><a class="btn calendar-apple" href="webcal://rescene-fb.jp/data/rescene-schedule.ics">Appleで購読</a><button class="btn calendar-google" id="googleCalendarSubscribe" type="button">Googleで購読</button><a class="btn calendar-copy" href="data/rescene-schedule.ics" download="RESCENE-JAPAN-FANBASE-Schedule.ics">ICSを保存</a></div><p class="calendar-subscribe-status" id="calendarSubscribeStatus" aria-live="polite"></p><p class="calendar-help"><strong>Googleの全予定購読：</strong>購読URLをコピーしてGoogleカレンダーの登録画面を開きます。全予定の購読はPCブラウザで行ってください。各予定の個別追加はスマホでも利用できます。</p></div></section><section class="section" aria-labelledby="schedule-category-title"><div class="schedule-category-panel card"><div><span class="section-kicker">CATEGORY</span><h2 id="schedule-category-title">カテゴリー</h2><p>Notionで設定したカテゴリー名をそのまま表示しています。選択するとカレンダーと登録済み予定を絞り込めます。</p></div><div class="schedule-category-filters" id="scheduleCategoryFilters" role="group" aria-label="予定カテゴリー"></div></div></section><section class="section"><div class="calendar-shell card"><div class="calendar-toolbar"><button aria-label="前の月" id="prevMonth" type="button">←</button><h2 id="calendarTitle"></h2><button aria-label="次の月" id="nextMonth" type="button">→</button></div><div aria-hidden="true" class="calendar-weekdays"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div><div class="calendar-grid" id="calendarGrid"></div></div></section><section class="section"><div class="section-head"><div><span class="section-kicker">EVENTS</span><h2 class="section-title">登録済みの予定</h2></div></div><div class="schedule-list" id="scheduleEvents"></div></section><section aria-labelledby="weekly-music-show-title" class="section"><div class="section-head"><div><span class="section-kicker">MUSIC SHOW WEEK</span><h2 class="section-title" id="weekly-music-show-title">音楽番組スケジュール</h2></div></div><div class="schedule-image-grid schedule-image-grid-single"><article class="card schedule-photo-card"><figure><img alt="RESCENEの音楽番組週間スケジュール" height="900" loading="lazy" src="schedule/music-show-schedule.png" width="1600"/><figcaption><span class="badge">WEEKLY SCHEDULE</span><h3>音楽番組スケジュール</h3><p>1週間の出演・投票タイミングをまとめた画像です。最新の予定は公式案内もあわせてご確認ください。</p></figcaption></figure></article></div></section></main>
 <footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year=""></span> RESCENE JAPAN FANBASE</div></footer>
 <script>
 
@@ -538,6 +543,8 @@ html.light-mode .hero-members{color:#9f3a6c!important}
   const grid = document.getElementById("calendarGrid");
   const title = document.getElementById("calendarTitle");
   const list = document.getElementById("scheduleEvents");
+  const categoryFilters = document.getElementById("scheduleCategoryFilters");
+  let activeCategory = "all";
   const prev = document.getElementById("prevMonth");
   const next = document.getElementById("nextMonth");
   if (!grid || !title || !list || !prev || !next) return;
@@ -651,9 +658,40 @@ html.light-mode .hero-members{color:#9f3a6c!important}
     const fmt = new Intl.DateTimeFormat("ja-JP", { timeZone: "Asia/Tokyo", hour: "2-digit", minute: "2-digit" });
     return end ? `${fmt.format(start)}〜${fmt.format(end)}` : fmt.format(start);
   };
-  const badgeLabel = (event) => ({
-    birthday: "BIRTHDAY", release: "RELEASE", record: "RECORD", vote: "VOTE", notice: "NOTICE", event: "EVENT",
-  })[event.type] || String(event.category || "EVENT").toUpperCase();
+  const categoryName = (event) => String(event.category || "イベント").trim() || "イベント";
+  const categoryPalettes = [
+    { bg: "rgba(255,111,174,.15)", color: "#ff9bc7" },
+    { bg: "rgba(182,156,255,.16)", color: "#d7c8ff" },
+    { bg: "rgba(117,191,255,.15)", color: "#b9ddff" },
+    { bg: "rgba(142,227,193,.14)", color: "#b8f3df" },
+    { bg: "rgba(255,190,104,.15)", color: "#ffd2a0" },
+    { bg: "rgba(255,224,139,.14)", color: "#ffe6a8" },
+    { bg: "rgba(115,225,224,.14)", color: "#bdf4f3" },
+    { bg: "rgba(211,211,224,.12)", color: "#dedee9" },
+  ];
+  const knownCategoryPalette = {
+    "Birthday": categoryPalettes[1], "誕生日": categoryPalettes[1],
+    "リリース": categoryPalettes[0],
+    "音楽番組": categoryPalettes[2], "仕事": categoryPalettes[2],
+    "記録": categoryPalettes[3],
+    "イベント": categoryPalettes[4],
+    "投票": categoryPalettes[5],
+    "出演": categoryPalettes[6],
+    "お知らせ": categoryPalettes[7], "その他": categoryPalettes[7],
+    "プライベート": { bg: "rgba(255,139,183,.14)", color: "#ffc1d9" },
+  };
+  const categoryPalette = (category) => {
+    const name = String(category || "イベント");
+    if (knownCategoryPalette[name]) return knownCategoryPalette[name];
+    let hash = 0;
+    for (const char of name) hash = ((hash * 31) + char.codePointAt(0)) >>> 0;
+    return categoryPalettes[hash % categoryPalettes.length];
+  };
+  const categoryStyle = (event) => {
+    const palette = categoryPalette(categoryName(event));
+    return `--category-bg:${palette.bg};--category-color:${palette.color}`;
+  };
+  const matchesActiveCategory = (event) => activeCategory === "all" || categoryName(event) === activeCategory;
 
   const recurringEventsForYear = (year) => {
     const events = recurringBirthdays.map((member) => ({
@@ -698,7 +736,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
     if (!isSameCalendarDate(event, candidate.date)) return false;
     const titleText = String(event.title || "").toUpperCase().replace(/\s+/g, "");
     if (candidate.recurringMember) {
-      return titleText.includes(candidate.recurringMember) && (event.type === "birthday" || String(event.category || "").toLowerCase() === "birthday");
+      return titleText.includes(candidate.recurringMember) && /BIRTHDAY|誕生日/.test(titleText);
     }
     return candidate.recurringAnniversary && /デビュー|ANNIVERSARY/.test(titleText);
   });
@@ -729,10 +767,32 @@ html.light-mode .hero-members{color:#9f3a6c!important}
       ? new Date(nextEvent.date.getFullYear(), nextEvent.date.getMonth(), 1)
       : new Date(today.getFullYear(), today.getMonth(), 1);
 
+  function renderCategoryControls(events) {
+    if (!categoryFilters) return;
+    const counts = new Map();
+    events.forEach((event) => counts.set(categoryName(event), (counts.get(categoryName(event)) || 0) + 1));
+    const names = [...counts.keys()].sort((a, b) => a.localeCompare(b, "ja"));
+    if (activeCategory !== "all" && !counts.has(activeCategory)) activeCategory = "all";
+    const allButton = `<button class="schedule-category-filter${activeCategory === "all" ? " active" : ""}" type="button" data-schedule-category="all" style="--category-bg:rgba(255,255,255,.08);--category-color:var(--text)">すべて <span>${events.length}</span></button>`;
+    categoryFilters.innerHTML = allButton + names.map((name) => {
+      const palette = categoryPalette(name);
+      return `<button class="schedule-category-filter${activeCategory === name ? " active" : ""}" type="button" data-schedule-category="${escapeHtml(name)}" style="--category-bg:${palette.bg};--category-color:${palette.color}">${escapeHtml(name)} <span>${counts.get(name)}</span></button>`;
+    }).join("");
+  }
+
+  categoryFilters?.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-schedule-category]");
+    if (!button) return;
+    activeCategory = button.dataset.scheduleCategory || "all";
+    render();
+  });
+
   function render() {
     const year = view.getFullYear();
     const month = view.getMonth();
     const events = eventsForYears(year - 1, year, year + 1);
+    renderCategoryControls(events);
+    const visibleEvents = events.filter(matchesActiveCategory);
     title.textContent = `${year}年 ${month + 1}月`;
 
     const first = new Date(year, month, 1);
@@ -743,14 +803,14 @@ html.light-mode .hero-members{color:#9f3a6c!important}
       const date = new Date(start);
       date.setDate(start.getDate() + index);
       const key = iso(date);
-      const dayEvents = events.filter((event) => eventDates(event).includes(key));
+      const dayEvents = visibleEvents.filter((event) => eventDates(event).includes(key));
       const cell = document.createElement("div");
       cell.className = `calendar-day${date.getMonth() !== month ? " is-outside" : ""}`;
-      cell.innerHTML = `<time datetime="${key}">${date.getDate()}</time>${dayEvents.map((event) => `<span class="calendar-event ${escapeHtml(event.type || "event")}" title="${escapeHtml(event.title)}">${escapeHtml(event.title)}</span>`).join("")}`;
+      cell.innerHTML = `<time datetime="${key}">${date.getDate()}</time>${dayEvents.map((event) => `<span class="calendar-event" style="${categoryStyle(event)}" title="${escapeHtml(categoryName(event))}｜${escapeHtml(event.title)}">${escapeHtml(event.title)}</span>`).join("")}`;
       grid.appendChild(cell);
     }
 
-    const monthly = events.filter((event) => {
+    const monthly = visibleEvents.filter((event) => {
       const date = toDate(event.date || event.start || "");
       return date && date.getFullYear() === year && date.getMonth() === month;
     });
@@ -773,7 +833,8 @@ html.light-mode .hero-members{color:#9f3a6c!important}
       const description = escapeHtml(event.description || "詳細は公式案内もあわせてご確認ください。").replace(/\n/g, "<br>");
       const isRequested = requestedEventId && String(event.id || "") === requestedEventId;
       const isOpen = isRequested || (autoOpenFirst && index === 0 && !requestedEventId);
-      return `<details class="schedule-row card" id="${eventAnchor(event.id)}" ${isOpen ? "open" : ""}><summary><div class="schedule-date"><strong>${String(date.getMonth() + 1).padStart(2, "0")}.${String(date.getDate()).padStart(2, "0")}</strong><span>${date.toLocaleDateString("ja-JP", { weekday: "short" })}</span></div><div><span class="badge">${escapeHtml(badgeLabel(event))}</span><h2>${escapeHtml(event.title)}</h2><p>${description}</p>${time ? `<span class="schedule-time">${escapeHtml(time)}</span>` : ""}</div></summary><div class="schedule-detail">${imageBlock}<p>${description}</p>${calendarActions}</div></details>`;
+      const category = categoryName(event);
+      return `<details class="schedule-row card" id="${eventAnchor(event.id)}" ${isOpen ? "open" : ""}><summary><div class="schedule-date"><strong>${String(date.getMonth() + 1).padStart(2, "0")}.${String(date.getDate()).padStart(2, "0")}</strong><span>${date.toLocaleDateString("ja-JP", { weekday: "short" })}</span></div><div><div class="schedule-category-field">カテゴリー <span class="schedule-category-badge" style="${categoryStyle(event)}">${escapeHtml(category)}</span></div><h2>${escapeHtml(event.title)}</h2><p>${description}</p>${time ? `<span class="schedule-time">${escapeHtml(time)}</span>` : ""}</div></summary><div class="schedule-detail">${imageBlock}<p>${description}</p>${calendarActions}</div></details>`;
     }).join("");
     if (requestedEventId) requestAnimationFrame(() => document.getElementById(eventAnchor(requestedEventId))?.scrollIntoView({ behavior: "smooth", block: "center" }));
   }

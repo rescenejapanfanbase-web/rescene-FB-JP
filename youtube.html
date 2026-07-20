@@ -66,6 +66,11 @@ try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.
   .logo span{font-size:.88rem}
 }
 </style>
+
+<style id="youtube-nested-filter-style">
+.youtube-filter-group,.youtube-type-panel{display:grid;gap:8px;width:100%}.youtube-filter-label{font-size:.7rem;font-weight:900;letter-spacing:.1em;color:var(--muted)}.youtube-type-panel{padding:14px 16px;border-radius:16px;background:linear-gradient(135deg,rgba(255,111,174,.08),rgba(200,164,255,.07));border:1px solid var(--border)}.youtube-type-panel[hidden]{display:none}.youtube-type-panel .filter.active{background:linear-gradient(135deg,var(--pink),var(--purple));border-color:transparent}
+@media(max-width:719px){.youtube-type-panel{padding:12px}.youtube-filter-label{font-size:.62rem}}
+</style>
 </head>
 <body>
 <header>
@@ -76,7 +81,7 @@ try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.
 <div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></div>
 <a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
 <div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a></div></div>
-<div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a></div></div>
+<div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a></div></div>
 <div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu"><a href="links.html">公式リンク</a></div></div>
 </nav>
 <div class="nav-actions"><a class="search-toggle" href="search.html" aria-label="サイト内検索" title="サイト内検索"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m20.7 19.3-4.2-4.2a7.5 7.5 0 1 0-1.4 1.4l4.2 4.2a1 1 0 0 0 1.4-1.4ZM5 10.5a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0Z"/></svg></a><button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマ切り替え">☾</button><button class="hamburger" id="hamburger" type="button" aria-label="メニューを開く" aria-controls="mobileMenu" aria-expanded="false">☰</button></div>
@@ -87,7 +92,7 @@ try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.
 <details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></details>
 <a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
 <details class="mobile-group" open><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a></div></details>
-<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a></div></details>
+<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a></div></details>
 <details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details>
 </nav>
 <div class="menu-backdrop" id="menuBackdrop"></div>
@@ -106,7 +111,7 @@ try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.
 <section class="section">
 <div class="section-head"><div><span class="section-kicker">ALL PUBLIC VIDEOS</span><h2 class="section-title">投稿動画一覧</h2></div></div>
 <div class="youtube-search-wrap"><label class="sr-only" for="youtubeSearch">動画タイトルを検索</label><input class="youtube-search" id="youtubeSearch" type="search" placeholder="動画タイトルを検索" autocomplete="off"></div>
-<div class="youtube-controls"><div class="youtube-filter-row" role="group" aria-label="チャンネル・動画種類の絞り込み"><button class="filter active" type="button" data-filter="all">すべて</button><button class="filter" type="button" data-filter="rescene">RESCENE Official</button><button class="filter" type="button" data-filter="woni">안녕하세요원이입니다잘부탁드립니다</button><button class="filter" type="button" data-filter="short">ショート</button><button class="filter" type="button" data-filter="video">通常の横動画</button><button class="filter" type="button" data-filter="live">ライブ</button></div><div class="youtube-status" id="youtubeStatus" aria-live="polite">動画一覧を読み込んでいます。</div></div>
+<div class="youtube-controls"><div class="youtube-filter-group"><span class="youtube-filter-label">チャンネル</span><div class="youtube-filter-row" role="group" aria-label="チャンネルの絞り込み"><button class="filter active" type="button" data-channel-filter="all">すべて</button><button class="filter" type="button" data-channel-filter="rescene">RESCENE Official</button><button class="filter" type="button" data-channel-filter="woni">안녕하세요원이입니다잘부탁드립니다</button></div></div><div class="youtube-type-panel" id="youtubeTypePanel" hidden><span class="youtube-filter-label" id="youtubeTypeLabel">動画カテゴリー</span><div class="youtube-filter-row" role="group" aria-label="動画カテゴリーの絞り込み"><button class="filter active" type="button" data-type-filter="all">すべて</button><button class="filter" type="button" data-type-filter="short">ショート</button><button class="filter" type="button" data-type-filter="video">動画</button><button class="filter" type="button" data-type-filter="live">ライブ</button></div></div><div class="youtube-status" id="youtubeStatus" aria-live="polite">動画一覧を読み込んでいます。</div></div>
 <div class="video-grid" id="videoGrid"><div class="card loading-card">YouTubeの公開動画を読み込んでいます。</div></div>
 <div class="video-pager" id="videoPager" hidden><button class="btn btn-secondary load-more-button" id="loadMoreVideos" type="button">さらに24件表示</button></div>
 </section>
@@ -121,20 +126,25 @@ try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.
  const search=document.getElementById('youtubeSearch');
  const pager=document.getElementById('videoPager');
  const loadMore=document.getElementById('loadMoreVideos');
- const buttons=[...document.querySelectorAll('[data-filter]')];
+ const channelButtons=[...document.querySelectorAll('[data-channel-filter]')];
+ const typeButtons=[...document.querySelectorAll('[data-type-filter]')];
+ const typePanel=document.getElementById('youtubeTypePanel');
+ const typeLabelElement=document.getElementById('youtubeTypeLabel');
  let channels=[];
- let active='all';
+ let activeChannel='all';
+ let activeType='all';
  let keyword='';
  let shown=PAGE_SIZE;
  let syncLabel='';
  const escapeHtml=(value='')=>String(value).replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));
- const formatDate=value=>{if(!value)return '';const date=new Date(value);return Number.isNaN(date.getTime())?'':new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'numeric',day:'numeric'}).format(date)};
+ const formatDate=value=>{if(!value)return '';const date=new Date(value);return Number.isNaN(date.getTime())?'':new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',year:'numeric',month:'numeric',day:'numeric'}).format(date)};
  const timestamp=value=>{const time=value?new Date(value).getTime():0;return Number.isFinite(time)?time:0};
  const allVideos=()=>channels.flatMap(channel=>(channel.videos||[]).map(video=>({...video,channelKey:channel.key,channelLabel:channel.label}))).sort((a,b)=>timestamp(b.publishedAt)-timestamp(a.publishedAt));
  const filteredVideos=()=>allVideos().filter(video=>{
-  const matchesFilter=active==='all'||video.channelKey===active||(video.videoType||'video')===active;
+  const matchesChannel=activeChannel==='all'||video.channelKey===activeChannel;
+  const matchesType=activeType==='all'||(video.videoType||'video')===activeType;
   const haystack=`${video.title||''} ${video.channelLabel||''}`.toLocaleLowerCase();
-  return matchesFilter&&(!keyword||haystack.includes(keyword));
+  return matchesChannel&&matchesType&&(!keyword||haystack.includes(keyword));
  });
  const renderLatest=()=>channels.forEach(channel=>{
   const target=document.querySelector(`[data-latest="${channel.key}"]`);
@@ -152,14 +162,33 @@ try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.
    status.textContent=`${syncLabel}${syncLabel?' / ':''}該当0件`;
    return;
   }
-  const typeLabel={short:'SHORTS',video:'通常動画',live:'LIVE'};
-  grid.innerHTML=visible.map(video=>{const type=video.videoType||'video';const dateText=formatDate(video.publishedAt);return `<a class="card video-card" href="${escapeHtml(video.url)}" target="_blank" rel="noopener noreferrer"><div class="video-thumb"><img src="${escapeHtml(video.thumbnail)}" alt="${escapeHtml(video.title)}" loading="lazy" width="480" height="270"><span class="play-mark" aria-hidden="true"></span></div><div class="video-copy"><div class="video-meta"><div class="video-labels"><span class="channel-pill">${escapeHtml(video.channelLabel)}</span><span class="video-type-pill type-${type}">${typeLabel[type]||'通常動画'}</span></div>${dateText?`<time class="video-date" datetime="${escapeHtml(video.publishedAt)}">${dateText}</time>`:''}</div><h3 class="video-title">${escapeHtml(video.title)}</h3><span class="video-open">YouTubeで見る ↗</span></div></a>`}).join('');
+  const typeLabel={short:'ショート',video:'動画',live:'ライブ'};
+  grid.innerHTML=visible.map(video=>{const type=video.videoType||'video';const dateText=formatDate(video.publishedAt);return `<a class="card video-card" href="${escapeHtml(video.url)}" target="_blank" rel="noopener noreferrer"><div class="video-thumb"><img src="${escapeHtml(video.thumbnail)}" alt="${escapeHtml(video.title)}" loading="lazy" width="480" height="270"><span class="play-mark" aria-hidden="true"></span></div><div class="video-copy"><div class="video-meta"><div class="video-labels"><span class="channel-pill">${escapeHtml(video.channelLabel)}</span><span class="video-type-pill type-${type}">${typeLabel[type]||'動画'}</span></div>${dateText?`<time class="video-date" datetime="${escapeHtml(video.publishedAt)}">${dateText}</time>`:''}</div><h3 class="video-title">${escapeHtml(video.title)}</h3><span class="video-open">YouTubeで見る ↗</span></div></a>`}).join('');
   pager.hidden=visible.length>=videos.length;
   loadMore.textContent=`さらに${Math.min(PAGE_SIZE,videos.length-visible.length)}件表示`;
   status.textContent=`${syncLabel}${syncLabel?' / ':''}${videos.length}件中 ${visible.length}件表示`;
  };
  const resetAndRender=()=>{shown=PAGE_SIZE;render()};
- buttons.forEach(button=>button.addEventListener('click',()=>{active=button.dataset.filter;buttons.forEach(item=>item.classList.toggle('active',item===button));resetAndRender()}));
+ const channelNames={rescene:'RESCENE Official',woni:'안녕하세요원이입니다잘부탁드립니다'};
+ const syncTypePanel=()=>{
+  const show=activeChannel!=='all';
+  if(typePanel) typePanel.hidden=!show;
+  if(typeLabelElement&&show) typeLabelElement.textContent=`${channelNames[activeChannel]||'選択中のチャンネル'}のカテゴリー`;
+ };
+ channelButtons.forEach(button=>button.addEventListener('click',()=>{
+  activeChannel=button.dataset.channelFilter||'all';
+  channelButtons.forEach(item=>item.classList.toggle('active',item===button));
+  activeType='all';
+  typeButtons.forEach(item=>item.classList.toggle('active',item.dataset.typeFilter==='all'));
+  syncTypePanel();
+  resetAndRender();
+ }));
+ typeButtons.forEach(button=>button.addEventListener('click',()=>{
+  activeType=button.dataset.typeFilter||'all';
+  typeButtons.forEach(item=>item.classList.toggle('active',item===button));
+  resetAndRender();
+ }));
+ syncTypePanel();
  search?.addEventListener('input',()=>{keyword=search.value.trim().toLocaleLowerCase();resetAndRender()});
  loadMore?.addEventListener('click',()=>{shown+=PAGE_SIZE;render()});
  fetch(`data/youtube-channels.json?v=${Date.now()}`,{cache:'no-store'}).then(response=>{if(!response.ok)throw new Error(`HTTP ${response.status}`);return response.json()}).then(data=>{

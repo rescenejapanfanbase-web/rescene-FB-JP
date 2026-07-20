@@ -76,7 +76,11 @@ function convertPage(page) {
   const date = properties["日付"]?.date;
   if (!title || !date?.start) return null;
 
-  const category = properties["カテゴリー"]?.select?.name ?? "イベント";
+  const categoryProperty = properties["カテゴリー"] ?? {};
+  const category = categoryProperty.select?.name
+    ?? categoryProperty.status?.name
+    ?? categoryProperty.multi_select?.[0]?.name
+    ?? "イベント";
   const summary = plainText(properties["テキスト"]?.rich_text);
   const memo = plainText(properties["メモ"]?.rich_text);
   const description = [...new Set([summary, memo].filter(Boolean))].join("\n");
@@ -93,7 +97,12 @@ function convertPage(page) {
     start: date.start,
     end: date.end ?? "",
     category,
-    type: categoryType[category] ?? "event",
+    type: /誕生日|birthday/i.test(`${category} ${title}`) ? "birthday"
+      : categoryType[category]
+        ?? (/リリース|release/i.test(category) ? "release"
+          : /投票|vote/i.test(category) ? "vote"
+            : /記録|record|anniversary/i.test(category) ? "record"
+              : /お知らせ|notice/i.test(category) ? "notice" : "event"),
     description,
     link,
     linkLabel,
