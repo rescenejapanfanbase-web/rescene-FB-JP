@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T04:39:37.182Z",
+  "generatedAt": "2026-07-20T04:56:41.533Z",
   "source": "git-history",
   "guides": [
     {
@@ -8,8 +8,17 @@
       "summary": "楽曲ごとの掛け声をサムネイルからすぐに開けます。",
       "url": "chants.html",
       "category": "FANCHANT",
-      "updatedAt": "2026-07-20T13:39:25+09:00",
-      "commit": "aba83b5"
+      "updatedAt": "2026-07-20T13:55:33+09:00",
+      "commit": "3475756"
+    },
+    {
+      "key": "youtube",
+      "title": "YouTube一覧",
+      "summary": "公式・ウォニチャンネルの動画、ショート、ライブを横断して確認できます。",
+      "url": "youtube.html",
+      "category": "YOUTUBE",
+      "updatedAt": "2026-07-20T13:55:33+09:00",
+      "commit": "3475756"
     },
     {
       "key": "discography",
@@ -35,15 +44,6 @@
       "summary": "YouTube、Spotify、Apple Musicなどの応援方法をまとめています。",
       "url": "streaming.html",
       "category": "STREAMING",
-      "updatedAt": "2026-07-20T10:25:57+09:00",
-      "commit": "fbfd24d"
-    },
-    {
-      "key": "youtube",
-      "title": "YouTube一覧",
-      "summary": "公式・ウォニチャンネルの動画、ショート、ライブを横断して確認できます。",
-      "url": "youtube.html",
-      "category": "YOUTUBE",
       "updatedAt": "2026-07-20T10:25:57+09:00",
       "commit": "fbfd24d"
     },
