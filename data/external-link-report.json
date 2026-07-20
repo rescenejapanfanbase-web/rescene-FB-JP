@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T23:42:11Z",
-  "startedAt": "2026-07-19T23:42:07Z",
-  "elapsedSeconds": 3.54,
+  "generatedAt": "2026-07-20T00:14:53Z",
+  "startedAt": "2026-07-20T00:14:50Z",
+  "elapsedSeconds": 2.47,
   "summary": {
     "checked": 104,
-    "ok": 101,
-    "warning": 1,
-    "broken": 2,
+    "ok": 104,
+    "warning": 0,
+    "broken": 0,
     "hosts": 12
   },
   "services": [
@@ -15,16 +15,8 @@
       "key": "app-store",
       "label": "App Store",
       "checked": 11,
-      "ok": 9,
+      "ok": 11,
       "warning": 0,
-      "broken": 2
-    },
-    {
-      "key": "instagram",
-      "label": "Instagram",
-      "checked": 1,
-      "ok": 0,
-      "warning": 1,
       "broken": 0
     },
     {
@@ -48,6 +40,14 @@
       "label": "Google Play",
       "checked": 8,
       "ok": 8,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
+      "checked": 1,
+      "ok": 1,
       "warning": 0,
       "broken": 0
     },
@@ -101,65 +101,6 @@
     }
   ],
   "items": [
-    {
-      "url": "https://apps.apple.com/jp/search?term=BIGC",
-      "normalizedUrl": "https://apps.apple.com/jp/search?term=BIGC",
-      "finalUrl": "https://apps.apple.com/jp/search?term=BIGC",
-      "service": "App Store",
-      "serviceKey": "app-store",
-      "status": "broken",
-      "httpStatus": 404,
-      "message": "HTTP 404（参照先が見つかりません）",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "voting.html",
-          "line": 669,
-          "label": "App Storeで検索 ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://apps.apple.com/jp/search?term=Muniverse",
-      "normalizedUrl": "https://apps.apple.com/jp/search?term=Muniverse",
-      "finalUrl": "https://apps.apple.com/jp/search?term=Muniverse",
-      "service": "App Store",
-      "serviceKey": "app-store",
-      "status": "broken",
-      "httpStatus": 404,
-      "message": "HTTP 404（参照先が見つかりません）",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "voting.html",
-          "line": 676,
-          "label": "App Storeで検索 ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "warning",
-      "httpStatus": 429,
-      "message": "HTTP 429（自動確認が制限されています）",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "index.html",
-          "line": 683,
-          "label": "Instagram"
-        },
-        {
-          "file": "links.html",
-          "line": 472,
-          "label": "Instagram OPEN ↗"
-        }
-      ]
-    },
     {
       "url": "https://apps.apple.com/app/id1185735018",
       "normalizedUrl": "https://apps.apple.com/app/id1185735018",
@@ -234,6 +175,24 @@
           "file": "data/schedule.json",
           "line": 323,
           "label": "人気歌謡 出演"
+        }
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/jp/app/bigc-the-show-vote-bias-live/id1575835045",
+      "normalizedUrl": "https://apps.apple.com/jp/app/bigc-the-show-vote-bias-live/id1575835045",
+      "finalUrl": "https://apps.apple.com/jp/app/bigc-the-show-vote-bias-live/id1575835045",
+      "service": "App Store",
+      "serviceKey": "app-store",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 669,
+          "label": "App Storeで開く ↗"
         }
       ]
     },
@@ -324,6 +283,24 @@
           "file": "voting.html",
           "line": 671,
           "label": "App Store ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/jp/app/muniverse/id6749677921",
+      "normalizedUrl": "https://apps.apple.com/jp/app/muniverse/id6749677921",
+      "finalUrl": "https://apps.apple.com/jp/app/muniverse/id6749677921",
+      "service": "App Store",
+      "serviceKey": "app-store",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 676,
+          "label": "App Storeで開く ↗"
         }
       ]
     },
@@ -765,6 +742,24 @@
       ]
     },
     {
+      "url": "https://play.google.com/store/apps/details?id=com.tnk.muniverse&hl=ja",
+      "normalizedUrl": "https://play.google.com/store/apps/details?id=com.tnk.muniverse&hl=ja",
+      "finalUrl": "https://play.google.com/store/apps/details?id=com.tnk.muniverse&hl=ja",
+      "service": "Google Play",
+      "serviceKey": "google-play",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 676,
+          "label": "Google Playで開く ↗"
+        }
+      ]
+    },
+    {
       "url": "https://play.google.com/store/apps/details?id=com.vlending.apps.mubeat",
       "normalizedUrl": "https://play.google.com/store/apps/details?id=com.vlending.apps.mubeat",
       "finalUrl": "https://play.google.com/store/apps/details?id=com.vlending.apps.mubeat",
@@ -779,6 +774,24 @@
           "file": "voting.html",
           "line": 673,
           "label": "Google Play ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=im.bigc.lively&hl=ja",
+      "normalizedUrl": "https://play.google.com/store/apps/details?id=im.bigc.lively&hl=ja",
+      "finalUrl": "https://play.google.com/store/apps/details?id=im.bigc.lively&hl=ja",
+      "service": "Google Play",
+      "serviceKey": "google-play",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "voting.html",
+          "line": 669,
+          "label": "Google Playで開く ↗"
         }
       ]
     },
@@ -819,38 +832,25 @@
       ]
     },
     {
-      "url": "https://play.google.com/store/search?q=BIGC&c=apps",
-      "normalizedUrl": "https://play.google.com/store/search?q=BIGC&c=apps",
-      "finalUrl": "https://play.google.com/store/search?q=BIGC&c=apps",
-      "service": "Google Play",
-      "serviceKey": "google-play",
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
       "status": "ok",
       "httpStatus": 200,
       "message": "HTTP 200",
       "method": "http-get",
       "sources": [
         {
-          "file": "voting.html",
-          "line": 669,
-          "label": "Google Playで検索 ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://play.google.com/store/search?q=Muniverse&c=apps",
-      "normalizedUrl": "https://play.google.com/store/search?q=Muniverse&c=apps",
-      "finalUrl": "https://play.google.com/store/search?q=Muniverse&c=apps",
-      "service": "Google Play",
-      "serviceKey": "google-play",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
+          "file": "index.html",
+          "line": 683,
+          "label": "Instagram"
+        },
         {
-          "file": "voting.html",
-          "line": 676,
-          "label": "Google Playで検索 ↗"
+          "file": "links.html",
+          "line": 472,
+          "label": "Instagram OPEN ↗"
         }
       ]
     },
