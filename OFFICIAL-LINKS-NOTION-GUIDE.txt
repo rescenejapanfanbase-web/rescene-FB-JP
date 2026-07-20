@@ -1,0 +1,40 @@
+RESCENE 公式リンク管理（Notion）
+
+管理ページ:
+https://app.notion.com/p/e4ee14f07e8d4ad9aa8ef3f8694620ab
+
+データソースID:
+362c800c-adc2-4586-be84-7b3a427e747d
+
+GitHub Actions Variables（任意）:
+NOTION_OFFICIAL_LINKS_DATA_SOURCE_ID
+
+初回設定:
+1. Notionの「RESCENE 公式リンク管理」を開く
+2. 右上の「…」→「接続」
+3. 既存の「RESCENE Schedule Sync」を追加
+4. GitHub Actionsの「Sync Notion Official Links」を手動実行
+
+主な項目:
+・タイトル: サイトへ表示するリンク名
+・公開: チェックしたリンクだけ掲載
+・カテゴリー: 公式コミュニティ / 公式SNS / 音楽配信
+・カテゴリー表示順: カテゴリーの順番
+・表示順: 同じカテゴリー内の順番
+・URL: 移動先
+・サブタイトル: アカウント名など
+・説明: カード内の説明
+・ラベル: OFFICIAL、VIDEO、STREAMINGなど
+・アイコン: Notionへ直接アップロード
+・アイコンパス: GitHub内の既存画像
+・アイコン文字: 画像がない場合の文字
+・アンカー: 半角英数字の固有名
+
+画像の優先順位:
+Notionの「アイコン」→「アイコンパス」→「アイコン文字」
+
+Notion画像の自動保存先:
+assets/links/notion/
+
+自動同期:
+3時間ごとの19分

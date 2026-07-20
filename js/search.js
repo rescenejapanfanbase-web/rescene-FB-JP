@@ -61,7 +61,7 @@
   if(Number.isNaN(date.getTime()))return String(value).slice(0,10).replaceAll('-','.');
   return new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'2-digit',day:'2-digit'}).format(date);
  };
- const categoryGroup=category=>({discography:'music',mv:'music',streaming:'guides',voting:'guides',site:'guides'}[category]||category);
+ const categoryGroup=category=>({discography:'music',mv:'music',streaming:'guides',voting:'guides',officiallinks:'guides',site:'guides'}[category]||category);
  const typeLabel=type=>({short:'SHORT',live:'LIVE',video:'VIDEO'}[type]||'VIDEO');
  const normalizeEntry=(entry,index)=>{
   const safe={
@@ -122,6 +122,12 @@
   url:`members.html#${item.anchor||`${item.slug||index}-profile`}`,keywords:`${item.koreanName||''} ${item.japaneseName||''} ${item.realName||''} ${item.birthPlace||''} ${item.keywords||''} ${item.colorName||''} メンバー プロフィール`,image:item.previewImage||item.detailImage||'',date:item.birthDate||'',priority:79,
  }));
 
+ const officialLinkEntries=data=>(Array.isArray(data?.links)?data.links:[]).map((item,index)=>({
+  id:`official-link-${item.anchor||index}`,category:'officiallinks',categoryLabel:item.category||'OFFICIAL LINKS',title:item.title||'公式リンク',
+  summary:`${item.subtitle||''}。${item.description||''}`,url:item.url||'links.html',keywords:`${item.category||''} ${item.label||''} ${item.subtitle||''} 公式リンク SNS コミュニティ 音楽配信`,
+  image:item.icon||'',external:/^https?:\/\//i.test(item.url||''),priority:70,
+ }));
+
  const votingEntries=data=>{
   const programs=(Array.isArray(data?.programs)?data.programs:[]).map((item,index)=>({
    id:`voting-program-${index}`,category:'voting',categoryLabel:'VOTING PROGRAM',title:item.title||'音楽番組',summary:`${item.subtitle||''} ${item.voteType||''}。使用アプリ：${item.app||'未設定'}。${item.note||''}`,
@@ -151,6 +157,7 @@
    ['投票ガイド',()=>fetchJson('data/voting-guide.json')],
    ['ストリーミングガイド',()=>fetchJson('data/streaming-guide.json')],
    ['メンバー',()=>fetchJson('data/members.json')],
+   ['公式リンク',()=>fetchJson('data/official-links.json')],
   ];
   const settled=await Promise.allSettled(requests.map(([,loader])=>loader()));
   let entries=[];
@@ -167,6 +174,7 @@
    if(index===7){entries=entries.filter(entry=>entry.category!=='voting'||entry.url==='voting.html');entries.push(...votingEntries(result.value));}
    if(index===8){entries=entries.filter(entry=>entry.category!=='streaming'||entry.url==='streaming.html');entries.push(...streamingEntries(result.value));}
    if(index===9){entries=entries.filter(entry=>entry.category!=='members'||entry.url==='members.html');entries.push(...memberEntries(result.value));}
+   if(index===10){entries=entries.filter(entry=>entry.category!=='officiallinks');entries.push(...officialLinkEntries(result.value));}
   });
   const seen=new Set();
   allEntries=entries.map(normalizeEntry).filter(entry=>{

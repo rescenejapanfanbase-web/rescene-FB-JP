@@ -2,7 +2,7 @@
   'use strict';
 
   const REPOSITORY='rescenejapanfanbase-web/rescene-FB-JP';
-  const API_CACHE_KEY='rescene-sync-status-api-v11';
+  const API_CACHE_KEY='rescene-sync-status-api-v12';
   const API_CACHE_MS=5*60*1000;
   const workflowBase=`https://github.com/${REPOSITORY}/actions/workflows/`;
 
@@ -121,6 +121,17 @@
         const ambassadors=members.filter(item=>item?.ambassador?.title).length;
         const pending=data?.source!=='notion';
         return {count:`${members.length}人`,detail:`プロフィール画像 ${images}件 / 広報大使 ${ambassadors}人`,generatedAt:data?.generatedAt||null,state:pending?'warning':'success',message:pending?'初期データを表示しています。Notionデータベースを既存の連携へ接続し、同期を一度実行してください。':`Notionから公開メンバープロフィール ${members.length}人を読み込みました。`};
+      },
+    },
+    officiallinks:{
+      workflow:'sync-notion-official-links.yml',
+      dataUrl:'data/official-links.json',
+      parseData(data){
+        const links=Array.isArray(data?.links)?data.links:[];
+        const categories=new Set(links.map(item=>item?.category).filter(Boolean)).size;
+        const icons=links.filter(item=>item?.icon).length;
+        const pending=data?.source!=='notion';
+        return {count:`${links.length}件`,detail:`カテゴリー ${categories} / 画像アイコン ${icons}件`,generatedAt:data?.generatedAt||null,state:pending?'warning':'success',message:pending?'初期データを表示しています。Notionデータベースを既存の連携へ接続し、同期を一度実行してください。':`Notionから公開公式リンク ${links.length}件を読み込みました。`};
       },
     },
     homeguides:{

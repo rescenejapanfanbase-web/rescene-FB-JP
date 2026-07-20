@@ -177,6 +177,10 @@ def service_for(url: str) -> tuple[str, str]:
         return "instagram", "Instagram"
     if "tiktok.com" in host:
         return "tiktok", "TikTok"
+    if "facebook.com" in host:
+        return "facebook", "Facebook"
+    if "weibo.com" in host:
+        return "weibo", "Weibo"
     if "naver.com" in host:
         return "naver", "NAVER"
     if "mnetplus.world" in host:
@@ -223,6 +227,7 @@ def collect_json_links(targets: dict[str, LinkTarget]) -> None:
         ROOT / "data" / "schedule.json",
         ROOT / "data" / "voting-guide.json",
         ROOT / "data" / "streaming-guide.json",
+        ROOT / "data" / "official-links.json",
     ]
 
     def walk(value: Any, path: Path, parent: dict[str, Any] | None = None, key: str = "") -> None:
