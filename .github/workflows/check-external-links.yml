@@ -12,6 +12,7 @@ on:
     paths:
       - "**/*.html"
       - "data/voting-guide.json"
+      - "data/streaming-guide.json"
       - "scripts/check-external-links.py"
       - ".github/workflows/check-external-links.yml"
       - "EXTERNAL-LINK-CHECK-GUIDE.txt"
