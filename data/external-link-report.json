@@ -1,16 +1,24 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T01:26:32Z",
-  "startedAt": "2026-07-20T01:26:28Z",
-  "elapsedSeconds": 3.53,
+  "generatedAt": "2026-07-20T02:02:53Z",
+  "startedAt": "2026-07-20T02:02:50Z",
+  "elapsedSeconds": 3.16,
   "summary": {
-    "checked": 104,
-    "ok": 104,
-    "warning": 0,
+    "checked": 68,
+    "ok": 67,
+    "warning": 1,
     "broken": 0,
     "hosts": 12
   },
   "services": [
+    {
+      "key": "instagram",
+      "label": "Instagram",
+      "checked": 1,
+      "ok": 0,
+      "warning": 1,
+      "broken": 0
+    },
     {
       "key": "app-store",
       "label": "App Store",
@@ -22,8 +30,8 @@
     {
       "key": "apple-music",
       "label": "Apple Music",
-      "checked": 18,
-      "ok": 18,
+      "checked": 1,
+      "ok": 1,
       "warning": 0,
       "broken": 0
     },
@@ -40,14 +48,6 @@
       "label": "Google Play",
       "checked": 8,
       "ok": 8,
-      "warning": 0,
-      "broken": 0
-    },
-    {
-      "key": "instagram",
-      "label": "Instagram",
-      "checked": 1,
-      "ok": 1,
       "warning": 0,
       "broken": 0
     },
@@ -70,8 +70,8 @@
     {
       "key": "spotify",
       "label": "Spotify",
-      "checked": 18,
-      "ok": 18,
+      "checked": 1,
+      "ok": 1,
       "warning": 0,
       "broken": 0
     },
@@ -94,13 +94,36 @@
     {
       "key": "youtube",
       "label": "YouTube",
-      "checked": 32,
-      "ok": 32,
+      "checked": 30,
+      "ok": 30,
       "warning": 0,
       "broken": 0
     }
   ],
   "items": [
+    {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "warning",
+      "httpStatus": 429,
+      "message": "HTTP 429（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "index.html",
+          "line": 707,
+          "label": "Instagram"
+        },
+        {
+          "file": "links.html",
+          "line": 495,
+          "label": "Instagram OPEN ↗"
+        }
+      ]
+    },
     {
       "url": "https://apps.apple.com/app/id1185735018",
       "normalizedUrl": "https://apps.apple.com/app/id1185735018",
@@ -305,312 +328,6 @@
       ]
     },
     {
-      "url": "https://music.apple.com/jp/album/%E3%83%92-%E3%83%B3%E3%83%9B-%E3%83%BC%E3%83%AB-pinball-single/1861483257",
-      "normalizedUrl": "https://music.apple.com/jp/album/%E3%83%92-%E3%83%B3%E3%83%9B-%E3%83%BC%E3%83%AB-pinball-single/1861483257",
-      "finalUrl": "https://music.apple.com/jp/album/%E3%83%92-%E3%83%B3%E3%83%9B-%E3%83%BC%E3%83%AB-pinball-single/1861483257",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/busy-boy-galantis-remix-single/1882991102",
-      "normalizedUrl": "https://music.apple.com/jp/album/busy-boy-galantis-remix-single/1882991102",
-      "finalUrl": "https://music.apple.com/jp/album/busy-boy-galantis-remix-single/1882991102",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/counting-star-the-magic-star-single/1752835268",
-      "normalizedUrl": "https://music.apple.com/jp/album/counting-star-the-magic-star-single/1752835268",
-      "finalUrl": "https://music.apple.com/jp/album/counting-star-the-magic-star-single/1752835268",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 536,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/dearest-single/1822439985",
-      "normalizedUrl": "https://music.apple.com/jp/album/dearest-single/1822439985",
-      "finalUrl": "https://music.apple.com/jp/album/dearest-single/1822439985",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 532,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/glow-up-english-version-single/1796323288",
-      "normalizedUrl": "https://music.apple.com/jp/album/glow-up-english-version-single/1796323288",
-      "finalUrl": "https://music.apple.com/jp/album/glow-up-english-version-single/1796323288",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/glow-up-ep/1794040636",
-      "normalizedUrl": "https://music.apple.com/jp/album/glow-up-ep/1794040636",
-      "finalUrl": "https://music.apple.com/jp/album/glow-up-ep/1794040636",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 524,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/lip-bomb-ep/1852644693",
-      "normalizedUrl": "https://music.apple.com/jp/album/lip-bomb-ep/1852644693",
-      "finalUrl": "https://music.apple.com/jp/album/lip-bomb-ep/1852644693",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 524,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/love-frequency-original-soundtrack-from-just-for-meeting/1839109522",
-      "normalizedUrl": "https://music.apple.com/jp/album/love-frequency-original-soundtrack-from-just-for-meeting/1839109522",
-      "finalUrl": "https://music.apple.com/jp/album/love-frequency-original-soundtrack-from-just-for-meeting/1839109522",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 536,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/music-from-the-specials-single/1879526015",
-      "normalizedUrl": "https://music.apple.com/jp/album/music-from-the-specials-single/1879526015",
-      "finalUrl": "https://music.apple.com/jp/album/music-from-the-specials-single/1879526015",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 536,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/pretty-girl-single/6786111944",
-      "normalizedUrl": "https://music.apple.com/jp/album/pretty-girl-single/6786111944",
-      "finalUrl": "https://music.apple.com/jp/album/pretty-girl-single/6786111944",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/re-scene-single/1737172693",
-      "normalizedUrl": "https://music.apple.com/jp/album/re-scene-single/1737172693",
-      "finalUrl": "https://music.apple.com/jp/album/re-scene-single/1737172693",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 532,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/rescene-x-single/1879473478",
-      "normalizedUrl": "https://music.apple.com/jp/album/rescene-x-single/1879473478",
-      "finalUrl": "https://music.apple.com/jp/album/rescene-x-single/1879473478",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/runaway-single/1889474645",
-      "normalizedUrl": "https://music.apple.com/jp/album/runaway-single/1889474645",
-      "finalUrl": "https://music.apple.com/jp/album/runaway-single/1889474645",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/scenedrome-ep/1764485168",
-      "normalizedUrl": "https://music.apple.com/jp/album/scenedrome-ep/1764485168",
-      "finalUrl": "https://music.apple.com/jp/album/scenedrome-ep/1764485168",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 524,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/the-first-night-with-the-duke-original/1819840260",
-      "normalizedUrl": "https://music.apple.com/jp/album/the-first-night-with-the-duke-original/1819840260",
-      "finalUrl": "https://music.apple.com/jp/album/the-first-night-with-the-duke-original/1819840260",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 536,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/uhuh-japanese-version-single/1780523703",
-      "normalizedUrl": "https://music.apple.com/jp/album/uhuh-japanese-version-single/1780523703",
-      "finalUrl": "https://music.apple.com/jp/album/uhuh-japanese-version-single/1780523703",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://music.apple.com/jp/album/yoyo-japanese-version-single/1760327407",
-      "normalizedUrl": "https://music.apple.com/jp/album/yoyo-japanese-version-single/1760327407",
-      "finalUrl": "https://music.apple.com/jp/album/yoyo-japanese-version-single/1760327407",
-      "service": "Apple Music",
-      "serviceKey": "apple-music",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Appleの公開コンテンツを確認しました。",
-      "method": "apple-lookup",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Apple Music ↗"
-        }
-      ]
-    },
-    {
       "url": "https://music.apple.com/jp/artist/rescene/1732658659",
       "normalizedUrl": "https://music.apple.com/jp/artist/rescene/1732658659",
       "finalUrl": "https://music.apple.com/jp/artist/rescene/1732658659",
@@ -646,7 +363,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 113,
+          "line": 110,
           "label": "GitHubリポジトリ サイトファイルと更新履歴を確認 ↗"
         }
       ]
@@ -664,7 +381,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 113,
+          "line": 110,
           "label": "GitHub Actions一覧 すべての同期・チェック履歴を確認 ↗"
         }
       ]
@@ -682,7 +399,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 113,
+          "line": 110,
           "label": "バックアップ一覧 保存ZIPの作成履歴とArtifactを確認 ↗"
         }
       ]
@@ -832,29 +549,6 @@
       ]
     },
     {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "index.html",
-          "line": 707,
-          "label": "Instagram"
-        },
-        {
-          "file": "links.html",
-          "line": 495,
-          "label": "Instagram OPEN ↗"
-        }
-      ]
-    },
-    {
       "url": "https://artist.mnetplus.world/main/stg/rescene-official",
       "normalizedUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
       "finalUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
@@ -985,78 +679,6 @@
       ]
     },
     {
-      "url": "https://open.spotify.com/album/0msC9kyzmtznRwIxwafISH",
-      "normalizedUrl": "https://open.spotify.com/album/0msC9kyzmtznRwIxwafISH",
-      "finalUrl": "https://open.spotify.com/album/0msC9kyzmtznRwIxwafISH",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 524,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/album/2xi6m9KfCxbzuieSDZKCGl",
-      "normalizedUrl": "https://open.spotify.com/album/2xi6m9KfCxbzuieSDZKCGl",
-      "finalUrl": "https://open.spotify.com/album/2xi6m9KfCxbzuieSDZKCGl",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 536,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/album/3H7MTJVprjcvlvCeQdRe1H",
-      "normalizedUrl": "https://open.spotify.com/album/3H7MTJVprjcvlvCeQdRe1H",
-      "finalUrl": "https://open.spotify.com/album/3H7MTJVprjcvlvCeQdRe1H",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 524,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/album/5fooRwtJmNvt64WhLN5Chy",
-      "normalizedUrl": "https://open.spotify.com/album/5fooRwtJmNvt64WhLN5Chy",
-      "finalUrl": "https://open.spotify.com/album/5fooRwtJmNvt64WhLN5Chy",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
       "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S",
       "normalizedUrl": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S",
       "finalUrl": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S",
@@ -1076,240 +698,6 @@
           "file": "links.html",
           "line": 500,
           "label": "STREAMING Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/intl-ja/album/0dbuXh0XcMsrgQsVep3jAk",
-      "normalizedUrl": "https://open.spotify.com/intl-ja/album/0dbuXh0XcMsrgQsVep3jAk",
-      "finalUrl": "https://open.spotify.com/intl-ja/album/0dbuXh0XcMsrgQsVep3jAk",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/intl-ja/album/0Ka3xa6oOWmW1hIjjjxEW0",
-      "normalizedUrl": "https://open.spotify.com/intl-ja/album/0Ka3xa6oOWmW1hIjjjxEW0",
-      "finalUrl": "https://open.spotify.com/intl-ja/album/0Ka3xa6oOWmW1hIjjjxEW0",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 524,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/intl-ja/album/1C78MdRvc88435lTnGxGUF",
-      "normalizedUrl": "https://open.spotify.com/intl-ja/album/1C78MdRvc88435lTnGxGUF",
-      "finalUrl": "https://open.spotify.com/intl-ja/album/1C78MdRvc88435lTnGxGUF",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 532,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/intl-ja/album/1HNgrDrFTqZotDo4scF2IK",
-      "normalizedUrl": "https://open.spotify.com/intl-ja/album/1HNgrDrFTqZotDo4scF2IK",
-      "finalUrl": "https://open.spotify.com/intl-ja/album/1HNgrDrFTqZotDo4scF2IK",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 536,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/intl-ja/album/2oXZPVj5JczGoUR82tc28h",
-      "normalizedUrl": "https://open.spotify.com/intl-ja/album/2oXZPVj5JczGoUR82tc28h",
-      "finalUrl": "https://open.spotify.com/intl-ja/album/2oXZPVj5JczGoUR82tc28h",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 532,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/intl-ja/album/3cgYAtoLlt8nO7YdoEuY2l",
-      "normalizedUrl": "https://open.spotify.com/intl-ja/album/3cgYAtoLlt8nO7YdoEuY2l",
-      "finalUrl": "https://open.spotify.com/intl-ja/album/3cgYAtoLlt8nO7YdoEuY2l",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 536,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/intl-ja/album/4wywAxm5NwYkpngq2hIFWj",
-      "normalizedUrl": "https://open.spotify.com/intl-ja/album/4wywAxm5NwYkpngq2hIFWj",
-      "finalUrl": "https://open.spotify.com/intl-ja/album/4wywAxm5NwYkpngq2hIFWj",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/intl-ja/album/5ImFXutiGomYRjY0iZsaEI",
-      "normalizedUrl": "https://open.spotify.com/intl-ja/album/5ImFXutiGomYRjY0iZsaEI",
-      "finalUrl": "https://open.spotify.com/intl-ja/album/5ImFXutiGomYRjY0iZsaEI",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/intl-ja/album/6wL6HetMdQwsTqZzCBpGGJ",
-      "normalizedUrl": "https://open.spotify.com/intl-ja/album/6wL6HetMdQwsTqZzCBpGGJ",
-      "finalUrl": "https://open.spotify.com/intl-ja/album/6wL6HetMdQwsTqZzCBpGGJ",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/intl-ja/track/0Jl0gg7riUgpPyNhmPDG7w",
-      "normalizedUrl": "https://open.spotify.com/intl-ja/track/0Jl0gg7riUgpPyNhmPDG7w",
-      "finalUrl": "https://open.spotify.com/intl-ja/track/0Jl0gg7riUgpPyNhmPDG7w",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/intl-ja/track/1rHDWZLK5NVKfF2u55xmR7",
-      "normalizedUrl": "https://open.spotify.com/intl-ja/track/1rHDWZLK5NVKfF2u55xmR7",
-      "finalUrl": "https://open.spotify.com/intl-ja/track/1rHDWZLK5NVKfF2u55xmR7",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 536,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/intl-ja/track/2oLz5wJhDoJvcH0z4mOJ6X",
-      "normalizedUrl": "https://open.spotify.com/intl-ja/track/2oLz5wJhDoJvcH0z4mOJ6X",
-      "finalUrl": "https://open.spotify.com/intl-ja/track/2oLz5wJhDoJvcH0z4mOJ6X",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://open.spotify.com/intl-ja/track/6fJJO72ssk4vPYfd3HgNUm",
-      "normalizedUrl": "https://open.spotify.com/intl-ja/track/6fJJO72ssk4vPYfd3HgNUm",
-      "finalUrl": "https://open.spotify.com/intl-ja/track/6fJJO72ssk4vPYfd3HgNUm",
-      "service": "Spotify",
-      "serviceKey": "spotify",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Spotifyの公開コンテンツを確認しました。",
-      "method": "spotify-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "Spotify ↗"
         }
       ]
     },
@@ -1657,11 +1045,6 @@
       "method": "youtube-oembed",
       "sources": [
         {
-          "file": "discography.html",
-          "line": 524,
-          "label": "▶"
-        },
-        {
           "file": "mv.html",
           "line": 515,
           "label": "OFFICIAL MV LOVE ATTACK 2024.08.27 公式動画を見る ↗"
@@ -1679,11 +1062,6 @@
       "message": "公開動画を確認しました：RESCENE (리센느) ‘Pinball’ Official MV。",
       "method": "youtube-oembed",
       "sources": [
-        {
-          "file": "discography.html",
-          "line": 524,
-          "label": "▶"
-        },
         {
           "file": "mv.html",
           "line": 509,
@@ -1703,11 +1081,6 @@
       "method": "youtube-oembed",
       "sources": [
         {
-          "file": "discography.html",
-          "line": 524,
-          "label": "▶"
-        },
-        {
           "file": "mv.html",
           "line": 491,
           "label": "OFFICIAL MV Heart Drop 2025.11.06 公式動画を見る ↗"
@@ -1725,11 +1098,6 @@
       "message": "公開動画を確認しました：RESCENE 'Busy Boy' Performance Video。",
       "method": "youtube-oembed",
       "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "▶"
-        },
         {
           "file": "mv.html",
           "line": 485,
@@ -1749,11 +1117,6 @@
       "method": "youtube-oembed",
       "sources": [
         {
-          "file": "discography.html",
-          "line": 524,
-          "label": "▶"
-        },
-        {
           "file": "mv.html",
           "line": 506,
           "label": "OFFICIAL MV Glow Up 2025.02.05 公式動画を見る ↗"
@@ -1771,11 +1134,6 @@
       "message": "公開動画を確認しました：[Official] RESCENE (리센느) - 고백주파수 Special Clip。",
       "method": "youtube-oembed",
       "sources": [
-        {
-          "file": "discography.html",
-          "line": 536,
-          "label": "▶"
-        },
         {
           "file": "mv.html",
           "line": 494,
@@ -1841,11 +1199,6 @@
       "method": "youtube-oembed",
       "sources": [
         {
-          "file": "discography.html",
-          "line": 524,
-          "label": "▶"
-        },
-        {
           "file": "mv.html",
           "line": 488,
           "label": "OFFICIAL MV Bloom 2025.11.25 公式動画を見る ↗"
@@ -1863,11 +1216,6 @@
       "message": "公開動画を確認しました：RESCENE (리센느) ‘New World’ Official MV。",
       "method": "youtube-oembed",
       "sources": [
-        {
-          "file": "discography.html",
-          "line": 524,
-          "label": "▶"
-        },
         {
           "file": "mv.html",
           "line": 512,
@@ -1887,11 +1235,6 @@
       "method": "youtube-oembed",
       "sources": [
         {
-          "file": "discography.html",
-          "line": 520,
-          "label": "▶"
-        },
-        {
           "file": "mv.html",
           "line": 479,
           "label": "SPECIAL VIDEO Pretty Girl 2026.07.08 公式動画を見る ↗"
@@ -1909,11 +1252,6 @@
       "message": "公開動画を確認しました：RESCENE (리센느) 'Runaway' Official MV。",
       "method": "youtube-oembed",
       "sources": [
-        {
-          "file": "discography.html",
-          "line": 520,
-          "label": "▶"
-        },
         {
           "file": "mv.html",
           "line": 482,
@@ -1969,11 +1307,6 @@
       "method": "youtube-oembed",
       "sources": [
         {
-          "file": "discography.html",
-          "line": 532,
-          "label": "▶"
-        },
-        {
           "file": "mv.html",
           "line": 521,
           "label": "OFFICIAL MV YoYo 2024.02.29 公式動画を見る ↗"
@@ -1991,11 +1324,6 @@
       "message": "公開動画を確認しました：RESCENE (리센느) 'Mood': The film。",
       "method": "youtube-oembed",
       "sources": [
-        {
-          "file": "discography.html",
-          "line": 532,
-          "label": "▶"
-        },
         {
           "file": "mv.html",
           "line": 500,
@@ -2032,11 +1360,6 @@
       "message": "公開動画を確認しました：RESCENE (리센느) - BamBamBam (밤밤밤) | The First Night With the Duke OST。",
       "method": "youtube-oembed",
       "sources": [
-        {
-          "file": "discography.html",
-          "line": 536,
-          "label": "▶"
-        },
         {
           "file": "mv.html",
           "line": 503,
@@ -2092,11 +1415,6 @@
       "method": "youtube-oembed",
       "sources": [
         {
-          "file": "discography.html",
-          "line": 532,
-          "label": "▶"
-        },
-        {
           "file": "mv.html",
           "line": 497,
           "label": "OFFICIAL MV Deja Vu 2025.07.02 公式動画を見る ↗"
@@ -2115,50 +1433,9 @@
       "method": "youtube-oembed",
       "sources": [
         {
-          "file": "discography.html",
-          "line": 532,
-          "label": "▶"
-        },
-        {
           "file": "mv.html",
           "line": 518,
           "label": "OFFICIAL MV UhUh 2024.03.26 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/HlR_f2gHxoo?si=iDkzbWCqMHNIer1s",
-      "normalizedUrl": "https://www.youtube.com/watch?v=HlR_f2gHxoo",
-      "finalUrl": "https://www.youtube.com/watch?v=HlR_f2gHxoo",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：Higher。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 536,
-          "label": "▶"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/mBAEnI5kjdI?si=dT_feIKfMjQFiZZ9",
-      "normalizedUrl": "https://www.youtube.com/watch?v=mBAEnI5kjdI",
-      "finalUrl": "https://www.youtube.com/watch?v=mBAEnI5kjdI",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：Counting Star。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "discography.html",
-          "line": 536,
-          "label": "▶"
         }
       ]
     },
