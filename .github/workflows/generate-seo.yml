@@ -1,0 +1,84 @@
+name: Generate SEO and OGP
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "*.html"
+      - "js/*.js"
+      - "data/news.json"
+      - "data/news-data.js"
+      - "assets/**"
+      - "news/**"
+      - "scripts/generate-seo.py"
+      - ".github/workflows/generate-seo.yml"
+  schedule:
+    - cron: "48 19 * * 0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seo-ogp-generation
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install image tools and Japanese fonts
+        run: |
+          python -m pip install --disable-pip-version-check pillow==12.0.0
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends fonts-noto-cjk
+
+      - name: Generate and push SEO files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          for attempt in 1 2 3; do
+            echo "SEO generation attempt ${attempt}/3"
+            git fetch origin main
+            git reset --hard origin/main
+
+            python scripts/generate-seo.py
+
+            git add \
+              '*.html' \
+              js/home.js js/news.js js/search.js js/home-latest.js \
+              assets/ogp articles data/seo-status.json \
+              sitemap.xml robots.txt
+
+            if git diff --cached --quiet; then
+              echo "SEO・OGPに変更はありません。"
+              exit 0
+            fi
+
+            git commit -m "chore: generate SEO and OGP"
+            if git push origin HEAD:main; then
+              echo "SEO・OGPを更新しました。"
+              exit 0
+            fi
+
+            echo "Push failed. Regenerating from the latest main (${attempt}/3)."
+            sleep $((attempt * 3))
+          done
+
+          echo "3回再試行しましたがpushできませんでした。"
+          exit 1

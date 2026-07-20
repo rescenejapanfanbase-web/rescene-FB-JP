@@ -11,6 +11,7 @@ on:
       - "**/*.jpeg"
       - "**/*.webp"
       - "!assets/optimized/**"
+      - "!assets/ogp/**"
       - "scripts/optimize-images.py"
       - ".github/workflows/optimize-images.yml"
 
