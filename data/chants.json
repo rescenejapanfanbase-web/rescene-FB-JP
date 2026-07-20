@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-20T00:00:00.000Z",
-  "source": "seed",
+  "generatedAt": "2026-07-20T04:42:58.651Z",
+  "source": "notion",
   "dataSourceId": "bc32e32a-adcb-418d-828b-03ea458d4560",
   "notionDatabaseUrl": "https://app.notion.com/p/1616bd27522949b582095498f939aea9",
   "categories": [
@@ -65,7 +65,9 @@
       "note": "",
       "buttonLabel": "公式掛け声動画を見る",
       "order": 10,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-8161-8a21-d7671d9fff6a",
+      "notionUrl": "https://app.notion.com/p/Pretty-Girl-3a3229d219da81618a21d7671d9fff6a"
     },
     {
       "anchor": "chant-runaway",
@@ -81,7 +83,9 @@
       "note": "",
       "buttonLabel": "公式掛け声動画を見る",
       "order": 10,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-8164-85b6-e4be7032c0f8",
+      "notionUrl": "https://app.notion.com/p/Runaway-3a3229d219da816485b6e4be7032c0f8"
     },
     {
       "anchor": "chant-heart-drop",
@@ -97,7 +101,9 @@
       "note": "",
       "buttonLabel": "公式掛け声動画を見る",
       "order": 10,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-819e-adba-e512b5c5d648",
+      "notionUrl": "https://app.notion.com/p/Heart-Drop-3a3229d219da819eadbae512b5c5d648"
     },
     {
       "anchor": "chant-bloom",
@@ -113,7 +119,9 @@
       "note": "",
       "buttonLabel": "公式掛け声動画を見る",
       "order": 20,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-81cf-b3a5-e6cfd4b1d1a6",
+      "notionUrl": "https://app.notion.com/p/Bloom-3a3229d219da81cfb3a5e6cfd4b1d1a6"
     },
     {
       "anchor": "chant-busy-boy",
@@ -129,7 +137,9 @@
       "note": "非公式動画です。投稿者より掲載許可をいただいています。",
       "buttonLabel": "掛け声動画を見る",
       "order": 10,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-8148-96fe-ea80bcc29604",
+      "notionUrl": "https://app.notion.com/p/Busy-Boy-3a3229d219da814896feea80bcc29604"
     },
     {
       "anchor": "chant-deja-vu",
@@ -145,7 +155,9 @@
       "note": "",
       "buttonLabel": "公式掛け声動画を見る",
       "order": 10,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-81ec-bc3d-ce3b3e8b3b66",
+      "notionUrl": "https://app.notion.com/p/Deja-Vu-3a3229d219da81ecbc3dce3b3e8b3b66"
     },
     {
       "anchor": "chant-glow-up",
@@ -161,7 +173,9 @@
       "note": "",
       "buttonLabel": "公式掛け声動画を見る",
       "order": 10,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-81cd-83f5-c69ac6617942",
+      "notionUrl": "https://app.notion.com/p/Glow-Up-3a3229d219da81cd83f5c69ac6617942"
     },
     {
       "anchor": "chant-love-attack",
@@ -177,7 +191,9 @@
       "note": "",
       "buttonLabel": "公式掛け声動画を見る",
       "order": 10,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-813a-926b-f55c065c44e4",
+      "notionUrl": "https://app.notion.com/p/LOVE-ATTACK-3a3229d219da813a926bf55c065c44e4"
     },
     {
       "anchor": "chant-pinball",
@@ -193,7 +209,9 @@
       "note": "",
       "buttonLabel": "公式掛け声動画を見る",
       "order": 20,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-81ef-a506-deddcaacccf4",
+      "notionUrl": "https://app.notion.com/p/Pinball-3a3229d219da81efa506deddcaacccf4"
     },
     {
       "anchor": "chant-pinball-japanese",
@@ -209,7 +227,9 @@
       "note": "FANBASEが作成した非公式の掛け声です。",
       "buttonLabel": "Pinball 公式掛け声動画を見る",
       "order": 10,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-8175-940e-e14cbd31b9f2",
+      "notionUrl": "https://app.notion.com/p/Pinball-Japanese-Ver-3a3229d219da8175940ee14cbd31b9f2"
     },
     {
       "anchor": "chant-uhuh",
@@ -225,7 +245,9 @@
       "note": "",
       "buttonLabel": "公式掛け声動画を見る",
       "order": 10,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-81b5-8fe6-c3e85a04ff16",
+      "notionUrl": "https://app.notion.com/p/UhUh-3a3229d219da81b58fe6c3e85a04ff16"
     },
     {
       "anchor": "chant-yoyo",
@@ -241,7 +263,9 @@
       "note": "非公式動画です。投稿者より掲載許可をいただいています。",
       "buttonLabel": "掛け声動画を見る",
       "order": 20,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-8165-9692-e6ea4fad3160",
+      "notionUrl": "https://app.notion.com/p/YoYo-3a3229d219da81659692e6ea4fad3160"
     }
   ]
 }
