@@ -1,0 +1,44 @@
+RESCENE JAPAN FANBASE
+OGP・SEO 自動最適化ガイド
+
+【自動生成するもの】
+- 全公開ページのcanonical URL
+- ページごとのtitle・description
+- Open Graph（OGP）とXカード
+- 1200×630pxのページ別OGP画像
+- ニュース記事ごとの静的HTMLページ
+- WebSite / Organization / WebPage / NewsArticle / BreadcrumbList構造化データ
+- sitemap.xml
+- robots.txtのSitemap記載
+- data/seo-status.json
+
+【ニュース記事】
+Notionニュースが同期されると、data/news.jsonを元に
+articles/<slug>.html と assets/ogp/news/<slug>.jpg を生成します。
+SNS共有や検索エンジンがJavaScriptを実行しなくても、記事ごとの
+タイトル・概要・画像・公開日を読み取れる構成です。
+
+従来の article.html?id=<slug> は互換性のため残し、
+新しい静的記事ページへ自動転送します。
+
+【実行タイミング】
+- HTML、ニュースデータ、画像、関連スクリプトの更新時
+- 毎週月曜日4:48（日本時間）
+- Actions → Generate SEO and OGP → Run workflow
+
+【更新後の確認】
+1. ActionsでGenerate SEO and OGPが成功していることを確認
+2. data/seo-status.jsonで件数を確認
+3. sitemap.xmlで公開URLを確認
+4. ニュースを開き、URLがarticles/<slug>.htmlになっているか確認
+5. 必要に応じてGoogle Search Consoleへsitemap.xmlを登録
+
+【管理対象外】
+search.html、sync-status.html、external-links.html、article.html、404.htmlは
+検索結果へ出さないためnoindexに設定しています。
+
+【注意】
+- Notionの画像が一時URLだけの場合、OGPは既定のグループ画像を使用します。
+- 元画像は削除しません。
+- OGP画像はassets/ogp以下へ自動保存します。
+- GitHub Pagesとカスタムドメインは https://rescene-fb.jp を基準にしています。

@@ -5,7 +5,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark light">
 <title>ニュース | RESCENE JAPAN FANBASE</title>
-<meta name="description" content="RESCENEの最新ニュースをまとめています。">
+<meta name="description" content="RESCENEのリリース、記録、イベント、広報大使などの最新ニュースを掲載しています。">
+<!-- SEO-AUTO-START -->
+<link rel="canonical" href="https://rescene-fb.jp/news.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#2a1727">
+<meta property="og:site_name" content="RESCENE JAPAN FANBASE">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ニュース | RESCENE JAPAN FANBASE">
+<meta property="og:description" content="RESCENEのリリース、記録、イベント、広報大使などの最新ニュースを掲載しています。">
+<meta property="og:url" content="https://rescene-fb.jp/news.html">
+<meta property="og:image" content="https://rescene-fb.jp/assets/ogp/news.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ニュース | RESCENE JAPAN FANBASE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ニュース | RESCENE JAPAN FANBASE">
+<meta name="twitter:description" content="RESCENEのリリース、記録、イベント、広報大使などの最新ニュースを掲載しています。">
+<meta name="twitter:image" content="https://rescene-fb.jp/assets/ogp/news.jpg">
+<meta name="twitter:image:alt" content="ニュース | RESCENE JAPAN FANBASE">
+<script type="application/ld+json" data-seo-structured>{"@context":"https://schema.org","@type":"WebPage","@id":"https://rescene-fb.jp/news.html#webpage","url":"https://rescene-fb.jp/news.html","name":"ニュース | RESCENE JAPAN FANBASE","description":"RESCENEのリリース、記録、イベント、広報大使などの最新ニュースを掲載しています。","inLanguage":"ja-JP","isPartOf":{"@id":"https://rescene-fb.jp/#website"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://rescene-fb.jp/assets/ogp/news.jpg","width":1200,"height":630},"breadcrumb":{"@id":"https://rescene-fb.jp/news.html#breadcrumb"}}</script>
+<script type="application/ld+json" data-seo-structured>{"@context":"https://schema.org","@type":"BreadcrumbList","@id":"https://rescene-fb.jp/news.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://rescene-fb.jp/"},{"@type":"ListItem","position":2,"name":"ニュース","item":"https://rescene-fb.jp/news.html"}]}</script>
+<!-- SEO-AUTO-END -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
@@ -457,7 +480,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 
 </script><script src="data/news-data.js"></script><script>
 
-(()=>{const grid=document.getElementById('allNews'),buttons=[...document.querySelectorAll('.filter')];if(!grid||!window.RESCENE_NEWS)return;const draw=f=>{const rows=f==='all'?RESCENE_NEWS:RESCENE_NEWS.filter(n=>n.category===f);grid.innerHTML=rows.map(n=>{const href=`article.html?id=${encodeURIComponent(n.slug)}`;return `<article class="news-card"><a class="news-thumb" href="${href}"><img src="${n.image}" alt="${n.title}" loading="lazy"></a><div class="news-card-content"><div class="news-meta"><span class="news-date">${n.date}</span><span class="badge">${n.label}</span></div><div class="news-title"><a href="${href}">${n.title}</a></div><div class="news-text">${n.text}</div><a class="news-detail-link" href="${href}">詳細を見る →</a></div></article>`}).join('')};buttons.forEach(b=>b.addEventListener('click',()=>{buttons.forEach(x=>{x.classList.remove('active');x.setAttribute('aria-pressed','false')});b.classList.add('active');b.setAttribute('aria-pressed','true');draw(b.dataset.filter)}));draw('all')})();
+(()=>{const grid=document.getElementById('allNews'),buttons=[...document.querySelectorAll('.filter')];if(!grid||!window.RESCENE_NEWS)return;const draw=f=>{const rows=f==='all'?RESCENE_NEWS:RESCENE_NEWS.filter(n=>n.category===f);grid.innerHTML=rows.map(n=>{const href=`articles/${encodeURIComponent(n.slug)}.html`;return `<article class="news-card"><a class="news-thumb" href="${href}"><img src="${n.image}" alt="${n.title}" loading="lazy"></a><div class="news-card-content"><div class="news-meta"><span class="news-date">${n.date}</span><span class="badge">${n.label}</span></div><div class="news-title"><a href="${href}">${n.title}</a></div><div class="news-text">${n.text}</div><a class="news-detail-link" href="${href}">詳細を見る →</a></div></article>`}).join('')};buttons.forEach(b=>b.addEventListener('click',()=>{buttons.forEach(x=>{x.classList.remove('active');x.setAttribute('aria-pressed','false')});b.classList.add('active');b.setAttribute('aria-pressed','true');draw(b.dataset.filter)}));draw('all')})();
 
 </script>
 <script src="js/image-optimizer.js"></script>

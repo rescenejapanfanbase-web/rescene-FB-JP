@@ -76,7 +76,7 @@
 
  const newsEntries=data=>(Array.isArray(data?.news)?data.news:[]).map((item,index)=>({
   id:`news-${item.slug||index}`,category:'news',categoryLabel:item.label||'NEWS',title:item.title||'ニュース',summary:item.text||'',
-  url:`article.html?id=${encodeURIComponent(item.slug||'')}`,keywords:`${item.category||''} ${item.label||''} ニュース 記事`,image:item.image||'',date:item.date||'',priority:86,
+  url:`articles/${encodeURIComponent(item.slug||'')}.html`,keywords:`${item.category||''} ${item.label||''} ニュース 記事`,image:item.image||'',date:item.date||'',priority:86,
  }));
  const scheduleEntries=data=>(Array.isArray(data?.events)?data.events:[]).map((item,index)=>{
   const date=String(item.date||item.start||'').slice(0,10);

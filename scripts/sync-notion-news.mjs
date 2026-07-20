@@ -113,7 +113,7 @@ function convertPage(page) {
     title,
     text: summary || body || "詳細は記事ページをご確認ください。",
     body: body || summary || "",
-    image: imagePath || uploadedImage || "assets/news/fanbase-site.jpg",
+    image: imagePath || uploadedImage || "news/fanbase-site.jpg",
     sourceLink,
     sourceLabel: plainText(properties["リンク名"]?.rich_text) || (sourceLink ? "関連リンクを見る" : ""),
     notionPageId: page.id,
@@ -140,7 +140,7 @@ function mergeNews(manualNews, notionNews) {
         ...current,
         ...notionItem,
         slug: current.slug || notionItem.slug,
-        image: notionItem.image === "assets/news/fanbase-site.jpg" ? (current.image || notionItem.image) : notionItem.image,
+        image: notionItem.image === "news/fanbase-site.jpg" ? (current.image || notionItem.image) : notionItem.image,
         sourceLink: notionItem.sourceLink || current.sourceLink || "",
         sourceLabel: notionItem.sourceLabel || current.sourceLabel || "",
       };

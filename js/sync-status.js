@@ -2,7 +2,7 @@
   'use strict';
 
   const REPOSITORY='rescenejapanfanbase-web/rescene-FB-JP';
-  const API_CACHE_KEY='rescene-sync-status-api-v4';
+  const API_CACHE_KEY='rescene-sync-status-api-v5';
   const API_CACHE_MS=5*60*1000;
   const workflowBase=`https://github.com/${REPOSITORY}/actions/workflows/`;
 
@@ -97,6 +97,24 @@
           generatedAt:data?.generatedAt||null,
           state:broken?'error':pending||warning?'warning':'success',
           message:pending?'Actionsから「Check External Links」を一度実行してください。':broken?`${broken}件のリンク切れがあります。詳細レポートから記載ページを確認してください。`:warning?`リンク切れはありません。自動確認できなかった項目が${warning}件あります。`:`${checked}件の外部リンクを確認し、リンク切れはありませんでした。`,
+        };
+      },
+    },
+    seo:{
+      workflow:'generate-seo.yml',
+      dataUrl:'data/seo-status.json',
+      parseData(data){
+        const staticPages=Number(data?.indexedStaticPages)||0;
+        const articles=Number(data?.newsArticles)||0;
+        const ogp=Number(data?.ogpImages)||0;
+        const sitemap=Number(data?.sitemapUrls)||0;
+        const pending=!data?.generatedAt;
+        return {
+          count:pending?'未生成':`${staticPages+articles}ページ`,
+          detail:pending?'初回のSEO・OGP生成を実行してください。':`ニュース記事 ${articles} / OGP ${ogp} / サイトマップ ${sitemap}URL`,
+          generatedAt:data?.generatedAt||null,
+          state:pending?'warning':'success',
+          message:pending?'Actionsから「Generate SEO and OGP」を一度実行してください。':`canonical・OGP・構造化データ・サイトマップを${staticPages+articles}ページへ反映しています。`,
         };
       },
     },

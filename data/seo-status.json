@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-07-20T01:19:26.627129Z",
+  "baseUrl": "https://rescene-fb.jp",
+  "staticPages": 18,
+  "indexedStaticPages": 13,
+  "newsArticles": 19,
+  "ogpImages": 37,
+  "sitemapUrls": 32,
+  "canonicalPages": 37,
+  "structuredDataPages": 32,
+  "legacyArticleRedirect": true,
+  "sitemap": "sitemap.xml",
+  "robots": "robots.txt"
+}

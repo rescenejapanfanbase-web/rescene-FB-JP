@@ -1,0 +1,19 @@
+RESCENE JAPAN FANBASE
+OGP・SEO 自動最適化 追加内容
+
+- 全公開ページへcanonical、robots、OGP、Xカードを追加
+- 公開ページごとに1200×630pxのOGP画像を自動生成
+- Notionニュースからarticles/<slug>.htmlを自動生成
+- ニュースごとに異なるOGP画像・タイトル・説明・公開日を設定
+- WebSite、Organization、WebPage、NewsArticle、BreadcrumbList構造化データを追加
+- sitemap.xmlを自動生成
+- robots.txtへサイトマップURLを追加
+- 従来のarticle.html?id=...は新記事URLへ自動転送
+- 検索・同期状況・外部リンクレポート・404はnoindex
+- 同期状況ページへ「OGP・SEO自動最適化」カードを追加
+- data/seo-status.jsonで生成件数を確認可能
+- 毎週月曜4:48（JST）、対象ファイル更新時、手動実行に対応
+- push競合時は最新mainから最大3回再生成
+
+反映後:
+Actions → Generate SEO and OGP → Run workflow

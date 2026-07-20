@@ -144,7 +144,7 @@
     const news=source.map((item,index)=>({item,index,value:newsDateValue(item.date)})).sort((a,b)=>b.value-a.value||a.index-b.index).map(row=>row.item).slice(0,2);
     if(!news.length){elements.news.innerHTML=empty('最新ニュースを読み込めませんでした。');return;}
     elements.news.innerHTML=news.map(item=>{
-      const href=item.slug?`article.html?id=${encodeURIComponent(item.slug)}`:safeUrl(item.link,'news.html');
+      const href=item.slug?`articles/${encodeURIComponent(item.slug)}.html`:safeUrl(item.link,'news.html');
       return `<a class="home-feed-item" href="${escapeHtml(href)}"><div class="home-feed-item-head"><span class="home-feed-date">${escapeHtml(item.date||'UPDATE')}</span><span class="home-feed-badge">${escapeHtml(item.label||item.category||'NEWS')}</span></div><strong>${escapeHtml(item.title||'ニュース')}</strong>${item.text?`<p>${escapeHtml(item.text)}</p>`:''}</a>`;
     }).join('');
   };

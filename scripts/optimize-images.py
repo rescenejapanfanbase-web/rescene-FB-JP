@@ -63,7 +63,7 @@ def iter_sources() -> Iterable[Path]:
         rel = path.relative_to(ROOT)
         if any(part in EXCLUDED_PARTS for part in rel.parts):
             continue
-        if rel.parts[:2] == ("assets", "optimized"):
+        if rel.parts[:2] in {("assets", "optimized"), ("assets", "ogp")} :
             continue
         yield path
 
