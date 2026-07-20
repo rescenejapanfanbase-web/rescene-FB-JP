@@ -39,8 +39,15 @@ async function saveImage(file, slug) {
   return path.replaceAll("\\", "/");
 }
 async function convertPage(page) {
-  const properties = page.properties ?? {}; const title = propertyText(properties["タイトル"]); if (!title) return null; const slug = safeSlug(title, page.id); const upload = notionFile(properties["画像"]); const image = upload?.url ? await saveImage(upload, slug) : propertyText(properties["画像パス"]);
-  return { slug, title, type: properties["種類"]?.select?.name ?? "ページ設定", englishLabel: propertyText(properties["英語ラベル"]), heading: propertyText(properties["見出し"]), description: propertyText(properties["説明"]), note: propertyText(properties["補足"]), number: propertyText(properties["番号"]), value: propertyText(properties["値"]), subLabel: propertyText(properties["サブラベル"]), buttonLabel: propertyText(properties["ボタン文言"]), linkUrl: propertyText(properties["リンクURL"]), secondaryButtonLabel: propertyText(properties["追加ボタン文言"]), secondaryLinkUrl: propertyText(properties["追加リンクURL"]), thirdButtonLabel: propertyText(properties["第3ボタン文言"]), thirdLinkUrl: propertyText(properties["第3リンクURL"]), image, icon: propertyText(properties["アイコン"]), anchor: safeAnchor(propertyText(properties["アンカー"])), order: properties["表示順"]?.number ?? 9999, notionPageId: page.id, notionUrl: page.url ?? "" };
+  const properties = page.properties ?? {};
+  const title = propertyText(properties["タイトル"]);
+  if (!title) return null;
+  const anchor = safeAnchor(propertyText(properties["アンカー"]));
+  const pageSuffix = String(page.id || "").replaceAll("-", "").slice(-8) || "item";
+  const slug = anchor || `${safeSlug(title, page.id)}-${pageSuffix}`;
+  const upload = notionFile(properties["画像"]);
+  const image = upload?.url ? await saveImage(upload, slug) : propertyText(properties["画像パス"]);
+  return { slug, title, type: properties["種類"]?.select?.name ?? "ページ設定", englishLabel: propertyText(properties["英語ラベル"]), heading: propertyText(properties["見出し"]), description: propertyText(properties["説明"]), note: propertyText(properties["補足"]), number: propertyText(properties["番号"]), value: propertyText(properties["値"]), subLabel: propertyText(properties["サブラベル"]), buttonLabel: propertyText(properties["ボタン文言"]), linkUrl: propertyText(properties["リンクURL"]), secondaryButtonLabel: propertyText(properties["追加ボタン文言"]), secondaryLinkUrl: propertyText(properties["追加リンクURL"]), thirdButtonLabel: propertyText(properties["第3ボタン文言"]), thirdLinkUrl: propertyText(properties["第3リンクURL"]), image, icon: propertyText(properties["アイコン"]), anchor, order: properties["表示順"]?.number ?? 9999, notionPageId: page.id, notionUrl: page.url ?? "" };
 }
 async function readJson(path, fallback) { try { return JSON.parse(await readFile(path, "utf8")); } catch { return fallback; } }
 const pages = await queryAllPages(); const items = [];

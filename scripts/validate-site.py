@@ -254,7 +254,7 @@ def validate_data() -> None:
             add("error", "official.url", f"不正な公式リンクです: {item.get('title')} / {item.get('url')}", "data/official-links.json")
 
     homepage = (read_json("data/homepage.json") or {}).get("items", [])
-    validate_unique(homepage, "data/homepage.json", fields=("slug", "anchor"))
+    validate_unique(homepage, "data/homepage.json", fields=("anchor",))
     required = {"hero", "latest", "quick-heading", "about-focus", "footer-main", "footer-note", "not-found"}
     existing = {item.get("anchor") for item in homepage}
     for anchor in sorted(required - existing):
