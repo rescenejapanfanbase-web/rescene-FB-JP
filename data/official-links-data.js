@@ -1,6 +1,6 @@
 window.RESCENE_OFFICIAL_LINKS = {
-  "generatedAt": null,
-  "source": "initial",
+  "generatedAt": "2026-07-20T12:17:45.855Z",
+  "source": "notion",
   "dataSourceId": "362c800c-adc2-4586-be84-7b3a427e747d",
   "notionDatabaseUrl": "https://app.notion.com/p/e4ee14f07e8d4ad9aa8ef3f8694620ab",
   "links": [
@@ -15,7 +15,8 @@ window.RESCENE_OFFICIAL_LINKS = {
       "label": "OFFICIAL COMMUNITY",
       "icon": "assets/voting/apps/pluschat.png",
       "iconText": "R",
-      "anchor": "official-community"
+      "anchor": "official-community",
+      "notionUrl": "https://app.notion.com/p/RESCENE-Community-3a3229d219da81328473f2ec020f8d2b"
     },
     {
       "title": "Official X",
@@ -28,7 +29,8 @@ window.RESCENE_OFFICIAL_LINKS = {
       "label": "OFFICIAL",
       "icon": "",
       "iconText": "X",
-      "anchor": "official-x"
+      "anchor": "official-x",
+      "notionUrl": "https://app.notion.com/p/Official-X-3a3229d219da81869bfcd69c2b8f2668"
     },
     {
       "title": "Members X",
@@ -41,7 +43,8 @@ window.RESCENE_OFFICIAL_LINKS = {
       "label": "MEMBERS",
       "icon": "",
       "iconText": "X",
-      "anchor": "members-x"
+      "anchor": "members-x",
+      "notionUrl": "https://app.notion.com/p/Members-X-3a3229d219da81b4b1a7df80da2a96a8"
     },
     {
       "title": "Instagram",
@@ -54,7 +57,8 @@ window.RESCENE_OFFICIAL_LINKS = {
       "label": "OFFICIAL",
       "icon": "",
       "iconText": "IG",
-      "anchor": "instagram"
+      "anchor": "instagram",
+      "notionUrl": "https://app.notion.com/p/Instagram-3a3229d219da813a8328d99da78de9df"
     },
     {
       "title": "TikTok",
@@ -67,7 +71,8 @@ window.RESCENE_OFFICIAL_LINKS = {
       "label": "OFFICIAL",
       "icon": "",
       "iconText": "TT",
-      "anchor": "tiktok"
+      "anchor": "tiktok",
+      "notionUrl": "https://app.notion.com/p/TikTok-3a3229d219da81ddb6a7f2d5c9125b74"
     },
     {
       "title": "YouTube",
@@ -80,7 +85,8 @@ window.RESCENE_OFFICIAL_LINKS = {
       "label": "VIDEO",
       "icon": "assets/platform-icons/youtube.png",
       "iconText": "YT",
-      "anchor": "youtube"
+      "anchor": "youtube",
+      "notionUrl": "https://app.notion.com/p/YouTube-3a3229d219da81bf8949ea5409d60f58"
     },
     {
       "title": "Facebook",
@@ -93,7 +99,8 @@ window.RESCENE_OFFICIAL_LINKS = {
       "label": "OFFICIAL",
       "icon": "",
       "iconText": "f",
-      "anchor": "facebook"
+      "anchor": "facebook",
+      "notionUrl": "https://app.notion.com/p/Facebook-3a3229d219da81568f05eadecd869dee"
     },
     {
       "title": "Weibo",
@@ -106,7 +113,8 @@ window.RESCENE_OFFICIAL_LINKS = {
       "label": "OFFICIAL",
       "icon": "",
       "iconText": "WB",
-      "anchor": "weibo"
+      "anchor": "weibo",
+      "notionUrl": "https://app.notion.com/p/Weibo-3a3229d219da81d786e3e76c8e7fa3e9"
     },
     {
       "title": "Apple Music",
@@ -119,7 +127,8 @@ window.RESCENE_OFFICIAL_LINKS = {
       "label": "STREAMING",
       "icon": "assets/platform-icons/apple-music.png",
       "iconText": "AM",
-      "anchor": "apple-music"
+      "anchor": "apple-music",
+      "notionUrl": "https://app.notion.com/p/Apple-Music-3a3229d219da817e9c63c90b370e45f2"
     },
     {
       "title": "Spotify",
@@ -132,7 +141,8 @@ window.RESCENE_OFFICIAL_LINKS = {
       "label": "STREAMING",
       "icon": "assets/platform-icons/spotify.png",
       "iconText": "SP",
-      "anchor": "spotify"
+      "anchor": "spotify",
+      "notionUrl": "https://app.notion.com/p/Spotify-3a3229d219da81c7976deae1bbed262b"
     }
   ]
 };
