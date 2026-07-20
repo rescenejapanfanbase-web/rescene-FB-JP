@@ -1,0 +1,16 @@
+RESCENE お問い合わせページ Notion管理ガイド
+
+Notion管理ページ:
+https://app.notion.com/p/1220e9a875ac4374bd9cf8167565723c
+
+データソースID:
+669db280-d2ac-45f2-8515-0992e002239c
+
+Actions Variables（任意）:
+NOTION_CONTACT_DATA_SOURCE_ID
+
+既存の NOTION_TOKEN を利用します。
+Notion右上の「…」→「接続」から RESCENE Schedule Sync を追加し、
+GitHub Actions の Sync Notion Contact Page を実行してください。
+
+現在のHTML構造、カード数、余白、ボタン位置は変更せず、文言のみ同期します。

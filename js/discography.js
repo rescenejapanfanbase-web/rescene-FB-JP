@@ -8,7 +8,9 @@
  const escapeHtml=(value='')=>String(value).replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
  const safeUrl=(value='')=>{
   const text=String(value||'').trim();
-  return /^(https?:\/\/|(?:\.\/|\.\.\/|\/)?[0-9A-Za-z_./%-]+(?:\?[0-9A-Za-z_=&%+.-]*)?(?:#[0-9A-Za-z_-]+)?)$/i.test(text)?text:'';
+  if(!text)return '';
+  if(/^https?:\/\/[^\s<>\"']+$/i.test(text))return text;
+  return /^(?:\.\/|\.\.\/|\/)?[0-9A-Za-z_./%~-]+(?:\?[0-9A-Za-z_=&%+.,~-]*)?(?:#[0-9A-Za-z_-]+)?$/i.test(text)?text:'';
  };
  const formatDate=value=>String(value||'').slice(0,10).replaceAll('-','.');
  const releaseCard=release=>{

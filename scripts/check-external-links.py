@@ -64,6 +64,7 @@ JSON_LINK_FIELDS = {
     "url",
     "appStore",
     "googlePlay",
+    "linkUrl",
 }
 JSON_SKIP_FIELDS = {
     "notionUrl",
@@ -228,6 +229,7 @@ def collect_json_links(targets: dict[str, LinkTarget]) -> None:
         ROOT / "data" / "voting-guide.json",
         ROOT / "data" / "streaming-guide.json",
         ROOT / "data" / "official-links.json",
+        ROOT / "data" / "contact.json",
     ]
 
     def walk(value: Any, path: Path, parent: dict[str, Any] | None = None, key: str = "") -> None:
