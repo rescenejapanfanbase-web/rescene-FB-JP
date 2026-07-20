@@ -1,15 +1,24 @@
 {
-  "generatedAt": "2026-07-20T02:02:41.727Z",
+  "generatedAt": "2026-07-20T04:39:37.182Z",
   "source": "git-history",
   "guides": [
+    {
+      "key": "chants",
+      "title": "掛け声ガイド",
+      "summary": "楽曲ごとの掛け声をサムネイルからすぐに開けます。",
+      "url": "chants.html",
+      "category": "FANCHANT",
+      "updatedAt": "2026-07-20T13:39:25+09:00",
+      "commit": "aba83b5"
+    },
     {
       "key": "discography",
       "title": "ディスコグラフィ",
       "summary": "アルバム、シングル、OST、収録曲と配信リンクを掲載しています。",
       "url": "discography.html",
       "category": "DISCOGRAPHY",
-      "updatedAt": "2026-07-20T11:02:27+09:00",
-      "commit": "d280121"
+      "updatedAt": "2026-07-20T02:04:47Z",
+      "commit": "da941d0"
     },
     {
       "key": "voting",
@@ -17,15 +26,6 @@
       "summary": "音楽番組の投票方法、アプリ、スコア配分を確認できます。",
       "url": "voting.html",
       "category": "VOTING",
-      "updatedAt": "2026-07-20T10:25:57+09:00",
-      "commit": "fbfd24d"
-    },
-    {
-      "key": "chants",
-      "title": "掛け声ガイド",
-      "summary": "楽曲ごとの掛け声をサムネイルからすぐに開けます。",
-      "url": "chants.html",
-      "category": "FANCHANT",
       "updatedAt": "2026-07-20T10:25:57+09:00",
       "commit": "fbfd24d"
     },
