@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T14:22:02Z",
-  "startedAt": "2026-07-20T14:21:59Z",
-  "elapsedSeconds": 2.56,
+  "generatedAt": "2026-07-20T21:28:13Z",
+  "startedAt": "2026-07-20T21:28:09Z",
+  "elapsedSeconds": 3.41,
   "summary": {
-    "checked": 44,
-    "ok": 43,
+    "checked": 47,
+    "ok": 46,
     "warning": 1,
     "broken": 0,
     "hosts": 14
@@ -38,8 +38,8 @@
     {
       "key": "github",
       "label": "GitHub",
-      "checked": 3,
-      "ok": 3,
+      "checked": 6,
+      "ok": 6,
       "warning": 0,
       "broken": 0
     },
@@ -396,7 +396,7 @@
         },
         {
           "file": "index.html",
-          "line": 667,
+          "line": 693,
           "label": "Apple Music"
         }
       ]
@@ -414,7 +414,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 111,
+          "line": 112,
           "label": "GitHubリポジトリ サイトファイルと更新履歴を確認 ↗"
         }
       ]
@@ -432,7 +432,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 111,
+          "line": 112,
           "label": "GitHub Actions一覧 すべての同期・チェック履歴を確認 ↗"
         }
       ]
@@ -450,8 +450,62 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 111,
+          "line": 112,
           "label": "バックアップ一覧 保存ZIPの作成履歴とArtifactを確認 ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/preview-site.yml",
+      "normalizedUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/preview-site.yml",
+      "finalUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/preview-site.yml",
+      "service": "GitHub",
+      "serviceKey": "github",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "sync-status.html",
+          "line": 112,
+          "label": "公開前プレビュー PC・スマホのスクリーンショットとZIPを作成 ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/rollback-site.yml",
+      "normalizedUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/rollback-site.yml",
+      "finalUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/rollback-site.yml",
+      "service": "GitHub",
+      "serviceKey": "github",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "sync-status.html",
+          "line": 112,
+          "label": "緊急ロールバック 正常なコミットを新しい復元コミットとして反映 ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-all-content.yml",
+      "normalizedUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-all-content.yml",
+      "finalUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-all-content.yml",
+      "service": "GitHub",
+      "serviceKey": "github",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "sync-status.html",
+          "line": 112,
+          "label": "サイト統合同期 全データを取得・検査し、1コミットで公開 ↗"
         }
       ]
     },
@@ -657,7 +711,7 @@
         },
         {
           "file": "index.html",
-          "line": 666,
+          "line": 692,
           "label": "Instagram"
         }
       ]
@@ -810,7 +864,7 @@
         },
         {
           "file": "index.html",
-          "line": 667,
+          "line": 693,
           "label": "Spotify"
         }
       ]
@@ -833,7 +887,7 @@
         },
         {
           "file": "index.html",
-          "line": 666,
+          "line": 692,
           "label": "TikTok"
         }
       ]
@@ -841,7 +895,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784557321293&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784582892086&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -994,7 +1048,7 @@
         },
         {
           "file": "index.html",
-          "line": 666,
+          "line": 692,
           "label": "Official X"
         }
       ]
@@ -1073,7 +1127,7 @@
         },
         {
           "file": "index.html",
-          "line": 666,
+          "line": 692,
           "label": "YouTube"
         },
         {
