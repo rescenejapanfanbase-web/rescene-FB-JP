@@ -1,11 +1,11 @@
 window.RESCENE_HOMEPAGE = {
-  "generatedAt": "2026-07-20T14:07:28Z",
-  "source": "initial",
+  "generatedAt": "2026-07-20T20:43:46.151Z",
+  "source": "notion",
   "dataSourceId": "1a98fbc6-21d6-4a11-8ed9-19b228250182",
   "notionDatabaseUrl": "https://app.notion.com/p/23afd46c4c68443d89de65c74f605d68",
   "items": [
     {
-      "slug": "home-settings",
+      "slug": "home-0d0656b9",
       "title": "ホームページ設定",
       "type": "ページ設定",
       "englishLabel": "HOME",
@@ -24,10 +24,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "home-settings",
-      "order": 0
+      "order": 0,
+      "notionPageId": "3a3229d2-19da-816a-89a2-ebda0d0656b9",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da816a89a2ebda0d0656b9"
     },
     {
-      "slug": "hero",
+      "slug": "home-fda70b46",
       "title": "ホームヒーロー",
       "type": "ヒーロー",
       "englishLabel": "RESCENE JAPANESE FANBASE / FOR REMINE",
@@ -46,10 +48,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "assets/group/rescene-group.jpg",
       "icon": "",
       "anchor": "hero",
-      "order": 10
+      "order": 10,
+      "notionPageId": "3a3229d2-19da-8138-9cf5-f02dfda70b46",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da81389cf5f02dfda70b46"
     },
     {
-      "slug": "latest",
+      "slug": "home-d6d3da99",
       "title": "最新情報まとめ",
       "type": "セクション見出し",
       "englishLabel": "NOW ON RESCENE",
@@ -68,10 +72,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "latest",
-      "order": 20
+      "order": 20,
+      "notionPageId": "3a3229d2-19da-81cd-950b-eaa7d6d3da99",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da81cd950beaa7d6d3da99"
     },
     {
-      "slug": "quick-heading",
+      "slug": "home-914cf438",
       "title": "まず見るページ",
       "type": "セクション見出し",
       "englishLabel": "QUICK ACCESS",
@@ -90,10 +96,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "quick-heading",
-      "order": 30
+      "order": 30,
+      "notionPageId": "3a3229d2-19da-8111-9402-e4ff914cf438",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da81119402e4ff914cf438"
     },
     {
-      "slug": "quick-news",
+      "slug": "home-ea03fd87",
       "title": "ニュース",
       "type": "クイックアクセス",
       "englishLabel": "",
@@ -112,10 +120,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "news",
       "anchor": "quick-news",
-      "order": 31
+      "order": 31,
+      "notionPageId": "3a3229d2-19da-816e-bb6a-d18aea03fd87",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da816ebb6ad18aea03fd87"
     },
     {
-      "slug": "quick-schedule",
+      "slug": "home-ce8fd556",
       "title": "スケジュール",
       "type": "クイックアクセス",
       "englishLabel": "",
@@ -134,10 +144,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "calendar",
       "anchor": "quick-schedule",
-      "order": 32
+      "order": 32,
+      "notionPageId": "3a3229d2-19da-81f6-a67c-c5d9ce8fd556",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da81f6a67cc5d9ce8fd556"
     },
     {
-      "slug": "quick-streaming",
+      "slug": "home-9bd21d84",
       "title": "ストリーミング",
       "type": "クイックアクセス",
       "englishLabel": "",
@@ -156,10 +168,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "play",
       "anchor": "quick-streaming",
-      "order": 33
+      "order": 33,
+      "notionPageId": "3a3229d2-19da-8155-bb53-cd5f9bd21d84",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da8155bb53cd5f9bd21d84"
     },
     {
-      "slug": "quick-voting",
+      "slug": "home-fe39d017",
       "title": "投票ガイド",
       "type": "クイックアクセス",
       "englishLabel": "",
@@ -178,10 +192,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "vote",
       "anchor": "quick-voting",
-      "order": 34
+      "order": 34,
+      "notionPageId": "3a3229d2-19da-81c3-abb3-c7c8fe39d017",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da81c3abb3c7c8fe39d017"
     },
     {
-      "slug": "about-focus",
+      "slug": "rescene",
       "title": "RESCENE紹介",
       "type": "紹介セクション",
       "englishLabel": "ABOUT",
@@ -200,10 +216,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "about-focus",
-      "order": 40
+      "order": 40,
+      "notionPageId": "3a3229d2-19da-81da-91c1-c77c3987a475",
+      "notionUrl": "https://app.notion.com/p/RESCENE-3a3229d219da81da91c1c77c3987a475"
     },
     {
-      "slug": "stat-members",
+      "slug": "home-85f1eb0b",
       "title": "メンバー数",
       "type": "統計",
       "englishLabel": "",
@@ -222,10 +240,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "stat-members",
-      "order": 41
+      "order": 41,
+      "notionPageId": "3a3229d2-19da-8172-b6fc-cc7285f1eb0b",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da8172b6fccc7285f1eb0b"
     },
     {
-      "slug": "stat-fandom",
+      "slug": "home-360c66d9",
       "title": "ファンダム",
       "type": "統計",
       "englishLabel": "",
@@ -244,10 +264,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "stat-fandom",
-      "order": 42
+      "order": 42,
+      "notionPageId": "3a3229d2-19da-81a3-96fc-ddb2360c66d9",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da81a396fcddb2360c66d9"
     },
     {
-      "slug": "stat-debut",
+      "slug": "home-d5500b4a",
       "title": "デビュー年",
       "type": "統計",
       "englishLabel": "",
@@ -266,10 +288,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "stat-debut",
-      "order": 43
+      "order": 43,
+      "notionPageId": "3a3229d2-19da-8158-9900-f84ed5500b4a",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da81589900f84ed5500b4a"
     },
     {
-      "slug": "routes-heading",
+      "slug": "home-3239b66e",
       "title": "初めて来た方へ",
       "type": "セクション見出し",
       "englishLabel": "",
@@ -288,10 +312,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "routes-heading",
-      "order": 50
+      "order": 50,
+      "notionPageId": "3a3229d2-19da-810f-b5f4-ee9b3239b66e",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da810fb5f4ee9b3239b66e"
     },
     {
-      "slug": "route-about",
+      "slug": "rescene",
       "title": "RESCENEを知る",
       "type": "初めてガイド",
       "englishLabel": "",
@@ -310,10 +336,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "route-about",
-      "order": 51
+      "order": 51,
+      "notionPageId": "3a3229d2-19da-8162-96c9-e157c554d289",
+      "notionUrl": "https://app.notion.com/p/RESCENE-3a3229d219da816296c9e157c554d289"
     },
     {
-      "slug": "route-members",
+      "slug": "5",
       "title": "5人を知る",
       "type": "初めてガイド",
       "englishLabel": "",
@@ -332,10 +360,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "route-members",
-      "order": 52
+      "order": 52,
+      "notionPageId": "3a3229d2-19da-81cd-a5d0-c98b76c8b294",
+      "notionUrl": "https://app.notion.com/p/5-3a3229d219da81cda5d0c98b76c8b294"
     },
     {
-      "slug": "route-music",
+      "slug": "home-043b7fcc",
       "title": "音楽を聴く",
       "type": "初めてガイド",
       "englishLabel": "",
@@ -354,10 +384,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "route-music",
-      "order": 53
+      "order": 53,
+      "notionPageId": "3a3229d2-19da-81c7-87ef-da21043b7fcc",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da81c787efda21043b7fcc"
     },
     {
-      "slug": "route-support",
+      "slug": "home-220a2f32",
       "title": "一緒に応援する",
       "type": "初めてガイド",
       "englishLabel": "",
@@ -376,10 +408,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "route-support",
-      "order": 54
+      "order": 54,
+      "notionPageId": "3a3229d2-19da-8116-b639-c63f220a2f32",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da8116b639c63f220a2f32"
     },
     {
-      "slug": "members-heading",
+      "slug": "home-6c51e38d",
       "title": "メンバーセクション",
       "type": "セクション見出し",
       "englishLabel": "MEMBERS",
@@ -398,10 +432,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "members-heading",
-      "order": 60
+      "order": 60,
+      "notionPageId": "3a3229d2-19da-810b-97a7-e3f86c51e38d",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da810b97a7e3f86c51e38d"
     },
     {
-      "slug": "official-heading",
+      "slug": "home-c35a67ff",
       "title": "公式リンクセクション",
       "type": "セクション見出し",
       "englishLabel": "OFFICIAL",
@@ -420,10 +456,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "official-heading",
-      "order": 70
+      "order": 70,
+      "notionPageId": "3a3229d2-19da-81c6-93a2-e5e7c35a67ff",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da81c693a2e5e7c35a67ff"
     },
     {
-      "slug": "footer-main",
+      "slug": "home-87073752",
       "title": "共通フッター",
       "type": "フッター",
       "englishLabel": "",
@@ -442,10 +480,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "footer-main",
-      "order": 80
+      "order": 80,
+      "notionPageId": "3a3229d2-19da-8130-af12-dafb87073752",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da8130af12dafb87073752"
     },
     {
-      "slug": "footer-note",
+      "slug": "home-354edfea",
       "title": "共通フッター注意書き",
       "type": "フッター",
       "englishLabel": "",
@@ -464,10 +504,12 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "footer-note",
-      "order": 81
+      "order": 81,
+      "notionPageId": "3a3229d2-19da-8187-8a69-dab1354edfea",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da81878a69dab1354edfea"
     },
     {
-      "slug": "not-found",
+      "slug": "404",
       "title": "404ページ",
       "type": "404",
       "englishLabel": "404",
@@ -486,7 +528,9 @@ window.RESCENE_HOMEPAGE = {
       "image": "",
       "icon": "",
       "anchor": "not-found",
-      "order": 90
+      "order": 90,
+      "notionPageId": "3a3229d2-19da-81da-89f3-c18d28fb9a9b",
+      "notionUrl": "https://app.notion.com/p/404-3a3229d219da81da89f3c18d28fb9a9b"
     }
   ]
 };
