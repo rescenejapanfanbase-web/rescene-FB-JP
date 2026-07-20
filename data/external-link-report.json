@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T06:12:01Z",
-  "startedAt": "2026-07-20T06:11:59Z",
-  "elapsedSeconds": 1.84,
+  "generatedAt": "2026-07-20T06:12:18Z",
+  "startedAt": "2026-07-20T06:12:15Z",
+  "elapsedSeconds": 2.9,
   "summary": {
     "checked": 42,
     "ok": 42,
@@ -155,7 +155,7 @@
         },
         {
           "file": "data/voting-guide.json",
-          "line": 394,
+          "line": 405,
           "label": "Fancast"
         },
         {
@@ -196,7 +196,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 300,
+          "line": 308,
           "label": "BIGC"
         },
         {
@@ -219,7 +219,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 447,
+          "line": 459,
           "label": "Mubeat"
         },
         {
@@ -242,7 +242,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 533,
+          "line": 547,
           "label": "HIGHER"
         },
         {
@@ -265,7 +265,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 495,
+          "line": 508,
           "label": "LiNC"
         },
         {
@@ -288,7 +288,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 333,
+          "line": 342,
           "label": "IDOLCHAMP"
         },
         {
@@ -311,7 +311,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 366,
+          "line": 376,
           "label": "Mnet Plus"
         },
         {
@@ -334,7 +334,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 566,
+          "line": 581,
           "label": "Muniverse"
         },
         {
@@ -434,7 +434,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 395,
+          "line": 406,
           "label": "Fancast"
         },
         {
@@ -457,7 +457,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 534,
+          "line": 548,
           "label": "HIGHER"
         },
         {
@@ -480,7 +480,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 334,
+          "line": 343,
           "label": "IDOLCHAMP"
         },
         {
@@ -503,7 +503,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 567,
+          "line": 582,
           "label": "Muniverse"
         },
         {
@@ -526,7 +526,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 448,
+          "line": 460,
           "label": "Mubeat"
         },
         {
@@ -549,7 +549,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 301,
+          "line": 309,
           "label": "BIGC"
         },
         {
@@ -572,7 +572,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 496,
+          "line": 509,
           "label": "LiNC"
         },
         {
@@ -595,7 +595,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 367,
+          "line": 377,
           "label": "Mnet Plus"
         },
         {
