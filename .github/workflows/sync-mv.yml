@@ -1,0 +1,73 @@
+name: Sync MV List
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "43 */3 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "data/youtube-channels.json"
+      - "scripts/sync-mv.mjs"
+      - ".github/workflows/sync-mv.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mv-list-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Generate and push MV list
+        shell: bash
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_MV_DATA_SOURCE_ID: ${{ vars.NOTION_MV_DATA_SOURCE_ID }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="${GITHUB_REF_NAME}"
+
+          for attempt in 1 2 3; do
+            echo "MV一覧同期を実行します（${attempt}/3）"
+            git fetch origin "${branch}"
+            git reset --hard "origin/${branch}"
+
+            node scripts/sync-mv.mjs
+
+            if git diff --quiet -- data/mv.json data/mv-data.js assets/mv/notion assets/mv/youtube; then
+              echo "MV一覧に変更はありません。"
+              exit 0
+            fi
+
+            git add data/mv.json data/mv-data.js assets/mv/notion assets/mv/youtube
+            git commit -m "chore: sync MV list"
+
+            if git push origin "HEAD:${branch}"; then
+              echo "MV一覧を更新しました。"
+              exit 0
+            fi
+
+            echo "push中に別の更新が入りました。最新のmainから再生成します。"
+            sleep $((attempt * 5))
+          done
+
+          echo "3回試行しましたが更新を反映できませんでした。"
+          exit 1
