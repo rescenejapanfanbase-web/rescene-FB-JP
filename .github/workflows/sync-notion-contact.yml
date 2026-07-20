@@ -2,15 +2,13 @@ name: Sync Notion Contact Page
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "47 */3 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: notion-contact-sync
-  cancel-in-progress: true
+  group: site-content-write
+  cancel-in-progress: false
 
 jobs:
   sync:

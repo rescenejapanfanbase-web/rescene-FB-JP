@@ -2,15 +2,13 @@ name: Sync Notion Discography
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "27 */3 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: notion-discography-sync
-  cancel-in-progress: true
+  group: site-content-write
+  cancel-in-progress: false
 
 jobs:
   sync:

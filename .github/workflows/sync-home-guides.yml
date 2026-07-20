@@ -2,28 +2,13 @@ name: Refresh Homepage Guides
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - "voting.html"
-      - "data/voting-guide.json"
-      - "chants.html"
-      - "streaming.html"
-      - "data/streaming-guide.json"
-      - "youtube.html"
-      - "mv.html"
-      - "discography.html"
-      - "data/discography.json"
-      - "scripts/generate-home-guides.mjs"
-      - ".github/workflows/sync-home-guides.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: homepage-guide-refresh
-  cancel-in-progress: true
+  group: site-content-write
+  cancel-in-progress: false
 
 jobs:
   refresh:

@@ -20,7 +20,7 @@ on:
       - "!data/external-link-report.json"
 
 concurrency:
-  group: external-link-check
+  group: site-content-write
   cancel-in-progress: false
 
 permissions:

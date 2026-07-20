@@ -2,15 +2,13 @@ name: Sync Notion Fan Chants
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "37 */3 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: notion-chants-sync
-  cancel-in-progress: true
+  group: site-content-write
+  cancel-in-progress: false
 
 jobs:
   sync:

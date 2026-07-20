@@ -1,0 +1,96 @@
+name: Sync All Site Content
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 */3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-content-write
+  cancel-in-progress: false
+
+jobs:
+  sync-all:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install sync and validation dependencies
+        run: python -m pip install --disable-pip-version-check --upgrade pillow pyyaml yt-dlp
+
+      - name: Synchronize, validate, and publish atomically
+        shell: bash
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATA_SOURCE_ID: ${{ vars.NOTION_DATA_SOURCE_ID }}
+          NOTION_NEWS_DATA_SOURCE_ID: ${{ vars.NOTION_NEWS_DATA_SOURCE_ID }}
+          NOTION_DISCOGRAPHY_DATA_SOURCE_ID: ${{ vars.NOTION_DISCOGRAPHY_DATA_SOURCE_ID }}
+          NOTION_CHANTS_DATA_SOURCE_ID: ${{ vars.NOTION_CHANTS_DATA_SOURCE_ID }}
+          NOTION_MV_DATA_SOURCE_ID: ${{ vars.NOTION_MV_DATA_SOURCE_ID }}
+          NOTION_VOTING_DATA_SOURCE_ID: ${{ vars.NOTION_VOTING_DATA_SOURCE_ID }}
+          NOTION_STREAMING_DATA_SOURCE_ID: ${{ vars.NOTION_STREAMING_DATA_SOURCE_ID }}
+          NOTION_MEMBERS_DATA_SOURCE_ID: ${{ vars.NOTION_MEMBERS_DATA_SOURCE_ID }}
+          NOTION_ABOUT_DATA_SOURCE_ID: ${{ vars.NOTION_ABOUT_DATA_SOURCE_ID }}
+          NOTION_OFFICIAL_LINKS_DATA_SOURCE_ID: ${{ vars.NOTION_OFFICIAL_LINKS_DATA_SOURCE_ID }}
+          NOTION_CONTACT_DATA_SOURCE_ID: ${{ vars.NOTION_CONTACT_DATA_SOURCE_ID }}
+          NOTION_HOMEPAGE_DATA_SOURCE_ID: ${{ vars.NOTION_HOMEPAGE_DATA_SOURCE_ID }}
+          SITE_BASE_URL: https://rescene-fb.jp
+          PYTHON_COMMAND: python
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="${GITHUB_REF_NAME:-main}"
+
+          for attempt in 1 2 3; do
+            echo "統合同期を実行します（${attempt}/3）"
+            git fetch origin "${branch}"
+            git reset --hard "origin/${branch}"
+
+            ./scripts/sync-all-content.sh
+
+            if git diff --quiet && test -z "$(git status --porcelain)"; then
+              echo "公開内容に変更はありません。"
+              exit 0
+            fi
+
+            git add -A
+            git commit -m "chore: synchronize all site content"
+            if git push origin "HEAD:${branch}"; then
+              echo "全コンテンツを1コミットで更新しました。"
+              exit 0
+            fi
+
+            echo "push中に別の更新が入りました。最新状態から全処理を再実行します。"
+            sleep $((attempt * 8))
+          done
+
+          echo "3回試行しましたが統合同期を反映できませんでした。"
+          exit 1
+
+      - name: Upload quality report
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: site-quality-report
+          path: data/quality-report.json
+          if-no-files-found: warn

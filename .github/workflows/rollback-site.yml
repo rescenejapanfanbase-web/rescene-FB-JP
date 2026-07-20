@@ -1,0 +1,56 @@
+name: Roll Back Site
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_ref:
+        description: "復元する正常なコミットSHAまたはタグ"
+        required: true
+        type: string
+      confirmation:
+        description: "実行確認として RESTORE と入力"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-content-write
+  cancel-in-progress: false
+
+jobs:
+  rollback:
+    if: ${{ inputs.confirmation == 'RESTORE' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Restore selected tree as a new commit
+        shell: bash
+        env:
+          TARGET_REF: ${{ inputs.target_ref }}
+        run: |
+          set -euo pipefail
+          if [[ ! "${TARGET_REF}" =~ ^[A-Za-z0-9._/-]{4,80}$ ]]; then
+            echo "target_refの形式が不正です。"
+            exit 1
+          fi
+          git fetch --all --tags --prune
+          target_commit="$(git rev-parse --verify "${TARGET_REF}^{commit}")"
+          current_commit="$(git rev-parse HEAD)"
+          if [[ "${target_commit}" == "${current_commit}" ]]; then
+            echo "現在のコミットと同じため、復元は不要です。"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git read-tree --reset -u "${target_commit}"
+          git commit -m "revert: restore site tree to ${target_commit:0:12}"
+          git push origin "HEAD:${GITHUB_REF_NAME:-main}"
+          echo "${target_commit} の内容を新しい復元コミットとして反映しました。"

@@ -2,15 +2,13 @@ name: Sync Notion Members
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "13 */3 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: notion-members-sync
-  cancel-in-progress: true
+  group: site-content-write
+  cancel-in-progress: false
 
 jobs:
   sync:

@@ -2,15 +2,13 @@ name: Sync Notion Official Links
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "19 */3 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: notion-official-links-sync
-  cancel-in-progress: true
+  group: site-content-write
+  cancel-in-progress: false
 
 jobs:
   sync:

@@ -2,31 +2,13 @@ name: Generate SEO and OGP
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - "*.html"
-      - "js/*.js"
-      - "data/news.json"
-      - "data/news-data.js"
-      - "data/discography.json"
-      - "data/discography-data.js"
-      - "data/about.json"
-      - "data/about-data.js"
-      - "assets/**"
-      - "news/**"
-      - "scripts/generate-seo.py"
-      - ".github/workflows/generate-seo.yml"
-  schedule:
-    - cron: "48 19 * * 0"
 
 permissions:
   contents: write
 
 concurrency:
-  group: seo-ogp-generation
-  cancel-in-progress: true
+  group: site-content-write
+  cancel-in-progress: false
 
 jobs:
   generate:

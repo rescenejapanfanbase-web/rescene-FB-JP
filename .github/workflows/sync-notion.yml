@@ -2,15 +2,13 @@ name: Sync Notion Calendar
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "17,47 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: notion-calendar-sync
-  cancel-in-progress: true
+  group: site-content-write
+  cancel-in-progress: false
 
 jobs:
   sync:

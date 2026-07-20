@@ -2,25 +2,13 @@ name: Optimize Site Images
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - "**/*.png"
-      - "**/*.jpg"
-      - "**/*.jpeg"
-      - "**/*.webp"
-      - "!assets/optimized/**"
-      - "!assets/ogp/**"
-      - "scripts/optimize-images.py"
-      - ".github/workflows/optimize-images.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: site-image-optimization
-  cancel-in-progress: true
+  group: site-content-write
+  cancel-in-progress: false
 
 jobs:
   optimize:

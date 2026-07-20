@@ -2,15 +2,13 @@ name: Sync YouTube Channels
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "23 */3 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: youtube-channels-sync
-  cancel-in-progress: true
+  group: site-content-write
+  cancel-in-progress: false
 
 jobs:
   sync:

@@ -1,8 +1,8 @@
-name: Check Site Files
+name: Site Quality Gate
 
 on:
   workflow_dispatch:
-
+  pull_request:
   push:
     branches:
       - main
@@ -10,6 +10,7 @@ on:
       - "**/*.html"
       - "**/*.css"
       - "**/*.js"
+      - "**/*.mjs"
       - "**/*.json"
       - "**/*.ics"
       - "**/*.png"
@@ -18,22 +19,48 @@ on:
       - "**/*.webp"
       - "**/*.avif"
       - "**/*.svg"
-      - "scripts/check-site-links.py"
-      - ".github/workflows/check-site.yml"
-
+      - "scripts/**"
+      - ".github/workflows/**"
   schedule:
     - cron: "27 3 * * 0"
 
 permissions:
   contents: read
 
+concurrency:
+  group: site-quality-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  check-site:
+  quality-gate:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Check internal links and images
-        run: python3 scripts/check-site-links.py
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install validation dependencies
+        run: python -m pip install --disable-pip-version-check pyyaml
+
+      - name: Run complete pre-publication checks
+        run: ./scripts/run-prepublish-checks.sh
+
+      - name: Upload quality report
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: site-quality-report-${{ github.run_id }}
+          path: data/quality-report.json
+          if-no-files-found: warn

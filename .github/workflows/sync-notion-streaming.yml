@@ -2,15 +2,13 @@ name: Sync Notion Streaming Guide
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "7 */3 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: notion-streaming-guide-sync
-  cancel-in-progress: true
+  group: site-content-write
+  cancel-in-progress: false
 
 jobs:
   sync:

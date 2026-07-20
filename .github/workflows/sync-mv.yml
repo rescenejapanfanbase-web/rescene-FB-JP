@@ -2,22 +2,13 @@ name: Sync MV List
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "43 */3 * * *"
-  push:
-    branches:
-      - main
-    paths:
-      - "data/youtube-channels.json"
-      - "scripts/sync-mv.mjs"
-      - ".github/workflows/sync-mv.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: mv-list-sync
-  cancel-in-progress: true
+  group: site-content-write
+  cancel-in-progress: false
 
 jobs:
   sync:

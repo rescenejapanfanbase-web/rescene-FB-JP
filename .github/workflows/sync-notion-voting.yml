@@ -2,15 +2,13 @@ name: Sync Notion Voting Guide
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "53 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: notion-voting-guide-sync
-  cancel-in-progress: true
+  group: site-content-write
+  cancel-in-progress: false
 
 jobs:
   sync:

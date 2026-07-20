@@ -2,15 +2,13 @@ name: Sync Notion Homepage Content
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "23 */3 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: notion-homepage-sync
-  cancel-in-progress: true
+  group: site-content-write
+  cancel-in-progress: false
 
 jobs:
   sync:
