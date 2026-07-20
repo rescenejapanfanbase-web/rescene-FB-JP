@@ -1,0 +1,202 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-20T14:07:28Z",
+  "summary": {
+    "errors": 0,
+    "warnings": 38,
+    "htmlPages": 37
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/busy-boy-release.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/dearest-release.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/fanbase-site.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/geoje-ambassador.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/glow-up-release.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/goyang-ambassador.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/gyeongju-ambassador.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/lip-bomb-release.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/love-attack-inkigayo-realtime-first.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/melon-top100-first-number-one.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/pinball-japanese-release.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/pretty-girl-first-music-show-win.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/pretty-girl-release.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/rescene-release.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/runaway-release.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/scenedrome-release.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/second-anniversary-project.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/second-anniversary.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/suwon-ambassador.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "2番目の画像にwidth/heightがありません。",
+      "file": "index.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "3番目の画像にwidth/heightがありません。",
+      "file": "index.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "4番目の画像にwidth/heightがありません。",
+      "file": "index.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "streaming.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "voting.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "2番目の画像にwidth/heightがありません。",
+      "file": "voting.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "3番目の画像にwidth/heightがありません。",
+      "file": "voting.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "4番目の画像にwidth/heightがありません。",
+      "file": "voting.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "5番目の画像にwidth/heightがありません。",
+      "file": "voting.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "6番目の画像にwidth/heightがありません。",
+      "file": "voting.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "7番目の画像にwidth/heightがありません。",
+      "file": "voting.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "24番目の画像にwidth/heightがありません。",
+      "file": "voting.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "27番目の画像にwidth/heightがありません。",
+      "file": "voting.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "31番目の画像にwidth/heightがありません。",
+      "file": "voting.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "34番目の画像にwidth/heightがありません。",
+      "file": "voting.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "42番目の画像にwidth/heightがありません。",
+      "file": "voting.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "49番目の画像にwidth/heightがありません。",
+      "file": "voting.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "54番目の画像にwidth/heightがありません。",
+      "file": "voting.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "58番目の画像にwidth/heightがありません。",
+      "file": "voting.html"
+    }
+  ]
+}

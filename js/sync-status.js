@@ -7,6 +7,22 @@
   const workflowBase=`https://github.com/${REPOSITORY}/actions/workflows/`;
 
   const configs={
+    allcontent:{
+      workflow:'sync-all-content.yml',
+      dataUrl:'data/quality-report.json',
+      parseData(data){
+        const errorCount=Number(data?.summary?.errors)||0;
+        const warningCount=Number(data?.summary?.warnings)||0;
+        const pageCount=Number(data?.summary?.htmlPages)||0;
+        return {
+          count:errorCount?`${errorCount}エラー`:'正常',
+          detail:`HTML ${pageCount}ページ / 警告 ${warningCount}件`,
+          generatedAt:data?.generatedAt||null,
+          state:errorCount?'error':'success',
+          message:errorCount?'公開前品質検査でエラーが見つかっています。':'Notion・YouTube・MV・SEO・画像を1回の処理で同期し、検査後に1コミットで公開します。',
+        };
+      },
+    },
     schedule:{
       workflow:'sync-notion.yml',
       dataUrl:'data/schedule.json',

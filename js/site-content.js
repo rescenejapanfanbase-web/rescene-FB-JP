@@ -122,9 +122,12 @@
     const root=document.querySelector('[data-home-official-links]');
     if(!root)return;
     try{
-      const response=await fetch(`${officialLinksUrl.href}?v=${Date.now()}`,{cache:'no-store'});
-      if(!response.ok)return;
-      const payload=await response.json();
+      let payload=window.RESCENE_OFFICIAL_LINKS;
+      if(!payload){
+        const response=await fetch(`${officialLinksUrl.href}?v=${Date.now()}`,{cache:'no-store'});
+        if(!response.ok)return;
+        payload=await response.json();
+      }
       const links=Array.isArray(payload?.links)?payload.links:[];
       const desired=['official-x','instagram','tiktok','youtube'];
       const social=desired.map(anchor=>links.find(item=>item.anchor===anchor)).filter(Boolean);

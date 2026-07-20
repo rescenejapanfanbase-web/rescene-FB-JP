@@ -534,6 +534,32 @@ html.light-mode .hero-members{color:#9f3a6c!important}
   .member-color-chip{font-size:.52rem;padding:2px 5px}
 }
 </style>
+<style id="home-layout-stability-style">
+/* Keep the homepage hero balanced at every viewport without changing its design. */
+.hero-relaunch .hero-copy{min-width:0}
+@media(min-width:980px){
+  .hero-relaunch{grid-template-columns:minmax(0,1.08fr) minmax(360px,.82fr);align-items:center}
+  .hero-relaunch .hero-group-card{width:100%;min-height:0;aspect-ratio:4/5;align-self:center}
+}
+@media(max-width:979px){
+  .hero-relaunch{gap:22px}
+  .hero-relaunch .hero-group-card{width:min(100%,420px);min-height:0;aspect-ratio:4/5;justify-self:center}
+}
+@media(max-width:719px){
+  .hero-relaunch{padding:20px;gap:20px}
+  .hero-relaunch h1{font-size:clamp(2.18rem,11.8vw,2.65rem);line-height:.98}
+  .hero-relaunch .hero-kicker{max-width:100%;font-size:.64rem;line-height:1.55}
+  .hero-relaunch .hero-lead{font-size:.91rem;line-height:1.75}
+  .hero-relaunch .hero-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:19px}
+  .hero-relaunch .hero-actions .btn{width:auto;min-width:0;padding:11px 10px;font-size:.8rem;white-space:nowrap}
+  .hero-relaunch .hero-actions .btn:first-child{grid-column:1/-1}
+  .hero-relaunch .hero-group-card{width:min(100%,350px)}
+}
+@media(max-width:340px){
+  .hero-relaunch{padding:18px}
+  .hero-relaunch .hero-actions .btn{font-size:.75rem;padding-inline:7px}
+}
+</style>
 <style id="site-search-link-style">
 .search-toggle{width:40px;height:40px;border:1px solid var(--border);background:var(--soft-bg);color:var(--text);border-radius:999px;display:grid;place-items:center;transition:.2s;flex:0 0 auto}.search-toggle:hover{color:var(--pink);border-color:rgba(255,111,174,.5);transform:translateY(-1px)}.search-toggle svg{width:19px;height:19px;fill:currentColor}.mobile-menu>a.mobile-search-link{color:var(--pink-soft,var(--pink))}
 @media(max-width:719px){
@@ -681,7 +707,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
  document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
 })();
 
-</script><script src="data/news-data.js"></script><script src="js/home-latest.js"></script>
+</script><script src="data/homepage-data.js"></script><script src="data/official-links-data.js"></script><script src="js/site-content.js" data-rescene-site-content="true"></script><script src="data/news-data.js"></script><script src="js/home-latest.js"></script>
 <script src="data/members-data.js"></script>
 <script src="js/members.js"></script>
 <script src="js/image-optimizer.js"></script>

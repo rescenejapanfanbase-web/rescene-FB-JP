@@ -1,0 +1,88 @@
+RESCENE JAPAN FANBASE
+最強サイト化 第1段階：壊れない基盤（第1回）
+
+【目的】
+Notion・YouTube・MV・SEO・画像生成などの更新を、競合や中途半端な公開を避けながら1回で安全に反映します。
+現在のページデザインや公開データは変更しません。
+
+【通常の更新】
+GitHub Actionsの「Sync All Site Content」を使用します。
+- 3時間ごとの5分に自動実行
+- 手動実行にも対応
+- 全同期を決められた順番で実行
+- 全検査に成功した場合だけ1コミットで公開
+- push競合時は最新mainから最大3回やり直し
+- 内容に変更がなければコミットしない
+
+【統合する処理】
+- Notionスケジュール
+- Notionニュース
+- ディスコグラフィ
+- メンバー
+- About
+- 掛け声
+- 投票
+- ストリーミング
+- 公式リンク
+- お問い合わせ
+- ホーム／共通表示
+- YouTube
+- MV
+- ホーム最新ガイド
+- ICS
+- SEO・OGP・サイトマップ
+- 画像最適化
+- 公開前品質検査
+
+【個別Workflow】
+既存の個別同期Workflowは削除していません。
+定期実行だけを停止し、障害調査や緊急修正時の手動実行として残しています。
+通常は統合同期を使用してください。
+
+【公開前品質検査】
+「Site Quality Gate」と scripts/run-prepublish-checks.sh が以下を確認します。
+- Python構文
+- JavaScript／MJS構文
+- JSON
+- Workflow YAML
+- Workflow内Bash
+- HTML・CSS・JS・JSON・画像の内部参照
+- 重複IDとアンカー
+- title、description、canonical
+- ディスコグラフィのApple Music／Spotify
+- メンバー、公式リンク、スケジュール、MV、YouTubeのデータ整合性
+- JSONとフォールバックJSの一致
+
+data/quality-report.json で結果を確認できます。
+エラーが1件でもあれば統合同期は公開しません。
+警告は公開を止めませんが、次のアクセシビリティ・速度改善で順番に解消します。
+
+【公開前プレビュー】
+GitHub Actionsの「Build Site Preview」を手動実行すると、以下をArtifactとして作成します。
+- 公開前サイトZIP
+- 320px、390px、1024px、1440pxのスクリーンショット
+- visual-smoke-report.json
+- quality-report.json
+
+確認対象はトップ、スケジュール、ディスコグラフィ、YouTubeです。
+横スクロール、ページエラー、ホームのカード件数、ナビ切り替え、Language位置を検査します。
+
+【緊急ロールバック】
+GitHub Actionsの「Roll Back Site」を使用します。
+1. 正常だったコミットSHAまたはタグを target_ref に入力
+2. confirmation に RESTORE と入力
+3. Run workflow
+
+過去の履歴を強制書き換えせず、正常な状態を新しい復元コミットとしてmainへ反映します。
+
+【同期状況】
+sync-status.html の先頭に「サイト統合同期」を追加しました。
+統合Workflow、最新ログ、品質レポート、プレビュー、ロールバックへ移動できます。
+
+【今後の第1段階】
+次回以降は、現在の見た目を維持したまま以下を進めます。
+- 共通ヘッダー／メニュー／フッターの生成元統一
+- HTML内の重複CSS／JavaScript整理
+- JSONと公開HTMLの生成構造整理
+- 警告38件の画像寸法設定
+- より厳密な公開前ビジュアル比較
