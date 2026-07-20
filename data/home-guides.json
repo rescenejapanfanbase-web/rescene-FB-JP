@@ -1,15 +1,24 @@
 {
-  "generatedAt": "2026-07-20T06:12:04.421Z",
+  "generatedAt": "2026-07-20T06:39:00.412Z",
   "source": "git-history",
   "guides": [
+    {
+      "key": "streaming",
+      "title": "ストリーミングガイド",
+      "summary": "YouTube、Spotify、Apple Musicなどの応援方法をまとめています。",
+      "url": "streaming.html",
+      "category": "STREAMING",
+      "updatedAt": "2026-07-20T15:38:47+09:00",
+      "commit": "a193d59"
+    },
     {
       "key": "voting",
       "title": "投票ガイド",
       "summary": "音楽番組の投票方法、アプリ、スコア配分を確認できます。",
       "url": "voting.html",
       "category": "VOTING",
-      "updatedAt": "2026-07-20T15:10:13+09:00",
-      "commit": "9c75ee5"
+      "updatedAt": "2026-07-20T06:12:07Z",
+      "commit": "17d7462"
     },
     {
       "key": "mv",
@@ -46,15 +55,6 @@
       "category": "DISCOGRAPHY",
       "updatedAt": "2026-07-20T02:04:47Z",
       "commit": "da941d0"
-    },
-    {
-      "key": "streaming",
-      "title": "ストリーミングガイド",
-      "summary": "YouTube、Spotify、Apple Musicなどの応援方法をまとめています。",
-      "url": "streaming.html",
-      "category": "STREAMING",
-      "updatedAt": "2026-07-20T10:25:57+09:00",
-      "commit": "fbfd24d"
     }
   ]
 }
