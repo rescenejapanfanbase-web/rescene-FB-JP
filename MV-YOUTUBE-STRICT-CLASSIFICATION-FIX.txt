@@ -1,0 +1,31 @@
+RESCENE JAPAN FANBASE
+MV一覧・YouTubeライブ分類 修正
+更新日: 2026-07-20
+
+■ MV一覧
+・自動掲載対象を完成版のMV、OST MV、Performance Ver./Performance Videoに限定
+・Notionで管理するSPECIAL VIDEO / SPECIAL CLIP / THE FILMは維持
+・次の動画はMV一覧から除外
+  - Behind / Behind Film / Behind the Scenes
+  - 비하인드 / 메이킹 / 촬영 현장
+  - ティザー / トレーラー / プレビュー
+  - MV鑑賞 / リアクション / レビュー / コメンタリー
+  - ダンスプラクティス / チャレンジ
+・Notion管理行であっても、元動画タイトルにビハインド等が含まれる場合は掲載しない
+・Performance Ver. / Performance Versionも自動判定に対応
+
+■ YouTube
+・分類の正はRESCENE Officialの現在のチャンネルタブ
+  /videos  = 動画
+  /shorts  = ショート
+  /streams = ライブ
+・同じ動画が動画タブとライブタブの両方にある場合、ライブを優先
+・過去のvideoType/sourceTypesを現在のタブ所属へ混ぜない
+・詳細メタデータ取得に失敗しても、現在のライブタブ判定を過去の動画判定で上書きしない
+・分類ロジックをバージョン更新し、既存動画を一度再確認
+
+■ 反映順
+1. Sync YouTube Channels
+2. Sync MV List
+
+更新分ZIPは動的データを含みません。現在のNotion画像、ニュース、スケジュール、YouTube一覧は上書きしません。

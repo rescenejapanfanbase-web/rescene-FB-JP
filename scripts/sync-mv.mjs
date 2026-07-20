@@ -113,21 +113,34 @@ function dateInTokyo(value) {
   return `${map.year}-${map.month}-${map.day}`;
 }
 
+const allowedManagedKinds = new Set([
+  "OFFICIAL MV",
+  "OST MV",
+  "PERFORMANCE VIDEO",
+  "SPECIAL VIDEO",
+  "SPECIAL CLIP",
+  "THE FILM",
+]);
+
 function isNonMvCompanionVideo(title = "") {
   const value = String(title).normalize("NFKC");
-  return /(?:TEASER|TRAILER|PREVIEW|HIGHLIGHT\s+MEDLEY|SPOILER|REACTION|REACTS?|REVIEW|COMMENTARY|MAKING|BEHIND(?:\s+THE\s+SCENES)?|DANCE\s+PRACTICE|CHALLENGE|리액션|감상|鑑賞|リアクション|ティザー|メイキング|ビハインド|촬영|메이킹)/i.test(value);
+  return /(?:TEASER|TRAILER|PREVIEW|HIGHLIGHT\s+MEDLEY|SPOILER|REACTION|REACTS?|REVIEW|COMMENTARY|WATCH(?:ING)?|VIEWING|MAKING(?:\s+FILM)?|BEHIND(?:\s+THE\s+SCENES|\s+FILM)?|B[\s.-]*H|DANCE\s+PRACTICE|CHALLENGE|RECORDING\s+BEHIND|비하인드|비하인드\s*필름|메이킹|촬영(?:기|현장)?|뮤비\s*(?:리액션|감상|비하인드)|리액션|감상|코멘터리|리뷰|鑑賞|視聴|リアクション|ティザー|トレーラー|メイキング|ビハインド|撮影(?:現場)?)/i.test(value);
 }
 
 function classifyTitle(title = "") {
   const value = String(title).normalize("NFKC");
   if (isNonMvCompanionVideo(value)) return "";
   if (/\bOST\b/i.test(value) && /(M\/?V|MUSIC\s*VIDEO|VIDEO|CLIP|뮤직비디오)/i.test(value)) return "OST MV";
+  if (/PERFORMANCE\s*(?:VER(?:SION)?\.?|VIDEO|FILM|CLIP)/i.test(value)) return "PERFORMANCE VIDEO";
   if (/THE\s+FILM/i.test(value)) return "THE FILM";
   if (/SPECIAL\s+CLIP/i.test(value)) return "SPECIAL CLIP";
-  if (/PERFORMANCE\s+(?:VIDEO|FILM)|PERFORMANCE\s+CLIP/i.test(value)) return "PERFORMANCE VIDEO";
   if (/SPECIAL\s+VIDEO/i.test(value)) return "SPECIAL VIDEO";
   if (/OFFICIAL\s*(?:M\/?V|MV|MUSIC\s*VIDEO)|\bM\/?V\b|\bMUSIC\s*VIDEO\b|뮤직비디오/i.test(value)) return "OFFICIAL MV";
   return "";
+}
+
+function shouldListManagedVideo(kind, ...titles) {
+  return allowedManagedKinds.has(kind) && !titles.some((title) => isNonMvCompanionVideo(title));
 }
 
 function cleanDisplayTitle(title = "") {
@@ -137,7 +150,7 @@ function cleanDisplayTitle(title = "") {
   return value
     .replace(/^\s*\[?RESCENE\]?\s*(?:\(리센느\))?\s*/i, "")
     .replace(/\s*(?:OFFICIAL\s*)?(?:M\/?V|MV|MUSIC\s*VIDEO)\s*$/i, "")
-    .replace(/\s*(?:SPECIAL\s+VIDEO|PERFORMANCE\s+(?:VIDEO|FILM)|SPECIAL\s+CLIP|THE\s+FILM|OST\s*(?:M\/?V|MV|VIDEO))\s*$/i, "")
+    .replace(/\s*(?:SPECIAL\s+VIDEO|PERFORMANCE\s*(?:VER(?:SION)?\.?|VIDEO|FILM|CLIP)|SPECIAL\s+CLIP|THE\s+FILM|OST\s*(?:M\/?V|MV|VIDEO))\s*$/i, "")
     .replace(/^[-–—|:]+|[-–—|:]+$/g, "")
     .trim() || value;
 }
@@ -193,8 +206,9 @@ function convertPage(page) {
 function sourceCandidate(video) {
   if (!video || video.videoType === "short" || video.videoType === "live") return null;
   const kind = classifyTitle(video.title);
-  // 自動追加は完成版の公式MV／OST MVだけ。SPECIAL VIDEO等はNotionで明示管理する。
-  if (!["OFFICIAL MV", "OST MV"].includes(kind)) return null;
+  // 自動追加は完成版MV・OST MV・Performance Ver.だけ。
+  // SPECIAL VIDEO等はNotionで明示管理し、ビハインドや鑑賞動画は追加しない。
+  if (!["OFFICIAL MV", "OST MV", "PERFORMANCE VIDEO"].includes(kind)) return null;
   const date = dateInTokyo(video.publishedAt || video.updatedAt);
   return {
     videoId: video.videoId,
@@ -260,8 +274,12 @@ for (const row of notionRows) {
     }
   }
   const kind = row.kind || classifyTitle(video.title) || "OFFICIAL MV";
-  const date = dateInTokyo(row.date || video.publishedAt || video.updatedAt);
   const title = row.displayTitle || row.title || cleanDisplayTitle(video.title) || "Music Video";
+  if (!shouldListManagedVideo(kind, video.title, row.title, row.displayTitle, title)) {
+    console.warn(`::warning::MV一覧の対象外として除外しました: ${video.title || row.title || title} (${row.videoId})`);
+    continue;
+  }
+  const date = dateInTokyo(row.date || video.publishedAt || video.updatedAt);
   items.push({
     videoId: row.videoId,
     anchor: previousItemMap.get(row.videoId)?.anchor || `mv-${safeSlug(title, row.videoId)}-${row.videoId.slice(-4).toLowerCase()}`,

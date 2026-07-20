@@ -8,6 +8,7 @@ const outputPath = "data/youtube-channels.json";
 const pythonCommand = process.env.PYTHON_COMMAND || "python";
 const LIVE_METADATA_BATCH_SIZE = 40;
 const LIVE_METADATA_CONCURRENCY = 3;
+const CLASSIFICATION_VERSION = 2;
 
 const channelConfigs = [
   {
@@ -158,7 +159,9 @@ function normalizeEntry(entry, videoType, previousVideo) {
     publishedAt,
     updatedAt: publishedAt || previousVideo?.updatedAt || null,
     videoType,
-    sourceTypes: uniqueTypes(previousVideo?.sourceTypes || [], videoType),
+    // sourceTypesは今回取得したチャンネルタブだけを記録する。
+    // 過去の分類を混ぜると、タブ移動後も古い分類が残るため引き継がない。
+    sourceTypes: [videoType],
     sourceVideoIds: uniqueVideoIds(previousVideo?.sourceVideoIds || [], previousVideo?.videoId, videoId),
     dateAccuracy: previousExactPublishedAt ? "exact" : (extractedPublishedAt ? "approximate" : (previousVideo?.dateAccuracy || "unknown")),
     ...(previousVideo?.dateMetadataVerified ? { dateMetadataVerified: true } : {}),
@@ -270,6 +273,11 @@ function mergeVideos(videoGroups) {
     if (aTime !== bTime) return bTime - aTime;
     return a.videoId.localeCompare(b.videoId);
   });
+}
+
+function currentSourceTypes(video) {
+  const listed = Array.isArray(video?.sourceTypes) ? video.sourceTypes : [];
+  return listed.length ? uniqueTypes(listed) : uniqueTypes(video?.videoType);
 }
 
 function typeFromChannelTabs(sourceTypes = [], metadataSaysLive = false) {
@@ -394,6 +402,8 @@ function exactPublishedDate(metadata, actualLive) {
 }
 
 function shouldRefreshVideoMetadata(previousVideo) {
+  // 分類ロジック更新時は全動画を一度だけ再確認する。
+  if (previousVideo?.classificationVersion !== CLASSIFICATION_VERSION) return true;
   // Legacy/RSS-only entries may have an exact date but no live-status check.
   // They must be fetched once so archived livestreams do not remain in 「動画」.
   if (!previousVideo?.dateMetadataVerified) return true;
@@ -423,6 +433,11 @@ async function verifyVideoMetadata(videos, previousVideoMap, channelLabel) {
 
     if (!metadata && previousVideo?.dateMetadataVerified) {
       reused += 1;
+      const sourceTypes = currentSourceTypes(video);
+      const previousStatus = String(previousVideo.liveStatus || "").toLowerCase();
+      const metadataSaysLive = ["is_live", "is_upcoming", "post_live", "was_live"].includes(previousStatus);
+      const nextType = typeFromChannelTabs(sourceTypes, metadataSaysLive);
+      if (nextType !== previousVideo.videoType) correctedTypes += 1;
       return {
         ...video,
         videoId: previousVideo.videoId || video.videoId,
@@ -431,18 +446,33 @@ async function verifyVideoMetadata(videos, previousVideoMap, channelLabel) {
         thumbnail: previousVideo.thumbnail || video.thumbnail,
         publishedAt: previousVideo.publishedAt || video.publishedAt,
         updatedAt: previousVideo.updatedAt || video.updatedAt,
-        videoType: previousVideo.videoType || video.videoType,
-        sourceTypes: uniqueTypes(video.sourceTypes || [], previousVideo.sourceTypes || [], previousVideo.videoType),
+        // 最新のチャンネルタブを過去のvideoTypeより優先する。
+        videoType: nextType,
+        sourceTypes,
         sourceVideoIds: uniqueVideoIds(video.sourceVideoIds || [], video.videoId, previousVideo.sourceVideoIds || [], previousVideo.videoId),
         dateAccuracy: previousVideo.dateAccuracy || video.dateAccuracy,
         dateMetadataVerified: true,
+        ...(sourceTypes.includes("live") || sourceTypes.includes("short") || metadataSaysLive
+          ? { classificationVersion: CLASSIFICATION_VERSION }
+          : {}),
         ...(previousVideo.liveMetadataVerified ? {
           liveMetadataVerified: true,
           liveStatus: previousVideo.liveStatus,
         } : {}),
       };
     }
-    if (!metadata) return video;
+    if (!metadata) {
+      const sourceTypes = currentSourceTypes(video);
+      return {
+        ...video,
+        videoType: typeFromChannelTabs(sourceTypes, false),
+        sourceTypes,
+        // 詳細取得に失敗した通常動画は次回も再確認する。
+        ...(sourceTypes.includes("live") || sourceTypes.includes("short")
+          ? { classificationVersion: CLASSIFICATION_VERSION }
+          : {}),
+      };
+    }
 
     const canonicalId = videoIdFromEntry(metadata) || video.videoId;
     const metadataSaysLive = isActualLive(metadata);
@@ -467,6 +497,7 @@ async function verifyVideoMetadata(videos, previousVideoMap, channelLabel) {
       dateMetadataVerified: Boolean(publishedAt),
       liveMetadataVerified: true,
       liveStatus,
+      classificationVersion: CLASSIFICATION_VERSION,
       sourceTypes: uniqueTypes(video.sourceTypes || [], nextType),
       sourceVideoIds: uniqueVideoIds(video.sourceVideoIds || [], video.videoId, canonicalId),
     };
@@ -476,6 +507,21 @@ async function verifyVideoMetadata(videos, previousVideoMap, channelLabel) {
   const removedDuplicates = verified.length - merged.length;
   console.log(`${channelLabel} / 詳細日時確認: 全${videos.length}件、詳細取得${metadataMap.size}件、日時修正${correctedDates}件、分類修正${correctedTypes}件、再利用${reused}件、重複除去${removedDuplicates}件。`);
   return merged;
+}
+
+
+function enforceChannelTabClassification(videos) {
+  return mergeVideos([videos.map((video) => {
+    const sourceTypes = currentSourceTypes(video);
+    const liveStatus = String(video.liveStatus || "").toLowerCase();
+    const metadataSaysLive = ["is_live", "is_upcoming", "post_live", "was_live"].includes(liveStatus);
+    return {
+      ...video,
+      sourceTypes,
+      videoType: typeFromChannelTabs(sourceTypes, metadataSaysLive),
+      ...(video.classificationVersion ? { classificationVersion: video.classificationVersion } : {}),
+    };
+  })]);
 }
 
 function enrichWithFeed(videos, feedVideos) {
@@ -590,6 +636,9 @@ for (const config of channelConfigs) {
     console.warn(`::warning::${config.label}: RSSによる最新日時の補完に失敗しました（${error.message}）`);
   }
 
+  // 最終分類は最新の /videos・/shorts・/streams タブ所属を正とする。
+  finalVideos = enforceChannelTabClassification(finalVideos);
+
   channels.push({
     ...config,
     feedUrl,
@@ -608,6 +657,7 @@ const candidate = {
   generatedAt: new Date().toISOString(),
   source: "YouTube channel tabs via yt-dlp",
   collectionMode: "all-public-videos-with-verified-publish-dates",
+  classificationVersion: CLASSIFICATION_VERSION,
   channels,
 };
 
