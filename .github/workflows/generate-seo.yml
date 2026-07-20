@@ -12,6 +12,8 @@ on:
       - "data/news-data.js"
       - "data/discography.json"
       - "data/discography-data.js"
+      - "data/about.json"
+      - "data/about-data.js"
       - "assets/**"
       - "news/**"
       - "scripts/generate-seo.py"
