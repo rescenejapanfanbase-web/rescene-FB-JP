@@ -1,16 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T10:38:29Z",
-  "startedAt": "2026-07-20T10:38:24Z",
-  "elapsedSeconds": 5.68,
+  "generatedAt": "2026-07-20T12:16:22Z",
+  "startedAt": "2026-07-20T12:16:19Z",
+  "elapsedSeconds": 2.96,
   "summary": {
-    "checked": 42,
+    "checked": 44,
     "ok": 42,
-    "warning": 0,
+    "warning": 2,
     "broken": 0,
-    "hosts": 12
+    "hosts": 14
   },
   "services": [
+    {
+      "key": "facebook",
+      "label": "Facebook",
+      "checked": 1,
+      "ok": 0,
+      "warning": 1,
+      "broken": 0
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
+      "checked": 1,
+      "ok": 0,
+      "warning": 1,
+      "broken": 0
+    },
     {
       "key": "app-store",
       "label": "App Store",
@@ -40,14 +56,6 @@
       "label": "Google Play",
       "checked": 8,
       "ok": 8,
-      "warning": 0,
-      "broken": 0
-    },
-    {
-      "key": "instagram",
-      "label": "Instagram",
-      "checked": 1,
-      "ok": 1,
       "warning": 0,
       "broken": 0
     },
@@ -84,6 +92,14 @@
       "broken": 0
     },
     {
+      "key": "weibo",
+      "label": "Weibo",
+      "checked": 1,
+      "ok": 1,
+      "warning": 0,
+      "broken": 0
+    },
+    {
       "key": "x",
       "label": "X",
       "checked": 7,
@@ -101,6 +117,47 @@
     }
   ],
   "items": [
+    {
+      "url": "https://www.facebook.com/RESCENE.official",
+      "normalizedUrl": "https://www.facebook.com/RESCENE.official",
+      "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FRESCENE.official",
+      "service": "Facebook",
+      "serviceKey": "facebook",
+      "status": "warning",
+      "httpStatus": 400,
+      "message": "HTTP 400（手動確認が必要です）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 90,
+          "label": "Facebook"
+        }
+      ]
+    },
+    {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "warning",
+      "httpStatus": 429,
+      "message": "HTTP 429（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 51,
+          "label": "Instagram"
+        },
+        {
+          "file": "index.html",
+          "line": 666,
+          "label": "Instagram"
+        }
+      ]
+    },
     {
       "url": "https://apps.apple.com/app/id1185735018",
       "normalizedUrl": "https://apps.apple.com/app/id1185735018",
@@ -356,14 +413,14 @@
       "method": "apple-lookup",
       "sources": [
         {
-          "file": "index.html",
-          "line": 667,
+          "file": "data/official-links.json",
+          "line": 116,
           "label": "Apple Music"
         },
         {
-          "file": "links.html",
-          "line": 500,
-          "label": "STREAMING Apple Music ↗"
+          "file": "index.html",
+          "line": 667,
+          "label": "Apple Music"
         }
       ]
     },
@@ -606,29 +663,6 @@
       ]
     },
     {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "index.html",
-          "line": 666,
-          "label": "Instagram"
-        },
-        {
-          "file": "links.html",
-          "line": 495,
-          "label": "Instagram OPEN ↗"
-        }
-      ]
-    },
-    {
       "url": "https://artist.mnetplus.world/main/stg/rescene-official",
       "normalizedUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
       "finalUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
@@ -640,9 +674,9 @@
       "method": "http-get",
       "sources": [
         {
-          "file": "links.html",
-          "line": 498,
-          "label": "Plus Chat OPEN ↗"
+          "file": "data/official-links.json",
+          "line": 12,
+          "label": "RESCENE Community"
         }
       ]
     },
@@ -770,14 +804,14 @@
       "method": "spotify-oembed",
       "sources": [
         {
-          "file": "index.html",
-          "line": 667,
+          "file": "data/official-links.json",
+          "line": 129,
           "label": "Spotify"
         },
         {
-          "file": "links.html",
-          "line": 500,
-          "label": "STREAMING Spotify ↗"
+          "file": "index.html",
+          "line": 667,
+          "label": "Spotify"
         }
       ]
     },
@@ -793,14 +827,32 @@
       "method": "http-get",
       "sources": [
         {
-          "file": "index.html",
-          "line": 666,
+          "file": "data/official-links.json",
+          "line": 64,
           "label": "TikTok"
         },
         {
-          "file": "links.html",
-          "line": 496,
-          "label": "TikTok OPEN ↗"
+          "file": "index.html",
+          "line": 666,
+          "label": "TikTok"
+        }
+      ]
+    },
+    {
+      "url": "https://weibo.com/rescene",
+      "normalizedUrl": "https://weibo.com/rescene",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784549781597&sudaref=",
+      "service": "Weibo",
+      "serviceKey": "weibo",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 103,
+          "label": "Weibo"
         }
       ]
     },
@@ -918,9 +970,9 @@
       "method": "http-get",
       "sources": [
         {
-          "file": "links.html",
-          "line": 494,
-          "label": "Members X OPEN ↗"
+          "file": "data/official-links.json",
+          "line": 38,
+          "label": "Members X"
         }
       ]
     },
@@ -936,14 +988,14 @@
       "method": "http-get",
       "sources": [
         {
-          "file": "index.html",
-          "line": 666,
+          "file": "data/official-links.json",
+          "line": 25,
           "label": "Official X"
         },
         {
-          "file": "links.html",
-          "line": 493,
-          "label": "Official X OPEN ↗"
+          "file": "index.html",
+          "line": 666,
+          "label": "Official X"
         }
       ]
     },
@@ -1010,6 +1062,11 @@
       "method": "youtube-page",
       "sources": [
         {
+          "file": "data/official-links.json",
+          "line": 77,
+          "label": "YouTube"
+        },
+        {
           "file": "data/youtube-channels.json",
           "line": null,
           "label": "RESCENE Official"
@@ -1018,11 +1075,6 @@
           "file": "index.html",
           "line": 666,
           "label": "YouTube"
-        },
-        {
-          "file": "links.html",
-          "line": 497,
-          "label": "YouTube OPEN ↗"
         },
         {
           "file": "youtube.html",
