@@ -1,6 +1,6 @@
 window.RESCENE_DISCOGRAPHY = {
-  "generatedAt": "2026-07-20T00:00:00.000Z",
-  "source": "initial-import",
+  "generatedAt": "2026-07-20T02:04:47.756Z",
+  "source": "notion",
   "dataSourceId": "8f582d52-96eb-4148-a24b-add07379ee07",
   "notionDatabaseUrl": "https://app.notion.com/p/ca4fadead9d64128a5e8dc9730e0033d",
   "categories": [
@@ -64,7 +64,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/album/5fooRwtJmNvt64WhLN5Chy",
       "cover": "",
       "order": 10,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-812f-ad08-d6760021cfe6",
+      "notionUrl": "https://app.notion.com/p/Pretty-Girl-3a3229d219da812fad08d6760021cfe6"
     },
     {
       "anchor": "release-runaway",
@@ -89,7 +91,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/intl-ja/album/6wL6HetMdQwsTqZzCBpGGJ",
       "cover": "",
       "order": 20,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-8162-874d-dafc2a135c52",
+      "notionUrl": "https://app.notion.com/p/Runaway-3a3229d219da8162874ddafc2a135c52"
     },
     {
       "anchor": "release-busy-boy-galantis-remix",
@@ -114,7 +118,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/intl-ja/album/5ImFXutiGomYRjY0iZsaEI",
       "cover": "",
       "order": 30,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-8191-864c-f0bcbbad0ae6",
+      "notionUrl": "https://app.notion.com/p/Busy-Boy-Galantis-Remix-3a3229d219da8191864cf0bcbbad0ae6"
     },
     {
       "anchor": "release-busy-boy",
@@ -145,7 +151,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/intl-ja/album/0dbuXh0XcMsrgQsVep3jAk",
       "cover": "",
       "order": 40,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-8150-8978-e28929796119",
+      "notionUrl": "https://app.notion.com/p/RESCENE-X-3a3229d219da81508978e28929796119"
     },
     {
       "anchor": "release-pinball-japanese",
@@ -170,7 +178,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/intl-ja/album/4wywAxm5NwYkpngq2hIFWj",
       "cover": "",
       "order": 50,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-8165-9e4f-f3a793343101",
+      "notionUrl": "https://app.notion.com/p/Pinball-3a3229d219da81659e4ff3a793343101"
     },
     {
       "anchor": "release-glow-up-english",
@@ -195,7 +205,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/intl-ja/track/2oLz5wJhDoJvcH0z4mOJ6X",
       "cover": "",
       "order": 60,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-810b-9e16-ee4ae3708333",
+      "notionUrl": "https://app.notion.com/p/Glow-Up-English-Version-3a3229d219da810b9e16ee4ae3708333"
     },
     {
       "anchor": "release-uhuh-japanese",
@@ -220,7 +232,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/intl-ja/track/0Jl0gg7riUgpPyNhmPDG7w",
       "cover": "",
       "order": 70,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-81f8-9013-c272230acb80",
+      "notionUrl": "https://app.notion.com/p/UhUh-Japanese-Version-3a3229d219da81f89013c272230acb80"
     },
     {
       "anchor": "release-yoyo-japanese",
@@ -245,7 +259,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/intl-ja/track/6fJJO72ssk4vPYfd3HgNUm",
       "cover": "",
       "order": 80,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-815a-9b48-ed96a6598a50",
+      "notionUrl": "https://app.notion.com/p/YoYo-Japanese-Version-3a3229d219da815a9b48ed96a6598a50"
     },
     {
       "anchor": "release-lip-bomb",
@@ -294,7 +310,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/album/3H7MTJVprjcvlvCeQdRe1H",
       "cover": "",
       "order": 10,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-81ae-8d79-c91841202c2f",
+      "notionUrl": "https://app.notion.com/p/lip-bomb-3a3229d219da81ae8d79c91841202c2f"
     },
     {
       "anchor": "release-glow-up",
@@ -343,7 +361,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/intl-ja/album/0Ka3xa6oOWmW1hIjjjxEW0",
       "cover": "",
       "order": 20,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-812c-8e24-d3565c584012",
+      "notionUrl": "https://app.notion.com/p/Glow-Up-3a3229d219da812c8e24d3565c584012"
     },
     {
       "anchor": "release-scenedrome",
@@ -386,7 +406,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/album/0msC9kyzmtznRwIxwafISH",
       "cover": "",
       "order": 30,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-81a7-9e41-fff1de9808ed",
+      "notionUrl": "https://app.notion.com/p/SCENEDROME-3a3229d219da81a79e41fff1de9808ed"
     },
     {
       "anchor": "release-dearest",
@@ -417,7 +439,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/intl-ja/album/2oXZPVj5JczGoUR82tc28h",
       "cover": "",
       "order": 10,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-81aa-87e7-d8fb2a4e4eed",
+      "notionUrl": "https://app.notion.com/p/Dearest-3a3229d219da81aa87e7d8fb2a4e4eed"
     },
     {
       "anchor": "release-rescene",
@@ -448,7 +472,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/intl-ja/album/1C78MdRvc88435lTnGxGUF",
       "cover": "",
       "order": 20,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-8103-bcbe-e3dd4f6fbbdd",
+      "notionUrl": "https://app.notion.com/p/Re-Scene-3a3229d219da8103bcbee3dd4f6fbbdd"
     },
     {
       "anchor": "release-specials-ost",
@@ -473,7 +499,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/intl-ja/track/1rHDWZLK5NVKfF2u55xmR7",
       "cover": "",
       "order": 10,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-811b-a320-c526a9739bea",
+      "notionUrl": "https://app.notion.com/p/Higher-3a3229d219da811ba320c526a9739bea"
     },
     {
       "anchor": "release-love-frequency",
@@ -498,7 +526,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/intl-ja/album/3cgYAtoLlt8nO7YdoEuY2l",
       "cover": "",
       "order": 20,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-81d4-baad-c337854f114b",
+      "notionUrl": "https://app.notion.com/p/Love-Frequency-3a3229d219da81d4baadc337854f114b"
     },
     {
       "anchor": "release-bambambam",
@@ -523,7 +553,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/album/2xi6m9KfCxbzuieSDZKCGl",
       "cover": "",
       "order": 30,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-8150-b901-e1f4f0c9b203",
+      "notionUrl": "https://app.notion.com/p/BamBamBam-3a3229d219da8150b901e1f4f0c9b203"
     },
     {
       "anchor": "release-counting-star",
@@ -554,7 +586,9 @@ window.RESCENE_DISCOGRAPHY = {
       "spotify": "https://open.spotify.com/intl-ja/album/1HNgrDrFTqZotDo4scF2IK",
       "cover": "",
       "order": 40,
-      "published": true
+      "published": true,
+      "notionPageId": "3a3229d2-19da-81f4-8623-f08c73bf0439",
+      "notionUrl": "https://app.notion.com/p/Counting-Star-3a3229d219da81f48623f08c73bf0439"
     }
   ]
 };
