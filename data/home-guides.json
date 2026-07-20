@@ -1,15 +1,24 @@
 {
-  "generatedAt": "2026-07-20T05:29:31.759Z",
+  "generatedAt": "2026-07-20T06:12:04.421Z",
   "source": "git-history",
   "guides": [
+    {
+      "key": "voting",
+      "title": "投票ガイド",
+      "summary": "音楽番組の投票方法、アプリ、スコア配分を確認できます。",
+      "url": "voting.html",
+      "category": "VOTING",
+      "updatedAt": "2026-07-20T15:10:13+09:00",
+      "commit": "9c75ee5"
+    },
     {
       "key": "mv",
       "title": "MV一覧",
       "summary": "RESCENEのミュージックビデオを作品別に確認できます。",
       "url": "mv.html",
       "category": "MUSIC VIDEO",
-      "updatedAt": "2026-07-20T14:29:15+09:00",
-      "commit": "533a01d"
+      "updatedAt": "2026-07-20T05:29:52Z",
+      "commit": "4cbaba5"
     },
     {
       "key": "chants",
@@ -37,15 +46,6 @@
       "category": "DISCOGRAPHY",
       "updatedAt": "2026-07-20T02:04:47Z",
       "commit": "da941d0"
-    },
-    {
-      "key": "voting",
-      "title": "投票ガイド",
-      "summary": "音楽番組の投票方法、アプリ、スコア配分を確認できます。",
-      "url": "voting.html",
-      "category": "VOTING",
-      "updatedAt": "2026-07-20T10:25:57+09:00",
-      "commit": "fbfd24d"
     },
     {
       "key": "streaming",
