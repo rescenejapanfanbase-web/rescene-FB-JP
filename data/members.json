@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-20T09:30:00.000Z",
-  "source": "initial",
+  "generatedAt": "2026-07-20T10:42:12.379Z",
+  "source": "notion",
   "dataSourceId": "659553c4-dfa8-4d81-98e1-c259df27bafe",
   "notionDatabaseUrl": "https://app.notion.com/p/5c70b299a510423c9c6d71dcf57968af",
   "members": [
@@ -29,7 +29,9 @@
         "date": "2026-05-22",
         "description": "ウォニの故郷・巨済市の広報大使として、RESCENEが任命されました。",
         "articleUrl": "articles/geoje-ambassador.html"
-      }
+      },
+      "notionPageId": "3a3229d2-19da-8131-9d4c-f39ac8d24ef8",
+      "notionUrl": "https://app.notion.com/p/WONI-3a3229d219da81319d4cf39ac8d24ef8"
     },
     {
       "slug": "liv",
@@ -56,7 +58,9 @@
         "date": "2026-06-24",
         "description": "リブの故郷・水原市の広報大使として、RESCENEが任命されました。",
         "articleUrl": "articles/suwon-ambassador.html"
-      }
+      },
+      "notionPageId": "3a3229d2-19da-81d8-8f44-e88020dffe8a",
+      "notionUrl": "https://app.notion.com/p/LIV-3a3229d219da81d88f44e88020dffe8a"
     },
     {
       "slug": "minami",
@@ -78,7 +82,9 @@
       "anchor": "minami-profile",
       "order": 30,
       "personalUrl": "",
-      "ambassador": null
+      "ambassador": null,
+      "notionPageId": "3a3229d2-19da-8103-bf76-c448afde5853",
+      "notionUrl": "https://app.notion.com/p/MINAMI-3a3229d219da8103bf76c448afde5853"
     },
     {
       "slug": "may",
@@ -105,7 +111,9 @@
         "date": "2026-07-02",
         "description": "メイの故郷・高陽市の広報大使として、RESCENEが任命されました。",
         "articleUrl": "articles/goyang-ambassador.html"
-      }
+      },
+      "notionPageId": "3a3229d2-19da-811d-9cb8-ca42ad652718",
+      "notionUrl": "https://app.notion.com/p/MAY-3a3229d219da811d9cb8ca42ad652718"
     },
     {
       "slug": "zena",
@@ -132,7 +140,9 @@
         "date": "2026-06-29",
         "description": "ゼナの故郷・慶州市の観光広報大使として、RESCENEが任命されました。",
         "articleUrl": "articles/gyeongju-ambassador.html"
-      }
+      },
+      "notionPageId": "3a3229d2-19da-81f3-ba69-dbeb2239fc98",
+      "notionUrl": "https://app.notion.com/p/ZENA-3a3229d219da81f3ba69dbeb2239fc98"
     }
   ]
 }
