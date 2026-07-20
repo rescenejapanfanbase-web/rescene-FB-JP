@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T06:40:12.926Z",
+  "generatedAt": "2026-07-20T09:41:56.749Z",
   "source": "notion",
   "dataSourceId": "c769b3a6-e306-4665-84c7-dcfff92cfe5b",
   "notionDatabaseUrl": "https://app.notion.com/p/a0180c81202a46b780f0045abfd0f00e",
@@ -97,7 +97,7 @@
     {
       "title": "Stationhead",
       "type": "コミュニティ",
-      "subtitle": "海外NSWERのリスニングパーティー",
+      "subtitle": "ファンと楽しむリスニングパーティー",
       "description": "リスニングパーティーへ参加し、世界中のファンと一緒に音楽を楽しめます。",
       "points": [
         "Spotify PremiumまたはApple Musicの連携状態を確認する",
@@ -112,12 +112,12 @@
         },
         {
           "title": "2. ルームへ参加",
-          "text": "NSWERのルームを開き、配信中のパーティーへ参加します。",
+          "text": "案内されたルームを開き、配信中のパーティーへ参加します。",
           "image": ""
         }
       ],
-      "link": "https://stationhead.com/c/nswer",
-      "buttonLabel": "Stationheadを開く",
+      "link": "",
+      "buttonLabel": "",
       "icon": "",
       "note": "",
       "anchor": "streaming-stationhead",
