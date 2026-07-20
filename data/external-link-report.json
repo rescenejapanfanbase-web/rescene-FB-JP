@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T06:12:18Z",
-  "startedAt": "2026-07-20T06:12:15Z",
-  "elapsedSeconds": 2.9,
+  "generatedAt": "2026-07-20T06:39:26Z",
+  "startedAt": "2026-07-20T06:39:23Z",
+  "elapsedSeconds": 2.68,
   "summary": {
-    "checked": 42,
-    "ok": 42,
+    "checked": 43,
+    "ok": 43,
     "warning": 0,
     "broken": 0,
-    "hosts": 12
+    "hosts": 13
   },
   "services": [
     {
@@ -70,6 +70,14 @@
     {
       "key": "spotify",
       "label": "Spotify",
+      "checked": 1,
+      "ok": 1,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "other",
+      "label": "stationhead.com",
       "checked": 1,
       "ok": 1,
       "warning": 0,
@@ -380,7 +388,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 111,
+          "line": 113,
           "label": "GitHubリポジトリ サイトファイルと更新履歴を確認 ↗"
         }
       ]
@@ -398,7 +406,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 111,
+          "line": 113,
           "label": "GitHub Actions一覧 すべての同期・チェック履歴を確認 ↗"
         }
       ]
@@ -416,7 +424,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 111,
+          "line": 113,
           "label": "バックアップ一覧 保存ZIPの作成履歴とArtifactを確認 ↗"
         }
       ]
@@ -778,6 +786,24 @@
           "file": "links.html",
           "line": 500,
           "label": "STREAMING Spotify ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://stationhead.com/c/nswer",
+      "normalizedUrl": "https://stationhead.com/c/nswer",
+      "finalUrl": "https://www.stationhead.com/c/nswer",
+      "service": "stationhead.com",
+      "serviceKey": "other",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/streaming-guide.json",
+          "line": 119,
+          "label": "Stationhead"
         }
       ]
     },
