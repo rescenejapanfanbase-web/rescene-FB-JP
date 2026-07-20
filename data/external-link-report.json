@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T06:39:46Z",
-  "startedAt": "2026-07-20T06:39:43Z",
-  "elapsedSeconds": 3.16,
+  "generatedAt": "2026-07-20T10:38:29Z",
+  "startedAt": "2026-07-20T10:38:24Z",
+  "elapsedSeconds": 5.68,
   "summary": {
-    "checked": 43,
-    "ok": 43,
+    "checked": 42,
+    "ok": 42,
     "warning": 0,
     "broken": 0,
-    "hosts": 13
+    "hosts": 12
   },
   "services": [
     {
@@ -70,14 +70,6 @@
     {
       "key": "spotify",
       "label": "Spotify",
-      "checked": 1,
-      "ok": 1,
-      "warning": 0,
-      "broken": 0
-    },
-    {
-      "key": "other",
-      "label": "stationhead.com",
       "checked": 1,
       "ok": 1,
       "warning": 0,
@@ -365,7 +357,7 @@
       "sources": [
         {
           "file": "index.html",
-          "line": 708,
+          "line": 667,
           "label": "Apple Music"
         },
         {
@@ -388,7 +380,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 113,
+          "line": 111,
           "label": "GitHubリポジトリ サイトファイルと更新履歴を確認 ↗"
         }
       ]
@@ -406,7 +398,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 113,
+          "line": 111,
           "label": "GitHub Actions一覧 すべての同期・チェック履歴を確認 ↗"
         }
       ]
@@ -424,7 +416,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 113,
+          "line": 111,
           "label": "バックアップ一覧 保存ZIPの作成履歴とArtifactを確認 ↗"
         }
       ]
@@ -626,7 +618,7 @@
       "sources": [
         {
           "file": "index.html",
-          "line": 707,
+          "line": 666,
           "label": "Instagram"
         },
         {
@@ -779,31 +771,13 @@
       "sources": [
         {
           "file": "index.html",
-          "line": 708,
+          "line": 667,
           "label": "Spotify"
         },
         {
           "file": "links.html",
           "line": 500,
           "label": "STREAMING Spotify ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://stationhead.com/c/nswer",
-      "normalizedUrl": "https://stationhead.com/c/nswer",
-      "finalUrl": "https://www.stationhead.com/c/nswer",
-      "service": "stationhead.com",
-      "serviceKey": "other",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/streaming-guide.json",
-          "line": 119,
-          "label": "Stationhead"
         }
       ]
     },
@@ -820,7 +794,7 @@
       "sources": [
         {
           "file": "index.html",
-          "line": 707,
+          "line": 666,
           "label": "TikTok"
         },
         {
@@ -963,7 +937,7 @@
       "sources": [
         {
           "file": "index.html",
-          "line": 707,
+          "line": 666,
           "label": "Official X"
         },
         {
@@ -1042,7 +1016,7 @@
         },
         {
           "file": "index.html",
-          "line": 707,
+          "line": 666,
           "label": "YouTube"
         },
         {
