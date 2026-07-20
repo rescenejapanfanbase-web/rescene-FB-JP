@@ -2,7 +2,7 @@
   'use strict';
 
   const REPOSITORY='rescenejapanfanbase-web/rescene-FB-JP';
-  const API_CACHE_KEY='rescene-sync-status-api-v7';
+  const API_CACHE_KEY='rescene-sync-status-api-v8';
   const API_CACHE_MS=5*60*1000;
   const workflowBase=`https://github.com/${REPOSITORY}/actions/workflows/`;
 
@@ -46,6 +46,22 @@
           generatedAt:data?.generatedAt||null,
           state:errors.length?'warning':'success',
           message:errors.length?`${errors.map(channel=>channel.label||channel.key).join('、')}の一部取得で警告があります。取得済みデータを表示しています。`:`${channels.length}チャンネル・${videos}件の${allMode?'全公開動画':'動画'}データを読み込みました。`,
+        };
+      },
+    },
+    mv:{
+      workflow:'sync-mv.yml',
+      dataUrl:'data/mv.json',
+      parseData(data){
+        const items=Array.isArray(data?.items)?data.items:[];
+        const stats=data?.stats||{};
+        const pending=data?.source==='initial'||data?.source==='initial-fallback'||!data?.generatedAt;
+        return {
+          count:`${items.length}件`,
+          detail:`OFFICIAL MV ${Number(stats.official)||0} / SPECIAL・OST ${Number(stats.special)||0} / 自動検出 ${Number(stats.autoDetected)||0}`,
+          generatedAt:data?.generatedAt||null,
+          state:pending?'warning':'success',
+          message:pending?'初期MVデータを表示しています。Notionを連携し「Sync MV List」を一度実行してください。':`YouTubeとNotionからMV一覧 ${items.length}件を生成しています。`,
         };
       },
     },

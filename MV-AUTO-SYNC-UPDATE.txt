@@ -1,0 +1,4 @@
+MV一覧をYouTube＋Notionで自動更新する機能を追加しました。
+既存15本はNotionへ移行済みです。
+新しいMV・SPECIAL CLIP・PERFORMANCE VIDEO・OST映像はRESCENE Officialから自動検出します。
+誤検出はNotionの掲載状態を「除外」にすることで非表示にできます。

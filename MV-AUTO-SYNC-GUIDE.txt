@@ -1,0 +1,61 @@
+RESCENE MV一覧 自動同期ガイド
+
+■ 管理ページ
+https://app.notion.com/p/5f26ec69338a46f1ad9a82e070e92ad9
+
+■ 自動更新の流れ
+1. Sync YouTube ChannelsがRESCENE Officialの公開動画を取得
+2. Sync MV ListがMV候補を抽出
+3. Notionの表示・除外・表記設定を適用
+4. data/mv.json / data/mv-data.jsとサムネイルをGitHubへ保存
+5. mv.htmlとサイト内検索へ反映
+
+■ 自動検出する動画
+・OFFICIAL M/V / MUSIC VIDEO
+・SPECIAL VIDEO
+・PERFORMANCE VIDEO / PERFORMANCE FILM
+・SPECIAL CLIP
+・THE FILM
+・OST M/V / OST VIDEO
+
+ショートとライブ配信はMV一覧の自動候補から除外します。
+
+■ Notion項目
+・タイトル：管理上の名称
+・掲載状態：表示 / 除外
+・YouTube動画ID：URLのv=以降の11文字
+・表示タイトル：サイトに表示する曲名
+・種類：カード上のバッジ
+・区分：OFFICIAL MV / SPECIAL・OST
+・公開日：サイトで表示する日付
+・サムネイル：差し替え画像を直接アップロード
+・画像パス：既存GitHub画像を使う場合のパス
+・表示順：同じ公開日の並び順
+・注記：カードに補足表示する文章
+
+■ 新しく自動検出された動画を除外する
+1. Notionで新しい行を追加
+2. YouTube動画IDを入力
+3. 掲載状態を「除外」にする
+4. ActionsのSync MV Listを実行
+
+■ 自動検出された動画の表記を直す
+1. Notionで行を追加
+2. YouTube動画IDを入力
+3. 掲載状態を「表示」にする
+4. 表示タイトル・種類・区分・公開日を入力
+5. Sync MV Listを実行
+
+■ サムネイルを変更する
+Notionの「サムネイル」欄へ画像をアップロードしてください。
+同期時にassets/mv/notion/へ自動保存されます。GitHubへの手動アップロードは不要です。
+Notion画像 > 画像パス > YouTubeサムネイルの順で優先されます。
+
+■ 初回設定
+このNotionデータベースを、既存のNOTION_TOKENに対応する「RESCENE Schedule Sync」Integrationへ接続してください。
+GitHub Actions Variablesへの登録は任意です。
+変数名: NOTION_MV_DATA_SOURCE_ID
+初期値: e85d399d-5506-4ab3-8355-e94325fbf5b1
+
+■ 実行頻度
+3時間ごとの43分、YouTubeデータ更新時、手動実行。

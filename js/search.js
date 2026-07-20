@@ -105,6 +105,12 @@
   keywords:`${channel.label||''} ${channel.handle||''} ${video.videoType||'video'} YouTube 動画 ショート ライブ`,image:video.thumbnail||'',date:video.publishedAt||'',external:/^https?:\/\//i.test(video.url||''),priority:55,
  })));
 
+ const mvEntries=data=>(Array.isArray(data?.items)?data.items:[]).map((item,index)=>({
+  id:`mv-${item.videoId||index}`,category:'mv',categoryLabel:item.badge||item.kind||'MUSIC VIDEO',title:item.title||'Music Video',
+  summary:`RESCENEの${item.badge||item.kind||'公式映像'}です。${item.note||''}`,url:`mv.html#${item.anchor||`mv-${item.videoId||index}`}`,
+  keywords:`${item.kind||''} ${item.type||''} MV ミュージックビデオ music video special clip performance OST`,image:item.thumbnail||'',date:item.date||item.publishedAt||'',priority:78,
+ }));
+
  const fetchJson=async url=>{
   const response=await fetch(`${url}?v=${Date.now()}`,{cache:'no-store'});
   if(!response.ok)throw new Error(`${url}: HTTP ${response.status}`);
@@ -116,6 +122,7 @@
    ['ニュース',()=>fetchJson('data/news.json')],
    ['スケジュール',()=>fetchJson('data/schedule.json')],
    ['YouTube',()=>fetchJson('data/youtube-channels.json')],
+   ['MV一覧',()=>fetchJson('data/mv.json')],
    ['ディスコグラフィ',()=>fetchJson('data/discography.json')],
    ['掛け声ガイド',()=>fetchJson('data/chants.json')],
   ];
@@ -128,8 +135,9 @@
    if(index===1)entries.push(...newsEntries(result.value));
    if(index===2)entries.push(...scheduleEntries(result.value));
    if(index===3)entries.push(...youtubeEntries(result.value));
-   if(index===4){entries=entries.filter(entry=>entry.category!=='discography');entries.push(...discographyEntries(result.value));}
-   if(index===5){entries=entries.filter(entry=>entry.category!=='chants'||entry.url==='chants.html');entries.push(...chantEntries(result.value));}
+   if(index===4){entries=entries.filter(entry=>entry.category!=='mv'||entry.url==='mv.html');entries.push(...mvEntries(result.value));}
+   if(index===5){entries=entries.filter(entry=>entry.category!=='discography');entries.push(...discographyEntries(result.value));}
+   if(index===6){entries=entries.filter(entry=>entry.category!=='chants'||entry.url==='chants.html');entries.push(...chantEntries(result.value));}
   });
   const seen=new Set();
   allEntries=entries.map(normalizeEntry).filter(entry=>{
