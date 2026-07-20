@@ -88,6 +88,11 @@
   const scheduleUrl='schedule.html?'+params.toString()+'#'+anchor;
   return {id:`schedule-${id}`,category:'schedule',categoryLabel:String(item.category||'SCHEDULE').toUpperCase(),title:item.title||'予定',summary:item.description||'公開スケジュールの予定です。',url:scheduleUrl,keywords:`${item.type||''} ${item.category||''} 予定 日程 カレンダー`,image:item.image||'',date,priority:82};
  });
+ const discographyEntries=data=>(Array.isArray(data?.releases)?data.releases:[]).map((item,index)=>({
+  id:`discography-${item.slug||index}`,category:'discography',categoryLabel:item.badge||item.categoryName||'DISCOGRAPHY',title:item.title||'作品',summary:item.description||'',
+  url:`discography.html#${item.anchor||`release-${item.slug||index}`}`,keywords:`${item.categoryName||''} ${item.type||''} ${(Array.isArray(item.tracks)?item.tracks.map(track=>track.title).join(' '):'')} アルバム シングル OST 収録曲`,image:item.cover||'',date:item.releaseDate||'',priority:80,
+ }));
+
  const youtubeEntries=data=>(Array.isArray(data?.channels)?data.channels:[]).flatMap(channel=>(Array.isArray(channel.videos)?channel.videos:[]).map((video,index)=>({
   id:`youtube-${channel.key||'channel'}-${video.videoId||index}`,category:'youtube',categoryLabel:typeLabel(video.videoType),title:video.title||'YouTube動画',
   summary:`${channel.label||channel.handle||'YouTube'}で公開された${typeLabel(video.videoType).toLowerCase()}動画です。`,url:video.url||channel.url||'youtube.html',
@@ -105,6 +110,7 @@
    ['ニュース',()=>fetchJson('data/news.json')],
    ['スケジュール',()=>fetchJson('data/schedule.json')],
    ['YouTube',()=>fetchJson('data/youtube-channels.json')],
+   ['ディスコグラフィ',()=>fetchJson('data/discography.json')],
   ];
   const settled=await Promise.allSettled(requests.map(([,loader])=>loader()));
   let entries=[];
@@ -115,6 +121,7 @@
    if(index===1)entries.push(...newsEntries(result.value));
    if(index===2)entries.push(...scheduleEntries(result.value));
    if(index===3)entries.push(...youtubeEntries(result.value));
+   if(index===4){entries=entries.filter(entry=>entry.category!=='discography');entries.push(...discographyEntries(result.value));}
   });
   const seen=new Set();
   allEntries=entries.map(normalizeEntry).filter(entry=>{

@@ -10,7 +10,7 @@ const definitions = [
   { key: 'streaming', title: 'ストリーミングガイド', summary: 'YouTube、Spotify、Apple Musicなどの応援方法をまとめています。', url: 'streaming.html', category: 'STREAMING', path: 'streaming.html' },
   { key: 'youtube', title: 'YouTube一覧', summary: '公式・ウォニチャンネルの動画、ショート、ライブを横断して確認できます。', url: 'youtube.html', category: 'YOUTUBE', path: 'youtube.html' },
   { key: 'mv', title: 'MV一覧', summary: 'RESCENEのミュージックビデオを作品別に確認できます。', url: 'mv.html', category: 'MUSIC VIDEO', path: 'mv.html' },
-  { key: 'discography', title: 'ディスコグラフィ', summary: 'アルバム、シングル、OST、収録曲と配信リンクを掲載しています。', url: 'discography.html', category: 'DISCOGRAPHY', path: 'discography.html' },
+  { key: 'discography', title: 'ディスコグラフィ', summary: 'アルバム、シングル、OST、収録曲と配信リンクを掲載しています。', url: 'discography.html', category: 'DISCOGRAPHY', path: 'data/discography.json' },
 ];
 
 let previousPayload = {};

@@ -1,0 +1,41 @@
+RESCENE ディスコグラフィ Notion管理ガイド
+
+【Notionデータベース】
+https://app.notion.com/p/ca4fadead9d64128a5e8dc9730e0033d
+データソースID: 8f582d52-96eb-4148-a24b-add07379ee07
+
+【初回だけ必要】
+1. Notionでデータベースを開く
+2. 右上の「…」→「接続」または「Connections」
+3. 既存のスケジュール・ニュース同期で使っているNotion Integrationを追加
+4. GitHub Settings → Secrets and variables → Actions → Variables
+5. NOTION_DISCOGRAPHY_DATA_SOURCE_ID に上記データソースIDを登録
+   ※未登録でもスクリプト内の初期IDを使います。
+6. Actions → Sync Notion Discography → Run workflow
+
+【公開条件】
+・「公開」にチェック
+・「発売日」を入力
+
+【曲一覧の書き方】
+1行につき次の形式です。
+番号 | 曲名 | YouTube URL | 注記
+
+例:
+01 | Pretty Girl | https://www.youtube.com/watch?v=qZlu2j2SiBA |
+02 | Instrumental |  | Inst.
+
+URLや注記がない場合も区切りの | は残してください。曲名だけの1行でも表示できます。
+
+【ジャケット】
+・「ジャケット」へ画像をアップロードすると、同期時にassets/discography/notionへ保存されます。
+・既にGitHub内に画像がある場合は「画像パス」に assets/... の相対パスを入力できます。
+・画像パスが入力されている場合は画像パスを優先します。
+
+【カテゴリー】
+スペシャル／デジタル、ミニアルバム、フルアルバム、シングルアルバム、OST
+
+【自動同期】
+3時間ごとの27分、またはActionsから手動実行。
+同期結果: data/discography.json / data/discography-data.js
+ジャケット: assets/discography/notion/

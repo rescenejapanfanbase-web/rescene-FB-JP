@@ -1,0 +1,1 @@
+ディスコグラフィをNotion管理へ移行しました。更新分をGitHubへ上書き後、Notionデータベースを既存Integrationへ接続し、Sync Notion Discographyを実行してください。
