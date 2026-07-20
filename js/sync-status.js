@@ -2,7 +2,7 @@
   'use strict';
 
   const REPOSITORY='rescenejapanfanbase-web/rescene-FB-JP';
-  const API_CACHE_KEY='rescene-sync-status-api-v8';
+  const API_CACHE_KEY='rescene-sync-status-api-v9';
   const API_CACHE_MS=5*60*1000;
   const workflowBase=`https://github.com/${REPOSITORY}/actions/workflows/`;
 
@@ -87,6 +87,18 @@
         const unofficial=chants.filter(item=>item?.videoType==='非公式').length;
         const pending=data?.source!=='notion';
         return {count:`${chants.length}件`,detail:`画像 ${images}件 / 公式 ${official} / 非公式 ${unofficial}`,generatedAt:data?.generatedAt||null,state:pending?'warning':'success',message:pending?'初期データを表示しています。Notionデータベースを既存の連携へ接続し、同期を一度実行してください。':`Notionから公開掛け声ガイド ${chants.length}件を読み込みました。`};
+      },
+    },
+
+    voting:{
+      workflow:'sync-notion-voting.yml',
+      dataUrl:'data/voting-guide.json',
+      parseData(data){
+        const programs=Array.isArray(data?.programs)?data.programs:[];
+        const apps=Array.isArray(data?.apps)?data.apps:[];
+        const guideImages=apps.reduce((sum,item)=>sum+(Array.isArray(item?.guide?.steps)?item.guide.steps.filter(step=>step?.image).length:0),0);
+        const pending=data?.source!=='notion';
+        return {count:`${programs.length}番組`,detail:`投票アプリ ${apps.length}件 / ガイド画像 ${guideImages}枚`,generatedAt:data?.generatedAt||null,state:pending?'warning':'success',message:pending?'初期データを表示しています。Notionデータベースを既存の連携へ接続し、同期を一度実行してください。':`Notionから投票番組 ${programs.length}件・アプリ ${apps.length}件を読み込みました。`};
       },
     },
     homeguides:{
@@ -333,7 +345,7 @@
     const hasWarning=states.includes('warning')||states.includes('unknown');
     let state='success';
     let title='すべて正常';
-    let description='最新の同期・トップページ更新・画像最適化・バックアップ・外部リンク・サイトチェックは正常に完了しています。';
+    let description='最新の同期・投票ガイド・トップページ更新・画像最適化・バックアップ・外部リンク・サイトチェックは正常に完了しています。';
     let mark='✓';
     if(hasError){state='error';title='問題があります';description='失敗またはデータ読み込みエラーがあります。対象カードの最新ログを確認してください。';mark='!';}
     else if(hasRunning){state='running';title='同期を実行中';description='GitHub Actionsの処理が進行中です。完了後にもう一度確認してください。';mark='↻';}

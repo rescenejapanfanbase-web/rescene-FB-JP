@@ -606,7 +606,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 </nav>
 </section>
 <section aria-labelledby="current-vote-title" class="section">
-<div class="vote-status">
+<div class="vote-status" id="votingStatusHost">
 <div class="vote-status-main">
 <span aria-hidden="true" class="status-dot"></span>
 <div>
@@ -626,7 +626,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 <div class="section-heading">
 <div><span class="section-kicker">QUICK TABLE</span><h2 class="section-title" id="quick-table-title">投票早見表</h2></div>
 </div>
-<div class="vote-overview">
+<div class="vote-overview" id="votingProgramList">
 <article class="card program-card" data-mark="TS">
 <div class="program-top"><div class="program-name"><span aria-hidden="true" class="program-icon"><img src="assets/voting/apps/bigc.webp" alt=""/></span><div><h3>THE SHOW</h3><small>SBS M・火曜日</small></div></div><span class="vote-type">事前投票</span></div><dl class="program-data"><div><dt>使用アプリ</dt><dd>BIGC</dd></div><div><dt>準備するもの</dt><dd>ROYAL GEM / FREE GEM</dd></div><div><dt>投票</dt><dd>金曜17:00～月曜10:00</dd></div></dl>
 <p class="program-note">「THE SHOW 投票」→「THE K-POP」→「PRE-VOTE 1st Place Nominees」からRESCENEへ投票します。</p>
@@ -661,7 +661,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 <section aria-labelledby="score-distribution-title" class="section" id="score-distribution">
 <div class="section-heading"><div><span class="section-kicker">SCORE DISTRIBUTION</span><h2 class="section-title" id="score-distribution-title">音楽番組のスコア配分</h2></div></div>
 <div class="card notice"><strong>日本から貢献しやすい項目</strong><p>音盤購入、YouTubeなどのSNS、事前投票、リアルタイム投票は日本からも参加できます。配点や集計方式は改定される場合があるため、カムバック時は公式案内を優先してください。</p></div>
-<div aria-label="音楽番組の早見表画像" class="score-image-grid"><article class="card score-image-card"><figure class="score-figure"><img alt="THE SHOW の最新早見表画像" height="900" loading="lazy" src="assets/voting/theshow-score.png" width="1600"/></figure><div class="score-caption"><h3>THE SHOW</h3><p>火曜日 / BIGC</p></div></article>
+<div aria-label="音楽番組の早見表画像" class="score-image-grid" id="votingScoreImages"><article class="card score-image-card"><figure class="score-figure"><img alt="THE SHOW の最新早見表画像" height="900" loading="lazy" src="assets/voting/theshow-score.png" width="1600"/></figure><div class="score-caption"><h3>THE SHOW</h3><p>火曜日 / BIGC</p></div></article>
 <article class="card score-image-card"><figure class="score-figure"><img alt="SHOW CHAMPION の早見表画像" height="900" loading="lazy" src="assets/voting/showchampion-score.png" width="1600"/></figure><div class="score-caption"><h3>SHOW CHAMPION</h3><p>水曜日 / IDOLCHAMP</p></div></article>
 <article class="card score-image-card"><figure class="score-figure"><img alt="M COUNTDOWN の早見表画像" height="900" loading="lazy" src="assets/voting/mcountdown-score.png" width="1600"/></figure><div class="score-caption"><h3>M COUNTDOWN</h3><p>木曜日 / Mnet Plus</p></div></article>
 <article class="card score-image-card"><figure class="score-figure"><img alt="Music Bank の早見表画像" height="900" loading="lazy" src="assets/voting/musicbank-score.png" width="1600"/></figure><div class="score-caption"><h3>Music Bank</h3><p>金曜日 / Fancast</p></div></article>
@@ -671,7 +671,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 <details class="card text-score-details">
 <summary>テキスト版の配分も見る</summary>
 <div class="text-score-content">
-<div class="score-distribution-grid" style="margin-top:18px">
+<div class="score-distribution-grid" id="votingScoreCards" style="margin-top:18px">
 <article class="card score-card"><h3>THE SHOW</h3><p class="score-meta">火曜日 / BIGC</p><ul class="score-list"><li><span>音源</span><strong>40%</strong></li><li><span>音盤</span><strong>20%</strong></li><li><span>SNS・ファン指標</span><strong>FAN ENGAGEMENT 20%</strong></li><li><span>事前投票</span><strong>20%</strong></li><li><span>リアルタイム・当日投票</span><strong>＋20%</strong></li><li><span>放送・その他</span><strong>—</strong></li></ul><p class="score-note"><b>事前投票：</b>金17:00～月10:00<br/><b>事前集計：</b>音源40%＋音盤20%＋FAN ENGAGEMENT20%＋事前投票20%（100%）<br/><b>当日集計：</b>事前集計100%＋当日投票20%<br/><b>集計元：</b>音源はサークルチャート、音盤はハントチャート。<br/><b>FAN ENGAGEMENT：</b>公式YouTube・SNSのグローバルなファンダム変化や活動接数などを客観的なデータで算出したスコアです。</p></article>
 <article class="card score-card"><h3>SHOW CHAMPION</h3><p class="score-meta">水曜日 / IDOLCHAMP</p><ul class="score-list"><li><span>音源</span><strong>35%</strong></li><li><span>音盤</span><strong>15%</strong></li><li><span>SNS・ファン指標</span><strong>YouTube 10%</strong></li><li><span>事前投票</span><strong>20%</strong></li><li><span>リアルタイム・当日投票</span><strong>—</strong></li><li><span>放送・その他</span><strong>放送点数 20%</strong></li></ul></article>
 <article class="card score-card"><h3>M COUNTDOWN</h3><p class="score-meta">木曜日 / Mnet Plus</p><ul class="score-list"><li><span>音源</span><strong>50%</strong></li><li><span>音盤</span><strong>15%</strong></li><li><span>SNS・ファン指標</span><strong>YouTube・TikTok 15%</strong></li><li><span>事前投票</span><strong>10%</strong></li><li><span>リアルタイム・当日投票</span><strong>10%</strong></li><li><span>放送・その他</span><strong>放送点数 10%</strong></li></ul></article>
@@ -694,7 +694,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 <section aria-labelledby="vote-summary-title" class="section"><div class="section-heading"><div><span class="section-kicker">SUPPORT TIPS</span><h2 class="section-title" id="vote-summary-title">投票券の貯め方イメージ</h2></div></div><article class="card vote-summary-card"><img alt="投票券の貯め方まとめ画像" height="900" loading="lazy" src="assets/voting/vote-points-summary.png" width="1600"/><div class="summary-copy"><h3>まずは毎日できることから</h3><p>ログイン、広告視聴、ミッションなど、各アプリで毎日コツコツ集められる投票券・ポイントをまとめた画像です。詳細は下のアプリ別画像ガイドでも確認できます。</p></div></article></section>
 <section aria-labelledby="apps-title" class="section" id="apps">
 <div class="section-heading"><div><span class="section-kicker">VOTING APPS</span><h2 class="section-title" id="apps-title">投票アプリ一覧</h2></div></div>
-<div class="app-list">
+<div class="app-list" id="votingAppList">
 <article class="card app-card" id="app-bigc"><div class="app-card-head"><img alt="BIGC アイコン" class="app-logo-image" height="58" src="assets/voting/apps/bigc.webp" width="58"/><div><h3>BIGC</h3><p>THE SHOW 事前投票</p></div></div><div class="app-tags"><span>ROYAL GEM</span><span>FREE GEM</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/bigc-the-show-vote-bias-live/id1575835045" rel="noopener noreferrer" target="_blank">App Storeで開く ↗</a><a href="https://play.google.com/store/apps/details?id=im.bigc.lively&amp;hl=ja" rel="noopener noreferrer" target="_blank">Google Playで開く ↗</a></div></article>
 <article class="card app-card" id="app-idolchamp"><div class="app-card-head"><img alt="IDOLCHAMP アイコン" class="app-logo-image" height="58" src="assets/voting/apps/idolchamp.png" width="58"/><div><h3>IDOLCHAMP</h3><p>SHOW CHAMPION</p></div></div><div class="app-tags"><span>CHAMSIM</span><span>事前投票</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/idolchamp/id1185735018" rel="noopener noreferrer" target="_blank">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=com.nwz.ichampclient" rel="noopener noreferrer" target="_blank">Google Play ↗</a></div></article>
 <article class="card app-card" id="app-mnet-plus"><div class="app-card-head"><img alt="Mnet Plus アイコン" class="app-logo-image" height="58" src="assets/voting/apps/mnetplus.png" width="58"/><div><h3>Mnet Plus</h3><p>M COUNTDOWN</p></div></div><div class="app-tags"><span>投票券不要</span><span>事前・リアルタイム</span></div><div class="store-buttons"><a href="https://apps.apple.com/jp/app/mnet-plus/id6443405421" rel="noopener noreferrer" target="_blank">App Store ↗</a><a href="https://play.google.com/store/apps/details?id=world.mnetplus" rel="noopener noreferrer" target="_blank">Google Play ↗</a></div></article>
@@ -707,7 +707,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 <section aria-labelledby="image-guides-title" class="section" id="image-guides">
 <div class="section-heading"><div><span class="section-kicker">SCREENSHOT GUIDE</span><h2 class="section-title" id="image-guides-title">画像付き投票ガイド</h2></div></div>
 <div class="card notice"><strong>画像付きガイドを掲載中</strong><p>各アプリの投票方法・投票券の貯め方を画像付きでまとめています。アプリを開く前に対象番組と必要な投票通貨を確認してください。</p></div>
-<div class="guide-stack" style="margin-top:18px">
+<div class="guide-stack" id="votingGuideList" style="margin-top:18px">
 <details class="guide-details" open=""><summary><span class="guide-summary-title"><span class="guide-app-icon"><img alt="BIGC" src="assets/voting/apps/bigc.webp"/></span><span>BIGC<small>THE SHOW 事前投票</small></span></span></summary><div class="guide-content">
 <div class="gem-grid"><div class="gem-card"><h4>1. ROYAL GEM</h4><p>有償のみ入手可能。<strong>1票＝20 ROYAL GEM</strong></p></div><div class="gem-card"><h4>2. FREE GEM</h4><p>毎日の出席チェック、広告視聴、ミッション参加で入手可能。<strong>1票＝400 FREE GEM</strong></p></div></div>
 <ol class="the-show-steps"><li>「BIGC」アプリをインストールして開く</li><li><strong>「THE SHOW 投票」</strong>をクリック</li><li>「全体／THE K-POP／BIGC Choice」から<strong>「THE K-POP」</strong>をクリック</li><li><strong>「PRE-VOTE 1st Place Nominees」</strong>をクリック</li><li>下へスクロールし、「RESCENE」の「投票」を押す</li><li>投票数を入力して<strong>「投票する」</strong>を押せば完了</li></ol>
@@ -785,5 +785,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 })();
 
 </script>
+<script src="data/voting-guide-data.js"></script>
+<script src="js/voting.js"></script>
 <script src="js/image-optimizer.js"></script>
 </body></html>

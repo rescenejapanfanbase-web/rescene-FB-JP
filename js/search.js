@@ -61,7 +61,7 @@
   if(Number.isNaN(date.getTime()))return String(value).slice(0,10).replaceAll('-','.');
   return new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'2-digit',day:'2-digit'}).format(date);
  };
- const categoryGroup=category=>({discography:'music',mv:'music',streaming:'guides',site:'guides'}[category]||category);
+ const categoryGroup=category=>({discography:'music',mv:'music',streaming:'guides',voting:'guides',site:'guides'}[category]||category);
  const typeLabel=type=>({short:'SHORT',live:'LIVE',video:'VIDEO'}[type]||'VIDEO');
  const normalizeEntry=(entry,index)=>{
   const safe={
@@ -111,6 +111,19 @@
   keywords:`${item.kind||''} ${item.type||''} MV ミュージックビデオ music video special clip performance OST`,image:item.thumbnail||'',date:item.date||item.publishedAt||'',priority:78,
  }));
 
+
+ const votingEntries=data=>{
+  const programs=(Array.isArray(data?.programs)?data.programs:[]).map((item,index)=>({
+   id:`voting-program-${index}`,category:'voting',categoryLabel:'VOTING PROGRAM',title:item.title||'音楽番組',summary:`${item.subtitle||''} ${item.voteType||''}。使用アプリ：${item.app||'未設定'}。${item.note||''}`,
+   url:'voting.html#quick-table',keywords:`${item.subtitle||''} ${item.voteType||''} ${item.app||''} ${item.currency||''} ${item.period||''} 投票 音楽番組`,image:item.icon||'',priority:74,
+  }));
+  const apps=(Array.isArray(data?.apps)?data.apps:[]).map((item,index)=>({
+   id:`voting-app-${index}`,category:'voting',categoryLabel:'VOTING APP',title:item.title||'投票アプリ',summary:`${item.subtitle||item.description||''}の投票アプリです。`,
+   url:'voting.html#apps',keywords:`${(Array.isArray(item.tags)?item.tags.join(' '):'')} 投票アプリ 画像ガイド 貯め方 投票方法`,image:item.icon||'',priority:73,
+  }));
+  return [...programs,...apps];
+ };
+
  const fetchJson=async url=>{
   const response=await fetch(`${url}?v=${Date.now()}`,{cache:'no-store'});
   if(!response.ok)throw new Error(`${url}: HTTP ${response.status}`);
@@ -125,6 +138,7 @@
    ['MV一覧',()=>fetchJson('data/mv.json')],
    ['ディスコグラフィ',()=>fetchJson('data/discography.json')],
    ['掛け声ガイド',()=>fetchJson('data/chants.json')],
+   ['投票ガイド',()=>fetchJson('data/voting-guide.json')],
   ];
   const settled=await Promise.allSettled(requests.map(([,loader])=>loader()));
   let entries=[];
@@ -138,6 +152,7 @@
    if(index===4){entries=entries.filter(entry=>entry.category!=='mv'||entry.url==='mv.html');entries.push(...mvEntries(result.value));}
    if(index===5){entries=entries.filter(entry=>entry.category!=='discography');entries.push(...discographyEntries(result.value));}
    if(index===6){entries=entries.filter(entry=>entry.category!=='chants'||entry.url==='chants.html');entries.push(...chantEntries(result.value));}
+   if(index===7){entries=entries.filter(entry=>entry.category!=='voting'||entry.url==='voting.html');entries.push(...votingEntries(result.value));}
   });
   const seen=new Set();
   allEntries=entries.map(normalizeEntry).filter(entry=>{

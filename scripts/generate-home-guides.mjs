@@ -5,7 +5,7 @@ import { resolve } from 'node:path';
 const root = resolve(import.meta.dirname, '..');
 const outputPath = resolve(root, 'data/home-guides.json');
 const definitions = [
-  { key: 'voting', title: '投票ガイド', summary: '音楽番組の投票方法、アプリ、スコア配分を確認できます。', url: 'voting.html', category: 'VOTING', path: 'voting.html' },
+  { key: 'voting', title: '投票ガイド', summary: '音楽番組の投票方法、アプリ、スコア配分を確認できます。', url: 'voting.html', category: 'VOTING', path: 'data/voting-guide.json' },
   { key: 'chants', title: '掛け声ガイド', summary: '楽曲ごとの掛け声をサムネイルからすぐに開けます。', url: 'chants.html', category: 'FANCHANT', path: 'chants.html' },
   { key: 'streaming', title: 'ストリーミングガイド', summary: 'YouTube、Spotify、Apple Musicなどの応援方法をまとめています。', url: 'streaming.html', category: 'STREAMING', path: 'streaming.html' },
   { key: 'youtube', title: 'YouTube一覧', summary: '公式・ウォニチャンネルの動画、ショート、ライブを横断して確認できます。', url: 'youtube.html', category: 'YOUTUBE', path: 'youtube.html' },
