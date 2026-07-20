@@ -1,0 +1,27 @@
+RESCENE ホーム・共通表示 Notion管理ガイド
+
+Notion管理ページ:
+https://app.notion.com/p/23afd46c4c68443d89de65c74f605d68
+
+データソースID:
+1a98fbc6-21d6-4a11-8ed9-19b228250182
+
+GitHub Actions Variables（任意）:
+NOTION_HOMEPAGE_DATA_SOURCE_ID
+
+管理対象:
+- ホームヒーロー
+- 最新情報・各セクションの見出し
+- クイックアクセス4件
+- RESCENE紹介と統計3件
+- 初めて来た方への案内4件
+- メンバー・公式リンク見出し
+- 全ページ共通フッター
+- 404ページ
+
+画像:
+Notionの「画像」へアップロードした画像を assets/home/notion/ へ自動保存します。
+画像がない場合は「画像パス」の既存画像を使います。
+
+初回:
+Notion右上の「…」→「接続」から RESCENE Schedule Sync を追加し、Actionsの Sync Notion Homepage Content を実行してください。

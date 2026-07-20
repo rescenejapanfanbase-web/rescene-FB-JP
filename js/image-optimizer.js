@@ -7,11 +7,18 @@
   const siteBase=resolveAddress('../',script.src);
   const manifestUrl=resolveAddress('data/image-manifest.json',siteBase);
   const i18nUrl=resolveAddress('js/i18n.js',siteBase);
+  const siteContentUrl=resolveAddress('js/site-content.js',siteBase);
   if(!document.querySelector('script[data-rescene-i18n]')){
     const languageScript=document.createElement('script');
     languageScript.src=i18nUrl.href;
     languageScript.dataset.resceneI18n='true';
     document.head.appendChild(languageScript);
+  }
+  if(!document.querySelector('script[data-rescene-site-content]')){
+    const contentScript=document.createElement('script');
+    contentScript.src=siteContentUrl.href;
+    contentScript.dataset.resceneSiteContent='true';
+    document.head.appendChild(contentScript);
   }
   const siteBasePath=decodeURIComponent(siteBase.pathname);
   let manifest=null;
