@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-07-20T04:56:41.533Z",
+  "generatedAt": "2026-07-20T05:29:31.759Z",
   "source": "git-history",
   "guides": [
+    {
+      "key": "mv",
+      "title": "MV一覧",
+      "summary": "RESCENEのミュージックビデオを作品別に確認できます。",
+      "url": "mv.html",
+      "category": "MUSIC VIDEO",
+      "updatedAt": "2026-07-20T14:29:15+09:00",
+      "commit": "533a01d"
+    },
     {
       "key": "chants",
       "title": "掛け声ガイド",
@@ -44,15 +53,6 @@
       "summary": "YouTube、Spotify、Apple Musicなどの応援方法をまとめています。",
       "url": "streaming.html",
       "category": "STREAMING",
-      "updatedAt": "2026-07-20T10:25:57+09:00",
-      "commit": "fbfd24d"
-    },
-    {
-      "key": "mv",
-      "title": "MV一覧",
-      "summary": "RESCENEのミュージックビデオを作品別に確認できます。",
-      "url": "mv.html",
-      "category": "MUSIC VIDEO",
       "updatedAt": "2026-07-20T10:25:57+09:00",
       "commit": "fbfd24d"
     }
