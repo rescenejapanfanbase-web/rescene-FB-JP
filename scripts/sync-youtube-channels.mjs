@@ -390,8 +390,10 @@ function exactPublishedDate(metadata, actualLive) {
 }
 
 function shouldRefreshVideoMetadata(previousVideo) {
+  // Legacy/RSS-only entries may have an exact date but no live-status check.
+  // They must be fetched once so archived livestreams do not remain in 「動画」.
   if (!previousVideo?.dateMetadataVerified) return true;
-  if (!previousVideo?.liveMetadataVerified) return false;
+  if (!previousVideo?.liveMetadataVerified) return true;
   return !terminalLiveStatuses.has(previousVideo.liveStatus);
 }
 
