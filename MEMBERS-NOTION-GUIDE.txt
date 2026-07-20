@@ -1,0 +1,31 @@
+RESCENE メンバープロフィール Notion運用ガイド
+================================================
+
+管理ページ
+https://app.notion.com/p/5c70b299a510423c9c6d71dcf57968af
+
+データソースID
+659553c4-dfa8-4d81-98e1-c259df27bafe
+
+1. 初回接続
+Notionデータベース右上の「…」→「接続」から、GitHubのNOTION_TOKENに対応する
+「RESCENE Schedule Sync」を追加してください。
+
+2. 普段の更新
+タイトル、韓国語名、日本語名、生年月日、出身地、本名、キーワード、紹介文、
+メンバーカラー、画像、広報大使情報を編集し、「公開」にチェックします。
+
+3. 画像
+・一覧画像：トップページとメンバー一覧で使用
+・詳細画像：詳細プロフィールで使用
+・PC画像：PC表示だけ別画像を使う場合に設定
+Notionへ画像をアップロードすると assets/members/notion/ へ自動保存されます。
+画像がない場合は「一覧画像パス」「詳細画像パス」「PC画像パス」の既存画像を使用します。
+
+4. 同期
+GitHub Actions → Sync Notion Members → Run workflow
+定期同期は3時間ごとの13分です。
+
+5. GitHub Actions Variables（任意）
+NOTION_MEMBERS_DATA_SOURCE_ID
+未登録でも初期IDが使用されます。

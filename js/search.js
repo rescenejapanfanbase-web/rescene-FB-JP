@@ -117,6 +117,11 @@
   url:`streaming.html#${item.anchor||''}`,keywords:`${item.type||''} ${(Array.isArray(item.points)?item.points.join(' '):'')} ${item.note||''} ストリーミング 再生 ガイド`,image:item.icon||(Array.isArray(item.steps)?item.steps.find(step=>step?.image)?.image:'')||'',priority:75,
  }));
 
+ const memberEntries=data=>(Array.isArray(data?.members)?data.members:[]).map((item,index)=>({
+  id:`member-${item.slug||index}`,category:'members',categoryLabel:'MEMBER',title:item.name||'メンバー',summary:`${item.koreanName||''} / ${item.japaneseName||''}。${item.shortDescription||item.profile||''}`,
+  url:`members.html#${item.anchor||`${item.slug||index}-profile`}`,keywords:`${item.koreanName||''} ${item.japaneseName||''} ${item.realName||''} ${item.birthPlace||''} ${item.keywords||''} ${item.colorName||''} メンバー プロフィール`,image:item.previewImage||item.detailImage||'',date:item.birthDate||'',priority:79,
+ }));
+
  const votingEntries=data=>{
   const programs=(Array.isArray(data?.programs)?data.programs:[]).map((item,index)=>({
    id:`voting-program-${index}`,category:'voting',categoryLabel:'VOTING PROGRAM',title:item.title||'音楽番組',summary:`${item.subtitle||''} ${item.voteType||''}。使用アプリ：${item.app||'未設定'}。${item.note||''}`,
@@ -145,6 +150,7 @@
    ['掛け声ガイド',()=>fetchJson('data/chants.json')],
    ['投票ガイド',()=>fetchJson('data/voting-guide.json')],
    ['ストリーミングガイド',()=>fetchJson('data/streaming-guide.json')],
+   ['メンバー',()=>fetchJson('data/members.json')],
   ];
   const settled=await Promise.allSettled(requests.map(([,loader])=>loader()));
   let entries=[];
@@ -160,6 +166,7 @@
    if(index===6){entries=entries.filter(entry=>entry.category!=='chants'||entry.url==='chants.html');entries.push(...chantEntries(result.value));}
    if(index===7){entries=entries.filter(entry=>entry.category!=='voting'||entry.url==='voting.html');entries.push(...votingEntries(result.value));}
    if(index===8){entries=entries.filter(entry=>entry.category!=='streaming'||entry.url==='streaming.html');entries.push(...streamingEntries(result.value));}
+   if(index===9){entries=entries.filter(entry=>entry.category!=='members'||entry.url==='members.html');entries.push(...memberEntries(result.value));}
   });
   const seen=new Set();
   allEntries=entries.map(normalizeEntry).filter(entry=>{

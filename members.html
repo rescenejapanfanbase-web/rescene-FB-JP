@@ -393,7 +393,7 @@ html.light-mode .member-detail{color:#654d5b !important;}
 .member-color-chip.large{font-size:.75rem;padding:9px 14px}
 .member-preview-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
 .member-preview-card{padding:0;overflow:hidden}.member-preview-link{display:block}
-.member-preview-photo{aspect-ratio:4/5;overflow:hidden;background:rgba(255,255,255,.05)}
+.member-preview-photo{aspect-ratio:4/5;overflow:hidden;background:rgba(255,255,255,.05)}.member-image-placeholder{width:100%;height:100%;min-height:240px;background:radial-gradient(circle at 30% 20%,rgba(255,111,174,.24),transparent 35%),linear-gradient(145deg,rgba(255,255,255,.07),rgba(200,164,255,.06))}
 .member-preview-copy{padding:18px 20px 20px}.member-preview-copy h2{margin:9px 0 6px;font-size:1.45rem}.member-preview-copy small{font-size:.78rem;color:var(--muted)}.member-preview-copy p{margin:0 0 10px;color:var(--muted);font-weight:700}
 .member-detail-stack{display:grid;gap:24px}.member-detail-card{display:grid;grid-template-columns:minmax(240px,320px) 1fr;gap:24px;align-items:stretch;padding:18px;scroll-margin-top:90px}
 .member-detail-photo-wrap{display:flex}.member-detail-photo{width:100%;min-height:100%;aspect-ratio:4/5;overflow:hidden;border-radius:22px;border:1px solid var(--border);background:rgba(255,255,255,.05)}
@@ -511,211 +511,10 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
 <main class="container">
 <section class="page-header section" id="top"><span class="page-kicker">MEMBERS</span><h1>メンバー</h1><p>RESCENEを作る5人のメンバー。写真付きの一覧と詳細プロフィールをまとめています。</p></section>
-<section class="section member-preview-grid">
-<article class="card member-preview-card member-woni">
-  <a class="member-preview-link" href="#woni-profile">
-    <div class="member-preview-photo"><img src="assets/members/woni.jpg" alt="WONI photo"></div>
-    <div class="member-preview-copy">
-      <h2>WONI <small>원이</small></h2>
-      <p>ウォニ</p>
-      <span class="member-color-chip" style="--chip:#79d98c">MEMBER COLOR · GREEN</span>
-    </div>
-  </a>
-</article>
-<article class="card member-preview-card member-liv">
-  <a class="member-preview-link" href="#liv-profile">
-    <div class="member-preview-photo"><img src="assets/members/liv.jpg" alt="LIV photo"></div>
-    <div class="member-preview-copy">
-      <h2>LIV <small>리브</small></h2>
-      <p>リブ</p>
-      <span class="member-color-chip" style="--chip:#202020">MEMBER COLOR · BLACK</span>
-    </div>
-  </a>
-</article>
-<article class="card member-preview-card member-minami">
-  <a class="member-preview-link" href="#minami-profile">
-    <div class="member-preview-photo"><img src="assets/members/minami.jpg" alt="MINAMI photo"></div>
-    <div class="member-preview-copy">
-      <h2>MINAMI <small>미나미</small></h2>
-      <p>ミナミ</p>
-      <span class="member-color-chip" style="--chip:#4f8dff">MEMBER COLOR · BLUE</span>
-    </div>
-  </a>
-</article>
-<article class="card member-preview-card member-may">
-  <a class="member-preview-link" href="#may-profile">
-    <div class="member-preview-photo"><img src="assets/members/may.jpg" alt="MAY photo"></div>
-    <div class="member-preview-copy">
-      <h2>MAY <small>메이</small></h2>
-      <p>メイ</p>
-      <span class="member-color-chip" style="--chip:#f4d04b">MEMBER COLOR · YELLOW</span>
-    </div>
-  </a>
-</article>
-<article class="card member-preview-card member-zena">
-  <a class="member-preview-link" href="#zena-profile">
-    <div class="member-preview-photo"><img src="assets/members/zena.jpg" alt="ZENA photo"></div>
-    <div class="member-preview-copy">
-      <h2>ZENA <small>제나</small></h2>
-      <p>ゼナ</p>
-      <span class="member-color-chip" style="--chip:#9c72ff">MEMBER COLOR · PURPLE</span>
-    </div>
-  </a>
-</article>
-</section>
+<section class="section member-preview-grid" id="membersPreview" aria-live="polite"></section>
 <section class="section">
   <div class="section-head"><div><span class="section-kicker">PROFILE</span><h2 class="section-title">詳細プロフィール</h2></div><a class="section-link" href="#top">ページ上部へ ↑</a></div>
-  <div class="member-detail-stack">
-<article class="card member-detail-card member-woni" id="woni-profile">
-  <div class="member-detail-photo-wrap">
-    <div class="member-detail-photo"><picture class="member-detail-picture"><source media="(min-width:901px)" srcset="assets/members/woni-desktop.jpg"><img src="assets/members/woni.jpg" alt="WONI detailed profile photo"></picture></div>
-  </div>
-  <div class="member-detail-main">
-    <div class="member-detail-head">
-      <div>
-        <span class="badge">WONI</span>
-        <h2>WONI <small>원이 / ウォニ</small></h2>
-      </div>
-      <span class="member-color-chip large" style="--chip:#79d98c">MEMBER COLOR · GREEN</span>
-    </div>
-    <p class="member-description">リーダー。柔らかな雰囲気と芯のある存在感で、RESCENEの世界観を包み込むメンバー。</p>
-    <div class="member-profile-meta">
-      <div><span>生年月日</span><strong>2004.05.25</strong></div>
-      <div><span>出身地</span><strong>韓国・巨済市</strong></div>
-      <div><span>本名</span><strong>정원이</strong></div>
-      <div><span>KEYWORDS</span><strong>リーダー,우이!</strong></div>
-    </div>
-    <div class="member-profile-note">
-      <h3>PROFILE</h3>
-      <p>RESCENEのリーダー。穏やかな雰囲気と安定感のある存在でチームをまとめます。メンバーカラーは <b style="color:#79d98c">GREEN</b> です。</p>
-    </div>
-  
-    <div class="member-ambassador">
-      <div class="member-ambassador-head"><h3>PROMOTIONAL AMBASSADOR</h3><time>2026.05.22</time></div>
-      <p><strong>慶尚南道 巨済市 広報大使</strong><br>ウォニの故郷・巨済市の広報大使として、RESCENEが任命されました。</p>
-      <a href="articles/geoje-ambassador.html">ニュースを見る →</a>
-    </div>
-  </div>
-</article>
-<article class="card member-detail-card member-liv" id="liv-profile">
-  <div class="member-detail-photo-wrap">
-    <div class="member-detail-photo"><img src="assets/members/liv.jpg" alt="LIV detailed profile photo"></div>
-  </div>
-  <div class="member-detail-main">
-    <div class="member-detail-head">
-      <div>
-        <span class="badge">LIV</span>
-        <h2>LIV <small>리브 / リブ</small></h2>
-      </div>
-      <span class="member-color-chip large" style="--chip:#202020">MEMBER COLOR · BLACK</span>
-    </div>
-    <p class="member-description">クールさと透明感をあわせ持ち、ステージで強い印象を残すメンバー。</p>
-    <div class="member-profile-meta">
-      <div><span>生年月日</span><strong>2006.10.11</strong></div>
-      <div><span>出身地</span><strong>韓国・水原市</strong></div>
-      <div><span>本名</span><strong>진경은</strong></div>
-      <div><span>KEYWORDS</span><strong>歌声妖精,너도?나도!</strong></div>
-    </div>
-    <div class="member-profile-note">
-      <h3>PROFILE</h3>
-      <p>透明感のある歌声とクールな表情が魅力のメンバー。メンバーカラーは <b style="color:#d7d7d7">BLACK</b> です。</p>
-    </div>
-  
-    <div class="member-ambassador">
-      <div class="member-ambassador-head"><h3>PROMOTIONAL AMBASSADOR</h3><time>2026.06.24</time></div>
-      <p><strong>京畿道 水原市 広報大使</strong><br>リブの故郷・水原市の広報大使として、RESCENEが任命されました。</p>
-      <a href="articles/suwon-ambassador.html">ニュースを見る →</a>
-    </div>
-  </div>
-</article>
-<article class="card member-detail-card member-minami" id="minami-profile">
-  <div class="member-detail-photo-wrap">
-    <div class="member-detail-photo"><img src="assets/members/minami.jpg" alt="MINAMI detailed profile photo"></div>
-  </div>
-  <div class="member-detail-main">
-    <div class="member-detail-head">
-      <div>
-        <span class="badge">MINAMI</span>
-        <h2>MINAMI <small>미나미 / ミナミ</small></h2>
-      </div>
-      <span class="member-color-chip large" style="--chip:#4f8dff">MEMBER COLOR · BLUE</span>
-    </div>
-    <p class="member-description">日本出身メンバー。繊細な表情と爽やかな魅力で、RESCENEの色を広げる存在。</p>
-    <div class="member-profile-meta">
-      <div><span>生年月日</span><strong>2006.11.29</strong></div>
-      <div><span>出身地</span><strong>日本・千葉県佐倉市</strong></div>
-      <div><span>本名</span><strong>伊藤南美</strong></div>
-      <div><span>KEYWORDS</span><strong>オールラウンダー,거제 야호~!</strong></div>
-    </div>
-    <div class="member-profile-note">
-      <h3>PROFILE</h3>
-      <p>日本出身のオールラウンダー。繊細な表現と爽やかな魅力でグループの幅を広げます。メンバーカラーは <b style="color:#4f8dff">BLUE</b> です。</p>
-    </div>
-  </div>
-</article>
-<article class="card member-detail-card member-may" id="may-profile">
-  <div class="member-detail-photo-wrap">
-    <div class="member-detail-photo"><img src="assets/members/may.jpg" alt="MAY detailed profile photo"></div>
-  </div>
-  <div class="member-detail-main">
-    <div class="member-detail-head">
-      <div>
-        <span class="badge">MAY</span>
-        <h2>MAY <small>메이 / メイ</small></h2>
-      </div>
-      <span class="member-color-chip large" style="--chip:#f4d04b">MEMBER COLOR · YELLOW</span>
-    </div>
-    <p class="member-description">明るく愛らしいムードで、グループにやわらかなエネルギーを届けるメンバー。</p>
-    <div class="member-profile-meta">
-      <div><span>生年月日</span><strong>2008.08.19</strong></div>
-      <div><span>出身地</span><strong>韓国・高陽市</strong></div>
-      <div><span>本名</span><strong>이예빈</strong></div>
-      <div><span>KEYWORDS</span><strong>リセンヌの太陽,ウィスパーボイス</strong></div>
-    </div>
-    <div class="member-profile-note">
-      <h3>PROFILE</h3>
-      <p>明るいエネルギーとウィスパーボイスが印象的なメンバー。メンバーカラーは <b style="color:#f4d04b">YELLOW</b> です。</p>
-    </div>
-  
-    <div class="member-ambassador">
-      <div class="member-ambassador-head"><h3>PROMOTIONAL AMBASSADOR</h3><time>2026.07.02</time></div>
-      <p><strong>京畿道 高陽市 広報大使</strong><br>メイの故郷・高陽市の広報大使として、RESCENEが任命されました。</p>
-      <a href="articles/goyang-ambassador.html">ニュースを見る →</a>
-    </div>
-  </div>
-</article>
-<article class="card member-detail-card member-zena" id="zena-profile">
-  <div class="member-detail-photo-wrap">
-    <div class="member-detail-photo"><img src="assets/members/zena.jpg" alt="ZENA detailed profile photo"></div>
-  </div>
-  <div class="member-detail-main">
-    <div class="member-detail-head">
-      <div>
-        <span class="badge">ZENA</span>
-        <h2>ZENA <small>제나 / ゼナ</small></h2>
-      </div>
-      <span class="member-color-chip large" style="--chip:#9c72ff">MEMBER COLOR · PURPLE</span>
-    </div>
-    <p class="member-description">個性的な空気感と目を引く魅力で、ひと目で記憶に残るメンバー。</p>
-    <div class="member-profile-meta">
-      <div><span>生年月日</span><strong>2008.11.27</strong></div>
-      <div><span>出身地</span><strong>韓国・慶州市</strong></div>
-      <div><span>本名</span><strong>김가영</strong></div>
-      <div><span>KEYWORDS</span><strong>マンネ,方言</strong></div>
-    </div>
-    <div class="member-profile-note">
-      <h3>PROFILE</h3>
-      <p>個性的な表現力と親しみやすい魅力を持つ最年少メンバー。メンバーカラーは <b style="color:#9c72ff">PURPLE</b> です。</p>
-    </div>
-  
-    <div class="member-ambassador">
-      <div class="member-ambassador-head"><h3>PROMOTIONAL AMBASSADOR</h3><time>2026.06.29</time></div>
-      <p><strong>慶尚北道 慶州市 広報大使</strong><br>ゼナの故郷・慶州市の観光広報大使として、RESCENEが任命されました。</p>
-      <a href="articles/gyeongju-ambassador.html">ニュースを見る →</a>
-    </div>
-  </div>
-</article>
-  </div>
+  <div class="member-detail-stack" id="membersDetails" aria-live="polite"></div>
 </section>
 </main>
 <footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
@@ -732,5 +531,7 @@ html.light-mode .hero-members{color:#9f3a6c!important}
 })();
 
 </script>
+<script src="data/members-data.js"></script>
+<script src="js/members.js"></script>
 <script src="js/image-optimizer.js"></script>
 </body></html>
