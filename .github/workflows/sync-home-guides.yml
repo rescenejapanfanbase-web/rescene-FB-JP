@@ -7,6 +7,7 @@ on:
       - main
     paths:
       - "voting.html"
+      - "data/voting-guide.json"
       - "chants.html"
       - "streaming.html"
       - "youtube.html"
