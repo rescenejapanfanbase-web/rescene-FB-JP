@@ -1,30 +1,19 @@
-name: Refresh Homepage Guides
+name: Sync Notion Discography
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - "voting.html"
-      - "chants.html"
-      - "streaming.html"
-      - "youtube.html"
-      - "mv.html"
-      - "discography.html"
-      - "data/discography.json"
-      - "scripts/generate-home-guides.mjs"
-      - ".github/workflows/sync-home-guides.yml"
+  schedule:
+    - cron: "27 */3 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: homepage-guide-refresh
+  group: notion-discography-sync
   cancel-in-progress: true
 
 jobs:
-  refresh:
+  sync:
     runs-on: ubuntu-latest
 
     steps:
@@ -39,36 +28,38 @@ jobs:
           node-version: "24"
           package-manager-cache: false
 
-      - name: Generate and commit guide update data
+      - name: Sync and push discography
         shell: bash
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DISCOGRAPHY_DATA_SOURCE_ID: ${{ vars.NOTION_DISCOGRAPHY_DATA_SOURCE_ID }}
         run: |
           set -euo pipefail
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           branch="${GITHUB_REF_NAME}"
 
           for attempt in 1 2 3; do
-            echo "ホーム用ガイド更新情報を生成します（${attempt}/3）"
+            echo "ディスコグラフィ同期を実行します（${attempt}/3）"
             git fetch origin "${branch}"
             git reset --hard "origin/${branch}"
 
-            node scripts/generate-home-guides.mjs
+            node scripts/sync-notion-discography.mjs
 
-            if git diff --quiet -- data/home-guides.json; then
-              echo "ガイド更新情報に変更はありません。"
+            if git diff --quiet -- data/discography.json data/discography-data.js assets/discography/notion; then
+              echo "ディスコグラフィに変更はありません。"
               exit 0
             fi
 
-            git add data/home-guides.json
-            git commit -m "chore: refresh homepage guide updates"
+            git add data/discography.json data/discography-data.js assets/discography/notion
+            git commit -m "chore: sync discography from Notion"
 
             if git push origin "HEAD:${branch}"; then
-              echo "ホーム用ガイド更新情報を更新しました。"
+              echo "ディスコグラフィを更新しました。"
               exit 0
             fi
 
-            echo "push中に別の更新が入りました。最新のmainから再生成します。"
+            echo "push中に別の更新が入りました。最新のmainから再同期します。"
             sleep $((attempt * 5))
           done
 

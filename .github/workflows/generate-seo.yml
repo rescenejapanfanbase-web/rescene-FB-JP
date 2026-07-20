@@ -10,6 +10,8 @@ on:
       - "js/*.js"
       - "data/news.json"
       - "data/news-data.js"
+      - "data/discography.json"
+      - "data/discography-data.js"
       - "assets/**"
       - "news/**"
       - "scripts/generate-seo.py"
