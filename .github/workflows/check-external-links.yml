@@ -13,6 +13,7 @@ on:
       - "**/*.html"
       - "data/voting-guide.json"
       - "data/streaming-guide.json"
+      - "data/official-links.json"
       - "scripts/check-external-links.py"
       - ".github/workflows/check-external-links.yml"
       - "EXTERNAL-LINK-CHECK-GUIDE.txt"
