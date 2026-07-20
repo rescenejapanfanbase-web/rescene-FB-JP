@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-20T09:00:00.000Z",
+  "generatedAt": "2026-07-20T13:15:39.747Z",
   "source": "notion",
   "dataSourceId": "ea6db3e1-e0ad-4441-9b7f-c41a739b92bd",
   "notionDatabaseUrl": "https://app.notion.com/p/233f65d59c4347188049afdeda030c80",
   "items": [
     {
-      "slug": "about-page-settings",
+      "slug": "about",
       "title": "Aboutページ設定",
       "type": "ページ設定",
       "englishLabel": "ABOUT RESCENE",
@@ -19,10 +19,12 @@
       "linkUrl": "",
       "buttonLabel": "",
       "anchor": "top",
-      "order": 0
+      "order": 0,
+      "notionPageId": "3a3229d2-19da-8183-96bb-d460970d3e88",
+      "notionUrl": "https://app.notion.com/p/About-3a3229d219da818396bbd460970d3e88"
     },
     {
-      "slug": "debut-era",
+      "slug": "about-031f585b",
       "title": "デビュー期の全体写真",
       "type": "デビュー写真",
       "englishLabel": "DEBUT ERA",
@@ -36,10 +38,12 @@
       "linkUrl": "",
       "buttonLabel": "",
       "anchor": "debut-era",
-      "order": 10
+      "order": 10,
+      "notionPageId": "3a3229d2-19da-8134-bd94-d8e8031f585b",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da8134bd94d8e8031f585b"
     },
     {
-      "slug": "identity",
+      "slug": "about-3596e9f2",
       "title": "グループ紹介",
       "type": "紹介文",
       "englishLabel": "IDENTITY",
@@ -53,7 +57,9 @@
       "linkUrl": "",
       "buttonLabel": "",
       "anchor": "identity",
-      "order": 20
+      "order": 20,
+      "notionPageId": "3a3229d2-19da-8172-a328-e5f33596e9f2",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da8172a328e5f33596e9f2"
     },
     {
       "slug": "group",
@@ -70,7 +76,9 @@
       "linkUrl": "",
       "buttonLabel": "",
       "anchor": "",
-      "order": 30
+      "order": 30,
+      "notionPageId": "3a3229d2-19da-8125-bde5-e5622e1d3c16",
+      "notionUrl": "https://app.notion.com/p/GROUP-3a3229d219da8125bde5e5622e1d3c16"
     },
     {
       "slug": "fandom",
@@ -87,7 +95,9 @@
       "linkUrl": "",
       "buttonLabel": "",
       "anchor": "",
-      "order": 40
+      "order": 40,
+      "notionPageId": "3a3229d2-19da-8177-89c6-ded9d98f90d6",
+      "notionUrl": "https://app.notion.com/p/FANDOM-3a3229d219da817789c6ded9d98f90d6"
     },
     {
       "slug": "debut",
@@ -104,7 +114,9 @@
       "linkUrl": "",
       "buttonLabel": "",
       "anchor": "",
-      "order": 50
+      "order": 50,
+      "notionPageId": "3a3229d2-19da-81d3-90c3-ce9a11f633f6",
+      "notionUrl": "https://app.notion.com/p/DEBUT-3a3229d219da81d390c3ce9a11f633f6"
     },
     {
       "slug": "re",
@@ -121,7 +133,9 @@
       "linkUrl": "",
       "buttonLabel": "",
       "anchor": "",
-      "order": 60
+      "order": 60,
+      "notionPageId": "3a3229d2-19da-81f0-9514-d1cee77976d0",
+      "notionUrl": "https://app.notion.com/p/RE-3a3229d219da81f09514d1cee77976d0"
     },
     {
       "slug": "scene",
@@ -138,10 +152,12 @@
       "linkUrl": "",
       "buttonLabel": "",
       "anchor": "",
-      "order": 70
+      "order": 70,
+      "notionPageId": "3a3229d2-19da-811d-b42d-f63fdf0a8b11",
+      "notionUrl": "https://app.notion.com/p/SCENE-3a3229d219da811db42df63fdf0a8b11"
     },
     {
-      "slug": "milestone-debut",
+      "slug": "about-d586e94b",
       "title": "デビュー",
       "type": "マイルストーン",
       "englishLabel": "DEBUT",
@@ -155,7 +171,9 @@
       "linkUrl": "",
       "buttonLabel": "",
       "anchor": "milestone-debut",
-      "order": 100
+      "order": 100,
+      "notionPageId": "3a3229d2-19da-8101-a858-d145d586e94b",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da8101a858d145d586e94b"
     }
   ]
 }
