@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T05:29:42Z",
-  "startedAt": "2026-07-20T05:29:39Z",
-  "elapsedSeconds": 2.85,
+  "generatedAt": "2026-07-20T06:12:01Z",
+  "startedAt": "2026-07-20T06:11:59Z",
+  "elapsedSeconds": 1.84,
   "summary": {
     "checked": 42,
     "ok": 42,
@@ -154,6 +154,11 @@
           "label": "SHOW!音楽中心 出演"
         },
         {
+          "file": "data/voting-guide.json",
+          "line": 394,
+          "label": "Fancast"
+        },
+        {
           "file": "voting.html",
           "line": 701,
           "label": "App Store ↗"
@@ -190,6 +195,11 @@
       "method": "apple-lookup",
       "sources": [
         {
+          "file": "data/voting-guide.json",
+          "line": 300,
+          "label": "BIGC"
+        },
+        {
           "file": "voting.html",
           "line": 698,
           "label": "App Storeで開く ↗"
@@ -207,6 +217,11 @@
       "message": "Appleの公開コンテンツを確認しました。",
       "method": "apple-lookup",
       "sources": [
+        {
+          "file": "data/voting-guide.json",
+          "line": 447,
+          "label": "Mubeat"
+        },
         {
           "file": "voting.html",
           "line": 702,
@@ -226,6 +241,11 @@
       "method": "apple-lookup",
       "sources": [
         {
+          "file": "data/voting-guide.json",
+          "line": 533,
+          "label": "HIGHER"
+        },
+        {
           "file": "voting.html",
           "line": 704,
           "label": "App Store ↗"
@@ -243,6 +263,11 @@
       "message": "Appleの公開コンテンツを確認しました。",
       "method": "apple-lookup",
       "sources": [
+        {
+          "file": "data/voting-guide.json",
+          "line": 495,
+          "label": "LiNC"
+        },
         {
           "file": "voting.html",
           "line": 703,
@@ -262,6 +287,11 @@
       "method": "apple-lookup",
       "sources": [
         {
+          "file": "data/voting-guide.json",
+          "line": 333,
+          "label": "IDOLCHAMP"
+        },
+        {
           "file": "voting.html",
           "line": 699,
           "label": "App Store ↗"
@@ -280,6 +310,11 @@
       "method": "apple-lookup",
       "sources": [
         {
+          "file": "data/voting-guide.json",
+          "line": 366,
+          "label": "Mnet Plus"
+        },
+        {
           "file": "voting.html",
           "line": 700,
           "label": "App Store ↗"
@@ -297,6 +332,11 @@
       "message": "Appleの公開コンテンツを確認しました。",
       "method": "apple-lookup",
       "sources": [
+        {
+          "file": "data/voting-guide.json",
+          "line": 566,
+          "label": "Muniverse"
+        },
         {
           "file": "voting.html",
           "line": 705,
@@ -340,7 +380,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 110,
+          "line": 111,
           "label": "GitHubリポジトリ サイトファイルと更新履歴を確認 ↗"
         }
       ]
@@ -358,7 +398,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 110,
+          "line": 111,
           "label": "GitHub Actions一覧 すべての同期・チェック履歴を確認 ↗"
         }
       ]
@@ -376,7 +416,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 110,
+          "line": 111,
           "label": "バックアップ一覧 保存ZIPの作成履歴とArtifactを確認 ↗"
         }
       ]
@@ -392,6 +432,11 @@
       "message": "HTTP 200",
       "method": "http-get",
       "sources": [
+        {
+          "file": "data/voting-guide.json",
+          "line": 395,
+          "label": "Fancast"
+        },
         {
           "file": "voting.html",
           "line": 701,
@@ -411,6 +456,11 @@
       "method": "http-get",
       "sources": [
         {
+          "file": "data/voting-guide.json",
+          "line": 534,
+          "label": "HIGHER"
+        },
+        {
           "file": "voting.html",
           "line": 704,
           "label": "Google Play ↗"
@@ -428,6 +478,11 @@
       "message": "HTTP 200",
       "method": "http-get",
       "sources": [
+        {
+          "file": "data/voting-guide.json",
+          "line": 334,
+          "label": "IDOLCHAMP"
+        },
         {
           "file": "voting.html",
           "line": 699,
@@ -447,6 +502,11 @@
       "method": "http-get",
       "sources": [
         {
+          "file": "data/voting-guide.json",
+          "line": 567,
+          "label": "Muniverse"
+        },
+        {
           "file": "voting.html",
           "line": 705,
           "label": "Google Playで開く ↗"
@@ -464,6 +524,11 @@
       "message": "HTTP 200",
       "method": "http-get",
       "sources": [
+        {
+          "file": "data/voting-guide.json",
+          "line": 448,
+          "label": "Mubeat"
+        },
         {
           "file": "voting.html",
           "line": 702,
@@ -483,6 +548,11 @@
       "method": "http-get",
       "sources": [
         {
+          "file": "data/voting-guide.json",
+          "line": 301,
+          "label": "BIGC"
+        },
+        {
           "file": "voting.html",
           "line": 698,
           "label": "Google Playで開く ↗"
@@ -501,6 +571,11 @@
       "method": "http-get",
       "sources": [
         {
+          "file": "data/voting-guide.json",
+          "line": 496,
+          "label": "LiNC"
+        },
+        {
           "file": "voting.html",
           "line": 703,
           "label": "Google Play ↗"
@@ -518,6 +593,11 @@
       "message": "HTTP 200",
       "method": "http-get",
       "sources": [
+        {
+          "file": "data/voting-guide.json",
+          "line": 367,
+          "label": "Mnet Plus"
+        },
         {
           "file": "voting.html",
           "line": 700,
