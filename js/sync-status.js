@@ -2,7 +2,7 @@
   'use strict';
 
   const REPOSITORY='rescenejapanfanbase-web/rescene-FB-JP';
-  const API_CACHE_KEY='rescene-sync-status-api-v6';
+  const API_CACHE_KEY='rescene-sync-status-api-v7';
   const API_CACHE_MS=5*60*1000;
   const workflowBase=`https://github.com/${REPOSITORY}/actions/workflows/`;
 
@@ -58,6 +58,19 @@
         const tracks=releases.reduce((sum,item)=>sum+(Array.isArray(item?.tracks)?item.tracks.length:0),0);
         const pending=data?.source!=='notion';
         return {count:`${releases.length}件`,detail:`収録曲 ${tracks}曲 / ジャケット ${covers}件`,generatedAt:data?.generatedAt||null,state:pending?'warning':'success',message:pending?'初期データを表示しています。Notionデータベースを既存の連携へ接続し、同期を一度実行してください。':`Notionから公開作品 ${releases.length}件を読み込みました。`};
+      },
+    },
+
+    chants:{
+      workflow:'sync-notion-chants.yml',
+      dataUrl:'data/chants.json',
+      parseData(data){
+        const chants=Array.isArray(data?.chants)?data.chants:[];
+        const images=chants.filter(item=>item?.image).length;
+        const official=chants.filter(item=>item?.videoType==='公式').length;
+        const unofficial=chants.filter(item=>item?.videoType==='非公式').length;
+        const pending=data?.source!=='notion';
+        return {count:`${chants.length}件`,detail:`画像 ${images}件 / 公式 ${official} / 非公式 ${unofficial}`,generatedAt:data?.generatedAt||null,state:pending?'warning':'success',message:pending?'初期データを表示しています。Notionデータベースを既存の連携へ接続し、同期を一度実行してください。':`Notionから公開掛け声ガイド ${chants.length}件を読み込みました。`};
       },
     },
     homeguides:{

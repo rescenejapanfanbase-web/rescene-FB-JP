@@ -93,6 +93,12 @@
   url:`discography.html#${item.anchor||`release-${item.slug||index}`}`,keywords:`${item.categoryName||''} ${item.type||''} ${(Array.isArray(item.tracks)?item.tracks.map(track=>track.title).join(' '):'')} アルバム シングル OST 収録曲`,image:item.cover||'',date:item.releaseDate||'',priority:80,
  }));
 
+
+ const chantEntries=data=>(Array.isArray(data?.chants)?data.chants:[]).map((item,index)=>({
+  id:`fanchant-${item.slug||index}`,category:'chants',categoryLabel:item.videoType||'FAN CHANT',title:item.title||'掛け声ガイド',summary:`${item.album||item.categoryTitle||''}の掛け声ガイドです。${item.note||''}`,
+  url:`chants.html#${item.anchor||`chant-${item.slug||index}`}`,keywords:`${item.categoryTitle||''} ${item.album||''} ${item.videoType||''} 掛け声 掛声 応援法 fan chant`,image:item.image||'',priority:76,
+ }));
+
  const youtubeEntries=data=>(Array.isArray(data?.channels)?data.channels:[]).flatMap(channel=>(Array.isArray(channel.videos)?channel.videos:[]).map((video,index)=>({
   id:`youtube-${channel.key||'channel'}-${video.videoId||index}`,category:'youtube',categoryLabel:typeLabel(video.videoType),title:video.title||'YouTube動画',
   summary:`${channel.label||channel.handle||'YouTube'}で公開された${typeLabel(video.videoType).toLowerCase()}動画です。`,url:video.url||channel.url||'youtube.html',
@@ -111,6 +117,7 @@
    ['スケジュール',()=>fetchJson('data/schedule.json')],
    ['YouTube',()=>fetchJson('data/youtube-channels.json')],
    ['ディスコグラフィ',()=>fetchJson('data/discography.json')],
+   ['掛け声ガイド',()=>fetchJson('data/chants.json')],
   ];
   const settled=await Promise.allSettled(requests.map(([,loader])=>loader()));
   let entries=[];
@@ -122,6 +129,7 @@
    if(index===2)entries.push(...scheduleEntries(result.value));
    if(index===3)entries.push(...youtubeEntries(result.value));
    if(index===4){entries=entries.filter(entry=>entry.category!=='discography');entries.push(...discographyEntries(result.value));}
+   if(index===5){entries=entries.filter(entry=>entry.category!=='chants'||entry.url==='chants.html');entries.push(...chantEntries(result.value));}
   });
   const seen=new Set();
   allEntries=entries.map(normalizeEntry).filter(entry=>{
