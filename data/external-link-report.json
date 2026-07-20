@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T04:56:49Z",
-  "startedAt": "2026-07-20T04:56:48Z",
-  "elapsedSeconds": 1.45,
+  "generatedAt": "2026-07-20T05:29:42Z",
+  "startedAt": "2026-07-20T05:29:39Z",
+  "elapsedSeconds": 2.85,
   "summary": {
-    "checked": 57,
-    "ok": 57,
+    "checked": 42,
+    "ok": 42,
     "warning": 0,
     "broken": 0,
     "hosts": 12
@@ -94,8 +94,8 @@
     {
       "key": "youtube",
       "label": "YouTube",
-      "checked": 19,
-      "ok": 19,
+      "checked": 4,
+      "ok": 4,
       "warning": 0,
       "broken": 0
     }
@@ -340,7 +340,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 112,
+          "line": 110,
           "label": "GitHubリポジトリ サイトファイルと更新履歴を確認 ↗"
         }
       ]
@@ -358,7 +358,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 112,
+          "line": 110,
           "label": "GitHub Actions一覧 すべての同期・チェック履歴を確認 ↗"
         }
       ]
@@ -376,7 +376,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 112,
+          "line": 110,
           "label": "バックアップ一覧 保存ZIPの作成履歴とArtifactを確認 ↗"
         }
       ]
@@ -980,114 +980,6 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=9XttLI0oH0I",
-      "normalizedUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
-      "finalUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘LOVE ATTACK’ Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "mv.html",
-          "line": 515,
-          "label": "OFFICIAL MV LOVE ATTACK 2024.08.27 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
-      "normalizedUrl": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
-      "finalUrl": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘Pinball’ Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "mv.html",
-          "line": 509,
-          "label": "OFFICIAL MV Pinball 2024.09.21 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=ByX8EZq8500",
-      "normalizedUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
-      "finalUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Heart Drop' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "mv.html",
-          "line": 491,
-          "label": "OFFICIAL MV Heart Drop 2025.11.06 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=ewubELWBMaE",
-      "normalizedUrl": "https://www.youtube.com/watch?v=ewubELWBMaE",
-      "finalUrl": "https://www.youtube.com/watch?v=ewubELWBMaE",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE 'Busy Boy' Performance Video。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "mv.html",
-          "line": 485,
-          "label": "PERFORMANCE VIDEO Busy Boy 2026.02.27 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
-      "normalizedUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
-      "finalUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘Glow Up’ Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "mv.html",
-          "line": 506,
-          "label": "OFFICIAL MV Glow Up 2025.02.05 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=Ihsh9VRZLlo",
-      "normalizedUrl": "https://www.youtube.com/watch?v=Ihsh9VRZLlo",
-      "finalUrl": "https://www.youtube.com/watch?v=Ihsh9VRZLlo",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：[Official] RESCENE (리센느) - 고백주파수 Special Clip。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "mv.html",
-          "line": 494,
-          "label": "SPECIAL CLIP 고백주파수 2025.09.17 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
       "url": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
       "normalizedUrl": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
       "finalUrl": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
@@ -1112,168 +1004,6 @@
           "file": "data/news.json",
           "line": 26,
           "label": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=MC6-82GRK5I",
-      "normalizedUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
-      "finalUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Bloom' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "mv.html",
-          "line": 488,
-          "label": "OFFICIAL MV Bloom 2025.11.25 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=QNXeGm-Wkms",
-      "normalizedUrl": "https://www.youtube.com/watch?v=QNXeGm-Wkms",
-      "finalUrl": "https://www.youtube.com/watch?v=QNXeGm-Wkms",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘New World’ Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "mv.html",
-          "line": 512,
-          "label": "OFFICIAL MV New World 2024.09.12 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=qZlu2j2SiBA",
-      "normalizedUrl": "https://www.youtube.com/watch?v=qZlu2j2SiBA",
-      "finalUrl": "https://www.youtube.com/watch?v=qZlu2j2SiBA",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Pretty Girl' Special Video。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "mv.html",
-          "line": 479,
-          "label": "SPECIAL VIDEO Pretty Girl 2026.07.08 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=rsZwrTNklos",
-      "normalizedUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
-      "finalUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Runaway' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "mv.html",
-          "line": 482,
-          "label": "OFFICIAL MV Runaway 2026.04.08 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
-      "normalizedUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
-      "finalUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘YoYo’ MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "mv.html",
-          "line": 521,
-          "label": "OFFICIAL MV YoYo 2024.02.29 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=v5we0mJpoDM",
-      "normalizedUrl": "https://www.youtube.com/watch?v=v5we0mJpoDM",
-      "finalUrl": "https://www.youtube.com/watch?v=v5we0mJpoDM",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Mood': The film。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "mv.html",
-          "line": 500,
-          "label": "THE FILM Mood 2025.07.03 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=WfQ9TeFHJp4",
-      "normalizedUrl": "https://www.youtube.com/watch?v=WfQ9TeFHJp4",
-      "finalUrl": "https://www.youtube.com/watch?v=WfQ9TeFHJp4",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) - BamBamBam (밤밤밤) | The First Night With the Duke OST。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "mv.html",
-          "line": 503,
-          "label": "OST MV 밤밤밤(BamBamBam) 2025.06.12 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
-      "normalizedUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
-      "finalUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Deja Vu' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "mv.html",
-          "line": 497,
-          "label": "OFFICIAL MV Deja Vu 2025.07.02 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=zpSejlkSXLA",
-      "normalizedUrl": "https://www.youtube.com/watch?v=zpSejlkSXLA",
-      "finalUrl": "https://www.youtube.com/watch?v=zpSejlkSXLA",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘UhUh’ MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "mv.html",
-          "line": 518,
-          "label": "OFFICIAL MV UhUh 2024.03.26 公式動画を見る ↗"
         }
       ]
     }
