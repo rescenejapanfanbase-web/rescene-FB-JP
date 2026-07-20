@@ -1,5 +1,5 @@
 window.RESCENE_CHANTS = {
-  "generatedAt": "2026-07-20T04:42:58.651Z",
+  "generatedAt": "2026-07-20T09:41:04.951Z",
   "source": "notion",
   "dataSourceId": "bc32e32a-adcb-418d-828b-03ea458d4560",
   "notionDatabaseUrl": "https://app.notion.com/p/1616bd27522949b582095498f939aea9",
@@ -40,8 +40,8 @@ window.RESCENE_CHANTS = {
       "order": 70
     },
     {
-      "key": "japanese-single",
-      "title": "Japanese Single",
+      "key": "japanese-version",
+      "title": "JAPANESE VERSION",
       "order": 80
     },
     {
@@ -217,9 +217,9 @@ window.RESCENE_CHANTS = {
       "anchor": "chant-pinball-japanese",
       "slug": "pinball-japanese",
       "title": "Pinball Japanese Ver.",
-      "album": "Japanese Single",
-      "categoryKey": "japanese-single",
-      "categoryTitle": "Japanese Single",
+      "album": "JAPANESE VERSION",
+      "categoryKey": "japanese-version",
+      "categoryTitle": "JAPANESE VERSION",
       "categoryOrder": 80,
       "image": "chants/pinball-jp.png",
       "videoUrl": "https://www.youtube.com/watch?v=YyixhiYpkkY",
