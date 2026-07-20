@@ -1,11 +1,11 @@
 window.RESCENE_CONTACT = {
-  "generatedAt": "2026-07-20T00:00:00.000Z",
-  "source": "initial",
+  "generatedAt": "2026-07-20T13:54:56.700Z",
+  "source": "notion",
   "dataSourceId": "669db280-d2ac-45f2-8515-0992e002239c",
   "notionDatabaseUrl": "https://app.notion.com/p/1220e9a875ac4374bd9cf8167565723c",
   "items": [
     {
-      "slug": "contact-page",
+      "slug": "contact-2be522d6",
       "title": "お問い合わせページ設定",
       "type": "ページ設定",
       "englishLabel": "CONTACT",
@@ -15,10 +15,12 @@ window.RESCENE_CONTACT = {
       "buttonLabel": "",
       "linkUrl": "",
       "anchor": "top",
-      "order": 0
+      "order": 0,
+      "notionPageId": "3a3229d2-19da-81f5-884f-c8fc2be522d6",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da81f5884fc8fc2be522d6"
     },
     {
-      "slug": "contact-main",
+      "slug": "contact-696a99a5",
       "title": "メイン案内",
       "type": "メイン案内",
       "englishLabel": "CONTACT",
@@ -28,10 +30,12 @@ window.RESCENE_CONTACT = {
       "buttonLabel": "公式Xを開く",
       "linkUrl": "#",
       "anchor": "contact-main",
-      "order": 10
+      "order": 10,
+      "notionPageId": "3a3229d2-19da-812d-afe9-c361696a99a5",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da812dafe9c361696a99a5"
     },
     {
-      "slug": "contact-correction",
+      "slug": "contact-3f533fa1",
       "title": "掲載内容の訂正",
       "type": "連絡経路",
       "englishLabel": "",
@@ -41,10 +45,12 @@ window.RESCENE_CONTACT = {
       "buttonLabel": "",
       "linkUrl": "",
       "anchor": "contact-correction",
-      "order": 20
+      "order": 20,
+      "notionPageId": "3a3229d2-19da-81ec-924e-dd9c3f533fa1",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da81ec924edd9c3f533fa1"
     },
     {
-      "slug": "contact-project",
+      "slug": "contact-29092b18",
       "title": "企画・広告のご相談",
       "type": "連絡経路",
       "englishLabel": "",
@@ -54,10 +60,12 @@ window.RESCENE_CONTACT = {
       "buttonLabel": "",
       "linkUrl": "",
       "anchor": "contact-project",
-      "order": 30
+      "order": 30,
+      "notionPageId": "3a3229d2-19da-81b2-b5b7-c8dd29092b18",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da81b2b5b7c8dd29092b18"
     },
     {
-      "slug": "contact-reply",
+      "slug": "contact-997ff7e5",
       "title": "返信について",
       "type": "連絡経路",
       "englishLabel": "",
@@ -67,7 +75,9 @@ window.RESCENE_CONTACT = {
       "buttonLabel": "",
       "linkUrl": "",
       "anchor": "contact-reply",
-      "order": 40
+      "order": 40,
+      "notionPageId": "3a3229d2-19da-8107-b153-d012997ff7e5",
+      "notionUrl": "https://app.notion.com/p/3a3229d219da8107b153d012997ff7e5"
     }
   ]
 };
