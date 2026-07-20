@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T05:35:31.644Z",
+  "generatedAt": "2026-07-20T08:27:33.137Z",
   "source": "YouTube channel tabs via yt-dlp",
   "collectionMode": "all-public-videos-with-verified-publish-dates",
   "channels": [
@@ -11,20 +11,39 @@
       "url": "https://www.youtube.com/@RESCENE_official",
       "description": "ミュージックビデオ、Re:log、ビハインドなどRESCENEの公式コンテンツ。",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtKtCiaWRz-d3EZn2xd1mdA",
-      "totalVideos": 1639,
+      "totalVideos": 1640,
       "typeCounts": {
         "video": 453,
-        "short": 1186,
+        "short": 1187,
         "live": 0
       },
       "videos": [
+        {
+          "videoId": "rik_WepVLLE",
+          "title": "약속해줘 🤙💓",
+          "url": "https://www.youtube.com/watch?v=rik_WepVLLE",
+          "thumbnail": "https://i3.ytimg.com/vi/rik_WepVLLE/hqdefault.jpg",
+          "publishedAt": "2026-07-20T07:00:19+00:00",
+          "updatedAt": "2026-07-20T07:00:40+00:00",
+          "videoType": "short",
+          "sourceTypes": [
+            "short"
+          ],
+          "sourceVideoIds": [
+            "rik_WepVLLE"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live"
+        },
         {
           "videoId": "Fuv_YNCpcCc",
           "title": "#선미 선배님과 어디서나 당당하게 걷기 🎀",
           "url": "https://www.youtube.com/watch?v=Fuv_YNCpcCc",
           "thumbnail": "https://i3.ytimg.com/vi/Fuv_YNCpcCc/hqdefault.jpg",
           "publishedAt": "2026-07-19T09:00:30+00:00",
-          "updatedAt": "2026-07-19T09:01:01+00:00",
+          "updatedAt": "2026-07-20T06:32:00+00:00",
           "videoType": "short",
           "sourceTypes": [
             "short"
@@ -31384,7 +31403,7 @@
           "url": "https://www.youtube.com/watch?v=8r-YPb_tKlM",
           "thumbnail": "https://i1.ytimg.com/vi/8r-YPb_tKlM/hqdefault.jpg",
           "publishedAt": "2026-07-17T10:00:12+00:00",
-          "updatedAt": "2026-07-20T05:18:23+00:00",
+          "updatedAt": "2026-07-20T07:26:11+00:00",
           "videoType": "video",
           "sourceTypes": [
             "video"
