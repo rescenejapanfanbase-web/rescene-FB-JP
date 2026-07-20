@@ -29,7 +29,7 @@ run_step "ホーム用ガイド更新情報" node scripts/generate-home-guides.m
 run_step "カレンダーICS" node scripts/calendar-ics.mjs
 run_step "SEO・記事・OGP・サイトマップ" python3 scripts/generate-seo.py
 run_step "画像最適化" python3 scripts/optimize-images.py
-run_step "公開前品質検査" ./scripts/run-prepublish-checks.sh
+run_step "公開前品質検査" bash ./scripts/run-prepublish-checks.sh
 
 echo
 printf '✅ 全コンテンツの同期・生成・検査が完了しました。\n'
