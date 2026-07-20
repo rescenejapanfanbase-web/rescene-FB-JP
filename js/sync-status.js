@@ -2,7 +2,7 @@
   'use strict';
 
   const REPOSITORY='rescenejapanfanbase-web/rescene-FB-JP';
-  const API_CACHE_KEY='rescene-sync-status-api-v9';
+  const API_CACHE_KEY='rescene-sync-status-api-v10';
   const API_CACHE_MS=5*60*1000;
   const workflowBase=`https://github.com/${REPOSITORY}/actions/workflows/`;
 
@@ -99,6 +99,17 @@
         const guideImages=apps.reduce((sum,item)=>sum+(Array.isArray(item?.guide?.steps)?item.guide.steps.filter(step=>step?.image).length:0),0);
         const pending=data?.source!=='notion';
         return {count:`${programs.length}番組`,detail:`投票アプリ ${apps.length}件 / ガイド画像 ${guideImages}枚`,generatedAt:data?.generatedAt||null,state:pending?'warning':'success',message:pending?'初期データを表示しています。Notionデータベースを既存の連携へ接続し、同期を一度実行してください。':`Notionから投票番組 ${programs.length}件・アプリ ${apps.length}件を読み込みました。`};
+      },
+    },
+    streaming:{
+      workflow:'sync-notion-streaming.yml',
+      dataUrl:'data/streaming-guide.json',
+      parseData(data){
+        const guides=Array.isArray(data?.guides)?data.guides:[];
+        const images=guides.reduce((sum,item)=>sum+(Array.isArray(item?.steps)?item.steps.filter(step=>step?.image).length:0),0);
+        const types=new Set(guides.map(item=>item?.type).filter(Boolean)).size;
+        const pending=data?.source!=='notion';
+        return {count:`${guides.length}件`,detail:`種類 ${types} / ガイド画像 ${images}枚`,generatedAt:data?.generatedAt||null,state:pending?'warning':'success',message:pending?'初期データを表示しています。Notionデータベースを既存の連携へ接続し、同期を一度実行してください。':`Notionから公開ストリーミングガイド ${guides.length}件を読み込みました。`};
       },
     },
     homeguides:{

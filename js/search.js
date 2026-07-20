@@ -112,6 +112,11 @@
  }));
 
 
+ const streamingEntries=data=>(Array.isArray(data?.guides)?data.guides:[]).map((item,index)=>({
+  id:`streaming-${index}`,category:'streaming',categoryLabel:item.type||'STREAMING GUIDE',title:item.title||'ストリーミングガイド',summary:`${item.subtitle||''}。${item.description||''}`,
+  url:`streaming.html#${item.anchor||''}`,keywords:`${item.type||''} ${(Array.isArray(item.points)?item.points.join(' '):'')} ${item.note||''} ストリーミング 再生 ガイド`,image:item.icon||(Array.isArray(item.steps)?item.steps.find(step=>step?.image)?.image:'')||'',priority:75,
+ }));
+
  const votingEntries=data=>{
   const programs=(Array.isArray(data?.programs)?data.programs:[]).map((item,index)=>({
    id:`voting-program-${index}`,category:'voting',categoryLabel:'VOTING PROGRAM',title:item.title||'音楽番組',summary:`${item.subtitle||''} ${item.voteType||''}。使用アプリ：${item.app||'未設定'}。${item.note||''}`,
@@ -139,6 +144,7 @@
    ['ディスコグラフィ',()=>fetchJson('data/discography.json')],
    ['掛け声ガイド',()=>fetchJson('data/chants.json')],
    ['投票ガイド',()=>fetchJson('data/voting-guide.json')],
+   ['ストリーミングガイド',()=>fetchJson('data/streaming-guide.json')],
   ];
   const settled=await Promise.allSettled(requests.map(([,loader])=>loader()));
   let entries=[];
@@ -153,6 +159,7 @@
    if(index===5){entries=entries.filter(entry=>entry.category!=='discography');entries.push(...discographyEntries(result.value));}
    if(index===6){entries=entries.filter(entry=>entry.category!=='chants'||entry.url==='chants.html');entries.push(...chantEntries(result.value));}
    if(index===7){entries=entries.filter(entry=>entry.category!=='voting'||entry.url==='voting.html');entries.push(...votingEntries(result.value));}
+   if(index===8){entries=entries.filter(entry=>entry.category!=='streaming'||entry.url==='streaming.html');entries.push(...streamingEntries(result.value));}
   });
   const seen=new Set();
   allEntries=entries.map(normalizeEntry).filter(entry=>{

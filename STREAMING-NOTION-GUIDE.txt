@@ -1,0 +1,33 @@
+RESCENE ストリーミングガイド Notion運用ガイド
+
+Notion管理ページ
+https://app.notion.com/p/a0180c81202a46b780f0045abfd0f00e
+
+データソースID
+c769b3a6-e306-4665-84c7-dcfff92cfe5b
+
+初回設定
+1. Notion管理ページ右上の「…」を開く
+2. 「接続」から RESCENE Schedule Sync を追加する
+3. GitHub Actions の Sync Notion Streaming Guide を実行する
+
+主な項目
+・タイトル：サービス名
+・公開：サイトへ表示する場合にチェック
+・種類：動画、音楽ストリーミング、コミュニティ、SNS、応援サポート
+・ポイント：1行につき1項目
+・ガイド手順：1行につき「手順タイトル | 説明」
+・リンクURL：外部URLまたは mv.html などのサイト内URL
+・アイコン／ガイド画像：Notionへ直接アップロード可能
+・ガイド画像パス：既存GitHub画像を1行1枚で指定
+・表示順：小さい数字から表示
+
+画像の優先順位
+Notionアップロード画像 → 画像パスで指定した既存画像
+
+Notion画像の保存先
+assets/streaming/notion/icons/
+assets/streaming/notion/guides/
+
+自動同期
+3時間ごとの07分、およびGitHub Actionsからの手動実行
