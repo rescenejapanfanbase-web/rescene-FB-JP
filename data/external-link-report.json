@@ -1,24 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T02:02:53Z",
-  "startedAt": "2026-07-20T02:02:50Z",
-  "elapsedSeconds": 3.16,
+  "generatedAt": "2026-07-20T04:56:49Z",
+  "startedAt": "2026-07-20T04:56:48Z",
+  "elapsedSeconds": 1.45,
   "summary": {
-    "checked": 68,
-    "ok": 67,
-    "warning": 1,
+    "checked": 57,
+    "ok": 57,
+    "warning": 0,
     "broken": 0,
     "hosts": 12
   },
   "services": [
-    {
-      "key": "instagram",
-      "label": "Instagram",
-      "checked": 1,
-      "ok": 0,
-      "warning": 1,
-      "broken": 0
-    },
     {
       "key": "app-store",
       "label": "App Store",
@@ -48,6 +40,14 @@
       "label": "Google Play",
       "checked": 8,
       "ok": 8,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
+      "checked": 1,
+      "ok": 1,
       "warning": 0,
       "broken": 0
     },
@@ -94,36 +94,13 @@
     {
       "key": "youtube",
       "label": "YouTube",
-      "checked": 30,
-      "ok": 30,
+      "checked": 19,
+      "ok": 19,
       "warning": 0,
       "broken": 0
     }
   ],
   "items": [
-    {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "warning",
-      "httpStatus": 429,
-      "message": "HTTP 429（自動確認が制限されています）",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "index.html",
-          "line": 707,
-          "label": "Instagram"
-        },
-        {
-          "file": "links.html",
-          "line": 495,
-          "label": "Instagram OPEN ↗"
-        }
-      ]
-    },
     {
       "url": "https://apps.apple.com/app/id1185735018",
       "normalizedUrl": "https://apps.apple.com/app/id1185735018",
@@ -363,7 +340,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 110,
+          "line": 112,
           "label": "GitHubリポジトリ サイトファイルと更新履歴を確認 ↗"
         }
       ]
@@ -381,7 +358,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 110,
+          "line": 112,
           "label": "GitHub Actions一覧 すべての同期・チェック履歴を確認 ↗"
         }
       ]
@@ -399,7 +376,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 110,
+          "line": 112,
           "label": "バックアップ一覧 保存ZIPの作成履歴とArtifactを確認 ↗"
         }
       ]
@@ -545,6 +522,29 @@
           "file": "voting.html",
           "line": 700,
           "label": "Google Play ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "index.html",
+          "line": 707,
+          "label": "Instagram"
+        },
+        {
+          "file": "links.html",
+          "line": 495,
+          "label": "Instagram OPEN ↗"
         }
       ]
     },
@@ -980,60 +980,6 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=-55bUrG1qjg",
-      "normalizedUrl": "https://www.youtube.com/watch?v=-55bUrG1qjg",
-      "finalUrl": "https://www.youtube.com/watch?v=-55bUrG1qjg",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Glow Up' 응원법 (Fanchant Guide)。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "chants.html",
-          "line": 470,
-          "label": "公式掛け声動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=7DZlkZ4bMpU",
-      "normalizedUrl": "https://www.youtube.com/watch?v=7DZlkZ4bMpU",
-      "finalUrl": "https://www.youtube.com/watch?v=7DZlkZ4bMpU",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Runaway' 응원법 (Fanchant Guide)。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "chants.html",
-          "line": 470,
-          "label": "公式掛け声動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=9FlQOv6-Mjc",
-      "normalizedUrl": "https://www.youtube.com/watch?v=9FlQOv6-Mjc",
-      "finalUrl": "https://www.youtube.com/watch?v=9FlQOv6-Mjc",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Deja Vu' 응원법 (Fanchant Guide)。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "chants.html",
-          "line": 470,
-          "label": "公式掛け声動画を見る ↗"
-        }
-      ]
-    },
-    {
       "url": "https://www.youtube.com/watch?v=9XttLI0oH0I",
       "normalizedUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
       "finalUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
@@ -1170,24 +1116,6 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=Ma6IENHO584",
-      "normalizedUrl": "https://www.youtube.com/watch?v=Ma6IENHO584",
-      "finalUrl": "https://www.youtube.com/watch?v=Ma6IENHO584",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Bloom' 응원법 (Fanchant Guide)。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "chants.html",
-          "line": 470,
-          "label": "公式掛け声動画を見る ↗"
-        }
-      ]
-    },
-    {
       "url": "https://www.youtube.com/watch?v=MC6-82GRK5I",
       "normalizedUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
       "finalUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
@@ -1260,42 +1188,6 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=RX592yMx7P0",
-      "normalizedUrl": "https://www.youtube.com/watch?v=RX592yMx7P0",
-      "finalUrl": "https://www.youtube.com/watch?v=RX592yMx7P0",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Pretty Girl' 응원법 (Fanchant Guide)。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "chants.html",
-          "line": 470,
-          "label": "公式掛け声動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=s1S-lnU-yMI",
-      "normalizedUrl": "https://www.youtube.com/watch?v=s1S-lnU-yMI",
-      "finalUrl": "https://www.youtube.com/watch?v=s1S-lnU-yMI",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'UhUh' 응원법 (Fanchant Guide)。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "chants.html",
-          "line": 470,
-          "label": "公式掛け声動画を見る ↗"
-        }
-      ]
-    },
-    {
       "url": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
       "normalizedUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
       "finalUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
@@ -1332,24 +1224,6 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=VKlrVbgJG-g",
-      "normalizedUrl": "https://www.youtube.com/watch?v=VKlrVbgJG-g",
-      "finalUrl": "https://www.youtube.com/watch?v=VKlrVbgJG-g",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Heart Drop' 응원법 (Fanchant Guide)。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "chants.html",
-          "line": 470,
-          "label": "公式掛け声動画を見る ↗"
-        }
-      ]
-    },
-    {
       "url": "https://www.youtube.com/watch?v=WfQ9TeFHJp4",
       "normalizedUrl": "https://www.youtube.com/watch?v=WfQ9TeFHJp4",
       "finalUrl": "https://www.youtube.com/watch?v=WfQ9TeFHJp4",
@@ -1364,42 +1238,6 @@
           "file": "mv.html",
           "line": 503,
           "label": "OST MV 밤밤밤(BamBamBam) 2025.06.12 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=xn12KH78Dx4",
-      "normalizedUrl": "https://www.youtube.com/watch?v=xn12KH78Dx4",
-      "finalUrl": "https://www.youtube.com/watch?v=xn12KH78Dx4",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'LOVE ATTACK' 응원법 (Fanchant Guide)。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "chants.html",
-          "line": 470,
-          "label": "公式掛け声動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=YyixhiYpkkY",
-      "normalizedUrl": "https://www.youtube.com/watch?v=YyixhiYpkkY",
-      "finalUrl": "https://www.youtube.com/watch?v=YyixhiYpkkY",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Pinball' 응원법 (Fanchant Guide)。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "chants.html",
-          "line": 470,
-          "label": "公式掛け声動画を見る ↗"
         }
       ]
     },
@@ -1436,42 +1274,6 @@
           "file": "mv.html",
           "line": 518,
           "label": "OFFICIAL MV UhUh 2024.03.26 公式動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/MVikEeU99x8?si=NL97-AokTTEpEyPJ",
-      "normalizedUrl": "https://www.youtube.com/watch?v=MVikEeU99x8",
-      "finalUrl": "https://www.youtube.com/watch?v=MVikEeU99x8",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센드) 'Busy Boy' 응원법 (Fanchant Guide)。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "chants.html",
-          "line": 470,
-          "label": "掛け声動画を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/ykVJo0wFlQ4?si=nzdJrTUe26vxhrAt",
-      "normalizedUrl": "https://www.youtube.com/watch?v=ykVJo0wFlQ4",
-      "finalUrl": "https://www.youtube.com/watch?v=ykVJo0wFlQ4",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센드) 'YoYo' 응원법 (Fanchant Guide)。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "chants.html",
-          "line": 470,
-          "label": "掛け声動画を見る ↗"
         }
       ]
     }
