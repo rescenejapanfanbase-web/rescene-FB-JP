@@ -20,8 +20,17 @@
   let active='all';
 
   const categorySlug=value=>String(value||'other').normalize('NFKC').replace(/[^\p{L}\p{N}]+/gu,'-').replace(/^-|-$/g,'').toLowerCase()||'other';
+  const localIcons={
+    'Official X':'assets/platform-icons/x.webp',
+    'Members X':'assets/platform-icons/x.webp',
+    'Instagram':'assets/platform-icons/instagram.webp',
+    'TikTok':'assets/platform-icons/tiktok.webp',
+    'Facebook':'assets/platform-icons/facebook.webp',
+    'Weibo':'assets/platform-icons/weibo.webp'
+  };
   const iconMarkup=item=>{
-    if(item.icon)return `<img src="${escapeHtml(item.icon)}" alt="" loading="lazy">`;
+    const icon=item.icon||localIcons[item.title]||'';
+    if(icon)return `<img src="${escapeHtml(icon)}" alt="" loading="lazy" width="58" height="58">`;
     return `<span aria-hidden="true">${escapeHtml(item.iconText||String(item.title||'').slice(0,2))}</span>`;
   };
   const card=item=>{

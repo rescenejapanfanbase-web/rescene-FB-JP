@@ -27,7 +27,7 @@
       "subtitle": "@RESCENEofficial",
       "description": "RESCENE公式のお知らせや活動情報を確認できます。",
       "label": "OFFICIAL",
-      "icon": "",
+      "icon": "assets/platform-icons/x.webp",
       "iconText": "X",
       "anchor": "official-x",
       "notionUrl": "https://app.notion.com/p/Official-X-3a3229d219da81869bfcd69c2b8f2668"
@@ -41,7 +41,7 @@
       "subtitle": "@RESCENE_twt",
       "description": "メンバーの写真やメッセージが投稿される公式アカウントです。",
       "label": "MEMBERS",
-      "icon": "",
+      "icon": "assets/platform-icons/x.webp",
       "iconText": "X",
       "anchor": "members-x",
       "notionUrl": "https://app.notion.com/p/Members-X-3a3229d219da81b4b1a7df80da2a96a8"
@@ -55,7 +55,7 @@
       "subtitle": "@rescene_official",
       "description": "公式写真、リール、活動のビジュアルを確認できます。",
       "label": "OFFICIAL",
-      "icon": "",
+      "icon": "assets/platform-icons/instagram.webp",
       "iconText": "IG",
       "anchor": "instagram",
       "notionUrl": "https://app.notion.com/p/Instagram-3a3229d219da813a8328d99da78de9df"
@@ -69,7 +69,7 @@
       "subtitle": "@rescene_official",
       "description": "公式音源を使用したショート動画やチャレンジを確認できます。",
       "label": "OFFICIAL",
-      "icon": "",
+      "icon": "assets/platform-icons/tiktok.webp",
       "iconText": "TT",
       "anchor": "tiktok",
       "notionUrl": "https://app.notion.com/p/TikTok-3a3229d219da81ddb6a7f2d5c9125b74"
@@ -97,7 +97,7 @@
       "subtitle": "RESCENE Official",
       "description": "RESCENEの公式Facebookページです。",
       "label": "OFFICIAL",
-      "icon": "",
+      "icon": "assets/platform-icons/facebook.webp",
       "iconText": "f",
       "anchor": "facebook",
       "notionUrl": "https://app.notion.com/p/Facebook-3a3229d219da81568f05eadecd869dee"
@@ -111,7 +111,7 @@
       "subtitle": "RESCENE",
       "description": "中国向けの公式情報を確認できるWeiboアカウントです。",
       "label": "OFFICIAL",
-      "icon": "",
+      "icon": "assets/platform-icons/weibo.webp",
       "iconText": "WB",
       "anchor": "weibo",
       "notionUrl": "https://app.notion.com/p/Weibo-3a3229d219da81d786e3e76c8e7fa3e9"

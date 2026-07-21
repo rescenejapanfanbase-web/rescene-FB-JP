@@ -1620,3 +1620,41 @@ html.light-mode body.page-links .official-link-icon{background:linear-gradient(1
 
 /* ---- 7. Responsive LIGHT-MODE (mobile-first ascending; core + page-specific merged) ---- */
 /* placed after ALL non-responsive light-mode rules so breakpoint overrides always win */
+
+/* 2026-07-21 targeted display fixes: preserve current design */
+html.light-mode body.page-links .official-link-filter:hover,
+html.light-mode body.page-links .official-link-filter.active{
+  border-color:transparent;
+  background:linear-gradient(120deg,var(--pink),var(--purple));
+  color:#fff;
+}
+html.light-mode body.page-links .official-link-filter:hover small,
+html.light-mode body.page-links .official-link-filter.active small{color:inherit}
+body.page-streaming main,
+body.page-streaming .section,
+body.page-streaming .streaming-filter-bar,
+body.page-streaming .stream-overview-grid,
+body.page-streaming .stream-detail-stack,
+body.page-streaming .stream-overview-card,
+body.page-streaming .stream-detail,
+body.page-streaming .stream-title-row>div,
+body.page-streaming .stream-detail-head>div,
+body.page-streaming .stream-step-card,
+body.page-streaming .stream-step-copy{min-width:0;max-width:100%}
+body.page-streaming .stream-filter{max-width:100%;white-space:normal;overflow-wrap:anywhere}
+body.page-streaming .stream-title-row h2,
+body.page-streaming .stream-title-row p,
+body.page-streaming .stream-detail-head h2,
+body.page-streaming .stream-detail-head p,
+body.page-streaming .stream-description,
+body.page-streaming .stream-step-copy strong,
+body.page-streaming .stream-step-copy p,
+body.page-streaming .stream-note{overflow-wrap:anywhere;word-break:normal}
+body.page-streaming .stream-action{max-width:100%;white-space:normal;text-align:center}
+body.page-streaming .stream-step-image img{max-width:100%}
+@media(max-width:600px){
+  body.page-streaming .streaming-filter-bar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%}
+  body.page-streaming .stream-filter{width:100%;padding-inline:8px}
+  body.page-streaming .stream-detail-head{min-width:0}
+  body.page-streaming .stream-service-icon.large{flex:0 0 50px}
+}
