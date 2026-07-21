@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-07-21T21:30:43.912129+00:00",
+  "generatedAt": "2026-07-21T22:53:04.045656+00:00",
   "items": [
     {
       "date": "2026-07-22",
@@ -16,11 +16,16 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-07-22",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "7ba9c47",
+      "commit": "d624b1a",
       "files": [
-        "SITE-UPDATES-LINK-CHECK-FIX.txt",
-        "UPLOAD-INSTRUCTIONS-SITE-UPDATES-LINK-CHECK-FIX.txt",
-        "scripts/check-site-links.py"
+        "PUBLIC-AUDIT-SEO-FIX.txt",
+        "analytics.html",
+        "chants.html",
+        "discography.html",
+        "external-links.html",
+        "favorites.html",
+        "generate-seo.py",
+        "mv-review.html"
       ]
     },
     {
@@ -36,7 +41,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-07-21",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "8c1584f",
+      "commit": "0c46046",
       "files": [
         "data/external-link-report.json"
       ]
@@ -104,15 +109,6 @@ window.RESCENE_SITE_UPDATES = {
         ".github/workflows/check-site.yml",
         ".github/workflows/generate-seo.yml",
         ".github/workflows/preview-site.yml"
-      ]
-    },
-    {
-      "date": "2026-07-20",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "9aa4c8e",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {
