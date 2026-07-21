@@ -68,6 +68,9 @@ jobs:
               out.write(f"- WebP派生画像: {data.get('derivatives',0)}件\n")
               out.write(f"- 推定転送量削減: {data.get('estimatedSavingPercent',0)}%\n")
               out.write(f"- 今回生成: {data.get('generatedNow',0)}件\n")
+              out.write(f"- 最適化不要: {data.get('skippedImages',0)}件\n")
+              out.write(f"- 本当の失敗: {data.get('failedImages',0)}件\n")
+              out.write(f"- 誤配置WebP整理: {data.get('misplacedGeneratedFilesRemoved',0)}件\n")
           PY
               exit 0
             fi
