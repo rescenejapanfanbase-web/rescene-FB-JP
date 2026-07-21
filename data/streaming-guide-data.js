@@ -1,5 +1,5 @@
 window.RESCENE_STREAMING_GUIDE = {
-  "generatedAt": "2026-07-21T15:26:20.826Z",
+  "generatedAt": "2026-07-21T15:45:58.392Z",
   "source": "notion",
   "dataSourceId": "c769b3a6-e306-4665-84c7-dcfff92cfe5b",
   "notionDatabaseUrl": "https://app.notion.com/p/a0180c81202a46b780f0045abfd0f00e",
@@ -142,7 +142,7 @@ window.RESCENE_STREAMING_GUIDE = {
         {
           "title": "1. Apple Musicを開く",
           "text": "iPhone、iPad、Android、Mac、WindowsなどでApple Musicアプリを開き、利用するアカウントでサインインします。",
-          "image": ""
+          "image": "streaming/apple-music-play.jpg"
         },
         {
           "title": "2. 公式配信を開く",
