@@ -1,4 +1,5 @@
 import { buildScheduleIcs } from "./calendar-ics.mjs";
+import { scheduleLinkFromProperties } from "./notion-schedule-links.mjs";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const token = process.env.NOTION_TOKEN;
@@ -11,6 +12,7 @@ if (!token) {
 
 const plainText = (items = []) =>
   items.map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
+
 
 const categoryType = {
   Birthday: "birthday",
@@ -84,11 +86,7 @@ function convertPage(page) {
   const summary = plainText(properties["テキスト"]?.rich_text);
   const memo = plainText(properties["メモ"]?.rich_text);
   const description = [...new Set([summary, memo].filter(Boolean))].join("\n");
-  const link = properties["リンク"]?.url ?? properties["リンク (1)"]?.url ?? "";
-  const linkLabel =
-    plainText(properties["リンク名"]?.rich_text) ||
-    plainText(properties["リンク名 (1)"]?.rich_text) ||
-    "詳細を見る";
+  const { link, linkLabel } = scheduleLinkFromProperties(properties);
 
   return {
     id: page.id,

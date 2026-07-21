@@ -1658,3 +1658,52 @@ body.page-streaming .stream-step-image img{max-width:100%}
   body.page-streaming .stream-detail-head{min-width:0}
   body.page-streaming .stream-service-icon.large{flex:0 0 50px}
 }
+
+/* 2026-07-22 streaming guide: grouped categories and first-time detailed steps */
+body.page-streaming .stream-overview-grid{display:block}
+body.page-streaming .stream-type-section,
+body.page-streaming .stream-detail-group{display:grid;gap:16px;margin-top:24px}
+body.page-streaming .stream-type-section:first-child,
+body.page-streaming .stream-detail-group:first-child{margin-top:0}
+body.page-streaming .stream-group-head{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;padding:0 2px}
+body.page-streaming .stream-group-head h2{margin:3px 0 4px;font-size:1.45rem}
+body.page-streaming .stream-group-head p{margin:0;color:var(--muted);font-size:.85rem;line-height:1.65}
+body.page-streaming .stream-group-count{flex:0 0 auto;padding:7px 11px;border:1px solid var(--border);border-radius:999px;background:rgba(255,255,255,.035);color:var(--muted);font-size:.72rem;font-weight:900}
+body.page-streaming .stream-overview-grid-inner{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+body.page-streaming .stream-title-row h3{margin:0;font-size:1.18rem}
+body.page-streaming .stream-overview-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto}
+body.page-streaming .stream-step-count{font-size:.72rem;font-weight:900;color:var(--muted);letter-spacing:.04em}
+body.page-streaming .stream-overview-footer .stream-action{margin-top:0}
+body.page-streaming .stream-detail-stack{display:block}
+body.page-streaming .stream-detail-stack-inner{display:grid;gap:20px}
+body.page-streaming .stream-preparation{display:grid;grid-template-columns:minmax(190px,.72fr) minmax(0,1.5fr);gap:20px;align-items:start;margin:20px 0;padding:18px;border:1px solid var(--border);border-radius:18px;background:linear-gradient(135deg,rgba(255,115,175,.08),rgba(185,158,255,.06))}
+body.page-streaming .stream-preparation h3{margin:4px 0 0;font-size:1rem}
+body.page-streaming .stream-mini-label{display:block;color:#ff8cbd;font-size:.64rem;font-weight:900;letter-spacing:.16em}
+body.page-streaming .stream-preparation ul{display:grid;gap:8px;margin:0;padding-left:20px;color:var(--muted);font-size:.82rem;line-height:1.6}
+body.page-streaming .stream-steps{grid-template-columns:repeat(2,minmax(0,1fr))}
+body.page-streaming .stream-step-card{display:flex;flex-direction:column}
+body.page-streaming .stream-step-copy{flex:1;padding:17px}
+body.page-streaming .stream-step-number{display:block;margin-bottom:7px;color:#ff8cbd;font-family:Montserrat,sans-serif;font-size:.62rem;font-weight:900;letter-spacing:.13em}
+body.page-streaming .stream-step-copy strong{font-size:.94rem}
+body.page-streaming .stream-step-copy p{font-size:.81rem;line-height:1.72}
+body.page-streaming .stream-detail>.stream-action{margin-top:18px}
+html.light-mode body.page-streaming .stream-preparation{background:linear-gradient(135deg,rgba(255,115,175,.10),rgba(185,158,255,.08))}
+html.light-mode body.page-streaming .stream-group-count{background:rgba(255,255,255,.75)}
+
+@media(max-width:980px){
+  body.page-streaming .stream-overview-grid-inner{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:700px){
+  body.page-streaming .stream-group-head{align-items:flex-start;flex-direction:column;gap:10px}
+  body.page-streaming .stream-overview-grid-inner,
+  body.page-streaming .stream-steps{grid-template-columns:1fr}
+  body.page-streaming .stream-preparation{grid-template-columns:1fr;gap:12px}
+  body.page-streaming .stream-overview-footer{align-items:flex-start;flex-direction:column}
+}
+
+/* 2026-07-22 schedule Notion link visibility */
+body.page-schedule .schedule-row-meta{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-top:8px}
+body.page-schedule .schedule-row-meta .schedule-time{margin-top:0}
+body.page-schedule .schedule-link-available{display:inline-flex;align-items:center;gap:5px;padding:5px 9px;border:1px solid rgba(255,115,175,.22);border-radius:999px;background:rgba(255,115,175,.09);color:#ff9bc7;font-size:.68rem;font-weight:900}
+body.page-schedule .schedule-link-available::before{content:"↗";font-family:Montserrat,sans-serif}
+html.light-mode body.page-schedule .schedule-link-available{border-color:rgba(184,63,120,.20);background:rgba(184,63,120,.08);color:#a7396f}

@@ -1,0 +1,30 @@
+RESCENE JAPAN FANBASE
+ストリーミング詳細化・スケジュールリンク反映
+GitHub上書き手順
+
+1. rescene-FB-JP-streaming-schedule-link-update.zip を展開します。
+2. ZIP内のファイルとフォルダをすべて選択します。
+3. GitHubの rescene-FB-JP リポジトリを開きます。
+4. Add file → Upload files を開きます。
+5. 展開した中身をリポジトリ直下へアップロードします。
+6. 同名ファイルはそのまま上書きします。
+7. Commit directly to the main branch を選択して保存します。
+8. Actions → Sync All Site Content → Run workflow を実行します。
+
+確認するログ
+・Notion ストリーミング
+・Notion スケジュール
+・カレンダーICS
+・公開前品質検査
+
+反映後の確認
+・streaming.htmlで種類ごとにガイドが分かれている
+・各サービスに「最初に準備するもの」と7〜8手順が表示される
+・schedule.htmlでリンク付き予定に「関連リンクあり」が表示される
+・予定を開くとNotionで設定したリンクボタンが表示される
+
+Notionスケジュールの推奨入力
+リンクURL：公式X、申込ページ、配信ページ、投票アプリなどのURL
+リンク名：公式案内を見る、申込ページを見る、投票アプリを開く など
+
+URLとリンク名を逆に入力した場合も自動判定します。

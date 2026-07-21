@@ -113,7 +113,7 @@
     const oldArticle = url.match(/^article\.html\?id=([^&#]+)/i);
     if (oldArticle) url = `articles/${encodeURIComponent(decodeURIComponent(oldArticle[1]))}.html`;
     if (!url) return "";
-    if (/^(https?:\/\/|[A-Za-z0-9_.\/-]+\.html(?:[?#].*)?|#[A-Za-z0-9_-]+)$/i.test(url)) return url;
+    if (/^(https?:\/\/[^\s]+|[A-Za-z0-9_.\/-]+\.html(?:[?#].*)?|#[A-Za-z0-9_-]+)$/i.test(url)) return url;
     return "";
   };
   const calendarFeedUrl = new URL("data/rescene-schedule.ics", document.baseURI).href;
@@ -384,13 +384,14 @@
       const image = safeUrl(event.image);
       const external = /^https?:\/\//i.test(link);
       const action = link ? `<a class="btn btn-secondary" href="${escapeHtml(link)}"${external ? ' target="_blank" rel="noopener noreferrer"' : ""}>${escapeHtml(event.linkLabel || "詳細を見る")}${external ? " ↗" : ""}</a>` : "";
+      const linkHint = link ? `<span class="schedule-link-available">関連リンクあり</span>` : "";
       const calendarActions = `<div class="schedule-actions"><a class="btn calendar-google" href="${escapeHtml(googleCalendarLink(event))}" target="_blank" rel="noopener noreferrer">Googleカレンダー</a><button class="btn calendar-apple event-ics-button" type="button" data-event-id="${escapeHtml(event.id || "")}">Apple・ICS</button>${action}</div>`;
       const imageBlock = image ? `<figure class="schedule-detail-image"><img src="${escapeHtml(image)}" alt="${escapeHtml(event.title)}" loading="lazy"></figure>` : "";
       const description = escapeHtml(event.description || "詳細は公式案内もあわせてご確認ください。").replace(/\n/g, "<br>");
       const isRequested = requestedEventId && String(event.id || "") === requestedEventId;
       const isOpen = isRequested || (autoOpenFirst && index === 0 && !requestedEventId);
       const category = categoryName(event);
-      return `<details class="schedule-row card" id="${eventAnchor(event.id)}" ${isOpen ? "open" : ""}><summary><div class="schedule-date"><strong>${String(date.getMonth() + 1).padStart(2, "0")}.${String(date.getDate()).padStart(2, "0")}</strong><span>${date.toLocaleDateString("ja-JP", { weekday: "short" })}</span></div><div><div class="schedule-category-field">カテゴリー <span class="schedule-category-badge" style="${categoryStyle(event)}">${escapeHtml(category)}</span></div><h2>${escapeHtml(event.title)}</h2><p>${description}</p>${time ? `<span class="schedule-time">${escapeHtml(time)}</span>` : ""}</div></summary><div class="schedule-detail">${imageBlock}<p>${description}</p>${calendarActions}</div></details>`;
+      return `<details class="schedule-row card" id="${eventAnchor(event.id)}" ${isOpen ? "open" : ""}><summary><div class="schedule-date"><strong>${String(date.getMonth() + 1).padStart(2, "0")}.${String(date.getDate()).padStart(2, "0")}</strong><span>${date.toLocaleDateString("ja-JP", { weekday: "short" })}</span></div><div><div class="schedule-category-field">カテゴリー <span class="schedule-category-badge" style="${categoryStyle(event)}">${escapeHtml(category)}</span></div><h2>${escapeHtml(event.title)}</h2><p>${description}</p><div class="schedule-row-meta">${time ? `<span class="schedule-time">${escapeHtml(time)}</span>` : ""}${linkHint}</div></div></summary><div class="schedule-detail">${imageBlock}<p>${description}</p>${calendarActions}</div></details>`;
     }).join("");
     if (requestedEventId) requestAnimationFrame(() => document.getElementById(eventAnchor(requestedEventId))?.scrollIntoView({ behavior: "smooth", block: "center" }));
   }

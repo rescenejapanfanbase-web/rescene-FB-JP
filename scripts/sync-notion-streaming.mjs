@@ -1,3 +1,4 @@
+import { applyStreamingDefaults } from "./streaming-guide-defaults.mjs";
 import { mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import { extname, join } from "node:path";
 
@@ -124,6 +125,7 @@ async function convertGuide(page, usedIcons, usedGuides) {
 
   const uploadedImages = notionFiles(p["ガイド画像"]);
   const fallbackImages = splitLines(propertyText(p["ガイド画像パス"]));
+  const preparation = splitLines(propertyText(p["準備するもの"] ?? p["必要なもの"]));
   const stepRows = splitLines(propertyText(p["ガイド手順"])).map((line) => {
     const [stepTitle, text] = splitPair(line);
     return { title: stepTitle, text };
@@ -145,11 +147,13 @@ async function convertGuide(page, usedIcons, usedGuides) {
   const sanitizedSteps = steps.map((step) => ({ ...step, title: sanitizeFanText(step.title), text: sanitizeFanText(step.text) }));
   const rawLink = propertyText(p["リンクURL"]);
   const invalidNswerRoom = isStationhead && /stationhead\.com\/c\/nswer/i.test(rawLink);
-  return {
+  const replaceStandardSteps = Boolean(p["標準手順を上書き"]?.checkbox ?? p["手順を上書き"]?.checkbox);
+  return applyStreamingDefaults({
     title,
     type: p["種類"]?.select?.name ?? "",
     subtitle: sanitizeFanText(propertyText(p["サブタイトル"])),
     description: sanitizeFanText(propertyText(p["説明"])),
+    preparation: preparation.map(sanitizeFanText),
     points: splitLines(propertyText(p["ポイント"])).map(sanitizeFanText),
     steps: sanitizedSteps,
     link: invalidNswerRoom ? "" : rawLink,
@@ -159,7 +163,7 @@ async function convertGuide(page, usedIcons, usedGuides) {
     anchor: propertyText(p["アンカー"]) || `streaming-${slug}`,
     order,
     notionUrl: page.url ?? "",
-  };
+  }, { replaceStandardSteps });
 }
 
 const pages = await queryAllPages();
