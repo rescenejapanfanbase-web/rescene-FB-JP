@@ -1,0 +1,956 @@
+window.RESCENE_NEWS_EXTRAS = {
+  "generatedAt": "2026-07-21T16:11:32.578Z",
+  "sourceNewsGeneratedAt": "2026-07-19T10:43:04.390Z",
+  "related": {
+    "fanbase-site": [
+      {
+        "slug": "pretty-girl-first-music-show-win",
+        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
+        "date": "2026.07.14",
+        "label": "1ST WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
+        "slug": "love-attack-inkigayo-realtime-first",
+        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
+        "date": "2026.07.12",
+        "label": "RECORD",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
+        "slug": "melon-top100-first-number-one",
+        "title": "RESCENEがMelon TOP100で初の1位を記録",
+        "date": "2026.07.08",
+        "label": "MELON RECORD",
+        "image": "news/melon-top100-first.jpg",
+        "text": "2026年7月8日22時、RESCENEがMelon TOP100でグループ初となる1位を記録しました。記録達成後のYouTubeライブもあわせてご覧いただけます。",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      }
+    ],
+    "pretty-girl-first-music-show-win": [
+      {
+        "slug": "pretty-girl-release",
+        "title": "Special Single「Pretty Girl」配信開始",
+        "date": "2026.07.08",
+        "label": "SPECIAL SINGLE",
+        "image": "assets/mv/pretty-girl.jpg",
+        "text": "Special Single「Pretty Girl」の配信がスタートしました。リリース1時間後にMelon TOP100 22位へランクインし、最高4位を記録しました。",
+        "score": 13,
+        "reasons": [
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "love-attack-inkigayo-realtime-first",
+        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
+        "date": "2026.07.12",
+        "label": "RECORD",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
+        "slug": "melon-top100-first-number-one",
+        "title": "RESCENEがMelon TOP100で初の1位を記録",
+        "date": "2026.07.08",
+        "label": "MELON RECORD",
+        "image": "news/melon-top100-first.jpg",
+        "text": "2026年7月8日22時、RESCENEがMelon TOP100でグループ初となる1位を記録しました。記録達成後のYouTubeライブもあわせてご覧いただけます。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      }
+    ],
+    "love-attack-inkigayo-realtime-first": [
+      {
+        "slug": "scenedrome-release",
+        "title": "1st Mini Album「SCENEDROME」リリース",
+        "date": "2024.08.27",
+        "label": "MINI ALBUM",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "LOVE ATTACK、Pinballなどを収録した1st Mini Albumがリリースされました。",
+        "score": 11,
+        "reasons": [
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "melon-top100-first-number-one",
+        "title": "RESCENEがMelon TOP100で初の1位を記録",
+        "date": "2026.07.08",
+        "label": "MELON RECORD",
+        "image": "news/melon-top100-first.jpg",
+        "text": "2026年7月8日22時、RESCENEがMelon TOP100でグループ初となる1位を記録しました。記録達成後のYouTubeライブもあわせてご覧いただけます。",
+        "score": 9,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "pinball-japanese-release",
+        "title": "「ピンボール(Pinball)」配信開始",
+        "date": "2026.01.21",
+        "label": "JAPANESE SINGLE",
+        "image": "assets/mv/pinball.jpg",
+        "text": "「Pinball」の日本語バージョンが配信されました。",
+        "score": 8,
+        "reasons": [
+          "同じ作品"
+        ]
+      }
+    ],
+    "melon-top100-first-number-one": [
+      {
+        "slug": "love-attack-inkigayo-realtime-first",
+        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
+        "date": "2026.07.12",
+        "label": "RECORD",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
+        "score": 9,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "pretty-girl-first-music-show-win",
+        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
+        "date": "2026.07.14",
+        "label": "1ST WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
+        "slug": "second-anniversary",
+        "title": "RESCENE Debut 2nd Anniversary",
+        "date": "2026.03.26",
+        "label": "ANNIVERSARY",
+        "image": "news/debut-2nd-anniversary.jpg",
+        "text": "RESCENEがデビュー2周年を迎えました。",
+        "score": 6,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      }
+    ],
+    "pretty-girl-release": [
+      {
+        "slug": "pretty-girl-first-music-show-win",
+        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
+        "date": "2026.07.14",
+        "label": "1ST WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
+        "score": 13,
+        "reasons": [
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "runaway-release",
+        "title": "Digital Single「Runaway」配信開始",
+        "date": "2026.04.08",
+        "label": "DIGITAL SINGLE",
+        "image": "assets/mv/runaway.jpg",
+        "text": "RESCENE初のDigital Single「Runaway」の配信がスタートしました。",
+        "score": 10,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "busy-boy-release",
+        "title": "[RESCENE X ???]「Busy Boy」配信開始",
+        "date": "2026.02.27",
+        "label": "COLLAB SINGLE",
+        "image": "assets/mv/busy-boy.jpg",
+        "text": "コラボレーションデジタルシングル「Busy Boy」の配信がスタートしました。",
+        "score": 10,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      }
+    ],
+    "goyang-ambassador": [
+      {
+        "slug": "suwon-ambassador",
+        "title": "京畿道 水原市 広報大使に任命",
+        "date": "2026.06.24",
+        "label": "AMBASSADOR",
+        "image": "news/suwon-ambassador.jpg",
+        "text": "リブの故郷・水原市の広報大使にRESCENEが任命されました。",
+        "score": 13,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "gyeongju-ambassador",
+        "title": "慶尚北道 慶州市 広報大使に任命",
+        "date": "2026.06.29",
+        "label": "AMBASSADOR",
+        "image": "news/gyeongju-ambassador.jpg",
+        "text": "ゼナの故郷・慶州市の観光広報大使にRESCENEが任命されました。",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "geoje-ambassador",
+        "title": "慶尚南道 巨済市 広報大使に任命",
+        "date": "2026.05.22",
+        "label": "AMBASSADOR",
+        "image": "news/geoje-ambassador.jpg",
+        "text": "ウォニの故郷・巨済市の広報大使にRESCENEが任命されました。",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      }
+    ],
+    "gyeongju-ambassador": [
+      {
+        "slug": "goyang-ambassador",
+        "title": "京畿道 高陽市 広報大使に任命",
+        "date": "2026.07.02",
+        "label": "AMBASSADOR",
+        "image": "news/goyang-ambassador.jpg",
+        "text": "メイの故郷・高陽市の広報大使にRESCENEが任命されました。",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "suwon-ambassador",
+        "title": "京畿道 水原市 広報大使に任命",
+        "date": "2026.06.24",
+        "label": "AMBASSADOR",
+        "image": "news/suwon-ambassador.jpg",
+        "text": "リブの故郷・水原市の広報大使にRESCENEが任命されました。",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "geoje-ambassador",
+        "title": "慶尚南道 巨済市 広報大使に任命",
+        "date": "2026.05.22",
+        "label": "AMBASSADOR",
+        "image": "news/geoje-ambassador.jpg",
+        "text": "ウォニの故郷・巨済市の広報大使にRESCENEが任命されました。",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      }
+    ],
+    "suwon-ambassador": [
+      {
+        "slug": "goyang-ambassador",
+        "title": "京畿道 高陽市 広報大使に任命",
+        "date": "2026.07.02",
+        "label": "AMBASSADOR",
+        "image": "news/goyang-ambassador.jpg",
+        "text": "メイの故郷・高陽市の広報大使にRESCENEが任命されました。",
+        "score": 13,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "gyeongju-ambassador",
+        "title": "慶尚北道 慶州市 広報大使に任命",
+        "date": "2026.06.29",
+        "label": "AMBASSADOR",
+        "image": "news/gyeongju-ambassador.jpg",
+        "text": "ゼナの故郷・慶州市の観光広報大使にRESCENEが任命されました。",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "geoje-ambassador",
+        "title": "慶尚南道 巨済市 広報大使に任命",
+        "date": "2026.05.22",
+        "label": "AMBASSADOR",
+        "image": "news/geoje-ambassador.jpg",
+        "text": "ウォニの故郷・巨済市の広報大使にRESCENEが任命されました。",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      }
+    ],
+    "geoje-ambassador": [
+      {
+        "slug": "goyang-ambassador",
+        "title": "京畿道 高陽市 広報大使に任命",
+        "date": "2026.07.02",
+        "label": "AMBASSADOR",
+        "image": "news/goyang-ambassador.jpg",
+        "text": "メイの故郷・高陽市の広報大使にRESCENEが任命されました。",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "gyeongju-ambassador",
+        "title": "慶尚北道 慶州市 広報大使に任命",
+        "date": "2026.06.29",
+        "label": "AMBASSADOR",
+        "image": "news/gyeongju-ambassador.jpg",
+        "text": "ゼナの故郷・慶州市の観光広報大使にRESCENEが任命されました。",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "suwon-ambassador",
+        "title": "京畿道 水原市 広報大使に任命",
+        "date": "2026.06.24",
+        "label": "AMBASSADOR",
+        "image": "news/suwon-ambassador.jpg",
+        "text": "リブの故郷・水原市の広報大使にRESCENEが任命されました。",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      }
+    ],
+    "runaway-release": [
+      {
+        "slug": "busy-boy-release",
+        "title": "[RESCENE X ???]「Busy Boy」配信開始",
+        "date": "2026.02.27",
+        "label": "COLLAB SINGLE",
+        "image": "assets/mv/busy-boy.jpg",
+        "text": "コラボレーションデジタルシングル「Busy Boy」の配信がスタートしました。",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "pretty-girl-release",
+        "title": "Special Single「Pretty Girl」配信開始",
+        "date": "2026.07.08",
+        "label": "SPECIAL SINGLE",
+        "image": "assets/mv/pretty-girl.jpg",
+        "text": "Special Single「Pretty Girl」の配信がスタートしました。リリース1時間後にMelon TOP100 22位へランクインし、最高4位を記録しました。",
+        "score": 10,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "pinball-japanese-release",
+        "title": "「ピンボール(Pinball)」配信開始",
+        "date": "2026.01.21",
+        "label": "JAPANESE SINGLE",
+        "image": "assets/mv/pinball.jpg",
+        "text": "「Pinball」の日本語バージョンが配信されました。",
+        "score": 8,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      }
+    ],
+    "second-anniversary": [
+      {
+        "slug": "pretty-girl-first-music-show-win",
+        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
+        "date": "2026.07.14",
+        "label": "1ST WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
+        "score": 6,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
+        "slug": "love-attack-inkigayo-realtime-first",
+        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
+        "date": "2026.07.12",
+        "label": "RECORD",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
+        "score": 6,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
+        "slug": "melon-top100-first-number-one",
+        "title": "RESCENEがMelon TOP100で初の1位を記録",
+        "date": "2026.07.08",
+        "label": "MELON RECORD",
+        "image": "news/melon-top100-first.jpg",
+        "text": "2026年7月8日22時、RESCENEがMelon TOP100でグループ初となる1位を記録しました。記録達成後のYouTubeライブもあわせてご覧いただけます。",
+        "score": 6,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      }
+    ],
+    "second-anniversary-project": [
+      {
+        "slug": "runaway-release",
+        "title": "Digital Single「Runaway」配信開始",
+        "date": "2026.04.08",
+        "label": "DIGITAL SINGLE",
+        "image": "assets/mv/runaway.jpg",
+        "text": "RESCENE初のDigital Single「Runaway」の配信がスタートしました。",
+        "score": 2,
+        "reasons": []
+      },
+      {
+        "slug": "second-anniversary",
+        "title": "RESCENE Debut 2nd Anniversary",
+        "date": "2026.03.26",
+        "label": "ANNIVERSARY",
+        "image": "news/debut-2nd-anniversary.jpg",
+        "text": "RESCENEがデビュー2周年を迎えました。",
+        "score": 2,
+        "reasons": []
+      },
+      {
+        "slug": "busy-boy-release",
+        "title": "[RESCENE X ???]「Busy Boy」配信開始",
+        "date": "2026.02.27",
+        "label": "COLLAB SINGLE",
+        "image": "assets/mv/busy-boy.jpg",
+        "text": "コラボレーションデジタルシングル「Busy Boy」の配信がスタートしました。",
+        "score": 2,
+        "reasons": []
+      }
+    ],
+    "busy-boy-release": [
+      {
+        "slug": "runaway-release",
+        "title": "Digital Single「Runaway」配信開始",
+        "date": "2026.04.08",
+        "label": "DIGITAL SINGLE",
+        "image": "assets/mv/runaway.jpg",
+        "text": "RESCENE初のDigital Single「Runaway」の配信がスタートしました。",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "pretty-girl-release",
+        "title": "Special Single「Pretty Girl」配信開始",
+        "date": "2026.07.08",
+        "label": "SPECIAL SINGLE",
+        "image": "assets/mv/pretty-girl.jpg",
+        "text": "Special Single「Pretty Girl」の配信がスタートしました。リリース1時間後にMelon TOP100 22位へランクインし、最高4位を記録しました。",
+        "score": 10,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "pinball-japanese-release",
+        "title": "「ピンボール(Pinball)」配信開始",
+        "date": "2026.01.21",
+        "label": "JAPANESE SINGLE",
+        "image": "assets/mv/pinball.jpg",
+        "text": "「Pinball」の日本語バージョンが配信されました。",
+        "score": 9,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      }
+    ],
+    "pinball-japanese-release": [
+      {
+        "slug": "scenedrome-release",
+        "title": "1st Mini Album「SCENEDROME」リリース",
+        "date": "2024.08.27",
+        "label": "MINI ALBUM",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "LOVE ATTACK、Pinballなどを収録した1st Mini Albumがリリースされました。",
+        "score": 12,
+        "reasons": [
+          "同じカテゴリー",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "busy-boy-release",
+        "title": "[RESCENE X ???]「Busy Boy」配信開始",
+        "date": "2026.02.27",
+        "label": "COLLAB SINGLE",
+        "image": "assets/mv/busy-boy.jpg",
+        "text": "コラボレーションデジタルシングル「Busy Boy」の配信がスタートしました。",
+        "score": 9,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "love-attack-inkigayo-realtime-first",
+        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
+        "date": "2026.07.12",
+        "label": "RECORD",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
+        "score": 8,
+        "reasons": [
+          "同じ作品"
+        ]
+      }
+    ],
+    "lip-bomb-release": [
+      {
+        "slug": "dearest-release",
+        "title": "2nd Single Album「Dearest」リリース",
+        "date": "2025.07.02",
+        "label": "SINGLE ALBUM",
+        "image": "assets/mv/deja-vu.jpg",
+        "text": "Deja Vu、Moodを収録した2nd Single Album「Dearest」がリリースされました。",
+        "score": 10,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "rescene-release",
+        "title": "1st Single Album「Re:Scene」リリース",
+        "date": "2024.03.26",
+        "label": "DEBUT ALBUM",
+        "image": "assets/mv/uhuh.jpg",
+        "text": "YoYo、UhUhを収録したデビューシングルアルバム「Re:Scene」がリリースされました。",
+        "score": 9,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "glow-up-release",
+        "title": "2nd Mini Album「Glow Up」リリース",
+        "date": "2025.02.05",
+        "label": "MINI ALBUM",
+        "image": "assets/mv/glow-up.jpg",
+        "text": "タイトル曲「Glow Up」を含む2nd Mini Albumがリリースされました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      }
+    ],
+    "dearest-release": [
+      {
+        "slug": "lip-bomb-release",
+        "title": "3rd Mini Album「lip bomb」リリース",
+        "date": "2025.11.25",
+        "label": "MINI ALBUM",
+        "image": "assets/mv/bloom.jpg",
+        "text": "Heart Drop、Bloomを含む3rd Mini Album「lip bomb」がリリースされました。",
+        "score": 10,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "glow-up-release",
+        "title": "2nd Mini Album「Glow Up」リリース",
+        "date": "2025.02.05",
+        "label": "MINI ALBUM",
+        "image": "assets/mv/glow-up.jpg",
+        "text": "タイトル曲「Glow Up」を含む2nd Mini Albumがリリースされました。",
+        "score": 10,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "rescene-release",
+        "title": "1st Single Album「Re:Scene」リリース",
+        "date": "2024.03.26",
+        "label": "DEBUT ALBUM",
+        "image": "assets/mv/uhuh.jpg",
+        "text": "YoYo、UhUhを収録したデビューシングルアルバム「Re:Scene」がリリースされました。",
+        "score": 9,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      }
+    ],
+    "glow-up-release": [
+      {
+        "slug": "dearest-release",
+        "title": "2nd Single Album「Dearest」リリース",
+        "date": "2025.07.02",
+        "label": "SINGLE ALBUM",
+        "image": "assets/mv/deja-vu.jpg",
+        "text": "Deja Vu、Moodを収録した2nd Single Album「Dearest」がリリースされました。",
+        "score": 10,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "scenedrome-release",
+        "title": "1st Mini Album「SCENEDROME」リリース",
+        "date": "2024.08.27",
+        "label": "MINI ALBUM",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "LOVE ATTACK、Pinballなどを収録した1st Mini Albumがリリースされました。",
+        "score": 10,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "lip-bomb-release",
+        "title": "3rd Mini Album「lip bomb」リリース",
+        "date": "2025.11.25",
+        "label": "MINI ALBUM",
+        "image": "assets/mv/bloom.jpg",
+        "text": "Heart Drop、Bloomを含む3rd Mini Album「lip bomb」がリリースされました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      }
+    ],
+    "scenedrome-release": [
+      {
+        "slug": "pinball-japanese-release",
+        "title": "「ピンボール(Pinball)」配信開始",
+        "date": "2026.01.21",
+        "label": "JAPANESE SINGLE",
+        "image": "assets/mv/pinball.jpg",
+        "text": "「Pinball」の日本語バージョンが配信されました。",
+        "score": 12,
+        "reasons": [
+          "同じカテゴリー",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "love-attack-inkigayo-realtime-first",
+        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
+        "date": "2026.07.12",
+        "label": "RECORD",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
+        "score": 11,
+        "reasons": [
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "glow-up-release",
+        "title": "2nd Mini Album「Glow Up」リリース",
+        "date": "2025.02.05",
+        "label": "MINI ALBUM",
+        "image": "assets/mv/glow-up.jpg",
+        "text": "タイトル曲「Glow Up」を含む2nd Mini Albumがリリースされました。",
+        "score": 10,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      }
+    ],
+    "rescene-release": [
+      {
+        "slug": "scenedrome-release",
+        "title": "1st Mini Album「SCENEDROME」リリース",
+        "date": "2024.08.27",
+        "label": "MINI ALBUM",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "LOVE ATTACK、Pinballなどを収録した1st Mini Albumがリリースされました。",
+        "score": 10,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "lip-bomb-release",
+        "title": "3rd Mini Album「lip bomb」リリース",
+        "date": "2025.11.25",
+        "label": "MINI ALBUM",
+        "image": "assets/mv/bloom.jpg",
+        "text": "Heart Drop、Bloomを含む3rd Mini Album「lip bomb」がリリースされました。",
+        "score": 9,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "dearest-release",
+        "title": "2nd Single Album「Dearest」リリース",
+        "date": "2025.07.02",
+        "label": "SINGLE ALBUM",
+        "image": "assets/mv/deja-vu.jpg",
+        "text": "Deja Vu、Moodを収録した2nd Single Album「Dearest」がリリースされました。",
+        "score": 9,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      }
+    ]
+  },
+  "socialPosts": [
+    {
+      "slug": "fanbase-site",
+      "date": "UPDATE",
+      "title": "RESCENE JAPAN FANBASE ウェブサイト",
+      "url": "https://rescene-fb.jp/articles/fanbase-site.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
+      "charCount": 106
+    },
+    {
+      "slug": "pretty-girl-first-music-show-win",
+      "date": "2026.07.14",
+      "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
+      "url": "https://rescene-fb.jp/articles/pretty-girl-first-music-show-win.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.14】 RESCENEが「Pretty Girl」で音楽番組初の1位を獲得\n\nhttps://rescene-fb.jp/articles/pretty-girl-first-music-show-win.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得\n2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
+      "charCount": 137
+    },
+    {
+      "slug": "love-attack-inkigayo-realtime-first",
+      "date": "2026.07.12",
+      "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
+      "url": "https://rescene-fb.jp/articles/love-attack-inkigayo-realtime-first.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.12】 「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得\n\nhttps://rescene-fb.jp/articles/love-attack-inkigayo-realtime-first.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得\n2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
+      "charCount": 143
+    },
+    {
+      "slug": "melon-top100-first-number-one",
+      "date": "2026.07.08",
+      "title": "RESCENEがMelon TOP100で初の1位を記録",
+      "url": "https://rescene-fb.jp/articles/melon-top100-first-number-one.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.08】 RESCENEがMelon TOP100で初の1位を記録\n\nhttps://rescene-fb.jp/articles/melon-top100-first-number-one.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "RESCENEがMelon TOP100で初の1位を記録\n2026年7月8日22時、RESCENEがMelon TOP100でグループ初となる1位を記録しました。記録達成後のYouTubeライブもあわせてご覧いただけます。",
+      "charCount": 129
+    },
+    {
+      "slug": "pretty-girl-release",
+      "date": "2026.07.08",
+      "title": "Special Single「Pretty Girl」配信開始",
+      "url": "https://rescene-fb.jp/articles/pretty-girl-release.html",
+      "hashtags": "#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.08】 Special Single「Pretty Girl」配信開始\n\nhttps://rescene-fb.jp/articles/pretty-girl-release.html\n\n#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "lineText": "Special Single「Pretty Girl」配信開始\nSpecial Single「Pretty Girl」の配信がスタートしました。リリース1時間後にMelon TOP100 22位へランクインし、最高4位を記録しました。",
+      "charCount": 139
+    },
+    {
+      "slug": "goyang-ambassador",
+      "date": "2026.07.02",
+      "title": "京畿道 高陽市 広報大使に任命",
+      "url": "https://rescene-fb.jp/articles/goyang-ambassador.html",
+      "hashtags": "#RESCENE_AMBASSADOR #RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.02】 京畿道 高陽市 広報大使に任命\n\nhttps://rescene-fb.jp/articles/goyang-ambassador.html\n\n#RESCENE_AMBASSADOR #RESCENE #리센느 #リセンヌ",
+      "lineText": "京畿道 高陽市 広報大使に任命\nメイの故郷・高陽市の広報大使にRESCENEが任命されました。",
+      "charCount": 124
+    },
+    {
+      "slug": "gyeongju-ambassador",
+      "date": "2026.06.29",
+      "title": "慶尚北道 慶州市 広報大使に任命",
+      "url": "https://rescene-fb.jp/articles/gyeongju-ambassador.html",
+      "hashtags": "#RESCENE_AMBASSADOR #RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.06.29】 慶尚北道 慶州市 広報大使に任命\n\nhttps://rescene-fb.jp/articles/gyeongju-ambassador.html\n\n#RESCENE_AMBASSADOR #RESCENE #리센느 #リセンヌ",
+      "lineText": "慶尚北道 慶州市 広報大使に任命\nゼナの故郷・慶州市の観光広報大使にRESCENEが任命されました。",
+      "charCount": 127
+    },
+    {
+      "slug": "suwon-ambassador",
+      "date": "2026.06.24",
+      "title": "京畿道 水原市 広報大使に任命",
+      "url": "https://rescene-fb.jp/articles/suwon-ambassador.html",
+      "hashtags": "#RESCENE_AMBASSADOR #RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.06.24】 京畿道 水原市 広報大使に任命\n\nhttps://rescene-fb.jp/articles/suwon-ambassador.html\n\n#RESCENE_AMBASSADOR #RESCENE #리센느 #リセンヌ",
+      "lineText": "京畿道 水原市 広報大使に任命\nリブの故郷・水原市の広報大使にRESCENEが任命されました。",
+      "charCount": 123
+    },
+    {
+      "slug": "geoje-ambassador",
+      "date": "2026.05.22",
+      "title": "慶尚南道 巨済市 広報大使に任命",
+      "url": "https://rescene-fb.jp/articles/geoje-ambassador.html",
+      "hashtags": "#RESCENE_AMBASSADOR #RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.05.22】 慶尚南道 巨済市 広報大使に任命\n\nhttps://rescene-fb.jp/articles/geoje-ambassador.html\n\n#RESCENE_AMBASSADOR #RESCENE #리센느 #リセンヌ",
+      "lineText": "慶尚南道 巨済市 広報大使に任命\nウォニの故郷・巨済市の広報大使にRESCENEが任命されました。",
+      "charCount": 124
+    },
+    {
+      "slug": "runaway-release",
+      "date": "2026.04.08",
+      "title": "Digital Single「Runaway」配信開始",
+      "url": "https://rescene-fb.jp/articles/runaway-release.html",
+      "hashtags": "#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.04.08】 Digital Single「Runaway」配信開始\n\nhttps://rescene-fb.jp/articles/runaway-release.html\n\n#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "lineText": "Digital Single「Runaway」配信開始\nRESCENE初のDigital Single「Runaway」の配信がスタートしました。",
+      "charCount": 131
+    },
+    {
+      "slug": "second-anniversary",
+      "date": "2026.03.26",
+      "title": "RESCENE Debut 2nd Anniversary",
+      "url": "https://rescene-fb.jp/articles/second-anniversary.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.03.26】 RESCENE Debut 2nd Anniversary\n\nhttps://rescene-fb.jp/articles/second-anniversary.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "RESCENE Debut 2nd Anniversary\nRESCENEがデビュー2周年を迎えました。",
+      "charCount": 119
+    },
+    {
+      "slug": "second-anniversary-project",
+      "date": "2026.03.19",
+      "title": "デビュー2周年広告プロジェクト",
+      "url": "https://rescene-fb.jp/articles/second-anniversary-project.html",
+      "hashtags": "#RESCENE_EVENT #RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.03.19】 デビュー2周年広告プロジェクト\n\nhttps://rescene-fb.jp/articles/second-anniversary-project.html\n\n#RESCENE_EVENT #RESCENE #리센느 #リセンヌ",
+      "lineText": "デビュー2周年広告プロジェクト\n韓国で実施した2周年広告プロジェクトのお知らせです。",
+      "charCount": 128
+    },
+    {
+      "slug": "busy-boy-release",
+      "date": "2026.02.27",
+      "title": "[RESCENE X ???]「Busy Boy」配信開始",
+      "url": "https://rescene-fb.jp/articles/busy-boy-release.html",
+      "hashtags": "#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.02.27】 [RESCENE X ???]「Busy Boy」配信開始\n\nhttps://rescene-fb.jp/articles/busy-boy-release.html\n\n#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "lineText": "[RESCENE X ???]「Busy Boy」配信開始\nコラボレーションデジタルシングル「Busy Boy」の配信がスタートしました。",
+      "charCount": 134
+    },
+    {
+      "slug": "pinball-japanese-release",
+      "date": "2026.01.21",
+      "title": "「ピンボール(Pinball)」配信開始",
+      "url": "https://rescene-fb.jp/articles/pinball-japanese-release.html",
+      "hashtags": "#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.01.21】 「ピンボール(Pinball)」配信開始\n\nhttps://rescene-fb.jp/articles/pinball-japanese-release.html\n\n#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "lineText": "「ピンボール(Pinball)」配信開始\n「Pinball」の日本語バージョンが配信されました。",
+      "charCount": 133
+    },
+    {
+      "slug": "lip-bomb-release",
+      "date": "2025.11.25",
+      "title": "3rd Mini Album「lip bomb」リリース",
+      "url": "https://rescene-fb.jp/articles/lip-bomb-release.html",
+      "hashtags": "#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "xText": "【2025.11.25】 3rd Mini Album「lip bomb」リリース\n\nhttps://rescene-fb.jp/articles/lip-bomb-release.html\n\n#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "lineText": "3rd Mini Album「lip bomb」リリース\nHeart Drop、Bloomを含む3rd Mini Album「lip bomb」がリリースされました。",
+      "charCount": 133
+    },
+    {
+      "slug": "dearest-release",
+      "date": "2025.07.02",
+      "title": "2nd Single Album「Dearest」リリース",
+      "url": "https://rescene-fb.jp/articles/dearest-release.html",
+      "hashtags": "#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "xText": "【2025.07.02】 2nd Single Album「Dearest」リリース\n\nhttps://rescene-fb.jp/articles/dearest-release.html\n\n#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "lineText": "2nd Single Album「Dearest」リリース\nDeja Vu、Moodを収録した2nd Single Album「Dearest」がリリースされました。",
+      "charCount": 133
+    },
+    {
+      "slug": "glow-up-release",
+      "date": "2025.02.05",
+      "title": "2nd Mini Album「Glow Up」リリース",
+      "url": "https://rescene-fb.jp/articles/glow-up-release.html",
+      "hashtags": "#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "xText": "【2025.02.05】 2nd Mini Album「Glow Up」リリース\n\nhttps://rescene-fb.jp/articles/glow-up-release.html\n\n#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "lineText": "2nd Mini Album「Glow Up」リリース\nタイトル曲「Glow Up」を含む2nd Mini Albumがリリースされました。",
+      "charCount": 131
+    },
+    {
+      "slug": "scenedrome-release",
+      "date": "2024.08.27",
+      "title": "1st Mini Album「SCENEDROME」リリース",
+      "url": "https://rescene-fb.jp/articles/scenedrome-release.html",
+      "hashtags": "#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "xText": "【2024.08.27】 1st Mini Album「SCENEDROME」リリース\n\nhttps://rescene-fb.jp/articles/scenedrome-release.html\n\n#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "lineText": "1st Mini Album「SCENEDROME」リリース\nLOVE ATTACK、Pinballなどを収録した1st Mini Albumがリリースされました。",
+      "charCount": 137
+    },
+    {
+      "slug": "rescene-release",
+      "date": "2024.03.26",
+      "title": "1st Single Album「Re:Scene」リリース",
+      "url": "https://rescene-fb.jp/articles/rescene-release.html",
+      "hashtags": "#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "xText": "【2024.03.26】 1st Single Album「Re:Scene」リリース\n\nhttps://rescene-fb.jp/articles/rescene-release.html\n\n#RESCENE_RELEASE #RESCENE #리센느 #リセンヌ",
+      "lineText": "1st Single Album「Re:Scene」リリース\nYoYo、UhUhを収録したデビューシングルアルバム「Re:Scene」がリリースされました。",
+      "charCount": 134
+    }
+  ]
+};

@@ -7,6 +7,8 @@ const notionVersion = "2026-03-11";
 const notionDatabaseUrl = "https://app.notion.com/p/5f26ec69338a46f1ad9a82e070e92ad9";
 const outputPath = "data/mv.json";
 const outputScriptPath = "data/mv-data.js";
+const candidateOutputPath = "data/mv-candidates.json";
+const candidateScriptPath = "data/mv-candidates-data.js";
 const notionImageDirectory = "assets/mv/notion";
 const youtubeImageDirectory = "assets/mv/youtube";
 const allowFallback = process.env.MV_SYNC_ALLOW_FALLBACK === "1";
@@ -239,7 +241,10 @@ async function cleanupDirectory(directory, usedPaths) {
 const previous = await readJson(outputPath, { items: [] });
 const youtubeData = await readJson("data/youtube-channels.json", { channels: [] });
 const videoMap = youtubeVideoMap(youtubeData);
-const previousItemMap = new Map((Array.isArray(previous?.items) ? previous.items : []).map((item) => [item.videoId, item]));
+const previousItems = Array.isArray(previous?.items) ? previous.items : [];
+const previousItemMap = new Map(previousItems.map((item) => [item.videoId, item]));
+// Existing automatically published videos remain visible. New detections require Notion approval.
+const grandfatheredAutoIds = new Set(previousItems.filter((item) => item.autoDetected).map((item) => item.videoId));
 let notionRows = [];
 try {
   notionRows = token ? (await queryAllPages()).map(convertPage).filter(Boolean) : fallbackOverrides(previous);
@@ -252,6 +257,7 @@ try {
 const notionMap = new Map(notionRows.map((row) => [row.videoId, row]));
 const excluded = new Set(notionRows.filter((row) => row.state === "除外").map((row) => row.videoId));
 const items = [];
+const candidates = [];
 const usedNotionImages = new Set();
 const usedYoutubeImages = new Set();
 
@@ -312,13 +318,18 @@ for (const video of videoMap.values()) {
   } catch (error) {
     console.warn(`::warning::${candidate.videoId}のYouTubeサムネイル保存に失敗しました（${error.message}）`);
   }
-  items.push({
+  const normalized = {
     ...candidate,
     anchor: `mv-${safeSlug(candidate.title, candidate.videoId)}-${candidate.videoId.slice(-4).toLowerCase()}`,
     thumbnail,
     year: candidate.date.slice(0, 4),
     badge: candidate.kind,
-  });
+  };
+  if (grandfatheredAutoIds.has(candidate.videoId)) {
+    items.push({ ...normalized, approvalState: "legacy-auto" });
+  } else {
+    candidates.push({ ...normalized, approvalState: "pending", reviewReason: "YouTubeから新しく自動検出。Notionで掲載状態を「表示」または「除外」に設定してください。" });
+  }
 }
 
 items.sort((a, b) => {
@@ -340,6 +351,7 @@ const stats = {
   autoDetected: items.filter((item) => item.autoDetected).length,
   notionManaged: items.filter((item) => !item.autoDetected).length,
   excluded: excluded.size,
+  pendingCandidates: candidates.length,
 };
 const comparablePrevious = { items: previous.items || [] };
 const comparableNext = { items };
@@ -359,4 +371,7 @@ const jsonText = `${JSON.stringify(payload, null, 2)}\n`;
 const jsText = `window.RESCENE_MV = ${JSON.stringify(payload, null, 2)};\n`;
 if ((await readFile(outputPath, "utf8").catch(() => "")) !== jsonText) await writeFile(outputPath, jsonText, "utf8");
 if ((await readFile(outputScriptPath, "utf8").catch(() => "")) !== jsText) await writeFile(outputScriptPath, jsText, "utf8");
-console.log(`MV一覧 ${items.length}件を生成しました（Notion管理 ${stats.notionManaged} / 自動検出 ${stats.autoDetected} / 除外 ${stats.excluded}）。データ変更: ${changed ? "あり" : "なし"}`);
+const candidatePayload = { generatedAt: new Date().toISOString(), dataSourceId, notionDatabaseUrl, count: candidates.length, items: candidates };
+await writeFile(candidateOutputPath, `${JSON.stringify(candidatePayload, null, 2)}\n`, "utf8");
+await writeFile(candidateScriptPath, `window.RESCENE_MV_CANDIDATES = ${JSON.stringify(candidatePayload, null, 2)};\n`, "utf8");
+console.log(`MV一覧 ${items.length}件を生成しました（Notion管理 ${stats.notionManaged} / 公開済み自動検出 ${stats.autoDetected} / 確認待ち ${stats.pendingCandidates} / 除外 ${stats.excluded}）。データ変更: ${changed ? "あり" : "なし"}`);

@@ -25,6 +25,7 @@ ARTICLE_DIR = ROOT / "articles"
 SEO_START = "<!-- SEO-AUTO-START -->"
 SEO_END = "<!-- SEO-AUTO-END -->"
 JST = timezone(timedelta(hours=9))
+NEWS_EXTRAS: dict = {}
 
 PAGE_META = {
     "index.html": {
@@ -152,6 +153,12 @@ PAGE_META = {
         "label": "LINK HEALTH",
         "noindex": True,
     },
+    "favorites.html": {"title": f"お気に入り | {SITE_NAME}", "description": "端末内に保存したメンバー、掛け声、投票ガイドをまとめて確認できます。", "image": "assets/group/rescene-group.jpg", "label": "FAVORITES", "noindex": True},
+    "updates.html": {"title": f"サイト更新履歴 | {SITE_NAME}", "description": "RESCENE JAPAN FANBASEの機能追加やページ更新履歴を掲載しています。", "image": "assets/group/rescene-group.jpg", "label": "SITE UPDATES", "priority": "0.4", "changefreq": "weekly"},
+    "social-posts.html": {"title": f"SNS投稿文 | {SITE_NAME}", "description": "ニュース用SNS投稿文の管理ページです。", "image": "assets/group/rescene-group.jpg", "label": "SOCIAL COPY", "noindex": True},
+    "mv-review.html": {"title": f"MV候補確認 | {SITE_NAME}", "description": "MV自動検出候補の確認用管理ページです。", "image": "assets/mv/love-attack.jpg", "label": "MV REVIEW", "noindex": True},
+    "analytics.html": {"title": f"アクセス解析 | {SITE_NAME}", "description": "アクセス解析の設定状況を確認する管理ページです。", "image": "assets/group/rescene-group.jpg", "label": "ANALYTICS", "noindex": True},
+    "offline.html": {"title": f"オフライン | {SITE_NAME}", "description": "オフライン案内ページです。", "image": "assets/group/rescene-group.jpg", "label": "OFFLINE", "noindex": True},
     "article.html": {
         "title": f"ニュース記事 | {SITE_NAME}",
         "description": "RESCENEのニュース記事ページです。",
@@ -470,12 +477,33 @@ def create_article_page(template: str, item: dict, output: Path) -> dict:
         source_button = f'<a class="btn btn-primary" href="{html.escape(source_link, quote=True)}"{attrs}>{html.escape(label)} ↗</a>'
     body = render_paragraphs(item.get("body") or item.get("text") or "")
     hero_image = str(item.get("image") or "news/fanbase-site.jpg")
+    share_title = html.escape(title, quote=True)
+    share_text = html.escape(f"{item.get('date') or ''} {title}".strip(), quote=True)
+    share_url = html.escape(canonical, quote=True)
+    share_html = (
+        f'<div class="share-actions"><span class="share-actions-label">この記事を共有</span>'
+        f'<button class="share-button" type="button" data-share-action="native" data-share-title="{share_title}" data-share-text="{share_text}" data-share-url="{share_url}">共有</button>'
+        f'<button class="share-button" type="button" data-share-action="x" data-share-title="{share_title}" data-share-text="{share_text}" data-share-url="{share_url}">X</button>'
+        f'<button class="share-button" type="button" data-share-action="line" data-share-title="{share_title}" data-share-text="{share_text}" data-share-url="{share_url}">LINE</button>'
+        f'<button class="share-button" type="button" data-share-action="copy" data-share-title="{share_title}" data-share-url="{share_url}">URLコピー</button></div>'
+    )
+    related_rows = (NEWS_EXTRAS.get("related") or {}).get(slug, [])
+    related_html = ""
+    if related_rows:
+        cards = "".join(
+            f'<a class="card related-news-card" href="articles/{safe_slug(row.get("slug"))}.html">'
+            f'<img src="{html.escape(str(row.get("image") or DEFAULT_SOURCE_IMAGE), quote=True)}" alt="" loading="lazy">'
+            f'<div><span class="news-date">{html.escape(str(row.get("date") or ""))}</span>'
+            f'<h3>{html.escape(str(row.get("title") or "関連記事"))}</h3></div></a>'
+            for row in related_rows
+        )
+        related_html = f'<section class="related-news"><h2>関連記事</h2><div class="related-news-grid">{cards}</div></section>'
     article_html = (
         f'<article class="article-shell card" id="newsArticle">'
         f'<div class="article-hero"><img src="{html.escape(hero_image, quote=True)}" alt="{html.escape(title, quote=True)}" loading="eager"></div>'
         f'<div class="article-body"><div class="article-meta"><time class="news-date" datetime="{html.escape(published[:10] if published else "", quote=True)}">{html.escape(str(item.get("date") or "UPDATE"))}</time><span class="badge">{html.escape(str(item.get("label") or "NEWS"))}</span></div>'
         f'<h1>{html.escape(title)}</h1><div class="article-lead">{body}</div>'
-        f'<div class="article-actions">{source_button}<a class="btn btn-secondary" href="news.html">ニュース一覧へ戻る</a></div></div></article>'
+        f'<div class="article-actions">{source_button}<a class="btn btn-secondary" href="news.html">ニュース一覧へ戻る</a></div>{share_html}{related_html}</div></article>'
     )
     page = re.sub(r'<main class="container">.*?</main>', f'<main class="container">{breadcrumb_html}{article_html}</main>', page, count=1, flags=re.S)
     page = re.sub(r'<script src="data/news-data\.js"></script><script id="article-render-script">.*?</script>\s*', '', page, count=1, flags=re.S)
@@ -572,7 +600,12 @@ def main() -> None:
                 "priority": meta.get("priority", "0.5"),
             })
 
+    global NEWS_EXTRAS
     news_payload = json.loads((ROOT / "data/news.json").read_text(encoding="utf-8"))
+    try:
+        NEWS_EXTRAS = json.loads((ROOT / "data/news-extras.json").read_text(encoding="utf-8"))
+    except Exception:
+        NEWS_EXTRAS = {}
     news = news_payload.get("news", []) if isinstance(news_payload, dict) else news_payload
     template = (ROOT / "article.html").read_text(encoding="utf-8")
     articles = []

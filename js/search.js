@@ -16,6 +16,8 @@
  let shown=PAGE_SIZE;
  let query='';
  let loadErrors=[];
+ let analyticsTimer=null;
+ const trackSearch=(term,count)=>{clearTimeout(analyticsTimer);if(String(term).trim().length<2)return;analyticsTimer=setTimeout(()=>window.RESCENE_ANALYTICS?.track?.('search',{search_term:String(term).trim(),result_count:Number(count)||0,search_category:activeFilter}),700);};
 
  const escapeHtml=(value='')=>String(value).replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
  const katakanaToHiragana=(value='')=>value.replace(/[ァ-ヶ]/g,char=>String.fromCharCode(char.charCodeAt(0)-0x60));
@@ -246,6 +248,7 @@
   }
   const results=filteredResults();
   const visible=results.slice(0,shown);
+  trackSearch(query,results.length);
   summaryTitle.textContent=`「${query}」の検索結果`;
   summaryDetail.textContent=`${results.length.toLocaleString('ja-JP')}件見つかりました`;
   if(!results.length){renderState('？','検索結果がありません','表記を短くするか、別の言語・キーワードでもお試しください。');return;}

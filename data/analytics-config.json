@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-07-22T00:00:00+00:00",
+  "measurementId": "",
+  "enabled": false,
+  "privacy": {
+    "anonymizeIp": true,
+    "personalData": "not-collected-by-site"
+  },
+  "events": [
+    "page_view",
+    "search",
+    "share",
+    "favorite_add",
+    "favorite_remove",
+    "calendar_add",
+    "pwa_install_prompt",
+    "theme_change"
+  ]
+}

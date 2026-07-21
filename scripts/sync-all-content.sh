@@ -25,12 +25,16 @@ run_step "Notion お問い合わせ" node scripts/sync-notion-contact.mjs
 run_step "Notion ホーム・共通表示" node scripts/sync-notion-homepage.mjs
 run_step "YouTube 全動画" node scripts/sync-youtube-channels.mjs
 run_step "MV一覧" node scripts/sync-mv.mjs
+run_step "ニュース関連記事・SNS投稿文" node scripts/generate-news-extras.mjs
+run_step "サイト更新履歴" python3 scripts/generate-site-updates.py
+run_step "アクセス解析設定" python3 scripts/generate-analytics-config.py
 run_step "ホーム用ガイド更新情報" node scripts/generate-home-guides.mjs
 run_step "カレンダーICS" node scripts/calendar-ics.mjs
 run_step "SEO・記事・OGP・サイトマップ" python3 scripts/generate-seo.py
 run_step "共通ヘッダー・フッター" python3 scripts/sync-site-shell.py
 run_step "画像の表示領域確保" python3 scripts/add-image-dimensions.py
 run_step "画像最適化" python3 scripts/optimize-images.py
+run_step "PWA・オフラインキャッシュ" python3 scripts/generate-pwa.py
 run_step "公開前品質検査" bash ./scripts/run-prepublish-checks.sh
 
 echo

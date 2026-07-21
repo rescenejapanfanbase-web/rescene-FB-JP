@@ -12,6 +12,7 @@
   const escapeHtml=(value='')=>String(value).replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
   const lineBreaks=(value='')=>escapeHtml(value).replace(/\n/g,'<br>');
   const image=(src,alt,css='')=>src?`<img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy"${css?` class="${css}"`:''}>`:'';
+  const fav=(kind,item)=>window.RESCENE_FAVORITES?.button({type:'voting',id:`${kind}:${item.slug||item.anchor||item.title}`,label:`${item.title||'投票ガイド'}をお気に入り`})||'';
   const safeUrl=value=>/^https?:\/\//i.test(String(value||''))?String(value):'';
 
   if(statusHost){
@@ -21,7 +22,7 @@
 
   const programs=Array.isArray(data.programs)?[...data.programs].sort((a,b)=>(a.order??9999)-(b.order??9999)):[];
   if(programHost){
-    programHost.innerHTML=programs.map(item=>`<article class="card program-card" data-mark="${escapeHtml(item.mark||'')}"><div class="program-top"><div class="program-name"><span aria-hidden="true" class="program-icon">${image(item.icon,item.app||item.title)}</span><div><h3>${escapeHtml(item.title||'')}</h3><small>${escapeHtml(item.subtitle||'')}</small></div></div>${item.voteType?`<span class="vote-type">${escapeHtml(item.voteType)}</span>`:''}</div><dl class="program-data"><div><dt>使用アプリ</dt><dd>${escapeHtml(item.app||'—')}</dd></div><div><dt>準備するもの</dt><dd>${escapeHtml(item.currency||'—')}</dd></div><div><dt>投票</dt><dd>${escapeHtml(item.period||'—')}</dd></div></dl>${item.note?`<p class="program-note">${lineBreaks(item.note)}</p>`:''}</article>`).join('');
+    programHost.innerHTML=programs.map(item=>`<article class="card program-card" data-mark="${escapeHtml(item.mark||'')}"><div class="program-top"><div class="program-name"><span aria-hidden="true" class="program-icon">${image(item.icon,item.app||item.title)}</span><div><h3>${escapeHtml(item.title||'')}</h3><small>${escapeHtml(item.subtitle||'')}</small></div></div>${item.voteType?`<span class="vote-type">${escapeHtml(item.voteType)}</span>`:''}</div><dl class="program-data"><div><dt>使用アプリ</dt><dd>${escapeHtml(item.app||'—')}</dd></div><div><dt>準備するもの</dt><dd>${escapeHtml(item.currency||'—')}</dd></div><div><dt>投票</dt><dd>${escapeHtml(item.period||'—')}</dd></div></dl>${item.note?`<p class="program-note">${lineBreaks(item.note)}</p>`:''}<div class="card-utility-row">${fav('program',item)}</div></article>`).join('');
   }
 
   const scorePrograms=programs.filter(item=>item?.score&&(item.score.image||(Array.isArray(item.score.items)&&item.score.items.length)));
@@ -37,7 +38,7 @@
     appHost.innerHTML=apps.map(item=>{
       const appStore=safeUrl(item.appStore);
       const googlePlay=safeUrl(item.googlePlay);
-      return `<article class="card app-card"><div class="app-card-head">${item.icon?image(item.icon,item.title,'app-logo-image'):`<span class="app-logo-text">${escapeHtml(item.title||'APP')}</span>`}<div><h3>${escapeHtml(item.title||'')}</h3><p>${escapeHtml(item.subtitle||item.description||'')}</p></div></div>${Array.isArray(item.tags)&&item.tags.length?`<div class="app-tags">${item.tags.map(tag=>`<span>${escapeHtml(tag)}</span>`).join('')}</div>`:''}<div class="store-buttons">${appStore?`<a href="${escapeHtml(appStore)}" target="_blank" rel="noopener noreferrer">App Storeで開く ↗</a>`:''}${googlePlay?`<a href="${escapeHtml(googlePlay)}" target="_blank" rel="noopener noreferrer">Google Playで開く ↗</a>`:''}</div></article>`;
+      return `<article class="card app-card"><div class="app-card-head">${item.icon?image(item.icon,item.title,'app-logo-image'):`<span class="app-logo-text">${escapeHtml(item.title||'APP')}</span>`}<div><h3>${escapeHtml(item.title||'')}</h3><p>${escapeHtml(item.subtitle||item.description||'')}</p></div></div>${Array.isArray(item.tags)&&item.tags.length?`<div class="app-tags">${item.tags.map(tag=>`<span>${escapeHtml(tag)}</span>`).join('')}</div>`:''}<div class="store-buttons">${appStore?`<a href="${escapeHtml(appStore)}" target="_blank" rel="noopener noreferrer">App Storeで開く ↗</a>`:''}${googlePlay?`<a href="${escapeHtml(googlePlay)}" target="_blank" rel="noopener noreferrer">Google Playで開く ↗</a>`:''}</div><div class="card-utility-row">${fav('app',item)}</div></article>`;
     }).join('');
   }
 
@@ -48,4 +49,5 @@
       return `<details class="guide-details"${index===0?' open':''}><summary><span class="guide-summary-title"><span class="guide-app-icon">${image(item.icon,item.title)}</span><span>${escapeHtml(item.title||'')}<small>${escapeHtml(item.subtitle||'')}</small></span></span></summary><div class="guide-content"><div class="guide-steps">${stepHtml}</div>${item?.guide?.note?`<p class="guide-note">${lineBreaks(item.guide.note)}</p>`:''}</div></details>`;
     }).join('');
   }
+  window.RESCENE_FAVORITES?.bind(document);document.dispatchEvent(new CustomEvent('rescene:content-rendered'));
 })();

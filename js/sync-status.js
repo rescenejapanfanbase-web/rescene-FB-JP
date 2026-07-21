@@ -74,10 +74,10 @@
         const pending=data?.source==='initial'||data?.source==='initial-fallback'||!data?.generatedAt;
         return {
           count:`${items.length}件`,
-          detail:`OFFICIAL MV ${Number(stats.official)||0} / SPECIAL・OST ${Number(stats.special)||0} / 自動検出 ${Number(stats.autoDetected)||0}`,
+          detail:`OFFICIAL MV ${Number(stats.official)||0} / SPECIAL・OST ${Number(stats.special)||0} / 公開済み自動検出 ${Number(stats.autoDetected)||0} / 確認待ち ${Number(stats.pendingCandidates)||0}`,
           generatedAt:data?.generatedAt||null,
-          state:pending?'warning':'success',
-          message:pending?'初期MVデータを表示しています。Notionを連携し「Sync MV List」を一度実行してください。':`YouTubeとNotionからMV一覧 ${items.length}件を生成しています。`,
+          state:pending||Number(stats.pendingCandidates)?'warning':'success',
+          message:pending?'初期MVデータを表示しています。Notionを連携し「Sync MV List」を一度実行してください。':Number(stats.pendingCandidates)?`新しいMV候補が${Number(stats.pendingCandidates)}件あります。MV候補確認ページから確認してください。`:`YouTubeとNotionからMV一覧 ${items.length}件を生成しています。`,
         };
       },
     },
@@ -214,7 +214,7 @@
     backup:{
       workflow:'backup-site.yml',
       dataUrl:null,
-      parseData(){return {count:'SITE ZIP',detail:'サイト一式＋復元情報を90日保存',generatedAt:null,state:'success',message:'最新のバックアップ実行結果を確認しています。Artifactは最新ログからダウンロードできます。'};},
+      parseData(){return {count:'SITE ZIP',detail:'Artifact 90日＋Release 26世代',generatedAt:null,state:'success',message:'毎週のZIPをArtifactと長期保存用Releaseへ保存します。最新ログからダウンロードできます。'};},
     },
     externallinks:{
       workflow:'check-external-links.yml',
