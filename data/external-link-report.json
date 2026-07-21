@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-21T14:10:43Z",
-  "startedAt": "2026-07-21T14:10:40Z",
-  "elapsedSeconds": 3.6,
+  "generatedAt": "2026-07-21T15:44:28Z",
+  "startedAt": "2026-07-21T15:44:23Z",
+  "elapsedSeconds": 4.29,
   "summary": {
-    "checked": 48,
-    "ok": 47,
+    "checked": 49,
+    "ok": 48,
     "warning": 1,
     "broken": 0,
     "hosts": 15
@@ -22,8 +22,8 @@
     {
       "key": "app-store",
       "label": "App Store",
-      "checked": 11,
-      "ok": 11,
+      "checked": 12,
+      "ok": 12,
       "warning": 0,
       "broken": 0
     },
@@ -192,8 +192,8 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 296,
-          "label": "SHOW!音楽中心 出演"
+          "line": 295,
+          "label": "Music Bank 出演"
         },
         {
           "file": "data/voting-guide.json",
@@ -204,6 +204,24 @@
           "file": "voting.html",
           "line": 180,
           "label": "App Store ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/app/id6443405421",
+      "normalizedUrl": "https://apps.apple.com/app/id6443405421",
+      "finalUrl": "https://apps.apple.com/app/id6443405421",
+      "service": "App Store",
+      "serviceKey": "app-store",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 267,
+          "label": "M COUNTDOWN 出演"
         }
       ]
     },
@@ -903,7 +921,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784643042291&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784648666129&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
