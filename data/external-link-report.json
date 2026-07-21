@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-21T21:05:25Z",
-  "startedAt": "2026-07-21T21:05:21Z",
-  "elapsedSeconds": 4.03,
+  "generatedAt": "2026-07-21T22:52:03Z",
+  "startedAt": "2026-07-21T22:51:58Z",
+  "elapsedSeconds": 4.42,
   "summary": {
     "checked": 63,
     "ok": 61,
@@ -179,7 +179,7 @@
       "sources": [
         {
           "file": "analytics.html",
-          "line": 69,
+          "line": 71,
           "label": "Google Analyticsを開く ↗"
         }
       ]
@@ -481,7 +481,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 129,
+          "line": 128,
           "label": "GitHubリポジトリ サイトファイルと更新履歴を確認 ↗"
         }
       ]
@@ -499,7 +499,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 129,
+          "line": 128,
           "label": "GitHub Actions一覧 すべての同期・チェック履歴を確認 ↗"
         }
       ]
@@ -517,7 +517,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 129,
+          "line": 128,
           "label": "バックアップ一覧 保存ZIPの作成履歴とArtifactを確認 ↗"
         }
       ]
@@ -535,7 +535,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 129,
+          "line": 128,
           "label": "Notion公開前プレビュー 非公開記事・予定と不足項目を限定Artifactで確認 ↗"
         }
       ]
@@ -553,7 +553,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 129,
+          "line": 128,
           "label": "公開前プレビュー PC・スマホのスクリーンショットとZIPを作成 ↗"
         }
       ]
@@ -571,7 +571,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 129,
+          "line": 128,
           "label": "緊急ロールバック 正常なコミットを新しい復元コミットとして反映 ↗"
         }
       ]
@@ -589,7 +589,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 129,
+          "line": 128,
           "label": "サイト統合同期 全データを取得・検査し、1コミットで公開 ↗"
         }
       ]
@@ -607,7 +607,7 @@
       "sources": [
         {
           "file": "mv-review.html",
-          "line": 66,
+          "line": 68,
           "label": "MV同期を実行 ↗"
         }
       ]
@@ -975,7 +975,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784667923907&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784674321541&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
