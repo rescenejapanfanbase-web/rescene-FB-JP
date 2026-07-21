@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-07-21T22:53:04.045656+00:00",
+  "generatedAt": "2026-07-21T23:28:18.103506+00:00",
   "items": [
     {
       "date": "2026-07-22",
@@ -16,16 +16,10 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-07-22",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "d624b1a",
+      "commit": "e62426b",
       "files": [
-        "PUBLIC-AUDIT-SEO-FIX.txt",
-        "analytics.html",
-        "chants.html",
-        "discography.html",
-        "external-links.html",
-        "favorites.html",
-        "generate-seo.py",
-        "mv-review.html"
+        "UPLOAD-INSTRUCTIONS-RELATED-NEWS-MOBILE-FIX.txt",
+        "common.css"
       ]
     },
     {
@@ -80,24 +74,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "9a869bd",
       "files": [
         "data.js"
-      ]
-    },
-    {
-      "date": "2026-07-21",
-      "title": "Delete common.js",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "378ef63",
-      "files": [
-        "common.js"
-      ]
-    },
-    {
-      "date": "2026-07-21",
-      "title": "Delete common.css",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "1c321db",
-      "files": [
-        "common.css"
       ]
     },
     {

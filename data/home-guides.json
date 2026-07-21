@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T22:53:04.109Z",
+  "generatedAt": "2026-07-21T23:28:18.162Z",
   "source": "git-history",
   "guides": [
     {
@@ -8,8 +8,8 @@
       "summary": "楽曲ごとの掛け声をサムネイルからすぐに開けます。",
       "url": "chants.html",
       "category": "FANCHANT",
-      "updatedAt": "2026-07-22T07:51:44+09:00",
-      "commit": "d624b1a"
+      "updatedAt": "2026-07-21T22:53:13Z",
+      "commit": "e5232ad"
     },
     {
       "key": "mv",
@@ -17,8 +17,8 @@
       "summary": "RESCENEのミュージックビデオを作品別に確認できます。",
       "url": "mv.html",
       "category": "MUSIC VIDEO",
-      "updatedAt": "2026-07-22T07:51:44+09:00",
-      "commit": "d624b1a"
+      "updatedAt": "2026-07-21T22:53:13Z",
+      "commit": "e5232ad"
     },
     {
       "key": "youtube",
