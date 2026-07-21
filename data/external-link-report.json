@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-21T12:35:55Z",
-  "startedAt": "2026-07-21T12:35:51Z",
-  "elapsedSeconds": 3.56,
+  "generatedAt": "2026-07-21T13:06:53Z",
+  "startedAt": "2026-07-21T13:06:49Z",
+  "elapsedSeconds": 4.48,
   "summary": {
     "checked": 48,
     "ok": 47,
@@ -903,7 +903,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784637354085&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784639211384&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
