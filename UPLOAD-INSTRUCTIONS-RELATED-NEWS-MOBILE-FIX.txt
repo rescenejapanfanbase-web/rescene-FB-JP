@@ -1,0 +1,12 @@
+関連記事スマホ表示修正
+
+1. ZIPを展開します。
+2. css/common.css をGitHubリポジトリ直下の同じ場所へ上書きします。
+3. Commit directly to the main branch で保存します。
+4. GitHub Actions の Sync All Site Content を実行します。
+
+修正内容:
+- 719px以下で関連記事カードの高さを内容に合わせる
+- サムネイルを横長固定サイズにする
+- タイトルを最大3行で省略する
+- 380px以下では画像をさらに小さくする
