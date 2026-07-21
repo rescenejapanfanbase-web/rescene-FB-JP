@@ -504,6 +504,20 @@ window.RESCENE_SCHEDULE = [
     "notionUrl": "https://app.notion.com/p/MAY-HappyBirthday-39d229d219da8042adf1d3b21aab71b4"
   },
   {
+    "id": "3a4229d2-19da-80aa-96ec-e26ef4a93b6d",
+    "title": "2026 THE FACT MUSIC AWARDS(TMA)",
+    "date": "2026-09-19",
+    "start": "2026-09-19",
+    "end": "",
+    "category": "イベント",
+    "type": "event",
+    "description": "TMA にRESCENEが初出演",
+    "link": "https://www.tfmusicawards.com/",
+    "linkLabel": "TMA公式サイトを見る",
+    "image": "",
+    "notionUrl": "https://app.notion.com/p/2026-THE-FACT-MUSIC-AWARDS-TMA-3a4229d219da80aa96ece26ef4a93b6d"
+  },
+  {
     "id": "39d229d2-19da-808f-9cff-c96cb9d0932d",
     "title": "LIV HappyBirthday🎂",
     "date": "2026-10-11",
