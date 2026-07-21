@@ -15,6 +15,12 @@ INLINE_COMMON_RE=re.compile(r'<script>\s*\(\(\)=>\{\s*const root=document\.docum
 COMMON_SCRIPT_RE=re.compile(r'<script\s+src=["\'](?:/|(?:\.\./)*)?js/common\.js(?:\?[^"\']*)?["\']\s*></script>\s*',re.I)
 LEGACY_THEME_RE=re.compile(r'<script>\s*try\{if\(localStorage\.getItem\(["\']rescene-theme["\']\)===["\']light["\']\)document\.documentElement\.classList\.add\(["\']light-mode["\']\)\}catch\(e\)\{\}\s*</script>\s*',re.S)
 SKIP_SHELL={'offline.html'}
+MISPLACED_TEMPLATE_NAMES={
+    'site-header.html',
+    'site-footer.html',
+    'site-header-contact.html',
+    'site-footer-contact.html',
+}
 
 def root_prefix(path:Path)->str:return '' if path.parent==ROOT else '/'
 def render(template:str,prefix:str,replacements:dict[str,str]|None=None)->str:
@@ -57,7 +63,16 @@ def main()->int:
     templates=[p.read_text(encoding='utf-8') for p in (HEADER_TEMPLATE,FOOTER_TEMPLATE,CONTACT_HEADER_TEMPLATE,CONTACT_FOOTER_TEMPLATE)]
     header_template,footer_template,contact_header_template,contact_footer_template=templates
     changed=[];failures=[];processed=0
-    for path in sorted(p for p in ROOT.rglob('*.html') if '.git' not in p.parts and 'templates' not in p.parts and 'artifacts' not in p.parts):
+    removed=[]
+    if not args.check:
+        for name in sorted(MISPLACED_TEMPLATE_NAMES):
+            misplaced=ROOT/name
+            if misplaced.is_file():
+                misplaced.unlink()
+                removed.append(name)
+        if removed:
+            print('公開階層に誤配置された共通テンプレートを削除しました: '+', '.join(removed))
+    for path in sorted(p for p in ROOT.rglob('*.html') if '.git' not in p.parts and 'templates' not in p.parts and 'artifacts' not in p.parts and p.name not in MISPLACED_TEMPLATE_NAMES):
         relative=path.relative_to(ROOT).as_posix()
         if relative in SKIP_SHELL:continue
         processed+=1
