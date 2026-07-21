@@ -129,6 +129,7 @@ def main() -> int:
         and p.suffix.lower() in TEXT_EXTENSIONS
         and ".git" not in p.parts
         and "node_modules" not in p.parts
+        and "templates" not in p.parts
         and p.relative_to(ROOT) not in IGNORED_FILES
     )
 

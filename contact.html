@@ -37,6 +37,7 @@
 <link rel="stylesheet" href="css/common.css">
 </head>
 <body class="page-contact">
+<!-- SITE-HEADER-START -->
 <header>
 <div class="nav">
 <a class="logo" href="index.html"><span>RESCENE</span> JAPAN FANBASE</a>
@@ -67,24 +68,15 @@
 <details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a><a href="contact.html">お問い合わせ</a></div></details></nav>
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+<!-- SITE-HEADER-END -->
 <main class="container">
 <section class="page-header section" id="top"><span class="page-kicker" id="contactPageKicker">CONTACT</span><h1 id="contactPageTitle">お問い合わせ</h1><p id="contactPageDescription">掲載内容の訂正、情報提供、企画・広告に関するご連絡。</p></section>
 <section class="section"><div class="contact-grid"><div class="card contact-main" id="contact-main"><span class="badge badge-green" id="contactMainBadge">CONTACT</span><h2 id="contactMainTitle">RESCENE JAPAN FANBASEへ<br>連絡する</h2><p id="contactMainDescription">お問い合わせはファンベース公式SNSのダイレクトメッセージ、または公開しているメールアドレスからお願いします。</p><a class="btn btn-primary" href="#" id="contactMainButton">公式Xを開く</a></div><div class="contact-side"><div class="card" data-contact-route id="contact-correction"><span class="route-num" data-contact-number>01</span><h3 data-contact-heading>掲載内容の訂正</h3><p class="subtle" data-contact-description>対象ページと正しい情報、確認できる公式ソースをお送りください。</p></div><div class="card" data-contact-route id="contact-project"><span class="route-num" data-contact-number>02</span><h3 data-contact-heading>企画・広告のご相談</h3><p class="subtle" data-contact-description>目的、実施希望時期、概要を添えてご連絡ください。</p></div><div class="card" data-contact-route id="contact-reply"><span class="route-num" data-contact-number>03</span><h3 data-contact-heading>返信について</h3><p class="subtle" data-contact-description>内容によっては返信まで時間をいただく場合があります。</p></div></div></div></section>
 </main>
+<!-- SITE-FOOTER-START -->
 <footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="contact.html">CONTACT</a><a href="search.html">SEARCH</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
-<script>
-
-(()=>{
- const root=document.documentElement,menu=document.getElementById('mobileMenu'),btn=document.getElementById('hamburger'),backdrop=document.getElementById('menuBackdrop'),theme=document.getElementById('themeToggle');
- const close=()=>{menu?.classList.remove('active');backdrop?.classList.remove('active');btn?.setAttribute('aria-expanded','false');document.body.style.overflow=''};
- btn?.addEventListener('click',()=>{const open=!menu?.classList.contains('active');menu?.classList.toggle('active',open);backdrop?.classList.toggle('active',open);btn.setAttribute('aria-expanded',String(open));document.body.style.overflow=open?'hidden':''});
- backdrop?.addEventListener('click',close);menu?.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
- const sync=()=>{if(theme)theme.textContent=root.classList.contains('light-mode')?'☀':'☾'};sync();
- theme?.addEventListener('click',()=>{root.classList.toggle('light-mode');try{localStorage.setItem('rescene-theme',root.classList.contains('light-mode')?'light':'dark')}catch(e){}sync()});
- document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
-})();
-
-</script>
+<!-- SITE-FOOTER-END -->
+<script src="js/common.js"></script>
 <script src="data/contact-data.js"></script>
 <script src="js/contact.js"></script>
 <script src="js/image-optimizer.js"></script>

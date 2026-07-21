@@ -36,9 +36,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
-<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="/css/common.css">
 </head>
-<body class="page-article-suwon-ambassador" data-static-news-article>
+<body class="page-article">
+<!-- SITE-HEADER-START -->
 <header>
 <div class="nav">
 <a class="logo" href="/index.html"><span>RESCENE</span> JAPAN FANBASE</a>
@@ -70,19 +71,11 @@
 <details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="/links.html">公式リンク</a></div></details></nav>
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
-<main class="container"><nav class="article-breadcrumb" aria-label="パンくず"><a href="/index.html">ホーム</a><span>›</span><a href="/news.html">ニュース</a><span>›</span><span>京畿道 水原市 広報大使に任命</span></nav><article class="article-shell card" id="newsArticle"><div class="article-hero"><img src="/news/suwon-ambassador.jpg" alt="京畿道 水原市 広報大使に任命" loading="eager"></div><div class="article-body"><div class="article-meta"><time class="news-date" datetime="2026-06-24">2026.06.24</time><span class="badge">AMBASSADOR</span></div><h1>京畿道 水原市 広報大使に任命</h1><div class="article-lead"><p>リブの故郷・水原市の広報大使にRESCENEが任命されました。</p></div><div class="article-actions"><a class="btn btn-primary" href="https://m.entertain.naver.com/home/article/408/0000312710" target="_blank" rel="noopener noreferrer">記事を見る ↗</a><a class="btn btn-secondary" href="/news.html">ニュース一覧へ戻る</a></div></div></article></main>
+<!-- SITE-HEADER-END -->
+<main class="container"><nav class="article-breadcrumb" aria-label="パンくず"><a href="/index.html">ホーム</a><span>›</span><a href="/news.html">ニュース</a><span>›</span><span>京畿道 水原市 広報大使に任命</span></nav><article class="article-shell card" id="newsArticle"><div class="article-hero"><img src="/news/suwon-ambassador.jpg" alt="京畿道 水原市 広報大使に任命" loading="eager" width="647" height="862"></div><div class="article-body"><div class="article-meta"><time class="news-date" datetime="2026-06-24">2026.06.24</time><span class="badge">AMBASSADOR</span></div><h1>京畿道 水原市 広報大使に任命</h1><div class="article-lead"><p>リブの故郷・水原市の広報大使にRESCENEが任命されました。</p></div><div class="article-actions"><a class="btn btn-primary" href="https://m.entertain.naver.com/home/article/408/0000312710" target="_blank" rel="noopener noreferrer">記事を見る ↗</a><a class="btn btn-secondary" href="/news.html">ニュース一覧へ戻る</a></div></div></article></main>
+<!-- SITE-FOOTER-START -->
 <footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="/about.html">ABOUT</a><a href="/links.html">OFFICIAL LINKS</a><a href="/search.html">SEARCH</a><a href="/sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
-<script>
-
-(()=>{
- const root=document.documentElement,menu=document.getElementById('mobileMenu'),btn=document.getElementById('hamburger'),backdrop=document.getElementById('menuBackdrop'),theme=document.getElementById('themeToggle');
- const close=()=>{menu?.classList.remove('active');backdrop?.classList.remove('active');btn?.setAttribute('aria-expanded','false');document.body.style.overflow=''};
- btn?.addEventListener('click',()=>{const open=!menu?.classList.contains('active');menu?.classList.toggle('active',open);backdrop?.classList.toggle('active',open);btn.setAttribute('aria-expanded',String(open));document.body.style.overflow=open?'hidden':''});
- backdrop?.addEventListener('click',close);menu?.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
- const sync=()=>{if(theme)theme.textContent=root.classList.contains('light-mode')?'☀':'☾'};sync();
- theme?.addEventListener('click',()=>{root.classList.toggle('light-mode');try{localStorage.setItem('rescene-theme',root.classList.contains('light-mode')?'light':'dark')}catch(e){}sync()});
- document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
-})();
-
-</script><script src="/js/image-optimizer.js"></script>
+<!-- SITE-FOOTER-END -->
+<script src="/js/common.js"></script>
+<script src="/js/image-optimizer.js"></script>
 </body></html>

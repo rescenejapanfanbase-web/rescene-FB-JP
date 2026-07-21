@@ -44,9 +44,39 @@ html.light-mode .external-load-status.is-warning{color:#765600}html.light-mode .
 <style id="site-search-link-style">.search-toggle{width:40px;height:40px;border:1px solid var(--border);background:var(--soft-bg);color:var(--text);border-radius:999px;display:grid;place-items:center;transition:.2s;flex:0 0 auto}.search-toggle:hover{color:var(--pink);border-color:rgba(255,111,174,.5);transform:translateY(-1px)}.search-toggle svg{width:19px;height:19px;fill:currentColor}.mobile-menu>a.mobile-search-link{color:var(--pink-soft,var(--pink))}</style>
 </head>
 <body>
-<header><div class="nav"><a class="logo" href="index.html"><span>RESCENE</span> JAPAN FANBASE</a><nav class="nav-links" aria-label="メインナビゲーション"><a href="index.html">ホーム</a><div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></div><a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a><div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a></div></div><div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a></div></div><div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu"><a href="links.html">公式リンク</a></div></div></nav><div class="nav-actions"><a class="search-toggle" href="search.html" aria-label="サイト内検索" title="サイト内検索"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m20.7 19.3-4.2-4.2a7.5 7.5 0 1 0-1.4 1.4l4.2 4.2a1 1 0 0 0 1.4-1.4ZM5 10.5a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0Z"/></svg></a><button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマ切り替え">☾</button><button class="hamburger" id="hamburger" type="button" aria-label="メニューを開く" aria-controls="mobileMenu" aria-expanded="false">☰</button></div></div></header>
-<nav class="mobile-menu" id="mobileMenu" aria-label="モバイルナビゲーション"><a href="index.html">ホーム</a><a class="mobile-search-link" href="search.html">サイト内検索</a><details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></details><a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a><details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a></div></details><details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a></div></details><details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details></nav><div class="menu-backdrop" id="menuBackdrop"></div>
+<!-- SITE-HEADER-START -->
+<header>
+<div class="nav">
+<a class="logo" href="index.html"><span>RESCENE</span> JAPAN FANBASE</a>
+<nav class="nav-links" aria-label="メインナビゲーション">
+<a href="index.html">ホーム</a>
+<div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu">
+<a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a>
+</div></div>
+<a href="schedule.html">スケジュール</a>
+<a href="news.html">ニュース</a>
+<div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu">
+<a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu">
+<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
+<a href="links.html">公式リンク</a>
+</div></div></nav>
+<div class="nav-actions"><a class="search-toggle" href="search.html" aria-label="サイト内検索" title="サイト内検索"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m20.7 19.3-4.2-4.2a7.5 7.5 0 1 0-1.4 1.4l4.2 4.2a1 1 0 0 0 1.4-1.4ZM5 10.5a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0Z"/></svg></a><button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマ切り替え">☾</button><button class="hamburger" id="hamburger" type="button" aria-label="メニューを開く" aria-controls="mobileMenu" aria-expanded="false">☰</button></div>
+</div>
+</header>
+<nav class="mobile-menu" id="mobileMenu" aria-label="モバイルナビゲーション">
+<a href="index.html">ホーム</a><a class="mobile-search-link" href="search.html">サイト内検索</a>
+<details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></details>
+<a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
+<details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a></div></details>
+<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a></div></details>
+<details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details></nav>
+<div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+<!-- SITE-HEADER-END -->
 <main class="container">
 <section class="page-header external-hero" id="top"><span class="page-kicker">EXTERNAL LINK HEALTH</span><h1><span>外部リンク</span><span class="external-title-sub">チェック</span></h1><p>YouTube、X、Apple Music、Spotify、アプリストアなど、サイトから移動する外部リンクの最新確認結果です。</p><div class="external-load-status" id="externalLoadStatus">チェック結果を読み込んでいます。</div></section>
 <section class="section"><div class="external-summary"><div class="card external-summary-card"><span>最終確認</span><strong id="externalGeneratedAt" style="font-size:1rem;line-height:1.35">—</strong><small>日本時間で表示</small></div><div class="card external-summary-card"><span>確認リンク</span><strong id="externalChecked">—</strong><small><b id="externalHosts">—</b>サービス・ホスト</small></div><div class="card external-summary-card is-error"><span>リンク切れ</span><strong id="externalBroken">—</strong><small>修正が必要</small></div><div class="card external-summary-card is-warning"><span>要確認</span><strong id="externalWarning">—</strong><small>制限・一時エラー</small></div><div class="card external-summary-card is-success"><span>正常</span><strong id="externalOk">—</strong><small>公開先を確認</small></div></div></section>
@@ -54,7 +84,10 @@ html.light-mode .external-load-status.is-warning{color:#765600}html.light-mode .
 <section class="section"><div class="section-head"><div><span class="section-kicker">SERVICE SUMMARY</span><h2 class="section-title">サービス別</h2></div></div><div class="external-services" id="externalServices"></div></section>
 <section class="section"><div class="card external-note-card"><span class="section-kicker">HOW TO READ</span><h2 class="section-title">判定について</h2><ul id="externalNotes"></ul></div></section>
 </main>
+<!-- SITE-FOOTER-START -->
 <footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">外部サービスの公開状態を自動確認しています。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
-<script src="js/common.js"></script><script src="js/external-links.js"></script><script src="js/image-optimizer.js"></script>
+<!-- SITE-FOOTER-END -->
+<script src="js/common.js"></script>
+<script src="js/external-links.js"></script><script src="js/image-optimizer.js"></script>
 </body>
 </html>

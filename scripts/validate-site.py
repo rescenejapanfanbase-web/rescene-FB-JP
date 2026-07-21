@@ -129,7 +129,7 @@ def resolve_html(source: Path, href: str) -> tuple[Path | None, str]:
 
 def validate_html() -> dict[str, PageParser]:
     parsed_pages: dict[str, PageParser] = {}
-    html_files = sorted(p for p in ROOT.rglob("*.html") if ".git" not in p.parts)
+    html_files = sorted(p for p in ROOT.rglob("*.html") if ".git" not in p.parts and "templates" not in p.parts)
     for path in html_files:
         relative = path.relative_to(ROOT).as_posix()
         parser = PageParser()

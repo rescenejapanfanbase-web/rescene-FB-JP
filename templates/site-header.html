@@ -1,0 +1,31 @@
+<header>
+<div class="nav">
+<a class="logo" href="{{ROOT}}index.html"><span>RESCENE</span> JAPAN FANBASE</a>
+<nav class="nav-links" aria-label="メインナビゲーション">
+<a href="{{ROOT}}index.html">ホーム</a>
+<div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu">
+<a href="{{ROOT}}about.html">RESCENEについて</a><a href="{{ROOT}}members.html">メンバー</a>
+</div></div>
+<a href="{{ROOT}}schedule.html">スケジュール</a>
+<a href="{{ROOT}}news.html">ニュース</a>
+<div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu">
+<a href="{{ROOT}}discography.html">ディスコグラフィ</a><a href="{{ROOT}}mv.html">MV一覧</a><a href="{{ROOT}}youtube.html">YouTube</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu">
+<a href="{{ROOT}}streaming.html">ストリーミング</a><a href="{{ROOT}}voting.html">投票ガイド</a><a href="{{ROOT}}chants.html">掛け声ガイド</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
+<a href="{{ROOT}}links.html">公式リンク</a>
+</div></div></nav>
+<div class="nav-actions"><a class="search-toggle" href="{{ROOT}}search.html" aria-label="サイト内検索" title="サイト内検索"{{SEARCH_CURRENT}}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m20.7 19.3-4.2-4.2a7.5 7.5 0 1 0-1.4 1.4l4.2 4.2a1 1 0 0 0 1.4-1.4ZM5 10.5a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0Z"/></svg></a><button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマ切り替え">☾</button><button class="hamburger" id="hamburger" type="button" aria-label="メニューを開く" aria-controls="mobileMenu" aria-expanded="false">☰</button></div>
+</div>
+</header>
+<nav class="mobile-menu" id="mobileMenu" aria-label="モバイルナビゲーション">
+<a href="{{ROOT}}index.html">ホーム</a><a class="mobile-search-link" href="{{ROOT}}search.html"{{SEARCH_CURRENT}}>サイト内検索</a>
+<details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="{{ROOT}}about.html">RESCENEについて</a><a href="{{ROOT}}members.html">メンバー</a></div></details>
+<a href="{{ROOT}}schedule.html">スケジュール</a><a href="{{ROOT}}news.html">ニュース</a>
+<details class="mobile-group"{{MUSIC_OPEN}}><summary>音楽</summary><div class="mobile-submenu"><a href="{{ROOT}}discography.html">ディスコグラフィ</a><a href="{{ROOT}}mv.html">MV一覧</a><a href="{{ROOT}}youtube.html">YouTube</a></div></details>
+<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="{{ROOT}}streaming.html">ストリーミング</a><a href="{{ROOT}}voting.html">投票ガイド</a><a href="{{ROOT}}chants.html">掛け声ガイド</a></div></details>
+<details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="{{ROOT}}links.html">公式リンク</a></div></details></nav>
+<div class="menu-backdrop" id="menuBackdrop"></div>
+<div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>

@@ -28,6 +28,8 @@ run_step "MV一覧" node scripts/sync-mv.mjs
 run_step "ホーム用ガイド更新情報" node scripts/generate-home-guides.mjs
 run_step "カレンダーICS" node scripts/calendar-ics.mjs
 run_step "SEO・記事・OGP・サイトマップ" python3 scripts/generate-seo.py
+run_step "共通ヘッダー・フッター" python3 scripts/sync-site-shell.py
+run_step "画像の表示領域確保" python3 scripts/add-image-dimensions.py
 run_step "画像最適化" python3 scripts/optimize-images.py
 run_step "公開前品質検査" bash ./scripts/run-prepublish-checks.sh
 

@@ -62,30 +62,39 @@ html.light-mode .summary-card,html.light-mode .sync-card,html.light-mode .operat
 </style>
 </head>
 <body>
+<!-- SITE-HEADER-START -->
 <header>
 <div class="nav">
 <a class="logo" href="index.html"><span>RESCENE</span> JAPAN FANBASE</a>
-<nav aria-label="メインナビゲーション" class="nav-links">
+<nav class="nav-links" aria-label="メインナビゲーション">
 <a href="index.html">ホーム</a>
-<div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></div>
-<a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
-<div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a></div></div>
-<div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a></div></div>
-<div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu"><a href="links.html">公式リンク</a></div></div>
-</nav>
-<div class="nav-actions"><a aria-label="サイト内検索" class="search-toggle" href="search.html" title="サイト内検索"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="m20.7 19.3-4.2-4.2a7.5 7.5 0 1 0-1.4 1.4l4.2 4.2a1 1 0 0 0 1.4-1.4ZM5 10.5a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0Z"></path></svg></a><button aria-label="テーマ切り替え" class="theme-toggle" id="themeToggle" type="button">☾</button><button aria-controls="mobileMenu" aria-expanded="false" aria-label="メニューを開く" class="hamburger" id="hamburger" type="button">☰</button></div>
+<div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu">
+<a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a>
+</div></div>
+<a href="schedule.html">スケジュール</a>
+<a href="news.html">ニュース</a>
+<div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu">
+<a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu">
+<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
+<a href="links.html">公式リンク</a>
+</div></div></nav>
+<div class="nav-actions"><a class="search-toggle" href="search.html" aria-label="サイト内検索" title="サイト内検索"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m20.7 19.3-4.2-4.2a7.5 7.5 0 1 0-1.4 1.4l4.2 4.2a1 1 0 0 0 1.4-1.4ZM5 10.5a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0Z"/></svg></a><button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマ切り替え">☾</button><button class="hamburger" id="hamburger" type="button" aria-label="メニューを開く" aria-controls="mobileMenu" aria-expanded="false">☰</button></div>
 </div>
 </header>
-<nav aria-label="モバイルナビゲーション" class="mobile-menu" id="mobileMenu">
+<nav class="mobile-menu" id="mobileMenu" aria-label="モバイルナビゲーション">
 <a href="index.html">ホーム</a><a class="mobile-search-link" href="search.html">サイト内検索</a>
 <details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></details>
 <a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
 <details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a></div></details>
 <details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a></div></details>
-<details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details>
-</nav>
+<details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details></nav>
 <div class="menu-backdrop" id="menuBackdrop"></div>
-<div aria-hidden="true" class="ambient ambient-one"></div><div aria-hidden="true" class="ambient ambient-two"></div>
+<div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+<!-- SITE-HEADER-END -->
 <main class="container">
 <section class="page-header status-hero" id="top"><span class="page-kicker">SYSTEM STATUS</span><h1>同期状況</h1><p>通常更新は「サイト統合同期」が全データを取得・検査し、成功時だけ1コミットで公開します。個別同期、バックアップ、リンク・品質チェックの状況もまとめて確認できます。</p><div class="dashboard-toolbar"><div class="dashboard-toolbar-copy"><span aria-hidden="true" class="live-dot" id="toolbarDot"></span><span id="toolbarText">最新状況を確認しています。</span></div><button class="refresh-button" id="refreshStatus" type="button"><span aria-hidden="true" class="refresh-icon">↻</span>再読み込み</button></div></section>
 <section class="section">
@@ -114,7 +123,9 @@ html.light-mode .summary-card,html.light-mode .sync-card,html.light-mode .operat
 <div class="card operations-card"><span class="section-kicker">QUICK ACCESS</span><h2 class="section-title">管理リンク</h2><div class="operations-grid"><a class="operation-link" href="https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-all-content.yml" rel="noopener noreferrer" target="_blank"><div><strong>サイト統合同期</strong><span>全データを取得・検査し、1コミットで公開</span></div><b class="operation-arrow">↗</b></a><a class="operation-link" href="https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/preview-site.yml" rel="noopener noreferrer" target="_blank"><div><strong>公開前プレビュー</strong><span>PC・スマホのスクリーンショットとZIPを作成</span></div><b class="operation-arrow">↗</b></a><a class="operation-link" href="https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/rollback-site.yml" rel="noopener noreferrer" target="_blank"><div><strong>緊急ロールバック</strong><span>正常なコミットを新しい復元コミットとして反映</span></div><b class="operation-arrow">↗</b></a><a class="operation-link" href="data/quality-report.json"><div><strong>公開前品質レポート</strong><span>エラー・警告・確認済みHTML件数を確認</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions" rel="noopener noreferrer" target="_blank"><div><strong>GitHub Actions一覧</strong><span>すべての同期・チェック履歴を確認</span></div><b class="operation-arrow">↗</b></a><a class="operation-link" href="https://github.com/rescenejapanfanbase-web/rescene-FB-JP" rel="noopener noreferrer" target="_blank"><div><strong>GitHubリポジトリ</strong><span>サイトファイルと更新履歴を確認</span></div><b class="operation-arrow">↗</b></a><a class="operation-link" href="https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/backup-site.yml" rel="noopener noreferrer" target="_blank"><div><strong>バックアップ一覧</strong><span>保存ZIPの作成履歴とArtifactを確認</span></div><b class="operation-arrow">↗</b></a><a class="operation-link" href="AUTO-BACKUP-GUIDE.txt"><div><strong>バックアップ復元ガイド</strong><span>ダウンロードと復元手順を確認</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="external-links.html"><div><strong>外部リンク詳細レポート</strong><span>リンク切れ・要確認・記載ページを確認</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="EXTERNAL-LINK-CHECK-GUIDE.txt"><div><strong>外部リンクチェックガイド</strong><span>判定基準・通知・修正後の再確認手順</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="data/image-optimization.json"><div><strong>画像最適化レポート</strong><span>画像件数・WebP数・推定削減率を確認</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="IMAGE-OPTIMIZATION-GUIDE.txt"><div><strong>画像軽量化ガイド</strong><span>自動実行と画像差し替え手順を確認</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="data/home-guides.json"><div><strong>トップページ用ガイドデータ</strong><span>最近更新したガイドの順序と日時を確認</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="data/seo-status.json"><div><strong>SEO生成レポート</strong><span>対象ページ・記事・OGP・サイトマップ件数を確認</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="sitemap.xml"><div><strong>XMLサイトマップ</strong><span>検索エンジンへ通知する公開URL一覧を確認</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="SEO-OGP-GUIDE.txt"><div><strong>OGP・SEO運用ガイド</strong><span>自動生成内容と更新後の確認手順</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="schedule.html"><div><strong>公開スケジュール</strong><span>サイト上での表示を確認</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="data/rescene-schedule.ics"><div><strong>購読用ICS</strong><span>カレンダー配信用ファイルを確認</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="news.html"><div><strong>公開ニュース</strong><span>記事一覧と表示内容を確認</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="https://app.notion.com/p/ca4fadead9d64128a5e8dc9730e0033d" rel="noopener noreferrer" target="_blank"><div><strong>ディスコグラフィNotion</strong><span>作品・発売日・曲一覧・配信リンクを編集</span></div><b class="operation-arrow">↗</b></a><a class="operation-link" href="DISCOGRAPHY-NOTION-GUIDE.txt"><div><strong>ディスコグラフィ運用ガイド</strong><span>入力形式・初回接続・同期手順を確認</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="https://app.notion.com/p/5f26ec69338a46f1ad9a82e070e92ad9" rel="noopener noreferrer" target="_blank"><div><strong>MV一覧管理Notion</strong><span>表示タイトル・種類・除外・サムネイルを調整</span></div><b class="operation-arrow">↗</b></a><a class="operation-link" href="MV-AUTO-SYNC-GUIDE.txt"><div><strong>MV一覧自動同期ガイド</strong><span>自動検出・Notion調整・画像差し替え手順</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="https://app.notion.com/p/a0180c81202a46b780f0045abfd0f00e" rel="noopener noreferrer" target="_blank"><div><strong>ストリーミングガイドNotion</strong><span>サービス・説明・手順・画像・リンクを編集</span></div><b class="operation-arrow">↗</b></a><a class="operation-link" href="STREAMING-NOTION-GUIDE.txt"><div><strong>ストリーミングガイド運用ガイド</strong><span>画像アップロード・入力項目・同期手順を確認</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="https://app.notion.com/p/5c70b299a510423c9c6d71dcf57968af" rel="noopener noreferrer" target="_blank"><div><strong>メンバープロフィールNotion</strong><span>5人のプロフィール・写真・広報大使情報を編集</span></div><b class="operation-arrow">↗</b></a><a class="operation-link" href="MEMBERS-NOTION-GUIDE.txt"><div><strong>メンバープロフィール運用ガイド</strong><span>画像の使い分け・入力項目・同期手順を確認</span></div><b class="operation-arrow">→</b></a><a class="operation-link" href="https://app.notion.com/p/1616bd27522949b582095498f939aea9" rel="noopener noreferrer" target="_blank"><div><strong>掛け声ガイドNotion</strong><span>曲・画像・動画・公式／非公式表記を編集</span></div><b class="operation-arrow">↗</b></a><a class="operation-link" href="FANCHANT-NOTION-GUIDE.txt"><div><strong>掛け声ガイド運用ガイド</strong><span>画像アップロード・入力項目・同期手順を確認</span></div><b class="operation-arrow">→</b></a></div><p class="status-note"><strong>表示について：</strong>「最終同期実行」はGitHub Actionsの最新実行時刻、「データ変更日時」は公開JSONの内容が最後に変わった時刻です。内容に変更がない正常同期では、データ変更日時は更新されません。手動実行にはGitHubへのログインとリポジトリ権限が必要です。</p></div>
 </section>
 </main>
+<!-- SITE-FOOTER-START -->
 <footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公開データ、バックアップ、GitHub Actionsの実行状況を表示しています。 © <span data-year=""></span> RESCENE JAPAN FANBASE</div></footer>
+<!-- SITE-FOOTER-END -->
 <script src="js/common.js"></script>
 <script src="js/sync-status.js"></script>
 <script src="js/image-optimizer.js"></script>

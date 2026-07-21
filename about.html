@@ -36,6 +36,7 @@
 <link rel="stylesheet" href="css/common.css">
 </head>
 <body class="page-about">
+<!-- SITE-HEADER-START -->
 <header>
 <div class="nav">
 <a class="logo" href="index.html"><span>RESCENE</span> JAPAN FANBASE</a>
@@ -67,6 +68,7 @@
 <details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details></nav>
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+<!-- SITE-HEADER-END -->
 <main class="container">
 <section class="page-header section" id="top"><span class="page-kicker" id="aboutPageKicker">ABOUT RESCENE</span><h1 id="aboutPageTitle">RESCENEについて</h1><p id="aboutPageDescription">香りと記憶を結ぶ、RESCENEのコンセプトと歩み。</p></section>
 <section class="section debut-era-section"><figure class="card debut-era-card"><div class="debut-era-photo"><img id="aboutDebutImage" src="assets/optimized/6bf301e3bea18e0f/debut-era-w1440.webp" srcset="assets/optimized/6bf301e3bea18e0f/debut-era-w480.webp 480w, assets/optimized/6bf301e3bea18e0f/debut-era-w768.webp 768w, assets/optimized/6bf301e3bea18e0f/debut-era-w1440.webp 1440w" sizes="(max-width:719px) 92vw, (max-width:1199px) 86vw, 1120px" alt="デビュー期のRESCENEメンバー5人の全体写真" width="2000" height="1600" loading="lazy" data-image-optimized="true" data-image-original-src="group/debut-era.png"></div><figcaption><span class="badge" id="aboutDebutLabel">DEBUT ERA</span><h2 id="aboutDebutTitle">Re:Scene</h2><p id="aboutDebutDescription">2024年3月、1st Single Album「Re:Scene」でデビューしたRESCENE。デビュー期の5人の姿とともに、グループの始まりを紹介します。</p></figcaption></figure></section>
@@ -76,20 +78,10 @@
 <section class="section"><div class="section-head"><div><span class="section-kicker">MEMBER PROFILE</span><h2 class="section-title">メンバープロフィール</h2></div><a class="section-link" href="members.html">詳しく見る →</a></div><div class="member-profile-grid" id="aboutMembers" aria-live="polite"></div></section>
 <section class="section"><div class="card callout"><div><span class="badge badge-green">NEXT</span><h2>5人のメンバーを知る</h2><p>WONI・LIV・MINAMI・MAY・ZENAの詳しいプロフィールページへ。</p></div><a class="btn btn-primary" href="members.html">メンバーを見る</a></div></section>
 </main>
+<!-- SITE-FOOTER-START -->
 <footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
-<script>
-
-(()=>{
- const root=document.documentElement,menu=document.getElementById('mobileMenu'),btn=document.getElementById('hamburger'),backdrop=document.getElementById('menuBackdrop'),theme=document.getElementById('themeToggle');
- const close=()=>{menu?.classList.remove('active');backdrop?.classList.remove('active');btn?.setAttribute('aria-expanded','false');document.body.style.overflow=''};
- btn?.addEventListener('click',()=>{const open=!menu?.classList.contains('active');menu?.classList.toggle('active',open);backdrop?.classList.toggle('active',open);btn.setAttribute('aria-expanded',String(open));document.body.style.overflow=open?'hidden':''});
- backdrop?.addEventListener('click',close);menu?.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
- const sync=()=>{if(theme)theme.textContent=root.classList.contains('light-mode')?'☀':'☾'};sync();
- theme?.addEventListener('click',()=>{root.classList.toggle('light-mode');try{localStorage.setItem('rescene-theme',root.classList.contains('light-mode')?'light':'dark')}catch(e){}sync()});
- document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
-})();
-
-</script>
+<!-- SITE-FOOTER-END -->
+<script src="js/common.js"></script>
 <script src="data/about-data.js"></script>
 <script src="data/members-data.js"></script>
 <script src="js/about.js"></script>

@@ -40,10 +40,11 @@
 </link></meta><link rel="stylesheet" href="css/common.css">
 </head>
 <body class="page-mv">
+<!-- SITE-HEADER-START -->
 <header>
 <div class="nav">
 <a class="logo" href="index.html"><span>RESCENE</span> JAPAN FANBASE</a>
-<nav aria-label="メインナビゲーション" class="nav-links">
+<nav class="nav-links" aria-label="メインナビゲーション">
 <a href="index.html">ホーム</a>
 <div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu">
 <a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a>
@@ -59,10 +60,10 @@
 <div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
 <a href="links.html">公式リンク</a>
 </div></div></nav>
-<div class="nav-actions"><a aria-label="サイト内検索" class="search-toggle" href="search.html" title="サイト内検索"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="m20.7 19.3-4.2-4.2a7.5 7.5 0 1 0-1.4 1.4l4.2 4.2a1 1 0 0 0 1.4-1.4ZM5 10.5a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0Z"></path></svg></a><button aria-label="テーマ切り替え" class="theme-toggle" id="themeToggle" type="button">☾</button><button aria-controls="mobileMenu" aria-expanded="false" aria-label="メニューを開く" class="hamburger" id="hamburger" type="button">☰</button></div>
+<div class="nav-actions"><a class="search-toggle" href="search.html" aria-label="サイト内検索" title="サイト内検索"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m20.7 19.3-4.2-4.2a7.5 7.5 0 1 0-1.4 1.4l4.2 4.2a1 1 0 0 0 1.4-1.4ZM5 10.5a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0Z"/></svg></a><button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマ切り替え">☾</button><button class="hamburger" id="hamburger" type="button" aria-label="メニューを開く" aria-controls="mobileMenu" aria-expanded="false">☰</button></div>
 </div>
 </header>
-<nav aria-label="モバイルナビゲーション" class="mobile-menu" id="mobileMenu">
+<nav class="mobile-menu" id="mobileMenu" aria-label="モバイルナビゲーション">
 <a href="index.html">ホーム</a><a class="mobile-search-link" href="search.html">サイト内検索</a>
 <details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></details>
 <a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
@@ -70,25 +71,15 @@
 <details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a></div></details>
 <details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details></nav>
 <div class="menu-backdrop" id="menuBackdrop"></div>
-<div aria-hidden="true" class="ambient ambient-one"></div><div aria-hidden="true" class="ambient ambient-two"></div>
+<div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+<!-- SITE-HEADER-END -->
 <main class="container">
 <section class="page-header section" id="top"><span class="page-kicker">MUSIC VIDEO</span><h1>MV一覧</h1></section><section class="section mv-filter-section"><div aria-label="MVカテゴリー絞り込み" class="filter-row" id="mvFilters" role="group"></div><p aria-live="polite" class="mv-sync-status" id="mvStatus">MV一覧を読み込んでいます。</p></section>
 <section class="section mv-gallery-grid" id="mvGallery"><div class="card mv-empty-state"><h2>MV一覧を読み込んでいます</h2><p>同期データを確認しています。</p></div></section><noscript id="mv-noscript">MV一覧を表示するにはJavaScriptを有効にしてください。</noscript>
 </main>
-<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year=""></span> RESCENE JAPAN FANBASE</div></footer>
-<script>
-
-(()=>{
- const root=document.documentElement,menu=document.getElementById('mobileMenu'),btn=document.getElementById('hamburger'),backdrop=document.getElementById('menuBackdrop'),theme=document.getElementById('themeToggle');
- const close=()=>{menu?.classList.remove('active');backdrop?.classList.remove('active');btn?.setAttribute('aria-expanded','false');document.body.style.overflow=''};
- btn?.addEventListener('click',()=>{const open=!menu?.classList.contains('active');menu?.classList.toggle('active',open);backdrop?.classList.toggle('active',open);btn.setAttribute('aria-expanded',String(open));document.body.style.overflow=open?'hidden':''});
- backdrop?.addEventListener('click',close);menu?.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
- const sync=()=>{if(theme)theme.textContent=root.classList.contains('light-mode')?'☀':'☾'};sync();
- theme?.addEventListener('click',()=>{root.classList.toggle('light-mode');try{localStorage.setItem('rescene-theme',root.classList.contains('light-mode')?'light':'dark')}catch(e){}sync()});
- document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
-})();
-
-</script>
-
+<!-- SITE-FOOTER-START -->
+<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
+<!-- SITE-FOOTER-END -->
+<script src="js/common.js"></script>
 <script src="data/mv-data.js"></script><script src="js/mv.js"></script><script src="js/image-optimizer.js"></script>
 </body></html>

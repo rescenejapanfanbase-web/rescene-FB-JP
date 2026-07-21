@@ -35,17 +35,26 @@
 <script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
 </head>
 <body>
+<!-- SITE-HEADER-START -->
 <header>
 <div class="nav">
 <a class="logo" href="index.html"><span>RESCENE</span> JAPAN FANBASE</a>
 <nav class="nav-links" aria-label="メインナビゲーション">
 <a href="index.html">ホーム</a>
-<div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></div>
-<a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
-<div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a></div></div>
-<div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a></div></div>
-<div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu"><a href="links.html">公式リンク</a></div></div>
-</nav>
+<div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu">
+<a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a>
+</div></div>
+<a href="schedule.html">スケジュール</a>
+<a href="news.html">ニュース</a>
+<div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu">
+<a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu">
+<a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
+<a href="links.html">公式リンク</a>
+</div></div></nav>
 <div class="nav-actions"><a class="search-toggle" href="search.html" aria-label="サイト内検索" title="サイト内検索" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m20.7 19.3-4.2-4.2a7.5 7.5 0 1 0-1.4 1.4l4.2 4.2a1 1 0 0 0 1.4-1.4ZM5 10.5a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0Z"/></svg></a><button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマ切り替え">☾</button><button class="hamburger" id="hamburger" type="button" aria-label="メニューを開く" aria-controls="mobileMenu" aria-expanded="false">☰</button></div>
 </div>
 </header>
@@ -55,10 +64,10 @@
 <a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
 <details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a></div></details>
 <details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a></div></details>
-<details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details>
-</nav>
+<details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a></div></details></nav>
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+<!-- SITE-HEADER-END -->
 <main class="container">
 <section class="page-header section search-hero" id="top">
 <span class="page-kicker">SITE SEARCH</span><h1>サイト内検索</h1><p class="search-lead">ニュース、スケジュール、メンバー、ディスコグラフィ、MV、YouTube、掛け声、投票ガイド、お問い合わせをまとめて検索できます。</p>
@@ -90,7 +99,9 @@
 <p class="search-source-note" id="searchSourceNote">固定ページと同期データを読み込みます。</p>
 </section>
 </main>
+<!-- SITE-FOOTER-START -->
 <footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">検索結果は公開中の固定ページと同期データをもとに表示しています。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
+<!-- SITE-FOOTER-END -->
 <script src="js/common.js"></script>
 <script src="js/search.js"></script>
 <script src="js/image-optimizer.js"></script>

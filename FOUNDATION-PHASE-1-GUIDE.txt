@@ -1,9 +1,9 @@
 RESCENE JAPAN FANBASE
-最強サイト化 第1段階：壊れない基盤（第1回）
+最強サイト化 第1段階：壊れない基盤（完了版）
 
-【目的】
-Notion・YouTube・MV・SEO・画像生成などの更新を、競合や中途半端な公開を避けながら1回で安全に反映します。
-現在のページデザインや公開データは変更しません。
+【基本方針】
+現在のデザイン、文章、画像、URL、Notion運用を変えず、内部構造と公開手順だけを強化しています。
+公開サイトは引き続き静的HTMLとして配信されるため、共通部品の読み込み待ちによる表示崩れはありません。
 
 【通常の更新】
 GitHub Actionsの「Sync All Site Content」を使用します。
@@ -30,59 +30,123 @@ GitHub Actionsの「Sync All Site Content」を使用します。
 - MV
 - ホーム最新ガイド
 - ICS
-- SEO・OGP・サイトマップ
+- SEO・記事・OGP・サイトマップ
+- 共通ヘッダー／メニュー／フッター生成
+- 画像width／height自動設定
 - 画像最適化
 - 公開前品質検査
 
-【個別Workflow】
-既存の個別同期Workflowは削除していません。
-定期実行だけを停止し、障害調査や緊急修正時の手動実行として残しています。
-通常は統合同期を使用してください。
+【共通レイアウト】
+生成元は以下です。
+- templates/site-header.html
+- templates/site-footer.html
+- templates/site-header-contact.html
+- templates/site-footer-contact.html
+
+scripts/sync-site-shell.py が37ページへ静的に展開します。お問い合わせページは従来の専用ナビとCONTACTリンクを保つ専用テンプレートを使用します。
+ルートページとarticles配下のリンク形式も自動で切り替えます。
+
+従来33ページへコピーされていたメニュー・テーマ切替JavaScriptは削除し、
+全37ページが js/common.js を1回だけ読み込む構成へ統一しました。
+
+共通部分を変更するときは、テンプレートを修正後に以下を実行します。
+python3 scripts/sync-site-shell.py
+
+一致確認だけを行う場合：
+python3 scripts/sync-site-shell.py --check
+
+【画像表示領域の確保】
+scripts/add-image-dimensions.py がローカル画像の実寸を取得し、
+HTMLのwidth／heightを自動設定します。
+CSS上の表示サイズは変更しません。
+
+これにより、画像読込前後のレイアウト移動を抑えます。
+以前38件あった画像寸法警告は0件になりました。
+
+実行：
+python3 scripts/add-image-dimensions.py
+
+確認のみ：
+python3 scripts/add-image-dimensions.py --check
+
+SEO記事を再生成した場合も、統合同期内で画像寸法が再設定されます。
 
 【公開前品質検査】
-「Site Quality Gate」と scripts/run-prepublish-checks.sh が以下を確認します。
-- Python構文
-- JavaScript／MJS構文
-- JSON
-- Workflow YAML
-- Workflow内Bash
-- HTML・CSS・JS・JSON・画像の内部参照
+「Site Quality Gate」と scripts/run-prepublish-checks.sh が9段階で確認します。
+1. Python構文
+2. JavaScript／MJS構文
+3. JSON
+4. Workflow YAML
+5. Workflow内Bash
+6. 共通レイアウト一致
+7. 画像width／height
+8. HTML・CSS・JS・JSON・画像の内部参照
+9. データ・HTML品質
+
+追加検査：
 - 重複IDとアンカー
 - title、description、canonical
 - ディスコグラフィのApple Music／Spotify
 - メンバー、公式リンク、スケジュール、MV、YouTubeのデータ整合性
 - JSONとフォールバックJSの一致
 
-data/quality-report.json で結果を確認できます。
-エラーが1件でもあれば統合同期は公開しません。
-警告は公開を止めませんが、次のアクセシビリティ・速度改善で順番に解消します。
+結果は data/quality-report.json で確認できます。
+現在の基準値はエラー0件・警告0件です。
+
+【公開前ビジュアル検査】
+GitHub Actionsの「Build Site Preview」で画面幅ごとに独立実行します。
+- 320px
+- 390px
+- 1024px
+- 1440px
+
+自動確認項目：
+- 横スクロール
+- JavaScriptページエラー
+- トップページのカード件数
+- PCナビ／ハンバーガーの切替
+- ハンバーガーの開閉、ARIA、背景固定
+- Languageがモバイルメニュー最下部にあること
+- トップ公式リンク画像が56pxを超えないこと
+- ライトモードで公式リンクの選択文字が見えること
+- スマホ版ストリーミングに画面外要素がないこと
+
+代表ページ19画面を描画し、スクリーンショットと統合レポートをArtifactへ保存します。
+
+【個別Workflow】
+既存の個別同期Workflowは削除していません。
+通常は統合同期を使用し、個別Workflowは障害調査や緊急修正時だけ使用してください。
 
 【公開前プレビュー】
-GitHub Actionsの「Build Site Preview」を手動実行すると、以下をArtifactとして作成します。
+「Build Site Preview」を実行すると以下をArtifactとして作成します。
 - 公開前サイトZIP
-- 320px、390px、1024px、1440pxのスクリーンショット
-- visual-smoke-report.json
-- quality-report.json
-
-確認対象はトップ、スケジュール、ディスコグラフィ、YouTubeです。
-横スクロール、ページエラー、ホームのカード件数、ナビ切り替え、Language位置を検査します。
+- 代表幅スクリーンショット
+- artifacts/visual-smoke/report.json
+- data/quality-report.json
 
 【緊急ロールバック】
 GitHub Actionsの「Roll Back Site」を使用します。
-1. 正常だったコミットSHAまたはタグを target_ref に入力
-2. confirmation に RESTORE と入力
+1. 正常だったコミットSHAまたはタグをtarget_refへ入力
+2. confirmationへRESTOREと入力
 3. Run workflow
 
-過去の履歴を強制書き換えせず、正常な状態を新しい復元コミットとしてmainへ反映します。
+履歴を強制的に書き換えず、正常状態を新しい復元コミットとしてmainへ反映します。
 
-【同期状況】
-sync-status.html の先頭に「サイト統合同期」を追加しました。
-統合Workflow、最新ログ、品質レポート、プレビュー、ロールバックへ移動できます。
+【新しいSecrets／Variables】
+追加はありません。
+現在のNOTION_TOKENと既存データソースIDをそのまま使用します。
 
-【今後の第1段階】
-次回以降は、現在の見た目を維持したまま以下を進めます。
-- 共通ヘッダー／メニュー／フッターの生成元統一
-- HTML内の重複CSS／JavaScript整理
-- JSONと公開HTMLの生成構造整理
-- 警告38件の画像寸法設定
-- より厳密な公開前ビジュアル比較
+【第1段階の完了内容】
+- 統合同期
+- 原子的な1コミット公開
+- 競合時の自動再試行
+- 品質ゲート
+- 公開前プレビュー
+- ロールバック
+- 共通レイアウト生成元統一
+- 共通JavaScript統一
+- 画像寸法自動設定
+- 表示不具合の回帰テスト
+- エラー0件・警告0件の基準化
+
+次は第2段階「実体を持つ日本語・韓国語・英語ページ」へ進みます。
