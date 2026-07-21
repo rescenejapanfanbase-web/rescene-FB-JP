@@ -1,0 +1,9 @@
+RESCENE JAPAN FANBASE — 更新履歴リンク検査修正
+
+修正内容:
+- data/site-updates.json と data/site-updates-data.js に保存される変更ファイル名を、サイト内リンクとして誤判定しないよう修正。
+- common.js / common.css / home.js などの表示用ファイル名が存在しないという理由で、統合同期が失敗する問題を解消。
+- HTMLの href/src、CSSの url()、その他のJS/JSON内の実際のローカル参照チェックは従来どおり継続。
+
+適用後:
+Actions → Sync All Site Content → Run workflow を再実行してください。

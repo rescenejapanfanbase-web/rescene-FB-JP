@@ -20,6 +20,16 @@ IGNORED_FILES = {
     Path("js/data.js"),  # 現在のページから読み込まれていない旧ニュースデータ
 }
 
+# These generated files contain repository filenames as update-history metadata.
+# Values such as ``common.js`` and ``common.css`` are labels shown to users, not
+# browser references, so the generic quoted-path scanner must not treat them as
+# links. Actual href/src references are still checked in the page that renders
+# this data.
+NON_REFERENCE_DATA_FILES = {
+    Path("data/site-updates.json"),
+    Path("data/site-updates-data.js"),
+}
+
 IGNORE_PREFIXES = (
     "http://", "https://", "mailto:", "tel:", "javascript:", "data:", "blob:",
 )
@@ -111,10 +121,13 @@ def collect_references(path: Path) -> list[tuple[str, int]]:
         line = text.count("\n", 0, match.start()) + 1
         refs.append((match.group(2).strip(), line))
 
-    # Also catches paths stored inside JavaScript/JSON data.
-    for match in QUOTED_LOCAL_RE.finditer(text):
-        line = text.count("\n", 0, match.start()) + 1
-        refs.append((match.group("path"), line))
+    # Also catches paths stored inside JavaScript/JSON data. Generated update
+    # history is an exception: its quoted filenames are display metadata rather
+    # than browser references.
+    if path.relative_to(ROOT) not in NON_REFERENCE_DATA_FILES:
+        for match in QUOTED_LOCAL_RE.finditer(text):
+            line = text.count("\n", 0, match.start()) + 1
+            refs.append((match.group("path"), line))
 
     return refs
 

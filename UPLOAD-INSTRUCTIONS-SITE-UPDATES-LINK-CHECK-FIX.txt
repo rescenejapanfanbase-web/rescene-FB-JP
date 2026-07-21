@@ -1,0 +1,10 @@
+GitHub上書き手順
+
+1. このZIPを展開します。
+2. ZIP内の scripts フォルダとTXTファイルを、GitHubリポジトリ直下へアップロードします。
+3. scripts/check-site-links.py は同名ファイルを上書きします。
+4. 「Commit directly to the main branch」で保存します。
+5. Actions → Sync All Site Content → Run workflow を再実行します。
+
+この修正は、更新履歴に表示するファイル名をサイト内リンクとして誤判定する問題だけを直します。
+実際のHTML・画像・CSS・JavaScript・JSONのリンク切れ検査は維持されます。
