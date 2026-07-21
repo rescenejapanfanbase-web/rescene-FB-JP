@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T15:46:30.618Z",
+  "generatedAt": "2026-07-21T17:02:38.289Z",
   "source": "git-history",
   "guides": [
     {
@@ -8,8 +8,8 @@
       "summary": "YouTube、Spotify、Apple Musicなどの応援方法をまとめています。",
       "url": "streaming.html",
       "category": "STREAMING",
-      "updatedAt": "2026-07-21T15:46:30.618Z",
-      "commit": "a7fc2f2"
+      "updatedAt": "2026-07-21T15:46:39Z",
+      "commit": "ba9fff6"
     },
     {
       "key": "chants",
