@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T23:28:18.103506+00:00",
+  "generatedAt": "2026-07-21T23:49:35.421417+00:00",
   "items": [
     {
       "date": "2026-07-22",
@@ -14,12 +14,47 @@
     },
     {
       "date": "2026-07-22",
+      "title": "Delete site-header.html",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "442601e",
+      "files": [
+        "site-header.html"
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Delete site-header-contact.html",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "0e2ea0d",
+      "files": [
+        "site-header-contact.html"
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Delete site-footer.html",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "fa85a7a",
+      "files": [
+        "site-footer.html"
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Delete site-footer-contact.html",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "77165ca",
+      "files": [
+        "site-footer-contact.html"
+      ]
+    },
+    {
+      "date": "2026-07-22",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "e62426b",
+      "commit": "22f0bcb",
       "files": [
-        "UPLOAD-INSTRUCTIONS-RELATED-NEWS-MOBILE-FIX.txt",
-        "common.css"
+        "sync-site-shell.py"
       ]
     },
     {
@@ -35,45 +70,9 @@
       "date": "2026-07-21",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "0c46046",
+      "commit": "b2081c9",
       "files": [
         "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-07-21",
-      "title": "Delete site-content.js",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "0c91897",
-      "files": [
-        "site-content.js"
-      ]
-    },
-    {
-      "date": "2026-07-21",
-      "title": "Delete news.js",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "2bc969b",
-      "files": [
-        "news.js"
-      ]
-    },
-    {
-      "date": "2026-07-21",
-      "title": "Delete home.js",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "5d05522",
-      "files": [
-        "home.js"
-      ]
-    },
-    {
-      "date": "2026-07-21",
-      "title": "Delete data.js",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "9a869bd",
-      "files": [
-        "data.js"
       ]
     },
     {
