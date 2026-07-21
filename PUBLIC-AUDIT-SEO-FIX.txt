@@ -1,0 +1,23 @@
+RESCENE JAPAN FANBASE 公開サイト総点検・SEO重複修正
+作成日: 2026-07-22
+
+【修正内容】
+- meta description の重複を解消
+- robots meta の重複を解消
+- canonical を各公開ページ1件に統一
+- 不正な </meta> / </link> 閉じタグを除去
+- SEO生成時に既存タグを整理してから再生成するよう修正
+- 公開前品質検査へSEOタグ件数と不正閉じタグの再発防止検査を追加
+- オフラインページを noindex, nofollow に設定
+
+【GitHubへの反映】
+1. このZIPを展開する
+2. 中身をGitHubリポジトリ直下へアップロードして同名ファイルを上書きする
+3. Commit directly to the main branch で保存する
+4. Actions → Sync All Site Content → Run workflow を実行する
+
+【検査結果】
+- 公開前品質検査 9項目すべて合格
+- HTML 43ページ / 警告0件
+- サイト内参照 2815件正常
+- 320px / 390px / 1024px / 1440px の表示検査合格
