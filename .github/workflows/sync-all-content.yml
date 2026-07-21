@@ -54,6 +54,7 @@ jobs:
           NOTION_CONTACT_DATA_SOURCE_ID: ${{ vars.NOTION_CONTACT_DATA_SOURCE_ID }}
           NOTION_HOMEPAGE_DATA_SOURCE_ID: ${{ vars.NOTION_HOMEPAGE_DATA_SOURCE_ID }}
           SITE_BASE_URL: https://rescene-fb.jp
+          GA_MEASUREMENT_ID: ${{ vars.GA_MEASUREMENT_ID }}
           PYTHON_COMMAND: python
         run: |
           set -euo pipefail

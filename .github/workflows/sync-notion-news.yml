@@ -30,19 +30,21 @@ jobs:
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_NEWS_DATA_SOURCE_ID: ${{ vars.NOTION_NEWS_DATA_SOURCE_ID }}
-        run: node scripts/sync-notion-news.mjs
+        run: |
+          node scripts/sync-notion-news.mjs
+          node scripts/generate-news-extras.mjs
 
       - name: Commit news changes
         shell: bash
         run: |
-          if git diff --quiet -- data/news.json data/news-data.js; then
+          if git diff --quiet -- data/news.json data/news-data.js data/news-extras.json data/news-extras-data.js; then
             echo "ニュースの変更はありません。"
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/news-data.js
+          git add data/news.json data/news-data.js data/news-extras.json data/news-extras-data.js
           git commit -m "chore: sync news from Notion"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"

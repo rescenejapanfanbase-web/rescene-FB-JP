@@ -20,6 +20,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
@@ -43,14 +49,18 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
 
+            node scripts/generate-news-extras.mjs
+            python scripts/generate-site-updates.py
+            python scripts/generate-analytics-config.py
             python scripts/generate-seo.py
             python scripts/sync-site-shell.py
             python scripts/add-image-dimensions.py
+            python scripts/generate-pwa.py
 
             git add \
               '*.html' articles templates scripts/sync-site-shell.py scripts/add-image-dimensions.py \
               js/home.js js/news.js js/search.js js/home-latest.js \
-              assets/ogp articles data/seo-status.json \
+              assets/ogp articles data/seo-status.json data/news-extras.json data/news-extras-data.js data/site-updates.json data/site-updates-data.js data/analytics-config.json service-worker.js manifest.webmanifest assets/icons \
               sitemap.xml robots.txt
 
             if git diff --cached --quiet; then

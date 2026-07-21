@@ -43,12 +43,12 @@ jobs:
 
             node scripts/sync-mv.mjs
 
-            if git diff --quiet -- data/mv.json data/mv-data.js assets/mv/notion assets/mv/youtube; then
+            if git diff --quiet -- data/mv.json data/mv-data.js data/mv-candidates.json data/mv-candidates-data.js assets/mv/notion assets/mv/youtube; then
               echo "MV一覧に変更はありません。"
               exit 0
             fi
 
-            git add data/mv.json data/mv-data.js assets/mv/notion assets/mv/youtube
+            git add data/mv.json data/mv-data.js data/mv-candidates.json data/mv-candidates-data.js assets/mv/notion assets/mv/youtube
             git commit -m "chore: sync MV list"
 
             if git push origin "HEAD:${branch}"; then

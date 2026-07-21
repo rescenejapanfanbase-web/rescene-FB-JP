@@ -1,0 +1,31 @@
+name: Build Notion Content Preview
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: notion-content-preview
+  cancel-in-progress: true
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+      - name: Build private preview
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATA_SOURCE_ID: ${{ vars.NOTION_DATA_SOURCE_ID }}
+          NOTION_NEWS_DATA_SOURCE_ID: ${{ vars.NOTION_NEWS_DATA_SOURCE_ID }}
+        run: node scripts/generate-content-preview.mjs
+      - name: Upload private preview
+        uses: actions/upload-artifact@v7
+        with:
+          name: notion-content-preview-${{ github.run_id }}
+          path: artifacts/content-preview
+          retention-days: 7
+          if-no-files-found: error
