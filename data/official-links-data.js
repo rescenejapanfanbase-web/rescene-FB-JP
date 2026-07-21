@@ -1,5 +1,5 @@
 window.RESCENE_OFFICIAL_LINKS = {
-  "generatedAt": "2026-07-20T12:17:45.855Z",
+  "generatedAt": "2026-07-21T15:14:26.079Z",
   "source": "notion",
   "dataSourceId": "362c800c-adc2-4586-be84-7b3a427e747d",
   "notionDatabaseUrl": "https://app.notion.com/p/e4ee14f07e8d4ad9aa8ef3f8694620ab",
@@ -27,7 +27,7 @@ window.RESCENE_OFFICIAL_LINKS = {
       "subtitle": "@RESCENEofficial",
       "description": "RESCENE公式のお知らせや活動情報を確認できます。",
       "label": "OFFICIAL",
-      "icon": "assets/platform-icons/x.webp",
+      "icon": "",
       "iconText": "X",
       "anchor": "official-x",
       "notionUrl": "https://app.notion.com/p/Official-X-3a3229d219da81869bfcd69c2b8f2668"
@@ -41,7 +41,7 @@ window.RESCENE_OFFICIAL_LINKS = {
       "subtitle": "@RESCENE_twt",
       "description": "メンバーの写真やメッセージが投稿される公式アカウントです。",
       "label": "MEMBERS",
-      "icon": "assets/platform-icons/x.webp",
+      "icon": "",
       "iconText": "X",
       "anchor": "members-x",
       "notionUrl": "https://app.notion.com/p/Members-X-3a3229d219da81b4b1a7df80da2a96a8"
@@ -55,7 +55,7 @@ window.RESCENE_OFFICIAL_LINKS = {
       "subtitle": "@rescene_official",
       "description": "公式写真、リール、活動のビジュアルを確認できます。",
       "label": "OFFICIAL",
-      "icon": "assets/platform-icons/instagram.webp",
+      "icon": "",
       "iconText": "IG",
       "anchor": "instagram",
       "notionUrl": "https://app.notion.com/p/Instagram-3a3229d219da813a8328d99da78de9df"
@@ -69,7 +69,7 @@ window.RESCENE_OFFICIAL_LINKS = {
       "subtitle": "@rescene_official",
       "description": "公式音源を使用したショート動画やチャレンジを確認できます。",
       "label": "OFFICIAL",
-      "icon": "assets/platform-icons/tiktok.webp",
+      "icon": "",
       "iconText": "TT",
       "anchor": "tiktok",
       "notionUrl": "https://app.notion.com/p/TikTok-3a3229d219da81ddb6a7f2d5c9125b74"
@@ -97,7 +97,7 @@ window.RESCENE_OFFICIAL_LINKS = {
       "subtitle": "RESCENE Official",
       "description": "RESCENEの公式Facebookページです。",
       "label": "OFFICIAL",
-      "icon": "assets/platform-icons/facebook.webp",
+      "icon": "",
       "iconText": "f",
       "anchor": "facebook",
       "notionUrl": "https://app.notion.com/p/Facebook-3a3229d219da81568f05eadecd869dee"
@@ -111,7 +111,7 @@ window.RESCENE_OFFICIAL_LINKS = {
       "subtitle": "RESCENE",
       "description": "中国向けの公式情報を確認できるWeiboアカウントです。",
       "label": "OFFICIAL",
-      "icon": "assets/platform-icons/weibo.webp",
+      "icon": "",
       "iconText": "WB",
       "anchor": "weibo",
       "notionUrl": "https://app.notion.com/p/Weibo-3a3229d219da81d786e3e76c8e7fa3e9"

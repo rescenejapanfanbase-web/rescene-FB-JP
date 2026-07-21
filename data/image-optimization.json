@@ -1,25 +1,60 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-07-20T13:25:50Z",
-  "sourceFiles": 189,
-  "uniqueImages": 116,
-  "optimizedImages": 189,
-  "uniqueOptimizedAssets": 116,
-  "derivatives": 310,
-  "generatedNow": 38,
-  "reusedNow": 272,
+  "generatedAt": "2026-07-21T15:17:02Z",
+  "sourceFiles": 252,
+  "uniqueImages": 158,
+  "optimizedImages": 245,
+  "uniqueOptimizedAssets": 151,
+  "derivatives": 415,
+  "generatedNow": 111,
+  "reusedNow": 304,
+  "skippedImages": 7,
+  "skippedUniqueImages": 7,
+  "skipped": [
+    {
+      "path": "assets/platform-icons/stationhead.webp",
+      "reason": "元画像がすでに十分軽量なため、WebP派生画像の生成は不要です。"
+    },
+    {
+      "path": "assets/platform-icons/duck-ad.webp",
+      "reason": "元画像がすでに十分軽量なため、WebP派生画像の生成は不要です。"
+    },
+    {
+      "path": "assets/platform-icons/tiktok.webp",
+      "reason": "元画像がすでに十分軽量なため、WebP派生画像の生成は不要です。"
+    },
+    {
+      "path": "assets/platform-icons/weibo.webp",
+      "reason": "元画像がすでに十分軽量なため、WebP派生画像の生成は不要です。"
+    },
+    {
+      "path": "assets/platform-icons/instagram.webp",
+      "reason": "元画像がすでに十分軽量なため、WebP派生画像の生成は不要です。"
+    },
+    {
+      "path": "assets/platform-icons/facebook.webp",
+      "reason": "元画像がすでに十分軽量なため、WebP派生画像の生成は不要です。"
+    },
+    {
+      "path": "assets/platform-icons/x.webp",
+      "reason": "元画像がすでに十分軽量なため、WebP派生画像の生成は不要です。"
+    }
+  ],
   "failedImages": 0,
   "failures": [],
-  "originalBytes": 94843966,
-  "estimatedDeliveryBytes": 23207796,
-  "estimatedSavedBytes": 71636170,
-  "estimatedSavingPercent": 75.5,
-  "generatedStorageBytes": 24076684,
+  "originalBytes": 100133732,
+  "estimatedDeliveryBytes": 26372312,
+  "estimatedSavedBytes": 73761420,
+  "estimatedSavingPercent": 73.7,
+  "generatedStorageBytes": 27774656,
   "removedOrphans": 6,
+  "misplacedGeneratedFilesRemoved": 139,
+  "misplacedGeneratedDirectoriesRemoved": 52,
   "notes": [
     "元画像は削除せず、表示時に画面幅へ合うWebPを選択します。",
     "同一内容の画像はハッシュでまとめ、WebPの重複生成を防ぎます。",
-    "推定削減率は各画像を最大1200px相当で配信した場合の概算です。"
+    "推定削減率は各画像を最大1200px相当で配信した場合の概算です。",
+    "元画像より軽くならないWebPは失敗ではなく最適化不要として記録します。"
   ]
 }

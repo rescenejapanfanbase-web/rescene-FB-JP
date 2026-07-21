@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-07-20T13:25:50Z",
+  "generatedAt": "2026-07-21T15:17:02Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -2765,58 +2765,58 @@
       "default": "assets/optimized/963879f527005a22/minami-w1440.webp"
     },
     "members/woni-desktop.jpg": {
-      "asset": "2f26079cf8b9baf5",
-      "originalBytes": 437847,
+      "asset": "3cc1d51f863e3696",
+      "originalBytes": 502744,
       "width": 1600,
       "height": 2000,
       "variants": [
         {
-          "src": "assets/optimized/2f26079cf8b9baf5/woni-desktop-w480.webp",
+          "src": "assets/optimized/3cc1d51f863e3696/woni-desktop-w480.webp",
           "width": 480,
           "height": 600,
-          "bytes": 28794
+          "bytes": 36830
         },
         {
-          "src": "assets/optimized/2f26079cf8b9baf5/woni-desktop-w768.webp",
+          "src": "assets/optimized/3cc1d51f863e3696/woni-desktop-w768.webp",
           "width": 768,
           "height": 960,
-          "bytes": 56770
+          "bytes": 70126
         },
         {
-          "src": "assets/optimized/2f26079cf8b9baf5/woni-desktop-w1440.webp",
+          "src": "assets/optimized/3cc1d51f863e3696/woni-desktop-w1440.webp",
           "width": 1440,
           "height": 1800,
-          "bytes": 168474
+          "bytes": 190210
         }
       ],
-      "default": "assets/optimized/2f26079cf8b9baf5/woni-desktop-w1440.webp"
+      "default": "assets/optimized/3cc1d51f863e3696/woni-desktop-w1440.webp"
     },
     "members/woni.jpg": {
-      "asset": "94e22dd5d844e25c",
-      "originalBytes": 424063,
-      "width": 2048,
-      "height": 1639,
+      "asset": "3cc1d51f863e3696",
+      "originalBytes": 502744,
+      "width": 1600,
+      "height": 2000,
       "variants": [
         {
-          "src": "assets/optimized/94e22dd5d844e25c/woni-w480.webp",
+          "src": "assets/optimized/3cc1d51f863e3696/woni-desktop-w480.webp",
           "width": 480,
-          "height": 384,
-          "bytes": 27130
+          "height": 600,
+          "bytes": 36830
         },
         {
-          "src": "assets/optimized/94e22dd5d844e25c/woni-w768.webp",
+          "src": "assets/optimized/3cc1d51f863e3696/woni-desktop-w768.webp",
           "width": 768,
-          "height": 615,
-          "bytes": 50938
+          "height": 960,
+          "bytes": 70126
         },
         {
-          "src": "assets/optimized/94e22dd5d844e25c/woni-w1440.webp",
+          "src": "assets/optimized/3cc1d51f863e3696/woni-desktop-w1440.webp",
           "width": 1440,
-          "height": 1152,
-          "bytes": 155338
+          "height": 1800,
+          "bytes": 190210
         }
       ],
-      "default": "assets/optimized/94e22dd5d844e25c/woni-w1440.webp"
+      "default": "assets/optimized/3cc1d51f863e3696/woni-desktop-w1440.webp"
     },
     "members/zena.jpg": {
       "asset": "62999f0a799afef5",
@@ -3223,6 +3223,405 @@
       ],
       "default": "assets/optimized/e949e2acbd295367/uhuh-w1280.webp"
     },
+    "mv/youtube/0ifssWwxVhc.jpg": {
+      "asset": "1d7d8bd6090a5e96",
+      "originalBytes": 86486,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/1d7d8bd6090a5e96/0ifsswwxvhc-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 26736
+        },
+        {
+          "src": "assets/optimized/1d7d8bd6090a5e96/0ifsswwxvhc-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 54192
+        }
+      ],
+      "default": "assets/optimized/1d7d8bd6090a5e96/0ifsswwxvhc-w768.webp"
+    },
+    "mv/youtube/4h0SE9m3IoU.jpg": {
+      "asset": "01213fb41fad9294",
+      "originalBytes": 25488,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/01213fb41fad9294/4h0se9m3iou-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 10266
+        },
+        {
+          "src": "assets/optimized/01213fb41fad9294/4h0se9m3iou-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 18064
+        }
+      ],
+      "default": "assets/optimized/01213fb41fad9294/4h0se9m3iou-w768.webp"
+    },
+    "mv/youtube/638f3ttCR20.jpg": {
+      "asset": "ac1da45f240557b4",
+      "originalBytes": 65210,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/ac1da45f240557b4/638f3ttcr20-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 22968
+        },
+        {
+          "src": "assets/optimized/ac1da45f240557b4/638f3ttcr20-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 42990
+        }
+      ],
+      "default": "assets/optimized/ac1da45f240557b4/638f3ttcr20-w768.webp"
+    },
+    "mv/youtube/6tTsZnKysBc.jpg": {
+      "asset": "9be43c500015e87b",
+      "originalBytes": 55412,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/9be43c500015e87b/6ttsznkysbc-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 19484
+        },
+        {
+          "src": "assets/optimized/9be43c500015e87b/6ttsznkysbc-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 36436
+        }
+      ],
+      "default": "assets/optimized/9be43c500015e87b/6ttsznkysbc-w768.webp"
+    },
+    "mv/youtube/Gu_4J16N2fY.jpg": {
+      "asset": "d80d755a6ce54b21",
+      "originalBytes": 40160,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/d80d755a6ce54b21/gu_4j16n2fy-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 14708
+        },
+        {
+          "src": "assets/optimized/d80d755a6ce54b21/gu_4j16n2fy-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 26574
+        }
+      ],
+      "default": "assets/optimized/d80d755a6ce54b21/gu_4j16n2fy-w768.webp"
+    },
+    "mv/youtube/QN7V87Hzmr8.jpg": {
+      "asset": "06d228a3ff0a0329",
+      "originalBytes": 59872,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/06d228a3ff0a0329/qn7v87hzmr8-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 28522
+        },
+        {
+          "src": "assets/optimized/06d228a3ff0a0329/qn7v87hzmr8-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 48746
+        }
+      ],
+      "default": "assets/optimized/06d228a3ff0a0329/qn7v87hzmr8-w768.webp"
+    },
+    "mv/youtube/WNl67k6StWY.jpg": {
+      "asset": "222523db69c7fbbb",
+      "originalBytes": 107330,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/222523db69c7fbbb/wnl67k6stwy-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 38472
+        },
+        {
+          "src": "assets/optimized/222523db69c7fbbb/wnl67k6stwy-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 73932
+        }
+      ],
+      "default": "assets/optimized/222523db69c7fbbb/wnl67k6stwy-w768.webp"
+    },
+    "mv/youtube/WQuoPINWLU8.jpg": {
+      "asset": "15e9c2470a88e592",
+      "originalBytes": 23118,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/15e9c2470a88e592/wquopinwlu8-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 12358
+        },
+        {
+          "src": "assets/optimized/15e9c2470a88e592/wquopinwlu8-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 21826
+        }
+      ],
+      "default": "assets/optimized/15e9c2470a88e592/wquopinwlu8-w768.webp"
+    },
+    "mv/youtube/Wm1vxMk5YTY.jpg": {
+      "asset": "d12680a96965a2e2",
+      "originalBytes": 68644,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/d12680a96965a2e2/wm1vxmk5yty-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 27234
+        },
+        {
+          "src": "assets/optimized/d12680a96965a2e2/wm1vxmk5yty-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 48726
+        }
+      ],
+      "default": "assets/optimized/d12680a96965a2e2/wm1vxmk5yty-w768.webp"
+    },
+    "mv/youtube/_zzAi5x0cXc.jpg": {
+      "asset": "c16b2783ba56c6ba",
+      "originalBytes": 85698,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/c16b2783ba56c6ba/_zzai5x0cxc-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 24552
+        },
+        {
+          "src": "assets/optimized/c16b2783ba56c6ba/_zzai5x0cxc-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 51014
+        }
+      ],
+      "default": "assets/optimized/c16b2783ba56c6ba/_zzai5x0cxc-w768.webp"
+    },
+    "mv/youtube/bhgNiT3qQgU.jpg": {
+      "asset": "f3a2857a43dc9a7f",
+      "originalBytes": 67968,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/f3a2857a43dc9a7f/bhgnit3qqgu-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 28446
+        },
+        {
+          "src": "assets/optimized/f3a2857a43dc9a7f/bhgnit3qqgu-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 52248
+        }
+      ],
+      "default": "assets/optimized/f3a2857a43dc9a7f/bhgnit3qqgu-w768.webp"
+    },
+    "mv/youtube/bnhoSYv7ehY.jpg": {
+      "asset": "3e585ce6126f67f2",
+      "originalBytes": 91674,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/3e585ce6126f67f2/bnhosyv7ehy-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 29606
+        },
+        {
+          "src": "assets/optimized/3e585ce6126f67f2/bnhosyv7ehy-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 60580
+        }
+      ],
+      "default": "assets/optimized/3e585ce6126f67f2/bnhosyv7ehy-w768.webp"
+    },
+    "mv/youtube/d64dH8mnw9Q.jpg": {
+      "asset": "b066e4117f21757e",
+      "originalBytes": 50504,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/b066e4117f21757e/d64dh8mnw9q-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 14936
+        },
+        {
+          "src": "assets/optimized/b066e4117f21757e/d64dh8mnw9q-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 28418
+        }
+      ],
+      "default": "assets/optimized/b066e4117f21757e/d64dh8mnw9q-w768.webp"
+    },
+    "mv/youtube/dvX4jNqqlS4.jpg": {
+      "asset": "fcf58f78944dc729",
+      "originalBytes": 47096,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/fcf58f78944dc729/dvx4jnqqls4-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 19532
+        },
+        {
+          "src": "assets/optimized/fcf58f78944dc729/dvx4jnqqls4-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 34058
+        }
+      ],
+      "default": "assets/optimized/fcf58f78944dc729/dvx4jnqqls4-w768.webp"
+    },
+    "mv/youtube/j3mzATw-EOQ.jpg": {
+      "asset": "afa949cde6dae384",
+      "originalBytes": 49682,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/afa949cde6dae384/j3mzatw-eoq-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 16058
+        },
+        {
+          "src": "assets/optimized/afa949cde6dae384/j3mzatw-eoq-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 32140
+        }
+      ],
+      "default": "assets/optimized/afa949cde6dae384/j3mzatw-eoq-w768.webp"
+    },
+    "mv/youtube/mMnImayua0U.jpg": {
+      "asset": "1993679a2184d7ba",
+      "originalBytes": 81362,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/1993679a2184d7ba/mmnimayua0u-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 24548
+        },
+        {
+          "src": "assets/optimized/1993679a2184d7ba/mmnimayua0u-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 47720
+        }
+      ],
+      "default": "assets/optimized/1993679a2184d7ba/mmnimayua0u-w768.webp"
+    },
+    "mv/youtube/ou2Y2vGKCyY.jpg": {
+      "asset": "703e7507f9e9bc11",
+      "originalBytes": 47442,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/703e7507f9e9bc11/ou2y2vgkcyy-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 17144
+        },
+        {
+          "src": "assets/optimized/703e7507f9e9bc11/ou2y2vgkcyy-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 31036
+        }
+      ],
+      "default": "assets/optimized/703e7507f9e9bc11/ou2y2vgkcyy-w768.webp"
+    },
+    "mv/youtube/tGxv4kiPqec.jpg": {
+      "asset": "a4a3195fa02d990a",
+      "originalBytes": 53960,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/a4a3195fa02d990a/tgxv4kipqec-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 19256
+        },
+        {
+          "src": "assets/optimized/a4a3195fa02d990a/tgxv4kipqec-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 36380
+        }
+      ],
+      "default": "assets/optimized/a4a3195fa02d990a/tgxv4kipqec-w768.webp"
+    },
+    "mv/youtube/yAZUO4KqH6s.jpg": {
+      "asset": "627d9c6c0e8f1737",
+      "originalBytes": 95152,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/627d9c6c0e8f1737/yazuo4kqh6s-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 31146
+        },
+        {
+          "src": "assets/optimized/627d9c6c0e8f1737/yazuo4kqh6s-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 68854
+        }
+      ],
+      "default": "assets/optimized/627d9c6c0e8f1737/yazuo4kqh6s-w768.webp"
+    },
     "mv/yoyo.jpg": {
       "asset": "3cae2916c7529b6e",
       "originalBytes": 130708,
@@ -3468,6 +3867,1005 @@
         }
       ],
       "default": "assets/optimized/bdf4598ab1f12a5f/the-show-first-win-w937.webp"
+    },
+    "ogp/404.jpg": {
+      "asset": "e206d9bed0099fbd",
+      "originalBytes": 97893,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/e206d9bed0099fbd/404-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15688
+        },
+        {
+          "src": "assets/optimized/e206d9bed0099fbd/404-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28722
+        },
+        {
+          "src": "assets/optimized/e206d9bed0099fbd/404-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 53636
+        }
+      ],
+      "default": "assets/optimized/e206d9bed0099fbd/404-w1200.webp"
+    },
+    "ogp/about.jpg": {
+      "asset": "2b21d9d37d04b812",
+      "originalBytes": 138897,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/2b21d9d37d04b812/about-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 23626
+        },
+        {
+          "src": "assets/optimized/2b21d9d37d04b812/about-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 49164
+        },
+        {
+          "src": "assets/optimized/2b21d9d37d04b812/about-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 96700
+        }
+      ],
+      "default": "assets/optimized/2b21d9d37d04b812/about-w1200.webp"
+    },
+    "ogp/article.jpg": {
+      "asset": "04fa29219325297f",
+      "originalBytes": 99729,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/04fa29219325297f/article-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 17420
+        },
+        {
+          "src": "assets/optimized/04fa29219325297f/article-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 31780
+        },
+        {
+          "src": "assets/optimized/04fa29219325297f/article-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 55462
+        }
+      ],
+      "default": "assets/optimized/04fa29219325297f/article-w1200.webp"
+    },
+    "ogp/chants.jpg": {
+      "asset": "dbec2bc4e360d6dc",
+      "originalBytes": 102827,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/dbec2bc4e360d6dc/chants-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 16448
+        },
+        {
+          "src": "assets/optimized/dbec2bc4e360d6dc/chants-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 30764
+        },
+        {
+          "src": "assets/optimized/dbec2bc4e360d6dc/chants-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 57272
+        }
+      ],
+      "default": "assets/optimized/dbec2bc4e360d6dc/chants-w1200.webp"
+    },
+    "ogp/contact.jpg": {
+      "asset": "7a2e4c7210c5a2bd",
+      "originalBytes": 97690,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/7a2e4c7210c5a2bd/contact-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15484
+        },
+        {
+          "src": "assets/optimized/7a2e4c7210c5a2bd/contact-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28442
+        },
+        {
+          "src": "assets/optimized/7a2e4c7210c5a2bd/contact-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 51918
+        }
+      ],
+      "default": "assets/optimized/7a2e4c7210c5a2bd/contact-w1200.webp"
+    },
+    "ogp/discography.jpg": {
+      "asset": "fe692f924ea3e195",
+      "originalBytes": 103660,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/fe692f924ea3e195/discography-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 16460
+        },
+        {
+          "src": "assets/optimized/fe692f924ea3e195/discography-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 30632
+        },
+        {
+          "src": "assets/optimized/fe692f924ea3e195/discography-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 57600
+        }
+      ],
+      "default": "assets/optimized/fe692f924ea3e195/discography-w1200.webp"
+    },
+    "ogp/external-links.jpg": {
+      "asset": "13b21cc565b8825b",
+      "originalBytes": 99536,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/13b21cc565b8825b/external-links-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15980
+        },
+        {
+          "src": "assets/optimized/13b21cc565b8825b/external-links-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 29236
+        },
+        {
+          "src": "assets/optimized/13b21cc565b8825b/external-links-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 53458
+        }
+      ],
+      "default": "assets/optimized/13b21cc565b8825b/external-links-w1200.webp"
+    },
+    "ogp/home.jpg": {
+      "asset": "d62265c3d18fb5b3",
+      "originalBytes": 109355,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/d62265c3d18fb5b3/home-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 18678
+        },
+        {
+          "src": "assets/optimized/d62265c3d18fb5b3/home-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 32430
+        },
+        {
+          "src": "assets/optimized/d62265c3d18fb5b3/home-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 60896
+        }
+      ],
+      "default": "assets/optimized/d62265c3d18fb5b3/home-w1200.webp"
+    },
+    "ogp/links.jpg": {
+      "asset": "4234955b8831ee84",
+      "originalBytes": 98022,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/4234955b8831ee84/links-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15540
+        },
+        {
+          "src": "assets/optimized/4234955b8831ee84/links-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28622
+        },
+        {
+          "src": "assets/optimized/4234955b8831ee84/links-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 52996
+        }
+      ],
+      "default": "assets/optimized/4234955b8831ee84/links-w1200.webp"
+    },
+    "ogp/members.jpg": {
+      "asset": "03aba94b0ad9801b",
+      "originalBytes": 97810,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/03aba94b0ad9801b/members-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15578
+        },
+        {
+          "src": "assets/optimized/03aba94b0ad9801b/members-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28630
+        },
+        {
+          "src": "assets/optimized/03aba94b0ad9801b/members-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 52178
+        }
+      ],
+      "default": "assets/optimized/03aba94b0ad9801b/members-w1200.webp"
+    },
+    "ogp/mv.jpg": {
+      "asset": "3c58efa5d9868894",
+      "originalBytes": 83116,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/3c58efa5d9868894/mv-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 13718
+        },
+        {
+          "src": "assets/optimized/3c58efa5d9868894/mv-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 25126
+        },
+        {
+          "src": "assets/optimized/3c58efa5d9868894/mv-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 44500
+        }
+      ],
+      "default": "assets/optimized/3c58efa5d9868894/mv-w1200.webp"
+    },
+    "ogp/news.jpg": {
+      "asset": "6f164e4a31d2db2b",
+      "originalBytes": 98727,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/6f164e4a31d2db2b/news-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 17232
+        },
+        {
+          "src": "assets/optimized/6f164e4a31d2db2b/news-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 31590
+        },
+        {
+          "src": "assets/optimized/6f164e4a31d2db2b/news-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 54892
+        }
+      ],
+      "default": "assets/optimized/6f164e4a31d2db2b/news-w1200.webp"
+    },
+    "ogp/news/busy-boy-release.jpg": {
+      "asset": "c0284a343c5474d3",
+      "originalBytes": 116552,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/c0284a343c5474d3/busy-boy-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 22012
+        },
+        {
+          "src": "assets/optimized/c0284a343c5474d3/busy-boy-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 40260
+        },
+        {
+          "src": "assets/optimized/c0284a343c5474d3/busy-boy-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 72724
+        }
+      ],
+      "default": "assets/optimized/c0284a343c5474d3/busy-boy-release-w1200.webp"
+    },
+    "ogp/news/dearest-release.jpg": {
+      "asset": "ef736c647017c157",
+      "originalBytes": 102200,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/ef736c647017c157/dearest-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 18146
+        },
+        {
+          "src": "assets/optimized/ef736c647017c157/dearest-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 32234
+        },
+        {
+          "src": "assets/optimized/ef736c647017c157/dearest-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 56810
+        }
+      ],
+      "default": "assets/optimized/ef736c647017c157/dearest-release-w1200.webp"
+    },
+    "ogp/news/fanbase-site.jpg": {
+      "asset": "934d1a731fe2d5f7",
+      "originalBytes": 109335,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/934d1a731fe2d5f7/fanbase-site-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 19934
+        },
+        {
+          "src": "assets/optimized/934d1a731fe2d5f7/fanbase-site-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 35004
+        },
+        {
+          "src": "assets/optimized/934d1a731fe2d5f7/fanbase-site-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 60730
+        }
+      ],
+      "default": "assets/optimized/934d1a731fe2d5f7/fanbase-site-w1200.webp"
+    },
+    "ogp/news/geoje-ambassador.jpg": {
+      "asset": "89c7e710df60b7f7",
+      "originalBytes": 127338,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/89c7e710df60b7f7/geoje-ambassador-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 22114
+        },
+        {
+          "src": "assets/optimized/89c7e710df60b7f7/geoje-ambassador-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 43696
+        },
+        {
+          "src": "assets/optimized/89c7e710df60b7f7/geoje-ambassador-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 77758
+        }
+      ],
+      "default": "assets/optimized/89c7e710df60b7f7/geoje-ambassador-w1200.webp"
+    },
+    "ogp/news/glow-up-release.jpg": {
+      "asset": "eee4ebc8c3ea74da",
+      "originalBytes": 98308,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/eee4ebc8c3ea74da/glow-up-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 18492
+        },
+        {
+          "src": "assets/optimized/eee4ebc8c3ea74da/glow-up-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 30296
+        },
+        {
+          "src": "assets/optimized/eee4ebc8c3ea74da/glow-up-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 54976
+        }
+      ],
+      "default": "assets/optimized/eee4ebc8c3ea74da/glow-up-release-w1200.webp"
+    },
+    "ogp/news/goyang-ambassador.jpg": {
+      "asset": "6b114b028d1cdbe6",
+      "originalBytes": 98768,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/6b114b028d1cdbe6/goyang-ambassador-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 18018
+        },
+        {
+          "src": "assets/optimized/6b114b028d1cdbe6/goyang-ambassador-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 33346
+        },
+        {
+          "src": "assets/optimized/6b114b028d1cdbe6/goyang-ambassador-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 58528
+        }
+      ],
+      "default": "assets/optimized/6b114b028d1cdbe6/goyang-ambassador-w1200.webp"
+    },
+    "ogp/news/gyeongju-ambassador.jpg": {
+      "asset": "f57af44cf51c3109",
+      "originalBytes": 93522,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/f57af44cf51c3109/gyeongju-ambassador-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 16842
+        },
+        {
+          "src": "assets/optimized/f57af44cf51c3109/gyeongju-ambassador-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 30186
+        },
+        {
+          "src": "assets/optimized/f57af44cf51c3109/gyeongju-ambassador-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 51022
+        }
+      ],
+      "default": "assets/optimized/f57af44cf51c3109/gyeongju-ambassador-w1200.webp"
+    },
+    "ogp/news/lip-bomb-release.jpg": {
+      "asset": "bbf0b4e13886c3d8",
+      "originalBytes": 147599,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/bbf0b4e13886c3d8/lip-bomb-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 28232
+        },
+        {
+          "src": "assets/optimized/bbf0b4e13886c3d8/lip-bomb-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 53748
+        },
+        {
+          "src": "assets/optimized/bbf0b4e13886c3d8/lip-bomb-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 98714
+        }
+      ],
+      "default": "assets/optimized/bbf0b4e13886c3d8/lip-bomb-release-w1200.webp"
+    },
+    "ogp/news/love-attack-inkigayo-realtime-first.jpg": {
+      "asset": "8bd9cbca5f984e4d",
+      "originalBytes": 95228,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/8bd9cbca5f984e4d/love-attack-inkigayo-realtime-first-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 17128
+        },
+        {
+          "src": "assets/optimized/8bd9cbca5f984e4d/love-attack-inkigayo-realtime-first-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28802
+        },
+        {
+          "src": "assets/optimized/8bd9cbca5f984e4d/love-attack-inkigayo-realtime-first-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 51016
+        }
+      ],
+      "default": "assets/optimized/8bd9cbca5f984e4d/love-attack-inkigayo-realtime-first-w1200.webp"
+    },
+    "ogp/news/melon-top100-first-number-one.jpg": {
+      "asset": "4f031a010c08e76c",
+      "originalBytes": 81446,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/4f031a010c08e76c/melon-top100-first-number-one-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 16636
+        },
+        {
+          "src": "assets/optimized/4f031a010c08e76c/melon-top100-first-number-one-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28376
+        },
+        {
+          "src": "assets/optimized/4f031a010c08e76c/melon-top100-first-number-one-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 48660
+        }
+      ],
+      "default": "assets/optimized/4f031a010c08e76c/melon-top100-first-number-one-w1200.webp"
+    },
+    "ogp/news/pinball-japanese-release.jpg": {
+      "asset": "94a8ed6c67544760",
+      "originalBytes": 81262,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/94a8ed6c67544760/pinball-japanese-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 13336
+        },
+        {
+          "src": "assets/optimized/94a8ed6c67544760/pinball-japanese-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 23160
+        },
+        {
+          "src": "assets/optimized/94a8ed6c67544760/pinball-japanese-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 41600
+        }
+      ],
+      "default": "assets/optimized/94a8ed6c67544760/pinball-japanese-release-w1200.webp"
+    },
+    "ogp/news/pretty-girl-first-music-show-win.jpg": {
+      "asset": "49801116f05fcb95",
+      "originalBytes": 128648,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/49801116f05fcb95/pretty-girl-first-music-show-win-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 25114
+        },
+        {
+          "src": "assets/optimized/49801116f05fcb95/pretty-girl-first-music-show-win-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 46540
+        },
+        {
+          "src": "assets/optimized/49801116f05fcb95/pretty-girl-first-music-show-win-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 81658
+        }
+      ],
+      "default": "assets/optimized/49801116f05fcb95/pretty-girl-first-music-show-win-w1200.webp"
+    },
+    "ogp/news/pretty-girl-release.jpg": {
+      "asset": "80d42af6b6c2c9ae",
+      "originalBytes": 112462,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/80d42af6b6c2c9ae/pretty-girl-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 18708
+        },
+        {
+          "src": "assets/optimized/80d42af6b6c2c9ae/pretty-girl-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 34534
+        },
+        {
+          "src": "assets/optimized/80d42af6b6c2c9ae/pretty-girl-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 63830
+        }
+      ],
+      "default": "assets/optimized/80d42af6b6c2c9ae/pretty-girl-release-w1200.webp"
+    },
+    "ogp/news/rescene-release.jpg": {
+      "asset": "9c3ac43ca03b6c80",
+      "originalBytes": 119288,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/9c3ac43ca03b6c80/rescene-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 21730
+        },
+        {
+          "src": "assets/optimized/9c3ac43ca03b6c80/rescene-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 37862
+        },
+        {
+          "src": "assets/optimized/9c3ac43ca03b6c80/rescene-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 68490
+        }
+      ],
+      "default": "assets/optimized/9c3ac43ca03b6c80/rescene-release-w1200.webp"
+    },
+    "ogp/news/runaway-release.jpg": {
+      "asset": "07484bc837d5703c",
+      "originalBytes": 88087,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/07484bc837d5703c/runaway-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 14414
+        },
+        {
+          "src": "assets/optimized/07484bc837d5703c/runaway-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 24744
+        },
+        {
+          "src": "assets/optimized/07484bc837d5703c/runaway-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 43732
+        }
+      ],
+      "default": "assets/optimized/07484bc837d5703c/runaway-release-w1200.webp"
+    },
+    "ogp/news/scenedrome-release.jpg": {
+      "asset": "fb6e040048f3e88c",
+      "originalBytes": 96623,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/fb6e040048f3e88c/scenedrome-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 17158
+        },
+        {
+          "src": "assets/optimized/fb6e040048f3e88c/scenedrome-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 29270
+        },
+        {
+          "src": "assets/optimized/fb6e040048f3e88c/scenedrome-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 51660
+        }
+      ],
+      "default": "assets/optimized/fb6e040048f3e88c/scenedrome-release-w1200.webp"
+    },
+    "ogp/news/second-anniversary-project.jpg": {
+      "asset": "54565f5c45641106",
+      "originalBytes": 115177,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/54565f5c45641106/second-anniversary-project-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 22240
+        },
+        {
+          "src": "assets/optimized/54565f5c45641106/second-anniversary-project-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 42834
+        },
+        {
+          "src": "assets/optimized/54565f5c45641106/second-anniversary-project-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 74122
+        }
+      ],
+      "default": "assets/optimized/54565f5c45641106/second-anniversary-project-w1200.webp"
+    },
+    "ogp/news/second-anniversary.jpg": {
+      "asset": "9e60b4d63362d9a1",
+      "originalBytes": 120913,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/9e60b4d63362d9a1/second-anniversary-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 20874
+        },
+        {
+          "src": "assets/optimized/9e60b4d63362d9a1/second-anniversary-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 39466
+        },
+        {
+          "src": "assets/optimized/9e60b4d63362d9a1/second-anniversary-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 76460
+        }
+      ],
+      "default": "assets/optimized/9e60b4d63362d9a1/second-anniversary-w1200.webp"
+    },
+    "ogp/news/suwon-ambassador.jpg": {
+      "asset": "361f6ce00ebb4cb6",
+      "originalBytes": 91248,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/361f6ce00ebb4cb6/suwon-ambassador-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 17030
+        },
+        {
+          "src": "assets/optimized/361f6ce00ebb4cb6/suwon-ambassador-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 30942
+        },
+        {
+          "src": "assets/optimized/361f6ce00ebb4cb6/suwon-ambassador-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 52734
+        }
+      ],
+      "default": "assets/optimized/361f6ce00ebb4cb6/suwon-ambassador-w1200.webp"
+    },
+    "ogp/schedule.jpg": {
+      "asset": "d219c2db36b12d8e",
+      "originalBytes": 99261,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/d219c2db36b12d8e/schedule-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15758
+        },
+        {
+          "src": "assets/optimized/d219c2db36b12d8e/schedule-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 29270
+        },
+        {
+          "src": "assets/optimized/d219c2db36b12d8e/schedule-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 53902
+        }
+      ],
+      "default": "assets/optimized/d219c2db36b12d8e/schedule-w1200.webp"
+    },
+    "ogp/search.jpg": {
+      "asset": "5d96a49c5760ab3c",
+      "originalBytes": 98197,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/5d96a49c5760ab3c/search-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15576
+        },
+        {
+          "src": "assets/optimized/5d96a49c5760ab3c/search-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28696
+        },
+        {
+          "src": "assets/optimized/5d96a49c5760ab3c/search-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 52870
+        }
+      ],
+      "default": "assets/optimized/5d96a49c5760ab3c/search-w1200.webp"
+    },
+    "ogp/streaming.jpg": {
+      "asset": "466bfe3e25329cc5",
+      "originalBytes": 100907,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/466bfe3e25329cc5/streaming-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 16266
+        },
+        {
+          "src": "assets/optimized/466bfe3e25329cc5/streaming-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 29860
+        },
+        {
+          "src": "assets/optimized/466bfe3e25329cc5/streaming-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 54540
+        }
+      ],
+      "default": "assets/optimized/466bfe3e25329cc5/streaming-w1200.webp"
+    },
+    "ogp/sync-status.jpg": {
+      "asset": "3956cd543a0c0c74",
+      "originalBytes": 97591,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/3956cd543a0c0c74/sync-status-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15518
+        },
+        {
+          "src": "assets/optimized/3956cd543a0c0c74/sync-status-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28544
+        },
+        {
+          "src": "assets/optimized/3956cd543a0c0c74/sync-status-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 52340
+        }
+      ],
+      "default": "assets/optimized/3956cd543a0c0c74/sync-status-w1200.webp"
+    },
+    "ogp/voting.jpg": {
+      "asset": "136bb8664eb4ee3a",
+      "originalBytes": 160434,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/136bb8664eb4ee3a/voting-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 28964
+        },
+        {
+          "src": "assets/optimized/136bb8664eb4ee3a/voting-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 56336
+        },
+        {
+          "src": "assets/optimized/136bb8664eb4ee3a/voting-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 112834
+        }
+      ],
+      "default": "assets/optimized/136bb8664eb4ee3a/voting-w1200.webp"
+    },
+    "ogp/youtube.jpg": {
+      "asset": "be274d6474f7b38c",
+      "originalBytes": 104272,
+      "width": 1200,
+      "height": 630,
+      "variants": [
+        {
+          "src": "assets/optimized/be274d6474f7b38c/youtube-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 16850
+        },
+        {
+          "src": "assets/optimized/be274d6474f7b38c/youtube-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 31358
+        },
+        {
+          "src": "assets/optimized/be274d6474f7b38c/youtube-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 58754
+        }
+      ],
+      "default": "assets/optimized/be274d6474f7b38c/youtube-w1200.webp"
     },
     "platform-icons/apple-music.png": {
       "asset": "dfbcce2c96eda8d7",
@@ -4841,6 +6239,66 @@
       ],
       "default": "assets/optimized/01213fb41fad9294/4h0se9m3iou-w768.webp"
     },
+    "03aba94b0ad9801b": {
+      "hash": "03aba94b0ad9801b9d01f1f17e70d2af0d2d724f0ee63399ba1fa5b382725077",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/03aba94b0ad9801b/members-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15578
+        },
+        {
+          "src": "assets/optimized/03aba94b0ad9801b/members-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28630
+        },
+        {
+          "src": "assets/optimized/03aba94b0ad9801b/members-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 52178
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/03aba94b0ad9801b/members-w1200.webp"
+    },
+    "04fa29219325297f": {
+      "hash": "04fa29219325297f5e628a85438700a661b9c03d4d18d9c54095b68bc19ea244",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/04fa29219325297f/article-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 17420
+        },
+        {
+          "src": "assets/optimized/04fa29219325297f/article-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 31780
+        },
+        {
+          "src": "assets/optimized/04fa29219325297f/article-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 55462
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/04fa29219325297f/article-w1200.webp"
+    },
     "062e5448fa2e96b6": {
       "hash": "062e5448fa2e96b6982ab2aaf8797bd57aca5a1951a53b6d1b4fc1eed985e842",
       "width": 1600,
@@ -4896,6 +6354,36 @@
         1280
       ],
       "default": "assets/optimized/06d228a3ff0a0329/qn7v87hzmr8-w768.webp"
+    },
+    "07484bc837d5703c": {
+      "hash": "07484bc837d5703cfbd42da2e817328435b70e25b7cd9491abe6cb5f1c2c4d10",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/07484bc837d5703c/runaway-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 14414
+        },
+        {
+          "src": "assets/optimized/07484bc837d5703c/runaway-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 24744
+        },
+        {
+          "src": "assets/optimized/07484bc837d5703c/runaway-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 43732
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/07484bc837d5703c/runaway-release-w1200.webp"
     },
     "07b17c8bb644b227": {
       "hash": "07b17c8bb644b22730de37b21f5240f23306ff0eaafeb7680c3dc912fe0b2d55",
@@ -5010,6 +6498,66 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/119a31f58026d3e0/mcountdown-score-w1440.webp"
+    },
+    "136bb8664eb4ee3a": {
+      "hash": "136bb8664eb4ee3a507189299c72313fcd6d0ebce25dda81c8e11b3679eb169b",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/136bb8664eb4ee3a/voting-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 28964
+        },
+        {
+          "src": "assets/optimized/136bb8664eb4ee3a/voting-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 56336
+        },
+        {
+          "src": "assets/optimized/136bb8664eb4ee3a/voting-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 112834
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/136bb8664eb4ee3a/voting-w1200.webp"
+    },
+    "13b21cc565b8825b": {
+      "hash": "13b21cc565b8825b9733ca6b7da53b68c669cbd7eddec26d63a76fdf012605e2",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/13b21cc565b8825b/external-links-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15980
+        },
+        {
+          "src": "assets/optimized/13b21cc565b8825b/external-links-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 29236
+        },
+        {
+          "src": "assets/optimized/13b21cc565b8825b/external-links-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 53458
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/13b21cc565b8825b/external-links-w1200.webp"
     },
     "15e9c2470a88e592": {
       "hash": "15e9c2470a88e59219a0ed75d38767d5ca0595fc75d011950881dc6b61f257a0",
@@ -5345,35 +6893,35 @@
       ],
       "default": "assets/optimized/27f361fbd4cf2415/bigc-w768.webp"
     },
-    "2f26079cf8b9baf5": {
-      "hash": "2f26079cf8b9baf577e2e405099bbb6f00cfeb55e16cd599382377b12e7a5118",
-      "width": 1600,
-      "height": 2000,
+    "2b21d9d37d04b812": {
+      "hash": "2b21d9d37d04b8121e6150f6d3daa549aa0d05c86d816f5e047f19c255089b57",
+      "width": 1200,
+      "height": 630,
       "format": "jpg",
       "alpha": false,
       "quality": 84,
       "variants": [
         {
-          "src": "assets/optimized/2f26079cf8b9baf5/woni-desktop-w480.webp",
+          "src": "assets/optimized/2b21d9d37d04b812/about-w480.webp",
           "width": 480,
-          "height": 600,
-          "bytes": 28794
+          "height": 252,
+          "bytes": 23626
         },
         {
-          "src": "assets/optimized/2f26079cf8b9baf5/woni-desktop-w768.webp",
+          "src": "assets/optimized/2b21d9d37d04b812/about-w768.webp",
           "width": 768,
-          "height": 960,
-          "bytes": 56770
+          "height": 403,
+          "bytes": 49164
         },
         {
-          "src": "assets/optimized/2f26079cf8b9baf5/woni-desktop-w1440.webp",
-          "width": 1440,
-          "height": 1800,
-          "bytes": 168474
+          "src": "assets/optimized/2b21d9d37d04b812/about-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 96700
         }
       ],
       "skippedWidths": [],
-      "default": "assets/optimized/2f26079cf8b9baf5/woni-desktop-w1440.webp"
+      "default": "assets/optimized/2b21d9d37d04b812/about-w1200.webp"
     },
     "2fe0561e69f915c3": {
       "hash": "2fe0561e69f915c300fa2142e58b2276f1f73f9c8a2a5ca18baec093b766cc1b",
@@ -5404,6 +6952,66 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/2fe0561e69f915c3/music-show-list-w1440.webp"
+    },
+    "361f6ce00ebb4cb6": {
+      "hash": "361f6ce00ebb4cb609858c65ea3fd2ae7c0081001cbc1bc229f8757d68bb6941",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/361f6ce00ebb4cb6/suwon-ambassador-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 17030
+        },
+        {
+          "src": "assets/optimized/361f6ce00ebb4cb6/suwon-ambassador-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 30942
+        },
+        {
+          "src": "assets/optimized/361f6ce00ebb4cb6/suwon-ambassador-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 52734
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/361f6ce00ebb4cb6/suwon-ambassador-w1200.webp"
+    },
+    "3956cd543a0c0c74": {
+      "hash": "3956cd543a0c0c74a35a40b3244ef2b53dfd26e6e7040f25f0b9b80ac4c1eecb",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/3956cd543a0c0c74/sync-status-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15518
+        },
+        {
+          "src": "assets/optimized/3956cd543a0c0c74/sync-status-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28544
+        },
+        {
+          "src": "assets/optimized/3956cd543a0c0c74/sync-status-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 52340
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/3956cd543a0c0c74/sync-status-w1200.webp"
     },
     "3a498f1607257e1a": {
       "hash": "3a498f1607257e1a95d3a79db9281c36093d4d985837bff288076cc51b399074",
@@ -5464,6 +7072,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/3c37d3df09225636/apple-music-play-w945.webp"
+    },
+    "3c58efa5d9868894": {
+      "hash": "3c58efa5d9868894d1dc20574e110de979542adf65c12198051b4cec90f715cb",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/3c58efa5d9868894/mv-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 13718
+        },
+        {
+          "src": "assets/optimized/3c58efa5d9868894/mv-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 25126
+        },
+        {
+          "src": "assets/optimized/3c58efa5d9868894/mv-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 44500
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/3c58efa5d9868894/mv-w1200.webp"
     },
     "3cae2916c7529b6e": {
       "hash": "3cae2916c7529b6e7f6e5b8cc868af8eb4b0eef1ab7d470ddd7f93d63cf615b1",
@@ -5663,6 +7301,36 @@
       ],
       "default": "assets/optimized/416ded11e5daedfb/goyang-ambassador-w768.webp"
     },
+    "4234955b8831ee84": {
+      "hash": "4234955b8831ee84689ad4d7ccc4217c9da5fb593a5de1c8274eb7133d985194",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/4234955b8831ee84/links-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15540
+        },
+        {
+          "src": "assets/optimized/4234955b8831ee84/links-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28622
+        },
+        {
+          "src": "assets/optimized/4234955b8831ee84/links-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 52996
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/4234955b8831ee84/links-w1200.webp"
+    },
     "44aa78561908daa3": {
       "hash": "44aa78561908daa3a394f27f2ae857500eca50e718a87556d558146b92dbdb8b",
       "width": 1600,
@@ -5723,6 +7391,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/44dac0743f2bfe20/deja-vu-w1280.webp"
     },
+    "466bfe3e25329cc5": {
+      "hash": "466bfe3e25329cc540a21031ec9a48a2c8a05d0b98dde60036638aefb2b69969",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/466bfe3e25329cc5/streaming-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 16266
+        },
+        {
+          "src": "assets/optimized/466bfe3e25329cc5/streaming-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 29860
+        },
+        {
+          "src": "assets/optimized/466bfe3e25329cc5/streaming-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 54540
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/466bfe3e25329cc5/streaming-w1200.webp"
+    },
     "496d8b33cf0962dd": {
       "hash": "496d8b33cf0962dd0ed4bdd6932f22becde5a57bb57c451c3c204ecae98fab89",
       "width": 1600,
@@ -5752,6 +7450,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/496d8b33cf0962dd/uhuh-w1440.webp"
+    },
+    "49801116f05fcb95": {
+      "hash": "49801116f05fcb95c7d3dbfd3f378456a5226e831896992f5ef66ced8b4ec238",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/49801116f05fcb95/pretty-girl-first-music-show-win-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 25114
+        },
+        {
+          "src": "assets/optimized/49801116f05fcb95/pretty-girl-first-music-show-win-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 46540
+        },
+        {
+          "src": "assets/optimized/49801116f05fcb95/pretty-girl-first-music-show-win-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 81658
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/49801116f05fcb95/pretty-girl-first-music-show-win-w1200.webp"
     },
     "4bff958cf724ec17": {
       "hash": "4bff958cf724ec1724eecfd4cb70f6a7fedd426f8e60c863fd9332a1a2794ec5",
@@ -5843,6 +7571,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/4d3a1f62a2d015b4/linc-vote-1-w1179.webp"
     },
+    "4f031a010c08e76c": {
+      "hash": "4f031a010c08e76c5d588b29d769570b68f7ac44b25d01f5f95041a404b275a5",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/4f031a010c08e76c/melon-top100-first-number-one-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 16636
+        },
+        {
+          "src": "assets/optimized/4f031a010c08e76c/melon-top100-first-number-one-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28376
+        },
+        {
+          "src": "assets/optimized/4f031a010c08e76c/melon-top100-first-number-one-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 48660
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/4f031a010c08e76c/melon-top100-first-number-one-w1200.webp"
+    },
     "50dd387dbd2b5f7f": {
       "hash": "50dd387dbd2b5f7fef892ffee1f95fb0823aa80e69ff087297c3eac9a5777186",
       "width": 512,
@@ -5892,6 +7650,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/52a30a1aafaeaf6a/higher-vote-1-w1028.webp"
+    },
+    "54565f5c45641106": {
+      "hash": "54565f5c45641106d2fb8e536f293a0518dca88ed737d044ef3cf78dfa2ab3f1",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/54565f5c45641106/second-anniversary-project-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 22240
+        },
+        {
+          "src": "assets/optimized/54565f5c45641106/second-anniversary-project-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 42834
+        },
+        {
+          "src": "assets/optimized/54565f5c45641106/second-anniversary-project-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 74122
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/54565f5c45641106/second-anniversary-project-w1200.webp"
     },
     "593d06a85356ec9e": {
       "hash": "593d06a85356ec9e10edf0852c87c4695e345cdc144da14889267da39b5bad23",
@@ -5976,6 +7764,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/5d2292f26fb56dd8/gyeongju-ambassador-w647.webp"
+    },
+    "5d96a49c5760ab3c": {
+      "hash": "5d96a49c5760ab3c0e22b6252a7a76bc4d715de7bd388175a326e07785e70542",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/5d96a49c5760ab3c/search-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15576
+        },
+        {
+          "src": "assets/optimized/5d96a49c5760ab3c/search-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28696
+        },
+        {
+          "src": "assets/optimized/5d96a49c5760ab3c/search-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 52870
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/5d96a49c5760ab3c/search-w1200.webp"
     },
     "5dc820a70e905d44": {
       "hash": "5dc820a70e905d44b864d5ea9b2d1f3c9b0ac19040ebc223e3450b0f248b8ffe",
@@ -6243,6 +8061,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/654a133edb7af5a5/pretty-girl-w1440.webp"
     },
+    "6b114b028d1cdbe6": {
+      "hash": "6b114b028d1cdbe6b2a2ede6fdcccce9b9ade6835ddec1549b5f9af045941f43",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/6b114b028d1cdbe6/goyang-ambassador-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 18018
+        },
+        {
+          "src": "assets/optimized/6b114b028d1cdbe6/goyang-ambassador-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 33346
+        },
+        {
+          "src": "assets/optimized/6b114b028d1cdbe6/goyang-ambassador-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 58528
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/6b114b028d1cdbe6/goyang-ambassador-w1200.webp"
+    },
     "6bc53b5752a6b5f1": {
       "hash": "6bc53b5752a6b5f11c819e4f09d6fc8da820c4878208f249b5376437edf6a09b",
       "width": 512,
@@ -6322,6 +8170,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/6bf301e3bea18e0f/debut-era-w1440.webp"
+    },
+    "6f164e4a31d2db2b": {
+      "hash": "6f164e4a31d2db2b2237023b61995519bbeaf01c168743d0c8a969c7b188d945",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/6f164e4a31d2db2b/news-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 17232
+        },
+        {
+          "src": "assets/optimized/6f164e4a31d2db2b/news-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 31590
+        },
+        {
+          "src": "assets/optimized/6f164e4a31d2db2b/news-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 54892
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/6f164e4a31d2db2b/news-w1200.webp"
     },
     "703e7507f9e9bc11": {
       "hash": "703e7507f9e9bc11741dd046a221152328a62c8f18ceef055a89895939ae98ef",
@@ -6433,6 +8311,66 @@
       "skippedWidths": [],
       "default": "assets/optimized/78ade12270c43ad6/mubeat-earn-3-w1002.webp"
     },
+    "7a2e4c7210c5a2bd": {
+      "hash": "7a2e4c7210c5a2bd4355665aedd9cd56345dc0ed97697d07fea261465efaba4d",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/7a2e4c7210c5a2bd/contact-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15484
+        },
+        {
+          "src": "assets/optimized/7a2e4c7210c5a2bd/contact-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28442
+        },
+        {
+          "src": "assets/optimized/7a2e4c7210c5a2bd/contact-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 51918
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/7a2e4c7210c5a2bd/contact-w1200.webp"
+    },
+    "80d42af6b6c2c9ae": {
+      "hash": "80d42af6b6c2c9ae9562aa0851825272ce5ee5656cb2411f90bf3ff425c93db5",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/80d42af6b6c2c9ae/pretty-girl-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 18708
+        },
+        {
+          "src": "assets/optimized/80d42af6b6c2c9ae/pretty-girl-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 34534
+        },
+        {
+          "src": "assets/optimized/80d42af6b6c2c9ae/pretty-girl-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 63830
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/80d42af6b6c2c9ae/pretty-girl-release-w1200.webp"
+    },
     "80e99ff7ab1f3e7b": {
       "hash": "80e99ff7ab1f3e7ba274742f460cd63c7e5ab86d0ed73e7834b8e6f39181df90",
       "width": 1600,
@@ -6523,6 +8461,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/868fc2b9ca21d2b5/fancast-vote-1-w1014.webp"
     },
+    "89c7e710df60b7f7": {
+      "hash": "89c7e710df60b7f7641c5727825aa7853a25f61830176d72c57333ca82b89bfe",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/89c7e710df60b7f7/geoje-ambassador-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 22114
+        },
+        {
+          "src": "assets/optimized/89c7e710df60b7f7/geoje-ambassador-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 43696
+        },
+        {
+          "src": "assets/optimized/89c7e710df60b7f7/geoje-ambassador-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 77758
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/89c7e710df60b7f7/geoje-ambassador-w1200.webp"
+    },
     "8ba8500ee3feea68": {
       "hash": "8ba8500ee3feea68c2894097a01abc8ce6be3075bec3e404029c39aba21890f9",
       "width": 860,
@@ -6552,6 +8520,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/8ba8500ee3feea68/geoje-ambassador-w860.webp"
+    },
+    "8bd9cbca5f984e4d": {
+      "hash": "8bd9cbca5f984e4d5aa45ea964c07b53e88374d679688eabfacedc41c83aa556",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/8bd9cbca5f984e4d/love-attack-inkigayo-realtime-first-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 17128
+        },
+        {
+          "src": "assets/optimized/8bd9cbca5f984e4d/love-attack-inkigayo-realtime-first-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28802
+        },
+        {
+          "src": "assets/optimized/8bd9cbca5f984e4d/love-attack-inkigayo-realtime-first-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 51016
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/8bd9cbca5f984e4d/love-attack-inkigayo-realtime-first-w1200.webp"
     },
     "8f17034b22b807b8": {
       "hash": "8f17034b22b807b86fb022b7e868b7336cd7da31430965869c320da9cdb81cef",
@@ -6613,6 +8611,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/906c3608adea2aec/busy-boy-w1280.webp"
     },
+    "934d1a731fe2d5f7": {
+      "hash": "934d1a731fe2d5f7fd91ce309146994d4d2785a8cd08cf75c0a36e40f89ac29e",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/934d1a731fe2d5f7/fanbase-site-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 19934
+        },
+        {
+          "src": "assets/optimized/934d1a731fe2d5f7/fanbase-site-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 35004
+        },
+        {
+          "src": "assets/optimized/934d1a731fe2d5f7/fanbase-site-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 60730
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/934d1a731fe2d5f7/fanbase-site-w1200.webp"
+    },
     "946eb258050dbeea": {
       "hash": "946eb258050dbeea953df20f5a42836a1cc280f060bad5a10eff39a2964a8299",
       "width": 1014,
@@ -6643,6 +8671,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/946eb258050dbeea/fancast-earn-2-w1014.webp"
     },
+    "94a8ed6c67544760": {
+      "hash": "94a8ed6c67544760422a763226a4ce7709d210a2578ad16fe6855f29ab31dddd",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/94a8ed6c67544760/pinball-japanese-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 13336
+        },
+        {
+          "src": "assets/optimized/94a8ed6c67544760/pinball-japanese-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 23160
+        },
+        {
+          "src": "assets/optimized/94a8ed6c67544760/pinball-japanese-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 41600
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/94a8ed6c67544760/pinball-japanese-release-w1200.webp"
+    },
     "94ce4c0204ee1dcf": {
       "hash": "94ce4c0204ee1dcf234d3a6f29982e7241112f50e983d596b5095055963c3638",
       "width": 1024,
@@ -6672,36 +8730,6 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/94ce4c0204ee1dcf/idolchamp-earn-1-w1024.webp"
-    },
-    "94e22dd5d844e25c": {
-      "hash": "94e22dd5d844e25cfac6e40ae0c7a03d9353bcdf94d27836e8b6f9eeb06735bf",
-      "width": 2048,
-      "height": 1639,
-      "format": "jpg",
-      "alpha": false,
-      "quality": 84,
-      "variants": [
-        {
-          "src": "assets/optimized/94e22dd5d844e25c/woni-w480.webp",
-          "width": 480,
-          "height": 384,
-          "bytes": 27130
-        },
-        {
-          "src": "assets/optimized/94e22dd5d844e25c/woni-w768.webp",
-          "width": 768,
-          "height": 615,
-          "bytes": 50938
-        },
-        {
-          "src": "assets/optimized/94e22dd5d844e25c/woni-w1440.webp",
-          "width": 1440,
-          "height": 1152,
-          "bytes": 155338
-        }
-      ],
-      "skippedWidths": [],
-      "default": "assets/optimized/94e22dd5d844e25c/woni-w1440.webp"
     },
     "963879f527005a22": {
       "hash": "963879f527005a22c68c634aa07cc6814863d7b2c3b72a899d687412ab9421bd",
@@ -6873,6 +8901,36 @@
       ],
       "default": "assets/optimized/9be43c500015e87b/6ttsznkysbc-w768.webp"
     },
+    "9c3ac43ca03b6c80": {
+      "hash": "9c3ac43ca03b6c80715351c76b9c7f73fdd1f90710d5cafef5e751926d5301b5",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/9c3ac43ca03b6c80/rescene-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 21730
+        },
+        {
+          "src": "assets/optimized/9c3ac43ca03b6c80/rescene-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 37862
+        },
+        {
+          "src": "assets/optimized/9c3ac43ca03b6c80/rescene-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 68490
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/9c3ac43ca03b6c80/rescene-release-w1200.webp"
+    },
     "9d288951a211cf7e": {
       "hash": "9d288951a211cf7e52c67a5c46b727169c4aafdb0379d4ac58a68be5180938e2",
       "width": 1280,
@@ -6928,6 +8986,36 @@
         1280
       ],
       "default": "assets/optimized/9d9849284f86773a/youtube-w768.webp"
+    },
+    "9e60b4d63362d9a1": {
+      "hash": "9e60b4d63362d9a14e7a478b85d8254f6e46d3fd656faa600dc6f9186c7ee7fe",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/9e60b4d63362d9a1/second-anniversary-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 20874
+        },
+        {
+          "src": "assets/optimized/9e60b4d63362d9a1/second-anniversary-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 39466
+        },
+        {
+          "src": "assets/optimized/9e60b4d63362d9a1/second-anniversary-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 76460
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/9e60b4d63362d9a1/second-anniversary-w1200.webp"
     },
     "a2d99454b93da480": {
       "hash": "a2d99454b93da480517d1c7d47da6943d9507c9c307207d0000194c51a143ca7",
@@ -7363,6 +9451,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/b15a7cabad71cfed/debut-2nd-anniversary-w1440.webp"
     },
+    "bbf0b4e13886c3d8": {
+      "hash": "bbf0b4e13886c3d8e5375866e2590aabbb4a15bdf359a1b07fa60ec4a49aec78",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/bbf0b4e13886c3d8/lip-bomb-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 28232
+        },
+        {
+          "src": "assets/optimized/bbf0b4e13886c3d8/lip-bomb-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 53748
+        },
+        {
+          "src": "assets/optimized/bbf0b4e13886c3d8/lip-bomb-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 98714
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/bbf0b4e13886c3d8/lip-bomb-release-w1200.webp"
+    },
     "bdf4598ab1f12a5f": {
       "hash": "bdf4598ab1f12a5f2e59c16521c9eec7fd9698556857886028fbc33c3b9c4d64",
       "width": 937,
@@ -7392,6 +9510,66 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/bdf4598ab1f12a5f/the-show-first-win-w937.webp"
+    },
+    "be274d6474f7b38c": {
+      "hash": "be274d6474f7b38c2481073d29d34fe78ec05033af1e57e9d462371ace16f393",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/be274d6474f7b38c/youtube-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 16850
+        },
+        {
+          "src": "assets/optimized/be274d6474f7b38c/youtube-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 31358
+        },
+        {
+          "src": "assets/optimized/be274d6474f7b38c/youtube-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 58754
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/be274d6474f7b38c/youtube-w1200.webp"
+    },
+    "c0284a343c5474d3": {
+      "hash": "c0284a343c5474d39d876d16d14bb87b72747be71612df530fbe23402c32ab1c",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/c0284a343c5474d3/busy-boy-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 22012
+        },
+        {
+          "src": "assets/optimized/c0284a343c5474d3/busy-boy-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 40260
+        },
+        {
+          "src": "assets/optimized/c0284a343c5474d3/busy-boy-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 72724
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/c0284a343c5474d3/busy-boy-release-w1200.webp"
     },
     "c1553807202ce3fc": {
       "hash": "c1553807202ce3fcd9659b04571a41b2d8c20c75bbae7a61ef3e5e0b0359d041",
@@ -7494,6 +9672,36 @@
         1280
       ],
       "default": "assets/optimized/d12680a96965a2e2/wm1vxmk5yty-w768.webp"
+    },
+    "d219c2db36b12d8e": {
+      "hash": "d219c2db36b12d8ef31c885ff8134c290acfb9ef4afb767cf2b5c1d8b23d2b90",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/d219c2db36b12d8e/schedule-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15758
+        },
+        {
+          "src": "assets/optimized/d219c2db36b12d8e/schedule-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 29270
+        },
+        {
+          "src": "assets/optimized/d219c2db36b12d8e/schedule-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 53902
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/d219c2db36b12d8e/schedule-w1200.webp"
     },
     "d223325c094f51d2": {
       "hash": "d223325c094f51d221a0d16172fabc453b75982cd90070dbc23dc1f59127c5b6",
@@ -7615,6 +9823,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/d2dd3d0d18bab28d/bigc-earn-1-w1014.webp"
     },
+    "d62265c3d18fb5b3": {
+      "hash": "d62265c3d18fb5b3b8af0928567ba73e26133ea261b0feb8660bd1a23eb37bf8",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/d62265c3d18fb5b3/home-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 18678
+        },
+        {
+          "src": "assets/optimized/d62265c3d18fb5b3/home-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 32430
+        },
+        {
+          "src": "assets/optimized/d62265c3d18fb5b3/home-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 60896
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/d62265c3d18fb5b3/home-w1200.webp"
+    },
     "d80d755a6ce54b21": {
       "hash": "d80d755a6ce54b21f172b109334b5d3d32338fa0d8351ebe1713ffbc4111aa0c",
       "width": 1280,
@@ -7640,6 +9878,36 @@
         1280
       ],
       "default": "assets/optimized/d80d755a6ce54b21/gu_4j16n2fy-w768.webp"
+    },
+    "dbec2bc4e360d6dc": {
+      "hash": "dbec2bc4e360d6dc9cc3a402df334a09fa17af05bc9b786e45f6bdf0a9b9bf6a",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/dbec2bc4e360d6dc/chants-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 16448
+        },
+        {
+          "src": "assets/optimized/dbec2bc4e360d6dc/chants-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 30764
+        },
+        {
+          "src": "assets/optimized/dbec2bc4e360d6dc/chants-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 57272
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/dbec2bc4e360d6dc/chants-w1200.webp"
     },
     "dca1f20e7f7ef971": {
       "hash": "dca1f20e7f7ef971cd3fa0842cd22a9d095f4519ed4c82b2a23e4a07091280f7",
@@ -7718,6 +9986,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/e0ab552682bcc422/vote-points-summary-w1440.webp"
+    },
+    "e206d9bed0099fbd": {
+      "hash": "e206d9bed0099fbd53dbfe94fc94974afb7df28da4df9f85b4fcdf74e5409b60",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/e206d9bed0099fbd/404-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 15688
+        },
+        {
+          "src": "assets/optimized/e206d9bed0099fbd/404-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 28722
+        },
+        {
+          "src": "assets/optimized/e206d9bed0099fbd/404-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 53636
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/e206d9bed0099fbd/404-w1200.webp"
     },
     "e3a76a3752846559": {
       "hash": "e3a76a37528465591894c01d90eacbe164e5b48cb4797651d5360725be37fc8e",
@@ -7953,6 +10251,66 @@
       "skippedWidths": [],
       "default": "assets/optimized/edc39ea4428ca2ac/mubeat-vote-1-w1179.webp"
     },
+    "eee4ebc8c3ea74da": {
+      "hash": "eee4ebc8c3ea74da8a1b564b02dea2fc71691588c63043e8402708511c9a0435",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/eee4ebc8c3ea74da/glow-up-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 18492
+        },
+        {
+          "src": "assets/optimized/eee4ebc8c3ea74da/glow-up-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 30296
+        },
+        {
+          "src": "assets/optimized/eee4ebc8c3ea74da/glow-up-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 54976
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/eee4ebc8c3ea74da/glow-up-release-w1200.webp"
+    },
+    "ef736c647017c157": {
+      "hash": "ef736c647017c15787dabb6955eef2984262aff492acd327b15167240aafac69",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/ef736c647017c157/dearest-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 18146
+        },
+        {
+          "src": "assets/optimized/ef736c647017c157/dearest-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 32234
+        },
+        {
+          "src": "assets/optimized/ef736c647017c157/dearest-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 56810
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/ef736c647017c157/dearest-release-w1200.webp"
+    },
     "f25db4568a01a0fe": {
       "hash": "f25db4568a01a0fe6bba9596efa6bfd8ca11a085f8037c343345a3cae5cfa689",
       "width": 512,
@@ -8033,6 +10391,66 @@
       ],
       "default": "assets/optimized/f3a2857a43dc9a7f/bhgnit3qqgu-w768.webp"
     },
+    "f57af44cf51c3109": {
+      "hash": "f57af44cf51c31094e39a3f6a41fc80b6ed6e4e5521327f3b68600c76f4e25c3",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/f57af44cf51c3109/gyeongju-ambassador-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 16842
+        },
+        {
+          "src": "assets/optimized/f57af44cf51c3109/gyeongju-ambassador-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 30186
+        },
+        {
+          "src": "assets/optimized/f57af44cf51c3109/gyeongju-ambassador-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 51022
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/f57af44cf51c3109/gyeongju-ambassador-w1200.webp"
+    },
+    "fb6e040048f3e88c": {
+      "hash": "fb6e040048f3e88c2776db28b6e9d9357a75f93da4fe7dba269105c2bb1be162",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/fb6e040048f3e88c/scenedrome-release-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 17158
+        },
+        {
+          "src": "assets/optimized/fb6e040048f3e88c/scenedrome-release-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 29270
+        },
+        {
+          "src": "assets/optimized/fb6e040048f3e88c/scenedrome-release-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 51660
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/fb6e040048f3e88c/scenedrome-release-w1200.webp"
+    },
     "fbcfd7812fbd3085": {
       "hash": "fbcfd7812fbd3085f0e3ab07bc8ceea20b84be577e571873e2aa476d46e146a5",
       "width": 1024,
@@ -8088,6 +10506,36 @@
         1280
       ],
       "default": "assets/optimized/fcf58f78944dc729/dvx4jnqqls4-w768.webp"
+    },
+    "fe692f924ea3e195": {
+      "hash": "fe692f924ea3e1959e6cb06857f6778c1cde206b41ead4f381b33d4ac93da1dc",
+      "width": 1200,
+      "height": 630,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/fe692f924ea3e195/discography-w480.webp",
+          "width": 480,
+          "height": 252,
+          "bytes": 16460
+        },
+        {
+          "src": "assets/optimized/fe692f924ea3e195/discography-w768.webp",
+          "width": 768,
+          "height": 403,
+          "bytes": 30632
+        },
+        {
+          "src": "assets/optimized/fe692f924ea3e195/discography-w1200.webp",
+          "width": 1200,
+          "height": 630,
+          "bytes": 57600
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/fe692f924ea3e195/discography-w1200.webp"
     }
   }
 }
