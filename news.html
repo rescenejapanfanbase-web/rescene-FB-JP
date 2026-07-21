@@ -32,8 +32,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
-<script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
 <link rel="stylesheet" href="css/common.css">
+<!-- APP-HEAD-START -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icons/app-icon-192.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="application-name" content="RESCENE FB">
+<script>(()=>{try{const saved=localStorage.getItem('rescene-theme-mode')||localStorage.getItem('rescene-theme')||'system';const mode=['system','light','dark'].includes(saved)?saved:'system';const light=mode==='light'||(mode==='system'&&matchMedia('(prefers-color-scheme: light)').matches);document.documentElement.classList.toggle('light-mode',light);document.documentElement.dataset.theme=light?'light':'dark';document.documentElement.dataset.themePreference=mode;}catch(e){}})();</script>
+<!-- APP-HEAD-END -->
 </head>
 <body class="page-news">
 <!-- SITE-HEADER-START -->
@@ -74,12 +82,12 @@
 <section class="section"><div class="filter-row" role="group" aria-label="ニュース絞り込み"><button class="filter active" data-filter="all" aria-pressed="true">すべて</button><button class="filter" data-filter="release" aria-pressed="false">リリース</button><button class="filter" data-filter="event" aria-pressed="false">イベント</button><button class="filter" data-filter="notice" aria-pressed="false">お知らせ</button><button class="filter" data-filter="ambassador" aria-pressed="false">広報大使</button></div><div class="news-grid" id="allNews"></div></section>
 </main>
 <!-- SITE-FOOTER-START -->
-<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
+<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="favorites.html">FAVORITES</a><a href="updates.html">UPDATES</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
 <!-- SITE-FOOTER-END -->
 <script src="js/common.js"></script>
 <script src="data/news-data.js"></script><script>
 
-(()=>{const grid=document.getElementById('allNews'),buttons=[...document.querySelectorAll('.filter')];if(!grid||!window.RESCENE_NEWS)return;const draw=f=>{const rows=f==='all'?RESCENE_NEWS:RESCENE_NEWS.filter(n=>n.category===f);grid.innerHTML=rows.map(n=>{const href=`articles/${encodeURIComponent(n.slug)}.html`;return `<article class="news-card"><a class="news-thumb" href="${href}"><img src="${n.image}" alt="${n.title}" loading="lazy"></a><div class="news-card-content"><div class="news-meta"><span class="news-date">${n.date}</span><span class="badge">${n.label}</span></div><div class="news-title"><a href="${href}">${n.title}</a></div><div class="news-text">${n.text}</div><a class="news-detail-link" href="${href}">詳細を見る →</a></div></article>`}).join('')};buttons.forEach(b=>b.addEventListener('click',()=>{buttons.forEach(x=>{x.classList.remove('active');x.setAttribute('aria-pressed','false')});b.classList.add('active');b.setAttribute('aria-pressed','true');draw(b.dataset.filter)}));draw('all')})();
+(()=>{const grid=document.getElementById('allNews'),buttons=[...document.querySelectorAll('.filter')];if(!grid||!window.RESCENE_NEWS)return;const draw=f=>{const rows=f==='all'?RESCENE_NEWS:RESCENE_NEWS.filter(n=>n.category===f);grid.innerHTML=rows.map(n=>{const href=`articles/${encodeURIComponent(n.slug)}.html`;return `<article class="news-card"><a class="news-thumb" href="${href}"><img src="${n.image}" alt="${n.title}" loading="lazy"></a><div class="news-card-content"><div class="news-meta"><span class="news-date">${n.date}</span><span class="badge">${n.label}</span></div><div class="news-title"><a href="${href}">${n.title}</a></div><div class="news-text">${n.text}</div><div class="card-utility-row"><a class="news-detail-link" href="${href}">詳細を見る →</a><button class="share-button" type="button" data-share-action="x" data-share-title="${n.title}" data-share-text="${n.date} ${n.title}" data-share-url="${new URL(href,document.baseURI).href}">Xで共有</button><button class="share-button" type="button" data-share-action="copy" data-share-title="${n.title}" data-share-url="${new URL(href,document.baseURI).href}">URLコピー</button></div></div></article>`}).join('');window.RESCENE_SHARE?.bind(grid);document.dispatchEvent(new CustomEvent('rescene:content-rendered'))};buttons.forEach(b=>b.addEventListener('click',()=>{buttons.forEach(x=>{x.classList.remove('active');x.setAttribute('aria-pressed','false')});b.classList.add('active');b.setAttribute('aria-pressed','true');draw(b.dataset.filter)}));draw('all')})();
 
 </script>
 <script src="js/image-optimizer.js"></script>

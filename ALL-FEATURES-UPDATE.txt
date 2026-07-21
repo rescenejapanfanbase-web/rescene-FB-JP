@@ -1,0 +1,33 @@
+RESCENE JAPAN FANBASE 全機能一括強化
+作成日: 2026-07-22
+
+追加・完成した機能:
+1. 自動バックアップをArtifact＋GitHub Releaseの二重保存へ強化
+2. NotionニュースからX・LINE投稿文を自動生成
+3. Notionの非公開記事・予定をActions Artifactで安全にプレビュー
+4. ニュース記事下に関連記事を自動表示
+5. メンバー・掛け声・投票ガイドのお気に入り保存
+6. PWA・ホーム画面追加・専用アイコン・主要ページのオフライン表示
+7. 端末設定連動＋手動3段階切り替えのテーマ機能
+8. ニュースと予定のX・LINE・共有・URLコピー
+9. GA4による人気ページ・端末比率・記事・流入元・操作イベント計測
+10. MV新規候補を自動公開せず、確認後にNotionから公開する承認フロー
+11. サイト更新履歴ページの自動生成
+
+新しい管理ページ:
+- social-posts.html
+- mv-review.html
+- analytics.html
+- sync-status.html 内の追加管理リンク
+
+新しい公開ページ:
+- favorites.html
+- updates.html
+
+新しいActions:
+- Build Notion Content Preview
+- Weekly Site BackupのRelease長期保存
+
+GA4を有効化する場合:
+GitHub Actions Variablesへ GA_MEASUREMENT_ID を追加してください。
+値はGoogle Analyticsの「G-」から始まる測定IDです。

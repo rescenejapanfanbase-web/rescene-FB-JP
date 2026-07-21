@@ -64,3 +64,15 @@ Gitで管理されているファイルのみをバックアップします。
 ArtifactをダウンロードするにはGitHubへのログインとリポジトリの閲覧権限が必要です。
 バックアップ作成前のサイト内チェックが失敗しても、現状を失わないためZIP作成は継続します。
 その場合はBACKUP-INFO.txtの「サイト内チェック」がfailureになります。
+
+【長期保存用GitHub Release】
+2026年7月22日以降は、毎週のバックアップをActions Artifactだけでなく、GitHub Releasesのプレリリースにも保存します。
+- Releaseタグ: site-backup-YYYYMMDD-HHMM-コミット
+- 保持数: 最新26世代
+- 26世代を超えた古いバックアップReleaseは自動削除
+- 手動実行時は「GitHub Releaseにも長期保存する」をオフにするとArtifactだけを作成可能
+
+【二段階の復元】
+- 直近90日: Actions Artifact
+- 約半年: GitHub Releases
+- コミットが分かる場合: Roll Back Siteワークフロー

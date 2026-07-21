@@ -1,0 +1,77 @@
+RESCENE JAPAN FANBASE
+全機能一括強化版 GitHub上書き手順
+作成日: 2026-07-22
+
+【アップロード】
+1. rescene-FB-JP-all-features-update.zip を展開します。
+2. ZIP内のファイルとフォルダをすべて選択します。
+3. GitHubの rescene-FB-JP リポジトリを開きます。
+4. Add file → Upload files を開きます。
+5. 展開した中身をリポジトリ直下へアップロードします。
+6. 同名ファイルはそのまま上書きします。
+7. Commit directly to the main branch を選択して保存します。
+8. Actions → Sync All Site Content → Run workflow を実行します。
+
+【公開後に確認するページ】
+・sync-status.html：同期・管理機能の入口
+・favorites.html：端末内のお気に入り
+・updates.html：サイト更新履歴
+・social-posts.html：ニュース用SNS投稿文
+・mv-review.html：自動検出したMV候補
+・analytics.html：アクセス解析の設定状況
+
+【新機能】
+・毎週のサイトZIPをActions ArtifactとGitHub Releaseへ二重保存
+・NotionニュースからX投稿文とLINE向け文章を自動生成
+・Notionの非公開ニュース・予定を公開せずArtifactでプレビュー
+・ニュース記事下の関連記事自動表示
+・メンバー、掛け声、投票ガイドのお気に入り保存
+・PWA、ホーム画面追加、専用アイコン、主要ページのオフライン表示
+・端末設定連動＋ライト／ダーク手動切り替え
+・ニュースと予定の共有、X、LINE、URLコピー
+・GA4アクセス解析連携
+・新しいMV候補を確認後にNotionから公開する承認フロー
+・サイト更新履歴の自動生成
+
+【任意：GA4を有効化】
+1. Google AnalyticsでGA4プロパティとウェブデータストリームを作成します。
+2. 「G-」から始まる測定IDを確認します。
+3. GitHub → Settings → Secrets and variables → Actions → Variables を開きます。
+4. GA_MEASUREMENT_ID という名前で測定IDを登録します。
+5. Sync All Site Contentを再実行します。
+
+測定IDを登録しなくてもサイトは正常に動作します。
+登録した場合、人気ページ、端末比率、流入元、検索、共有、お気に入り、
+カレンダー追加、PWA、テーマ変更などをGA4で確認できます。
+
+【公開前プレビュー】
+Actions → Build Notion Content Preview → Run workflow
+実行後、Artifactsの notion-content-preview をダウンロードします。
+Notionで「公開」がオフのニュース・予定と、画像・日付・URLなどの不足を確認できます。
+下書きデータは公開サイトへ保存されません。
+
+【MV候補の公開】
+1. Sync MV Listを実行します。
+2. mv-review.htmlで確認待ち候補を確認します。
+3. 公開する動画をNotionのMV管理へ登録します。
+4. 「掲載状態」を「表示」にします。
+5. 再度Sync MV Listを実行します。
+「除外」にした動画は公開されません。
+
+【バックアップ】
+Actions → Weekly Site Backup から手動実行もできます。
+・Artifact：90日保存
+・GitHub Release：最新26世代を保存
+・誤削除時はRollback Siteから復元できます。
+
+【PWA】
+公開後にスマホでサイトを開くと、対応環境ではホーム画面追加案内が表示されます。
+iPhoneはSafariの共有メニュー → ホーム画面に追加から登録できます。
+オフライン時は保存済みの主要ページと専用オフラインページを表示します。
+
+【検査結果】
+・公開前検査 9項目すべて合格
+・HTML 43ページ／警告0件
+・サイト内参照 2804件正常
+・JSON 27件正常
+・GitHub Actions Workflow 23件正常

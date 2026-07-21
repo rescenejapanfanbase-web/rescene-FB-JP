@@ -34,8 +34,16 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&amp;family=Noto+Sans+JP:wght@400;700;900&amp;display=swap" rel="stylesheet"/>
-<script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
 <link rel="stylesheet" href="css/common.css">
+<!-- APP-HEAD-START -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icons/app-icon-192.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="application-name" content="RESCENE FB">
+<script>(()=>{try{const saved=localStorage.getItem('rescene-theme-mode')||localStorage.getItem('rescene-theme')||'system';const mode=['system','light','dark'].includes(saved)?saved:'system';const light=mode==='light'||(mode==='system'&&matchMedia('(prefers-color-scheme: light)').matches);document.documentElement.classList.toggle('light-mode',light);document.documentElement.dataset.theme=light?'light':'dark';document.documentElement.dataset.themePreference=mode;}catch(e){}})();</script>
+<!-- APP-HEAD-END -->
 </head>
 <body class="page-schedule">
 <!-- SITE-HEADER-START -->
@@ -73,7 +81,7 @@
 <!-- SITE-HEADER-END -->
 <main class="container"><section class="page-header section" id="top"><span class="page-kicker">SCHEDULE</span><h1>スケジュール</h1><p>RESCENEのリリース、出演、記念日、メンバーの誕生日をカレンダーで確認できます。</p></section><section class="section"><div class="calendar-subscribe card"><div class="calendar-subscribe-copy"><span class="section-kicker">CALENDAR SUBSCRIPTION</span><h2>すべての予定をカレンダーで受け取る</h2><p>購読すると、Notionで公開された新しい予定や変更がカレンダーへ反映されます。</p></div><div class="calendar-subscribe-actions"><a class="btn calendar-apple" href="webcal://rescene-fb.jp/data/rescene-schedule.ics">Appleで購読</a><button class="btn calendar-google" id="googleCalendarSubscribe" type="button">Googleで購読</button><a class="btn calendar-copy" href="data/rescene-schedule.ics" download="RESCENE-JAPAN-FANBASE-Schedule.ics">ICSを保存</a></div><p class="calendar-subscribe-status" id="calendarSubscribeStatus" aria-live="polite"></p><p class="calendar-help"><strong>Googleの全予定購読：</strong>購読URLをコピーしてGoogleカレンダーの登録画面を開きます。全予定の購読はPCブラウザで行ってください。各予定の個別追加はスマホでも利用できます。</p></div></section><section class="section" aria-labelledby="schedule-category-title"><div class="schedule-category-panel card"><div><span class="section-kicker">CATEGORY</span><h2 id="schedule-category-title">カテゴリー</h2><p>Notionで設定したカテゴリー名をそのまま表示しています。選択するとカレンダーと登録済み予定を絞り込めます。</p></div><div class="schedule-category-filters" id="scheduleCategoryFilters" role="group" aria-label="予定カテゴリー"></div></div></section><section class="section"><div class="calendar-shell card"><div class="calendar-toolbar"><button aria-label="前の月" id="prevMonth" type="button">←</button><h2 id="calendarTitle"></h2><button aria-label="次の月" id="nextMonth" type="button">→</button></div><div aria-hidden="true" class="calendar-weekdays"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div><div class="calendar-grid" id="calendarGrid"></div></div></section><section class="section"><div class="section-head"><div><span class="section-kicker">EVENTS</span><h2 class="section-title">登録済みの予定</h2></div></div><div class="schedule-list" id="scheduleEvents"></div></section><section aria-labelledby="weekly-music-show-title" class="section"><div class="section-head"><div><span class="section-kicker">MUSIC SHOW WEEK</span><h2 class="section-title" id="weekly-music-show-title">音楽番組スケジュール</h2></div></div><div class="schedule-image-grid schedule-image-grid-single"><article class="card schedule-photo-card"><figure><img alt="RESCENEの音楽番組週間スケジュール" height="900" loading="lazy" src="schedule/music-show-schedule.png" width="1600"/><figcaption><span class="badge">WEEKLY SCHEDULE</span><h3>音楽番組スケジュール</h3><p>1週間の出演・投票タイミングをまとめた画像です。最新の予定は公式案内もあわせてご確認ください。</p></figcaption></figure></article></div></section></main>
 <!-- SITE-FOOTER-START -->
-<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
+<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="favorites.html">FAVORITES</a><a href="updates.html">UPDATES</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
 <!-- SITE-FOOTER-END -->
 <script src="js/common.js"></script>
 <script src="data/schedule-data.js"></script>
@@ -385,7 +393,7 @@
       const external = /^https?:\/\//i.test(link);
       const action = link ? `<a class="btn btn-secondary" href="${escapeHtml(link)}"${external ? ' target="_blank" rel="noopener noreferrer"' : ""}>${escapeHtml(event.linkLabel || "詳細を見る")}${external ? " ↗" : ""}</a>` : "";
       const linkHint = link ? `<span class="schedule-link-available">関連リンクあり</span>` : "";
-      const calendarActions = `<div class="schedule-actions"><a class="btn calendar-google" href="${escapeHtml(googleCalendarLink(event))}" target="_blank" rel="noopener noreferrer">Googleカレンダー</a><button class="btn calendar-apple event-ics-button" type="button" data-event-id="${escapeHtml(event.id || "")}">Apple・ICS</button>${action}</div>`;
+      const eventUrl=eventPageLink(event); const shareText=`${String(event.start||event.date||'').slice(0,10)} ${event.title||'RESCENE予定'}`; const calendarActions = `<div class="schedule-actions"><a class="btn calendar-google" href="${escapeHtml(googleCalendarLink(event))}" data-calendar-add="google" data-event-id="${escapeHtml(event.id||'')}" target="_blank" rel="noopener noreferrer">Googleカレンダー</a><button class="btn calendar-apple event-ics-button" type="button" data-event-id="${escapeHtml(event.id || "")}">Apple・ICS</button>${action}</div><div class="share-actions"><span class="share-actions-label">この予定を共有</span><button class="share-button" type="button" data-share-action="native" data-share-title="${escapeHtml(event.title)}" data-share-text="${escapeHtml(shareText)}" data-share-url="${escapeHtml(eventUrl)}">共有</button><button class="share-button" type="button" data-share-action="x" data-share-title="${escapeHtml(event.title)}" data-share-text="${escapeHtml(shareText)}" data-share-url="${escapeHtml(eventUrl)}">X</button><button class="share-button" type="button" data-share-action="line" data-share-title="${escapeHtml(event.title)}" data-share-text="${escapeHtml(shareText)}" data-share-url="${escapeHtml(eventUrl)}">LINE</button><button class="share-button" type="button" data-share-action="copy" data-share-title="${escapeHtml(event.title)}" data-share-url="${escapeHtml(eventUrl)}">URLコピー</button></div>`;
       const imageBlock = image ? `<figure class="schedule-detail-image"><img src="${escapeHtml(image)}" alt="${escapeHtml(event.title)}" loading="lazy"></figure>` : "";
       const description = escapeHtml(event.description || "詳細は公式案内もあわせてご確認ください。").replace(/\n/g, "<br>");
       const isRequested = requestedEventId && String(event.id || "") === requestedEventId;
@@ -393,6 +401,7 @@
       const category = categoryName(event);
       return `<details class="schedule-row card" id="${eventAnchor(event.id)}" ${isOpen ? "open" : ""}><summary><div class="schedule-date"><strong>${String(date.getMonth() + 1).padStart(2, "0")}.${String(date.getDate()).padStart(2, "0")}</strong><span>${date.toLocaleDateString("ja-JP", { weekday: "short" })}</span></div><div><div class="schedule-category-field">カテゴリー <span class="schedule-category-badge" style="${categoryStyle(event)}">${escapeHtml(category)}</span></div><h2>${escapeHtml(event.title)}</h2><p>${description}</p><div class="schedule-row-meta">${time ? `<span class="schedule-time">${escapeHtml(time)}</span>` : ""}${linkHint}</div></div></summary><div class="schedule-detail">${imageBlock}<p>${description}</p>${calendarActions}</div></details>`;
     }).join("");
+    window.RESCENE_SHARE?.bind(list);document.dispatchEvent(new CustomEvent("rescene:content-rendered"));
     if (requestedEventId) requestAnimationFrame(() => document.getElementById(eventAnchor(requestedEventId))?.scrollIntoView({ behavior: "smooth", block: "center" }));
   }
 
@@ -401,8 +410,10 @@
     if (!button) return;
     const currentEvents = eventsForYears(view.getFullYear() - 1, view.getFullYear(), view.getFullYear() + 1);
     const selected = currentEvents.find((item) => String(item.id || "") === String(button.dataset.eventId || ""));
-    if (selected) downloadEventIcs(selected);
+    if (selected) { downloadEventIcs(selected); window.RESCENE_ANALYTICS?.track?.("calendar_add",{method:"ics",event_title:selected.title||""}); }
   });
+
+  list.addEventListener("click",event=>{const link=event.target.closest("[data-calendar-add=google]");if(link){const selected=eventsForYears(view.getFullYear()-1,view.getFullYear(),view.getFullYear()+1).find(item=>String(item.id||"")===String(link.dataset.eventId||""));window.RESCENE_ANALYTICS?.track?.("calendar_add",{method:"google",event_title:selected?.title||""});}});
 
   const subscribeButton = document.getElementById("googleCalendarSubscribe");
   const subscribeStatus = document.getElementById("calendarSubscribeStatus");

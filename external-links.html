@@ -32,7 +32,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/common.css">
-<script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
 <style>
 .external-hero{position:relative;overflow:hidden}.external-hero::after{content:'LINKS';position:absolute;right:-10px;bottom:-35px;font-size:clamp(4.8rem,14vw,9rem);line-height:1;color:rgba(118,214,255,.05);font-weight:900;pointer-events:none}.external-hero p{max-width:760px}.external-title-sub{margin-left:.16em}.external-load-status{margin-top:20px;padding:12px 15px;border:1px solid var(--border);border-radius:14px;background:var(--soft-bg);font-size:.78rem;font-weight:800;line-height:1.6}.external-load-status.is-success{color:var(--green);border-color:rgba(142,227,193,.26);background:rgba(142,227,193,.07)}.external-load-status.is-warning{color:#ffe29a;border-color:rgba(255,211,110,.22);background:rgba(255,211,110,.07)}.external-load-status.is-error{color:#ffb1bf;border-color:rgba(255,113,137,.24);background:rgba(255,113,137,.08)}
 .external-summary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.external-summary-card{padding:20px;min-width:0}.external-summary-card span{display:block;color:var(--muted);font-size:.67rem;font-weight:900;letter-spacing:.08em}.external-summary-card strong{display:block;margin-top:8px;font-size:clamp(1.7rem,5vw,2.5rem);line-height:1}.external-summary-card small{display:block;margin-top:8px;color:var(--muted);font-size:.7rem;overflow-wrap:anywhere}.external-summary-card.is-error strong{color:#ff8ca0}.external-summary-card.is-warning strong{color:#ffd36e}.external-summary-card.is-success strong{color:var(--green)}
@@ -42,6 +41,15 @@ html.light-mode .external-load-status.is-warning{color:#765600}html.light-mode .
 @media(max-width:719px){.external-hero h1{font-size:2.35rem;line-height:1.12}.external-title-sub{display:block;margin-left:0}html,body{max-width:100%;overflow-x:clip}.nav{gap:8px;min-width:0}.logo{min-width:0;max-width:145px;flex:1 1 auto;overflow:visible;white-space:normal;font-size:.67rem;line-height:1.05;letter-spacing:.025em}.logo span{display:block;font-size:.98rem;line-height:1.05}.nav-actions{flex:0 0 auto;gap:6px}.search-toggle{width:36px;height:36px}.external-summary-card{padding:16px}.external-result{padding:16px}.external-result-head{align-items:flex-start}}@media(max-width:340px){.external-hero h1{font-size:2.05rem}.logo{max-width:118px;font-size:.6rem;letter-spacing:.01em}.logo span{font-size:.88rem}}
 </style>
 <style id="site-search-link-style">.search-toggle{width:40px;height:40px;border:1px solid var(--border);background:var(--soft-bg);color:var(--text);border-radius:999px;display:grid;place-items:center;transition:.2s;flex:0 0 auto}.search-toggle:hover{color:var(--pink);border-color:rgba(255,111,174,.5);transform:translateY(-1px)}.search-toggle svg{width:19px;height:19px;fill:currentColor}.mobile-menu>a.mobile-search-link{color:var(--pink-soft,var(--pink))}</style>
+<!-- APP-HEAD-START -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icons/app-icon-192.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="application-name" content="RESCENE FB">
+<script>(()=>{try{const saved=localStorage.getItem('rescene-theme-mode')||localStorage.getItem('rescene-theme')||'system';const mode=['system','light','dark'].includes(saved)?saved:'system';const light=mode==='light'||(mode==='system'&&matchMedia('(prefers-color-scheme: light)').matches);document.documentElement.classList.toggle('light-mode',light);document.documentElement.dataset.theme=light?'light':'dark';document.documentElement.dataset.themePreference=mode;}catch(e){}})();</script>
+<!-- APP-HEAD-END -->
 </head>
 <body>
 <!-- SITE-HEADER-START -->
@@ -85,7 +93,7 @@ html.light-mode .external-load-status.is-warning{color:#765600}html.light-mode .
 <section class="section"><div class="card external-note-card"><span class="section-kicker">HOW TO READ</span><h2 class="section-title">判定について</h2><ul id="externalNotes"></ul></div></section>
 </main>
 <!-- SITE-FOOTER-START -->
-<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">外部サービスの公開状態を自動確認しています。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
+<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="favorites.html">FAVORITES</a><a href="updates.html">UPDATES</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">外部サービスの公開状態を自動確認しています。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
 <!-- SITE-FOOTER-END -->
 <script src="js/common.js"></script>
 <script src="js/external-links.js"></script><script src="js/image-optimizer.js"></script>

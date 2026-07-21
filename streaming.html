@@ -32,8 +32,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
-<script>try{if(localStorage.getItem('rescene-theme')==='light')document.documentElement.classList.add('light-mode')}catch(e){}</script>
 <link rel="stylesheet" href="css/common.css">
+<!-- APP-HEAD-START -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icons/app-icon-192.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="application-name" content="RESCENE FB">
+<script>(()=>{try{const saved=localStorage.getItem('rescene-theme-mode')||localStorage.getItem('rescene-theme')||'system';const mode=['system','light','dark'].includes(saved)?saved:'system';const light=mode==='light'||(mode==='system'&&matchMedia('(prefers-color-scheme: light)').matches);document.documentElement.classList.toggle('light-mode',light);document.documentElement.dataset.theme=light?'light':'dark';document.documentElement.dataset.themePreference=mode;}catch(e){}})();</script>
+<!-- APP-HEAD-END -->
 </head>
 <body class="page-streaming">
 <!-- SITE-HEADER-START -->
@@ -76,7 +84,7 @@
 <section class="section"><div class="section-head"><div><span class="section-kicker">START HERE</span><h2 class="section-title">応援コンテンツ</h2></div></div><div class="streaming-link-grid"><a class="card card-link streaming-link-card" href="mv.html"><span class="streaming-link-icon"><img src="assets/platform-icons/youtube.png" alt="" aria-hidden="true" width="1280" height="897"></span><h3>MV一覧</h3><p>公式MV・スペシャル映像を作品別に確認できます。</p></a><a class="card card-link streaming-link-card" href="discography.html"><span class="streaming-link-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h9.5L20 8.5V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm8 1.5V9h3.5"/></svg></span><h3>ディスコグラフィ</h3><p>Spotify・Apple Musicの配信リンクと全収録曲を掲載しています。</p></a><a class="card card-link streaming-link-card" href="voting.html"><span class="streaming-link-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.2 15.4-3.6-3.6 1.4-1.4 2.2 2.2 5.8-5.8 1.4 1.4-7.2 7.2zM4 20a2 2 0 0 1-2-2V6h4V2h12v4h4v12a2 2 0 0 1-2 2H4zm4-14h8V4H8v2zm-4 2v10h16V8h-2v2H6V8H4z"/></svg></span><h3>投票ガイド</h3><p>音楽番組の配点、投票アプリ、参加方法を確認できます。</p></a></div></section>
 </main>
 <!-- SITE-FOOTER-START -->
-<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
+<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="favorites.html">FAVORITES</a><a href="updates.html">UPDATES</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
 <!-- SITE-FOOTER-END -->
 <script src="js/common.js"></script>
 <script src="data/streaming-guide-data.js"></script>
