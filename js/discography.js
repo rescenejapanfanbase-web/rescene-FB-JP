@@ -29,7 +29,7 @@
  };
  const categorySection=category=>{
   const releases=(payload.releases||[]).filter(item=>item.category===category.key);
-  const cards=releases.length?`<div class="release-grid">${releases.map(releaseCard).join('')}</div>`:`<div class="card release-empty"><span class="section-kicker">COMING SOON</span><h3>公開作品はまだありません</h3><p>Notionで作品を追加し「公開」にチェックすると、ここへ自動表示されます。</p></div>`;
+  const cards=releases.length?`<div class="release-grid">${releases.map(releaseCard).join('')}</div>`:`<div class="card release-empty"><span class="section-kicker">COMING SOON</span><h3>公開作品はまだありません</h3></div>`;
   return `<section class="discography-category${active==='all'||active===category.key?' is-filtered-in':''}" data-disc-category="${escapeHtml(category.key)}" id="${escapeHtml(category.key==='special'?'special-single':category.key==='mini'?'mini-album':category.key==='full'?'full-album':category.key==='single'?'single-album':'ost')}"${active!=='all'&&active!==category.key?' hidden':''}><div class="category-head"><div><span class="section-kicker">${escapeHtml(category.kicker)}</span><h2>${escapeHtml(category.title)}</h2><p>${escapeHtml(category.description)}</p></div><span class="category-count">${releases.length} RELEASE${releases.length===1?'':'S'}</span></div>${cards}</section>`;
  };
  const renderFilters=()=>{

@@ -70,6 +70,7 @@
     }).join('');
     if(!sectionsHost.innerHTML.trim())sectionsHost.innerHTML='<div class="card official-link-empty">公開中の公式リンクはありません。</div>';
     if(countHost)countHost.textContent=`${active==='all'?links.length:links.filter(item=>item.category===active).length}件の公式リンク`;
+    document.dispatchEvent(new CustomEvent('rescene:content-updated',{detail:{source:'links'}}));
   }
 
   renderFilters();
