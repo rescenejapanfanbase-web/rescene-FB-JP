@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-21T21:04:09Z",
-  "startedAt": "2026-07-21T21:04:05Z",
-  "elapsedSeconds": 4.11,
+  "generatedAt": "2026-07-21T21:05:25Z",
+  "startedAt": "2026-07-21T21:05:21Z",
+  "elapsedSeconds": 4.03,
   "summary": {
     "checked": 63,
-    "ok": 62,
-    "warning": 1,
+    "ok": 61,
+    "warning": 2,
     "broken": 0,
     "hosts": 16
   },
@@ -14,6 +14,14 @@
     {
       "key": "facebook",
       "label": "Facebook",
+      "checked": 1,
+      "ok": 0,
+      "warning": 1,
+      "broken": 0
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
       "checked": 1,
       "ok": 0,
       "warning": 1,
@@ -56,14 +64,6 @@
       "label": "Google Play",
       "checked": 8,
       "ok": 8,
-      "warning": 0,
-      "broken": 0
-    },
-    {
-      "key": "instagram",
-      "label": "Instagram",
-      "checked": 1,
-      "ok": 1,
       "warning": 0,
       "broken": 0
     },
@@ -140,6 +140,29 @@
           "file": "data/official-links.json",
           "line": 96,
           "label": "Facebook"
+        }
+      ]
+    },
+    {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "warning",
+      "httpStatus": 429,
+      "message": "HTTP 429（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 54,
+          "label": "Instagram"
+        },
+        {
+          "file": "index.html",
+          "line": 162,
+          "label": "Instagram"
         }
       ]
     },
@@ -774,29 +797,6 @@
       ]
     },
     {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 54,
-          "label": "Instagram"
-        },
-        {
-          "file": "index.html",
-          "line": 162,
-          "label": "Instagram"
-        }
-      ]
-    },
-    {
       "url": "https://artist.mnetplus.world/main/stg/rescene-official",
       "normalizedUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
       "finalUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
@@ -827,7 +827,7 @@
       "sources": [
         {
           "file": "articles/goyang-ambassador.html",
-          "line": 75,
+          "line": 83,
           "label": "記事を見る ↗"
         },
         {
@@ -855,7 +855,7 @@
       "sources": [
         {
           "file": "articles/gyeongju-ambassador.html",
-          "line": 75,
+          "line": 83,
           "label": "記事を見る ↗"
         },
         {
@@ -883,7 +883,7 @@
       "sources": [
         {
           "file": "articles/suwon-ambassador.html",
-          "line": 75,
+          "line": 83,
           "label": "記事を見る ↗"
         },
         {
@@ -911,7 +911,7 @@
       "sources": [
         {
           "file": "articles/geoje-ambassador.html",
-          "line": 75,
+          "line": 83,
           "label": "記事を見る ↗"
         },
         {
@@ -975,7 +975,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784667848495&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784667923907&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1021,7 +1021,7 @@
       "sources": [
         {
           "file": "articles/love-attack-inkigayo-realtime-first.html",
-          "line": 75,
+          "line": 83,
           "label": "HIGHER公式Xで見る ↗"
         },
         {
@@ -1067,7 +1067,7 @@
       "sources": [
         {
           "file": "articles/fanbase-site.html",
-          "line": 74,
+          "line": 82,
           "label": "RESCENE JAPAN FANBASEのXを見る ↗"
         },
         {
@@ -1095,7 +1095,7 @@
       "sources": [
         {
           "file": "articles/second-anniversary-project.html",
-          "line": 75,
+          "line": 83,
           "label": "FANBASEの告知ポストを見る ↗"
         },
         {
@@ -1344,7 +1344,7 @@
       "sources": [
         {
           "file": "articles/second-anniversary.html",
-          "line": 75,
+          "line": 83,
           "label": "RESCENE公式Xを見る ↗"
         },
         {
@@ -1446,7 +1446,7 @@
       "sources": [
         {
           "file": "articles/melon-top100-first-number-one.html",
-          "line": 75,
+          "line": 83,
           "label": "記録達成後のYouTubeライブを見る ↗"
         },
         {
@@ -1474,7 +1474,7 @@
       "sources": [
         {
           "file": "articles/pretty-girl-first-music-show-win.html",
-          "line": 75,
+          "line": 83,
           "label": "THE K-POP公式動画を見る ↗"
         },
         {
