@@ -44,9 +44,11 @@ jobs:
             git reset --hard origin/main
 
             python scripts/generate-seo.py
+            python scripts/sync-site-shell.py
+            python scripts/add-image-dimensions.py
 
             git add \
-              '*.html' \
+              '*.html' articles templates scripts/sync-site-shell.py scripts/add-image-dimensions.py \
               js/home.js js/news.js js/search.js js/home-latest.js \
               assets/ogp articles data/seo-status.json \
               sitemap.xml robots.txt

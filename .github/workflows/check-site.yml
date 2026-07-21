@@ -52,7 +52,7 @@ jobs:
           python-version: "3.13"
 
       - name: Install validation dependencies
-        run: python -m pip install --disable-pip-version-check pyyaml
+        run: python -m pip install --disable-pip-version-check pillow pyyaml
 
       - name: Run complete pre-publication checks
         run: bash ./scripts/run-prepublish-checks.sh

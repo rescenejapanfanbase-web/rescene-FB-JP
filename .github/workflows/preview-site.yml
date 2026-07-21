@@ -33,14 +33,26 @@ jobs:
 
       - name: Install preview dependencies
         run: |
-          python -m pip install --disable-pip-version-check pyyaml playwright
+          python -m pip install --disable-pip-version-check pillow pyyaml playwright
           python -m playwright install --with-deps chromium
 
       - name: Run quality gate
         run: bash ./scripts/run-prepublish-checks.sh
 
-      - name: Render responsive screenshots
-        run: python scripts/visual-smoke.py
+      - name: Render mobile 320 preview
+        run: python scripts/visual-smoke.py --viewport mobile-320
+
+      - name: Render mobile 390 preview
+        run: python scripts/visual-smoke.py --viewport mobile-390
+
+      - name: Render laptop preview
+        run: python scripts/visual-smoke.py --viewport laptop-1024
+
+      - name: Render desktop preview
+        run: python scripts/visual-smoke.py --viewport desktop-1440
+
+      - name: Merge visual reports
+        run: python scripts/visual-smoke.py --merge-reports
 
       - name: Package preview
         run: |
