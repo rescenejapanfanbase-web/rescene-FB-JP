@@ -1718,43 +1718,38 @@ html.light-mode body.page-schedule .schedule-link-available{border-color:rgba(18
 @media(max-width:520px){.pwa-install-banner{grid-template-columns:1fr auto;bottom:10px}.pwa-install-banner .pwa-dismiss{position:absolute;right:8px;top:8px;width:28px;height:28px}.pwa-install-banner div{padding-right:22px}.share-actions .share-button{flex:1}.related-news-card{grid-template-columns:90px minmax(0,1fr)}.related-news-card img{width:90px}}
 html.light-mode .admin-code{background:#fff5f9}html.light-mode .warning-list li,html.light-mode .status-tag{color:#7c5b00;background:#fff8df}
 
-/* 2026-07-22 mobile related-news card height fix */
+/* 2026-07-22 mobile related-news compact vertical cards */
 @media(max-width:719px){
-  .related-news-grid{align-items:start}
-  .related-news-card{
+  body.page-article .related-news{margin-top:28px;padding-top:22px}
+  body.page-article .related-news h2{margin-bottom:14px;font-size:1.18rem}
+  body.page-article .related-news-grid{display:grid;grid-template-columns:1fr;gap:12px;align-items:start}
+  body.page-article .related-news-card{
+    display:block;
+    width:100%;
     height:auto;
     min-height:0;
-    align-self:start;
-    grid-template-columns:96px minmax(0,1fr);
-    align-items:center;
-    gap:12px;
     padding:10px;
     overflow:hidden;
   }
-  .related-news-card img{
+  body.page-article .related-news-card img{
     display:block;
-    width:96px;
-    height:64px;
-    min-height:0;
-    aspect-ratio:auto;
+    width:100%;
+    height:auto;
+    aspect-ratio:16/9;
     object-fit:cover;
-    border-radius:10px;
+    border-radius:11px;
   }
-  .related-news-card>div{min-width:0;align-self:center}
-  .related-news-card h3{
+  body.page-article .related-news-card>div{display:block;min-width:0;padding:11px 3px 3px}
+  body.page-article .related-news-card .news-date{display:block;font-size:.62rem;line-height:1.3}
+  body.page-article .related-news-card h3{
     display:-webkit-box;
-    margin:3px 0 0;
+    margin:5px 0 0;
     overflow:hidden;
     -webkit-box-orient:vertical;
     -webkit-line-clamp:3;
     line-clamp:3;
-    font-size:.82rem;
-    line-height:1.4;
+    font-size:.88rem;
+    line-height:1.45;
     overflow-wrap:anywhere;
   }
-  .related-news-card .news-date{display:block;font-size:.6rem;line-height:1.25}
-}
-@media(max-width:380px){
-  .related-news-card{grid-template-columns:82px minmax(0,1fr);gap:10px}
-  .related-news-card img{width:82px;height:58px}
 }
