@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-21T15:44:28Z",
-  "startedAt": "2026-07-21T15:44:23Z",
-  "elapsedSeconds": 4.29,
+  "generatedAt": "2026-07-21T21:04:09Z",
+  "startedAt": "2026-07-21T21:04:05Z",
+  "elapsedSeconds": 4.11,
   "summary": {
-    "checked": 49,
-    "ok": 48,
+    "checked": 63,
+    "ok": 62,
     "warning": 1,
     "broken": 0,
-    "hosts": 15
+    "hosts": 16
   },
   "services": [
     {
@@ -17,6 +17,14 @@
       "checked": 1,
       "ok": 0,
       "warning": 1,
+      "broken": 0
+    },
+    {
+      "key": "other",
+      "label": "analytics.google.com",
+      "checked": 2,
+      "ok": 2,
+      "warning": 0,
       "broken": 0
     },
     {
@@ -38,8 +46,8 @@
     {
       "key": "github",
       "label": "GitHub",
-      "checked": 6,
-      "ok": 6,
+      "checked": 8,
+      "ok": 8,
       "warning": 0,
       "broken": 0
     },
@@ -100,18 +108,10 @@
       "broken": 0
     },
     {
-      "key": "other",
-      "label": "www.tfmusicawards.com",
-      "checked": 1,
-      "ok": 1,
-      "warning": 0,
-      "broken": 0
-    },
-    {
       "key": "x",
       "label": "X",
-      "checked": 7,
-      "ok": 7,
+      "checked": 18,
+      "ok": 18,
       "warning": 0,
       "broken": 0
     },
@@ -140,6 +140,24 @@
           "file": "data/official-links.json",
           "line": 96,
           "label": "Facebook"
+        }
+      ]
+    },
+    {
+      "url": "https://analytics.google.com/",
+      "normalizedUrl": "https://analytics.google.com/",
+      "finalUrl": "https://analytics.google.com/analytics/web/",
+      "service": "analytics.google.com",
+      "serviceKey": "other",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "analytics.html",
+          "line": 69,
+          "label": "Google Analyticsを開く ↗"
         }
       ]
     },
@@ -202,7 +220,7 @@
         },
         {
           "file": "voting.html",
-          "line": 180,
+          "line": 188,
           "label": "App Store ↗"
         }
       ]
@@ -261,7 +279,7 @@
         },
         {
           "file": "voting.html",
-          "line": 177,
+          "line": 185,
           "label": "App Storeで開く ↗"
         }
       ]
@@ -284,7 +302,7 @@
         },
         {
           "file": "voting.html",
-          "line": 181,
+          "line": 189,
           "label": "App Store ↗"
         }
       ]
@@ -307,7 +325,7 @@
         },
         {
           "file": "voting.html",
-          "line": 183,
+          "line": 191,
           "label": "App Store ↗"
         }
       ]
@@ -330,7 +348,7 @@
         },
         {
           "file": "voting.html",
-          "line": 182,
+          "line": 190,
           "label": "App Store ↗"
         }
       ]
@@ -353,7 +371,7 @@
         },
         {
           "file": "voting.html",
-          "line": 178,
+          "line": 186,
           "label": "App Store ↗"
         }
       ]
@@ -376,7 +394,7 @@
         },
         {
           "file": "voting.html",
-          "line": 179,
+          "line": 187,
           "label": "App Store ↗"
         }
       ]
@@ -399,7 +417,7 @@
         },
         {
           "file": "voting.html",
-          "line": 184,
+          "line": 192,
           "label": "App Storeで開く ↗"
         }
       ]
@@ -422,7 +440,7 @@
         },
         {
           "file": "index.html",
-          "line": 156,
+          "line": 163,
           "label": "Apple Music"
         }
       ]
@@ -440,7 +458,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 123,
+          "line": 129,
           "label": "GitHubリポジトリ サイトファイルと更新履歴を確認 ↗"
         }
       ]
@@ -458,7 +476,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 123,
+          "line": 129,
           "label": "GitHub Actions一覧 すべての同期・チェック履歴を確認 ↗"
         }
       ]
@@ -476,8 +494,26 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 123,
+          "line": 129,
           "label": "バックアップ一覧 保存ZIPの作成履歴とArtifactを確認 ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/content-preview.yml",
+      "normalizedUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/content-preview.yml",
+      "finalUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/content-preview.yml",
+      "service": "GitHub",
+      "serviceKey": "github",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "sync-status.html",
+          "line": 129,
+          "label": "Notion公開前プレビュー 非公開記事・予定と不足項目を限定Artifactで確認 ↗"
         }
       ]
     },
@@ -494,7 +530,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 123,
+          "line": 129,
           "label": "公開前プレビュー PC・スマホのスクリーンショットとZIPを作成 ↗"
         }
       ]
@@ -512,7 +548,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 123,
+          "line": 129,
           "label": "緊急ロールバック 正常なコミットを新しい復元コミットとして反映 ↗"
         }
       ]
@@ -530,8 +566,26 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 123,
+          "line": 129,
           "label": "サイト統合同期 全データを取得・検査し、1コミットで公開 ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-mv.yml",
+      "normalizedUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-mv.yml",
+      "finalUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-mv.yml",
+      "service": "GitHub",
+      "serviceKey": "github",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "mv-review.html",
+          "line": 66,
+          "label": "MV同期を実行 ↗"
         }
       ]
     },
@@ -553,7 +607,7 @@
         },
         {
           "file": "voting.html",
-          "line": 180,
+          "line": 188,
           "label": "Google Play ↗"
         }
       ]
@@ -576,7 +630,7 @@
         },
         {
           "file": "voting.html",
-          "line": 183,
+          "line": 191,
           "label": "Google Play ↗"
         }
       ]
@@ -599,7 +653,7 @@
         },
         {
           "file": "voting.html",
-          "line": 178,
+          "line": 186,
           "label": "Google Play ↗"
         }
       ]
@@ -622,7 +676,7 @@
         },
         {
           "file": "voting.html",
-          "line": 184,
+          "line": 192,
           "label": "Google Playで開く ↗"
         }
       ]
@@ -645,7 +699,7 @@
         },
         {
           "file": "voting.html",
-          "line": 181,
+          "line": 189,
           "label": "Google Play ↗"
         }
       ]
@@ -668,7 +722,7 @@
         },
         {
           "file": "voting.html",
-          "line": 177,
+          "line": 185,
           "label": "Google Playで開く ↗"
         }
       ]
@@ -691,7 +745,7 @@
         },
         {
           "file": "voting.html",
-          "line": 182,
+          "line": 190,
           "label": "Google Play ↗"
         }
       ]
@@ -714,7 +768,7 @@
         },
         {
           "file": "voting.html",
-          "line": 179,
+          "line": 187,
           "label": "Google Play ↗"
         }
       ]
@@ -737,7 +791,7 @@
         },
         {
           "file": "index.html",
-          "line": 155,
+          "line": 162,
           "label": "Instagram"
         }
       ]
@@ -890,7 +944,7 @@
         },
         {
           "file": "index.html",
-          "line": 156,
+          "line": 163,
           "label": "Spotify"
         }
       ]
@@ -913,7 +967,7 @@
         },
         {
           "file": "index.html",
-          "line": 155,
+          "line": 162,
           "label": "TikTok"
         }
       ]
@@ -921,7 +975,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784648666129&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784667848495&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1092,8 +1146,188 @@
         },
         {
           "file": "index.html",
-          "line": 155,
+          "line": 162,
           "label": "Official X"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/resceneofficial/status/1794020530368004488?s=46",
+      "normalizedUrl": "https://x.com/resceneofficial/status/1794020530368004488",
+      "finalUrl": "https://x.com/resceneofficial/status/1794020530368004488",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 15,
+          "label": "WONI HappyBirthday🎂"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/resceneofficial/status/1825193436473163857?s=46",
+      "normalizedUrl": "https://x.com/resceneofficial/status/1825193436473163857",
+      "finalUrl": "https://x.com/resceneofficial/status/1825193436473163857",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 29,
+          "label": "MAY HappyBirthday🎂"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/resceneofficial/status/1844392451383099779?s=46",
+      "normalizedUrl": "https://x.com/resceneofficial/status/1844392451383099779",
+      "finalUrl": "https://x.com/resceneofficial/status/1844392451383099779",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 43,
+          "label": "LIV HappyBirthday🎂"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/resceneofficial/status/1861424680885703044?s=46",
+      "normalizedUrl": "https://x.com/resceneofficial/status/1861424680885703044",
+      "finalUrl": "https://x.com/resceneofficial/status/1861424680885703044",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 57,
+          "label": "ZENA HappyBirthday🎂"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/resceneofficial/status/1862149453336961505?s=46",
+      "normalizedUrl": "https://x.com/resceneofficial/status/1862149453336961505",
+      "finalUrl": "https://x.com/resceneofficial/status/1862149453336961505",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 71,
+          "label": "MINAMI HappyBirthday🎂"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/resceneofficial/status/1926292114792481201?s=46",
+      "normalizedUrl": "https://x.com/resceneofficial/status/1926292114792481201",
+      "finalUrl": "https://x.com/resceneofficial/status/1926292114792481201",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 85,
+          "label": "WONI HappyBirthday🎂"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/resceneofficial/status/1957457462501752852?s=46",
+      "normalizedUrl": "https://x.com/resceneofficial/status/1957457462501752852",
+      "finalUrl": "https://x.com/resceneofficial/status/1957457462501752852",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 99,
+          "label": "MAY HappyBirthday🎂"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/resceneofficial/status/1976664019990925638?s=46",
+      "normalizedUrl": "https://x.com/resceneofficial/status/1976664019990925638",
+      "finalUrl": "https://x.com/resceneofficial/status/1976664019990925638",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 113,
+          "label": "LIV HappyBirthday🎂"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/resceneofficial/status/1993696250424971433?s=46",
+      "normalizedUrl": "https://x.com/resceneofficial/status/1993696250424971433",
+      "finalUrl": "https://x.com/resceneofficial/status/1993696250424971433",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 127,
+          "label": "ZENA HappyBirthday🎂"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/resceneofficial/status/1994421030354346153?s=46",
+      "normalizedUrl": "https://x.com/resceneofficial/status/1994421030354346153",
+      "finalUrl": "https://x.com/resceneofficial/status/1994421030354346153",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 141,
+          "label": "MINAMI HappyBirthday🎂"
         }
       ]
     },
@@ -1126,6 +1360,24 @@
       ]
     },
     {
+      "url": "https://x.com/resceneofficial/status/2058563688597233986?s=46",
+      "normalizedUrl": "https://x.com/resceneofficial/status/2058563688597233986",
+      "finalUrl": "https://x.com/resceneofficial/status/2058563688597233986",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 197,
+          "label": "WONI HappyBirthday🎂"
+        }
+      ]
+    },
+    {
       "url": "https://www.youtube.com/@helloiamwoninicetomeetyou",
       "normalizedUrl": "https://www.youtube.com/@helloiamwoninicetomeetyou",
       "finalUrl": "https://www.youtube.com/@helloiamwoninicetomeetyou",
@@ -1143,7 +1395,7 @@
         },
         {
           "file": "youtube.html",
-          "line": 139,
+          "line": 145,
           "label": "チャンネルを見る ↗"
         }
       ]
@@ -1171,12 +1423,12 @@
         },
         {
           "file": "index.html",
-          "line": 155,
+          "line": 162,
           "label": "YouTube"
         },
         {
           "file": "youtube.html",
-          "line": 138,
+          "line": 144,
           "label": "チャンネルを見る ↗"
         }
       ]
