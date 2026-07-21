@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-07-21T15:17:02Z",
+  "generatedAt": "2026-07-21T21:30:50Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -57,6 +57,36 @@
         }
       ],
       "default": "assets/optimized/3a498f1607257e1a/rescene-group-w1440.webp"
+    },
+    "assets/icons/app-icon-512.png": {
+      "asset": "5e864561ff2e5bcd",
+      "originalBytes": 9731,
+      "width": 512,
+      "height": 512,
+      "variants": [
+        {
+          "src": "assets/optimized/5e864561ff2e5bcd/app-icon-512-w480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 19150
+        }
+      ],
+      "default": "assets/optimized/5e864561ff2e5bcd/app-icon-512-w480.webp"
+    },
+    "assets/icons/app-icon-maskable-512.png": {
+      "asset": "2b9e76d19c189832",
+      "originalBytes": 9475,
+      "width": 512,
+      "height": 512,
+      "variants": [
+        {
+          "src": "assets/optimized/2b9e76d19c189832/app-icon-maskable-512-w480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 19548
+        }
+      ],
+      "default": "assets/optimized/2b9e76d19c189832/app-icon-maskable-512-w480.webp"
     },
     "assets/members/liv.jpg": {
       "asset": "c1553807202ce3fc",
@@ -6923,6 +6953,26 @@
       "skippedWidths": [],
       "default": "assets/optimized/2b21d9d37d04b812/about-w1200.webp"
     },
+    "2b9e76d19c189832": {
+      "hash": "2b9e76d19c1898329f3b1ceb77988ad4032270e222661019c72c9e05c8adcba1",
+      "width": 512,
+      "height": 512,
+      "format": "png",
+      "alpha": false,
+      "quality": 91,
+      "variants": [
+        {
+          "src": "assets/optimized/2b9e76d19c189832/app-icon-maskable-512-w480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 19548
+        }
+      ],
+      "skippedWidths": [
+        512
+      ],
+      "default": "assets/optimized/2b9e76d19c189832/app-icon-maskable-512-w480.webp"
+    },
     "2fe0561e69f915c3": {
       "hash": "2fe0561e69f915c300fa2142e58b2276f1f73f9c8a2a5ca18baec093b766cc1b",
       "width": 1886,
@@ -7854,6 +7904,26 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/5e682dfacf1fda3c/heart-drop-w1440.webp"
+    },
+    "5e864561ff2e5bcd": {
+      "hash": "5e864561ff2e5bcd7c45c89eb501cfe3d99eaf215e822b2af7b2bc4a7fe1ec84",
+      "width": 512,
+      "height": 512,
+      "format": "png",
+      "alpha": false,
+      "quality": 91,
+      "variants": [
+        {
+          "src": "assets/optimized/5e864561ff2e5bcd/app-icon-512-w480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 19150
+        }
+      ],
+      "skippedWidths": [
+        512
+      ],
+      "default": "assets/optimized/5e864561ff2e5bcd/app-icon-512-w480.webp"
     },
     "5ec7bde6bf04a87c": {
       "hash": "5ec7bde6bf04a87c62346085efa9a90240c22159b47e8ca496e94ca01b5c990a",

@@ -1,16 +1,16 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-07-21T15:17:02Z",
-  "sourceFiles": 252,
-  "uniqueImages": 158,
-  "optimizedImages": 245,
-  "uniqueOptimizedAssets": 151,
-  "derivatives": 415,
-  "generatedNow": 111,
-  "reusedNow": 304,
-  "skippedImages": 7,
-  "skippedUniqueImages": 7,
+  "generatedAt": "2026-07-21T21:30:50Z",
+  "sourceFiles": 256,
+  "uniqueImages": 162,
+  "optimizedImages": 247,
+  "uniqueOptimizedAssets": 153,
+  "derivatives": 417,
+  "generatedNow": 2,
+  "reusedNow": 415,
+  "skippedImages": 9,
+  "skippedUniqueImages": 9,
   "skipped": [
     {
       "path": "assets/platform-icons/stationhead.webp",
@@ -21,7 +21,15 @@
       "reason": "元画像がすでに十分軽量なため、WebP派生画像の生成は不要です。"
     },
     {
+      "path": "assets/icons/app-icon-192.png",
+      "reason": "元画像がすでに十分軽量なため、WebP派生画像の生成は不要です。"
+    },
+    {
       "path": "assets/platform-icons/tiktok.webp",
+      "reason": "元画像がすでに十分軽量なため、WebP派生画像の生成は不要です。"
+    },
+    {
+      "path": "assets/icons/apple-touch-icon.png",
       "reason": "元画像がすでに十分軽量なため、WebP派生画像の生成は不要です。"
     },
     {
@@ -43,14 +51,14 @@
   ],
   "failedImages": 0,
   "failures": [],
-  "originalBytes": 100133732,
-  "estimatedDeliveryBytes": 26372312,
-  "estimatedSavedBytes": 73761420,
-  "estimatedSavingPercent": 73.7,
-  "generatedStorageBytes": 27774656,
-  "removedOrphans": 6,
-  "misplacedGeneratedFilesRemoved": 139,
-  "misplacedGeneratedDirectoriesRemoved": 52,
+  "originalBytes": 100159192,
+  "estimatedDeliveryBytes": 26417264,
+  "estimatedSavedBytes": 73741928,
+  "estimatedSavingPercent": 73.6,
+  "generatedStorageBytes": 27813354,
+  "removedOrphans": 0,
+  "misplacedGeneratedFilesRemoved": 0,
+  "misplacedGeneratedDirectoriesRemoved": 0,
   "notes": [
     "元画像は削除せず、表示時に画面幅へ合うWebPを選択します。",
     "同一内容の画像はハッシュでまとめ、WebPの重複生成を防ぎます。",

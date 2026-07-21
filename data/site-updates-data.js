@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-07-21T16:06:10.126155+00:00",
+  "generatedAt": "2026-07-21T21:30:43.912129+00:00",
   "items": [
     {
       "date": "2026-07-22",
@@ -13,12 +13,106 @@ window.RESCENE_SITE_UPDATES = {
       ]
     },
     {
+      "date": "2026-07-22",
+      "title": "Add files via upload",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "7ba9c47",
+      "files": [
+        "SITE-UPDATES-LINK-CHECK-FIX.txt",
+        "UPLOAD-INSTRUCTIONS-SITE-UPDATES-LINK-CHECK-FIX.txt",
+        "scripts/check-site-links.py"
+      ]
+    },
+    {
       "date": "2026-07-21",
       "title": "ストリーミングとスケジュールリンクを改善",
       "description": "サービス別の詳細手順と、Notionスケジュールの関連リンク・ICS連携を追加しました。",
       "files": [
         "streaming.html",
         "schedule.html"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "8c1584f",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Delete site-content.js",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "0c91897",
+      "files": [
+        "site-content.js"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Delete news.js",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "2bc969b",
+      "files": [
+        "news.js"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Delete home.js",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "5d05522",
+      "files": [
+        "home.js"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Delete data.js",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "9a869bd",
+      "files": [
+        "data.js"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Delete common.js",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "378ef63",
+      "files": [
+        "common.js"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Delete common.css",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "1c321db",
+      "files": [
+        "common.css"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "title": "Add files via upload",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "4f1394e",
+      "files": [
+        ".github/workflows/check-site.yml",
+        ".github/workflows/generate-seo.yml",
+        ".github/workflows/preview-site.yml"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "9aa4c8e",
+      "files": [
+        "data/external-link-report.json"
       ]
     },
     {
