@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-20T23:43:03Z",
-  "startedAt": "2026-07-20T23:43:00Z",
-  "elapsedSeconds": 3.43,
+  "generatedAt": "2026-07-21T12:33:18Z",
+  "startedAt": "2026-07-21T12:33:15Z",
+  "elapsedSeconds": 3.83,
   "summary": {
-    "checked": 47,
-    "ok": 45,
+    "checked": 48,
+    "ok": 46,
     "warning": 2,
     "broken": 0,
-    "hosts": 14
+    "hosts": 15
   },
   "services": [
     {
@@ -100,6 +100,14 @@
       "broken": 0
     },
     {
+      "key": "other",
+      "label": "www.tfmusicawards.com",
+      "checked": 1,
+      "ok": 1,
+      "warning": 0,
+      "broken": 0
+    },
+    {
       "key": "x",
       "label": "X",
       "checked": 7,
@@ -153,7 +161,7 @@
         },
         {
           "file": "index.html",
-          "line": 692,
+          "line": 153,
           "label": "Instagram"
         }
       ]
@@ -217,7 +225,7 @@
         },
         {
           "file": "voting.html",
-          "line": 701,
+          "line": 178,
           "label": "App Store ↗"
         }
       ]
@@ -258,7 +266,7 @@
         },
         {
           "file": "voting.html",
-          "line": 698,
+          "line": 175,
           "label": "App Storeで開く ↗"
         }
       ]
@@ -281,7 +289,7 @@
         },
         {
           "file": "voting.html",
-          "line": 702,
+          "line": 179,
           "label": "App Store ↗"
         }
       ]
@@ -304,7 +312,7 @@
         },
         {
           "file": "voting.html",
-          "line": 704,
+          "line": 181,
           "label": "App Store ↗"
         }
       ]
@@ -327,7 +335,7 @@
         },
         {
           "file": "voting.html",
-          "line": 703,
+          "line": 180,
           "label": "App Store ↗"
         }
       ]
@@ -350,7 +358,7 @@
         },
         {
           "file": "voting.html",
-          "line": 699,
+          "line": 176,
           "label": "App Store ↗"
         }
       ]
@@ -373,7 +381,7 @@
         },
         {
           "file": "voting.html",
-          "line": 700,
+          "line": 177,
           "label": "App Store ↗"
         }
       ]
@@ -396,7 +404,7 @@
         },
         {
           "file": "voting.html",
-          "line": 705,
+          "line": 182,
           "label": "App Storeで開く ↗"
         }
       ]
@@ -419,7 +427,7 @@
         },
         {
           "file": "index.html",
-          "line": 693,
+          "line": 154,
           "label": "Apple Music"
         }
       ]
@@ -550,7 +558,7 @@
         },
         {
           "file": "voting.html",
-          "line": 701,
+          "line": 178,
           "label": "Google Play ↗"
         }
       ]
@@ -573,7 +581,7 @@
         },
         {
           "file": "voting.html",
-          "line": 704,
+          "line": 181,
           "label": "Google Play ↗"
         }
       ]
@@ -596,7 +604,7 @@
         },
         {
           "file": "voting.html",
-          "line": 699,
+          "line": 176,
           "label": "Google Play ↗"
         }
       ]
@@ -619,7 +627,7 @@
         },
         {
           "file": "voting.html",
-          "line": 705,
+          "line": 182,
           "label": "Google Playで開く ↗"
         }
       ]
@@ -642,7 +650,7 @@
         },
         {
           "file": "voting.html",
-          "line": 702,
+          "line": 179,
           "label": "Google Play ↗"
         }
       ]
@@ -665,7 +673,7 @@
         },
         {
           "file": "voting.html",
-          "line": 698,
+          "line": 175,
           "label": "Google Playで開く ↗"
         }
       ]
@@ -688,7 +696,7 @@
         },
         {
           "file": "voting.html",
-          "line": 703,
+          "line": 180,
           "label": "Google Play ↗"
         }
       ]
@@ -711,7 +719,7 @@
         },
         {
           "file": "voting.html",
-          "line": 700,
+          "line": 177,
           "label": "Google Play ↗"
         }
       ]
@@ -864,7 +872,7 @@
         },
         {
           "file": "index.html",
-          "line": 693,
+          "line": 154,
           "label": "Spotify"
         }
       ]
@@ -887,7 +895,7 @@
         },
         {
           "file": "index.html",
-          "line": 692,
+          "line": 153,
           "label": "TikTok"
         }
       ]
@@ -895,7 +903,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784590982676&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784637197600&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -907,6 +915,24 @@
           "file": "data/official-links.json",
           "line": 110,
           "label": "Weibo"
+        }
+      ]
+    },
+    {
+      "url": "https://www.tfmusicawards.com/",
+      "normalizedUrl": "https://www.tfmusicawards.com/",
+      "finalUrl": "https://www.tfmusicawards.com/",
+      "service": "www.tfmusicawards.com",
+      "serviceKey": "other",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 519,
+          "label": "2026 THE FACT MUSIC AWARDS(TMA)"
         }
       ]
     },
@@ -1048,7 +1074,7 @@
         },
         {
           "file": "index.html",
-          "line": 692,
+          "line": 153,
           "label": "Official X"
         }
       ]
@@ -1127,7 +1153,7 @@
         },
         {
           "file": "index.html",
-          "line": 692,
+          "line": 153,
           "label": "YouTube"
         },
         {
