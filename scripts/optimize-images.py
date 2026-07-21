@@ -27,6 +27,7 @@ REPORT_PATH = ROOT / "data" / "image-optimization.json"
 
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp"}
 EXCLUDED_PARTS = {".git", "node_modules", "backup-work", "backup-output"}
+MISPLACED_ASSET_DIR_PATTERN = re.compile(r"^[0-9a-f]{16}$")
 TARGET_WIDTHS = (480, 768, 1440)
 SETTINGS_VERSION = 2
 JPEG_QUALITY = 84
@@ -74,6 +75,43 @@ def file_digest(path: Path) -> str:
         for chunk in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(chunk)
     return digest.hexdigest()
+
+
+def cleanup_misplaced_generated_assets() -> tuple[int, int]:
+    """Remove duplicate optimized folders accidentally placed at repository root.
+
+    A folder is removed only when its 16-character hash name matches the normal
+    optimized-asset layout and every contained WebP is byte-identical to the
+    corresponding file under assets/optimized/. This keeps the cleanup safe and
+    prevents generated derivatives from being treated as new source images.
+    """
+
+    removed_files = 0
+    removed_directories = 0
+
+    for directory in sorted(ROOT.iterdir()):
+        if not directory.is_dir() or not MISPLACED_ASSET_DIR_PATTERN.fullmatch(directory.name):
+            continue
+
+        files = sorted(path for path in directory.rglob("*") if path.is_file())
+        if not files or any(path.suffix.lower() != ".webp" for path in files):
+            continue
+
+        duplicate = True
+        for path in files:
+            counterpart = OUTPUT_DIR / directory.name / path.relative_to(directory)
+            if not counterpart.is_file() or file_digest(path) != file_digest(counterpart):
+                duplicate = False
+                break
+
+        if not duplicate:
+            continue
+
+        removed_files += len(files)
+        shutil.rmtree(directory)
+        removed_directories += 1
+
+    return removed_files, removed_directories
 
 
 def source_quality(path: Path, has_alpha: bool) -> int:
@@ -149,6 +187,7 @@ def comparable_manifest(value: dict) -> dict:
 def main() -> int:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
+    misplaced_files_removed, misplaced_directories_removed = cleanup_misplaced_generated_assets()
 
     sources: list[SourceInfo] = []
     for path in iter_sources():
@@ -167,6 +206,8 @@ def main() -> int:
     referenced_outputs: set[Path] = set()
     generated_now = 0
     reused_now = 0
+    skipped: list[dict[str, str]] = []
+    skipped_unique_images = 0
     failed: list[dict[str, str]] = []
     total_generated_bytes = 0
     estimated_delivery_bytes_unique = 0
@@ -233,7 +274,11 @@ def main() -> int:
                     })
 
                 if not variants:
-                    raise ValueError("no smaller WebP derivative was produced")
+                    skipped_unique_images += 1
+                    reason = "元画像がすでに十分軽量なため、WebP派生画像の生成は不要です。"
+                    for source in group:
+                        skipped.append({"path": source.relative, "reason": reason})
+                    continue
 
                 variants.sort(key=lambda item: item["width"])
                 largest = variants[-1]
@@ -316,6 +361,9 @@ def main() -> int:
         "derivatives": sum(len(asset["variants"]) for asset in assets.values()),
         "generatedNow": generated_now,
         "reusedNow": reused_now,
+        "skippedImages": len(skipped),
+        "skippedUniqueImages": skipped_unique_images,
+        "skipped": skipped,
         "failedImages": len(failed),
         "failures": failed,
         "originalBytes": original_bytes,
@@ -324,18 +372,33 @@ def main() -> int:
         "estimatedSavingPercent": saving_percent,
         "generatedStorageBytes": total_generated_bytes,
         "removedOrphans": removed_orphans,
+        "misplacedGeneratedFilesRemoved": misplaced_files_removed,
+        "misplacedGeneratedDirectoriesRemoved": misplaced_directories_removed,
         "notes": [
             "元画像は削除せず、表示時に画面幅へ合うWebPを選択します。",
             "同一内容の画像はハッシュでまとめ、WebPの重複生成を防ぎます。",
             "推定削減率は各画像を最大1200px相当で配信した場合の概算です。",
+            "元画像より軽くならないWebPは失敗ではなく最適化不要として記録します。",
         ],
     }
 
+    report_schema_current = all(
+        key in previous_report
+        for key in (
+            "skippedImages",
+            "skippedUniqueImages",
+            "misplacedGeneratedFilesRemoved",
+            "misplacedGeneratedDirectoriesRemoved",
+        )
+    )
     unchanged = (
         comparable_manifest(previous) == comparable_manifest(manifest)
         and generated_now == 0
         and removed_orphans == 0
+        and misplaced_files_removed == 0
+        and misplaced_directories_removed == 0
         and bool(previous_report)
+        and report_schema_current
     )
     if unchanged:
         print("ℹ️ 画像内容に変更はありません。既存の最適化データを維持します。")
@@ -348,7 +411,18 @@ def main() -> int:
         f"{len(sources)}ファイル / {len(grouped)}種類 / "
         f"WebP {report['derivatives']}件 / 推定 {saving_percent}%削減"
     )
-    print(f"   今回生成: {generated_now}件 / 再利用: {reused_now}件 / 失敗: {len(failed)}件")
+    print(
+        f"   今回生成: {generated_now}件 / 再利用: {reused_now}件 / "
+        f"最適化不要: {len(skipped)}件 / 失敗: {len(failed)}件"
+    )
+    if misplaced_files_removed:
+        print(
+            "   🧹 誤配置されたWebP複製を整理: "
+            f"{misplaced_files_removed}ファイル / {misplaced_directories_removed}フォルダ"
+        )
+    if skipped:
+        for item in skipped:
+            print(f"   ℹ {item['path']}: 最適化不要")
     if failed:
         for item in failed:
             print(f"   ⚠ {item['path']}: {item['error']}")
