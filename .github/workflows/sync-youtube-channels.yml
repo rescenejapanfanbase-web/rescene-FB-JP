@@ -2,6 +2,8 @@ name: Sync YouTube Channels
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "5 */2 * * *"
 
 permissions:
   contents: write
