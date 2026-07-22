@@ -206,8 +206,29 @@ async function readJson(path, fallback) {
   }
 }
 
-function mergeNews(manualNews, notionNews) {
-  const merged = manualNews.map((item) => ({ ...item }));
+async function imagePathExists(image) {
+  const normalized = String(image || "").trim().replace(/^\/+/, "");
+  if (!normalized || /^https?:\/\//i.test(normalized)) return false;
+  return Boolean(await readBytes(normalized));
+}
+
+async function sanitizeManualNews(manualNews) {
+  const sanitized = [];
+  for (const item of manualNews) {
+    const currentImage = String(item?.image || "").trim().replace(/^\/+/, "");
+    sanitized.push({
+      ...item,
+      image: (await imagePathExists(currentImage)) ? currentImage : "news/fanbase-site.jpg",
+    });
+    if (currentImage && !(await imagePathExists(currentImage))) {
+      console.warn(`手動ニュースの画像が存在しないため標準画像へ切り替えます: ${item?.title || "無題"} / ${item?.image}`);
+    }
+  }
+  return sanitized;
+}
+
+async function mergeNews(manualNews, notionNews) {
+  const merged = await sanitizeManualNews(manualNews);
 
   for (const notionItem of notionNews) {
     const index = merged.findIndex((item) => item.title.trim() === notionItem.title.trim());
@@ -217,7 +238,7 @@ function mergeNews(manualNews, notionNews) {
         ...current,
         ...notionItem,
         slug: current.slug || notionItem.slug,
-        image: notionItem.image === "news/fanbase-site.jpg" ? (current.image || notionItem.image) : notionItem.image,
+        image: notionItem.image === "news/fanbase-site.jpg" ? ((await imagePathExists(current.image)) ? current.image : notionItem.image) : notionItem.image,
         sourceLink: notionItem.sourceLink || current.sourceLink || "",
         sourceLabel: notionItem.sourceLabel || current.sourceLabel || "",
       };
@@ -247,7 +268,7 @@ for (const name of await readdir(imageDirectory).catch(() => [])) {
   if (!usedImages.has(path)) await unlink(path).catch(() => {});
 }
 const manualNews = await readJson("data/news-manual.json", []);
-const news = mergeNews(Array.isArray(manualNews) ? manualNews : [], notionNews);
+const news = await mergeNews(Array.isArray(manualNews) ? manualNews : [], notionNews);
 
 const existingPayload = await readJson("data/news.json", { news: [] });
 if (JSON.stringify(existingPayload.news ?? []) === JSON.stringify(news)) {
