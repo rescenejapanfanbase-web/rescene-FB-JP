@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T13:08:59.508670+00:00",
+  "generatedAt": "2026-07-22T13:24:15.184431+00:00",
   "items": [
     {
       "date": "2026-07-22",
@@ -16,7 +16,7 @@
       "date": "2026-07-22",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "d59d304",
+      "commit": "2c8ea2f",
       "files": [
         "data/external-link-report.json"
       ]
@@ -61,9 +61,10 @@
       "date": "2026-07-22",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "413f437",
+      "commit": "c1cf3a4",
       "files": [
-        ".github/workflows/sync-youtube-channels.yml"
+        "SCHEDULE-CATEGORY-TEXT-REMOVE-20260722.txt",
+        "schedule.html"
       ]
     },
     {
