@@ -19,7 +19,7 @@ window.RESCENE_NEWS = [
     "title": "RESCENEが第7回 島の日の広報大使に任命",
     "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
     "body": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。\n『島の日』は、島の価値と重要性を広く知らしめるために指定された国の記念日であり、毎年8月8日前後に開催される『島の日イベント』では、島展示館、島の自然・文化体験、学術行事など多様な楽しみを提供し、2019年から様々な島地域で記念行事が開催されています。",
-    "image": "news/IMG_9292.jpeg",
+    "image": "news/fanbase-site.jpg",
     "sourceLink": "https://youtu.be/Bav42DHLKkg",
     "sourceLabel": "ニュース映像を見る",
     "notionPageId": "3a5229d2-19da-800c-b6a0-da4612133921",

@@ -1,5 +1,5 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-07-22T22:38:25.672Z",
+  "generatedAt": "2026-07-22T23:31:26.272Z",
   "sourceNewsGeneratedAt": "2026-07-22T22:38:25.619Z",
   "related": {
     "fanbase-site": [
@@ -8,7 +8,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "RESCENEが第7回 島の日の広報大使に任命",
         "date": "2026.07.21",
         "label": "AMBASSADOR",
-        "image": "news/IMG_9292.jpeg",
+        "image": "news/fanbase-site.jpg",
         "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
         "score": 5,
         "reasons": [
@@ -97,7 +97,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "RESCENEが第7回 島の日の広報大使に任命",
         "date": "2026.07.21",
         "label": "AMBASSADOR",
-        "image": "news/IMG_9292.jpeg",
+        "image": "news/fanbase-site.jpg",
         "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
         "score": 7,
         "reasons": [
@@ -176,7 +176,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "RESCENEが第7回 島の日の広報大使に任命",
         "date": "2026.07.21",
         "label": "AMBASSADOR",
-        "image": "news/IMG_9292.jpeg",
+        "image": "news/fanbase-site.jpg",
         "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
         "score": 7,
         "reasons": [
@@ -448,7 +448,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "RESCENEが第7回 島の日の広報大使に任命",
         "date": "2026.07.21",
         "label": "AMBASSADOR",
-        "image": "news/IMG_9292.jpeg",
+        "image": "news/fanbase-site.jpg",
         "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
         "score": 6,
         "reasons": [
