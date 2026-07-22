@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-21T23:48:37Z",
-  "startedAt": "2026-07-21T23:48:33Z",
-  "elapsedSeconds": 4.17,
+  "generatedAt": "2026-07-22T12:40:11Z",
+  "startedAt": "2026-07-22T12:40:08Z",
+  "elapsedSeconds": 3.85,
   "summary": {
     "checked": 63,
     "ok": 61,
@@ -243,7 +243,7 @@
         },
         {
           "file": "voting.html",
-          "line": 188,
+          "line": 187,
           "label": "App Store ↗"
         }
       ]
@@ -302,7 +302,7 @@
         },
         {
           "file": "voting.html",
-          "line": 185,
+          "line": 184,
           "label": "App Storeで開く ↗"
         }
       ]
@@ -325,7 +325,7 @@
         },
         {
           "file": "voting.html",
-          "line": 189,
+          "line": 188,
           "label": "App Store ↗"
         }
       ]
@@ -348,7 +348,7 @@
         },
         {
           "file": "voting.html",
-          "line": 191,
+          "line": 190,
           "label": "App Store ↗"
         }
       ]
@@ -371,7 +371,7 @@
         },
         {
           "file": "voting.html",
-          "line": 190,
+          "line": 189,
           "label": "App Store ↗"
         }
       ]
@@ -394,7 +394,7 @@
         },
         {
           "file": "voting.html",
-          "line": 186,
+          "line": 185,
           "label": "App Store ↗"
         }
       ]
@@ -417,7 +417,7 @@
         },
         {
           "file": "voting.html",
-          "line": 187,
+          "line": 186,
           "label": "App Store ↗"
         }
       ]
@@ -440,7 +440,7 @@
         },
         {
           "file": "voting.html",
-          "line": 192,
+          "line": 191,
           "label": "App Storeで開く ↗"
         }
       ]
@@ -481,7 +481,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 128,
+          "line": 127,
           "label": "GitHubリポジトリ サイトファイルと更新履歴を確認 ↗"
         }
       ]
@@ -499,7 +499,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 128,
+          "line": 127,
           "label": "GitHub Actions一覧 すべての同期・チェック履歴を確認 ↗"
         }
       ]
@@ -517,7 +517,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 128,
+          "line": 127,
           "label": "バックアップ一覧 保存ZIPの作成履歴とArtifactを確認 ↗"
         }
       ]
@@ -535,7 +535,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 128,
+          "line": 127,
           "label": "Notion公開前プレビュー 非公開記事・予定と不足項目を限定Artifactで確認 ↗"
         }
       ]
@@ -553,7 +553,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 128,
+          "line": 127,
           "label": "公開前プレビュー PC・スマホのスクリーンショットとZIPを作成 ↗"
         }
       ]
@@ -571,7 +571,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 128,
+          "line": 127,
           "label": "緊急ロールバック 正常なコミットを新しい復元コミットとして反映 ↗"
         }
       ]
@@ -589,7 +589,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 128,
+          "line": 127,
           "label": "サイト統合同期 全データを取得・検査し、1コミットで公開 ↗"
         }
       ]
@@ -630,7 +630,7 @@
         },
         {
           "file": "voting.html",
-          "line": 188,
+          "line": 187,
           "label": "Google Play ↗"
         }
       ]
@@ -653,7 +653,7 @@
         },
         {
           "file": "voting.html",
-          "line": 191,
+          "line": 190,
           "label": "Google Play ↗"
         }
       ]
@@ -676,7 +676,7 @@
         },
         {
           "file": "voting.html",
-          "line": 186,
+          "line": 185,
           "label": "Google Play ↗"
         }
       ]
@@ -699,7 +699,7 @@
         },
         {
           "file": "voting.html",
-          "line": 192,
+          "line": 191,
           "label": "Google Playで開く ↗"
         }
       ]
@@ -722,7 +722,7 @@
         },
         {
           "file": "voting.html",
-          "line": 189,
+          "line": 188,
           "label": "Google Play ↗"
         }
       ]
@@ -745,7 +745,7 @@
         },
         {
           "file": "voting.html",
-          "line": 185,
+          "line": 184,
           "label": "Google Playで開く ↗"
         }
       ]
@@ -768,7 +768,7 @@
         },
         {
           "file": "voting.html",
-          "line": 190,
+          "line": 189,
           "label": "Google Play ↗"
         }
       ]
@@ -791,7 +791,7 @@
         },
         {
           "file": "voting.html",
-          "line": 187,
+          "line": 186,
           "label": "Google Play ↗"
         }
       ]
@@ -995,7 +995,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784677716336&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784724010554&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
