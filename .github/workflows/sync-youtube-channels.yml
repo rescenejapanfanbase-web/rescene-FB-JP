@@ -3,7 +3,8 @@ name: Sync YouTube Channels
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 */2 * * *"
+    # GitHub ActionsはUTC基準。UTCの奇数時＝日本時間の偶数時。
+    - cron: "5 1,3,5,7,9,11,13,15,17,19,21,23 * * *"
 
 permissions:
   contents: write
