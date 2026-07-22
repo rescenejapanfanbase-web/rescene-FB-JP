@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-07-22T03:00:21.151799+00:00",
+  "generatedAt": "2026-07-22T12:41:45.011723+00:00",
   "items": [
     {
       "date": "2026-07-22",
@@ -10,6 +10,15 @@ window.RESCENE_SITE_UPDATES = {
         "FAVORITES",
         "SHARE",
         "ANALYTICS"
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "d59d304",
+      "files": [
+        "data/external-link-report.json"
       ]
     },
     {
@@ -52,9 +61,10 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-07-22",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "db59d2d",
+      "commit": "51c9170",
       "files": [
-        "css/common.css"
+        ".github/workflows/sync-all-content.yml",
+        ".github/workflows/sync-youtube-channels.yml"
       ]
     },
     {
@@ -73,17 +83,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "b2081c9",
       "files": [
         "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-07-21",
-      "title": "Add files via upload",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "4f1394e",
-      "files": [
-        ".github/workflows/check-site.yml",
-        ".github/workflows/generate-seo.yml",
-        ".github/workflows/preview-site.yml"
       ]
     },
     {
