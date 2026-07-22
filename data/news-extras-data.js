@@ -1,6 +1,6 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-07-22T20:00:21.954Z",
-  "sourceNewsGeneratedAt": "2026-07-22T20:00:15.302Z",
+  "generatedAt": "2026-07-22T22:38:25.672Z",
+  "sourceNewsGeneratedAt": "2026-07-22T22:38:25.619Z",
   "related": {
     "fanbase-site": [
       {
@@ -8,7 +8,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "RESCENEが第7回 島の日の広報大使に任命",
         "date": "2026.07.21",
         "label": "AMBASSADOR",
-        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/1aa57817-905f-40ac-867c-aac349fd4640/IMG_9292.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFX4FKKE%2F20260722%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260722T200015Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBQaDmFwLW5vcnRoZWFzdC0xIkcwRQIgPUwMmw2zL2aVBW08D6LU8zOtNsZx4tqQcuTMeWfl2PMCIQD7z8tkhCDTcxgn5tE5qhpWnxaOpDKiRJ7fgLVNR3L8CiqPBAjd%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMBDwiKm9gxwLwrCnFKuMD%2FN9lH6LLTNg3j2Nh6wCOD7CTZVTT7Y4146FpSGvkSU%2FwPTh%2FEQYgCL%2Famyyw15pb14BlHObCEg5ihjt4y9VTYoA0ITcQ34%2B%2Bjjn4GD1uQ%2B1WIGEbK%2F9EPuJvqEVkienTACQqTEqE9nZDtOsZ14sLgXSNJ5NaYARMeLhCodYbdMhMDfxafBlahaogNsiCaVM5BiVnQJTmiFw4EU2bPAPFSTAfdTumtcsjiSzBxJgf%2FEf4Mkornw%2FZmDpboaqz0oVdgWagSTb%2BAwzS%2BsMox5pEABf6SkhEUPEVZSdexLGiCC9eGx6z%2FJE8ta5oGoUE93tLM349NQ0D7RfmyEHUxSXFYkhklPQp1lq1fN1ErYHfxrjwbbdO0Y1RvDRb24aaNR6IybLEohwiFoJXIaw8fbCmlsCnh47%2FCNB%2F%2BJBKQQ0aFaExy%2BCwKepgH8tt%2BQpAChcQROEjRn15fLKMsKiauJkm0sbsmIRucIFFszAXK1Y%2BoH7JX4klRMStO%2Bb0uY1KrJGmlIViWFYVJAUkW8HB%2BSV3OQsDijYNN61KyOTARPic%2BDP4lYCvQfzxRl6pLW82Uck7MDS4%2BA4QyDNlCLtGJgQq7F6NRhEhRn6yCMV8CUv%2F%2B0tuZHUrSNu7E9Tc9QpUVsBUILOmMMa%2FhNMGOqUBKBx8o7IJCOHFGtYC0Nol7uB3htqY495DFr9QCSLnJg7o7JZ6aUU7yoWjEwf%2FXn6lIZ5Cdz5c5JIQ5LW7EYapb9lOge5Hf63q4PFffwdMVWkmi6oCsqGHp0XP%2FJ7Ubs3pVtluMqZn0oW%2BykF%2BOMOL6BK32y120t%2Frn2o%2F%2FM91v5q6MIURAIBZi%2BEZ1a2v9%2BLxmJsPQsHoGQEM5ei8y%2Bu332ddB5on&X-Amz-Signature=97215436a8ca4e65f3c5bf7bb4e910e04e7f4d9d392a48df8e9fcc3e301b3e2e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "image": "news/IMG_9292.jpeg",
         "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
         "score": 5,
         "reasons": [
@@ -97,7 +97,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "RESCENEが第7回 島の日の広報大使に任命",
         "date": "2026.07.21",
         "label": "AMBASSADOR",
-        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/1aa57817-905f-40ac-867c-aac349fd4640/IMG_9292.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFX4FKKE%2F20260722%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260722T200015Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBQaDmFwLW5vcnRoZWFzdC0xIkcwRQIgPUwMmw2zL2aVBW08D6LU8zOtNsZx4tqQcuTMeWfl2PMCIQD7z8tkhCDTcxgn5tE5qhpWnxaOpDKiRJ7fgLVNR3L8CiqPBAjd%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMBDwiKm9gxwLwrCnFKuMD%2FN9lH6LLTNg3j2Nh6wCOD7CTZVTT7Y4146FpSGvkSU%2FwPTh%2FEQYgCL%2Famyyw15pb14BlHObCEg5ihjt4y9VTYoA0ITcQ34%2B%2Bjjn4GD1uQ%2B1WIGEbK%2F9EPuJvqEVkienTACQqTEqE9nZDtOsZ14sLgXSNJ5NaYARMeLhCodYbdMhMDfxafBlahaogNsiCaVM5BiVnQJTmiFw4EU2bPAPFSTAfdTumtcsjiSzBxJgf%2FEf4Mkornw%2FZmDpboaqz0oVdgWagSTb%2BAwzS%2BsMox5pEABf6SkhEUPEVZSdexLGiCC9eGx6z%2FJE8ta5oGoUE93tLM349NQ0D7RfmyEHUxSXFYkhklPQp1lq1fN1ErYHfxrjwbbdO0Y1RvDRb24aaNR6IybLEohwiFoJXIaw8fbCmlsCnh47%2FCNB%2F%2BJBKQQ0aFaExy%2BCwKepgH8tt%2BQpAChcQROEjRn15fLKMsKiauJkm0sbsmIRucIFFszAXK1Y%2BoH7JX4klRMStO%2Bb0uY1KrJGmlIViWFYVJAUkW8HB%2BSV3OQsDijYNN61KyOTARPic%2BDP4lYCvQfzxRl6pLW82Uck7MDS4%2BA4QyDNlCLtGJgQq7F6NRhEhRn6yCMV8CUv%2F%2B0tuZHUrSNu7E9Tc9QpUVsBUILOmMMa%2FhNMGOqUBKBx8o7IJCOHFGtYC0Nol7uB3htqY495DFr9QCSLnJg7o7JZ6aUU7yoWjEwf%2FXn6lIZ5Cdz5c5JIQ5LW7EYapb9lOge5Hf63q4PFffwdMVWkmi6oCsqGHp0XP%2FJ7Ubs3pVtluMqZn0oW%2BykF%2BOMOL6BK32y120t%2Frn2o%2F%2FM91v5q6MIURAIBZi%2BEZ1a2v9%2BLxmJsPQsHoGQEM5ei8y%2Bu332ddB5on&X-Amz-Signature=97215436a8ca4e65f3c5bf7bb4e910e04e7f4d9d392a48df8e9fcc3e301b3e2e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "image": "news/IMG_9292.jpeg",
         "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
         "score": 7,
         "reasons": [
@@ -176,7 +176,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "RESCENEが第7回 島の日の広報大使に任命",
         "date": "2026.07.21",
         "label": "AMBASSADOR",
-        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/1aa57817-905f-40ac-867c-aac349fd4640/IMG_9292.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFX4FKKE%2F20260722%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260722T200015Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBQaDmFwLW5vcnRoZWFzdC0xIkcwRQIgPUwMmw2zL2aVBW08D6LU8zOtNsZx4tqQcuTMeWfl2PMCIQD7z8tkhCDTcxgn5tE5qhpWnxaOpDKiRJ7fgLVNR3L8CiqPBAjd%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMBDwiKm9gxwLwrCnFKuMD%2FN9lH6LLTNg3j2Nh6wCOD7CTZVTT7Y4146FpSGvkSU%2FwPTh%2FEQYgCL%2Famyyw15pb14BlHObCEg5ihjt4y9VTYoA0ITcQ34%2B%2Bjjn4GD1uQ%2B1WIGEbK%2F9EPuJvqEVkienTACQqTEqE9nZDtOsZ14sLgXSNJ5NaYARMeLhCodYbdMhMDfxafBlahaogNsiCaVM5BiVnQJTmiFw4EU2bPAPFSTAfdTumtcsjiSzBxJgf%2FEf4Mkornw%2FZmDpboaqz0oVdgWagSTb%2BAwzS%2BsMox5pEABf6SkhEUPEVZSdexLGiCC9eGx6z%2FJE8ta5oGoUE93tLM349NQ0D7RfmyEHUxSXFYkhklPQp1lq1fN1ErYHfxrjwbbdO0Y1RvDRb24aaNR6IybLEohwiFoJXIaw8fbCmlsCnh47%2FCNB%2F%2BJBKQQ0aFaExy%2BCwKepgH8tt%2BQpAChcQROEjRn15fLKMsKiauJkm0sbsmIRucIFFszAXK1Y%2BoH7JX4klRMStO%2Bb0uY1KrJGmlIViWFYVJAUkW8HB%2BSV3OQsDijYNN61KyOTARPic%2BDP4lYCvQfzxRl6pLW82Uck7MDS4%2BA4QyDNlCLtGJgQq7F6NRhEhRn6yCMV8CUv%2F%2B0tuZHUrSNu7E9Tc9QpUVsBUILOmMMa%2FhNMGOqUBKBx8o7IJCOHFGtYC0Nol7uB3htqY495DFr9QCSLnJg7o7JZ6aUU7yoWjEwf%2FXn6lIZ5Cdz5c5JIQ5LW7EYapb9lOge5Hf63q4PFffwdMVWkmi6oCsqGHp0XP%2FJ7Ubs3pVtluMqZn0oW%2BykF%2BOMOL6BK32y120t%2Frn2o%2F%2FM91v5q6MIURAIBZi%2BEZ1a2v9%2BLxmJsPQsHoGQEM5ei8y%2Bu332ddB5on&X-Amz-Signature=97215436a8ca4e65f3c5bf7bb4e910e04e7f4d9d392a48df8e9fcc3e301b3e2e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "image": "news/IMG_9292.jpeg",
         "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
         "score": 7,
         "reasons": [
@@ -448,7 +448,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "RESCENEが第7回 島の日の広報大使に任命",
         "date": "2026.07.21",
         "label": "AMBASSADOR",
-        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/1aa57817-905f-40ac-867c-aac349fd4640/IMG_9292.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFX4FKKE%2F20260722%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260722T200015Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBQaDmFwLW5vcnRoZWFzdC0xIkcwRQIgPUwMmw2zL2aVBW08D6LU8zOtNsZx4tqQcuTMeWfl2PMCIQD7z8tkhCDTcxgn5tE5qhpWnxaOpDKiRJ7fgLVNR3L8CiqPBAjd%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMBDwiKm9gxwLwrCnFKuMD%2FN9lH6LLTNg3j2Nh6wCOD7CTZVTT7Y4146FpSGvkSU%2FwPTh%2FEQYgCL%2Famyyw15pb14BlHObCEg5ihjt4y9VTYoA0ITcQ34%2B%2Bjjn4GD1uQ%2B1WIGEbK%2F9EPuJvqEVkienTACQqTEqE9nZDtOsZ14sLgXSNJ5NaYARMeLhCodYbdMhMDfxafBlahaogNsiCaVM5BiVnQJTmiFw4EU2bPAPFSTAfdTumtcsjiSzBxJgf%2FEf4Mkornw%2FZmDpboaqz0oVdgWagSTb%2BAwzS%2BsMox5pEABf6SkhEUPEVZSdexLGiCC9eGx6z%2FJE8ta5oGoUE93tLM349NQ0D7RfmyEHUxSXFYkhklPQp1lq1fN1ErYHfxrjwbbdO0Y1RvDRb24aaNR6IybLEohwiFoJXIaw8fbCmlsCnh47%2FCNB%2F%2BJBKQQ0aFaExy%2BCwKepgH8tt%2BQpAChcQROEjRn15fLKMsKiauJkm0sbsmIRucIFFszAXK1Y%2BoH7JX4klRMStO%2Bb0uY1KrJGmlIViWFYVJAUkW8HB%2BSV3OQsDijYNN61KyOTARPic%2BDP4lYCvQfzxRl6pLW82Uck7MDS4%2BA4QyDNlCLtGJgQq7F6NRhEhRn6yCMV8CUv%2F%2B0tuZHUrSNu7E9Tc9QpUVsBUILOmMMa%2FhNMGOqUBKBx8o7IJCOHFGtYC0Nol7uB3htqY495DFr9QCSLnJg7o7JZ6aUU7yoWjEwf%2FXn6lIZ5Cdz5c5JIQ5LW7EYapb9lOge5Hf63q4PFffwdMVWkmi6oCsqGHp0XP%2FJ7Ubs3pVtluMqZn0oW%2BykF%2BOMOL6BK32y120t%2Frn2o%2F%2FM91v5q6MIURAIBZi%2BEZ1a2v9%2BLxmJsPQsHoGQEM5ei8y%2Bu332ddB5on&X-Amz-Signature=97215436a8ca4e65f3c5bf7bb4e910e04e7f4d9d392a48df8e9fcc3e301b3e2e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "image": "news/IMG_9292.jpeg",
         "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
         "score": 6,
         "reasons": [
