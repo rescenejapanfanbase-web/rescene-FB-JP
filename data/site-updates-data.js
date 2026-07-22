@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-07-21T23:59:16.100787+00:00",
+  "generatedAt": "2026-07-22T03:00:21.151799+00:00",
   "items": [
     {
       "date": "2026-07-22",
@@ -52,9 +52,9 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-07-22",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "57012eb",
+      "commit": "db59d2d",
       "files": [
-        "scripts/sync-site-shell.py"
+        "css/common.css"
       ]
     },
     {
