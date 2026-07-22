@@ -14,6 +14,7 @@ run_step() {
 
 run_step "Notion スケジュール" node scripts/sync-notion.mjs
 run_step "Notion ニュース" node scripts/sync-notion-news.mjs
+run_step "ニュース画像参照の補正" node scripts/sanitize-news-images.mjs
 run_step "Notion ディスコグラフィ" node scripts/sync-notion-discography.mjs
 run_step "Notion メンバー" node scripts/sync-notion-members.mjs
 run_step "Notion About" node scripts/sync-notion-about.mjs
@@ -31,6 +32,7 @@ else
 fi
 run_step "MV一覧" node scripts/sync-mv.mjs
 run_step "ニュース関連記事・SNS投稿文" node scripts/generate-news-extras.mjs
+run_step "生成後ニュース画像参照の再確認" node scripts/sanitize-news-images.mjs
 run_step "サイト更新履歴" python3 scripts/generate-site-updates.py
 run_step "アクセス解析設定" python3 scripts/generate-analytics-config.py
 run_step "ホーム用ガイド更新情報" node scripts/generate-home-guides.mjs
