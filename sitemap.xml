@@ -86,7 +86,13 @@
   </url>
   <url>
     <loc>https://rescene-fb.jp/articles/fanbase-site.html</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rescene-fb.jp/articles/rescene-7-4612133921.html</loc>
+    <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

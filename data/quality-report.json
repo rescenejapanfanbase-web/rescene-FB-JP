@@ -1,11 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-22T13:24:15.443329Z",
+  "generatedAt": "2026-07-22T20:00:22.245525Z",
   "summary": {
     "errors": 0,
-    "warnings": 0,
-    "htmlPages": 62
+    "warnings": 5,
+    "htmlPages": 63
   },
   "errors": [],
-  "warnings": []
+  "warnings": [
+    {
+      "code": "performance.image-size",
+      "message": "2番目の画像にwidth/heightがありません。",
+      "file": "articles/fanbase-site.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "3番目の画像にwidth/heightがありません。",
+      "file": "articles/melon-top100-first-number-one.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "3番目の画像にwidth/heightがありません。",
+      "file": "articles/pretty-girl-first-music-show-win.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "1番目の画像にwidth/heightがありません。",
+      "file": "articles/rescene-7-4612133921.html"
+    },
+    {
+      "code": "performance.image-size",
+      "message": "2番目の画像にwidth/heightがありません。",
+      "file": "articles/second-anniversary.html"
+    }
+  ]
 }

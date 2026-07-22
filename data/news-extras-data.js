@@ -1,8 +1,20 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-07-21T16:11:32.578Z",
-  "sourceNewsGeneratedAt": "2026-07-19T10:43:04.390Z",
+  "generatedAt": "2026-07-22T20:00:21.954Z",
+  "sourceNewsGeneratedAt": "2026-07-22T20:00:15.302Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "rescene-7-4612133921",
+        "title": "RESCENEが第7回 島の日の広報大使に任命",
+        "date": "2026.07.21",
+        "label": "AMBASSADOR",
+        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/1aa57817-905f-40ac-867c-aac349fd4640/IMG_9292.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFX4FKKE%2F20260722%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260722T200015Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBQaDmFwLW5vcnRoZWFzdC0xIkcwRQIgPUwMmw2zL2aVBW08D6LU8zOtNsZx4tqQcuTMeWfl2PMCIQD7z8tkhCDTcxgn5tE5qhpWnxaOpDKiRJ7fgLVNR3L8CiqPBAjd%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMBDwiKm9gxwLwrCnFKuMD%2FN9lH6LLTNg3j2Nh6wCOD7CTZVTT7Y4146FpSGvkSU%2FwPTh%2FEQYgCL%2Famyyw15pb14BlHObCEg5ihjt4y9VTYoA0ITcQ34%2B%2Bjjn4GD1uQ%2B1WIGEbK%2F9EPuJvqEVkienTACQqTEqE9nZDtOsZ14sLgXSNJ5NaYARMeLhCodYbdMhMDfxafBlahaogNsiCaVM5BiVnQJTmiFw4EU2bPAPFSTAfdTumtcsjiSzBxJgf%2FEf4Mkornw%2FZmDpboaqz0oVdgWagSTb%2BAwzS%2BsMox5pEABf6SkhEUPEVZSdexLGiCC9eGx6z%2FJE8ta5oGoUE93tLM349NQ0D7RfmyEHUxSXFYkhklPQp1lq1fN1ErYHfxrjwbbdO0Y1RvDRb24aaNR6IybLEohwiFoJXIaw8fbCmlsCnh47%2FCNB%2F%2BJBKQQ0aFaExy%2BCwKepgH8tt%2BQpAChcQROEjRn15fLKMsKiauJkm0sbsmIRucIFFszAXK1Y%2BoH7JX4klRMStO%2Bb0uY1KrJGmlIViWFYVJAUkW8HB%2BSV3OQsDijYNN61KyOTARPic%2BDP4lYCvQfzxRl6pLW82Uck7MDS4%2BA4QyDNlCLtGJgQq7F6NRhEhRn6yCMV8CUv%2F%2B0tuZHUrSNu7E9Tc9QpUVsBUILOmMMa%2FhNMGOqUBKBx8o7IJCOHFGtYC0Nol7uB3htqY495DFr9QCSLnJg7o7JZ6aUU7yoWjEwf%2FXn6lIZ5Cdz5c5JIQ5LW7EYapb9lOge5Hf63q4PFffwdMVWkmi6oCsqGHp0XP%2FJ7Ubs3pVtluMqZn0oW%2BykF%2BOMOL6BK32y120t%2Frn2o%2F%2FM91v5q6MIURAIBZi%2BEZ1a2v9%2BLxmJsPQsHoGQEM5ei8y%2Bu332ddB5on&X-Amz-Signature=97215436a8ca4e65f3c5bf7bb4e910e04e7f4d9d392a48df8e9fcc3e301b3e2e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "pretty-girl-first-music-show-win",
         "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
@@ -26,32 +38,19 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "同じカテゴリー"
         ]
-      },
-      {
-        "slug": "melon-top100-first-number-one",
-        "title": "RESCENEがMelon TOP100で初の1位を記録",
-        "date": "2026.07.08",
-        "label": "MELON RECORD",
-        "image": "news/melon-top100-first.jpg",
-        "text": "2026年7月8日22時、RESCENEがMelon TOP100でグループ初となる1位を記録しました。記録達成後のYouTubeライブもあわせてご覧いただけます。",
-        "score": 5,
-        "reasons": [
-          "同じカテゴリー"
-        ]
       }
     ],
-    "pretty-girl-first-music-show-win": [
+    "rescene-7-4612133921": [
       {
-        "slug": "pretty-girl-release",
-        "title": "Special Single「Pretty Girl」配信開始",
-        "date": "2026.07.08",
-        "label": "SPECIAL SINGLE",
-        "image": "assets/mv/pretty-girl.jpg",
-        "text": "Special Single「Pretty Girl」の配信がスタートしました。リリース1時間後にMelon TOP100 22位へランクインし、最高4位を記録しました。",
-        "score": 13,
+        "slug": "pretty-girl-first-music-show-win",
+        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
+        "date": "2026.07.14",
+        "label": "1ST WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
+        "score": 7,
         "reasons": [
-          "共通キーワード",
-          "同じ作品"
+          "同じカテゴリー"
         ]
       },
       {
@@ -73,6 +72,45 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "MELON RECORD",
         "image": "news/melon-top100-first.jpg",
         "text": "2026年7月8日22時、RESCENEがMelon TOP100でグループ初となる1位を記録しました。記録達成後のYouTubeライブもあわせてご覧いただけます。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      }
+    ],
+    "pretty-girl-first-music-show-win": [
+      {
+        "slug": "pretty-girl-release",
+        "title": "Special Single「Pretty Girl」配信開始",
+        "date": "2026.07.08",
+        "label": "SPECIAL SINGLE",
+        "image": "assets/mv/pretty-girl.jpg",
+        "text": "Special Single「Pretty Girl」の配信がスタートしました。リリース1時間後にMelon TOP100 22位へランクインし、最高4位を記録しました。",
+        "score": 13,
+        "reasons": [
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "rescene-7-4612133921",
+        "title": "RESCENEが第7回 島の日の広報大使に任命",
+        "date": "2026.07.21",
+        "label": "AMBASSADOR",
+        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/1aa57817-905f-40ac-867c-aac349fd4640/IMG_9292.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFX4FKKE%2F20260722%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260722T200015Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBQaDmFwLW5vcnRoZWFzdC0xIkcwRQIgPUwMmw2zL2aVBW08D6LU8zOtNsZx4tqQcuTMeWfl2PMCIQD7z8tkhCDTcxgn5tE5qhpWnxaOpDKiRJ7fgLVNR3L8CiqPBAjd%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMBDwiKm9gxwLwrCnFKuMD%2FN9lH6LLTNg3j2Nh6wCOD7CTZVTT7Y4146FpSGvkSU%2FwPTh%2FEQYgCL%2Famyyw15pb14BlHObCEg5ihjt4y9VTYoA0ITcQ34%2B%2Bjjn4GD1uQ%2B1WIGEbK%2F9EPuJvqEVkienTACQqTEqE9nZDtOsZ14sLgXSNJ5NaYARMeLhCodYbdMhMDfxafBlahaogNsiCaVM5BiVnQJTmiFw4EU2bPAPFSTAfdTumtcsjiSzBxJgf%2FEf4Mkornw%2FZmDpboaqz0oVdgWagSTb%2BAwzS%2BsMox5pEABf6SkhEUPEVZSdexLGiCC9eGx6z%2FJE8ta5oGoUE93tLM349NQ0D7RfmyEHUxSXFYkhklPQp1lq1fN1ErYHfxrjwbbdO0Y1RvDRb24aaNR6IybLEohwiFoJXIaw8fbCmlsCnh47%2FCNB%2F%2BJBKQQ0aFaExy%2BCwKepgH8tt%2BQpAChcQROEjRn15fLKMsKiauJkm0sbsmIRucIFFszAXK1Y%2BoH7JX4klRMStO%2Bb0uY1KrJGmlIViWFYVJAUkW8HB%2BSV3OQsDijYNN61KyOTARPic%2BDP4lYCvQfzxRl6pLW82Uck7MDS4%2BA4QyDNlCLtGJgQq7F6NRhEhRn6yCMV8CUv%2F%2B0tuZHUrSNu7E9Tc9QpUVsBUILOmMMa%2FhNMGOqUBKBx8o7IJCOHFGtYC0Nol7uB3htqY495DFr9QCSLnJg7o7JZ6aUU7yoWjEwf%2FXn6lIZ5Cdz5c5JIQ5LW7EYapb9lOge5Hf63q4PFffwdMVWkmi6oCsqGHp0XP%2FJ7Ubs3pVtluMqZn0oW%2BykF%2BOMOL6BK32y120t%2Frn2o%2F%2FM91v5q6MIURAIBZi%2BEZ1a2v9%2BLxmJsPQsHoGQEM5ei8y%2Bu332ddB5on&X-Amz-Signature=97215436a8ca4e65f3c5bf7bb4e910e04e7f4d9d392a48df8e9fcc3e301b3e2e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
+        "slug": "love-attack-inkigayo-realtime-first",
+        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
+        "date": "2026.07.12",
+        "label": "RECORD",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -134,6 +172,18 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
+        "slug": "rescene-7-4612133921",
+        "title": "RESCENEが第7回 島の日の広報大使に任命",
+        "date": "2026.07.21",
+        "label": "AMBASSADOR",
+        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/1aa57817-905f-40ac-867c-aac349fd4640/IMG_9292.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFX4FKKE%2F20260722%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260722T200015Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBQaDmFwLW5vcnRoZWFzdC0xIkcwRQIgPUwMmw2zL2aVBW08D6LU8zOtNsZx4tqQcuTMeWfl2PMCIQD7z8tkhCDTcxgn5tE5qhpWnxaOpDKiRJ7fgLVNR3L8CiqPBAjd%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMBDwiKm9gxwLwrCnFKuMD%2FN9lH6LLTNg3j2Nh6wCOD7CTZVTT7Y4146FpSGvkSU%2FwPTh%2FEQYgCL%2Famyyw15pb14BlHObCEg5ihjt4y9VTYoA0ITcQ34%2B%2Bjjn4GD1uQ%2B1WIGEbK%2F9EPuJvqEVkienTACQqTEqE9nZDtOsZ14sLgXSNJ5NaYARMeLhCodYbdMhMDfxafBlahaogNsiCaVM5BiVnQJTmiFw4EU2bPAPFSTAfdTumtcsjiSzBxJgf%2FEf4Mkornw%2FZmDpboaqz0oVdgWagSTb%2BAwzS%2BsMox5pEABf6SkhEUPEVZSdexLGiCC9eGx6z%2FJE8ta5oGoUE93tLM349NQ0D7RfmyEHUxSXFYkhklPQp1lq1fN1ErYHfxrjwbbdO0Y1RvDRb24aaNR6IybLEohwiFoJXIaw8fbCmlsCnh47%2FCNB%2F%2BJBKQQ0aFaExy%2BCwKepgH8tt%2BQpAChcQROEjRn15fLKMsKiauJkm0sbsmIRucIFFszAXK1Y%2BoH7JX4klRMStO%2Bb0uY1KrJGmlIViWFYVJAUkW8HB%2BSV3OQsDijYNN61KyOTARPic%2BDP4lYCvQfzxRl6pLW82Uck7MDS4%2BA4QyDNlCLtGJgQq7F6NRhEhRn6yCMV8CUv%2F%2B0tuZHUrSNu7E9Tc9QpUVsBUILOmMMa%2FhNMGOqUBKBx8o7IJCOHFGtYC0Nol7uB3htqY495DFr9QCSLnJg7o7JZ6aUU7yoWjEwf%2FXn6lIZ5Cdz5c5JIQ5LW7EYapb9lOge5Hf63q4PFffwdMVWkmi6oCsqGHp0XP%2FJ7Ubs3pVtluMqZn0oW%2BykF%2BOMOL6BK32y120t%2Frn2o%2F%2FM91v5q6MIURAIBZi%2BEZ1a2v9%2BLxmJsPQsHoGQEM5ei8y%2Bu332ddB5on&X-Amz-Signature=97215436a8ca4e65f3c5bf7bb4e910e04e7f4d9d392a48df8e9fcc3e301b3e2e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "pretty-girl-first-music-show-win",
         "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
         "date": "2026.07.14",
@@ -141,18 +191,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "image": "news/the-show-first-win.jpeg",
         "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
         "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "second-anniversary",
-        "title": "RESCENE Debut 2nd Anniversary",
-        "date": "2026.03.26",
-        "label": "ANNIVERSARY",
-        "image": "news/debut-2nd-anniversary.jpg",
-        "text": "RESCENEがデビュー2周年を迎えました。",
-        "score": 6,
         "reasons": [
           "同じカテゴリー"
         ]
@@ -406,6 +444,18 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "second-anniversary": [
       {
+        "slug": "rescene-7-4612133921",
+        "title": "RESCENEが第7回 島の日の広報大使に任命",
+        "date": "2026.07.21",
+        "label": "AMBASSADOR",
+        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/1aa57817-905f-40ac-867c-aac349fd4640/IMG_9292.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFX4FKKE%2F20260722%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260722T200015Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBQaDmFwLW5vcnRoZWFzdC0xIkcwRQIgPUwMmw2zL2aVBW08D6LU8zOtNsZx4tqQcuTMeWfl2PMCIQD7z8tkhCDTcxgn5tE5qhpWnxaOpDKiRJ7fgLVNR3L8CiqPBAjd%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMBDwiKm9gxwLwrCnFKuMD%2FN9lH6LLTNg3j2Nh6wCOD7CTZVTT7Y4146FpSGvkSU%2FwPTh%2FEQYgCL%2Famyyw15pb14BlHObCEg5ihjt4y9VTYoA0ITcQ34%2B%2Bjjn4GD1uQ%2B1WIGEbK%2F9EPuJvqEVkienTACQqTEqE9nZDtOsZ14sLgXSNJ5NaYARMeLhCodYbdMhMDfxafBlahaogNsiCaVM5BiVnQJTmiFw4EU2bPAPFSTAfdTumtcsjiSzBxJgf%2FEf4Mkornw%2FZmDpboaqz0oVdgWagSTb%2BAwzS%2BsMox5pEABf6SkhEUPEVZSdexLGiCC9eGx6z%2FJE8ta5oGoUE93tLM349NQ0D7RfmyEHUxSXFYkhklPQp1lq1fN1ErYHfxrjwbbdO0Y1RvDRb24aaNR6IybLEohwiFoJXIaw8fbCmlsCnh47%2FCNB%2F%2BJBKQQ0aFaExy%2BCwKepgH8tt%2BQpAChcQROEjRn15fLKMsKiauJkm0sbsmIRucIFFszAXK1Y%2BoH7JX4klRMStO%2Bb0uY1KrJGmlIViWFYVJAUkW8HB%2BSV3OQsDijYNN61KyOTARPic%2BDP4lYCvQfzxRl6pLW82Uck7MDS4%2BA4QyDNlCLtGJgQq7F6NRhEhRn6yCMV8CUv%2F%2B0tuZHUrSNu7E9Tc9QpUVsBUILOmMMa%2FhNMGOqUBKBx8o7IJCOHFGtYC0Nol7uB3htqY495DFr9QCSLnJg7o7JZ6aUU7yoWjEwf%2FXn6lIZ5Cdz5c5JIQ5LW7EYapb9lOge5Hf63q4PFffwdMVWkmi6oCsqGHp0XP%2FJ7Ubs3pVtluMqZn0oW%2BykF%2BOMOL6BK32y120t%2Frn2o%2F%2FM91v5q6MIURAIBZi%2BEZ1a2v9%2BLxmJsPQsHoGQEM5ei8y%2Bu332ddB5on&X-Amz-Signature=97215436a8ca4e65f3c5bf7bb4e910e04e7f4d9d392a48df8e9fcc3e301b3e2e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
+        "score": 6,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "pretty-girl-first-music-show-win",
         "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
         "date": "2026.07.14",
@@ -424,18 +474,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "RECORD",
         "image": "assets/mv/love-attack.jpg",
         "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
-        "score": 6,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "melon-top100-first-number-one",
-        "title": "RESCENEがMelon TOP100で初の1位を記録",
-        "date": "2026.07.08",
-        "label": "MELON RECORD",
-        "image": "news/melon-top100-first.jpg",
-        "text": "2026年7月8日22時、RESCENEがMelon TOP100でグループ初となる1位を記録しました。記録達成後のYouTubeライブもあわせてご覧いただけます。",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
@@ -771,6 +809,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "rescene-7-4612133921",
+      "date": "2026.07.21",
+      "title": "RESCENEが第7回 島の日の広報大使に任命",
+      "url": "https://rescene-fb.jp/articles/rescene-7-4612133921.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.21】 RESCENEが第7回 島の日の広報大使に任命\n\nhttps://rescene-fb.jp/articles/rescene-7-4612133921.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "RESCENEが第7回 島の日の広報大使に任命\n2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
+      "charCount": 115
     },
     {
       "slug": "pretty-girl-first-music-show-win",
