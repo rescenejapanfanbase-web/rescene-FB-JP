@@ -726,6 +726,7 @@ body.page-chants .chant-summary-copy{display:block;padding:16px 18px 18px}
 body.page-chants .chant-song-title{display:block;font-size:1.04rem;line-height:1.35;margin-bottom:9px}
 body.page-chants .chant-card .chant-meta{display:inline-flex!important;margin:0!important;padding:5px 9px!important;font-size:.66rem!important}
 body.page-chants .chant-summary-link{display:block!important;margin:13px 0 0!important;padding:0!important;color:var(--pink-soft)!important;background:none!important;border:0!important;font-size:.72rem!important;font-weight:900}
+body.page-chants .chant-card[open] .chant-summary-link{display:none!important}
 body.page-chants .chant-card[open] .chant-summary-thumb{display:none}
 body.page-chants .chant-card[open] .chant-summary-copy{padding:18px 20px}
 body.page-chants .chant-card .chant-gallery{margin:0!important;gap:0!important}
@@ -1707,6 +1708,9 @@ body.page-schedule .schedule-row-meta .schedule-time{margin-top:0}
 body.page-schedule .schedule-link-available{display:inline-flex;align-items:center;gap:5px;padding:5px 9px;border:1px solid rgba(255,115,175,.22);border-radius:999px;background:rgba(255,115,175,.09);color:#ff9bc7;font-size:.68rem;font-weight:900}
 body.page-schedule .schedule-link-available::before{content:"↗";font-family:Montserrat,sans-serif}
 html.light-mode body.page-schedule .schedule-link-available{border-color:rgba(184,63,120,.20);background:rgba(184,63,120,.08);color:#a7396f}
+body.page-schedule .schedule-related-link{border-color:rgba(255,115,175,.52)!important;background:linear-gradient(135deg,rgba(255,115,175,.22),rgba(176,112,255,.20))!important;color:#ffd9ea!important;box-shadow:0 8px 24px rgba(255,86,160,.13);font-weight:900!important}
+body.page-schedule .schedule-related-link:hover{border-color:rgba(255,145,195,.78)!important;background:linear-gradient(135deg,rgba(255,115,175,.32),rgba(176,112,255,.28))!important;color:#fff!important;transform:translateY(-1px)}
+html.light-mode body.page-schedule .schedule-related-link{border-color:rgba(184,63,120,.38)!important;background:linear-gradient(135deg,rgba(255,115,175,.13),rgba(176,112,255,.11))!important;color:#96305f!important;box-shadow:0 8px 20px rgba(143,63,103,.10)}
 
 /* =========================================================
    APP FEATURES: theme, favorites, sharing, PWA and admin tools

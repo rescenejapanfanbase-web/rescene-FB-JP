@@ -1,0 +1,30 @@
+RESCENE JAPAN FANBASE 最終仕上げ更新（2026-07-22）
+
+【修正内容】
+1. 掛け声ガイド
+- 一覧を閉じている状態の「掛け声を見る →」は維持
+- 詳細を開いた後は「掛け声を見る →」を非表示
+
+2. スケジュール
+- カレンダー購読欄の「購読すると、Notionで公開された新しい予定や変更がカレンダーへ反映されます。」を削除
+- 「関連リンクあり」の表示は維持
+- 詳細内の関連リンクボタンをピンク・パープル系で強調
+
+3. MV一覧
+- 絞り込みカテゴリーに「PERFORMANCE VIDEO」を追加
+- 「SPECIAL / OST」からPERFORMANCE VIDEOを分離
+
+4. 自動同期
+- YouTube専用同期を2時間ごとの05分に設定
+- cron: 5 */2 * * *
+- 統合同期は3時間ごとの35分へずらし、自動実行時はYouTube同期を重複させない
+- 統合同期を手動実行した場合は、従来どおりYouTubeも含めて同期
+
+
+【主な変更ファイル】
+- css/common.css
+- schedule.html
+- js/mv.js
+- .github/workflows/sync-youtube-channels.yml
+- .github/workflows/sync-all-content.yml
+- scripts/sync-all-content.sh

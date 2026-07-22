@@ -13,6 +13,7 @@
     {key:'all',label:'すべて'},
     ...((Array.isArray(data.years)?data.years:[...new Set(items.map(item=>item.year).filter(Boolean))].sort().reverse()).map(year=>({key:String(year),label:String(year)}))),
     {key:'official',label:'OFFICIAL MV'},
+    {key:'performance',label:'PERFORMANCE VIDEO'},
     {key:'special',label:'SPECIAL / OST'},
   ];
 
@@ -27,7 +28,12 @@
   }
 
   function visibleItems(){
-    return items.filter(item=>active==='all'||item.year===active||item.type===active);
+    return items.filter(item=>{
+      if(active==='all'||item.year===active)return true;
+      if(active==='performance')return item.kind==='PERFORMANCE VIDEO';
+      if(active==='special')return item.type==='special'&&item.kind!=='PERFORMANCE VIDEO';
+      return item.type===active;
+    });
   }
 
   function card(item){

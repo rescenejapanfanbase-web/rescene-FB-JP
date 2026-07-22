@@ -23,7 +23,12 @@ run_step "Notion ストリーミング" node scripts/sync-notion-streaming.mjs
 run_step "Notion 公式リンク" node scripts/sync-notion-official-links.mjs
 run_step "Notion お問い合わせ" node scripts/sync-notion-contact.mjs
 run_step "Notion ホーム・共通表示" node scripts/sync-notion-homepage.mjs
-run_step "YouTube 全動画" node scripts/sync-youtube-channels.mjs
+if [[ "${SKIP_YOUTUBE_SYNC:-0}" == "1" ]]; then
+  echo
+  echo "ℹ 自動実行ではYouTube専用ワークフローへ同期を任せます。"
+else
+  run_step "YouTube 全動画" node scripts/sync-youtube-channels.mjs
+fi
 run_step "MV一覧" node scripts/sync-mv.mjs
 run_step "ニュース関連記事・SNS投稿文" node scripts/generate-news-extras.mjs
 run_step "サイト更新履歴" python3 scripts/generate-site-updates.py
