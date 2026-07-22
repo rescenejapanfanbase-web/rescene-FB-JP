@@ -161,10 +161,22 @@ async function convertPage(page) {
   const categoryName = properties["カテゴリー"]?.select?.name ?? "お知らせ";
   const summary = plainText(properties["概要"]?.rich_text) || plainText(properties["本文"]?.rich_text);
   const body = plainText(properties["本文"]?.rich_text) || summary;
-  const imagePath = plainText(properties["画像パス"]?.rich_text);
+  const imagePathRaw = plainText(properties["画像パス"]?.rich_text);
+  const imagePath = imagePathRaw.replace(/^\/+/, "");
   const uploadedImage = notionFile(properties["画像"]);
   const slug = stableSlug(title, page.id);
-  const image = uploadedImage?.url ? await saveImage(uploadedImage, slug) : imagePath;
+
+  let image = "";
+  if (uploadedImage?.url) {
+    image = await saveImage(uploadedImage, slug);
+  } else if (imagePath) {
+    const localImage = await readBytes(imagePath);
+    if (localImage) {
+      image = imagePath;
+    } else {
+      console.warn(`画像パスが存在しないため無視します: ${title} / ${imagePathRaw}`);
+    }
+  }
   const sourceLink = properties["外部リンク"]?.url ?? "";
 
   return {
