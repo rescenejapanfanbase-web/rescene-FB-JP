@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-07-23T06:43:05.720087+00:00",
+  "generatedAt": "2026-07-23T16:05:09.009940+00:00",
   "items": [
     {
       "date": "2026-07-23",
@@ -12,12 +12,30 @@ window.RESCENE_SITE_UPDATES = {
     },
     {
       "date": "2026-07-23",
+      "title": "Delete news/IMG_9310.jpeg",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "3f98287",
+      "files": [
+        "news/IMG_9310.jpeg"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "title": "Delete news/IMG_9292.jpeg",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "06df33c",
+      "files": [
+        "news/IMG_9292.jpeg"
+      ]
+    },
+    {
+      "date": "2026-07-23",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "6dcaa40",
+      "commit": "4015b4a",
       "files": [
-        "scripts/sanitize-news-images.mjs",
-        "scripts/sync-all-content.sh"
+        "news/IMG_9292.jpeg",
+        "news/IMG_9310.jpeg"
       ]
     },
     {
@@ -38,15 +56,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "2c8ea2f",
       "files": [
         "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-07-22",
-      "title": "Delete site-header.html",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "442601e",
-      "files": [
-        "site-header.html"
       ]
     },
     {

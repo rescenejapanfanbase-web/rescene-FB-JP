@@ -1,6 +1,6 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-07-23T06:43:05.639Z",
-  "sourceNewsGeneratedAt": "2026-07-23T06:42:58.888Z",
+  "generatedAt": "2026-07-23T16:05:08.932Z",
+  "sourceNewsGeneratedAt": "2026-07-23T16:05:03.253Z",
   "related": {
     "fanbase-site": [
       {
@@ -8,7 +8,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
         "date": "2026.07.23",
         "label": "AMBASSADOR",
-        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/9df771ce-de1d-4e94-a11e-b94e44ea89b4/ED4D5264-6C03-4E44-80A1-D2D2B637DA05.avif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X6TAW62A%2F20260723%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260723T064258Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEB4aDmFwLW5vcnRoZWFzdC0xIkcwRQIhAI9hg%2FHWFc2aBYdjoDFopbO8JHzN89DZsOya4mhQSrbsAiA4%2BQXTuGsieq7o%2BC2P0DeYW7oaQwODzzPHPzF7QHBVWiqPBAjo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMDr5ZR4yJZ4FnWpCcKuMDl4pfhdJ5nKYdrqRmIO3rY%2FCiskhnI7R9kz5p7Y0TesBOfBGeG%2FX7nvobfAC7kh5icDUuVD86y2RmxOgJ3OK%2BYERwOmrtzIKKBoqQMWUegtwHyD5ykB1uWrAtKGFP%2FOZ45YPxFOV9FGM1aZL%2FQGkIG%2FjBpZpkBYqQ78VI1EXjlS5yqzGLMJrR7cKvyPM8Ii5paM4ge1ztwfu%2FWnyrakqZugppHBfT1y5%2B0pY9YDIWVFQvWr073wbEe%2FnezFbwZxt7rBBHHO1cGDUec1OUIS8XB44O%2BsrvNcRcwDlW4Xfk1z2DptCEFQc0H73NSGtaBeauiCteNFb7STJli3zcnydpDvhYRasSgfI5pMeA0aCNKR90A4R60FC9cBNEAkadvXwywsyp%2BKDMdIOeLTOb5bwGtjJTNoFo1mE4cEGHssj5rwFofdx%2BpZKm1JWLdmBpg0w7clGOWEgSCA%2BFiZSSDC8TpbazQjKqg5QP0HzK2U6haZC5mxHis0ezqhruVBJ3YwuSQlOztQMLFKvMGGyaocszYUwGj5G9iQbljyZiMMJ3X5CWDy9vOUqsXSFZWOSKQqTeVA13C1IUzetAMTTFTN1VCs0bEnkoiMcNvbT8gDPzS%2FlOpvMT6oWkPue9Whrt7dOVtPO3MInohtMGOqUB1L%2F%2BFw29pHKriUO36JzpIJheX0Se9MHBBYC4qoTI0SsdFQmL%2BBDolNk5a%2Bp7FApls4wTHR3PK%2FpkTJ4NTrbJw4VU02QrE0x5sjjOK7zQOEj6bA806bwGD3oSGOIEaMO53ef%2BVbshmE%2B7xyD63kc6JhUlOc4wRaZG0CQKswudNTwI93uiQU4np7ZYe1hGusgEIfaTRn0nDxmmCc7rIWIfRbkU2e6x&X-Amz-Signature=f09b3c6381b450efc7e9fb69f47caa381f81818667dcf39984c789136b3c843a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "image": "news/fanbase-site.jpg",
         "text": "MBCは2026年の愛知・ナゴヤアジア競技大会放送の広報大使としてガールズグループRESCENE（リセンヌ）を任命",
         "score": 5,
         "reasons": [
@@ -85,7 +85,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
         "date": "2026.07.23",
         "label": "AMBASSADOR",
-        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/9df771ce-de1d-4e94-a11e-b94e44ea89b4/ED4D5264-6C03-4E44-80A1-D2D2B637DA05.avif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X6TAW62A%2F20260723%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260723T064258Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEB4aDmFwLW5vcnRoZWFzdC0xIkcwRQIhAI9hg%2FHWFc2aBYdjoDFopbO8JHzN89DZsOya4mhQSrbsAiA4%2BQXTuGsieq7o%2BC2P0DeYW7oaQwODzzPHPzF7QHBVWiqPBAjo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMDr5ZR4yJZ4FnWpCcKuMDl4pfhdJ5nKYdrqRmIO3rY%2FCiskhnI7R9kz5p7Y0TesBOfBGeG%2FX7nvobfAC7kh5icDUuVD86y2RmxOgJ3OK%2BYERwOmrtzIKKBoqQMWUegtwHyD5ykB1uWrAtKGFP%2FOZ45YPxFOV9FGM1aZL%2FQGkIG%2FjBpZpkBYqQ78VI1EXjlS5yqzGLMJrR7cKvyPM8Ii5paM4ge1ztwfu%2FWnyrakqZugppHBfT1y5%2B0pY9YDIWVFQvWr073wbEe%2FnezFbwZxt7rBBHHO1cGDUec1OUIS8XB44O%2BsrvNcRcwDlW4Xfk1z2DptCEFQc0H73NSGtaBeauiCteNFb7STJli3zcnydpDvhYRasSgfI5pMeA0aCNKR90A4R60FC9cBNEAkadvXwywsyp%2BKDMdIOeLTOb5bwGtjJTNoFo1mE4cEGHssj5rwFofdx%2BpZKm1JWLdmBpg0w7clGOWEgSCA%2BFiZSSDC8TpbazQjKqg5QP0HzK2U6haZC5mxHis0ezqhruVBJ3YwuSQlOztQMLFKvMGGyaocszYUwGj5G9iQbljyZiMMJ3X5CWDy9vOUqsXSFZWOSKQqTeVA13C1IUzetAMTTFTN1VCs0bEnkoiMcNvbT8gDPzS%2FlOpvMT6oWkPue9Whrt7dOVtPO3MInohtMGOqUB1L%2F%2BFw29pHKriUO36JzpIJheX0Se9MHBBYC4qoTI0SsdFQmL%2BBDolNk5a%2Bp7FApls4wTHR3PK%2FpkTJ4NTrbJw4VU02QrE0x5sjjOK7zQOEj6bA806bwGD3oSGOIEaMO53ef%2BVbshmE%2B7xyD63kc6JhUlOc4wRaZG0CQKswudNTwI93uiQU4np7ZYe1hGusgEIfaTRn0nDxmmCc7rIWIfRbkU2e6x&X-Amz-Signature=f09b3c6381b450efc7e9fb69f47caa381f81818667dcf39984c789136b3c843a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "image": "news/fanbase-site.jpg",
         "text": "MBCは2026年の愛知・ナゴヤアジア競技大会放送の広報大使としてガールズグループRESCENE（リセンヌ）を任命",
         "score": 9,
         "reasons": [
@@ -137,7 +137,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
         "date": "2026.07.23",
         "label": "AMBASSADOR",
-        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/9df771ce-de1d-4e94-a11e-b94e44ea89b4/ED4D5264-6C03-4E44-80A1-D2D2B637DA05.avif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X6TAW62A%2F20260723%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260723T064258Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEB4aDmFwLW5vcnRoZWFzdC0xIkcwRQIhAI9hg%2FHWFc2aBYdjoDFopbO8JHzN89DZsOya4mhQSrbsAiA4%2BQXTuGsieq7o%2BC2P0DeYW7oaQwODzzPHPzF7QHBVWiqPBAjo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMDr5ZR4yJZ4FnWpCcKuMDl4pfhdJ5nKYdrqRmIO3rY%2FCiskhnI7R9kz5p7Y0TesBOfBGeG%2FX7nvobfAC7kh5icDUuVD86y2RmxOgJ3OK%2BYERwOmrtzIKKBoqQMWUegtwHyD5ykB1uWrAtKGFP%2FOZ45YPxFOV9FGM1aZL%2FQGkIG%2FjBpZpkBYqQ78VI1EXjlS5yqzGLMJrR7cKvyPM8Ii5paM4ge1ztwfu%2FWnyrakqZugppHBfT1y5%2B0pY9YDIWVFQvWr073wbEe%2FnezFbwZxt7rBBHHO1cGDUec1OUIS8XB44O%2BsrvNcRcwDlW4Xfk1z2DptCEFQc0H73NSGtaBeauiCteNFb7STJli3zcnydpDvhYRasSgfI5pMeA0aCNKR90A4R60FC9cBNEAkadvXwywsyp%2BKDMdIOeLTOb5bwGtjJTNoFo1mE4cEGHssj5rwFofdx%2BpZKm1JWLdmBpg0w7clGOWEgSCA%2BFiZSSDC8TpbazQjKqg5QP0HzK2U6haZC5mxHis0ezqhruVBJ3YwuSQlOztQMLFKvMGGyaocszYUwGj5G9iQbljyZiMMJ3X5CWDy9vOUqsXSFZWOSKQqTeVA13C1IUzetAMTTFTN1VCs0bEnkoiMcNvbT8gDPzS%2FlOpvMT6oWkPue9Whrt7dOVtPO3MInohtMGOqUB1L%2F%2BFw29pHKriUO36JzpIJheX0Se9MHBBYC4qoTI0SsdFQmL%2BBDolNk5a%2Bp7FApls4wTHR3PK%2FpkTJ4NTrbJw4VU02QrE0x5sjjOK7zQOEj6bA806bwGD3oSGOIEaMO53ef%2BVbshmE%2B7xyD63kc6JhUlOc4wRaZG0CQKswudNTwI93uiQU4np7ZYe1hGusgEIfaTRn0nDxmmCc7rIWIfRbkU2e6x&X-Amz-Signature=f09b3c6381b450efc7e9fb69f47caa381f81818667dcf39984c789136b3c843a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "image": "news/fanbase-site.jpg",
         "text": "MBCは2026年の愛知・ナゴヤアジア競技大会放送の広報大使としてガールズグループRESCENE（リセンヌ）を任命",
         "score": 7,
         "reasons": [
@@ -216,7 +216,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
         "date": "2026.07.23",
         "label": "AMBASSADOR",
-        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/9df771ce-de1d-4e94-a11e-b94e44ea89b4/ED4D5264-6C03-4E44-80A1-D2D2B637DA05.avif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X6TAW62A%2F20260723%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260723T064258Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEB4aDmFwLW5vcnRoZWFzdC0xIkcwRQIhAI9hg%2FHWFc2aBYdjoDFopbO8JHzN89DZsOya4mhQSrbsAiA4%2BQXTuGsieq7o%2BC2P0DeYW7oaQwODzzPHPzF7QHBVWiqPBAjo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMDr5ZR4yJZ4FnWpCcKuMDl4pfhdJ5nKYdrqRmIO3rY%2FCiskhnI7R9kz5p7Y0TesBOfBGeG%2FX7nvobfAC7kh5icDUuVD86y2RmxOgJ3OK%2BYERwOmrtzIKKBoqQMWUegtwHyD5ykB1uWrAtKGFP%2FOZ45YPxFOV9FGM1aZL%2FQGkIG%2FjBpZpkBYqQ78VI1EXjlS5yqzGLMJrR7cKvyPM8Ii5paM4ge1ztwfu%2FWnyrakqZugppHBfT1y5%2B0pY9YDIWVFQvWr073wbEe%2FnezFbwZxt7rBBHHO1cGDUec1OUIS8XB44O%2BsrvNcRcwDlW4Xfk1z2DptCEFQc0H73NSGtaBeauiCteNFb7STJli3zcnydpDvhYRasSgfI5pMeA0aCNKR90A4R60FC9cBNEAkadvXwywsyp%2BKDMdIOeLTOb5bwGtjJTNoFo1mE4cEGHssj5rwFofdx%2BpZKm1JWLdmBpg0w7clGOWEgSCA%2BFiZSSDC8TpbazQjKqg5QP0HzK2U6haZC5mxHis0ezqhruVBJ3YwuSQlOztQMLFKvMGGyaocszYUwGj5G9iQbljyZiMMJ3X5CWDy9vOUqsXSFZWOSKQqTeVA13C1IUzetAMTTFTN1VCs0bEnkoiMcNvbT8gDPzS%2FlOpvMT6oWkPue9Whrt7dOVtPO3MInohtMGOqUB1L%2F%2BFw29pHKriUO36JzpIJheX0Se9MHBBYC4qoTI0SsdFQmL%2BBDolNk5a%2Bp7FApls4wTHR3PK%2FpkTJ4NTrbJw4VU02QrE0x5sjjOK7zQOEj6bA806bwGD3oSGOIEaMO53ef%2BVbshmE%2B7xyD63kc6JhUlOc4wRaZG0CQKswudNTwI93uiQU4np7ZYe1hGusgEIfaTRn0nDxmmCc7rIWIfRbkU2e6x&X-Amz-Signature=f09b3c6381b450efc7e9fb69f47caa381f81818667dcf39984c789136b3c843a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "image": "news/fanbase-site.jpg",
         "text": "MBCは2026年の愛知・ナゴヤアジア競技大会放送の広報大使としてガールズグループRESCENE（リセンヌ）を任命",
         "score": 7,
         "reasons": [
@@ -488,7 +488,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
         "date": "2026.07.23",
         "label": "AMBASSADOR",
-        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/9df771ce-de1d-4e94-a11e-b94e44ea89b4/ED4D5264-6C03-4E44-80A1-D2D2B637DA05.avif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X6TAW62A%2F20260723%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260723T064258Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEB4aDmFwLW5vcnRoZWFzdC0xIkcwRQIhAI9hg%2FHWFc2aBYdjoDFopbO8JHzN89DZsOya4mhQSrbsAiA4%2BQXTuGsieq7o%2BC2P0DeYW7oaQwODzzPHPzF7QHBVWiqPBAjo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMDr5ZR4yJZ4FnWpCcKuMDl4pfhdJ5nKYdrqRmIO3rY%2FCiskhnI7R9kz5p7Y0TesBOfBGeG%2FX7nvobfAC7kh5icDUuVD86y2RmxOgJ3OK%2BYERwOmrtzIKKBoqQMWUegtwHyD5ykB1uWrAtKGFP%2FOZ45YPxFOV9FGM1aZL%2FQGkIG%2FjBpZpkBYqQ78VI1EXjlS5yqzGLMJrR7cKvyPM8Ii5paM4ge1ztwfu%2FWnyrakqZugppHBfT1y5%2B0pY9YDIWVFQvWr073wbEe%2FnezFbwZxt7rBBHHO1cGDUec1OUIS8XB44O%2BsrvNcRcwDlW4Xfk1z2DptCEFQc0H73NSGtaBeauiCteNFb7STJli3zcnydpDvhYRasSgfI5pMeA0aCNKR90A4R60FC9cBNEAkadvXwywsyp%2BKDMdIOeLTOb5bwGtjJTNoFo1mE4cEGHssj5rwFofdx%2BpZKm1JWLdmBpg0w7clGOWEgSCA%2BFiZSSDC8TpbazQjKqg5QP0HzK2U6haZC5mxHis0ezqhruVBJ3YwuSQlOztQMLFKvMGGyaocszYUwGj5G9iQbljyZiMMJ3X5CWDy9vOUqsXSFZWOSKQqTeVA13C1IUzetAMTTFTN1VCs0bEnkoiMcNvbT8gDPzS%2FlOpvMT6oWkPue9Whrt7dOVtPO3MInohtMGOqUB1L%2F%2BFw29pHKriUO36JzpIJheX0Se9MHBBYC4qoTI0SsdFQmL%2BBDolNk5a%2Bp7FApls4wTHR3PK%2FpkTJ4NTrbJw4VU02QrE0x5sjjOK7zQOEj6bA806bwGD3oSGOIEaMO53ef%2BVbshmE%2B7xyD63kc6JhUlOc4wRaZG0CQKswudNTwI93uiQU4np7ZYe1hGusgEIfaTRn0nDxmmCc7rIWIfRbkU2e6x&X-Amz-Signature=f09b3c6381b450efc7e9fb69f47caa381f81818667dcf39984c789136b3c843a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "image": "news/fanbase-site.jpg",
         "text": "MBCは2026年の愛知・ナゴヤアジア競技大会放送の広報大使としてガールズグループRESCENE（リセンヌ）を任命",
         "score": 6,
         "reasons": [
