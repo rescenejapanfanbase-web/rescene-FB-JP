@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-23T00:12:29Z",
-  "startedAt": "2026-07-23T00:12:25Z",
-  "elapsedSeconds": 3.9,
+  "generatedAt": "2026-07-23T23:44:02Z",
+  "startedAt": "2026-07-23T23:43:57Z",
+  "elapsedSeconds": 4.11,
   "summary": {
-    "checked": 64,
-    "ok": 63,
+    "checked": 65,
+    "ok": 64,
     "warning": 1,
     "broken": 0,
-    "hosts": 16
+    "hosts": 17
   },
   "services": [
     {
@@ -22,8 +22,8 @@
     {
       "key": "other",
       "label": "analytics.google.com",
-      "checked": 2,
-      "ok": 2,
+      "checked": 3,
+      "ok": 3,
       "warning": 0,
       "broken": 0
     },
@@ -446,6 +446,29 @@
       ]
     },
     {
+      "url": "https://biz.chosun.com/entertainment/enter_general/2026/07/23/GM4DOM3DGJRDIYTCMQ4GEOBUGM/?outputType=amp",
+      "normalizedUrl": "https://biz.chosun.com/entertainment/enter_general/2026/07/23/GM4DOM3DGJRDIYTCMQ4GEOBUGM?outputType=amp",
+      "finalUrl": "https://biz.chosun.com/entertainment/enter_general/2026/07/23/GM4DOM3DGJRDIYTCMQ4GEOBUGM/?outputType=amp",
+      "service": "biz.chosun.com",
+      "serviceKey": "other",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "articles/rescene-2026-0c5361a8a6.html",
+          "line": 83,
+          "label": "ニュースを見る ↗"
+        },
+        {
+          "file": "data/news.json",
+          "line": 28,
+          "label": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命"
+        }
+      ]
+    },
+    {
       "url": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP",
       "normalizedUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP",
       "finalUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP",
@@ -837,7 +860,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 89,
+          "line": 104,
           "label": "京畿道 高陽市 広報大使に任命"
         },
         {
@@ -870,7 +893,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 100,
+          "line": 115,
           "label": "慶尚北道 慶州市 広報大使に任命"
         },
         {
@@ -903,7 +926,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 111,
+          "line": 126,
           "label": "京畿道 水原市 広報大使に任命"
         },
         {
@@ -936,7 +959,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 122,
+          "line": 137,
           "label": "慶尚南道 巨済市 広報大使に任命"
         },
         {
@@ -995,7 +1018,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784765547954&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784850240917&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1051,7 +1074,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 56,
+          "line": 71,
           "label": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得"
         },
         {
@@ -1135,7 +1158,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 155,
+          "line": 170,
           "label": "デビュー2周年広告プロジェクト"
         },
         {
@@ -1389,7 +1412,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 144,
+          "line": 159,
           "label": "RESCENE Debut 2nd Anniversary"
         },
         {
@@ -1496,7 +1519,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 67,
+          "line": 82,
           "label": "RESCENEがMelon TOP100で初の1位を記録"
         },
         {
@@ -1529,7 +1552,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 41,
+          "line": 56,
           "label": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得"
         },
         {
@@ -1557,7 +1580,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 28,
+          "line": 43,
           "label": "RESCENEが第7回 島の日の広報大使に任命"
         }
       ]
