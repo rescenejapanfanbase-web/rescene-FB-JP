@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-22T13:23:23Z",
-  "startedAt": "2026-07-22T13:23:19Z",
-  "elapsedSeconds": 4.13,
+  "generatedAt": "2026-07-23T00:12:29Z",
+  "startedAt": "2026-07-23T00:12:25Z",
+  "elapsedSeconds": 3.9,
   "summary": {
-    "checked": 63,
-    "ok": 61,
-    "warning": 2,
+    "checked": 64,
+    "ok": 63,
+    "warning": 1,
     "broken": 0,
     "hosts": 16
   },
@@ -14,14 +14,6 @@
     {
       "key": "facebook",
       "label": "Facebook",
-      "checked": 1,
-      "ok": 0,
-      "warning": 1,
-      "broken": 0
-    },
-    {
-      "key": "instagram",
-      "label": "Instagram",
       "checked": 1,
       "ok": 0,
       "warning": 1,
@@ -64,6 +56,14 @@
       "label": "Google Play",
       "checked": 8,
       "ok": 8,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
+      "checked": 1,
+      "ok": 1,
       "warning": 0,
       "broken": 0
     },
@@ -118,8 +118,8 @@
     {
       "key": "youtube",
       "label": "YouTube",
-      "checked": 4,
-      "ok": 4,
+      "checked": 5,
+      "ok": 5,
       "warning": 0,
       "broken": 0
     }
@@ -140,29 +140,6 @@
           "file": "data/official-links.json",
           "line": 96,
           "label": "Facebook"
-        }
-      ]
-    },
-    {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "warning",
-      "httpStatus": 429,
-      "message": "HTTP 429（自動確認が制限されています）",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 54,
-          "label": "Instagram"
-        },
-        {
-          "file": "index.html",
-          "line": 162,
-          "label": "Instagram"
         }
       ]
     },
@@ -797,6 +774,29 @@
       ]
     },
     {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 54,
+          "label": "Instagram"
+        },
+        {
+          "file": "index.html",
+          "line": 162,
+          "label": "Instagram"
+        }
+      ]
+    },
+    {
       "url": "https://artist.mnetplus.world/main/stg/rescene-official",
       "normalizedUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
       "finalUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
@@ -837,7 +837,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 74,
+          "line": 89,
           "label": "京畿道 高陽市 広報大使に任命"
         },
         {
@@ -870,7 +870,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 85,
+          "line": 100,
           "label": "慶尚北道 慶州市 広報大使に任命"
         },
         {
@@ -903,7 +903,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 96,
+          "line": 111,
           "label": "京畿道 水原市 広報大使に任命"
         },
         {
@@ -936,7 +936,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 107,
+          "line": 122,
           "label": "慶尚南道 巨済市 広報大使に任命"
         },
         {
@@ -995,7 +995,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784726602368&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784765547954&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1051,7 +1051,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 41,
+          "line": 56,
           "label": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得"
         },
         {
@@ -1135,7 +1135,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 140,
+          "line": 155,
           "label": "デビュー2周年広告プロジェクト"
         },
         {
@@ -1389,7 +1389,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 129,
+          "line": 144,
           "label": "RESCENE Debut 2nd Anniversary"
         },
         {
@@ -1496,7 +1496,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 52,
+          "line": 67,
           "label": "RESCENEがMelon TOP100で初の1位を記録"
         },
         {
@@ -1529,13 +1529,36 @@
         },
         {
           "file": "data/news.json",
-          "line": 26,
+          "line": 41,
           "label": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得"
         },
         {
           "file": "pretty-girl-first-music-show-win.html",
           "line": 83,
           "label": "THE K-POP公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://youtu.be/Bav42DHLKkg",
+      "normalizedUrl": "https://www.youtube.com/watch?v=Bav42DHLKkg",
+      "finalUrl": "https://www.youtube.com/watch?v=Bav42DHLKkg",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：리센느, 제7회 섬의 날 홍보대사 위촉식📸'RESCENE' Ambassador Appointment Ceremony 2026.7.21 Newsen。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "articles/rescene-7-4612133921.html",
+          "line": 83,
+          "label": "ニュース映像を見る ↗"
+        },
+        {
+          "file": "data/news.json",
+          "line": 28,
+          "label": "RESCENEが第7回 島の日の広報大使に任命"
         }
       ]
     }
