@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-07-22T23:31:26.272Z",
-  "sourceNewsGeneratedAt": "2026-07-22T22:38:25.619Z",
+  "generatedAt": "2026-07-23T06:43:05.639Z",
+  "sourceNewsGeneratedAt": "2026-07-23T06:42:58.888Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "rescene-2026-0c5361a8a6",
+        "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
+        "date": "2026.07.23",
+        "label": "AMBASSADOR",
+        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/9df771ce-de1d-4e94-a11e-b94e44ea89b4/ED4D5264-6C03-4E44-80A1-D2D2B637DA05.avif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X6TAW62A%2F20260723%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260723T064258Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEB4aDmFwLW5vcnRoZWFzdC0xIkcwRQIhAI9hg%2FHWFc2aBYdjoDFopbO8JHzN89DZsOya4mhQSrbsAiA4%2BQXTuGsieq7o%2BC2P0DeYW7oaQwODzzPHPzF7QHBVWiqPBAjo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMDr5ZR4yJZ4FnWpCcKuMDl4pfhdJ5nKYdrqRmIO3rY%2FCiskhnI7R9kz5p7Y0TesBOfBGeG%2FX7nvobfAC7kh5icDUuVD86y2RmxOgJ3OK%2BYERwOmrtzIKKBoqQMWUegtwHyD5ykB1uWrAtKGFP%2FOZ45YPxFOV9FGM1aZL%2FQGkIG%2FjBpZpkBYqQ78VI1EXjlS5yqzGLMJrR7cKvyPM8Ii5paM4ge1ztwfu%2FWnyrakqZugppHBfT1y5%2B0pY9YDIWVFQvWr073wbEe%2FnezFbwZxt7rBBHHO1cGDUec1OUIS8XB44O%2BsrvNcRcwDlW4Xfk1z2DptCEFQc0H73NSGtaBeauiCteNFb7STJli3zcnydpDvhYRasSgfI5pMeA0aCNKR90A4R60FC9cBNEAkadvXwywsyp%2BKDMdIOeLTOb5bwGtjJTNoFo1mE4cEGHssj5rwFofdx%2BpZKm1JWLdmBpg0w7clGOWEgSCA%2BFiZSSDC8TpbazQjKqg5QP0HzK2U6haZC5mxHis0ezqhruVBJ3YwuSQlOztQMLFKvMGGyaocszYUwGj5G9iQbljyZiMMJ3X5CWDy9vOUqsXSFZWOSKQqTeVA13C1IUzetAMTTFTN1VCs0bEnkoiMcNvbT8gDPzS%2FlOpvMT6oWkPue9Whrt7dOVtPO3MInohtMGOqUB1L%2F%2BFw29pHKriUO36JzpIJheX0Se9MHBBYC4qoTI0SsdFQmL%2BBDolNk5a%2Bp7FApls4wTHR3PK%2FpkTJ4NTrbJw4VU02QrE0x5sjjOK7zQOEj6bA806bwGD3oSGOIEaMO53ef%2BVbshmE%2B7xyD63kc6JhUlOc4wRaZG0CQKswudNTwI93uiQU4np7ZYe1hGusgEIfaTRn0nDxmmCc7rIWIfRbkU2e6x&X-Amz-Signature=f09b3c6381b450efc7e9fb69f47caa381f81818667dcf39984c789136b3c843a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "text": "MBCは2026年の愛知・ナゴヤアジア競技大会放送の広報大使としてガールズグループRESCENE（リセンヌ）を任命",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "rescene-7-4612133921",
         "title": "RESCENEが第7回 島の日の広報大使に任命",
@@ -26,21 +38,22 @@
         "reasons": [
           "同じカテゴリー"
         ]
-      },
-      {
-        "slug": "love-attack-inkigayo-realtime-first",
-        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
-        "date": "2026.07.12",
-        "label": "RECORD",
-        "image": "assets/mv/love-attack.jpg",
-        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
-        "score": 5,
-        "reasons": [
-          "同じカテゴリー"
-        ]
       }
     ],
-    "rescene-7-4612133921": [
+    "rescene-2026-0c5361a8a6": [
+      {
+        "slug": "rescene-7-4612133921",
+        "title": "RESCENEが第7回 島の日の広報大使に任命",
+        "date": "2026.07.21",
+        "label": "AMBASSADOR",
+        "image": "news/fanbase-site.jpg",
+        "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
+        "score": 9,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
       {
         "slug": "pretty-girl-first-music-show-win",
         "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
@@ -64,14 +77,41 @@
         "reasons": [
           "同じカテゴリー"
         ]
+      }
+    ],
+    "rescene-7-4612133921": [
+      {
+        "slug": "rescene-2026-0c5361a8a6",
+        "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
+        "date": "2026.07.23",
+        "label": "AMBASSADOR",
+        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/9df771ce-de1d-4e94-a11e-b94e44ea89b4/ED4D5264-6C03-4E44-80A1-D2D2B637DA05.avif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X6TAW62A%2F20260723%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260723T064258Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEB4aDmFwLW5vcnRoZWFzdC0xIkcwRQIhAI9hg%2FHWFc2aBYdjoDFopbO8JHzN89DZsOya4mhQSrbsAiA4%2BQXTuGsieq7o%2BC2P0DeYW7oaQwODzzPHPzF7QHBVWiqPBAjo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMDr5ZR4yJZ4FnWpCcKuMDl4pfhdJ5nKYdrqRmIO3rY%2FCiskhnI7R9kz5p7Y0TesBOfBGeG%2FX7nvobfAC7kh5icDUuVD86y2RmxOgJ3OK%2BYERwOmrtzIKKBoqQMWUegtwHyD5ykB1uWrAtKGFP%2FOZ45YPxFOV9FGM1aZL%2FQGkIG%2FjBpZpkBYqQ78VI1EXjlS5yqzGLMJrR7cKvyPM8Ii5paM4ge1ztwfu%2FWnyrakqZugppHBfT1y5%2B0pY9YDIWVFQvWr073wbEe%2FnezFbwZxt7rBBHHO1cGDUec1OUIS8XB44O%2BsrvNcRcwDlW4Xfk1z2DptCEFQc0H73NSGtaBeauiCteNFb7STJli3zcnydpDvhYRasSgfI5pMeA0aCNKR90A4R60FC9cBNEAkadvXwywsyp%2BKDMdIOeLTOb5bwGtjJTNoFo1mE4cEGHssj5rwFofdx%2BpZKm1JWLdmBpg0w7clGOWEgSCA%2BFiZSSDC8TpbazQjKqg5QP0HzK2U6haZC5mxHis0ezqhruVBJ3YwuSQlOztQMLFKvMGGyaocszYUwGj5G9iQbljyZiMMJ3X5CWDy9vOUqsXSFZWOSKQqTeVA13C1IUzetAMTTFTN1VCs0bEnkoiMcNvbT8gDPzS%2FlOpvMT6oWkPue9Whrt7dOVtPO3MInohtMGOqUB1L%2F%2BFw29pHKriUO36JzpIJheX0Se9MHBBYC4qoTI0SsdFQmL%2BBDolNk5a%2Bp7FApls4wTHR3PK%2FpkTJ4NTrbJw4VU02QrE0x5sjjOK7zQOEj6bA806bwGD3oSGOIEaMO53ef%2BVbshmE%2B7xyD63kc6JhUlOc4wRaZG0CQKswudNTwI93uiQU4np7ZYe1hGusgEIfaTRn0nDxmmCc7rIWIfRbkU2e6x&X-Amz-Signature=f09b3c6381b450efc7e9fb69f47caa381f81818667dcf39984c789136b3c843a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "text": "MBCは2026年の愛知・ナゴヤアジア競技大会放送の広報大使としてガールズグループRESCENE（リセンヌ）を任命",
+        "score": 9,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
       },
       {
-        "slug": "melon-top100-first-number-one",
-        "title": "RESCENEがMelon TOP100で初の1位を記録",
-        "date": "2026.07.08",
-        "label": "MELON RECORD",
-        "image": "news/melon-top100-first.jpg",
-        "text": "2026年7月8日22時、RESCENEがMelon TOP100でグループ初となる1位を記録しました。記録達成後のYouTubeライブもあわせてご覧いただけます。",
+        "slug": "pretty-girl-first-music-show-win",
+        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
+        "date": "2026.07.14",
+        "label": "1ST WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
+        "slug": "love-attack-inkigayo-realtime-first",
+        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
+        "date": "2026.07.12",
+        "label": "RECORD",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -93,24 +133,24 @@
         ]
       },
       {
-        "slug": "rescene-7-4612133921",
-        "title": "RESCENEが第7回 島の日の広報大使に任命",
-        "date": "2026.07.21",
+        "slug": "rescene-2026-0c5361a8a6",
+        "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
+        "date": "2026.07.23",
         "label": "AMBASSADOR",
-        "image": "news/fanbase-site.jpg",
-        "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
+        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/9df771ce-de1d-4e94-a11e-b94e44ea89b4/ED4D5264-6C03-4E44-80A1-D2D2B637DA05.avif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X6TAW62A%2F20260723%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260723T064258Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEB4aDmFwLW5vcnRoZWFzdC0xIkcwRQIhAI9hg%2FHWFc2aBYdjoDFopbO8JHzN89DZsOya4mhQSrbsAiA4%2BQXTuGsieq7o%2BC2P0DeYW7oaQwODzzPHPzF7QHBVWiqPBAjo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMDr5ZR4yJZ4FnWpCcKuMDl4pfhdJ5nKYdrqRmIO3rY%2FCiskhnI7R9kz5p7Y0TesBOfBGeG%2FX7nvobfAC7kh5icDUuVD86y2RmxOgJ3OK%2BYERwOmrtzIKKBoqQMWUegtwHyD5ykB1uWrAtKGFP%2FOZ45YPxFOV9FGM1aZL%2FQGkIG%2FjBpZpkBYqQ78VI1EXjlS5yqzGLMJrR7cKvyPM8Ii5paM4ge1ztwfu%2FWnyrakqZugppHBfT1y5%2B0pY9YDIWVFQvWr073wbEe%2FnezFbwZxt7rBBHHO1cGDUec1OUIS8XB44O%2BsrvNcRcwDlW4Xfk1z2DptCEFQc0H73NSGtaBeauiCteNFb7STJli3zcnydpDvhYRasSgfI5pMeA0aCNKR90A4R60FC9cBNEAkadvXwywsyp%2BKDMdIOeLTOb5bwGtjJTNoFo1mE4cEGHssj5rwFofdx%2BpZKm1JWLdmBpg0w7clGOWEgSCA%2BFiZSSDC8TpbazQjKqg5QP0HzK2U6haZC5mxHis0ezqhruVBJ3YwuSQlOztQMLFKvMGGyaocszYUwGj5G9iQbljyZiMMJ3X5CWDy9vOUqsXSFZWOSKQqTeVA13C1IUzetAMTTFTN1VCs0bEnkoiMcNvbT8gDPzS%2FlOpvMT6oWkPue9Whrt7dOVtPO3MInohtMGOqUB1L%2F%2BFw29pHKriUO36JzpIJheX0Se9MHBBYC4qoTI0SsdFQmL%2BBDolNk5a%2Bp7FApls4wTHR3PK%2FpkTJ4NTrbJw4VU02QrE0x5sjjOK7zQOEj6bA806bwGD3oSGOIEaMO53ef%2BVbshmE%2B7xyD63kc6JhUlOc4wRaZG0CQKswudNTwI93uiQU4np7ZYe1hGusgEIfaTRn0nDxmmCc7rIWIfRbkU2e6x&X-Amz-Signature=f09b3c6381b450efc7e9fb69f47caa381f81818667dcf39984c789136b3c843a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "text": "MBCは2026年の愛知・ナゴヤアジア競技大会放送の広報大使としてガールズグループRESCENE（リセンヌ）を任命",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "love-attack-inkigayo-realtime-first",
-        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
-        "date": "2026.07.12",
-        "label": "RECORD",
-        "image": "assets/mv/love-attack.jpg",
-        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
+        "slug": "rescene-7-4612133921",
+        "title": "RESCENEが第7回 島の日の広報大使に任命",
+        "date": "2026.07.21",
+        "label": "AMBASSADOR",
+        "image": "news/fanbase-site.jpg",
+        "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -172,24 +212,24 @@
         ]
       },
       {
-        "slug": "rescene-7-4612133921",
-        "title": "RESCENEが第7回 島の日の広報大使に任命",
-        "date": "2026.07.21",
+        "slug": "rescene-2026-0c5361a8a6",
+        "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
+        "date": "2026.07.23",
         "label": "AMBASSADOR",
-        "image": "news/fanbase-site.jpg",
-        "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
+        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/9df771ce-de1d-4e94-a11e-b94e44ea89b4/ED4D5264-6C03-4E44-80A1-D2D2B637DA05.avif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X6TAW62A%2F20260723%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260723T064258Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEB4aDmFwLW5vcnRoZWFzdC0xIkcwRQIhAI9hg%2FHWFc2aBYdjoDFopbO8JHzN89DZsOya4mhQSrbsAiA4%2BQXTuGsieq7o%2BC2P0DeYW7oaQwODzzPHPzF7QHBVWiqPBAjo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMDr5ZR4yJZ4FnWpCcKuMDl4pfhdJ5nKYdrqRmIO3rY%2FCiskhnI7R9kz5p7Y0TesBOfBGeG%2FX7nvobfAC7kh5icDUuVD86y2RmxOgJ3OK%2BYERwOmrtzIKKBoqQMWUegtwHyD5ykB1uWrAtKGFP%2FOZ45YPxFOV9FGM1aZL%2FQGkIG%2FjBpZpkBYqQ78VI1EXjlS5yqzGLMJrR7cKvyPM8Ii5paM4ge1ztwfu%2FWnyrakqZugppHBfT1y5%2B0pY9YDIWVFQvWr073wbEe%2FnezFbwZxt7rBBHHO1cGDUec1OUIS8XB44O%2BsrvNcRcwDlW4Xfk1z2DptCEFQc0H73NSGtaBeauiCteNFb7STJli3zcnydpDvhYRasSgfI5pMeA0aCNKR90A4R60FC9cBNEAkadvXwywsyp%2BKDMdIOeLTOb5bwGtjJTNoFo1mE4cEGHssj5rwFofdx%2BpZKm1JWLdmBpg0w7clGOWEgSCA%2BFiZSSDC8TpbazQjKqg5QP0HzK2U6haZC5mxHis0ezqhruVBJ3YwuSQlOztQMLFKvMGGyaocszYUwGj5G9iQbljyZiMMJ3X5CWDy9vOUqsXSFZWOSKQqTeVA13C1IUzetAMTTFTN1VCs0bEnkoiMcNvbT8gDPzS%2FlOpvMT6oWkPue9Whrt7dOVtPO3MInohtMGOqUB1L%2F%2BFw29pHKriUO36JzpIJheX0Se9MHBBYC4qoTI0SsdFQmL%2BBDolNk5a%2Bp7FApls4wTHR3PK%2FpkTJ4NTrbJw4VU02QrE0x5sjjOK7zQOEj6bA806bwGD3oSGOIEaMO53ef%2BVbshmE%2B7xyD63kc6JhUlOc4wRaZG0CQKswudNTwI93uiQU4np7ZYe1hGusgEIfaTRn0nDxmmCc7rIWIfRbkU2e6x&X-Amz-Signature=f09b3c6381b450efc7e9fb69f47caa381f81818667dcf39984c789136b3c843a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "text": "MBCは2026年の愛知・ナゴヤアジア競技大会放送の広報大使としてガールズグループRESCENE（リセンヌ）を任命",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "pretty-girl-first-music-show-win",
-        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
-        "date": "2026.07.14",
-        "label": "1ST WIN",
-        "image": "news/the-show-first-win.jpeg",
-        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
+        "slug": "rescene-7-4612133921",
+        "title": "RESCENEが第7回 島の日の広報大使に任命",
+        "date": "2026.07.21",
+        "label": "AMBASSADOR",
+        "image": "news/fanbase-site.jpg",
+        "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -444,6 +484,18 @@
     ],
     "second-anniversary": [
       {
+        "slug": "rescene-2026-0c5361a8a6",
+        "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
+        "date": "2026.07.23",
+        "label": "AMBASSADOR",
+        "image": "https://prod-files-secure-apne1.s3.ap-northeast-1.amazonaws.com/ff9229d2-19da-81f2-b460-00038b0c1ef4/9df771ce-de1d-4e94-a11e-b94e44ea89b4/ED4D5264-6C03-4E44-80A1-D2D2B637DA05.avif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X6TAW62A%2F20260723%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260723T064258Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEB4aDmFwLW5vcnRoZWFzdC0xIkcwRQIhAI9hg%2FHWFc2aBYdjoDFopbO8JHzN89DZsOya4mhQSrbsAiA4%2BQXTuGsieq7o%2BC2P0DeYW7oaQwODzzPHPzF7QHBVWiqPBAjo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMDr5ZR4yJZ4FnWpCcKuMDl4pfhdJ5nKYdrqRmIO3rY%2FCiskhnI7R9kz5p7Y0TesBOfBGeG%2FX7nvobfAC7kh5icDUuVD86y2RmxOgJ3OK%2BYERwOmrtzIKKBoqQMWUegtwHyD5ykB1uWrAtKGFP%2FOZ45YPxFOV9FGM1aZL%2FQGkIG%2FjBpZpkBYqQ78VI1EXjlS5yqzGLMJrR7cKvyPM8Ii5paM4ge1ztwfu%2FWnyrakqZugppHBfT1y5%2B0pY9YDIWVFQvWr073wbEe%2FnezFbwZxt7rBBHHO1cGDUec1OUIS8XB44O%2BsrvNcRcwDlW4Xfk1z2DptCEFQc0H73NSGtaBeauiCteNFb7STJli3zcnydpDvhYRasSgfI5pMeA0aCNKR90A4R60FC9cBNEAkadvXwywsyp%2BKDMdIOeLTOb5bwGtjJTNoFo1mE4cEGHssj5rwFofdx%2BpZKm1JWLdmBpg0w7clGOWEgSCA%2BFiZSSDC8TpbazQjKqg5QP0HzK2U6haZC5mxHis0ezqhruVBJ3YwuSQlOztQMLFKvMGGyaocszYUwGj5G9iQbljyZiMMJ3X5CWDy9vOUqsXSFZWOSKQqTeVA13C1IUzetAMTTFTN1VCs0bEnkoiMcNvbT8gDPzS%2FlOpvMT6oWkPue9Whrt7dOVtPO3MInohtMGOqUB1L%2F%2BFw29pHKriUO36JzpIJheX0Se9MHBBYC4qoTI0SsdFQmL%2BBDolNk5a%2Bp7FApls4wTHR3PK%2FpkTJ4NTrbJw4VU02QrE0x5sjjOK7zQOEj6bA806bwGD3oSGOIEaMO53ef%2BVbshmE%2B7xyD63kc6JhUlOc4wRaZG0CQKswudNTwI93uiQU4np7ZYe1hGusgEIfaTRn0nDxmmCc7rIWIfRbkU2e6x&X-Amz-Signature=f09b3c6381b450efc7e9fb69f47caa381f81818667dcf39984c789136b3c843a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "text": "MBCは2026年の愛知・ナゴヤアジア競技大会放送の広報大使としてガールズグループRESCENE（リセンヌ）を任命",
+        "score": 6,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "rescene-7-4612133921",
         "title": "RESCENEが第7回 島の日の広報大使に任命",
         "date": "2026.07.21",
@@ -462,18 +514,6 @@
         "label": "1ST WIN",
         "image": "news/the-show-first-win.jpeg",
         "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
-        "score": 6,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "love-attack-inkigayo-realtime-first",
-        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
-        "date": "2026.07.12",
-        "label": "RECORD",
-        "image": "assets/mv/love-attack.jpg",
-        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
@@ -809,6 +849,16 @@
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "rescene-2026-0c5361a8a6",
+      "date": "2026.07.23",
+      "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
+      "url": "https://rescene-fb.jp/articles/rescene-2026-0c5361a8a6.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.23】 RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命\n\nhttps://rescene-fb.jp/articles/rescene-2026-0c5361a8a6.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命\nMBCは2026年の愛知・ナゴヤアジア競技大会放送の広報大使としてガールズグループRESCENE（リセンヌ）を任命",
+      "charCount": 128
     },
     {
       "slug": "rescene-7-4612133921",
