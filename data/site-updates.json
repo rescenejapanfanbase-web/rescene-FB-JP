@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T16:05:09.009940+00:00",
+  "generatedAt": "2026-07-23T22:14:07.842214+00:00",
   "items": [
     {
       "date": "2026-07-23",
@@ -65,15 +65,6 @@
       "commit": "0e2ea0d",
       "files": [
         "site-header-contact.html"
-      ]
-    },
-    {
-      "date": "2026-07-22",
-      "title": "Delete site-footer.html",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "fa85a7a",
-      "files": [
-        "site-footer.html"
       ]
     },
     {
