@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-23T22:14:07.842214+00:00",
+  "generatedAt": "2026-07-24T09:30:30.793482+00:00",
   "items": [
     {
       "date": "2026-07-23",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "540b81b",
+      "commit": "0a8b134",
       "files": [
         "data/external-link-report.json"
       ]
@@ -56,24 +56,6 @@
       "commit": "2c8ea2f",
       "files": [
         "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-07-22",
-      "title": "Delete site-header-contact.html",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "0e2ea0d",
-      "files": [
-        "site-header-contact.html"
-      ]
-    },
-    {
-      "date": "2026-07-22",
-      "title": "Delete site-footer-contact.html",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "77165ca",
-      "files": [
-        "site-footer-contact.html"
       ]
     },
     {
