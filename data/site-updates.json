@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T09:30:30.793482+00:00",
+  "generatedAt": "2026-07-24T15:17:24.163194+00:00",
   "items": [
     {
       "date": "2026-07-23",
@@ -75,15 +75,6 @@
       "files": [
         "streaming.html",
         "schedule.html"
-      ]
-    },
-    {
-      "date": "2026-07-21",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "b2081c9",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {
