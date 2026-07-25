@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T15:12:35.034281+00:00",
+  "generatedAt": "2026-07-25T16:14:25.001391+00:00",
   "items": [
     {
       "date": "2026-07-26",
@@ -54,16 +54,6 @@
       "commit": "06df33c",
       "files": [
         "news/IMG_9292.jpeg"
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "title": "Add files via upload",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "4015b4a",
-      "files": [
-        "news/IMG_9292.jpeg",
-        "news/IMG_9310.jpeg"
       ]
     },
     {

@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-07-25T15:57:41.035Z",
+  "generatedAt": "2026-07-25T16:11:57.220Z",
   "source": "notion",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -40,7 +40,7 @@ window.RESCENE_RECORDS = {
       "dailyPeak": 1,
       "description": "2026年7月8日22時、Melon TOP100でグループ初となる1位を記録。",
       "mvUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
-      "image": "news/melon-top100-first.jpg",
+      "image": "assets/records/notion/record-3a8229d219da814ca643f6e4fb53d2ce-9f77ccb5c79f.webp",
       "order": 10,
       "notionPageId": "3a8229d2-19da-814c-a643-f6e4fb53d2ce",
       "notionUrl": "https://app.notion.com/p/LOVE-ATTACK-Melon-3a8229d219da814ca643f6e4fb53d2ce"
@@ -142,9 +142,9 @@ window.RESCENE_RECORDS = {
       "releaseDate": "2026-07-08",
       "top100Peak": 4,
       "dailyPeak": 6,
-      "description": "2026年7月8日22時、Melon TOP100でグループ初となる1位を記録。",
+      "description": "KARAのPretty Girlをリメイク。",
       "mvUrl": "https://www.youtube.com/watch?v=qZlu2j2SiBA",
-      "image": "assets/mv/pretty-girl.jpg",
+      "image": "assets/records/notion/record-3a8229d219da8127a70bcda37cd8f8da-5186e5c5727d.webp",
       "order": 10,
       "notionPageId": "3a8229d2-19da-8127-a70b-cda37cd8f8da",
       "notionUrl": "https://app.notion.com/p/Pretty-Girl-Melon-3a8229d219da8127a70bcda37cd8f8da"
