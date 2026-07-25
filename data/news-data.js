@@ -11,6 +11,21 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "rescene-pretty-girl-1-0196b13404",
+    "date": "2026.07.25",
+    "category": "notice",
+    "categoryName": "記念日",
+    "label": "2nd WIN",
+    "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
+    "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組で1位を獲得しました。",
+    "body": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組で1位を獲得しました。\n本放送では活動期間が終わっており、出演なしでの1位獲得となりグループとしては2冠目となります。",
+    "image": "news/the-show-first-win.jpeg",
+    "sourceLink": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
+    "sourceLabel": "THE K-POP公式動画を見る",
+    "notionPageId": "3a8229d2-19da-8094-a14a-d80196b13404",
+    "notionUrl": "https://app.notion.com/p/RESCENE-Pretty-Girl-1-3a8229d219da8094a14ad80196b13404"
+  },
+  {
     "slug": "rescene-2026-0c5361a8a6",
     "date": "2026.07.23",
     "category": "notice",
@@ -34,7 +49,7 @@ window.RESCENE_NEWS = [
     "title": "RESCENEが第7回 島の日の広報大使に任命",
     "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
     "body": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。\n『島の日』は、島の価値と重要性を広く知らしめるために指定された国の記念日であり、毎年8月8日前後に開催される『島の日イベント』では、島展示館、島の自然・文化体験、学術行事など多様な楽しみを提供し、2019年から様々な島地域で記念行事が開催されています。",
-    "image": "news/fanbase-site.jpg",
+    "image": "assets/news/notion/notion-3a5229d219da800cb6a0da4612133921.jpg",
     "sourceLink": "https://youtu.be/Bav42DHLKkg",
     "sourceLabel": "ニュース映像を見る",
     "notionPageId": "3a5229d2-19da-800c-b6a0-da4612133921",

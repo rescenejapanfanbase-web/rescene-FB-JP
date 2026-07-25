@@ -1,13 +1,24 @@
 {
-  "generatedAt": "2026-07-25T06:09:14.842298+00:00",
+  "generatedAt": "2026-07-25T07:57:57.606179+00:00",
   "items": [
     {
       "date": "2026-07-25",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "307d8ce",
+      "commit": "c6cb64d",
       "files": [
         "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "title": "Add files via upload",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "a68a162",
+      "files": [
+        ".github/workflows/sync-all-content.yml",
+        ".github/workflows/sync-notion-news.yml",
+        ".github/workflows/sync-youtube-channels.yml"
       ]
     },
     {

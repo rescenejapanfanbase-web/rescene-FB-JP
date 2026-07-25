@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-07-23T16:05:08.932Z",
-  "sourceNewsGeneratedAt": "2026-07-25T06:09:05.258Z",
+  "generatedAt": "2026-07-25T07:57:57.542Z",
+  "sourceNewsGeneratedAt": "2026-07-25T07:57:23.732Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "rescene-pretty-girl-1-0196b13404",
+        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
+        "date": "2026.07.25",
+        "label": "2nd WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組で1位を獲得しました。",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "rescene-2026-0c5361a8a6",
         "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
@@ -20,13 +32,15 @@
         "title": "RESCENEが第7回 島の日の広報大使に任命",
         "date": "2026.07.21",
         "label": "AMBASSADOR",
-        "image": "news/fanbase-site.jpg",
+        "image": "assets/news/notion/notion-3a5229d219da800cb6a0da4612133921.jpg",
         "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
         "score": 5,
         "reasons": [
           "同じカテゴリー"
         ]
-      },
+      }
+    ],
+    "rescene-pretty-girl-1-0196b13404": [
       {
         "slug": "pretty-girl-first-music-show-win",
         "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
@@ -34,9 +48,37 @@
         "label": "1ST WIN",
         "image": "news/the-show-first-win.jpeg",
         "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
-        "score": 5,
+        "score": 22,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "pretty-girl-release",
+        "title": "Special Single「Pretty Girl」配信開始",
+        "date": "2026.07.08",
+        "label": "SPECIAL SINGLE",
+        "image": "assets/mv/pretty-girl.jpg",
+        "text": "Special Single「Pretty Girl」の配信がスタートしました。リリース1時間後にMelon TOP100 22位へランクインし、最高4位を記録しました。",
+        "score": 13,
+        "reasons": [
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "second-anniversary",
+        "title": "RESCENE Debut 2nd Anniversary",
+        "date": "2026.03.26",
+        "label": "ANNIVERSARY",
+        "image": "news/debut-2nd-anniversary.jpg",
+        "text": "RESCENEがデビュー2周年を迎えました。",
+        "score": 8,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
         ]
       }
     ],
@@ -46,12 +88,24 @@
         "title": "RESCENEが第7回 島の日の広報大使に任命",
         "date": "2026.07.21",
         "label": "AMBASSADOR",
-        "image": "news/fanbase-site.jpg",
+        "image": "assets/news/notion/notion-3a5229d219da800cb6a0da4612133921.jpg",
         "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
         "score": 9,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
+        ]
+      },
+      {
+        "slug": "rescene-pretty-girl-1-0196b13404",
+        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
+        "date": "2026.07.25",
+        "label": "2nd WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組で1位を獲得しました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
         ]
       },
       {
@@ -61,18 +115,6 @@
         "label": "1ST WIN",
         "image": "news/the-show-first-win.jpeg",
         "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "love-attack-inkigayo-realtime-first",
-        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
-        "date": "2026.07.12",
-        "label": "RECORD",
-        "image": "assets/mv/love-attack.jpg",
-        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -94,6 +136,18 @@
         ]
       },
       {
+        "slug": "rescene-pretty-girl-1-0196b13404",
+        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
+        "date": "2026.07.25",
+        "label": "2nd WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組で1位を獲得しました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "pretty-girl-first-music-show-win",
         "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
         "date": "2026.07.14",
@@ -104,21 +158,23 @@
         "reasons": [
           "同じカテゴリー"
         ]
-      },
-      {
-        "slug": "love-attack-inkigayo-realtime-first",
-        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
-        "date": "2026.07.12",
-        "label": "RECORD",
-        "image": "assets/mv/love-attack.jpg",
-        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
       }
     ],
     "pretty-girl-first-music-show-win": [
+      {
+        "slug": "rescene-pretty-girl-1-0196b13404",
+        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
+        "date": "2026.07.25",
+        "label": "2nd WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組で1位を獲得しました。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
       {
         "slug": "pretty-girl-release",
         "title": "Special Single「Pretty Girl」配信開始",
@@ -139,18 +195,6 @@
         "label": "AMBASSADOR",
         "image": "news/fanbase-site.jpg",
         "text": "MBCは2026年の愛知・ナゴヤアジア競技大会放送の広報大使としてガールズグループRESCENE（リセンヌ）を任命",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "rescene-7-4612133921",
-        "title": "RESCENEが第7回 島の日の広報大使に任命",
-        "date": "2026.07.21",
-        "label": "AMBASSADOR",
-        "image": "news/fanbase-site.jpg",
-        "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -212,6 +256,18 @@
         ]
       },
       {
+        "slug": "rescene-pretty-girl-1-0196b13404",
+        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
+        "date": "2026.07.25",
+        "label": "2nd WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組で1位を獲得しました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "rescene-2026-0c5361a8a6",
         "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
         "date": "2026.07.23",
@@ -222,21 +278,22 @@
         "reasons": [
           "同じカテゴリー"
         ]
-      },
-      {
-        "slug": "rescene-7-4612133921",
-        "title": "RESCENEが第7回 島の日の広報大使に任命",
-        "date": "2026.07.21",
-        "label": "AMBASSADOR",
-        "image": "news/fanbase-site.jpg",
-        "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
       }
     ],
     "pretty-girl-release": [
+      {
+        "slug": "rescene-pretty-girl-1-0196b13404",
+        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
+        "date": "2026.07.25",
+        "label": "2nd WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組で1位を獲得しました。",
+        "score": 13,
+        "reasons": [
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
       {
         "slug": "pretty-girl-first-music-show-win",
         "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
@@ -257,19 +314,6 @@
         "label": "DIGITAL SINGLE",
         "image": "assets/mv/runaway.jpg",
         "text": "RESCENE初のDigital Single「Runaway」の配信がスタートしました。",
-        "score": 10,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード"
-        ]
-      },
-      {
-        "slug": "busy-boy-release",
-        "title": "[RESCENE X ???]「Busy Boy」配信開始",
-        "date": "2026.02.27",
-        "label": "COLLAB SINGLE",
-        "image": "assets/mv/busy-boy.jpg",
-        "text": "コラボレーションデジタルシングル「Busy Boy」の配信がスタートしました。",
         "score": 10,
         "reasons": [
           "同じカテゴリー",
@@ -484,6 +528,19 @@
     ],
     "second-anniversary": [
       {
+        "slug": "rescene-pretty-girl-1-0196b13404",
+        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
+        "date": "2026.07.25",
+        "label": "2nd WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組で1位を獲得しました。",
+        "score": 8,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
         "slug": "rescene-2026-0c5361a8a6",
         "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
         "date": "2026.07.23",
@@ -500,20 +557,8 @@
         "title": "RESCENEが第7回 島の日の広報大使に任命",
         "date": "2026.07.21",
         "label": "AMBASSADOR",
-        "image": "news/fanbase-site.jpg",
+        "image": "assets/news/notion/notion-3a5229d219da800cb6a0da4612133921.jpg",
         "text": "2026年7月21日、全羅南道光州統合特別市で、RESCENEが第7回 島の日の広報大使に任命されました。",
-        "score": 6,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "pretty-girl-first-music-show-win",
-        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
-        "date": "2026.07.14",
-        "label": "1ST WIN",
-        "image": "news/the-show-first-win.jpeg",
-        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
@@ -849,6 +894,16 @@
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "rescene-pretty-girl-1-0196b13404",
+      "date": "2026.07.25",
+      "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
+      "url": "https://rescene-fb.jp/articles/rescene-pretty-girl-1-0196b13404.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.25】 RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得\n\nhttps://rescene-fb.jp/articles/rescene-pretty-girl-1-0196b13404.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得\n2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組で1位を獲得しました。",
+      "charCount": 140
     },
     {
       "slug": "rescene-2026-0c5361a8a6",

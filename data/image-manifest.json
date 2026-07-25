@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-07-21T21:30:50Z",
+  "generatedAt": "2026-07-25T07:58:03Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -1101,6 +1101,27 @@
         }
       ],
       "default": "assets/optimized/b15a7cabad71cfed/debut-2nd-anniversary-w1440.webp"
+    },
+    "assets/news/notion/notion-3a5229d219da800cb6a0da4612133921.jpg": {
+      "asset": "8da6f083a616443f",
+      "originalBytes": 180077,
+      "width": 580,
+      "height": 443,
+      "variants": [
+        {
+          "src": "assets/optimized/8da6f083a616443f/notion-3a5229d219da800cb6a0da4612133921-w480.webp",
+          "width": 480,
+          "height": 367,
+          "bytes": 44550
+        },
+        {
+          "src": "assets/optimized/8da6f083a616443f/notion-3a5229d219da800cb6a0da4612133921-w580.webp",
+          "width": 580,
+          "height": 443,
+          "bytes": 59590
+        }
+      ],
+      "default": "assets/optimized/8da6f083a616443f/notion-3a5229d219da800cb6a0da4612133921-w580.webp"
     },
     "assets/platform-icons/apple-music.png": {
       "asset": "dfbcce2c96eda8d7",
@@ -8620,6 +8641,30 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/8bd9cbca5f984e4d/love-attack-inkigayo-realtime-first-w1200.webp"
+    },
+    "8da6f083a616443f": {
+      "hash": "8da6f083a616443f40f8b6a40649c9768913a5be84aa079a34bae5efddaa6839",
+      "width": 580,
+      "height": 443,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/8da6f083a616443f/notion-3a5229d219da800cb6a0da4612133921-w480.webp",
+          "width": 480,
+          "height": 367,
+          "bytes": 44550
+        },
+        {
+          "src": "assets/optimized/8da6f083a616443f/notion-3a5229d219da800cb6a0da4612133921-w580.webp",
+          "width": 580,
+          "height": 443,
+          "bytes": 59590
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/8da6f083a616443f/notion-3a5229d219da800cb6a0da4612133921-w580.webp"
     },
     "8f17034b22b807b8": {
       "hash": "8f17034b22b807b86fb022b7e868b7336cd7da31430965869c320da9cdb81cef",
