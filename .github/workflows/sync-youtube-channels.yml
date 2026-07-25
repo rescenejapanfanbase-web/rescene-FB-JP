@@ -3,7 +3,7 @@ name: Sync YouTube Channels
 on:
   workflow_dispatch:
   schedule:
-    # GitHub ActionsはUTC基準。UTCの奇数時＝日本時間の偶数時。
+    # GitHub ActionsはUTC基準。JST 00:05から2時間おき（00:05〜22:05）。
     - cron: "5 1,3,5,7,9,11,13,15,17,19,21,23 * * *"
 
 permissions:

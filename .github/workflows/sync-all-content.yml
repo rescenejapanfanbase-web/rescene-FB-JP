@@ -3,7 +3,8 @@ name: Sync All Site Content
 on:
   workflow_dispatch:
   schedule:
-    - cron: "35 */3 * * *"
+    # GitHub ActionsはUTC基準。JST 01:05 / 04:05 / 07:05 / 10:05 / 13:05 / 16:05 / 19:05 / 22:05。
+    - cron: "5 1,4,7,10,13,16,19,22 * * *"
 
 permissions:
   contents: write
@@ -56,6 +57,7 @@ jobs:
           SITE_BASE_URL: https://rescene-fb.jp
           GA_MEASUREMENT_ID: ${{ vars.GA_MEASUREMENT_ID }}
           PYTHON_COMMAND: python
+          PYTHONDONTWRITEBYTECODE: "1"
           SKIP_YOUTUBE_SYNC: ${{ github.event_name == 'schedule' && '1' || '0' }}
         run: |
           set -euo pipefail

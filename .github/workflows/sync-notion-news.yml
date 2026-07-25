@@ -13,6 +13,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
@@ -26,25 +27,62 @@ jobs:
           node-version: "24"
           package-manager-cache: false
 
-      - name: Sync news from Notion
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install generation and validation dependencies
+        run: python -m pip install --disable-pip-version-check --upgrade pillow pyyaml
+
+      - name: Sync, generate, validate, and publish news
+        shell: bash
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_NEWS_DATA_SOURCE_ID: ${{ vars.NOTION_NEWS_DATA_SOURCE_ID }}
+          SITE_BASE_URL: https://rescene-fb.jp
+          PYTHONDONTWRITEBYTECODE: "1"
         run: |
-          node scripts/sync-notion-news.mjs
-          node scripts/generate-news-extras.mjs
-
-      - name: Commit news changes
-        shell: bash
-        run: |
-          if git diff --quiet -- data/news.json data/news-data.js data/news-extras.json data/news-extras-data.js; then
-            echo "ニュースの変更はありません。"
-            exit 0
-          fi
-
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/news-data.js data/news-extras.json data/news-extras-data.js
-          git commit -m "chore: sync news from Notion"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          branch="${GITHUB_REF_NAME:-main}"
+
+          for attempt in 1 2 3; do
+            echo "ニュース同期を実行します（${attempt}/3）"
+            git fetch origin "${branch}"
+            git reset --hard "origin/${branch}"
+
+            node scripts/sync-notion-news.mjs
+            node scripts/sanitize-news-images.mjs
+            node scripts/generate-news-extras.mjs
+            python scripts/generate-seo.py
+            python scripts/sync-site-shell.py
+            python scripts/add-image-dimensions.py
+            python scripts/generate-pwa.py
+            bash scripts/run-prepublish-checks.sh
+
+            git add -A -- \
+              data/news.json data/news-data.js data/news-extras.json data/news-extras-data.js \
+              assets/news/notion assets/ogp/news articles \
+              '*.html' templates js/home.js js/news.js js/search.js js/home-latest.js \
+              data/seo-status.json sitemap.xml robots.txt service-worker.js manifest.webmanifest assets/icons
+
+            if git diff --cached --quiet; then
+              echo "ニュースの変更はありません。"
+              exit 0
+            fi
+
+            git commit -m "chore: sync news from Notion"
+
+            if git push origin "HEAD:${branch}"; then
+              echo "Notionニュース、画像、記事ページ、OGPを更新しました。"
+              exit 0
+            fi
+
+            echo "push中に別の更新が入りました。最新状態からニュースを再同期します。"
+            sleep $((attempt * 5))
+          done
+
+          echo "3回試行しましたがニュース更新を反映できませんでした。"
+          exit 1
