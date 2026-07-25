@@ -92,6 +92,30 @@ PAGE_META = {
         "priority": "0.8",
         "changefreq": "daily",
     },
+    "records.html": {
+        "title": f"記録 | {SITE_NAME}",
+        "description": "RESCENEの音楽番組1位獲得記録とMelonチャート記録を、映像・最高順位・MVリンクとともに掲載しています。",
+        "image": "news/the-show-first-win.jpeg",
+        "label": "RESCENE RECORDS",
+        "priority": "0.8",
+        "changefreq": "weekly",
+    },
+    "music-show-wins.html": {
+        "title": f"音楽番組1位獲得記録 | {SITE_NAME}",
+        "description": "RESCENEの音楽番組1位獲得記録を、総獲得数・番組・日付・スコア・映像リンクとともに掲載しています。",
+        "image": "news/the-show-first-win.jpeg",
+        "label": "MUSIC SHOW WINS",
+        "priority": "0.8",
+        "changefreq": "daily",
+    },
+    "melon-records.html": {
+        "title": f"Melonチャート記録 | {SITE_NAME}",
+        "description": "RESCENEの楽曲を発売順に並べ、Melon TOP100最高順位、日間最高順位、MVリンクを掲載しています。",
+        "image": "news/melon-top100-first.jpg",
+        "label": "MELON CHART RECORDS",
+        "priority": "0.8",
+        "changefreq": "daily",
+    },
     "streaming.html": {
         "title": f"ストリーミングガイド | {SITE_NAME}",
         "description": "YouTube、Spotify、Apple Music、Stationhead、TikTokなどでRESCENEを応援する方法を案内します。",
@@ -118,9 +142,17 @@ PAGE_META = {
     },
     "links.html": {
         "title": f"公式リンク | {SITE_NAME}",
-        "description": "RESCENEの公式サイト、SNS、YouTube、音楽配信サービスへのリンクをまとめています。",
+        "description": "RESCENEの公式SNS、ファンコミュニティ、公式YouTube、音楽配信サービスへの入口をまとめています。",
         "image": "assets/group/rescene-group.jpg",
         "label": "OFFICIAL LINKS",
+        "priority": "0.7",
+        "changefreq": "monthly",
+    },
+    "fan-services.html": {
+        "title": f"ファンサービスガイド | {SITE_NAME}",
+        "description": "RESCENEのPlus Chatメンバーシップとbubbleの利用案内、登録前の確認事項をまとめています。",
+        "image": "assets/icons/pluschat.png",
+        "label": "FAN SERVICES",
         "priority": "0.7",
         "changefreq": "monthly",
     },
@@ -134,7 +166,7 @@ PAGE_META = {
     },
     "search.html": {
         "title": f"サイト内検索 | {SITE_NAME}",
-        "description": "ニュース、スケジュール、メンバー、作品、MV、YouTube、掛け声、投票ガイドを横断検索できます。",
+        "description": "ニュース、スケジュール、メンバー、作品、MV、YouTube、記録、掛け声、投票ガイドを横断検索できます。",
         "image": "assets/group/rescene-group.jpg",
         "label": "SITE SEARCH",
         "noindex": True,
@@ -158,7 +190,7 @@ PAGE_META = {
     "social-posts.html": {"title": f"SNS投稿文 | {SITE_NAME}", "description": "ニュース用SNS投稿文の管理ページです。", "image": "assets/group/rescene-group.jpg", "label": "SOCIAL COPY", "noindex": True},
     "mv-review.html": {"title": f"MV候補確認 | {SITE_NAME}", "description": "MV自動検出候補の確認用管理ページです。", "image": "assets/mv/love-attack.jpg", "label": "MV REVIEW", "noindex": True},
     "analytics.html": {"title": f"アクセス解析 | {SITE_NAME}", "description": "アクセス解析の設定状況を確認する管理ページです。", "image": "assets/group/rescene-group.jpg", "label": "ANALYTICS", "noindex": True},
-    "offline.html": {"title": f"オフライン | {SITE_NAME}", "description": "オフライン案内ページです。", "image": "assets/group/rescene-group.jpg", "label": "OFFLINE", "noindex": True, "robots": "noindex, nofollow"},
+    "offline.html": {"title": f"オフライン | {SITE_NAME}", "description": "オフライン案内ページです。", "image": "assets/group/rescene-group.jpg", "label": "OFFLINE", "noindex": True},
     "article.html": {
         "title": f"ニュース記事 | {SITE_NAME}",
         "description": "RESCENEのニュース記事ページです。",
@@ -348,7 +380,7 @@ def static_structured_data(filename: str, meta: dict, canonical: str, image_url:
 
 
 def seo_block(meta: dict, canonical: str, image_url: str, og_type: str = "website", structured: list[dict] | None = None, published: str = "", section: str = "") -> str:
-    robots = meta.get("robots") or ("noindex, follow" if meta.get("noindex") else "index, follow, max-image-preview:large")
+    robots = "noindex, follow" if meta.get("noindex") else "index, follow, max-image-preview:large"
     parts = [
         SEO_START,
         f'<link rel="canonical" href="{html.escape(canonical, quote=True)}">',
@@ -382,15 +414,12 @@ def seo_block(meta: dict, canonical: str, image_url: str, og_type: str = "websit
 
 def inject_head(document: str, meta: dict, canonical: str, image_url: str, *, og_type="website", structured=None, published="", section="", base_tag=False) -> str:
     document = re.sub(rf"\s*{re.escape(SEO_START)}.*?{re.escape(SEO_END)}\s*", "\n", document, flags=re.S)
-    # Historical page generators sometimes left multiple description/robots tags.
-    # Remove every pre-existing instance before inserting the single canonical SEO block.
-    document = re.sub(r'\s*<meta\b(?=[^>]*\bname\s*=\s*["\']description["\'])[^>]*>\s*', "\n", document, flags=re.I)
-    document = re.sub(r'\s*<meta\b(?=[^>]*\bname\s*=\s*["\']robots["\'])[^>]*>\s*', "\n", document, flags=re.I)
-    # meta/link are HTML void elements; stale serializers may have emitted invalid closing tags.
-    document = re.sub(r'</(?:meta|link)>', '', document, flags=re.I)
     document = re.sub(r"<title>.*?</title>", f"<title>{html.escape(meta['title'])}</title>", document, count=1, flags=re.S)
     desc_tag = f'<meta name="description" content="{html.escape(meta["description"], quote=True)}">'
-    document = document.replace("</title>", f"</title>\n{desc_tag}", 1)
+    if re.search(r'<meta\s+name=["\']description["\'][^>]*>', document, flags=re.I):
+        document = re.sub(r'<meta\s+name=["\']description["\'][^>]*>', desc_tag, document, count=1, flags=re.I)
+    else:
+        document = document.replace("</title>", f"</title>\n{desc_tag}", 1)
     block = seo_block(meta, canonical, image_url, og_type, structured, published, section)
     insertion = (f'<base href="/">\n' if base_tag and '<base href=' not in document else '') + block + "\n"
     match = re.search(r'<meta\s+name=["\']description["\'][^>]*>', document, flags=re.I)

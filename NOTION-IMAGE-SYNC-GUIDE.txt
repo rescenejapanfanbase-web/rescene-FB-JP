@@ -39,3 +39,7 @@ RESCENE JAPAN FANBASE Notion画像同期ガイド
 - 同期結果は data/notion-news-sync-status.json で確認できる。
   imageStatus が notion-file ならNotion画像の保存に成功している。
   imageFilename と imagePath で元ファイル名とサイト内保存先を確認できる。
+
+【2026-07-25 ニュース画像ルール更新】
+ニュースはNotionの「画像」プロパティを最優先で使用します。「画像」が空欄、または一時的に取得できない場合は「画像パス」を使用します。
+HEIC/HEIF画像は同期時にJPEGへ自動変換されます。画像パスはGitHub内の実在ファイルか、https://から始まる画像URLを指定してください。

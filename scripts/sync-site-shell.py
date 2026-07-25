@@ -87,7 +87,7 @@ def main()->int:
             'favorites.html':'お気に入りはこの端末のブラウザ内だけに保存されます。',
             'youtube.html':'掲載動画の権利は各権利者に帰属します。公式情報は各チャンネルの案内もあわせてご確認ください。',
         }
-        replacements={'MUSIC_OPEN':' open' if relative in {'discography.html','mv.html','youtube.html','records.html','music-show-wins.html'} else '', 'SEARCH_CURRENT':' aria-current="page"' if relative=='search.html' else '', 'FOOTER_NOTE':footer_notes.get(relative,'公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。'),'YEAR_ATTR':'data-year=""' if relative=='sync-status.html' else 'data-year'}
+        replacements={'MUSIC_OPEN':' open' if relative in {'discography.html','mv.html','youtube.html','records.html','music-show-wins.html','melon-records.html'} else '', 'LINKS_OPEN':' open' if relative in {'links.html','fan-services.html','contact.html'} else '', 'SEARCH_CURRENT':' aria-current="page"' if relative=='search.html' else '', 'FOOTER_NOTE':footer_notes.get(relative,'公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。'),'YEAR_ATTR':'data-year=""' if relative=='sync-status.html' else 'data-year'}
         try: normalized,is_changed=normalize_page(path,contact_header_template if is_contact else header_template,contact_footer_template if is_contact else footer_template,replacements)
         except ValueError as exc: failures.append(str(exc));continue
         if is_changed:

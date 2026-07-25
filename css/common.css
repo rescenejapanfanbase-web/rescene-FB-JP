@@ -1841,3 +1841,105 @@ html.light-mode body.page-music-show-wins .wins-score strong{color:var(--text)}
 body.page-links .fan-service-guide-icon-bubble{overflow:hidden;padding:0;background:#fff;border-color:rgba(255,255,255,.38)}
 body.page-links .fan-service-guide-icon-bubble img{display:block;width:100%;height:100%;object-fit:cover}
 html.light-mode body.page-links .fan-service-guide-icon-bubble{background:#fff;border-color:rgba(167,46,103,.14)}
+
+/* ==== 2026-07-25 records, fan service and navigation refinements ==== */
+.page-header-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+body.page-fan-services .fan-service-guide-section{margin-top:10px;margin-bottom:46px}
+body.page-fan-services .fan-service-guide-head{align-items:flex-end;gap:24px}
+body.page-fan-services .fan-service-guide-head>p{max-width:520px;margin:0;color:var(--muted);font-size:.78rem;line-height:1.75}
+body.page-fan-services .fan-service-guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+body.page-fan-services .fan-service-guide-card{display:flex;flex-direction:column;gap:16px;padding:24px;min-width:0}
+body.page-fan-services .fan-service-guide-top{display:flex;align-items:center;gap:14px}
+body.page-fan-services .fan-service-guide-top small{display:block;color:var(--pink);font-size:.61rem;font-weight:900;letter-spacing:.1em;margin-bottom:3px}
+body.page-fan-services .fan-service-guide-top h3{margin:0;font-size:1.2rem;line-height:1.35}
+body.page-fan-services .fan-service-guide-icon{display:grid;place-items:center;width:58px;height:58px;min-width:58px;padding:0;border-radius:17px;border:1px solid rgba(255,190,220,.22);background:#fff;color:#ffd8ea;box-shadow:0 10px 25px rgba(10,0,12,.18);overflow:hidden}
+body.page-fan-services .fan-service-guide-icon img{display:block;width:100%;height:100%;object-fit:cover}
+body.page-fan-services .fan-service-guide-card>p{margin:0;color:var(--muted);font-size:.82rem;line-height:1.8}
+body.page-fan-services .fan-service-guide-steps{display:grid;gap:9px;margin:0;padding:0;list-style:none;counter-reset:fan-service-step}
+body.page-fan-services .fan-service-guide-steps li{position:relative;min-height:28px;padding:4px 0 4px 38px;color:var(--text);font-size:.78rem;line-height:1.55;counter-increment:fan-service-step}
+body.page-fan-services .fan-service-guide-steps li::before{content:counter(fan-service-step);position:absolute;left:0;top:0;display:grid;place-items:center;width:28px;height:28px;border-radius:10px;background:var(--soft-bg);border:1px solid var(--border);color:var(--pink);font-size:.68rem;font-weight:900}
+body.page-fan-services .fan-service-guide-actions{margin-top:auto;padding-top:2px}
+body.page-fan-services .fan-service-guide-actions .btn{width:100%;justify-content:center;text-align:center}
+body.page-fan-services .fan-service-guide-note{margin:14px 2px 0;color:var(--muted);font-size:.68rem;line-height:1.7}
+body.page-fan-services .fan-service-related{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+body.page-fan-services .record-related-card{display:flex;flex-direction:column;gap:7px;padding:20px;text-decoration:none}
+body.page-fan-services .record-related-card small{color:var(--pink);font-size:.59rem;font-weight:900;letter-spacing:.08em}
+body.page-fan-services .record-related-card strong{font-size:.9rem}
+body.page-fan-services .record-related-card span{margin-top:auto;padding-top:8px;color:var(--muted);font-size:.69rem}
+
+body.page-records .record-category-grid-two{grid-template-columns:repeat(2,minmax(0,1fr))}
+body.page-records .record-section-head{align-items:flex-end}
+body.page-records .record-nowrap-title{white-space:nowrap;word-break:keep-all}
+body.page-records .record-empty,
+body.page-music-show-wins .record-empty,
+body.page-melon-records .record-empty{padding:28px;text-align:center;color:var(--muted)}
+
+body.page-melon-records .record-overview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:24px}
+body.page-melon-records .record-stat{display:flex;flex-direction:column;justify-content:space-between;min-height:138px;padding:20px;overflow:hidden;position:relative}
+body.page-melon-records .record-stat::after{content:'';position:absolute;width:90px;height:90px;border-radius:50%;right:-28px;bottom:-35px;background:radial-gradient(circle,rgba(255,111,174,.28),transparent 68%);pointer-events:none}
+body.page-melon-records .record-stat small{color:var(--muted);font-size:.63rem;font-weight:900;letter-spacing:.09em}
+body.page-melon-records .record-stat strong{display:block;margin-top:12px;color:#fff;font-family:'Montserrat','Noto Sans JP',sans-serif;font-size:clamp(1.65rem,4vw,2.55rem);line-height:1}
+body.page-melon-records .record-stat span{margin-top:9px;color:var(--muted);font-size:.72rem;line-height:1.5}
+html.light-mode body.page-melon-records .record-stat strong{color:var(--text)}
+
+body.page-music-show-wins .record-win-card{display:grid;grid-template-columns:minmax(220px,.72fr) minmax(0,1.28fr);padding:0;overflow:hidden}
+body.page-music-show-wins .record-win-image{min-height:320px;background:var(--soft-bg)}
+body.page-music-show-wins .record-win-image img{display:block;width:100%;height:100%;object-fit:cover}
+body.page-music-show-wins .record-win-copy{display:flex;flex-direction:column;padding:clamp(22px,4vw,38px)}
+body.page-music-show-wins .record-win-meta{display:flex;align-items:center;flex-wrap:wrap;gap:10px;color:var(--muted);font-size:.7rem;font-weight:900}
+body.page-music-show-wins .record-win-meta .wins-number{width:42px;height:42px;border-radius:13px}
+body.page-music-show-wins .record-win-copy h2{margin:18px 0 8px;font-size:clamp(1.35rem,3vw,2rem)}
+body.page-music-show-wins .record-win-copy>p{margin:0;color:var(--muted);font-size:.8rem;line-height:1.8}
+body.page-music-show-wins .record-link-pending,
+body.page-melon-records .record-link-pending{display:inline-flex;align-items:center;min-height:40px;color:var(--muted);font-size:.7rem;font-weight:800}
+
+body.page-melon-records .melon-record-list{display:grid;gap:15px}
+body.page-melon-records .melon-record-card{display:grid;grid-template-columns:52px 132px minmax(0,1fr) minmax(220px,.55fr);align-items:center;gap:18px;padding:16px 20px}
+body.page-melon-records .melon-record-index{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:linear-gradient(145deg,rgba(255,111,174,.2),rgba(200,164,255,.16));border:1px solid rgba(255,190,220,.18);color:var(--pink);font-family:'Montserrat',sans-serif;font-weight:900}
+body.page-melon-records .melon-record-art{aspect-ratio:1;border-radius:16px;overflow:hidden;background:var(--soft-bg)}
+body.page-melon-records .melon-record-art img{display:block;width:100%;height:100%;object-fit:cover}
+body.page-melon-records .melon-record-copy{min-width:0}
+body.page-melon-records .melon-record-copy small{color:var(--pink);font-size:.59rem;font-weight:900;letter-spacing:.08em}
+body.page-melon-records .melon-record-copy h2{margin:5px 0 7px;font-size:1.18rem}
+body.page-melon-records .melon-record-copy p{margin:0;color:var(--muted);font-size:.72rem;line-height:1.65}
+body.page-melon-records .record-inline-link{display:inline-flex;margin-top:11px;color:var(--pink);font-size:.72rem;font-weight:900}
+body.page-melon-records .melon-rank-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:0}
+body.page-melon-records .melon-rank-grid>div{padding:13px 12px;border-radius:14px;background:var(--soft-bg);border:1px solid var(--border);text-align:center}
+body.page-melon-records .melon-rank-grid dt{color:var(--muted);font-size:.58rem;font-weight:900}
+body.page-melon-records .melon-rank-grid dd{margin:6px 0 0;color:#fff;font-family:'Montserrat','Noto Sans JP',sans-serif;font-size:1.18rem;font-weight:900}
+html.light-mode body.page-melon-records .melon-rank-grid dd{color:var(--text)}
+body.page-melon-records .record-related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+body.page-melon-records .record-related-card{display:flex;flex-direction:column;gap:7px;padding:20px;text-decoration:none}
+body.page-melon-records .record-related-card small{color:var(--pink);font-size:.59rem;font-weight:900;letter-spacing:.08em}
+body.page-melon-records .record-related-card strong{font-size:.9rem}
+body.page-melon-records .record-related-card span{margin-top:auto;padding-top:8px;color:var(--muted);font-size:.69rem}
+
+@media(max-width:900px){
+  body.page-melon-records .melon-record-card{grid-template-columns:48px 110px minmax(0,1fr)}
+  body.page-melon-records .melon-rank-grid{grid-column:2/-1}
+  body.page-melon-records .record-related-grid{grid-template-columns:1fr 1fr}
+  body.page-melon-records .record-related-card:last-child{grid-column:1/-1}
+}
+@media(max-width:760px){
+  body.page-fan-services .fan-service-guide-head{align-items:flex-start;flex-direction:column;gap:8px}
+  body.page-fan-services .fan-service-guide-grid{grid-template-columns:1fr}
+  body.page-fan-services .fan-service-guide-card{padding:20px}
+  body.page-fan-services .fan-service-related{grid-template-columns:1fr}
+  body.page-records .record-category-grid-two{grid-template-columns:1fr}
+  body.page-records .record-section-head{display:flex;flex-direction:row;align-items:center;justify-content:space-between}
+  body.page-records .record-nowrap-title{font-size:clamp(1.2rem,7vw,1.6rem);line-height:1.2}
+  body.page-music-show-wins .record-win-card{grid-template-columns:1fr}
+  body.page-music-show-wins .record-win-image{min-height:0;aspect-ratio:16/10}
+  body.page-melon-records .record-overview{grid-template-columns:1fr}
+  body.page-melon-records .record-stat{min-height:112px}
+  body.page-melon-records .melon-record-card{grid-template-columns:44px 88px minmax(0,1fr);gap:12px;padding:14px}
+  body.page-melon-records .melon-rank-grid{grid-column:1/-1}
+  body.page-melon-records .record-related-grid{grid-template-columns:1fr}
+  body.page-melon-records .record-related-card:last-child{grid-column:auto}
+}
+@media(max-width:480px){
+  body.page-melon-records .melon-record-card{grid-template-columns:42px minmax(0,1fr)}
+  body.page-melon-records .melon-record-art{grid-row:2;grid-column:1/-1;aspect-ratio:16/9}
+  body.page-melon-records .melon-record-copy{grid-column:2}
+  body.page-melon-records .melon-rank-grid{grid-column:1/-1}
+}

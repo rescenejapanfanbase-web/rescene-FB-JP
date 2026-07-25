@@ -1,4 +1,8 @@
 import { createHash } from "node:crypto";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
+import { mkdtemp, rm } from "node:fs/promises";
+import { tmpdir } from "node:os";
 import { access, mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import { extname, join } from "node:path";
 
@@ -36,8 +40,9 @@ const defaultLabel = {
 };
 
 const preferredImageProperties = ["画像", "ニュース画像", "サムネイル", "アイキャッチ"];
-const supportedExtensions = new Set([".jpg", ".jpeg", ".png", ".webp", ".gif", ".avif"]);
-const removableExtensions = [".jpg", ".png", ".webp", ".gif", ".avif"];
+const supportedExtensions = new Set([".jpg", ".jpeg", ".png", ".webp", ".gif", ".avif", ".heic", ".heif"]);
+const removableExtensions = [".jpg", ".png", ".webp", ".gif", ".avif", ".heic", ".heif"];
+const execFileAsync = promisify(execFile);
 
 function stableSlug(title, pageId) {
   const ascii = title
@@ -180,6 +185,7 @@ function extensionFrom(name, contentType, url) {
     if (supportedExtensions.has(fromUrl)) return fromUrl === ".jpeg" ? ".jpg" : fromUrl;
   } catch {}
 
+  if (/heic|heif/i.test(contentType || "")) return ".heic";
   if (/avif/i.test(contentType || "")) return ".avif";
   if (/png/i.test(contentType || "")) return ".png";
   if (/webp/i.test(contentType || "")) return ".webp";
@@ -223,15 +229,36 @@ async function fetchImage(file, title) {
   throw new Error(`Notionニュース画像の取得に失敗しました: ${title} / ${lastError?.message || lastError}`);
 }
 
+async function normalizeDownloadedImage(bytes, extension, contentType, basename) {
+  if (![".heic", ".heif"].includes(extension)) return { bytes, extension, contentType };
+
+  const temporaryDirectory = await mkdtemp(join(tmpdir(), "rescene-notion-image-"));
+  const source = join(temporaryDirectory, `${basename}${extension}`);
+  const target = join(temporaryDirectory, `${basename}.jpg`);
+  try {
+    await writeFile(source, bytes);
+    const pythonCommand = process.env.PYTHON_COMMAND || "python3";
+    await execFileAsync(pythonCommand, ["scripts/convert-heic.py", source, target], {
+      maxBuffer: 4 * 1024 * 1024,
+    });
+    const converted = await readFile(target);
+    if (converted.length < 32) throw new Error("HEIC変換後の画像データが小さすぎます。");
+    return { bytes: converted, extension: ".jpg", contentType: "image/jpeg" };
+  } finally {
+    await rm(temporaryDirectory, { recursive: true, force: true }).catch(() => {});
+  }
+}
+
 async function saveImage(file, basename, title) {
-  const { bytes, contentType } = await fetchImage(file, title);
-  const extension = extensionFrom(file.name, contentType, file.url);
-  const digest = createHash("sha256").update(bytes).digest("hex").slice(0, 12);
+  const fetched = await fetchImage(file, title);
+  const detectedExtension = extensionFrom(file.name, fetched.contentType, file.url);
+  const normalized = await normalizeDownloadedImage(fetched.bytes, detectedExtension, fetched.contentType, basename);
+  const digest = createHash("sha256").update(normalized.bytes).digest("hex").slice(0, 12);
   await mkdir(imageDirectory, { recursive: true });
 
-  const path = join(imageDirectory, `${basename}-${digest}${extension}`).replaceAll("\\", "/");
+  const path = join(imageDirectory, `${basename}-${digest}${normalized.extension}`).replaceAll("\\", "/");
   const previous = await readFile(path).catch(() => null);
-  if (!previous || !previous.equals(bytes)) await writeFile(path, bytes);
+  if (!previous || !previous.equals(normalized.bytes)) await writeFile(path, normalized.bytes);
 
   for (const name of await readdir(imageDirectory).catch(() => [])) {
     if (!name.startsWith(`${basename}-`)) continue;
@@ -239,7 +266,7 @@ async function saveImage(file, basename, title) {
     const otherPath = join(imageDirectory, name).replaceAll("\\", "/");
     if (otherPath !== path) await unlink(otherPath).catch(() => {});
   }
-  return { path, bytes: bytes.length, contentType, extension, digest };
+  return { path, bytes: normalized.bytes.length, contentType: normalized.contentType, extension: normalized.extension, digest };
 }
 
 async function resolveImagePath(value, title) {
@@ -324,21 +351,32 @@ async function convertPage(queryPage, usedImages, statusRows) {
   let imageContentType = "";
 
   const upload = await findImageUpload(page);
+  const configuredImagePath = plainText(properties["画像パス"]?.rich_text);
   if (upload) {
-    const basename = `notion-${String(page.id || slug).replace(/[^a-z0-9]/gi, "").toLowerCase()}`;
-    const saved = await saveImage(upload.file, basename, title);
-    image = saved.path;
-    usedImages.add(image);
-    imageStatus = "notion-file";
-    imageProperty = upload.propertyName;
-    imageFilename = upload.file.name;
-    imageBytes = saved.bytes;
-    imageContentType = saved.contentType;
-    console.log(`Notion画像を保存: ${title} / ${upload.propertyName} / ${upload.file.name} -> ${image} (${saved.bytes} bytes)`);
+    try {
+      const basename = `notion-${String(page.id || slug).replace(/[^a-z0-9]/gi, "").toLowerCase()}`;
+      const saved = await saveImage(upload.file, basename, title);
+      image = saved.path;
+      usedImages.add(image);
+      imageStatus = "notion-file";
+      imageProperty = upload.propertyName;
+      imageFilename = upload.file.name;
+      imageBytes = saved.bytes;
+      imageContentType = saved.contentType;
+      console.log(`Notion画像を保存: ${title} / ${upload.propertyName} / ${upload.file.name} -> ${image} (${saved.bytes} bytes)`);
+    } catch (error) {
+      console.warn(`Notion画像の保存に失敗したため画像パスを確認します: ${title} / ${error.message}`);
+      image = await resolveImagePath(configuredImagePath, title);
+      if (image) {
+        imageStatus = "local-path-after-notion-error";
+      } else {
+        throw error;
+      }
+    }
   } else {
-    image = await resolveImagePath(plainText(properties["画像パス"]?.rich_text), title);
+    image = await resolveImagePath(configuredImagePath, title);
     if (image) imageStatus = "local-path";
-    console.warn(`Notion画像なし: ${title} / 画像パス=${plainText(properties["画像パス"]?.rich_text) || "(空欄)"}`);
+    console.warn(`Notion画像なし: ${title} / 画像パス=${configuredImagePath || "(空欄)"}`);
   }
 
   statusRows.push({

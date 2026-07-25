@@ -5,9 +5,9 @@ import hashlib, json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 core=[
- '/', '/index.html','/offline.html','/schedule.html','/news.html','/discography.html','/mv.html','/records.html','/music-show-wins.html','/streaming.html','/voting.html','/chants.html','/members.html','/favorites.html','/search.html',
+ '/', '/index.html','/offline.html','/schedule.html','/news.html','/discography.html','/mv.html','/records.html','/music-show-wins.html','/melon-records.html','/streaming.html','/voting.html','/chants.html','/members.html','/links.html','/fan-services.html','/favorites.html','/search.html',
  '/css/common.css','/css/home-latest.css','/css/search.css','/js/common.js','/js/image-optimizer.js','/manifest.webmanifest','/assets/icons/app-icon-192.png','/assets/icons/app-icon-512.png',
- '/data/news.json','/data/schedule.json','/data/members.json','/data/discography.json','/data/chants.json','/data/voting-guide.json','/data/mv.json'
+ '/data/news.json','/data/schedule.json','/data/members.json','/data/discography.json','/data/chants.json','/data/voting-guide.json','/data/mv.json','/data/records.json'
 ]
 existing=[]
 for url in core:

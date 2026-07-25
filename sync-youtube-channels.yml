@@ -3,14 +3,16 @@ name: Sync YouTube Channels
 on:
   workflow_dispatch:
   schedule:
-    - cron: "23 */3 * * *"
+    # 日本時間 00:05から2時間おき（00:05〜22:05）。
+    - cron: "5 0,2,4,6,8,10,12,14,16,18,20,22 * * *"
+      timezone: "Asia/Tokyo"
 
 permissions:
   contents: write
 
 concurrency:
-  group: youtube-channels-sync
-  cancel-in-progress: true
+  group: site-content-write
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -45,6 +47,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           branch="${GITHUB_REF_NAME}"
+          echo "予定時刻: JST 00:05 / 02:05 / 04:05 / 06:05 / 08:05 / 10:05 / 12:05 / 14:05 / 16:05 / 18:05 / 20:05 / 22:05"
+          echo "実行開始: $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M:%S %Z')"
 
           for attempt in 1 2 3; do
             echo "YouTube同期を実行します（${attempt}/3）"

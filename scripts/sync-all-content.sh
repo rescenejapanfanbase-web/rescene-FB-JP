@@ -14,6 +14,7 @@ run_step() {
 
 run_step "Notion スケジュール" node scripts/sync-notion.mjs
 run_step "Notion ニュース" node scripts/sync-notion-news.mjs
+run_step "Notion 音楽記録" node scripts/sync-notion-records.mjs
 run_step "ニュース画像参照の補正" node scripts/sanitize-news-images.mjs
 run_step "Notion ディスコグラフィ" node scripts/sync-notion-discography.mjs
 run_step "Notion メンバー" node scripts/sync-notion-members.mjs
