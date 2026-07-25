@@ -1,0 +1,38 @@
+RESCENE JAPAN FANBASE
+Plus Chatスケジュール本番統合 2026-07-26
+
+■ 本番動作
+- Sync All Site Contentの自動実行時にPlus Chat公式スケジュールを取得
+- 日本時間の当月と翌月を取得
+- 韓国語・英語の予定名を日本語表記へ変換
+- Notion予定と重複する場合はNotionを優先
+- Plus Chatだけにある予定をサイト、カレンダー、ICSへ追加
+- Plus Chat取得失敗時は前回成功データを維持し、サイト全体の同期を停止しない
+
+■ 自動実行時刻
+YouTube以外：日本時間 01:05、03:05、05:05、07:05、09:05、11:05、13:05、15:05、17:05、19:05、21:05、23:05
+
+■ 主要ファイル
+scripts/sync-pluschat-schedule.py
+scripts/pluschat-schedule-translations.json
+scripts/merge-schedules.mjs
+scripts/sync-notion.mjs
+scripts/sync-all-content.sh
+.github/workflows/sync-all-content.yml
+.github/workflows/sync-notion.yml
+data/pluschat-schedule.json
+data/schedule-notion.json
+data/schedule.json
+data/schedule-data.js
+data/rescene-schedule.ics
+
+■ 翻訳の追加
+新しい固有番組名・イベント名で原文が残った場合は、
+scripts/pluschat-schedule-translations.json の exact に追加する。
+
+■ 2026年7月の検証結果
+Plus Chat取得：40件
+Notion予定：40件
+Notionとの重複除外：19件
+Plus Chatから新規追加：21件
+統合後：61件
