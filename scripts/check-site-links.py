@@ -28,6 +28,15 @@ IGNORED_FILES = {
 NON_REFERENCE_DATA_FILES = {
     Path("data/site-updates.json"),
     Path("data/site-updates-data.js"),
+    # External-link checker output stores source filenames such as
+    # ``articles/example.html`` for diagnostics. They are report metadata, not
+    # links loaded by the site, and an older report can legitimately mention an
+    # article that has since been regenerated under another slug.
+    Path("data/external-link-report.json"),
+    # Notion news sync status stores original upload names such as
+    # ``IMG_9310.avif``. The actual browser-facing path is recorded separately
+    # in imagePath and is validated through data/news.json/news-data.js.
+    Path("data/notion-news-sync-status.json"),
 }
 
 IGNORE_PREFIXES = (
