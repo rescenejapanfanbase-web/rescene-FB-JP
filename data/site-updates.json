@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T16:14:25.001391+00:00",
+  "generatedAt": "2026-07-25T17:38:58.114120+00:00",
   "items": [
     {
       "date": "2026-07-26",
@@ -36,24 +36,6 @@
       "commit": "0a8b134",
       "files": [
         "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "title": "Delete news/IMG_9310.jpeg",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "3f98287",
-      "files": [
-        "news/IMG_9310.jpeg"
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "title": "Delete news/IMG_9292.jpeg",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "06df33c",
-      "files": [
-        "news/IMG_9292.jpeg"
       ]
     },
     {
