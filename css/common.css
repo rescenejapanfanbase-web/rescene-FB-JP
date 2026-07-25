@@ -1771,3 +1771,73 @@ body.page-links .fan-service-guide-note{margin:14px 2px 0;color:var(--muted);fon
 html.light-mode body.page-links .fan-service-guide-icon{color:#a72e67;background:linear-gradient(145deg,rgba(255,111,174,.14),rgba(183,145,245,.15));border-color:rgba(167,46,103,.16)}
 html.light-mode body.page-links .fan-service-guide-icon-bubble{color:#6c43ad}
 @media(max-width:760px){body.page-links .fan-service-guide-head{align-items:flex-start;flex-direction:column;gap:8px}body.page-links .fan-service-guide-grid{grid-template-columns:1fr}body.page-links .fan-service-guide-card{padding:20px}}
+
+
+/* ==== records.html / music-show-wins.html ==== */
+body.page-records .record-overview,
+body.page-music-show-wins .record-overview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:24px}
+body.page-records .record-stat,
+body.page-music-show-wins .record-stat{display:flex;flex-direction:column;justify-content:space-between;min-height:138px;padding:20px;overflow:hidden;position:relative}
+body.page-records .record-stat::after,
+body.page-music-show-wins .record-stat::after{content:'';position:absolute;width:90px;height:90px;border-radius:50%;right:-28px;bottom:-35px;background:radial-gradient(circle,rgba(255,111,174,.28),transparent 68%);pointer-events:none}
+body.page-records .record-stat small,
+body.page-music-show-wins .record-stat small{color:var(--muted);font-size:.63rem;font-weight:900;letter-spacing:.09em}
+body.page-records .record-stat strong,
+body.page-music-show-wins .record-stat strong{display:block;margin-top:12px;color:#fff;font-family:'Montserrat','Noto Sans JP',sans-serif;font-size:clamp(1.65rem,4vw,2.55rem);line-height:1}
+body.page-records .record-stat span,
+body.page-music-show-wins .record-stat span{margin-top:9px;color:var(--muted);font-size:.72rem;line-height:1.5}
+body.page-records .record-category-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+body.page-records .record-category-card{display:flex;flex-direction:column;min-height:360px;overflow:hidden;padding:0;text-decoration:none}
+body.page-records .record-category-card:hover{transform:translateY(-3px);border-color:rgba(255,139,190,.42)}
+body.page-records .record-category-image{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--soft-bg)}
+body.page-records .record-category-image img{width:100%;height:100%;object-fit:cover}
+body.page-records .record-category-image::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 44%,rgba(20,7,18,.78))}
+body.page-records .record-category-label{position:absolute;left:15px;bottom:14px;z-index:1;padding:6px 9px;border-radius:999px;background:rgba(31,11,29,.76);border:1px solid rgba(255,255,255,.15);font-size:.61rem;font-weight:900;letter-spacing:.08em;color:#fff}
+body.page-records .record-category-copy{display:flex;flex-direction:column;flex:1;padding:20px}
+body.page-records .record-category-copy h2{margin:0 0 8px;font-size:1.16rem}
+body.page-records .record-category-copy p{margin:0;color:var(--muted);font-size:.78rem;line-height:1.75}
+body.page-records .record-category-link{margin-top:auto;padding-top:18px;color:var(--pink);font-size:.74rem;font-weight:900}
+body.page-records .record-timeline{display:grid;gap:14px}
+body.page-records .record-timeline-item{display:grid;grid-template-columns:118px minmax(0,1fr) auto;gap:18px;align-items:center;padding:18px 20px}
+body.page-records .record-timeline-date{color:var(--pink);font-family:'Montserrat','Noto Sans JP',sans-serif;font-size:.78rem;font-weight:900;letter-spacing:.04em}
+body.page-records .record-timeline-copy h3{margin:0 0 5px;font-size:.96rem}
+body.page-records .record-timeline-copy p{margin:0;color:var(--muted);font-size:.73rem;line-height:1.6}
+body.page-records .record-timeline-tag{padding:7px 10px;border-radius:999px;background:var(--soft-bg);border:1px solid var(--border);color:var(--muted);font-size:.61rem;font-weight:900;white-space:nowrap}
+body.page-records .record-note{padding:18px 20px;color:var(--muted);font-size:.7rem;line-height:1.75}
+body.page-music-show-wins .win-feature{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);overflow:hidden;padding:0}
+body.page-music-show-wins .win-feature-image{min-height:420px;background:var(--soft-bg)}
+body.page-music-show-wins .win-feature-image img{width:100%;height:100%;object-fit:cover}
+body.page-music-show-wins .win-feature-copy{display:flex;flex-direction:column;justify-content:center;padding:clamp(26px,5vw,52px)}
+body.page-music-show-wins .win-feature-copy .badge{align-self:flex-start;margin-bottom:15px}
+body.page-music-show-wins .win-feature-copy h2{margin:0;font-size:clamp(1.6rem,4vw,2.55rem);line-height:1.25}
+body.page-music-show-wins .win-feature-copy>p{margin:16px 0 0;color:var(--muted);font-size:.86rem;line-height:1.85}
+body.page-music-show-wins .win-detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:24px 0}
+body.page-music-show-wins .win-detail{padding:13px 14px;border-radius:14px;background:var(--soft-bg);border:1px solid var(--border)}
+body.page-music-show-wins .win-detail small{display:block;color:var(--muted);font-size:.58rem;font-weight:900;letter-spacing:.08em}
+body.page-music-show-wins .win-detail strong{display:block;margin-top:5px;font-size:.82rem;line-height:1.45}
+body.page-music-show-wins .win-actions{display:flex;gap:10px;flex-wrap:wrap}
+body.page-music-show-wins .wins-list{display:grid;gap:14px}
+body.page-music-show-wins .wins-row{display:grid;grid-template-columns:70px 120px minmax(0,1fr) 120px;gap:16px;align-items:center;padding:17px 19px}
+body.page-music-show-wins .wins-number{display:grid;place-items:center;width:48px;height:48px;border-radius:15px;background:linear-gradient(145deg,rgba(255,111,174,.2),rgba(200,164,255,.16));border:1px solid rgba(255,190,220,.18);color:var(--pink);font-family:'Montserrat',sans-serif;font-size:1.1rem;font-weight:900}
+body.page-music-show-wins .wins-date{color:var(--muted);font-size:.69rem;font-weight:900}
+body.page-music-show-wins .wins-main h3{margin:0 0 4px;font-size:.98rem}
+body.page-music-show-wins .wins-main p{margin:0;color:var(--muted);font-size:.69rem}
+body.page-music-show-wins .wins-score{text-align:right}
+body.page-music-show-wins .wins-score strong{display:block;color:#fff;font-family:'Montserrat','Noto Sans JP',sans-serif;font-size:1rem}
+body.page-music-show-wins .wins-score span{color:var(--muted);font-size:.58rem;font-weight:900;letter-spacing:.08em}
+body.page-music-show-wins .record-related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+body.page-music-show-wins .record-related-card{display:flex;flex-direction:column;gap:7px;padding:20px;text-decoration:none}
+body.page-music-show-wins .record-related-card small{color:var(--pink);font-size:.59rem;font-weight:900;letter-spacing:.08em}
+body.page-music-show-wins .record-related-card strong{font-size:.9rem}
+body.page-music-show-wins .record-related-card span{margin-top:auto;padding-top:8px;color:var(--muted);font-size:.69rem}
+html.light-mode body.page-records .record-stat strong,
+html.light-mode body.page-music-show-wins .record-stat strong,
+html.light-mode body.page-music-show-wins .wins-score strong{color:var(--text)}
+@media(max-width:900px){body.page-records .record-category-grid{grid-template-columns:1fr 1fr}body.page-records .record-category-card:last-child{grid-column:1/-1}body.page-music-show-wins .win-feature{grid-template-columns:1fr}body.page-music-show-wins .win-feature-image{min-height:0;aspect-ratio:16/10}body.page-music-show-wins .record-related-grid{grid-template-columns:1fr 1fr}body.page-music-show-wins .record-related-card:last-child{grid-column:1/-1}}
+@media(max-width:680px){body.page-records .record-overview,body.page-music-show-wins .record-overview{grid-template-columns:1fr}body.page-records .record-stat,body.page-music-show-wins .record-stat{min-height:112px}body.page-records .record-category-grid{grid-template-columns:1fr}body.page-records .record-category-card:last-child{grid-column:auto}body.page-records .record-timeline-item{grid-template-columns:1fr;gap:7px}body.page-records .record-timeline-tag{justify-self:start}body.page-music-show-wins .wins-row{grid-template-columns:52px minmax(0,1fr);gap:12px}body.page-music-show-wins .wins-date{grid-column:2}body.page-music-show-wins .wins-score{grid-column:2;text-align:left}body.page-music-show-wins .record-related-grid{grid-template-columns:1fr}body.page-music-show-wins .record-related-card:last-child{grid-column:auto}}
+@media(max-width:440px){body.page-music-show-wins .win-detail-grid{grid-template-columns:1fr}body.page-music-show-wins .win-actions .btn{width:100%;justify-content:center;text-align:center}}
+
+/* Uploaded Bubble service icon */
+body.page-links .fan-service-guide-icon-bubble{overflow:hidden;padding:0;background:#fff;border-color:rgba(255,255,255,.38)}
+body.page-links .fan-service-guide-icon-bubble img{display:block;width:100%;height:100%;object-fit:cover}
+html.light-mode body.page-links .fan-service-guide-icon-bubble{background:#fff;border-color:rgba(167,46,103,.14)}

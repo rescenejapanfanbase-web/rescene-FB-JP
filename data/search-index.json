@@ -1145,6 +1145,32 @@
       "date": "",
       "external": false,
       "priority": 60
+    },
+    {
+      "id": "static-records",
+      "category": "records",
+      "categoryLabel": "RECORDS",
+      "title": "記録",
+      "summary": "RESCENEの音楽番組1位、音源チャート、投票などの主な記録をまとめています。",
+      "url": "records.html",
+      "keywords": "記録 実績 1位 チャート Melon 人気歌謡 投票 音楽番組",
+      "image": "news/the-show-first-win.jpeg",
+      "date": "",
+      "external": false,
+      "priority": 94
+    },
+    {
+      "id": "static-music-show-wins",
+      "category": "musicwins",
+      "categoryLabel": "MUSIC SHOW WINS",
+      "title": "音楽番組1位",
+      "summary": "RESCENEが音楽番組で獲得した1位を、楽曲、番組、日付、スコアとともに掲載しています。",
+      "url": "music-show-wins.html",
+      "keywords": "音楽番組 1位 初1位 first win Pretty Girl THE SHOW 10000点",
+      "image": "news/the-show-first-win.jpeg",
+      "date": "2026-07-14",
+      "external": false,
+      "priority": 96
     }
   ]
 }

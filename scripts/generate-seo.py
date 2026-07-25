@@ -92,6 +92,22 @@ PAGE_META = {
         "priority": "0.8",
         "changefreq": "daily",
     },
+    "records.html": {
+        "title": f"記録 | {SITE_NAME}",
+        "description": "RESCENEの音楽番組1位、音源チャート、投票などの主な記録をまとめています。",
+        "image": "news/the-show-first-win.jpeg",
+        "label": "RESCENE RECORDS",
+        "priority": "0.8",
+        "changefreq": "weekly",
+    },
+    "music-show-wins.html": {
+        "title": f"音楽番組1位 | {SITE_NAME}",
+        "description": "RESCENEが韓国の音楽番組で獲得した1位の記録を、楽曲、番組、日付、スコアとともに掲載しています。",
+        "image": "news/the-show-first-win.jpeg",
+        "label": "MUSIC SHOW WINS",
+        "priority": "0.8",
+        "changefreq": "weekly",
+    },
     "streaming.html": {
         "title": f"ストリーミングガイド | {SITE_NAME}",
         "description": "YouTube、Spotify、Apple Music、Stationhead、TikTokなどでRESCENEを応援する方法を案内します。",
@@ -134,7 +150,7 @@ PAGE_META = {
     },
     "search.html": {
         "title": f"サイト内検索 | {SITE_NAME}",
-        "description": "ニュース、スケジュール、メンバー、作品、MV、YouTube、掛け声、投票ガイドを横断検索できます。",
+        "description": "ニュース、スケジュール、メンバー、作品、MV、YouTube、記録、掛け声、投票ガイドを横断検索できます。",
         "image": "assets/group/rescene-group.jpg",
         "label": "SITE SEARCH",
         "noindex": True,

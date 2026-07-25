@@ -63,7 +63,7 @@
   if(Number.isNaN(date.getTime()))return String(value).slice(0,10).replaceAll('-','.');
   return new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'2-digit',day:'2-digit'}).format(date);
  };
- const categoryGroup=category=>({discography:'music',mv:'music',streaming:'guides',voting:'guides',officiallinks:'guides',about:'guides',contact:'guides',site:'guides'}[category]||category);
+ const categoryGroup=category=>({discography:'music',mv:'music',records:'music',musicwins:'music',streaming:'guides',voting:'guides',officiallinks:'guides',about:'guides',contact:'guides',site:'guides'}[category]||category);
  const typeLabel=type=>({short:'SHORT',live:'LIVE',video:'VIDEO'}[type]||'VIDEO');
  const normalizeEntry=(entry,index)=>{
   const safe={

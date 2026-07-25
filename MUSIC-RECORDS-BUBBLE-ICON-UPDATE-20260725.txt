@@ -1,0 +1,10 @@
+RESCENE JAPAN FANBASE 更新内容（2026-07-25）
+
+・音楽メニューへ「記録」を追加
+・records.html（記録ページ）を追加
+・music-show-wins.html（音楽番組1位ページ）を追加
+・Pretty Girl / THE SHOW 初1位、10,000点の記録を掲載
+・Melon TOP100 1位、人気歌謡リアルタイム投票1位への導線を追加
+・サイト内検索、SEO、サイトマップ、PWAキャッシュへ新ページを追加
+・提供されたBubbleアイコンを assets/icons/bubble.png として追加
+・リンクページのBubble案内カードへ新アイコンを反映
