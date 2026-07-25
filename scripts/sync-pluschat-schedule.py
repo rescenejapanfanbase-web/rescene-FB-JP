@@ -10,20 +10,30 @@ import argparse
 import json
 import re
 import sys
-from dataclasses import dataclass, asdict
+from dataclasses import asdict, dataclass
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Iterable
 
 BASE_URL = "https://artist.mnetplus.world/main/stg/rescene-official/schedule/{year:04d}/{month:02d}"
-DATE_HEADER_RE = re.compile(r"^(\d{1,2})日[月火水木金土日]曜日$")
-ISO_DATE_RE = re.compile(r"^\d{4}/\d{2}/\d{2}$")
-TIME_RE = re.compile(r"^(午前|午後)(\d{1,2}):(\d{2})$")
-ALL_DAY_WORDS = {"終日", "All day", "ALL DAY"}
+JA_DATE_HEADER_RE = re.compile(r"^(\d{1,2})日[月火水木金土日]曜日$")
+EN_DATE_HEADER_RE = re.compile(
+    r"^(\d{1,2})\s+(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)$",
+    re.IGNORECASE,
+)
+ISO_DATE_YMD_RE = re.compile(r"^(\d{4})/(\d{2})/(\d{2})$")
+ISO_DATE_MDY_RE = re.compile(r"^(\d{2})/(\d{2})/(\d{4})$")
+JA_TIME_RE = re.compile(r"^(午前|午後)(\d{1,2}):(\d{2})$")
+EN_TIME_RE = re.compile(r"^(\d{1,2}):(\d{2})\s*(AM|PM)$", re.IGNORECASE)
+ALL_DAY_WORDS = {"終日", "all day", "all-day", "all_day"}
 IGNORE_EXACT = {
     "HOME", "RESCENE", "MEDIA", "FEED", "SHOP", "通知", "カレンダー",
     "URLをコピーしました。", "URLをコピーしました", "ログイン", "会員登録",
+    "Time Event", "Time", "Event", "Today", "Previous Month", "Next Month",
+    "All", "방송", "라디오", "행사", "팬사인회", "기념일", "공연", "공지",
+    "Cookie settings", "Allow all cookies",
 }
+
 
 @dataclass(frozen=True)
 class Event:
@@ -50,32 +60,83 @@ def clean_lines(text: str) -> list[str]:
     return lines
 
 
+def parse_day_header(label: str) -> int | None:
+    for pattern in (JA_DATE_HEADER_RE, EN_DATE_HEADER_RE):
+        match = pattern.match(label)
+        if match:
+            return int(match.group(1))
+    return None
+
+
+def parse_date_line(label: str, expected_year: int, expected_month: int) -> int | None:
+    match = ISO_DATE_YMD_RE.match(label)
+    if match:
+        year, month, day = map(int, match.groups())
+        return day if (year, month) == (expected_year, expected_month) else None
+    match = ISO_DATE_MDY_RE.match(label)
+    if match:
+        month, day, year = map(int, match.groups())
+        return day if (year, month) == (expected_year, expected_month) else None
+    return None
+
+
 def parse_time(label: str) -> tuple[int, int] | None:
-    match = TIME_RE.match(label)
-    if not match:
-        return None
-    period, hour_text, minute_text = match.groups()
-    hour = int(hour_text)
-    minute = int(minute_text)
-    if period == "午前":
-        hour = 0 if hour == 12 else hour
-    else:
-        hour = hour if hour == 12 else hour + 12
-    return hour, minute
+    match = JA_TIME_RE.match(label)
+    if match:
+        period, hour_text, minute_text = match.groups()
+        hour = int(hour_text)
+        minute = int(minute_text)
+        if period == "午前":
+            hour = 0 if hour == 12 else hour
+        else:
+            hour = hour if hour == 12 else hour + 12
+        return hour, minute
+
+    match = EN_TIME_RE.match(label)
+    if match:
+        hour_text, minute_text, period = match.groups()
+        hour = int(hour_text)
+        minute = int(minute_text)
+        if period.upper() == "AM":
+            hour = 0 if hour == 12 else hour
+        else:
+            hour = hour if hour == 12 else hour + 12
+        return hour, minute
+    return None
 
 
-def candidate_title(lines: list[str], time_index: int, lower_bound: int) -> str:
-    for idx in range(time_index - 1, lower_bound - 1, -1):
-        value = lines[idx]
-        if DATE_HEADER_RE.match(value) or ISO_DATE_RE.match(value):
-            continue
-        if value in IGNORE_EXACT:
-            continue
-        if TIME_RE.match(value) or value in ALL_DAY_WORDS:
-            continue
-        if re.match(r"^\d{1,2}月,?\s*\d{4}$", value):
-            continue
-        return value
+def is_all_day(label: str) -> bool:
+    return label.strip().casefold() in ALL_DAY_WORDS
+
+
+def is_ignored_title_line(value: str, year: int, month: int) -> bool:
+    if value in IGNORE_EXACT:
+        return True
+    if parse_day_header(value) is not None:
+        return True
+    if parse_date_line(value, year, month) is not None:
+        return True
+    if parse_time(value) is not None or is_all_day(value):
+        return True
+    if re.match(r"^\d{1,2}月,?\s*\d{4}$", value):
+        return True
+    if re.match(r"^[A-Za-z]{3,9},?\s*\d{4}$", value):
+        return True
+    if value.startswith("The RESCENE website requires the use of cookies"):
+        return True
+    return False
+
+
+def title_from_block(block: list[str], year: int, month: int) -> str:
+    """Use the first meaningful line in an event block as its title.
+
+    Plus Chat sometimes inserts member names or notes between the event title and
+    the time. Choosing the first line preserves the actual event title instead of
+    accidentally selecting the final member-name line.
+    """
+    for value in block:
+        if not is_ignored_title_line(value, year, month):
+            return value
     return ""
 
 
@@ -88,58 +149,102 @@ def event_type(title: str) -> tuple[str, str]:
     return "Plus Chat", "event"
 
 
+def build_event(
+    *,
+    title: str,
+    year: int,
+    month: int,
+    day: int,
+    time_value: tuple[int, int] | None,
+    all_day: bool,
+    source_url: str,
+) -> Event:
+    date_value = f"{year:04d}-{month:02d}-{day:02d}"
+    if all_day:
+        start = date_value
+    else:
+        assert time_value is not None
+        hour, minute = time_value
+        start = f"{date_value}T{hour:02d}:{minute:02d}:00+09:00"
+
+    category, kind = event_type(title)
+    stable_time = "all-day" if all_day else start[11:16].replace(":", "")
+    event_id = re.sub(
+        r"[^a-z0-9]+",
+        "-",
+        f"pluschat-{date_value}-{stable_time}-{title}".lower(),
+    ).strip("-")
+    return Event(
+        id=event_id[:180],
+        title=title,
+        date=date_value,
+        start=start,
+        end="",
+        allDay=all_day,
+        category=category,
+        type=kind,
+        description="Plus Chat公式スケジュールから取得",
+        link=source_url,
+        linkLabel="Plus Chatで確認",
+        source="pluschat",
+    )
+
+
 def parse_schedule_text(text: str, year: int, month: int, source_url: str) -> list[Event]:
     lines = clean_lines(text)
     events: list[Event] = []
-    current_day: int | None = None
-    section_start = 0
     seen: set[tuple[str, str, str]] = set()
 
+    # Find every day section. English is currently returned by GitHub Actions
+    # even when Playwright requests ja-JP, so both locales are supported.
+    section_starts: list[tuple[int, int]] = []
     for index, line in enumerate(lines):
-        date_match = DATE_HEADER_RE.match(line)
-        if date_match:
-            current_day = int(date_match.group(1))
-            section_start = index + 1
-            continue
-        if current_day is None:
-            continue
+        day = parse_day_header(line)
+        if day is not None:
+            section_starts.append((index, day))
 
-        is_all_day = line in ALL_DAY_WORDS
-        parsed_time = parse_time(line)
-        if not is_all_day and parsed_time is None:
-            continue
+    # Fallback for a future layout that omits weekday headings but keeps dates.
+    if not section_starts:
+        for index, line in enumerate(lines):
+            day = parse_date_line(line, year, month)
+            if day is not None:
+                section_starts.append((index, day))
 
-        title = candidate_title(lines, index, section_start)
-        if not title:
-            continue
+    for section_number, (start_index, day) in enumerate(section_starts):
+        end_index = (
+            section_starts[section_number + 1][0]
+            if section_number + 1 < len(section_starts)
+            else len(lines)
+        )
+        section = lines[start_index + 1:end_index]
+        block_start = 0
 
-        date_value = f"{year:04d}-{month:02d}-{current_day:02d}"
-        if is_all_day:
-            start = date_value
-        else:
-            hour, minute = parsed_time
-            start = f"{date_value}T{hour:02d}:{minute:02d}:00+09:00"
+        for index, line in enumerate(section):
+            all_day = is_all_day(line)
+            time_value = parse_time(line)
+            if not all_day and time_value is None:
+                continue
 
-        key = (date_value, start, title)
-        if key in seen:
-            continue
-        seen.add(key)
-        category, kind = event_type(title)
-        event_id = re.sub(r"[^a-z0-9]+", "-", f"pluschat-{date_value}-{start[-14:]}-{title}".lower()).strip("-")
-        events.append(Event(
-            id=event_id[:180],
-            title=title,
-            date=date_value,
-            start=start,
-            end="",
-            allDay=is_all_day,
-            category=category,
-            type=kind,
-            description="Plus Chat公式スケジュールから取得",
-            link=source_url,
-            linkLabel="Plus Chatで確認",
-            source="pluschat",
-        ))
+            block = section[block_start:index]
+            title = title_from_block(block, year, month)
+            block_start = index + 1
+            if not title:
+                continue
+
+            event = build_event(
+                title=title,
+                year=year,
+                month=month,
+                day=day,
+                time_value=time_value,
+                all_day=all_day,
+                source_url=source_url,
+            )
+            key = (event.date, event.start, event.title)
+            if key in seen:
+                continue
+            seen.add(key)
+            events.append(event)
 
     return sorted(events, key=lambda event: (event.start, event.title))
 
@@ -185,7 +290,6 @@ def fetch_rendered_text(url: str, screenshot_path: Path, html_path: Path) -> str
             pass
         page.wait_for_timeout(8_000)
 
-        # Scroll through lazy-loaded monthly content.
         previous_height = 0
         for _ in range(20):
             height = page.evaluate("document.documentElement.scrollHeight")
