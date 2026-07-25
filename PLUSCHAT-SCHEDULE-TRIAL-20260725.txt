@@ -1,0 +1,15 @@
+Plus Chatスケジュール試験取り込み
+
+追加ファイル:
+- scripts/sync-pluschat-schedule.py
+- .github/workflows/test-pluschat-schedule.yml
+
+使い方:
+1. GitHub Actionsを開く
+2. Test Plus Chat Schedule Importを選ぶ
+3. Run workflow
+4. year=2026、month=07で実行
+5. 実行ログとArtifactsのpluschat-schedule-2026-07を確認
+
+この段階では本番のdata/schedule.jsonやNotion予定を変更しません。
+取得結果が正しいことを確認してから、本番カレンダーとの統合を有効化します。
