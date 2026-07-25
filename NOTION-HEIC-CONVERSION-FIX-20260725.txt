@@ -1,0 +1,15 @@
+Notionニュース HEIC変換修正（2026-07-25）
+
+原因:
+GitHub-hosted runnerのffmpegは存在していても、HEICをデコードできる構成とは限りません。
+従来処理はpillow-heifをインストールしていなかったためffmpegへ進み、終了コード183で停止していました。
+
+修正:
+- Sync All Site ContentとSync Notion Newsでpillow-heif 1.5.0をインストール
+- 同期開始前にpillow-heifの読み込みを検証
+- HEIC変換はpillow-heifを最優先
+- pillow-heifに失敗した場合もheif-convert、ffmpegを順番に試行
+- すべて失敗した場合は各変換方式の詳細をまとめて表示
+
+対象画像:
+Notionニュース「RESCENEが『Pretty Girl』で地上波音楽番組初の1位を獲得」のIMG_9364.heicを含むHEIC/HEIF画像。
