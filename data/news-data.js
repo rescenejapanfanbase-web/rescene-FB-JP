@@ -20,8 +20,8 @@ window.RESCENE_NEWS = [
     "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組では初の1位を獲得しました。",
     "body": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組では初の1位を獲得しました。\n本放送では活動期間が終わっており、出演なしでの1位獲得となりグループとしては2冠目となります。",
     "image": "assets/news/notion/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf86990.jpg",
-    "sourceLink": "",
-    "sourceLabel": "公式動画を見る",
+    "sourceLink": "https://x.com/resceneofficial/status/2080953073992896790?s=46",
+    "sourceLabel": "メンバーのリアクションを見る",
     "notionPageId": "3a8229d2-19da-8057-ba8c-e48a4e50d816",
     "notionUrl": "https://app.notion.com/p/RESCENE-Pretty-Girl-1-3a8229d219da8057ba8ce48a4e50d816"
   },

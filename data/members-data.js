@@ -1,5 +1,5 @@
 window.RESCENE_MEMBERS = {
-  "generatedAt": "2026-07-20T10:42:12.379Z",
+  "generatedAt": "2026-07-25T15:09:45.630Z",
   "source": "notion",
   "dataSourceId": "659553c4-dfa8-4d81-98e1-c259df27bafe",
   "notionDatabaseUrl": "https://app.notion.com/p/5c70b299a510423c9c6d71dcf57968af",
@@ -95,7 +95,7 @@ window.RESCENE_MEMBERS = {
       "birthDateLabel": "2008.08.19",
       "birthPlace": "韓国・高陽市",
       "realName": "이예빈",
-      "keywords": "リセンヌの太陽,ウィスパーボイス",
+      "keywords": "リセンヌの太陽,좋다!",
       "shortDescription": "明るく愛らしいムードで、グループにやわらかなエネルギーを届けるメンバー。",
       "profile": "明るいエネルギーとウィスパーボイスが印象的なメンバー。",
       "colorName": "YELLOW",

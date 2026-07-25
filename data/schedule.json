@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-25T15:02:23.759Z",
+  "generatedAt": "2026-07-25T15:09:35.570Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
     "notion": 40,
-    "plusChatAvailable": 40,
-    "plusChatAdded": 21,
-    "plusChatDuplicates": 19
+    "plusChatAvailable": 45,
+    "plusChatAdded": 25,
+    "plusChatDuplicates": 20
   },
-  "plusChatGeneratedAt": "2026-07-25T15:02:23Z",
+  "plusChatGeneratedAt": "2026-07-25T15:09:35Z",
   "events": [
     {
       "id": "39d229d2-19da-800c-94bb-c8304114547b",
@@ -734,6 +734,25 @@
       "sourceMonth": "2026-07"
     },
     {
+      "id": "pluschat-2026-07-19-0905-sbs",
+      "title": "SBS「人気歌謡」事前収録",
+      "originalTitle": "SBS <인기가요> 사전녹화",
+      "translationStatus": "exact",
+      "date": "2026-07-19",
+      "start": "2026-07-19T09:05:00+09:00",
+      "end": "",
+      "allDay": false,
+      "category": "音楽番組",
+      "type": "event",
+      "description": "Plus Chat公式スケジュールから自動取得\n原文: SBS <인기가요> 사전녹화",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/07",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-07"
+    },
+    {
       "id": "3a2229d2-19da-80f8-8202-e0f1b9752d07",
       "title": "人気歌謡 出演",
       "date": "2026-07-19",
@@ -920,6 +939,25 @@
       "sourceMonth": "2026-07"
     },
     {
+      "id": "pluschat-2026-08-09-2000-2026",
+      "title": "「2026 쿠팡플레이 시리즈」 하프타임 쇼",
+      "originalTitle": "<2026 쿠팡플레이 시리즈> 하프타임 쇼",
+      "translationStatus": "partial",
+      "date": "2026-08-09",
+      "start": "2026-08-09T20:00:00+09:00",
+      "end": "",
+      "allDay": false,
+      "category": "イベント",
+      "type": "event",
+      "description": "Plus Chat公式スケジュールから自動取得\n原文: <2026 쿠팡플레이 시리즈> 하프타임 쇼\n一部は公式の原文表記です。",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-08"
+    },
+    {
       "id": "3a2229d2-19da-80e2-a166-d7b575feb5f0",
       "title": "KCON LA 2026",
       "date": "2026-08-14",
@@ -933,6 +971,44 @@
       "image": "",
       "notionUrl": "https://app.notion.com/p/KCON-LA-2026-3a2229d219da80e2a166d7b575feb5f0",
       "source": "notion"
+    },
+    {
+      "id": "pluschat-2026-08-15-all-day-kcon-la-2026",
+      "title": "KCON LA 2026",
+      "originalTitle": "KCON LA 2026",
+      "translationStatus": "original",
+      "date": "2026-08-15",
+      "start": "2026-08-15",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "Plus Chat公式スケジュールから自動取得\n一部は公式の原文表記です。",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-08"
+    },
+    {
+      "id": "pluschat-2026-08-16-all-day-kcon-la-2026",
+      "title": "KCON LA 2026",
+      "originalTitle": "KCON LA 2026",
+      "translationStatus": "original",
+      "date": "2026-08-16",
+      "start": "2026-08-16",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "Plus Chat公式スケジュールから自動取得\n一部は公式の原文表記です。",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-08"
     },
     {
       "id": "39d229d2-19da-8042-adf1-d3b21aab71b4",
