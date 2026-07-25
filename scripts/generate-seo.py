@@ -118,7 +118,7 @@ PAGE_META = {
     },
     "links.html": {
         "title": f"公式リンク | {SITE_NAME}",
-        "description": "RESCENEの公式サイト、SNS、YouTube、音楽配信サービスへのリンクをまとめています。",
+        "description": "RESCENEの公式SNS、音楽配信、Plus Chatメンバーシップ、bubbleなどの公式サービスへの入口をまとめています。",
         "image": "assets/group/rescene-group.jpg",
         "label": "OFFICIAL LINKS",
         "priority": "0.7",

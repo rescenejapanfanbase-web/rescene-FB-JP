@@ -165,11 +165,24 @@
     elements.youtube.innerHTML=`<a class="home-feed-item home-video-link" href="${escapeHtml(safeUrl(video.url,'youtube.html'))}" target="_blank" rel="noopener noreferrer"><span class="home-video-thumb">${image?`<img src="${escapeHtml(image)}" alt="" loading="lazy" width="480" height="270">`:''}</span><span class="home-video-copy"><span class="home-feed-item-head"><span class="home-feed-badge">${typeLabel}</span><span class="home-feed-date">${escapeHtml(formatTimestamp(video.publishedAt))}</span></span><strong>${escapeHtml(video.title||'YouTube動画')}</strong><p>${escapeHtml(video.channelLabel)}</p></span></a>`;
   };
 
-  const guideIcon=category=>({VOTING:'V',FANCHANT:'F',STREAMING:'S',YOUTUBE:'YT','MUSIC VIDEO':'MV',DISCOGRAPHY:'D'})[String(category||'').toUpperCase()]||'G';
+  const guideIcon=guide=>{
+    const key=String(guide?.key||guide?.category||'').toUpperCase();
+    const icons={
+      VOTING:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12a2 2 0 0 1 2 2v16H4V5a2 2 0 0 1 2-2Z"/><path d="m8 11 2.3 2.3L16 7.6"/><path d="M8 17h8"/></svg>',
+      FANCHANT:'<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="3" width="8" height="12" rx="4"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3M8.5 21h7"/></svg>',
+      STREAMING:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V6l10-2v12"/><circle cx="6" cy="18" r="3"/><circle cx="16" cy="16" r="3"/></svg>',
+      YOUTUBE:'<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="4"/><path d="m10 9 5 3-5 3V9Z"/></svg>',
+      'MUSIC VIDEO':'<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M3 10h18M7 6l2-3M13 6l2-3M19 6l2-3"/><path d="m10 13 4 2.5-4 2.5v-5Z"/></svg>',
+      DISCOGRAPHY:'<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.5"/><path d="M12 3v6M21 12h-6M12 21v-6M3 12h6"/></svg>',
+      CHANTS:'<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="3" width="8" height="12" rx="4"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3M8.5 21h7"/></svg>',
+      MV:'<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M3 10h18"/><path d="m10 13 4 2.5-4 2.5v-5Z"/></svg>',
+    };
+    return icons[key]||'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>';
+  };
   const renderGuides=payload=>{
     const guides=(Array.isArray(payload?.guides)?payload.guides:[]).slice().sort((a,b)=>new Date(b.updatedAt||0)-new Date(a.updatedAt||0)).slice(0,2);
     if(!guides.length){elements.guides.innerHTML=empty('ガイド更新情報を読み込めませんでした。');return;}
-    elements.guides.innerHTML=guides.map(guide=>`<a class="home-feed-item home-guide-item" href="${escapeHtml(safeUrl(guide.url,'search.html'))}"><span class="home-guide-icon">${escapeHtml(guideIcon(guide.category))}</span><span class="home-guide-copy"><strong>${escapeHtml(guide.title||'ガイド')}</strong><span>${escapeHtml(formatGuideDate(guide.updatedAt)||guide.category||'GUIDE')}</span></span><span class="home-guide-arrow">→</span></a>`).join('');
+    elements.guides.innerHTML=guides.map(guide=>`<a class="home-feed-item home-guide-item" href="${escapeHtml(safeUrl(guide.url,'search.html'))}"><span class="home-guide-icon" data-guide-icon="${escapeHtml(guide.key||guide.category||'guide')}">${guideIcon(guide)}</span><span class="home-guide-copy"><strong>${escapeHtml(guide.title||'ガイド')}</strong><span>${escapeHtml(formatGuideDate(guide.updatedAt)||guide.category||'GUIDE')}</span></span><span class="home-guide-arrow">→</span></a>`).join('');
   };
 
   const jobs=[

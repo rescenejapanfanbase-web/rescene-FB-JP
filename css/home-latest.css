@@ -43,3 +43,5 @@ html.light-mode .home-feed-badge{color:#b83f78!important;background:rgba(184,63,
 @media(max-width:380px){.home-video-link{grid-template-columns:96px minmax(0,1fr)}.home-video-copy strong{font-size:.82rem}.home-feed-heading h3{font-size:1.06rem}.home-feed-heading>a{font-size:.65rem}}
 /* === END HOMEPAGE AUTOMATIC LATEST SUMMARY === */
 @media(min-width:980px) and (max-width:1120px){.nav-links .dropdown:last-child .dropdown-menu{left:auto;right:0}}
+.home-guide-icon svg{width:21px;height:21px;display:block;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.home-guide-icon[data-guide-icon="youtube"] svg path:last-child,.home-guide-icon[data-guide-icon="mv"] svg path:last-child{fill:currentColor;stroke:none}

@@ -1,7 +1,7 @@
 import { access, readFile, writeFile } from 'node:fs/promises';
 
 const FALLBACK = 'news/fanbase-site.jpg';
-const DATA_FILES = ['data/news-manual.json', 'data/news.json'];
+const DATA_FILES = ['data/news.json'];
 
 async function exists(path) {
   try { await access(path); return true; } catch { return false; }
@@ -59,4 +59,4 @@ try {
   await writeFile('data/news-data.js', `window.RESCENE_NEWS = ${JSON.stringify(news, null, 2)};\n`, 'utf8');
 } catch {}
 
-console.log('ニュース画像参照の検証・補正が完了しました。');
+console.log('最終ニュースデータの画像参照を検証しました。元データ data/news-manual.json は変更していません。');

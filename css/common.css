@@ -1748,3 +1748,26 @@ html.light-mode .admin-code{background:#fff5f9}html.light-mode .warning-list li,
     max-width:90px!important;
   }
 }
+
+/* ==== links.html fan service guides ==== */
+body.page-links .fan-service-guide-section{margin-top:10px;margin-bottom:46px}
+body.page-links .fan-service-guide-head{align-items:flex-end;gap:24px}
+body.page-links .fan-service-guide-head>p{max-width:520px;margin:0;color:var(--muted);font-size:.78rem;line-height:1.75}
+body.page-links .fan-service-guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+body.page-links .fan-service-guide-card{display:flex;flex-direction:column;gap:16px;padding:24px;min-width:0}
+body.page-links .fan-service-guide-top{display:flex;align-items:center;gap:14px}
+body.page-links .fan-service-guide-top small{display:block;color:var(--pink);font-size:.61rem;font-weight:900;letter-spacing:.1em;margin-bottom:3px}
+body.page-links .fan-service-guide-top h3{margin:0;font-size:1.2rem;line-height:1.35}
+body.page-links .fan-service-guide-icon{display:grid;place-items:center;width:52px;height:52px;min-width:52px;border-radius:16px;border:1px solid rgba(255,190,220,.22);background:linear-gradient(145deg,rgba(255,111,174,.22),rgba(200,164,255,.18));color:#ffd8ea;box-shadow:0 10px 25px rgba(10,0,12,.18)}
+body.page-links .fan-service-guide-icon-bubble{color:#d8c8ff}
+body.page-links .fan-service-guide-icon svg{width:27px;height:27px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+body.page-links .fan-service-guide-card>p{margin:0;color:var(--muted);font-size:.82rem;line-height:1.8}
+body.page-links .fan-service-guide-steps{display:grid;gap:9px;margin:0;padding:0;list-style:none;counter-reset:fan-service-step}
+body.page-links .fan-service-guide-steps li{position:relative;min-height:28px;padding:4px 0 4px 38px;color:var(--text);font-size:.78rem;line-height:1.55;counter-increment:fan-service-step}
+body.page-links .fan-service-guide-steps li::before{content:counter(fan-service-step);position:absolute;left:0;top:0;display:grid;place-items:center;width:28px;height:28px;border-radius:10px;background:var(--soft-bg);border:1px solid var(--border);color:var(--pink);font-size:.68rem;font-weight:900}
+body.page-links .fan-service-guide-actions{margin-top:auto;padding-top:2px}
+body.page-links .fan-service-guide-actions .btn{width:100%;justify-content:center;text-align:center}
+body.page-links .fan-service-guide-note{margin:14px 2px 0;color:var(--muted);font-size:.68rem;line-height:1.7}
+html.light-mode body.page-links .fan-service-guide-icon{color:#a72e67;background:linear-gradient(145deg,rgba(255,111,174,.14),rgba(183,145,245,.15));border-color:rgba(167,46,103,.16)}
+html.light-mode body.page-links .fan-service-guide-icon-bubble{color:#6c43ad}
+@media(max-width:760px){body.page-links .fan-service-guide-head{align-items:flex-start;flex-direction:column;gap:8px}body.page-links .fan-service-guide-grid{grid-template-columns:1fr}body.page-links .fan-service-guide-card{padding:20px}}
