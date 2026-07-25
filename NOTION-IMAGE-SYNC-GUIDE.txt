@@ -31,3 +31,11 @@ RESCENE JAPAN FANBASE Notion画像同期ガイド
 - ニュースは「公開日」、ディスコグラフィは「発売日」など必須日付を確認する。
 - Actionsの該当同期を手動実行し、赤いエラーが出ていないか確認する。
 - Notionインテグレーションが対象データベースへ接続されているか確認する。
+
+【ニュース画像の再取得・キャッシュ対策】
+- ニュース同期は、一覧取得後に各ニュースページと「画像」プロパティを個別に再取得する。
+- JPG / JPEG / PNG / WebP / GIF / AVIFに対応する。
+- 保存ファイル名には画像内容のハッシュを付けるため、Notionで画像を差し替えるとURLも変わり、古いブラウザキャッシュが残らない。
+- 同期結果は data/notion-news-sync-status.json で確認できる。
+  imageStatus が notion-file ならNotion画像の保存に成功している。
+  imageFilename と imagePath で元ファイル名とサイト内保存先を確認できる。

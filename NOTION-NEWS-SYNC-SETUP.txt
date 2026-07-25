@@ -35,3 +35,9 @@ NOTION_TOKENは、スケジュール同期で登録した既存のSecretをそ�
 - Notion記事のタイトルが既存ニュースと同じ場合は、記事URLのslugを維持しながらNotion内容で更新します。
 - Notionの「画像」に画像がある場合は、手動ニュース画像や「画像パス」より必ず優先します。
 - 画像はNotionの期限付きURLを直接表示せず、GitHub内へ保存します。
+
+画像同期の確認
+- 同期ログに「Notion画像を保存: 記事名 / 画像 / 元ファイル名 -> assets/news/notion/...」と表示されます。
+- data/notion-news-sync-status.json の notionImages が、画像を設定した公開ニュース数と一致するか確認できます。
+- AVIF画像にも対応しています。
+- Notionで画像を差し替えた場合は保存URLも自動変更されるため、以前の画像キャッシュは使われません。

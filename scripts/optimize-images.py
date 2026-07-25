@@ -25,7 +25,7 @@ OUTPUT_DIR = ROOT / "assets" / "optimized"
 MANIFEST_PATH = ROOT / "data" / "image-manifest.json"
 REPORT_PATH = ROOT / "data" / "image-optimization.json"
 
-IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp"}
+IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".avif"}
 EXCLUDED_PARTS = {".git", "node_modules", "backup-work", "backup-output"}
 MISPLACED_ASSET_DIR_PATTERN = re.compile(r"^[0-9a-f]{16}$")
 TARGET_WIDTHS = (480, 768, 1440)

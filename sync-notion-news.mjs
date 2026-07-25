@@ -1,10 +1,14 @@
-import { mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
+import { access, mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import { extname, join } from "node:path";
 
 const token = process.env.NOTION_TOKEN;
 const dataSourceId = process.env.NOTION_NEWS_DATA_SOURCE_ID || "3a2229d2-19da-8034-a171-000b9f6bfff2";
 const notionVersion = "2026-03-11";
+const notionApiBase = (process.env.NOTION_API_BASE || "https://api.notion.com").replace(/\/$/, "");
 const imageDirectory = "assets/news/notion";
+const fallbackImage = "news/fanbase-site.jpg";
+const syncStatusPath = "data/notion-news-sync-status.json";
 
 if (!token) {
   throw new Error("NOTION_TOKEN が設定されていません。スケジュール連携で使っている同じSecretを利用できます。");
@@ -31,71 +35,9 @@ const defaultLabel = {
   "記念日": "ANNIVERSARY",
 };
 
-function notionFile(property) {
-  const first = property?.files?.[0];
-  if (!first) return null;
-  return {
-    url: first?.external?.url ?? first?.file?.url ?? "",
-    name: first?.name ?? "news",
-  };
-}
-
-function extensionFrom(name, contentType, url) {
-  const known = new Set([".jpg", ".jpeg", ".png", ".webp"]);
-  const fromName = extname(String(name || "").split("?")[0]).toLowerCase();
-  if (known.has(fromName)) return fromName === ".jpeg" ? ".jpg" : fromName;
-  try {
-    const fromUrl = extname(new URL(url).pathname).toLowerCase();
-    if (known.has(fromUrl)) return fromUrl === ".jpeg" ? ".jpg" : fromUrl;
-  } catch {}
-  if (/png/i.test(contentType || "")) return ".png";
-  if (/webp/i.test(contentType || "")) return ".webp";
-  return ".jpg";
-}
-
-async function readBytes(path) {
-  try { return await readFile(path); } catch { return null; }
-}
-
-async function fetchWithRetry(url, attempts = 3) {
-  let lastError;
-  for (let attempt = 1; attempt <= attempts; attempt += 1) {
-    try {
-      const response = await fetch(url, {
-        redirect: "follow",
-        headers: { "User-Agent": "Mozilla/5.0 (compatible; RESCENE-JAPAN-FANBASE/1.0)" },
-      });
-      if (response.ok) return response;
-      lastError = new Error(`HTTP ${response.status}`);
-    } catch (error) {
-      lastError = error;
-    }
-    if (attempt < attempts) await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
-  }
-  throw lastError;
-}
-
-async function saveImage(file, slug) {
-  if (!file?.url || !/^https?:\/\//i.test(file.url)) return "";
-  let response;
-  try {
-    response = await fetchWithRetry(file.url);
-  } catch (error) {
-    throw new Error(`ニュース画像取得失敗: ${error?.message || error} / ${file.url}`);
-  }
-  const bytes = Buffer.from(await response.arrayBuffer());
-  if (!bytes.length) throw new Error(`ニュース画像が空です: ${file.url}`);
-  const extension = extensionFrom(file.name, response.headers.get("content-type"), file.url);
-  await mkdir(imageDirectory, { recursive: true });
-  const path = join(imageDirectory, `${slug}${extension}`);
-  const previous = await readBytes(path);
-  if (!previous || !previous.equals(bytes)) await writeFile(path, bytes);
-  for (const otherExtension of [".jpg", ".png", ".webp"]) {
-    const other = join(imageDirectory, `${slug}${otherExtension}`);
-    if (other !== path) await unlink(other).catch(() => {});
-  }
-  return path.replaceAll("\\", "/");
-}
+const preferredImageProperties = ["画像", "ニュース画像", "サムネイル", "アイキャッチ"];
+const supportedExtensions = new Set([".jpg", ".jpeg", ".png", ".webp", ".gif", ".avif"]);
+const removableExtensions = [".jpg", ".png", ".webp", ".gif", ".avif"];
 
 function stableSlug(title, pageId) {
   const ascii = title
@@ -106,6 +48,218 @@ function stableSlug(title, pageId) {
     .slice(0, 48);
   const suffix = String(pageId ?? "").replaceAll("-", "").slice(-10);
   return `${ascii || "notion-news"}-${suffix}`;
+}
+
+function normalizeLocalPath(value) {
+  return String(value || "").trim().replace(/^\/+/, "").replaceAll("\\", "/");
+}
+
+async function fileExists(path) {
+  try {
+    await access(path);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function readJson(path, fallback) {
+  try {
+    return JSON.parse(await readFile(path, "utf8"));
+  } catch {
+    return fallback;
+  }
+}
+
+async function notionRequest(path, options = {}) {
+  const response = await fetch(`${notionApiBase}${path}`, {
+    ...options,
+    headers: {
+      Authorization: `Bearer ${token}`,
+      "Notion-Version": notionVersion,
+      ...(options.body ? { "Content-Type": "application/json" } : {}),
+      ...(options.headers || {}),
+    },
+  });
+
+  if (!response.ok) {
+    const detail = await response.text();
+    throw new Error(`Notion API ${response.status} (${path}): ${detail}`);
+  }
+  return response.json();
+}
+
+function fileObjects(value) {
+  if (Array.isArray(value?.files)) return value.files;
+  if (value?.type === "files" && Array.isArray(value[value.type])) return value[value.type];
+  return [];
+}
+
+function notionFiles(property) {
+  return fileObjects(property)
+    .map((file, index) => ({
+      url: file?.external?.url ?? file?.file?.url ?? "",
+      name: file?.name ?? `image-${index + 1}`,
+      expiryTime: file?.file?.expiry_time ?? "",
+      type: file?.type ?? (file?.file ? "file" : file?.external ? "external" : "unknown"),
+    }))
+    .filter((file) => /^https?:\/\//i.test(file.url));
+}
+
+function coverFile(page) {
+  const cover = page?.cover;
+  const url = cover?.external?.url ?? cover?.file?.url ?? "";
+  if (!/^https?:\/\//i.test(url)) return null;
+  return {
+    url,
+    name: `cover-${String(page?.id || "news")}.jpg`,
+    expiryTime: cover?.file?.expiry_time ?? "",
+    type: cover?.type ?? "cover",
+  };
+}
+
+function imagePropertyCandidates(properties = {}) {
+  const seen = new Set();
+  const candidates = [];
+
+  for (const name of preferredImageProperties) {
+    if (properties[name] && !seen.has(name)) {
+      candidates.push([name, properties[name]]);
+      seen.add(name);
+    }
+  }
+
+  for (const [name, property] of Object.entries(properties)) {
+    if (seen.has(name)) continue;
+    if (!/(画像|写真|サムネイル|アイキャッチ|image|photo)/i.test(name)) continue;
+    candidates.push([name, property]);
+    seen.add(name);
+  }
+  return candidates;
+}
+
+async function retrievePage(pageId) {
+  return notionRequest(`/v1/pages/${encodeURIComponent(pageId)}`);
+}
+
+async function retrievePropertyItem(pageId, propertyId) {
+  if (!propertyId) return null;
+  return notionRequest(`/v1/pages/${encodeURIComponent(pageId)}/properties/${encodeURIComponent(propertyId)}`);
+}
+
+async function findImageUpload(page) {
+  const properties = page?.properties ?? {};
+
+  for (const [name, property] of imagePropertyCandidates(properties)) {
+    let files = notionFiles(property);
+
+    // Data source query responses can omit or lag file values. Re-read the exact
+    // property item before deciding that the image column is empty.
+    if (!files.length && property?.id && (property?.type === "files" || "files" in property)) {
+      try {
+        const propertyItem = await retrievePropertyItem(page.id, property.id);
+        files = notionFiles(propertyItem);
+      } catch (error) {
+        console.warn(`画像プロパティの再取得に失敗: ${page.id} / ${name} / ${error.message}`);
+      }
+    }
+
+    if (files[0]) return { file: files[0], propertyName: name };
+  }
+
+  const cover = coverFile(page);
+  return cover ? { file: cover, propertyName: "ページカバー" } : null;
+}
+
+function extensionFrom(name, contentType, url) {
+  const fromName = extname(String(name || "").split("?")[0]).toLowerCase();
+  if (supportedExtensions.has(fromName)) return fromName === ".jpeg" ? ".jpg" : fromName;
+
+  try {
+    const fromUrl = extname(new URL(url).pathname).toLowerCase();
+    if (supportedExtensions.has(fromUrl)) return fromUrl === ".jpeg" ? ".jpg" : fromUrl;
+  } catch {}
+
+  if (/avif/i.test(contentType || "")) return ".avif";
+  if (/png/i.test(contentType || "")) return ".png";
+  if (/webp/i.test(contentType || "")) return ".webp";
+  if (/gif/i.test(contentType || "")) return ".gif";
+  return ".jpg";
+}
+
+function looksLikeHtml(bytes) {
+  const head = bytes.subarray(0, 200).toString("utf8").trimStart().toLowerCase();
+  return head.startsWith("<!doctype html") || head.startsWith("<html") || head.includes("<title>access denied");
+}
+
+async function fetchImage(file, title) {
+  let lastError;
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const response = await fetch(file.url, {
+        redirect: "follow",
+        cache: "no-store",
+        headers: {
+          Accept: "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+          "User-Agent": "Mozilla/5.0 (compatible; RESCENE-JAPAN-FANBASE/1.0)",
+        },
+      });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const contentType = response.headers.get("content-type") || "";
+      if (contentType && !/^image\//i.test(contentType) && !/octet-stream/i.test(contentType)) {
+        throw new Error(`画像ではないContent-Typeです: ${contentType}`);
+      }
+
+      const bytes = Buffer.from(await response.arrayBuffer());
+      if (bytes.length < 32) throw new Error(`画像データが小さすぎます: ${bytes.length} bytes`);
+      if (looksLikeHtml(bytes)) throw new Error("画像URLからHTMLが返されました（署名URL切れまたは権限不足）");
+      return { bytes, contentType };
+    } catch (error) {
+      lastError = error;
+      if (attempt < 3) await new Promise((resolve) => setTimeout(resolve, attempt * 1200));
+    }
+  }
+  throw new Error(`Notionニュース画像の取得に失敗しました: ${title} / ${lastError?.message || lastError}`);
+}
+
+async function saveImage(file, basename, title) {
+  const { bytes, contentType } = await fetchImage(file, title);
+  const extension = extensionFrom(file.name, contentType, file.url);
+  const digest = createHash("sha256").update(bytes).digest("hex").slice(0, 12);
+  await mkdir(imageDirectory, { recursive: true });
+
+  const path = join(imageDirectory, `${basename}-${digest}${extension}`).replaceAll("\\", "/");
+  const previous = await readFile(path).catch(() => null);
+  if (!previous || !previous.equals(bytes)) await writeFile(path, bytes);
+
+  for (const name of await readdir(imageDirectory).catch(() => [])) {
+    if (!name.startsWith(`${basename}-`)) continue;
+    if (!removableExtensions.some((candidate) => name.toLowerCase().endsWith(candidate))) continue;
+    const otherPath = join(imageDirectory, name).replaceAll("\\", "/");
+    if (otherPath !== path) await unlink(otherPath).catch(() => {});
+  }
+  return { path, bytes: bytes.length, contentType, extension, digest };
+}
+
+async function resolveImagePath(value, title) {
+  const raw = String(value || "").trim();
+  if (!raw) return "";
+  if (/^https?:\/\//i.test(raw)) return raw;
+
+  const normalized = normalizeLocalPath(raw);
+  if (await fileExists(normalized)) return normalized;
+  console.warn(`画像パスを無視します（ファイルなし）: ${title} / ${raw}`);
+  return "";
+}
+
+async function cleanupImageDirectory(usedPaths) {
+  await mkdir(imageDirectory, { recursive: true });
+  for (const name of await readdir(imageDirectory).catch(() => [])) {
+    if (name === ".gitkeep") continue;
+    const path = join(imageDirectory, name).replaceAll("\\", "/");
+    if (!usedPaths.has(path)) await unlink(path).catch(() => {});
+  }
 }
 
 async function queryAllPages() {
@@ -129,22 +283,11 @@ async function queryAllPages() {
 
     if (startCursor) body.start_cursor = startCursor;
 
-    const response = await fetch(`https://api.notion.com/v1/data_sources/${dataSourceId}/query`, {
+    const data = await notionRequest(`/v1/data_sources/${dataSourceId}/query`, {
       method: "POST",
-      headers: {
-        Authorization: `Bearer ${token}`,
-        "Notion-Version": notionVersion,
-        "Content-Type": "application/json",
-      },
       body: JSON.stringify(body),
     });
 
-    if (!response.ok) {
-      const detail = await response.text();
-      throw new Error(`Notion API ${response.status}: ${detail}`);
-    }
-
-    const data = await response.json();
     results.push(...data.results.filter((item) => item.object === "page"));
     startCursor = data.has_more ? data.next_cursor : undefined;
   } while (startCursor);
@@ -152,32 +295,63 @@ async function queryAllPages() {
   return results;
 }
 
-async function convertPage(page) {
+async function convertPage(queryPage, usedImages, statusRows) {
+  // Always re-fetch the page immediately before reading the file property. Notion
+  // file URLs are temporary, and this also avoids using a stale query response.
+  let page = queryPage;
+  try {
+    page = await retrievePage(queryPage.id);
+  } catch (error) {
+    console.warn(`ページの再取得に失敗したためクエリ結果を使用: ${queryPage.id} / ${error.message}`);
+  }
+
   const properties = page.properties ?? {};
   const title = plainText(properties["タイトル"]?.title);
   const published = properties["公開日"]?.date?.start;
   if (!title || !published) return null;
 
+  const slug = stableSlug(title, page.id);
   const categoryName = properties["カテゴリー"]?.select?.name ?? "お知らせ";
   const summary = plainText(properties["概要"]?.rich_text) || plainText(properties["本文"]?.rich_text);
   const body = plainText(properties["本文"]?.rich_text) || summary;
-  const imagePathRaw = plainText(properties["画像パス"]?.rich_text);
-  const imagePath = imagePathRaw.replace(/^\/+/, "");
-  const uploadedImage = notionFile(properties["画像"]);
-  const slug = stableSlug(title, page.id);
+  const sourceLink = properties["外部リンク"]?.url ?? "";
 
   let image = "";
-  if (uploadedImage?.url) {
-    image = await saveImage(uploadedImage, slug);
-  } else if (imagePath) {
-    const localImage = await readBytes(imagePath);
-    if (localImage) {
-      image = imagePath;
-    } else {
-      console.warn(`画像パスが存在しないため無視します: ${title} / ${imagePathRaw}`);
-    }
+  let imageStatus = "fallback";
+  let imageProperty = "";
+  let imageFilename = "";
+  let imageBytes = 0;
+  let imageContentType = "";
+
+  const upload = await findImageUpload(page);
+  if (upload) {
+    const basename = `notion-${String(page.id || slug).replace(/[^a-z0-9]/gi, "").toLowerCase()}`;
+    const saved = await saveImage(upload.file, basename, title);
+    image = saved.path;
+    usedImages.add(image);
+    imageStatus = "notion-file";
+    imageProperty = upload.propertyName;
+    imageFilename = upload.file.name;
+    imageBytes = saved.bytes;
+    imageContentType = saved.contentType;
+    console.log(`Notion画像を保存: ${title} / ${upload.propertyName} / ${upload.file.name} -> ${image} (${saved.bytes} bytes)`);
+  } else {
+    image = await resolveImagePath(plainText(properties["画像パス"]?.rich_text), title);
+    if (image) imageStatus = "local-path";
+    console.warn(`Notion画像なし: ${title} / 画像パス=${plainText(properties["画像パス"]?.rich_text) || "(空欄)"}`);
   }
-  const sourceLink = properties["外部リンク"]?.url ?? "";
+
+  statusRows.push({
+    title,
+    pageId: page.id,
+    lastEditedTime: page.last_edited_time || "",
+    imageStatus,
+    imageProperty,
+    imageFilename,
+    imagePath: image || fallbackImage,
+    imageBytes,
+    imageContentType,
+  });
 
   return {
     slug,
@@ -190,7 +364,7 @@ async function convertPage(page) {
     title,
     text: summary || body || "詳細は記事ページをご確認ください。",
     body: body || summary || "",
-    image: image || "news/fanbase-site.jpg",
+    image,
     sourceLink,
     sourceLabel: plainText(properties["リンク名"]?.rich_text) || (sourceLink ? "関連リンクを見る" : ""),
     notionPageId: page.id,
@@ -198,94 +372,85 @@ async function convertPage(page) {
   };
 }
 
-async function readJson(path, fallback) {
-  try {
-    return JSON.parse(await readFile(path, "utf8"));
-  } catch {
-    return fallback;
-  }
-}
-
-async function imagePathExists(image) {
-  const normalized = String(image || "").trim().replace(/^\/+/, "");
-  if (!normalized || /^https?:\/\//i.test(normalized)) return false;
-  return Boolean(await readBytes(normalized));
-}
-
-async function sanitizeManualNews(manualNews) {
-  const sanitized = [];
-  for (const item of manualNews) {
-    const currentImage = String(item?.image || "").trim().replace(/^\/+/, "");
-    sanitized.push({
-      ...item,
-      image: (await imagePathExists(currentImage)) ? currentImage : "news/fanbase-site.jpg",
-    });
-    if (currentImage && !(await imagePathExists(currentImage))) {
-      console.warn(`手動ニュースの画像が存在しないため標準画像へ切り替えます: ${item?.title || "無題"} / ${item?.image}`);
-    }
-  }
-  return sanitized;
-}
-
-async function mergeNews(manualNews, notionNews) {
-  const merged = await sanitizeManualNews(manualNews);
+function mergeNews(manualNews, notionNews) {
+  const merged = manualNews.map((item) => ({ ...item }));
 
   for (const notionItem of notionNews) {
-    const index = merged.findIndex((item) => item.title.trim() === notionItem.title.trim());
+    const index = merged.findIndex((item) =>
+      (item.notionPageId && notionItem.notionPageId && item.notionPageId === notionItem.notionPageId)
+      || String(item.title || "").trim() === String(notionItem.title || "").trim());
+
     if (index >= 0) {
       const current = merged[index];
       merged[index] = {
         ...current,
         ...notionItem,
         slug: current.slug || notionItem.slug,
-        image: notionItem.image === "news/fanbase-site.jpg" ? ((await imagePathExists(current.image)) ? current.image : notionItem.image) : notionItem.image,
+        image: notionItem.image || current.image || fallbackImage,
         sourceLink: notionItem.sourceLink || current.sourceLink || "",
         sourceLabel: notionItem.sourceLabel || current.sourceLabel || "",
       };
     } else {
-      merged.push(notionItem);
+      merged.push({ ...notionItem, image: notionItem.image || fallbackImage });
     }
   }
 
   return merged
-    .map(({ sortDate, order, ...item }) => ({ ...item, _sortDate: sortDate || String(item.date || "").replaceAll(".", "-"), _order: order ?? 9999 }))
+    .map(({ sortDate, order, ...item }) => ({
+      ...item,
+      image: item.image || fallbackImage,
+      _sortDate: sortDate || String(item.date || "").replaceAll(".", "-"),
+      _order: order ?? 9999,
+    }))
     .sort((a, b) => b._sortDate.localeCompare(a._sortDate) || a._order - b._order || a.title.localeCompare(b.title, "ja"))
     .map(({ _sortDate, _order, ...item }) => item);
 }
 
-const pages = await queryAllPages();
+const queryPages = await queryAllPages();
+const usedImages = new Set();
+const statusRows = [];
 const notionNews = [];
-for (const page of pages) {
-  const item = await convertPage(page);
+for (const page of queryPages) {
+  const item = await convertPage(page, usedImages, statusRows);
   if (item) notionNews.push(item);
 }
+await cleanupImageDirectory(usedImages);
 
-await mkdir(imageDirectory, { recursive: true });
-const usedImages = new Set(notionNews.map((item) => item.image).filter((image) => String(image).startsWith(`${imageDirectory}/`)));
-for (const name of await readdir(imageDirectory).catch(() => [])) {
-  if (name === ".gitkeep") continue;
-  const path = join(imageDirectory, name).replaceAll("\\", "/");
-  if (!usedImages.has(path)) await unlink(path).catch(() => {});
-}
 const manualNews = await readJson("data/news-manual.json", []);
-const news = await mergeNews(Array.isArray(manualNews) ? manualNews : [], notionNews);
+const news = mergeNews(Array.isArray(manualNews) ? manualNews : [], notionNews);
 
 const existingPayload = await readJson("data/news.json", { news: [] });
-if (JSON.stringify(existingPayload.news ?? []) === JSON.stringify(news)) {
-  console.log(`変更なし（Notion公開ニュース ${notionNews.length}件 / 全体 ${news.length}件）`);
-  process.exit(0);
-}
-
-await mkdir("data", { recursive: true });
+const payloadChanged = JSON.stringify(existingPayload.news ?? []) !== JSON.stringify(news);
+const generatedAt = payloadChanged ? new Date().toISOString() : (existingPayload.generatedAt || new Date().toISOString());
 const payload = {
-  generatedAt: new Date().toISOString(),
+  generatedAt,
   source: "manual+notion",
   dataSourceId,
   notionCount: notionNews.length,
   news,
 };
 
-await writeFile("data/news.json", `${JSON.stringify(payload, null, 2)}\n`, "utf8");
-await writeFile("data/news-data.js", `window.RESCENE_NEWS = ${JSON.stringify(news, null, 2)};\n`, "utf8");
+const statusPayload = {
+  generatedAt,
+  dataSourceId,
+  queriedPages: queryPages.length,
+  notionNews: notionNews.length,
+  notionImages: statusRows.filter((item) => item.imageStatus === "notion-file").length,
+  rows: statusRows,
+};
 
-console.log(`${notionNews.length}件のNotion公開ニュースを同期しました（全体 ${news.length}件）。`);
+await mkdir("data", { recursive: true });
+const jsonText = `${JSON.stringify(payload, null, 2)}\n`;
+const jsText = `window.RESCENE_NEWS = ${JSON.stringify(news, null, 2)};\n`;
+const statusText = `${JSON.stringify(statusPayload, null, 2)}\n`;
+if ((await readFile("data/news.json", "utf8").catch(() => "")) !== jsonText) {
+  await writeFile("data/news.json", jsonText, "utf8");
+}
+if ((await readFile("data/news-data.js", "utf8").catch(() => "")) !== jsText) {
+  await writeFile("data/news-data.js", jsText, "utf8");
+}
+if ((await readFile(syncStatusPath, "utf8").catch(() => "")) !== statusText) {
+  await writeFile(syncStatusPath, statusText, "utf8");
+}
+
+console.log(`${notionNews.length}件のNotion公開ニュースを同期しました（Notion画像 ${statusPayload.notionImages}件 / 全体 ${news.length}件 / データ変更: ${payloadChanged ? "あり" : "なし"}）。`);
