@@ -1,11 +1,11 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-07-25T07:57:57.606179+00:00",
+  "generatedAt": "2026-07-25T13:13:07.790691+00:00",
   "items": [
     {
       "date": "2026-07-25",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "c6cb64d",
+      "commit": "f9571e2",
       "files": [
         "data/external-link-report.json"
       ]
@@ -14,11 +14,9 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-07-25",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "a68a162",
+      "commit": "144fe8a",
       "files": [
-        ".github/workflows/sync-all-content.yml",
-        ".github/workflows/sync-notion-news.yml",
-        ".github/workflows/sync-youtube-channels.yml"
+        "scripts/check-site-links.py"
       ]
     },
     {
@@ -67,25 +65,6 @@ window.RESCENE_SITE_UPDATES = {
         "FAVORITES",
         "SHARE",
         "ANALYTICS"
-      ]
-    },
-    {
-      "date": "2026-07-22",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "2c8ea2f",
-      "files": [
-        "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-07-22",
-      "title": "Add files via upload",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "c1cf3a4",
-      "files": [
-        "SCHEDULE-CATEGORY-TEXT-REMOVE-20260722.txt",
-        "schedule.html"
       ]
     },
     {

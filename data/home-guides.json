@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T23:59:16.158Z",
+  "generatedAt": "2026-07-25T13:13:07.839Z",
   "source": "git-history",
   "guides": [
     {
@@ -8,17 +8,8 @@
       "summary": "楽曲ごとの掛け声をサムネイルからすぐに開けます。",
       "url": "chants.html",
       "category": "FANCHANT",
-      "updatedAt": "2026-07-21T23:49:45Z",
-      "commit": "f5e5aed"
-    },
-    {
-      "key": "mv",
-      "title": "MV一覧",
-      "summary": "RESCENEのミュージックビデオを作品別に確認できます。",
-      "url": "mv.html",
-      "category": "MUSIC VIDEO",
-      "updatedAt": "2026-07-21T23:49:45Z",
-      "commit": "f5e5aed"
+      "updatedAt": "2026-07-25T21:34:43+09:00",
+      "commit": "a8760fa"
     },
     {
       "key": "youtube",
@@ -26,8 +17,17 @@
       "summary": "公式・ウォニチャンネルの動画、ショート、ライブを横断して確認できます。",
       "url": "youtube.html",
       "category": "YOUTUBE",
-      "updatedAt": "2026-07-22T06:03:51+09:00",
-      "commit": "13a29cf"
+      "updatedAt": "2026-07-25T21:34:43+09:00",
+      "commit": "a8760fa"
+    },
+    {
+      "key": "mv",
+      "title": "MV一覧",
+      "summary": "RESCENEのミュージックビデオを作品別に確認できます。",
+      "url": "mv.html",
+      "category": "MUSIC VIDEO",
+      "updatedAt": "2026-07-25T21:34:43+09:00",
+      "commit": "a8760fa"
     },
     {
       "key": "streaming",
