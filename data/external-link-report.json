@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-25T07:56:41Z",
-  "startedAt": "2026-07-25T07:56:37Z",
-  "elapsedSeconds": 4.33,
+  "generatedAt": "2026-07-25T08:40:31Z",
+  "startedAt": "2026-07-25T08:40:26Z",
+  "elapsedSeconds": 5.44,
   "summary": {
     "checked": 66,
     "ok": 64,
@@ -486,7 +486,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 28,
+          "line": 43,
           "label": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命"
         }
       ]
@@ -865,7 +865,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 104,
+          "line": 119,
           "label": "京畿道 高陽市 広報大使に任命"
         },
         {
@@ -898,7 +898,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 115,
+          "line": 130,
           "label": "慶尚北道 慶州市 広報大使に任命"
         },
         {
@@ -931,7 +931,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 126,
+          "line": 141,
           "label": "京畿道 水原市 広報大使に任命"
         },
         {
@@ -964,7 +964,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 137,
+          "line": 152,
           "label": "慶尚南道 巨済市 広報大使に任命"
         },
         {
@@ -1041,7 +1041,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784966200215&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1784968830544&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1097,7 +1097,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 71,
+          "line": 86,
           "label": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得"
         },
         {
@@ -1181,7 +1181,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 170,
+          "line": 185,
           "label": "デビュー2周年広告プロジェクト"
         },
         {
@@ -1435,7 +1435,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 159,
+          "line": 174,
           "label": "RESCENE Debut 2nd Anniversary"
         },
         {
@@ -1542,7 +1542,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 82,
+          "line": 97,
           "label": "RESCENEがMelon TOP100で初の1位を記録"
         },
         {
@@ -1569,14 +1569,24 @@
           "label": "THE K-POP公式動画を見る ↗"
         },
         {
+          "file": "articles/rescene-pretty-girl-1-0196b13404.html",
+          "line": 83,
+          "label": "THE K-POP公式動画を見る ↗"
+        },
+        {
           "file": "data/news-manual.json",
           "line": 10,
           "label": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得"
         },
         {
           "file": "data/news.json",
-          "line": 56,
-          "label": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得"
+          "line": 28,
+          "label": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得"
+        },
+        {
+          "file": "music-show-wins.html",
+          "line": 88,
+          "label": "THE K-POP公式動画を見る ↗"
         },
         {
           "file": "pretty-girl-first-music-show-win.html",
@@ -1603,7 +1613,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 43,
+          "line": 58,
           "label": "RESCENEが第7回 島の日の広報大使に任命"
         }
       ]
