@@ -63,7 +63,7 @@ jobs:
             bash scripts/run-prepublish-checks.sh
 
             git add -A -- \
-              data/news.json data/news-data.js data/news-extras.json data/news-extras-data.js \
+              data/news.json data/news-data.js data/news-extras.json data/news-extras-data.js data/notion-news-sync-status.json \
               assets/news/notion assets/ogp/news articles \
               '*.html' templates js/home.js js/news.js js/search.js js/home-latest.js \
               data/seo-status.json sitemap.xml robots.txt service-worker.js manifest.webmanifest assets/icons
