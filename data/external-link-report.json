@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-25T23:47:12Z",
-  "startedAt": "2026-07-25T23:47:08Z",
-  "elapsedSeconds": 3.78,
+  "generatedAt": "2026-07-26T03:21:13Z",
+  "startedAt": "2026-07-26T03:21:08Z",
+  "elapsedSeconds": 5.05,
   "summary": {
-    "checked": 78,
-    "ok": 77,
+    "checked": 70,
+    "ok": 69,
     "warning": 1,
     "broken": 0,
     "hosts": 18
@@ -46,8 +46,8 @@
     {
       "key": "github",
       "label": "GitHub",
-      "checked": 8,
-      "ok": 8,
+      "checked": 9,
+      "ok": 9,
       "warning": 0,
       "broken": 0
     },
@@ -70,8 +70,8 @@
     {
       "key": "mnetplus",
       "label": "Mnet Plus",
-      "checked": 3,
-      "ok": 3,
+      "checked": 2,
+      "ok": 2,
       "warning": 0,
       "broken": 0
     },
@@ -118,8 +118,8 @@
     {
       "key": "youtube",
       "label": "YouTube",
-      "checked": 14,
-      "ok": 14,
+      "checked": 6,
+      "ok": 6,
       "warning": 0,
       "broken": 0
     }
@@ -613,6 +613,24 @@
       ]
     },
     {
+      "url": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-schedule.yml",
+      "normalizedUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-schedule.yml",
+      "finalUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-schedule.yml",
+      "service": "GitHub",
+      "serviceKey": "github",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "sync-status.html",
+          "line": 127,
+          "label": "スケジュール同期 NotionとPlus Chatの予定を取得・統合して公開 ↗"
+        }
+      ]
+    },
+    {
       "url": "https://play.google.com/store/apps/details?id=com.contentsmadang.fancast",
       "normalizedUrl": "https://play.google.com/store/apps/details?id=com.contentsmadang.fancast",
       "finalUrl": "https://play.google.com/store/apps/details?id=com.contentsmadang.fancast",
@@ -861,24 +879,6 @@
       ]
     },
     {
-      "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08",
-      "normalizedUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08",
-      "finalUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08",
-      "service": "Mnet Plus",
-      "serviceKey": "mnetplus",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/schedule.json",
-          "line": 953,
-          "label": "「2026 쿠팡플레이 시리즈」 하프타임 쇼"
-        }
-      ]
-    },
-    {
       "url": "https://m.entertain.naver.com/home/article/079/0004164566",
       "normalizedUrl": "https://m.entertain.naver.com/home/article/079/0004164566",
       "finalUrl": "https://m.entertain.naver.com/home/article/079/0004164566",
@@ -1077,7 +1077,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1785023231616&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1785036071739&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1105,7 +1105,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 1037,
+          "line": 961,
           "label": "2026 THE FACT MUSIC AWARDS(TMA)"
         }
       ]
@@ -1156,7 +1156,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 969,
+          "line": 931,
           "label": "KCON LA 2026"
         }
       ]
@@ -1523,7 +1523,7 @@
         {
           "file": "music-show-wins.html",
           "line": 98,
-          "label": "1位獲得時の映像を見る ↗"
+          "label": "メンバーのリアクションを見る ↗"
         }
       ]
     },
@@ -1617,24 +1617,6 @@
       ]
     },
     {
-      "url": "https://www.youtube.com/watch?v=9XttLI0oH0I",
-      "normalizedUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
-      "finalUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘LOVE ATTACK’ Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 96,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
       "url": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
       "normalizedUrl": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
       "finalUrl": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
@@ -1662,7 +1644,7 @@
         },
         {
           "file": "music-show-wins.html",
-          "line": 108,
+          "line": 105,
           "label": "1位獲得時の映像を見る ↗"
         },
         {
@@ -1685,25 +1667,7 @@
       "sources": [
         {
           "file": "melon-records.html",
-          "line": 147,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/B8JJ8RNM-60?si=5JXK-pjGyxuXXK08",
-      "normalizedUrl": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
-      "finalUrl": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘Pinball’ Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 103,
+          "line": 96,
           "label": "MVを見る ↗"
         }
       ]
@@ -1728,114 +1692,6 @@
           "file": "data/news.json",
           "line": 58,
           "label": "RESCENEが第7回 島の日の広報大使に任命"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/ByX8EZq8500?si=TDcAtQYY7ZHk94UI",
-      "normalizedUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
-      "finalUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Heart Drop' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 121,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/ewubELWBMaE?si=pnQm7GBm9MktYtsb",
-      "normalizedUrl": "https://www.youtube.com/watch?v=ewubELWBMaE",
-      "finalUrl": "https://www.youtube.com/watch?v=ewubELWBMaE",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE 'Busy Boy' Performance Video。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 134,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/h0xUtrb_JBc?si=UNDBzfK-ob-LTFPU",
-      "normalizedUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
-      "finalUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘Glow Up’ Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 109,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/MC6-82GRK5I?si=hN8SOErv9uwCwCW1",
-      "normalizedUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
-      "finalUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Bloom' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 128,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/rsZwrTNklos?si=hqlNsjBUYMLEhJIz",
-      "normalizedUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
-      "finalUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Runaway' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 140,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
-      "normalizedUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
-      "finalUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Deja Vu' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 115,
-          "label": "MVを見る ↗"
         }
       ]
     }
