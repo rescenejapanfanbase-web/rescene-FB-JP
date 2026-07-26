@@ -73,7 +73,7 @@ const winList = wins.length ? `<div class="wins-list">${[...wins].reverse().map(
     <div class="record-win-image"><img src="${esc(image)}" alt="${esc(item.song || item.title)}が${esc(item.program || "音楽番組")}で1位を獲得した際の画像" loading="lazy"></div>
     <div class="record-win-copy"><div class="record-win-meta"><span class="wins-number">${String(wins.length - index).padStart(2, "0")}</span><time datetime="${esc(item.date)}">${esc(dateJa(item.date))}</time><span class="badge">${esc(item.program || "MUSIC SHOW")}</span></div>
     <h2>${esc(item.song || item.title)}</h2><p>${esc(item.description || "音楽番組で1位を獲得しました。")}</p>
-    <div class="win-detail-grid"><div class="win-detail"><small>PROGRAM</small><strong>${esc(item.program || "未入力")}</strong></div><div class="win-detail"><small>DATE</small><strong>${esc(dateJa(item.date))}</strong></div><div class="win-detail win-detail-score"><small>SCORE</small><strong>${esc(item.score || "-")}</strong></div><div class="win-detail"><small>SONG</small><strong>${esc(item.song || "未入力")}</strong></div></div>
+    <div class="win-detail-grid"><div class="win-detail"><small>PROGRAM</small><strong>${esc(item.program || "未入力")}</strong></div><div class="win-detail"><small>DATE</small><strong>${esc(dateJa(item.date))}</strong></div><div class="win-detail"><small>SONG</small><strong>${esc(item.song || "未入力")}</strong></div></div>
     ${video ? `<div class="win-actions"><a class="btn btn-primary" href="${esc(video)}" target="_blank" rel="noopener noreferrer">${esc(item.videoLabel || "映像を見る")} ↗</a></div>` : ""}</div>
   </article>`;
 }).join("\n")}</div>` : '<div class="card record-empty">公開中の音楽番組1位記録はまだありません。</div>';
@@ -92,12 +92,18 @@ const melonList = melon.length ? `<div class="melon-record-list">${melon.map((it
     <div class="melon-record-index">${String(index + 1).padStart(2, "0")}</div>
     <div class="melon-record-art"><img src="${esc(image)}" alt="${esc(item.song || item.title)}" loading="lazy"></div>
     <div class="melon-record-copy"><small>RELEASE ${esc(dateJa(item.releaseDate))}</small><h2>${esc(item.song || item.title)}</h2><p>${esc(item.description || "Melonチャート記録")}</p>${mv ? `<a class="record-inline-link" href="${esc(mv)}" target="_blank" rel="noopener noreferrer">MVを見る ↗</a>` : '<span class="record-link-pending">MVなし／未登録</span>'}</div>
-    <dl class="melon-rank-grid"><div><dt>TOP100最高順位</dt><dd>${esc(rank(item.top100Peak))}</dd></div><div><dt>日間最高順位</dt><dd>${esc(rank(item.dailyPeak))}</dd></div></dl>
+    <dl class="melon-rank-grid"><div><dt>TOP100最高順位</dt><dd>${esc(rank(item.top100Peak))}</dd>${item.top100PeakDate ? `<small class="melon-rank-date"><span>獲得日</span><time datetime="${esc(item.top100PeakDate)}">${esc(dateJa(item.top100PeakDate))}</time></small>` : ""}</div><div><dt>日間最高順位</dt><dd>${esc(rank(item.dailyPeak))}</dd>${item.dailyPeakDate ? `<small class="melon-rank-date"><span>獲得日</span><time datetime="${esc(item.dailyPeakDate)}">${esc(dateJa(item.dailyPeakDate))}</time></small>` : ""}</div></dl>
   </article>`;
 }).join("\n")}</div>` : '<div class="card record-empty">公開中のMelonチャート記録はまだありません。</div>';
 
 await replaceBlock("records.html", "RECORDS-OVERVIEW", landingOverview);
 await replaceBlock("records.html", "RECORDS-MILESTONES", milestones);
+{
+  const recordsPath = "records.html";
+  const source = await readFile(recordsPath, "utf8");
+  const next = source.replace("番組、獲得日、スコア、獲得時の映像を一覧で確認できます。", "番組、獲得日、楽曲、獲得時の映像を一覧で確認できます。");
+  if (next !== source) await writeFile(recordsPath, next, "utf8");
+}
 await replaceBlock("music-show-wins.html", "MUSIC-WINS-OVERVIEW", winOverview);
 await replaceBlock("music-show-wins.html", "MUSIC-WINS-LIST", winList);
 await replaceBlock("melon-records.html", "MELON-RECORDS-OVERVIEW", melonOverview);

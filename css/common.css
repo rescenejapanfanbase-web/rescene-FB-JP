@@ -2044,13 +2044,6 @@ body.page-music-show-wins .win-detail-grid{gap:8px;margin:15px 0}
 body.page-music-show-wins .win-detail{padding:9px 10px;border-radius:11px}
 body.page-music-show-wins .win-detail small{font-size:.54rem}
 body.page-music-show-wins .win-detail strong{margin-top:3px;font-size:.76rem;line-height:1.35}
-body.page-music-show-wins .win-detail-score{
-  border:0;
-  background:transparent;
-  box-shadow:none;
-  padding-left:1px;
-  padding-right:1px;
-}
 body.page-music-show-wins .win-actions{margin-top:2px}
 body.page-music-show-wins .win-actions .btn{min-height:38px;padding:9px 14px;font-size:.7rem}
 
@@ -2072,6 +2065,8 @@ body.page-melon-records .melon-rank-grid{gap:7px}
 body.page-melon-records .melon-rank-grid>div{padding:9px 8px;border-radius:11px}
 body.page-melon-records .melon-rank-grid dt{font-size:.53rem}
 body.page-melon-records .melon-rank-grid dd{margin-top:4px;font-size:1.02rem}
+body.page-melon-records .melon-rank-date{display:flex;align-items:center;justify-content:center;gap:4px;margin-top:4px;color:var(--muted);font-size:.5rem;font-weight:700;line-height:1.35}
+body.page-melon-records .melon-rank-date time{font:inherit;color:inherit}
 
 @media(max-width:960px){
   body.page-melon-records .melon-record-card{grid-template-columns:42px 92px minmax(0,1fr);gap:12px}

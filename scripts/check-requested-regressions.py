@@ -106,13 +106,19 @@ for path, markers in specialized_image_markers.items():
 record_renderer = text("scripts/render-record-pages.mjs")
 require('item.videoLabel || "映像を見る"' in record_renderer, "映像リンク名がNotion値を使用していません")
 require('const rank = (value)' in record_renderer and ': "-";' in record_renderer, "未入力順位がハイフンになっていません")
-require("win-detail-score" in record_renderer, "スコア枠を個別調整できません")
+require("<small>SCORE</small>" not in record_renderer and "win-detail-score" not in record_renderer, "音楽番組1位記録にSCORE欄が残っています")
+require('score: plainText(p["スコア"]' not in text("scripts/sync-notion-records.mjs"), "公開用記録データにスコアが残っています")
+require("TOP100最高順位獲得日" in text("scripts/sync-notion-records.mjs"), "TOP100最高順位獲得日のNotion同期がありません")
+require("日間最高順位獲得日" in text("scripts/sync-notion-records.mjs"), "日間最高順位獲得日のNotion同期がありません")
+require("melon-rank-date" in record_renderer, "Melon最高順位の獲得日表示がありません")
+require("番組、獲得日、スコア、獲得時の映像" not in text("records.html"), "記録トップの説明にスコアが残っています")
 for path in ["music-show-wins.html", "melon-records.html"]:
     source = text(path)
     require("映像リンクはNotionから追加できます" not in source, f"{path}: 不要な映像リンク案内が残っています")
 require("<dd>未入力</dd>" not in text("melon-records.html"), "Melon順位に未入力表示が残っています")
 css = text("css/common.css")
-require(re.search(r"\.win-detail-score\s*\{[^}]*border\s*:\s*0", css, re.S) is not None, "スコア枠のborderが削除されていません")
+require("win-detail-score" not in css, "削除済みのスコア欄CSSが残っています")
+require(".melon-rank-date" in css, "Melon獲得日の小さな表示CSSがありません")
 require("body.page-melon-records .melon-record-card" in css, "Melon記録のコンパクト化CSSがありません")
 
 # Schedule UI and public data.

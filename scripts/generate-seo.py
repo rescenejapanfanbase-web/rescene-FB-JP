@@ -102,7 +102,7 @@ PAGE_META = {
     },
     "music-show-wins.html": {
         "title": f"音楽番組1位獲得記録 | {SITE_NAME}",
-        "description": "RESCENEの音楽番組1位獲得記録を、総獲得数・番組・日付・スコア・映像リンクとともに掲載しています。",
+        "description": "RESCENEの音楽番組1位獲得記録を、総獲得数・番組・日付・映像リンクとともに掲載しています。",
         "image": "news/the-show-first-win.jpeg",
         "label": "MUSIC SHOW WINS",
         "priority": "0.8",
@@ -578,6 +578,26 @@ def update_article_links() -> int:
     return changed
 
 
+def update_record_search_copy() -> None:
+    path = ROOT / "data/search-index.json"
+    if not path.exists():
+        return
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return
+    changed = False
+    rows = payload if isinstance(payload, list) else payload.get("items", []) if isinstance(payload, dict) else []
+    for row in rows:
+        if isinstance(row, dict) and row.get("url") == "music-show-wins.html":
+            summary = "RESCENEが音楽番組で獲得した1位を、楽曲、番組、日付、映像リンクとともに掲載しています。"
+            if row.get("summary") != summary:
+                row["summary"] = summary
+                changed = True
+    if changed:
+        path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def redirect_legacy_article() -> None:
     path = ROOT / "article.html"
     text = path.read_text(encoding="utf-8")
@@ -651,6 +671,7 @@ def main() -> None:
             old.unlink()
 
     update_article_links()
+    update_record_search_copy()
     redirect_legacy_article()
     sitemap_count = generate_sitemap(indexed_pages, articles)
 
