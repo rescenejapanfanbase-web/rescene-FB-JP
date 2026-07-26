@@ -1,5 +1,5 @@
 window.RESCENE_HOMEPAGE = {
-  "generatedAt": "2026-07-26T10:50:58.689Z",
+  "generatedAt": "2026-07-26T15:48:14.736Z",
   "source": "notion",
   "dataSourceId": "1a98fbc6-21d6-4a11-8ed9-19b228250182",
   "notionDatabaseUrl": "https://app.notion.com/p/23afd46c4c68443d89de65c74f605d68",
@@ -16,7 +16,7 @@ window.RESCENE_HOMEPAGE = {
     "blue": "#8ec9ff",
     "text": "#fff9fc",
     "muted": "#d4b7c8",
-    "lightBackground": "#f7feff",
+    "lightBackground": "#fff7fb",
     "lightCard": "#ffffff",
     "lightText": "#2f1a29"
   },
@@ -62,7 +62,7 @@ window.RESCENE_HOMEPAGE = {
       "secondaryLinkUrl": "schedule.html",
       "thirdButtonLabel": "応援方法を見る",
       "thirdLinkUrl": "streaming.html",
-      "image": "assets/group/rescene-group.jpg",
+      "image": "assets/home/notion/hero.jpg",
       "icon": "",
       "anchor": "hero",
       "order": 10,
