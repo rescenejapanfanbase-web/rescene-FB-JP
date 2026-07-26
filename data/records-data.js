@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-07-26T08:28:57.208Z",
+  "generatedAt": "2026-07-26T09:46:25.769Z",
   "source": "notion",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -35,7 +35,7 @@ window.RESCENE_RECORDS = {
       "song": "LOVE ATTACK",
       "date": "2026-07-26",
       "program": "人気歌謡",
-      "description": "Special Stageとして出演。自身のオリジナル楽曲として初の1位を獲得。公開から699日目。グループ通算3冠目。",
+      "description": "｢Deja Vu｣のSpecial Stageとして出演。自身のオリジナル楽曲として初の1位を獲得。公開から699日目。グループ通算3冠目。",
       "videoUrl": "",
       "videoLabel": "映像準備中",
       "image": "assets/records/notion/record-3a9229d219da808587c8cf131a8a06d4-4660df1e8486.jpg",

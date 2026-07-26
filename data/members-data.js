@@ -1,5 +1,5 @@
 window.RESCENE_MEMBERS = {
-  "generatedAt": "2026-07-25T15:09:45.630Z",
+  "generatedAt": "2026-07-26T09:46:27.868Z",
   "source": "notion",
   "dataSourceId": "659553c4-dfa8-4d81-98e1-c259df27bafe",
   "notionDatabaseUrl": "https://app.notion.com/p/5c70b299a510423c9c6d71dcf57968af",
@@ -100,7 +100,7 @@ window.RESCENE_MEMBERS = {
       "profile": "明るいエネルギーとウィスパーボイスが印象的なメンバー。",
       "colorName": "YELLOW",
       "colorCode": "#f4d04b",
-      "previewImage": "assets/members/may.jpg",
+      "previewImage": "assets/members/notion/may-preview.jpg",
       "detailImage": "assets/members/may.jpg",
       "desktopImage": "",
       "anchor": "may-profile",

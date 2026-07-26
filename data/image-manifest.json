@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-07-26T08:29:37Z",
+  "generatedAt": "2026-07-26T09:48:27Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -204,6 +204,33 @@
         }
       ],
       "default": "assets/optimized/963879f527005a22/minami-w1440.webp"
+    },
+    "assets/members/notion/may-preview.jpg": {
+      "asset": "372087db37597ae7",
+      "originalBytes": 411654,
+      "width": 1005,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "assets/optimized/372087db37597ae7/may-preview-w480.webp",
+          "width": 480,
+          "height": 611,
+          "bytes": 72896
+        },
+        {
+          "src": "assets/optimized/372087db37597ae7/may-preview-w768.webp",
+          "width": 768,
+          "height": 978,
+          "bytes": 183058
+        },
+        {
+          "src": "assets/optimized/372087db37597ae7/may-preview-w1005.webp",
+          "width": 1005,
+          "height": 1280,
+          "bytes": 299202
+        }
+      ],
+      "default": "assets/optimized/372087db37597ae7/may-preview-w1005.webp"
     },
     "assets/members/woni-desktop.jpg": {
       "asset": "3cc1d51f863e3696",
@@ -7503,6 +7530,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/361f6ce00ebb4cb6/suwon-ambassador-w1200.webp"
+    },
+    "372087db37597ae7": {
+      "hash": "372087db37597ae7881034d6d120c38a26834b78e4231b2dadd6e7eca744cd6a",
+      "width": 1005,
+      "height": 1280,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/372087db37597ae7/may-preview-w480.webp",
+          "width": 480,
+          "height": 611,
+          "bytes": 72896
+        },
+        {
+          "src": "assets/optimized/372087db37597ae7/may-preview-w768.webp",
+          "width": 768,
+          "height": 978,
+          "bytes": 183058
+        },
+        {
+          "src": "assets/optimized/372087db37597ae7/may-preview-w1005.webp",
+          "width": 1005,
+          "height": 1280,
+          "bytes": 299202
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/372087db37597ae7/may-preview-w1005.webp"
     },
     "3956cd543a0c0c74": {
       "hash": "3956cd543a0c0c74a35a40b3244ef2b53dfd26e6e7040f25f0b9b80ac4c1eecb",
