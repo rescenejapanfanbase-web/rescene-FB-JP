@@ -1,8 +1,25 @@
 window.RESCENE_HOMEPAGE = {
-  "generatedAt": "2026-07-20T21:54:03.401Z",
+  "generatedAt": "2026-07-26T10:23:32.872Z",
   "source": "notion",
   "dataSourceId": "1a98fbc6-21d6-4a11-8ed9-19b228250182",
   "notionDatabaseUrl": "https://app.notion.com/p/23afd46c4c68443d89de65c74f605d68",
+  "theme": {
+    "name": "RESCENE Pink",
+    "background": "#120c16",
+    "background2": "#20121f",
+    "card": "#2a1727",
+    "card2": "#341b30",
+    "primary": "#ff6fae",
+    "primarySoft": "#ff9bc7",
+    "secondary": "#c8a4ff",
+    "accent": "#8fe3ca",
+    "blue": "#8ec9ff",
+    "text": "#fff9fc",
+    "muted": "#d4b7c8",
+    "lightBackground": "#fff7fb",
+    "lightCard": "#ffffff",
+    "lightText": "#2f1a29"
+  },
   "items": [
     {
       "slug": "home-settings",

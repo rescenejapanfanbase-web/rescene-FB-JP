@@ -1,11 +1,11 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-07-26T04:40:02.314901+00:00",
+  "generatedAt": "2026-07-26T10:25:24.916611+00:00",
   "items": [
     {
       "date": "2026-07-26",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "dfb7100",
+      "commit": "adea058",
       "files": [
         "data/external-link-report.json"
       ]
@@ -14,16 +14,11 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-07-26",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "b64255f",
+      "commit": "1125573",
       "files": [
-        "MUSIC-RECORDS-SCORE-PEAK-DATES-FIX-20260726.txt",
-        "NOTION-RECORDS-GUIDE.txt",
-        "css/common.css",
-        "generate-seo.py",
-        "js/i18n.js",
-        "scripts/check-requested-regressions.py",
-        "scripts/generate-seo.py",
-        "scripts/render-record-pages.mjs"
+        "NOTION-SITE-THEME-GUIDE.txt",
+        "NOTION-SITE-THEME-PERMISSION-FIX.txt",
+        "scripts/sync-notion-homepage.mjs"
       ]
     },
     {

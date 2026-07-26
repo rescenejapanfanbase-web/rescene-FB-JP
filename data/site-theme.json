@@ -1,6 +1,8 @@
 {
-  "generatedAt": "2026-07-26T00:00:00.000Z",
-  "source": "default-until-first-notion-sync",
+  "generatedAt": "2026-07-26T10:23:32.872Z",
+  "source": "notion",
+  "dataSourceId": "1a98fbc6-21d6-4a11-8ed9-19b228250182",
+  "notionDatabaseUrl": "https://app.notion.com/p/23afd46c4c68443d89de65c74f605d68",
   "theme": {
     "name": "RESCENE Pink",
     "background": "#120c16",
