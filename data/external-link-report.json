@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-26T03:21:13Z",
-  "startedAt": "2026-07-26T03:21:08Z",
-  "elapsedSeconds": 5.05,
+  "generatedAt": "2026-07-26T10:09:24Z",
+  "startedAt": "2026-07-26T10:09:20Z",
+  "elapsedSeconds": 4.1,
   "summary": {
-    "checked": 70,
+    "checked": 71,
     "ok": 69,
-    "warning": 1,
+    "warning": 2,
     "broken": 0,
     "hosts": 18
   },
@@ -14,6 +14,14 @@
     {
       "key": "facebook",
       "label": "Facebook",
+      "checked": 1,
+      "ok": 0,
+      "warning": 1,
+      "broken": 0
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
       "checked": 1,
       "ok": 0,
       "warning": 1,
@@ -60,18 +68,10 @@
       "broken": 0
     },
     {
-      "key": "instagram",
-      "label": "Instagram",
-      "checked": 1,
-      "ok": 1,
-      "warning": 0,
-      "broken": 0
-    },
-    {
       "key": "mnetplus",
       "label": "Mnet Plus",
-      "checked": 2,
-      "ok": 2,
+      "checked": 3,
+      "ok": 3,
       "warning": 0,
       "broken": 0
     },
@@ -144,6 +144,29 @@
       ]
     },
     {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "warning",
+      "httpStatus": 429,
+      "message": "HTTP 429（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 54,
+          "label": "Instagram"
+        },
+        {
+          "file": "index.html",
+          "line": 163,
+          "label": "Instagram"
+        }
+      ]
+    },
+    {
       "url": "https://analytics.google.com/",
       "normalizedUrl": "https://analytics.google.com/",
       "finalUrl": "https://analytics.google.com/analytics/web/",
@@ -156,7 +179,7 @@
       "sources": [
         {
           "file": "analytics.html",
-          "line": 71,
+          "line": 72,
           "label": "Google Analyticsを開く ↗"
         }
       ]
@@ -220,7 +243,7 @@
         },
         {
           "file": "voting.html",
-          "line": 187,
+          "line": 188,
           "label": "App Store ↗"
         }
       ]
@@ -279,7 +302,7 @@
         },
         {
           "file": "voting.html",
-          "line": 184,
+          "line": 185,
           "label": "App Storeで開く ↗"
         }
       ]
@@ -302,7 +325,7 @@
         },
         {
           "file": "voting.html",
-          "line": 188,
+          "line": 189,
           "label": "App Store ↗"
         }
       ]
@@ -325,7 +348,7 @@
         },
         {
           "file": "voting.html",
-          "line": 190,
+          "line": 191,
           "label": "App Store ↗"
         }
       ]
@@ -348,7 +371,7 @@
         },
         {
           "file": "voting.html",
-          "line": 189,
+          "line": 190,
           "label": "App Store ↗"
         }
       ]
@@ -371,7 +394,7 @@
         },
         {
           "file": "voting.html",
-          "line": 185,
+          "line": 186,
           "label": "App Store ↗"
         }
       ]
@@ -394,7 +417,7 @@
         },
         {
           "file": "voting.html",
-          "line": 186,
+          "line": 187,
           "label": "App Store ↗"
         }
       ]
@@ -417,7 +440,7 @@
         },
         {
           "file": "voting.html",
-          "line": 191,
+          "line": 192,
           "label": "App Storeで開く ↗"
         }
       ]
@@ -440,7 +463,7 @@
         },
         {
           "file": "index.html",
-          "line": 163,
+          "line": 164,
           "label": "Apple Music"
         }
       ]
@@ -458,12 +481,12 @@
       "sources": [
         {
           "file": "articles/rescene-2026-0c5361a8a6.html",
-          "line": 83,
+          "line": 84,
           "label": "ニュースを見る ↗"
         },
         {
           "file": "data/news.json",
-          "line": 43,
+          "line": 58,
           "label": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命"
         }
       ]
@@ -481,7 +504,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 127,
+          "line": 128,
           "label": "GitHubリポジトリ サイトファイルと更新履歴を確認 ↗"
         }
       ]
@@ -499,7 +522,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 127,
+          "line": 128,
           "label": "GitHub Actions一覧 すべての同期・チェック履歴を確認 ↗"
         }
       ]
@@ -517,7 +540,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 127,
+          "line": 128,
           "label": "バックアップ一覧 保存ZIPの作成履歴とArtifactを確認 ↗"
         }
       ]
@@ -535,7 +558,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 127,
+          "line": 128,
           "label": "Notion公開前プレビュー 非公開記事・予定と不足項目を限定Artifactで確認 ↗"
         }
       ]
@@ -553,7 +576,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 127,
+          "line": 128,
           "label": "公開前プレビュー PC・スマホのスクリーンショットとZIPを作成 ↗"
         }
       ]
@@ -571,7 +594,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 127,
+          "line": 128,
           "label": "緊急ロールバック 正常なコミットを新しい復元コミットとして反映 ↗"
         }
       ]
@@ -589,7 +612,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 127,
+          "line": 128,
           "label": "サイト統合同期 全データを取得・検査し、1コミットで公開 ↗"
         }
       ]
@@ -607,7 +630,7 @@
       "sources": [
         {
           "file": "mv-review.html",
-          "line": 68,
+          "line": 69,
           "label": "MV同期を実行 ↗"
         }
       ]
@@ -625,7 +648,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 127,
+          "line": 128,
           "label": "スケジュール同期 NotionとPlus Chatの予定を取得・統合して公開 ↗"
         }
       ]
@@ -648,7 +671,7 @@
         },
         {
           "file": "voting.html",
-          "line": 187,
+          "line": 188,
           "label": "Google Play ↗"
         }
       ]
@@ -671,7 +694,7 @@
         },
         {
           "file": "voting.html",
-          "line": 190,
+          "line": 191,
           "label": "Google Play ↗"
         }
       ]
@@ -694,7 +717,7 @@
         },
         {
           "file": "voting.html",
-          "line": 185,
+          "line": 186,
           "label": "Google Play ↗"
         }
       ]
@@ -717,7 +740,7 @@
         },
         {
           "file": "voting.html",
-          "line": 191,
+          "line": 192,
           "label": "Google Playで開く ↗"
         }
       ]
@@ -740,7 +763,7 @@
         },
         {
           "file": "voting.html",
-          "line": 188,
+          "line": 189,
           "label": "Google Play ↗"
         }
       ]
@@ -763,7 +786,7 @@
         },
         {
           "file": "voting.html",
-          "line": 184,
+          "line": 185,
           "label": "Google Playで開く ↗"
         }
       ]
@@ -786,7 +809,7 @@
         },
         {
           "file": "voting.html",
-          "line": 189,
+          "line": 190,
           "label": "Google Play ↗"
         }
       ]
@@ -809,31 +832,8 @@
         },
         {
           "file": "voting.html",
-          "line": 186,
+          "line": 187,
           "label": "Google Play ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 54,
-          "label": "Instagram"
-        },
-        {
-          "file": "index.html",
-          "line": 162,
-          "label": "Instagram"
         }
       ]
     },
@@ -855,7 +855,7 @@
         },
         {
           "file": "fan-services.html",
-          "line": 90,
+          "line": 91,
           "label": "RESCENE Communityを開く ↗"
         }
       ]
@@ -879,6 +879,24 @@
       ]
     },
     {
+      "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08",
+      "normalizedUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08",
+      "finalUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08",
+      "service": "Mnet Plus",
+      "serviceKey": "mnetplus",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/schedule.json",
+          "line": 972,
+          "label": "「2026 쿠팡플레이 시리즈」 하프타임 쇼"
+        }
+      ]
+    },
+    {
       "url": "https://m.entertain.naver.com/home/article/079/0004164566",
       "normalizedUrl": "https://m.entertain.naver.com/home/article/079/0004164566",
       "finalUrl": "https://m.entertain.naver.com/home/article/079/0004164566",
@@ -891,7 +909,7 @@
       "sources": [
         {
           "file": "articles/goyang-ambassador.html",
-          "line": 83,
+          "line": 84,
           "label": "記事を見る ↗"
         },
         {
@@ -901,12 +919,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 119,
+          "line": 134,
           "label": "京畿道 高陽市 広報大使に任命"
         },
         {
           "file": "goyang-ambassador.html",
-          "line": 83,
+          "line": 84,
           "label": "記事を見る ↗"
         }
       ]
@@ -924,7 +942,7 @@
       "sources": [
         {
           "file": "articles/gyeongju-ambassador.html",
-          "line": 83,
+          "line": 84,
           "label": "記事を見る ↗"
         },
         {
@@ -934,12 +952,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 130,
+          "line": 145,
           "label": "慶尚北道 慶州市 広報大使に任命"
         },
         {
           "file": "gyeongju-ambassador.html",
-          "line": 83,
+          "line": 84,
           "label": "記事を見る ↗"
         }
       ]
@@ -957,7 +975,7 @@
       "sources": [
         {
           "file": "articles/suwon-ambassador.html",
-          "line": 83,
+          "line": 84,
           "label": "記事を見る ↗"
         },
         {
@@ -967,12 +985,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 141,
+          "line": 156,
           "label": "京畿道 水原市 広報大使に任命"
         },
         {
           "file": "suwon-ambassador.html",
-          "line": 83,
+          "line": 84,
           "label": "記事を見る ↗"
         }
       ]
@@ -990,7 +1008,7 @@
       "sources": [
         {
           "file": "articles/geoje-ambassador.html",
-          "line": 83,
+          "line": 84,
           "label": "記事を見る ↗"
         },
         {
@@ -1000,12 +1018,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 152,
+          "line": 167,
           "label": "慶尚南道 巨済市 広報大使に任命"
         },
         {
           "file": "geoje-ambassador.html",
-          "line": 83,
+          "line": 84,
           "label": "記事を見る ↗"
         }
       ]
@@ -1028,7 +1046,7 @@
         },
         {
           "file": "index.html",
-          "line": 163,
+          "line": 164,
           "label": "Spotify"
         }
       ]
@@ -1046,7 +1064,7 @@
       "sources": [
         {
           "file": "fan-services.html",
-          "line": 96,
+          "line": 97,
           "label": "RESCENE bubbleを開く ↗"
         }
       ]
@@ -1069,7 +1087,7 @@
         },
         {
           "file": "index.html",
-          "line": 162,
+          "line": 163,
           "label": "TikTok"
         }
       ]
@@ -1077,7 +1095,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1785036071739&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1785060563482&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1105,7 +1123,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 961,
+          "line": 1056,
           "label": "2026 THE FACT MUSIC AWARDS(TMA)"
         }
       ]
@@ -1123,7 +1141,7 @@
       "sources": [
         {
           "file": "articles/love-attack-inkigayo-realtime-first.html",
-          "line": 83,
+          "line": 84,
           "label": "HIGHER公式Xで見る ↗"
         },
         {
@@ -1133,12 +1151,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 86,
+          "line": 101,
           "label": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得"
         },
         {
           "file": "love-attack-inkigayo-realtime-first.html",
-          "line": 83,
+          "line": 84,
           "label": "HIGHER公式Xで見る ↗"
         }
       ]
@@ -1156,7 +1174,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 931,
+          "line": 988,
           "label": "KCON LA 2026"
         }
       ]
@@ -1174,7 +1192,7 @@
       "sources": [
         {
           "file": "articles/fanbase-site.html",
-          "line": 82,
+          "line": 83,
           "label": "RESCENE JAPAN FANBASEのXを見る ↗"
         },
         {
@@ -1189,7 +1207,7 @@
         },
         {
           "file": "fanbase-site.html",
-          "line": 82,
+          "line": 83,
           "label": "RESCENE JAPAN FANBASEのXを見る ↗"
         }
       ]
@@ -1207,7 +1225,7 @@
       "sources": [
         {
           "file": "articles/second-anniversary-project.html",
-          "line": 83,
+          "line": 84,
           "label": "FANBASEの告知ポストを見る ↗"
         },
         {
@@ -1217,12 +1235,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 185,
+          "line": 200,
           "label": "デビュー2周年広告プロジェクト"
         },
         {
           "file": "second-anniversary-project.html",
-          "line": 83,
+          "line": 84,
           "label": "FANBASEの告知ポストを見る ↗"
         }
       ]
@@ -1263,7 +1281,7 @@
         },
         {
           "file": "index.html",
-          "line": 162,
+          "line": 163,
           "label": "Official X"
         }
       ]
@@ -1461,7 +1479,7 @@
       "sources": [
         {
           "file": "articles/second-anniversary.html",
-          "line": 83,
+          "line": 84,
           "label": "RESCENE公式Xを見る ↗"
         },
         {
@@ -1471,12 +1489,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 174,
+          "line": 189,
           "label": "RESCENE Debut 2nd Anniversary"
         },
         {
           "file": "second-anniversary.html",
-          "line": 83,
+          "line": 84,
           "label": "RESCENE公式Xを見る ↗"
         }
       ]
@@ -1517,12 +1535,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 28,
+          "line": 43,
           "label": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得"
         },
         {
           "file": "music-show-wins.html",
-          "line": 98,
+          "line": 99,
           "label": "メンバーのリアクションを見る ↗"
         }
       ]
@@ -1545,7 +1563,7 @@
         },
         {
           "file": "youtube.html",
-          "line": 145,
+          "line": 146,
           "label": "チャンネルを見る ↗"
         }
       ]
@@ -1573,12 +1591,12 @@
         },
         {
           "file": "index.html",
-          "line": 162,
+          "line": 163,
           "label": "YouTube"
         },
         {
           "file": "youtube.html",
-          "line": 144,
+          "line": 145,
           "label": "チャンネルを見る ↗"
         }
       ]
@@ -1596,7 +1614,7 @@
       "sources": [
         {
           "file": "articles/melon-top100-first-number-one.html",
-          "line": 83,
+          "line": 84,
           "label": "記録達成後のYouTubeライブを見る ↗"
         },
         {
@@ -1606,12 +1624,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 97,
+          "line": 112,
           "label": "RESCENEがMelon TOP100で初の1位を記録"
         },
         {
           "file": "melon-top100-first-number-one.html",
-          "line": 83,
+          "line": 84,
           "label": "記録達成後のYouTubeライブを見る ↗"
         }
       ]
@@ -1629,7 +1647,7 @@
       "sources": [
         {
           "file": "articles/pretty-girl-first-music-show-win.html",
-          "line": 83,
+          "line": 84,
           "label": "THE K-POP公式動画を見る ↗"
         },
         {
@@ -1639,17 +1657,17 @@
         },
         {
           "file": "data/news.json",
-          "line": 71,
+          "line": 86,
           "label": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得"
         },
         {
           "file": "music-show-wins.html",
-          "line": 105,
+          "line": 106,
           "label": "1位獲得時の映像を見る ↗"
         },
         {
           "file": "pretty-girl-first-music-show-win.html",
-          "line": 83,
+          "line": 84,
           "label": "THE K-POP公式動画を見る ↗"
         }
       ]
@@ -1667,7 +1685,7 @@
       "sources": [
         {
           "file": "melon-records.html",
-          "line": 96,
+          "line": 97,
           "label": "MVを見る ↗"
         }
       ]
@@ -1685,12 +1703,12 @@
       "sources": [
         {
           "file": "articles/rescene-7-4612133921.html",
-          "line": 83,
+          "line": 84,
           "label": "ニュース映像を見る ↗"
         },
         {
           "file": "data/news.json",
-          "line": 58,
+          "line": 73,
           "label": "RESCENEが第7回 島の日の広報大使に任命"
         }
       ]
