@@ -11,6 +11,21 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "rescene-love-attack-1-e44b1f8e6e",
+    "date": "2026.07.26",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "3rd WIN",
+    "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
+    "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
+    "body": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。\nオリジナル曲として初の1位獲得となりました。",
+    "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
+    "sourceLink": "",
+    "sourceLabel": "映像準備中",
+    "notionPageId": "3a9229d2-19da-8095-a896-f2e44b1f8e6e",
+    "notionUrl": "https://app.notion.com/p/RESCENE-LOVE-ATTACK-1-3a9229d219da8095a896f2e44b1f8e6e"
+  },
+  {
     "slug": "rescene-pretty-girl-1-8a4e50d816",
     "date": "2026.07.25",
     "category": "notice",
@@ -66,7 +81,7 @@ window.RESCENE_NEWS = [
     "sourceLink": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
     "sourceLabel": "THE K-POP公式動画を見る",
     "categoryName": "記録",
-    "body": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEが「Pretty Girl」でグループ初となる\n音楽番組1位を獲得しました。\n\n最終スコアは10,000点のフルスコアとなりました。",
+    "body": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEが「Pretty Girl」でグループ初となる\n音楽番組1位を獲得しました。\n最終スコアは10,000点のフルスコアとなりました。",
     "notionPageId": "3a2229d2-19da-806e-a09b-c4bc9d88fde7",
     "notionUrl": "https://app.notion.com/p/RESCENE-Pretty-Girl-1-3a2229d219da806ea09bc4bc9d88fde7"
   },

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-07-26T04:40:09Z",
+  "generatedAt": "2026-07-26T08:29:37Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -1201,6 +1201,33 @@
       ],
       "default": "assets/optimized/59823cf869906187/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf8-w1440.webp"
     },
+    "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg": {
+      "asset": "ce5b428f082804b7",
+      "originalBytes": 164880,
+      "width": 1179,
+      "height": 663,
+      "variants": [
+        {
+          "src": "assets/optimized/ce5b428f082804b7/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 28990
+        },
+        {
+          "src": "assets/optimized/ce5b428f082804b7/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 53568
+        },
+        {
+          "src": "assets/optimized/ce5b428f082804b7/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f-w1179.webp",
+          "width": 1179,
+          "height": 663,
+          "bytes": 94320
+        }
+      ],
+      "default": "assets/optimized/ce5b428f082804b7/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f-w1179.webp"
+    },
     "assets/platform-icons/apple-music.png": {
       "asset": "dfbcce2c96eda8d7",
       "originalBytes": 27243,
@@ -1524,6 +1551,33 @@
         }
       ],
       "default": "assets/optimized/6edc8760c2f6799b/record-3a9229d219da8007a288fb5e0457d2b1-6edc8760-w1280.webp"
+    },
+    "assets/records/notion/record-3a9229d219da808587c8cf131a8a06d4-4660df1e8486.jpg": {
+      "asset": "4660df1e84863a73",
+      "originalBytes": 207117,
+      "width": 1179,
+      "height": 663,
+      "variants": [
+        {
+          "src": "assets/optimized/4660df1e84863a73/record-3a9229d219da808587c8cf131a8a06d4-4660df1e-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 29500
+        },
+        {
+          "src": "assets/optimized/4660df1e84863a73/record-3a9229d219da808587c8cf131a8a06d4-4660df1e-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 53458
+        },
+        {
+          "src": "assets/optimized/4660df1e84863a73/record-3a9229d219da808587c8cf131a8a06d4-4660df1e-w1179.webp",
+          "width": 1179,
+          "height": 663,
+          "bytes": 90024
+        }
+      ],
+      "default": "assets/optimized/4660df1e84863a73/record-3a9229d219da808587c8cf131a8a06d4-4660df1e-w1179.webp"
     },
     "assets/records/notion/record-3a9229d219da80bc9e28d5df2d5d167b-8ea2220fc379.jpg": {
       "asset": "8ea2220fc379e42d",
@@ -7858,6 +7912,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/44dac0743f2bfe20/deja-vu-w1280.webp"
     },
+    "4660df1e84863a73": {
+      "hash": "4660df1e84863a73a28d785397b735801fc1dafd0b4cf87ad34ba5322f4f10a7",
+      "width": 1179,
+      "height": 663,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/4660df1e84863a73/record-3a9229d219da808587c8cf131a8a06d4-4660df1e-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 29500
+        },
+        {
+          "src": "assets/optimized/4660df1e84863a73/record-3a9229d219da808587c8cf131a8a06d4-4660df1e-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 53458
+        },
+        {
+          "src": "assets/optimized/4660df1e84863a73/record-3a9229d219da808587c8cf131a8a06d4-4660df1e-w1179.webp",
+          "width": 1179,
+          "height": 663,
+          "bytes": 90024
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/4660df1e84863a73/record-3a9229d219da808587c8cf131a8a06d4-4660df1e-w1179.webp"
+    },
     "466bfe3e25329cc5": {
       "hash": "466bfe3e25329cc540a21031ec9a48a2c8a05d0b98dde60036638aefb2b69969",
       "width": 1200,
@@ -10455,6 +10539,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/ca377427c398ec0a/record-3a8229d219da808f8987fa4744ed3cd4-ca377427-w1280.webp"
+    },
+    "ce5b428f082804b7": {
+      "hash": "ce5b428f082804b76dc0c49c0673fbc1b48b84605c9868b37d76b5060ab74296",
+      "width": 1179,
+      "height": 663,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/ce5b428f082804b7/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 28990
+        },
+        {
+          "src": "assets/optimized/ce5b428f082804b7/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 53568
+        },
+        {
+          "src": "assets/optimized/ce5b428f082804b7/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f-w1179.webp",
+          "width": 1179,
+          "height": 663,
+          "bytes": 94320
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/ce5b428f082804b7/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f-w1179.webp"
     },
     "d12680a96965a2e2": {
       "hash": "d12680a96965a2e27a5e3e3bd288668b57b5e0b2ac75fb32d47507ec6d645d72",
