@@ -36,48 +36,27 @@ async function queryAllPages() {
   } while (startCursor);
   return results;
 }
-async function ensureThemePages(existingPages) {
+const requiredThemeRows = [
+  ["テーマ：テーマ名", "RESCENE Pink"],
+  ["テーマ：背景色", themeDefaults.background],
+  ["テーマ：背景色2", themeDefaults.background2],
+  ["テーマ：カード色", themeDefaults.card],
+  ["テーマ：カード色2", themeDefaults.card2],
+  ["テーマ：メインカラー", themeDefaults.primary],
+  ["テーマ：メインカラー（淡色）", themeDefaults.primarySoft],
+  ["テーマ：サブカラー", themeDefaults.secondary],
+  ["テーマ：アクセントカラー", themeDefaults.accent],
+  ["テーマ：ブルーカラー", themeDefaults.blue],
+  ["テーマ：文字色", themeDefaults.text],
+  ["テーマ：補助文字色", themeDefaults.muted],
+  ["テーマ：ライト背景色", themeDefaults.lightBackground],
+  ["テーマ：ライトカード色", themeDefaults.lightCard],
+  ["テーマ：ライト文字色", themeDefaults.lightText]
+];
+
+function findMissingThemeRows(existingPages) {
   const existingTitles = new Set(existingPages.map((page) => propertyText(page.properties?.["タイトル"])));
-  const rows = [
-    ["テーマ：テーマ名", "RESCENE Pink", "カムバック名など。色ではありません。"],
-    ["テーマ：背景色", themeDefaults.background, "ダークモードの基本背景色"],
-    ["テーマ：背景色2", themeDefaults.background2, "背景グラデーションの2色目"],
-    ["テーマ：カード色", themeDefaults.card, "カード・パネルの基本色"],
-    ["テーマ：カード色2", themeDefaults.card2, "カードグラデーションの2色目"],
-    ["テーマ：メインカラー", themeDefaults.primary, "ボタン・見出し・強調色"],
-    ["テーマ：メインカラー（淡色）", themeDefaults.primarySoft, "ラベルなどの淡い強調色"],
-    ["テーマ：サブカラー", themeDefaults.secondary, "グラデーションのサブ色"],
-    ["テーマ：アクセントカラー", themeDefaults.accent, "補助アクセント色"],
-    ["テーマ：ブルーカラー", themeDefaults.blue, "青系の補助色"],
-    ["テーマ：文字色", themeDefaults.text, "ダークモードの本文色"],
-    ["テーマ：補助文字色", themeDefaults.muted, "説明・日付などの文字色"],
-    ["テーマ：ライト背景色", themeDefaults.lightBackground, "ライトモードの背景色"],
-    ["テーマ：ライトカード色", themeDefaults.lightCard, "ライトモードのカード色"],
-    ["テーマ：ライト文字色", themeDefaults.lightText, "ライトモードの本文色"]
-  ];
-  let created = 0;
-  for (let index = 0; index < rows.length; index += 1) {
-    const [title, value, note] = rows[index];
-    if (existingTitles.has(title)) continue;
-    const response = await fetch("https://api.notion.com/v1/pages", {
-      method: "POST",
-      headers: { Authorization: `Bearer ${token}`, "Notion-Version": notionVersion, "Content-Type": "application/json" },
-      body: JSON.stringify({
-        parent: { data_source_id: dataSourceId },
-        properties: {
-          "タイトル": { title: [{ text: { content: title } }] },
-          "種類": { select: { name: "ページ設定" } },
-          "値": { rich_text: [{ text: { content: value } }] },
-          "補足": { rich_text: [{ text: { content: note } }] },
-          "公開": { checkbox: true },
-          "表示順": { number: 900 + index }
-        }
-      })
-    });
-    if (!response.ok) throw new Error(`テーマ設定行の作成に失敗しました ${response.status}: ${await response.text()}`);
-    created += 1;
-  }
-  return created;
+  return requiredThemeRows.filter(([title]) => !existingTitles.has(title));
 }
 
 function extensionFrom(name, contentType, url) {
@@ -105,7 +84,13 @@ async function convertPage(page) {
   return { slug, title, type: properties["種類"]?.select?.name ?? "ページ設定", englishLabel: propertyText(properties["英語ラベル"]), heading: propertyText(properties["見出し"]), description: propertyText(properties["説明"]), note: propertyText(properties["補足"]), number: propertyText(properties["番号"]), value: propertyText(properties["値"]), subLabel: propertyText(properties["サブラベル"]), buttonLabel: propertyText(properties["ボタン文言"]), linkUrl: propertyText(properties["リンクURL"]), secondaryButtonLabel: propertyText(properties["追加ボタン文言"]), secondaryLinkUrl: propertyText(properties["追加リンクURL"]), thirdButtonLabel: propertyText(properties["第3ボタン文言"]), thirdLinkUrl: propertyText(properties["第3リンクURL"]), image, icon: propertyText(properties["アイコン"]), anchor, order: properties["表示順"]?.number ?? 9999, notionPageId: page.id, notionUrl: page.url ?? "" };
 }
 async function readJson(path, fallback) { try { return JSON.parse(await readFile(path, "utf8")); } catch { return fallback; } }
-let pages = await queryAllPages(); const createdThemePages = await ensureThemePages(pages); if (createdThemePages) pages = await queryAllPages(); const items = [];
+const pages = await queryAllPages();
+const missingThemeRows = findMissingThemeRows(pages);
+if (missingThemeRows.length) {
+  console.warn(`警告: Notionのテーマ設定が${missingThemeRows.length}件不足しています。該当項目は既定色を使用します。`);
+  for (const [title, value] of missingThemeRows) console.warn(`- ${title}（既定値: ${value}）`);
+}
+const items = [];
 for (const page of pages) { const item = await convertPage(page); if (item) items.push(item); }
 items.sort((a,b)=>a.order-b.order||a.title.localeCompare(b.title,"ja"));
 await mkdir(imageDirectory, { recursive: true }); const usedImages = new Set(items.map(item=>item.image).filter(image=>String(image).startsWith(`${imageDirectory}/`)));
@@ -140,4 +125,4 @@ if ((await readFile("data/homepage-data.js","utf8").catch(()=>"")) !== jsText) a
 const themeJsonText = `${JSON.stringify(themePayload,null,2)}\n`;
 if ((await readFile("data/site-theme.json","utf8").catch(()=>"")) !== themeJsonText) await writeFile("data/site-theme.json",themeJsonText,"utf8");
 if ((await readFile("css/notion-theme.css","utf8").catch(()=>"")) !== themeCss) await writeFile("css/notion-theme.css",themeCss,"utf8");
-console.log(`${publicItems.length}件のホーム・共通表示コンテンツとサイトテーマ「${theme.name}」を同期しました。テーマ設定新規作成: ${createdThemePages}件。データ変更: ${changed ? "あり" : "なし"}`);
+console.log(`${publicItems.length}件のホーム・共通表示コンテンツとサイトテーマ「${theme.name}」を同期しました。テーマ設定不足: ${missingThemeRows.length}件。データ変更: ${changed ? "あり" : "なし"}`);
