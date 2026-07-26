@@ -173,6 +173,7 @@ for (const queryPage of pages) {
       score: plainText(p["スコア"]?.rich_text),
       description: plainText(p["記録説明"]?.rich_text),
       videoUrl: validHttp(p["映像リンク"]?.url),
+      videoLabel: plainText(p["映像リンク名"]?.rich_text),
       image: image || previous.image || "news/the-show-first-win.jpeg",
       order,
       notionPageId: page.id,

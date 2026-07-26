@@ -174,7 +174,7 @@ export async function writeMergedSchedule(options = {}) {
     events: merged.events,
   };
   const desiredJson = `${JSON.stringify(payload, null, 2)}\n`;
-  const desiredScript = `window.RESCENE_SCHEDULE = ${JSON.stringify(merged.events, null, 2)};\n`;
+  const desiredScript = `window.RESCENE_SCHEDULE_PAYLOAD = ${JSON.stringify(payload, null, 2)};\n`;
   const desiredIcs = buildScheduleIcs(merged.events, {
     generatedAt,
     siteUrl: process.env.SITE_BASE_URL || "https://rescene-fb.jp",

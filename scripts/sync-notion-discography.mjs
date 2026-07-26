@@ -145,10 +145,10 @@ async function convertPage(page, previousByAnchor, previousByTitle) {
   const anchor = safeAnchor(propertyText(properties["アンカー"]), title, page.id);
   const previousRelease = previousByAnchor.get(anchor) ?? previousByTitle.get(title) ?? null;
   const slug = anchor.replace(/^release-/, "") || safeSlug(title, page.id);
-  const localImage = propertyText(properties["画像パス"]);
-  const uploaded = notionFile(properties["ジャケット"]);
-  let cover = localImage;
-  if (!cover && uploaded?.url) cover = await saveCover(uploaded, slug);
+  const uploaded = notionFile(properties["画像"]) || notionFile(properties["ジャケット"]);
+  let cover = "";
+  if (uploaded?.url) cover = await saveCover(uploaded, slug);
+  if (!cover) cover = propertyText(properties["画像パス"]);
   return {
     anchor,
     slug,

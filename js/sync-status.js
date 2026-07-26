@@ -19,12 +19,12 @@
           detail:`HTML ${pageCount}ページ / 警告 ${warningCount}件`,
           generatedAt:data?.generatedAt||null,
           state:errorCount?'error':'success',
-          message:errorCount?'公開前品質検査でエラーが見つかっています。':'Notion・YouTube・MV・SEO・画像を1回の処理で同期し、検査後に1コミットで公開します。',
+          message:errorCount?'公開前品質検査でエラーが見つかっています。':'YouTube・スケジュール以外のNotion・MV・SEO・画像を同期し、検査後に1コミットで公開します。',
         };
       },
     },
     schedule:{
-      workflow:'sync-notion.yml',
+      workflow:'sync-schedule.yml',
       dataUrl:'data/schedule.json',
       parseData(data){
         const count=Array.isArray(data?.events)?data.events.length:0;

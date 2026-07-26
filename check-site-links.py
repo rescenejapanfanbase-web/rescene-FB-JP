@@ -16,6 +16,29 @@ ASSET_EXTENSIONS = {
     ".png", ".jpg", ".jpeg", ".gif", ".webp", ".avif", ".svg", ".ico",
     ".mp3", ".m4a", ".wav", ".mp4", ".webm", ".pdf", ".ics",
 }
+IGNORED_FILES = {
+    Path("js/data.js"),  # 現在のページから読み込まれていない旧ニュースデータ
+}
+
+# These generated files contain repository filenames as update-history metadata.
+# Values such as ``common.js`` and ``common.css`` are labels shown to users, not
+# browser references, so the generic quoted-path scanner must not treat them as
+# links. Actual href/src references are still checked in the page that renders
+# this data.
+NON_REFERENCE_DATA_FILES = {
+    Path("data/site-updates.json"),
+    Path("data/site-updates-data.js"),
+    # External-link checker output stores source filenames such as
+    # ``articles/example.html`` for diagnostics. They are report metadata, not
+    # links loaded by the site, and an older report can legitimately mention an
+    # article that has since been regenerated under another slug.
+    Path("data/external-link-report.json"),
+    # Notion news sync status stores original upload names such as
+    # ``IMG_9310.avif``. The actual browser-facing path is recorded separately
+    # in imagePath and is validated through data/news.json/news-data.js.
+    Path("data/notion-news-sync-status.json"),
+}
+
 IGNORE_PREFIXES = (
     "http://", "https://", "mailto:", "tel:", "javascript:", "data:", "blob:",
 )
@@ -57,6 +80,13 @@ def should_ignore(reference: str) -> bool:
 
 
 def resolve_reference(source: Path, reference: str) -> Path | None:
+    """Resolve a site reference to a repository path.
+
+    HTML/CSS references are relative to their containing file. Paths stored in
+    site data files (.js/.json), such as ``news/example.jpg`` and
+    ``discography.html#album``, are browser paths and therefore relative to the
+    GitHub Pages site root unless explicitly prefixed with ./ or ../.
+    """
     if should_ignore(reference):
         return None
 
@@ -65,8 +95,12 @@ def resolve_reference(source: Path, reference: str) -> Path | None:
     if not raw_path:
         return None
 
+    explicit_relative = raw_path.startswith("./") or raw_path.startswith("../")
+
     if raw_path.startswith("/"):
         candidate = ROOT / raw_path.lstrip("/")
+    elif source.suffix.lower() in {".js", ".json"} and not explicit_relative:
+        candidate = ROOT / raw_path
     else:
         candidate = source.parent / raw_path
 
@@ -92,14 +126,21 @@ def collect_references(path: Path) -> list[tuple[str, int]]:
         parser.feed(text)
         refs.extend(parser.references)
 
-    for match in CSS_URL_RE.finditer(text):
-        line = text.count("\n", 0, match.start()) + 1
-        refs.append((match.group(2).strip(), line))
+    # CSS url(...) syntax is valid in stylesheets and inline HTML styles.
+    # Do not scan JavaScript: function names such as createObjectURL(blob)
+    # otherwise look like CSS url(blob) and cause false missing-file reports.
+    if path.suffix.lower() in {".css", ".html"}:
+        for match in CSS_URL_RE.finditer(text):
+            line = text.count("\n", 0, match.start()) + 1
+            refs.append((match.group(2).strip(), line))
 
-    # Also catches paths stored inside JavaScript/JSON data, such as news image paths.
-    for match in QUOTED_LOCAL_RE.finditer(text):
-        line = text.count("\n", 0, match.start()) + 1
-        refs.append((match.group("path"), line))
+    # Also catches paths stored inside JavaScript/JSON data. Generated update
+    # history is an exception: its quoted filenames are display metadata rather
+    # than browser references.
+    if path.relative_to(ROOT) not in NON_REFERENCE_DATA_FILES:
+        for match in QUOTED_LOCAL_RE.finditer(text):
+            line = text.count("\n", 0, match.start()) + 1
+            refs.append((match.group("path"), line))
 
     return refs
 
@@ -114,6 +155,8 @@ def main() -> int:
         and p.suffix.lower() in TEXT_EXTENSIONS
         and ".git" not in p.parts
         and "node_modules" not in p.parts
+        and "templates" not in p.parts
+        and p.relative_to(ROOT) not in IGNORED_FILES
     )
 
     for source in files:
@@ -127,7 +170,6 @@ def main() -> int:
             if target is None:
                 continue
 
-            # Only validate local paths inside this repository.
             try:
                 target.relative_to(ROOT.resolve())
             except ValueError:
@@ -136,11 +178,9 @@ def main() -> int:
             if target.exists():
                 continue
 
-            # Extensionless local page references can map to .html.
             if target.suffix == "" and target.with_suffix(".html").exists():
                 continue
 
-            # Ignore non-file fragments accidentally captured by broad text scanning.
             if target.suffix.lower() not in ASSET_EXTENSIONS and Path(urlsplit(reference).path).suffix:
                 continue
 

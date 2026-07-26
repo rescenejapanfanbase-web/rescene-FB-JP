@@ -126,9 +126,13 @@ def collect_references(path: Path) -> list[tuple[str, int]]:
         parser.feed(text)
         refs.extend(parser.references)
 
-    for match in CSS_URL_RE.finditer(text):
-        line = text.count("\n", 0, match.start()) + 1
-        refs.append((match.group(2).strip(), line))
+    # CSS url(...) syntax is valid in stylesheets and inline HTML styles.
+    # Do not scan JavaScript: function names such as createObjectURL(blob)
+    # otherwise look like CSS url(blob) and cause false missing-file reports.
+    if path.suffix.lower() in {".css", ".html"}:
+        for match in CSS_URL_RE.finditer(text):
+            line = text.count("\n", 0, match.start()) + 1
+            refs.append((match.group(2).strip(), line))
 
     # Also catches paths stored inside JavaScript/JSON data. Generated update
     # history is an exception: its quoted filenames are display metadata rather

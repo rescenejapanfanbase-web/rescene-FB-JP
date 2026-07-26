@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-07-26T02:35:57.676Z",
+  "generatedAt": "2026-07-25T12:30:00.000Z",
   "source": "notion",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -10,12 +10,11 @@ window.RESCENE_RECORDS = {
       "date": "2026-07-14",
       "program": "THE SHOW",
       "score": "10,000点",
-      "description": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEが「Pretty Girl」でグループ初となる\n音楽番組1位を獲得。\n最終スコアは10,000点のフルスコアとなりました。",
+      "description": "RESCENEがグループ初となる音楽番組1位を獲得。",
       "videoUrl": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
       "image": "news/the-show-first-win.jpeg",
       "order": 10,
-      "notionPageId": "3a8229d2-19da-81b4-a4c4-fcca22133cea",
-      "notionUrl": "https://app.notion.com/p/2026-07-14-Pretty-Girl-THE-SHOW-3a8229d219da81b4a4c4fcca22133cea"
+      "videoLabel": "1位獲得時の映像を見る"
     },
     {
       "title": "2026.07.25 Pretty Girl — SHOW! 音楽中心",
@@ -25,129 +24,22 @@ window.RESCENE_RECORDS = {
       "score": "",
       "description": "活動終了後、出演なしで地上波音楽番組初の1位を獲得。グループ通算2冠目。",
       "videoUrl": "https://x.com/resceneofficial/status/2080953073992896790?s=46",
-      "image": "assets/records/notion/record-3a8229d219da8170b7e7df73f58db740-59823cf86990.jpg",
+      "image": "news/the-show-first-win.jpeg",
       "order": 20,
-      "notionPageId": "3a8229d2-19da-8170-b7e7-df73f58db740",
-      "notionUrl": "https://app.notion.com/p/2026-07-25-Pretty-Girl-SHOW-3a8229d219da8170b7e7df73f58db740"
+      "videoLabel": "メンバーのリアクションを見る"
     }
   ],
   "melonRecords": [
     {
-      "title": "LOVE ATTACK — Melonチャート",
-      "song": "LOVE ATTACK",
-      "releaseDate": "2024-08-27",
-      "top100Peak": 1,
-      "dailyPeak": 1,
-      "description": "2026年7月8日22時、Melon TOP100でグループ初となる1位を記録。",
-      "mvUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
-      "image": "assets/records/notion/record-3a8229d219da814ca643f6e4fb53d2ce-9f77ccb5c79f.webp",
-      "order": 10,
-      "notionPageId": "3a8229d2-19da-814c-a643-f6e4fb53d2ce",
-      "notionUrl": "https://app.notion.com/p/LOVE-ATTACK-Melon-3a8229d219da814ca643f6e4fb53d2ce"
-    },
-    {
-      "title": "Pinball — Melonチャート",
-      "song": "Pinball",
-      "releaseDate": "2024-08-27",
-      "top100Peak": 56,
-      "dailyPeak": 106,
-      "description": "SCENEDROMEのダブルタイトルの1つ。\n2026年1月21日にはJapanese Versionを配信。",
-      "mvUrl": "https://youtu.be/B8JJ8RNM-60?si=5JXK-pjGyxuXXK08",
-      "image": "assets/records/notion/record-3a8229d219da8064ac9dfaa0f279109b-fe3201e24352.jpg",
-      "order": 9999,
-      "notionPageId": "3a8229d2-19da-8064-ac9d-faa0f279109b",
-      "notionUrl": "https://app.notion.com/p/Pinball-Melon-3a8229d219da8064ac9dfaa0f279109b"
-    },
-    {
-      "title": "Glow Up — Melonチャート",
-      "song": "Glow Up",
-      "releaseDate": "2025-02-05",
-      "top100Peak": null,
-      "dailyPeak": 250,
-      "description": "2nd mini Albumのタイトル曲。",
-      "mvUrl": "https://youtu.be/h0xUtrb_JBc?si=UNDBzfK-ob-LTFPU",
-      "image": "assets/records/notion/record-3a8229d219da807198e8fb7a1946e084-b3d23cc92372.jpg",
-      "order": 9999,
-      "notionPageId": "3a8229d2-19da-8071-98e8-fb7a1946e084",
-      "notionUrl": "https://app.notion.com/p/Glow-Up-Melon-3a8229d219da807198e8fb7a1946e084"
-    },
-    {
-      "title": "Deja Vu — Melonチャート",
-      "song": "Deja Vu",
-      "releaseDate": "2025-07-02",
-      "top100Peak": 7,
-      "dailyPeak": 14,
-      "description": "2026年7月6日に初めてTOP100に進入。リリースから約1年越しでの記録となった。MVは日本の東京都内で撮影された。",
-      "mvUrl": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
-      "image": "assets/records/notion/record-3a8229d219da808f8987fa4744ed3cd4-ca377427c398.jpg",
-      "order": 9999,
-      "notionPageId": "3a8229d2-19da-808f-8987-fa4744ed3cd4",
-      "notionUrl": "https://app.notion.com/p/Deja-Vu-Melon-3a8229d219da808f8987fa4744ed3cd4"
-    },
-    {
-      "title": "Heart Drop — Melonチャート",
-      "song": "Heart Drop",
-      "releaseDate": "2025-11-06",
-      "top100Peak": null,
-      "dailyPeak": 575,
-      "description": "lip bombのダブルタイトルの1つ。先行曲として2025年11月6日に配信開始された。",
-      "mvUrl": "https://youtu.be/ByX8EZq8500?si=TDcAtQYY7ZHk94UI",
-      "image": "assets/records/notion/record-3a8229d219da80fe8d32c0d44c0b54e2-7a3899ca9452.jpg",
-      "order": 9999,
-      "notionPageId": "3a8229d2-19da-80fe-8d32-c0d44c0b54e2",
-      "notionUrl": "https://app.notion.com/p/Heart-Drop-Melon-3a8229d219da80fe8d32c0d44c0b54e2"
-    },
-    {
-      "title": "Bloom — Melonチャート",
-      "song": "Bloom",
-      "releaseDate": "2025-11-25",
-      "top100Peak": null,
-      "dailyPeak": 275,
-      "description": "lip Bombのダブルタイトルの1つ。さ\n2026年6月3日に初めて日間1000位以内に進入。発売してから約1年4ヶ月越しの記録",
-      "mvUrl": "https://youtu.be/MC6-82GRK5I?si=hN8SOErv9uwCwCW1",
-      "image": "assets/records/notion/record-3a8229d219da80568372ea072ada671b-89cfb0338e24.jpg",
-      "order": 9999,
-      "notionPageId": "3a8229d2-19da-8056-8372-ea072ada671b",
-      "notionUrl": "https://app.notion.com/p/Bloom-Melon-3a8229d219da80568372ea072ada671b"
-    },
-    {
-      "title": "Busy Boy — Melonチャート",
-      "song": "Busy Boy",
-      "releaseDate": "2026-02-27",
-      "top100Peak": null,
-      "dailyPeak": 301,
-      "description": "グローバル音楽プロジェクト「AA Project」の第1弾楽曲として2026年2月27日にリリースされた。",
-      "mvUrl": "https://youtu.be/ewubELWBMaE?si=pnQm7GBm9MktYtsb",
-      "image": "assets/records/notion/record-3a8229d219da8097beecea67178a4a85-e7d78b212458.jpg",
-      "order": 9999,
-      "notionPageId": "3a8229d2-19da-8097-beec-ea67178a4a85",
-      "notionUrl": "https://app.notion.com/p/Busy-Boy-Melon-3a8229d219da8097beecea67178a4a85"
-    },
-    {
-      "title": "Runaway — Melonチャート",
-      "song": "Runaway",
-      "releaseDate": "2026-04-08",
-      "top100Peak": 16,
-      "dailyPeak": 50,
-      "description": "2026年7月6日に初めてTOP100に進入。HOT100では2位を記録。",
-      "mvUrl": "https://youtu.be/rsZwrTNklos?si=hqlNsjBUYMLEhJIz",
-      "image": "assets/records/notion/record-3a8229d219da8085bd74eddf70d6f28b-541985b3f1f3.jpg",
-      "order": 9999,
-      "notionPageId": "3a8229d2-19da-8085-bd74-eddf70d6f28b",
-      "notionUrl": "https://app.notion.com/p/Runaway-Melon-3a8229d219da8085bd74eddf70d6f28b"
-    },
-    {
       "title": "Pretty Girl — Melonチャート",
       "song": "Pretty Girl",
       "releaseDate": "2026-07-08",
-      "top100Peak": 4,
-      "dailyPeak": 6,
-      "description": "KARAのPretty Girlをリメイク。\n初日日間順位は19位を記録。",
+      "top100Peak": 1,
+      "dailyPeak": null,
+      "description": "2026年7月8日22時、Melon TOP100でグループ初となる1位を記録。",
       "mvUrl": "https://www.youtube.com/watch?v=qZlu2j2SiBA",
-      "image": "assets/records/notion/record-3a8229d219da8127a70bcda37cd8f8da-5186e5c5727d.webp",
-      "order": 10,
-      "notionPageId": "3a8229d2-19da-8127-a70b-cda37cd8f8da",
-      "notionUrl": "https://app.notion.com/p/Pretty-Girl-Melon-3a8229d219da8127a70bcda37cd8f8da"
+      "image": "assets/mv/pretty-girl.jpg",
+      "order": 10
     }
   ]
 };

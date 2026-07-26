@@ -12,9 +12,14 @@ run_step() {
   "$@"
 }
 
-run_step "Notion スケジュール" node scripts/sync-notion.mjs
-run_step "Plus Chat スケジュール" python3 scripts/sync-pluschat-schedule.py --production --months-ahead 1
-run_step "スケジュール統合" node scripts/merge-schedules.mjs
+if [[ "${SKIP_SCHEDULE_SYNC:-0}" == "1" ]]; then
+  echo
+  echo "ℹ 自動実行ではスケジュール専用ワークフローへ同期を任せます。"
+else
+  run_step "Notion スケジュール" node scripts/sync-notion.mjs
+  run_step "Plus Chat スケジュール" python3 scripts/sync-pluschat-schedule.py --production --months-ahead 1
+  run_step "スケジュール統合" node scripts/merge-schedules.mjs
+fi
 run_step "Notion ニュース" node scripts/sync-notion-news.mjs
 run_step "Notion 音楽記録" node scripts/sync-notion-records.mjs
 run_step "ニュース画像参照の補正" node scripts/sanitize-news-images.mjs

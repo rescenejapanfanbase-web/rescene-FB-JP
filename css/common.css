@@ -1943,3 +1943,177 @@ body.page-melon-records .record-related-card span{margin-top:auto;padding-top:8p
   body.page-melon-records .melon-record-copy{grid-column:2}
   body.page-melon-records .melon-rank-grid{grid-column:1/-1}
 }
+
+/* 2026-07-26 schedule, records, and calendar usability refinements */
+body.page-schedule .schedule-last-updated{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  margin:12px 0 0;
+  padding:7px 11px;
+  border:1px solid var(--border);
+  border-radius:999px;
+  background:var(--soft-bg);
+  color:var(--muted);
+  font-size:.7rem;
+  font-weight:800;
+  line-height:1.3;
+}
+body.page-schedule .schedule-last-updated::before{
+  content:"";
+  width:7px;
+  height:7px;
+  flex:0 0 7px;
+  border-radius:50%;
+  background:var(--pink);
+  box-shadow:0 0 0 3px rgba(255,95,165,.13);
+}
+body.page-schedule .schedule-list-head{
+  align-items:flex-end;
+  gap:16px;
+}
+body.page-schedule .schedule-view-actions{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  gap:8px;
+}
+body.page-schedule .schedule-view-button{
+  appearance:none;
+  min-height:38px;
+  padding:8px 13px;
+  border:1px solid var(--border);
+  border-radius:999px;
+  background:var(--soft-bg);
+  color:var(--muted);
+  font:inherit;
+  font-size:.69rem;
+  font-weight:900;
+  cursor:pointer;
+  transition:border-color .2s ease,background .2s ease,color .2s ease,transform .2s ease;
+}
+body.page-schedule .schedule-view-button:hover,
+body.page-schedule .schedule-view-button:focus-visible{
+  border-color:rgba(255,111,174,.72);
+  color:var(--text);
+  transform:translateY(-1px);
+}
+body.page-schedule .schedule-view-button.active{
+  border-color:transparent;
+  background:linear-gradient(135deg,var(--pink),var(--purple));
+  color:#fff;
+  box-shadow:0 7px 18px rgba(255,87,157,.2);
+}
+body.page-schedule button.calendar-day{
+  appearance:none;
+  width:100%;
+  color:var(--text);
+  font:inherit;
+  text-align:left;
+  cursor:pointer;
+  border-radius:0;
+  transition:background .18s ease,border-color .18s ease,box-shadow .18s ease,transform .18s ease;
+}
+body.page-schedule button.calendar-day:hover,
+body.page-schedule button.calendar-day:focus-visible{
+  z-index:2;
+  border-color:rgba(255,111,174,.72);
+  background:rgba(255,111,174,.09);
+  box-shadow:inset 0 0 0 1px rgba(255,111,174,.28);
+  outline:none;
+}
+body.page-schedule button.calendar-day.is-selected{
+  z-index:3;
+  border-color:var(--pink);
+  background:linear-gradient(145deg,rgba(255,111,174,.18),rgba(174,126,255,.13));
+  box-shadow:inset 0 0 0 2px rgba(255,111,174,.52),0 8px 22px rgba(255,71,151,.13);
+}
+body.page-schedule .calendar-events{display:block}
+
+/* Music-show cards: retain all information in a denser layout. */
+body.page-music-show-wins .record-win-card{
+  grid-template-columns:minmax(200px,.62fr) minmax(0,1.38fr);
+}
+body.page-music-show-wins .record-win-image{min-height:250px}
+body.page-music-show-wins .record-win-copy{padding:20px 24px}
+body.page-music-show-wins .record-win-meta{gap:8px;font-size:.66rem}
+body.page-music-show-wins .record-win-meta .wins-number{width:36px;height:36px;border-radius:11px}
+body.page-music-show-wins .record-win-copy h2{margin:13px 0 6px;font-size:clamp(1.18rem,2.4vw,1.65rem)}
+body.page-music-show-wins .record-win-copy>p{font-size:.75rem;line-height:1.65}
+body.page-music-show-wins .win-detail-grid{gap:8px;margin:15px 0}
+body.page-music-show-wins .win-detail{padding:9px 10px;border-radius:11px}
+body.page-music-show-wins .win-detail small{font-size:.54rem}
+body.page-music-show-wins .win-detail strong{margin-top:3px;font-size:.76rem;line-height:1.35}
+body.page-music-show-wins .win-detail-score{
+  border:0;
+  background:transparent;
+  box-shadow:none;
+  padding-left:1px;
+  padding-right:1px;
+}
+body.page-music-show-wins .win-actions{margin-top:2px}
+body.page-music-show-wins .win-actions .btn{min-height:38px;padding:9px 14px;font-size:.7rem}
+
+/* Melon song records: same content, less vertical and horizontal bulk. */
+body.page-melon-records .melon-record-list{gap:11px}
+body.page-melon-records .melon-record-card{
+  grid-template-columns:44px 104px minmax(0,1fr) minmax(190px,.48fr);
+  gap:14px;
+  padding:12px 15px;
+}
+body.page-melon-records .melon-record-index{width:38px;height:38px;border-radius:12px;font-size:.78rem}
+body.page-melon-records .melon-record-art{border-radius:13px}
+body.page-melon-records .melon-record-copy small{font-size:.54rem}
+body.page-melon-records .melon-record-copy h2{margin:4px 0 5px;font-size:1.02rem}
+body.page-melon-records .melon-record-copy p{font-size:.68rem;line-height:1.5}
+body.page-melon-records .record-inline-link{margin-top:7px;font-size:.68rem}
+body.page-melon-records .record-link-pending{min-height:30px;font-size:.66rem}
+body.page-melon-records .melon-rank-grid{gap:7px}
+body.page-melon-records .melon-rank-grid>div{padding:9px 8px;border-radius:11px}
+body.page-melon-records .melon-rank-grid dt{font-size:.53rem}
+body.page-melon-records .melon-rank-grid dd{margin-top:4px;font-size:1.02rem}
+
+@media(max-width:960px){
+  body.page-melon-records .melon-record-card{grid-template-columns:42px 92px minmax(0,1fr);gap:12px}
+  body.page-melon-records .melon-rank-grid{grid-column:2/-1}
+}
+@media(max-width:719px){
+  body.page-schedule .schedule-list-head{align-items:flex-start}
+  body.page-schedule .schedule-view-actions{width:100%;justify-content:flex-start}
+  body.page-schedule .calendar-events{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:3px;
+    margin-top:5px;
+  }
+  body.page-schedule .calendar-event,
+  body.page-schedule .calendar-event + .calendar-event{
+    display:block;
+    width:8px;
+    height:8px;
+    margin:0;
+    padding:0!important;
+    border:0!important;
+    border-radius:50%;
+    background:var(--category-color,var(--pink))!important;
+    color:transparent!important;
+    box-shadow:0 0 0 1px rgba(255,255,255,.22),0 2px 5px rgba(0,0,0,.42);
+  }
+  html.light-mode body.page-schedule .calendar-event,
+  html.light-mode body.page-schedule .calendar-event + .calendar-event{
+    box-shadow:0 0 0 1px rgba(30,18,42,.22),0 2px 4px rgba(48,28,64,.22);
+  }
+  body.page-music-show-wins .record-win-card{grid-template-columns:1fr}
+  body.page-music-show-wins .record-win-image{min-height:0;aspect-ratio:16/9}
+  body.page-music-show-wins .record-win-copy{padding:18px}
+  body.page-melon-records .melon-record-card{grid-template-columns:40px 80px minmax(0,1fr);gap:10px;padding:12px}
+  body.page-melon-records .melon-rank-grid{grid-column:1/-1}
+}
+@media(max-width:440px){
+  body.page-schedule .schedule-view-button{flex:1;min-width:0;padding-inline:10px}
+  body.page-melon-records .melon-record-card{grid-template-columns:38px minmax(0,1fr)}
+  body.page-melon-records .melon-record-art{grid-row:2;grid-column:1/-1;aspect-ratio:16/8}
+  body.page-melon-records .melon-record-copy{grid-column:2}
+  body.page-melon-records .melon-rank-grid{grid-column:1/-1}
+}

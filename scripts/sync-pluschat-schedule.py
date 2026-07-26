@@ -245,12 +245,6 @@ def build_event(
         "-",
         f"pluschat-{date_value}-{stable_time}-{original_title}".lower(),
     ).strip("-")
-    description_parts = ["Plus Chat公式スケジュールから自動取得"]
-    if original_title != translated_title:
-        description_parts.append(f"原文: {original_title}")
-    if translation_status in {"partial", "original"}:
-        description_parts.append("一部は公式の原文表記です。")
-
     return Event(
         id=event_id[:180],
         title=translated_title,
@@ -262,7 +256,7 @@ def build_event(
         allDay=all_day,
         category=category,
         type=event_type(category),
-        description="\n".join(description_parts),
+        description="",
         link=source_url,
         linkLabel="Plus Chat公式スケジュールで確認",
         image="",

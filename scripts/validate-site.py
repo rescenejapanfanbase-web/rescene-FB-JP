@@ -214,7 +214,7 @@ def validate_json_js_pairs() -> None:
         ("data/mv.json", "data/mv-data.js", None),
         ("data/news.json", "data/news-data.js", "news"),
         ("data/official-links.json", "data/official-links-data.js", None),
-        ("data/schedule.json", "data/schedule-data.js", "events"),
+        ("data/schedule.json", "data/schedule-data.js", None),
         ("data/streaming-guide.json", "data/streaming-guide-data.js", None),
         ("data/voting-guide.json", "data/voting-guide-data.js", None),
     ]

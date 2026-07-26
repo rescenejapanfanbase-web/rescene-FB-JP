@@ -15,7 +15,7 @@ const esc = (value) => String(value ?? "")
   .replaceAll('"', "&quot;")
   .replaceAll("'", "&#39;");
 const dateJa = (value) => value ? String(value).slice(0, 10).replaceAll("-", ".") : "未入力";
-const rank = (value) => Number.isFinite(Number(value)) && Number(value) > 0 ? `#${Number(value)}` : "未入力";
+const rank = (value) => Number.isFinite(Number(value)) && Number(value) > 0 ? `#${Number(value)}` : "-";
 const safeLink = (url) => /^https?:\/\//i.test(String(url || "")) ? String(url) : "";
 const safeImage = (value, fallback) => {
   const image = String(value || "").trim().replace(/^\/+/, "");
@@ -73,8 +73,8 @@ const winList = wins.length ? `<div class="wins-list">${[...wins].reverse().map(
     <div class="record-win-image"><img src="${esc(image)}" alt="${esc(item.song || item.title)}が${esc(item.program || "音楽番組")}で1位を獲得した際の画像" loading="lazy"></div>
     <div class="record-win-copy"><div class="record-win-meta"><span class="wins-number">${String(wins.length - index).padStart(2, "0")}</span><time datetime="${esc(item.date)}">${esc(dateJa(item.date))}</time><span class="badge">${esc(item.program || "MUSIC SHOW")}</span></div>
     <h2>${esc(item.song || item.title)}</h2><p>${esc(item.description || "音楽番組で1位を獲得しました。")}</p>
-    <div class="win-detail-grid"><div class="win-detail"><small>PROGRAM</small><strong>${esc(item.program || "未入力")}</strong></div><div class="win-detail"><small>DATE</small><strong>${esc(dateJa(item.date))}</strong></div><div class="win-detail"><small>SCORE</small><strong>${esc(item.score || "未入力")}</strong></div><div class="win-detail"><small>SONG</small><strong>${esc(item.song || "未入力")}</strong></div></div>
-    <div class="win-actions">${video ? `<a class="btn btn-primary" href="${esc(video)}" target="_blank" rel="noopener noreferrer">1位獲得時の映像を見る ↗</a>` : '<span class="record-link-pending">映像リンクはNotionから追加できます</span>'}</div></div>
+    <div class="win-detail-grid"><div class="win-detail"><small>PROGRAM</small><strong>${esc(item.program || "未入力")}</strong></div><div class="win-detail"><small>DATE</small><strong>${esc(dateJa(item.date))}</strong></div><div class="win-detail win-detail-score"><small>SCORE</small><strong>${esc(item.score || "-")}</strong></div><div class="win-detail"><small>SONG</small><strong>${esc(item.song || "未入力")}</strong></div></div>
+    ${video ? `<div class="win-actions"><a class="btn btn-primary" href="${esc(video)}" target="_blank" rel="noopener noreferrer">${esc(item.videoLabel || "映像を見る")} ↗</a></div>` : ""}</div>
   </article>`;
 }).join("\n")}</div>` : '<div class="card record-empty">公開中の音楽番組1位記録はまだありません。</div>';
 

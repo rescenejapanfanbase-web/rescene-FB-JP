@@ -1,5 +1,13 @@
 (()=>{
   'use strict';
+
+  const commonScript=document.currentScript||[...document.scripts].find(item=>/\/js\/common\.js(?:\?|$)/.test(item.src));
+  if(commonScript&&!document.querySelector('script[data-rescene-i18n]')){
+    const languageScript=document.createElement('script');
+    languageScript.src=new URL('./i18n.js',commonScript.src).href;
+    languageScript.dataset.resceneI18n='true';
+    document.head.appendChild(languageScript);
+  }
   const root=document.documentElement;
   const menu=document.getElementById('mobileMenu');
   const menuButton=document.getElementById('hamburger');
