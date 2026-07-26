@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-07-25T17:38:52.037Z",
+  "generatedAt": "2026-07-26T02:35:57.676Z",
   "source": "notion",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -116,7 +116,7 @@ window.RESCENE_RECORDS = {
       "releaseDate": "2026-02-27",
       "top100Peak": null,
       "dailyPeak": 301,
-      "description": "",
+      "description": "グローバル音楽プロジェクト「AA Project」の第1弾楽曲として2026年2月27日にリリースされた。",
       "mvUrl": "https://youtu.be/ewubELWBMaE?si=pnQm7GBm9MktYtsb",
       "image": "assets/records/notion/record-3a8229d219da8097beecea67178a4a85-e7d78b212458.jpg",
       "order": 9999,
