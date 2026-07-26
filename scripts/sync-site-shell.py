@@ -31,6 +31,7 @@ def render(template:str,prefix:str,replacements:dict[str,str]|None=None)->str:
 def app_head(prefix:str)->str:
     return f'''{APP_HEAD_START}
 <link rel="manifest" href="{prefix}manifest.webmanifest">
+<link rel="stylesheet" href="{prefix}css/notion-theme.css">
 <link rel="icon" type="image/png" sizes="192x192" href="{prefix}assets/icons/app-icon-192.png">
 <link rel="apple-touch-icon" href="{prefix}assets/icons/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">

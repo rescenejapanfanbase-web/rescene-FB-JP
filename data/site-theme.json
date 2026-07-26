@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-07-26T00:00:00.000Z",
+  "source": "default-until-first-notion-sync",
+  "theme": {
+    "name": "RESCENE Pink",
+    "background": "#120c16",
+    "background2": "#20121f",
+    "card": "#2a1727",
+    "card2": "#341b30",
+    "primary": "#ff6fae",
+    "primarySoft": "#ff9bc7",
+    "secondary": "#c8a4ff",
+    "accent": "#8fe3ca",
+    "blue": "#8ec9ff",
+    "text": "#fff9fc",
+    "muted": "#d4b7c8",
+    "lightBackground": "#fff7fb",
+    "lightCard": "#ffffff",
+    "lightText": "#2f1a29"
+  }
+}
