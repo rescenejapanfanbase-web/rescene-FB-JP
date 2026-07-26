@@ -1,14 +1,24 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-07-26T02:36:29.319553+00:00",
+  "generatedAt": "2026-07-26T03:25:09.013006+00:00",
   "items": [
+    {
+      "date": "2026-07-26",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "dfb7100",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
     {
       "date": "2026-07-26",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "f16b708",
+      "commit": "0a4b298",
       "files": [
         ".github/workflows/sync-all-content.yml",
-        ".github/workflows/sync-notion.yml"
+        ".github/workflows/sync-notion.yml",
+        ".github/workflows/sync-schedule.yml"
       ]
     },
     {
@@ -27,15 +37,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "275d656",
       "files": [
         "scripts/sync-pluschat-schedule.py"
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "0a8b134",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {
