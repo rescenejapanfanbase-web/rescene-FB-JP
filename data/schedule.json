@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-26T03:22:47.619Z",
+  "generatedAt": "2026-07-26T04:39:19.055Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
     "notion": 40,
-    "plusChatAvailable": 45,
-    "plusChatAdded": 25,
+    "plusChatAvailable": 46,
+    "plusChatAdded": 26,
     "plusChatDuplicates": 20
   },
-  "plusChatGeneratedAt": "2026-07-26T03:22:47Z",
+  "plusChatGeneratedAt": "2026-07-26T04:39:18Z",
   "events": [
     {
       "id": "39d229d2-19da-800c-94bb-c8304114547b",
@@ -891,6 +891,25 @@
       "end": "",
       "allDay": false,
       "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/07",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-07"
+    },
+    {
+      "id": "pluschat-2026-07-26-1510-sbs",
+      "title": "SBS「人気歌謡」出演",
+      "originalTitle": "SBS <인기가요>",
+      "translationStatus": "exact",
+      "date": "2026-07-26",
+      "start": "2026-07-26T15:10:00+09:00",
+      "end": "",
+      "allDay": false,
+      "category": "音楽番組",
       "type": "event",
       "description": "",
       "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/07",
