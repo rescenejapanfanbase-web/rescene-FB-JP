@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-07-26T15:48:22Z",
+  "generatedAt": "2026-07-27T01:45:43Z",
   "sourceFiles": 276,
   "uniqueImages": 180,
   "optimizedImages": 267,
@@ -56,7 +56,7 @@
   "estimatedSavedBytes": 75286103,
   "estimatedSavingPercent": 72.8,
   "generatedStorageBytes": 30384280,
-  "removedOrphans": 0,
+  "removedOrphans": 3,
   "misplacedGeneratedFilesRemoved": 0,
   "misplacedGeneratedDirectoriesRemoved": 0,
   "notes": [

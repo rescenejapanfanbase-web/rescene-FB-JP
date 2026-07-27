@@ -1,11 +1,21 @@
 {
-  "generatedAt": "2026-07-26T10:25:24.916611+00:00",
+  "generatedAt": "2026-07-27T01:45:36.105334+00:00",
   "items": [
+    {
+      "date": "2026-07-27",
+      "title": "Add files via upload",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "ec2088a",
+      "files": [
+        "scripts/generate-pwa.py",
+        "scripts/sync-notion-homepage.mjs"
+      ]
+    },
     {
       "date": "2026-07-26",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "adea058",
+      "commit": "9192d44",
       "files": [
         "data/external-link-report.json"
       ]
@@ -28,15 +38,6 @@
       "commit": "af40772",
       "files": [
         "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-07-25",
-      "title": "Add files via upload",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "275d656",
-      "files": [
-        "scripts/sync-pluschat-schedule.py"
       ]
     },
     {

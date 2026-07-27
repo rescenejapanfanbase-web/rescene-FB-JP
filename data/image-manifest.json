@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-07-26T15:48:22Z",
+  "generatedAt": "2026-07-27T01:45:43Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -58,32 +58,32 @@
       ],
       "default": "assets/optimized/3a498f1607257e1a/rescene-group-w1440.webp"
     },
-    "assets/home/notion/hero.jpg": {
+    "assets/home/notion/hero-2c5d1bf7baf0.jpg": {
       "asset": "2c5d1bf7baf082a9",
       "originalBytes": 421000,
       "width": 1536,
       "height": 2048,
       "variants": [
         {
-          "src": "assets/optimized/2c5d1bf7baf082a9/hero-w480.webp",
+          "src": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w480.webp",
           "width": 480,
           "height": 640,
           "bytes": 57970
         },
         {
-          "src": "assets/optimized/2c5d1bf7baf082a9/hero-w768.webp",
+          "src": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w768.webp",
           "width": 768,
           "height": 1024,
           "bytes": 115284
         },
         {
-          "src": "assets/optimized/2c5d1bf7baf082a9/hero-w1440.webp",
+          "src": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w1440.webp",
           "width": 1440,
           "height": 1920,
           "bytes": 283374
         }
       ],
-      "default": "assets/optimized/2c5d1bf7baf082a9/hero-w1440.webp"
+      "default": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w1440.webp"
     },
     "assets/icons/app-icon-512.png": {
       "asset": "5e864561ff2e5bcd",
@@ -7480,26 +7480,26 @@
       "quality": 84,
       "variants": [
         {
-          "src": "assets/optimized/2c5d1bf7baf082a9/hero-w480.webp",
+          "src": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w480.webp",
           "width": 480,
           "height": 640,
           "bytes": 57970
         },
         {
-          "src": "assets/optimized/2c5d1bf7baf082a9/hero-w768.webp",
+          "src": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w768.webp",
           "width": 768,
           "height": 1024,
           "bytes": 115284
         },
         {
-          "src": "assets/optimized/2c5d1bf7baf082a9/hero-w1440.webp",
+          "src": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w1440.webp",
           "width": 1440,
           "height": 1920,
           "bytes": 283374
         }
       ],
       "skippedWidths": [],
-      "default": "assets/optimized/2c5d1bf7baf082a9/hero-w1440.webp"
+      "default": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w1440.webp"
     },
     "2fe0561e69f915c3": {
       "hash": "2fe0561e69f915c300fa2142e58b2276f1f73f9c8a2a5ca18baec093b766cc1b",
