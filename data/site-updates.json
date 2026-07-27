@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T01:45:36.105334+00:00",
+  "generatedAt": "2026-07-27T21:51:21.336257+00:00",
   "items": [
     {
       "date": "2026-07-27",
@@ -29,15 +29,6 @@
         "NOTION-SITE-THEME-GUIDE.txt",
         "NOTION-SITE-THEME-PERMISSION-FIX.txt",
         "scripts/sync-notion-homepage.mjs"
-      ]
-    },
-    {
-      "date": "2026-07-25",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "af40772",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {
