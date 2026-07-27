@@ -1,5 +1,6 @@
 import { mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import { extname, join } from "node:path";
+import { createHash } from "node:crypto";
 
 const token = process.env.NOTION_TOKEN;
 const dataSourceId = process.env.NOTION_HOMEPAGE_DATA_SOURCE_ID || "1a98fbc6-21d6-4a11-8ed9-19b228250182";
@@ -66,10 +67,19 @@ function extensionFrom(name, contentType, url) {
 async function readBytes(path) { try { return await readFile(path); } catch { return null; } }
 async function saveImage(file, slug) {
   if (!file?.url || !/^https?:\/\//i.test(file.url)) return "";
-  const response = await fetch(file.url, { redirect: "follow" }); if (!response.ok) throw new Error(`ホーム画像取得失敗 ${response.status}: ${file.url}`);
-  const bytes = Buffer.from(await response.arrayBuffer()); const extension = extensionFrom(file.name, response.headers.get("content-type"), file.url); await mkdir(imageDirectory, { recursive: true });
-  const path = join(imageDirectory, `${slug}${extension}`); const previous = await readBytes(path); if (!previous || !previous.equals(bytes)) await writeFile(path, bytes);
-  for (const otherExtension of [".jpg", ".png", ".webp"]) { const other = join(imageDirectory, `${slug}${otherExtension}`); if (other !== path) await unlink(other).catch(() => {}); }
+  const response = await fetch(file.url, { redirect: "follow", cache: "no-store" });
+  if (!response.ok) throw new Error(`ホーム画像取得失敗 ${response.status}: ${file.url}`);
+  const bytes = Buffer.from(await response.arrayBuffer());
+  if (!bytes.length) throw new Error(`ホーム画像取得失敗: 空の画像データです (${slug})`);
+  const extension = extensionFrom(file.name, response.headers.get("content-type"), file.url);
+  const digest = createHash("sha256").update(bytes).digest("hex").slice(0, 12);
+  await mkdir(imageDirectory, { recursive: true });
+  // 画像内容のハッシュをファイル名へ含め、同じ「画像」セルを差し替えた場合も
+  // ブラウザ・PWA・CDNの古いキャッシュを確実に回避する。
+  const path = join(imageDirectory, `${slug}-${digest}${extension}`);
+  const previous = await readBytes(path);
+  if (!previous || !previous.equals(bytes)) await writeFile(path, bytes);
+  console.log(`ホーム画像保存: ${slug} -> ${path.replaceAll("\\", "/")} (${bytes.length} bytes / ${digest})`);
   return path.replaceAll("\\", "/");
 }
 async function convertPage(page) {
@@ -80,7 +90,11 @@ async function convertPage(page) {
   const pageSuffix = String(page.id || "").replaceAll("-", "").slice(-8) || "item";
   const slug = anchor || `${safeSlug(title, page.id)}-${pageSuffix}`;
   const upload = notionFile(properties["画像"]);
-  const image = upload?.url ? await saveImage(upload, slug) : propertyText(properties["画像パス"]);
+  const imagePathFallback = propertyText(properties["画像パス"]);
+  const image = upload?.url ? await saveImage(upload, slug) : imagePathFallback;
+  if (title === "ホームヒーロー") {
+    console.log(`ホームヒーロー画像: ${upload?.url ? "Notionの画像を使用" : imagePathFallback ? "画像パスを使用" : "画像なし"} -> ${image || "(空)"}`);
+  }
   return { slug, title, type: properties["種類"]?.select?.name ?? "ページ設定", englishLabel: propertyText(properties["英語ラベル"]), heading: propertyText(properties["見出し"]), description: propertyText(properties["説明"]), note: propertyText(properties["補足"]), number: propertyText(properties["番号"]), value: propertyText(properties["値"]), subLabel: propertyText(properties["サブラベル"]), buttonLabel: propertyText(properties["ボタン文言"]), linkUrl: propertyText(properties["リンクURL"]), secondaryButtonLabel: propertyText(properties["追加ボタン文言"]), secondaryLinkUrl: propertyText(properties["追加リンクURL"]), thirdButtonLabel: propertyText(properties["第3ボタン文言"]), thirdLinkUrl: propertyText(properties["第3リンクURL"]), image, icon: propertyText(properties["アイコン"]), anchor, order: properties["表示順"]?.number ?? 9999, notionPageId: page.id, notionUrl: page.url ?? "" };
 }
 async function readJson(path, fallback) { try { return JSON.parse(await readFile(path, "utf8")); } catch { return fallback; } }
