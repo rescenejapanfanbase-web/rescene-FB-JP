@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-07-27T01:45:43Z",
+  "generatedAt": "2026-07-27T10:36:17Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -58,32 +58,32 @@
       ],
       "default": "assets/optimized/3a498f1607257e1a/rescene-group-w1440.webp"
     },
-    "assets/home/notion/hero-2c5d1bf7baf0.jpg": {
-      "asset": "2c5d1bf7baf082a9",
-      "originalBytes": 421000,
-      "width": 1536,
-      "height": 2048,
+    "assets/home/notion/hero-407e64a5378f.jpg": {
+      "asset": "407e64a5378f7401",
+      "originalBytes": 2063418,
+      "width": 3277,
+      "height": 4096,
       "variants": [
         {
-          "src": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w480.webp",
+          "src": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w480.webp",
           "width": 480,
-          "height": 640,
-          "bytes": 57970
+          "height": 600,
+          "bytes": 48978
         },
         {
-          "src": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w768.webp",
+          "src": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w768.webp",
           "width": 768,
-          "height": 1024,
-          "bytes": 115284
+          "height": 960,
+          "bytes": 97082
         },
         {
-          "src": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w1440.webp",
+          "src": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w1440.webp",
           "width": 1440,
-          "height": 1920,
-          "bytes": 283374
+          "height": 1800,
+          "bytes": 295900
         }
       ],
-      "default": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w1440.webp"
+      "default": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w1440.webp"
     },
     "assets/icons/app-icon-512.png": {
       "asset": "5e864561ff2e5bcd",
@@ -7471,36 +7471,6 @@
       ],
       "default": "assets/optimized/2b9e76d19c189832/app-icon-maskable-512-w480.webp"
     },
-    "2c5d1bf7baf082a9": {
-      "hash": "2c5d1bf7baf082a9a72ea7d2fe45525c1f993a55c4e23facb685d815b6a19ea7",
-      "width": 1536,
-      "height": 2048,
-      "format": "jpg",
-      "alpha": false,
-      "quality": 84,
-      "variants": [
-        {
-          "src": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w480.webp",
-          "width": 480,
-          "height": 640,
-          "bytes": 57970
-        },
-        {
-          "src": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w768.webp",
-          "width": 768,
-          "height": 1024,
-          "bytes": 115284
-        },
-        {
-          "src": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w1440.webp",
-          "width": 1440,
-          "height": 1920,
-          "bytes": 283374
-        }
-      ],
-      "skippedWidths": [],
-      "default": "assets/optimized/2c5d1bf7baf082a9/hero-2c5d1bf7baf0-w1440.webp"
-    },
     "2fe0561e69f915c3": {
       "hash": "2fe0561e69f915c300fa2142e58b2276f1f73f9c8a2a5ca18baec093b766cc1b",
       "width": 1886,
@@ -7792,6 +7762,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/3ef44937192567b6/muniverse-earn-1-w1179.webp"
+    },
+    "407e64a5378f7401": {
+      "hash": "407e64a5378f7401edc311d2d7dca4779dbb675b10a693c86364d3e3c77e2932",
+      "width": 3277,
+      "height": 4096,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 48978
+        },
+        {
+          "src": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w768.webp",
+          "width": 768,
+          "height": 960,
+          "bytes": 97082
+        },
+        {
+          "src": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w1440.webp",
+          "width": 1440,
+          "height": 1800,
+          "bytes": 295900
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w1440.webp"
     },
     "4084253b26b5693b": {
       "hash": "4084253b26b5693bae8a22aa27eeee5f598165daae432b67958f62a6229c2026",
