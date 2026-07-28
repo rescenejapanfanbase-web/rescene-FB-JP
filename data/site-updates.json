@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-07-27T21:51:21.336257+00:00",
+  "generatedAt": "2026-07-28T07:48:49.078577+00:00",
   "items": [
+    {
+      "date": "2026-07-28",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "35c1653",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
     {
       "date": "2026-07-27",
       "title": "Add files via upload",

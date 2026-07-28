@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-07-26T10:25:24.974Z",
+  "generatedAt": "2026-07-28T07:48:49.145Z",
   "source": "git-history",
   "guides": [
+    {
+      "key": "voting",
+      "title": "投票ガイド",
+      "summary": "音楽番組の投票方法、アプリ、スコア配分を確認できます。",
+      "url": "voting.html",
+      "category": "VOTING",
+      "updatedAt": "2026-07-28T07:48:49.145Z",
+      "commit": "17d7462"
+    },
     {
       "key": "chants",
       "title": "掛け声ガイド",
@@ -37,15 +46,6 @@
       "category": "STREAMING",
       "updatedAt": "2026-07-21T15:46:39Z",
       "commit": "ba9fff6"
-    },
-    {
-      "key": "voting",
-      "title": "投票ガイド",
-      "summary": "音楽番組の投票方法、アプリ、スコア配分を確認できます。",
-      "url": "voting.html",
-      "category": "VOTING",
-      "updatedAt": "2026-07-20T06:12:07Z",
-      "commit": "17d7462"
     },
     {
       "key": "discography",

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-07-27T10:36:17Z",
+  "generatedAt": "2026-07-28T07:48:56Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -2727,6 +2727,21 @@
         }
       ],
       "default": "assets/optimized/80e99ff7ab1f3e7b/musiccore-score-w1440.webp"
+    },
+    "assets/voting/notion/icons/coogoong-40.jpg": {
+      "asset": "ab09e0ec14e2083b",
+      "originalBytes": 18691,
+      "width": 400,
+      "height": 400,
+      "variants": [
+        {
+          "src": "assets/optimized/ab09e0ec14e2083b/coogoong-40-w400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 10242
+        }
+      ],
+      "default": "assets/optimized/ab09e0ec14e2083b/coogoong-40-w400.webp"
     },
     "assets/voting/showchampion-score.png": {
       "asset": "07b17c8bb644b227",
@@ -10062,6 +10077,24 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/a6e0636b4a12daee/muniverse-earn-2-w1179.webp"
+    },
+    "ab09e0ec14e2083b": {
+      "hash": "ab09e0ec14e2083b0a5937489ed011a95bca79e380d995d87af0dcd66179ddbb",
+      "width": 400,
+      "height": 400,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/ab09e0ec14e2083b/coogoong-40-w400.webp",
+          "width": 400,
+          "height": 400,
+          "bytes": 10242
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/ab09e0ec14e2083b/coogoong-40-w400.webp"
     },
     "ac1da45f240557b4": {
       "hash": "ac1da45f240557b4ecc320e62b457b6e6aafa8f10bacb6a25cbe88ae44820d8b",

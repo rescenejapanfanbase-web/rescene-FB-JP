@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T06:12:07.829Z",
+  "generatedAt": "2026-07-28T07:48:43.770Z",
   "source": "notion",
   "dataSourceId": "8e870649-722b-45aa-9b0f-3da6d51b139b",
   "notionDatabaseUrl": "https://app.notion.com/p/db7689f9a5b2445fbe3fb9f7cd9a04de",
@@ -394,10 +394,10 @@
       "notionUrl": "https://app.notion.com/p/Mnet-Plus-3a3229d219da81a4ad35cacc805b9a05"
     },
     {
-      "title": "Fancast",
+      "title": "coogoong",
       "subtitle": "Music Bank",
       "description": "Music Bank",
-      "icon": "assets/voting/apps/fancast.png",
+      "icon": "assets/voting/notion/icons/coogoong-40.jpg",
       "tags": [
         "Hearts",
         "事前投票"
@@ -445,7 +445,7 @@
         "note": ""
       },
       "order": 40,
-      "notionUrl": "https://app.notion.com/p/Fancast-3a3229d219da81b292d4f08980e33589"
+      "notionUrl": "https://app.notion.com/p/coogoong-3a3229d219da81b292d4f08980e33589"
     },
     {
       "title": "Mubeat",
