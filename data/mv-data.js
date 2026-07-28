@@ -1,7 +1,7 @@
 window.RESCENE_MV = {
   "generatedAt": "2026-07-21T21:30:43.692Z",
   "source": "youtube+notion",
-  "youtubeGeneratedAt": "2026-07-27T22:40:01.893Z",
+  "youtubeGeneratedAt": "2026-07-28T13:57:49.180Z",
   "dataSourceId": "e85d399d-5506-4ab3-8355-e94325fbf5b1",
   "notionDatabaseUrl": "https://app.notion.com/p/5f26ec69338a46f1ad9a82e070e92ad9",
   "years": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T07:48:49.145Z",
+  "generatedAt": "2026-07-28T13:57:50.181Z",
   "source": "git-history",
   "guides": [
     {
@@ -8,8 +8,8 @@
       "summary": "音楽番組の投票方法、アプリ、スコア配分を確認できます。",
       "url": "voting.html",
       "category": "VOTING",
-      "updatedAt": "2026-07-28T07:48:49.145Z",
-      "commit": "17d7462"
+      "updatedAt": "2026-07-28T07:48:59Z",
+      "commit": "938369e"
     },
     {
       "key": "chants",
