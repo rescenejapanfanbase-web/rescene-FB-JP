@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-07-29T08:04:32.023Z",
+  "generatedAt": "2026-07-29T13:48:46.000Z",
   "source": "notion",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -126,8 +126,8 @@ window.RESCENE_RECORDS = {
       "releaseDate": "2025-07-02",
       "top100Peak": 7,
       "top100PeakDate": "2026-07-20",
-      "dailyPeak": 13,
-      "dailyPeakDate": "2026-07-27",
+      "dailyPeak": 12,
+      "dailyPeakDate": "2026-07-28",
       "description": "2026年7月6日に初めてTOP100に進入。リリースから約1年越しでの記録となった。MVは日本の東京都内で撮影された。",
       "mvUrl": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
       "image": "assets/records/notion/record-3a8229d219da808f8987fa4744ed3cd4-ca377427c398.jpg",
