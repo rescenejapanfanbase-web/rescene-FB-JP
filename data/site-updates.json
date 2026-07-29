@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-28T07:48:49.078577+00:00",
+  "generatedAt": "2026-07-29T08:04:40.377661+00:00",
   "items": [
     {
       "date": "2026-07-28",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "35c1653",
+      "commit": "600f34d",
       "files": [
         "data/external-link-report.json"
       ]
@@ -27,17 +27,6 @@
       "commit": "9192d44",
       "files": [
         "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "title": "Add files via upload",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "1125573",
-      "files": [
-        "NOTION-SITE-THEME-GUIDE.txt",
-        "NOTION-SITE-THEME-PERMISSION-FIX.txt",
-        "scripts/sync-notion-homepage.mjs"
       ]
     },
     {
