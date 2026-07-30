@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-30T00:07:41Z",
-  "startedAt": "2026-07-30T00:07:37Z",
-  "elapsedSeconds": 3.84,
+  "generatedAt": "2026-07-30T16:04:40Z",
+  "startedAt": "2026-07-30T16:04:36Z",
+  "elapsedSeconds": 3.98,
   "summary": {
-    "checked": 82,
-    "ok": 81,
-    "warning": 1,
+    "checked": 73,
+    "ok": 71,
+    "warning": 2,
     "broken": 0,
-    "hosts": 18
+    "hosts": 17
   },
   "services": [
     {
@@ -20,18 +20,26 @@
       "broken": 0
     },
     {
+      "key": "instagram",
+      "label": "Instagram",
+      "checked": 1,
+      "ok": 0,
+      "warning": 1,
+      "broken": 0
+    },
+    {
       "key": "other",
       "label": "analytics.google.com",
-      "checked": 4,
-      "ok": 4,
+      "checked": 3,
+      "ok": 3,
       "warning": 0,
       "broken": 0
     },
     {
       "key": "app-store",
       "label": "App Store",
-      "checked": 12,
-      "ok": 12,
+      "checked": 13,
+      "ok": 13,
       "warning": 0,
       "broken": 0
     },
@@ -56,14 +64,6 @@
       "label": "Google Play",
       "checked": 8,
       "ok": 8,
-      "warning": 0,
-      "broken": 0
-    },
-    {
-      "key": "instagram",
-      "label": "Instagram",
-      "checked": 1,
-      "ok": 1,
       "warning": 0,
       "broken": 0
     },
@@ -118,8 +118,8 @@
     {
       "key": "youtube",
       "label": "YouTube",
-      "checked": 17,
-      "ok": 17,
+      "checked": 8,
+      "ok": 8,
       "warning": 0,
       "broken": 0
     }
@@ -144,6 +144,29 @@
       ]
     },
     {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "warning",
+      "httpStatus": 429,
+      "message": "HTTP 429（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 54,
+          "label": "Instagram"
+        },
+        {
+          "file": "index.html",
+          "line": 142,
+          "label": "Instagram"
+        }
+      ]
+    },
+    {
       "url": "https://analytics.google.com/",
       "normalizedUrl": "https://analytics.google.com/",
       "finalUrl": "https://analytics.google.com/analytics/web/",
@@ -156,7 +179,7 @@
       "sources": [
         {
           "file": "analytics.html",
-          "line": 72,
+          "line": 51,
           "label": "Google Analyticsを開く ↗"
         }
       ]
@@ -176,6 +199,24 @@
           "file": "data/schedule.json",
           "line": 598,
           "label": "SHOW CHAMPION 出演"
+        }
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/app/id1556582179",
+      "normalizedUrl": "https://apps.apple.com/app/id1556582179",
+      "finalUrl": "https://apps.apple.com/app/id1556582179",
+      "service": "App Store",
+      "serviceKey": "app-store",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Appleの公開コンテンツを確認しました。",
+      "method": "apple-lookup",
+      "sources": [
+        {
+          "file": "fan-services.html",
+          "line": 76,
+          "label": "RESCENE bubbleを開く ↗"
         }
       ]
     },
@@ -220,7 +261,7 @@
         },
         {
           "file": "voting.html",
-          "line": 188,
+          "line": 167,
           "label": "App Store ↗"
         }
       ]
@@ -279,7 +320,7 @@
         },
         {
           "file": "voting.html",
-          "line": 185,
+          "line": 164,
           "label": "App Storeで開く ↗"
         }
       ]
@@ -302,7 +343,7 @@
         },
         {
           "file": "voting.html",
-          "line": 189,
+          "line": 168,
           "label": "App Store ↗"
         }
       ]
@@ -325,7 +366,7 @@
         },
         {
           "file": "voting.html",
-          "line": 191,
+          "line": 170,
           "label": "App Store ↗"
         }
       ]
@@ -348,7 +389,7 @@
         },
         {
           "file": "voting.html",
-          "line": 190,
+          "line": 169,
           "label": "App Store ↗"
         }
       ]
@@ -371,7 +412,7 @@
         },
         {
           "file": "voting.html",
-          "line": 186,
+          "line": 165,
           "label": "App Store ↗"
         }
       ]
@@ -394,7 +435,7 @@
         },
         {
           "file": "voting.html",
-          "line": 187,
+          "line": 166,
           "label": "App Store ↗"
         }
       ]
@@ -417,7 +458,7 @@
         },
         {
           "file": "voting.html",
-          "line": 192,
+          "line": 171,
           "label": "App Storeで開く ↗"
         }
       ]
@@ -440,7 +481,7 @@
         },
         {
           "file": "index.html",
-          "line": 164,
+          "line": 143,
           "label": "Apple Music"
         }
       ]
@@ -481,7 +522,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 128,
+          "line": 107,
           "label": "GitHubリポジトリ サイトファイルと更新履歴を確認 ↗"
         }
       ]
@@ -499,7 +540,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 128,
+          "line": 107,
           "label": "GitHub Actions一覧 すべての同期・チェック履歴を確認 ↗"
         }
       ]
@@ -517,7 +558,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 128,
+          "line": 107,
           "label": "バックアップ一覧 保存ZIPの作成履歴とArtifactを確認 ↗"
         }
       ]
@@ -535,7 +576,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 128,
+          "line": 107,
           "label": "Notion公開前プレビュー 非公開記事・予定と不足項目を限定Artifactで確認 ↗"
         }
       ]
@@ -553,7 +594,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 128,
+          "line": 107,
           "label": "公開前プレビュー PC・スマホのスクリーンショットとZIPを作成 ↗"
         }
       ]
@@ -571,7 +612,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 128,
+          "line": 107,
           "label": "緊急ロールバック 正常なコミットを新しい復元コミットとして反映 ↗"
         }
       ]
@@ -589,7 +630,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 128,
+          "line": 107,
           "label": "サイト統合同期 全データを取得・検査し、1コミットで公開 ↗"
         }
       ]
@@ -607,7 +648,7 @@
       "sources": [
         {
           "file": "mv-review.html",
-          "line": 69,
+          "line": 48,
           "label": "MV同期を実行 ↗"
         }
       ]
@@ -625,7 +666,7 @@
       "sources": [
         {
           "file": "sync-status.html",
-          "line": 128,
+          "line": 107,
           "label": "スケジュール同期 NotionとPlus Chatの予定を取得・統合して公開 ↗"
         }
       ]
@@ -648,7 +689,7 @@
         },
         {
           "file": "voting.html",
-          "line": 188,
+          "line": 167,
           "label": "Google Play ↗"
         }
       ]
@@ -671,7 +712,7 @@
         },
         {
           "file": "voting.html",
-          "line": 191,
+          "line": 170,
           "label": "Google Play ↗"
         }
       ]
@@ -694,7 +735,7 @@
         },
         {
           "file": "voting.html",
-          "line": 186,
+          "line": 165,
           "label": "Google Play ↗"
         }
       ]
@@ -717,7 +758,7 @@
         },
         {
           "file": "voting.html",
-          "line": 192,
+          "line": 171,
           "label": "Google Playで開く ↗"
         }
       ]
@@ -740,7 +781,7 @@
         },
         {
           "file": "voting.html",
-          "line": 189,
+          "line": 168,
           "label": "Google Play ↗"
         }
       ]
@@ -763,7 +804,7 @@
         },
         {
           "file": "voting.html",
-          "line": 185,
+          "line": 164,
           "label": "Google Playで開く ↗"
         }
       ]
@@ -786,7 +827,7 @@
         },
         {
           "file": "voting.html",
-          "line": 190,
+          "line": 169,
           "label": "Google Play ↗"
         }
       ]
@@ -809,31 +850,8 @@
         },
         {
           "file": "voting.html",
-          "line": 187,
+          "line": 166,
           "label": "Google Play ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 54,
-          "label": "Instagram"
-        },
-        {
-          "file": "index.html",
-          "line": 163,
-          "label": "Instagram"
         }
       ]
     },
@@ -855,7 +873,7 @@
         },
         {
           "file": "fan-services.html",
-          "line": 91,
+          "line": 70,
           "label": "RESCENE Communityを開く ↗"
         }
       ]
@@ -924,7 +942,7 @@
         },
         {
           "file": "goyang-ambassador.html",
-          "line": 84,
+          "line": 63,
           "label": "記事を見る ↗"
         }
       ]
@@ -957,7 +975,7 @@
         },
         {
           "file": "gyeongju-ambassador.html",
-          "line": 84,
+          "line": 63,
           "label": "記事を見る ↗"
         }
       ]
@@ -990,7 +1008,7 @@
         },
         {
           "file": "suwon-ambassador.html",
-          "line": 84,
+          "line": 63,
           "label": "記事を見る ↗"
         }
       ]
@@ -1023,7 +1041,7 @@
         },
         {
           "file": "geoje-ambassador.html",
-          "line": 84,
+          "line": 63,
           "label": "記事を見る ↗"
         }
       ]
@@ -1046,26 +1064,8 @@
         },
         {
           "file": "index.html",
-          "line": 164,
+          "line": 143,
           "label": "Spotify"
-        }
-      ]
-    },
-    {
-      "url": "https://store.dearu.com/STARS/home/startalk/PRO1713313189I2E1q/buying?currency=JPY&lang=jp",
-      "normalizedUrl": "https://store.dearu.com/STARS/home/startalk/PRO1713313189I2E1q/buying?currency=JPY&lang=jp",
-      "finalUrl": "https://store.dearu.com/STARS/home/startalk/PRO1713313189I2E1q/buying?currency=JPY&lang=jp",
-      "service": "store.dearu.com",
-      "serviceKey": "other",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "fan-services.html",
-          "line": 97,
-          "label": "RESCENE bubbleを開く ↗"
         }
       ]
     },
@@ -1087,7 +1087,7 @@
         },
         {
           "file": "index.html",
-          "line": 163,
+          "line": 142,
           "label": "TikTok"
         }
       ]
@@ -1095,7 +1095,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1785370060065&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1785427478944&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1156,7 +1156,7 @@
         },
         {
           "file": "love-attack-inkigayo-realtime-first.html",
-          "line": 84,
+          "line": 63,
           "label": "HIGHER公式Xで見る ↗"
         }
       ]
@@ -1207,7 +1207,7 @@
         },
         {
           "file": "fanbase-site.html",
-          "line": 83,
+          "line": 62,
           "label": "RESCENE JAPAN FANBASEのXを見る ↗"
         }
       ]
@@ -1240,7 +1240,7 @@
         },
         {
           "file": "second-anniversary-project.html",
-          "line": 84,
+          "line": 63,
           "label": "FANBASEの告知ポストを見る ↗"
         }
       ]
@@ -1281,7 +1281,7 @@
         },
         {
           "file": "index.html",
-          "line": 163,
+          "line": 142,
           "label": "Official X"
         }
       ]
@@ -1494,7 +1494,7 @@
         },
         {
           "file": "second-anniversary.html",
-          "line": 84,
+          "line": 63,
           "label": "RESCENE公式Xを見る ↗"
         }
       ]
@@ -1540,7 +1540,7 @@
         },
         {
           "file": "music-show-wins.html",
-          "line": 106,
+          "line": 78,
           "label": "メンバーのリアクションを見る ↗"
         }
       ]
@@ -1563,7 +1563,7 @@
         },
         {
           "file": "youtube.html",
-          "line": 146,
+          "line": 125,
           "label": "チャンネルを見る ↗"
         }
       ]
@@ -1591,12 +1591,12 @@
         },
         {
           "file": "index.html",
-          "line": 163,
+          "line": 142,
           "label": "YouTube"
         },
         {
           "file": "youtube.html",
-          "line": 145,
+          "line": 124,
           "label": "チャンネルを見る ↗"
         }
       ]
@@ -1629,26 +1629,8 @@
         },
         {
           "file": "melon-top100-first-number-one.html",
-          "line": 84,
+          "line": 63,
           "label": "記録達成後のYouTubeライブを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=9XttLI0oH0I",
-      "normalizedUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
-      "finalUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘LOVE ATTACK’ Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 109,
-          "label": "MVを見る ↗"
         }
       ]
     },
@@ -1680,12 +1662,12 @@
         },
         {
           "file": "music-show-wins.html",
-          "line": 116,
+          "line": 85,
           "label": "1位獲得時の映像を見る ↗"
         },
         {
           "file": "pretty-girl-first-music-show-win.html",
-          "line": 84,
+          "line": 63,
           "label": "THE K-POP公式動画を見る ↗"
         }
       ]
@@ -1703,25 +1685,25 @@
       "sources": [
         {
           "file": "melon-records.html",
-          "line": 160,
+          "line": 82,
           "label": "MVを見る ↗"
         }
       ]
     },
     {
-      "url": "https://youtu.be/B8JJ8RNM-60?si=5JXK-pjGyxuXXK08",
-      "normalizedUrl": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
-      "finalUrl": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
+      "url": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
+      "normalizedUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
+      "finalUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
       "service": "YouTube",
       "serviceKey": "youtube",
       "status": "ok",
       "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘Pinball’ Official MV。",
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Deja Vu' Official MV。",
       "method": "youtube-oembed",
       "sources": [
         {
           "file": "melon-records.html",
-          "line": 116,
+          "line": 76,
           "label": "MVを見る ↗"
         }
       ]
@@ -1750,96 +1732,6 @@
       ]
     },
     {
-      "url": "https://youtu.be/ByX8EZq8500?si=TDcAtQYY7ZHk94UI",
-      "normalizedUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
-      "finalUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Heart Drop' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 134,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/ewubELWBMaE?si=pnQm7GBm9MktYtsb",
-      "normalizedUrl": "https://www.youtube.com/watch?v=ewubELWBMaE",
-      "finalUrl": "https://www.youtube.com/watch?v=ewubELWBMaE",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE 'Busy Boy' Performance Video。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 147,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/h0xUtrb_JBc?si=UNDBzfK-ob-LTFPU",
-      "normalizedUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
-      "finalUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘Glow Up’ Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 122,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/MC6-82GRK5I?si=hN8SOErv9uwCwCW1",
-      "normalizedUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
-      "finalUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Bloom' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 141,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/rsZwrTNklos?si=hqlNsjBUYMLEhJIz",
-      "normalizedUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
-      "finalUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Runaway' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 153,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
       "url": "https://youtu.be/rzfjou7vPP0?si=3ne6BycHt-dLz3Uo",
       "normalizedUrl": "https://www.youtube.com/watch?v=rzfjou7vPP0",
       "finalUrl": "https://www.youtube.com/watch?v=rzfjou7vPP0",
@@ -1859,65 +1751,6 @@
           "file": "data/news.json",
           "line": 28,
           "label": "RESCENEが「LOVE ATTACK」で1位を獲得"
-        },
-        {
-          "file": "music-show-wins.html",
-          "line": 99,
-          "label": "1位獲得時の映像を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/uDYy2UyO1X4?si=Inb06PVBp2yeCxrE",
-      "normalizedUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
-      "finalUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘YoYo’ MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 97,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
-      "normalizedUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
-      "finalUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Deja Vu' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 128,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/zpSejlkSXLA?si=daHysJsrQ7m2CH13",
-      "normalizedUrl": "https://www.youtube.com/watch?v=zpSejlkSXLA",
-      "finalUrl": "https://www.youtube.com/watch?v=zpSejlkSXLA",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘UhUh’ MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 103,
-          "label": "MVを見る ↗"
         }
       ]
     }
