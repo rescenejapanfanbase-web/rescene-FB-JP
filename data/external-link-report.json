@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-30T16:04:40Z",
-  "startedAt": "2026-07-30T16:04:36Z",
-  "elapsedSeconds": 3.98,
+  "generatedAt": "2026-07-30T16:06:33Z",
+  "startedAt": "2026-07-30T16:06:12Z",
+  "elapsedSeconds": 21.03,
   "summary": {
     "checked": 73,
-    "ok": 71,
-    "warning": 2,
+    "ok": 70,
+    "warning": 3,
     "broken": 0,
     "hosts": 17
   },
@@ -22,6 +22,14 @@
     {
       "key": "instagram",
       "label": "Instagram",
+      "checked": 1,
+      "ok": 0,
+      "warning": 1,
+      "broken": 0
+    },
+    {
+      "key": "weibo",
+      "label": "Weibo",
       "checked": 1,
       "ok": 0,
       "warning": 1,
@@ -100,14 +108,6 @@
       "broken": 0
     },
     {
-      "key": "weibo",
-      "label": "Weibo",
-      "checked": 1,
-      "ok": 1,
-      "warning": 0,
-      "broken": 0
-    },
-    {
       "key": "x",
       "label": "X",
       "checked": 19,
@@ -163,6 +163,24 @@
           "file": "index.html",
           "line": 142,
           "label": "Instagram"
+        }
+      ]
+    },
+    {
+      "url": "https://weibo.com/rescene",
+      "normalizedUrl": "https://weibo.com/rescene",
+      "finalUrl": "https://weibo.com/rescene",
+      "service": "Weibo",
+      "serviceKey": "weibo",
+      "status": "warning",
+      "httpStatus": null,
+      "message": "一時的な通信エラー: [Errno 101] Network is unreachable",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 110,
+          "label": "Weibo"
         }
       ]
     },
@@ -499,7 +517,7 @@
       "sources": [
         {
           "file": "articles/rescene-2026-0c5361a8a6.html",
-          "line": 84,
+          "line": 63,
           "label": "ニュースを見る ↗"
         },
         {
@@ -927,7 +945,7 @@
       "sources": [
         {
           "file": "articles/goyang-ambassador.html",
-          "line": 84,
+          "line": 63,
           "label": "記事を見る ↗"
         },
         {
@@ -960,7 +978,7 @@
       "sources": [
         {
           "file": "articles/gyeongju-ambassador.html",
-          "line": 84,
+          "line": 63,
           "label": "記事を見る ↗"
         },
         {
@@ -993,7 +1011,7 @@
       "sources": [
         {
           "file": "articles/suwon-ambassador.html",
-          "line": 84,
+          "line": 63,
           "label": "記事を見る ↗"
         },
         {
@@ -1026,7 +1044,7 @@
       "sources": [
         {
           "file": "articles/geoje-ambassador.html",
-          "line": 84,
+          "line": 63,
           "label": "記事を見る ↗"
         },
         {
@@ -1093,24 +1111,6 @@
       ]
     },
     {
-      "url": "https://weibo.com/rescene",
-      "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1785427478944&sudaref=",
-      "service": "Weibo",
-      "serviceKey": "weibo",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 110,
-          "label": "Weibo"
-        }
-      ]
-    },
-    {
       "url": "https://www.tfmusicawards.com/",
       "normalizedUrl": "https://www.tfmusicawards.com/",
       "finalUrl": "https://www.tfmusicawards.com/",
@@ -1141,7 +1141,7 @@
       "sources": [
         {
           "file": "articles/love-attack-inkigayo-realtime-first.html",
-          "line": 84,
+          "line": 63,
           "label": "HIGHER公式Xで見る ↗"
         },
         {
@@ -1192,7 +1192,7 @@
       "sources": [
         {
           "file": "articles/fanbase-site.html",
-          "line": 83,
+          "line": 62,
           "label": "RESCENE JAPAN FANBASEのXを見る ↗"
         },
         {
@@ -1225,7 +1225,7 @@
       "sources": [
         {
           "file": "articles/second-anniversary-project.html",
-          "line": 84,
+          "line": 63,
           "label": "FANBASEの告知ポストを見る ↗"
         },
         {
@@ -1479,7 +1479,7 @@
       "sources": [
         {
           "file": "articles/second-anniversary.html",
-          "line": 84,
+          "line": 63,
           "label": "RESCENE公式Xを見る ↗"
         },
         {
@@ -1614,7 +1614,7 @@
       "sources": [
         {
           "file": "articles/melon-top100-first-number-one.html",
-          "line": 84,
+          "line": 63,
           "label": "記録達成後のYouTubeライブを見る ↗"
         },
         {
@@ -1647,7 +1647,7 @@
       "sources": [
         {
           "file": "articles/pretty-girl-first-music-show-win.html",
-          "line": 84,
+          "line": 63,
           "label": "THE K-POP公式動画を見る ↗"
         },
         {
@@ -1721,7 +1721,7 @@
       "sources": [
         {
           "file": "articles/rescene-7-4612133921.html",
-          "line": 84,
+          "line": 63,
           "label": "ニュース映像を見る ↗"
         },
         {
