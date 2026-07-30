@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-30T16:06:33Z",
-  "startedAt": "2026-07-30T16:06:12Z",
-  "elapsedSeconds": 21.03,
+  "generatedAt": "2026-07-30T16:45:07Z",
+  "startedAt": "2026-07-30T16:45:03Z",
+  "elapsedSeconds": 4.62,
   "summary": {
     "checked": 73,
-    "ok": 70,
-    "warning": 3,
+    "ok": 71,
+    "warning": 2,
     "broken": 0,
     "hosts": 17
   },
@@ -22,14 +22,6 @@
     {
       "key": "instagram",
       "label": "Instagram",
-      "checked": 1,
-      "ok": 0,
-      "warning": 1,
-      "broken": 0
-    },
-    {
-      "key": "weibo",
-      "label": "Weibo",
       "checked": 1,
       "ok": 0,
       "warning": 1,
@@ -108,6 +100,14 @@
       "broken": 0
     },
     {
+      "key": "weibo",
+      "label": "Weibo",
+      "checked": 1,
+      "ok": 1,
+      "warning": 0,
+      "broken": 0
+    },
+    {
       "key": "x",
       "label": "X",
       "checked": 19,
@@ -167,24 +167,6 @@
       ]
     },
     {
-      "url": "https://weibo.com/rescene",
-      "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://weibo.com/rescene",
-      "service": "Weibo",
-      "serviceKey": "weibo",
-      "status": "warning",
-      "httpStatus": null,
-      "message": "一時的な通信エラー: [Errno 101] Network is unreachable",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 110,
-          "label": "Weibo"
-        }
-      ]
-    },
-    {
       "url": "https://analytics.google.com/",
       "normalizedUrl": "https://analytics.google.com/",
       "finalUrl": "https://analytics.google.com/analytics/web/",
@@ -215,7 +197,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 598,
+          "line": 625,
           "label": "SHOW CHAMPION 出演"
         }
       ]
@@ -251,7 +233,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 515,
+          "line": 539,
           "label": "THE SHOW 出演"
         }
       ]
@@ -269,7 +251,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 360,
+          "line": 380,
           "label": "Music Bank 出演"
         },
         {
@@ -297,7 +279,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 311,
+          "line": 329,
           "label": "M COUNTDOWN 出演"
         }
       ]
@@ -315,7 +297,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 447,
+          "line": 469,
           "label": "人気歌謡 出演"
         }
       ]
@@ -909,7 +891,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 265,
+          "line": 281,
           "label": "「Pretty Girl」スペシャルシングル発売"
         }
       ]
@@ -927,7 +909,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 972,
+          "line": 1006,
           "label": "「2026 쿠팡플레이 시리즈」 하프타임 쇼"
         }
       ]
@@ -1111,6 +1093,24 @@
       ]
     },
     {
+      "url": "https://weibo.com/rescene",
+      "normalizedUrl": "https://weibo.com/rescene",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1785429906841&sudaref=",
+      "service": "Weibo",
+      "serviceKey": "weibo",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 110,
+          "label": "Weibo"
+        }
+      ]
+    },
+    {
       "url": "https://www.tfmusicawards.com/",
       "normalizedUrl": "https://www.tfmusicawards.com/",
       "finalUrl": "https://www.tfmusicawards.com/",
@@ -1123,7 +1123,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 1056,
+          "line": 1092,
           "label": "2026 THE FACT MUSIC AWARDS(TMA)"
         }
       ]
@@ -1174,7 +1174,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 988,
+          "line": 1022,
           "label": "KCON LA 2026"
         }
       ]
@@ -1317,7 +1317,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 37,
+          "line": 38,
           "label": "MAY HappyBirthday🎂"
         }
       ]
@@ -1335,7 +1335,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 52,
+          "line": 54,
           "label": "LIV HappyBirthday🎂"
         }
       ]
@@ -1353,7 +1353,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 67,
+          "line": 70,
           "label": "ZENA HappyBirthday🎂"
         }
       ]
@@ -1371,7 +1371,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 82,
+          "line": 86,
           "label": "MINAMI HappyBirthday🎂"
         }
       ]
@@ -1389,7 +1389,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 97,
+          "line": 102,
           "label": "WONI HappyBirthday🎂"
         }
       ]
@@ -1407,7 +1407,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 112,
+          "line": 118,
           "label": "MAY HappyBirthday🎂"
         }
       ]
@@ -1425,7 +1425,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 127,
+          "line": 134,
           "label": "LIV HappyBirthday🎂"
         }
       ]
@@ -1443,7 +1443,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 142,
+          "line": 150,
           "label": "ZENA HappyBirthday🎂"
         }
       ]
@@ -1461,7 +1461,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 157,
+          "line": 166,
           "label": "MINAMI HappyBirthday🎂"
         }
       ]
@@ -1512,7 +1512,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 217,
+          "line": 230,
           "label": "WONI HappyBirthday🎂"
         }
       ]
@@ -1530,7 +1530,7 @@
       "sources": [
         {
           "file": "articles/rescene-pretty-girl-1-8a4e50d816.html",
-          "line": 84,
+          "line": 63,
           "label": "メンバーのリアクションを見る ↗"
         },
         {
@@ -1744,7 +1744,7 @@
       "sources": [
         {
           "file": "articles/rescene-love-attack-1-e44b1f8e6e.html",
-          "line": 84,
+          "line": 63,
           "label": "1位獲得時の映像を見る ↗"
         },
         {
