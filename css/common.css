@@ -263,11 +263,11 @@ body.page-home .member-profile-meta strong{font-size:1rem;line-height:1.5}
 body.page-home .member-profile-note{padding:18px;border-radius:18px;background:linear-gradient(135deg,rgba(255,255,255,.05),rgba(255,255,255,.02));border:1px solid var(--border)}
 body.page-home .member-profile-note h3{margin:0 0 8px;font-size:1rem;color:var(--pink)}
 body.page-home .member-profile-note p{margin:0;color:var(--muted)}
-body.page-home .member-woni .member-color-chip,body.page-home .member-woni .badge{--chip:#79d98c}
-body.page-home .member-liv .member-color-chip,body.page-home .member-liv .badge{--chip:#202020}
-body.page-home .member-minami .member-color-chip,body.page-home .member-minami .badge{--chip:#4f8dff}
-body.page-home .member-may .member-color-chip,body.page-home .member-may .badge{--chip:#f4d04b}
-body.page-home .member-zena .member-color-chip,body.page-home .member-zena .badge{--chip:#9c72ff}
+body.page-home .member-woni .member-color-chip,body.page-home .member-woni .badge{--chip:var(--member-woni,#79d98c)}
+body.page-home .member-liv .member-color-chip,body.page-home .member-liv .badge{--chip:var(--member-liv,#2c2c35)}
+body.page-home .member-minami .member-color-chip,body.page-home .member-minami .badge{--chip:var(--member-minami,#4f8dff)}
+body.page-home .member-may .member-color-chip,body.page-home .member-may .badge{--chip:var(--member-may,#f4d04b)}
+body.page-home .member-zena .member-color-chip,body.page-home .member-zena .badge{--chip:var(--member-zena,#9c72ff)}
 body.page-home .hero-group-card{position:relative;padding:0;overflow:hidden;min-height:560px;background:#eeb8cb;border-color:rgba(255,110,169,.45)}
 body.page-home .hero-group-photo{position:absolute;inset:0}
 body.page-home .hero-group-photo img{width:100%;height:100%;display:block;object-fit:cover;object-position:center 38%;transition:transform .45s ease}
@@ -318,11 +318,11 @@ body.page-about .member-mini-meta strong{font-size:.95rem;line-height:1.45}
 body.page-about .member-profile-actions{display:flex;flex-wrap:wrap;gap:10px}
 body.page-about .member-role-badge{display:inline-flex;align-items:center;gap:8px;white-space:nowrap;padding:7px 12px;border-radius:999px;border:1px solid color-mix(in srgb,var(--chip) 50%, rgba(255,255,255,.18));background:color-mix(in srgb,var(--chip) 18%, rgba(255,255,255,.04));font-size:.72rem;font-weight:900;letter-spacing:.08em;color:var(--text)}
 body.page-about .member-role-badge::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--chip);flex:0 0 auto}
-body.page-about .member-profile-card[data-member="woni"]{--chip:#79d98c}
-body.page-about .member-profile-card[data-member="liv"]{--chip:#202020}
-body.page-about .member-profile-card[data-member="minami"]{--chip:#4f8dff}
-body.page-about .member-profile-card[data-member="may"]{--chip:#f4d04b}
-body.page-about .member-profile-card[data-member="zena"]{--chip:#9c72ff}
+body.page-about .member-profile-card[data-member="woni"]{--chip:var(--member-woni,#79d98c)}
+body.page-about .member-profile-card[data-member="liv"]{--chip:var(--member-liv,#2c2c35)}
+body.page-about .member-profile-card[data-member="minami"]{--chip:var(--member-minami,#4f8dff)}
+body.page-about .member-profile-card[data-member="may"]{--chip:var(--member-may,#f4d04b)}
+body.page-about .member-profile-card[data-member="zena"]{--chip:var(--member-zena,#9c72ff)}
 
 /* ==== members.html -> body.page-members (base) ==== */
 body.page-members .member-profile-card{display:grid;grid-template-columns:1fr;align-items:center;gap:22px;overflow:hidden}
@@ -362,11 +362,11 @@ body.page-members .member-profile-meta strong{font-size:1rem;line-height:1.5}
 body.page-members .member-profile-note{padding:18px;border-radius:18px;background:linear-gradient(135deg,rgba(255,255,255,.05),rgba(255,255,255,.02));border:1px solid var(--border)}
 body.page-members .member-profile-note h3{margin:0 0 8px;font-size:1rem;color:var(--pink)}
 body.page-members .member-profile-note p{margin:0;color:var(--muted)}
-body.page-members .member-woni .member-color-chip,body.page-members .member-woni .badge{--chip:#79d98c}
-body.page-members .member-liv .member-color-chip,body.page-members .member-liv .badge{--chip:#202020}
-body.page-members .member-minami .member-color-chip,body.page-members .member-minami .badge{--chip:#4f8dff}
-body.page-members .member-may .member-color-chip,body.page-members .member-may .badge{--chip:#f4d04b}
-body.page-members .member-zena .member-color-chip,body.page-members .member-zena .badge{--chip:#9c72ff}
+body.page-members .member-woni .member-color-chip,body.page-members .member-woni .badge{--chip:var(--member-woni,#79d98c)}
+body.page-members .member-liv .member-color-chip,body.page-members .member-liv .badge{--chip:var(--member-liv,#2c2c35)}
+body.page-members .member-minami .member-color-chip,body.page-members .member-minami .badge{--chip:var(--member-minami,#4f8dff)}
+body.page-members .member-may .member-color-chip,body.page-members .member-may .badge{--chip:var(--member-may,#f4d04b)}
+body.page-members .member-zena .member-color-chip,body.page-members .member-zena .badge{--chip:var(--member-zena,#9c72ff)}
 body.page-members .member-woni .member-detail-photo{aspect-ratio:4/5;min-height:0}
 body.page-members .member-woni .member-detail-photo img{object-position:center top}
 body.page-members .member-woni .member-detail-picture source,body.page-members .member-woni .member-detail-picture img{object-position:center top}

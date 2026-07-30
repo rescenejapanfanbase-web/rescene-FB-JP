@@ -30,6 +30,41 @@ if (!token) {
 
 const plainText = (items = []) =>
   items.map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
+function propertyText(properties, aliases = []) {
+  for (const name of aliases) {
+    const property = properties?.[name];
+    if (!property) continue;
+    const value = plainText(property.title || property.rich_text || property.text || property[property.type]);
+    if (value) return value;
+  }
+  return "";
+}
+function scheduleTranslations(properties) {
+  const fields = {
+    ko: {
+      title: ["イベント名（韓国語）", "イベント名_KO", "韓国語イベント名"],
+      description: ["テキスト（韓国語）", "説明（韓国語）", "テキスト_KO", "韓国語説明"],
+      linkLabel: ["リンク名（韓国語）", "リンク名_KO", "韓国語リンク名"],
+      category: ["カテゴリー（韓国語）", "カテゴリー_KO", "韓国語カテゴリー"],
+    },
+    en: {
+      title: ["イベント名（英語）", "イベント名_EN", "英語イベント名"],
+      description: ["テキスト（英語）", "説明（英語）", "テキスト_EN", "英語説明"],
+      linkLabel: ["リンク名（英語）", "リンク名_EN", "英語リンク名"],
+      category: ["カテゴリー（英語）", "カテゴリー_EN", "英語カテゴリー"],
+    },
+  };
+  const translations = {};
+  for (const language of ["ko", "en"]) {
+    const values = {};
+    for (const [field, aliases] of Object.entries(fields[language])) {
+      const value = propertyText(properties, aliases);
+      if (value) values[field] = value;
+    }
+    if (Object.keys(values).length) translations[language] = values;
+  }
+  return translations;
+}
 const normalizeLocalPath = (value = "") => String(value).trim().replace(/^\/+/, "").replaceAll("\\", "/");
 
 const categoryType = {
@@ -254,6 +289,7 @@ async function convertPage(page) {
     link,
     linkLabel,
     image: await resolveImage(page, title),
+    translations: scheduleTranslations(properties),
     notionUrl: page.url ?? "",
   };
 }

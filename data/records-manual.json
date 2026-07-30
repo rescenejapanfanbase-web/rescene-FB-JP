@@ -1,0 +1,31 @@
+{
+  "musicShowWins": [],
+  "melonRecords": [
+    {
+      "title": "Deja Vu — Melonチャート",
+      "song": "Deja Vu",
+      "releaseDate": "2025-07-02",
+      "top100Peak": 13,
+      "top100PeakDate": "",
+      "dailyPeak": null,
+      "dailyPeakDate": "",
+      "description": "Melon TOP100で最高13位を記録。",
+      "mvUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
+      "image": "assets/mv/deja-vu.jpg",
+      "order": 5,
+      "source": "manual-fallback",
+      "translations": {
+        "ko": {
+          "title": "Deja Vu — Melon 차트",
+          "song": "Deja Vu",
+          "description": "Melon TOP100에서 최고 13위를 기록했습니다."
+        },
+        "en": {
+          "title": "Deja Vu — Melon Chart",
+          "song": "Deja Vu",
+          "description": "Peaked at No. 13 on the Melon TOP100."
+        }
+      }
+    }
+  ]
+}

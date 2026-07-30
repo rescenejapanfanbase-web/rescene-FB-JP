@@ -1,0 +1,61 @@
+RESCENE JAPAN FANBASE
+Notion完全管理・5色テーマ・Language・自動更新修正版
+2026-07-31
+
+【主な変更】
+1. ライト／ダークモードをメンバー5色で再設計
+   - ウォニ #79D98C
+   - リブ #2C2C35
+   - ミナミ #4F8DFF
+   - メイ #F4D04B
+   - ゼナ #9C72FF
+   - Notionのテーマ行から各色、背景、カード、文字色を変更可能
+
+2. ホーム・共通表示管理をサイト管理ハブへ拡張
+   - nav-xxxx: グローバルナビ
+   - page-xxxx: 固定ページヘッダー
+   - link-xxxx: 管理リンク
+   - update-xxxx: サイト更新履歴
+   - translation-xxxx: 任意文言の確定翻訳
+   - テーマ、ホーム文章、画像、ボタン、フッター、404も従来どおり管理
+
+3. 自動更新時刻をJSTで分離
+   - YouTube: 偶数時05分
+   - Schedule: 00:00 / 06:00 / 12:00 / 18:00
+   - その他: 奇数時05分
+   - 指定された重要時刻は独立Workflow・最大5回再試行
+   - 3系統を別concurrency groupへ分離
+
+4. Languageを全公開ページへ拡張
+   - ニュース一覧、生成記事、記録、スケジュール、ナビ、固定ページを対象
+   - Notion翻訳列、translation行、確定翻訳カタログ、Translator API、原文の順で適用
+   - 現在のニュース記事文言を韓国語／英語カタログへ登録
+
+5. bubbleリンクを変更
+   - https://apps.apple.com/app/id1556582179
+
+6. Melon記録を修正
+   - Deja Vu TOP100最高13位を安全用データへ登録
+   - Notionの数値、13、#13、13位を認識
+   - Melon／メロンを含む種別名、複数の列名を認識
+   - Notion行を取得できた場合はNotion値を優先
+
+7. 画像キャッシュ対策
+   - Notion画像の内容ハッシュをファイル名へ付与
+   - 同じセルで画像を差し替えてもURLを変更
+   - PWAキャッシュ対象を更新
+
+【同梱資料】
+- NOTION-COMPLETE-OPERATIONS-GUIDE-20260731.txt
+- NOTION-SITE-MANAGEMENT-TEMPLATE.csv
+
+【Notion側で必要な作業】
+新しいテーマ行、nav/page/link/update/translation行、韓国語・英語列は、同梱CSVとマニュアルに従って追加してください。
+これらが未追加でも、サイトは既定の5色テーマ、既存ナビ、bubbleリンク、既存翻訳で動作します。
+
+【公開後の確認】
+- Sync Notion Homepage Content
+- Sync Schedule
+- Sync YouTube Channels
+- Sync All Site Content
+上記を各1回手動実行し、コミットと実サイトを確認してください。

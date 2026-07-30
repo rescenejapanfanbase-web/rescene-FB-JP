@@ -19,8 +19,25 @@ def git_entries():
         elif line.strip() and current and len(current['files'])<8:current['files'].append(line.strip())
     return [x for x in entries if not x['title'].lower().startswith(('chore: synchronize','chore: sync'))]
 manual=read_json(ROOT/'data'/'site-updates-manual.json',[])
+homepage=read_json(ROOT/'data'/'homepage.json',{})
+notion_updates=[]
+for row in ((homepage.get('siteManagement') or {}).get('updates') or []):
+    if not isinstance(row,dict):continue
+    date=str(row.get('number') or '').strip()
+    title=str(row.get('heading') or row.get('title') or '').strip()
+    if not date or not title:continue
+    notion_updates.append({
+        'date':date.replace('.','-'),
+        'title':title,
+        'description':str(row.get('description') or '').strip(),
+        'category':str(row.get('note') or 'Notion').strip(),
+        'image':str(row.get('image') or '').strip(),
+        'link':str(row.get('linkUrl') or '').strip(),
+        'translations':row.get('translations') or {},
+        'source':'notion',
+    })
 seen=set();items=[]
-for item in [*manual,*git_entries()]:
+for item in [*notion_updates,*manual,*git_entries()]:
     key=(item.get('date'),item.get('title'))
     if key in seen:continue
     seen.add(key);items.append(item)

@@ -21,6 +21,48 @@ if (!token) {
 const plainText = (items = []) =>
   items.map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
 
+function propertyText(properties, aliases = []) {
+  for (const name of aliases) {
+    const property = properties?.[name];
+    if (!property) continue;
+    const value = plainText(property.title || property.rich_text || property.text || property[property.type]);
+    if (value) return value;
+  }
+  return "";
+}
+
+const translationAliases = {
+  ko: {
+    title: ["タイトル（韓国語）", "タイトル_KO", "韓国語タイトル"],
+    text: ["概要（韓国語）", "概要_KO", "韓国語概要"],
+    body: ["本文（韓国語）", "本文_KO", "韓国語本文"],
+    label: ["ラベル（韓国語）", "ラベル_KO", "韓国語ラベル"],
+    sourceLabel: ["リンク名（韓国語）", "リンク名_KO", "韓国語リンク名"],
+    categoryName: ["カテゴリー（韓国語）", "カテゴリー_KO", "韓国語カテゴリー"],
+  },
+  en: {
+    title: ["タイトル（英語）", "タイトル_EN", "英語タイトル"],
+    text: ["概要（英語）", "概要_EN", "英語概要"],
+    body: ["本文（英語）", "本文_EN", "英語本文"],
+    label: ["ラベル（英語）", "ラベル_EN", "英語ラベル"],
+    sourceLabel: ["リンク名（英語）", "リンク名_EN", "英語リンク名"],
+    categoryName: ["カテゴリー（英語）", "カテゴリー_EN", "英語カテゴリー"],
+  },
+};
+
+function readTranslations(properties) {
+  const translations = {};
+  for (const language of ["ko", "en"]) {
+    const values = {};
+    for (const [field, aliases] of Object.entries(translationAliases[language])) {
+      const value = propertyText(properties, aliases);
+      if (value) values[field] = value;
+    }
+    if (Object.keys(values).length) translations[language] = values;
+  }
+  return translations;
+}
+
 const categoryType = {
   "お知らせ": "notice",
   "リリース": "release",
@@ -342,6 +384,7 @@ async function convertPage(queryPage, usedImages, statusRows) {
   const summary = plainText(properties["概要"]?.rich_text) || plainText(properties["本文"]?.rich_text);
   const body = plainText(properties["本文"]?.rich_text) || summary;
   const sourceLink = properties["外部リンク"]?.url ?? "";
+  const translations = readTranslations(properties);
 
   let image = "";
   let imageStatus = "fallback";
@@ -405,6 +448,7 @@ async function convertPage(queryPage, usedImages, statusRows) {
     image,
     sourceLink,
     sourceLabel: plainText(properties["リンク名"]?.rich_text) || (sourceLink ? "関連リンクを見る" : ""),
+    translations,
     notionPageId: page.id,
     notionUrl: page.url ?? "",
   };
@@ -427,6 +471,10 @@ function mergeNews(manualNews, notionNews) {
         image: notionItem.image || current.image || fallbackImage,
         sourceLink: notionItem.sourceLink || current.sourceLink || "",
         sourceLabel: notionItem.sourceLabel || current.sourceLabel || "",
+        translations: {
+          ...(current.translations || {}),
+          ...(notionItem.translations || {}),
+        },
       };
     } else {
       merged.push({ ...notionItem, image: notionItem.image || fallbackImage });

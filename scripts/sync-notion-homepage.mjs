@@ -8,14 +8,18 @@ const notionVersion = "2026-03-11";
 const imageDirectory = "assets/home/notion";
 const databaseUrl = "https://app.notion.com/p/23afd46c4c68443d89de65c74f605d68";
 const themeDefaults = {
-  name: "RESCENE Pink", background: "#120c16", background2: "#20121f", card: "#2a1727", card2: "#341b30",
-  primary: "#ff6fae", primarySoft: "#ff9bc7", secondary: "#c8a4ff", accent: "#8fe3ca", blue: "#8ec9ff",
-  text: "#fff9fc", muted: "#d4b7c8", lightBackground: "#fff7fb", lightCard: "#ffffff", lightText: "#2f1a29"
+  name: "RESCENE Member Colors",
+  background: "#111118", background2: "#191823", card: "#20202b", card2: "#292837",
+  primary: "#79d98c", primarySoft: "#a8e8b3", secondary: "#9c72ff", accent: "#79d98c", blue: "#4f8dff",
+  yellow: "#f4d04b", ink: "#2c2c35",
+  memberWoni: "#79d98c", memberLiv: "#2c2c35", memberMinami: "#4f8dff", memberMay: "#f4d04b", memberZena: "#9c72ff",
+  text: "#f8f7fb", muted: "#bbb7c6", lightBackground: "#fffdf6", lightCard: "#ffffff", lightText: "#292630"
 };
 const themeTitleMap = new Map([
   ["テーマ名", "name"], ["背景色", "background"], ["背景色2", "background2"], ["カード色", "card"], ["カード色2", "card2"],
   ["メインカラー", "primary"], ["メインカラー（淡色）", "primarySoft"], ["サブカラー", "secondary"], ["アクセントカラー", "accent"],
-  ["ブルーカラー", "blue"], ["文字色", "text"], ["補助文字色", "muted"], ["ライト背景色", "lightBackground"],
+  ["ブルーカラー", "blue"], ["イエローカラー", "yellow"], ["インクカラー", "ink"],
+  ["ウォニカラー", "memberWoni"], ["リブカラー", "memberLiv"], ["ミナミカラー", "memberMinami"], ["メイカラー", "memberMay"], ["ゼナカラー", "memberZena"], ["文字色", "text"], ["補助文字色", "muted"], ["ライト背景色", "lightBackground"],
   ["ライトカード色", "lightCard"], ["ライト文字色", "lightText"]
 ]);
 if (!token) throw new Error("NOTION_TOKEN が設定されていません。既存のNotion同期と同じSecretを利用できます。");
@@ -24,6 +28,23 @@ const plainText = (items = []) => items.map((item) => item?.plain_text ?? item?.
 const propertyText = (property) => plainText(property?.rich_text ?? property?.title ?? []);
 const safeSlug = (value, pageId = "") => String(value || "").normalize("NFKD").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 54) || `home-${String(pageId).replaceAll("-", "").slice(-8) || "item"}`;
 const safeAnchor = (value) => String(value || "").trim().replace(/[^0-9A-Za-z_-]+/g, "-").replace(/^-+|-+$/g, "");
+const firstPropertyText = (properties, names = []) => { for (const name of names) { const value = propertyText(properties?.[name]); if (value) return value; } return ""; };
+const localizedField = (properties, baseName, language) => {
+  const suffixes = language === "ko" ? ["（韓国語）", "_KO", " KO", "韓国語"] : ["（英語）", "_EN", " EN", "英語"];
+  const prefixes = language === "ko" ? ["韓国語", "KO ", "KO_"] : ["英語", "EN ", "EN_"];
+  return firstPropertyText(properties, [...suffixes.map((suffix) => `${baseName}${suffix}`), ...prefixes.map((prefix) => `${prefix}${baseName}`)]);
+};
+const localizedItem = (properties) => {
+  const fields = { title: "タイトル", englishLabel: "英語ラベル", heading: "見出し", description: "説明", note: "補足", number: "番号", value: "値", subLabel: "サブラベル", buttonLabel: "ボタン文言", secondaryButtonLabel: "追加ボタン文言", thirdButtonLabel: "第3ボタン文言" };
+  const result = { ko: {}, en: {} };
+  for (const [key, baseName] of Object.entries(fields)) {
+    const ko = localizedField(properties, baseName, "ko");
+    const en = localizedField(properties, baseName, "en");
+    if (ko) result.ko[key] = ko;
+    if (en) result.en[key] = en;
+  }
+  return result;
+};
 function notionFile(property) { const first = property?.files?.[0]; return first ? { url: first?.external?.url ?? first?.file?.url ?? "", name: first?.name ?? "home" } : null; }
 
 async function queryAllPages() {
@@ -38,7 +59,7 @@ async function queryAllPages() {
   return results;
 }
 const requiredThemeRows = [
-  ["テーマ：テーマ名", "RESCENE Pink"],
+  ["テーマ：テーマ名", themeDefaults.name],
   ["テーマ：背景色", themeDefaults.background],
   ["テーマ：背景色2", themeDefaults.background2],
   ["テーマ：カード色", themeDefaults.card],
@@ -48,6 +69,13 @@ const requiredThemeRows = [
   ["テーマ：サブカラー", themeDefaults.secondary],
   ["テーマ：アクセントカラー", themeDefaults.accent],
   ["テーマ：ブルーカラー", themeDefaults.blue],
+  ["テーマ：イエローカラー", themeDefaults.yellow],
+  ["テーマ：インクカラー", themeDefaults.ink],
+  ["テーマ：ウォニカラー", themeDefaults.memberWoni],
+  ["テーマ：リブカラー", themeDefaults.memberLiv],
+  ["テーマ：ミナミカラー", themeDefaults.memberMinami],
+  ["テーマ：メイカラー", themeDefaults.memberMay],
+  ["テーマ：ゼナカラー", themeDefaults.memberZena],
   ["テーマ：文字色", themeDefaults.text],
   ["テーマ：補助文字色", themeDefaults.muted],
   ["テーマ：ライト背景色", themeDefaults.lightBackground],
@@ -95,7 +123,7 @@ async function convertPage(page) {
   if (title === "ホームヒーロー") {
     console.log(`ホームヒーロー画像: ${upload?.url ? "Notionの画像を使用" : imagePathFallback ? "画像パスを使用" : "画像なし"} -> ${image || "(空)"}`);
   }
-  return { slug, title, type: properties["種類"]?.select?.name ?? "ページ設定", englishLabel: propertyText(properties["英語ラベル"]), heading: propertyText(properties["見出し"]), description: propertyText(properties["説明"]), note: propertyText(properties["補足"]), number: propertyText(properties["番号"]), value: propertyText(properties["値"]), subLabel: propertyText(properties["サブラベル"]), buttonLabel: propertyText(properties["ボタン文言"]), linkUrl: propertyText(properties["リンクURL"]), secondaryButtonLabel: propertyText(properties["追加ボタン文言"]), secondaryLinkUrl: propertyText(properties["追加リンクURL"]), thirdButtonLabel: propertyText(properties["第3ボタン文言"]), thirdLinkUrl: propertyText(properties["第3リンクURL"]), image, icon: propertyText(properties["アイコン"]), anchor, order: properties["表示順"]?.number ?? 9999, notionPageId: page.id, notionUrl: page.url ?? "" };
+  return { slug, title, type: properties["種類"]?.select?.name ?? "ページ設定", englishLabel: propertyText(properties["英語ラベル"]), heading: propertyText(properties["見出し"]), description: propertyText(properties["説明"]), note: propertyText(properties["補足"]), number: propertyText(properties["番号"]), value: propertyText(properties["値"]), subLabel: propertyText(properties["サブラベル"]), buttonLabel: propertyText(properties["ボタン文言"]), linkUrl: propertyText(properties["リンクURL"]), secondaryButtonLabel: propertyText(properties["追加ボタン文言"]), secondaryLinkUrl: propertyText(properties["追加リンクURL"]), thirdButtonLabel: propertyText(properties["第3ボタン文言"]), thirdLinkUrl: propertyText(properties["第3リンクURL"]), image, icon: propertyText(properties["アイコン"]), anchor, order: properties["表示順"]?.number ?? 9999, translations: localizedItem(properties), notionPageId: page.id, notionUrl: page.url ?? "" };
 }
 async function readJson(path, fallback) { try { return JSON.parse(await readFile(path, "utf8")); } catch { return fallback; } }
 const pages = await queryAllPages();
@@ -118,20 +146,60 @@ for (const item of items) {
   theme[key] = key === "name" ? String(item.value).trim() : normalizeHex(item.value, themeDefaults[key]);
 }
 const publicItems = items.filter((item) => !/^テーマ[：:]/.test(String(item.title || "")));
-const previous = await readJson("data/homepage.json", {}); const changed = JSON.stringify(previous.items ?? []) !== JSON.stringify(publicItems) || JSON.stringify(previous.theme ?? {}) !== JSON.stringify(theme); const generatedAt = changed ? new Date().toISOString() : (previous.generatedAt || new Date().toISOString());
-const payload = { generatedAt, source: "notion", dataSourceId, notionDatabaseUrl: databaseUrl, theme, items: publicItems }; const jsonText = `${JSON.stringify(payload,null,2)}\n`; const jsText = `window.RESCENE_HOMEPAGE = ${JSON.stringify(payload,null,2)};\n`;
+const previous = await readJson("data/homepage.json", {});
+const defaultNavigation = [
+  ["home", "ホーム", "index.html", "", 10, "홈", "Home"],
+  ["about", "RESCENEについて", "about.html", "RESCENE", 20, "RESCENE 소개", "About RESCENE"],
+  ["members", "メンバー", "members.html", "RESCENE", 21, "멤버", "Members"],
+  ["schedule", "スケジュール", "schedule.html", "", 30, "스케줄", "Schedule"],
+  ["news", "ニュース", "news.html", "", 40, "뉴스", "News"],
+  ["discography", "ディスコグラフィ", "discography.html", "音楽", 50, "디스코그래피", "Discography"],
+  ["mv", "MV一覧", "mv.html", "音楽", 51, "MV 목록", "MV List"],
+  ["youtube", "YouTube", "youtube.html", "音楽", 52, "YouTube", "YouTube"],
+  ["records", "記録", "records.html", "音楽", 53, "기록", "Records"],
+  ["streaming", "ストリーミング", "streaming.html", "応援ガイド", 60, "스트리밍", "Streaming"],
+  ["voting", "投票ガイド", "voting.html", "応援ガイド", 61, "투표 가이드", "Voting Guide"],
+  ["chants", "掛け声ガイド", "chants.html", "応援ガイド", 62, "응원법 가이드", "Fan Chant Guide"],
+  ["links", "公式リンク", "links.html", "リンク", 70, "공식 링크", "Official Links"],
+  ["fan-services", "ファンサービスガイド", "fan-services.html", "リンク", 71, "팬 서비스 가이드", "Fan Service Guide"],
+  ["contact", "お問い合わせ", "contact.html", "リンク", 72, "문의", "Contact"],
+].map(([id, heading, linkUrl, note, order, ko, en]) => ({ title: `ナビ：${heading}`, heading, linkUrl, note, order, anchor: `nav-${id}`, translations: { ko: { heading: ko }, en: { heading: en } } }));
+const defaultLinks = {
+  "bubble-app": { title: "RESCENE bubble", heading: "RESCENE bubble", buttonLabel: "RESCENE bubbleを開く ↗", linkUrl: "https://apps.apple.com/app/id1556582179", anchor: "link-bubble-app", order: 10, translations: { ko: { buttonLabel: "RESCENE bubble 열기 ↗" }, en: { buttonLabel: "Open RESCENE bubble ↗" } } },
+};
+const notionNavigation = publicItems.filter((item) => /^nav-/.test(item.anchor)).map((item) => ({ ...item }));
+const notionPages = Object.fromEntries(publicItems.filter((item) => /^page-/.test(item.anchor)).map((item) => [item.anchor.replace(/^page-/, ""), { ...item }]));
+const notionLinks = Object.fromEntries(publicItems.filter((item) => /^link-/.test(item.anchor)).map((item) => [item.anchor.replace(/^link-/, ""), { ...item }]));
+const notionUpdates = publicItems.filter((item) => /^update-/.test(item.anchor)).map((item) => ({ ...item }));
+const notionTranslations = publicItems.filter((item) => /^translation-/.test(item.anchor)).map((item) => ({ ...item }));
+const siteManagement = {
+  navigation: notionNavigation.length ? notionNavigation : (previous.siteManagement?.navigation?.length ? previous.siteManagement.navigation : defaultNavigation),
+  pages: Object.keys(notionPages).length ? notionPages : (previous.siteManagement?.pages || {}),
+  links: Object.keys(notionLinks).length ? { ...defaultLinks, ...notionLinks } : { ...defaultLinks, ...(previous.siteManagement?.links || {}) },
+  updates: notionUpdates.length ? notionUpdates : (previous.siteManagement?.updates || []),
+  translations: notionTranslations.length ? notionTranslations : (previous.siteManagement?.translations || []),
+};
+const homepageItems = publicItems.filter((item) => !/^(?:nav|page|link|update|translation)-/.test(item.anchor));
+const changed = JSON.stringify(previous.items ?? []) !== JSON.stringify(homepageItems) || JSON.stringify(previous.theme ?? {}) !== JSON.stringify(theme) || JSON.stringify(previous.siteManagement ?? {}) !== JSON.stringify(siteManagement); const generatedAt = changed ? new Date().toISOString() : (previous.generatedAt || new Date().toISOString());
+const payload = { generatedAt, source: "notion", dataSourceId, notionDatabaseUrl: databaseUrl, theme, siteManagement, items: homepageItems }; const jsonText = `${JSON.stringify(payload,null,2)}\n`; const jsText = `window.RESCENE_HOMEPAGE = ${JSON.stringify(payload,null,2)};\n`;
 const themePayload = { generatedAt, source: "notion", dataSourceId, notionDatabaseUrl: databaseUrl, theme };
-const themeCss = `/* Notion-controlled comeback theme. Generated by sync-notion-homepage.mjs */
+const themeCss = `/* Notion-controlled five-member theme. Generated by sync-notion-homepage.mjs */
 :root{
- --bg:${theme.background};--bg2:${theme.background2};--card:${theme.card};--card2:${theme.card2};--pink:${theme.primary};--pink-soft:${theme.primarySoft};--purple:${theme.secondary};--green:${theme.accent};--blue:${theme.blue};--text:${theme.text};--muted:${theme.muted};
- --border:color-mix(in srgb,${theme.primarySoft} 22%,transparent);--header-bg:color-mix(in srgb,${theme.background} 90%,transparent);--header-border:color-mix(in srgb,${theme.primarySoft} 14%,transparent);--hover-bg:color-mix(in srgb,${theme.primary} 9%,transparent);--soft-bg:color-mix(in srgb,${theme.text} 5%,transparent);--shadow:0 18px 48px color-mix(in srgb,${theme.background} 65%,transparent);
+ --member-woni:${theme.memberWoni};--member-liv:${theme.memberLiv};--member-minami:${theme.memberMinami};--member-may:${theme.memberMay};--member-zena:${theme.memberZena};
+ --bg:${theme.background};--bg2:${theme.background2};--card:${theme.card};--card2:${theme.card2};--pink:var(--member-woni);--pink-soft:${theme.primarySoft};--purple:var(--member-zena);--green:var(--member-woni);--blue:var(--member-minami);--yellow:var(--member-may);--ink:var(--member-liv);--text:${theme.text};--muted:${theme.muted};
+ --member-spectrum:linear-gradient(110deg,var(--member-woni),var(--member-minami) 32%,var(--member-zena) 58%,var(--member-may) 82%,var(--member-liv));
+ --border:color-mix(in srgb,var(--member-zena) 22%,transparent);--header-bg:color-mix(in srgb,${theme.background} 91%,transparent);--header-border:color-mix(in srgb,var(--member-minami) 18%,transparent);--hover-bg:color-mix(in srgb,var(--member-woni) 10%,transparent);--soft-bg:color-mix(in srgb,${theme.text} 5%,transparent);--shadow:0 18px 48px color-mix(in srgb,${theme.background} 68%,transparent);
 }
-body{background:radial-gradient(circle at 8% 7%,color-mix(in srgb,var(--pink) 22%,transparent),transparent 29%),radial-gradient(circle at 92% 12%,color-mix(in srgb,var(--purple) 16%,transparent),transparent 31%),radial-gradient(circle at 82% 88%,color-mix(in srgb,var(--blue) 7%,transparent),transparent 30%),linear-gradient(145deg,var(--bg) 0%,var(--bg2) 48%,var(--bg) 100%)!important}
-.card,.news-card{background:linear-gradient(145deg,color-mix(in srgb,var(--card) 96%,transparent),color-mix(in srgb,var(--bg2) 90%,transparent))}
-.hero,.page-header,.focus-card{background:radial-gradient(circle at 88% 8%,color-mix(in srgb,var(--pink) 25%,transparent),transparent 31%),radial-gradient(circle at 12% 93%,color-mix(in srgb,var(--purple) 16%,transparent),transparent 36%),linear-gradient(135deg,color-mix(in srgb,var(--card2) 94%,transparent),color-mix(in srgb,var(--bg2) 90%,transparent))}
-.logo span,.hero h1 span{background:linear-gradient(120deg,var(--pink),var(--pink-soft),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.btn-primary{background:linear-gradient(120deg,var(--pink),var(--pink-soft) 58%,var(--purple))}
-html.light-mode{--bg:${theme.lightBackground};--bg2:color-mix(in srgb,${theme.lightBackground} 88%,${theme.secondary});--card:${theme.lightCard};--card2:color-mix(in srgb,${theme.lightCard} 92%,${theme.primarySoft});--text:${theme.lightText};--muted:color-mix(in srgb,${theme.lightText} 66%,transparent);--header-bg:color-mix(in srgb,${theme.lightCard} 92%,transparent);--soft-bg:color-mix(in srgb,${theme.primary} 6%,${theme.lightCard});--border:color-mix(in srgb,${theme.primary} 20%,transparent)}
+body{background:radial-gradient(circle at 8% 7%,color-mix(in srgb,var(--member-woni) 18%,transparent),transparent 28%),radial-gradient(circle at 92% 11%,color-mix(in srgb,var(--member-zena) 18%,transparent),transparent 31%),radial-gradient(circle at 12% 88%,color-mix(in srgb,var(--member-minami) 12%,transparent),transparent 30%),radial-gradient(circle at 86% 88%,color-mix(in srgb,var(--member-may) 9%,transparent),transparent 28%),linear-gradient(145deg,var(--bg) 0%,var(--bg2) 52%,var(--bg) 100%)!important}
+.card,.news-card{background:linear-gradient(145deg,color-mix(in srgb,var(--card) 97%,transparent),color-mix(in srgb,var(--card2) 91%,transparent));border-color:color-mix(in srgb,var(--member-zena) 15%,transparent)}
+.hero,.page-header,.focus-card{background:radial-gradient(circle at 88% 8%,color-mix(in srgb,var(--member-woni) 22%,transparent),transparent 31%),radial-gradient(circle at 10% 92%,color-mix(in srgb,var(--member-minami) 16%,transparent),transparent 36%),radial-gradient(circle at 68% 90%,color-mix(in srgb,var(--member-may) 8%,transparent),transparent 26%),linear-gradient(135deg,color-mix(in srgb,var(--card2) 96%,transparent),color-mix(in srgb,var(--bg2) 92%,transparent))}
+.logo span,.hero h1 span{background:var(--member-spectrum);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.btn-primary,.filter.active,.language-options button.is-active{background:linear-gradient(120deg,var(--member-woni),var(--member-minami) 48%,var(--member-zena));color:#fff;border-color:transparent}
+.section-kicker,.page-kicker,.badge{color:var(--member-woni)}
+html.light-mode{--bg:${theme.lightBackground};--bg2:color-mix(in srgb,${theme.lightBackground} 90%,var(--member-zena));--card:${theme.lightCard};--card2:color-mix(in srgb,${theme.lightCard} 94%,var(--member-may));--text:${theme.lightText};--muted:color-mix(in srgb,${theme.lightText} 68%,transparent);--header-bg:color-mix(in srgb,${theme.lightCard} 94%,transparent);--soft-bg:color-mix(in srgb,var(--member-woni) 7%,${theme.lightCard});--border:color-mix(in srgb,var(--member-zena) 19%,transparent);--shadow:0 18px 42px rgba(44,44,53,.10)}
+html.light-mode body{background:radial-gradient(circle at 7% 8%,color-mix(in srgb,var(--member-woni) 23%,transparent),transparent 29%),radial-gradient(circle at 94% 8%,color-mix(in srgb,var(--member-zena) 18%,transparent),transparent 31%),radial-gradient(circle at 10% 90%,color-mix(in srgb,var(--member-minami) 14%,transparent),transparent 30%),radial-gradient(circle at 88% 90%,color-mix(in srgb,var(--member-may) 17%,transparent),transparent 30%),linear-gradient(145deg,var(--bg),var(--bg2) 52%,var(--bg))!important}
+html.light-mode .card,html.light-mode .news-card{box-shadow:0 14px 36px rgba(44,44,53,.08);border-color:color-mix(in srgb,var(--member-minami) 16%,transparent)}
+html.light-mode .member-liv .member-color-chip,html.light-mode .member-liv .badge{color:#fff}
 `;
 await mkdir("data",{recursive:true}); await mkdir("css",{recursive:true});
 if ((await readFile("data/homepage.json","utf8").catch(()=>"")) !== jsonText) await writeFile("data/homepage.json",jsonText,"utf8");
@@ -139,4 +207,4 @@ if ((await readFile("data/homepage-data.js","utf8").catch(()=>"")) !== jsText) a
 const themeJsonText = `${JSON.stringify(themePayload,null,2)}\n`;
 if ((await readFile("data/site-theme.json","utf8").catch(()=>"")) !== themeJsonText) await writeFile("data/site-theme.json",themeJsonText,"utf8");
 if ((await readFile("css/notion-theme.css","utf8").catch(()=>"")) !== themeCss) await writeFile("css/notion-theme.css",themeCss,"utf8");
-console.log(`${publicItems.length}件のホーム・共通表示コンテンツとサイトテーマ「${theme.name}」を同期しました。テーマ設定不足: ${missingThemeRows.length}件。データ変更: ${changed ? "あり" : "なし"}`);
+console.log(`${homepageItems.length}件のホーム表示、ナビ${siteManagement.navigation.length}件、ページ設定${Object.keys(siteManagement.pages).length}件、リンク設定${Object.keys(siteManagement.links).length}件、更新履歴${siteManagement.updates.length}件、追加翻訳${siteManagement.translations.length}件とサイトテーマ「${theme.name}」を同期しました。テーマ設定不足: ${missingThemeRows.length}件。データ変更: ${changed ? "あり" : "なし"}`);

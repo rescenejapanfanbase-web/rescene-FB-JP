@@ -85,7 +85,15 @@
     const element=node?.nodeType===Node.ELEMENT_NODE?node:node?.parentElement;
     return !element||Boolean(element.closest(SKIP_SELECTOR));
   }
-  function exactTranslation(value,target){return translations[target]?.[value]||''}
+  function catalogTranslation(value,target){
+    const catalog=window.RESCENE_LANGUAGE_CATALOG||{};
+    return catalog[target]?.[value]||'';
+  }
+  function exactTranslation(value,target){return catalogTranslation(value,target)||translations[target]?.[value]||''}
+  function explicitElementTranslation(element,target){
+    if(!element)return '';
+    return target==='ko'?(element.dataset?.i18nKo||''):(target==='en'?(element.dataset?.i18nEn||''):'');
+  }
   function cacheKey(value,target){return `${target}\u0000${value}`}
   function getCached(value,target){
     const hit=cache[cacheKey(value,target)];
@@ -155,10 +163,11 @@
   function collectTextNodes(root=document.body){
     const nodes=[];
     if(!root)return nodes;
-    if(root.nodeType===Node.TEXT_NODE){if(hasJapanese(root.nodeValue)&&!isSkipped(root))nodes.push(root);return nodes}
+    if(root.nodeType===Node.TEXT_NODE){if((hasJapanese(root.nodeValue)||explicitElementTranslation(root.parentElement,'ko')||explicitElementTranslation(root.parentElement,'en'))&&!isSkipped(root))nodes.push(root);return nodes}
     if(root.nodeType!==Node.ELEMENT_NODE&&root.nodeType!==Node.DOCUMENT_NODE&&root.nodeType!==Node.DOCUMENT_FRAGMENT_NODE)return nodes;
     const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode(node){
-      if(!node.nodeValue?.trim()||!hasJapanese(node.nodeValue)||isSkipped(node))return NodeFilter.FILTER_REJECT;
+      if(!node.nodeValue?.trim()||isSkipped(node))return NodeFilter.FILTER_REJECT;
+      if(!hasJapanese(node.nodeValue)&&!explicitElementTranslation(node.parentElement,'ko')&&!explicitElementTranslation(node.parentElement,'en'))return NodeFilter.FILTER_REJECT;
       return NodeFilter.FILTER_ACCEPT;
     }});
     let node;while((node=walker.nextNode()))nodes.push(node);
@@ -203,7 +212,8 @@
       rememberText(node);
       const original=originalText.get(node);
       const {prefix,body,suffix}=splitWhitespace(original);
-      node.nodeValue=prefix+await translateValue(body,target,engine)+suffix;
+      const explicit=explicitElementTranslation(node.parentElement,target);
+      node.nodeValue=prefix+(explicit||await translateValue(body,target,engine))+suffix;
       complete++;if(total>20&&complete%12===0)setLanguageStatus(`${LANGUAGES[language].label} ${Math.round(complete/total*100)}%`);
     }
     for(const element of attrs){
@@ -236,7 +246,10 @@
     if(token!==runToken)return;
     document.title=manualTitle||await translateValue(document.documentElement.dataset.originalTitle,target,engine);
     await translateSubtree(root,language,engine,token);
-    if(token===runToken)setLanguageStatus(engine?'':(language==='kr'?'공통 메뉴를 번역했습니다':'Common interface translated'));
+    if(token===runToken){
+      setLanguageStatus(engine?'':(language==='kr'?'페이지 전체를 번역했습니다':'Full page translated'));
+      document.dispatchEvent(new CustomEvent('rescene:language-changed',{detail:{language,target}}));
+    }
   }
   function setLanguageStatus(value){
     document.querySelectorAll('[data-language-status]').forEach(element=>{element.textContent=value;element.hidden=!value});
@@ -293,6 +306,11 @@
     });
     observer.observe(document.body,{subtree:true,childList:true,characterData:true});
   }
+  window.RESCENE_I18N={
+    apply:language=>applyLanguage(language,{userActivated:true}),
+    current:()=>currentLanguage,
+    translate:(value,language=currentLanguage)=>translatedStatic(String(value||''),LANGUAGES[normalizeLanguage(language)].target)||String(value||''),
+  };
   function init(){
     injectControls();observeDynamicContent();
     if(currentLanguage!=='jp')applyLanguage(currentLanguage,{userActivated:false});

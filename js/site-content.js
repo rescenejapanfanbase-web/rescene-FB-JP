@@ -19,6 +19,8 @@
   const itemsOf=(items,type)=>items.filter(item=>item.type===type).sort((a,b)=>(a.order??9999)-(b.order??9999));
   const setText=(selector,value,root=document)=>{const el=typeof selector==='string'?root.querySelector(selector):selector;if(el&&value)el.textContent=value;};
   const setLink=(el,label,url)=>{if(!el)return;if(label)el.textContent=label;if(url)el.setAttribute('href',safeUrl(url,el.getAttribute('href')||'#'));};
+  const setTranslationAttrs=(el,item,field)=>{if(!el||!item)return;const ko=item.translations?.ko?.[field];const en=item.translations?.en?.[field];if(ko)el.dataset.i18nKo=ko;else delete el.dataset.i18nKo;if(en)el.dataset.i18nEn=en;else delete el.dataset.i18nEn;};
+  const setManagedText=(el,item,field)=>{if(!el||!item)return;const value=item[field];if(value)el.textContent=value;setTranslationAttrs(el,item,field);};
   const titleLines=(element,value,highlightLast=false)=>{
     if(!element||!value)return;
     const lines=String(value).split(/\r?\n/).filter(Boolean);
@@ -137,6 +139,43 @@
     }catch{}
   }
 
+  function currentPageKey(){
+    const path=(location.pathname||'').split('/').pop()||'index.html';
+    return path.replace(/\.html?$/i,'')||'index';
+  }
+
+  function applyPageSettings(siteManagement){
+    const pages=siteManagement?.pages||{};
+    const item=pages[currentPageKey()]||pages[(document.body?.dataset?.pageKey||'').trim()];
+    if(!item)return;
+    const header=document.querySelector('.page-header');
+    if(header){
+      setManagedText(header.querySelector('.page-kicker'),item,'englishLabel');
+      setManagedText(header.querySelector('h1'),item,'heading');
+      setManagedText(header.querySelector('p'),item,'description');
+      const image=header.querySelector('img,[data-page-hero-image]');if(image&&item.image)image.src=safeUrl(item.image,image.src);
+      const actions=header.querySelectorAll('.page-header-actions a,.hero-actions a');
+      setLink(actions[0],item.buttonLabel,item.linkUrl);setTranslationAttrs(actions[0],item,'buttonLabel');
+      setLink(actions[1],item.secondaryButtonLabel,item.secondaryLinkUrl);setTranslationAttrs(actions[1],item,'secondaryButtonLabel');
+      setLink(actions[2],item.thirdButtonLabel,item.thirdLinkUrl);setTranslationAttrs(actions[2],item,'thirdButtonLabel');
+    }
+    if(item.heading){
+      const suffix='RESCENE JAPAN FANBASE';
+      document.title=`${item.heading} | ${suffix}`;
+      const description=document.querySelector('meta[name="description"]');if(description&&item.description)description.content=item.description;
+    }
+  }
+
+  function applyManagedLinks(siteManagement){
+    const links=siteManagement?.links||{};
+    document.querySelectorAll('[data-notion-link]').forEach(element=>{
+      const item=links[element.dataset.notionLink];if(!item)return;
+      setLink(element,item.buttonLabel||item.heading||item.title,item.linkUrl);
+      setTranslationAttrs(element,item,item.buttonLabel?'buttonLabel':'heading');
+      const image=element.querySelector('img');if(image&&item.image)image.src=safeUrl(item.image,image.src);
+    });
+  }
+
   function applyHome(items){
     const hero=byAnchor(items,'hero');
     if(hero&&document.querySelector('[data-home-hero-title]')){
@@ -164,10 +203,10 @@
       try{const response=await fetch(`${dataUrl.href}?v=${Date.now()}`,{cache:'no-store'});if(response.ok)payload=await response.json();}catch{}
     }
     const items=Array.isArray(payload?.items)?payload.items:[];
-    if(!items.length)return;
-    applyFooter(items);
-    apply404(items);
-    applyHome(items);
+    const siteManagement=payload?.siteManagement||{};
+    applyPageSettings(siteManagement);
+    applyManagedLinks(siteManagement);
+    if(items.length){applyFooter(items);apply404(items);applyHome(items);}
     window.dispatchEvent(new CustomEvent('rescene:site-content-ready',{detail:{count:items.length}}));
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',load,{once:true});else load();

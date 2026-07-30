@@ -1,25 +1,8 @@
 {
-  "generatedAt": "2026-07-28T14:03:47.850Z",
+  "generatedAt": "2026-07-30T15:46:10.932Z",
   "source": "notion",
   "dataSourceId": "1a98fbc6-21d6-4a11-8ed9-19b228250182",
   "notionDatabaseUrl": "https://app.notion.com/p/23afd46c4c68443d89de65c74f605d68",
-  "theme": {
-    "name": "RESCENE Pink",
-    "background": "#120c16",
-    "background2": "#20121f",
-    "card": "#2a1727",
-    "card2": "#341b30",
-    "primary": "#6fcdff",
-    "primarySoft": "#ff9bc7",
-    "secondary": "#c8a4ff",
-    "accent": "#8fe3ca",
-    "blue": "#8ec9ff",
-    "text": "#fff9fc",
-    "muted": "#d4b7c8",
-    "lightBackground": "#f7fbff",
-    "lightCard": "#ffffff",
-    "lightText": "#2f1a29"
-  },
   "items": [
     {
       "slug": "home-settings",
@@ -62,7 +45,7 @@
       "secondaryLinkUrl": "schedule.html",
       "thirdButtonLabel": "応援方法を見る",
       "thirdLinkUrl": "streaming.html",
-      "image": "assets/home/notion/hero-407e64a5378f.jpg",
+      "image": "assets/group/rescene-group.jpg",
       "icon": "",
       "anchor": "hero",
       "order": 10,
@@ -549,5 +532,294 @@
       "notionPageId": "3a3229d2-19da-81da-89f3-c18d28fb9a9b",
       "notionUrl": "https://app.notion.com/p/404-3a3229d219da81da89f3c18d28fb9a9b"
     }
-  ]
+  ],
+  "theme": {
+    "name": "RESCENE Member Colors",
+    "background": "#111118",
+    "background2": "#191823",
+    "card": "#20202b",
+    "card2": "#292837",
+    "primary": "#79d98c",
+    "primarySoft": "#a8e8b3",
+    "secondary": "#9c72ff",
+    "accent": "#79d98c",
+    "blue": "#4f8dff",
+    "yellow": "#f4d04b",
+    "ink": "#2c2c35",
+    "memberWoni": "#79d98c",
+    "memberLiv": "#2c2c35",
+    "memberMinami": "#4f8dff",
+    "memberMay": "#f4d04b",
+    "memberZena": "#9c72ff",
+    "text": "#f8f7fb",
+    "muted": "#bbb7c6",
+    "lightBackground": "#fffdf6",
+    "lightCard": "#ffffff",
+    "lightText": "#292630"
+  },
+  "siteManagement": {
+    "navigation": [
+      {
+        "title": "ナビ：ホーム",
+        "heading": "ホーム",
+        "linkUrl": "index.html",
+        "note": "",
+        "order": 10,
+        "anchor": "nav-home",
+        "translations": {
+          "ko": {
+            "heading": "홈"
+          },
+          "en": {
+            "heading": "Home"
+          }
+        }
+      },
+      {
+        "title": "ナビ：RESCENEについて",
+        "heading": "RESCENEについて",
+        "linkUrl": "about.html",
+        "note": "RESCENE",
+        "order": 20,
+        "anchor": "nav-about",
+        "translations": {
+          "ko": {
+            "heading": "RESCENE 소개"
+          },
+          "en": {
+            "heading": "About RESCENE"
+          }
+        }
+      },
+      {
+        "title": "ナビ：メンバー",
+        "heading": "メンバー",
+        "linkUrl": "members.html",
+        "note": "RESCENE",
+        "order": 21,
+        "anchor": "nav-members",
+        "translations": {
+          "ko": {
+            "heading": "멤버"
+          },
+          "en": {
+            "heading": "Members"
+          }
+        }
+      },
+      {
+        "title": "ナビ：スケジュール",
+        "heading": "スケジュール",
+        "linkUrl": "schedule.html",
+        "note": "",
+        "order": 30,
+        "anchor": "nav-schedule",
+        "translations": {
+          "ko": {
+            "heading": "스케줄"
+          },
+          "en": {
+            "heading": "Schedule"
+          }
+        }
+      },
+      {
+        "title": "ナビ：ニュース",
+        "heading": "ニュース",
+        "linkUrl": "news.html",
+        "note": "",
+        "order": 40,
+        "anchor": "nav-news",
+        "translations": {
+          "ko": {
+            "heading": "뉴스"
+          },
+          "en": {
+            "heading": "News"
+          }
+        }
+      },
+      {
+        "title": "ナビ：ディスコグラフィ",
+        "heading": "ディスコグラフィ",
+        "linkUrl": "discography.html",
+        "note": "音楽",
+        "order": 50,
+        "anchor": "nav-discography",
+        "translations": {
+          "ko": {
+            "heading": "디스코그래피"
+          },
+          "en": {
+            "heading": "Discography"
+          }
+        }
+      },
+      {
+        "title": "ナビ：MV一覧",
+        "heading": "MV一覧",
+        "linkUrl": "mv.html",
+        "note": "音楽",
+        "order": 51,
+        "anchor": "nav-mv",
+        "translations": {
+          "ko": {
+            "heading": "MV 목록"
+          },
+          "en": {
+            "heading": "MV List"
+          }
+        }
+      },
+      {
+        "title": "ナビ：YouTube",
+        "heading": "YouTube",
+        "linkUrl": "youtube.html",
+        "note": "音楽",
+        "order": 52,
+        "anchor": "nav-youtube",
+        "translations": {
+          "ko": {
+            "heading": "YouTube"
+          },
+          "en": {
+            "heading": "YouTube"
+          }
+        }
+      },
+      {
+        "title": "ナビ：記録",
+        "heading": "記録",
+        "linkUrl": "records.html",
+        "note": "音楽",
+        "order": 53,
+        "anchor": "nav-records",
+        "translations": {
+          "ko": {
+            "heading": "기록"
+          },
+          "en": {
+            "heading": "Records"
+          }
+        }
+      },
+      {
+        "title": "ナビ：ストリーミング",
+        "heading": "ストリーミング",
+        "linkUrl": "streaming.html",
+        "note": "応援ガイド",
+        "order": 60,
+        "anchor": "nav-streaming",
+        "translations": {
+          "ko": {
+            "heading": "스트리밍"
+          },
+          "en": {
+            "heading": "Streaming"
+          }
+        }
+      },
+      {
+        "title": "ナビ：投票ガイド",
+        "heading": "投票ガイド",
+        "linkUrl": "voting.html",
+        "note": "応援ガイド",
+        "order": 61,
+        "anchor": "nav-voting",
+        "translations": {
+          "ko": {
+            "heading": "투표 가이드"
+          },
+          "en": {
+            "heading": "Voting Guide"
+          }
+        }
+      },
+      {
+        "title": "ナビ：掛け声ガイド",
+        "heading": "掛け声ガイド",
+        "linkUrl": "chants.html",
+        "note": "応援ガイド",
+        "order": 62,
+        "anchor": "nav-chants",
+        "translations": {
+          "ko": {
+            "heading": "응원법 가이드"
+          },
+          "en": {
+            "heading": "Fan Chant Guide"
+          }
+        }
+      },
+      {
+        "title": "ナビ：公式リンク",
+        "heading": "公式リンク",
+        "linkUrl": "links.html",
+        "note": "リンク",
+        "order": 70,
+        "anchor": "nav-links",
+        "translations": {
+          "ko": {
+            "heading": "공식 링크"
+          },
+          "en": {
+            "heading": "Official Links"
+          }
+        }
+      },
+      {
+        "title": "ナビ：ファンサービスガイド",
+        "heading": "ファンサービスガイド",
+        "linkUrl": "fan-services.html",
+        "note": "リンク",
+        "order": 71,
+        "anchor": "nav-fan-services",
+        "translations": {
+          "ko": {
+            "heading": "팬 서비스 가이드"
+          },
+          "en": {
+            "heading": "Fan Service Guide"
+          }
+        }
+      },
+      {
+        "title": "ナビ：お問い合わせ",
+        "heading": "お問い合わせ",
+        "linkUrl": "contact.html",
+        "note": "リンク",
+        "order": 72,
+        "anchor": "nav-contact",
+        "translations": {
+          "ko": {
+            "heading": "문의"
+          },
+          "en": {
+            "heading": "Contact"
+          }
+        }
+      }
+    ],
+    "pages": {},
+    "links": {
+      "bubble-app": {
+        "title": "RESCENE bubble",
+        "heading": "RESCENE bubble",
+        "buttonLabel": "RESCENE bubbleを開く ↗",
+        "linkUrl": "https://apps.apple.com/app/id1556582179",
+        "anchor": "link-bubble-app",
+        "order": 10,
+        "translations": {
+          "ko": {
+            "buttonLabel": "RESCENE bubble 열기 ↗"
+          },
+          "en": {
+            "buttonLabel": "Open RESCENE bubble ↗"
+          }
+        }
+      }
+    },
+    "updates": [],
+    "translations": []
+  }
 }

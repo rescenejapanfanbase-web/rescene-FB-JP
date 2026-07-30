@@ -42,6 +42,7 @@ run_step "MV一覧" node scripts/sync-mv.mjs
 run_step "ニュース関連記事・SNS投稿文" node scripts/generate-news-extras.mjs
 run_step "生成後ニュース画像参照の再確認" node scripts/sanitize-news-images.mjs
 run_step "サイト更新履歴" python3 scripts/generate-site-updates.py
+run_step "日本語・韓国語・英語カタログ" node scripts/build-language-catalog.mjs
 run_step "アクセス解析設定" python3 scripts/generate-analytics-config.py
 run_step "ホーム用ガイド更新情報" node scripts/generate-home-guides.mjs
 run_step "カレンダーICS" node scripts/calendar-ics.mjs

@@ -16,6 +16,77 @@ const execFileAsync = promisify(execFile);
 if (!token) throw new Error("NOTION_TOKEN が設定されていません。音楽記録データベースをGitHub連携と共有してください。");
 
 const plainText = (items = []) => items.map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
+function propertyValue(property) {
+  if (!property) return "";
+  if (typeof property.number === "number") return property.number;
+  if (typeof property.formula?.number === "number") return property.formula.number;
+  if (typeof property.rollup?.number === "number") return property.rollup.number;
+  if (property.url) return property.url;
+  if (property.date?.start) return property.date.start;
+  if (property.select?.name) return property.select.name;
+  if (property.status?.name) return property.status.name;
+  return plainText(property.title || property.rich_text || property.text || property[property.type]);
+}
+function propertyByAliases(properties, aliases = []) {
+  for (const name of aliases) {
+    const value = propertyValue(properties?.[name]);
+    if (value !== "" && value !== null && value !== undefined) return value;
+  }
+  return "";
+}
+function numericProperty(properties, aliases = []) {
+  const value = propertyByAliases(properties, aliases);
+  if (value === "" || value === null || value === undefined) return null;
+  const normalized = String(value).replace(/[#,，,位\s]/g, "");
+  const number = Number(normalized);
+  return Number.isFinite(number) && number > 0 ? number : null;
+}
+function dateProperty(properties, aliases = []) {
+  const value = propertyByAliases(properties, aliases);
+  return value ? String(value).slice(0, 10) : "";
+}
+function normalizedRecordType(value) {
+  const text = String(value || "").normalize("NFKC").replace(/\s+/g, "").toLowerCase();
+  if (/音楽番組.*1位|musicshow.*win|musicshowwins/.test(text)) return "music-show-win";
+  if (/melon|メロン/.test(text)) return "melon";
+  return "";
+}
+function recordTranslations(properties, kind) {
+  const fields = kind === "melon"
+    ? ["title", "song", "description"]
+    : ["title", "song", "program", "description", "videoLabel"];
+  const baseNames = { title: "タイトル", song: "曲名", program: "番組名", description: "記録説明", videoLabel: "映像リンク名" };
+  const translations = {};
+  for (const [language, suffixes] of Object.entries({ ko: ["（韓国語）", "_KO"], en: ["（英語）", "_EN"] })) {
+    const values = {};
+    for (const field of fields) {
+      const base = baseNames[field];
+      const aliases = [...suffixes.map((suffix) => `${base}${suffix}`), `${language === "ko" ? "韓国語" : "英語"}${base}`];
+      const value = propertyByAliases(properties, aliases);
+      if (value) values[field] = String(value);
+    }
+    if (Object.keys(values).length) translations[language] = values;
+  }
+  return translations;
+}
+function mergeRecords(manual = [], notion = [], { matchSong = false } = {}) {
+  const merged = manual.map((item) => ({ ...item }));
+  for (const item of notion) {
+    const index = merged.findIndex((current) =>
+      (current.notionPageId && item.notionPageId && current.notionPageId === item.notionPageId)
+      || String(current.title || "").trim().toLowerCase() === String(item.title || "").trim().toLowerCase()
+      || (matchSong && current.song && item.song && String(current.song).trim().toLowerCase() === String(item.song).trim().toLowerCase()));
+    if (index >= 0) {
+      merged[index] = {
+        ...merged[index],
+        ...item,
+        image: item.image || merged[index].image || "",
+        translations: { ...(merged[index].translations || {}), ...(item.translations || {}) },
+      };
+    } else merged.push(item);
+  }
+  return merged;
+}
 const localPath = (value) => String(value || "").trim().replace(/^\/+/, "").replaceAll("\\", "/");
 const validHttp = (value) => /^https?:\/\//i.test(String(value || "")) ? String(value) : "";
 const supportedExtensions = new Set([".jpg", ".jpeg", ".png", ".webp", ".gif", ".avif", ".heic", ".heif"]);
@@ -147,55 +218,66 @@ async function resolveImage(page, previous) {
 }
 
 const existing = await readJson("data/records.json", { musicShowWins: [], melonRecords: [] });
+const manual = await readJson("data/records-manual.json", { musicShowWins: [], melonRecords: [] });
 const previousByTitle = new Map([...(existing.musicShowWins || []), ...(existing.melonRecords || [])].map((item) => [String(item.title || item.song || ""), item]));
 const pages = await queryAllPages();
-const musicShowWins = [];
-const melonRecords = [];
+const notionMusicShowWins = [];
+const notionMelonRecords = [];
 const usedImages = new Set();
 
 for (const queryPage of pages) {
   let page = queryPage;
   try { page = await retrievePage(queryPage.id); } catch (error) { console.warn(`記録ページ再取得失敗: ${queryPage.id} / ${error.message}`); }
   const p = page.properties || {};
-  const title = plainText(p["タイトル"]?.title);
-  const type = p["種別"]?.select?.name || "";
-  if (!title || !type) continue;
+  const title = String(propertyByAliases(p, ["タイトル", "記録名", "名前"]));
+  const rawType = propertyByAliases(p, ["種別", "種類", "カテゴリー"]);
+  const type = normalizedRecordType(rawType);
+  if (!title || !type) {
+    console.warn(`記録行をスキップ: title=${title || "(空)"} / type=${rawType || "(空)"}`);
+    continue;
+  }
   const previous = previousByTitle.get(title) || {};
   const image = await resolveImage(page, previous.image || "");
   if (image.startsWith(imageDirectory)) usedImages.add(image);
-  const order = p["表示順"]?.number ?? 9999;
-  if (type === "音楽番組1位") {
-    musicShowWins.push({
+  const order = numericProperty(p, ["表示順", "順番", "Order"]) ?? 9999;
+  if (type === "music-show-win") {
+    notionMusicShowWins.push({
       title,
-      song: plainText(p["曲名"]?.rich_text),
-      date: p["獲得日"]?.date?.start?.slice(0, 10) || "",
-      program: plainText(p["番組名"]?.rich_text),
-      description: plainText(p["記録説明"]?.rich_text),
-      videoUrl: validHttp(p["映像リンク"]?.url),
-      videoLabel: plainText(p["映像リンク名"]?.rich_text),
+      song: String(propertyByAliases(p, ["曲名", "楽曲名", "Song"])),
+      date: dateProperty(p, ["獲得日", "日付", "Win Date"]),
+      program: String(propertyByAliases(p, ["番組名", "音楽番組", "Program"])),
+      description: String(propertyByAliases(p, ["記録説明", "説明", "Description"])),
+      videoUrl: validHttp(propertyByAliases(p, ["映像リンク", "動画リンク", "Video URL"])),
+      videoLabel: String(propertyByAliases(p, ["映像リンク名", "動画リンク名", "Video Label"])),
       image: image || previous.image || "news/the-show-first-win.jpeg",
       order,
+      translations: recordTranslations(p, "music-show-win"),
       notionPageId: page.id,
       notionUrl: page.url || "",
     });
-  } else if (type === "Melonチャート") {
-    melonRecords.push({
+  } else if (type === "melon") {
+    notionMelonRecords.push({
       title,
-      song: plainText(p["曲名"]?.rich_text),
-      releaseDate: p["発売日"]?.date?.start?.slice(0, 10) || "",
-      top100Peak: p["TOP100最高順位"]?.number ?? null,
-      top100PeakDate: p["TOP100最高順位獲得日"]?.date?.start?.slice(0, 10) || "",
-      dailyPeak: p["日間最高順位"]?.number ?? null,
-      dailyPeakDate: p["日間最高順位獲得日"]?.date?.start?.slice(0, 10) || "",
-      description: plainText(p["記録説明"]?.rich_text),
-      mvUrl: validHttp(p["MVリンク"]?.url),
+      song: String(propertyByAliases(p, ["曲名", "楽曲名", "Song"])),
+      releaseDate: dateProperty(p, ["発売日", "リリース日", "Release Date"]),
+      top100Peak: numericProperty(p, ["TOP100最高順位", "Melon TOP100最高順位", "TOP100 Peak", "TOP100順位"]),
+      top100PeakDate: dateProperty(p, ["TOP100最高順位獲得日", "TOP100獲得日", "TOP100 Peak Date"]),
+      dailyPeak: numericProperty(p, ["日間最高順位", "Melon日間最高順位", "Daily Peak", "日間順位"]),
+      dailyPeakDate: dateProperty(p, ["日間最高順位獲得日", "日間獲得日", "Daily Peak Date"]),
+      description: String(propertyByAliases(p, ["記録説明", "説明", "Description"])),
+      mvUrl: validHttp(propertyByAliases(p, ["MVリンク", "MV URL", "動画リンク"])),
       image: image || previous.image || "news/melon-top100-first.jpg",
       order,
+      translations: recordTranslations(p, "melon"),
       notionPageId: page.id,
       notionUrl: page.url || "",
     });
+    console.log(`Melon記録取得: ${title} / TOP100=${numericProperty(p, ["TOP100最高順位", "Melon TOP100最高順位", "TOP100 Peak", "TOP100順位"]) ?? "未入力"} / 日間=${numericProperty(p, ["日間最高順位", "Melon日間最高順位", "Daily Peak", "日間順位"]) ?? "未入力"}`);
   }
 }
+
+const musicShowWins = mergeRecords(manual.musicShowWins || [], notionMusicShowWins);
+const melonRecords = mergeRecords(manual.melonRecords || [], notionMelonRecords, { matchSong: true });
 
 musicShowWins.sort((a, b) => String(a.date).localeCompare(String(b.date)) || a.order - b.order);
 melonRecords.sort((a, b) => String(a.releaseDate || "9999-99-99").localeCompare(String(b.releaseDate || "9999-99-99")) || a.order - b.order);
@@ -209,11 +291,11 @@ for (const name of await readdir(imageDirectory).catch(() => [])) {
 const comparable = { musicShowWins, melonRecords };
 const changed = JSON.stringify({ musicShowWins: existing.musicShowWins || [], melonRecords: existing.melonRecords || [] }) !== JSON.stringify(comparable);
 const generatedAt = changed ? new Date().toISOString() : (existing.generatedAt || new Date().toISOString());
-const payload = { generatedAt, source: "notion", dataSourceId, notionDatabaseUrl, musicShowWins, melonRecords };
+const payload = { generatedAt, source: "notion+manual-fallback", dataSourceId, notionDatabaseUrl, musicShowWins, melonRecords };
 await mkdir("data", { recursive: true });
 await writeFile("data/records.json", `${JSON.stringify(payload, null, 2)}\n`, "utf8");
 await writeFile("data/records-data.js", `window.RESCENE_RECORDS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
-await writeFile("data/notion-records-sync-status.json", `${JSON.stringify({ generatedAt, dataSourceId, queriedPages: pages.length, musicShowWins: musicShowWins.length, melonRecords: melonRecords.length }, null, 2)}\n`, "utf8");
+await writeFile("data/notion-records-sync-status.json", `${JSON.stringify({ generatedAt, dataSourceId, queriedPages: pages.length, notionMusicShowWins: notionMusicShowWins.length, notionMelonRecords: notionMelonRecords.length, musicShowWins: musicShowWins.length, melonRecords: melonRecords.length }, null, 2)}\n`, "utf8");
 
 await execFileAsync(process.execPath, ["scripts/render-record-pages.mjs"]);
 console.log(`Notion音楽記録を同期しました（音楽番組1位 ${musicShowWins.length}件 / Melon ${melonRecords.length}件 / 変更: ${changed ? "あり" : "なし"}）。`);

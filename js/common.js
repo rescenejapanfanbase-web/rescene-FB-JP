@@ -3,10 +3,19 @@
 
   const commonScript=document.currentScript||[...document.scripts].find(item=>/\/js\/common\.js(?:\?|$)/.test(item.src));
   if(commonScript&&!document.querySelector('script[data-rescene-i18n]')){
-    const languageScript=document.createElement('script');
-    languageScript.src=new URL('./i18n.js',commonScript.src).href;
-    languageScript.dataset.resceneI18n='true';
-    document.head.appendChild(languageScript);
+    const loadI18n=()=>{
+      if(document.querySelector('script[data-rescene-i18n]'))return;
+      const languageScript=document.createElement('script');
+      languageScript.src=new URL('./i18n.js',commonScript.src).href;
+      languageScript.dataset.resceneI18n='true';
+      document.head.appendChild(languageScript);
+    };
+    const catalogScript=document.createElement('script');
+    catalogScript.src=new URL('../data/language-catalog-data.js',commonScript.src).href;
+    catalogScript.dataset.resceneLanguageCatalog='true';
+    catalogScript.onload=loadI18n;
+    catalogScript.onerror=loadI18n;
+    document.head.appendChild(catalogScript);
   }
   const root=document.documentElement;
   const menu=document.getElementById('mobileMenu');
@@ -60,7 +69,7 @@
       themeButton.title=`テーマ: ${labels[themeMode]}（端末設定 → ライト → ダーク）`;
     }
     const meta=themeMeta();
-    if(meta)meta.content=resolved==='light'?'#fff7fb':'#2a1727';
+    if(meta)meta.content=resolved==='light'?'#fffdf6':'#111118';
   };
   const setTheme=mode=>{
     themeMode=['system','light','dark'].includes(mode)?mode:'system';

@@ -27,15 +27,27 @@ def require_workflow_schedule(path: str, cron: str) -> None:
 
 require_workflow_schedule(
     ".github/workflows/sync-youtube-channels.yml",
-    "5 0,2,4,6,8,10,12,14,16,18,20,22 * * *",
+    "5 2,4,6,8,10,12,14,16 * * *",
+)
+require_workflow_schedule(
+    ".github/workflows/sync-youtube-critical.yml",
+    "5 0,18,20,22 * * *",
 )
 require_workflow_schedule(
     ".github/workflows/sync-schedule.yml",
-    "0 0,6,12,18 * * *",
+    "0 0,12 * * *",
+)
+require_workflow_schedule(
+    ".github/workflows/sync-schedule-critical.yml",
+    "0 6,18 * * *",
 )
 require_workflow_schedule(
     ".github/workflows/sync-all-content.yml",
-    "5 1,3,5,7,9,11,13,15,17,19,21,23 * * *",
+    "5 1,3,5,9,11,15,17,21 * * *",
+)
+require_workflow_schedule(
+    ".github/workflows/sync-all-content-critical.yml",
+    "5 7,13,19,23 * * *",
 )
 other_workflow = text(".github/workflows/sync-all-content.yml")
 require("SKIP_YOUTUBE_SYNC:" in other_workflow, "その他同期: YouTube除外設定がありません")
@@ -56,6 +68,9 @@ require(not missing_common, f"Language未読込ページ: {', '.join(missing_com
 common_js = text("js/common.js")
 i18n_js = text("js/i18n.js")
 require("data-rescene-i18n" in common_js and "i18n.js" in common_js, "common.jsがLanguageを共通読込していません")
+require("language-catalog-data.js" in common_js, "common.jsがLanguageカタログを先に読み込んでいません")
+require((ROOT / "data/language-catalog.json").exists(), "LanguageカタログJSONがありません")
+require("RESCENE_LANGUAGE_CATALOG" in text("data/language-catalog-data.js"), "LanguageカタログJSがありません")
 require(".news-card" not in re.search(r"const SKIP_SELECTOR=([^;]+);", i18n_js).group(1), "Languageがニュース本文を除外しています")
 require(".record-win-card" not in re.search(r"const SKIP_SELECTOR=([^;]+);", i18n_js).group(1), "Languageが記録本文を除外しています")
 require("rescene:content-rendered" in i18n_js, "動的コンテンツのLanguage再反映がありません")
@@ -110,6 +125,8 @@ require("<small>SCORE</small>" not in record_renderer and "win-detail-score" not
 require('score: plainText(p["スコア"]' not in text("scripts/sync-notion-records.mjs"), "公開用記録データにスコアが残っています")
 require("TOP100最高順位獲得日" in text("scripts/sync-notion-records.mjs"), "TOP100最高順位獲得日のNotion同期がありません")
 require("日間最高順位獲得日" in text("scripts/sync-notion-records.mjs"), "日間最高順位獲得日のNotion同期がありません")
+require("records-manual.json" in text("scripts/sync-notion-records.mjs"), "Melon記録の手動フォールバックがありません")
+require("Deja Vu" in text("data/records.json") and "#13" in text("melon-records.html"), "Deja VuのMelon TOP100 13位が反映されていません")
 require("melon-rank-date" in record_renderer, "Melon最高順位の獲得日表示がありません")
 require("番組、獲得日、スコア、獲得時の映像" not in text("records.html"), "記録トップの説明にスコアが残っています")
 for path in ["music-show-wins.html", "melon-records.html"]:
