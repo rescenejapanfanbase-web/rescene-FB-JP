@@ -1,30 +1,20 @@
 {
-  "generatedAt": "2026-07-29T08:04:40.377661+00:00",
+  "generatedAt": "2026-07-30T07:42:36.017775+00:00",
   "items": [
     {
-      "date": "2026-07-28",
+      "date": "2026-07-30",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "600f34d",
+      "commit": "d272244",
       "files": [
         "data/external-link-report.json"
       ]
     },
     {
-      "date": "2026-07-27",
-      "title": "Add files via upload",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "ec2088a",
-      "files": [
-        "scripts/generate-pwa.py",
-        "scripts/sync-notion-homepage.mjs"
-      ]
-    },
-    {
-      "date": "2026-07-26",
+      "date": "2026-07-28",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "9192d44",
+      "commit": "600f34d",
       "files": [
         "data/external-link-report.json"
       ]
