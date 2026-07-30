@@ -6,7 +6,7 @@ const notionVersion = "2026-03-11";
 const databaseUrl = "https://app.notion.com/p/1220e9a875ac4374bd9cf8167565723c";
 if (!token) throw new Error("NOTION_TOKEN が設定されていません。既存のNotion同期と同じSecretを利用できます。");
 
-const plainText = (items = []) => items.map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
+const plainText = (items) => (Array.isArray(items) ? items : []).map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
 const propertyText = (property) => plainText(property?.rich_text ?? property?.title ?? []);
 const safeSlug = (value, pageId = "") => String(value || "")
   .normalize("NFKD").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 54)

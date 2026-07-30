@@ -1,0 +1,7 @@
+1. ZIPを展開してください。
+2. 中身をGitHubリポジトリの一番上へ上書きしてください。
+3. mainへコミット後、Actionsから「Sync All Site Content」を実行してください。
+4. Actionが緑色で完了したら、voting.htmlとschedule.htmlで3画像を確認してください。
+
+古いassets/optimized内の3フォルダは残っても表示には影響しません。
+Sync All Site Contentを実行すると画像最適化処理が未使用フォルダを自動整理します。

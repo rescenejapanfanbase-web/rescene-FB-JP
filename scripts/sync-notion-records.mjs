@@ -15,7 +15,7 @@ const execFileAsync = promisify(execFile);
 
 if (!token) throw new Error("NOTION_TOKEN が設定されていません。音楽記録データベースをGitHub連携と共有してください。");
 
-const plainText = (items = []) => items.map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
+const plainText = (items) => (Array.isArray(items) ? items : []).map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
 function propertyValue(property) {
   if (!property) return "";
   if (typeof property.number === "number") return property.number;

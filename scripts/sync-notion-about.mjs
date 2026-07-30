@@ -8,7 +8,7 @@ const imageDirectory = "assets/about/notion";
 const databaseUrl = "https://app.notion.com/p/233f65d59c4347188049afdeda030c80";
 if (!token) throw new Error("NOTION_TOKEN が設定されていません。既存のNotion同期と同じSecretを利用できます。");
 
-const plainText = (items = []) => items.map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
+const plainText = (items) => (Array.isArray(items) ? items : []).map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
 const propertyText = (property) => plainText(property?.rich_text ?? property?.title ?? []);
 const dateValue = (property) => property?.date?.start?.slice(0, 10) ?? "";
 const safeSlug = (value, pageId = "") => String(value || "")

@@ -1,0 +1,19 @@
+RESCENE JAPAN FANBASE
+画像差し替え・Notion音楽記録同期エラー修正（2026-07-31）
+
+【差し替えた画像】
+- assets/voting/vote-points-summary.png
+  「投票券の貯め方(最新).pdf」の1ページ目を高解像度PNG化
+- schedule/music-show-list.png
+  「音楽番組一覧(最新).pdf」の1ページ目を高解像度PNG化
+- schedule/music-show-schedule.png
+  「音楽番組スケジュール(最新).pdf」の1ページ目を高解像度PNG化
+
+【レスポンシブ対応】
+3画像の480px・768px・1440px WebPを再生成し、voting.htmlとschedule.htmlの参照を更新しました。
+PWAも再生成するため、新しい公開後は古い画像キャッシュから切り替わります。
+
+【Notion音楽記録のエラー】
+Notion APIが空のテキスト項目をnullで返した場合、plainText(...).mapで停止していた問題を修正しました。
+sync-notion-records.mjsだけでなく、すべてのNotion同期スクリプトをnull安全にしています。
+これにより、途中の記録行に空欄があっても、Deja VuのMelon TOP100最高13位を含む後続行まで同期を継続します。

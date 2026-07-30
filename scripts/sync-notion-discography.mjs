@@ -20,7 +20,7 @@ const categories = [
 ];
 const categoryMap = Object.fromEntries(categories.map((category) => [category.notionName, category.key]));
 
-const plainText = (items = []) => items.map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
+const plainText = (items) => (Array.isArray(items) ? items : []).map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
 const propertyText = (property) => plainText(property?.rich_text ?? property?.title ?? []);
 
 function safeSlug(value, pageId = "") {

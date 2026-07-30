@@ -13,7 +13,7 @@ const guideDirectory = "assets/voting/notion/guides";
 
 if (!token) throw new Error("NOTION_TOKEN が設定されていません。既存のNotion同期と同じSecretを利用できます。");
 
-const plainText = (items = []) => items.map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
+const plainText = (items) => (Array.isArray(items) ? items : []).map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
 const propertyText = (property) => plainText(property?.rich_text ?? property?.title ?? []);
 const splitLines = (value = "") => String(value).split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
 const splitPair = (line = "") => {

@@ -1,14 +1,17 @@
 import { mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import { extname, join } from "node:path";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 
 const token = process.env.NOTION_TOKEN;
 const dataSourceId = process.env.NOTION_MEMBERS_DATA_SOURCE_ID || "659553c4-dfa8-4d81-98e1-c259df27bafe";
 const notionVersion = "2026-03-11";
 const imageDirectory = "assets/members/notion";
 const databaseUrl = "https://app.notion.com/p/5c70b299a510423c9c6d71dcf57968af";
+const execFileAsync = promisify(execFile);
 if (!token) throw new Error("NOTION_TOKEN が設定されていません。既存のNotion同期と同じSecretを利用できます。");
 
-const plainText = (items = []) => items.map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
+const plainText = (items) => (Array.isArray(items) ? items : []).map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
 const propertyText = (property) => plainText(property?.rich_text ?? property?.title ?? []);
 const safeSlug = (value, pageId = "") => String(value || "").normalize("NFKD").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 48) || `member-${String(pageId).replaceAll("-", "").slice(-8) || "item"}`;
 const safeAnchor = (value, title, pageId) => {
@@ -46,11 +49,13 @@ async function queryAllPages() {
   return results;
 }
 function extensionFrom(name, contentType, url) {
-  const known = new Set([".jpg", ".jpeg", ".png", ".webp"]);
+  const known = new Set([".jpg", ".jpeg", ".png", ".webp", ".avif", ".heic", ".heif"]);
   const fromName = extname(String(name || "").split("?")[0]).toLowerCase();
   if (known.has(fromName)) return fromName === ".jpeg" ? ".jpg" : fromName;
   const fromUrl = extname(new URL(url).pathname).toLowerCase();
   if (known.has(fromUrl)) return fromUrl === ".jpeg" ? ".jpg" : fromUrl;
+  if (/heic|heif/i.test(contentType || "")) return ".heic";
+  if (/avif/i.test(contentType || "")) return ".avif";
   if (/png/i.test(contentType || "")) return ".png";
   if (/webp/i.test(contentType || "")) return ".webp";
   return ".jpg";
@@ -61,12 +66,24 @@ async function saveImage(file, slug, kind) {
   const response = await fetch(file.url, { redirect: "follow" });
   if (!response.ok) throw new Error(`メンバー画像取得失敗 ${response.status}: ${file.url}`);
   const bytes = Buffer.from(await response.arrayBuffer());
-  const extension = extensionFrom(file.name, response.headers.get("content-type"), file.url);
+  const sourceExtension = extensionFrom(file.name, response.headers.get("content-type"), file.url);
   await mkdir(imageDirectory, { recursive: true });
-  const path = join(imageDirectory, `${slug}-${kind}${extension}`);
-  const previous = await readBytes(path);
-  if (!previous || !previous.equals(bytes)) await writeFile(path, bytes);
-  for (const otherExtension of [".jpg", ".png", ".webp"]) {
+  let path;
+  if ([".heic", ".heif"].includes(sourceExtension)) {
+    const sourcePath = join(imageDirectory, `${slug}-${kind}${sourceExtension}`);
+    path = join(imageDirectory, `${slug}-${kind}.jpg`);
+    await writeFile(sourcePath, bytes);
+    try {
+      await execFileAsync("python", ["scripts/convert-heic.py", sourcePath, path]);
+    } finally {
+      await unlink(sourcePath).catch(() => {});
+    }
+  } else {
+    path = join(imageDirectory, `${slug}-${kind}${sourceExtension}`);
+    const previous = await readBytes(path);
+    if (!previous || !previous.equals(bytes)) await writeFile(path, bytes);
+  }
+  for (const otherExtension of [".jpg", ".png", ".webp", ".avif", ".heic", ".heif"]) {
     const other = join(imageDirectory, `${slug}-${kind}${otherExtension}`);
     if (other !== path) await unlink(other).catch(() => {});
   }

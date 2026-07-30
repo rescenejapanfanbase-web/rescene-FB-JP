@@ -156,6 +156,21 @@ for event in schedule_payload.get("events", []):
         require("Plus Chat公式スケジュールから自動取得" not in description, f"Plus Chat予定に自動取得文言が残っています: {event.get('title')}")
         require(not re.search(r"(^|\n)原文\s*[:：]", description), f"Plus Chat予定に原文表示が残っています: {event.get('title')}")
 
+# Notion API can return null for empty rich_text/title values. Every parser must tolerate it.
+for sync_script in sorted((ROOT / "scripts").glob("*.mjs")):
+    body = sync_script.read_text(encoding="utf-8")
+    if "const plainText" in body:
+        require("Array.isArray(items)" in body, f"{sync_script.relative_to(ROOT)}: plainTextがnull安全ではありません")
+
+# The three supplied overview images must be referenced through the latest responsive assets.
+for page, image_paths in {
+    "voting.html": ("assets/voting/vote-points-summary.png", "schedule/music-show-list.png"),
+    "schedule.html": ("schedule/music-show-schedule.png",),
+}.items():
+    body = text(page)
+    for image_path in image_paths:
+        require(f'data-image-original-src="{image_path}"' in body, f"{page}: 最新画像参照がありません: {image_path}")
+
 if errors:
     print("❌ 指定項目の回帰検査で問題が見つかりました。")
     for item in errors:

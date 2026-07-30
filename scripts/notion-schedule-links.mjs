@@ -1,5 +1,5 @@
-const plainText = (items = []) =>
-  items.map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
+const plainText = (items) =>
+  (Array.isArray(items) ? items : []).map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
 
 const propertyTextItems = (property = {}) => property.rich_text ?? property.title ?? [];
 const propertyText = (property = {}) => {

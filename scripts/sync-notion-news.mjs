@@ -18,8 +18,8 @@ if (!token) {
   throw new Error("NOTION_TOKEN が設定されていません。スケジュール連携で使っている同じSecretを利用できます。");
 }
 
-const plainText = (items = []) =>
-  items.map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
+const plainText = (items) =>
+  (Array.isArray(items) ? items : []).map((item) => item?.plain_text ?? item?.text?.content ?? "").join("").trim();
 
 function propertyText(properties, aliases = []) {
   for (const name of aliases) {
