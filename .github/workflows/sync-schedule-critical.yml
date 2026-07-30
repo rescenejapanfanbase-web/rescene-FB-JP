@@ -1,10 +1,10 @@
-name: Sync Schedule
+name: Critical Schedule Sync
 
 on:
   workflow_dispatch:
   schedule:
-    # 通常枠: JST 00:00 / 12:00
-    - cron: "0 0,12 * * *"
+    # 他の実行と独立した重要枠: JST 06:00 / 18:00
+    - cron: "0 6,18 * * *"
       timezone: "Asia/Tokyo"
 
 permissions:
@@ -15,9 +15,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  sync-schedule:
+  sync-critical:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 70
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -34,7 +34,7 @@ jobs:
           python-version: "3.13"
       - name: Install schedule dependencies
         run: python -m pip install --disable-pip-version-check --upgrade pillow pillow-heif==1.5.0 pyyaml playwright
-      - name: Synchronize and publish schedule
+      - name: Run protected schedule synchronization
         shell: bash
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
@@ -47,14 +47,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           branch="${GITHUB_REF_NAME:-main}"
-          for attempt in 1 2 3; do
+          for attempt in 1 2 3 4 5; do
+            echo "重要スケジュール同期 ${attempt}/5"
             git fetch origin "${branch}"
             git reset --hard "origin/${branch}"
-            bash scripts/sync-schedule-content.sh
-            if git diff --quiet && test -z "$(git status --porcelain)"; then exit 0; fi
-            git add -A
-            git commit -m "chore: synchronize schedule"
-            if git push origin "HEAD:${branch}"; then exit 0; fi
-            sleep $((attempt * 10))
+            if bash scripts/sync-schedule-content.sh; then
+              if git diff --quiet && test -z "$(git status --porcelain)"; then exit 0; fi
+              git add -A
+              git commit -m "chore: critical schedule sync"
+              if git push origin "HEAD:${branch}"; then exit 0; fi
+            fi
+            sleep $((attempt * 15))
           done
           exit 1

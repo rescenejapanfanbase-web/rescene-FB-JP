@@ -1,10 +1,10 @@
-name: Sync All Site Content
+name: Critical Site Content Sync
 
 on:
   workflow_dispatch:
   schedule:
-    # 通常枠: JST 01:05 / 03:05 / 05:05 / 09:05 / 11:05 / 15:05 / 17:05 / 21:05
-    - cron: "5 1,3,5,9,11,15,17,21 * * *"
+    # 他の実行と独立した重要枠: JST 07:05 / 13:05 / 19:05 / 23:05
+    - cron: "5 7,13,19,23 * * *"
       timezone: "Asia/Tokyo"
 
 permissions:
@@ -15,9 +15,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  sync-all:
+  sync-critical:
     runs-on: ubuntu-latest
-    timeout-minutes: 70
+    timeout-minutes: 100
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -34,7 +34,7 @@ jobs:
           python-version: "3.13"
       - name: Install dependencies
         run: python -m pip install --disable-pip-version-check --upgrade pillow pillow-heif==1.5.0 pyyaml yt-dlp playwright
-      - name: Synchronize, validate, and publish atomically
+      - name: Run protected site synchronization
         shell: bash
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
@@ -62,21 +62,23 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           branch="${GITHUB_REF_NAME:-main}"
-          for attempt in 1 2 3; do
+          for attempt in 1 2 3 4 5; do
+            echo "重要全体同期 ${attempt}/5"
             git fetch origin "${branch}"
             git reset --hard "origin/${branch}"
-            bash scripts/sync-all-content.sh
-            if git diff --quiet && test -z "$(git status --porcelain)"; then exit 0; fi
-            git add -A
-            git commit -m "chore: synchronize all site content"
-            if git push origin "HEAD:${branch}"; then exit 0; fi
-            sleep $((attempt * 10))
+            if bash scripts/sync-all-content.sh; then
+              if git diff --quiet && test -z "$(git status --porcelain)"; then exit 0; fi
+              git add -A
+              git commit -m "chore: critical full content sync"
+              if git push origin "HEAD:${branch}"; then exit 0; fi
+            fi
+            sleep $((attempt * 20))
           done
           exit 1
       - name: Upload quality report
         if: always()
         uses: actions/upload-artifact@v6
         with:
-          name: site-quality-report
+          name: critical-site-quality-report
           path: data/quality-report.json
           if-no-files-found: warn

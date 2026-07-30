@@ -1,10 +1,10 @@
-name: Sync YouTube Channels
+name: Critical YouTube Sync
 
 on:
   workflow_dispatch:
   schedule:
-    # JST 02:05 / 04:05 / 06:05 / 08:05 / 10:05 / 12:05 / 14:05 / 16:05
-    - cron: "5 2,4,6,8,10,12,14,16 * * *"
+    # 他の実行が失敗していても独立して動かす重要枠: JST 00:05 / 18:05 / 20:05 / 22:05
+    - cron: "5 0,18,20,22 * * *"
       timezone: "Asia/Tokyo"
 
 permissions:
@@ -15,9 +15,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  sync:
+  sync-critical:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -34,25 +34,25 @@ jobs:
           python-version: "3.13"
       - name: Install YouTube extractor
         run: python -m pip install --disable-pip-version-check --upgrade yt-dlp
-      - name: Synchronize and publish YouTube data
+      - name: Run protected YouTube synchronization
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           branch="${GITHUB_REF_NAME:-main}"
-          echo "通常YouTube同期: JST 02:05 / 04:05 / 06:05 / 08:05 / 10:05 / 12:05 / 14:05 / 16:05"
-          for attempt in 1 2 3; do
+          echo "重要YouTube同期: JST 00:05 / 18:05 / 20:05 / 22:05"
+          for attempt in 1 2 3 4 5; do
+            echo "重要枠の同期試行 ${attempt}/5"
             git fetch origin "${branch}"
             git reset --hard "origin/${branch}"
-            node scripts/sync-youtube-channels.mjs
-            if git diff --quiet -- data/youtube-channels.json; then
-              echo "YouTube動画一覧の変更はありません。"
-              exit 0
+            if node scripts/sync-youtube-channels.mjs; then
+              if git diff --quiet -- data/youtube-channels.json; then exit 0; fi
+              git add data/youtube-channels.json
+              git commit -m "chore: critical YouTube sync"
+              if git push origin "HEAD:${branch}"; then exit 0; fi
             fi
-            git add data/youtube-channels.json
-            git commit -m "chore: sync all YouTube videos"
-            if git push origin "HEAD:${branch}"; then exit 0; fi
-            sleep $((attempt * 8))
+            sleep $((attempt * 15))
           done
+          echo "重要YouTube同期を5回試行しましたが反映できませんでした。"
           exit 1
