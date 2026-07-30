@@ -1,20 +1,37 @@
 {
-  "generatedAt": "2026-07-30T15:29:17.711629+00:00",
+  "generatedAt": "2026-07-30T16:06:38.814570+00:00",
   "items": [
     {
-      "date": "2026-07-30",
-      "title": "baseline",
+      "date": "2026-07-31",
+      "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "a40ddaa",
+      "commit": "1a5422e",
       "files": [
-        "#U53cd#U6620#U624b#U9806.txt",
+        ".github/workflows/sync-all-content-critical.yml",
+        ".github/workflows/sync-all-content.yml",
         ".github/workflows/sync-notion-homepage.yml",
-        ".nojekyll",
-        "404.html",
-        "ABOUT-LANGUAGE-DISCOGRAPHY-YOUTUBE-UPDATE.txt",
-        "ABOUT-NOTION-GUIDE.txt",
-        "ABOUT-NOTION-UPDATE.txt",
-        "ALL-FEATURES-UPDATE.txt"
+        ".github/workflows/sync-schedule-critical.yml",
+        ".github/workflows/sync-schedule.yml",
+        ".github/workflows/sync-youtube-channels.yml",
+        ".github/workflows/sync-youtube-critical.yml"
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "931c3ab",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "600f34d",
+      "files": [
+        "data/external-link-report.json"
       ]
     },
     {
