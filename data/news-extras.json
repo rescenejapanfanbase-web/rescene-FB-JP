@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-31T10:42:46.453Z",
-  "sourceNewsGeneratedAt": "2026-07-31T10:42:46.370Z",
+  "generatedAt": "2026-07-31T11:11:15.101Z",
+  "sourceNewsGeneratedAt": "2026-07-31T11:11:15.017Z",
   "related": {
     "fanbase-site": [
       {
@@ -16,24 +16,24 @@
         ]
       },
       {
-        "slug": "asia-artist-awards-aaa-ddf38a6d89",
-        "title": "Asia Artist Awards(AAA)に出演が決定！",
+        "slug": "love-attack-3-rak-4e82c0859a",
+        "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
         "date": "2026.07.30",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3ae229d219da800391fad8ddf38a6d89-5f31c4e2cc30.jpg",
-        "text": "RESCENEが2026年12月5日,6日に開催されるAsia Artist Awards(AAA)に出演が決定しました！",
+        "label": "3rd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg",
+        "text": "2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。",
         "score": 5,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "love-attack-rak-53bcbaebf5",
-        "title": "｢LOVE ATTACK｣がRAKを達成",
-        "date": "2026.07.28",
-        "label": "RAK",
-        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
-        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "slug": "love-attack-4-rak-34626a2dc2",
+        "title": "｢LOVE ATTACK｣で4度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "4th RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80f89258ef34626a2dc2-40e2d9234fa5.jpg",
+        "text": "2026年7月30日20時、LOVE ATTACKが4度目のRAK(REAL TIME ALL KILL)を達成。",
         "score": 5,
         "reasons": [
           "同じカテゴリー"
@@ -55,27 +55,159 @@
         ]
       },
       {
-        "slug": "love-attack-rak-53bcbaebf5",
-        "title": "｢LOVE ATTACK｣がRAKを達成",
-        "date": "2026.07.28",
-        "label": "RAK",
-        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
-        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "slug": "love-attack-3-rak-4e82c0859a",
+        "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "3rd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg",
+        "text": "2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "rescene-love-attack-1-e44b1f8e6e",
-        "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
-        "date": "2026.07.26",
-        "label": "3rd WIN",
-        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
-        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
+        "slug": "love-attack-4-rak-34626a2dc2",
+        "title": "｢LOVE ATTACK｣で4度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "4th RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80f89258ef34626a2dc2-40e2d9234fa5.jpg",
+        "text": "2026年7月30日20時、LOVE ATTACKが4度目のRAK(REAL TIME ALL KILL)を達成。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
+        ]
+      }
+    ],
+    "love-attack-3-rak-4e82c0859a": [
+      {
+        "slug": "love-attack-4-rak-34626a2dc2",
+        "title": "｢LOVE ATTACK｣で4度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "4th RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80f89258ef34626a2dc2-40e2d9234fa5.jpg",
+        "text": "2026年7月30日20時、LOVE ATTACKが4度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "love-attack-5-rak-f87a03ea47",
+        "title": "｢LOVE ATTACK｣で5度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "5th RAK",
+        "image": "assets/news/notion/notion-3ae229d219da801784abfff87a03ea47-40e2d9234fa5.jpg",
+        "text": "2026年7月30日23時、LOVE ATTACKが5度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "love-attack-2-rak-064a4279f4",
+        "title": "｢LOVE ATTACK｣で2度目のRAKを達成！",
+        "date": "2026.07.29",
+        "label": "2nd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da802185b9cb064a4279f4-40e2d9234fa5.jpg",
+        "text": "2026年7月29日23時、LOVE ATTACKが2度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      }
+    ],
+    "love-attack-4-rak-34626a2dc2": [
+      {
+        "slug": "love-attack-3-rak-4e82c0859a",
+        "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "3rd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg",
+        "text": "2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "love-attack-5-rak-f87a03ea47",
+        "title": "｢LOVE ATTACK｣で5度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "5th RAK",
+        "image": "assets/news/notion/notion-3ae229d219da801784abfff87a03ea47-40e2d9234fa5.jpg",
+        "text": "2026年7月30日23時、LOVE ATTACKが5度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "love-attack-2-rak-064a4279f4",
+        "title": "｢LOVE ATTACK｣で2度目のRAKを達成！",
+        "date": "2026.07.29",
+        "label": "2nd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da802185b9cb064a4279f4-40e2d9234fa5.jpg",
+        "text": "2026年7月29日23時、LOVE ATTACKが2度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      }
+    ],
+    "love-attack-5-rak-f87a03ea47": [
+      {
+        "slug": "love-attack-3-rak-4e82c0859a",
+        "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "3rd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg",
+        "text": "2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "love-attack-4-rak-34626a2dc2",
+        "title": "｢LOVE ATTACK｣で4度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "4th RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80f89258ef34626a2dc2-40e2d9234fa5.jpg",
+        "text": "2026年7月30日20時、LOVE ATTACKが4度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "love-attack-2-rak-064a4279f4",
+        "title": "｢LOVE ATTACK｣で2度目のRAKを達成！",
+        "date": "2026.07.29",
+        "label": "2nd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da802185b9cb064a4279f4-40e2d9234fa5.jpg",
+        "text": "2026年7月29日23時、LOVE ATTACKが2度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
         ]
       }
     ],
@@ -94,39 +226,83 @@
         ]
       },
       {
-        "slug": "love-attack-rak-53bcbaebf5",
-        "title": "｢LOVE ATTACK｣がRAKを達成",
-        "date": "2026.07.28",
-        "label": "RAK",
-        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
-        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "slug": "love-attack-3-rak-4e82c0859a",
+        "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "3rd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg",
+        "text": "2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "rescene-love-attack-1-e44b1f8e6e",
-        "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
-        "date": "2026.07.26",
-        "label": "3rd WIN",
-        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
-        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
+        "slug": "love-attack-4-rak-34626a2dc2",
+        "title": "｢LOVE ATTACK｣で4度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "4th RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80f89258ef34626a2dc2-40e2d9234fa5.jpg",
+        "text": "2026年7月30日20時、LOVE ATTACKが4度目のRAK(REAL TIME ALL KILL)を達成。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       }
     ],
+    "love-attack-2-rak-064a4279f4": [
+      {
+        "slug": "love-attack-3-rak-4e82c0859a",
+        "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "3rd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg",
+        "text": "2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "love-attack-4-rak-34626a2dc2",
+        "title": "｢LOVE ATTACK｣で4度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "4th RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80f89258ef34626a2dc2-40e2d9234fa5.jpg",
+        "text": "2026年7月30日20時、LOVE ATTACKが4度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "love-attack-5-rak-f87a03ea47",
+        "title": "｢LOVE ATTACK｣で5度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "5th RAK",
+        "image": "assets/news/notion/notion-3ae229d219da801784abfff87a03ea47-40e2d9234fa5.jpg",
+        "text": "2026年7月30日23時、LOVE ATTACKが5度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      }
+    ],
     "love-attack-rak-53bcbaebf5": [
       {
-        "slug": "rescene-love-attack-1-e44b1f8e6e",
-        "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
-        "date": "2026.07.26",
-        "label": "3rd WIN",
-        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
-        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
-        "score": 18,
+        "slug": "love-attack-3-rak-4e82c0859a",
+        "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "3rd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg",
+        "text": "2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 22,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード",
@@ -134,13 +310,13 @@
         ]
       },
       {
-        "slug": "love-attack-inkigayo-realtime-first",
-        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
-        "date": "2026.07.12",
-        "label": "RECORD",
-        "image": "assets/mv/love-attack.jpg",
-        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
-        "score": 18,
+        "slug": "love-attack-4-rak-34626a2dc2",
+        "title": "｢LOVE ATTACK｣で4度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "4th RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80f89258ef34626a2dc2-40e2d9234fa5.jpg",
+        "text": "2026年7月30日20時、LOVE ATTACKが4度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 22,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード",
@@ -148,20 +324,35 @@
         ]
       },
       {
-        "slug": "scenedrome-release",
-        "title": "1st Mini Album「SCENEDROME」リリース",
-        "date": "2024.08.27",
-        "label": "MINI ALBUM",
-        "image": "assets/mv/love-attack.jpg",
-        "text": "LOVE ATTACK、Pinballなどを収録した1st Mini Albumがリリースされました。",
-        "score": 11,
+        "slug": "love-attack-5-rak-f87a03ea47",
+        "title": "｢LOVE ATTACK｣で5度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "5th RAK",
+        "image": "assets/news/notion/notion-3ae229d219da801784abfff87a03ea47-40e2d9234fa5.jpg",
+        "text": "2026年7月30日23時、LOVE ATTACKが5度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 22,
         "reasons": [
+          "同じカテゴリー",
           "共通キーワード",
           "同じ作品"
         ]
       }
     ],
     "rescene-love-attack-1-e44b1f8e6e": [
+      {
+        "slug": "love-attack-3-rak-4e82c0859a",
+        "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "3rd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg",
+        "text": "2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 20,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
       {
         "slug": "love-attack-inkigayo-realtime-first",
         "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
@@ -177,30 +368,17 @@
         ]
       },
       {
-        "slug": "love-attack-rak-53bcbaebf5",
-        "title": "｢LOVE ATTACK｣がRAKを達成",
-        "date": "2026.07.28",
-        "label": "RAK",
-        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
-        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "slug": "love-attack-4-rak-34626a2dc2",
+        "title": "｢LOVE ATTACK｣で4度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "4th RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80f89258ef34626a2dc2-40e2d9234fa5.jpg",
+        "text": "2026年7月30日20時、LOVE ATTACKが4度目のRAK(REAL TIME ALL KILL)を達成。",
         "score": 18,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード",
           "同じ作品"
-        ]
-      },
-      {
-        "slug": "rescene-pretty-girl-1-8a4e50d816",
-        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
-        "date": "2026.07.25",
-        "label": "2nd WIN",
-        "image": "assets/news/notion/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf86990.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組では初の1位を獲得しました。",
-        "score": 11,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード"
         ]
       }
     ],
@@ -210,6 +388,20 @@
         "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
         "date": "2026.07.14",
         "label": "1ST WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、「Pretty Girl」がRESCENE初の音楽番組1位を獲得しました。10,000点のフルスコアでの1位となり、THE SHOWでフルスコアを記録したのはBTS、Wanna Oneに続く3組目です。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "rescene-pretty-girl-1-bc9d88fde7",
+        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得！",
+        "date": "2026.07.14",
+        "label": "1st WIN",
         "image": "news/the-show-first-win.jpeg",
         "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
         "score": 22,
@@ -230,19 +422,6 @@
         "reasons": [
           "共通キーワード",
           "同じ作品"
-        ]
-      },
-      {
-        "slug": "rescene-love-attack-1-e44b1f8e6e",
-        "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
-        "date": "2026.07.26",
-        "label": "3rd WIN",
-        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
-        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
-        "score": 11,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード"
         ]
       }
     ],
@@ -273,12 +452,12 @@
         ]
       },
       {
-        "slug": "asia-artist-awards-aaa-ddf38a6d89",
-        "title": "Asia Artist Awards(AAA)に出演が決定！",
+        "slug": "love-attack-3-rak-4e82c0859a",
+        "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
         "date": "2026.07.30",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3ae229d219da800391fad8ddf38a6d89-5f31c4e2cc30.jpg",
-        "text": "RESCENEが2026年12月5日,6日に開催されるAsia Artist Awards(AAA)に出演が決定しました！",
+        "label": "3rd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg",
+        "text": "2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -312,12 +491,12 @@
         ]
       },
       {
-        "slug": "asia-artist-awards-aaa-ddf38a6d89",
-        "title": "Asia Artist Awards(AAA)に出演が決定！",
+        "slug": "love-attack-3-rak-4e82c0859a",
+        "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
         "date": "2026.07.30",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3ae229d219da800391fad8ddf38a6d89-5f31c4e2cc30.jpg",
-        "text": "RESCENEが2026年12月5日,6日に開催されるAsia Artist Awards(AAA)に出演が決定しました！",
+        "label": "3rd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg",
+        "text": "2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -327,11 +506,25 @@
     "pretty-girl-first-music-show-win": [
       {
         "slug": "rescene-pretty-girl-1-8a4e50d816",
-        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
+        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得！",
         "date": "2026.07.25",
         "label": "2nd WIN",
         "image": "assets/news/notion/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf86990.jpg",
         "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組では初の1位を獲得しました。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "rescene-pretty-girl-1-bc9d88fde7",
+        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得！",
+        "date": "2026.07.14",
+        "label": "1st WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
         "score": 22,
         "reasons": [
           "同じカテゴリー",
@@ -351,25 +544,55 @@
           "共通キーワード",
           "同じ作品"
         ]
-      },
+      }
+    ],
+    "rescene-pretty-girl-1-bc9d88fde7": [
       {
-        "slug": "rescene-love-attack-1-e44b1f8e6e",
-        "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
-        "date": "2026.07.26",
-        "label": "3rd WIN",
-        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
-        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
-        "score": 11,
+        "slug": "rescene-pretty-girl-1-8a4e50d816",
+        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得！",
+        "date": "2026.07.25",
+        "label": "2nd WIN",
+        "image": "assets/news/notion/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf86990.jpg",
+        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組では初の1位を獲得しました。",
+        "score": 22,
         "reasons": [
           "同じカテゴリー",
-          "共通キーワード"
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "pretty-girl-first-music-show-win",
+        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
+        "date": "2026.07.14",
+        "label": "1ST WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、「Pretty Girl」がRESCENE初の音楽番組1位を獲得しました。10,000点のフルスコアでの1位となり、THE SHOWでフルスコアを記録したのはBTS、Wanna Oneに続く3組目です。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "pretty-girl-release",
+        "title": "Special Single「Pretty Girl」配信開始",
+        "date": "2026.07.08",
+        "label": "SPECIAL SINGLE",
+        "image": "assets/mv/pretty-girl.jpg",
+        "text": "Special Single「Pretty Girl」の配信がスタートしました。リリース1時間後にMelon TOP100 22位へランクインし、最高4位を記録しました。",
+        "score": 13,
+        "reasons": [
+          "共通キーワード",
+          "同じ作品"
         ]
       }
     ],
     "love-attack-inkigayo-realtime-first": [
       {
         "slug": "rescene-love-attack-1-e44b1f8e6e",
-        "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
+        "title": "RESCENEが「LOVE ATTACK」で1位を獲得！",
         "date": "2026.07.26",
         "label": "3rd WIN",
         "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
@@ -382,12 +605,12 @@
         ]
       },
       {
-        "slug": "love-attack-rak-53bcbaebf5",
-        "title": "｢LOVE ATTACK｣がRAKを達成",
-        "date": "2026.07.28",
-        "label": "RAK",
-        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
-        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "slug": "love-attack-3-rak-4e82c0859a",
+        "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "3rd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg",
+        "text": "2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。",
         "score": 18,
         "reasons": [
           "同じカテゴリー",
@@ -396,14 +619,15 @@
         ]
       },
       {
-        "slug": "scenedrome-release",
-        "title": "1st Mini Album「SCENEDROME」リリース",
-        "date": "2024.08.27",
-        "label": "MINI ALBUM",
-        "image": "assets/mv/love-attack.jpg",
-        "text": "LOVE ATTACK、Pinballなどを収録した1st Mini Albumがリリースされました。",
-        "score": 11,
+        "slug": "love-attack-4-rak-34626a2dc2",
+        "title": "｢LOVE ATTACK｣で4度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "4th RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80f89258ef34626a2dc2-40e2d9234fa5.jpg",
+        "text": "2026年7月30日20時、LOVE ATTACKが4度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 18,
         "reasons": [
+          "同じカテゴリー",
           "共通キーワード",
           "同じ作品"
         ]
@@ -411,12 +635,12 @@
     ],
     "melon-top100-first-number-one": [
       {
-        "slug": "love-attack-rak-53bcbaebf5",
-        "title": "｢LOVE ATTACK｣がRAKを達成",
-        "date": "2026.07.28",
-        "label": "RAK",
-        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
-        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "slug": "love-attack-3-rak-4e82c0859a",
+        "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "3rd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg",
+        "text": "2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。",
         "score": 9,
         "reasons": [
           "同じカテゴリー",
@@ -424,12 +648,12 @@
         ]
       },
       {
-        "slug": "love-attack-inkigayo-realtime-first",
-        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
-        "date": "2026.07.12",
-        "label": "RECORD",
-        "image": "assets/mv/love-attack.jpg",
-        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
+        "slug": "love-attack-4-rak-34626a2dc2",
+        "title": "｢LOVE ATTACK｣で4度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "4th RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80f89258ef34626a2dc2-40e2d9234fa5.jpg",
+        "text": "2026年7月30日20時、LOVE ATTACKが4度目のRAK(REAL TIME ALL KILL)を達成。",
         "score": 9,
         "reasons": [
           "同じカテゴリー",
@@ -437,22 +661,23 @@
         ]
       },
       {
-        "slug": "spotv-k-pop-awards-ska-53085d0039",
-        "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
-        "date": "2026.07.31",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
-        "text": "RESCENEが2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)に出演が決定しました！",
-        "score": 7,
+        "slug": "love-attack-5-rak-f87a03ea47",
+        "title": "｢LOVE ATTACK｣で5度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "5th RAK",
+        "image": "assets/news/notion/notion-3ae229d219da801784abfff87a03ea47-40e2d9234fa5.jpg",
+        "text": "2026年7月30日23時、LOVE ATTACKが5度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 9,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "共通キーワード"
         ]
       }
     ],
     "pretty-girl-release": [
       {
         "slug": "rescene-pretty-girl-1-8a4e50d816",
-        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
+        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得！",
         "date": "2026.07.25",
         "label": "2nd WIN",
         "image": "assets/news/notion/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf86990.jpg",
@@ -469,7 +694,7 @@
         "date": "2026.07.14",
         "label": "1ST WIN",
         "image": "news/the-show-first-win.jpeg",
-        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、「Pretty Girl」がRESCENE初の音楽番組1位を獲得しました。10,000点のフルスコアでの1位となり、THE SHOWでフルスコアを記録したのはBTS、Wanna Oneに続く3組目です。",
         "score": 13,
         "reasons": [
           "共通キーワード",
@@ -477,16 +702,16 @@
         ]
       },
       {
-        "slug": "runaway-release",
-        "title": "Digital Single「Runaway」配信開始",
-        "date": "2026.04.08",
-        "label": "DIGITAL SINGLE",
-        "image": "assets/mv/runaway.jpg",
-        "text": "RESCENE初のDigital Single「Runaway」の配信がスタートしました。",
-        "score": 10,
+        "slug": "rescene-pretty-girl-1-bc9d88fde7",
+        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得！",
+        "date": "2026.07.14",
+        "label": "1st WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
+        "score": 13,
         "reasons": [
-          "同じカテゴリー",
-          "共通キーワード"
+          "共通キーワード",
+          "同じ作品"
         ]
       }
     ],
@@ -697,8 +922,21 @@
     ],
     "second-anniversary": [
       {
+        "slug": "love-attack-2-rak-064a4279f4",
+        "title": "｢LOVE ATTACK｣で2度目のRAKを達成！",
+        "date": "2026.07.29",
+        "label": "2nd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da802185b9cb064a4279f4-40e2d9234fa5.jpg",
+        "text": "2026年7月29日23時、LOVE ATTACKが2度目のRAK(REAL TIME ALL KILL)を達成。",
+        "score": 8,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
         "slug": "rescene-pretty-girl-1-8a4e50d816",
-        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
+        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得！",
         "date": "2026.07.25",
         "label": "2nd WIN",
         "image": "assets/news/notion/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf86990.jpg",
@@ -716,18 +954,6 @@
         "label": "An award ceremony",
         "image": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
         "text": "RESCENEが2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)に出演が決定しました！",
-        "score": 6,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "asia-artist-awards-aaa-ddf38a6d89",
-        "title": "Asia Artist Awards(AAA)に出演が決定！",
-        "date": "2026.07.30",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3ae229d219da800391fad8ddf38a6d89-5f31c4e2cc30.jpg",
-        "text": "RESCENEが2026年12月5日,6日に開催されるAsia Artist Awards(AAA)に出演が決定しました！",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
@@ -972,6 +1198,19 @@
     ],
     "scenedrome-release": [
       {
+        "slug": "love-attack-rak-53bcbaebf5",
+        "title": "｢LOVE ATTACK｣で初のRAKを達成！",
+        "date": "2026.07.28",
+        "label": "1st RAK",
+        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
+        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "score": 13,
+        "reasons": [
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
         "slug": "pinball-japanese-release",
         "title": "「ピンボール(Pinball)」配信開始",
         "date": "2026.01.21",
@@ -985,25 +1224,12 @@
         ]
       },
       {
-        "slug": "love-attack-rak-53bcbaebf5",
-        "title": "｢LOVE ATTACK｣がRAKを達成",
-        "date": "2026.07.28",
-        "label": "RAK",
-        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
-        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
-        "score": 11,
-        "reasons": [
-          "共通キーワード",
-          "同じ作品"
-        ]
-      },
-      {
-        "slug": "rescene-love-attack-1-e44b1f8e6e",
-        "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
-        "date": "2026.07.26",
-        "label": "3rd WIN",
-        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
-        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
+        "slug": "love-attack-3-rak-4e82c0859a",
+        "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
+        "date": "2026.07.30",
+        "label": "3rd RAK",
+        "image": "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg",
+        "text": "2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。",
         "score": 11,
         "reasons": [
           "共通キーワード",
@@ -1075,6 +1301,36 @@
       "charCount": 135
     },
     {
+      "slug": "love-attack-3-rak-4e82c0859a",
+      "date": "2026.07.30",
+      "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
+      "url": "https://rescene-fb.jp/articles/love-attack-3-rak-4e82c0859a.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.30】 ｢LOVE ATTACK｣で3度目のRAKを達成！\n\nhttps://rescene-fb.jp/articles/love-attack-3-rak-4e82c0859a.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "｢LOVE ATTACK｣で3度目のRAKを達成！\n2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。",
+      "charCount": 125
+    },
+    {
+      "slug": "love-attack-4-rak-34626a2dc2",
+      "date": "2026.07.30",
+      "title": "｢LOVE ATTACK｣で4度目のRAKを達成！",
+      "url": "https://rescene-fb.jp/articles/love-attack-4-rak-34626a2dc2.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.30】 ｢LOVE ATTACK｣で4度目のRAKを達成！\n\nhttps://rescene-fb.jp/articles/love-attack-4-rak-34626a2dc2.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "｢LOVE ATTACK｣で4度目のRAKを達成！\n2026年7月30日20時、LOVE ATTACKが4度目のRAK(REAL TIME ALL KILL)を達成。",
+      "charCount": 125
+    },
+    {
+      "slug": "love-attack-5-rak-f87a03ea47",
+      "date": "2026.07.30",
+      "title": "｢LOVE ATTACK｣で5度目のRAKを達成！",
+      "url": "https://rescene-fb.jp/articles/love-attack-5-rak-f87a03ea47.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.30】 ｢LOVE ATTACK｣で5度目のRAKを達成！\n\nhttps://rescene-fb.jp/articles/love-attack-5-rak-f87a03ea47.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "｢LOVE ATTACK｣で5度目のRAKを達成！\n2026年7月30日23時、LOVE ATTACKが5度目のRAK(REAL TIME ALL KILL)を達成。",
+      "charCount": 125
+    },
+    {
       "slug": "asia-artist-awards-aaa-ddf38a6d89",
       "date": "2026.07.30",
       "title": "Asia Artist Awards(AAA)に出演が決定！",
@@ -1085,34 +1341,44 @@
       "charCount": 135
     },
     {
+      "slug": "love-attack-2-rak-064a4279f4",
+      "date": "2026.07.29",
+      "title": "｢LOVE ATTACK｣で2度目のRAKを達成！",
+      "url": "https://rescene-fb.jp/articles/love-attack-2-rak-064a4279f4.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.29】 ｢LOVE ATTACK｣で2度目のRAKを達成！\n\nhttps://rescene-fb.jp/articles/love-attack-2-rak-064a4279f4.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "｢LOVE ATTACK｣で2度目のRAKを達成！\n2026年7月29日23時、LOVE ATTACKが2度目のRAK(REAL TIME ALL KILL)を達成。",
+      "charCount": 125
+    },
+    {
       "slug": "love-attack-rak-53bcbaebf5",
       "date": "2026.07.28",
-      "title": "｢LOVE ATTACK｣がRAKを達成",
+      "title": "｢LOVE ATTACK｣で初のRAKを達成！",
       "url": "https://rescene-fb.jp/articles/love-attack-rak-53bcbaebf5.html",
       "hashtags": "#RESCENE #리센느 #リセンヌ",
-      "xText": "【2026.07.28】 ｢LOVE ATTACK｣がRAKを達成\n\nhttps://rescene-fb.jp/articles/love-attack-rak-53bcbaebf5.html\n\n#RESCENE #리센느 #リセンヌ",
-      "lineText": "｢LOVE ATTACK｣がRAKを達成\n2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
-      "charCount": 118
+      "xText": "【2026.07.28】 ｢LOVE ATTACK｣で初のRAKを達成！\n\nhttps://rescene-fb.jp/articles/love-attack-rak-53bcbaebf5.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "｢LOVE ATTACK｣で初のRAKを達成！\n2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+      "charCount": 121
     },
     {
       "slug": "rescene-love-attack-1-e44b1f8e6e",
       "date": "2026.07.26",
-      "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
+      "title": "RESCENEが「LOVE ATTACK」で1位を獲得！",
       "url": "https://rescene-fb.jp/articles/rescene-love-attack-1-e44b1f8e6e.html",
       "hashtags": "#RESCENE #리센느 #リセンヌ",
-      "xText": "【2026.07.26】 RESCENEが「LOVE ATTACK」で1位を獲得\n\nhttps://rescene-fb.jp/articles/rescene-love-attack-1-e44b1f8e6e.html\n\n#RESCENE #리센느 #リセンヌ",
-      "lineText": "RESCENEが「LOVE ATTACK」で1位を獲得\n2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
-      "charCount": 131
+      "xText": "【2026.07.26】 RESCENEが「LOVE ATTACK」で1位を獲得！\n\nhttps://rescene-fb.jp/articles/rescene-love-attack-1-e44b1f8e6e.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "RESCENEが「LOVE ATTACK」で1位を獲得！\n2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
+      "charCount": 132
     },
     {
       "slug": "rescene-pretty-girl-1-8a4e50d816",
       "date": "2026.07.25",
-      "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
+      "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得！",
       "url": "https://rescene-fb.jp/articles/rescene-pretty-girl-1-8a4e50d816.html",
       "hashtags": "#RESCENE #리센느 #リセンヌ",
-      "xText": "【2026.07.25】 RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得\n\nhttps://rescene-fb.jp/articles/rescene-pretty-girl-1-8a4e50d816.html\n\n#RESCENE #리센느 #リセンヌ",
-      "lineText": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得\n2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組では初の1位を獲得しました。",
-      "charCount": 140
+      "xText": "【2026.07.25】 RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得！\n\nhttps://rescene-fb.jp/articles/rescene-pretty-girl-1-8a4e50d816.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得！\n2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組では初の1位を獲得しました。",
+      "charCount": 141
     },
     {
       "slug": "rescene-2026-0c5361a8a6",
@@ -1141,8 +1407,18 @@
       "url": "https://rescene-fb.jp/articles/pretty-girl-first-music-show-win.html",
       "hashtags": "#RESCENE #리센느 #リセンヌ",
       "xText": "【2026.07.14】 RESCENEが「Pretty Girl」で音楽番組初の1位を獲得\n\nhttps://rescene-fb.jp/articles/pretty-girl-first-music-show-win.html\n\n#RESCENE #리센느 #リセンヌ",
-      "lineText": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得\n2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
+      "lineText": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得\n2026年7月14日放送のSBS Life「THE SHOW」で、「Pretty Girl」がRESCENE初の音楽番組1位を獲得しました。10,000点のフルスコアでの1位となり、THE SHOWでフルスコアを記録したのはBTS、Wanna Oneに続く3組目です。",
       "charCount": 137
+    },
+    {
+      "slug": "rescene-pretty-girl-1-bc9d88fde7",
+      "date": "2026.07.14",
+      "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得！",
+      "url": "https://rescene-fb.jp/articles/rescene-pretty-girl-1-bc9d88fde7.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.14】 RESCENEが「Pretty Girl」で音楽番組初の1位を獲得！\n\nhttps://rescene-fb.jp/articles/rescene-pretty-girl-1-bc9d88fde7.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得！\n2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
+      "charCount": 138
     },
     {
       "slug": "love-attack-inkigayo-realtime-first",

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-31T10:42:46.370Z",
+  "generatedAt": "2026-07-31T11:11:15.017Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 8,
-  "notionNews": 8,
-  "notionImages": 7,
+  "queriedPages": 12,
+  "notionNews": 12,
+  "notionImages": 11,
   "rows": [
     {
       "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
@@ -14,6 +14,39 @@
       "imageFilename": "1CD58A7B-D9AB-4F68-A1E9-8DB58B414086.jpeg",
       "imagePath": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
       "imageBytes": 288827,
+      "imageContentType": "image/jpeg"
+    },
+    {
+      "title": "｢LOVE ATTACK｣で5度目のRAKを達成！",
+      "pageId": "3ae229d2-19da-8017-84ab-fff87a03ea47",
+      "lastEditedTime": "2026-07-31T11:10:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "IMG_8400.jpeg",
+      "imagePath": "assets/news/notion/notion-3ae229d219da801784abfff87a03ea47-40e2d9234fa5.jpg",
+      "imageBytes": 274575,
+      "imageContentType": "image/jpeg"
+    },
+    {
+      "title": "｢LOVE ATTACK｣で4度目のRAKを達成！",
+      "pageId": "3ae229d2-19da-80f8-9258-ef34626a2dc2",
+      "lastEditedTime": "2026-07-31T11:07:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "IMG_8400.jpeg",
+      "imagePath": "assets/news/notion/notion-3ae229d219da80f89258ef34626a2dc2-40e2d9234fa5.jpg",
+      "imageBytes": 274575,
+      "imageContentType": "image/jpeg"
+    },
+    {
+      "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
+      "pageId": "3ae229d2-19da-80dd-a6ae-f44e82c0859a",
+      "lastEditedTime": "2026-07-31T11:02:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "IMG_8400.jpeg",
+      "imagePath": "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg",
+      "imageBytes": 274575,
       "imageContentType": "image/jpeg"
     },
     {
@@ -28,9 +61,20 @@
       "imageContentType": "image/jpeg"
     },
     {
-      "title": "｢LOVE ATTACK｣がRAKを達成",
+      "title": "｢LOVE ATTACK｣で2度目のRAKを達成！",
+      "pageId": "3ae229d2-19da-8021-85b9-cb064a4279f4",
+      "lastEditedTime": "2026-07-31T10:59:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "IMG_8400.jpeg",
+      "imagePath": "assets/news/notion/notion-3ae229d219da802185b9cb064a4279f4-40e2d9234fa5.jpg",
+      "imageBytes": 274575,
+      "imageContentType": "image/jpeg"
+    },
+    {
+      "title": "｢LOVE ATTACK｣で初のRAKを達成！",
       "pageId": "3ad229d2-19da-80e4-b912-ce53bcbaebf5",
-      "lastEditedTime": "2026-07-30T21:18:00.000Z",
+      "lastEditedTime": "2026-07-31T10:53:00.000Z",
       "imageStatus": "notion-file",
       "imageProperty": "画像",
       "imageFilename": "IMG_8400.jpeg",
@@ -39,9 +83,9 @@
       "imageContentType": "image/jpeg"
     },
     {
-      "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
+      "title": "RESCENEが「LOVE ATTACK」で1位を獲得！",
       "pageId": "3a9229d2-19da-8095-a896-f2e44b1f8e6e",
-      "lastEditedTime": "2026-07-26T12:42:00.000Z",
+      "lastEditedTime": "2026-07-31T10:53:00.000Z",
       "imageStatus": "notion-file",
       "imageProperty": "画像",
       "imageFilename": "IMG_9429.jpeg",
@@ -50,9 +94,9 @@
       "imageContentType": "image/jpeg"
     },
     {
-      "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
+      "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得！",
       "pageId": "3a8229d2-19da-8057-ba8c-e48a4e50d816",
-      "lastEditedTime": "2026-07-25T13:48:00.000Z",
+      "lastEditedTime": "2026-07-31T10:53:00.000Z",
       "imageStatus": "notion-file",
       "imageProperty": "画像",
       "imageFilename": "IMG_9364.heic",
@@ -74,7 +118,7 @@
     {
       "title": "RESCENEが第7回 島の日の広報大使に任命",
       "pageId": "3a5229d2-19da-800c-b6a0-da4612133921",
-      "lastEditedTime": "2026-07-26T08:04:00.000Z",
+      "lastEditedTime": "2026-07-31T10:53:00.000Z",
       "imageStatus": "notion-file",
       "imageProperty": "画像",
       "imageFilename": "IMG_9292.jpeg",
@@ -83,9 +127,9 @@
       "imageContentType": "image/jpeg"
     },
     {
-      "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
+      "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得！",
       "pageId": "3a2229d2-19da-806e-a09b-c4bc9d88fde7",
-      "lastEditedTime": "2026-07-26T07:59:00.000Z",
+      "lastEditedTime": "2026-07-31T10:53:00.000Z",
       "imageStatus": "local-path",
       "imageProperty": "",
       "imageFilename": "",
