@@ -11,6 +11,54 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "spotv-k-pop-awards-ska-53085d0039",
+    "date": "2026.07.31",
+    "category": "notice",
+    "categoryName": "お知らせ",
+    "label": "An award ceremony",
+    "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
+    "text": "RESCENEが2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)に出演が決定しました！",
+    "body": "RESCENEが2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)に出演が決定しました！\nSKAは、韓国の公認音楽チャートであるサークルチャートのデータに基づく客観的評価と、全世界のファンが直接参加するグローバル投票を組み合わせ、公平性と大衆性を同時に備えた授賞式。さらに、韓国国内を代表するK-POP授賞式として確固たる地位を築いてきたサークルチャートアワードの血統を継ぐグローバル音楽授賞式として、K-POP産業の成果とアーティストの活躍を照らす新たなステージを披露する予定。",
+    "image": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
+    "sourceLink": "https://x.com/ska_spotv/status/2083013556250054837?s=46",
+    "sourceLabel": "公式のポストを見る",
+    "translations": {},
+    "notionPageId": "3ae229d2-19da-80b6-b2d5-ce53085d0039",
+    "notionUrl": "https://app.notion.com/p/SPOTV-K-POP-AWARDS-SKA-3ae229d219da80b6b2d5ce53085d0039"
+  },
+  {
+    "slug": "asia-artist-awards-aaa-ddf38a6d89",
+    "date": "2026.07.30",
+    "category": "notice",
+    "categoryName": "お知らせ",
+    "label": "An award ceremony",
+    "title": "Asia Artist Awards(AAA)に出演が決定！",
+    "text": "RESCENEが2026年12月5日,6日に開催されるAsia Artist Awards(AAA)に出演が決定しました！",
+    "body": "RESCENEが2026年12月5日,6日に開催されるAsia Artist Awards(AAA)に出演が決定しました！\nAAAは、K-POPとアジアのドラマ・映画を網羅したアジア最大級の総合授賞式。",
+    "image": "assets/news/notion/notion-3ae229d219da800391fad8ddf38a6d89-5f31c4e2cc30.jpg",
+    "sourceLink": "https://x.com/starnewskorea/status/2082587232188428707?s=46",
+    "sourceLabel": "公式のポストを見る",
+    "translations": {},
+    "notionPageId": "3ae229d2-19da-8003-91fa-d8ddf38a6d89",
+    "notionUrl": "https://app.notion.com/p/Asia-Artist-Awards-AAA-3ae229d219da800391fad8ddf38a6d89"
+  },
+  {
+    "slug": "love-attack-rak-53bcbaebf5",
+    "date": "2026.07.28",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "RAK",
+    "title": "｢LOVE ATTACK｣がRAKを達成",
+    "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+    "body": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。\nRESCENEとして初の記録。\n※RAKとは:REAL TIME ALL KILLの略、Melon,Genie,Bugs,FLO全ての音源チャートのリアルタイム順位で1位を獲得すること。",
+    "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
+    "sourceLink": "https://x.com/rescene_fb_jp/status/2082104082609946900?s=46",
+    "sourceLabel": "FBのポストを見る",
+    "translations": {},
+    "notionPageId": "3ad229d2-19da-80e4-b912-ce53bcbaebf5",
+    "notionUrl": "https://app.notion.com/p/LOVE-ATTACK-RAK-3ad229d219da80e4b912ce53bcbaebf5"
+  },
+  {
     "slug": "rescene-love-attack-1-e44b1f8e6e",
     "date": "2026.07.26",
     "category": "notice",
@@ -22,6 +70,7 @@ window.RESCENE_NEWS = [
     "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
     "sourceLink": "https://youtu.be/rzfjou7vPP0?si=3ne6BycHt-dLz3Uo",
     "sourceLabel": "1位獲得時の映像を見る",
+    "translations": {},
     "notionPageId": "3a9229d2-19da-8095-a896-f2e44b1f8e6e",
     "notionUrl": "https://app.notion.com/p/RESCENE-LOVE-ATTACK-1-3a9229d219da8095a896f2e44b1f8e6e"
   },
@@ -37,6 +86,7 @@ window.RESCENE_NEWS = [
     "image": "assets/news/notion/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf86990.jpg",
     "sourceLink": "https://x.com/resceneofficial/status/2080953073992896790?s=46",
     "sourceLabel": "メンバーのリアクションを見る",
+    "translations": {},
     "notionPageId": "3a8229d2-19da-8057-ba8c-e48a4e50d816",
     "notionUrl": "https://app.notion.com/p/RESCENE-Pretty-Girl-1-3a8229d219da8057ba8ce48a4e50d816"
   },
@@ -52,6 +102,7 @@ window.RESCENE_NEWS = [
     "image": "assets/news/notion/notion-3a6229d219da803eb09ac90c5361a8a6-c0735e5aa38d.avif",
     "sourceLink": "https://biz.chosun.com/entertainment/enter_general/2026/07/23/GM4DOM3DGJRDIYTCMQ4GEOBUGM/?outputType=amp",
     "sourceLabel": "ニュースを見る",
+    "translations": {},
     "notionPageId": "3a6229d2-19da-803e-b09a-c90c5361a8a6",
     "notionUrl": "https://app.notion.com/p/RESCENE-2026-3a6229d219da803eb09ac90c5361a8a6"
   },
@@ -67,6 +118,7 @@ window.RESCENE_NEWS = [
     "image": "assets/news/notion/notion-3a5229d219da800cb6a0da4612133921-8da6f083a616.jpg",
     "sourceLink": "https://youtu.be/Bav42DHLKkg",
     "sourceLabel": "ニュース映像を見る",
+    "translations": {},
     "notionPageId": "3a5229d2-19da-800c-b6a0-da4612133921",
     "notionUrl": "https://app.notion.com/p/RESCENE-7-3a5229d219da800cb6a0da4612133921"
   },
@@ -82,6 +134,7 @@ window.RESCENE_NEWS = [
     "sourceLabel": "THE K-POP公式動画を見る",
     "categoryName": "記録",
     "body": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEが「Pretty Girl」でグループ初となる\n音楽番組1位を獲得しました。\n最終スコアは10,000点のフルスコアとなりました。",
+    "translations": {},
     "notionPageId": "3a2229d2-19da-806e-a09b-c4bc9d88fde7",
     "notionUrl": "https://app.notion.com/p/RESCENE-Pretty-Girl-1-3a2229d219da806ea09bc4bc9d88fde7"
   },

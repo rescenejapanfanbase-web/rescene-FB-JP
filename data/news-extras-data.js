@@ -1,8 +1,71 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-07-26T08:29:30.852Z",
-  "sourceNewsGeneratedAt": "2026-07-26T12:49:25.267Z",
+  "generatedAt": "2026-07-31T10:42:46.453Z",
+  "sourceNewsGeneratedAt": "2026-07-31T10:42:46.370Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "spotv-k-pop-awards-ska-53085d0039",
+        "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
+        "date": "2026.07.31",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
+        "text": "RESCENEが2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)に出演が決定しました！",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
+        "slug": "asia-artist-awards-aaa-ddf38a6d89",
+        "title": "Asia Artist Awards(AAA)に出演が決定！",
+        "date": "2026.07.30",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da800391fad8ddf38a6d89-5f31c4e2cc30.jpg",
+        "text": "RESCENEが2026年12月5日,6日に開催されるAsia Artist Awards(AAA)に出演が決定しました！",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
+        "slug": "love-attack-rak-53bcbaebf5",
+        "title": "｢LOVE ATTACK｣がRAKを達成",
+        "date": "2026.07.28",
+        "label": "RAK",
+        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
+        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      }
+    ],
+    "spotv-k-pop-awards-ska-53085d0039": [
+      {
+        "slug": "asia-artist-awards-aaa-ddf38a6d89",
+        "title": "Asia Artist Awards(AAA)に出演が決定！",
+        "date": "2026.07.30",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da800391fad8ddf38a6d89-5f31c4e2cc30.jpg",
+        "text": "RESCENEが2026年12月5日,6日に開催されるAsia Artist Awards(AAA)に出演が決定しました！",
+        "score": 15,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "love-attack-rak-53bcbaebf5",
+        "title": "｢LOVE ATTACK｣がRAKを達成",
+        "date": "2026.07.28",
+        "label": "RAK",
+        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
+        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "rescene-love-attack-1-e44b1f8e6e",
         "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
@@ -10,33 +73,91 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "3rd WIN",
         "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
         "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
-        "score": 5,
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      }
+    ],
+    "asia-artist-awards-aaa-ddf38a6d89": [
+      {
+        "slug": "spotv-k-pop-awards-ska-53085d0039",
+        "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
+        "date": "2026.07.31",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
+        "text": "RESCENEが2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)に出演が決定しました！",
+        "score": 15,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "love-attack-rak-53bcbaebf5",
+        "title": "｢LOVE ATTACK｣がRAKを達成",
+        "date": "2026.07.28",
+        "label": "RAK",
+        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
+        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "rescene-pretty-girl-1-8a4e50d816",
-        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
-        "date": "2026.07.25",
-        "label": "2nd WIN",
-        "image": "assets/news/notion/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf86990.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組では初の1位を獲得しました。",
-        "score": 5,
+        "slug": "rescene-love-attack-1-e44b1f8e6e",
+        "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
+        "date": "2026.07.26",
+        "label": "3rd WIN",
+        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
+        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
+        "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
+      }
+    ],
+    "love-attack-rak-53bcbaebf5": [
+      {
+        "slug": "rescene-love-attack-1-e44b1f8e6e",
+        "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
+        "date": "2026.07.26",
+        "label": "3rd WIN",
+        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
+        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
+        "score": 18,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
       },
       {
-        "slug": "rescene-2026-0c5361a8a6",
-        "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
-        "date": "2026.07.23",
-        "label": "AMBASSADOR",
-        "image": "assets/news/notion/notion-3a6229d219da803eb09ac90c5361a8a6-c0735e5aa38d.avif",
-        "text": "MBCは2026年の愛知・ナゴヤアジア競技大会放送の広報大使としてガールズグループRESCENE（リセンヌ）を任命されました。",
-        "score": 5,
+        "slug": "love-attack-inkigayo-realtime-first",
+        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
+        "date": "2026.07.12",
+        "label": "RECORD",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
+        "score": 18,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "scenedrome-release",
+        "title": "1st Mini Album「SCENEDROME」リリース",
+        "date": "2024.08.27",
+        "label": "MINI ALBUM",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "LOVE ATTACK、Pinballなどを収録した1st Mini Albumがリリースされました。",
+        "score": 11,
+        "reasons": [
+          "共通キーワード",
+          "同じ作品"
         ]
       }
     ],
@@ -56,25 +177,26 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
+        "slug": "love-attack-rak-53bcbaebf5",
+        "title": "｢LOVE ATTACK｣がRAKを達成",
+        "date": "2026.07.28",
+        "label": "RAK",
+        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
+        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "score": 18,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
         "slug": "rescene-pretty-girl-1-8a4e50d816",
         "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
         "date": "2026.07.25",
         "label": "2nd WIN",
         "image": "assets/news/notion/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf86990.jpg",
         "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組では初の1位を獲得しました。",
-        "score": 11,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード"
-        ]
-      },
-      {
-        "slug": "pretty-girl-first-music-show-win",
-        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
-        "date": "2026.07.14",
-        "label": "1ST WIN",
-        "image": "news/the-show-first-win.jpeg",
-        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
         "score": 11,
         "reasons": [
           "同じカテゴリー",
@@ -139,24 +261,24 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "rescene-love-attack-1-e44b1f8e6e",
-        "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
-        "date": "2026.07.26",
-        "label": "3rd WIN",
-        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
-        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
+        "slug": "spotv-k-pop-awards-ska-53085d0039",
+        "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
+        "date": "2026.07.31",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
+        "text": "RESCENEが2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)に出演が決定しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "rescene-pretty-girl-1-8a4e50d816",
-        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
-        "date": "2026.07.25",
-        "label": "2nd WIN",
-        "image": "assets/news/notion/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf86990.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組では初の1位を獲得しました。",
+        "slug": "asia-artist-awards-aaa-ddf38a6d89",
+        "title": "Asia Artist Awards(AAA)に出演が決定！",
+        "date": "2026.07.30",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da800391fad8ddf38a6d89-5f31c4e2cc30.jpg",
+        "text": "RESCENEが2026年12月5日,6日に開催されるAsia Artist Awards(AAA)に出演が決定しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -178,24 +300,24 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "rescene-love-attack-1-e44b1f8e6e",
-        "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
-        "date": "2026.07.26",
-        "label": "3rd WIN",
-        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
-        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
+        "slug": "spotv-k-pop-awards-ska-53085d0039",
+        "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
+        "date": "2026.07.31",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
+        "text": "RESCENEが2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)に出演が決定しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "rescene-pretty-girl-1-8a4e50d816",
-        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
-        "date": "2026.07.25",
-        "label": "2nd WIN",
-        "image": "assets/news/notion/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf86990.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組では初の1位を獲得しました。",
+        "slug": "asia-artist-awards-aaa-ddf38a6d89",
+        "title": "Asia Artist Awards(AAA)に出演が決定！",
+        "date": "2026.07.30",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da800391fad8ddf38a6d89-5f31c4e2cc30.jpg",
+        "text": "RESCENEが2026年12月5日,6日に開催されるAsia Artist Awards(AAA)に出演が決定しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -260,6 +382,20 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
+        "slug": "love-attack-rak-53bcbaebf5",
+        "title": "｢LOVE ATTACK｣がRAKを達成",
+        "date": "2026.07.28",
+        "label": "RAK",
+        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
+        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "score": 18,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
         "slug": "scenedrome-release",
         "title": "1st Mini Album「SCENEDROME」リリース",
         "date": "2024.08.27",
@@ -271,22 +407,22 @@ window.RESCENE_NEWS_EXTRAS = {
           "共通キーワード",
           "同じ作品"
         ]
-      },
+      }
+    ],
+    "melon-top100-first-number-one": [
       {
-        "slug": "melon-top100-first-number-one",
-        "title": "RESCENEがMelon TOP100で初の1位を記録",
-        "date": "2026.07.08",
-        "label": "MELON RECORD",
-        "image": "news/melon-top100-first.jpg",
-        "text": "2026年7月8日22時、RESCENEがMelon TOP100でグループ初となる1位を記録しました。記録達成後のYouTubeライブもあわせてご覧いただけます。",
+        "slug": "love-attack-rak-53bcbaebf5",
+        "title": "｢LOVE ATTACK｣がRAKを達成",
+        "date": "2026.07.28",
+        "label": "RAK",
+        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
+        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
         "score": 9,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
         ]
-      }
-    ],
-    "melon-top100-first-number-one": [
+      },
       {
         "slug": "love-attack-inkigayo-realtime-first",
         "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
@@ -301,24 +437,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "rescene-love-attack-1-e44b1f8e6e",
-        "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
-        "date": "2026.07.26",
-        "label": "3rd WIN",
-        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
-        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "rescene-pretty-girl-1-8a4e50d816",
-        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得",
-        "date": "2026.07.25",
-        "label": "2nd WIN",
-        "image": "assets/news/notion/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf86990.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組では初の1位を獲得しました。",
+        "slug": "spotv-k-pop-awards-ska-53085d0039",
+        "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
+        "date": "2026.07.31",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
+        "text": "RESCENEが2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)に出演が決定しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -586,24 +710,24 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "rescene-love-attack-1-e44b1f8e6e",
-        "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
-        "date": "2026.07.26",
-        "label": "3rd WIN",
-        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
-        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
+        "slug": "spotv-k-pop-awards-ska-53085d0039",
+        "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
+        "date": "2026.07.31",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
+        "text": "RESCENEが2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)に出演が決定しました！",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "rescene-2026-0c5361a8a6",
-        "title": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命",
-        "date": "2026.07.23",
-        "label": "AMBASSADOR",
-        "image": "assets/news/notion/notion-3a6229d219da803eb09ac90c5361a8a6-c0735e5aa38d.avif",
-        "text": "MBCは2026年の愛知・ナゴヤアジア競技大会放送の広報大使としてガールズグループRESCENE（リセンヌ）を任命されました。",
+        "slug": "asia-artist-awards-aaa-ddf38a6d89",
+        "title": "Asia Artist Awards(AAA)に出演が決定！",
+        "date": "2026.07.30",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da800391fad8ddf38a6d89-5f31c4e2cc30.jpg",
+        "text": "RESCENEが2026年12月5日,6日に開催されるAsia Artist Awards(AAA)に出演が決定しました！",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
@@ -861,12 +985,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "rescene-love-attack-1-e44b1f8e6e",
-        "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
-        "date": "2026.07.26",
-        "label": "3rd WIN",
-        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
-        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
+        "slug": "love-attack-rak-53bcbaebf5",
+        "title": "｢LOVE ATTACK｣がRAKを達成",
+        "date": "2026.07.28",
+        "label": "RAK",
+        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
+        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
         "score": 11,
         "reasons": [
           "共通キーワード",
@@ -874,12 +998,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "love-attack-inkigayo-realtime-first",
-        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
-        "date": "2026.07.12",
-        "label": "RECORD",
-        "image": "assets/mv/love-attack.jpg",
-        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
+        "slug": "rescene-love-attack-1-e44b1f8e6e",
+        "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
+        "date": "2026.07.26",
+        "label": "3rd WIN",
+        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
+        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
         "score": 11,
         "reasons": [
           "共通キーワード",
@@ -939,6 +1063,36 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "spotv-k-pop-awards-ska-53085d0039",
+      "date": "2026.07.31",
+      "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
+      "url": "https://rescene-fb.jp/articles/spotv-k-pop-awards-ska-53085d0039.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.31】 SPOTV K-POP AWARDS(SKA)に出演が決定！\n\nhttps://rescene-fb.jp/articles/spotv-k-pop-awards-ska-53085d0039.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "SPOTV K-POP AWARDS(SKA)に出演が決定！\nRESCENEが2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)に出演が決定しました！",
+      "charCount": 135
+    },
+    {
+      "slug": "asia-artist-awards-aaa-ddf38a6d89",
+      "date": "2026.07.30",
+      "title": "Asia Artist Awards(AAA)に出演が決定！",
+      "url": "https://rescene-fb.jp/articles/asia-artist-awards-aaa-ddf38a6d89.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.30】 Asia Artist Awards(AAA)に出演が決定！\n\nhttps://rescene-fb.jp/articles/asia-artist-awards-aaa-ddf38a6d89.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "Asia Artist Awards(AAA)に出演が決定！\nRESCENEが2026年12月5日,6日に開催されるAsia Artist Awards(AAA)に出演が決定しました！",
+      "charCount": 135
+    },
+    {
+      "slug": "love-attack-rak-53bcbaebf5",
+      "date": "2026.07.28",
+      "title": "｢LOVE ATTACK｣がRAKを達成",
+      "url": "https://rescene-fb.jp/articles/love-attack-rak-53bcbaebf5.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.28】 ｢LOVE ATTACK｣がRAKを達成\n\nhttps://rescene-fb.jp/articles/love-attack-rak-53bcbaebf5.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "｢LOVE ATTACK｣がRAKを達成\n2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+      "charCount": 118
     },
     {
       "slug": "rescene-love-attack-1-e44b1f8e6e",

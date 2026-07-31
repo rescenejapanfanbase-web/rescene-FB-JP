@@ -1,10 +1,43 @@
 {
-  "generatedAt": "2026-07-26T12:49:25.267Z",
+  "generatedAt": "2026-07-31T10:42:46.370Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 5,
-  "notionNews": 5,
-  "notionImages": 4,
+  "queriedPages": 8,
+  "notionNews": 8,
+  "notionImages": 7,
   "rows": [
+    {
+      "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
+      "pageId": "3ae229d2-19da-80b6-b2d5-ce53085d0039",
+      "lastEditedTime": "2026-07-31T10:29:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "1CD58A7B-D9AB-4F68-A1E9-8DB58B414086.jpeg",
+      "imagePath": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
+      "imageBytes": 288827,
+      "imageContentType": "image/jpeg"
+    },
+    {
+      "title": "Asia Artist Awards(AAA)に出演が決定！",
+      "pageId": "3ae229d2-19da-8003-91fa-d8ddf38a6d89",
+      "lastEditedTime": "2026-07-31T10:41:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "3AB52832-4528-4CB5-8273-3581040C012B.jpeg",
+      "imagePath": "assets/news/notion/notion-3ae229d219da800391fad8ddf38a6d89-5f31c4e2cc30.jpg",
+      "imageBytes": 4012686,
+      "imageContentType": "image/jpeg"
+    },
+    {
+      "title": "｢LOVE ATTACK｣がRAKを達成",
+      "pageId": "3ad229d2-19da-80e4-b912-ce53bcbaebf5",
+      "lastEditedTime": "2026-07-30T21:18:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "IMG_8400.jpeg",
+      "imagePath": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
+      "imageBytes": 274575,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "RESCENEが「LOVE ATTACK」で1位を獲得",
       "pageId": "3a9229d2-19da-8095-a896-f2e44b1f8e6e",
