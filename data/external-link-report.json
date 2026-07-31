@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-31T00:15:46Z",
-  "startedAt": "2026-07-31T00:15:42Z",
-  "elapsedSeconds": 4.08,
+  "generatedAt": "2026-07-31T15:19:30Z",
+  "startedAt": "2026-07-31T15:19:24Z",
+  "elapsedSeconds": 5.54,
   "summary": {
-    "checked": 73,
-    "ok": 72,
+    "checked": 88,
+    "ok": 87,
     "warning": 1,
     "broken": 0,
     "hosts": 17
@@ -110,16 +110,16 @@
     {
       "key": "x",
       "label": "X",
-      "checked": 19,
-      "ok": 19,
+      "checked": 26,
+      "ok": 26,
       "warning": 0,
       "broken": 0
     },
     {
       "key": "youtube",
       "label": "YouTube",
-      "checked": 8,
-      "ok": 8,
+      "checked": 16,
+      "ok": 16,
       "warning": 0,
       "broken": 0
     }
@@ -315,7 +315,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 459,
+          "line": 423,
           "label": "Mubeat"
         },
         {
@@ -338,7 +338,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 547,
+          "line": 511,
           "label": "HIGHER"
         },
         {
@@ -361,7 +361,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 508,
+          "line": 472,
           "label": "LiNC"
         },
         {
@@ -430,7 +430,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 581,
+          "line": 545,
           "label": "Muniverse"
         },
         {
@@ -481,7 +481,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 58,
+          "line": 172,
           "label": "RESCENEが2026愛知・名古屋アジア競技大会の広報大使に任命"
         }
       ]
@@ -684,7 +684,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 548,
+          "line": 512,
           "label": "HIGHER"
         },
         {
@@ -730,7 +730,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 582,
+          "line": 546,
           "label": "Muniverse"
         },
         {
@@ -753,7 +753,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 460,
+          "line": 424,
           "label": "Mubeat"
         },
         {
@@ -799,7 +799,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 509,
+          "line": 473,
           "label": "LiNC"
         },
         {
@@ -937,7 +937,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 134,
+          "line": 262,
           "label": "京畿道 高陽市 広報大使に任命"
         },
         {
@@ -970,7 +970,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 145,
+          "line": 273,
           "label": "慶尚北道 慶州市 広報大使に任命"
         },
         {
@@ -1003,7 +1003,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 156,
+          "line": 284,
           "label": "京畿道 水原市 広報大使に任命"
         },
         {
@@ -1036,7 +1036,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 167,
+          "line": 295,
           "label": "慶尚南道 巨済市 広報大使に任命"
         },
         {
@@ -1095,7 +1095,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1785456945186&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1785511167718&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1151,7 +1151,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 101,
+          "line": 229,
           "label": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得"
         },
         {
@@ -1235,13 +1235,128 @@
         },
         {
           "file": "data/news.json",
-          "line": 200,
+          "line": 328,
           "label": "デビュー2周年広告プロジェクト"
         },
         {
           "file": "second-anniversary-project.html",
           "line": 63,
           "label": "FANBASEの告知ポストを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/rescene_fb_jp/status/2082104082609946900?s=46",
+      "normalizedUrl": "https://x.com/rescene_fb_jp/status/2082104082609946900",
+      "finalUrl": "https://x.com/rescene_fb_jp/status/2082104082609946900",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "articles/love-attack-rak-53bcbaebf5.html",
+          "line": 63,
+          "label": "FBのポストを見る ↗"
+        },
+        {
+          "file": "data/news.json",
+          "line": 124,
+          "label": "｢LOVE ATTACK｣で初のRAKを達成！"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/rescene_fb_jp/status/2082466397528150019?s=46",
+      "normalizedUrl": "https://x.com/rescene_fb_jp/status/2082466397528150019",
+      "finalUrl": "https://x.com/rescene_fb_jp/status/2082466397528150019",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "articles/love-attack-2-rak-064a4279f4.html",
+          "line": 63,
+          "label": "FBのポストを見る ↗"
+        },
+        {
+          "file": "data/news.json",
+          "line": 108,
+          "label": "｢LOVE ATTACK｣で2度目のRAKを達成！"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/rescene_fb_jp/status/2082481636718129421?s=46",
+      "normalizedUrl": "https://x.com/rescene_fb_jp/status/2082481636718129421",
+      "finalUrl": "https://x.com/rescene_fb_jp/status/2082481636718129421",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "articles/love-attack-3-rak-4e82c0859a.html",
+          "line": 63,
+          "label": "FBのポストを見る ↗"
+        },
+        {
+          "file": "data/news.json",
+          "line": 44,
+          "label": "｢LOVE ATTACK｣で3度目のRAKを達成！"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/rescene_fb_jp/status/2082783905632121305?s=46",
+      "normalizedUrl": "https://x.com/rescene_fb_jp/status/2082783905632121305",
+      "finalUrl": "https://x.com/rescene_fb_jp/status/2082783905632121305",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "articles/love-attack-4-rak-34626a2dc2.html",
+          "line": 63,
+          "label": "FBのポストを見る ↗"
+        },
+        {
+          "file": "data/news.json",
+          "line": 60,
+          "label": "｢LOVE ATTACK｣で4度目のRAKを達成！"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/rescene_fb_jp/status/2082832558631576032?s=46",
+      "normalizedUrl": "https://x.com/rescene_fb_jp/status/2082832558631576032",
+      "finalUrl": "https://x.com/rescene_fb_jp/status/2082832558631576032",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "articles/love-attack-5-rak-f87a03ea47.html",
+          "line": 63,
+          "label": "FBのポストを見る ↗"
+        },
+        {
+          "file": "data/news.json",
+          "line": 76,
+          "label": "｢LOVE ATTACK｣で5度目のRAKを達成！"
         }
       ]
     },
@@ -1489,7 +1604,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 189,
+          "line": 317,
           "label": "RESCENE Debut 2nd Anniversary"
         },
         {
@@ -1535,13 +1650,59 @@
         },
         {
           "file": "data/news.json",
-          "line": 43,
-          "label": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得"
+          "line": 156,
+          "label": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得！"
         },
         {
           "file": "music-show-wins.html",
           "line": 78,
           "label": "メンバーのリアクションを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/ska_spotv/status/2083013556250054837?s=46",
+      "normalizedUrl": "https://x.com/ska_spotv/status/2083013556250054837",
+      "finalUrl": "https://x.com/ska_spotv/status/2083013556250054837",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "articles/spotv-k-pop-awards-ska-53085d0039.html",
+          "line": 63,
+          "label": "公式のポストを見る ↗"
+        },
+        {
+          "file": "data/news.json",
+          "line": 28,
+          "label": "SPOTV K-POP AWARDS(SKA)に出演が決定！"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/starnewskorea/status/2082587232188428707?s=46",
+      "normalizedUrl": "https://x.com/starnewskorea/status/2082587232188428707",
+      "finalUrl": "https://x.com/starnewskorea/status/2082587232188428707",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "articles/asia-artist-awards-aaa-ddf38a6d89.html",
+          "line": 63,
+          "label": "公式のポストを見る ↗"
+        },
+        {
+          "file": "data/news.json",
+          "line": 92,
+          "label": "Asia Artist Awards(AAA)に出演が決定！"
         }
       ]
     },
@@ -1624,13 +1785,85 @@
         },
         {
           "file": "data/news.json",
-          "line": 112,
+          "line": 240,
           "label": "RESCENEがMelon TOP100で初の1位を記録"
         },
         {
           "file": "melon-top100-first-number-one.html",
           "line": 63,
           "label": "記録達成後のYouTubeライブを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9XttLI0oH0I",
+      "normalizedUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
+      "finalUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) ‘LOVE ATTACK’ Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 88,
+          "label": "MVを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
+      "normalizedUrl": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
+      "finalUrl": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) ‘Pinball’ Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 94,
+          "label": "MVを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ByX8EZq8500",
+      "normalizedUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
+      "finalUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Heart Drop' Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 112,
+          "label": "MVを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
+      "normalizedUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
+      "finalUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) ‘Glow Up’ Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 100,
+          "label": "MVを見る ↗"
         }
       ]
     },
@@ -1651,13 +1884,18 @@
           "label": "THE K-POP公式動画を見る ↗"
         },
         {
+          "file": "articles/rescene-pretty-girl-1-bc9d88fde7.html",
+          "line": 63,
+          "label": "THE K-POP公式動画を見る ↗"
+        },
+        {
           "file": "data/news-manual.json",
           "line": 10,
           "label": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得"
         },
         {
           "file": "data/news.json",
-          "line": 86,
+          "line": 202,
           "label": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得"
         },
         {
@@ -1673,6 +1911,24 @@
       ]
     },
     {
+      "url": "https://www.youtube.com/watch?v=MC6-82GRK5I",
+      "normalizedUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
+      "finalUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Bloom' Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 118,
+          "label": "MVを見る ↗"
+        }
+      ]
+    },
+    {
       "url": "https://www.youtube.com/watch?v=qZlu2j2SiBA",
       "normalizedUrl": "https://www.youtube.com/watch?v=qZlu2j2SiBA",
       "finalUrl": "https://www.youtube.com/watch?v=qZlu2j2SiBA",
@@ -1681,6 +1937,42 @@
       "status": "ok",
       "httpStatus": 200,
       "message": "公開動画を確認しました：RESCENE (리센느) 'Pretty Girl' Special Video。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 136,
+          "label": "MVを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=rsZwrTNklos",
+      "normalizedUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
+      "finalUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Runaway' Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 130,
+          "label": "MVを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
+      "normalizedUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
+      "finalUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) ‘YoYo’ MV。",
       "method": "youtube-oembed",
       "sources": [
         {
@@ -1699,6 +1991,24 @@
       "status": "ok",
       "httpStatus": 200,
       "message": "公開動画を確認しました：RESCENE (리센느) 'Deja Vu' Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 106,
+          "label": "MVを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zpSejlkSXLA",
+      "normalizedUrl": "https://www.youtube.com/watch?v=zpSejlkSXLA",
+      "finalUrl": "https://www.youtube.com/watch?v=zpSejlkSXLA",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) ‘UhUh’ MV。",
       "method": "youtube-oembed",
       "sources": [
         {
@@ -1726,7 +2036,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 73,
+          "line": 188,
           "label": "RESCENEが第7回 島の日の広報大使に任命"
         }
       ]
@@ -1749,8 +2059,8 @@
         },
         {
           "file": "data/news.json",
-          "line": 28,
-          "label": "RESCENEが「LOVE ATTACK」で1位を獲得"
+          "line": 140,
+          "label": "RESCENEが「LOVE ATTACK」で1位を獲得！"
         }
       ]
     }
