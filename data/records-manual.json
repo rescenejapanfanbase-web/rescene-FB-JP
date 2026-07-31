@@ -25,6 +25,17 @@
           "song": "Deja Vu",
           "description": "Peaked at No. 13 on the Melon TOP100."
         }
+      },
+      "notionGuard": {
+        "expected": {
+          "top100Peak": 13
+        },
+        "preserve": [
+          "top100Peak",
+          "description",
+          "translations"
+        ],
+        "reason": "Notion APIが13以外を返した際に、確認済みの最高13位を誤上書きしないための一時保護。APIが13を返すと警告は出ません。"
       }
     }
   ]

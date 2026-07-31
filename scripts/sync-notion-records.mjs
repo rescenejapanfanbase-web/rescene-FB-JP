@@ -34,12 +34,24 @@ function propertyByAliases(properties, aliases = []) {
   }
   return "";
 }
+function numericPropertyDetails(properties, aliases = []) {
+  const candidates = [];
+  for (const name of aliases) {
+    const raw = propertyValue(properties?.[name]);
+    if (raw === "" || raw === null || raw === undefined) continue;
+    const normalized = String(raw).replace(/[#,，,位\s]/g, "");
+    const number = Number(normalized);
+    if (Number.isFinite(number) && number > 0) candidates.push({ name, value: number, raw });
+  }
+  return { value: candidates[0]?.value ?? null, source: candidates[0]?.name || "", candidates };
+}
 function numericProperty(properties, aliases = []) {
-  const value = propertyByAliases(properties, aliases);
-  if (value === "" || value === null || value === undefined) return null;
-  const normalized = String(value).replace(/[#,，,位\s]/g, "");
-  const number = Number(normalized);
-  return Number.isFinite(number) && number > 0 ? number : null;
+  return numericPropertyDetails(properties, aliases).value;
+}
+function warnNumericConflicts(title, label, details) {
+  const distinct = [...new Set(details.candidates.map((item) => item.value))];
+  if (distinct.length <= 1) return;
+  console.warn(`警告: ${title} / ${label}の候補値が一致しません: ${details.candidates.map((item) => `${item.name}=${item.value}`).join(" / ")}。先頭の ${details.source}=${details.value} を取得し、確定値ガードがある項目は検証後に反映します。`);
 }
 function dateProperty(properties, aliases = []) {
   const value = propertyByAliases(properties, aliases);
@@ -77,15 +89,31 @@ function mergeRecords(manual = [], notion = [], { matchSong = false } = {}) {
       || String(current.title || "").trim().toLowerCase() === String(item.title || "").trim().toLowerCase()
       || (matchSong && current.song && item.song && String(current.song).trim().toLowerCase() === String(item.song).trim().toLowerCase()));
     if (index >= 0) {
-      merged[index] = {
-        ...merged[index],
+      const fallback = merged[index];
+      const next = {
+        ...fallback,
         ...item,
-        image: item.image || merged[index].image || "",
-        translations: { ...(merged[index].translations || {}), ...(item.translations || {}) },
+        image: item.image || fallback.image || "",
+        translations: { ...(fallback.translations || {}), ...(item.translations || {}) },
       };
+      const guard = fallback.notionGuard;
+      const expected = guard?.expected && typeof guard.expected === "object" ? guard.expected : {};
+      const mismatches = Object.entries(expected).filter(([field, value]) => next[field] !== value);
+      if (mismatches.length) {
+        const preserve = Array.isArray(guard?.preserve) ? guard.preserve : Object.keys(expected);
+        for (const field of preserve) {
+          if (Object.prototype.hasOwnProperty.call(fallback, field)) next[field] = fallback[field];
+        }
+        console.warn(`警告: Notionの音楽記録値を保留しました: ${fallback.song || fallback.title} / ${mismatches.map(([field, value]) => `${field}: Notion=${item[field] ?? "未入力"}, 確定=${value}`).join(" / ")}。Notion APIが確定値を返すまでは既存の検証済み値を維持します。`);
+      }
+      merged[index] = next;
     } else merged.push(item);
   }
   return merged;
+}
+function publicRecord(item) {
+  const { notionGuard, ...record } = item;
+  return record;
 }
 const localPath = (value) => String(value || "").trim().replace(/^\/+/, "").replaceAll("\\", "/");
 const validHttp = (value) => /^https?:\/\//i.test(String(value || "")) ? String(value) : "";
@@ -217,6 +245,9 @@ async function resolveImage(page, previous) {
   return previous || "";
 }
 
+const TOP100_ALIASES = ["TOP100最高順位", "Melon TOP100最高順位", "TOP100 Peak", "TOP100順位"];
+const DAILY_ALIASES = ["日間最高順位", "Melon日間最高順位", "Daily Peak", "日間順位"];
+
 const existing = await readJson("data/records.json", { musicShowWins: [], melonRecords: [] });
 const manual = await readJson("data/records-manual.json", { musicShowWins: [], melonRecords: [] });
 const previousByTitle = new Map([...(existing.musicShowWins || []), ...(existing.melonRecords || [])].map((item) => [String(item.title || item.song || ""), item]));
@@ -256,13 +287,17 @@ for (const queryPage of pages) {
       notionUrl: page.url || "",
     });
   } else if (type === "melon") {
+    const top100 = numericPropertyDetails(p, TOP100_ALIASES);
+    const daily = numericPropertyDetails(p, DAILY_ALIASES);
+    warnNumericConflicts(title, "TOP100最高順位", top100);
+    warnNumericConflicts(title, "日間最高順位", daily);
     notionMelonRecords.push({
       title,
       song: String(propertyByAliases(p, ["曲名", "楽曲名", "Song"])),
       releaseDate: dateProperty(p, ["発売日", "リリース日", "Release Date"]),
-      top100Peak: numericProperty(p, ["TOP100最高順位", "Melon TOP100最高順位", "TOP100 Peak", "TOP100順位"]),
+      top100Peak: top100.value,
       top100PeakDate: dateProperty(p, ["TOP100最高順位獲得日", "TOP100獲得日", "TOP100 Peak Date"]),
-      dailyPeak: numericProperty(p, ["日間最高順位", "Melon日間最高順位", "Daily Peak", "日間順位"]),
+      dailyPeak: daily.value,
       dailyPeakDate: dateProperty(p, ["日間最高順位獲得日", "日間獲得日", "Daily Peak Date"]),
       description: String(propertyByAliases(p, ["記録説明", "説明", "Description"])),
       mvUrl: validHttp(propertyByAliases(p, ["MVリンク", "MV URL", "動画リンク"])),
@@ -272,12 +307,14 @@ for (const queryPage of pages) {
       notionPageId: page.id,
       notionUrl: page.url || "",
     });
-    console.log(`Melon記録取得: ${title} / TOP100=${numericProperty(p, ["TOP100最高順位", "Melon TOP100最高順位", "TOP100 Peak", "TOP100順位"]) ?? "未入力"} / 日間=${numericProperty(p, ["日間最高順位", "Melon日間最高順位", "Daily Peak", "日間順位"]) ?? "未入力"}`);
+    const top100Source = top100.source ? ` (${top100.source})` : "";
+    const dailySource = daily.source ? ` (${daily.source})` : "";
+    console.log(`Melon記録取得: ${title} / TOP100=${top100.value ?? "未入力"}${top100Source} / 日間=${daily.value ?? "未入力"}${dailySource}`);
   }
 }
 
-const musicShowWins = mergeRecords(manual.musicShowWins || [], notionMusicShowWins);
-const melonRecords = mergeRecords(manual.melonRecords || [], notionMelonRecords, { matchSong: true });
+const musicShowWins = mergeRecords(manual.musicShowWins || [], notionMusicShowWins).map(publicRecord);
+const melonRecords = mergeRecords(manual.melonRecords || [], notionMelonRecords, { matchSong: true }).map(publicRecord);
 
 musicShowWins.sort((a, b) => String(a.date).localeCompare(String(b.date)) || a.order - b.order);
 melonRecords.sort((a, b) => String(a.releaseDate || "9999-99-99").localeCompare(String(b.releaseDate || "9999-99-99")) || a.order - b.order);
