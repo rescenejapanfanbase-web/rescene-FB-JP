@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T13:54:56.700Z",
+  "generatedAt": "2026-07-31T15:33:26.792Z",
   "source": "notion",
   "dataSourceId": "669db280-d2ac-45f2-8515-0992e002239c",
   "notionDatabaseUrl": "https://app.notion.com/p/1220e9a875ac4374bd9cf8167565723c",
@@ -28,7 +28,7 @@
       "description": "お問い合わせはファンベース公式SNSのダイレクトメッセージ、または公開しているメールアドレスからお願いします。",
       "number": "",
       "buttonLabel": "公式Xを開く",
-      "linkUrl": "#",
+      "linkUrl": "https://x.com/rescene_fb_jp?s=11",
       "anchor": "contact-main",
       "order": 10,
       "notionPageId": "3a3229d2-19da-812d-afe9-c361696a99a5",

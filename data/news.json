@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-31T11:11:15.017Z",
+  "generatedAt": "2026-07-31T15:33:12.585Z",
   "source": "manual+notion",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "notionCount": 12,
+  "notionCount": 9,
   "news": [
     {
       "slug": "fanbase-site",
@@ -32,54 +32,6 @@
       "notionUrl": "https://app.notion.com/p/SPOTV-K-POP-AWARDS-SKA-3ae229d219da80b6b2d5ce53085d0039"
     },
     {
-      "slug": "love-attack-3-rak-4e82c0859a",
-      "date": "2026.07.30",
-      "category": "notice",
-      "categoryName": "記録",
-      "label": "3rd RAK",
-      "title": "｢LOVE ATTACK｣で3度目のRAKを達成！",
-      "text": "2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。",
-      "body": "2026年7月30日0時、LOVE ATTACKが3度目のRAK(REAL TIME ALL KILL)を達成。\n※RAKとはREAL TIME ALL KILLの略。Melon,Genie,Bugs,FLO全ての音源チャートのリアルタイム順位で1位を獲得すること。",
-      "image": "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg",
-      "sourceLink": "https://x.com/rescene_fb_jp/status/2082481636718129421?s=46",
-      "sourceLabel": "FBのポストを見る",
-      "translations": {},
-      "notionPageId": "3ae229d2-19da-80dd-a6ae-f44e82c0859a",
-      "notionUrl": "https://app.notion.com/p/LOVE-ATTACK-3-RAK-3ae229d219da80dda6aef44e82c0859a"
-    },
-    {
-      "slug": "love-attack-4-rak-34626a2dc2",
-      "date": "2026.07.30",
-      "category": "notice",
-      "categoryName": "記録",
-      "label": "4th RAK",
-      "title": "｢LOVE ATTACK｣で4度目のRAKを達成！",
-      "text": "2026年7月30日20時、LOVE ATTACKが4度目のRAK(REAL TIME ALL KILL)を達成。",
-      "body": "2026年7月30日20時、LOVE ATTACKが4度目のRAK(REAL TIME ALL KILL)を達成。\n※RAKとはREAL TIME ALL KILLの略。Melon,Genie,Bugs,FLO全ての音源チャートのリアルタイム順位で1位を獲得すること。",
-      "image": "assets/news/notion/notion-3ae229d219da80f89258ef34626a2dc2-40e2d9234fa5.jpg",
-      "sourceLink": "https://x.com/rescene_fb_jp/status/2082783905632121305?s=46",
-      "sourceLabel": "FBのポストを見る",
-      "translations": {},
-      "notionPageId": "3ae229d2-19da-80f8-9258-ef34626a2dc2",
-      "notionUrl": "https://app.notion.com/p/LOVE-ATTACK-4-RAK-3ae229d219da80f89258ef34626a2dc2"
-    },
-    {
-      "slug": "love-attack-5-rak-f87a03ea47",
-      "date": "2026.07.30",
-      "category": "notice",
-      "categoryName": "記録",
-      "label": "5th RAK",
-      "title": "｢LOVE ATTACK｣で5度目のRAKを達成！",
-      "text": "2026年7月30日23時、LOVE ATTACKが5度目のRAK(REAL TIME ALL KILL)を達成。",
-      "body": "2026年7月30日23時、LOVE ATTACKが5度目のRAK(REAL TIME ALL KILL)を達成。\n※RAKとはREAL TIME ALL KILLの略。Melon,Genie,Bugs,FLO全ての音源チャートのリアルタイム順位で1位を獲得すること。",
-      "image": "assets/news/notion/notion-3ae229d219da801784abfff87a03ea47-40e2d9234fa5.jpg",
-      "sourceLink": "https://x.com/rescene_fb_jp/status/2082832558631576032?s=46",
-      "sourceLabel": "FBのポストを見る",
-      "translations": {},
-      "notionPageId": "3ae229d2-19da-8017-84ab-fff87a03ea47",
-      "notionUrl": "https://app.notion.com/p/LOVE-ATTACK-5-RAK-3ae229d219da801784abfff87a03ea47"
-    },
-    {
       "slug": "asia-artist-awards-aaa-ddf38a6d89",
       "date": "2026.07.30",
       "category": "notice",
@@ -94,22 +46,6 @@
       "translations": {},
       "notionPageId": "3ae229d2-19da-8003-91fa-d8ddf38a6d89",
       "notionUrl": "https://app.notion.com/p/Asia-Artist-Awards-AAA-3ae229d219da800391fad8ddf38a6d89"
-    },
-    {
-      "slug": "love-attack-2-rak-064a4279f4",
-      "date": "2026.07.29",
-      "category": "notice",
-      "categoryName": "記録",
-      "label": "2nd RAK",
-      "title": "｢LOVE ATTACK｣で2度目のRAKを達成！",
-      "text": "2026年7月29日23時、LOVE ATTACKが2度目のRAK(REAL TIME ALL KILL)を達成。",
-      "body": "2026年7月29日23時、LOVE ATTACKが2度目のRAK(REAL TIME ALL KILL)を達成。\n※RAKとはREAL TIME ALL KILLの略。Melon,Genie,Bugs,FLO全ての音源チャートのリアルタイム順位で1位を獲得すること。",
-      "image": "assets/news/notion/notion-3ae229d219da802185b9cb064a4279f4-40e2d9234fa5.jpg",
-      "sourceLink": "https://x.com/rescene_fb_jp/status/2082466397528150019?s=46",
-      "sourceLabel": "FBのポストを見る",
-      "translations": {},
-      "notionPageId": "3ae229d2-19da-8021-85b9-cb064a4279f4",
-      "notionUrl": "https://app.notion.com/p/LOVE-ATTACK-2-RAK-3ae229d219da802185b9cb064a4279f4"
     },
     {
       "slug": "love-attack-rak-53bcbaebf5",
@@ -190,6 +126,22 @@
       "translations": {},
       "notionPageId": "3a5229d2-19da-800c-b6a0-da4612133921",
       "notionUrl": "https://app.notion.com/p/RESCENE-7-3a5229d219da800cb6a0da4612133921"
+    },
+    {
+      "slug": "2026-k-world-dream-awards-kwda-fec5375c61",
+      "date": "2026.07.20",
+      "category": "notice",
+      "categoryName": "お知らせ",
+      "label": "An award ceremony",
+      "title": "2026 K-WORLD DREAM AWARDS(KWDA)に出演が決定！",
+      "text": "RESCENEが2026年8月27日に開催されるK-WORLD DREAM AWARDS(KWDA)に出演が決定しました！",
+      "body": "RESCENEが2026年8月27日に開催される2026 K-WORLD DREAM AWARDS(KWDA)に出演が決定しました！\n今年の授賞式は、K-POPが世界的な文化として定着するまでともにしてきたすべての人々の活動を振り返り、その意味を分かち合うことを趣旨としている。組織委員会は、「K-POPの今日を作った全員が貢献者」という前提のもと、受賞者を選び、授賞を行う。単に順位を決めるよりも、それぞれの場でK-POPを成長させたアーティストとプロデューサー、スタッフ、業界関係者全員の貢献をともに称えるという趣旨。",
+      "image": "assets/news/notion/notion-3ae229d219da805283b1d5fec5375c61-e3dc347adb43.jpg",
+      "sourceLink": "https://x.com/kwda_official/status/2079125824645873893?s=46",
+      "sourceLabel": "公式のポストを見る",
+      "translations": {},
+      "notionPageId": "3ae229d2-19da-8052-83b1-d5fec5375c61",
+      "notionUrl": "https://app.notion.com/p/2026-K-WORLD-DREAM-AWARDS-KWDA-3ae229d219da805283b1d5fec5375c61"
     },
     {
       "slug": "pretty-girl-first-music-show-win",

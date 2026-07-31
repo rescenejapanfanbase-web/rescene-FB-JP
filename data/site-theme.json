@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-07-31T14:56:46.593Z",
+  "generatedAt": "2026-07-31T15:33:28.874Z",
   "source": "notion",
   "dataSourceId": "1a98fbc6-21d6-4a11-8ed9-19b228250182",
   "notionDatabaseUrl": "https://app.notion.com/p/23afd46c4c68443d89de65c74f605d68",
   "theme": {
-    "name": "RESCENE Member Colors",
+    "name": "RESCENE Pink",
     "background": "#111118",
     "background2": "#191823",
-    "card": "#20202b",
-    "card2": "#292837",
-    "primary": "#4f8dff",
-    "primarySoft": "#c9d8ff",
-    "secondary": "#9c72ff",
-    "accent": "#f4d04b",
-    "blue": "#4f8dff",
+    "card": "#2a1727",
+    "card2": "#341b30",
+    "primary": "#6fcdff",
+    "primarySoft": "#ff9bc7",
+    "secondary": "#c8a4ff",
+    "accent": "#8fe3ca",
+    "blue": "#8ec9ff",
     "yellow": "#f4d04b",
     "ink": "#2c2c35",
     "memberWoni": "#79d98c",
@@ -21,10 +21,10 @@
     "memberMinami": "#4f8dff",
     "memberMay": "#f4d04b",
     "memberZena": "#9c72ff",
-    "text": "#f8f7fb",
-    "muted": "#bbb7c6",
-    "lightBackground": "#fffdf6",
+    "text": "#fff9fc",
+    "muted": "#d4b7c8",
+    "lightBackground": "#f7fbff",
     "lightCard": "#ffffff",
-    "lightText": "#292630"
+    "lightText": "#2f1a29"
   }
 }

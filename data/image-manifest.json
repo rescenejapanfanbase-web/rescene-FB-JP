@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-07-31T11:37:39Z",
+  "generatedAt": "2026-07-31T15:33:39Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -1309,59 +1309,32 @@
       ],
       "default": "assets/optimized/5f31c4e2cc30e1e5/notion-3ae229d219da800391fad8ddf38a6d89-5f31c4e2-w1440.webp"
     },
-    "assets/news/notion/notion-3ae229d219da801784abfff87a03ea47-40e2d9234fa5.jpg": {
-      "asset": "40e2d9234fa5c0a2",
-      "originalBytes": 274575,
+    "assets/news/notion/notion-3ae229d219da805283b1d5fec5375c61-e3dc347adb43.jpg": {
+      "asset": "e3dc347adb431eeb",
+      "originalBytes": 247972,
       "width": 964,
       "height": 1205,
       "variants": [
         {
-          "src": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w480.webp",
+          "src": "assets/optimized/e3dc347adb431eeb/notion-3ae229d219da805283b1d5fec5375c61-e3dc347a-w480.webp",
           "width": 480,
           "height": 600,
-          "bytes": 57766
+          "bytes": 48492
         },
         {
-          "src": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w768.webp",
+          "src": "assets/optimized/e3dc347adb431eeb/notion-3ae229d219da805283b1d5fec5375c61-e3dc347a-w768.webp",
           "width": 768,
           "height": 960,
-          "bytes": 107002
+          "bytes": 86692
         },
         {
-          "src": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w964.webp",
+          "src": "assets/optimized/e3dc347adb431eeb/notion-3ae229d219da805283b1d5fec5375c61-e3dc347a-w964.webp",
           "width": 964,
           "height": 1205,
-          "bytes": 149094
+          "bytes": 122264
         }
       ],
-      "default": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w964.webp"
-    },
-    "assets/news/notion/notion-3ae229d219da802185b9cb064a4279f4-40e2d9234fa5.jpg": {
-      "asset": "40e2d9234fa5c0a2",
-      "originalBytes": 274575,
-      "width": 964,
-      "height": 1205,
-      "variants": [
-        {
-          "src": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w480.webp",
-          "width": 480,
-          "height": 600,
-          "bytes": 57766
-        },
-        {
-          "src": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w768.webp",
-          "width": 768,
-          "height": 960,
-          "bytes": 107002
-        },
-        {
-          "src": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w964.webp",
-          "width": 964,
-          "height": 1205,
-          "bytes": 149094
-        }
-      ],
-      "default": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w964.webp"
+      "default": "assets/optimized/e3dc347adb431eeb/notion-3ae229d219da805283b1d5fec5375c61-e3dc347a-w964.webp"
     },
     "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg": {
       "asset": "ab344cb473fe267e",
@@ -1389,60 +1362,6 @@
         }
       ],
       "default": "assets/optimized/ab344cb473fe267e/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb4-w1125.webp"
-    },
-    "assets/news/notion/notion-3ae229d219da80dda6aef44e82c0859a-40e2d9234fa5.jpg": {
-      "asset": "40e2d9234fa5c0a2",
-      "originalBytes": 274575,
-      "width": 964,
-      "height": 1205,
-      "variants": [
-        {
-          "src": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w480.webp",
-          "width": 480,
-          "height": 600,
-          "bytes": 57766
-        },
-        {
-          "src": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w768.webp",
-          "width": 768,
-          "height": 960,
-          "bytes": 107002
-        },
-        {
-          "src": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w964.webp",
-          "width": 964,
-          "height": 1205,
-          "bytes": 149094
-        }
-      ],
-      "default": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w964.webp"
-    },
-    "assets/news/notion/notion-3ae229d219da80f89258ef34626a2dc2-40e2d9234fa5.jpg": {
-      "asset": "40e2d9234fa5c0a2",
-      "originalBytes": 274575,
-      "width": 964,
-      "height": 1205,
-      "variants": [
-        {
-          "src": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w480.webp",
-          "width": 480,
-          "height": 600,
-          "bytes": 57766
-        },
-        {
-          "src": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w768.webp",
-          "width": 768,
-          "height": 960,
-          "bytes": 107002
-        },
-        {
-          "src": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w964.webp",
-          "width": 964,
-          "height": 1205,
-          "bytes": 149094
-        }
-      ],
-      "default": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w964.webp"
     },
     "assets/platform-icons/apple-music.png": {
       "asset": "dfbcce2c96eda8d7",
@@ -1836,6 +1755,27 @@
         }
       ],
       "default": "assets/optimized/27f361fbd4cf2415/bigc-w768.webp"
+    },
+    "assets/voting/apps/coogoong.png": {
+      "asset": "90d3e6ef9354fe9a",
+      "originalBytes": 90383,
+      "width": 512,
+      "height": 512,
+      "variants": [
+        {
+          "src": "assets/optimized/90d3e6ef9354fe9a/coogoong-w480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 40480
+        },
+        {
+          "src": "assets/optimized/90d3e6ef9354fe9a/coogoong-w512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 44170
+        }
+      ],
+      "default": "assets/optimized/90d3e6ef9354fe9a/coogoong-w512.webp"
     },
     "assets/voting/apps/fancast.png": {
       "asset": "f25db4568a01a0fe",
@@ -9785,6 +9725,30 @@
       "skippedWidths": [],
       "default": "assets/optimized/906c3608adea2aec/busy-boy-w1280.webp"
     },
+    "90d3e6ef9354fe9a": {
+      "hash": "90d3e6ef9354fe9a1e4b5a33bedc52e0d9884422ebe25b46cc3d042ef97f8334",
+      "width": 512,
+      "height": 512,
+      "format": "png",
+      "alpha": true,
+      "quality": 91,
+      "variants": [
+        {
+          "src": "assets/optimized/90d3e6ef9354fe9a/coogoong-w480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 40480
+        },
+        {
+          "src": "assets/optimized/90d3e6ef9354fe9a/coogoong-w512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 44170
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/90d3e6ef9354fe9a/coogoong-w512.webp"
+    },
     "934d1a731fe2d5f7": {
       "hash": "934d1a731fe2d5f7fd91ce309146994d4d2785a8cd08cf75c0a36e40f89ac29e",
       "width": 1200,
@@ -11392,6 +11356,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/e3b6fa7b4ea6a895/love-attack-w1440.webp"
+    },
+    "e3dc347adb431eeb": {
+      "hash": "e3dc347adb431eebac0cdbfaf50d146ad4f5e81ee3595a62d3dbab49101532f3",
+      "width": 964,
+      "height": 1205,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/e3dc347adb431eeb/notion-3ae229d219da805283b1d5fec5375c61-e3dc347a-w480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 48492
+        },
+        {
+          "src": "assets/optimized/e3dc347adb431eeb/notion-3ae229d219da805283b1d5fec5375c61-e3dc347a-w768.webp",
+          "width": 768,
+          "height": 960,
+          "bytes": 86692
+        },
+        {
+          "src": "assets/optimized/e3dc347adb431eeb/notion-3ae229d219da805283b1d5fec5375c61-e3dc347a-w964.webp",
+          "width": 964,
+          "height": 1205,
+          "bytes": 122264
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/e3dc347adb431eeb/notion-3ae229d219da805283b1d5fec5375c61-e3dc347a-w964.webp"
     },
     "e7d78b212458b9b9": {
       "hash": "e7d78b212458b9b90ffacd62fde98c7baaec75bb0266603052a2d44337877515",

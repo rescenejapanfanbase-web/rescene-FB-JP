@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T13:57:50.181Z",
+  "generatedAt": "2026-07-31T15:33:32.210Z",
   "source": "git-history",
   "guides": [
     {
@@ -8,8 +8,8 @@
       "summary": "音楽番組の投票方法、アプリ、スコア配分を確認できます。",
       "url": "voting.html",
       "category": "VOTING",
-      "updatedAt": "2026-07-28T07:48:59Z",
-      "commit": "938369e"
+      "updatedAt": "2026-07-31T15:33:32.210Z",
+      "commit": "8ab8bf8"
     },
     {
       "key": "chants",
@@ -17,8 +17,8 @@
       "summary": "楽曲ごとの掛け声をサムネイルからすぐに開けます。",
       "url": "chants.html",
       "category": "FANCHANT",
-      "updatedAt": "2026-07-26T19:09:04+09:00",
-      "commit": "6c99210"
+      "updatedAt": "2026-07-31T01:04:04+09:00",
+      "commit": "81731a6"
     },
     {
       "key": "youtube",
@@ -26,8 +26,8 @@
       "summary": "公式・ウォニチャンネルの動画、ショート、ライブを横断して確認できます。",
       "url": "youtube.html",
       "category": "YOUTUBE",
-      "updatedAt": "2026-07-26T19:09:04+09:00",
-      "commit": "6c99210"
+      "updatedAt": "2026-07-31T01:04:04+09:00",
+      "commit": "81731a6"
     },
     {
       "key": "mv",
@@ -35,8 +35,8 @@
       "summary": "RESCENEのミュージックビデオを作品別に確認できます。",
       "url": "mv.html",
       "category": "MUSIC VIDEO",
-      "updatedAt": "2026-07-26T19:09:04+09:00",
-      "commit": "6c99210"
+      "updatedAt": "2026-07-31T01:04:04+09:00",
+      "commit": "81731a6"
     },
     {
       "key": "streaming",

@@ -1,35 +1,57 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-07-30T16:06:38.814570+00:00",
+  "generatedAt": "2026-07-31T15:33:32.129485+00:00",
   "items": [
+    {
+      "date": "2026-08-01",
+      "title": "Add files via upload",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "3eff355",
+      "files": [
+        ".github/workflows/critical-sync-watchdog.yml",
+        ".github/workflows/setup-notion-site-management.yml"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "5aff206",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "3ca0d0b",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "assets/optimized/2fe0561e69f915c3/music-show-list-w1440.webp",
+        "assets/optimized/2fe0561e69f915c3/music-show-list-w480.webp",
+        "assets/optimized/2fe0561e69f915c3/music-show-list-w768.webp",
+        "assets/optimized/afd059f2b73e6776/music-show-schedule-w1440.webp",
+        "assets/optimized/afd059f2b73e6776/music-show-schedule-w480.webp",
+        "assets/optimized/afd059f2b73e6776/music-show-schedule-w768.webp",
+        "data/image-manifest.json"
+      ]
+    },
     {
       "date": "2026-07-31",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "1a5422e",
+      "commit": "90480ab",
       "files": [
-        ".github/workflows/sync-all-content-critical.yml",
-        ".github/workflows/sync-all-content.yml",
-        ".github/workflows/sync-notion-homepage.yml",
-        ".github/workflows/sync-schedule-critical.yml",
-        ".github/workflows/sync-schedule.yml",
-        ".github/workflows/sync-youtube-channels.yml",
-        ".github/workflows/sync-youtube-critical.yml"
+        "data/records-manual.json",
+        "scripts/check-requested-regressions.py",
+        "scripts/sync-notion-records.mjs"
       ]
     },
     {
       "date": "2026-07-30",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "931c3ab",
-      "files": [
-        "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "600f34d",
+      "commit": "58608f3",
       "files": [
         "data/external-link-report.json"
       ]
