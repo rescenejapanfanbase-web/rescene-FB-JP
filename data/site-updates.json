@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T16:25:16.093173+00:00",
+  "generatedAt": "2026-07-31T17:13:53.341807+00:00",
   "items": [
     {
       "date": "2026-08-01",
@@ -34,6 +34,22 @@
         "data/rescene-schedule.ics",
         "data/schedule-data.js",
         "data/schedule.json"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "title": "chore: critical full content sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "57c43ba",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/home-guides.json",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/mv-data.js",
+        "data/mv.json"
       ]
     },
     {
