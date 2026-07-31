@@ -1,14 +1,14 @@
 window.RESCENE_SCHEDULE_PAYLOAD = {
-  "generatedAt": "2026-07-30T16:17:17.268Z",
+  "generatedAt": "2026-07-31T16:17:38.721Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
     "notion": 40,
-    "plusChatAvailable": 46,
-    "plusChatAdded": 26,
+    "plusChatAvailable": 49,
+    "plusChatAdded": 29,
     "plusChatDuplicates": 20
   },
-  "plusChatGeneratedAt": "2026-07-26T04:39:18Z",
+  "plusChatGeneratedAt": "2026-07-31T16:17:38Z",
   "events": [
     {
       "id": "39d229d2-19da-800c-94bb-c8304114547b",
@@ -992,6 +992,44 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
       "sourceMonth": "2026-07"
     },
     {
+      "id": "pluschat-2026-08-02-2100-2026",
+      "title": "2026 영주 시원나잇 페스타",
+      "originalTitle": "2026 영주 시원나잇 페스타",
+      "translationStatus": "original",
+      "date": "2026-08-02",
+      "start": "2026-08-02T21:00:00+09:00",
+      "end": "",
+      "allDay": false,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-08"
+    },
+    {
+      "id": "pluschat-2026-08-06-1120-2026",
+      "title": "2026 섬의 날 イベント",
+      "originalTitle": "2026 섬의 날 행사",
+      "translationStatus": "partial",
+      "date": "2026-08-06",
+      "start": "2026-08-06T11:20:00+09:00",
+      "end": "",
+      "allDay": false,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-08"
+    },
+    {
       "id": "pluschat-2026-08-09-2000-2026",
       "title": "「2026 쿠팡플레이 시리즈」 하프타임 쇼",
       "originalTitle": "<2026 쿠팡플레이 시리즈> 하프타임 쇼",
@@ -1095,6 +1133,25 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
       "translations": {},
       "notionUrl": "https://app.notion.com/p/2026-THE-FACT-MUSIC-AWARDS-TMA-3a4229d219da80aa96ece26ef4a93b6d",
       "source": "notion"
+    },
+    {
+      "id": "pluschat-2026-09-27-1900-objet-k-pop-festa-2026",
+      "title": "Objet K-pop Festa 2026",
+      "originalTitle": "Objet K-pop Festa 2026",
+      "translationStatus": "original",
+      "date": "2026-09-27",
+      "start": "2026-09-27T19:00:00+09:00",
+      "end": "",
+      "allDay": false,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-09"
     },
     {
       "id": "39d229d2-19da-808f-9cff-c96cb9d0932d",
