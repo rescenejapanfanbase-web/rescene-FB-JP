@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-07-30T15:46:10.966Z",
+  "generatedAt": "2026-07-31T14:30:33.675Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -29,28 +29,273 @@ window.RESCENE_RECORDS = {
   ],
   "melonRecords": [
     {
+      "title": "UhUh — Melonチャート",
+      "song": "UhUh",
+      "releaseDate": "2024-03-26",
+      "top100Peak": null,
+      "top100PeakDate": "",
+      "dailyPeak": 980,
+      "dailyPeakDate": "",
+      "description": "Melon日間チャートで最高980位を記録。",
+      "mvUrl": "https://www.youtube.com/watch?v=zpSejlkSXLA",
+      "image": "assets/mv/uhuh.jpg",
+      "order": 10,
+      "source": "manual-fallback",
+      "translations": {
+        "ko": {
+          "title": "UhUh — Melon 차트",
+          "song": "UhUh",
+          "description": "Melon 일간 차트 최고 980위를 기록했습니다."
+        },
+        "en": {
+          "title": "UhUh — Melon Chart",
+          "song": "UhUh",
+          "description": "Peaked at No. 980 on the Melon Daily Chart."
+        }
+      }
+    },
+    {
+      "title": "YoYo — Melonチャート",
+      "song": "YoYo",
+      "releaseDate": "2024-03-26",
+      "top100Peak": null,
+      "top100PeakDate": "",
+      "dailyPeak": 683,
+      "dailyPeakDate": "",
+      "description": "Melon日間チャートで最高683位を記録。",
+      "mvUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
+      "image": "assets/mv/yoyo.jpg",
+      "order": 20,
+      "source": "manual-fallback",
+      "translations": {
+        "ko": {
+          "title": "YoYo — Melon 차트",
+          "song": "YoYo",
+          "description": "Melon 일간 차트 최고 683위를 기록했습니다."
+        },
+        "en": {
+          "title": "YoYo — Melon Chart",
+          "song": "YoYo",
+          "description": "Peaked at No. 683 on the Melon Daily Chart."
+        }
+      }
+    },
+    {
+      "title": "LOVE ATTACK — Melonチャート",
+      "song": "LOVE ATTACK",
+      "releaseDate": "2024-08-27",
+      "top100Peak": 1,
+      "top100PeakDate": "",
+      "dailyPeak": 1,
+      "dailyPeakDate": "",
+      "description": "Melon TOP100で最高1位、Melon日間チャートで最高1位を記録。",
+      "mvUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
+      "image": "assets/mv/love-attack.jpg",
+      "order": 30,
+      "source": "manual-fallback",
+      "translations": {
+        "ko": {
+          "title": "LOVE ATTACK — Melon 차트",
+          "song": "LOVE ATTACK",
+          "description": "Melon TOP100 최고 1위, Melon 일간 차트 최고 1위를 기록했습니다."
+        },
+        "en": {
+          "title": "LOVE ATTACK — Melon Chart",
+          "song": "LOVE ATTACK",
+          "description": "Peaked at No. 1 on the Melon TOP100 and No. 1 on the Melon Daily Chart."
+        }
+      }
+    },
+    {
+      "title": "Pinball — Melonチャート",
+      "song": "Pinball",
+      "releaseDate": "2024-08-27",
+      "top100Peak": 56,
+      "top100PeakDate": "",
+      "dailyPeak": 106,
+      "dailyPeakDate": "",
+      "description": "Melon TOP100で最高56位、Melon日間チャートで最高106位を記録。",
+      "mvUrl": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
+      "image": "assets/mv/pinball.jpg",
+      "order": 40,
+      "source": "manual-fallback",
+      "translations": {
+        "ko": {
+          "title": "Pinball — Melon 차트",
+          "song": "Pinball",
+          "description": "Melon TOP100 최고 56위, Melon 일간 차트 최고 106위를 기록했습니다."
+        },
+        "en": {
+          "title": "Pinball — Melon Chart",
+          "song": "Pinball",
+          "description": "Peaked at No. 56 on the Melon TOP100 and No. 106 on the Melon Daily Chart."
+        }
+      }
+    },
+    {
+      "title": "Glow Up — Melonチャート",
+      "song": "Glow Up",
+      "releaseDate": "2025-02-05",
+      "top100Peak": null,
+      "top100PeakDate": "",
+      "dailyPeak": 250,
+      "dailyPeakDate": "",
+      "description": "Melon日間チャートで最高250位を記録。",
+      "mvUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
+      "image": "assets/mv/glow-up.jpg",
+      "order": 50,
+      "source": "manual-fallback",
+      "translations": {
+        "ko": {
+          "title": "Glow Up — Melon 차트",
+          "song": "Glow Up",
+          "description": "Melon 일간 차트 최고 250위를 기록했습니다."
+        },
+        "en": {
+          "title": "Glow Up — Melon Chart",
+          "song": "Glow Up",
+          "description": "Peaked at No. 250 on the Melon Daily Chart."
+        }
+      }
+    },
+    {
       "title": "Deja Vu — Melonチャート",
       "song": "Deja Vu",
       "releaseDate": "2025-07-02",
       "top100Peak": 13,
       "top100PeakDate": "",
-      "dailyPeak": null,
+      "dailyPeak": 11,
       "dailyPeakDate": "",
-      "description": "Melon TOP100で最高13位を記録。",
+      "description": "Melon TOP100で最高13位、Melon日間チャートで最高11位を記録。",
       "mvUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
       "image": "assets/mv/deja-vu.jpg",
-      "order": 5,
+      "order": 60,
       "source": "manual-fallback",
       "translations": {
         "ko": {
           "title": "Deja Vu — Melon 차트",
           "song": "Deja Vu",
-          "description": "Melon TOP100에서 최고 13위를 기록했습니다."
+          "description": "Melon TOP100 최고 13위, Melon 일간 차트 최고 11위를 기록했습니다."
         },
         "en": {
           "title": "Deja Vu — Melon Chart",
           "song": "Deja Vu",
-          "description": "Peaked at No. 13 on the Melon TOP100."
+          "description": "Peaked at No. 13 on the Melon TOP100 and No. 11 on the Melon Daily Chart."
+        }
+      },
+      "notionGuard": {
+        "expected": {
+          "top100Peak": 13
+        },
+        "preserve": [
+          "top100Peak",
+          "description",
+          "translations"
+        ],
+        "reason": "Notion APIが13以外を返した場合も確認済みのTOP100最高13位を維持します。"
+      }
+    },
+    {
+      "title": "Heart Drop — Melonチャート",
+      "song": "Heart Drop",
+      "releaseDate": "2025-11-25",
+      "top100Peak": null,
+      "top100PeakDate": "",
+      "dailyPeak": 575,
+      "dailyPeakDate": "",
+      "description": "Melon日間チャートで最高575位を記録。",
+      "mvUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
+      "image": "assets/mv/heart-drop.jpg",
+      "order": 70,
+      "source": "manual-fallback",
+      "translations": {
+        "ko": {
+          "title": "Heart Drop — Melon 차트",
+          "song": "Heart Drop",
+          "description": "Melon 일간 차트 최고 575위를 기록했습니다."
+        },
+        "en": {
+          "title": "Heart Drop — Melon Chart",
+          "song": "Heart Drop",
+          "description": "Peaked at No. 575 on the Melon Daily Chart."
+        }
+      }
+    },
+    {
+      "title": "Bloom — Melonチャート",
+      "song": "Bloom",
+      "releaseDate": "2025-11-25",
+      "top100Peak": null,
+      "top100PeakDate": "",
+      "dailyPeak": 275,
+      "dailyPeakDate": "",
+      "description": "Melon日間チャートで最高275位を記録。",
+      "mvUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
+      "image": "assets/mv/bloom.jpg",
+      "order": 80,
+      "source": "manual-fallback",
+      "translations": {
+        "ko": {
+          "title": "Bloom — Melon 차트",
+          "song": "Bloom",
+          "description": "Melon 일간 차트 최고 275위를 기록했습니다."
+        },
+        "en": {
+          "title": "Bloom — Melon Chart",
+          "song": "Bloom",
+          "description": "Peaked at No. 275 on the Melon Daily Chart."
+        }
+      }
+    },
+    {
+      "title": "Busy Boy — Melonチャート",
+      "song": "Busy Boy",
+      "releaseDate": "2026-02-27",
+      "top100Peak": null,
+      "top100PeakDate": "",
+      "dailyPeak": 301,
+      "dailyPeakDate": "",
+      "description": "Melon日間チャートで最高301位を記録。",
+      "mvUrl": "",
+      "image": "assets/mv/busy-boy.jpg",
+      "order": 90,
+      "source": "manual-fallback",
+      "translations": {
+        "ko": {
+          "title": "Busy Boy — Melon 차트",
+          "song": "Busy Boy",
+          "description": "Melon 일간 차트 최고 301위를 기록했습니다."
+        },
+        "en": {
+          "title": "Busy Boy — Melon Chart",
+          "song": "Busy Boy",
+          "description": "Peaked at No. 301 on the Melon Daily Chart."
+        }
+      }
+    },
+    {
+      "title": "Runaway — Melonチャート",
+      "song": "Runaway",
+      "releaseDate": "2026-04-08",
+      "top100Peak": 16,
+      "top100PeakDate": "",
+      "dailyPeak": 50,
+      "dailyPeakDate": "",
+      "description": "Melon TOP100で最高16位、Melon日間チャートで最高50位を記録。",
+      "mvUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
+      "image": "assets/mv/runaway.jpg",
+      "order": 100,
+      "source": "manual-fallback",
+      "translations": {
+        "ko": {
+          "title": "Runaway — Melon 차트",
+          "song": "Runaway",
+          "description": "Melon TOP100 최고 16위, Melon 일간 차트 최고 50위를 기록했습니다."
+        },
+        "en": {
+          "title": "Runaway — Melon Chart",
+          "song": "Runaway",
+          "description": "Peaked at No. 16 on the Melon TOP100 and No. 50 on the Melon Daily Chart."
         }
       }
     },
@@ -58,14 +303,27 @@ window.RESCENE_RECORDS = {
       "title": "Pretty Girl — Melonチャート",
       "song": "Pretty Girl",
       "releaseDate": "2026-07-08",
-      "top100Peak": 1,
-      "dailyPeak": null,
-      "description": "2026年7月8日22時、Melon TOP100でグループ初となる1位を記録。",
+      "top100Peak": 4,
+      "top100PeakDate": "",
+      "dailyPeak": 6,
+      "dailyPeakDate": "",
+      "description": "Melon TOP100で最高4位、Melon日間チャートで最高6位を記録。",
       "mvUrl": "https://www.youtube.com/watch?v=qZlu2j2SiBA",
       "image": "assets/mv/pretty-girl.jpg",
-      "order": 10,
-      "top100PeakDate": "",
-      "dailyPeakDate": ""
+      "order": 110,
+      "source": "manual-fallback",
+      "translations": {
+        "ko": {
+          "title": "Pretty Girl — Melon 차트",
+          "song": "Pretty Girl",
+          "description": "Melon TOP100 최고 4위, Melon 일간 차트 최고 6위를 기록했습니다."
+        },
+        "en": {
+          "title": "Pretty Girl — Melon Chart",
+          "song": "Pretty Girl",
+          "description": "Peaked at No. 4 on the Melon TOP100 and No. 6 on the Melon Daily Chart."
+        }
+      }
     }
   ]
 };

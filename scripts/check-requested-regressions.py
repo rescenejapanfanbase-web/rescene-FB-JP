@@ -174,6 +174,26 @@ for page, image_paths in {
     for image_path in image_paths:
         require(f'data-image-original-src="{image_path}"' in body, f"{page}: 最新画像参照がありません: {image_path}")
 
+# 2026-07-31 requested regressions: complete Melon table, daily peaks, and Music Bank/coogoong.
+records_data = json.loads(text("data/records.json"))
+melon_rows = records_data.get("melonRecords", []) if isinstance(records_data, dict) else []
+expected_melon = {"UhUh", "YoYo", "LOVE ATTACK", "Pinball", "Glow Up", "Deja Vu", "Heart Drop", "Bloom", "Busy Boy", "Runaway", "Pretty Girl"}
+melon_songs = {str(row.get("song", "")) for row in melon_rows if isinstance(row, dict)}
+if not expected_melon.issubset(melon_songs):
+    errors.append("Melonチャートの11曲がすべて反映されていません: " + ", ".join(sorted(expected_melon - melon_songs)))
+if any(row.get("dailyPeak") in (None, "") for row in melon_rows if isinstance(row, dict) and row.get("song") in expected_melon):
+    errors.append("Melon日間最高順位が未入力の曲があります")
+melon_html = (ROOT / "melon-records.html").read_text(encoding="utf-8") if (ROOT / "melon-records.html").exists() else ""
+if "日間最高順位" not in melon_html or len(re.findall(r'class="[^"]*melon-record-card[^"]*"', melon_html)) < 11:
+    errors.append("Melon記録ページに日間最高順位または11曲が表示されていません")
+voting = json.loads(text("data/voting-guide.json"))
+music_bank = next((row for row in voting.get("programs", []) if str(row.get("title", "")).lower() == "music bank"), None)
+if not music_bank or str(music_bank.get("app", "")).lower() != "coogoong" or "coogoong" not in str(music_bank.get("icon", "")).lower():
+    errors.append("Music Bankの使用アプリまたは画像がcoogoongになっていません")
+voting_html = (ROOT / "voting.html").read_text(encoding="utf-8") if (ROOT / "voting.html").exists() else ""
+if "Music Bank" in voting_html and "Fancast" in voting_html:
+    errors.append("投票早見表にMusic Bank / Fancastの旧表記が残っています")
+
 if errors:
     print("❌ 指定項目の回帰検査で問題が見つかりました。")
     for item in errors:

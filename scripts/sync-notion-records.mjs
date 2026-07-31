@@ -90,12 +90,13 @@ function mergeRecords(manual = [], notion = [], { matchSong = false } = {}) {
       || (matchSong && current.song && item.song && String(current.song).trim().toLowerCase() === String(item.song).trim().toLowerCase()));
     if (index >= 0) {
       const fallback = merged[index];
-      const next = {
-        ...fallback,
-        ...item,
-        image: item.image || fallback.image || "",
-        translations: { ...(fallback.translations || {}), ...(item.translations || {}) },
-      };
+      const next = { ...fallback };
+      for (const [field, value] of Object.entries(item)) {
+        const empty = value === null || value === undefined || value === "" || (Array.isArray(value) && value.length === 0);
+        if (!empty && field !== "translations") next[field] = value;
+      }
+      next.image = item.image || fallback.image || "";
+      next.translations = { ...(fallback.translations || {}), ...(item.translations || {}) };
       const guard = fallback.notionGuard;
       const expected = guard?.expected && typeof guard.expected === "object" ? guard.expected : {};
       const mismatches = Object.entries(expected).filter(([field, value]) => next[field] !== value);
@@ -315,6 +316,9 @@ for (const queryPage of pages) {
 
 const musicShowWins = mergeRecords(manual.musicShowWins || [], notionMusicShowWins).map(publicRecord);
 const melonRecords = mergeRecords(manual.melonRecords || [], notionMelonRecords, { matchSong: true }).map(publicRecord);
+if (melonRecords.length < (manual.melonRecords || []).length) {
+  throw new Error(`Melon記録の件数がフォールバックより減少しました: ${melonRecords.length}/${manual.melonRecords.length}`);
+}
 
 musicShowWins.sort((a, b) => String(a.date).localeCompare(String(b.date)) || a.order - b.order);
 melonRecords.sort((a, b) => String(a.releaseDate || "9999-99-99").localeCompare(String(b.releaseDate || "9999-99-99")) || a.order - b.order);

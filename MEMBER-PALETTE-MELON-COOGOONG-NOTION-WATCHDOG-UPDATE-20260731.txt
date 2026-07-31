@@ -1,0 +1,10 @@
+2026-07-31 更新内容
+- 緑の主張を抑え、既存のピンク領域を中心に青・紫・黄・緑・LIV色へ分散
+- ライト／ダーク両モードを5色テーマへ調整
+- Melon 11曲と日間最高順位を復元
+- Deja Vu TOP100 13位・日間11位を保護
+- Music BankのFancast表示・画像をcoogoongへ変更
+- 指定時刻の通常／重要Workflowを分離
+- 重要枠の最大5回再試行とWatchdog復旧を追加
+- Setup Notion Site Managementを追加
+- Notion完全管理・自動更新マニュアルを全面更新

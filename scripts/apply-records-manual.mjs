@@ -12,8 +12,16 @@ function merge(current = [], additions = [], { matchSong = false } = {}) {
     const index = result.findIndex((candidate) =>
       String(candidate.title || "").trim().toLowerCase() === String(item.title || "").trim().toLowerCase()
       || (matchSong && candidate.song && item.song && String(candidate.song).trim().toLowerCase() === String(item.song).trim().toLowerCase()));
-    if (index >= 0) result[index] = { ...item, ...result[index], translations: { ...(item.translations || {}), ...(result[index].translations || {}) } };
-    else result.push(item);
+    if (index >= 0) {
+      const current = result[index];
+      const next = { ...item };
+      for (const [field, value] of Object.entries(current)) {
+        const empty = value === null || value === undefined || value === "" || (Array.isArray(value) && value.length === 0);
+        if (!empty && field !== "translations") next[field] = value;
+      }
+      next.translations = { ...(item.translations || {}), ...(current.translations || {}) };
+      result[index] = next;
+    } else result.push(item);
   }
   return result;
 }

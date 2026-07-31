@@ -1,5 +1,5 @@
 window.RESCENE_VOTING_GUIDE = {
-  "generatedAt": "2026-07-28T07:48:43.770Z",
+  "generatedAt": "2026-07-20T06:12:07.829Z",
   "source": "notion",
   "dataSourceId": "8e870649-722b-45aa-9b0f-3da6d51b139b",
   "notionDatabaseUrl": "https://app.notion.com/p/db7689f9a5b2445fbe3fb9f7cd9a04de",
@@ -148,15 +148,15 @@ window.RESCENE_VOTING_GUIDE = {
       "subtitle": "KBS2・金曜日",
       "mark": "MB",
       "voteType": "事前投票",
-      "app": "Fancast",
+      "app": "coogoong",
       "currency": "Hearts",
       "period": "事前投票",
       "note": "Music Bankの投票バナーから対象投票へ進みます。",
-      "icon": "assets/voting/apps/fancast.png",
+      "icon": "assets/voting/apps/coogoong.png",
       "order": 40,
       "score": {
         "image": "assets/voting/musicbank-score.png",
-        "meta": "金曜日 / Fancast",
+        "meta": "金曜日 / coogoong",
         "items": [
           {
             "label": "音源",
@@ -397,7 +397,7 @@ window.RESCENE_VOTING_GUIDE = {
       "title": "coogoong",
       "subtitle": "Music Bank",
       "description": "Music Bank",
-      "icon": "assets/voting/notion/icons/coogoong-40.jpg",
+      "icon": "assets/voting/apps/coogoong.png",
       "tags": [
         "Hearts",
         "事前投票"
@@ -405,47 +405,11 @@ window.RESCENE_VOTING_GUIDE = {
       "appStore": "https://apps.apple.com/app/id1641638840",
       "googlePlay": "https://play.google.com/store/apps/details?id=com.contentsmadang.fancast",
       "guide": {
-        "steps": [
-          {
-            "image": "assets/voting/guides/fancast-earn-1.jpg",
-            "title": "1. Heartsを集める",
-            "text": "まずは毎日のミッションでHeartsを集めます。"
-          },
-          {
-            "image": "assets/voting/guides/fancast-earn-2.jpg",
-            "title": "2. 貯め方を確認",
-            "text": "追加のミッションや広告視聴でもHeartsを獲得できます。"
-          },
-          {
-            "image": "assets/voting/guides/fancast-earn-3.jpg",
-            "title": "3. 投票前に準備完了",
-            "text": "期限切れ前に使えるHeartsを準備しておきます。"
-          },
-          {
-            "image": "assets/voting/guides/fancast-vote-1.jpg",
-            "title": "4. 投票ページへ",
-            "text": "Music Bankの投票バナーを見つけて開きます。"
-          },
-          {
-            "image": "assets/voting/guides/fancast-vote-2.jpg",
-            "title": "5. 対象回を選択",
-            "text": "投票対象の回を選びます。"
-          },
-          {
-            "image": "assets/voting/guides/fancast-vote-3.jpg",
-            "title": "6. RESCENEを確認",
-            "text": "アーティスト名・楽曲名を確認して進みます。"
-          },
-          {
-            "image": "assets/voting/guides/fancast-vote-4.jpg",
-            "title": "7. 投票完了",
-            "text": "使用するHearts数を確認し、投票を完了します。"
-          }
-        ],
-        "note": ""
+        "steps": [],
+        "note": "coogoongの画面仕様は更新される場合があります。アプリ内のKBS Music Bank PRE-VOTEを確認してください。"
       },
       "order": 40,
-      "notionUrl": "https://app.notion.com/p/coogoong-3a3229d219da81b292d4f08980e33589"
+      "notionUrl": "https://app.notion.com/p/Fancast-3a3229d219da81b292d4f08980e33589"
     },
     {
       "title": "Mubeat",

@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parent
 TEXT_EXTENSIONS = {".html", ".css", ".js", ".json"}
 ASSET_EXTENSIONS = {
     ".html", ".css", ".js", ".json", ".xml", ".txt",

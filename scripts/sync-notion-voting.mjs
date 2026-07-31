@@ -23,6 +23,13 @@ const splitPair = (line = "") => {
 };
 const safeSlug = (value, fallback = "item") => String(value || "")
   .normalize("NFKD").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 56) || fallback;
+const isMusicBank = (value) => /music\s*bank|뮤직뱅크|ミュージックバンク/i.test(String(value || ""));
+const isLegacyFancast = (value) => /fancast|ファンキャスト/i.test(String(value || ""));
+const coogoongDefaults = {
+  title: "coogoong", icon: "assets/voting/apps/coogoong.png",
+  appStore: "https://apps.apple.com/app/id1641638840",
+  googlePlay: "https://play.google.com/store/apps/details?id=com.contentsmadang.fancast",
+};
 
 async function readJson(path, fallback) {
   try { return JSON.parse(await readFile(path, "utf8")); }
@@ -132,7 +139,7 @@ async function convertProgram(page, usedIcons, usedScores) {
     const [label, value] = splitPair(line);
     return { label, value };
   }).filter((item) => item.label || item.value);
-  return {
+  const result = {
     title,
     subtitle: propertyText(p["サブタイトル"]),
     mark: propertyText(p["略称"]),
@@ -151,6 +158,14 @@ async function convertProgram(page, usedIcons, usedScores) {
     },
     notionUrl: page.url ?? "",
   };
+  if (isMusicBank(title) && (!result.app || isLegacyFancast(result.app))) {
+    console.warn(`Music Bankの使用アプリをcoogoongへ補正しました（Notion入力: ${result.app || "空欄"}）。`);
+    result.app = coogoongDefaults.title;
+    result.icon = coogoongDefaults.icon;
+    result.currency = result.currency || "Hearts";
+    result.score.meta = `${String(result.subtitle || "").split("・").pop() || ""} / coogoong`.replace(/^\s*\/\s*|\s*\/\s*$/g, "");
+  }
+  return result;
 }
 
 async function convertApp(page, usedIcons, usedGuides) {
@@ -182,7 +197,7 @@ async function convertApp(page, usedIcons, usedGuides) {
     }
     if (row.title || row.text || image) steps.push({ image, title: row.title, text: row.text });
   }
-  return {
+  const result = {
     title,
     subtitle: propertyText(p["サブタイトル"]),
     description: propertyText(p["説明"]) || propertyText(p["サブタイトル"]),
@@ -194,6 +209,16 @@ async function convertApp(page, usedIcons, usedGuides) {
     order,
     notionUrl: page.url ?? "",
   };
+  if (isLegacyFancast(title) && isMusicBank(result.subtitle || result.description)) {
+    console.warn("旧Fancast行をcoogoongへ互換変換しました。Notion上のタイトルとアイコンもcoogoongへ更新してください。");
+    result.title = coogoongDefaults.title;
+    result.icon = coogoongDefaults.icon;
+    result.appStore = result.appStore || coogoongDefaults.appStore;
+    result.googlePlay = result.googlePlay || coogoongDefaults.googlePlay;
+    result.tags = result.tags.length ? result.tags : ["Hearts", "事前投票"];
+    result.guide = { steps: [], note: "coogoongの画面仕様は更新される場合があります。アプリ内のKBS Music Bank PRE-VOTEを確認してください。" };
+  }
+  return result;
 }
 
 function convertStatus(page) {
