@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-07-31T15:33:32.129485+00:00",
+  "generatedAt": "2026-07-31T16:25:16.093173+00:00",
   "items": [
     {
       "date": "2026-08-01",
@@ -24,16 +24,25 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-07-31",
       "title": "chore: critical schedule sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "3ca0d0b",
+      "commit": "c204538",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
-        "assets/optimized/2fe0561e69f915c3/music-show-list-w1440.webp",
-        "assets/optimized/2fe0561e69f915c3/music-show-list-w480.webp",
-        "assets/optimized/2fe0561e69f915c3/music-show-list-w768.webp",
-        "assets/optimized/afd059f2b73e6776/music-show-schedule-w1440.webp",
-        "assets/optimized/afd059f2b73e6776/music-show-schedule-w480.webp",
-        "assets/optimized/afd059f2b73e6776/music-show-schedule-w768.webp",
-        "data/image-manifest.json"
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/pluschat-schedule.json",
+        "data/quality-report.json",
+        "data/rescene-schedule.ics",
+        "data/schedule-data.js",
+        "data/schedule.json"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "title": "chore: critical YouTube sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "dfb93ae",
+      "files": [
+        "data/youtube-channels.json"
       ]
     },
     {
