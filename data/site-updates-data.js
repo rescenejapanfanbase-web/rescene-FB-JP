@@ -1,21 +1,27 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-07-31T17:13:53.341807+00:00",
+  "generatedAt": "2026-07-31T23:20:56.952329+00:00",
   "items": [
     {
       "date": "2026-08-01",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "3eff355",
+      "commit": "94dbe01",
       "files": [
-        ".github/workflows/critical-sync-watchdog.yml",
-        ".github/workflows/setup-notion-site-management.yml"
+        "MELON-RECORDS-SORT-UPDATE-20260801.txt",
+        "css/common.css",
+        "js/melon-records.js",
+        "melon-records.html",
+        "scripts/check-requested-regressions.py",
+        "scripts/generate-pwa.py",
+        "scripts/generate-seo.py",
+        "scripts/render-record-pages.mjs"
       ]
     },
     {
       "date": "2026-07-31",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "5aff206",
+      "commit": "203b783",
       "files": [
         "data/external-link-report.json"
       ]
