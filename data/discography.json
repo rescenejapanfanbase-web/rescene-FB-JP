@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T02:04:47.756Z",
+  "generatedAt": "2026-07-31T23:29:29.966Z",
   "source": "notion",
   "dataSourceId": "8f582d52-96eb-4148-a24b-add07379ee07",
   "notionDatabaseUrl": "https://app.notion.com/p/ca4fadead9d64128a5e8dc9730e0033d",
@@ -181,6 +181,33 @@
       "published": true,
       "notionPageId": "3a3229d2-19da-8165-9e4f-f3a793343101",
       "notionUrl": "https://app.notion.com/p/Pinball-3a3229d219da81659e4ff3a793343101"
+    },
+    {
+      "anchor": "release-teachmehowtoloveyou-feat-minami-of-rescene",
+      "slug": "teachmehowtoloveyou-feat-minami-of-rescene",
+      "title": "teachmehowtoloveyou (feat. MINAMI of RESCENE)",
+      "releaseDate": "2025-10-25",
+      "category": "special",
+      "categoryName": "featuring",
+      "mark": "FT",
+      "badge": "SINGLE",
+      "type": "featuring参加",
+      "description": "プロデューサーのPATEKOとSHIRTが手がけ、RESCENE MINAMIがフィーチャリング参加した楽曲",
+      "tracks": [
+        {
+          "no": "01",
+          "title": "teachmehowtoloveyou (feat. MINAMI of RESCENE)",
+          "video": "",
+          "note": "TRACK"
+        }
+      ],
+      "appleMusic": "https://music.apple.com/jp/album/teachmehowtoloveyou-feat-minami-single/1847806389",
+      "spotify": "https://open.spotify.com/intl-ja/track/5OryQacjxyYBX2BPXxqFI5",
+      "cover": "",
+      "order": 9999,
+      "published": true,
+      "notionPageId": "3ae229d2-19da-80e2-a4c3-d30e33a34dbd",
+      "notionUrl": "https://app.notion.com/p/teachmehowtoloveyou-feat-MINAMI-of-RESCENE-3ae229d219da80e2a4c3d30e33a34dbd"
     },
     {
       "anchor": "release-glow-up-english",
