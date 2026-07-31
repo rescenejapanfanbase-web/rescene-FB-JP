@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T23:29:29.966Z",
+  "generatedAt": "2026-07-31T23:58:43.474Z",
   "source": "notion",
   "dataSourceId": "8f582d52-96eb-4148-a24b-add07379ee07",
   "notionDatabaseUrl": "https://app.notion.com/p/ca4fadead9d64128a5e8dc9730e0033d",
@@ -502,6 +502,33 @@
       "published": true,
       "notionPageId": "3a3229d2-19da-8103-bcbe-e3dd4f6fbbdd",
       "notionUrl": "https://app.notion.com/p/Re-Scene-3a3229d219da8103bcbee3dd4f6fbbdd"
+    },
+    {
+      "anchor": "release-even-if-i-can-t-have-you-my-love-is-enough",
+      "slug": "even-if-i-can-t-have-you-my-love-is-enough",
+      "title": "내 사랑은 널 가지지 않아도 부족하지 않아 (Even If I Can’t Have You, My Love Is Enough)",
+      "releaseDate": "2026-03-30",
+      "category": "ost",
+      "categoryName": "OST",
+      "mark": "RS",
+      "badge": "OST",
+      "type": "우리는 매일매일 OST",
+      "description": "ドラマ｢우리는 매일매일｣のOSTとしてRESCENEのLIVが歌った楽曲",
+      "tracks": [
+        {
+          "no": "01",
+          "title": "내 사랑은 널 가지지 않아도 부족하지 않아 (Even If I Can’t Have You, My Love Is Enough)",
+          "video": "https://youtu.be/t3MhhhSYSkc?si=MRGVuEYLYw8JLhJc",
+          "note": ""
+        }
+      ],
+      "appleMusic": "https://music.apple.com/jp/album/before-we-knew-pt-6-even-if-i-cant-have-you-my-love/1886651617",
+      "spotify": "https://open.spotify.com/intl-ja/track/0TLsI4eLc5ymnvt2BYw2NP",
+      "cover": "",
+      "order": 9999,
+      "published": true,
+      "notionPageId": "3ae229d2-19da-8078-9987-eb425dcdfcb9",
+      "notionUrl": "https://app.notion.com/p/Even-If-I-Can-t-Have-You-My-Love-Is-Enough-3ae229d219da80789987eb425dcdfcb9"
     },
     {
       "anchor": "release-specials-ost",
