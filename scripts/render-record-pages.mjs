@@ -85,10 +85,21 @@ const melonOverview = `
   <article class="card record-stat"><small>DAILY PEAK</small><strong>${bestDaily ? `#${bestDaily}` : "—"}</strong><span>日間最高順位</span></article>
 </div>`;
 
-const melonList = melon.length ? `<div class="melon-record-list">${melon.map((item, index) => {
+const melonList = melon.length ? `<div class="melon-sort-toolbar card" aria-label="楽曲別チャート記録の並び替え" data-i18n-ko="곡별 차트 기록 정렬" data-i18n-en="Sort chart records by song">
+  <div class="melon-sort-copy"><strong data-i18n-ko="정렬" data-i18n-en="Sort">並び替え</strong><span data-i18n-ko="선택하면 즉시 순서가 변경됩니다." data-i18n-en="The list updates immediately after selection.">選択するとすぐに並び替わります。</span></div>
+  <label class="melon-sort-field" for="melonRecordSort"><span class="sr-only" data-i18n-ko="정렬 기준" data-i18n-en="Sort by">並び替え条件</span><select id="melonRecordSort" class="melon-sort-select" data-melon-sort aria-controls="melonRecordList">
+    <option value="release-asc" data-i18n-ko="발매일: 오래된 순 (오름차순)" data-i18n-en="Release: oldest first (ascending)">リリース：古い順（昇順）</option>
+    <option value="release-desc" data-i18n-ko="발매일: 최신 순 (내림차순)" data-i18n-en="Release: newest first (descending)">リリース：新しい順（降順）</option>
+    <option value="daily-asc" data-i18n-ko="일간 최고 순위: 높은 순 (1위부터)" data-i18n-en="Daily peak: highest first (No. 1 first)">日間最高順位：高い順（1位から）</option>
+    <option value="daily-desc" data-i18n-ko="일간 최고 순위: 낮은 순" data-i18n-en="Daily peak: lowest first">日間最高順位：低い順</option>
+  </select></label>
+</div>
+<div class="melon-record-list" id="melonRecordList" data-default-sort="release-asc">${melon.map((item, index) => {
   const mv = safeLink(item.mvUrl);
   const image = safeImage(item.image, "news/melon-top100-first.jpg");
-  return `<article class="card melon-record-card">
+  const releaseDate = String(item.releaseDate || "").slice(0, 10);
+  const dailyPeak = Number.isFinite(Number(item.dailyPeak)) && Number(item.dailyPeak) > 0 ? Number(item.dailyPeak) : "";
+  return `<article class="card melon-record-card" data-release-date="${esc(releaseDate)}" data-daily-peak="${esc(dailyPeak)}" data-original-index="${index}">
     <div class="melon-record-index">${String(index + 1).padStart(2, "0")}</div>
     <div class="melon-record-art"><img src="${esc(image)}" alt="${esc(item.song || item.title)}" loading="lazy"></div>
     <div class="melon-record-copy"><small>RELEASE ${esc(dateJa(item.releaseDate))}</small><h2>${esc(item.song || item.title)}</h2><p>${esc(item.description || "Melonチャート記録")}</p>${mv ? `<a class="record-inline-link" href="${esc(mv)}" target="_blank" rel="noopener noreferrer">MVを見る ↗</a>` : '<span class="record-link-pending">MVなし／未登録</span>'}</div>

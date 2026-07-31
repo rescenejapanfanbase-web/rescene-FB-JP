@@ -2112,3 +2112,17 @@ body.page-melon-records .melon-rank-date time{font:inherit;color:inherit}
   body.page-melon-records .melon-record-copy{grid-column:2}
   body.page-melon-records .melon-rank-grid{grid-column:1/-1}
 }
+
+
+/* Melon record sorting controls */
+body.page-melon-records .melon-sort-toolbar{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:0 0 15px;padding:15px 17px;background:linear-gradient(135deg,color-mix(in srgb,var(--member-minami) 10%,var(--card)),color-mix(in srgb,var(--member-zena) 9%,var(--card)));border-color:color-mix(in srgb,var(--member-minami) 28%,var(--border))}
+body.page-melon-records .melon-sort-copy{display:flex;flex-direction:column;gap:4px;min-width:0}
+body.page-melon-records .melon-sort-copy strong{font-size:.8rem;letter-spacing:.03em}
+body.page-melon-records .melon-sort-copy span{color:var(--muted);font-size:.65rem;line-height:1.45}
+body.page-melon-records .melon-sort-field{display:block;flex:0 0 min(100%,330px)}
+body.page-melon-records .melon-sort-select{width:100%;min-height:44px;padding:0 42px 0 14px;border:1px solid color-mix(in srgb,var(--member-zena) 32%,var(--border));border-radius:13px;background-color:var(--soft-bg);color:var(--text);font:inherit;font-size:.72rem;font-weight:900;cursor:pointer;outline:none;transition:border-color .2s ease,box-shadow .2s ease,transform .2s ease}
+body.page-melon-records .melon-sort-select:hover{border-color:color-mix(in srgb,var(--member-minami) 58%,var(--border));transform:translateY(-1px)}
+body.page-melon-records .melon-sort-select:focus-visible{border-color:var(--member-minami);box-shadow:0 0 0 3px color-mix(in srgb,var(--member-minami) 22%,transparent)}
+body.page-melon-records .melon-record-card{transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+body.page-melon-records .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+@media(max-width:720px){body.page-melon-records .melon-sort-toolbar{align-items:stretch;flex-direction:column;gap:11px;padding:14px}body.page-melon-records .melon-sort-field{flex-basis:auto;width:100%}body.page-melon-records .melon-sort-select{min-height:46px;font-size:.7rem}}

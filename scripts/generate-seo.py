@@ -110,7 +110,7 @@ PAGE_META = {
     },
     "melon-records.html": {
         "title": f"Melonチャート記録 | {SITE_NAME}",
-        "description": "RESCENEの楽曲を発売順に並べ、Melon TOP100最高順位、日間最高順位、MVリンクを掲載しています。",
+        "description": "RESCENEの楽曲別Melon記録を、リリース日と日間最高順位で昇順・降順に並び替えて確認できます。",
         "image": "news/melon-top100-first.jpg",
         "label": "MELON CHART RECORDS",
         "priority": "0.8",

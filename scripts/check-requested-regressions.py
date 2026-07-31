@@ -140,6 +140,13 @@ css = text("css/common.css")
 require("win-detail-score" not in css, "削除済みのスコア欄CSSが残っています")
 require(".melon-rank-date" in css, "Melon獲得日の小さな表示CSSがありません")
 require("body.page-melon-records .melon-record-card" in css, "Melon記録のコンパクト化CSSがありません")
+require('id="melonRecordSort"' in text("melon-records.html"), "Melon記録の並び替えセレクトがありません")
+require('data-release-date=' in text("melon-records.html") and 'data-daily-peak=' in text("melon-records.html"), "Melon記録カードに並び替え用データがありません")
+require((ROOT / "js/melon-records.js").exists(), "Melon記録の並び替えJavaScriptがありません")
+melon_sort_js = text("js/melon-records.js")
+for sort_mode in ["release-asc", "release-desc", "daily-asc", "daily-desc"]:
+    require(sort_mode in melon_sort_js, f"Melon記録の並び替えモードがありません: {sort_mode}")
+require(".melon-sort-toolbar" in css and ".melon-sort-select" in css, "Melon記録の並び替えUI CSSがありません")
 
 # Schedule UI and public data.
 schedule_html = text("schedule.html")
