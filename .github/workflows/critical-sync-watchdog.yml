@@ -1,0 +1,46 @@
+name: Critical Sync Watchdog
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Dispatchせず判定だけ行う
+        required: false
+        type: boolean
+        default: false
+  schedule:
+    # YouTube重要枠の独立確認: JST 00/18/20/22時の +35分 / +50分
+    - cron: "35,50 0,18,20,22 * * *"
+      timezone: "Asia/Tokyo"
+    # スケジュール重要枠の独立確認: JST 06/18時の +30分 / +50分
+    - cron: "30,50 6,18 * * *"
+      timezone: "Asia/Tokyo"
+    # その他重要枠の独立確認: JST 07/13/19/23時の +35分 / +50分
+    - cron: "35,50 7,13,19,23 * * *"
+      timezone: "Asia/Tokyo"
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: critical-sync-watchdog
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Detect and recover missed critical runs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          WATCHDOG_BRANCH: ${{ github.event.repository.default_branch }}
+          WATCHDOG_DRY_RUN: ${{ inputs.dry_run || 'false' }}
+        run: python scripts/critical-sync-watchdog.py

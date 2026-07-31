@@ -1,0 +1,41 @@
+name: Setup Notion Site Management
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 最初はdry-run、確認後にapplyを選択
+        required: true
+        type: choice
+        default: dry-run
+        options:
+          - dry-run
+          - apply
+
+permissions:
+  contents: read
+
+concurrency:
+  group: setup-notion-site-management
+  cancel-in-progress: false
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+      - name: Add missing Notion schema and management rows
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_HOMEPAGE_DATA_SOURCE_ID: ${{ vars.NOTION_HOMEPAGE_DATA_SOURCE_ID }}
+          NOTION_VOTING_DATA_SOURCE_ID: ${{ vars.NOTION_VOTING_DATA_SOURCE_ID }}
+          NOTION_RECORDS_DATA_SOURCE_ID: ${{ vars.NOTION_RECORDS_DATA_SOURCE_ID }}
+          NOTION_SETUP_DRY_RUN: ${{ inputs.mode != 'apply' }}
+        run: node scripts/setup-notion-site-management.mjs
