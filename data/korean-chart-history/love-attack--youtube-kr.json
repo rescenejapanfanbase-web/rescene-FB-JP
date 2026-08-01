@@ -337,27 +337,29 @@
     },
     {
       "chartAt": "2026-07-27T00:00:00+09:00",
-      "checkedAt": "2026-08-01T21:58:23+09:00",
-      "rank": null
+      "checkedAt": "2026-08-01T23:56:51+09:00",
+      "rank": 1,
+      "sourceRank": 1,
+      "origin": "official-playlist"
     }
   ],
   "outOfChartHistory": [
     {
       "startAt": "2026-07-27T00:00:00+09:00",
-      "endAt": "",
+      "endAt": "2026-07-27T00:00:00+09:00",
       "lastObservedAt": "2026-07-27T00:00:00+09:00",
-      "lastCheckedAt": "2026-08-01T21:58:23+09:00",
+      "lastCheckedAt": "2026-08-01T23:56:51+09:00",
       "observations": 1
     }
   ],
-  "generatedAt": "2026-08-01T22:59:17+09:00",
+  "generatedAt": "2026-08-01T23:56:51+09:00",
   "summary": {
     "peakRank": 1,
     "firstChartedAt": "2024-09-23T00:00:00+09:00",
-    "lastChartedAt": "2026-07-20T00:00:00+09:00",
-    "chartDays": 30,
-    "currentRank": null,
-    "status": "out",
+    "lastChartedAt": "2026-07-27T00:00:00+09:00",
+    "chartDays": 31,
+    "currentRank": 1,
+    "status": "in",
     "pointCount": 31
   },
   "sources": [
