@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T23:56:52+09:00",
-  "source": "notion",
-  "dataSourceId": "65d8c1e7-e1a1-400e-84ad-61908e78d0fc",
+  "generatedAt": "2026-08-01T11:34:19+09:00",
+  "source": "local-seed",
+  "dataSourceId": "",
   "charts": [
     {
       "id": "melon",
@@ -13,6 +13,17 @@
       "enabled": true,
       "published": true,
       "order": 10,
+      "sourceMode": "mobile-api"
+    },
+    {
+      "id": "melon-daily",
+      "name": "Melon Daily",
+      "shortName": "Melon Daily",
+      "cadence": "daily",
+      "maxRank": 100,
+      "enabled": true,
+      "published": true,
+      "order": 15,
       "sourceMode": "mobile-api"
     },
     {
@@ -27,6 +38,17 @@
       "sourceMode": "mobile-api"
     },
     {
+      "id": "genie-daily",
+      "name": "Genie Daily",
+      "shortName": "Genie Daily",
+      "cadence": "daily",
+      "maxRank": 200,
+      "enabled": true,
+      "published": true,
+      "order": 25,
+      "sourceMode": "mobile-api"
+    },
+    {
       "id": "bugs",
       "name": "Bugs Real-time",
       "shortName": "Bugs",
@@ -35,6 +57,17 @@
       "enabled": true,
       "published": true,
       "order": 30,
+      "sourceMode": "mobile-api"
+    },
+    {
+      "id": "bugs-daily",
+      "name": "Bugs Daily",
+      "shortName": "Bugs Daily",
+      "cadence": "daily",
+      "maxRank": 100,
+      "enabled": true,
+      "published": true,
+      "order": 35,
       "sourceMode": "mobile-api"
     },
     {
@@ -100,13 +133,16 @@
         "flo",
         "vibe",
         "youtube-kr",
-        "spotify-kr"
+        "spotify-kr",
+        "melon-daily",
+        "genie-daily",
+        "bugs-daily"
       ],
       "published": true,
       "order": 10,
       "releaseDate": "2024-03-26",
       "externalIds": {},
-      "notionPageId": "3af229d2-19da-8198-91c0-f29db16819e4"
+      "notionPageId": ""
     },
     {
       "id": "yoyo",
@@ -125,13 +161,16 @@
         "flo",
         "vibe",
         "youtube-kr",
-        "spotify-kr"
+        "spotify-kr",
+        "melon-daily",
+        "genie-daily",
+        "bugs-daily"
       ],
       "published": true,
       "order": 20,
       "releaseDate": "2024-03-26",
       "externalIds": {},
-      "notionPageId": "3af229d2-19da-813e-91a0-c90b45ec8ebd"
+      "notionPageId": ""
     },
     {
       "id": "love-attack",
@@ -151,13 +190,16 @@
         "flo",
         "vibe",
         "youtube-kr",
-        "spotify-kr"
+        "spotify-kr",
+        "melon-daily",
+        "genie-daily",
+        "bugs-daily"
       ],
       "published": true,
       "order": 30,
       "releaseDate": "2024-08-27",
       "externalIds": {},
-      "notionPageId": "3af229d2-19da-8124-85bf-f68e28648f36"
+      "notionPageId": ""
     },
     {
       "id": "pinball",
@@ -176,13 +218,16 @@
         "flo",
         "vibe",
         "youtube-kr",
-        "spotify-kr"
+        "spotify-kr",
+        "melon-daily",
+        "genie-daily",
+        "bugs-daily"
       ],
       "published": true,
       "order": 40,
       "releaseDate": "2024-08-27",
       "externalIds": {},
-      "notionPageId": "3af229d2-19da-8181-a888-c82e2c50f1f5"
+      "notionPageId": ""
     },
     {
       "id": "glow-up",
@@ -201,13 +246,16 @@
         "flo",
         "vibe",
         "youtube-kr",
-        "spotify-kr"
+        "spotify-kr",
+        "melon-daily",
+        "genie-daily",
+        "bugs-daily"
       ],
       "published": true,
       "order": 50,
       "releaseDate": "2025-02-05",
       "externalIds": {},
-      "notionPageId": "3af229d2-19da-8140-9dd9-d980c089f84c"
+      "notionPageId": ""
     },
     {
       "id": "deja-vu",
@@ -228,13 +276,16 @@
         "flo",
         "vibe",
         "youtube-kr",
-        "spotify-kr"
+        "spotify-kr",
+        "melon-daily",
+        "genie-daily",
+        "bugs-daily"
       ],
       "published": true,
       "order": 60,
       "releaseDate": "2025-07-02",
       "externalIds": {},
-      "notionPageId": "3af229d2-19da-8131-9a7b-ce31022a7b20"
+      "notionPageId": ""
     },
     {
       "id": "heart-drop",
@@ -253,13 +304,16 @@
         "flo",
         "vibe",
         "youtube-kr",
-        "spotify-kr"
+        "spotify-kr",
+        "melon-daily",
+        "genie-daily",
+        "bugs-daily"
       ],
       "published": true,
       "order": 70,
       "releaseDate": "2025-11-25",
       "externalIds": {},
-      "notionPageId": "3af229d2-19da-8157-8d1a-c8a50cba75b3"
+      "notionPageId": ""
     },
     {
       "id": "bloom",
@@ -278,13 +332,16 @@
         "flo",
         "vibe",
         "youtube-kr",
-        "spotify-kr"
+        "spotify-kr",
+        "melon-daily",
+        "genie-daily",
+        "bugs-daily"
       ],
       "published": true,
       "order": 80,
       "releaseDate": "2025-11-25",
       "externalIds": {},
-      "notionPageId": "3af229d2-19da-8122-a2a1-c417acba8198"
+      "notionPageId": ""
     },
     {
       "id": "busy-boy",
@@ -303,13 +360,16 @@
         "flo",
         "vibe",
         "youtube-kr",
-        "spotify-kr"
+        "spotify-kr",
+        "melon-daily",
+        "genie-daily",
+        "bugs-daily"
       ],
       "published": true,
       "order": 90,
       "releaseDate": "2026-02-27",
       "externalIds": {},
-      "notionPageId": "3af229d2-19da-81ac-a065-f6a4decd609e"
+      "notionPageId": ""
     },
     {
       "id": "runaway",
@@ -328,13 +388,16 @@
         "flo",
         "vibe",
         "youtube-kr",
-        "spotify-kr"
+        "spotify-kr",
+        "melon-daily",
+        "genie-daily",
+        "bugs-daily"
       ],
       "published": true,
       "order": 100,
       "releaseDate": "2026-04-08",
       "externalIds": {},
-      "notionPageId": "3af229d2-19da-8139-8c2c-da3e071d13f0"
+      "notionPageId": ""
     },
     {
       "id": "pretty-girl",
@@ -353,13 +416,16 @@
         "flo",
         "vibe",
         "youtube-kr",
-        "spotify-kr"
+        "spotify-kr",
+        "melon-daily",
+        "genie-daily",
+        "bugs-daily"
       ],
       "published": true,
       "order": 110,
       "releaseDate": "2026-07-08",
       "externalIds": {},
-      "notionPageId": "3af229d2-19da-8149-8f3e-d0126bd03b00"
+      "notionPageId": ""
     }
   ]
 }

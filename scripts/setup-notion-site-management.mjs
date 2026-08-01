@@ -181,9 +181,17 @@ async function ensureKoreanChartManagement() {
       "表示順": song.order || 9999, "発売日": song.releaseDate || "", "外部ID": Object.keys(song.externalIds || {}).length ? JSON.stringify(song.externalIds) : "",
     })),
   ];
+  const existingByTitle = new Map(existing.map((page) => [propText(page.properties?.[titleName]), page]));
   for (const row of rows) {
     const title = row[titleName];
-    if (titles.has(title)) continue;
+    const current = existingByTitle.get(title);
+    if (current) {
+      if (row["種別"] === "楽曲") {
+        console.log(`更新: ${title} / 対象チャート`);
+        await updateProperties(current.id, schema, { "対象チャート": row["対象チャート"], "公開": row["公開"], "表示順": row["表示順"] });
+      }
+      continue;
+    }
     console.log(`作成: ${title}`);
     await createPage(koreanChartsDataSourceId, schema, row);
     titles.add(title);

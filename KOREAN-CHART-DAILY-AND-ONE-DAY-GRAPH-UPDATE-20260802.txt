@@ -1,0 +1,24 @@
+RESCENE 韓国チャート更新
+
+追加:
+- Melon Daily (melon-daily)
+- Genie Daily (genie-daily)
+- Bugs Daily (bugs-daily)
+
+表示:
+- cadence=hourly のグラフは最新日1日分だけを表示し、横軸は時刻。
+- cadence=daily / weekly は日付軸。
+- スマホの日次・週次グラフは最大120点へ間引き。
+
+反映後:
+1. Actions > Setup Notion Site Management > mode=apply を1回実行。
+   3チャート行を追加し、既存11曲の対象チャートへdaily 3種を追加します。
+2. Actions > Sync Korean Charts > charts に
+   melon-daily,genie-daily,bugs-daily
+   を入力して手動テスト。
+3. 成功後、必要なら Backfill Korean Chart History を dry_run ON で
+   charts=melon-daily,genie-daily,bugs-daily
+   として過去日次履歴を確認。
+4. dry-run成功後のみOFFで本番取り込み。
+
+自動取得: 毎日13:20 JST/KST。

@@ -174,7 +174,7 @@ def main() -> int:
 
     requested_songs = {value.strip() for value in args.songs.split(",") if value.strip()}
     requested_charts = {value.strip() for value in args.charts.split(",") if value.strip()}
-    supported_charts = {"melon", "genie", "bugs", "flo", "vibe", "youtube-kr"}
+    supported_charts = {"melon", "melon-daily", "genie", "genie-daily", "bugs", "bugs-daily", "flo", "vibe", "youtube-kr"}
     if requested_charts:
         supported_charts &= requested_charts
 

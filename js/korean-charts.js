@@ -20,6 +20,8 @@
     if(Number.isNaN(date.getTime()))return String(value);
     return new Intl.DateTimeFormat('ja-JP',short?{year:'numeric',month:'2-digit',day:'2-digit'}:{year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}).format(date);
   };
+  const timeLabel=(value)=>{const d=new Date(value);return Number.isNaN(d.getTime())?'—':new Intl.DateTimeFormat('ja-JP',{hour:'2-digit',minute:'2-digit',hour12:false}).format(d);};
+  const dayKey=(value)=>{const d=new Date(value);return Number.isNaN(d.getTime())?'':new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit'}).format(d);};
   const rank=(value)=>Number.isFinite(Number(value))?`#${Number(value)}`:'圏外';
   const movement=(entry)=>{
     const type=entry?.movementType||'';
@@ -132,7 +134,7 @@
     byId('chartOutHistory').innerHTML='';
   }
 
-  function historySvg(points,maxRank){
+  function historySvg(points,maxRank,{hourly=false}={}){
     const width=900,height=330,pad={top:26,right:22,bottom:44,left:52};
     const usableW=width-pad.left-pad.right,usableH=height-pad.top-pad.bottom;
     const ranked=points.filter(point=>Number.isFinite(Number(point.rank)));
@@ -152,11 +154,15 @@
       ${segments.map(segment=>segment.length>1?`<polyline class="chart-rank-line" points="${segment.join(' ')}"></polyline>`:'').join('')}
       ${ranked.map(point=>{const index=points.indexOf(point);return `<circle class="chart-rank-point${single===point?' is-single':''}" cx="${x(index)}" cy="${y(point.rank)}" r="${single===point?7:4}"><title>${dateTime(point.chartAt)} #${point.rank}</title></circle>`;}).join('')}
       ${single?`<text class="chart-single-rank-label" x="${x(singleIndex)}" y="${Math.max(18,y(single.rank)-14)}" text-anchor="middle">#${Number(single.rank)}</text>`:''}
-      ${labels.map(index=>`<text class="chart-axis-label" x="${x(index)}" y="${height-15}" text-anchor="${index===0?'start':index===points.length-1?'end':'middle'}">${esc(dateTime(points[index]?.chartAt,true))}</text>`).join('')}
+      ${labels.map(index=>`<text class="chart-axis-label" x="${x(index)}" y="${height-15}" text-anchor="${index===0?'start':index===points.length-1?'end':'middle'}">${esc(hourly?timeLabel(points[index]?.chartAt):dateTime(points[index]?.chartAt,true))}</text>`).join('')}
     </svg>`;
   }
 
-  function pointsForRange(points,range){
+  function pointsForRange(points,range,chart){
+    if(chart?.cadence==='hourly'&&points.length){
+      const latestDay=dayKey(points[points.length-1]?.chartAt);
+      return points.filter(point=>dayKey(point.chartAt)===latestDay);
+    }
     if(range==='240')return points.slice(-240);
     if(range==='90d'&&points.length){
       const latest=new Date(points[points.length-1]?.chartAt||0).getTime();
@@ -185,9 +191,13 @@
   function renderSelectedHistory(){
     const allPoints=Array.isArray(selectedHistory.points)?selectedHistory.points:[];
     const range=byId('historyRangeSelector')?.value||'all';
-    const ranged=pointsForRange(allPoints,range);
-    const visible=downsample(ranged,720);
-    const svg=historySvg(visible,selectedHistoryChart.maxRank);
+    const hourly=selectedHistoryChart?.cadence==='hourly';
+    const rangeWrap=byId('historyRangeSelector')?.closest('.chart-history-range');
+    if(rangeWrap)rangeWrap.hidden=hourly;
+    const ranged=pointsForRange(allPoints,range,selectedHistoryChart);
+    const mobile=window.matchMedia('(max-width: 640px)').matches;
+    const visible=hourly?ranged:downsample(ranged,mobile?120:360);
+    const svg=historySvg(visible,selectedHistoryChart.maxRank,{hourly});
     byId('chartSvgWrap').innerHTML=svg||'<p class="chart-empty">この組み合わせの順位履歴はまだありません。</p>';
     const summary=selectedHistory.summary||selectedEntry||{};
     byId('chartHistoryStats').innerHTML=[
@@ -200,7 +210,7 @@
     const sourceParts=[];
     if(hasGuyso)sourceParts.push('<span>過去順位の一部：<a href="https://xn--o39an51b2re.com/" target="_blank" rel="noopener noreferrer">가이섬</a></span>');
     sourceParts.push('<span>最新順位：各チャートの公開情報</span>');
-    sourceParts.push(`<span>全${allPoints.length.toLocaleString('ja-JP')}点${visible.length<ranged.length?`（表示は${visible.length.toLocaleString('ja-JP')}点に間引き）`:''}</span>`);
+    sourceParts.push(`<span>${hourly?'当日':`全${allPoints.length.toLocaleString('ja-JP')}点`}${!hourly&&visible.length<ranged.length?`（表示は${visible.length.toLocaleString('ja-JP')}点）`:''}</span>`);
     byId('chartHistorySource').innerHTML=sourceParts.join('<i>／</i>');
     const outages=Array.isArray(selectedHistory.outOfChartHistory)?selectedHistory.outOfChartHistory:[];
     byId('chartOutHistory').innerHTML=outages.length?`<h4>圏外履歴</h4><div class="chart-out-list">${outages.slice(-12).reverse().map(item=>`<span class="chart-out-chip">${esc(dateTime(item.startAt,true))} → ${esc(item.endAt?dateTime(item.endAt,true):'継続中')}</span>`).join('')}</div>`:'';

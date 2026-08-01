@@ -151,6 +151,62 @@ def fetch_melon(chart: dict[str, Any], fetched_at: datetime) -> SourceResult:
     return parse_melon(payload, chart, fetched_at)
 
 
+
+def fetch_melon_daily(chart: dict[str, Any], fetched_at: datetime) -> SourceResult:
+    errors = []
+    for suffix in ("&chartType=DA", "&chartType=D", "&chartType=DAY"):
+        try:
+            payload = request_json(
+                "https://m2.melon.com/m6/chart/ent/songChartList.json?cpId=AS40&cpKey=14LNC3&appVer=6.5.8.1" + suffix,
+                headers={"User-Agent": "AS40; Android 13; 6.5.8.1; sdk_gphone64_arm64", "Accept": "application/json"},
+            )
+            result = parse_melon(payload, chart, fetched_at)
+            if result.items:
+                result.metadata["period"] = "daily"
+                return result
+        except Exception as exc:
+            errors.append(f"{type(exc).__name__}: {exc}")
+    raise RuntimeError(" / ".join(errors) or "Melon Daily returned no items")
+
+
+def fetch_genie_daily(chart: dict[str, Any], fetched_at: datetime) -> SourceResult:
+    errors = []
+    for endpoint in ("j_DailyRankSongList.json", "j_DayRankSongList.json"):
+        try:
+            payload = request_json(
+                f"https://app.genie.co.kr/chart/{endpoint}",
+                method="POST",
+                headers={"User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36", "Accept": "application/json"},
+                form={"pg": 1, "pgSize": 200},
+            )
+            result = parse_genie(payload, chart, fetched_at)
+            if result.items:
+                result.metadata["period"] = "daily"
+                return result
+        except Exception as exc:
+            errors.append(f"{type(exc).__name__}: {exc}")
+    raise RuntimeError(" / ".join(errors) or "Genie Daily returned no items")
+
+
+def fetch_bugs_daily(chart: dict[str, Any], fetched_at: datetime) -> SourceResult:
+    errors = []
+    for period in ("day", "daily"):
+        try:
+            payload = request_json(
+                "https://m.bugs.co.kr/api/getChartTrack",
+                method="POST",
+                headers={"User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36", "Accept": "application/json"},
+                form={"period_tp": period, "svc_type": "20151", "size": 100},
+            )
+            result = parse_bugs(payload, chart, fetched_at)
+            if result.items:
+                result.metadata["period"] = "daily"
+                return result
+        except Exception as exc:
+            errors.append(f"{type(exc).__name__}: {exc}")
+    raise RuntimeError(" / ".join(errors) or "Bugs Daily returned no items")
+
+
 def parse_genie(payload: Any, chart: dict[str, Any], fetched_at: datetime) -> SourceResult:
     root = first_dict_with_key(payload, "DataSet") or (payload if isinstance(payload, dict) else {})
     dataset = root.get("DataSet") or {}
@@ -502,8 +558,11 @@ def fetch_spotify(chart: dict[str, Any], fetched_at: datetime) -> SourceResult:
 
 FETCHERS = {
     "melon": fetch_melon,
+    "melon-daily": fetch_melon_daily,
     "genie": fetch_genie,
+    "genie-daily": fetch_genie_daily,
     "bugs": fetch_bugs,
+    "bugs-daily": fetch_bugs_daily,
     "flo": fetch_flo,
     "vibe": fetch_vibe,
     "youtube-kr": fetch_youtube,

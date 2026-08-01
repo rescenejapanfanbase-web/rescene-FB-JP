@@ -39,9 +39,12 @@ RESCENE_MELON_FALLBACK_IDS: dict[str, str] = {
 
 HISTORY_ROUTE_PATTERNS: dict[str, re.Pattern[str]] = {
     "melon": re.compile(r"/chart/melon/top100/trend/ranking/[^/?#]+"),
+    "melon-daily": re.compile(r"/chart/melon/daily/trend/ranking/[^/?#]+"),
     "genie": re.compile(r"/chart/genie/realtime/trend/ranking/[^/?#]+"),
+    "genie-daily": re.compile(r"/chart/genie/daily/trend/ranking/[^/?#]+"),
     "flo": re.compile(r"/chart/flo/24hour/trend/ranking/[^/?#]+"),
     "bugs": re.compile(r"/chart/bugs/realtime/trend/ranking/[^/?#]+"),
+    "bugs-daily": re.compile(r"/chart/bugs/daily/trend/ranking/[^/?#]+"),
     "vibe": re.compile(r"/chart/vibe/daily/trend/ranking/[^/?#]+"),
     "youtube-kr": re.compile(r"/chart/youtube/track-weekly/trend/ranking/[^/?#]+"),
 }
@@ -356,7 +359,7 @@ def parse_weekly_youtube(html: str, *, max_rank: int, source_url: str) -> list[d
 def parse_history_page(chart_id: str, html: str, *, max_rank: int, source_url: str) -> list[dict[str, Any]]:
     if chart_id in {"melon", "genie", "bugs", "flo"}:
         return parse_hourly_matrix(html, max_rank=max_rank, source_url=source_url)
-    if chart_id == "vibe":
+    if chart_id in {"melon-daily", "genie-daily", "bugs-daily", "vibe"}:
         return parse_daily_history(html, max_rank=max_rank, source_url=source_url)
     if chart_id == "youtube-kr":
         return parse_weekly_youtube(html, max_rank=max_rank, source_url=source_url)

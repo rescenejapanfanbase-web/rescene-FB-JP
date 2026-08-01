@@ -80,3 +80,5 @@ body.page-korean-charts .chart-history-source a{color:var(--pink-soft);font-weig
 body.page-korean-charts .chart-history-source a:hover{text-decoration:underline}
 body.page-korean-charts .chart-history-source i{font-style:normal;opacity:.45}
 @media(max-width:520px){body.page-korean-charts .chart-history-tools{align-items:flex-start;justify-content:flex-start;width:100%}}
+
+@media (max-width:640px){body.page-korean-charts .chart-svg{height:250px}body.page-korean-charts .chart-rank-point{r:3}body.page-korean-charts .chart-axis-label{font-size:11px}body.page-korean-charts .chart-history-range[hidden]{display:none!important}}

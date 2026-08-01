@@ -16,8 +16,11 @@ SCHEMA_VERSION = 1
 
 DEFAULT_CHARTS: list[dict[str, Any]] = [
     {"id": "melon", "name": "Melon TOP100", "shortName": "Melon", "cadence": "hourly", "maxRank": 100, "enabled": True, "published": True, "order": 10, "sourceMode": "mobile-api"},
+    {"id": "melon-daily", "name": "Melon Daily", "shortName": "Melon Daily", "cadence": "daily", "maxRank": 100, "enabled": True, "published": True, "order": 15, "sourceMode": "mobile-api"},
     {"id": "genie", "name": "Genie Real-time", "shortName": "Genie", "cadence": "hourly", "maxRank": 200, "enabled": True, "published": True, "order": 20, "sourceMode": "mobile-api"},
+    {"id": "genie-daily", "name": "Genie Daily", "shortName": "Genie Daily", "cadence": "daily", "maxRank": 200, "enabled": True, "published": True, "order": 25, "sourceMode": "mobile-api"},
     {"id": "bugs", "name": "Bugs Real-time", "shortName": "Bugs", "cadence": "hourly", "maxRank": 100, "enabled": True, "published": True, "order": 30, "sourceMode": "mobile-api"},
+    {"id": "bugs-daily", "name": "Bugs Daily", "shortName": "Bugs Daily", "cadence": "daily", "maxRank": 100, "enabled": True, "published": True, "order": 35, "sourceMode": "mobile-api"},
     {"id": "flo", "name": "FLO Chart", "shortName": "FLO", "cadence": "hourly", "maxRank": 100, "enabled": True, "published": True, "order": 40, "sourceMode": "mobile-api"},
     {"id": "vibe", "name": "VIBE Today TOP 100", "shortName": "VIBE", "cadence": "daily", "maxRank": 100, "enabled": True, "published": True, "order": 50, "sourceMode": "web-api"},
     {"id": "youtube-kr", "name": "YouTube Music Korea Top Songs", "shortName": "YouTube Music", "cadence": "weekly", "maxRank": 100, "enabled": True, "published": True, "order": 60, "sourceMode": "official-playlist"},
@@ -26,8 +29,11 @@ DEFAULT_CHARTS: list[dict[str, Any]] = [
 
 CHART_ALIASES = {
     "melon": "melon", "メロン": "melon", "멜론": "melon", "melontop100": "melon",
+    "melondaily": "melon-daily", "melon-daily": "melon-daily", "멜론데일리": "melon-daily",
     "genie": "genie", "ジニー": "genie", "지니": "genie",
+    "geniedaily": "genie-daily", "genie-daily": "genie-daily", "지니데일리": "genie-daily",
     "bugs": "bugs", "bugs!": "bugs", "バグス": "bugs", "벅스": "bugs",
+    "bugsdaily": "bugs-daily", "bugs-daily": "bugs-daily", "벅스데일리": "bugs-daily",
     "flo": "flo", "フロー": "flo", "플로": "flo",
     "vibe": "vibe", "バイブ": "vibe", "바이브": "vibe",
     "youtube": "youtube-kr", "youtubemusic": "youtube-kr", "youtubemusickorea": "youtube-kr", "youtube-kr": "youtube-kr", "유튜브뮤직": "youtube-kr",
