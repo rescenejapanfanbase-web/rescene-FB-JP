@@ -8,20 +8,21 @@ on:
         required: false
         type: string
         default: ""
-  # このWorkflowファイルを更新した直後にも、リアルタイム4チャートを1回同期する。
-  # cron変更時の動作確認と、更新時刻を待たずに復旧させるためのトリガー。
   push:
     branches:
       - main
     paths:
       - ".github/workflows/sync-korean-charts.yml"
+      - "scripts/sync-korean-charts-fixed.py"
   schedule:
-    # Melon / Genie / Bugs / FLO：毎時23分
-    # cronを変更することでGitHub側のスケジュール登録を再有効化する。
-    - cron: "23 * * * *"
+    # Melon / Genie / Bugs / FLO：各時のランキング更新後、毎時4分
+    - cron: "4 * * * *"
       timezone: "Asia/Tokyo"
-    # Melon / Genie / Bugs Daily：前日分の確定後に13時20分
-    - cron: "20 13 * * *"
+    # Bugs / Genie Daily：12時更新後
+    - cron: "10 12 * * *"
+      timezone: "Asia/Tokyo"
+    # Melon Daily：12時40分更新後
+    - cron: "50 12 * * *"
       timezone: "Asia/Tokyo"
     # VIBE：日次ランキング更新後の7時10分
     - cron: "10 7 * * *"
@@ -29,7 +30,7 @@ on:
     # Spotify Korea：毎日10時20分
     - cron: "20 10 * * *"
       timezone: "Asia/Tokyo"
-    # YouTube Music Korea：週次更新を取りこぼさないよう毎日11時30分に確認
+    # YouTube Music Korea：週次更新を毎日11時30分に確認
     - cron: "30 11 * * *"
       timezone: "Asia/Tokyo"
 
@@ -49,12 +50,15 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
+
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.13"
+
       - name: Install source adapter dependencies
         run: python -m pip install --disable-pip-version-check --upgrade yt-dlp beautifulsoup4
+
       - name: Run offline parser and state tests
         env:
           PYTHONDONTWRITEBYTECODE: "1"
@@ -62,6 +66,8 @@ jobs:
           PYTHONPATH=scripts python scripts/test-korean-chart-sync.py
           PYTHONPATH=scripts python scripts/test-korean-chart-history.py
           PYTHONPATH=scripts python scripts/test-korean-chart-source-defaults.py
+          PYTHONPATH=scripts python scripts/sync-korean-charts-fixed.py --self-test
+
       - name: Resolve scheduled chart set
         id: chart-set
         shell: bash
@@ -72,20 +78,25 @@ jobs:
         run: |
           set -euo pipefail
           charts="${REQUESTED_CHARTS}"
+
           if [[ -z "${charts}" && "${EVENT_NAME}" == "push" ]]; then
             charts="melon,genie,bugs,flo"
           fi
+
           if [[ -z "${charts}" && "${EVENT_NAME}" == "schedule" ]]; then
             case "${EVENT_SCHEDULE}" in
-              "23 * * * *") charts="melon,genie,bugs,flo" ;;
-              "20 13 * * *") charts="melon-daily,genie-daily,bugs-daily" ;;
+              "4 * * * *") charts="melon,genie,bugs,flo" ;;
+              "10 12 * * *") charts="genie-daily,bugs-daily" ;;
+              "50 12 * * *") charts="melon-daily" ;;
               "10 7 * * *") charts="vibe" ;;
               "20 10 * * *") charts="spotify-kr" ;;
               "30 11 * * *") charts="youtube-kr" ;;
             esac
           fi
+
           echo "charts=${charts}" >> "${GITHUB_OUTPUT}"
           echo "取得対象: ${charts:-Notionで有効な全チャート}"
+
       - name: Fetch, validate, retain stale sources, and publish atomically
         shell: bash
         env:
@@ -102,36 +113,67 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           branch="${GITHUB_REF_NAME:-main}"
+
           for attempt in 1 2 3; do
             git fetch origin "${branch}"
             git reset --hard "origin/${branch}"
-            PYTHONPATH=scripts python scripts/sync-korean-charts.py --charts "${REQUESTED_CHARTS}" --attempts 3 --workers 4
-            if git diff --quiet -- data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history && \
-               test -z "$(git status --porcelain -- data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history)"; then
+
+            PYTHONPATH=scripts python scripts/sync-korean-charts-fixed.py \
+              --charts "${REQUESTED_CHARTS}" \
+              --attempts 3 \
+              --workers 4
+
+            if git diff --quiet -- \
+                data/korean-chart-config.json \
+                data/korean-charts.json \
+                data/korean-charts-data.js \
+                data/korean-chart-sync-status.json \
+                data/korean-chart-history \
+              && test -z "$(git status --porcelain -- \
+                data/korean-chart-config.json \
+                data/korean-charts.json \
+                data/korean-charts-data.js \
+                data/korean-chart-sync-status.json \
+                data/korean-chart-history)"; then
               exit 0
             fi
-            git add data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history
+
+            git add \
+              data/korean-chart-config.json \
+              data/korean-charts.json \
+              data/korean-charts-data.js \
+              data/korean-chart-sync-status.json \
+              data/korean-chart-history
+
             git commit -m "chore: synchronize Korean charts"
-            if git push origin "HEAD:${branch}"; then exit 0; fi
+
+            if git push origin "HEAD:${branch}"; then
+              exit 0
+            fi
+
             sleep $((attempt * 10))
           done
+
           exit 1
-      - name: Report retained chart failures
+
+      - name: Report partial chart failures
         if: always()
         shell: bash
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
+
           path = Path("data/korean-chart-sync-status.json")
           if not path.exists():
-              print("::warning::同期ステータスファイルが生成されませんでした。")
+              print("::warning::同期ステータスファイルがありません。")
               raise SystemExit(0)
-          status = json.loads(path.read_text(encoding="utf-8"))
-          for chart_id, message in (status.get("failedCharts") or {}).items():
-              message = str(message).replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
-              print(f"::warning title=Korean chart retained: {chart_id}::{message}")
+
+          data = json.loads(path.read_text(encoding="utf-8"))
+          for chart_id, error in (data.get("failedCharts") or {}).items():
+              print(f"::warning title=韓国チャート取得失敗::{chart_id}: {error}")
           PY
+
       - name: Upload Korean chart sync status
         if: always()
         uses: actions/upload-artifact@v6

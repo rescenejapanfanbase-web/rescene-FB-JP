@@ -9,9 +9,8 @@ on:
         type: boolean
         default: false
   schedule:
-    # リアルタイム同期（毎時23分）の30分後に確認
-    # cronを変更してGitHub側のWatchdogスケジュールも再登録する。
-    - cron: "53 * * * *"
+    # 毎時4分のリアルタイム同期から30分後
+    - cron: "34 * * * *"
       timezone: "Asia/Tokyo"
 
 permissions:
@@ -29,10 +28,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.13"
+
       - name: Detect stale hourly sources and dispatch recovery
         env:
           GH_TOKEN: ${{ github.token }}
