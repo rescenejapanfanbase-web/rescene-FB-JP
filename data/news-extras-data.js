@@ -1,6 +1,6 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-07-31T15:33:32.062Z",
-  "sourceNewsGeneratedAt": "2026-07-31T15:33:12.585Z",
+  "generatedAt": "2026-08-01T05:58:42.163Z",
+  "sourceNewsGeneratedAt": "2026-08-01T05:58:42.071Z",
   "related": {
     "fanbase-site": [
       {
@@ -222,20 +222,6 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "rescene-pretty-girl-1-bc9d88fde7",
-        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得！",
-        "date": "2026.07.14",
-        "label": "1st WIN",
-        "image": "news/the-show-first-win.jpeg",
-        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
-        "score": 22,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード",
-          "同じ作品"
-        ]
-      },
-      {
         "slug": "pretty-girl-release",
         "title": "Special Single「Pretty Girl」配信開始",
         "date": "2026.07.08",
@@ -246,6 +232,19 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "共通キーワード",
           "同じ作品"
+        ]
+      },
+      {
+        "slug": "rescene-love-attack-1-e44b1f8e6e",
+        "title": "RESCENEが「LOVE ATTACK」で1位を獲得！",
+        "date": "2026.07.26",
+        "label": "3rd WIN",
+        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
+        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
         ]
       }
     ],
@@ -383,20 +382,6 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "rescene-pretty-girl-1-bc9d88fde7",
-        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得！",
-        "date": "2026.07.14",
-        "label": "1st WIN",
-        "image": "news/the-show-first-win.jpeg",
-        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
-        "score": 22,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード",
-          "同じ作品"
-        ]
-      },
-      {
         "slug": "pretty-girl-release",
         "title": "Special Single「Pretty Girl」配信開始",
         "date": "2026.07.08",
@@ -408,48 +393,18 @@ window.RESCENE_NEWS_EXTRAS = {
           "共通キーワード",
           "同じ作品"
         ]
-      }
-    ],
-    "rescene-pretty-girl-1-bc9d88fde7": [
-      {
-        "slug": "rescene-pretty-girl-1-8a4e50d816",
-        "title": "RESCENEが「Pretty Girl」で地上波音楽番組初の1位を獲得！",
-        "date": "2026.07.25",
-        "label": "2nd WIN",
-        "image": "assets/news/notion/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf86990.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、\nRESCENEが「Pretty Girl」でグループ初となる\n地上波の音楽番組では初の1位を獲得しました。",
-        "score": 22,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード",
-          "同じ作品"
-        ]
       },
       {
-        "slug": "pretty-girl-first-music-show-win",
-        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
-        "date": "2026.07.14",
-        "label": "1ST WIN",
-        "image": "news/the-show-first-win.jpeg",
-        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、「Pretty Girl」がRESCENE初の音楽番組1位を獲得しました。10,000点のフルスコアでの1位となり、THE SHOWでフルスコアを記録したのはBTS、Wanna Oneに続く3組目です。",
-        "score": 22,
+        "slug": "rescene-love-attack-1-e44b1f8e6e",
+        "title": "RESCENEが「LOVE ATTACK」で1位を獲得！",
+        "date": "2026.07.26",
+        "label": "3rd WIN",
+        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
+        "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
+        "score": 11,
         "reasons": [
           "同じカテゴリー",
-          "共通キーワード",
-          "同じ作品"
-        ]
-      },
-      {
-        "slug": "pretty-girl-release",
-        "title": "Special Single「Pretty Girl」配信開始",
-        "date": "2026.07.08",
-        "label": "SPECIAL SINGLE",
-        "image": "assets/mv/pretty-girl.jpg",
-        "text": "Special Single「Pretty Girl」の配信がスタートしました。リリース1時間後にMelon TOP100 22位へランクインし、最高4位を記録しました。",
-        "score": 13,
-        "reasons": [
-          "共通キーワード",
-          "同じ作品"
+          "共通キーワード"
         ]
       }
     ],
@@ -564,16 +519,16 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "rescene-pretty-girl-1-bc9d88fde7",
-        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得！",
-        "date": "2026.07.14",
-        "label": "1st WIN",
-        "image": "news/the-show-first-win.jpeg",
-        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
-        "score": 13,
+        "slug": "runaway-release",
+        "title": "Digital Single「Runaway」配信開始",
+        "date": "2026.04.08",
+        "label": "DIGITAL SINGLE",
+        "image": "assets/mv/runaway.jpg",
+        "text": "RESCENE初のDigital Single「Runaway」の配信がスタートしました。",
+        "score": 10,
         "reasons": [
-          "共通キーワード",
-          "同じ作品"
+          "同じカテゴリー",
+          "共通キーワード"
         ]
       }
     ],
@@ -1240,16 +1195,6 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【2026.07.14】 RESCENEが「Pretty Girl」で音楽番組初の1位を獲得\n\nhttps://rescene-fb.jp/articles/pretty-girl-first-music-show-win.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得\n2026年7月14日放送のSBS Life「THE SHOW」で、「Pretty Girl」がRESCENE初の音楽番組1位を獲得しました。10,000点のフルスコアでの1位となり、THE SHOWでフルスコアを記録したのはBTS、Wanna Oneに続く3組目です。",
       "charCount": 137
-    },
-    {
-      "slug": "rescene-pretty-girl-1-bc9d88fde7",
-      "date": "2026.07.14",
-      "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得！",
-      "url": "https://rescene-fb.jp/articles/rescene-pretty-girl-1-bc9d88fde7.html",
-      "hashtags": "#RESCENE #리센느 #リセンヌ",
-      "xText": "【2026.07.14】 RESCENEが「Pretty Girl」で音楽番組初の1位を獲得！\n\nhttps://rescene-fb.jp/articles/rescene-pretty-girl-1-bc9d88fde7.html\n\n#RESCENE #리센느 #リセンヌ",
-      "lineText": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得！\n2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
-      "charCount": 138
     },
     {
       "slug": "love-attack-inkigayo-realtime-first",

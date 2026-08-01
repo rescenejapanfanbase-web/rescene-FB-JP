@@ -150,22 +150,6 @@ window.RESCENE_NEWS = [
     "sourceLabel": "THE K-POP公式動画を見る"
   },
   {
-    "slug": "rescene-pretty-girl-1-bc9d88fde7",
-    "date": "2026.07.14",
-    "category": "notice",
-    "categoryName": "記録",
-    "label": "1st WIN",
-    "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得！",
-    "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEがグループ初の音楽番組1位を獲得しました。",
-    "body": "2026年7月14日放送のSBS Life「THE SHOW」で、\nRESCENEが「Pretty Girl」でグループ初となる\n音楽番組1位を獲得しました。\n最終スコアは10,000点のフルスコアとなりました。",
-    "image": "news/the-show-first-win.jpeg",
-    "sourceLink": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
-    "sourceLabel": "THE K-POP公式動画を見る",
-    "translations": {},
-    "notionPageId": "3a2229d2-19da-806e-a09b-c4bc9d88fde7",
-    "notionUrl": "https://app.notion.com/p/RESCENE-Pretty-Girl-1-3a2229d219da806ea09bc4bc9d88fde7"
-  },
-  {
     "slug": "love-attack-inkigayo-realtime-first",
     "date": "2026.07.12",
     "category": "notice",

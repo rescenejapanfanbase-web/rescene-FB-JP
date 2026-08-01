@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-31T15:33:12.585Z",
+  "generatedAt": "2026-08-01T05:58:42.071Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 9,
-  "notionNews": 9,
+  "queriedPages": 8,
+  "notionNews": 8,
   "notionImages": 8,
   "rows": [
     {
@@ -92,17 +92,6 @@
       "imagePath": "assets/news/notion/notion-3ae229d219da805283b1d5fec5375c61-e3dc347adb43.jpg",
       "imageBytes": 247972,
       "imageContentType": "image/jpeg"
-    },
-    {
-      "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得！",
-      "pageId": "3a2229d2-19da-806e-a09b-c4bc9d88fde7",
-      "lastEditedTime": "2026-07-31T10:53:00.000Z",
-      "imageStatus": "local-path",
-      "imageProperty": "",
-      "imageFilename": "",
-      "imagePath": "news/the-show-first-win.jpeg",
-      "imageBytes": 0,
-      "imageContentType": ""
     }
   ]
 }
