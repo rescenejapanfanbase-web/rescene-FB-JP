@@ -1,0 +1,41 @@
+name: Korean Chart Watchdog
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 再実行せず判定だけ行う
+        required: false
+        type: boolean
+        default: false
+  schedule:
+    # 毎時47分（同期開始から30分後）に独立確認します。
+    - cron: "47 * * * *"
+      timezone: "Asia/Tokyo"
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: korean-chart-watchdog
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Detect missed or failed hourly sync and dispatch recovery
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          WATCHDOG_BRANCH: ${{ github.event.repository.default_branch }}
+          WATCHDOG_DRY_RUN: ${{ inputs.dry_run || 'false' }}
+        run: python scripts/korean-chart-watchdog.py

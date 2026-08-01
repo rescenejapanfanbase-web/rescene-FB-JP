@@ -1,0 +1,78 @@
+name: Sync Korean Charts
+
+on:
+  workflow_dispatch:
+    inputs:
+      charts:
+        description: 取得対象を限定する場合のみ chart ID をカンマ区切りで入力
+        required: false
+        type: string
+        default: ""
+  schedule:
+    # 毎時17分（JST）。同時刻集中を避け、公開元の更新後に取得します。
+    - cron: "17 * * * *"
+      timezone: "Asia/Tokyo"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rescene-korean-charts-write
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Install source adapter dependency
+        run: python -m pip install --disable-pip-version-check --upgrade yt-dlp
+      - name: Run offline parser and state tests
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: PYTHONPATH=scripts python scripts/test-korean-chart-sync.py
+      - name: Fetch, validate, retain stale sources, and publish atomically
+        shell: bash
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_KOREAN_CHARTS_DATA_SOURCE_ID: ${{ vars.NOTION_KOREAN_CHARTS_DATA_SOURCE_ID }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_KOREA_PLAYLIST_ID: ${{ vars.SPOTIFY_KOREA_PLAYLIST_ID }}
+          YOUTUBE_MUSIC_KOREA_PLAYLIST_URL: ${{ vars.YOUTUBE_MUSIC_KOREA_PLAYLIST_URL }}
+          REQUESTED_CHARTS: ${{ inputs.charts || '' }}
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="${GITHUB_REF_NAME:-main}"
+          for attempt in 1 2 3; do
+            git fetch origin "${branch}"
+            git reset --hard "origin/${branch}"
+            PYTHONPATH=scripts python scripts/sync-korean-charts.py --charts "${REQUESTED_CHARTS}" --attempts 3 --workers 4
+            if git diff --quiet -- data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history && \
+               test -z "$(git status --porcelain -- data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history)"; then
+              exit 0
+            fi
+            git add data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history
+            git commit -m "chore: synchronize Korean charts"
+            if git push origin "HEAD:${branch}"; then exit 0; fi
+            sleep $((attempt * 10))
+          done
+          exit 1
+      - name: Upload Korean chart sync status
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: korean-chart-sync-status
+          path: data/korean-chart-sync-status.json
+          if-no-files-found: warn

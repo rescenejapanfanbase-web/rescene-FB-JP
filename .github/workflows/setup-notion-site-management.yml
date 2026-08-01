@@ -37,5 +37,6 @@ jobs:
           NOTION_HOMEPAGE_DATA_SOURCE_ID: ${{ vars.NOTION_HOMEPAGE_DATA_SOURCE_ID }}
           NOTION_VOTING_DATA_SOURCE_ID: ${{ vars.NOTION_VOTING_DATA_SOURCE_ID }}
           NOTION_RECORDS_DATA_SOURCE_ID: ${{ vars.NOTION_RECORDS_DATA_SOURCE_ID }}
+          NOTION_KOREAN_CHARTS_DATA_SOURCE_ID: ${{ vars.NOTION_KOREAN_CHARTS_DATA_SOURCE_ID }}
           NOTION_SETUP_DRY_RUN: ${{ inputs.mode != 'apply' }}
         run: node scripts/setup-notion-site-management.mjs
