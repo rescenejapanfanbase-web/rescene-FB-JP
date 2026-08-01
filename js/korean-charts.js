@@ -10,6 +10,8 @@
   const songMap=Object.fromEntries(songs.map(item=>[item.id,item]));
   let view='chart';
   let selectedEntry=null;
+  let selectedHistory={points:[],sources:[],outOfChartHistory:[],summary:{}};
+  let selectedHistoryChart={maxRank:100};
 
   const esc=(value)=>String(value??'').replace(/[&<>"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[char]));
   const dateTime=(value,short=false)=>{
@@ -126,6 +128,7 @@
   function renderEmptyHistory(message='順位履歴はまだありません。'){
     byId('chartSvgWrap').innerHTML=`<p class="chart-empty">${esc(message)}</p>`;
     byId('chartHistoryStats').innerHTML='';
+    byId('chartHistorySource').innerHTML='';
     byId('chartOutHistory').innerHTML='';
   }
 
@@ -149,37 +152,79 @@
     </svg>`;
   }
 
+  function pointsForRange(points,range){
+    if(range==='240')return points.slice(-240);
+    if(range==='90d'&&points.length){
+      const latest=new Date(points[points.length-1]?.chartAt||0).getTime();
+      if(Number.isFinite(latest))return points.filter(point=>new Date(point.chartAt||0).getTime()>=latest-90*86400000);
+    }
+    return points;
+  }
+
+  function downsample(points,limit=720){
+    if(points.length<=limit)return points;
+    const selected=new Map();
+    selected.set(0,points[0]);selected.set(points.length-1,points[points.length-1]);
+    const step=(points.length-1)/(limit-1);
+    for(let index=1;index<limit-1;index+=1){
+      const position=Math.round(index*step);
+      selected.set(position,points[position]);
+    }
+    const ranked=points.filter(point=>Number.isFinite(Number(point.rank)));
+    if(ranked.length){
+      const peak=ranked.reduce((best,point)=>Number(point.rank)<Number(best.rank)?point:best,ranked[0]);
+      selected.set(points.indexOf(peak),peak);
+    }
+    return [...selected.entries()].sort((a,b)=>a[0]-b[0]).map(([,point])=>point);
+  }
+
+  function renderSelectedHistory(){
+    const allPoints=Array.isArray(selectedHistory.points)?selectedHistory.points:[];
+    const range=byId('historyRangeSelector')?.value||'all';
+    const ranged=pointsForRange(allPoints,range);
+    const visible=downsample(ranged,720);
+    const svg=historySvg(visible,selectedHistoryChart.maxRank);
+    byId('chartSvgWrap').innerHTML=svg||'<p class="chart-empty">この組み合わせの順位履歴はまだありません。</p>';
+    const summary=selectedHistory.summary||selectedEntry||{};
+    byId('chartHistoryStats').innerHTML=[
+      ['現在順位',rank(summary.currentRank??selectedEntry?.currentRank)],['最高順位',rank(summary.peakRank??selectedEntry?.peakRank)],
+      ['初登場日',dateTime(summary.firstChartedAt??selectedEntry?.firstChartedAt,true)],['最終チャートイン',dateTime(summary.lastChartedAt??selectedEntry?.lastChartedAt,true)],
+      ['チャートイン日数',`${Number(summary.chartDays??selectedEntry?.chartDays)||0}日`]
+    ].map(([label,value])=>`<div class="chart-history-stat"><span>${label}</span><strong>${esc(value)}</strong></div>`).join('');
+    const sources=Array.isArray(selectedHistory.sources)?selectedHistory.sources:[];
+    const hasGuyso=sources.some(source=>source?.id==='guyso')||allPoints.some(point=>point?.origin==='guyso');
+    const sourceParts=[];
+    if(hasGuyso)sourceParts.push('<span>過去順位の一部：<a href="https://xn--o39an51b2re.com/" target="_blank" rel="noopener noreferrer">가이섬</a></span>');
+    sourceParts.push('<span>最新順位：各チャートの公開情報</span>');
+    sourceParts.push(`<span>全${allPoints.length.toLocaleString('ja-JP')}点${visible.length<ranged.length?`（表示は${visible.length.toLocaleString('ja-JP')}点に間引き）`:''}</span>`);
+    byId('chartHistorySource').innerHTML=sourceParts.join('<i>／</i>');
+    const outages=Array.isArray(selectedHistory.outOfChartHistory)?selectedHistory.outOfChartHistory:[];
+    byId('chartOutHistory').innerHTML=outages.length?`<h4>圏外履歴</h4><div class="chart-out-list">${outages.slice(-12).reverse().map(item=>`<span class="chart-out-chip">${esc(dateTime(item.startAt,true))} → ${esc(item.endAt?dateTime(item.endAt,true):'継続中')}</span>`).join('')}</div>`:'';
+  }
+
   async function selectHistory(songId,chartId){
     selectedEntry=entries.find(item=>item.songId===songId&&item.chartId===chartId)||null;
     if(!selectedEntry)return renderEmptyHistory();
     const song=songMap[songId]||{title:selectedEntry.songTitle||songId};
     const chart=chartMap[chartId]||{name:selectedEntry.chartName||chartId,maxRank:100};
+    selectedHistoryChart=chart;
     byId('historySongName').textContent=song.title;
     byId('historyChartName').textContent=chart.name;
     byId('historySubtitle').textContent=`${chart.name}／${song.title}`;
     renderEmptyHistory('順位履歴を読み込んでいます。');
-    let history={points:[],outOfChartHistory:selectedEntry.outOfChartHistory||[]};
+    let history={points:[],sources:[],outOfChartHistory:selectedEntry.outOfChartHistory||[],summary:selectedEntry};
     try{
       const response=await fetch(`${selectedEntry.historyPath}?v=${encodeURIComponent(data.generatedAt||Date.now())}`,{cache:'no-store'});
       if(response.ok)history=await response.json();
     }catch(error){console.warn('History load failed',error);}
-    const points=Array.isArray(history.points)?history.points:[];
-    const recent=points.slice(-240);
-    const svg=historySvg(recent,chart.maxRank);
-    byId('chartSvgWrap').innerHTML=svg||'<p class="chart-empty">この組み合わせの順位履歴はまだありません。</p>';
-    const summary=history.summary||selectedEntry;
-    byId('chartHistoryStats').innerHTML=[
-      ['現在順位',rank(summary.currentRank??selectedEntry.currentRank)],['最高順位',rank(summary.peakRank??selectedEntry.peakRank)],
-      ['初登場日',dateTime(summary.firstChartedAt??selectedEntry.firstChartedAt,true)],['最終チャートイン',dateTime(summary.lastChartedAt??selectedEntry.lastChartedAt,true)],
-      ['チャートイン日数',`${Number(summary.chartDays??selectedEntry.chartDays)||0}日`]
-    ].map(([label,value])=>`<div class="chart-history-stat"><span>${label}</span><strong>${esc(value)}</strong></div>`).join('');
-    const outages=Array.isArray(history.outOfChartHistory)?history.outOfChartHistory:[];
-    byId('chartOutHistory').innerHTML=outages.length?`<h4>圏外履歴</h4><div class="chart-out-list">${outages.slice(-12).reverse().map(item=>`<span class="chart-out-chip">${esc(dateTime(item.startAt,true))} → ${esc(item.endAt?dateTime(item.endAt,true):'継続中')}</span>`).join('')}</div>`:'';
+    selectedHistory=history;
+    renderSelectedHistory();
     document.querySelectorAll('.chart-rank-card').forEach(card=>card.classList.toggle('is-selected',card.dataset.entry===`${songId}--${chartId}`));
   }
 
   renderOverview();renderSourceStatus();fillSelectors();
   document.querySelectorAll('[data-chart-view]').forEach(button=>button.addEventListener('click',()=>setView(button.dataset.chartView)));
   ['chartSelector','songSelector','statusSelector'].forEach(id=>byId(id)?.addEventListener('change',renderRankList));
+  byId('historyRangeSelector')?.addEventListener('change',renderSelectedHistory);
   renderRankList();
 })();

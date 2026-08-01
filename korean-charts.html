@@ -99,9 +99,13 @@
   <div class="chart-history-panel card">
     <div class="chart-history-head">
       <div><small id="historyChartName">CHART</small><h3 id="historySongName">楽曲を選択</h3></div>
-      <div class="chart-history-legend"><span><i class="legend-line"></i>順位</span><span><i class="legend-gap"></i>圏外</span></div>
+      <div class="chart-history-tools">
+        <label class="chart-history-range"><span>表示期間</span><select id="historyRangeSelector"><option value="all">全期間</option><option value="90d">直近90日</option><option value="240">直近240件</option></select></label>
+        <div class="chart-history-legend"><span><i class="legend-line"></i>順位</span><span><i class="legend-gap"></i>圏外</span></div>
+      </div>
     </div>
     <div class="chart-svg-wrap" id="chartSvgWrap"><p class="chart-empty">同期データを読み込んでいます。</p></div>
+    <div class="chart-history-source" id="chartHistorySource"></div>
     <div class="chart-history-stats" id="chartHistoryStats"></div>
     <div class="chart-out-history" id="chartOutHistory"></div>
   </div>
@@ -109,8 +113,8 @@
 
 <section class="section chart-notes">
   <div class="card chart-note-card"><span class="section-kicker">ABOUT DATA</span><h2 class="section-title">表示について</h2>
-    <p>「最高順位」「初登場日」「チャートイン日数」は、この自動取得機能で正常に保存できたデータを基準に集計します。チャートごとに更新周期が異なるため、毎時確認しても同じ集計時点のデータは重複保存しません。</p>
-    <p>YouTube Music Koreaは週次、Spotify Koreaは公式Top 50プレイリストの順序を使用します。各サービスの仕様変更や一時的なアクセス制限がある場合は、前回の正常データを表示します。</p>
+    <p>「最高順位」「初登場日」「チャートイン日数」は、保存済みの順位履歴を基準に集計します。過去順位の一部は<a href="https://xn--o39an51b2re.com/" target="_blank" rel="noopener noreferrer">가이섬</a>を出典として初回のみ補完し、それ以降は各チャートの公開情報から自動保存します。データが存在しない期間は推測や補間を行いません。</p>
+    <p>Melon・Genie・Bugs・FLOは毎時、VIBEは朝7時台、<a href="https://open.spotify.com/playlist/37i9dQZEVXbNxXF4SkHj9F" target="_blank" rel="noopener noreferrer">Spotify Top 50 - South Korea</a>は日次、YouTube Music Koreaは週次データを確認します。同じ集計時点は重複保存せず、取得失敗時は前回の正常データを表示します。</p>
   </div>
 </section>
 </main>

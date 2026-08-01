@@ -18,6 +18,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+from korean_chart_history import parse_spotify_embed_html
+
 from korean_chart_core import (
     DEFAULT_CHARTS,
     KST,
@@ -292,18 +294,45 @@ def spotify_token() -> str:
 
 
 def fetch_spotify(chart: dict[str, Any], fetched_at: datetime) -> SourceResult:
+    """Read Spotify's official public Top 50 embed; use Web API only as a fallback."""
     playlist_id = os.getenv("SPOTIFY_KOREA_PLAYLIST_ID", "37i9dQZEVXbNxXF4SkHj9F")
-    token = spotify_token()
-    payload = request_json(
-        f"https://api.spotify.com/v1/playlists/{playlist_id}/tracks?limit={int(chart.get('maxRank') or 50)}&market=KR&fields=items(track(id,name,artists(name))),total",
-        headers={"Authorization": f"Bearer {token}", "Accept": "application/json"},
+    max_rank = int(chart.get("maxRank") or 50)
+    embed_url = f"https://open.spotify.com/embed/playlist/{playlist_id}"
+    raw = http_request(
+        embed_url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/138 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml",
+            "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.7",
+        },
+        timeout=45,
     )
-    items = []
-    for index, row in enumerate(payload.get("items") or [], 1):
-        track = (row or {}).get("track") or {}
-        artist = ", ".join(filter(None, [text_of(x) for x in track.get("artists") or []]))
-        items.append({"id": str(track.get("id") or ""), "rank": index, "title": text_of(track.get("name")), "artist": artist})
-    return SourceResult(chart["id"], normalize_chart_at(fetched_at, chart, fetched_at), items, {"playlistId": playlist_id, "total": payload.get("total")})
+    items = parse_spotify_embed_html(raw.decode("utf-8", errors="replace"), max_rank=max_rank)
+    source_mode = "official-embed"
+
+    # Optional compatibility fallback. New Spotify developer applications may not
+    # be able to read Spotify-owned playlist items, so credentials are not required.
+    if len(items) < min(20, max_rank) and os.getenv("SPOTIFY_CLIENT_ID", "").strip() and os.getenv("SPOTIFY_CLIENT_SECRET", "").strip():
+        token = spotify_token()
+        payload = request_json(
+            f"https://api.spotify.com/v1/playlists/{playlist_id}/tracks?limit={max_rank}&market=KR&fields=items(track(id,name,artists(name))),total",
+            headers={"Authorization": f"Bearer {token}", "Accept": "application/json"},
+        )
+        fallback_items = []
+        for index, row in enumerate(payload.get("items") or [], 1):
+            track = (row or {}).get("track") or {}
+            artist = ", ".join(filter(None, [text_of(x) for x in track.get("artists") or []]))
+            fallback_items.append({"id": str(track.get("id") or ""), "rank": index, "title": text_of(track.get("name")), "artist": artist})
+        if len(fallback_items) > len(items):
+            items = fallback_items
+            source_mode = "web-api-fallback"
+
+    return SourceResult(
+        chart["id"],
+        normalize_chart_at(fetched_at, chart, fetched_at),
+        items,
+        {"playlistId": playlist_id, "playlistUrl": f"https://open.spotify.com/playlist/{playlist_id}", "sourceMode": source_mode, "total": len(items)},
+    )
 
 
 FETCHERS = {
