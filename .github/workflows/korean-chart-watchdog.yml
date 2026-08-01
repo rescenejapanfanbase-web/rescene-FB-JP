@@ -9,8 +9,9 @@ on:
         type: boolean
         default: false
   schedule:
-    # Melon / Genie / Bugs / FLO同期開始から30分後
-    - cron: "47 * * * *"
+    # リアルタイム同期（毎時23分）の30分後に確認
+    # cronを変更してGitHub側のWatchdogスケジュールも再登録する。
+    - cron: "53 * * * *"
       timezone: "Asia/Tokyo"
 
 permissions:

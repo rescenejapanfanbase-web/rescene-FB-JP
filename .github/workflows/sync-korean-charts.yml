@@ -8,9 +8,17 @@ on:
         required: false
         type: string
         default: ""
+  # このWorkflowファイルを更新した直後にも、リアルタイム4チャートを1回同期する。
+  # cron変更時の動作確認と、更新時刻を待たずに復旧させるためのトリガー。
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/sync-korean-charts.yml"
   schedule:
-    # Melon / Genie / Bugs / FLO：毎時17分
-    - cron: "17 * * * *"
+    # Melon / Genie / Bugs / FLO：毎時23分
+    # cronを変更することでGitHub側のスケジュール登録を再有効化する。
+    - cron: "23 * * * *"
       timezone: "Asia/Tokyo"
     # Melon / Genie / Bugs Daily：前日分の確定後に13時20分
     - cron: "20 13 * * *"
@@ -64,9 +72,12 @@ jobs:
         run: |
           set -euo pipefail
           charts="${REQUESTED_CHARTS}"
+          if [[ -z "${charts}" && "${EVENT_NAME}" == "push" ]]; then
+            charts="melon,genie,bugs,flo"
+          fi
           if [[ -z "${charts}" && "${EVENT_NAME}" == "schedule" ]]; then
             case "${EVENT_SCHEDULE}" in
-              "17 * * * *") charts="melon,genie,bugs,flo" ;;
+              "23 * * * *") charts="melon,genie,bugs,flo" ;;
               "20 13 * * *") charts="melon-daily,genie-daily,bugs-daily" ;;
               "10 7 * * *") charts="vibe" ;;
               "20 10 * * *") charts="spotify-kr" ;;
@@ -95,8 +106,7 @@ jobs:
             git fetch origin "${branch}"
             git reset --hard "origin/${branch}"
             PYTHONPATH=scripts python scripts/sync-korean-charts.py --charts "${REQUESTED_CHARTS}" --attempts 3 --workers 4
-            if git diff --quiet -- data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history && \
-               test -z "$(git status --porcelain -- data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history)"; then
+            if git diff --quiet -- data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history &&                test -z "$(git status --porcelain -- data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history)"; then
               exit 0
             fi
             git add data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history
