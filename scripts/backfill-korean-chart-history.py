@@ -14,6 +14,7 @@ from typing import Any
 
 from korean_chart_core import (
     SCHEMA_VERSION,
+    compact,
     atomic_write_json,
     empty_public_payload,
     finalize_public_payload,

@@ -2,6 +2,9 @@
 """Offline regression tests for historical backfill and Spotify embed parsing."""
 from __future__ import annotations
 
+from importlib.util import module_from_spec, spec_from_file_location
+from pathlib import Path
+
 from korean_chart_history import (
     discover_history_links,
     discover_melon_song_candidates,
@@ -73,6 +76,30 @@ def parser_tests():
     equal(tracks[1]["rank"], 2, "spotify rank")
 
 
+def backfill_entrypoint_tests():
+    script = Path(__file__).with_name("backfill-korean-chart-history.py")
+    spec = spec_from_file_location("backfill_korean_chart_history_test", script)
+    if not spec or not spec.loader:
+        raise AssertionError("backfill module could not be loaded")
+    module = module_from_spec(spec)
+    spec.loader.exec_module(module)
+
+    detail_html = """<html><head><title>곡 상세정보 > LOVE ATTACK - RESCENE</title></head>
+    <body>발매 2024.08.27</body></html>"""
+
+    class FakeClient:
+        def get(self, url):
+            return detail_html
+
+    url, html = module.choose_song_detail(
+        {"title": "LOVE ATTACK", "aliases": ["Love Attack"], "releaseDate": "2024-08-27"},
+        ["https://xn--o39an51b2re.com/song/melon/37928381"],
+        FakeClient(),
+    )
+    equal(url.endswith("37928381"), True, "choose_song_detail compact import")
+    equal(html, detail_html, "choose_song_detail result")
+
+
 def merge_tests():
     history = {
         "points": [
@@ -94,5 +121,6 @@ def merge_tests():
 
 if __name__ == "__main__":
     parser_tests()
+    backfill_entrypoint_tests()
     merge_tests()
     print("Korean chart history regression tests passed.")

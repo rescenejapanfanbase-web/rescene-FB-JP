@@ -1,0 +1,18 @@
+RESCENE JAPAN FANBASE
+가이섬過去順位バックフィル compact NameError 修正
+基準日: 2026-08-01
+
+修正内容
+- scripts/backfill-korean-chart-history.py へ korean_chart_core.compact のimportを追加。
+- 各曲の候補URL照合時に発生していた
+  NameError: name 'compact' is not defined
+  を解消。
+- choose_song_detailを実際に実行する回帰テストを追加。
+
+反映方法
+1. ZIPを展開。
+2. scripts フォルダと説明TXTをGitHubリポジトリ最上部へアップロード。
+3. 既存ファイルを上書きし、mainへコミット。
+4. Actions → Backfill Korean Chart History を dry_run=ON で再実行。
+
+GitHub VariablesやNotionの設定変更は不要です。
