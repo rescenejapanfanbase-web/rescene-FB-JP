@@ -1,0 +1,27 @@
+RESCENE JAPAN FANBASE
+Spotify / YouTube Music Korea 空Variable修正
+基準日: 2026-08-01
+
+原因
+GitHub Actionsでは、未登録のRepository Variableをenvへ設定すると空文字として渡されます。
+旧処理はos.getenv(name, default)を使用していたため、空文字が存在するとdefaultへ戻らず、
+Spotifyは空のplaylist ID、YouTubeは空URLで取得を開始していました。
+
+修正内容
+1. 空文字・空白の場合も公式既定値へ戻す。
+2. Workflow側にも既定値を設定する。
+3. Spotifyは埋め込みURLを3経路で再試行する。
+4. Spotify VariableにURL全体を入れた場合もplaylist IDを抽出する。
+5. YouTube Variableにplaylist IDだけを入れた場合もURLへ変換する。
+6. 同じ不具合を防ぐ回帰テストを追加する。
+
+反映方法
+ZIPを展開し、内部の .github と scripts をGitHubリポジトリ最上部へ上書きしてください。
+Commit directly to the main branch でコミットします。
+
+再テスト
+Actions > Sync Korean Charts > Run workflow
+charts: spotify-kr,youtube-kr
+
+Repository Variablesの追加は不要です。
+既に誤った値をSPOTIFY_KOREA_PLAYLIST_IDまたはYOUTUBE_MUSIC_KOREA_PLAYLIST_URLへ登録している場合は削除するか、正しい値へ修正してください。

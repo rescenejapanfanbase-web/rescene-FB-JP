@@ -48,6 +48,29 @@ PUBLIC_JS_PATH = ROOT / "data" / "korean-charts-data.js"
 STATUS_PATH = ROOT / "data" / "korean-chart-sync-status.json"
 NOTION_VERSION = "2026-03-11"
 DEFAULT_TIMEOUT = 28
+DEFAULT_SPOTIFY_KOREA_PLAYLIST_ID = "37i9dQZEVXbNxXF4SkHj9F"
+DEFAULT_YOUTUBE_MUSIC_KOREA_PLAYLIST_URL = "https://www.youtube.com/playlist?list=PL4fGSI1pDJn6jXS_Tv_N9B8Z0HTRVJE0m"
+
+
+def environment_value(name: str, default: str) -> str:
+    """Return a non-empty environment value; GitHub Actions exposes missing vars as empty strings."""
+    value = os.getenv(name, "").strip()
+    return value or default
+
+
+def spotify_playlist_id_from_environment() -> str:
+    raw = environment_value("SPOTIFY_KOREA_PLAYLIST_ID", DEFAULT_SPOTIFY_KOREA_PLAYLIST_ID)
+    if raw.startswith("spotify:playlist:"):
+        raw = raw.rsplit(":", 1)[-1]
+    match = re.search(r"/playlist/([A-Za-z0-9]+)", raw)
+    return match.group(1) if match else raw.strip().strip("/") or DEFAULT_SPOTIFY_KOREA_PLAYLIST_ID
+
+
+def youtube_playlist_url_from_environment() -> str:
+    raw = environment_value("YOUTUBE_MUSIC_KOREA_PLAYLIST_URL", DEFAULT_YOUTUBE_MUSIC_KOREA_PLAYLIST_URL)
+    if re.fullmatch(r"[A-Za-z0-9_-]{10,}", raw):
+        return f"https://www.youtube.com/playlist?list={raw}"
+    return raw
 
 
 def http_request(url: str, *, method: str = "GET", headers: dict[str, str] | None = None, data: bytes | None = None, timeout: int = DEFAULT_TIMEOUT) -> bytes:
@@ -261,7 +284,7 @@ def youtube_title_artist(entry: dict[str, Any]) -> tuple[str, str]:
 
 
 def fetch_youtube(chart: dict[str, Any], fetched_at: datetime) -> SourceResult:
-    playlist_url = os.getenv("YOUTUBE_MUSIC_KOREA_PLAYLIST_URL", "https://www.youtube.com/playlist?list=PL4fGSI1pDJn6jXS_Tv_N9B8Z0HTRVJE0m")
+    playlist_url = youtube_playlist_url_from_environment()
     command = [sys.executable, "-m", "yt_dlp", "--flat-playlist", "--dump-single-json", "--no-warnings", "--playlist-end", str(chart.get("maxRank") or 100), playlist_url]
     proc = subprocess.run(command, cwd=ROOT, capture_output=True, text=True, timeout=120)
     if proc.returncode:
@@ -295,20 +318,40 @@ def spotify_token() -> str:
 
 def fetch_spotify(chart: dict[str, Any], fetched_at: datetime) -> SourceResult:
     """Read Spotify's official public Top 50 embed; use Web API only as a fallback."""
-    playlist_id = os.getenv("SPOTIFY_KOREA_PLAYLIST_ID", "37i9dQZEVXbNxXF4SkHj9F")
+    playlist_id = spotify_playlist_id_from_environment()
     max_rank = int(chart.get("maxRank") or 50)
-    embed_url = f"https://open.spotify.com/embed/playlist/{playlist_id}"
-    raw = http_request(
-        embed_url,
-        headers={
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/138 Safari/537.36",
-            "Accept": "text/html,application/xhtml+xml",
-            "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.7",
-        },
-        timeout=45,
-    )
-    items = parse_spotify_embed_html(raw.decode("utf-8", errors="replace"), max_rank=max_rank)
+    embed_urls = [
+        f"https://open.spotify.com/embed/playlist/{playlist_id}?theme=0",
+        f"https://open.spotify.com/embed/playlist/{playlist_id}?utm_source=generator&theme=0",
+        f"https://open.spotify.com/embed/playlist/{playlist_id}",
+    ]
+    spotify_errors: list[str] = []
+    items: list[dict[str, Any]] = []
     source_mode = "official-embed"
+    embed_url = embed_urls[0]
+    for candidate_url in embed_urls:
+        try:
+            raw = http_request(
+                candidate_url,
+                headers={
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/138 Safari/537.36",
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                    "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.7,en;q=0.6",
+                    "Referer": "https://open.spotify.com/",
+                },
+                timeout=45,
+            )
+            parsed = parse_spotify_embed_html(raw.decode("utf-8", errors="replace"), max_rank=max_rank)
+            if len(parsed) >= min(20, max_rank):
+                items = parsed
+                embed_url = candidate_url
+                break
+            spotify_errors.append(f"{candidate_url}: parsed {len(parsed)} tracks")
+            if len(parsed) > len(items):
+                items = parsed
+                embed_url = candidate_url
+        except Exception as exc:
+            spotify_errors.append(f"{candidate_url}: {type(exc).__name__}: {exc}")
 
     # Optional compatibility fallback. New Spotify developer applications may not
     # be able to read Spotify-owned playlist items, so credentials are not required.
@@ -331,7 +374,14 @@ def fetch_spotify(chart: dict[str, Any], fetched_at: datetime) -> SourceResult:
         chart["id"],
         normalize_chart_at(fetched_at, chart, fetched_at),
         items,
-        {"playlistId": playlist_id, "playlistUrl": f"https://open.spotify.com/playlist/{playlist_id}", "sourceMode": source_mode, "total": len(items)},
+        {
+            "playlistId": playlist_id,
+            "playlistUrl": f"https://open.spotify.com/playlist/{playlist_id}",
+            "embedUrl": embed_url,
+            "sourceMode": source_mode,
+            "total": len(items),
+            "adapterWarnings": spotify_errors,
+        },
     )
 
 
