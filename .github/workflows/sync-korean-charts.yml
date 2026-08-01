@@ -106,7 +106,8 @@ jobs:
             git fetch origin "${branch}"
             git reset --hard "origin/${branch}"
             PYTHONPATH=scripts python scripts/sync-korean-charts.py --charts "${REQUESTED_CHARTS}" --attempts 3 --workers 4
-            if git diff --quiet -- data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history &&                test -z "$(git status --porcelain -- data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history)"; then
+            if git diff --quiet -- data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history && \
+               test -z "$(git status --porcelain -- data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history)"; then
               exit 0
             fi
             git add data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-sync-status.json data/korean-chart-history
@@ -115,6 +116,22 @@ jobs:
             sleep $((attempt * 10))
           done
           exit 1
+      - name: Report retained chart failures
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          path = Path("data/korean-chart-sync-status.json")
+          if not path.exists():
+              print("::warning::同期ステータスファイルが生成されませんでした。")
+              raise SystemExit(0)
+          status = json.loads(path.read_text(encoding="utf-8"))
+          for chart_id, message in (status.get("failedCharts") or {}).items():
+              message = str(message).replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+              print(f"::warning title=Korean chart retained: {chart_id}::{message}")
+          PY
       - name: Upload Korean chart sync status
         if: always()
         uses: actions/upload-artifact@v6
