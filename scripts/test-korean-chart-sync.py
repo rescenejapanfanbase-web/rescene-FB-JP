@@ -7,7 +7,7 @@ import tempfile
 from datetime import datetime
 from pathlib import Path
 
-from korean_chart_core import KST, apply_successful_chart, empty_public_payload, finalize_public_payload, normalize_config
+from korean_chart_core import KST, apply_successful_chart, empty_public_payload, finalize_public_payload, match_song, normalize_config
 import importlib.util
 
 _sync_path = Path(__file__).with_name("sync-korean-charts.py")
@@ -20,6 +20,8 @@ parse_flo = _sync.parse_flo
 parse_genie = _sync.parse_genie
 parse_melon = _sync.parse_melon
 parse_vibe = _sync.parse_vibe
+parse_guyso_youtube_rescene_rows = _sync.parse_guyso_youtube_rescene_rows
+youtube_title_artist = _sync.youtube_title_artist
 
 NOW = datetime(2026, 8, 1, 11, 0, tzinfo=KST)
 
@@ -69,6 +71,24 @@ def parser_tests():
     assert_equal(vibe.items[0]["rank"], 1, "VIBE rank")
     assert_equal(vibe.items[0]["previousRank"], 3, "VIBE previous rank")
     assert vibe.chart_at.startswith("2026-08-01")
+
+    title, artist = youtube_title_artist({"title": "RESCENE(리센느) 'Pretty Girl' Official M/V", "channel": "RESCENE"})
+    assert_equal(title, "Pretty Girl", "YouTube decorated title")
+    assert "RESCENE" in artist
+    title, artist = youtube_title_artist({"title": "[MV] RESCENE(리센느) _ LOVE ATTACK", "channel": "Stone Music"})
+    assert_equal(title, "LOVE ATTACK", "YouTube separator title")
+    assert "RESCENE" in artist
+
+    guyso_html = """<table><tbody>
+      <tr><td>1 3</td><td>LOVE ATTACK RESCENE (리센느) • 3:02</td><td>3,748,717</td></tr>
+      <tr><td>4 1</td><td>Pretty Girl RESCENE (리센느), RESCENE (리센느) • 3:30</td><td>3,036,333</td></tr>
+      <tr><td>5</td><td>Pretty Girl KARA • 3:30</td><td>2,000,000</td></tr>
+    </tbody></table>"""
+    enriched = parse_guyso_youtube_rescene_rows(guyso_html)
+    assert_equal([(item["rank"], item["title"]) for item in enriched], [(1, "LOVE ATTACK"), (4, "Pretty Girl")], "Guyso YouTube enrichment")
+    youtube_song = {"id": "pretty-girl", "title": "Pretty Girl", "aliases": ["Pretty Girl"], "artistAliases": ["RESCENE", "리센느"], "charts": ["youtube-kr"], "externalIds": {}}
+    assert match_song({"rank": 4, "title": "Pretty Girl Official M/V", "artist": "RESCENE"}, [youtube_song], "youtube-kr")
+    assert not match_song({"rank": 85, "title": "Pretty Girl", "artist": "KARA"}, [youtube_song], "youtube-kr")
 
 
 def state_tests():

@@ -56,6 +56,9 @@ body.page-korean-charts .chart-grid-line{stroke:rgba(255,255,255,.09);stroke-wid
 body.page-korean-charts .chart-axis-label{fill:var(--muted);font-size:11px}
 body.page-korean-charts .chart-rank-line{fill:none;stroke:var(--pink);stroke-linecap:round;stroke-linejoin:round;stroke-width:3}
 body.page-korean-charts .chart-rank-point{fill:var(--card);stroke:var(--pink-soft);stroke-width:3}
+body.page-korean-charts .chart-rank-point.is-single{fill:var(--pink);stroke:var(--card);stroke-width:4}
+body.page-korean-charts .chart-single-guide{stroke:var(--pink);stroke-linecap:round;stroke-width:4}
+body.page-korean-charts .chart-single-rank-label{fill:var(--text);font-size:14px;font-weight:900}
 body.page-korean-charts .chart-empty{align-items:center;color:var(--muted);display:flex;justify-content:center;margin:0;min-height:300px;text-align:center}
 body.page-korean-charts .chart-history-stats{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-top:14px}
 body.page-korean-charts .chart-history-stat{background:var(--soft-bg);border:1px solid var(--border);border-radius:14px;padding:12px}
@@ -65,8 +68,6 @@ body.page-korean-charts .chart-out-history{margin-top:18px}
 body.page-korean-charts .chart-out-history h4{font-size:.84rem;margin:0 0 8px}
 body.page-korean-charts .chart-out-list{display:flex;flex-wrap:wrap;gap:8px}
 body.page-korean-charts .chart-out-chip{background:rgba(255,255,255,.035);border:1px solid var(--border);border-radius:999px;color:var(--muted);font-size:.68rem;padding:7px 10px}
-body.page-korean-charts .chart-note-card{padding:26px}
-body.page-korean-charts .chart-note-card p{color:var(--muted);font-size:.86rem;margin:12px 0 0}
 @media(max-width:1000px){body.page-korean-charts .chart-overview{grid-template-columns:repeat(2,minmax(0,1fr))}body.page-korean-charts .chart-source-status{grid-template-columns:repeat(2,minmax(0,1fr))}body.page-korean-charts .chart-rank-card{grid-template-columns:72px minmax(180px,1.5fr) repeat(2,minmax(90px,.7fr)) auto}body.page-korean-charts .chart-rank-stat:nth-of-type(3),body.page-korean-charts .chart-rank-stat:nth-of-type(4){display:none}}
 @media(max-width:760px){body.page-korean-charts .section-head{align-items:flex-start;flex-direction:column}body.page-korean-charts .section-note{text-align:left}body.page-korean-charts .chart-control-panel{align-items:stretch;flex-direction:column}body.page-korean-charts .chart-selectors{display:grid;grid-template-columns:1fr 1fr;justify-content:stretch}body.page-korean-charts .chart-selector{min-width:0}body.page-korean-charts .chart-selector:first-child{grid-column:1/-1}body.page-korean-charts .chart-rank-card{grid-template-columns:64px minmax(0,1fr) auto}body.page-korean-charts .chart-rank-stat{display:none!important}body.page-korean-charts .chart-history-stats{grid-template-columns:repeat(2,minmax(0,1fr))}body.page-korean-charts .chart-svg-wrap{overflow-x:auto}}
 @media(max-width:520px){body.page-korean-charts .chart-overview,body.page-korean-charts .chart-source-status{grid-template-columns:1fr}body.page-korean-charts .chart-overview-card{min-height:112px}body.page-korean-charts .chart-selectors{grid-template-columns:1fr}body.page-korean-charts .chart-selector:first-child{grid-column:auto}body.page-korean-charts .chart-rank-card{gap:10px;padding:15px}body.page-korean-charts .chart-rank-number{font-size:1.35rem}body.page-korean-charts .chart-history-head{flex-direction:column}body.page-korean-charts .chart-history-panel{padding:16px}}
@@ -78,5 +79,4 @@ body.page-korean-charts .chart-history-source{align-items:center;color:var(--mut
 body.page-korean-charts .chart-history-source a{color:var(--pink-soft);font-weight:800;text-decoration:none}
 body.page-korean-charts .chart-history-source a:hover{text-decoration:underline}
 body.page-korean-charts .chart-history-source i{font-style:normal;opacity:.45}
-body.page-korean-charts .chart-note-card a{color:var(--pink-soft);font-weight:800}
 @media(max-width:520px){body.page-korean-charts .chart-history-tools{align-items:flex-start;justify-content:flex-start;width:100%}}

@@ -144,10 +144,14 @@
     const segments=[];let current=[];
     points.forEach((point,index)=>{if(Number.isFinite(Number(point.rank)))current.push(`${x(index).toFixed(1)},${y(point.rank).toFixed(1)}`);else if(current.length){segments.push(current);current=[];}});if(current.length)segments.push(current);
     const labels=[0,Math.floor((points.length-1)/2),points.length-1].filter((v,i,a)=>v>=0&&a.indexOf(v)===i);
+    const single=ranked.length===1?ranked[0]:null;
+    const singleIndex=single?points.indexOf(single):-1;
     return `<svg class="chart-svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="順位推移グラフ">
       ${gridRanks.map(value=>`<line class="chart-grid-line" x1="${pad.left}" x2="${width-pad.right}" y1="${y(value)}" y2="${y(value)}"></line><text class="chart-axis-label" x="${pad.left-10}" y="${y(value)+4}" text-anchor="end">#${value}</text>`).join('')}
+      ${single?`<line class="chart-single-guide" x1="${x(singleIndex)-72}" x2="${x(singleIndex)+72}" y1="${y(single.rank)}" y2="${y(single.rank)}"></line>`:''}
       ${segments.map(segment=>segment.length>1?`<polyline class="chart-rank-line" points="${segment.join(' ')}"></polyline>`:'').join('')}
-      ${ranked.map(point=>{const index=points.indexOf(point);return `<circle class="chart-rank-point" cx="${x(index)}" cy="${y(point.rank)}" r="4"><title>${dateTime(point.chartAt)} #${point.rank}</title></circle>`;}).join('')}
+      ${ranked.map(point=>{const index=points.indexOf(point);return `<circle class="chart-rank-point${single===point?' is-single':''}" cx="${x(index)}" cy="${y(point.rank)}" r="${single===point?7:4}"><title>${dateTime(point.chartAt)} #${point.rank}</title></circle>`;}).join('')}
+      ${single?`<text class="chart-single-rank-label" x="${x(singleIndex)}" y="${Math.max(18,y(single.rank)-14)}" text-anchor="middle">#${Number(single.rank)}</text>`:''}
       ${labels.map(index=>`<text class="chart-axis-label" x="${x(index)}" y="${height-15}" text-anchor="${index===0?'start':index===points.length-1?'end':'middle'}">${esc(dateTime(points[index]?.chartAt,true))}</text>`).join('')}
     </svg>`;
   }
@@ -192,7 +196,7 @@
       ['チャートイン日数',`${Number(summary.chartDays??selectedEntry?.chartDays)||0}日`]
     ].map(([label,value])=>`<div class="chart-history-stat"><span>${label}</span><strong>${esc(value)}</strong></div>`).join('');
     const sources=Array.isArray(selectedHistory.sources)?selectedHistory.sources:[];
-    const hasGuyso=sources.some(source=>source?.id==='guyso')||allPoints.some(point=>point?.origin==='guyso');
+    const hasGuyso=sources.some(source=>source?.id==='guyso')||allPoints.some(point=>String(point?.origin||'').startsWith('guyso'));
     const sourceParts=[];
     if(hasGuyso)sourceParts.push('<span>過去順位の一部：<a href="https://xn--o39an51b2re.com/" target="_blank" rel="noopener noreferrer">가이섬</a></span>');
     sourceParts.push('<span>最新順位：各チャートの公開情報</span>');

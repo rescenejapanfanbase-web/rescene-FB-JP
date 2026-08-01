@@ -18,6 +18,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+from bs4 import BeautifulSoup
+
 from korean_chart_history import parse_spotify_embed_html
 
 from korean_chart_core import (
@@ -269,18 +271,99 @@ def fetch_vibe(chart: dict[str, Any], fetched_at: datetime) -> SourceResult:
     return parse_vibe(payload, chart, fetched_at)
 
 
+def clean_youtube_chart_title(value: Any) -> str:
+    title = text_of(value)
+    if not title:
+        return ""
+    title = re.sub(r"^\s*\[(?:MV|M/V|VIDEO|AUDIO|LYRICS?)\]\s*", "", title, flags=re.I)
+    # Quoted titles are the most reliable part of common K-pop video names.
+    quoted = re.search(r"[\"'‘’“”「」『』]([^\"'‘’“”「」『』]{2,80})[\"'‘’“”「」『』]", title)
+    if quoted and re.search(r"RESCENE|리센느", title, flags=re.I):
+        title = quoted.group(1)
+    else:
+        title = re.sub(r"RESCENE\s*(?:\(\s*리센느\s*\))?|리센느\s*(?:\(\s*RESCENE\s*\))?", " ", title, flags=re.I)
+        title = re.sub(r"^\s*[-–—_:|]+\s*|\s*[-–—_:|]+\s*$", "", title)
+    title = re.sub(
+        r"\s*[\[(](?:OFFICIAL\s*)?(?:M/?V|MUSIC\s*VIDEO|VIDEO|AUDIO|LYRIC(?:S)?|PERFORMANCE(?:\s*VIDEO)?|DANCE\s*PRACTICE)[^\])]*[\])]\s*$",
+        "",
+        title,
+        flags=re.I,
+    )
+    title = re.sub(
+        r"\s+(?:OFFICIAL\s+)?(?:M/?V|MUSIC\s+VIDEO|VIDEO|AUDIO|LYRIC(?:S)?|PERFORMANCE(?:\s+VIDEO)?)\s*$",
+        "",
+        title,
+        flags=re.I,
+    )
+    return re.sub(r"\s+", " ", title).strip(" -–—_:|[]()")
+
+
 def youtube_title_artist(entry: dict[str, Any]) -> tuple[str, str]:
-    title = text_of(entry.get("title"))
-    artist = text_of(entry.get("artist") or entry.get("uploader") or entry.get("channel"))
-    for separator in (" — ", " – ", " - "):
-        if separator not in title:
+    raw_title = text_of(entry.get("title"))
+    artist = text_of(
+        entry.get("artist")
+        or entry.get("creator")
+        or entry.get("uploader")
+        or entry.get("channel")
+        or entry.get("channel_title")
+    )
+    for separator in (" — ", " – ", " - ", " _ "):
+        if separator not in raw_title:
             continue
-        left, right = [x.strip() for x in title.rsplit(separator, 1)]
+        left, right = [x.strip() for x in raw_title.rsplit(separator, 1)]
         if "rescene" in right.lower() or "리센느" in right:
-            return left, right
+            return clean_youtube_chart_title(left), right
         if "rescene" in left.lower() or "리센느" in left:
-            return right, left
-    return title, artist
+            return clean_youtube_chart_title(right), left
+    if re.search(r"RESCENE|리센느", raw_title, flags=re.I) and not re.search(r"RESCENE|리센느", artist, flags=re.I):
+        artist = "RESCENE (리센느)"
+    return clean_youtube_chart_title(raw_title), artist
+
+
+def parse_guyso_youtube_rescene_rows(html: str) -> list[dict[str, Any]]:
+    """Extract RESCENE rows from Guyso's latest weekly YouTube chart.
+
+    The official YouTube playlist remains the primary 100-item source. Guyso is
+    used only to enrich the RESCENE rows whose flat playlist metadata can omit
+    the artist, preventing false matches for generic titles such as Pretty Girl.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    items: list[dict[str, Any]] = []
+    for row in soup.find_all("tr"):
+        cells = row.find_all(["th", "td"], recursive=False) or row.find_all(["th", "td"])
+        if len(cells) < 2:
+            continue
+        rank_match = re.match(r"\s*(\d{1,3})\b", cells[0].get_text(" ", strip=True))
+        if not rank_match:
+            continue
+        rank = safe_int(rank_match.group(1))
+        if rank is None or not 1 <= rank <= 100:
+            continue
+        info = re.sub(r"\s+", " ", cells[1].get_text(" ", strip=True)).strip()
+        artist_match = re.search(r"\s+RESCENE\s*(?:\(\s*리센느\s*\))?", info, flags=re.I)
+        if not artist_match:
+            artist_match = re.search(r"\s+리센느\s*(?:\(\s*RESCENE\s*\))?", info, flags=re.I)
+        if not artist_match:
+            continue
+        title = info[:artist_match.start()].strip(" -–—_:|")
+        if not title:
+            continue
+        views = None
+        if len(cells) >= 3:
+            views = safe_int(re.sub(r"\D", "", cells[-1].get_text(" ", strip=True)))
+        item: dict[str, Any] = {
+            "id": "",
+            "rank": rank,
+            "title": title,
+            "artist": "RESCENE (리센느)",
+            "origin": "guyso-current-enrichment",
+            "sourceName": "가이섬",
+            "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly",
+        }
+        if views is not None:
+            item["views"] = views
+        items.append(item)
+    return sorted(items, key=lambda item: int(item["rank"]))
 
 
 def fetch_youtube(chart: dict[str, Any], fetched_at: datetime) -> SourceResult:
@@ -293,9 +376,41 @@ def fetch_youtube(chart: dict[str, Any], fetched_at: datetime) -> SourceResult:
     items = []
     for index, entry in enumerate(payload.get("entries") or [], 1):
         title, artist = youtube_title_artist(entry or {})
-        items.append({"id": str((entry or {}).get("id") or ""), "rank": index, "title": title, "artist": artist})
+        items.append({"id": str((entry or {}).get("id") or ""), "rank": index, "title": title, "artist": artist, "origin": "official-playlist"})
+
+    enrichment_error = ""
+    enriched: list[dict[str, Any]] = []
+    try:
+        raw = http_request(
+            "https://xn--o39an51b2re.com/chart/youtube/track-weekly",
+            headers={
+                "User-Agent": "Mozilla/5.0 (compatible; RESCENE-JAPAN-FANBASE/1.0)",
+                "Accept": "text/html,application/xhtml+xml",
+                "Accept-Language": "ko-KR,ko;q=0.9,ja;q=0.8",
+            },
+            timeout=40,
+        )
+        enriched = parse_guyso_youtube_rescene_rows(raw.decode("utf-8", errors="replace"))
+        for enriched_item in enriched:
+            position = int(enriched_item["rank"]) - 1
+            if 0 <= position < len(items):
+                original_id = items[position].get("id")
+                items[position] = {**items[position], **enriched_item, "id": original_id or enriched_item.get("id", "")}
+    except Exception as exc:
+        enrichment_error = f"{type(exc).__name__}: {exc}"
+
     native = payload.get("modified_date") or payload.get("upload_date") or fetched_at.isoformat()
-    return SourceResult(chart["id"], normalize_chart_at(native, chart, fetched_at), items, {"playlistId": payload.get("id"), "playlistTitle": payload.get("title")})
+    return SourceResult(
+        chart["id"],
+        normalize_chart_at(native, chart, fetched_at),
+        items,
+        {
+            "playlistId": payload.get("id"),
+            "playlistTitle": payload.get("title"),
+            "guysoEnrichedCount": len(enriched),
+            "guysoEnrichmentError": enrichment_error,
+        },
+    )
 
 
 def spotify_token() -> str:

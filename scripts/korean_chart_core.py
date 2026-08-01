@@ -226,19 +226,30 @@ def normalize_config(payload: dict[str, Any]) -> dict[str, Any]:
 def match_song(entry: dict[str, Any], songs: Iterable[dict[str, Any]], chart_id: str) -> dict[str, Any] | None:
     entry_title = compact(entry.get("title"))
     entry_artist = compact(entry.get("artist"))
+    entry_combined = compact(f"{entry.get('title') or ''} {entry.get('artist') or ''}")
     if not entry_title:
         return None
     for song in songs:
         if chart_id not in song.get("charts", []):
             continue
+        external_id = str((song.get("externalIds") or {}).get(chart_id) or "").strip()
+        if external_id and str(entry.get("id") or "").strip() == external_id:
+            return song
         artist_aliases = [compact(x) for x in song.get("artistAliases", []) if compact(x)]
-        if artist_aliases and not any(alias in entry_artist for alias in artist_aliases):
+        artist_matches = not artist_aliases or any(alias in entry_artist for alias in artist_aliases)
+        # YouTube chart playlist entries sometimes omit the uploader/artist from
+        # flat-playlist metadata while retaining it in the video title. Include the
+        # combined title/artist text for that source only.
+        if chart_id == "youtube-kr" and artist_aliases:
+            artist_matches = artist_matches or any(alias in entry_combined for alias in artist_aliases)
+        if not artist_matches:
             continue
         aliases = [compact(x) for x in song.get("aliases", []) if compact(x)]
         if entry_title in aliases:
             return song
-        external_id = str((song.get("externalIds") or {}).get(chart_id) or "").strip()
-        if external_id and str(entry.get("id") or "").strip() == external_id:
+        # Official video titles often include decorations such as "Official M/V".
+        # Once the artist is positively identified, a contained alias is safe.
+        if chart_id == "youtube-kr" and any(len(alias) >= 4 and alias in entry_title for alias in aliases):
             return song
     return None
 
@@ -296,11 +307,21 @@ def summarize_history(points: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
-def append_observation(history: dict[str, Any], *, rank: int | None, chart_at: str, checked_at: str, source_rank: int | None = None) -> bool:
+def append_observation(
+    history: dict[str, Any],
+    *,
+    rank: int | None,
+    chart_at: str,
+    checked_at: str,
+    source_rank: int | None = None,
+    source_metadata: dict[str, Any] | None = None,
+) -> bool:
     points = history.setdefault("points", [])
     observation = {"chartAt": chart_at, "checkedAt": checked_at, "rank": rank}
     if source_rank is not None:
         observation["sourceRank"] = source_rank
+    if source_metadata:
+        observation.update({key: value for key, value in source_metadata.items() if value not in (None, "")})
     if points:
         last = points[-1]
         if last.get("chartAt") == chart_at:
@@ -357,7 +378,21 @@ def apply_successful_chart(
         hpath = history_path(root, song["id"], chart["id"])
         history = load_json(hpath, {"schemaVersion": SCHEMA_VERSION, "songId": song["id"], "songTitle": song["title"], "chartId": chart["id"], "chartName": chart["name"], "points": [], "outOfChartHistory": []})
         previous_rank = safe_int(prior.get("currentRank")) if prior.get("status") in {"in", "out"} else None
-        changed = append_observation(history, rank=rank, chart_at=chart_at, checked_at=checked_at, source_rank=safe_int(matched.get("rank")) if matched else None)
+        source_metadata = {}
+        if matched:
+            source_metadata = {
+                key: matched.get(key)
+                for key in ("origin", "sourceName", "sourceUrl", "views")
+                if matched.get(key) not in (None, "")
+            }
+        changed = append_observation(
+            history,
+            rank=rank,
+            chart_at=chart_at,
+            checked_at=checked_at,
+            source_rank=safe_int(matched.get("rank")) if matched else None,
+            source_metadata=source_metadata,
+        )
         if changed or not hpath.exists():
             update_out_of_chart_ranges(history, rank=rank, chart_at=chart_at, checked_at=checked_at)
         stats = summarize_history(history.get("points", []))
