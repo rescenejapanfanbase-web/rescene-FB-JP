@@ -22242,18 +22242,34 @@
       "sourceName": "가이섬",
       "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928381",
       "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-08-01T23:00:00+09:00",
+      "rank": 1,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928381",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2026-08-02T00:00:00+09:00",
+      "rank": 1,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928381",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
     }
   ],
   "outOfChartHistory": [],
-  "generatedAt": "2026-08-01T22:59:17+09:00",
+  "generatedAt": "2026-08-02T00:25:42+09:00",
   "summary": {
     "peakRank": 1,
     "firstChartedAt": "2025-03-31T09:00:00+09:00",
-    "lastChartedAt": "2026-08-01T22:00:00+09:00",
-    "chartDays": 146,
+    "lastChartedAt": "2026-08-02T00:00:00+09:00",
+    "chartDays": 147,
     "currentRank": 1,
     "status": "in",
-    "pointCount": 2780
+    "pointCount": 2782
   },
   "sources": [
     {
@@ -22266,8 +22282,8 @@
   "backfill": {
     "source": "가이섬",
     "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928381",
-    "lastRunAt": "2026-08-01T22:59:17+09:00",
-    "importedThisRun": 2779,
+    "lastRunAt": "2026-08-02T00:25:42+09:00",
+    "importedThisRun": 2,
     "updatedThisRun": 0
   }
 }

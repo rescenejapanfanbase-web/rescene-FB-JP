@@ -35162,18 +35162,34 @@
       "sourceName": "가이섬",
       "sourceUrl": "https://xn--o39an51b2re.com/chart/flo/24hour/trend/ranking/512384615",
       "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-08-01T23:00:00+09:00",
+      "rank": 1,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/flo/24hour/trend/ranking/512384615",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2026-08-02T00:00:00+09:00",
+      "rank": 1,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/flo/24hour/trend/ranking/512384615",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
     }
   ],
   "outOfChartHistory": [],
-  "generatedAt": "2026-08-01T22:59:17+09:00",
+  "generatedAt": "2026-08-02T00:25:42+09:00",
   "summary": {
     "peakRank": 1,
     "firstChartedAt": "2024-10-08T20:00:00+09:00",
-    "lastChartedAt": "2026-08-01T22:00:00+09:00",
-    "chartDays": 195,
+    "lastChartedAt": "2026-08-02T00:00:00+09:00",
+    "chartDays": 196,
     "currentRank": 1,
     "status": "in",
-    "pointCount": 4395
+    "pointCount": 4397
   },
   "sources": [
     {
@@ -35186,8 +35202,8 @@
   "backfill": {
     "source": "가이섬",
     "sourceUrl": "https://xn--o39an51b2re.com/chart/flo/24hour/trend/ranking/512384615",
-    "lastRunAt": "2026-08-01T22:59:17+09:00",
-    "importedThisRun": 4394,
+    "lastRunAt": "2026-08-02T00:25:42+09:00",
+    "importedThisRun": 2,
     "updatedThisRun": 0
   }
 }

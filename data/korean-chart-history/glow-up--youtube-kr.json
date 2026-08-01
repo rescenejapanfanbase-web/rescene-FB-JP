@@ -77,7 +77,7 @@
       "observations": 1
     }
   ],
-  "generatedAt": "2026-08-01T23:56:51+09:00",
+  "generatedAt": "2026-08-02T00:25:42+09:00",
   "summary": {
     "peakRank": 51,
     "firstChartedAt": "2026-06-22T00:00:00+09:00",
@@ -98,8 +98,8 @@
   "backfill": {
     "source": "가이섬",
     "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/6b3744346931494c43436b",
-    "lastRunAt": "2026-08-01T22:59:17+09:00",
-    "importedThisRun": 5,
+    "lastRunAt": "2026-08-02T00:25:42+09:00",
+    "importedThisRun": 0,
     "updatedThisRun": 0
   }
 }

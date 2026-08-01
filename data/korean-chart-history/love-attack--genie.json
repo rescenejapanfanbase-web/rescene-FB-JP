@@ -47338,18 +47338,34 @@
       "sourceName": "가이섬",
       "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/realtime/trend/ranking/107590768",
       "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-08-01T23:00:00+09:00",
+      "rank": 2,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/realtime/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2026-08-02T00:00:00+09:00",
+      "rank": 2,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/realtime/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
     }
   ],
   "outOfChartHistory": [],
-  "generatedAt": "2026-08-01T22:59:17+09:00",
+  "generatedAt": "2026-08-02T00:25:42+09:00",
   "summary": {
     "peakRank": 1,
     "firstChartedAt": "2024-09-18T23:00:00+09:00",
-    "lastChartedAt": "2026-08-01T22:00:00+09:00",
-    "chartDays": 354,
+    "lastChartedAt": "2026-08-02T00:00:00+09:00",
+    "chartDays": 355,
     "currentRank": 2,
     "status": "in",
-    "pointCount": 5917
+    "pointCount": 5919
   },
   "sources": [
     {
@@ -47362,8 +47378,8 @@
   "backfill": {
     "source": "가이섬",
     "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/realtime/trend/ranking/107590768",
-    "lastRunAt": "2026-08-01T22:59:17+09:00",
-    "importedThisRun": 5916,
+    "lastRunAt": "2026-08-02T00:25:42+09:00",
+    "importedThisRun": 2,
     "updatedThisRun": 0
   }
 }

@@ -2,2303 +2,2415 @@
   "schemaVersion": 1,
   "songId": "love-attack",
   "songTitle": "LOVE ATTACK",
-  "chartId": "bugs-daily",
-  "chartName": "Bugs Daily",
+  "chartId": "genie-daily",
+  "chartName": "Genie Daily",
   "points": [
     {
-      "chartAt": "2024-09-22T00:00:00+09:00",
-      "rank": 99,
-      "origin": "guyso",
-      "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
-      "checkedAt": "2026-08-02T00:25:42+09:00"
-    },
-    {
       "chartAt": "2024-09-27T00:00:00+09:00",
-      "rank": 99,
+      "rank": 199,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-09-28T00:00:00+09:00",
-      "rank": 94,
+      "rank": 193,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-09-29T00:00:00+09:00",
-      "rank": 67,
+      "rank": 173,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-09-30T00:00:00+09:00",
-      "rank": 87,
+      "rank": 182,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-01T00:00:00+09:00",
-      "rank": 72,
+      "rank": 174,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-02T00:00:00+09:00",
-      "rank": 93,
+      "rank": 175,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-03T00:00:00+09:00",
-      "rank": 80,
+      "rank": 169,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-04T00:00:00+09:00",
-      "rank": 78,
+      "rank": 165,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-05T00:00:00+09:00",
-      "rank": 81,
+      "rank": 167,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-06T00:00:00+09:00",
-      "rank": 61,
+      "rank": 151,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-07T00:00:00+09:00",
-      "rank": 64,
+      "rank": 155,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-08T00:00:00+09:00",
-      "rank": 72,
+      "rank": 153,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-09T00:00:00+09:00",
-      "rank": 56,
+      "rank": 149,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-10T00:00:00+09:00",
-      "rank": 59,
+      "rank": 148,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-11T00:00:00+09:00",
-      "rank": 65,
+      "rank": 149,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-12T00:00:00+09:00",
-      "rank": 65,
+      "rank": 148,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-13T00:00:00+09:00",
-      "rank": 64,
+      "rank": 141,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-14T00:00:00+09:00",
-      "rank": 73,
+      "rank": 156,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-15T00:00:00+09:00",
-      "rank": 78,
+      "rank": 160,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-16T00:00:00+09:00",
-      "rank": 86,
+      "rank": 166,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-17T00:00:00+09:00",
-      "rank": 85,
+      "rank": 174,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-18T00:00:00+09:00",
-      "rank": 94,
+      "rank": 179,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-19T00:00:00+09:00",
-      "rank": 95,
+      "rank": 182,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-20T00:00:00+09:00",
-      "rank": 90,
+      "rank": 182,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-21T00:00:00+09:00",
-      "rank": 99,
+      "rank": 188,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2024-10-22T00:00:00+09:00",
-      "rank": 99,
+      "rank": 193,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
-      "chartAt": "2025-03-05T00:00:00+09:00",
-      "rank": 100,
+      "chartAt": "2024-10-23T00:00:00+09:00",
+      "rank": 194,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2024-10-24T00:00:00+09:00",
+      "rank": 193,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2024-10-25T00:00:00+09:00",
+      "rank": 199,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2024-10-26T00:00:00+09:00",
+      "rank": 199,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2025-03-08T00:00:00+09:00",
+      "rank": 190,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-09T00:00:00+09:00",
-      "rank": 88,
+      "rank": 162,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-10T00:00:00+09:00",
-      "rank": 73,
+      "rank": 161,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-11T00:00:00+09:00",
-      "rank": 68,
+      "rank": 156,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-12T00:00:00+09:00",
-      "rank": 62,
+      "rank": 150,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-13T00:00:00+09:00",
-      "rank": 49,
+      "rank": 138,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-14T00:00:00+09:00",
-      "rank": 59,
+      "rank": 135,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-15T00:00:00+09:00",
-      "rank": 53,
+      "rank": 130,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-16T00:00:00+09:00",
-      "rank": 45,
+      "rank": 119,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-17T00:00:00+09:00",
-      "rank": 46,
+      "rank": 123,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-18T00:00:00+09:00",
-      "rank": 46,
+      "rank": 124,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-19T00:00:00+09:00",
-      "rank": 52,
+      "rank": 122,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-20T00:00:00+09:00",
-      "rank": 44,
+      "rank": 123,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-21T00:00:00+09:00",
-      "rank": 50,
+      "rank": 121,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-22T00:00:00+09:00",
-      "rank": 43,
+      "rank": 113,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-23T00:00:00+09:00",
-      "rank": 40,
+      "rank": 109,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-24T00:00:00+09:00",
-      "rank": 35,
+      "rank": 106,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-25T00:00:00+09:00",
-      "rank": 42,
+      "rank": 107,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-26T00:00:00+09:00",
-      "rank": 36,
+      "rank": 104,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-27T00:00:00+09:00",
-      "rank": 40,
+      "rank": 109,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-28T00:00:00+09:00",
-      "rank": 49,
+      "rank": 107,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-29T00:00:00+09:00",
-      "rank": 36,
+      "rank": 108,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-30T00:00:00+09:00",
-      "rank": 33,
+      "rank": 98,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-03-31T00:00:00+09:00",
-      "rank": 30,
+      "rank": 94,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-01T00:00:00+09:00",
-      "rank": 33,
+      "rank": 95,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-02T00:00:00+09:00",
-      "rank": 32,
+      "rank": 95,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-03T00:00:00+09:00",
-      "rank": 33,
+      "rank": 94,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-04T00:00:00+09:00",
-      "rank": 34,
+      "rank": 93,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-05T00:00:00+09:00",
-      "rank": 33,
+      "rank": 89,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-06T00:00:00+09:00",
-      "rank": 27,
+      "rank": 76,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-07T00:00:00+09:00",
-      "rank": 24,
+      "rank": 74,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-08T00:00:00+09:00",
-      "rank": 28,
+      "rank": 72,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-09T00:00:00+09:00",
-      "rank": 28,
+      "rank": 73,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-10T00:00:00+09:00",
-      "rank": 27,
+      "rank": 73,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-11T00:00:00+09:00",
-      "rank": 27,
+      "rank": 68,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-12T00:00:00+09:00",
-      "rank": 29,
+      "rank": 71,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-13T00:00:00+09:00",
-      "rank": 25,
+      "rank": 62,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-14T00:00:00+09:00",
-      "rank": 30,
+      "rank": 63,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-15T00:00:00+09:00",
-      "rank": 27,
+      "rank": 60,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-16T00:00:00+09:00",
-      "rank": 26,
+      "rank": 58,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-17T00:00:00+09:00",
-      "rank": 23,
+      "rank": 55,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-18T00:00:00+09:00",
-      "rank": 23,
+      "rank": 54,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-19T00:00:00+09:00",
-      "rank": 25,
+      "rank": 56,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-20T00:00:00+09:00",
-      "rank": 23,
+      "rank": 51,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-21T00:00:00+09:00",
-      "rank": 24,
+      "rank": 50,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-22T00:00:00+09:00",
-      "rank": 22,
+      "rank": 50,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-23T00:00:00+09:00",
-      "rank": 21,
+      "rank": 46,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-24T00:00:00+09:00",
-      "rank": 23,
+      "rank": 47,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-25T00:00:00+09:00",
-      "rank": 25,
+      "rank": 46,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-26T00:00:00+09:00",
-      "rank": 20,
+      "rank": 46,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-27T00:00:00+09:00",
-      "rank": 20,
+      "rank": 43,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-28T00:00:00+09:00",
-      "rank": 25,
+      "rank": 43,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-29T00:00:00+09:00",
-      "rank": 21,
+      "rank": 42,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-04-30T00:00:00+09:00",
-      "rank": 18,
+      "rank": 43,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-01T00:00:00+09:00",
-      "rank": 22,
+      "rank": 44,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-02T00:00:00+09:00",
-      "rank": 22,
+      "rank": 45,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-03T00:00:00+09:00",
-      "rank": 23,
+      "rank": 47,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-04T00:00:00+09:00",
-      "rank": 24,
+      "rank": 47,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-05T00:00:00+09:00",
-      "rank": 23,
+      "rank": 48,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-06T00:00:00+09:00",
-      "rank": 22,
+      "rank": 43,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-07T00:00:00+09:00",
-      "rank": 24,
+      "rank": 43,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-08T00:00:00+09:00",
-      "rank": 25,
+      "rank": 42,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-09T00:00:00+09:00",
-      "rank": 26,
+      "rank": 42,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-10T00:00:00+09:00",
-      "rank": 26,
+      "rank": 43,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-11T00:00:00+09:00",
-      "rank": 25,
+      "rank": 40,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-12T00:00:00+09:00",
-      "rank": 24,
+      "rank": 41,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-13T00:00:00+09:00",
-      "rank": 24,
+      "rank": 42,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-14T00:00:00+09:00",
-      "rank": 25,
+      "rank": 45,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-15T00:00:00+09:00",
-      "rank": 27,
+      "rank": 44,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-16T00:00:00+09:00",
-      "rank": 27,
+      "rank": 46,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-17T00:00:00+09:00",
-      "rank": 26,
+      "rank": 49,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-18T00:00:00+09:00",
-      "rank": 28,
+      "rank": 50,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2025-05-19T00:00:00+09:00",
+      "rank": 53,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-20T00:00:00+09:00",
-      "rank": 34,
+      "rank": 52,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-21T00:00:00+09:00",
-      "rank": 30,
+      "rank": 54,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-22T00:00:00+09:00",
-      "rank": 30,
+      "rank": 55,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-23T00:00:00+09:00",
-      "rank": 28,
+      "rank": 58,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-24T00:00:00+09:00",
-      "rank": 28,
+      "rank": 57,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-25T00:00:00+09:00",
-      "rank": 29,
+      "rank": 56,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-26T00:00:00+09:00",
-      "rank": 30,
+      "rank": 58,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-27T00:00:00+09:00",
-      "rank": 36,
+      "rank": 64,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-28T00:00:00+09:00",
-      "rank": 38,
+      "rank": 62,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-29T00:00:00+09:00",
-      "rank": 35,
+      "rank": 65,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-30T00:00:00+09:00",
-      "rank": 34,
+      "rank": 64,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-05-31T00:00:00+09:00",
-      "rank": 34,
+      "rank": 66,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-01T00:00:00+09:00",
-      "rank": 35,
+      "rank": 64,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-02T00:00:00+09:00",
-      "rank": 35,
+      "rank": 64,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-03T00:00:00+09:00",
-      "rank": 38,
+      "rank": 63,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-04T00:00:00+09:00",
-      "rank": 33,
+      "rank": 64,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-05T00:00:00+09:00",
-      "rank": 36,
+      "rank": 67,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-06T00:00:00+09:00",
-      "rank": 35,
+      "rank": 69,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-07T00:00:00+09:00",
-      "rank": 37,
+      "rank": 70,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-08T00:00:00+09:00",
-      "rank": 38,
+      "rank": 69,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-09T00:00:00+09:00",
-      "rank": 43,
+      "rank": 66,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-10T00:00:00+09:00",
-      "rank": 34,
+      "rank": 70,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-11T00:00:00+09:00",
-      "rank": 37,
+      "rank": 70,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-12T00:00:00+09:00",
-      "rank": 36,
+      "rank": 71,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-13T00:00:00+09:00",
-      "rank": 42,
+      "rank": 73,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-14T00:00:00+09:00",
-      "rank": 39,
+      "rank": 73,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-15T00:00:00+09:00",
-      "rank": 38,
+      "rank": 74,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-16T00:00:00+09:00",
-      "rank": 53,
+      "rank": 74,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-17T00:00:00+09:00",
-      "rank": 42,
+      "rank": 73,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-18T00:00:00+09:00",
-      "rank": 42,
+      "rank": 74,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-19T00:00:00+09:00",
-      "rank": 41,
+      "rank": 74,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-20T00:00:00+09:00",
-      "rank": 51,
+      "rank": 77,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-21T00:00:00+09:00",
-      "rank": 47,
+      "rank": 77,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-22T00:00:00+09:00",
-      "rank": 45,
+      "rank": 77,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-23T00:00:00+09:00",
-      "rank": 43,
+      "rank": 75,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-24T00:00:00+09:00",
-      "rank": 47,
+      "rank": 78,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-25T00:00:00+09:00",
-      "rank": 47,
+      "rank": 80,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-26T00:00:00+09:00",
-      "rank": 55,
+      "rank": 79,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-27T00:00:00+09:00",
-      "rank": 44,
+      "rank": 79,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-28T00:00:00+09:00",
-      "rank": 52,
+      "rank": 79,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-29T00:00:00+09:00",
-      "rank": 47,
+      "rank": 77,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-06-30T00:00:00+09:00",
-      "rank": 57,
+      "rank": 75,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-01T00:00:00+09:00",
-      "rank": 51,
+      "rank": 76,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-02T00:00:00+09:00",
-      "rank": 52,
+      "rank": 77,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-03T00:00:00+09:00",
-      "rank": 50,
+      "rank": 77,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-04T00:00:00+09:00",
-      "rank": 64,
+      "rank": 77,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-05T00:00:00+09:00",
-      "rank": 62,
+      "rank": 78,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-06T00:00:00+09:00",
-      "rank": 52,
+      "rank": 80,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-07T00:00:00+09:00",
-      "rank": 55,
+      "rank": 79,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-08T00:00:00+09:00",
-      "rank": 61,
+      "rank": 79,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-09T00:00:00+09:00",
-      "rank": 58,
+      "rank": 81,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-10T00:00:00+09:00",
-      "rank": 54,
+      "rank": 81,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-11T00:00:00+09:00",
-      "rank": 58,
+      "rank": 82,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-12T00:00:00+09:00",
-      "rank": 56,
+      "rank": 82,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-13T00:00:00+09:00",
-      "rank": 60,
+      "rank": 89,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-14T00:00:00+09:00",
-      "rank": 63,
+      "rank": 89,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-15T00:00:00+09:00",
-      "rank": 76,
+      "rank": 92,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-16T00:00:00+09:00",
-      "rank": 76,
+      "rank": 94,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-17T00:00:00+09:00",
-      "rank": 65,
+      "rank": 91,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-18T00:00:00+09:00",
-      "rank": 65,
+      "rank": 91,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-19T00:00:00+09:00",
-      "rank": 64,
+      "rank": 92,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-20T00:00:00+09:00",
-      "rank": 67,
+      "rank": 92,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-21T00:00:00+09:00",
-      "rank": 64,
+      "rank": 91,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-22T00:00:00+09:00",
-      "rank": 62,
+      "rank": 91,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-23T00:00:00+09:00",
-      "rank": 70,
+      "rank": 91,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-24T00:00:00+09:00",
-      "rank": 65,
+      "rank": 91,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-25T00:00:00+09:00",
-      "rank": 71,
+      "rank": 91,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-26T00:00:00+09:00",
-      "rank": 67,
+      "rank": 92,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-27T00:00:00+09:00",
-      "rank": 67,
+      "rank": 92,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-28T00:00:00+09:00",
-      "rank": 65,
+      "rank": 92,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-29T00:00:00+09:00",
-      "rank": 65,
+      "rank": 93,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-30T00:00:00+09:00",
-      "rank": 71,
+      "rank": 95,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-07-31T00:00:00+09:00",
-      "rank": 67,
+      "rank": 96,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-01T00:00:00+09:00",
-      "rank": 62,
+      "rank": 98,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-02T00:00:00+09:00",
-      "rank": 71,
+      "rank": 101,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-03T00:00:00+09:00",
-      "rank": 71,
+      "rank": 100,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-04T00:00:00+09:00",
-      "rank": 72,
+      "rank": 100,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-05T00:00:00+09:00",
-      "rank": 67,
+      "rank": 100,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-06T00:00:00+09:00",
-      "rank": 76,
+      "rank": 100,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-07T00:00:00+09:00",
-      "rank": 77,
+      "rank": 101,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-08T00:00:00+09:00",
-      "rank": 73,
+      "rank": 102,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-09T00:00:00+09:00",
-      "rank": 67,
+      "rank": 103,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-10T00:00:00+09:00",
-      "rank": 81,
+      "rank": 105,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-11T00:00:00+09:00",
-      "rank": 76,
+      "rank": 106,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-12T00:00:00+09:00",
-      "rank": 82,
+      "rank": 108,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-13T00:00:00+09:00",
-      "rank": 83,
+      "rank": 108,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-14T00:00:00+09:00",
-      "rank": 83,
+      "rank": 107,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-15T00:00:00+09:00",
-      "rank": 76,
+      "rank": 108,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-16T00:00:00+09:00",
-      "rank": 77,
+      "rank": 110,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-17T00:00:00+09:00",
-      "rank": 82,
+      "rank": 111,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-18T00:00:00+09:00",
-      "rank": 75,
+      "rank": 109,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-19T00:00:00+09:00",
-      "rank": 74,
+      "rank": 110,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-20T00:00:00+09:00",
-      "rank": 75,
+      "rank": 109,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-21T00:00:00+09:00",
-      "rank": 80,
+      "rank": 115,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-22T00:00:00+09:00",
-      "rank": 78,
+      "rank": 113,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-23T00:00:00+09:00",
-      "rank": 78,
+      "rank": 115,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-24T00:00:00+09:00",
-      "rank": 86,
+      "rank": 115,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-25T00:00:00+09:00",
-      "rank": 91,
+      "rank": 119,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-26T00:00:00+09:00",
-      "rank": 85,
+      "rank": 116,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-27T00:00:00+09:00",
-      "rank": 93,
+      "rank": 120,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-28T00:00:00+09:00",
-      "rank": 82,
+      "rank": 121,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-29T00:00:00+09:00",
-      "rank": 87,
+      "rank": 119,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-30T00:00:00+09:00",
-      "rank": 87,
+      "rank": 124,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-08-31T00:00:00+09:00",
-      "rank": 93,
+      "rank": 122,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-01T00:00:00+09:00",
-      "rank": 100,
+      "rank": 121,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-02T00:00:00+09:00",
-      "rank": 98,
+      "rank": 121,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-03T00:00:00+09:00",
-      "rank": 92,
+      "rank": 123,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-04T00:00:00+09:00",
-      "rank": 86,
+      "rank": 128,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-05T00:00:00+09:00",
-      "rank": 88,
+      "rank": 127,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-06T00:00:00+09:00",
-      "rank": 89,
+      "rank": 132,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-07T00:00:00+09:00",
-      "rank": 95,
+      "rank": 129,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-08T00:00:00+09:00",
-      "rank": 98,
+      "rank": 128,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-09T00:00:00+09:00",
-      "rank": 98,
+      "rank": 129,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-10T00:00:00+09:00",
-      "rank": 95,
+      "rank": 129,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-11T00:00:00+09:00",
-      "rank": 95,
+      "rank": 128,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-12T00:00:00+09:00",
-      "rank": 95,
+      "rank": 138,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-13T00:00:00+09:00",
-      "rank": 90,
+      "rank": 142,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-14T00:00:00+09:00",
-      "rank": 95,
+      "rank": 142,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-15T00:00:00+09:00",
-      "rank": 88,
+      "rank": 139,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-16T00:00:00+09:00",
-      "rank": 92,
+      "rank": 142,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-17T00:00:00+09:00",
-      "rank": 91,
+      "rank": 143,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-18T00:00:00+09:00",
-      "rank": 90,
+      "rank": 148,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-19T00:00:00+09:00",
-      "rank": 93,
+      "rank": 153,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-20T00:00:00+09:00",
-      "rank": 94,
+      "rank": 150,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-21T00:00:00+09:00",
-      "rank": 94,
+      "rank": 154,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-22T00:00:00+09:00",
-      "rank": 93,
+      "rank": 153,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-23T00:00:00+09:00",
-      "rank": 97,
+      "rank": 156,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-24T00:00:00+09:00",
-      "rank": 96,
+      "rank": 161,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-25T00:00:00+09:00",
-      "rank": 93,
+      "rank": 157,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-26T00:00:00+09:00",
-      "rank": 96,
+      "rank": 160,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-27T00:00:00+09:00",
-      "rank": 96,
+      "rank": 162,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-28T00:00:00+09:00",
-      "rank": 96,
+      "rank": 163,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-29T00:00:00+09:00",
-      "rank": 95,
+      "rank": 162,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-09-30T00:00:00+09:00",
-      "rank": 96,
+      "rank": 165,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-10-01T00:00:00+09:00",
-      "rank": 93,
+      "rank": 170,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-10-02T00:00:00+09:00",
-      "rank": 93,
+      "rank": 168,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-10-03T00:00:00+09:00",
-      "rank": 94,
+      "rank": 172,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-10-04T00:00:00+09:00",
-      "rank": 94,
+      "rank": 174,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-10-05T00:00:00+09:00",
-      "rank": 93,
+      "rank": 177,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-10-06T00:00:00+09:00",
-      "rank": 94,
+      "rank": 182,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-10-07T00:00:00+09:00",
-      "rank": 94,
+      "rank": 176,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-10-08T00:00:00+09:00",
-      "rank": 95,
+      "rank": 177,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-10-09T00:00:00+09:00",
-      "rank": 95,
+      "rank": 177,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-10-10T00:00:00+09:00",
-      "rank": 94,
+      "rank": 177,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-10-11T00:00:00+09:00",
-      "rank": 92,
+      "rank": 180,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-10-12T00:00:00+09:00",
-      "rank": 96,
+      "rank": 188,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-10-13T00:00:00+09:00",
-      "rank": 99,
+      "rank": 184,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-10-14T00:00:00+09:00",
-      "rank": 99,
+      "rank": 180,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2025-10-15T00:00:00+09:00",
-      "rank": 99,
+      "rank": 183,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2025-10-16T00:00:00+09:00",
+      "rank": 188,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2025-10-17T00:00:00+09:00",
+      "rank": 190,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2025-10-18T00:00:00+09:00",
+      "rank": 191,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2025-10-19T00:00:00+09:00",
+      "rank": 191,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2025-10-20T00:00:00+09:00",
+      "rank": 193,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2025-10-21T00:00:00+09:00",
+      "rank": 192,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2025-10-22T00:00:00+09:00",
+      "rank": 194,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2025-10-23T00:00:00+09:00",
+      "rank": 195,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2025-10-24T00:00:00+09:00",
+      "rank": 194,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
+    },
+    {
+      "chartAt": "2025-10-25T00:00:00+09:00",
+      "rank": 194,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-05-26T00:00:00+09:00",
-      "rank": 89,
+      "rank": 193,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-05-27T00:00:00+09:00",
-      "rank": 51,
+      "rank": 172,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-05-28T00:00:00+09:00",
-      "rank": 36,
+      "rank": 144,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-05-29T00:00:00+09:00",
-      "rank": 28,
+      "rank": 125,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-05-30T00:00:00+09:00",
-      "rank": 21,
+      "rank": 105,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-05-31T00:00:00+09:00",
-      "rank": 14,
+      "rank": 77,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-01T00:00:00+09:00",
-      "rank": 9,
+      "rank": 72,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-02T00:00:00+09:00",
-      "rank": 8,
+      "rank": 66,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-03T00:00:00+09:00",
-      "rank": 8,
+      "rank": 55,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-04T00:00:00+09:00",
-      "rank": 7,
+      "rank": 49,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-05T00:00:00+09:00",
-      "rank": 6,
+      "rank": 45,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-06T00:00:00+09:00",
-      "rank": 6,
+      "rank": 41,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-07T00:00:00+09:00",
-      "rank": 6,
+      "rank": 35,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-08T00:00:00+09:00",
-      "rank": 5,
+      "rank": 31,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-09T00:00:00+09:00",
-      "rank": 5,
+      "rank": 28,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-10T00:00:00+09:00",
-      "rank": 5,
+      "rank": 25,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-11T00:00:00+09:00",
-      "rank": 5,
+      "rank": 24,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-12T00:00:00+09:00",
-      "rank": 5,
+      "rank": 24,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-13T00:00:00+09:00",
-      "rank": 5,
+      "rank": 23,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-14T00:00:00+09:00",
-      "rank": 4,
+      "rank": 21,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-15T00:00:00+09:00",
-      "rank": 4,
+      "rank": 17,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-16T00:00:00+09:00",
-      "rank": 4,
+      "rank": 17,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-17T00:00:00+09:00",
-      "rank": 4,
+      "rank": 15,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-18T00:00:00+09:00",
-      "rank": 4,
+      "rank": 14,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-19T00:00:00+09:00",
-      "rank": 4,
+      "rank": 14,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-20T00:00:00+09:00",
-      "rank": 5,
+      "rank": 13,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-21T00:00:00+09:00",
-      "rank": 4,
+      "rank": 10,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-22T00:00:00+09:00",
-      "rank": 5,
+      "rank": 10,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-23T00:00:00+09:00",
-      "rank": 4,
+      "rank": 9,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-24T00:00:00+09:00",
-      "rank": 4,
+      "rank": 8,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-25T00:00:00+09:00",
-      "rank": 5,
+      "rank": 8,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-26T00:00:00+09:00",
-      "rank": 5,
+      "rank": 8,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-27T00:00:00+09:00",
-      "rank": 6,
+      "rank": 8,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-28T00:00:00+09:00",
-      "rank": 5,
+      "rank": 8,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-29T00:00:00+09:00",
-      "rank": 5,
+      "rank": 6,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-06-30T00:00:00+09:00",
-      "rank": 5,
+      "rank": 6,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-01T00:00:00+09:00",
-      "rank": 5,
+      "rank": 6,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-02T00:00:00+09:00",
-      "rank": 4,
+      "rank": 6,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-03T00:00:00+09:00",
-      "rank": 5,
+      "rank": 6,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
@@ -2306,7 +2418,7 @@
       "rank": 6,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
@@ -2314,7 +2426,7 @@
       "rank": 5,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
@@ -2322,39 +2434,39 @@
       "rank": 5,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-07T00:00:00+09:00",
-      "rank": 4,
+      "rank": 5,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-08T00:00:00+09:00",
-      "rank": 4,
+      "rank": 5,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-09T00:00:00+09:00",
-      "rank": 3,
+      "rank": 4,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-10T00:00:00+09:00",
-      "rank": 5,
+      "rank": 4,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
@@ -2362,23 +2474,23 @@
       "rank": 4,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-12T00:00:00+09:00",
-      "rank": 2,
+      "rank": 3,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-13T00:00:00+09:00",
-      "rank": 1,
+      "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
@@ -2386,7 +2498,7 @@
       "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
@@ -2394,7 +2506,7 @@
       "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
@@ -2402,15 +2514,15 @@
       "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-17T00:00:00+09:00",
-      "rank": 1,
+      "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
@@ -2418,23 +2530,23 @@
       "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-19T00:00:00+09:00",
-      "rank": 1,
+      "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-20T00:00:00+09:00",
-      "rank": 1,
+      "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
@@ -2442,7 +2554,7 @@
       "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
@@ -2450,7 +2562,7 @@
       "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
@@ -2458,15 +2570,15 @@
       "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-24T00:00:00+09:00",
-      "rank": 3,
+      "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
@@ -2474,66 +2586,65 @@
       "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-26T00:00:00+09:00",
-      "rank": 1,
+      "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-27T00:00:00+09:00",
-      "rank": 1,
+      "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-28T00:00:00+09:00",
-      "rank": 1,
+      "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-29T00:00:00+09:00",
-      "rank": 1,
+      "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-30T00:00:00+09:00",
-      "rank": 1,
+      "rank": 2,
       "origin": "guyso",
       "sourceName": "가이섬",
-      "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
       "checkedAt": "2026-08-02T00:25:42+09:00"
     },
     {
       "chartAt": "2026-07-31T00:00:00+09:00",
-      "checkedAt": "2026-08-02T00:20:32+09:00",
-      "rank": 1,
-      "sourceRank": 1
+      "rank": 2,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
+      "checkedAt": "2026-08-02T00:25:42+09:00"
     }
   ],
   "outOfChartHistory": [],
-  "generatedAt": "2026-08-02T00:25:42+09:00",
   "summary": {
-    "peakRank": 1,
-    "firstChartedAt": "2024-09-22T00:00:00+09:00",
+    "peakRank": 2,
+    "firstChartedAt": "2024-09-27T00:00:00+09:00",
     "lastChartedAt": "2026-07-31T00:00:00+09:00",
-    "chartDays": 315,
-    "currentRank": 1,
-    "status": "in",
-    "pointCount": 315
+    "chartDays": 329,
+    "pointCount": 329
   },
   "sources": [
     {
@@ -2543,11 +2654,12 @@
       "role": "historical-backfill"
     }
   ],
+  "generatedAt": "2026-08-02T00:25:42+09:00",
   "backfill": {
     "source": "가이섬",
-    "sourceUrl": "https://xn--o39an51b2re.com/chart/bugs/daily/trend/ranking/6259115",
+    "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/107590768",
     "lastRunAt": "2026-08-02T00:25:42+09:00",
-    "importedThisRun": 314,
+    "importedThisRun": 329,
     "updatedThisRun": 0
   }
 }
