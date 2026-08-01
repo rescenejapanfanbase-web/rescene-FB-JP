@@ -1,0 +1,33 @@
+RESCENE JAPAN FANBASE
+가이섬 過去順位補完・曲検出修正
+基準日: 2026-08-01
+
+【修正内容】
+・가이섬のRESCENE曲一覧がクライアント描画／縮小HTMLとなり、0候補になる場合へ対応
+・既知のMelon曲IDを直接候補として使用するフォールバックを追加
+・NotionにMelon外部IDが登録されている場合は、そちらを最優先
+・直接候補は詳細ページの曲名で照合し、別曲の場合は取り込まない
+・通常リンク、onclick/data属性、JSON hydrationから曲URLを検出
+・チャート履歴URLもhref以外の属性・scriptデータから検出
+・曲一覧が0候補でも処理を中止せず、各曲の詳細ページへ進む
+
+【反映方法】
+1. このZIPを展開する
+2. 中の scripts フォルダをGitHubリポジトリ最上部へアップロードして上書きする
+3. Commit directly to the main branch でコミットする
+
+【再テスト】
+Actions → Backfill Korean Chart History → Run workflow
+・dry_run: ON
+・songs: 空欄
+・charts: 空欄
+・delay: 1.8
+
+正常時の初期ログ例:
+가이섬 RESCENE曲一覧: 0候補 / 直接IDフォールバック: 11曲
+[SONG] UhUh: ...チャート候補
+
+曲一覧の候補数は0のままでも問題ありません。
+「直接IDフォールバック: 11曲」と各[SONG]行が出れば修正が機能しています。
+
+Dry-run成功後のみ、dry_runをOFFにして再実行してください。

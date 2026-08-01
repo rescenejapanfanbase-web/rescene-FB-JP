@@ -5,6 +5,7 @@ from __future__ import annotations
 from korean_chart_history import (
     discover_history_links,
     discover_melon_song_candidates,
+    fallback_song_candidates,
     merge_historical_points,
     parse_daily_history,
     parse_hourly_matrix,
@@ -23,6 +24,23 @@ def parser_tests():
     <a href="/song/melon/999"><img alt="LOVE ATTACK (Japanese Ver.)"></a>'''
     songs = discover_melon_song_candidates(artist)
     equal(songs["loveattack"], ["https://xn--o39an51b2re.com/song/melon/37928381"], "song discovery")
+
+    client_rendered = '''<div class="song" data-route="/song/melon/39231685"><span>Deja Vu</span><span>RESCENE (리센느)</span></div>
+    <script>{"songName":"Runaway","url":"/song/melon/601719493"}</script>'''
+    songs = discover_melon_song_candidates(client_rendered)
+    equal(songs["dejavu"], ["https://xn--o39an51b2re.com/song/melon/39231685"], "attribute discovery")
+    equal(songs["runaway"], ["https://xn--o39an51b2re.com/song/melon/601719493"], "JSON discovery")
+
+    equal(
+        fallback_song_candidates({"id": "love-attack", "externalIds": {}}),
+        ["https://xn--o39an51b2re.com/song/melon/37928381"],
+        "known ID fallback",
+    )
+    equal(
+        fallback_song_candidates({"id": "custom", "externalIds": {"melon": "melon:12345678"}}),
+        ["https://xn--o39an51b2re.com/song/melon/12345678"],
+        "Notion external ID fallback",
+    )
 
     detail = '''
     <a href="/chart/melon/top100/trend/ranking/37928381">melon</a>

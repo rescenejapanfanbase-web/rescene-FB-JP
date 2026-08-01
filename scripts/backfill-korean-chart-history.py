@@ -28,9 +28,11 @@ from korean_chart_history import (
     GUYSO_BASE,
     discover_history_links,
     discover_melon_song_candidates,
+    fallback_song_candidates,
     merge_historical_points,
     parse_history_page,
     parse_release_date,
+    parse_song_title,
     select_song_candidates,
 )
 
@@ -40,7 +42,10 @@ PUBLIC_PATH = ROOT / "data" / "korean-charts.json"
 PUBLIC_JS_PATH = ROOT / "data" / "korean-charts-data.js"
 CACHE_DIR = ROOT / ".cache" / "guyso-korean-chart-history"
 ARTIST_SONGS_URL = os.getenv("GUYSO_RESCENE_MELON_SONGS_URL", f"{GUYSO_BASE}/artist/melon/3709231/songs")
-USER_AGENT = "RESCENE-JAPAN-FANBASE-HistoryBackfill/1.0 (+https://rescene-fb.jp/contact.html)"
+USER_AGENT = (
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+)
 
 
 class RateLimitedClient:
@@ -68,7 +73,13 @@ class RateLimitedClient:
             wait = self.delay - (time.monotonic() - self.last_request)
             if wait > 0:
                 time.sleep(wait)
-            request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "ko-KR,ko;q=0.9,ja;q=0.8,en;q=0.6"})
+            request = urllib.request.Request(url, headers={
+                "User-Agent": USER_AGENT,
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+                "Accept-Language": "ko-KR,ko;q=0.9,ja;q=0.8,en;q=0.6",
+                "Cache-Control": "no-cache",
+                "Referer": GUYSO_BASE + "/",
+            })
             self.requests += 1
             self.last_request = time.monotonic()
             try:
@@ -105,9 +116,16 @@ def choose_song_detail(song: dict[str, Any], candidates: list[str], client: Rate
     if not candidates:
         return "", ""
     expected_date = str(song.get("releaseDate") or "")[:10]
+    expected_titles = {compact(song.get("title"))}
+    expected_titles.update(compact(alias) for alias in song.get("aliases", []) if compact(alias))
     fallback: tuple[str, str] = ("", "")
     for candidate in candidates:
         html = client.get(candidate)
+        actual_title = compact(parse_song_title(html))
+        # Reject an explicit/fallback ID if it clearly points at another song.
+        if actual_title and actual_title not in expected_titles:
+            print(f"  [ID不一致] {song['title']}: {candidate} -> {parse_song_title(html)}")
+            continue
         if not fallback[0]:
             fallback = (candidate, html)
         actual_date = parse_release_date(html)
@@ -165,9 +183,15 @@ def main() -> int:
     client = RateLimitedClient(args.delay, args.attempts, args.max_requests, args.no_cache)
     checked_at = iso_kst()
 
-    artist_html = client.get(ARTIST_SONGS_URL)
-    discovered = discover_melon_song_candidates(artist_html)
-    print(f"가이섬 RESCENE曲一覧: {sum(len(value) for value in discovered.values())}候補")
+    try:
+        artist_html = client.get(ARTIST_SONGS_URL)
+        discovered = discover_melon_song_candidates(artist_html)
+    except Exception as exc:
+        discovered = {}
+        print(f"[WARN] 가이섬曲一覧を取得できないため、直接IDへ切替: {type(exc).__name__}: {exc}")
+    discovered_count = sum(len(value) for value in discovered.values())
+    fallback_count = sum(1 for song in songs if fallback_song_candidates(song))
+    print(f"가이섬 RESCENE曲一覧: {discovered_count}候補 / 直接IDフォールバック: {fallback_count}曲")
 
     pending: dict[Path, dict[str, Any]] = {}
     touched: set[tuple[str, str]] = set()
@@ -177,6 +201,9 @@ def main() -> int:
 
     for song in songs:
         candidates = select_song_candidates(song, discovered)
+        for candidate in fallback_song_candidates(song):
+            if candidate not in candidates:
+                candidates.append(candidate)
         try:
             detail_url, detail_html = choose_song_detail(song, candidates, client)
             if not detail_url:

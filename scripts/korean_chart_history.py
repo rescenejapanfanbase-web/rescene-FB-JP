@@ -19,6 +19,24 @@ GUYSO_SOURCE = {
     "role": "historical-backfill",
 }
 
+# Stable Melon song IDs for the RESCENE songs currently managed by this site.
+# These are only a fallback when Guyso's artist list is rendered client-side or
+# returns a bot-reduced page. Every candidate is validated against the detail
+# page title/release date before history is imported.
+RESCENE_MELON_FALLBACK_IDS: dict[str, str] = {
+    "uhuh": "37348529",
+    "yoyo": "37348528",
+    "love-attack": "37928381",
+    "pinball": "37928383",
+    "glow-up": "38522796",
+    "deja-vu": "39231685",
+    "heart-drop": "600442746",
+    "bloom": "600568257",
+    "busy-boy": "601395707",
+    "runaway": "601719493",
+    "pretty-girl": "602450078",
+}
+
 HISTORY_ROUTE_PATTERNS: dict[str, re.Pattern[str]] = {
     "melon": re.compile(r"/chart/melon/top100/trend/ranking/[^/?#]+"),
     "genie": re.compile(r"/chart/genie/realtime/trend/ranking/[^/?#]+"),
@@ -42,22 +60,146 @@ def parse_release_date(html: str) -> str:
     return "-".join(match.groups()) if match else ""
 
 
+def _candidate_title(element: Any) -> str:
+    """Best-effort title extraction from a song card/row."""
+    image = element.find("img") if hasattr(element, "find") else None
+    for value in (
+        image.get("alt") if image else "",
+        element.get("data-title") if hasattr(element, "get") else "",
+        element.get("title") if hasattr(element, "get") else "",
+    ):
+        value = str(value or "").strip()
+        if value:
+            return value
+    text = element.get_text(" ", strip=True) if hasattr(element, "get_text") else ""
+    text = re.sub(r"\bRESCENE\s*\(리센느\).*", "", text, flags=re.I).strip()
+    return text
+
+
+def _walk_json_song_routes(node: Any, add: Any) -> None:
+    """Find title + /song/melon/<id> pairs inside one JSON object."""
+    if isinstance(node, dict):
+        title = ""
+        for key in ("songName", "title", "name", "trackName"):
+            value = node.get(key)
+            if isinstance(value, str) and value.strip():
+                title = value.strip()
+                break
+        routes: list[str] = []
+        for value in node.values():
+            if isinstance(value, str):
+                routes.extend(match.group(0) for match in re.finditer(r"/song/melon/\d+", value))
+        if title:
+            for route in routes:
+                add(title, route)
+        for value in node.values():
+            _walk_json_song_routes(value, add)
+    elif isinstance(node, list):
+        for value in node:
+            _walk_json_song_routes(value, add)
+
+
 def discover_melon_song_candidates(html: str) -> dict[str, list[str]]:
+    """Discover song detail URLs from normal links, JS attributes and JSON."""
     soup = BeautifulSoup(html, "html.parser")
     found: dict[str, list[str]] = {}
-    for anchor in soup.select('a[href*="/song/melon/"]'):
-        href = str(anchor.get("href") or "")
-        if not re.search(r"/song/melon/\d+", href):
-            continue
-        image = anchor.find("img")
-        title = str((image.get("alt") if image else "") or anchor.get_text(" ", strip=True)).strip()
+
+    def add(title: str, href: str) -> None:
+        route_match = re.search(r"/song/melon/\d+", str(href or ""))
+        if not route_match:
+            return
         key = compact(title)
         if not key:
-            continue
-        url = absolute_url(href)
+            return
+        url = absolute_url(route_match.group(0))
         if url not in found.setdefault(key, []):
             found[key].append(url)
+
+    # Traditional anchors.
+    for anchor in soup.select('a[href*="/song/melon/"]'):
+        add(_candidate_title(anchor), str(anchor.get("href") or ""))
+
+    # Some Guyso layouts keep the route in onclick/data-* attributes rather
+    # than href. Inspect all attributes and use the closest card/row text.
+    for element in soup.find_all(True):
+        attrs = getattr(element, "attrs", {}) or {}
+        values: list[str] = []
+        for raw in attrs.values():
+            if isinstance(raw, (list, tuple)):
+                values.extend(str(item) for item in raw)
+            else:
+                values.append(str(raw))
+        joined = " ".join(values)
+        if "/song/melon/" not in joined:
+            continue
+        container = element.find_parent(["tr", "li", "article"]) or element.find_parent("div") or element
+        for match in re.finditer(r"/song/melon/\d+", joined):
+            add(_candidate_title(container), match.group(0))
+
+    # Parse framework state/scripts as real JSON where possible. Keeping the
+    # pairing inside the same JSON object avoids associating one title with a
+    # different song route elsewhere in a large hydration payload.
+    for script in soup.find_all("script"):
+        raw = script.string if script.string is not None else script.get_text("", strip=False)
+        raw = str(raw or "").strip()
+        if not raw or "/song/melon/" not in raw:
+            continue
+        candidates = [raw]
+        # Common assignment wrappers: window.__DATA__ = {...};
+        first_brace = raw.find("{")
+        last_brace = raw.rfind("}")
+        if 0 <= first_brace < last_brace:
+            candidates.append(raw[first_brace:last_brace + 1])
+        parsed = False
+        for candidate in candidates:
+            try:
+                payload = json.loads(candidate)
+            except (json.JSONDecodeError, TypeError):
+                continue
+            _walk_json_song_routes(payload, add)
+            parsed = True
+            break
+        if parsed:
+            continue
+
+        # Conservative fallback for JavaScript object literals. Do not cross
+        # object boundaries, which could mismatch titles and routes.
+        object_chunks = re.findall(r"\{[^{}]{0,1200}/song/melon/\d+[^{}]{0,1200}\}", raw, flags=re.S)
+        for chunk in object_chunks:
+            route = re.search(r"/song/melon/\d+", chunk)
+            title_match = re.search(
+                r'["\'](?:songName|title|name|trackName)["\']\s*:\s*["\']([^"\']+)["\']',
+                chunk,
+                flags=re.I,
+            )
+            if route and title_match:
+                add(title_match.group(1), route.group(0))
+
     return found
+
+
+def fallback_song_candidates(song: dict[str, Any]) -> list[str]:
+    """Return explicit/known Melon detail URLs, ordered by strongest signal."""
+    identifiers: list[str] = []
+    external = str((song.get("externalIds") or {}).get("melon") or "").strip()
+    match = re.search(r"(\d{5,})", external)
+    if match:
+        identifiers.append(match.group(1))
+    fallback = RESCENE_MELON_FALLBACK_IDS.get(str(song.get("id") or ""))
+    if fallback and fallback not in identifiers:
+        identifiers.append(fallback)
+    return [f"{GUYSO_BASE}/song/melon/{identifier}" for identifier in identifiers]
+
+
+def parse_song_title(html: str) -> str:
+    soup = BeautifulSoup(html, "html.parser")
+    title_text = soup.title.get_text(" ", strip=True) if soup.title else ""
+    match = re.search(r"곡 상세정보\s*>\s*(.+?)\s*-\s*RESCENE", title_text, flags=re.I)
+    if match:
+        return match.group(1).strip()
+    text = soup.get_text(" ", strip=True)
+    match = re.search(r"\bTITLE\s+(.+?)\s+RESCENE\s*\(리센느\)", text, flags=re.I)
+    return match.group(1).strip() if match else ""
 
 
 def select_song_candidates(song: dict[str, Any], discovered: dict[str, list[str]]) -> list[str]:
@@ -72,14 +214,27 @@ def select_song_candidates(song: dict[str, Any], discovered: dict[str, list[str]
 
 
 def discover_history_links(html: str) -> dict[str, str]:
+    """Find historical trend routes in links, data attributes or hydration HTML."""
     soup = BeautifulSoup(html, "html.parser")
     links: dict[str, str] = {}
-    for anchor in soup.select("a[href]"):
-        href = str(anchor.get("href") or "")
+
+    def inspect(value: str) -> None:
         for chart_id, pattern in HISTORY_ROUTE_PATTERNS.items():
-            match = pattern.search(href)
+            match = pattern.search(str(value or ""))
             if match and chart_id not in links:
                 links[chart_id] = absolute_url(match.group(0))
+
+    for element in soup.find_all(True):
+        attrs = getattr(element, "attrs", {}) or {}
+        for raw in attrs.values():
+            if isinstance(raw, (list, tuple)):
+                for item in raw:
+                    inspect(str(item))
+            else:
+                inspect(str(raw))
+
+    # Client-rendered builds can leave routes only inside serialized script data.
+    inspect(html)
     return links
 
 
