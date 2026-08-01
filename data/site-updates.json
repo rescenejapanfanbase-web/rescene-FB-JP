@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-01T14:47:43.671846+00:00",
+  "generatedAt": "2026-08-01T15:44:11.124931+00:00",
   "items": [
+    {
+      "date": "2026-08-02",
+      "title": "Add files via upload",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "90f7a03",
+      "files": [
+        ".github/workflows/korean-chart-watchdog.yml",
+        ".github/workflows/sync-korean-charts.yml"
+      ]
+    },
     {
       "date": "2026-08-01",
       "title": "韓国チャート毎時自動同期を追加",
@@ -15,7 +25,7 @@
       "date": "2026-08-01",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "a6ceff6",
+      "commit": "303811e",
       "files": [
         "data/external-link-report.json"
       ]
@@ -40,16 +50,16 @@
       "date": "2026-08-01",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "60e19a9",
+      "commit": "77e7d13",
       "files": [
-        "404.html",
         "__pycache__/check-site-links.cpython-313.pyc",
-        "about.html",
-        "analytics.html",
-        "article.html",
-        "articles/busy-boy-release.html",
-        "articles/dearest-release.html",
-        "articles/fanbase-site.html"
+        "data/home-guides.json",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/seo-status.json",
+        "data/site-updates-data.js"
       ]
     },
     {
@@ -65,36 +75,30 @@
       "date": "2026-08-01",
       "title": "chore: backfill Korean chart history",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "e1a0376",
+      "commit": "8c8b8c3",
       "files": [
         "data/korean-chart-config.json",
         "data/korean-chart-history/bloom--youtube-kr.json",
         "data/korean-chart-history/busy-boy--youtube-kr.json",
+        "data/korean-chart-history/deja-vu--bugs-daily.json",
         "data/korean-chart-history/deja-vu--bugs.json",
         "data/korean-chart-history/deja-vu--flo.json",
-        "data/korean-chart-history/deja-vu--genie.json",
-        "data/korean-chart-history/deja-vu--melon.json",
-        "data/korean-chart-history/deja-vu--vibe.json"
+        "data/korean-chart-history/deja-vu--genie-daily.json",
+        "data/korean-chart-history/deja-vu--genie.json"
       ]
     },
     {
       "date": "2026-08-01",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "9e6ca8c",
+      "commit": "ed7558e",
       "files": [
-        "GUYSO-BACKFILL-COMPACT-NAMEERROR-HOTFIX-20260801.txt",
-        "scripts/backfill-korean-chart-history.py",
-        "scripts/test-korean-chart-history.py"
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "203b783",
-      "files": [
-        "data/external-link-report.json"
+        "css/korean-charts.css",
+        "js/korean-charts.js",
+        "korean-charts.html",
+        "scripts/korean_chart_core.py",
+        "scripts/sync-korean-charts.py",
+        "scripts/test-korean-chart-sync.py"
       ]
     },
     {

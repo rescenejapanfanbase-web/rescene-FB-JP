@@ -1,5 +1,5 @@
 window.RESCENE_HOMEPAGE = {
-  "generatedAt": "2026-08-01T14:34:19.231Z",
+  "generatedAt": "2026-08-01T15:44:09.651Z",
   "source": "notion",
   "dataSourceId": "1a98fbc6-21d6-4a11-8ed9-19b228250182",
   "notionDatabaseUrl": "https://app.notion.com/p/23afd46c4c68443d89de65c74f605d68",
@@ -846,6 +846,34 @@ window.RESCENE_HOMEPAGE = {
         },
         "notionPageId": "3ae229d2-19da-81b9-b6d1-d1febeb0900f",
         "notionUrl": "https://app.notion.com/p/3ae229d219da81b9b6d1d1febeb0900f"
+      },
+      "korean-charts": {
+        "slug": "page-korean-charts",
+        "title": "ページ：韓国チャート",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "韓国チャート",
+        "description": "RESCENEの楽曲について、Melon・Genie・Bugs・FLO・VIBE・YouTube Music Korea・Spotify Koreaの現在順位と推移を掲載しています。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "korean-charts.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-korean-charts",
+        "order": 3011,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3af229d2-19da-81c7-8c4c-dc2282505c7c",
+        "notionUrl": "https://app.notion.com/p/3af229d219da81c78c4cdc2282505c7c"
       },
       "voting": {
         "slug": "page-voting",
