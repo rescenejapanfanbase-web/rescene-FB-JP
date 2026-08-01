@@ -1,9 +1,9 @@
 window.RESCENE_SCHEDULE_PAYLOAD = {
-  "generatedAt": "2026-08-01T09:47:50.753Z",
+  "generatedAt": "2026-08-01T13:51:16.116Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
-    "notion": 39,
+    "notion": 43,
     "plusChatAvailable": 49,
     "plusChatAdded": 30,
     "plusChatDuplicates": 19
@@ -1122,6 +1122,38 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
       "source": "notion"
     },
     {
+      "id": "3af229d2-19da-802e-b4b2-fceaaa75848a",
+      "title": "2026 K-WORLD DREAM AWARDS(KWDA)",
+      "date": "2026-08-27",
+      "start": "2026-08-27",
+      "end": "",
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://x.com/kwda_official/status/2079125824645873893?s=46",
+      "linkLabel": "公式のポストを見る",
+      "image": "",
+      "translations": {},
+      "notionUrl": "https://app.notion.com/p/2026-K-WORLD-DREAM-AWARDS-KWDA-3af229d219da802eb4b2fceaaa75848a",
+      "source": "notion"
+    },
+    {
+      "id": "3af229d2-19da-8084-a9df-ec3d8bb30680",
+      "title": "SPOTV K-POP AWARDS(SKA)",
+      "date": "2026-09-06",
+      "start": "2026-09-06",
+      "end": "",
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://x.com/ska_spotv/status/2083013556250054837?s=46",
+      "linkLabel": "公式のポストを見る",
+      "image": "",
+      "translations": {},
+      "notionUrl": "https://app.notion.com/p/SPOTV-K-POP-AWARDS-SKA-3af229d219da8084a9dfec3d8bb30680",
+      "source": "notion"
+    },
+    {
       "id": "3a4229d2-19da-80aa-96ec-e26ef4a93b6d",
       "title": "2026 THE FACT MUSIC AWARDS(TMA)",
       "date": "2026-09-19",
@@ -1202,6 +1234,38 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
       "image": "",
       "translations": {},
       "notionUrl": "https://app.notion.com/p/MINAMI-HappyBirthday-39d229d219da80128502cae3d171a6b3",
+      "source": "notion"
+    },
+    {
+      "id": "3af229d2-19da-80d7-aa16-f3daf99c0fb3",
+      "title": "Asia Artist Awards(AAA)2026",
+      "date": "2026-12-05",
+      "start": "2026-12-05",
+      "end": "",
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://x.com/starnewskorea/status/2082587232188428707?s=46",
+      "linkLabel": "公式のポストを見る",
+      "image": "",
+      "translations": {},
+      "notionUrl": "https://app.notion.com/p/Asia-Artist-Awards-AAA-2026-3af229d219da80d7aa16f3daf99c0fb3",
+      "source": "notion"
+    },
+    {
+      "id": "3af229d2-19da-80e9-9b35-c30e2efa49a8",
+      "title": "Asia Artist Awards(AAA)2026",
+      "date": "2026-12-06",
+      "start": "2026-12-06",
+      "end": "",
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://x.com/starnewskorea/status/2082587232188428707?s=46",
+      "linkLabel": "公式のポストを見る",
+      "image": "",
+      "translations": {},
+      "notionUrl": "https://app.notion.com/p/Asia-Artist-Awards-AAA-2026-3af229d219da80e99b35c30e2efa49a8",
       "source": "notion"
     }
   ]
