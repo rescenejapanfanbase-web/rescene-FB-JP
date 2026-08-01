@@ -94,7 +94,7 @@ PAGE_META = {
     },
     "records.html": {
         "title": f"記録 | {SITE_NAME}",
-        "description": "RESCENEの音楽番組1位獲得記録とMelonチャート記録を、映像・最高順位・MVリンクとともに掲載しています。",
+        "description": "RESCENEの音楽番組1位獲得記録、Melon記録、韓国主要チャートの最新順位と推移を掲載しています。",
         "image": "news/the-show-first-win.jpeg",
         "label": "RESCENE RECORDS",
         "priority": "0.8",
@@ -115,6 +115,14 @@ PAGE_META = {
         "label": "MELON CHART RECORDS",
         "priority": "0.8",
         "changefreq": "daily",
+    },
+    "korean-charts.html": {
+        "title": f"韓国チャート | {SITE_NAME}",
+        "description": "RESCENEの楽曲について、Melon・Genie・Bugs・FLO・VIBE・YouTube Music Korea・Spotify Koreaの現在順位と推移を掲載しています。",
+        "image": "assets/mv/pretty-girl.jpg",
+        "label": "KOREAN CHART TRACKER",
+        "priority": "0.9",
+        "changefreq": "hourly",
     },
     "streaming.html": {
         "title": f"ストリーミングガイド | {SITE_NAME}",

@@ -1,140 +1,14 @@
 {
-  "generatedAt": "2026-08-01T11:50:00.906007+00:00",
+  "generatedAt": "2026-08-01T02:39:52.948413+00:00",
   "items": [
     {
       "date": "2026-08-01",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "d97cccf",
+      "title": "韓国チャート毎時自動同期を追加",
+      "description": "Melon・Genie・Bugs・FLO・VIBE・YouTube Music Korea・Spotify KoreaからRESCENEの対象曲だけを取得し、順位・前回比・最高順位・圏外履歴・推移グラフを保存する機能を追加しました。",
       "files": [
-        "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "7d0d9d5",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/quality-report.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc",
-        "scripts/__pycache__/check-site-links.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "cab7e68",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/quality-report.json",
-        "data/seo-status.json",
-        "data/site-updates-data.js"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "48ae443",
-      "files": [
-        "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Add files via upload",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "94dbe01",
-      "files": [
-        "MELON-RECORDS-SORT-UPDATE-20260801.txt",
-        "css/common.css",
-        "js/melon-records.js",
-        "melon-records.html",
-        "scripts/check-requested-regressions.py",
-        "scripts/generate-pwa.py",
-        "scripts/generate-seo.py",
-        "scripts/render-record-pages.mjs"
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "203b783",
-      "files": [
-        "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "c204538",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/pluschat-schedule.json",
-        "data/quality-report.json",
-        "data/rescene-schedule.ics",
-        "data/schedule-data.js",
-        "data/schedule.json"
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "57c43ba",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/home-guides.json",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json"
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "dfb93ae",
-      "files": [
-        "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "title": "Add files via upload",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "90480ab",
-      "files": [
-        "data/records-manual.json",
-        "scripts/check-requested-regressions.py",
-        "scripts/sync-notion-records.mjs"
-      ]
-    },
-    {
-      "date": "2026-07-30",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "58608f3",
-      "files": [
-        "data/external-link-report.json"
+        "korean-charts.html",
+        "sync-korean-charts.yml",
+        "korean-chart-watchdog.yml"
       ]
     },
     {

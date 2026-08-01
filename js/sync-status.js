@@ -23,6 +23,26 @@
         };
       },
     },
+    koreancharts:{
+      workflow:'sync-korean-charts.yml',
+      dataUrl:'data/korean-charts.json',
+      parseData(data){
+        const entries=Array.isArray(data?.entries)?data.entries:[];
+        const charting=entries.filter(item=>item?.status==='in').length;
+        const statuses=Object.values(data?.sourceStatus||{});
+        const stale=statuses.filter(item=>item?.ok===false).length;
+        const chartCount=Number(data?.summary?.chartCount)||0;
+        const songCount=Number(data?.summary?.publishedSongs)||0;
+        const pending=!data?.generatedAt;
+        return {
+          count:pending?'初回待ち':`${charting}件`,
+          detail:`${chartCount}チャート / ${songCount}曲 / 前回値維持 ${stale}件`,
+          generatedAt:data?.generatedAt||null,
+          state:pending?'warning':stale?'warning':'success',
+          message:pending?'初回同期前です。Notion管理DBとRepository Variableを接続してください。':stale?`${stale}チャートで取得に失敗したため、前回の正常データを維持しています。`:`韓国主要チャートからRESCENEの楽曲だけを抽出し、順位履歴を保存しています。`,
+        };
+      },
+    },
     schedule:{
       workflow:'sync-schedule.yml',
       dataUrl:'data/schedule.json',

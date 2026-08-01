@@ -6,9 +6,9 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 STRATEGY_VERSION='dynamic-network-first-v2'
 core=[
- '/', '/index.html','/offline.html','/schedule.html','/news.html','/discography.html','/mv.html','/records.html','/music-show-wins.html','/melon-records.html','/streaming.html','/voting.html','/chants.html','/members.html','/links.html','/fan-services.html','/favorites.html','/search.html',
- '/css/common.css','/css/home-latest.css','/css/search.css','/css/notion-theme.css','/js/common.js','/js/i18n.js','/js/site-content.js','/js/schedule.js','/js/melon-records.js','/js/image-optimizer.js','/manifest.webmanifest','/assets/icons/app-icon-192.png','/assets/icons/app-icon-512.png',
- '/data/homepage.json','/data/homepage-data.js','/data/language-catalog.json','/data/language-catalog-data.js','/data/news.json','/data/schedule.json','/data/schedule-data.js','/data/members.json','/data/discography.json','/data/chants.json','/data/voting-guide.json','/data/mv.json','/data/records.json'
+ '/', '/index.html','/offline.html','/schedule.html','/news.html','/discography.html','/mv.html','/records.html','/music-show-wins.html','/melon-records.html','/korean-charts.html','/streaming.html','/voting.html','/chants.html','/members.html','/links.html','/fan-services.html','/favorites.html','/search.html',
+ '/css/common.css','/css/home-latest.css','/css/search.css','/css/notion-theme.css','/css/korean-charts.css','/js/common.js','/js/i18n.js','/js/site-content.js','/js/schedule.js','/js/melon-records.js','/js/korean-charts.js','/js/image-optimizer.js','/manifest.webmanifest','/assets/icons/app-icon-192.png','/assets/icons/app-icon-512.png',
+ '/data/homepage.json','/data/homepage-data.js','/data/language-catalog.json','/data/language-catalog-data.js','/data/news.json','/data/schedule.json','/data/schedule-data.js','/data/members.json','/data/discography.json','/data/chants.json','/data/voting-guide.json','/data/mv.json','/data/records.json','/data/korean-charts.json','/data/korean-charts-data.js'
 ]
 existing=[]
 for url in core:

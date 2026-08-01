@@ -1,0 +1,72 @@
+body.page-korean-charts .chart-overview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:28px}
+body.page-korean-charts .chart-overview-card{display:flex;flex-direction:column;justify-content:center;min-height:142px;padding:22px}
+body.page-korean-charts .chart-overview-card small{color:var(--pink-soft);font-size:.72rem;letter-spacing:.12em}
+body.page-korean-charts .chart-overview-card strong{font-size:2rem;line-height:1.15;margin:7px 0}
+body.page-korean-charts .chart-overview-card span{color:var(--muted);font-size:.82rem}
+body.page-korean-charts .chart-overview-card .chart-overview-time{font-size:1rem;line-height:1.45}
+body.page-korean-charts .section-note{color:var(--muted);font-size:.83rem;margin:0;max-width:440px;text-align:right}
+body.page-korean-charts .chart-source-status{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+body.page-korean-charts .chart-source-card{align-items:center;background:var(--soft-bg);border:1px solid var(--border);border-radius:17px;display:grid;gap:8px;grid-template-columns:minmax(0,1fr) auto;padding:15px 16px}
+body.page-korean-charts .chart-source-card strong{font-size:.9rem}
+body.page-korean-charts .chart-source-card small{color:var(--muted);display:block;font-size:.69rem;grid-column:1/-1;line-height:1.45}
+body.page-korean-charts .source-pill{border:1px solid var(--border);border-radius:999px;font-size:.68rem;font-weight:900;padding:5px 8px;white-space:nowrap}
+body.page-korean-charts .source-pill.is-fresh{background:rgba(143,227,202,.11);color:var(--green)}
+body.page-korean-charts .source-pill.is-stale{background:rgba(255,185,112,.10);color:#ffc58a}
+body.page-korean-charts .source-pill.is-waiting{color:var(--muted)}
+body.page-korean-charts .chart-control-panel{align-items:end;display:flex;gap:22px;justify-content:space-between;margin-bottom:18px;padding:18px 20px}
+body.page-korean-charts .chart-view-tabs{background:rgba(255,255,255,.035);border:1px solid var(--border);border-radius:999px;display:flex;padding:4px}
+body.page-korean-charts .chart-view-tab{background:transparent;border:0;border-radius:999px;color:var(--muted);cursor:pointer;font-size:.82rem;font-weight:900;padding:9px 15px}
+body.page-korean-charts .chart-view-tab.is-active{background:linear-gradient(120deg,var(--pink),var(--purple));color:#160b14}
+body.page-korean-charts .chart-selectors{align-items:end;display:flex;flex:1;gap:12px;justify-content:flex-end}
+body.page-korean-charts .chart-selector{display:flex;flex-direction:column;gap:5px;min-width:180px}
+body.page-korean-charts .chart-selector span{color:var(--muted);font-size:.7rem;font-weight:800}
+body.page-korean-charts .chart-selector select{appearance:none;background:var(--card2);border:1px solid var(--border);border-radius:12px;color:var(--text);font:inherit;font-size:.82rem;font-weight:800;padding:10px 34px 10px 12px}
+body.page-korean-charts .chart-selector.is-hidden{display:none}
+body.page-korean-charts .chart-data-message{color:var(--muted);margin-bottom:18px;padding:20px;text-align:center}
+body.page-korean-charts .chart-rank-list{display:grid;gap:12px}
+body.page-korean-charts .chart-rank-card{align-items:center;display:grid;gap:14px;grid-template-columns:82px minmax(160px,1.4fr) repeat(4,minmax(90px,.7fr)) auto;padding:18px 20px;transition:border-color .2s,transform .2s}
+body.page-korean-charts .chart-rank-card:hover{border-color:rgba(255,111,174,.38);transform:translateY(-2px)}
+body.page-korean-charts .chart-rank-main{align-items:center;display:flex;gap:8px}
+body.page-korean-charts .chart-rank-number{font-size:1.65rem;font-weight:900;line-height:1}
+body.page-korean-charts .chart-rank-number.is-out{color:var(--muted);font-size:.9rem}
+body.page-korean-charts .chart-movement{border-radius:999px;font-size:.67rem;font-weight:900;padding:4px 7px}
+body.page-korean-charts .chart-movement.is-up{background:rgba(143,227,202,.11);color:var(--green)}
+body.page-korean-charts .chart-movement.is-down{background:rgba(255,111,174,.10);color:#ff9fc9}
+body.page-korean-charts .chart-movement.is-same{background:rgba(255,255,255,.05);color:var(--muted)}
+body.page-korean-charts .chart-movement.is-new{background:rgba(200,164,255,.13);color:var(--purple)}
+body.page-korean-charts .chart-rank-copy small{color:var(--pink-soft);display:block;font-size:.68rem;letter-spacing:.08em}
+body.page-korean-charts .chart-rank-copy h3{font-size:1.02rem;margin:2px 0 0}
+body.page-korean-charts .chart-rank-stat{display:flex;flex-direction:column;gap:2px}
+body.page-korean-charts .chart-rank-stat span{color:var(--muted);font-size:.65rem}
+body.page-korean-charts .chart-rank-stat strong{font-size:.83rem}
+body.page-korean-charts .chart-history-button{background:var(--soft-bg);border:1px solid var(--border);border-radius:999px;color:var(--text);cursor:pointer;font-size:.72rem;font-weight:900;padding:9px 12px;white-space:nowrap}
+body.page-korean-charts .chart-history-button:hover{border-color:var(--pink);color:var(--pink-soft)}
+body.page-korean-charts .chart-history-panel{padding:24px}
+body.page-korean-charts .chart-history-head{align-items:flex-start;display:flex;gap:20px;justify-content:space-between;margin-bottom:18px}
+body.page-korean-charts .chart-history-head small{color:var(--pink-soft);font-size:.7rem;letter-spacing:.1em}
+body.page-korean-charts .chart-history-head h3{font-size:1.35rem;margin:3px 0 0}
+body.page-korean-charts .chart-history-legend{align-items:center;color:var(--muted);display:flex;font-size:.7rem;gap:14px}
+body.page-korean-charts .chart-history-legend span{align-items:center;display:flex;gap:6px}
+body.page-korean-charts .legend-line,body.page-korean-charts .legend-gap{display:inline-block;height:3px;width:18px}
+body.page-korean-charts .legend-line{background:var(--pink)}
+body.page-korean-charts .legend-gap{border-top:2px dashed var(--muted)}
+body.page-korean-charts .chart-svg-wrap{background:rgba(0,0,0,.12);border:1px solid var(--border);border-radius:18px;min-height:330px;overflow:hidden;padding:12px}
+body.page-korean-charts .chart-svg{display:block;height:auto;min-width:620px;width:100%}
+body.page-korean-charts .chart-grid-line{stroke:rgba(255,255,255,.09);stroke-width:1}
+body.page-korean-charts .chart-axis-label{fill:var(--muted);font-size:11px}
+body.page-korean-charts .chart-rank-line{fill:none;stroke:var(--pink);stroke-linecap:round;stroke-linejoin:round;stroke-width:3}
+body.page-korean-charts .chart-rank-point{fill:var(--card);stroke:var(--pink-soft);stroke-width:3}
+body.page-korean-charts .chart-empty{align-items:center;color:var(--muted);display:flex;justify-content:center;margin:0;min-height:300px;text-align:center}
+body.page-korean-charts .chart-history-stats{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-top:14px}
+body.page-korean-charts .chart-history-stat{background:var(--soft-bg);border:1px solid var(--border);border-radius:14px;padding:12px}
+body.page-korean-charts .chart-history-stat span{color:var(--muted);display:block;font-size:.65rem}
+body.page-korean-charts .chart-history-stat strong{display:block;font-size:.88rem;margin-top:3px}
+body.page-korean-charts .chart-out-history{margin-top:18px}
+body.page-korean-charts .chart-out-history h4{font-size:.84rem;margin:0 0 8px}
+body.page-korean-charts .chart-out-list{display:flex;flex-wrap:wrap;gap:8px}
+body.page-korean-charts .chart-out-chip{background:rgba(255,255,255,.035);border:1px solid var(--border);border-radius:999px;color:var(--muted);font-size:.68rem;padding:7px 10px}
+body.page-korean-charts .chart-note-card{padding:26px}
+body.page-korean-charts .chart-note-card p{color:var(--muted);font-size:.86rem;margin:12px 0 0}
+@media(max-width:1000px){body.page-korean-charts .chart-overview{grid-template-columns:repeat(2,minmax(0,1fr))}body.page-korean-charts .chart-source-status{grid-template-columns:repeat(2,minmax(0,1fr))}body.page-korean-charts .chart-rank-card{grid-template-columns:72px minmax(180px,1.5fr) repeat(2,minmax(90px,.7fr)) auto}body.page-korean-charts .chart-rank-stat:nth-of-type(3),body.page-korean-charts .chart-rank-stat:nth-of-type(4){display:none}}
+@media(max-width:760px){body.page-korean-charts .section-head{align-items:flex-start;flex-direction:column}body.page-korean-charts .section-note{text-align:left}body.page-korean-charts .chart-control-panel{align-items:stretch;flex-direction:column}body.page-korean-charts .chart-selectors{display:grid;grid-template-columns:1fr 1fr;justify-content:stretch}body.page-korean-charts .chart-selector{min-width:0}body.page-korean-charts .chart-selector:first-child{grid-column:1/-1}body.page-korean-charts .chart-rank-card{grid-template-columns:64px minmax(0,1fr) auto}body.page-korean-charts .chart-rank-stat{display:none!important}body.page-korean-charts .chart-history-stats{grid-template-columns:repeat(2,minmax(0,1fr))}body.page-korean-charts .chart-svg-wrap{overflow-x:auto}}
+@media(max-width:520px){body.page-korean-charts .chart-overview,body.page-korean-charts .chart-source-status{grid-template-columns:1fr}body.page-korean-charts .chart-overview-card{min-height:112px}body.page-korean-charts .chart-selectors{grid-template-columns:1fr}body.page-korean-charts .chart-selector:first-child{grid-column:auto}body.page-korean-charts .chart-rank-card{gap:10px;padding:15px}body.page-korean-charts .chart-rank-number{font-size:1.35rem}body.page-korean-charts .chart-history-head{flex-direction:column}body.page-korean-charts .chart-history-panel{padding:16px}}

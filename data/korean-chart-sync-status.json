@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "",
+  "workflow": "Sync Korean Charts",
+  "ok": false,
+  "partial": false,
+  "state": "not-run",
+  "message": "初回同期前です。",
+  "successfulCharts": [],
+  "failedCharts": {},
+  "sourceStatus": {}
+}

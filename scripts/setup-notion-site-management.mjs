@@ -4,6 +4,7 @@ const token = process.env.NOTION_TOKEN;
 const homepageDataSourceId = process.env.NOTION_HOMEPAGE_DATA_SOURCE_ID || "1a98fbc6-21d6-4a11-8ed9-19b228250182";
 const votingDataSourceId = process.env.NOTION_VOTING_DATA_SOURCE_ID || "8e870649-722b-45aa-9b0f-3da6d51b139b";
 const recordsDataSourceId = process.env.NOTION_RECORDS_DATA_SOURCE_ID || "12dd657f-8ca2-44b0-a10f-ee099ca9a799";
+const koreanChartsDataSourceId = process.env.NOTION_KOREAN_CHARTS_DATA_SOURCE_ID || "";
 const notionVersion = "2026-03-11";
 const dryRun = /^(?:1|true|yes|dry-run)$/i.test(process.env.NOTION_SETUP_DRY_RUN || "true");
 if (!token) throw new Error("NOTION_TOKEN が設定されていません。");
@@ -44,6 +45,7 @@ function valueForType(definition, value) {
   if (type === "checkbox") return { checkbox: Boolean(value) };
   if (type === "url") return { url: value || null };
   if (type === "select") return { select: value ? { name: String(value) } : null };
+  if (type === "multi_select") return { multi_select: Array.isArray(value) ? value.filter(Boolean).map((name) => ({ name: String(name) })) : String(value || "").split(/[|｜,，、;；\n]+/).map((name) => name.trim()).filter(Boolean).map((name) => ({ name })) };
   if (type === "date") return { date: value ? { start: String(value).slice(0, 10) } : null };
   return richText(value);
 }
@@ -100,7 +102,7 @@ async function ensureHomepageSchemaAndRows() {
     "見出し（韓国語）": item.translations?.ko?.heading || "", "見出し（英語）": item.translations?.en?.heading || "",
   }));
 
-  const managedFiles = ["index.html", "about.html", "members.html", "schedule.html", "news.html", "discography.html", "mv.html", "youtube.html", "records.html", "music-show-wins.html", "melon-records.html", "streaming.html", "voting.html", "chants.html", "links.html", "fan-services.html", "contact.html", "search.html", "favorites.html", "updates.html", "sync-status.html", "external-links.html", "analytics.html"];
+  const managedFiles = ["index.html", "about.html", "members.html", "schedule.html", "news.html", "discography.html", "mv.html", "youtube.html", "records.html", "music-show-wins.html", "melon-records.html", "korean-charts.html", "streaming.html", "voting.html", "chants.html", "links.html", "fan-services.html", "contact.html", "search.html", "favorites.html", "updates.html", "sync-status.html", "external-links.html", "analytics.html"];
   const pageRows = [];
   for (const file of managedFiles) {
     try {
@@ -122,6 +124,69 @@ async function ensureHomepageSchemaAndRows() {
     console.log(`作成: ${title}${anchor ? ` / ${anchor}` : ""}`);
     await createPage(homepageDataSourceId, schema, row);
     titles.add(title); if (anchor) anchors.add(anchor);
+  }
+}
+
+
+async function ensureKoreanChartManagement() {
+  if (!koreanChartsDataSourceId) {
+    console.log("NOTION_KOREAN_CHARTS_DATA_SOURCE_ID が未設定のため、韓国チャート管理DBのセットアップはスキップします。");
+    return;
+  }
+  const source = await notion(`/data_sources/${koreanChartsDataSourceId}`);
+  let schema = source.properties || {};
+  const titleName = Object.entries(schema).find(([, definition]) => definition?.type === "title")?.[0];
+  if (!titleName) throw new Error("韓国チャート管理DBにタイトル列がありません。");
+  const definitions = {
+    "種別": { select: { options: [{ name: "楽曲" }, { name: "チャート" }] } },
+    "曲ID": { rich_text: {} },
+    "曲名": { rich_text: {} },
+    "検索別名": { rich_text: {} },
+    "アーティスト別名": { rich_text: {} },
+    "対象チャート": { multi_select: { options: [] } },
+    "公開": { checkbox: {} },
+    "表示順": { number: { format: "number" } },
+    "発売日": { date: {} },
+    "チャートID": { rich_text: {} },
+    "チャート名": { rich_text: {} },
+    "短縮名": { rich_text: {} },
+    "取得有効": { checkbox: {} },
+    "集計周期": { select: { options: [{ name: "hourly" }, { name: "daily" }, { name: "weekly" }] } },
+    "最大順位": { number: { format: "number" } },
+    "取得方式": { select: { options: [{ name: "mobile-api" }, { name: "web-api" }, { name: "official-playlist" }] } },
+    "外部ID": { rich_text: {} },
+    "備考": { rich_text: {} },
+  };
+  const missing = Object.fromEntries(Object.entries(definitions).filter(([name]) => !schema[name]));
+  if (Object.keys(missing).length) {
+    console.log(`韓国チャート管理DBへ不足列を${Object.keys(missing).length}件追加します。`);
+    await notion(`/data_sources/${koreanChartsDataSourceId}`, { method: "PATCH", body: { properties: missing } });
+    if (!dryRun) schema = (await notion(`/data_sources/${koreanChartsDataSourceId}`)).properties || schema;
+    else for (const [name, definition] of Object.entries(missing)) {
+      const type = Object.keys(definition)[0]; schema[name] = { type, ...definition };
+    }
+  }
+  const existing = await queryAll(koreanChartsDataSourceId);
+  const titles = new Set(existing.map((page) => propText(page.properties?.[titleName])));
+  const localConfig = JSON.parse(await readFile("data/korean-chart-config.json", "utf8"));
+  const rows = [
+    ...(localConfig.charts || []).map((chart) => ({
+      [titleName]: `チャート：${chart.name}`, "種別": "チャート", "チャートID": chart.id, "チャート名": chart.name, "短縮名": chart.shortName || chart.name,
+      "取得有効": chart.enabled !== false, "公開": chart.published !== false, "表示順": chart.order || 9999, "集計周期": chart.cadence || "hourly",
+      "最大順位": chart.maxRank || 100, "取得方式": chart.sourceMode || "", "備考": "取得失敗時は前回の正常データを維持します。",
+    })),
+    ...(localConfig.songs || []).map((song) => ({
+      [titleName]: `楽曲：${song.title}`, "種別": "楽曲", "曲ID": song.id, "曲名": song.title, "検索別名": (song.aliases || []).join("｜"),
+      "アーティスト別名": (song.artistAliases || ["RESCENE", "리센느"]).join("｜"), "対象チャート": song.charts || [], "公開": song.published !== false,
+      "表示順": song.order || 9999, "発売日": song.releaseDate || "", "外部ID": Object.keys(song.externalIds || {}).length ? JSON.stringify(song.externalIds) : "",
+    })),
+  ];
+  for (const row of rows) {
+    const title = row[titleName];
+    if (titles.has(title)) continue;
+    console.log(`作成: ${title}`);
+    await createPage(koreanChartsDataSourceId, schema, row);
+    titles.add(title);
   }
 }
 
@@ -159,6 +224,7 @@ async function migrateDejaVu() {
 
 console.log(`Notion完全管理セットアップを開始します（${dryRun ? "DRY RUN" : "APPLY"}）。`);
 await ensureHomepageSchemaAndRows();
+await ensureKoreanChartManagement();
 await migrateVoting();
 await migrateDejaVu();
 console.log("Notion完全管理セットアップが完了しました。");

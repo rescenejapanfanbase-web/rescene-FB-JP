@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "",
+  "configSource": "local-seed",
+  "charts": [
+    {
+      "id": "melon",
+      "name": "Melon TOP100",
+      "shortName": "Melon",
+      "cadence": "hourly",
+      "maxRank": 100,
+      "enabled": true,
+      "published": true,
+      "order": 10,
+      "sourceMode": "mobile-api"
+    },
+    {
+      "id": "genie",
+      "name": "Genie Real-time",
+      "shortName": "Genie",
+      "cadence": "hourly",
+      "maxRank": 200,
+      "enabled": true,
+      "published": true,
+      "order": 20,
+      "sourceMode": "mobile-api"
+    },
+    {
+      "id": "bugs",
+      "name": "Bugs Real-time",
+      "shortName": "Bugs",
+      "cadence": "hourly",
+      "maxRank": 100,
+      "enabled": true,
+      "published": true,
+      "order": 30,
+      "sourceMode": "mobile-api"
+    },
+    {
+      "id": "flo",
+      "name": "FLO Chart",
+      "shortName": "FLO",
+      "cadence": "hourly",
+      "maxRank": 100,
+      "enabled": true,
+      "published": true,
+      "order": 40,
+      "sourceMode": "mobile-api"
+    },
+    {
+      "id": "vibe",
+      "name": "VIBE Today TOP 100",
+      "shortName": "VIBE",
+      "cadence": "daily",
+      "maxRank": 100,
+      "enabled": true,
+      "published": true,
+      "order": 50,
+      "sourceMode": "web-api"
+    },
+    {
+      "id": "youtube-kr",
+      "name": "YouTube Music Korea Top Songs",
+      "shortName": "YouTube Music",
+      "cadence": "weekly",
+      "maxRank": 100,
+      "enabled": true,
+      "published": true,
+      "order": 60,
+      "sourceMode": "official-playlist"
+    },
+    {
+      "id": "spotify-kr",
+      "name": "Spotify Top 50 South Korea",
+      "shortName": "Spotify",
+      "cadence": "daily",
+      "maxRank": 50,
+      "enabled": true,
+      "published": true,
+      "order": 70,
+      "sourceMode": "official-playlist"
+    }
+  ],
+  "songs": [
+    {
+      "id": "uhuh",
+      "title": "UhUh",
+      "aliases": [
+        "UhUh"
+      ],
+      "artistAliases": [
+        "RESCENE",
+        "리센느"
+      ],
+      "charts": [
+        "melon",
+        "genie",
+        "bugs",
+        "flo",
+        "vibe",
+        "youtube-kr",
+        "spotify-kr"
+      ],
+      "published": true,
+      "order": 10,
+      "releaseDate": "2024-03-26",
+      "externalIds": {},
+      "notionPageId": ""
+    },
+    {
+      "id": "yoyo",
+      "title": "YoYo",
+      "aliases": [
+        "YoYo"
+      ],
+      "artistAliases": [
+        "RESCENE",
+        "리센느"
+      ],
+      "charts": [
+        "melon",
+        "genie",
+        "bugs",
+        "flo",
+        "vibe",
+        "youtube-kr",
+        "spotify-kr"
+      ],
+      "published": true,
+      "order": 20,
+      "releaseDate": "2024-03-26",
+      "externalIds": {},
+      "notionPageId": ""
+    },
+    {
+      "id": "love-attack",
+      "title": "LOVE ATTACK",
+      "aliases": [
+        "LOVE ATTACK",
+        "Love Attack"
+      ],
+      "artistAliases": [
+        "RESCENE",
+        "리센느"
+      ],
+      "charts": [
+        "melon",
+        "genie",
+        "bugs",
+        "flo",
+        "vibe",
+        "youtube-kr",
+        "spotify-kr"
+      ],
+      "published": true,
+      "order": 30,
+      "releaseDate": "2024-08-27",
+      "externalIds": {},
+      "notionPageId": ""
+    },
+    {
+      "id": "pinball",
+      "title": "Pinball",
+      "aliases": [
+        "Pinball"
+      ],
+      "artistAliases": [
+        "RESCENE",
+        "리센느"
+      ],
+      "charts": [
+        "melon",
+        "genie",
+        "bugs",
+        "flo",
+        "vibe",
+        "youtube-kr",
+        "spotify-kr"
+      ],
+      "published": true,
+      "order": 40,
+      "releaseDate": "2024-08-27",
+      "externalIds": {},
+      "notionPageId": ""
+    },
+    {
+      "id": "glow-up",
+      "title": "Glow Up",
+      "aliases": [
+        "Glow Up"
+      ],
+      "artistAliases": [
+        "RESCENE",
+        "리센느"
+      ],
+      "charts": [
+        "melon",
+        "genie",
+        "bugs",
+        "flo",
+        "vibe",
+        "youtube-kr",
+        "spotify-kr"
+      ],
+      "published": true,
+      "order": 50,
+      "releaseDate": "2025-02-05",
+      "externalIds": {},
+      "notionPageId": ""
+    },
+    {
+      "id": "deja-vu",
+      "title": "Deja Vu",
+      "aliases": [
+        "Deja Vu",
+        "Déjà Vu",
+        "DEJA VU"
+      ],
+      "artistAliases": [
+        "RESCENE",
+        "리센느"
+      ],
+      "charts": [
+        "melon",
+        "genie",
+        "bugs",
+        "flo",
+        "vibe",
+        "youtube-kr",
+        "spotify-kr"
+      ],
+      "published": true,
+      "order": 60,
+      "releaseDate": "2025-07-02",
+      "externalIds": {},
+      "notionPageId": ""
+    },
+    {
+      "id": "heart-drop",
+      "title": "Heart Drop",
+      "aliases": [
+        "Heart Drop"
+      ],
+      "artistAliases": [
+        "RESCENE",
+        "리센느"
+      ],
+      "charts": [
+        "melon",
+        "genie",
+        "bugs",
+        "flo",
+        "vibe",
+        "youtube-kr",
+        "spotify-kr"
+      ],
+      "published": true,
+      "order": 70,
+      "releaseDate": "2025-11-25",
+      "externalIds": {},
+      "notionPageId": ""
+    },
+    {
+      "id": "bloom",
+      "title": "Bloom",
+      "aliases": [
+        "Bloom"
+      ],
+      "artistAliases": [
+        "RESCENE",
+        "리센느"
+      ],
+      "charts": [
+        "melon",
+        "genie",
+        "bugs",
+        "flo",
+        "vibe",
+        "youtube-kr",
+        "spotify-kr"
+      ],
+      "published": true,
+      "order": 80,
+      "releaseDate": "2025-11-25",
+      "externalIds": {},
+      "notionPageId": ""
+    },
+    {
+      "id": "busy-boy",
+      "title": "Busy Boy",
+      "aliases": [
+        "Busy Boy"
+      ],
+      "artistAliases": [
+        "RESCENE",
+        "리센느"
+      ],
+      "charts": [
+        "melon",
+        "genie",
+        "bugs",
+        "flo",
+        "vibe",
+        "youtube-kr",
+        "spotify-kr"
+      ],
+      "published": true,
+      "order": 90,
+      "releaseDate": "2026-02-27",
+      "externalIds": {},
+      "notionPageId": ""
+    },
+    {
+      "id": "runaway",
+      "title": "Runaway",
+      "aliases": [
+        "Runaway"
+      ],
+      "artistAliases": [
+        "RESCENE",
+        "리센느"
+      ],
+      "charts": [
+        "melon",
+        "genie",
+        "bugs",
+        "flo",
+        "vibe",
+        "youtube-kr",
+        "spotify-kr"
+      ],
+      "published": true,
+      "order": 100,
+      "releaseDate": "2026-04-08",
+      "externalIds": {},
+      "notionPageId": ""
+    },
+    {
+      "id": "pretty-girl",
+      "title": "Pretty Girl",
+      "aliases": [
+        "Pretty Girl"
+      ],
+      "artistAliases": [
+        "RESCENE",
+        "리센느"
+      ],
+      "charts": [
+        "melon",
+        "genie",
+        "bugs",
+        "flo",
+        "vibe",
+        "youtube-kr",
+        "spotify-kr"
+      ],
+      "published": true,
+      "order": 110,
+      "releaseDate": "2026-07-08",
+      "externalIds": {},
+      "notionPageId": ""
+    }
+  ],
+  "entries": [],
+  "sourceStatus": {},
+  "summary": {
+    "publishedSongs": 11,
+    "chartCount": 7,
+    "inChartCount": 0,
+    "freshSourceCount": 0,
+    "staleSourceCount": 0
+  },
+  "notice": "Notion設定と最初の正常同期後に順位データが表示されます。"
+}

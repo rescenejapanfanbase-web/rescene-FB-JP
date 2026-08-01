@@ -28,6 +28,7 @@ DEFAULT_NAVIGATION = [
     {"heading":"MV一覧","linkUrl":"mv.html","note":"音楽","order":51},
     {"heading":"YouTube","linkUrl":"youtube.html","note":"音楽","order":52},
     {"heading":"記録","linkUrl":"records.html","note":"音楽","order":53},
+    {"heading":"韓国チャート","linkUrl":"korean-charts.html","note":"音楽","order":54},
     {"heading":"ストリーミング","linkUrl":"streaming.html","note":"応援ガイド","order":60},
     {"heading":"投票ガイド","linkUrl":"voting.html","note":"応援ガイド","order":61},
     {"heading":"掛け声ガイド","linkUrl":"chants.html","note":"応援ガイド","order":62},
@@ -173,9 +174,10 @@ def main()->int:
             'mv-review.html':'MV候補の確認用管理ページです。',
             'favorites.html':'お気に入りはこの端末のブラウザ内だけに保存されます。',
             'youtube.html':'掲載動画の権利は各権利者に帰属します。公式情報は各チャンネルの案内もあわせてご確認ください。',
+            'korean-charts.html':'各チャートの仕様変更や一時的な取得失敗時は、前回の正常データを表示します。',
         }
         desktop_nav,mobile_nav=build_navigation(root_prefix(path),site_management,relative)
-        replacements={'MUSIC_OPEN':' open' if relative in {'discography.html','mv.html','youtube.html','records.html','music-show-wins.html','melon-records.html'} else '', 'LINKS_OPEN':' open' if relative in {'links.html','fan-services.html','contact.html'} else '', 'SEARCH_CURRENT':' aria-current="page"' if relative=='search.html' else '', 'FOOTER_NOTE':footer_notes.get(relative,'公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。'),'YEAR_ATTR':'data-year=""' if relative=='sync-status.html' else 'data-year','DESKTOP_NAV':desktop_nav,'MOBILE_NAV':mobile_nav}
+        replacements={'MUSIC_OPEN':' open' if relative in {'discography.html','mv.html','youtube.html','records.html','music-show-wins.html','melon-records.html','korean-charts.html'} else '', 'LINKS_OPEN':' open' if relative in {'links.html','fan-services.html','contact.html'} else '', 'SEARCH_CURRENT':' aria-current="page"' if relative=='search.html' else '', 'FOOTER_NOTE':footer_notes.get(relative,'公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。'),'YEAR_ATTR':'data-year=""' if relative=='sync-status.html' else 'data-year','DESKTOP_NAV':desktop_nav,'MOBILE_NAV':mobile_nav}
         try: normalized,is_changed=normalize_page(path,contact_header_template if is_contact else header_template,contact_footer_template if is_contact else footer_template,replacements)
         except ValueError as exc: failures.append(str(exc));continue
         if is_changed:
