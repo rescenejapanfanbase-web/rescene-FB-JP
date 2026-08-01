@@ -1,0 +1,83 @@
+name: Backfill Korean Chart History
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 保存せず取得・解析だけ確認する
+        required: true
+        type: boolean
+        default: true
+      songs:
+        description: 対象song ID（カンマ区切り、空欄は全曲）
+        required: false
+        type: string
+        default: ""
+      charts:
+        description: 対象chart ID（カンマ区切り、空欄は全対応チャート）
+        required: false
+        type: string
+        default: ""
+      delay:
+        description: 가이섬へのアクセス間隔（秒、最低1秒）
+        required: true
+        type: string
+        default: "1.8"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rescene-korean-charts-write
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Install parser dependency
+        run: python -m pip install --disable-pip-version-check beautifulsoup4
+      - name: Run offline history parser tests
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: PYTHONPATH=scripts python scripts/test-korean-chart-history.py
+      - name: Import historical rankings with rate limit and attribution
+        shell: bash
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_KOREAN_CHARTS_DATA_SOURCE_ID: ${{ vars.NOTION_KOREAN_CHARTS_DATA_SOURCE_ID }}
+          BACKFILL_DRY_RUN: ${{ inputs.dry_run }}
+          BACKFILL_SONGS: ${{ inputs.songs }}
+          BACKFILL_CHARTS: ${{ inputs.charts }}
+          BACKFILL_DELAY: ${{ inputs.delay }}
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          set -euo pipefail
+          args=(--songs "${BACKFILL_SONGS}" --charts "${BACKFILL_CHARTS}" --delay "${BACKFILL_DELAY}" --attempts 3 --max-requests 100)
+          if [[ "${BACKFILL_DRY_RUN}" == "true" ]]; then args+=(--dry-run); fi
+          PYTHONPATH=scripts python scripts/backfill-korean-chart-history.py "${args[@]}"
+      - name: Commit imported history
+        if: ${{ inputs.dry_run == false }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-history && \
+             test -z "$(git status --porcelain -- data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-history)"; then
+            echo "追加できる新規履歴はありません。"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/korean-chart-config.json data/korean-charts.json data/korean-charts-data.js data/korean-chart-history
+          git commit -m "chore: backfill Korean chart history"
+          git pull --rebase origin "${GITHUB_REF_NAME:-main}"
+          git push origin "HEAD:${GITHUB_REF_NAME:-main}"

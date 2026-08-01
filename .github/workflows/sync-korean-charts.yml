@@ -9,8 +9,17 @@ on:
         type: string
         default: ""
   schedule:
-    # 毎時17分（JST）。同時刻集中を避け、公開元の更新後に取得します。
+    # Melon / Genie / Bugs / FLO：毎時17分
     - cron: "17 * * * *"
+      timezone: "Asia/Tokyo"
+    # VIBE：日次ランキング更新後の7時10分
+    - cron: "10 7 * * *"
+      timezone: "Asia/Tokyo"
+    # Spotify Korea：毎日10時20分
+    - cron: "20 10 * * *"
+      timezone: "Asia/Tokyo"
+    # YouTube Music Korea：週次更新を取りこぼさないよう毎日11時30分に確認
+    - cron: "30 11 * * *"
       timezone: "Asia/Tokyo"
 
 permissions:
@@ -33,12 +42,34 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.13"
-      - name: Install source adapter dependency
-        run: python -m pip install --disable-pip-version-check --upgrade yt-dlp
+      - name: Install source adapter dependencies
+        run: python -m pip install --disable-pip-version-check --upgrade yt-dlp beautifulsoup4
       - name: Run offline parser and state tests
         env:
           PYTHONDONTWRITEBYTECODE: "1"
-        run: PYTHONPATH=scripts python scripts/test-korean-chart-sync.py
+        run: |
+          PYTHONPATH=scripts python scripts/test-korean-chart-sync.py
+          PYTHONPATH=scripts python scripts/test-korean-chart-history.py
+      - name: Resolve scheduled chart set
+        id: chart-set
+        shell: bash
+        env:
+          REQUESTED_CHARTS: ${{ inputs.charts || '' }}
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule || '' }}
+        run: |
+          set -euo pipefail
+          charts="${REQUESTED_CHARTS}"
+          if [[ -z "${charts}" && "${EVENT_NAME}" == "schedule" ]]; then
+            case "${EVENT_SCHEDULE}" in
+              "17 * * * *") charts="melon,genie,bugs,flo" ;;
+              "10 7 * * *") charts="vibe" ;;
+              "20 10 * * *") charts="spotify-kr" ;;
+              "30 11 * * *") charts="youtube-kr" ;;
+            esac
+          fi
+          echo "charts=${charts}" >> "${GITHUB_OUTPUT}"
+          echo "取得対象: ${charts:-Notionで有効な全チャート}"
       - name: Fetch, validate, retain stale sources, and publish atomically
         shell: bash
         env:
@@ -48,7 +79,7 @@ jobs:
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_KOREA_PLAYLIST_ID: ${{ vars.SPOTIFY_KOREA_PLAYLIST_ID }}
           YOUTUBE_MUSIC_KOREA_PLAYLIST_URL: ${{ vars.YOUTUBE_MUSIC_KOREA_PLAYLIST_URL }}
-          REQUESTED_CHARTS: ${{ inputs.charts || '' }}
+          REQUESTED_CHARTS: ${{ steps.chart-set.outputs.charts }}
           PYTHONDONTWRITEBYTECODE: "1"
         run: |
           set -euo pipefail

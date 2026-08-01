@@ -1,0 +1,69 @@
+name: Korean Chart Periodic Watchdog
+
+on:
+  workflow_dispatch:
+    inputs:
+      charts:
+        description: 確認対象chart ID（カンマ区切り）
+        required: true
+        type: string
+        default: "vibe,spotify-kr,youtube-kr"
+      dry_run:
+        description: 再実行せず判定だけ行う
+        required: false
+        type: boolean
+        default: false
+  schedule:
+    - cron: "50 7 * * *"
+      timezone: "Asia/Tokyo"
+    - cron: "55 10 * * *"
+      timezone: "Asia/Tokyo"
+    - cron: "5 12 * * *"
+      timezone: "Asia/Tokyo"
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: korean-chart-periodic-watchdog
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Resolve periodic source
+        id: target
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule || '' }}
+          MANUAL_CHARTS: ${{ inputs.charts || '' }}
+        run: |
+          set -euo pipefail
+          charts="${MANUAL_CHARTS}"
+          if [[ "${EVENT_NAME}" == "schedule" ]]; then
+            case "${EVENT_SCHEDULE}" in
+              "50 7 * * *") charts="vibe" ;;
+              "55 10 * * *") charts="spotify-kr" ;;
+              "5 12 * * *") charts="youtube-kr" ;;
+            esac
+          fi
+          echo "charts=${charts}" >> "${GITHUB_OUTPUT}"
+      - name: Detect stale periodic source and dispatch recovery
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          WATCHDOG_BRANCH: ${{ github.event.repository.default_branch }}
+          WATCHDOG_DRY_RUN: ${{ inputs.dry_run || 'false' }}
+          WATCHDOG_CHARTS: ${{ steps.target.outputs.charts }}
+          WATCHDOG_FRESH_MINUTES: "180"
+        run: python scripts/korean-chart-watchdog.py

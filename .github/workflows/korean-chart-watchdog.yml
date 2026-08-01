@@ -9,7 +9,7 @@ on:
         type: boolean
         default: false
   schedule:
-    # 毎時47分（同期開始から30分後）に独立確認します。
+    # Melon / Genie / Bugs / FLO同期開始から30分後
     - cron: "47 * * * *"
       timezone: "Asia/Tokyo"
 
@@ -32,10 +32,12 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.13"
-      - name: Detect missed or failed hourly sync and dispatch recovery
+      - name: Detect stale hourly sources and dispatch recovery
         env:
           GH_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           WATCHDOG_BRANCH: ${{ github.event.repository.default_branch }}
           WATCHDOG_DRY_RUN: ${{ inputs.dry_run || 'false' }}
+          WATCHDOG_CHARTS: melon,genie,bugs,flo
+          WATCHDOG_FRESH_MINUTES: "100"
         run: python scripts/korean-chart-watchdog.py
