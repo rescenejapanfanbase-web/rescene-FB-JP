@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-01T14:34:20.753509+00:00",
+  "generatedAt": "2026-08-01T14:47:43.671846+00:00",
   "items": [
     {
       "date": "2026-08-01",
@@ -40,16 +40,16 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-08-01",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "cab7e68",
+      "commit": "60e19a9",
       "files": [
+        "404.html",
         "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/quality-report.json",
-        "data/seo-status.json",
-        "data/site-updates-data.js"
+        "about.html",
+        "analytics.html",
+        "article.html",
+        "articles/busy-boy-release.html",
+        "articles/dearest-release.html",
+        "articles/fanbase-site.html"
       ]
     },
     {
