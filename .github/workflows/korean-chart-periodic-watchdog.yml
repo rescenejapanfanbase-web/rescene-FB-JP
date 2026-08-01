@@ -14,6 +14,8 @@ on:
         type: boolean
         default: false
   schedule:
+    - cron: "55 13 * * *"
+      timezone: "Asia/Tokyo"
     - cron: "50 7 * * *"
       timezone: "Asia/Tokyo"
     - cron: "55 10 * * *"
@@ -52,6 +54,7 @@ jobs:
           charts="${MANUAL_CHARTS}"
           if [[ "${EVENT_NAME}" == "schedule" ]]; then
             case "${EVENT_SCHEDULE}" in
+              "55 13 * * *") charts="melon-daily,genie-daily,bugs-daily" ;;
               "50 7 * * *") charts="vibe" ;;
               "55 10 * * *") charts="spotify-kr" ;;
               "5 12 * * *") charts="youtube-kr" ;;

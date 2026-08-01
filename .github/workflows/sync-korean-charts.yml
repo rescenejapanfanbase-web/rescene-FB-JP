@@ -12,6 +12,9 @@ on:
     # Melon / Genie / Bugs / FLO：毎時17分
     - cron: "17 * * * *"
       timezone: "Asia/Tokyo"
+    # Melon / Genie / Bugs Daily：前日分の確定後に13時20分
+    - cron: "20 13 * * *"
+      timezone: "Asia/Tokyo"
     # VIBE：日次ランキング更新後の7時10分
     - cron: "10 7 * * *"
       timezone: "Asia/Tokyo"
@@ -64,6 +67,7 @@ jobs:
           if [[ -z "${charts}" && "${EVENT_NAME}" == "schedule" ]]; then
             case "${EVENT_SCHEDULE}" in
               "17 * * * *") charts="melon,genie,bugs,flo" ;;
+              "20 13 * * *") charts="melon-daily,genie-daily,bugs-daily" ;;
               "10 7 * * *") charts="vibe" ;;
               "20 10 * * *") charts="spotify-kr" ;;
               "30 11 * * *") charts="youtube-kr" ;;
