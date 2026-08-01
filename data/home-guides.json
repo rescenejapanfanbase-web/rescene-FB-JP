@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-07-31T16:25:16.197Z",
+  "generatedAt": "2026-08-01T06:00:10.995Z",
   "source": "git-history",
   "guides": [
+    {
+      "key": "discography",
+      "title": "ディスコグラフィ",
+      "summary": "アルバム、シングル、OST、収録曲と配信リンクを掲載しています。",
+      "url": "discography.html",
+      "category": "DISCOGRAPHY",
+      "updatedAt": "2026-07-31T23:58:43Z",
+      "commit": "8423b7b"
+    },
     {
       "key": "voting",
       "title": "投票ガイド",
@@ -46,15 +55,6 @@
       "category": "STREAMING",
       "updatedAt": "2026-07-21T15:46:39Z",
       "commit": "ba9fff6"
-    },
-    {
-      "key": "discography",
-      "title": "ディスコグラフィ",
-      "summary": "アルバム、シングル、OST、収録曲と配信リンクを掲載しています。",
-      "url": "discography.html",
-      "category": "DISCOGRAPHY",
-      "updatedAt": "2026-07-20T02:04:47Z",
-      "commit": "da941d0"
     }
   ]
 }
