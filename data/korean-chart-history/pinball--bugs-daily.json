@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "songId": "pinball",
+  "songTitle": "Pinball",
+  "chartId": "bugs-daily",
+  "chartName": "Bugs Daily",
+  "points": [
+    {
+      "chartAt": "2026-07-31T00:00:00+09:00",
+      "checkedAt": "2026-08-02T00:20:32+09:00",
+      "rank": 98,
+      "sourceRank": 98
+    }
+  ],
+  "outOfChartHistory": [],
+  "generatedAt": "2026-08-02T00:20:32+09:00",
+  "summary": {
+    "peakRank": 98,
+    "firstChartedAt": "2026-07-31T00:00:00+09:00",
+    "lastChartedAt": "2026-07-31T00:00:00+09:00",
+    "chartDays": 1,
+    "currentRank": 98,
+    "status": "in",
+    "pointCount": 1
+  }
+}

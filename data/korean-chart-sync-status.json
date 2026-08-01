@@ -1,14 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T23:56:51+09:00",
+  "generatedAt": "2026-08-02T00:20:32+09:00",
   "workflow": "Sync Korean Charts",
-  "ok": true,
-  "partial": false,
+  "ok": false,
+  "partial": true,
   "successfulCharts": [
-    "spotify-kr",
-    "youtube-kr"
+    "bugs-daily",
+    "melon-daily"
   ],
-  "failedCharts": {},
+  "failedCharts": {
+    "genie-daily": "RuntimeError: RuntimeError: HTTPError: HTTP Error 405: Method Not Allowed / HTTPError: HTTP Error 405: Method Not Allowed / RuntimeError: HTTPError: HTTP Error 405: Method Not Allowed / URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)> / RuntimeError: HTTPError: HTTP Error 405: Method Not Allowed / URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
   "configuration": {
     "source": "notion",
     "notionOk": true,
@@ -129,6 +131,47 @@
         "guysoEnrichedCount": 0,
         "guysoEnrichmentError": ""
       }
+    },
+    "melon-daily": {
+      "chartId": "melon-daily",
+      "chartName": "Melon Daily",
+      "ok": true,
+      "retainedPrevious": false,
+      "lastAttemptAt": "2026-08-02T00:20:32+09:00",
+      "lastSuccessAt": "2026-08-02T00:20:32+09:00",
+      "chartAt": "2026-08-02T00:00:00+09:00",
+      "itemCount": 100,
+      "matchedCount": 4,
+      "error": "",
+      "metadata": {
+        "nativeDay": "2026.08.02",
+        "nativeHour": "00:00",
+        "period": "daily"
+      }
+    },
+    "bugs-daily": {
+      "chartId": "bugs-daily",
+      "chartName": "Bugs Daily",
+      "ok": true,
+      "retainedPrevious": false,
+      "lastAttemptAt": "2026-08-02T00:20:32+09:00",
+      "lastSuccessAt": "2026-08-02T00:20:32+09:00",
+      "chartAt": "2026-07-31T00:00:00+09:00",
+      "itemCount": 100,
+      "matchedCount": 5,
+      "error": "",
+      "metadata": {
+        "nativeTime": "1785423600000",
+        "period": "daily"
+      }
+    },
+    "genie-daily": {
+      "chartId": "genie-daily",
+      "chartName": "Genie Daily",
+      "ok": false,
+      "retainedPrevious": true,
+      "lastAttemptAt": "2026-08-02T00:20:32+09:00",
+      "error": "RuntimeError: RuntimeError: HTTPError: HTTP Error 405: Method Not Allowed / HTTPError: HTTP Error 405: Method Not Allowed / RuntimeError: HTTPError: HTTP Error 405: Method Not Allowed / URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)> / RuntimeError: HTTPError: HTTP Error 405: Method Not Allowed / URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
     }
   }
 }

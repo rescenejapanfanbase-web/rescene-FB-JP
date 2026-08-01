@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T11:34:19+09:00",
-  "source": "local-seed",
-  "dataSourceId": "",
+  "generatedAt": "2026-08-02T00:20:33+09:00",
+  "source": "notion",
+  "dataSourceId": "65d8c1e7-e1a1-400e-84ad-61908e78d0fc",
   "charts": [
     {
       "id": "melon",
@@ -142,7 +142,7 @@
       "order": 10,
       "releaseDate": "2024-03-26",
       "externalIds": {},
-      "notionPageId": ""
+      "notionPageId": "3af229d2-19da-8198-91c0-f29db16819e4"
     },
     {
       "id": "yoyo",
@@ -170,7 +170,7 @@
       "order": 20,
       "releaseDate": "2024-03-26",
       "externalIds": {},
-      "notionPageId": ""
+      "notionPageId": "3af229d2-19da-813e-91a0-c90b45ec8ebd"
     },
     {
       "id": "love-attack",
@@ -199,7 +199,7 @@
       "order": 30,
       "releaseDate": "2024-08-27",
       "externalIds": {},
-      "notionPageId": ""
+      "notionPageId": "3af229d2-19da-8124-85bf-f68e28648f36"
     },
     {
       "id": "pinball",
@@ -227,7 +227,7 @@
       "order": 40,
       "releaseDate": "2024-08-27",
       "externalIds": {},
-      "notionPageId": ""
+      "notionPageId": "3af229d2-19da-8181-a888-c82e2c50f1f5"
     },
     {
       "id": "glow-up",
@@ -255,7 +255,7 @@
       "order": 50,
       "releaseDate": "2025-02-05",
       "externalIds": {},
-      "notionPageId": ""
+      "notionPageId": "3af229d2-19da-8140-9dd9-d980c089f84c"
     },
     {
       "id": "deja-vu",
@@ -285,7 +285,7 @@
       "order": 60,
       "releaseDate": "2025-07-02",
       "externalIds": {},
-      "notionPageId": ""
+      "notionPageId": "3af229d2-19da-8131-9a7b-ce31022a7b20"
     },
     {
       "id": "heart-drop",
@@ -313,7 +313,7 @@
       "order": 70,
       "releaseDate": "2025-11-25",
       "externalIds": {},
-      "notionPageId": ""
+      "notionPageId": "3af229d2-19da-8157-8d1a-c8a50cba75b3"
     },
     {
       "id": "bloom",
@@ -341,7 +341,7 @@
       "order": 80,
       "releaseDate": "2025-11-25",
       "externalIds": {},
-      "notionPageId": ""
+      "notionPageId": "3af229d2-19da-8122-a2a1-c417acba8198"
     },
     {
       "id": "busy-boy",
@@ -369,7 +369,7 @@
       "order": 90,
       "releaseDate": "2026-02-27",
       "externalIds": {},
-      "notionPageId": ""
+      "notionPageId": "3af229d2-19da-81ac-a065-f6a4decd609e"
     },
     {
       "id": "runaway",
@@ -397,7 +397,7 @@
       "order": 100,
       "releaseDate": "2026-04-08",
       "externalIds": {},
-      "notionPageId": ""
+      "notionPageId": "3af229d2-19da-8139-8c2c-da3e071d13f0"
     },
     {
       "id": "pretty-girl",
@@ -425,7 +425,7 @@
       "order": 110,
       "releaseDate": "2026-07-08",
       "externalIds": {},
-      "notionPageId": ""
+      "notionPageId": "3af229d2-19da-8149-8f3e-d0126bd03b00"
     }
   ]
 }
