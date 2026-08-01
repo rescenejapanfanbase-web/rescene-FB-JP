@@ -1,11 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T08:03:07+09:00",
+  "generatedAt": "2026-08-02T08:35:52+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
   "successfulCharts": [
-    "genie-daily"
+    "bugs",
+    "flo",
+    "genie",
+    "melon"
   ],
   "failedCharts": {},
   "configuration": {
@@ -19,8 +22,8 @@
       "chartName": "FLO Chart",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-02T08:00:17+09:00",
-      "lastSuccessAt": "2026-08-02T08:00:17+09:00",
+      "lastAttemptAt": "2026-08-02T08:35:52+09:00",
+      "lastSuccessAt": "2026-08-02T08:35:52+09:00",
       "chartAt": "2026-08-02T08:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 4,
@@ -34,14 +37,14 @@
       "chartName": "Bugs Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-02T08:00:17+09:00",
-      "lastSuccessAt": "2026-08-02T08:00:17+09:00",
-      "chartAt": "2026-08-02T07:00:00+09:00",
+      "lastAttemptAt": "2026-08-02T08:35:52+09:00",
+      "lastSuccessAt": "2026-08-02T08:35:52+09:00",
+      "chartAt": "2026-08-02T08:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
       "metadata": {
-        "nativeTime": "1785621600000"
+        "nativeTime": "1785625200000"
       }
     },
     "melon": {
@@ -49,8 +52,8 @@
       "chartName": "Melon TOP100",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-02T08:00:17+09:00",
-      "lastSuccessAt": "2026-08-02T08:00:17+09:00",
+      "lastAttemptAt": "2026-08-02T08:35:52+09:00",
+      "lastSuccessAt": "2026-08-02T08:35:52+09:00",
       "chartAt": "2026-08-02T08:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 4,
@@ -65,8 +68,8 @@
       "chartName": "Genie Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-02T08:00:17+09:00",
-      "lastSuccessAt": "2026-08-02T08:00:17+09:00",
+      "lastAttemptAt": "2026-08-02T08:35:52+09:00",
+      "lastSuccessAt": "2026-08-02T08:35:52+09:00",
       "chartAt": "2026-08-02T08:00:00+09:00",
       "itemCount": 200,
       "matchedCount": 4,
