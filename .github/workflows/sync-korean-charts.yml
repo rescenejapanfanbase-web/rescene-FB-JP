@@ -50,6 +50,7 @@ jobs:
         run: |
           PYTHONPATH=scripts python scripts/test-korean-chart-sync.py
           PYTHONPATH=scripts python scripts/test-korean-chart-history.py
+          PYTHONPATH=scripts python scripts/test-korean-chart-source-defaults.py
       - name: Resolve scheduled chart set
         id: chart-set
         shell: bash
@@ -77,8 +78,8 @@ jobs:
           NOTION_KOREAN_CHARTS_DATA_SOURCE_ID: ${{ vars.NOTION_KOREAN_CHARTS_DATA_SOURCE_ID }}
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_KOREA_PLAYLIST_ID: ${{ vars.SPOTIFY_KOREA_PLAYLIST_ID }}
-          YOUTUBE_MUSIC_KOREA_PLAYLIST_URL: ${{ vars.YOUTUBE_MUSIC_KOREA_PLAYLIST_URL }}
+          SPOTIFY_KOREA_PLAYLIST_ID: ${{ vars.SPOTIFY_KOREA_PLAYLIST_ID || '37i9dQZEVXbNxXF4SkHj9F' }}
+          YOUTUBE_MUSIC_KOREA_PLAYLIST_URL: ${{ vars.YOUTUBE_MUSIC_KOREA_PLAYLIST_URL || 'https://www.youtube.com/playlist?list=PL4fGSI1pDJn6jXS_Tv_N9B8Z0HTRVJE0m' }}
           REQUESTED_CHARTS: ${{ steps.chart-set.outputs.charts }}
           PYTHONDONTWRITEBYTECODE: "1"
         run: |
