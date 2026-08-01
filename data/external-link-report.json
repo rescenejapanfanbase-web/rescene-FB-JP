@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-01T00:10:17Z",
-  "startedAt": "2026-08-01T00:10:12Z",
-  "elapsedSeconds": 4.51,
+  "generatedAt": "2026-08-01T12:06:32Z",
+  "startedAt": "2026-08-01T12:06:27Z",
+  "elapsedSeconds": 4.76,
   "summary": {
-    "checked": 88,
-    "ok": 87,
-    "warning": 1,
+    "checked": 87,
+    "ok": 85,
+    "warning": 2,
     "broken": 0,
     "hosts": 17
   },
@@ -14,6 +14,14 @@
     {
       "key": "facebook",
       "label": "Facebook",
+      "checked": 1,
+      "ok": 0,
+      "warning": 1,
+      "broken": 0
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
       "checked": 1,
       "ok": 0,
       "warning": 1,
@@ -46,8 +54,8 @@
     {
       "key": "github",
       "label": "GitHub",
-      "checked": 9,
-      "ok": 9,
+      "checked": 10,
+      "ok": 10,
       "warning": 0,
       "broken": 0
     },
@@ -56,14 +64,6 @@
       "label": "Google Play",
       "checked": 8,
       "ok": 8,
-      "warning": 0,
-      "broken": 0
-    },
-    {
-      "key": "instagram",
-      "label": "Instagram",
-      "checked": 1,
-      "ok": 1,
       "warning": 0,
       "broken": 0
     },
@@ -110,16 +110,16 @@
     {
       "key": "x",
       "label": "X",
-      "checked": 24,
-      "ok": 24,
+      "checked": 23,
+      "ok": 23,
       "warning": 0,
       "broken": 0
     },
     {
       "key": "youtube",
       "label": "YouTube",
-      "checked": 17,
-      "ok": 17,
+      "checked": 16,
+      "ok": 16,
       "warning": 0,
       "broken": 0
     }
@@ -140,6 +140,29 @@
           "file": "data/official-links.json",
           "line": 96,
           "label": "Facebook"
+        }
+      ]
+    },
+    {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "warning",
+      "httpStatus": 429,
+      "message": "HTTP 429（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 54,
+          "label": "Instagram"
+        },
+        {
+          "file": "index.html",
+          "line": 142,
+          "label": "Instagram"
         }
       ]
     },
@@ -613,6 +636,24 @@
       ]
     },
     {
+      "url": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-korean-charts.yml",
+      "normalizedUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-korean-charts.yml",
+      "finalUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-korean-charts.yml",
+      "service": "GitHub",
+      "serviceKey": "github",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "sync-status.html",
+          "line": 107,
+          "label": "韓国チャート同期 7チャートの取得・履歴保存・前回値維持を実行 ↗"
+        }
+      ]
+    },
+    {
       "url": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-mv.yml",
       "normalizedUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-mv.yml",
       "finalUrl": "https://github.com/rescenejapanfanbase-web/rescene-FB-JP/actions/workflows/sync-mv.yml",
@@ -833,29 +874,6 @@
       ]
     },
     {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 54,
-          "label": "Instagram"
-        },
-        {
-          "file": "index.html",
-          "line": 142,
-          "label": "Instagram"
-        }
-      ]
-    },
-    {
       "url": "https://artist.mnetplus.world/main/stg/rescene-official",
       "normalizedUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
       "finalUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
@@ -927,7 +945,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 1149,
+          "line": 1152,
           "label": "Objet K-pop Festa 2026"
         }
       ]
@@ -955,7 +973,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 214,
+          "line": 198,
           "label": "京畿道 高陽市 広報大使に任命"
         },
         {
@@ -988,7 +1006,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 225,
+          "line": 209,
           "label": "慶尚北道 慶州市 広報大使に任命"
         },
         {
@@ -1021,7 +1039,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 236,
+          "line": 220,
           "label": "京畿道 水原市 広報大使に任命"
         },
         {
@@ -1054,7 +1072,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 247,
+          "line": 231,
           "label": "慶尚南道 巨済市 広報大使に任命"
         },
         {
@@ -1113,7 +1131,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1785543016296&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1785585990936&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1141,7 +1159,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 1130,
+          "line": 1133,
           "label": "2026 THE FACT MUSIC AWARDS(TMA)"
         }
       ]
@@ -1169,31 +1187,13 @@
         },
         {
           "file": "data/news.json",
-          "line": 181,
+          "line": 165,
           "label": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得"
         },
         {
           "file": "love-attack-inkigayo-realtime-first.html",
           "line": 63,
           "label": "HIGHER公式Xで見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://x.com/kcon_official?s=11",
-      "normalizedUrl": "https://x.com/kcon_official",
-      "finalUrl": "https://x.com/kcon_official",
-      "service": "X",
-      "serviceKey": "x",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/schedule.json",
-          "line": 1060,
-          "label": "KCON LA 2026"
         }
       ]
     },
@@ -1276,7 +1276,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 280,
+          "line": 264,
           "label": "デビュー2周年広告プロジェクト"
         },
         {
@@ -1571,7 +1571,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 269,
+          "line": 253,
           "label": "RESCENE Debut 2nd Anniversary"
         },
         {
@@ -1622,7 +1622,7 @@
         },
         {
           "file": "music-show-wins.html",
-          "line": 85,
+          "line": 78,
           "label": "メンバーのリアクションを見る ↗"
         }
       ]
@@ -1752,7 +1752,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 192,
+          "line": 176,
           "label": "RESCENEがMelon TOP100で初の1位を記録"
         },
         {
@@ -1781,6 +1781,60 @@
       ]
     },
     {
+      "url": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
+      "normalizedUrl": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
+      "finalUrl": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) ‘Pinball’ Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 103,
+          "label": "MVを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ByX8EZq8500",
+      "normalizedUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
+      "finalUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Heart Drop' Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 121,
+          "label": "MVを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
+      "normalizedUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
+      "finalUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) ‘Glow Up’ Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 109,
+          "label": "MVを見る ↗"
+        }
+      ]
+    },
+    {
       "url": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
       "normalizedUrl": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
       "finalUrl": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
@@ -1797,11 +1851,6 @@
           "label": "THE K-POP公式動画を見る ↗"
         },
         {
-          "file": "articles/rescene-pretty-girl-1-bc9d88fde7.html",
-          "line": 63,
-          "label": "THE K-POP公式動画を見る ↗"
-        },
-        {
           "file": "data/news-manual.json",
           "line": 10,
           "label": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得"
@@ -1813,13 +1862,31 @@
         },
         {
           "file": "music-show-wins.html",
-          "line": 95,
+          "line": 85,
           "label": "1位獲得時の映像を見る ↗"
         },
         {
           "file": "pretty-girl-first-music-show-win.html",
           "line": 63,
           "label": "THE K-POP公式動画を見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MC6-82GRK5I",
+      "normalizedUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
+      "finalUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Bloom' Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 127,
+          "label": "MVを見る ↗"
         }
       ]
     },
@@ -1836,25 +1903,79 @@
       "sources": [
         {
           "file": "melon-records.html",
-          "line": 148,
+          "line": 145,
           "label": "MVを見る ↗"
         }
       ]
     },
     {
-      "url": "https://youtu.be/B8JJ8RNM-60?si=5JXK-pjGyxuXXK08",
-      "normalizedUrl": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
-      "finalUrl": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
+      "url": "https://www.youtube.com/watch?v=rsZwrTNklos",
+      "normalizedUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
+      "finalUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
       "service": "YouTube",
       "serviceKey": "youtube",
       "status": "ok",
       "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘Pinball’ Official MV。",
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Runaway' Official MV。",
       "method": "youtube-oembed",
       "sources": [
         {
           "file": "melon-records.html",
-          "line": 104,
+          "line": 139,
+          "label": "MVを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
+      "normalizedUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
+      "finalUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) ‘YoYo’ MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 91,
+          "label": "MVを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
+      "normalizedUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
+      "finalUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'Deja Vu' Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 115,
+          "label": "MVを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zpSejlkSXLA",
+      "normalizedUrl": "https://www.youtube.com/watch?v=zpSejlkSXLA",
+      "finalUrl": "https://www.youtube.com/watch?v=zpSejlkSXLA",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) ‘UhUh’ MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 85,
           "label": "MVを見る ↗"
         }
       ]
@@ -1883,96 +2004,6 @@
       ]
     },
     {
-      "url": "https://youtu.be/ByX8EZq8500?si=TDcAtQYY7ZHk94UI",
-      "normalizedUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
-      "finalUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Heart Drop' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 122,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/ewubELWBMaE?si=pnQm7GBm9MktYtsb",
-      "normalizedUrl": "https://www.youtube.com/watch?v=ewubELWBMaE",
-      "finalUrl": "https://www.youtube.com/watch?v=ewubELWBMaE",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE 'Busy Boy' Performance Video。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 135,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/h0xUtrb_JBc?si=UNDBzfK-ob-LTFPU",
-      "normalizedUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
-      "finalUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘Glow Up’ Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 110,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/MC6-82GRK5I?si=hN8SOErv9uwCwCW1",
-      "normalizedUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
-      "finalUrl": "https://www.youtube.com/watch?v=MC6-82GRK5I",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Bloom' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 129,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/rsZwrTNklos?si=hqlNsjBUYMLEhJIz",
-      "normalizedUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
-      "finalUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Runaway' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 141,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
       "url": "https://youtu.be/rzfjou7vPP0?si=3ne6BycHt-dLz3Uo",
       "normalizedUrl": "https://www.youtube.com/watch?v=rzfjou7vPP0",
       "finalUrl": "https://www.youtube.com/watch?v=rzfjou7vPP0",
@@ -1992,65 +2023,6 @@
           "file": "data/news.json",
           "line": 76,
           "label": "RESCENEが「LOVE ATTACK」で1位を獲得！"
-        },
-        {
-          "file": "music-show-wins.html",
-          "line": 78,
-          "label": "1位獲得時の映像を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/uDYy2UyO1X4?si=Inb06PVBp2yeCxrE",
-      "normalizedUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
-      "finalUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘YoYo’ MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 85,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
-      "normalizedUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
-      "finalUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) 'Deja Vu' Official MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 116,
-          "label": "MVを見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://youtu.be/zpSejlkSXLA?si=daHysJsrQ7m2CH13",
-      "normalizedUrl": "https://www.youtube.com/watch?v=zpSejlkSXLA",
-      "finalUrl": "https://www.youtube.com/watch?v=zpSejlkSXLA",
-      "service": "YouTube",
-      "serviceKey": "youtube",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "公開動画を確認しました：RESCENE (리센느) ‘UhUh’ MV。",
-      "method": "youtube-oembed",
-      "sources": [
-        {
-          "file": "melon-records.html",
-          "line": 91,
-          "label": "MVを見る ↗"
         }
       ]
     }
