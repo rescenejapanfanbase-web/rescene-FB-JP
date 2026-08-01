@@ -1,14 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T08:50:06+09:00",
+  "generatedAt": "2026-08-02T08:51:59+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
   "successfulCharts": [
-    "bugs",
-    "flo",
-    "genie",
-    "melon"
+    "genie-daily"
   ],
   "failedCharts": {},
   "configuration": {
@@ -170,17 +167,32 @@
       "chartName": "Genie Daily",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-02T08:03:07+09:00",
+      "lastAttemptAt": "2026-08-02T08:51:59+09:00",
       "error": "",
-      "lastSuccessAt": "2026-08-02T08:03:07+09:00",
-      "chartAt": "2026-08-02T00:00:00+09:00",
-      "itemCount": 25,
-      "matchedCount": 2,
+      "lastSuccessAt": "2026-08-02T08:51:59+09:00",
+      "chartAt": "2026-08-01T00:00:00+09:00",
+      "itemCount": 200,
+      "matchedCount": 4,
       "metadata": {
-        "nativeTime": "2026-08-02T08:03:07+09:00",
+        "nativeTime": "2026-08-02T08:51:59+09:00",
         "period": "daily",
-        "ditc": "D",
-        "endpoint": "https://app.genie.co.kr/chart/j_RankSongList.json"
+        "periodCode": "D",
+        "endpoint": "https://app.genie.co.kr/chart/j_RankSongList.json",
+        "publishedAt": "12:00 KST",
+        "chartDateRule": "previous-day",
+        "pageSize": 25,
+        "pageCount": 8,
+        "pageItemCounts": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "total": 200
       }
     }
   }
