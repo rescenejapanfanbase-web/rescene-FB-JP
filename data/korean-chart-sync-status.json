@@ -1,12 +1,118 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "",
+  "generatedAt": "2026-08-01T21:20:34+09:00",
   "workflow": "Sync Korean Charts",
   "ok": false,
-  "partial": false,
-  "state": "not-run",
-  "message": "初回同期前です。",
-  "successfulCharts": [],
-  "failedCharts": {},
-  "sourceStatus": {}
+  "partial": true,
+  "successfulCharts": [
+    "bugs",
+    "flo",
+    "genie",
+    "melon",
+    "vibe"
+  ],
+  "failedCharts": {
+    "spotify-kr": "RuntimeError: RuntimeError: SPOTIFY_CLIENT_ID / SPOTIFY_CLIENT_SECRET が未設定です。 / RuntimeError: SPOTIFY_CLIENT_ID / SPOTIFY_CLIENT_SECRET が未設定です。 / RuntimeError: SPOTIFY_CLIENT_ID / SPOTIFY_CLIENT_SECRET が未設定です。",
+    "youtube-kr": "RuntimeError: RuntimeError: yt-dlp failed: ERROR: [generic] '' is not a valid URL\n / RuntimeError: yt-dlp failed: ERROR: [generic] '' is not a valid URL\n / RuntimeError: yt-dlp failed: ERROR: [generic] '' is not a valid URL\n"
+  },
+  "configuration": {
+    "source": "notion",
+    "notionOk": true,
+    "notionError": ""
+  },
+  "sourceStatus": {
+    "flo": {
+      "chartId": "flo",
+      "chartName": "FLO Chart",
+      "ok": true,
+      "retainedPrevious": false,
+      "lastAttemptAt": "2026-08-01T21:20:34+09:00",
+      "lastSuccessAt": "2026-08-01T21:20:34+09:00",
+      "chartAt": "2026-08-01T21:00:00+09:00",
+      "itemCount": 100,
+      "matchedCount": 4,
+      "error": "",
+      "metadata": {
+        "nativeName": "FLO 차트"
+      }
+    },
+    "bugs": {
+      "chartId": "bugs",
+      "chartName": "Bugs Real-time",
+      "ok": true,
+      "retainedPrevious": false,
+      "lastAttemptAt": "2026-08-01T21:20:34+09:00",
+      "lastSuccessAt": "2026-08-01T21:20:34+09:00",
+      "chartAt": "2026-08-01T21:00:00+09:00",
+      "itemCount": 100,
+      "matchedCount": 5,
+      "error": "",
+      "metadata": {
+        "nativeTime": "1785585600000"
+      }
+    },
+    "melon": {
+      "chartId": "melon",
+      "chartName": "Melon TOP100",
+      "ok": true,
+      "retainedPrevious": false,
+      "lastAttemptAt": "2026-08-01T21:20:34+09:00",
+      "lastSuccessAt": "2026-08-01T21:20:34+09:00",
+      "chartAt": "2026-08-01T21:00:00+09:00",
+      "itemCount": 100,
+      "matchedCount": 4,
+      "error": "",
+      "metadata": {
+        "nativeDay": "2026.08.01",
+        "nativeHour": "21:00"
+      }
+    },
+    "genie": {
+      "chartId": "genie",
+      "chartName": "Genie Real-time",
+      "ok": true,
+      "retainedPrevious": false,
+      "lastAttemptAt": "2026-08-01T21:20:34+09:00",
+      "lastSuccessAt": "2026-08-01T21:20:34+09:00",
+      "chartAt": "2026-08-01T21:00:00+09:00",
+      "itemCount": 200,
+      "matchedCount": 4,
+      "error": "",
+      "metadata": {
+        "nativeTime": "21:00"
+      }
+    },
+    "vibe": {
+      "chartId": "vibe",
+      "chartName": "VIBE Today TOP 100",
+      "ok": true,
+      "retainedPrevious": false,
+      "lastAttemptAt": "2026-08-01T21:20:34+09:00",
+      "lastSuccessAt": "2026-08-01T21:20:34+09:00",
+      "chartAt": "2026-08-01T00:00:00+09:00",
+      "itemCount": 100,
+      "matchedCount": 3,
+      "error": "",
+      "metadata": {
+        "nativeTitle": "오늘 Top 100",
+        "nativeDate": "1785535200000"
+      }
+    },
+    "spotify-kr": {
+      "chartId": "spotify-kr",
+      "chartName": "Spotify Top 50 South Korea",
+      "ok": false,
+      "retainedPrevious": true,
+      "lastAttemptAt": "2026-08-01T21:20:34+09:00",
+      "error": "RuntimeError: RuntimeError: SPOTIFY_CLIENT_ID / SPOTIFY_CLIENT_SECRET が未設定です。 / RuntimeError: SPOTIFY_CLIENT_ID / SPOTIFY_CLIENT_SECRET が未設定です。 / RuntimeError: SPOTIFY_CLIENT_ID / SPOTIFY_CLIENT_SECRET が未設定です。"
+    },
+    "youtube-kr": {
+      "chartId": "youtube-kr",
+      "chartName": "YouTube Music Korea Top Songs",
+      "ok": false,
+      "retainedPrevious": true,
+      "lastAttemptAt": "2026-08-01T21:20:34+09:00",
+      "error": "RuntimeError: RuntimeError: yt-dlp failed: ERROR: [generic] '' is not a valid URL\n / RuntimeError: yt-dlp failed: ERROR: [generic] '' is not a valid URL\n / RuntimeError: yt-dlp failed: ERROR: [generic] '' is not a valid URL\n"
+    }
+  }
 }

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "songId": "deja-vu",
+  "songTitle": "Deja Vu",
+  "chartId": "flo",
+  "chartName": "FLO Chart",
+  "points": [
+    {
+      "chartAt": "2026-08-01T21:00:00+09:00",
+      "checkedAt": "2026-08-01T21:20:34+09:00",
+      "rank": 7,
+      "sourceRank": 7
+    }
+  ],
+  "outOfChartHistory": [],
+  "generatedAt": "2026-08-01T21:20:34+09:00",
+  "summary": {
+    "peakRank": 7,
+    "firstChartedAt": "2026-08-01T21:00:00+09:00",
+    "lastChartedAt": "2026-08-01T21:00:00+09:00",
+    "chartDays": 1,
+    "currentRank": 7,
+    "status": "in",
+    "pointCount": 1
+  }
+}

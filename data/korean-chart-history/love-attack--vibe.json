@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "songId": "love-attack",
+  "songTitle": "LOVE ATTACK",
+  "chartId": "vibe",
+  "chartName": "VIBE Today TOP 100",
+  "points": [
+    {
+      "chartAt": "2026-08-01T00:00:00+09:00",
+      "checkedAt": "2026-08-01T21:20:34+09:00",
+      "rank": 2,
+      "sourceRank": 2
+    }
+  ],
+  "outOfChartHistory": [],
+  "generatedAt": "2026-08-01T21:20:34+09:00",
+  "summary": {
+    "peakRank": 2,
+    "firstChartedAt": "2026-08-01T00:00:00+09:00",
+    "lastChartedAt": "2026-08-01T00:00:00+09:00",
+    "chartDays": 1,
+    "currentRank": 2,
+    "status": "in",
+    "pointCount": 1
+  }
+}
