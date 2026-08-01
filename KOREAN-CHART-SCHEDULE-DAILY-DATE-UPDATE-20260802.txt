@@ -1,0 +1,37 @@
+RESCENE 韓国チャート取得時刻修正（2026-08-02）
+
+変更後の自動取得時刻（日本・韓国時間）
+----------------------------------------
+毎時04分  Melon TOP100 / Genie Real-time / Bugs Real-time / FLO
+毎時34分  リアルタイム4チャート Watchdog
+
+毎日12:10  Genie Daily / Bugs Daily
+毎日12:35  Genie Daily / Bugs Daily Watchdog
+
+毎日12:50  Melon Daily
+毎日13:15  Melon Daily Watchdog
+
+Dailyの日付
+------------
+Genie Daily / Bugs Daily / Melon Daily は、取得日の前日をチャート日付として保存します。
+
+Genie Daily
+-----------
+存在しないDaily専用URLではなく、共通エンドポイント
+https://app.genie.co.kr/chart/j_RankSongList.json
+へ ditc=D をPOSTします。
+
+反映方法
+--------
+このZIPを展開し、.github と scripts をリポジトリ最上部へアップロードしてください。
+既存ファイルは上書きし、mainブランチへコミットします。
+
+反映後の確認
+------------
+Actions > Sync Korean Charts > Run workflow
+charts:
+genie-daily,bugs-daily,melon-daily
+
+ただしDailyの手動確認は更新完了後に行ってください。
+Genie/Bugs: 12:10以降
+Melon: 12:50以降
