@@ -1,0 +1,19 @@
+﻿タイトル,種別,曲ID,曲名,検索別名,アーティスト別名,対象チャート,公開,表示順,発売日,チャートID,チャート名,短縮名,取得有効,集計周期,最大順位,取得方式,外部ID,備考
+チャート：Melon TOP100,チャート,,,,,,TRUE,10,,melon,Melon TOP100,Melon,TRUE,hourly,100,mobile-api,,取得失敗時は前回の正常データを維持
+チャート：Genie Real-time,チャート,,,,,,TRUE,20,,genie,Genie Real-time,Genie,TRUE,hourly,200,mobile-api,,取得失敗時は前回の正常データを維持
+チャート：Bugs Real-time,チャート,,,,,,TRUE,30,,bugs,Bugs Real-time,Bugs,TRUE,hourly,100,mobile-api,,取得失敗時は前回の正常データを維持
+チャート：FLO Chart,チャート,,,,,,TRUE,40,,flo,FLO Chart,FLO,TRUE,hourly,100,mobile-api,,取得失敗時は前回の正常データを維持
+チャート：VIBE Today TOP 100,チャート,,,,,,TRUE,50,,vibe,VIBE Today TOP 100,VIBE,TRUE,daily,100,web-api,,取得失敗時は前回の正常データを維持
+チャート：YouTube Music Korea Top Songs,チャート,,,,,,TRUE,60,,youtube-kr,YouTube Music Korea Top Songs,YouTube Music,TRUE,weekly,100,official-playlist,,取得失敗時は前回の正常データを維持
+チャート：Spotify Top 50 South Korea,チャート,,,,,,TRUE,70,,spotify-kr,Spotify Top 50 South Korea,Spotify,TRUE,daily,50,official-playlist,,取得失敗時は前回の正常データを維持
+楽曲：UhUh,楽曲,uhuh,UhUh,UhUh,RESCENE｜리센느,melon｜genie｜bugs｜flo｜vibe｜youtube-kr｜spotify-kr,TRUE,10,2024-03-26,,,,,,,,,
+楽曲：YoYo,楽曲,yoyo,YoYo,YoYo,RESCENE｜리센느,melon｜genie｜bugs｜flo｜vibe｜youtube-kr｜spotify-kr,TRUE,20,2024-03-26,,,,,,,,,
+楽曲：LOVE ATTACK,楽曲,love-attack,LOVE ATTACK,LOVE ATTACK｜Love Attack,RESCENE｜리센느,melon｜genie｜bugs｜flo｜vibe｜youtube-kr｜spotify-kr,TRUE,30,2024-08-27,,,,,,,,,
+楽曲：Pinball,楽曲,pinball,Pinball,Pinball,RESCENE｜리센느,melon｜genie｜bugs｜flo｜vibe｜youtube-kr｜spotify-kr,TRUE,40,2024-08-27,,,,,,,,,
+楽曲：Glow Up,楽曲,glow-up,Glow Up,Glow Up,RESCENE｜리센느,melon｜genie｜bugs｜flo｜vibe｜youtube-kr｜spotify-kr,TRUE,50,2025-02-05,,,,,,,,,
+楽曲：Deja Vu,楽曲,deja-vu,Deja Vu,Deja Vu｜Déjà Vu｜DEJA VU,RESCENE｜리센느,melon｜genie｜bugs｜flo｜vibe｜youtube-kr｜spotify-kr,TRUE,60,2025-07-02,,,,,,,,,
+楽曲：Heart Drop,楽曲,heart-drop,Heart Drop,Heart Drop,RESCENE｜리센느,melon｜genie｜bugs｜flo｜vibe｜youtube-kr｜spotify-kr,TRUE,70,2025-11-25,,,,,,,,,
+楽曲：Bloom,楽曲,bloom,Bloom,Bloom,RESCENE｜리센느,melon｜genie｜bugs｜flo｜vibe｜youtube-kr｜spotify-kr,TRUE,80,2025-11-25,,,,,,,,,
+楽曲：Busy Boy,楽曲,busy-boy,Busy Boy,Busy Boy,RESCENE｜리센느,melon｜genie｜bugs｜flo｜vibe｜youtube-kr｜spotify-kr,TRUE,90,2026-02-27,,,,,,,,,
+楽曲：Runaway,楽曲,runaway,Runaway,Runaway,RESCENE｜리센느,melon｜genie｜bugs｜flo｜vibe｜youtube-kr｜spotify-kr,TRUE,100,2026-04-08,,,,,,,,,
+楽曲：Pretty Girl,楽曲,pretty-girl,Pretty Girl,Pretty Girl,RESCENE｜리센느,melon｜genie｜bugs｜flo｜vibe｜youtube-kr｜spotify-kr,TRUE,110,2026-07-08,,,,,,,,,

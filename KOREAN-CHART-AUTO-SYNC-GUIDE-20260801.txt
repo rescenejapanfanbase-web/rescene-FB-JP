@@ -1,0 +1,170 @@
+RESCENE JAPAN FANBASE
+韓国チャート毎時自動同期・Notion管理ガイド
+基準日: 2026-08-01
+
+============================================================
+1. 追加された機能
+============================================================
+・Melon TOP100
+・Genie Real-time
+・Bugs Real-time
+・FLO Chart
+・VIBE Today TOP 100
+・YouTube Music Korea Top Songs
+・Spotify Top 50 South Korea
+
+上記を毎時確認し、Notionで公開対象にしたRESCENEの楽曲だけを抽出します。
+公開ページ: korean-charts.html
+Workflow: Sync Korean Charts
+Watchdog: Korean Chart Watchdog
+
+保存する値:
+・現在順位
+・前回の正常取得時順位
+・前回比（上昇／下降／変動なし／NEW／再登場／圏外）
+・自動取得開始後の最高順位
+・初登場日時
+・最終チャートイン日時
+・チャートイン日数
+・圏外履歴
+・順位推移履歴
+・取得元ごとの最終成功・失敗状態
+
+============================================================
+2. 初回設定
+============================================================
+1. Notionでフルページのデータベースを新規作成します。
+2. データベースへ、既存のNOTION_TOKENを発行したIntegrationを接続します。
+3. GitHubのSettings → Secrets and variables → Actions → Variablesへ、
+   NOTION_KOREAN_CHARTS_DATA_SOURCE_ID を追加します。
+4. 値には、作成したデータベースのData Source IDを設定します。
+5. Actions → Setup Notion Site Managementを開きます。
+6. 最初はmode=dry-runで実行し、追加予定の列と行を確認します。
+7. 問題がなければmode=applyで再実行します。
+8. Actions → Sync Korean Chartsを手動実行します。
+9. korean-charts.htmlとsync-status.htmlを確認します。
+
+参考テンプレート:
+NOTION-KOREAN-CHART-TEMPLATE-20260801.csv
+
+============================================================
+3. Notionの管理方法
+============================================================
+「種別」が「楽曲」の行:
+・曲ID: URL・履歴ファイルに使用する一意のID
+・曲名: 公開表示する曲名
+・検索別名: 公式チャート上で使われる表記を「｜」区切りで入力
+・アーティスト別名: 通常は RESCENE｜리센느
+・対象チャート: 取得対象のチャートを複数選択
+・公開: OFFにすると公開ページから除外
+・表示順: 楽曲別表示の順番
+・発売日: YYYY-MM-DD
+・外部ID: 必要な場合のみJSON形式でサービス別楽曲IDを指定
+
+「種別」が「チャート」の行:
+・チャートID: melon / genie / bugs / flo / vibe / youtube-kr / spotify-kr
+・チャート名、短縮名: 公開表示名
+・取得有効: OFFにすると取得自体を停止
+・公開: OFFにすると公開ページから除外
+・表示順: チャート別表示とナビ内の順番
+・集計周期: hourly / daily / weekly
+・最大順位: チャートの掲載範囲
+・取得方式: mobile-api / web-api / official-playlist
+
+注意:
+・曲IDとチャートIDは運用開始後に変更しないでください。変更すると別の履歴として保存されます。
+・同じ曲のリミックス、英語版、日本語版は検索別名を分けてください。
+・対象チャートが空欄の場合は、公開中の全チャートが対象になります。
+
+============================================================
+4. Spotifyの追加設定
+============================================================
+Spotifyは公式Web APIで「Top 50 South Korea」プレイリストを読み取ります。
+Repository Secretsへ次を追加してください。
+・SPOTIFY_CLIENT_ID
+・SPOTIFY_CLIENT_SECRET
+
+任意のRepository Variable:
+・SPOTIFY_KOREA_PLAYLIST_ID
+  未設定時は 37i9dQZEVXbNxXF4SkHj9F を使用します。
+
+Spotifyの認証情報が未設定または一時的に無効な場合、Spotifyだけ前回正常値を維持し、ほかのチャートは更新します。
+
+============================================================
+5. YouTube Music Korea
+============================================================
+公式の「Top 100 Songs South Korea」プレイリストをyt-dlpで読み取り、プレイリスト順を順位として保存します。
+
+任意のRepository Variable:
+・YOUTUBE_MUSIC_KOREA_PLAYLIST_URL
+
+未設定時は標準の韓国Top Songs公式プレイリストを使用します。
+YouTube Music Koreaは週次チャートのため、毎時確認しても同じ週の同一順位は重複保存しません。
+
+============================================================
+6. 失敗時の安全動作
+============================================================
+・各取得元は最大3回再試行します。
+・取得件数が極端に少ない、または1位を含まないレスポンスは不完全と判定します。
+・一部チャートだけ失敗した場合、そのチャートの順位と履歴は前回正常値を維持します。
+・全チャートが失敗した場合、公開JSON・履歴・同期状態を一切変更せずWorkflowを失敗にします。
+・毎時47分のKorean Chart Watchdogが、正常完了がない、失敗した、実行されなかった場合にWorkflowを再実行します。
+・GitHubへのpush競合時も、最新mainへ戻して最大3回再取得・再公開します。
+
+============================================================
+7. 更新周期と保存の考え方
+============================================================
+Workflowは毎時17分（JST）に動きます。
+ただし、履歴の重複保存はチャートの集計周期に合わせて防止します。
+
+・Melon / Genie / Bugs / FLO: 時間単位
+・VIBE / Spotify: 日単位
+・YouTube Music Korea: 週単位
+
+「チャートイン日数」は順位が付いた集計日のユニーク日数です。
+「最高順位」などは本機能で正常取得できた履歴を基準にします。
+
+============================================================
+8. 生成・更新ファイル
+============================================================
+設定:
+・data/korean-chart-config.json
+
+公開データ:
+・data/korean-charts.json
+・data/korean-charts-data.js
+・data/korean-chart-sync-status.json
+
+履歴:
+・data/korean-chart-history/<曲ID>--<チャートID>.json
+
+表示:
+・korean-charts.html
+・css/korean-charts.css
+・js/korean-charts.js
+
+自動処理:
+・scripts/korean_chart_core.py
+・scripts/sync-korean-charts.py
+・scripts/test-korean-chart-sync.py
+・scripts/korean-chart-watchdog.py
+・.github/workflows/sync-korean-charts.yml
+・.github/workflows/korean-chart-watchdog.yml
+
+============================================================
+9. 公開後の確認
+============================================================
+1. Sync Korean Chartsが成功している。
+2. korean-charts.htmlの取得状況が「正常」になっている。
+3. RESCENE以外の楽曲が表示されていない。
+4. 曲名表記違いで取りこぼした場合は、Notionの検索別名へ公式表記を追加する。
+5. 順位推移ボタンで履歴グラフが表示される。
+6. 一つの取得元を失敗させたテストでは、ほかの取得元が更新され、失敗元だけ前回値になる。
+7. sync-status.htmlで毎時同期とWatchdogを確認する。
+
+============================================================
+10. 重要な注意
+============================================================
+各音楽サービスの公開仕様・内部API・公式プレイリストは予告なく変更される可能性があります。
+本実装は不完全な取得結果をそのまま「圏外」と判定しないよう、件数検査・再試行・前回値維持を優先しています。
+取得元の仕様変更時は、該当アダプターだけを修正し、履歴JSONと他のサイト機能は維持できます。
