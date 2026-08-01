@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-07-31T15:33:39Z",
+  "generatedAt": "2026-08-01T14:34:28Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -1659,6 +1659,33 @@
         }
       ],
       "default": "assets/optimized/59823cf869906187/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf8-w1440.webp"
+    },
+    "assets/records/notion/record-3a8229d219da81b4a4c4fcca22133cea-bdf4598ab1f1.jpg": {
+      "asset": "bdf4598ab1f12a5f",
+      "originalBytes": 161974,
+      "width": 937,
+      "height": 702,
+      "variants": [
+        {
+          "src": "assets/optimized/bdf4598ab1f12a5f/record-3a8229d219da81b4a4c4fcca22133cea-bdf4598a-w480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 44776
+        },
+        {
+          "src": "assets/optimized/bdf4598ab1f12a5f/record-3a8229d219da81b4a4c4fcca22133cea-bdf4598a-w768.webp",
+          "width": 768,
+          "height": 575,
+          "bytes": 87286
+        },
+        {
+          "src": "assets/optimized/bdf4598ab1f12a5f/record-3a8229d219da81b4a4c4fcca22133cea-bdf4598a-w937.webp",
+          "width": 937,
+          "height": 702,
+          "bytes": 115524
+        }
+      ],
+      "default": "assets/optimized/bdf4598ab1f12a5f/record-3a8229d219da81b4a4c4fcca22133cea-bdf4598a-w937.webp"
     },
     "assets/records/notion/record-3a9229d219da8007a288fb5e0457d2b1-6edc8760c2f6.jpg": {
       "asset": "6edc8760c2f6799b",
@@ -4496,25 +4523,25 @@
       "height": 702,
       "variants": [
         {
-          "src": "assets/optimized/bdf4598ab1f12a5f/the-show-first-win-w480.webp",
+          "src": "assets/optimized/bdf4598ab1f12a5f/record-3a8229d219da81b4a4c4fcca22133cea-bdf4598a-w480.webp",
           "width": 480,
           "height": 360,
           "bytes": 44776
         },
         {
-          "src": "assets/optimized/bdf4598ab1f12a5f/the-show-first-win-w768.webp",
+          "src": "assets/optimized/bdf4598ab1f12a5f/record-3a8229d219da81b4a4c4fcca22133cea-bdf4598a-w768.webp",
           "width": 768,
           "height": 575,
           "bytes": 87286
         },
         {
-          "src": "assets/optimized/bdf4598ab1f12a5f/the-show-first-win-w937.webp",
+          "src": "assets/optimized/bdf4598ab1f12a5f/record-3a8229d219da81b4a4c4fcca22133cea-bdf4598a-w937.webp",
           "width": 937,
           "height": 702,
           "bytes": 115524
         }
       ],
-      "default": "assets/optimized/bdf4598ab1f12a5f/the-show-first-win-w937.webp"
+      "default": "assets/optimized/bdf4598ab1f12a5f/record-3a8229d219da81b4a4c4fcca22133cea-bdf4598a-w937.webp"
     },
     "ogp/404.jpg": {
       "asset": "e206d9bed0099fbd",
@@ -10691,31 +10718,31 @@
       "hash": "bdf4598ab1f12a5f2e59c16521c9eec7fd9698556857886028fbc33c3b9c4d64",
       "width": 937,
       "height": 702,
-      "format": "jpeg",
+      "format": "jpg",
       "alpha": false,
       "quality": 84,
       "variants": [
         {
-          "src": "assets/optimized/bdf4598ab1f12a5f/the-show-first-win-w480.webp",
+          "src": "assets/optimized/bdf4598ab1f12a5f/record-3a8229d219da81b4a4c4fcca22133cea-bdf4598a-w480.webp",
           "width": 480,
           "height": 360,
           "bytes": 44776
         },
         {
-          "src": "assets/optimized/bdf4598ab1f12a5f/the-show-first-win-w768.webp",
+          "src": "assets/optimized/bdf4598ab1f12a5f/record-3a8229d219da81b4a4c4fcca22133cea-bdf4598a-w768.webp",
           "width": 768,
           "height": 575,
           "bytes": 87286
         },
         {
-          "src": "assets/optimized/bdf4598ab1f12a5f/the-show-first-win-w937.webp",
+          "src": "assets/optimized/bdf4598ab1f12a5f/record-3a8229d219da81b4a4c4fcca22133cea-bdf4598a-w937.webp",
           "width": 937,
           "height": 702,
           "bytes": 115524
         }
       ],
       "skippedWidths": [],
-      "default": "assets/optimized/bdf4598ab1f12a5f/the-show-first-win-w937.webp"
+      "default": "assets/optimized/bdf4598ab1f12a5f/record-3a8229d219da81b4a4c4fcca22133cea-bdf4598a-w937.webp"
     },
     "be274d6474f7b38c": {
       "hash": "be274d6474f7b38c2481073d29d34fe78ec05033af1e57e9d462371ace16f393",

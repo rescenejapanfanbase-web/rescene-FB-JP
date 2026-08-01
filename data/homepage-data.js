@@ -1,8 +1,1256 @@
 window.RESCENE_HOMEPAGE = {
-  "generatedAt": "2026-07-31T14:56:46.593Z",
+  "generatedAt": "2026-08-01T14:34:19.231Z",
   "source": "notion",
   "dataSourceId": "1a98fbc6-21d6-4a11-8ed9-19b228250182",
   "notionDatabaseUrl": "https://app.notion.com/p/23afd46c4c68443d89de65c74f605d68",
+  "theme": {
+    "name": "RESCENE Pink",
+    "background": "#111118",
+    "background2": "#191823",
+    "card": "#2a1727",
+    "card2": "#341b30",
+    "primary": "#6fcdff",
+    "primarySoft": "#ff9bc7",
+    "secondary": "#c8a4ff",
+    "accent": "#8fe3ca",
+    "blue": "#8ec9ff",
+    "yellow": "#f4d04b",
+    "ink": "#2c2c35",
+    "memberWoni": "#79d98c",
+    "memberLiv": "#2c2c35",
+    "memberMinami": "#4f8dff",
+    "memberMay": "#f4d04b",
+    "memberZena": "#9c72ff",
+    "text": "#fff9fc",
+    "muted": "#d4b7c8",
+    "lightBackground": "#f7fbff",
+    "lightCard": "#ffffff",
+    "lightText": "#2f1a29"
+  },
+  "siteManagement": {
+    "navigation": [
+      {
+        "slug": "nav-home",
+        "title": "ナビ：ホーム",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "ホーム",
+        "description": "",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "index.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "nav-home",
+        "order": 10,
+        "translations": {
+          "ko": {
+            "heading": "홈"
+          },
+          "en": {
+            "heading": "Home"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-818a-a7f6-e03abd47d7d9",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da818aa7f6e03abd47d7d9"
+      },
+      {
+        "slug": "nav-about",
+        "title": "ナビ：RESCENEについて",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "RESCENEについて",
+        "description": "",
+        "note": "RESCENE",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "about.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "nav-about",
+        "order": 20,
+        "translations": {
+          "ko": {
+            "heading": "RESCENE 소개"
+          },
+          "en": {
+            "heading": "About RESCENE"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-811d-aa38-cadc22f3f8ec",
+        "notionUrl": "https://app.notion.com/p/RESCENE-3ae229d219da811daa38cadc22f3f8ec"
+      },
+      {
+        "slug": "nav-members",
+        "title": "ナビ：メンバー",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "メンバー",
+        "description": "",
+        "note": "RESCENE",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "members.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "nav-members",
+        "order": 21,
+        "translations": {
+          "ko": {
+            "heading": "멤버"
+          },
+          "en": {
+            "heading": "Members"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-81b9-ab83-f228e854b66e",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81b9ab83f228e854b66e"
+      },
+      {
+        "slug": "nav-schedule",
+        "title": "ナビ：スケジュール",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "スケジュール",
+        "description": "",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "schedule.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "nav-schedule",
+        "order": 30,
+        "translations": {
+          "ko": {
+            "heading": "스케줄"
+          },
+          "en": {
+            "heading": "Schedule"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-8120-a7cc-db4143d7d047",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da8120a7ccdb4143d7d047"
+      },
+      {
+        "slug": "nav-news",
+        "title": "ナビ：ニュース",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "ニュース",
+        "description": "",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "news.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "nav-news",
+        "order": 40,
+        "translations": {
+          "ko": {
+            "heading": "뉴스"
+          },
+          "en": {
+            "heading": "News"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-81a8-8287-ea59468f52e6",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81a88287ea59468f52e6"
+      },
+      {
+        "slug": "nav-discography",
+        "title": "ナビ：ディスコグラフィ",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "ディスコグラフィ",
+        "description": "",
+        "note": "音楽",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "discography.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "nav-discography",
+        "order": 50,
+        "translations": {
+          "ko": {
+            "heading": "디스코그래피"
+          },
+          "en": {
+            "heading": "Discography"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-815e-a4e1-c13d1b25d3ba",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da815ea4e1c13d1b25d3ba"
+      },
+      {
+        "slug": "nav-mv",
+        "title": "ナビ：MV一覧",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "MV一覧",
+        "description": "",
+        "note": "音楽",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "mv.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "nav-mv",
+        "order": 51,
+        "translations": {
+          "ko": {
+            "heading": "MV 목록"
+          },
+          "en": {
+            "heading": "MV List"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-81e8-b43a-de02b8023b9e",
+        "notionUrl": "https://app.notion.com/p/MV-3ae229d219da81e8b43ade02b8023b9e"
+      },
+      {
+        "slug": "nav-youtube",
+        "title": "ナビ：YouTube",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "YouTube",
+        "description": "",
+        "note": "音楽",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "youtube.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "nav-youtube",
+        "order": 52,
+        "translations": {
+          "ko": {
+            "heading": "YouTube"
+          },
+          "en": {
+            "heading": "YouTube"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-8121-9915-d7046981b5c1",
+        "notionUrl": "https://app.notion.com/p/YouTube-3ae229d219da81219915d7046981b5c1"
+      },
+      {
+        "slug": "nav-records",
+        "title": "ナビ：記録",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "記録",
+        "description": "",
+        "note": "音楽",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "records.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "nav-records",
+        "order": 53,
+        "translations": {
+          "ko": {
+            "heading": "기록"
+          },
+          "en": {
+            "heading": "Records"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-81b5-b1f3-e39c46532fd0",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81b5b1f3e39c46532fd0"
+      },
+      {
+        "slug": "nav-streaming",
+        "title": "ナビ：ストリーミング",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "ストリーミング",
+        "description": "",
+        "note": "応援ガイド",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "streaming.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "nav-streaming",
+        "order": 60,
+        "translations": {
+          "ko": {
+            "heading": "스트리밍"
+          },
+          "en": {
+            "heading": "Streaming"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-81d0-9cbb-f6507a4dff69",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81d09cbbf6507a4dff69"
+      },
+      {
+        "slug": "nav-voting",
+        "title": "ナビ：投票ガイド",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "投票ガイド",
+        "description": "",
+        "note": "応援ガイド",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "voting.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "nav-voting",
+        "order": 61,
+        "translations": {
+          "ko": {
+            "heading": "투표 가이드"
+          },
+          "en": {
+            "heading": "Voting Guide"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-8197-9b4b-d172e27dfb8f",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81979b4bd172e27dfb8f"
+      },
+      {
+        "slug": "nav-chants",
+        "title": "ナビ：掛け声ガイド",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "掛け声ガイド",
+        "description": "",
+        "note": "応援ガイド",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "chants.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "nav-chants",
+        "order": 62,
+        "translations": {
+          "ko": {
+            "heading": "응원법 가이드"
+          },
+          "en": {
+            "heading": "Fan Chant Guide"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-8117-9677-e93d0ee3575f",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81179677e93d0ee3575f"
+      },
+      {
+        "slug": "nav-links",
+        "title": "ナビ：公式リンク",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "公式リンク",
+        "description": "",
+        "note": "リンク",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "links.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "nav-links",
+        "order": 70,
+        "translations": {
+          "ko": {
+            "heading": "공식 링크"
+          },
+          "en": {
+            "heading": "Official Links"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-81fa-b74f-cda84b288be9",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81fab74fcda84b288be9"
+      },
+      {
+        "slug": "nav-fan-services",
+        "title": "ナビ：ファンサービスガイド",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "ファンサービスガイド",
+        "description": "",
+        "note": "リンク",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "fan-services.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "nav-fan-services",
+        "order": 71,
+        "translations": {
+          "ko": {
+            "heading": "팬 서비스 가이드"
+          },
+          "en": {
+            "heading": "Fan Service Guide"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-811d-9fd6-c12a37132c8b",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da811d9fd6c12a37132c8b"
+      },
+      {
+        "slug": "nav-contact",
+        "title": "ナビ：お問い合わせ",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "お問い合わせ",
+        "description": "",
+        "note": "リンク",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "contact.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "nav-contact",
+        "order": 72,
+        "translations": {
+          "ko": {
+            "heading": "문의"
+          },
+          "en": {
+            "heading": "Contact"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-81e6-9a85-e3134e79c9ac",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81e69a85e3134e79c9ac"
+      }
+    ],
+    "pages": {
+      "index": {
+        "slug": "page-index",
+        "title": "ページ：RESCENEJAPAN FANBASE",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "RESCENEJAPAN FANBASE",
+        "description": "RESCENEを日本から応援する非公式ファンベース。最新情報、スケジュール、作品、ストリーミング、投票ガイドをまとめています。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "index.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-index",
+        "order": 3000,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-819b-9e68-e206e933dd76",
+        "notionUrl": "https://app.notion.com/p/RESCENEJAPAN-FANBASE-3ae229d219da819b9e68e206e933dd76"
+      },
+      "about": {
+        "slug": "page-about",
+        "title": "ページ：RESCENEについて",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "RESCENEについて",
+        "description": "RESCENEのコンセプト、グループ名、デビュー情報、5人のメンバーを紹介します。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "about.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-about",
+        "order": 3001,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-8164-a930-e48a4c1cf928",
+        "notionUrl": "https://app.notion.com/p/RESCENE-3ae229d219da8164a930e48a4c1cf928"
+      },
+      "members": {
+        "slug": "page-members",
+        "title": "ページ：メンバー",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "メンバー",
+        "description": "WONI、LIV、MINAMI、MAY、ZENAのプロフィールと活動情報を紹介します。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "members.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-members",
+        "order": 3002,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-81d7-819a-ce9c9d08432a",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81d7819ace9c9d08432a"
+      },
+      "schedule": {
+        "slug": "page-schedule",
+        "title": "ページ：スケジュール",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "スケジュール",
+        "description": "RESCENEのイベント、音楽番組、リリース、投票、記念日などの最新スケジュールを掲載しています。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "schedule.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-schedule",
+        "order": 3003,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-81a0-96e9-e7d037703854",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81a096e9e7d037703854"
+      },
+      "news": {
+        "slug": "page-news",
+        "title": "ページ：ニュース",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "ニュース",
+        "description": "RESCENEのリリース、記録、イベント、広報大使などの最新ニュースを掲載しています。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "news.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-news",
+        "order": 3004,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-819d-9a6d-e5dc7634bdbd",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da819d9a6de5dc7634bdbd"
+      },
+      "discography": {
+        "slug": "page-discography",
+        "title": "ページ：ディスコグラフィ",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "ディスコグラフィ",
+        "description": "RESCENEのアルバム、シングル、OST、収録曲、Apple Music・Spotifyなどの配信リンクをまとめています。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "discography.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-discography",
+        "order": 3005,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-816c-bf18-fae08d56c8d5",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da816cbf18fae08d56c8d5"
+      },
+      "mv": {
+        "slug": "page-mv",
+        "title": "ページ：MV一覧",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "MV一覧",
+        "description": "RESCENEの公式ミュージックビデオ、パフォーマンス映像などを作品別にまとめています。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "mv.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-mv",
+        "order": 3006,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-81e2-855e-e77d78e24c7d",
+        "notionUrl": "https://app.notion.com/p/MV-3ae229d219da81e2855ee77d78e24c7d"
+      },
+      "youtube": {
+        "slug": "page-youtube",
+        "title": "ページ：YouTube",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "YouTube",
+        "description": "RESCENE OfficialとウォニのYouTubeチャンネルで公開された動画、ショート、ライブをまとめています。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "youtube.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-youtube",
+        "order": 3007,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-81d3-825c-f50cc9880ebe",
+        "notionUrl": "https://app.notion.com/p/YouTube-3ae229d219da81d3825cf50cc9880ebe"
+      },
+      "records": {
+        "slug": "page-records",
+        "title": "ページ：記録",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "記録",
+        "description": "RESCENEの音楽番組1位獲得記録とMelonチャート記録を、映像・最高順位・MVリンクとともに掲載しています。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "records.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-records",
+        "order": 3008,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-8102-afbc-c53bfebe395d",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da8102afbcc53bfebe395d"
+      },
+      "music-show-wins": {
+        "slug": "page-music-show-wins",
+        "title": "ページ：音楽番組1位獲得記録",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "音楽番組1位獲得記録",
+        "description": "RESCENEの音楽番組1位獲得記録を、総獲得数・番組・日付・映像リンクとともに掲載しています。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "music-show-wins.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-music-show-wins",
+        "order": 3009,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-8150-aa95-e9d3e9aa43f6",
+        "notionUrl": "https://app.notion.com/p/1-3ae229d219da8150aa95e9d3e9aa43f6"
+      },
+      "melon-records": {
+        "slug": "page-melon-records",
+        "title": "ページ：Melonチャート記録",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "Melonチャート記録",
+        "description": "RESCENEの楽曲を発売順に並べ、Melon TOP100最高順位、日間最高順位、MVリンクを掲載しています。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "melon-records.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-melon-records",
+        "order": 3010,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-81b5-ba2e-d225d0e5385c",
+        "notionUrl": "https://app.notion.com/p/Melon-3ae229d219da81b5ba2ed225d0e5385c"
+      },
+      "streaming": {
+        "slug": "page-streaming",
+        "title": "ページ：ストリーミング",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "ストリーミング",
+        "description": "YouTube、Spotify、Apple Music、Stationhead、TikTokなどでRESCENEを応援する方法を案内します。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "streaming.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-streaming",
+        "order": 3011,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-81b9-b6d1-d1febeb0900f",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81b9b6d1d1febeb0900f"
+      },
+      "voting": {
+        "slug": "page-voting",
+        "title": "ページ：RESCENE 投票ガイド",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "RESCENE 投票ガイド",
+        "description": "RESCENEを応援するための音楽番組投票、投票アプリ、集計方法、投票券の貯め方を案内します。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "voting.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-voting",
+        "order": 3012,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-815b-8bcd-eb0244a25c99",
+        "notionUrl": "https://app.notion.com/p/RESCENE-3ae229d219da815b8bcdeb0244a25c99"
+      },
+      "chants": {
+        "slug": "page-chants",
+        "title": "ページ：掛け声ガイド",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "掛け声ガイド",
+        "description": "RESCENEの楽曲別掛け声ガイドと公式・非公式の案内をまとめています。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "chants.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-chants",
+        "order": 3013,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-8154-a140-e64171491c4e",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da8154a140e64171491c4e"
+      },
+      "links": {
+        "slug": "page-links",
+        "title": "ページ：公式リンク",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "公式リンク",
+        "description": "RESCENEの公式SNS、ファンコミュニティ、公式YouTube、音楽配信サービスへの入口をまとめています。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "links.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-links",
+        "order": 3014,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-81b1-9036-c5d795bed01b",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81b19036c5d795bed01b"
+      },
+      "fan-services": {
+        "slug": "page-fan-services",
+        "title": "ページ：ファンサービスガイド",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "ファンサービスガイド",
+        "description": "RESCENEのPlus Chatメンバーシップとbubbleの利用案内、登録前の確認事項をまとめています。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "fan-services.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-fan-services",
+        "order": 3015,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-81f6-b672-e6fe32a091aa",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81f6b672e6fe32a091aa"
+      },
+      "contact": {
+        "slug": "page-contact",
+        "title": "ページ：お問い合わせ",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "お問い合わせ",
+        "description": "RESCENE JAPAN FANBASEへのお問い合わせ方法と公式情報に関する注意事項をご案内します。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "contact.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-contact",
+        "order": 3016,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-819c-884d-ea5d8e219aba",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da819c884dea5d8e219aba"
+      },
+      "search": {
+        "slug": "page-search",
+        "title": "ページ：サイト内検索",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "サイト内検索",
+        "description": "ニュース、スケジュール、メンバー、作品、MV、YouTube、記録、掛け声、投票ガイドを横断検索できます。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "search.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-search",
+        "order": 3017,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-814c-9e65-cfc7a6d0244c",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da814c9e65cfc7a6d0244c"
+      },
+      "favorites": {
+        "slug": "page-favorites",
+        "title": "ページ：お気に入り",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "お気に入り",
+        "description": "端末内に保存したメンバー、掛け声、投票ガイドをまとめて確認できます。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "favorites.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-favorites",
+        "order": 3018,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-8120-b2c5-c209103fb178",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da8120b2c5c209103fb178"
+      },
+      "updates": {
+        "slug": "page-updates",
+        "title": "ページ：サイト更新履歴",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "サイト更新履歴",
+        "description": "RESCENE JAPAN FANBASEの機能追加やページ更新履歴を掲載しています。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "updates.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-updates",
+        "order": 3019,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-814f-9461-cab3f951c45b",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da814f9461cab3f951c45b"
+      },
+      "sync-status": {
+        "slug": "page-sync-status",
+        "title": "ページ：同期状況",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "同期状況",
+        "description": "RESCENE JAPAN FANBASEの自動同期・バックアップ・チェック機能の実行状況を確認する管理ページです。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "sync-status.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-sync-status",
+        "order": 3020,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-8143-8aae-fe503a6c7554",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81438aaefe503a6c7554"
+      },
+      "external-links": {
+        "slug": "page-external-links",
+        "title": "ページ：外部リンクチェック",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "外部リンクチェック",
+        "description": "RESCENE JAPAN FANBASE内の外部リンク自動チェック結果を確認する管理ページです。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "external-links.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-external-links",
+        "order": 3021,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-817a-828d-dbe69a872f99",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da817a828ddbe69a872f99"
+      },
+      "analytics": {
+        "slug": "page-analytics",
+        "title": "ページ：アクセス解析",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "アクセス解析",
+        "description": "アクセス解析の設定状況を確認する管理ページです。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "analytics.html",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "page-analytics",
+        "order": 3022,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-81e1-ae9b-eea754dba081",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81e1ae9beea754dba081"
+      }
+    },
+    "links": {
+      "bubble-app": {
+        "slug": "link-bubble-app",
+        "title": "リンク：RESCENE bubble",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "RESCENE bubble",
+        "description": "",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "RESCENE bubbleを開く ↗",
+        "linkUrl": "https://apps.apple.com/app/id1556582179",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "link-bubble-app",
+        "order": 5000,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-8101-945c-cbe165965b39",
+        "notionUrl": "https://app.notion.com/p/RESCENE-bubble-3ae229d219da8101945ccbe165965b39"
+      }
+    },
+    "updates": [
+      {
+        "slug": "update-notion-full-management",
+        "title": "更新：Notion完全管理を導入",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "Notion完全管理・5色テーマ・自動更新監視を更新",
+        "description": "サイト構成、色、ページ文言、画像、更新履歴をNotionから管理できる基盤を追加。",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "update-notion-full-management",
+        "order": 6000,
+        "translations": {
+          "ko": {},
+          "en": {}
+        },
+        "notionPageId": "3ae229d2-19da-8164-9e6b-fe8856e7486b",
+        "notionUrl": "https://app.notion.com/p/Notion-3ae229d219da81649e6bfe8856e7486b"
+      }
+    ],
+    "translations": [
+      {
+        "slug": "translation-voting-app",
+        "title": "翻訳：投票アプリ",
+        "type": "ページ設定",
+        "englishLabel": "",
+        "heading": "投票アプリ",
+        "description": "",
+        "note": "",
+        "number": "",
+        "value": "",
+        "subLabel": "",
+        "buttonLabel": "",
+        "linkUrl": "",
+        "secondaryButtonLabel": "",
+        "secondaryLinkUrl": "",
+        "thirdButtonLabel": "",
+        "thirdLinkUrl": "",
+        "image": "",
+        "icon": "",
+        "anchor": "translation-voting-app",
+        "order": 7000,
+        "translations": {
+          "ko": {
+            "heading": "투표 앱"
+          },
+          "en": {
+            "heading": "Voting App"
+          }
+        },
+        "notionPageId": "3ae229d2-19da-81a2-a8ac-f1af36192737",
+        "notionUrl": "https://app.notion.com/p/3ae229d219da81a2a8acf1af36192737"
+      }
+    ]
+  },
   "items": [
     {
       "slug": "home-settings",
@@ -25,6 +1273,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "home-settings",
       "order": 0,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-816a-89a2-ebda0d0656b9",
       "notionUrl": "https://app.notion.com/p/3a3229d219da816a89a2ebda0d0656b9"
     },
@@ -45,10 +1297,14 @@ window.RESCENE_HOMEPAGE = {
       "secondaryLinkUrl": "schedule.html",
       "thirdButtonLabel": "応援方法を見る",
       "thirdLinkUrl": "streaming.html",
-      "image": "assets/group/rescene-group.jpg",
+      "image": "assets/home/notion/hero-407e64a5378f.jpg",
       "icon": "",
       "anchor": "hero",
       "order": 10,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-8138-9cf5-f02dfda70b46",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81389cf5f02dfda70b46"
     },
@@ -73,6 +1329,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "latest",
       "order": 20,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-81cd-950b-eaa7d6d3da99",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81cd950beaa7d6d3da99"
     },
@@ -97,6 +1357,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "quick-heading",
       "order": 30,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-8111-9402-e4ff914cf438",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81119402e4ff914cf438"
     },
@@ -121,6 +1385,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "news",
       "anchor": "quick-news",
       "order": 31,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-816e-bb6a-d18aea03fd87",
       "notionUrl": "https://app.notion.com/p/3a3229d219da816ebb6ad18aea03fd87"
     },
@@ -145,6 +1413,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "calendar",
       "anchor": "quick-schedule",
       "order": 32,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-81f6-a67c-c5d9ce8fd556",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81f6a67cc5d9ce8fd556"
     },
@@ -169,6 +1441,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "play",
       "anchor": "quick-streaming",
       "order": 33,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-8155-bb53-cd5f9bd21d84",
       "notionUrl": "https://app.notion.com/p/3a3229d219da8155bb53cd5f9bd21d84"
     },
@@ -193,6 +1469,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "vote",
       "anchor": "quick-voting",
       "order": 34,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-81c3-abb3-c7c8fe39d017",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81c3abb3c7c8fe39d017"
     },
@@ -217,6 +1497,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "about-focus",
       "order": 40,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-81da-91c1-c77c3987a475",
       "notionUrl": "https://app.notion.com/p/RESCENE-3a3229d219da81da91c1c77c3987a475"
     },
@@ -241,6 +1525,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "stat-members",
       "order": 41,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-8172-b6fc-cc7285f1eb0b",
       "notionUrl": "https://app.notion.com/p/3a3229d219da8172b6fccc7285f1eb0b"
     },
@@ -265,6 +1553,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "stat-fandom",
       "order": 42,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-81a3-96fc-ddb2360c66d9",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81a396fcddb2360c66d9"
     },
@@ -289,6 +1581,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "stat-debut",
       "order": 43,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-8158-9900-f84ed5500b4a",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81589900f84ed5500b4a"
     },
@@ -313,6 +1609,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "routes-heading",
       "order": 50,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-810f-b5f4-ee9b3239b66e",
       "notionUrl": "https://app.notion.com/p/3a3229d219da810fb5f4ee9b3239b66e"
     },
@@ -337,6 +1637,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "route-about",
       "order": 51,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-8162-96c9-e157c554d289",
       "notionUrl": "https://app.notion.com/p/RESCENE-3a3229d219da816296c9e157c554d289"
     },
@@ -361,6 +1665,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "route-members",
       "order": 52,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-81cd-a5d0-c98b76c8b294",
       "notionUrl": "https://app.notion.com/p/5-3a3229d219da81cda5d0c98b76c8b294"
     },
@@ -385,6 +1693,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "route-music",
       "order": 53,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-81c7-87ef-da21043b7fcc",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81c787efda21043b7fcc"
     },
@@ -409,6 +1721,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "route-support",
       "order": 54,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-8116-b639-c63f220a2f32",
       "notionUrl": "https://app.notion.com/p/3a3229d219da8116b639c63f220a2f32"
     },
@@ -433,6 +1749,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "members-heading",
       "order": 60,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-810b-97a7-e3f86c51e38d",
       "notionUrl": "https://app.notion.com/p/3a3229d219da810b97a7e3f86c51e38d"
     },
@@ -457,6 +1777,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "official-heading",
       "order": 70,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-81c6-93a2-e5e7c35a67ff",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81c693a2e5e7c35a67ff"
     },
@@ -481,6 +1805,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "footer-main",
       "order": 80,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-8130-af12-dafb87073752",
       "notionUrl": "https://app.notion.com/p/3a3229d219da8130af12dafb87073752"
     },
@@ -505,6 +1833,10 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "footer-note",
       "order": 81,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-8187-8a69-dab1354edfea",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81878a69dab1354edfea"
     },
@@ -529,313 +1861,12 @@ window.RESCENE_HOMEPAGE = {
       "icon": "",
       "anchor": "not-found",
       "order": 90,
+      "translations": {
+        "ko": {},
+        "en": {}
+      },
       "notionPageId": "3a3229d2-19da-81da-89f3-c18d28fb9a9b",
       "notionUrl": "https://app.notion.com/p/404-3a3229d219da81da89f3c18d28fb9a9b"
     }
-  ],
-  "theme": {
-    "name": "RESCENE Member Colors",
-    "background": "#111118",
-    "background2": "#191823",
-    "card": "#20202b",
-    "card2": "#292837",
-    "primary": "#4f8dff",
-    "primarySoft": "#c9d8ff",
-    "secondary": "#9c72ff",
-    "accent": "#f4d04b",
-    "blue": "#4f8dff",
-    "yellow": "#f4d04b",
-    "ink": "#2c2c35",
-    "memberWoni": "#79d98c",
-    "memberLiv": "#2c2c35",
-    "memberMinami": "#4f8dff",
-    "memberMay": "#f4d04b",
-    "memberZena": "#9c72ff",
-    "text": "#f8f7fb",
-    "muted": "#bbb7c6",
-    "lightBackground": "#fffdf6",
-    "lightCard": "#ffffff",
-    "lightText": "#292630"
-  },
-  "siteManagement": {
-    "navigation": [
-      {
-        "title": "ナビ：ホーム",
-        "heading": "ホーム",
-        "linkUrl": "index.html",
-        "note": "",
-        "order": 10,
-        "anchor": "nav-home",
-        "translations": {
-          "ko": {
-            "heading": "홈"
-          },
-          "en": {
-            "heading": "Home"
-          }
-        }
-      },
-      {
-        "title": "ナビ：RESCENEについて",
-        "heading": "RESCENEについて",
-        "linkUrl": "about.html",
-        "note": "RESCENE",
-        "order": 20,
-        "anchor": "nav-about",
-        "translations": {
-          "ko": {
-            "heading": "RESCENE 소개"
-          },
-          "en": {
-            "heading": "About RESCENE"
-          }
-        }
-      },
-      {
-        "title": "ナビ：メンバー",
-        "heading": "メンバー",
-        "linkUrl": "members.html",
-        "note": "RESCENE",
-        "order": 21,
-        "anchor": "nav-members",
-        "translations": {
-          "ko": {
-            "heading": "멤버"
-          },
-          "en": {
-            "heading": "Members"
-          }
-        }
-      },
-      {
-        "title": "ナビ：スケジュール",
-        "heading": "スケジュール",
-        "linkUrl": "schedule.html",
-        "note": "",
-        "order": 30,
-        "anchor": "nav-schedule",
-        "translations": {
-          "ko": {
-            "heading": "스케줄"
-          },
-          "en": {
-            "heading": "Schedule"
-          }
-        }
-      },
-      {
-        "title": "ナビ：ニュース",
-        "heading": "ニュース",
-        "linkUrl": "news.html",
-        "note": "",
-        "order": 40,
-        "anchor": "nav-news",
-        "translations": {
-          "ko": {
-            "heading": "뉴스"
-          },
-          "en": {
-            "heading": "News"
-          }
-        }
-      },
-      {
-        "title": "ナビ：ディスコグラフィ",
-        "heading": "ディスコグラフィ",
-        "linkUrl": "discography.html",
-        "note": "音楽",
-        "order": 50,
-        "anchor": "nav-discography",
-        "translations": {
-          "ko": {
-            "heading": "디스코그래피"
-          },
-          "en": {
-            "heading": "Discography"
-          }
-        }
-      },
-      {
-        "title": "ナビ：MV一覧",
-        "heading": "MV一覧",
-        "linkUrl": "mv.html",
-        "note": "音楽",
-        "order": 51,
-        "anchor": "nav-mv",
-        "translations": {
-          "ko": {
-            "heading": "MV 목록"
-          },
-          "en": {
-            "heading": "MV List"
-          }
-        }
-      },
-      {
-        "title": "ナビ：YouTube",
-        "heading": "YouTube",
-        "linkUrl": "youtube.html",
-        "note": "音楽",
-        "order": 52,
-        "anchor": "nav-youtube",
-        "translations": {
-          "ko": {
-            "heading": "YouTube"
-          },
-          "en": {
-            "heading": "YouTube"
-          }
-        }
-      },
-      {
-        "title": "ナビ：記録",
-        "heading": "記録",
-        "linkUrl": "records.html",
-        "note": "音楽",
-        "order": 53,
-        "anchor": "nav-records",
-        "translations": {
-          "ko": {
-            "heading": "기록"
-          },
-          "en": {
-            "heading": "Records"
-          }
-        }
-      },
-      {
-        "title": "ナビ：韓国チャート",
-        "heading": "韓国チャート",
-        "linkUrl": "korean-charts.html",
-        "note": "音楽",
-        "order": 54,
-        "anchor": "nav-korean-charts",
-        "translations": {
-          "ko": {
-            "heading": "한국 차트"
-          },
-          "en": {
-            "heading": "Korean Charts"
-          }
-        }
-      },
-      {
-        "title": "ナビ：ストリーミング",
-        "heading": "ストリーミング",
-        "linkUrl": "streaming.html",
-        "note": "応援ガイド",
-        "order": 60,
-        "anchor": "nav-streaming",
-        "translations": {
-          "ko": {
-            "heading": "스트리밍"
-          },
-          "en": {
-            "heading": "Streaming"
-          }
-        }
-      },
-      {
-        "title": "ナビ：投票ガイド",
-        "heading": "投票ガイド",
-        "linkUrl": "voting.html",
-        "note": "応援ガイド",
-        "order": 61,
-        "anchor": "nav-voting",
-        "translations": {
-          "ko": {
-            "heading": "투표 가이드"
-          },
-          "en": {
-            "heading": "Voting Guide"
-          }
-        }
-      },
-      {
-        "title": "ナビ：掛け声ガイド",
-        "heading": "掛け声ガイド",
-        "linkUrl": "chants.html",
-        "note": "応援ガイド",
-        "order": 62,
-        "anchor": "nav-chants",
-        "translations": {
-          "ko": {
-            "heading": "응원법 가이드"
-          },
-          "en": {
-            "heading": "Fan Chant Guide"
-          }
-        }
-      },
-      {
-        "title": "ナビ：公式リンク",
-        "heading": "公式リンク",
-        "linkUrl": "links.html",
-        "note": "リンク",
-        "order": 70,
-        "anchor": "nav-links",
-        "translations": {
-          "ko": {
-            "heading": "공식 링크"
-          },
-          "en": {
-            "heading": "Official Links"
-          }
-        }
-      },
-      {
-        "title": "ナビ：ファンサービスガイド",
-        "heading": "ファンサービスガイド",
-        "linkUrl": "fan-services.html",
-        "note": "リンク",
-        "order": 71,
-        "anchor": "nav-fan-services",
-        "translations": {
-          "ko": {
-            "heading": "팬 서비스 가이드"
-          },
-          "en": {
-            "heading": "Fan Service Guide"
-          }
-        }
-      },
-      {
-        "title": "ナビ：お問い合わせ",
-        "heading": "お問い合わせ",
-        "linkUrl": "contact.html",
-        "note": "リンク",
-        "order": 72,
-        "anchor": "nav-contact",
-        "translations": {
-          "ko": {
-            "heading": "문의"
-          },
-          "en": {
-            "heading": "Contact"
-          }
-        }
-      }
-    ],
-    "pages": {},
-    "links": {
-      "bubble-app": {
-        "title": "RESCENE bubble",
-        "heading": "RESCENE bubble",
-        "buttonLabel": "RESCENE bubbleを開く ↗",
-        "linkUrl": "https://apps.apple.com/app/id1556582179",
-        "anchor": "link-bubble-app",
-        "order": 10,
-        "translations": {
-          "ko": {
-            "buttonLabel": "RESCENE bubble 열기 ↗"
-          },
-          "en": {
-            "buttonLabel": "Open RESCENE bubble ↗"
-          }
-        }
-      }
-    },
-    "updates": [],
-    "translations": []
-  }
+  ]
 };

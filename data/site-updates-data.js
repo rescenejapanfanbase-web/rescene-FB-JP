@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-01T02:39:52.948413+00:00",
+  "generatedAt": "2026-08-01T14:34:20.753509+00:00",
   "items": [
     {
       "date": "2026-08-01",
@@ -9,6 +9,92 @@ window.RESCENE_SITE_UPDATES = {
         "korean-charts.html",
         "sync-korean-charts.yml",
         "korean-chart-watchdog.yml"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "a6ceff6",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "7d0d9d5",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/quality-report.json",
+        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
+        "scripts/__pycache__/check-external-links.cpython-313.pyc",
+        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc",
+        "scripts/__pycache__/check-site-links.cpython-313.pyc"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "title": "chore: critical full content sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "cab7e68",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/quality-report.json",
+        "data/seo-status.json",
+        "data/site-updates-data.js"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "title": "chore: critical YouTube sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "5bccb35",
+      "files": [
+        "data/youtube-channels.json"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "title": "chore: backfill Korean chart history",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "e1a0376",
+      "files": [
+        "data/korean-chart-config.json",
+        "data/korean-chart-history/bloom--youtube-kr.json",
+        "data/korean-chart-history/busy-boy--youtube-kr.json",
+        "data/korean-chart-history/deja-vu--bugs.json",
+        "data/korean-chart-history/deja-vu--flo.json",
+        "data/korean-chart-history/deja-vu--genie.json",
+        "data/korean-chart-history/deja-vu--melon.json",
+        "data/korean-chart-history/deja-vu--vibe.json"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Add files via upload",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "9e6ca8c",
+      "files": [
+        "GUYSO-BACKFILL-COMPACT-NAMEERROR-HOTFIX-20260801.txt",
+        "scripts/backfill-korean-chart-history.py",
+        "scripts/test-korean-chart-history.py"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "203b783",
+      "files": [
+        "data/external-link-report.json"
       ]
     },
     {

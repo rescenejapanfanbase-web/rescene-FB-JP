@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-08-01T06:00:10.995Z",
+  "generatedAt": "2026-08-01T14:34:20.860Z",
   "source": "git-history",
   "guides": [
+    {
+      "key": "chants",
+      "title": "掛け声ガイド",
+      "summary": "楽曲ごとの掛け声をサムネイルからすぐに開けます。",
+      "url": "chants.html",
+      "category": "FANCHANT",
+      "updatedAt": "2026-08-01T21:05:10+09:00",
+      "commit": "b6a1167"
+    },
+    {
+      "key": "youtube",
+      "title": "YouTube一覧",
+      "summary": "公式・ウォニチャンネルの動画、ショート、ライブを横断して確認できます。",
+      "url": "youtube.html",
+      "category": "YOUTUBE",
+      "updatedAt": "2026-08-01T21:05:10+09:00",
+      "commit": "b6a1167"
+    },
+    {
+      "key": "mv",
+      "title": "MV一覧",
+      "summary": "RESCENEのミュージックビデオを作品別に確認できます。",
+      "url": "mv.html",
+      "category": "MUSIC VIDEO",
+      "updatedAt": "2026-08-01T21:05:10+09:00",
+      "commit": "b6a1167"
+    },
     {
       "key": "discography",
       "title": "ディスコグラフィ",
@@ -19,33 +46,6 @@
       "category": "VOTING",
       "updatedAt": "2026-07-31T15:33:42Z",
       "commit": "6644ce4"
-    },
-    {
-      "key": "chants",
-      "title": "掛け声ガイド",
-      "summary": "楽曲ごとの掛け声をサムネイルからすぐに開けます。",
-      "url": "chants.html",
-      "category": "FANCHANT",
-      "updatedAt": "2026-07-31T01:04:04+09:00",
-      "commit": "81731a6"
-    },
-    {
-      "key": "youtube",
-      "title": "YouTube一覧",
-      "summary": "公式・ウォニチャンネルの動画、ショート、ライブを横断して確認できます。",
-      "url": "youtube.html",
-      "category": "YOUTUBE",
-      "updatedAt": "2026-07-31T01:04:04+09:00",
-      "commit": "81731a6"
-    },
-    {
-      "key": "mv",
-      "title": "MV一覧",
-      "summary": "RESCENEのミュージックビデオを作品別に確認できます。",
-      "url": "mv.html",
-      "category": "MUSIC VIDEO",
-      "updatedAt": "2026-07-31T01:04:04+09:00",
-      "commit": "81731a6"
     },
     {
       "key": "streaming",
