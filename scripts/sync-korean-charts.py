@@ -170,19 +170,35 @@ def fetch_melon_daily(chart: dict[str, Any], fetched_at: datetime) -> SourceResu
 
 
 def fetch_genie_daily(chart: dict[str, Any], fetched_at: datetime) -> SourceResult:
-    errors = []
-    for endpoint in ("j_DailyRankSongList.json", "j_DayRankSongList.json"):
+    """Fetch Genie's daily chart through its period-aware rank endpoint.
+
+    Genie does not expose separate ``j_DailyRankSongList`` endpoints. Daily,
+    weekly and monthly charts share ``j_RankSongList.json`` and are selected by
+    the ``ditc`` form value (D/W/M). Calling the invented endpoint names returns
+    HTTP 405, which was the cause of the failed daily synchronization.
+    """
+    endpoint = "https://app.genie.co.kr/chart/j_RankSongList.json"
+    errors: list[str] = []
+    # Start with the exact form used by Genie's period chart client. Keep a
+    # pagination-compatible fallback for deployments that require page fields.
+    for form in ({"ditc": "D"}, {"ditc": "D", "pg": 1, "pgSize": 200}):
         try:
             payload = request_json(
-                f"https://app.genie.co.kr/chart/{endpoint}",
+                endpoint,
                 method="POST",
-                headers={"User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36", "Accept": "application/json"},
-                form={"pg": 1, "pgSize": 200},
+                headers={
+                    "User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36",
+                    "Accept": "application/json",
+                    "Origin": "https://www.genie.co.kr",
+                    "Referer": "https://www.genie.co.kr/chart/top200",
+                },
+                form=form,
             )
             result = parse_genie(payload, chart, fetched_at)
             if result.items:
-                result.metadata["period"] = "daily"
+                result.metadata.update({"period": "daily", "ditc": "D", "endpoint": endpoint})
                 return result
+            errors.append(f"empty response for form={form}")
         except Exception as exc:
             errors.append(f"{type(exc).__name__}: {exc}")
     raise RuntimeError(" / ".join(errors) or "Genie Daily returned no items")

@@ -51,6 +51,27 @@ def parser_tests():
     assert_equal(genie.items[0]["artist"], "RESCENE", "Genie artist")
     assert genie.chart_at.startswith("2026-08-01T11")
 
+    # Genie Daily uses the shared period endpoint with ditc=D. The former
+    # invented j_DailyRankSongList endpoint returned HTTP 405.
+    captured = {}
+    original_request_json = _sync.request_json
+    try:
+        def fake_request_json(url, **kwargs):
+            captured.update({"url": url, **kwargs})
+            return {"PageInfo": {"ChartTime": None}, "DataSet": {"DATA": [
+                {"SONG_ID": "gd1", "RANK_NO": 1, "PRE_RANK_NO": 2, "SONG_NAME": "Pretty Girl", "ARTIST_NAME": "RESCENE"},
+                *[{"RANK_NO": i, "SONG_NAME": f"Other {i}", "ARTIST_NAME": "Other"} for i in range(2, 26)],
+            ]}}
+        _sync.request_json = fake_request_json
+        daily = _sync.fetch_genie_daily(chart("genie-daily"), NOW)
+    finally:
+        _sync.request_json = original_request_json
+    assert_equal(captured["url"], "https://app.genie.co.kr/chart/j_RankSongList.json", "Genie Daily endpoint")
+    assert_equal(captured["method"], "POST", "Genie Daily method")
+    assert_equal(captured["form"].get("ditc"), "D", "Genie Daily ditc")
+    assert_equal(daily.items[0]["title"], "Pretty Girl", "Genie Daily title")
+    assert_equal(daily.metadata.get("period"), "daily", "Genie Daily period metadata")
+
     bugs = parse_bugs({"info": {"end_dt": 1785549600000}, "list": [
         {"track_id": "b1", "track_title": "Pretty Girl", "artists": [{"artist_nm": "RESCENE"}], "list_attr": {"rank": 1, "rank_last": 2, "rank_peak": 1}},
         *[{"track_title": f"Other {i}", "artists": [{"artist_nm": "Other"}], "list_attr": {"rank": i}} for i in range(2, 26)],
