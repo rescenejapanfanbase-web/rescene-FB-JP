@@ -6,6 +6,336 @@
   "chartName": "YouTube Music Korea Top Songs",
   "points": [
     {
+      "chartAt": "2024-09-23T00:00:00+09:00",
+      "rank": 91,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2024,
+      "isoWeek": 39,
+      "views": 350158,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2024-09-30T00:00:00+09:00",
+      "rank": 85,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2024,
+      "isoWeek": 40,
+      "views": 396655,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2024-10-07T00:00:00+09:00",
+      "rank": 91,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2024,
+      "isoWeek": 41,
+      "views": 376597,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2024-10-14T00:00:00+09:00",
+      "rank": 90,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2024,
+      "isoWeek": 42,
+      "views": 373148,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2025-02-24T00:00:00+09:00",
+      "rank": 81,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2025,
+      "isoWeek": 9,
+      "views": 403858,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2025-03-03T00:00:00+09:00",
+      "rank": 62,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2025,
+      "isoWeek": 10,
+      "views": 522451,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2025-03-10T00:00:00+09:00",
+      "rank": 60,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2025,
+      "isoWeek": 11,
+      "views": 559391,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2025-03-17T00:00:00+09:00",
+      "rank": 71,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2025,
+      "isoWeek": 12,
+      "views": 490004,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2025-03-24T00:00:00+09:00",
+      "rank": 72,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2025,
+      "isoWeek": 13,
+      "views": 540288,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2025-03-31T00:00:00+09:00",
+      "rank": 87,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2025,
+      "isoWeek": 14,
+      "views": 491600,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2025-04-07T00:00:00+09:00",
+      "rank": 76,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2025,
+      "isoWeek": 15,
+      "views": 533360,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2025-04-14T00:00:00+09:00",
+      "rank": 66,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2025,
+      "isoWeek": 16,
+      "views": 537065,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2025-04-21T00:00:00+09:00",
+      "rank": 56,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2025,
+      "isoWeek": 17,
+      "views": 617221,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2025-04-28T00:00:00+09:00",
+      "rank": 56,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2025,
+      "isoWeek": 18,
+      "views": 617382,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2025-05-05T00:00:00+09:00",
+      "rank": 56,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2025,
+      "isoWeek": 19,
+      "views": 583043,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2025-05-12T00:00:00+09:00",
+      "rank": 63,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2025,
+      "isoWeek": 20,
+      "views": 541658,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2025-05-19T00:00:00+09:00",
+      "rank": 72,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2025,
+      "isoWeek": 21,
+      "views": 501558,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2025-05-26T00:00:00+09:00",
+      "rank": 67,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2025,
+      "isoWeek": 22,
+      "views": 483036,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2025-06-02T00:00:00+09:00",
+      "rank": 87,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2025,
+      "isoWeek": 23,
+      "views": 411584,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-05-11T00:00:00+09:00",
+      "rank": 56,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2026,
+      "isoWeek": 20,
+      "views": 508860,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-05-18T00:00:00+09:00",
+      "rank": 29,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2026,
+      "isoWeek": 21,
+      "views": 888092,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-05-25T00:00:00+09:00",
+      "rank": 11,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2026,
+      "isoWeek": 22,
+      "views": 1973030,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-06-01T00:00:00+09:00",
+      "rank": 5,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2026,
+      "isoWeek": 23,
+      "views": 3676300,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-06-08T00:00:00+09:00",
+      "rank": 5,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2026,
+      "isoWeek": 24,
+      "views": 3627101,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-06-15T00:00:00+09:00",
+      "rank": 5,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2026,
+      "isoWeek": 25,
+      "views": 3522791,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-06-22T00:00:00+09:00",
+      "rank": 5,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2026,
+      "isoWeek": 26,
+      "views": 3228784,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-06-29T00:00:00+09:00",
+      "rank": 4,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2026,
+      "isoWeek": 27,
+      "views": 3069835,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-06T00:00:00+09:00",
+      "rank": 4,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2026,
+      "isoWeek": 28,
+      "views": 3059706,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-13T00:00:00+09:00",
+      "rank": 4,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2026,
+      "isoWeek": 29,
+      "views": 3643567,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-20T00:00:00+09:00",
+      "rank": 1,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+      "isoYear": 2026,
+      "isoWeek": 30,
+      "views": 3748717,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
       "chartAt": "2026-07-27T00:00:00+09:00",
       "checkedAt": "2026-08-01T21:58:23+09:00",
       "rank": null
@@ -20,14 +350,29 @@
       "observations": 1
     }
   ],
-  "generatedAt": "2026-08-01T21:58:23+09:00",
+  "generatedAt": "2026-08-01T22:59:17+09:00",
   "summary": {
-    "peakRank": null,
-    "firstChartedAt": "",
-    "lastChartedAt": "",
-    "chartDays": 0,
+    "peakRank": 1,
+    "firstChartedAt": "2024-09-23T00:00:00+09:00",
+    "lastChartedAt": "2026-07-20T00:00:00+09:00",
+    "chartDays": 30,
     "currentRank": null,
     "status": "out",
-    "pointCount": 1
+    "pointCount": 31
+  },
+  "sources": [
+    {
+      "id": "guyso",
+      "name": "가이섬",
+      "url": "https://xn--o39an51b2re.com",
+      "role": "historical-backfill"
+    }
+  ],
+  "backfill": {
+    "source": "가이섬",
+    "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/3175447a55507a53327738",
+    "lastRunAt": "2026-08-01T22:59:17+09:00",
+    "importedThisRun": 30,
+    "updatedThisRun": 0
   }
 }

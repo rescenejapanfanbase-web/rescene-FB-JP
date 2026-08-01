@@ -6,6 +6,61 @@
   "chartName": "YouTube Music Korea Top Songs",
   "points": [
     {
+      "chartAt": "2026-06-22T00:00:00+09:00",
+      "rank": 99,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/6b3744346931494c43436b",
+      "isoYear": 2026,
+      "isoWeek": 26,
+      "views": 330574,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-06-29T00:00:00+09:00",
+      "rank": 98,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/6b3744346931494c43436b",
+      "isoYear": 2026,
+      "isoWeek": 27,
+      "views": 332095,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-06T00:00:00+09:00",
+      "rank": 80,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/6b3744346931494c43436b",
+      "isoYear": 2026,
+      "isoWeek": 28,
+      "views": 370447,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-13T00:00:00+09:00",
+      "rank": 51,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/6b3744346931494c43436b",
+      "isoYear": 2026,
+      "isoWeek": 29,
+      "views": 475555,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-20T00:00:00+09:00",
+      "rank": 52,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/6b3744346931494c43436b",
+      "isoYear": 2026,
+      "isoWeek": 30,
+      "views": 459958,
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
       "chartAt": "2026-07-27T00:00:00+09:00",
       "checkedAt": "2026-08-01T21:58:23+09:00",
       "rank": null
@@ -20,14 +75,29 @@
       "observations": 1
     }
   ],
-  "generatedAt": "2026-08-01T21:58:23+09:00",
+  "generatedAt": "2026-08-01T22:59:17+09:00",
   "summary": {
-    "peakRank": null,
-    "firstChartedAt": "",
-    "lastChartedAt": "",
-    "chartDays": 0,
+    "peakRank": 51,
+    "firstChartedAt": "2026-06-22T00:00:00+09:00",
+    "lastChartedAt": "2026-07-20T00:00:00+09:00",
+    "chartDays": 5,
     "currentRank": null,
     "status": "out",
-    "pointCount": 1
+    "pointCount": 6
+  },
+  "sources": [
+    {
+      "id": "guyso",
+      "name": "가이섬",
+      "url": "https://xn--o39an51b2re.com",
+      "role": "historical-backfill"
+    }
+  ],
+  "backfill": {
+    "source": "가이섬",
+    "sourceUrl": "https://xn--o39an51b2re.com/chart/youtube/track-weekly/trend/ranking/6b3744346931494c43436b",
+    "lastRunAt": "2026-08-01T22:59:17+09:00",
+    "importedThisRun": 5,
+    "updatedThisRun": 0
   }
 }

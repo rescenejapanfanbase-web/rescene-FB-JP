@@ -6,6 +6,142 @@
   "chartName": "Melon TOP100",
   "points": [
     {
+      "chartAt": "2026-07-08T20:00:00+09:00",
+      "rank": 99,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-08T23:00:00+09:00",
+      "rank": 86,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-09T00:00:00+09:00",
+      "rank": 56,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-09T23:00:00+09:00",
+      "rank": 100,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-10T00:00:00+09:00",
+      "rank": 96,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-13T00:00:00+09:00",
+      "rank": 94,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-14T00:00:00+09:00",
+      "rank": 99,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-19T23:00:00+09:00",
+      "rank": 100,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-20T00:00:00+09:00",
+      "rank": 85,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-20T08:00:00+09:00",
+      "rank": 99,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-20T09:00:00+09:00",
+      "rank": 99,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-20T10:00:00+09:00",
+      "rank": 100,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-20T23:00:00+09:00",
+      "rank": 99,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-21T00:00:00+09:00",
+      "rank": 91,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-21T08:00:00+09:00",
+      "rank": 100,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-21T09:00:00+09:00",
+      "rank": 100,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
+      "chartAt": "2026-07-21T10:00:00+09:00",
+      "rank": 100,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+      "checkedAt": "2026-08-01T22:59:17+09:00"
+    },
+    {
       "chartAt": "2026-08-01T21:00:00+09:00",
       "checkedAt": "2026-08-01T21:20:34+09:00",
       "rank": null
@@ -20,14 +156,29 @@
       "observations": 1
     }
   ],
-  "generatedAt": "2026-08-01T21:20:34+09:00",
+  "generatedAt": "2026-08-01T22:59:17+09:00",
   "summary": {
-    "peakRank": null,
-    "firstChartedAt": "",
-    "lastChartedAt": "",
-    "chartDays": 0,
+    "peakRank": 56,
+    "firstChartedAt": "2026-07-08T20:00:00+09:00",
+    "lastChartedAt": "2026-07-21T10:00:00+09:00",
+    "chartDays": 8,
     "currentRank": null,
     "status": "out",
-    "pointCount": 1
+    "pointCount": 18
+  },
+  "sources": [
+    {
+      "id": "guyso",
+      "name": "가이섬",
+      "url": "https://xn--o39an51b2re.com",
+      "role": "historical-backfill"
+    }
+  ],
+  "backfill": {
+    "source": "가이섬",
+    "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/top100/trend/ranking/37928383",
+    "lastRunAt": "2026-08-01T22:59:17+09:00",
+    "importedThisRun": 17,
+    "updatedThisRun": 0
   }
 }
