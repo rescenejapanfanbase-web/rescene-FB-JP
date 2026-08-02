@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-08-01T14:34:28Z",
+  "generatedAt": "2026-08-02T10:08:40Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -1362,6 +1362,33 @@
         }
       ],
       "default": "assets/optimized/ab344cb473fe267e/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb4-w1125.webp"
+    },
+    "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg": {
+      "asset": "40e2d9234fa5c0a2",
+      "originalBytes": 274575,
+      "width": 964,
+      "height": 1205,
+      "variants": [
+        {
+          "src": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 57766
+        },
+        {
+          "src": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w768.webp",
+          "width": 768,
+          "height": 960,
+          "bytes": 107002
+        },
+        {
+          "src": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w964.webp",
+          "width": 964,
+          "height": 1205,
+          "bytes": 149094
+        }
+      ],
+      "default": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w964.webp"
     },
     "assets/platform-icons/apple-music.png": {
       "asset": "dfbcce2c96eda8d7",
