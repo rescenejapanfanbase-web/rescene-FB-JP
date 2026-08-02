@@ -1,6 +1,6 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-08-02T09:56:38.950Z",
-  "sourceNewsGeneratedAt": "2026-08-02T09:56:38.872Z",
+  "generatedAt": "2026-08-02T10:26:26.442Z",
+  "sourceNewsGeneratedAt": "2026-08-02T10:26:26.360Z",
   "related": {
     "fanbase-site": [
       {
@@ -9,7 +9,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
-        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録を第5世代最長記録(20日)をしました。",
+        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
         "score": 5,
         "reasons": [
           "同じカテゴリー"
@@ -117,7 +117,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
-        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録を第5世代最長記録(20日)をしました。",
+        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -157,7 +157,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
-        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録を第5世代最長記録(20日)をしました。",
+        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -199,7 +199,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
-        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録を第5世代最長記録(20日)をしました。",
+        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
         "score": 16,
         "reasons": [
           "同じカテゴリー",
@@ -243,7 +243,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
-        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録を第5世代最長記録(20日)をしました。",
+        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
         "score": 16,
         "reasons": [
           "同じカテゴリー",
@@ -314,7 +314,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
-        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録を第5世代最長記録(20日)をしました。",
+        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -353,7 +353,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
-        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録を第5世代最長記録(20日)をしました。",
+        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -405,7 +405,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
-        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録を第5世代最長記録(20日)をしました。",
+        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -475,7 +475,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
-        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録を第5世代最長記録(20日)をしました。",
+        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
         "score": 18,
         "reasons": [
           "同じカテゴリー",
@@ -505,7 +505,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
-        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録を第5世代最長記録(20日)をしました。",
+        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
         "score": 9,
         "reasons": [
           "同じカテゴリー",
@@ -805,7 +805,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
-        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録を第5世代最長記録(20日)をしました。",
+        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
@@ -1161,7 +1161,7 @@ window.RESCENE_NEWS_EXTRAS = {
       "url": "https://rescene-fb.jp/articles/love-attack-melon-5-1-a4a47b4969.html",
       "hashtags": "#RESCENE #리센느 #リセンヌ",
       "xText": "【2026.08.02】 LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立\n\nhttps://rescene-fb.jp/articles/love-attack-melon-5-1-a4a47b4969.html\n\n#RESCENE #리센느 #リセンヌ",
-      "lineText": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立\n2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録を第5世代最長記録(20日)をしました。",
+      "lineText": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立\n2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
       "charCount": 141
     },
     {
