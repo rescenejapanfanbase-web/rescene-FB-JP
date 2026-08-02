@@ -1,0 +1,64 @@
+name: Repair Daily Charts and Navigation
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rescene-daily-repair
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check beautifulsoup4
+
+      - name: Validate official Daily adapters
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: PYTHONPATH=scripts python scripts/sync-korean-charts-fixed.py --self-test
+
+      - name: Remove prematurely stored Daily observations
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: PYTHONPATH=scripts python scripts/repair-korean-daily-history.py
+
+      - name: Restore Korean Charts navigation
+        run: python scripts/restore-korean-chart-nav.py
+
+      - name: Regenerate PWA cache
+        run: python scripts/generate-pwa.py
+
+      - name: Commit repaired data and navigation
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            '*.html' \
+            service-worker.js \
+            data/korean-charts.json \
+            data/korean-charts-data.js \
+            data/korean-chart-history
+          if git diff --cached --quiet; then
+            echo "変更はありません。"
+            exit 0
+          fi
+          git commit -m "fix: repair Daily charts and restore chart navigation"
+          git push
