@@ -1,0 +1,55 @@
+RESCENE 韓国チャート 自動更新ブリッジ（2026-08-02）
+
+今回の結論
+==========
+韓国チャート専用Workflowのscheduleは発火していません。
+UTC cronへ変更しても、最終更新は18:35のpush実行のままでした。
+
+一方、Sync Notion Newsは18:56と19:26に30分間隔で実行・コミットされています。
+そのため、発火しない専用cronを使わず、動いているニュース同期の末尾へ
+韓国チャート更新を直接組み込みます。
+
+更新の動き
+==========
+ニュース同期が動くたびに、韓国チャートの最終成功時刻を確認します。
+
+・Melon TOP100 / Genie / Bugs / FLO
+  いずれかが50分以上古ければ4つをまとめて取得
+  → 実質約1時間ごとの更新
+
+・Genie Daily / Bugs Daily
+  12:10以降、前日分がまだなければ取得
+
+・Melon Daily
+  12:50以降、前日分がまだなければ取得
+
+・VIBE
+  07:10以降、当日分がまだなければ取得
+
+・Spotify Korea
+  10:20以降、当日分がまだなければ取得
+
+・YouTube Music Korea
+  11:30以降、最終成功から20時間以上経過していれば確認
+
+反映方法
+========
+ZIPを展開して、以下をリポジトリ最上部へアップロードします。
+
+.github/workflows/sync-notion-news.yml
+scripts/resolve-korean-chart-trigger.py
+KOREAN-CHART-NEWS-SYNC-BRIDGE-20260802.txt
+
+既存のsync-notion-news.ymlは上書きします。
+Commit directly to the main branch でコミットしてください。
+
+確認
+====
+Actions > Sync Notion News > Run workflow を1回押します。
+
+実行後、data/korean-chart-sync-status.json のautomationが次になれば成功です。
+
+"eventName": "notion-news-integration"
+"schedule": "stale-check-after-news-sync"
+
+その後は、既存のニュース自動同期が動くたびに韓国チャートも判定・更新されます。
