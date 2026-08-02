@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "love-attack-melon-5-1-a4a47b4969",
+    "date": "2026.08.02",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "New Record",
+    "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立",
+    "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録を第5世代最長記録(20日)をしました。",
+    "body": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録を第5世代最長記録(20日)をしました。\n2026年5月27日に日間チャートに再びランクインし、同年7月13日にグループ初となる日間チャート1位を記録。順位を落とすことなく同年8月1日、第5世代最長記録(20日)を樹立しました。",
+    "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
+    "sourceLink": "",
+    "sourceLabel": "",
+    "translations": {},
+    "notionPageId": "3b0229d2-19da-803f-a497-c9a4a47b4969",
+    "notionUrl": "https://app.notion.com/p/LOVE-ATTACK-Melon-5-1-3b0229d219da803fa497c9a4a47b4969"
+  },
+  {
     "slug": "spotv-k-pop-awards-ska-53085d0039",
     "date": "2026.07.31",
     "category": "notice",
