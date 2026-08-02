@@ -13,7 +13,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Checkout repository
@@ -32,8 +32,10 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Install generation and validation dependencies
-        run: python -m pip install --disable-pip-version-check --upgrade pillow pillow-heif==1.5.0 pyyaml
+      - name: Install generation, chart, and validation dependencies
+        run: |
+          python -m pip install --disable-pip-version-check --upgrade \
+            pillow pillow-heif==1.5.0 pyyaml yt-dlp beautifulsoup4
 
       - name: Verify HEIC conversion support
         shell: bash
@@ -96,4 +98,77 @@ jobs:
           done
 
           echo "3回試行しましたがニュース更新を反映できませんでした。"
+          exit 1
+
+      - name: Synchronize due Korean charts
+        shell: bash
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_KOREAN_CHARTS_DATA_SOURCE_ID: ${{ vars.NOTION_KOREAN_CHARTS_DATA_SOURCE_ID }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_KOREA_PLAYLIST_ID: ${{ vars.SPOTIFY_KOREA_PLAYLIST_ID || '37i9dQZEVXbNxXF4SkHj9F' }}
+          YOUTUBE_MUSIC_KOREA_PLAYLIST_URL: ${{ vars.YOUTUBE_MUSIC_KOREA_PLAYLIST_URL || 'https://www.youtube.com/playlist?list=PL4fGSI1pDJn6jXS_Tv_N9B8Z0HTRVJE0m' }}
+          RUN_EVENT_NAME: notion-news-integration
+          RUN_EVENT_SCHEDULE: stale-check-after-news-sync
+          RUN_ID: ${{ github.run_id }}
+          RUN_NUMBER: ${{ github.run_number }}
+          RUN_ATTEMPT: ${{ github.run_attempt }}
+          RUN_SHA: ${{ github.sha }}
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="${GITHUB_REF_NAME:-main}"
+
+          for attempt in 1 2 3; do
+            git fetch origin "${branch}"
+            git reset --hard "origin/${branch}"
+
+            charts="$(PYTHONPATH=scripts python scripts/resolve-korean-chart-trigger.py)"
+            echo "今回の韓国チャート対象: ${charts:-なし}"
+
+            if [[ -z "${charts}" ]]; then
+              echo "すべての韓国チャートは更新不要です。"
+              exit 0
+            fi
+
+            PYTHONPATH=scripts python scripts/test-korean-chart-sync.py
+            PYTHONPATH=scripts python scripts/test-korean-chart-history.py
+            PYTHONPATH=scripts python scripts/test-korean-chart-source-defaults.py
+            PYTHONPATH=scripts python scripts/sync-korean-charts-fixed.py --self-test
+
+            PYTHONPATH=scripts python scripts/sync-korean-charts-fixed.py \
+              --charts "${charts}" \
+              --attempts 3 \
+              --workers 4
+
+            PYTHONPATH=scripts python scripts/stamp-korean-chart-run.py \
+              --charts "${charts}"
+
+            git add \
+              data/korean-chart-config.json \
+              data/korean-charts.json \
+              data/korean-charts-data.js \
+              data/korean-chart-sync-status.json \
+              data/korean-chart-history
+
+            if git diff --cached --quiet; then
+              echo "韓国チャートの変更はありません。"
+              exit 0
+            fi
+
+            git commit -m "chore: synchronize Korean charts via news sync"
+
+            if git push origin "HEAD:${branch}"; then
+              echo "ニュース同期経由で韓国チャートを更新しました。"
+              exit 0
+            fi
+
+            echo "push中に別更新が入りました。最新mainから再取得します。"
+            sleep $((attempt * 8))
+          done
+
+          echo "韓国チャート更新を3回試行しましたが反映できませんでした。"
           exit 1
