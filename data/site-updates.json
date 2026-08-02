@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T07:56:56.124907+00:00",
+  "generatedAt": "2026-08-02T11:47:29.959788+00:00",
   "items": [
     {
       "date": "2026-08-02",
@@ -37,8 +37,9 @@
       "date": "2026-08-02",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "43222d5",
+      "commit": "0b8d8ed",
       "files": [
+        ".github/workflows/korean-chart-periodic-watchdog.yml",
         ".github/workflows/korean-chart-watchdog.yml",
         ".github/workflows/sync-korean-charts.yml"
       ]
@@ -64,57 +65,11 @@
     },
     {
       "date": "2026-08-01",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "77e7d13",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/home-guides.json",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/seo-status.json",
-        "data/site-updates-data.js"
-      ]
-    },
-    {
-      "date": "2026-08-01",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "0d87f5a",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "title": "chore: backfill Korean chart history",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "8c8b8c3",
-      "files": [
-        "data/korean-chart-config.json",
-        "data/korean-chart-history/bloom--youtube-kr.json",
-        "data/korean-chart-history/busy-boy--youtube-kr.json",
-        "data/korean-chart-history/deja-vu--bugs-daily.json",
-        "data/korean-chart-history/deja-vu--bugs.json",
-        "data/korean-chart-history/deja-vu--flo.json",
-        "data/korean-chart-history/deja-vu--genie-daily.json",
-        "data/korean-chart-history/deja-vu--genie.json"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Add files via upload",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "ed7558e",
-      "files": [
-        "css/korean-charts.css",
-        "js/korean-charts.js",
-        "korean-charts.html",
-        "scripts/korean_chart_core.py",
-        "scripts/sync-korean-charts.py",
-        "scripts/test-korean-chart-sync.py"
       ]
     },
     {
