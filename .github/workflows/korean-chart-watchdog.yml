@@ -9,9 +9,8 @@ on:
         type: boolean
         default: false
   schedule:
-    # 毎時3分のリアルタイム同期から15分後
-    - cron: "18 * * * *"
-      timezone: "Asia/Tokyo"
+    # UTC基準。日本・韓国時間でも毎時27分
+    - cron: "27 * * * *"
 
 permissions:
   actions: write
@@ -39,7 +38,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           WATCHDOG_BRANCH: ${{ github.event.repository.default_branch }}
-          WATCHDOG_DRY_RUN: ${{ inputs.dry_run || 'false' }}
+          WATCHDOG_DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
           WATCHDOG_CHARTS: melon,genie,bugs,flo
-          WATCHDOG_FRESH_MINUTES: "70"
+          WATCHDOG_FRESH_MINUTES: "75"
         run: python scripts/korean-chart-watchdog.py

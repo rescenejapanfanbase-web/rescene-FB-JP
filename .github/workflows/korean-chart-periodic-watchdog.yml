@@ -14,18 +14,16 @@ on:
         type: boolean
         default: false
   schedule:
-    # Bugs / Genie Daily（12:10取得）の25分後
-    - cron: "35 12 * * *"
-      timezone: "Asia/Tokyo"
-    # Melon Daily（12:50取得）の25分後
-    - cron: "15 13 * * *"
-      timezone: "Asia/Tokyo"
-    - cron: "50 7 * * *"
-      timezone: "Asia/Tokyo"
-    - cron: "55 10 * * *"
-      timezone: "Asia/Tokyo"
-    - cron: "5 12 * * *"
-      timezone: "Asia/Tokyo"
+    # UTC基準。12:42 JST/KST：Genie Daily / Bugs Daily
+    - cron: "42 3 * * *"
+    # 13:22 JST/KST：Melon Daily
+    - cron: "22 4 * * *"
+    # 07:50 JST/KST：VIBE
+    - cron: "50 22 * * *"
+    # 10:55 JST/KST：Spotify Korea
+    - cron: "55 1 * * *"
+    # 12:05 JST/KST：YouTube Music Korea
+    - cron: "5 3 * * *"
 
 permissions:
   actions: write
@@ -54,29 +52,34 @@ jobs:
         env:
           EVENT_NAME: ${{ github.event_name }}
           EVENT_SCHEDULE: ${{ github.event.schedule || '' }}
-          MANUAL_CHARTS: ${{ inputs.charts || '' }}
+          MANUAL_CHARTS: ${{ github.event.inputs.charts || '' }}
         run: |
           set -euo pipefail
           charts="${MANUAL_CHARTS}"
 
           if [[ "${EVENT_NAME}" == "schedule" ]]; then
             case "${EVENT_SCHEDULE}" in
-              "35 12 * * *") charts="genie-daily,bugs-daily" ;;
-              "15 13 * * *") charts="melon-daily" ;;
-              "50 7 * * *") charts="vibe" ;;
-              "55 10 * * *") charts="spotify-kr" ;;
-              "5 12 * * *") charts="youtube-kr" ;;
+              "42 3 * * *") charts="genie-daily,bugs-daily" ;;
+              "22 4 * * *") charts="melon-daily" ;;
+              "50 22 * * *") charts="vibe" ;;
+              "55 1 * * *") charts="spotify-kr" ;;
+              "5 3 * * *") charts="youtube-kr" ;;
+              *)
+                echo "::error::未定義のperiodic scheduleです: ${EVENT_SCHEDULE}"
+                exit 2
+                ;;
             esac
           fi
 
           echo "charts=${charts}" >> "${GITHUB_OUTPUT}"
+          echo "確認対象: ${charts}"
 
       - name: Detect stale periodic source and dispatch recovery
         env:
           GH_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           WATCHDOG_BRANCH: ${{ github.event.repository.default_branch }}
-          WATCHDOG_DRY_RUN: ${{ inputs.dry_run || 'false' }}
+          WATCHDOG_DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
           WATCHDOG_CHARTS: ${{ steps.target.outputs.charts }}
           WATCHDOG_FRESH_MINUTES: "180"
         run: python scripts/korean-chart-watchdog.py

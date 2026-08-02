@@ -1,5 +1,4 @@
 name: Sync Korean Charts
-run-name: Korean charts · ${{ github.event_name }} · ${{ github.event.schedule || inputs.charts || 'automatic' }}
 
 on:
   workflow_dispatch:
@@ -17,24 +16,18 @@ on:
       - "scripts/sync-korean-charts-fixed.py"
       - "scripts/stamp-korean-chart-run.py"
   schedule:
-    # Melon / Genie / Bugs / FLO：各時のランキング更新後、毎時3分
-    - cron: "3 * * * *"
-      timezone: "Asia/Tokyo"
-    # Bugs / Genie Daily：12時更新後
-    - cron: "10 12 * * *"
-      timezone: "Asia/Tokyo"
-    # Melon Daily：12時40分更新後
-    - cron: "50 12 * * *"
-      timezone: "Asia/Tokyo"
-    # VIBE：日次ランキング更新後の7時10分
-    - cron: "10 7 * * *"
-      timezone: "Asia/Tokyo"
-    # Spotify Korea：毎日10時20分
-    - cron: "20 10 * * *"
-      timezone: "Asia/Tokyo"
-    # YouTube Music Korea：週次更新を毎日11時30分に確認
-    - cron: "30 11 * * *"
-      timezone: "Asia/Tokyo"
+    # UTC基準。日本・韓国時間では毎時07分
+    - cron: "7 * * * *"
+    # 12:17 JST/KST：Genie Daily / Bugs Daily
+    - cron: "17 3 * * *"
+    # 12:57 JST/KST：Melon Daily
+    - cron: "57 3 * * *"
+    # 07:20 JST/KST：VIBE
+    - cron: "20 22 * * *"
+    # 10:30 JST/KST：Spotify Korea
+    - cron: "30 1 * * *"
+    # 11:40 JST/KST：YouTube Music Korea
+    - cron: "40 2 * * *"
 
 permissions:
   contents: write
@@ -70,16 +63,16 @@ jobs:
           PYTHONPATH=scripts python scripts/test-korean-chart-source-defaults.py
           PYTHONPATH=scripts python scripts/sync-korean-charts-fixed.py --self-test
 
-      - name: Resolve scheduled chart set
+      - name: Resolve chart set
         id: chart-set
         shell: bash
         env:
-          REQUESTED_CHARTS: ${{ inputs.charts || '' }}
+          MANUAL_CHARTS: ${{ github.event.inputs.charts || '' }}
           EVENT_NAME: ${{ github.event_name }}
           EVENT_SCHEDULE: ${{ github.event.schedule || '' }}
         run: |
           set -euo pipefail
-          charts="${REQUESTED_CHARTS}"
+          charts="${MANUAL_CHARTS}"
 
           if [[ -z "${charts}" && "${EVENT_NAME}" == "push" ]]; then
             charts="melon,genie,bugs,flo"
@@ -87,17 +80,25 @@ jobs:
 
           if [[ -z "${charts}" && "${EVENT_NAME}" == "schedule" ]]; then
             case "${EVENT_SCHEDULE}" in
-              "3 * * * *") charts="melon,genie,bugs,flo" ;;
-              "10 12 * * *") charts="genie-daily,bugs-daily" ;;
-              "50 12 * * *") charts="melon-daily" ;;
-              "10 7 * * *") charts="vibe" ;;
-              "20 10 * * *") charts="spotify-kr" ;;
-              "30 11 * * *") charts="youtube-kr" ;;
+              "7 * * * *") charts="melon,genie,bugs,flo" ;;
+              "17 3 * * *") charts="genie-daily,bugs-daily" ;;
+              "57 3 * * *") charts="melon-daily" ;;
+              "20 22 * * *") charts="vibe" ;;
+              "30 1 * * *") charts="spotify-kr" ;;
+              "40 2 * * *") charts="youtube-kr" ;;
+              *)
+                echo "::error::未定義のscheduleです: ${EVENT_SCHEDULE}"
+                exit 2
+                ;;
             esac
           fi
 
+          if [[ -z "${charts}" ]]; then
+            charts="melon,genie,bugs,flo"
+          fi
+
           echo "charts=${charts}" >> "${GITHUB_OUTPUT}"
-          echo "取得対象: ${charts:-Notionで有効な全チャート}"
+          echo "取得対象: ${charts}"
 
       - name: Fetch, validate, retain stale sources, and publish atomically
         shell: bash
@@ -134,21 +135,6 @@ jobs:
             PYTHONPATH=scripts python scripts/stamp-korean-chart-run.py \
               --charts "${REQUESTED_CHARTS}"
 
-            if git diff --quiet -- \
-                data/korean-chart-config.json \
-                data/korean-charts.json \
-                data/korean-charts-data.js \
-                data/korean-chart-sync-status.json \
-                data/korean-chart-history \
-              && test -z "$(git status --porcelain -- \
-                data/korean-chart-config.json \
-                data/korean-charts.json \
-                data/korean-charts-data.js \
-                data/korean-chart-sync-status.json \
-                data/korean-chart-history)"; then
-              exit 0
-            fi
-
             git add \
               data/korean-chart-config.json \
               data/korean-charts.json \
@@ -156,15 +142,17 @@ jobs:
               data/korean-chart-sync-status.json \
               data/korean-chart-history
 
-            git commit -m "chore: synchronize Korean charts"
-
-            if git push origin "HEAD:${branch}"; then
+            if git diff --cached --quiet; then
+              echo "更新内容はありません。"
               exit 0
             fi
 
+            git commit -m "chore: synchronize Korean charts"
+            if git push origin "HEAD:${branch}"; then
+              exit 0
+            fi
             sleep $((attempt * 10))
           done
-
           exit 1
 
       - name: Report partial chart failures
@@ -181,6 +169,13 @@ jobs:
               raise SystemExit(0)
 
           data = json.loads(path.read_text(encoding="utf-8"))
+          automation = data.get("automation") or {}
+          print(
+              "実行情報:",
+              f"event={automation.get('eventName', '')}",
+              f"schedule={automation.get('schedule', '')}",
+              f"charts={','.join(automation.get('resolvedCharts') or [])}",
+          )
           for chart_id, error in (data.get("failedCharts") or {}).items():
               print(f"::warning title=韓国チャート取得失敗::{chart_id}: {error}")
           PY
