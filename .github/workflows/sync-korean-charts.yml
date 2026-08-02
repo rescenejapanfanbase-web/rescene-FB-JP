@@ -1,4 +1,5 @@
 name: Sync Korean Charts
+run-name: Korean charts · ${{ github.event_name }} · ${{ github.event.schedule || inputs.charts || 'automatic' }}
 
 on:
   workflow_dispatch:
@@ -14,9 +15,10 @@ on:
     paths:
       - ".github/workflows/sync-korean-charts.yml"
       - "scripts/sync-korean-charts-fixed.py"
+      - "scripts/stamp-korean-chart-run.py"
   schedule:
-    # Melon / Genie / Bugs / FLO：各時のランキング更新後、毎時4分
-    - cron: "4 * * * *"
+    # Melon / Genie / Bugs / FLO：各時のランキング更新後、毎時3分
+    - cron: "3 * * * *"
       timezone: "Asia/Tokyo"
     # Bugs / Genie Daily：12時更新後
     - cron: "10 12 * * *"
@@ -85,7 +87,7 @@ jobs:
 
           if [[ -z "${charts}" && "${EVENT_NAME}" == "schedule" ]]; then
             case "${EVENT_SCHEDULE}" in
-              "4 * * * *") charts="melon,genie,bugs,flo" ;;
+              "3 * * * *") charts="melon,genie,bugs,flo" ;;
               "10 12 * * *") charts="genie-daily,bugs-daily" ;;
               "50 12 * * *") charts="melon-daily" ;;
               "10 7 * * *") charts="vibe" ;;
@@ -107,6 +109,12 @@ jobs:
           SPOTIFY_KOREA_PLAYLIST_ID: ${{ vars.SPOTIFY_KOREA_PLAYLIST_ID || '37i9dQZEVXbNxXF4SkHj9F' }}
           YOUTUBE_MUSIC_KOREA_PLAYLIST_URL: ${{ vars.YOUTUBE_MUSIC_KOREA_PLAYLIST_URL || 'https://www.youtube.com/playlist?list=PL4fGSI1pDJn6jXS_Tv_N9B8Z0HTRVJE0m' }}
           REQUESTED_CHARTS: ${{ steps.chart-set.outputs.charts }}
+          RUN_EVENT_NAME: ${{ github.event_name }}
+          RUN_EVENT_SCHEDULE: ${{ github.event.schedule || '' }}
+          RUN_ID: ${{ github.run_id }}
+          RUN_NUMBER: ${{ github.run_number }}
+          RUN_ATTEMPT: ${{ github.run_attempt }}
+          RUN_SHA: ${{ github.sha }}
           PYTHONDONTWRITEBYTECODE: "1"
         run: |
           set -euo pipefail
@@ -122,6 +130,9 @@ jobs:
               --charts "${REQUESTED_CHARTS}" \
               --attempts 3 \
               --workers 4
+
+            PYTHONPATH=scripts python scripts/stamp-korean-chart-run.py \
+              --charts "${REQUESTED_CHARTS}"
 
             if git diff --quiet -- \
                 data/korean-chart-config.json \
