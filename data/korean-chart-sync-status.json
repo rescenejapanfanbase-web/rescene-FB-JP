@@ -1,14 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T18:35:10+09:00",
+  "generatedAt": "2026-08-02T21:06:29+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
   "successfulCharts": [
     "bugs",
+    "bugs-daily",
     "flo",
     "genie",
-    "melon"
+    "melon",
+    "melon-daily",
+    "youtube-kr"
   ],
   "failedCharts": {},
   "configuration": {
@@ -22,9 +25,9 @@
       "chartName": "FLO Chart",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-02T18:35:10+09:00",
-      "lastSuccessAt": "2026-08-02T18:35:10+09:00",
-      "chartAt": "2026-08-02T18:00:00+09:00",
+      "lastAttemptAt": "2026-08-02T21:06:29+09:00",
+      "lastSuccessAt": "2026-08-02T21:06:29+09:00",
+      "chartAt": "2026-08-02T21:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 4,
       "error": "",
@@ -37,14 +40,14 @@
       "chartName": "Bugs Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-02T18:35:10+09:00",
-      "lastSuccessAt": "2026-08-02T18:35:10+09:00",
-      "chartAt": "2026-08-02T18:00:00+09:00",
+      "lastAttemptAt": "2026-08-02T21:06:29+09:00",
+      "lastSuccessAt": "2026-08-02T21:06:29+09:00",
+      "chartAt": "2026-08-02T21:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
       "metadata": {
-        "nativeTime": "1785661200000"
+        "nativeTime": "1785672000000"
       }
     },
     "melon": {
@@ -52,15 +55,15 @@
       "chartName": "Melon TOP100",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-02T18:35:10+09:00",
-      "lastSuccessAt": "2026-08-02T18:35:10+09:00",
-      "chartAt": "2026-08-02T18:00:00+09:00",
+      "lastAttemptAt": "2026-08-02T21:06:29+09:00",
+      "lastSuccessAt": "2026-08-02T21:06:29+09:00",
+      "chartAt": "2026-08-02T21:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 4,
       "error": "",
       "metadata": {
         "nativeDay": "2026.08.02",
-        "nativeHour": "18:00"
+        "nativeHour": "21:00"
       }
     },
     "genie": {
@@ -68,14 +71,14 @@
       "chartName": "Genie Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-02T18:35:10+09:00",
-      "lastSuccessAt": "2026-08-02T18:35:10+09:00",
-      "chartAt": "2026-08-02T18:00:00+09:00",
+      "lastAttemptAt": "2026-08-02T21:06:29+09:00",
+      "lastSuccessAt": "2026-08-02T21:06:29+09:00",
+      "chartAt": "2026-08-02T21:00:00+09:00",
       "itemCount": 200,
       "matchedCount": 4,
       "error": "",
       "metadata": {
-        "nativeTime": "18:00"
+        "nativeTime": "21:00"
       }
     },
     "vibe": {
@@ -119,9 +122,9 @@
       "chartName": "YouTube Music Korea Top Songs",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-01T23:56:51+09:00",
+      "lastAttemptAt": "2026-08-02T21:06:29+09:00",
       "error": "",
-      "lastSuccessAt": "2026-08-01T23:56:51+09:00",
+      "lastSuccessAt": "2026-08-02T21:06:29+09:00",
       "chartAt": "2026-07-27T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 8,
@@ -137,16 +140,20 @@
       "chartName": "Melon Daily",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-02T00:20:32+09:00",
-      "lastSuccessAt": "2026-08-02T00:20:32+09:00",
-      "chartAt": "2026-08-02T00:00:00+09:00",
+      "lastAttemptAt": "2026-08-02T21:06:29+09:00",
+      "lastSuccessAt": "2026-08-02T21:06:29+09:00",
+      "chartAt": "2026-08-01T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 4,
       "error": "",
       "metadata": {
-        "nativeDay": "2026.08.02",
-        "nativeHour": "00:00",
-        "period": "daily"
+        "period": "daily",
+        "sourceMode": "official-html",
+        "sourceUrl": "https://www.melon.com/chart/day/index.htm?chartSearchData=20260801",
+        "nativeDate": "2026-08-01",
+        "publishedAt": "12:40 KST",
+        "chartDateRule": "source-verified-previous-day",
+        "total": 100
       }
     },
     "bugs-daily": {
@@ -154,15 +161,20 @@
       "chartName": "Bugs Daily",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-02T00:20:32+09:00",
-      "lastSuccessAt": "2026-08-02T00:20:32+09:00",
-      "chartAt": "2026-07-31T00:00:00+09:00",
+      "lastAttemptAt": "2026-08-02T21:06:29+09:00",
+      "lastSuccessAt": "2026-08-02T21:06:29+09:00",
+      "chartAt": "2026-08-01T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
       "metadata": {
-        "nativeTime": "1785423600000",
-        "period": "daily"
+        "period": "daily",
+        "sourceMode": "official-html",
+        "sourceUrl": "https://music.bugs.co.kr/chart/track/day/total?chartdate=20260801",
+        "nativeDate": "2026-08-01",
+        "publishedAt": "12:00 KST",
+        "chartDateRule": "source-verified-previous-day",
+        "total": 100
       }
     },
     "genie-daily": {
@@ -200,19 +212,22 @@
     }
   },
   "automation": {
-    "eventName": "push",
+    "eventName": "notion-news-integration",
     "scheduled": false,
-    "schedule": "",
+    "schedule": "stale-check-after-news-sync",
     "resolvedCharts": [
       "melon",
       "genie",
       "bugs",
-      "flo"
+      "flo",
+      "bugs-daily",
+      "melon-daily",
+      "youtube-kr"
     ],
-    "runId": "30742048280",
-    "runNumber": "20",
+    "runId": "30747103062",
+    "runNumber": "23",
     "runAttempt": "1",
-    "sha": "0b8d8ed12c3073c78e1fcfe64b69c3caaa255372",
-    "completedAt": "2026-08-02T18:35:13+09:00"
+    "sha": "880e8d688445b510279cee1e2cf42b356b185f13",
+    "completedAt": "2026-08-02T21:06:37+09:00"
   }
 }
