@@ -1156,24 +1156,18 @@
       "sourceName": "가이섬",
       "sourceUrl": "https://xn--o39an51b2re.com/chart/melon/daily/trend/ranking/37928381",
       "checkedAt": "2026-08-02T00:25:42+09:00"
-    },
-    {
-      "chartAt": "2026-08-02T00:00:00+09:00",
-      "checkedAt": "2026-08-02T00:20:32+09:00",
-      "rank": 1,
-      "sourceRank": 1
     }
   ],
   "outOfChartHistory": [],
-  "generatedAt": "2026-08-02T00:25:42+09:00",
+  "generatedAt": "2026-08-02T10:30:45+09:00",
   "summary": {
     "peakRank": 1,
     "firstChartedAt": "2025-04-06T00:00:00+09:00",
-    "lastChartedAt": "2026-08-02T00:00:00+09:00",
-    "chartDays": 145,
+    "lastChartedAt": "2026-07-31T00:00:00+09:00",
+    "chartDays": 144,
     "currentRank": 1,
     "status": "in",
-    "pointCount": 145
+    "pointCount": 144
   },
   "sources": [
     {

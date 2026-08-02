@@ -4,29 +4,16 @@
   "songTitle": "Pretty Girl",
   "chartId": "genie-daily",
   "chartName": "Genie Daily",
-  "points": [
-    {
-      "chartAt": "2026-08-02T00:00:00+09:00",
-      "checkedAt": "2026-08-02T08:03:07+09:00",
-      "rank": 10,
-      "sourceRank": 10
-    },
-    {
-      "chartAt": "2026-08-01T00:00:00+09:00",
-      "checkedAt": "2026-08-02T08:51:59+09:00",
-      "rank": 10,
-      "sourceRank": 10
-    }
-  ],
+  "points": [],
   "outOfChartHistory": [],
-  "generatedAt": "2026-08-02T08:51:59+09:00",
+  "generatedAt": "2026-08-02T10:30:45+09:00",
   "summary": {
-    "peakRank": 10,
-    "firstChartedAt": "2026-08-02T00:00:00+09:00",
-    "lastChartedAt": "2026-08-01T00:00:00+09:00",
-    "chartDays": 2,
-    "currentRank": 10,
-    "status": "in",
-    "pointCount": 2
+    "peakRank": null,
+    "firstChartedAt": "",
+    "lastChartedAt": "",
+    "chartDays": 0,
+    "currentRank": null,
+    "status": "out",
+    "pointCount": 0
   }
 }
