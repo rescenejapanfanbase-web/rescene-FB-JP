@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-02T11:47:29.959788+00:00",
+  "generatedAt": "2026-08-02T14:19:31.362999+00:00",
   "items": [
     {
       "date": "2026-08-02",
@@ -15,6 +15,22 @@ window.RESCENE_SITE_UPDATES = {
         "chants.html",
         "contact.html",
         "data/korean-chart-history/bloom--genie-daily.json"
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "dce8f9f",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/quality-report.json",
+        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
+        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
+        "scripts/__pycache__/check-external-links.cpython-313.pyc",
+        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
       ]
     },
     {
@@ -35,13 +51,20 @@ window.RESCENE_SITE_UPDATES = {
     },
     {
       "date": "2026-08-02",
+      "title": "chore: critical YouTube sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "6f6052a",
+      "files": [
+        "data/youtube-channels.json"
+      ]
+    },
+    {
+      "date": "2026-08-02",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "0b8d8ed",
+      "commit": "880e8d6",
       "files": [
-        ".github/workflows/korean-chart-periodic-watchdog.yml",
-        ".github/workflows/korean-chart-watchdog.yml",
-        ".github/workflows/sync-korean-charts.yml"
+        ".github/workflows/sync-notion-news.yml"
       ]
     },
     {
@@ -61,15 +84,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "6e60f92",
       "files": [
         "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "0d87f5a",
-      "files": [
-        "data/youtube-channels.json"
       ]
     },
     {
