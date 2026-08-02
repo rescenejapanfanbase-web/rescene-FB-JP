@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-02T07:41:58.142525+00:00",
+  "generatedAt": "2026-08-02T07:56:56.124907+00:00",
   "items": [
     {
       "date": "2026-08-02",
@@ -15,6 +15,22 @@ window.RESCENE_SITE_UPDATES = {
         "chants.html",
         "contact.html",
         "data/korean-chart-history/bloom--genie-daily.json"
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "title": "chore: critical full content sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "569c9d7",
+      "files": [
+        "404.html",
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "about.html",
+        "analytics.html",
+        "article.html",
+        "busy-boy-release.html",
+        "chants.html",
+        "contact.html"
       ]
     },
     {
