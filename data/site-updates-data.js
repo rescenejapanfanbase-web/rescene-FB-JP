@@ -1,11 +1,27 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-01T20:15:51.650736+00:00",
+  "generatedAt": "2026-08-02T07:41:58.142525+00:00",
   "items": [
+    {
+      "date": "2026-08-02",
+      "title": "fix: repair Daily charts and restore chart navigation",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "012675a",
+      "files": [
+        "404.html",
+        "about.html",
+        "analytics.html",
+        "article.html",
+        "busy-boy-release.html",
+        "chants.html",
+        "contact.html",
+        "data/korean-chart-history/bloom--genie-daily.json"
+      ]
+    },
     {
       "date": "2026-08-02",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "90f7a03",
+      "commit": "43222d5",
       "files": [
         ".github/workflows/korean-chart-watchdog.yml",
         ".github/workflows/sync-korean-charts.yml"
@@ -25,7 +41,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-08-01",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "303811e",
+      "commit": "6e60f92",
       "files": [
         "data/external-link-report.json"
       ]
