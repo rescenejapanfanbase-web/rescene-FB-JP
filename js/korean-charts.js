@@ -336,11 +336,20 @@
       .sort((a,b)=>(parseDate(a.chartAt)?.getTime()||0)-(parseDate(b.chartAt)?.getTime()||0));
   }
 
+  function latestRankedDay(points){
+    const ranked=points.filter(point=>isRank(point.rank));
+    const latest=ranked[ranked.length-1];
+    return latest?dayKey(latest.chartAt):'';
+  }
+
   function pointsForRange(points,range,chart){
     const sorted=sortedPoints(points);
     if(chart?.cadence==='hourly'&&sorted.length){
-      const latestDay=dayKey(sorted[sorted.length-1].chartAt);
-      return sorted.filter(point=>dayKey(point.chartAt)===latestDay);
+      // A currently out-of-chart song still receives null observations every
+      // hour. Selecting the final observation day would therefore hide its
+      // actual past graph. Show the most recent day that contains a rank.
+      const displayDay=latestRankedDay(sorted)||dayKey(sorted[sorted.length-1].chartAt);
+      return sorted.filter(point=>dayKey(point.chartAt)===displayDay);
     }
     if(!sorted.length||range==='all')return sorted;
     const latest=parseDate(sorted[sorted.length-1].chartAt)?.getTime();
@@ -371,7 +380,8 @@
     };
   }
 
-  function historySvg(points,maxRank,{hourly=false}={}){
+  function historySvg(points,maxRank,{cadence='daily'}={}){
+    const hourly=cadence==='hourly';
     const width=900;
     const height=340;
     const pad={top:28,right:24,bottom:50,left:54};
@@ -395,14 +405,27 @@
       .map(value=>Math.max(1,value))
       .filter((value,index,array)=>array.indexOf(value)===index);
 
+    // Do not draw a line through periods for which no rank was recorded.
+    // Guyso's historical files contain only charted observations, so a large
+    // timestamp gap also has to split the line even when no explicit null point
+    // exists between the two ranked points.
+    const maxGapMs=cadence==='weekly'?8*86400000:cadence==='daily'?36*3600000:2*3600000;
     const segments=[];
     let current=[];
+    let previousRankedAt=null;
     points.forEach(point=>{
-      if(isRank(point.rank)){
+      const stamp=parseDate(point.chartAt)?.getTime();
+      if(isRank(point.rank)&&Number.isFinite(stamp)){
+        if(current.length&&Number.isFinite(previousRankedAt)&&stamp-previousRankedAt>maxGapMs){
+          segments.push(current);
+          current=[];
+        }
         current.push(`${xForTime(point.chartAt).toFixed(1)},${y(point.rank).toFixed(1)}`);
+        previousRankedAt=stamp;
       }else if(current.length){
         segments.push(current);
         current=[];
+        previousRankedAt=null;
       }
     });
     if(current.length)segments.push(current);
@@ -446,7 +469,7 @@
     if(rangeWrap)rangeWrap.hidden=hourly;
 
     const visible=pointsForRange(allPoints,range,selectedHistoryChart);
-    const svg=historySvg(visible,selectedHistoryChart.maxRank,{hourly});
+    const svg=historySvg(visible,selectedHistoryChart.maxRank,{cadence:selectedHistoryChart?.cadence||'daily'});
     const wrap=byId('chartSvgWrap');
     if(wrap){
       wrap.innerHTML=svg
@@ -471,7 +494,8 @@
     const sourceParts=[];
     if(hasGuyso)sourceParts.push('<span>過去順位の一部：<a href="https://xn--o39an51b2re.com/" target="_blank" rel="noopener noreferrer">가이섬</a></span>');
     sourceParts.push('<span>最新順位：各チャートの公開情報</span>');
-    sourceParts.push(`<span>${hourly?'当日1日分':`${visible.length.toLocaleString('ja-JP')}点表示`}</span>`);
+    const displayedDay=hourly&&visible.length?dayKey(visible.find(point=>isRank(point.rank))?.chartAt||visible[0]?.chartAt):'';
+    sourceParts.push(`<span>${hourly?`${displayedDay||'最新'}の1日分`: `${visible.length.toLocaleString('ja-JP')}点表示`}</span>`);
     if(byId('chartHistorySource'))byId('chartHistorySource').innerHTML=sourceParts.join('<i>／</i>');
 
     const outages=Array.isArray(selectedHistory.outOfChartHistory)?selectedHistory.outOfChartHistory:[];
