@@ -50,6 +50,14 @@
       ?new Intl.DateTimeFormat('ja-JP',{hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Asia/Tokyo'}).format(date)
       :'—';
   };
+  const pointTooltipLabel=(value,hourly=false)=>{
+    const date=parseDate(value);
+    if(!date)return value?String(value):'—';
+    const options=hourly
+      ?{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Asia/Tokyo'}
+      :{year:'numeric',month:'2-digit',day:'2-digit',timeZone:'Asia/Tokyo'};
+    return new Intl.DateTimeFormat('ja-JP',options).format(date);
+  };
   const dayKey=(value)=>{
     const date=parseDate(value);
     return date
@@ -166,6 +174,40 @@
         r:7;
         stroke-width:4px!important;
         opacity:1!important;
+      }
+      .chart-point-popover{
+        opacity:0;
+        pointer-events:none;
+        visibility:hidden;
+        transition:opacity .15s ease;
+      }
+      .chart-point-popover.is-visible{
+        opacity:1;
+        visibility:visible;
+      }
+      .chart-point-popover rect{
+        fill:var(--card2);
+        stroke:var(--pink-soft);
+        stroke-width:1.5;
+      }
+      .chart-point-popover-date{
+        fill:var(--muted);
+        font-size:11px;
+        font-weight:700;
+      }
+      .chart-point-popover-rank{
+        fill:var(--text);
+        font-size:15px;
+        font-weight:900;
+      }
+      .chart-point-live{
+        clip:rect(0 0 0 0);
+        clip-path:inset(50%);
+        height:1px;
+        overflow:hidden;
+        position:absolute;
+        white-space:nowrap;
+        width:1px;
       }
       @media(max-width:900px){
         .chart-rank-card{
@@ -336,28 +378,41 @@
       .sort((a,b)=>(parseDate(a.chartAt)?.getTime()||0)-(parseDate(b.chartAt)?.getTime()||0));
   }
 
+  function latestRankedPoint(points){
+    for(let index=points.length-1;index>=0;index-=1){
+      if(isRank(points[index]?.rank))return {point:points[index],index};
+    }
+    return null;
+  }
+
   function latestRankedDay(points){
-    const ranked=points.filter(point=>isRank(point.rank));
-    const latest=ranked[ranked.length-1];
+    const latest=latestRankedPoint(points)?.point;
     return latest?dayKey(latest.chartAt):'';
   }
 
   function pointsForRange(points,range,chart){
     const sorted=sortedPoints(points);
-    if(chart?.cadence==='hourly'&&sorted.length){
-      // A currently out-of-chart song still receives null observations every
-      // hour. Selecting the final observation day would therefore hide its
-      // actual past graph. Show the most recent day that contains a rank.
+    if(!sorted.length)return [];
+
+    if(chart?.cadence==='hourly'){
+      // Real-time charts always show one calendar day. For a currently
+      // out-of-chart song, use the latest day that actually contains a rank.
       const displayDay=latestRankedDay(sorted)||dayKey(sorted[sorted.length-1].chartAt);
       return sorted.filter(point=>dayKey(point.chartAt)===displayDay);
     }
-    if(!sorted.length||range==='all')return sorted;
-    const latest=parseDate(sorted[sorted.length-1].chartAt)?.getTime();
-    if(!Number.isFinite(latest))return sorted;
+
+    // Daily/weekly files may contain later null observations. They must not
+    // extend the graph beyond the last date on which an actual rank exists.
+    const latestRanked=latestRankedPoint(sorted);
+    const bounded=latestRanked?sorted.slice(0,latestRanked.index+1):sorted;
+    if(range==='all')return bounded;
+
+    const latest=parseDate(latestRanked?.point?.chartAt||bounded[bounded.length-1]?.chartAt)?.getTime();
+    if(!Number.isFinite(latest))return bounded;
     const days=range==='7d'?7:range==='30d'?30:null;
     return days
-      ?sorted.filter(point=>(parseDate(point.chartAt)?.getTime()||0)>=latest-(days-1)*86400000)
-      :sorted;
+      ?bounded.filter(point=>(parseDate(point.chartAt)?.getTime()||0)>=latest-(days-1)*86400000)
+      :bounded;
   }
 
   function historySummary(history,entry){
@@ -382,17 +437,25 @@
 
   function historySvg(points,maxRank,{cadence='daily'}={}){
     const hourly=cadence==='hourly';
-    const width=900;
-    const height=340;
-    const pad={top:28,right:24,bottom:50,left:54};
-    const usableW=width-pad.left-pad.right;
-    const usableH=height-pad.top-pad.bottom;
+    const mobile=window.matchMedia('(max-width:640px)').matches;
     const ranked=points.filter(point=>isRank(point.rank));
     if(!ranked.length)return '';
 
+    // On a phone, preserve readable spacing and allow horizontal swiping instead
+    // of shrinking every point and label into the same narrow screen width.
+    const width=mobile
+      ?Math.max(360,Math.min(1500,150+ranked.length*26))
+      :900;
+    const height=mobile?320:340;
+    const pad={top:58,right:26,bottom:52,left:54};
+    const usableW=width-pad.left-pad.right;
+    const usableH=height-pad.top-pad.bottom;
+
     const maxConfigured=Math.max(10,Number(maxRank)||100);
     const yMax=Math.max(maxConfigured,...ranked.map(point=>Number(point.rank)));
-    const timestamps=points.map(point=>parseDate(point.chartAt)?.getTime()).filter(Number.isFinite);
+    const timestamps=points
+      .map(point=>parseDate(point.chartAt)?.getTime())
+      .filter(Number.isFinite);
     const minTime=Math.min(...timestamps);
     const maxTime=Math.max(...timestamps);
     const xForTime=(value)=>{
@@ -405,50 +468,86 @@
       .map(value=>Math.max(1,value))
       .filter((value,index,array)=>array.indexOf(value)===index);
 
-    // Do not draw a line through periods for which no rank was recorded.
-    // Guyso's historical files contain only charted observations, so a large
-    // timestamp gap also has to split the line even when no explicit null point
-    // exists between the two ranked points.
-    const maxGapMs=cadence==='weekly'?8*86400000:cadence==='daily'?36*3600000:2*3600000;
+    // Draw through all available ranked observations. Only an explicit null
+    // observation breaks the line. This prevents isolated dots caused merely by
+    // a sparse historical source while still respecting known out-of-chart gaps.
     const segments=[];
     let current=[];
-    let previousRankedAt=null;
     points.forEach(point=>{
       const stamp=parseDate(point.chartAt)?.getTime();
       if(isRank(point.rank)&&Number.isFinite(stamp)){
-        if(current.length&&Number.isFinite(previousRankedAt)&&stamp-previousRankedAt>maxGapMs){
-          segments.push(current);
-          current=[];
-        }
-        current.push(`${xForTime(point.chartAt).toFixed(1)},${y(point.rank).toFixed(1)}`);
-        previousRankedAt=stamp;
+        current.push({
+          x:xForTime(point.chartAt),
+          y:y(point.rank),
+          point
+        });
       }else if(current.length){
         segments.push(current);
         current=[];
-        previousRankedAt=null;
       }
     });
     if(current.length)segments.push(current);
 
-    const labelIndexes=[0,Math.floor((points.length-1)/2),points.length-1]
-      .filter((value,index,array)=>value>=0&&array.indexOf(value)===index);
+    const lineMarkup=segments.map(segment=>{
+      if(segment.length>1){
+        const coordinates=segment
+          .map(item=>`${item.x.toFixed(1)},${item.y.toFixed(1)}`)
+          .join(' ');
+        return `<polyline class="chart-rank-line" points="${coordinates}"></polyline>`;
+      }
+      const item=segment[0];
+      const x1=Math.max(pad.left,item.x-10);
+      const x2=Math.min(width-pad.right,item.x+10);
+      return `<line class="chart-single-guide" x1="${x1.toFixed(1)}" x2="${x2.toFixed(1)}" y1="${item.y.toFixed(1)}" y2="${item.y.toFixed(1)}"></line>`;
+    }).join('');
 
-    return `<svg class="chart-svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="順位推移グラフ">
+    const pointViews=ranked.map((point,index)=>{
+      const cx=xForTime(point.chartAt);
+      const cy=y(point.rank);
+      const label=pointTooltipLabel(point.chartAt,hourly);
+      const boxWidth=hourly?148:126;
+      const boxHeight=48;
+      let boxX=cx+10;
+      if(boxX+boxWidth>width-pad.right)boxX=cx-boxWidth-10;
+      boxX=Math.max(6,Math.min(width-boxWidth-6,boxX));
+      let boxY=cy-boxHeight-12;
+      if(boxY<6)boxY=cy+12;
+      boxY=Math.max(6,Math.min(height-boxHeight-6,boxY));
+      return {
+        point,index,cx,cy,label,boxWidth,boxHeight,boxX,boxY
+      };
+    });
+
+    const labelIndexes=[0,Math.floor((ranked.length-1)/2),ranked.length-1]
+      .filter((value,index,array)=>value>=0&&array.indexOf(value)===index);
+    const mobileStyle=mobile?` style="width:${width}px;max-width:none"`:'';
+
+    return `<svg class="chart-svg" viewBox="0 0 ${width} ${height}"${mobileStyle} role="img" aria-label="順位推移グラフ">
       ${gridRanks.map(value=>`<line class="chart-grid-line" x1="${pad.left}" x2="${width-pad.right}" y1="${y(value)}" y2="${y(value)}"></line><text class="chart-axis-label" x="${pad.left-10}" y="${y(value)+4}" text-anchor="end">#${value}</text>`).join('')}
-      ${segments.map(segment=>segment.length>1?`<polyline class="chart-rank-line" points="${segment.join(' ')}"></polyline>`:'').join('')}
-      ${ranked.map((point,index)=>`<circle class="chart-rank-point" cx="${xForTime(point.chartAt)}" cy="${y(point.rank)}" r="4" tabindex="0" role="button" data-point-index="${index}" data-chart-at="${esc(point.chartAt)}" data-rank="${Number(point.rank)}" aria-label="${esc(dateTime(point.chartAt,hourly?false:true))}、${Number(point.rank)}位"><title>${esc(dateTime(point.chartAt,hourly?false:true))} #${Number(point.rank)}</title></circle>`).join('')}
-      ${labelIndexes.map(index=>`<text class="chart-axis-label" x="${xForTime(points[index]?.chartAt)}" y="${height-17}" text-anchor="${index===0?'start':index===points.length-1?'end':'middle'}">${esc(hourly?timeLabel(points[index]?.chartAt):dateTime(points[index]?.chartAt,true))}</text>`).join('')}
+      ${lineMarkup}
+      ${pointViews.map(item=>`<circle class="chart-rank-point" cx="${item.cx}" cy="${item.cy}" r="4" tabindex="0" role="button" data-point-index="${item.index}" data-chart-at="${esc(item.point.chartAt)}" data-point-label="${esc(item.label)}" data-rank="${Number(item.point.rank)}" aria-label="${esc(item.label)}、${Number(item.point.rank)}位"><title>${esc(item.label)} #${Number(item.point.rank)}</title></circle>`).join('')}
+      ${pointViews.map(item=>`<g class="chart-point-popover" data-point-index="${item.index}" aria-hidden="true" transform="translate(${item.boxX.toFixed(1)} ${item.boxY.toFixed(1)})"><rect width="${item.boxWidth}" height="${item.boxHeight}" rx="10"></rect><text class="chart-point-popover-date" x="10" y="18">${esc(item.label)}</text><text class="chart-point-popover-rank" x="10" y="38">#${Number(item.point.rank)}</text></g>`).join('')}
+      ${labelIndexes.map(index=>`<text class="chart-axis-label" x="${xForTime(ranked[index]?.chartAt)}" y="${height-17}" text-anchor="${index===0?'start':index===ranked.length-1?'end':'middle'}">${esc(hourly?timeLabel(ranked[index]?.chartAt):dateTime(ranked[index]?.chartAt,true))}</text>`).join('')}
     </svg>`;
   }
 
-  function bindPointInteraction(hourly){
+  function bindPointInteraction(){
     const wrap=byId('chartSvgWrap');
-    const detail=byId('chartPointDetail');
-    if(!wrap||!detail)return;
+    const live=byId('chartPointLive');
+    if(!wrap)return;
     const activate=(point)=>{
-      wrap.querySelectorAll('.chart-rank-point').forEach(node=>node.classList.toggle('is-selected',node===point));
-      const when=hourly?dateTime(point.dataset.chartAt):dateTime(point.dataset.chartAt,true);
-      detail.innerHTML=`<span>${esc(when)}</span><strong>#${esc(point.dataset.rank)}</strong>`;
+      const selectedIndex=String(point.dataset.pointIndex||'');
+      wrap.querySelectorAll('.chart-rank-point').forEach(node=>{
+        node.classList.toggle('is-selected',node===point);
+      });
+      wrap.querySelectorAll('.chart-point-popover').forEach(popover=>{
+        const active=popover.dataset.pointIndex===selectedIndex;
+        popover.classList.toggle('is-visible',active);
+        popover.setAttribute('aria-hidden',String(!active));
+      });
+      if(live){
+        live.textContent=`${point.dataset.pointLabel||''} ${point.dataset.rank||''}位`;
+      }
     };
     wrap.querySelectorAll('.chart-rank-point').forEach(point=>{
       point.addEventListener('click',()=>activate(point));
@@ -471,12 +570,14 @@
     const visible=pointsForRange(allPoints,range,selectedHistoryChart);
     const svg=historySvg(visible,selectedHistoryChart.maxRank,{cadence:selectedHistoryChart?.cadence||'daily'});
     const wrap=byId('chartSvgWrap');
+    const mobileSwipe=window.matchMedia('(max-width:640px)').matches
+      &&visible.filter(point=>isRank(point.rank)).length>8;
     if(wrap){
       wrap.innerHTML=svg
-        ?`${svg}<div class="chart-point-detail" id="chartPointDetail" aria-live="polite"><span>グラフの点を押すと日付と順位を表示します。</span></div>`
+        ?`${mobileSwipe?'<p class="chart-mobile-scroll-hint">横にスワイプして推移を確認できます</p>':''}${svg}<span class="chart-point-live" id="chartPointLive" aria-live="polite"></span>`
         :'<p class="chart-empty">この組み合わせの順位履歴はまだありません。</p>';
     }
-    if(svg)bindPointInteraction(hourly);
+    if(svg)bindPointInteraction();
 
     const summary=historySummary(selectedHistory,selectedEntry);
     if(byId('chartHistoryStats')){

@@ -82,3 +82,137 @@ body.page-korean-charts .chart-history-source i{font-style:normal;opacity:.45}
 @media(max-width:520px){body.page-korean-charts .chart-history-tools{align-items:flex-start;justify-content:flex-start;width:100%}}
 
 @media (max-width:640px){body.page-korean-charts .chart-svg{height:250px}body.page-korean-charts .chart-rank-point{r:3}body.page-korean-charts .chart-axis-label{font-size:11px}body.page-korean-charts .chart-history-range[hidden]{display:none!important}}
+
+/* Korean chart mobile graph and point-popover update: 2026-08-02 */
+body.page-korean-charts .chart-svg-wrap{
+  position:relative;
+  overscroll-behavior-inline:contain;
+  scrollbar-color:var(--pink) transparent;
+  scrollbar-width:thin;
+}
+body.page-korean-charts .chart-point-popover{
+  opacity:0;
+  pointer-events:none;
+  visibility:hidden;
+  transition:opacity .15s ease;
+}
+body.page-korean-charts .chart-point-popover.is-visible{
+  opacity:1;
+  visibility:visible;
+}
+body.page-korean-charts .chart-point-popover rect{
+  fill:var(--card2);
+  stroke:var(--pink-soft);
+  stroke-width:1.5;
+}
+body.page-korean-charts .chart-point-popover-date{
+  fill:var(--muted);
+  font-size:11px;
+  font-weight:700;
+}
+body.page-korean-charts .chart-point-popover-rank{
+  fill:var(--text);
+  font-size:15px;
+  font-weight:900;
+}
+body.page-korean-charts .chart-point-live{
+  clip:rect(0 0 0 0);
+  clip-path:inset(50%);
+  height:1px;
+  overflow:hidden;
+  position:absolute;
+  white-space:nowrap;
+  width:1px;
+}
+body.page-korean-charts .chart-mobile-scroll-hint{
+  display:none;
+}
+body.page-korean-charts .chart-single-guide{
+  stroke:var(--pink);
+  stroke-linecap:round;
+  stroke-width:4;
+}
+@media(max-width:760px){
+  body.page-korean-charts .chart-history-panel{
+    padding:14px;
+  }
+  body.page-korean-charts .chart-history-head{
+    gap:12px;
+    margin-bottom:12px;
+  }
+  body.page-korean-charts .chart-history-tools{
+    align-items:flex-start;
+    justify-content:flex-start;
+    width:100%;
+  }
+  body.page-korean-charts .chart-history-range{
+    width:100%;
+  }
+  body.page-korean-charts .chart-history-range select{
+    min-height:44px;
+    width:100%;
+  }
+  body.page-korean-charts .chart-svg-wrap{
+    -webkit-overflow-scrolling:touch;
+    min-height:280px;
+    overflow-x:auto;
+    padding:8px;
+  }
+  body.page-korean-charts .chart-svg{
+    height:auto!important;
+    min-width:0!important;
+  }
+  body.page-korean-charts .chart-rank-line{
+    stroke-width:4;
+  }
+  body.page-korean-charts .chart-rank-point{
+    stroke-width:3.5;
+  }
+  body.page-korean-charts .chart-axis-label{
+    font-size:12px;
+  }
+  body.page-korean-charts .chart-history-stats{
+    gap:8px;
+  }
+  body.page-korean-charts .chart-history-stat{
+    min-width:0;
+    padding:10px;
+  }
+  body.page-korean-charts .chart-history-stat strong{
+    overflow-wrap:anywhere;
+  }
+  body.page-korean-charts .chart-history-source{
+    line-height:1.6;
+  }
+  body.page-korean-charts .chart-mobile-scroll-hint{
+    background:var(--card2);
+    border:1px solid var(--border);
+    border-radius:999px;
+    color:var(--muted);
+    display:block;
+    font-size:.68rem;
+    left:8px;
+    margin:0 0 8px;
+    padding:6px 10px;
+    position:sticky;
+    width:max-content;
+    z-index:3;
+  }
+}
+@media(max-width:520px){
+  body.page-korean-charts .chart-history-panel{
+    padding:12px;
+  }
+  body.page-korean-charts .chart-history-head h3{
+    font-size:1.12rem;
+  }
+  body.page-korean-charts .chart-history-stats{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+  body.page-korean-charts .chart-history-stat span{
+    font-size:.62rem;
+  }
+  body.page-korean-charts .chart-history-stat strong{
+    font-size:.82rem;
+  }
+}
