@@ -1,0 +1,46 @@
+RESCENE Daily順位精度・履歴修復・ナビゲーション復旧（2026-08-02）
+
+確認した不具合
+==============
+
+1. Melon Daily
+   Melon TOP100と同じモバイルAPIへ chartType パラメータを追加していました。
+   そのパラメータが無視された場合でも100件あれば成功扱いとなり、
+   TOP100の順位をDaily順位として保存していました。
+
+2. Genie / Bugs Daily
+   公開時刻より前に手動実行されたデータへ「前日」の日付を強制付与していました。
+   元ページの日付を確認しないため、未更新の順位を前日分として保存できる状態でした。
+
+3. ナビゲーション
+   desktop・mobile双方の「音楽」メニューに韓国チャートリンクがありませんでした。
+
+今回の方針
+==========
+
+・Melon / Genie / Bugsの公式Dailyページを使用
+・ページ上に期待する前日の日付がある場合だけ保存
+・Melon/Bugsは90件未満、Genieは180件未満なら失敗扱い
+・取得失敗時は従来どおり前回の正常データを維持
+・公開前に誤って保存されたDaily観測を削除
+・全HTMLの音楽メニューへ韓国チャートを復旧
+
+反映方法
+========
+
+ZIPを展開し、.github と scripts をリポジトリ最上部へアップロードします。
+既存の scripts/sync-korean-charts-fixed.py は上書きしてください。
+
+次にGitHubで、
+Actions
+→ Repair Daily Charts and Navigation
+→ Run workflow
+を1回実行します。
+
+この修復Actionは現在の誤ったDaily観測を削除し、ナビゲーションを復旧します。
+Dailyデータの新規取得は次の自動時刻に任せます。
+
+・Genie Daily / Bugs Daily：12:10
+・Melon Daily：12:50
+
+公開時刻より前にDaily同期を手動実行しないでください。
