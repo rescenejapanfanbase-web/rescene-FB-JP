@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-03T11:03:57.805290+00:00",
+  "generatedAt": "2026-08-03T12:42:41.902305+00:00",
   "items": [
     {
       "date": "2026-08-03",
@@ -34,19 +34,12 @@ window.RESCENE_SITE_UPDATES = {
       ]
     },
     {
-      "date": "2026-08-02",
-      "title": "fix: repair Daily charts and restore chart navigation",
+      "date": "2026-08-03",
+      "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "012675a",
+      "commit": "36f9699",
       "files": [
-        "404.html",
-        "about.html",
-        "analytics.html",
-        "article.html",
-        "busy-boy-release.html",
-        "chants.html",
-        "contact.html",
-        "data/korean-chart-history/bloom--genie-daily.json"
+        "data/youtube-channels.json"
       ]
     },
     {
