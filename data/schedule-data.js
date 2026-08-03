@@ -1,14 +1,14 @@
 window.RESCENE_SCHEDULE_PAYLOAD = {
-  "generatedAt": "2026-08-01T13:51:16.116Z",
+  "generatedAt": "2026-08-03T08:52:29.455Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
     "notion": 43,
-    "plusChatAvailable": 49,
-    "plusChatAdded": 30,
+    "plusChatAvailable": 50,
+    "plusChatAdded": 31,
     "plusChatDuplicates": 19
   },
-  "plusChatGeneratedAt": "2026-07-31T16:17:38Z",
+  "plusChatGeneratedAt": "2026-08-03T08:52:29Z",
   "events": [
     {
       "id": "39d229d2-19da-800c-94bb-c8304114547b",
@@ -1136,6 +1136,25 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
       "translations": {},
       "notionUrl": "https://app.notion.com/p/2026-K-WORLD-DREAM-AWARDS-KWDA-3af229d219da802eb4b2fceaaa75848a",
       "source": "notion"
+    },
+    {
+      "id": "pluschat-2026-09-02-all-day-2026-k",
+      "title": "2026 천안 K-컬처 박람회",
+      "originalTitle": "2026 천안 K-컬처 박람회",
+      "translationStatus": "original",
+      "date": "2026-09-02",
+      "start": "2026-09-02",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-09"
     },
     {
       "id": "3af229d2-19da-8084-a9df-ec3d8bb30680",
