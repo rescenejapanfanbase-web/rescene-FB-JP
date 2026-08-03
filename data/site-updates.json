@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T10:55:10.959704+00:00",
+  "generatedAt": "2026-08-03T10:57:22.876573+00:00",
   "items": [
     {
       "date": "2026-08-03",
@@ -15,6 +15,22 @@
         "data/rescene-schedule.ics",
         "data/schedule-data.js",
         "data/schedule.json"
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "title": "chore: critical full content sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "14f2241",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "assets/mv/youtube/QN7V87Hzmr8.jpg",
+        "assets/mv/youtube/yAZUO4KqH6s.jpg",
+        "assets/optimized/307134592f645da7/yazuo4kqh6s-w480.webp",
+        "assets/optimized/f9ed363cf5ac3b42/qn7v87hzmr8-w1280.webp",
+        "assets/optimized/f9ed363cf5ac3b42/qn7v87hzmr8-w480.webp",
+        "assets/optimized/f9ed363cf5ac3b42/qn7v87hzmr8-w768.webp",
+        "data/image-manifest.json"
       ]
     },
     {
