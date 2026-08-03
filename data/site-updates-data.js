@@ -1,6 +1,22 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-02T20:16:48.773642+00:00",
+  "generatedAt": "2026-08-03T10:55:10.959704+00:00",
   "items": [
+    {
+      "date": "2026-08-03",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "6db8a8b",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/pluschat-schedule.json",
+        "data/quality-report.json",
+        "data/rescene-schedule.ics",
+        "data/schedule-data.js",
+        "data/schedule.json"
+      ]
+    },
     {
       "date": "2026-08-02",
       "title": "fix: repair Daily charts and restore chart navigation",
@@ -15,6 +31,15 @@ window.RESCENE_SITE_UPDATES = {
         "chants.html",
         "contact.html",
         "data/korean-chart-history/bloom--genie-daily.json"
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "6c0a143",
+      "files": [
+        "data/external-link-report.json"
       ]
     },
     {
@@ -75,15 +100,6 @@ window.RESCENE_SITE_UPDATES = {
         "korean-charts.html",
         "sync-korean-charts.yml",
         "korean-chart-watchdog.yml"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "6e60f92",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {
