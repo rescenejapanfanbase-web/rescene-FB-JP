@@ -1,5 +1,5 @@
 window.RESCENE_SCHEDULE_PAYLOAD = {
-  "generatedAt": "2026-08-03T08:52:29.455Z",
+  "generatedAt": "2026-08-03T13:31:41.070Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
@@ -8,7 +8,7 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
     "plusChatAdded": 31,
     "plusChatDuplicates": 19
   },
-  "plusChatGeneratedAt": "2026-08-03T08:52:29Z",
+  "plusChatGeneratedAt": "2026-08-03T13:31:41Z",
   "events": [
     {
       "id": "39d229d2-19da-800c-94bb-c8304114547b",
@@ -1011,12 +1011,12 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-08-06-1120-2026",
+      "id": "pluschat-2026-08-06-2100-2026",
       "title": "2026 섬의 날 イベント",
       "originalTitle": "2026 섬의 날 행사",
       "translationStatus": "partial",
       "date": "2026-08-06",
-      "start": "2026-08-06T11:20:00+09:00",
+      "start": "2026-08-06T21:00:00+09:00",
       "end": "",
       "allDay": false,
       "category": "イベント",

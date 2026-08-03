@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T08:52:29Z",
+  "generatedAt": "2026-08-03T13:31:41Z",
   "source": "pluschat",
   "sourceBaseUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/",
   "translationDictionary": "scripts/pluschat-schedule-translations.json",
@@ -20,7 +20,7 @@
     },
     "2026-08": {
       "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08",
-      "fetchedAt": "2026-07-31T16:17:25Z",
+      "fetchedAt": "2026-08-03T13:31:27Z",
       "eventCount": 6,
       "status": "ok",
       "warnings": [
@@ -862,12 +862,12 @@
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-08-06-1120-2026",
+      "id": "pluschat-2026-08-06-2100-2026",
       "title": "2026 섬의 날 イベント",
       "originalTitle": "2026 섬의 날 행사",
       "translationStatus": "partial",
       "date": "2026-08-06",
-      "start": "2026-08-06T11:20:00+09:00",
+      "start": "2026-08-06T21:00:00+09:00",
       "end": "",
       "allDay": false,
       "category": "イベント",
