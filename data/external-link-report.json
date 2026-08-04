@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-02T23:45:39Z",
-  "startedAt": "2026-08-02T23:45:26Z",
-  "elapsedSeconds": 12.67,
+  "generatedAt": "2026-08-04T00:15:57Z",
+  "startedAt": "2026-08-04T00:15:53Z",
+  "elapsedSeconds": 4.04,
   "summary": {
     "checked": 88,
     "ok": 87,
@@ -945,8 +945,8 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 1184,
-          "label": "Objet K-pop Festa 2026"
+          "line": 1152,
+          "label": "2026 천안 K-컬처 박람회"
         }
       ]
     },
@@ -1131,7 +1131,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1785714337815&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1785802556081&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1159,7 +1159,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 1165,
+          "line": 1184,
           "label": "2026 THE FACT MUSIC AWARDS(TMA)"
         }
       ]
@@ -1655,7 +1655,7 @@
         },
         {
           "file": "data/schedule.json",
-          "line": 1149,
+          "line": 1168,
           "label": "SPOTV K-POP AWARDS(SKA)"
         }
       ]
@@ -1683,7 +1683,7 @@
         },
         {
           "file": "data/schedule.json",
-          "line": 1248,
+          "line": 1267,
           "label": "Asia Artist Awards(AAA)2026"
         }
       ]
