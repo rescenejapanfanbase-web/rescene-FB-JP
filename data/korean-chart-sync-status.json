@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T20:06:53+09:00",
+  "generatedAt": "2026-08-04T20:34:17+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
   "successfulCharts": [
-    "spotify-kr"
+    "youtube-kr"
   ],
   "failedCharts": {},
   "configuration": {
@@ -116,9 +116,9 @@
       "chartName": "YouTube Music Korea Top Songs",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-03T22:30:40+09:00",
+      "lastAttemptAt": "2026-08-04T20:34:17+09:00",
       "error": "",
-      "lastSuccessAt": "2026-08-03T22:30:40+09:00",
+      "lastSuccessAt": "2026-08-04T20:34:17+09:00",
       "chartAt": "2026-08-03T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 8,
@@ -208,14 +208,14 @@
   "automation": {
     "eventName": "schedule",
     "scheduled": true,
-    "schedule": "30 1 * * *",
+    "schedule": "40 2 * * *",
     "resolvedCharts": [
-      "spotify-kr"
+      "youtube-kr"
     ],
-    "runId": "30903436179",
-    "runNumber": "35",
+    "runId": "30905320431",
+    "runNumber": "36",
     "runAttempt": "1",
-    "sha": "2e7a149b4cd37f386fa1ee7088988dc6a4997778",
-    "completedAt": "2026-08-04T20:06:54+09:00"
+    "sha": "4f36a1a0712e89f9b45e9dd18c217b10a913fde5",
+    "completedAt": "2026-08-04T20:34:21+09:00"
   }
 }
