@@ -1,6 +1,31 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-03T20:44:41.788013+00:00",
+  "generatedAt": "2026-08-04T07:49:53.914599+00:00",
   "items": [
+    {
+      "date": "2026-08-04",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "1d4ca7f",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "69d0f12",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/pluschat-schedule.json",
+        "data/quality-report.json",
+        "data/rescene-schedule.ics",
+        "data/schedule-data.js",
+        "data/schedule.json"
+      ]
+    },
     {
       "date": "2026-08-03",
       "title": "chore: critical schedule sync",
@@ -90,15 +115,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "cc06e80",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "title": "Add files via upload",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "880e8d6",
-      "files": [
-        ".github/workflows/sync-notion-news.yml"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T14:34:13.153Z",
+  "generatedAt": "2026-08-04T07:49:44.892Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -194,8 +194,8 @@
       "releaseDate": "2025-07-02",
       "top100Peak": 13,
       "top100PeakDate": "2026-07-20",
-      "dailyPeak": 11,
-      "dailyPeakDate": "2026-07-29",
+      "dailyPeak": 10,
+      "dailyPeakDate": "2026-08-03",
       "description": "2026年7月6日に初めてTOP100に進入。リリースから約1年越しでの記録となった。MVは日本の東京都内で撮影された。",
       "mvUrl": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
       "image": "assets/records/notion/record-3a8229d219da808f8987fa4744ed3cd4-ca377427c398.jpg",
