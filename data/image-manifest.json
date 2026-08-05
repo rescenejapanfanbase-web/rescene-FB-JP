@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-08-03T10:55:17Z",
+  "generatedAt": "2026-08-05T08:01:15Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -1542,33 +1542,6 @@
         }
       ],
       "default": "assets/optimized/541985b3f1f30444/record-3a8229d219da8085bd74eddf70d6f28b-541985b3-w1280.webp"
-    },
-    "assets/records/notion/record-3a8229d219da808f8987fa4744ed3cd4-ca377427c398.jpg": {
-      "asset": "ca377427c398ec0a",
-      "originalBytes": 162484,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/ca377427c398ec0a/record-3a8229d219da808f8987fa4744ed3cd4-ca377427-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 23398
-        },
-        {
-          "src": "assets/optimized/ca377427c398ec0a/record-3a8229d219da808f8987fa4744ed3cd4-ca377427-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 43076
-        },
-        {
-          "src": "assets/optimized/ca377427c398ec0a/record-3a8229d219da808f8987fa4744ed3cd4-ca377427-w1280.webp",
-          "width": 1280,
-          "height": 720,
-          "bytes": 84762
-        }
-      ],
-      "default": "assets/optimized/ca377427c398ec0a/record-3a8229d219da808f8987fa4744ed3cd4-ca377427-w1280.webp"
     },
     "assets/records/notion/record-3a8229d219da8097beecea67178a4a85-e7d78b212458.jpg": {
       "asset": "e7d78b212458b9b9",
@@ -10926,36 +10899,6 @@
         512
       ],
       "default": "assets/optimized/c2fadba1767dd15c/muniverse-w480.webp"
-    },
-    "ca377427c398ec0a": {
-      "hash": "ca377427c398ec0a779f0e51ef0493d2531de7c53b8df158dfac23c0540fd40a",
-      "width": 1280,
-      "height": 720,
-      "format": "jpg",
-      "alpha": false,
-      "quality": 84,
-      "variants": [
-        {
-          "src": "assets/optimized/ca377427c398ec0a/record-3a8229d219da808f8987fa4744ed3cd4-ca377427-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 23398
-        },
-        {
-          "src": "assets/optimized/ca377427c398ec0a/record-3a8229d219da808f8987fa4744ed3cd4-ca377427-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 43076
-        },
-        {
-          "src": "assets/optimized/ca377427c398ec0a/record-3a8229d219da808f8987fa4744ed3cd4-ca377427-w1280.webp",
-          "width": 1280,
-          "height": 720,
-          "bytes": 84762
-        }
-      ],
-      "skippedWidths": [],
-      "default": "assets/optimized/ca377427c398ec0a/record-3a8229d219da808f8987fa4744ed3cd4-ca377427-w1280.webp"
     },
     "ce5b428f082804b7": {
       "hash": "ce5b428f082804b76dc0c49c0673fbc1b48b84605c9868b37d76b5060ab74296",
