@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-08-05T08:00:59.469Z",
+  "generatedAt": "2026-08-05T10:14:06.537Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -193,13 +193,13 @@ window.RESCENE_RECORDS = {
       "song": "Deja Vu",
       "releaseDate": "2025-07-02",
       "top100Peak": 13,
-      "top100PeakDate": "",
-      "dailyPeak": 11,
-      "dailyPeakDate": "",
+      "top100PeakDate": "2026-07-20",
+      "dailyPeak": 10,
+      "dailyPeakDate": "2026-08-03",
       "description": "Melon TOP100で最高13位、Melon日間チャートで最高11位を記録。",
-      "mvUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
-      "image": "assets/mv/deja-vu.jpg",
-      "order": 60,
+      "mvUrl": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
+      "image": "assets/records/notion/record-3a8229d219da808f8987fa4744ed3cd4-ca377427c398.jpg",
+      "order": 9999,
       "source": "manual-fallback",
       "translations": {
         "ko": {
@@ -212,7 +212,9 @@ window.RESCENE_RECORDS = {
           "song": "Deja Vu",
           "description": "Peaked at No. 13 on the Melon TOP100 and No. 11 on the Melon Daily Chart."
         }
-      }
+      },
+      "notionPageId": "3a8229d2-19da-808f-8987-fa4744ed3cd4",
+      "notionUrl": "https://app.notion.com/p/Deja-Vu-Melon-3a8229d219da808f8987fa4744ed3cd4"
     },
     {
       "title": "Heart Drop — Melonチャート",
