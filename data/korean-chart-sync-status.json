@@ -1,14 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T19:58:25+09:00",
+  "generatedAt": "2026-08-06T20:03:19+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
   "successfulCharts": [
-    "bugs",
-    "flo",
-    "genie",
-    "melon"
+    "spotify-kr"
   ],
   "failedCharts": {},
   "configuration": {
@@ -99,22 +96,19 @@
       "chartName": "Spotify Top 50 South Korea",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-05T20:01:59+09:00",
+      "lastAttemptAt": "2026-08-06T20:03:19+09:00",
       "error": "",
-      "lastSuccessAt": "2026-08-05T20:01:59+09:00",
-      "chartAt": "2026-08-05T00:00:00+09:00",
+      "lastSuccessAt": "2026-08-06T20:03:19+09:00",
+      "chartAt": "2026-08-06T00:00:00+09:00",
       "itemCount": 50,
       "matchedCount": 4,
       "metadata": {
         "playlistId": "37i9dQZEVXbNxXF4SkHj9F",
         "playlistUrl": "https://open.spotify.com/playlist/37i9dQZEVXbNxXF4SkHj9F",
-        "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZEVXbNxXF4SkHj9F",
+        "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZEVXbNxXF4SkHj9F?theme=0",
         "sourceMode": "official-embed",
         "total": 50,
-        "adapterWarnings": [
-          "https://open.spotify.com/embed/playlist/37i9dQZEVXbNxXF4SkHj9F?theme=0: HTTPError: HTTP Error 503: Service Unavailable",
-          "https://open.spotify.com/embed/playlist/37i9dQZEVXbNxXF4SkHj9F?utm_source=generator&theme=0: HTTPError: HTTP Error 503: Service Unavailable"
-        ]
+        "adapterWarnings": []
       }
     },
     "youtube-kr": {
@@ -214,17 +208,14 @@
   "automation": {
     "eventName": "schedule",
     "scheduled": true,
-    "schedule": "7 * * * *",
+    "schedule": "30 1 * * *",
     "resolvedCharts": [
-      "melon",
-      "genie",
-      "bugs",
-      "flo"
+      "spotify-kr"
     ],
-    "runId": "31095358398",
-    "runNumber": "60",
+    "runId": "31095691314",
+    "runNumber": "61",
     "runAttempt": "1",
-    "sha": "840a361cec9faffb52f7f15a9c156e40d3de1df2",
-    "completedAt": "2026-08-06T19:58:29+09:00"
+    "sha": "09fddd698d499e8a2498932aa46a2217be38cdbe",
+    "completedAt": "2026-08-06T20:03:21+09:00"
   }
 }
