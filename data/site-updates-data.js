@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-06T07:58:56.919507+00:00",
+  "generatedAt": "2026-08-06T10:16:50.209293+00:00",
   "items": [
     {
       "date": "2026-08-06",
@@ -15,6 +15,22 @@ window.RESCENE_SITE_UPDATES = {
         "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
         "scripts/__pycache__/check-external-links.cpython-313.pyc",
         "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "title": "chore: critical full content sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "3869c48",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/mv-data.js",
+        "data/mv.json",
+        "data/seo-status.json"
       ]
     },
     {
@@ -63,47 +79,6 @@ window.RESCENE_SITE_UPDATES = {
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "1f38da2",
-      "files": [
-        "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "c75b15a",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/quality-report.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "85777ee",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/notion-records-sync-status.json"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "24b9591",
       "files": [
         "data/youtube-channels.json"
       ]
