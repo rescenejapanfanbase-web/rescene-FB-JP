@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-07T18:33:48.543543+00:00",
+  "generatedAt": "2026-08-07T23:19:57.630899+00:00",
   "items": [
     {
       "date": "2026-08-07",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "4bf644c",
+      "commit": "f98fe98",
       "files": [
         "data/external-link-report.json"
       ]
@@ -14,16 +14,16 @@
       "date": "2026-08-07",
       "title": "chore: critical schedule sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "5418a1e",
+      "commit": "3a665d0",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
         "data/language-catalog.json",
         "data/quality-report.json",
-        "data/rescene-schedule.ics",
-        "data/schedule-data.js",
-        "data/schedule-notion.json",
-        "data/schedule.json"
+        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
+        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
+        "scripts/__pycache__/check-external-links.cpython-313.pyc",
+        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
       ]
     },
     {
