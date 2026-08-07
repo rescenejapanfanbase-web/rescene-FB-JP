@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T05:01:44.862226+00:00",
+  "generatedAt": "2026-08-07T09:39:59.798856+00:00",
   "items": [
     {
       "date": "2026-08-07",
@@ -30,7 +30,7 @@
       "date": "2026-08-07",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "08313a0",
+      "commit": "37a72cc",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -85,22 +85,6 @@
     },
     {
       "date": "2026-08-05",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "6f0b0d4",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/quality-report.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-08-05",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "9e8222d",
@@ -113,15 +97,6 @@
         "data/mv-data.js",
         "data/mv.json",
         "data/seo-status.json"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "1f38da2",
-      "files": [
-        "data/youtube-channels.json"
       ]
     },
     {
