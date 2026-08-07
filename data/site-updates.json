@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T04:37:11.863003+00:00",
+  "generatedAt": "2026-08-07T04:45:09.896137+00:00",
   "items": [
     {
       "date": "2026-08-07",
@@ -8,6 +8,22 @@
       "commit": "4bf644c",
       "files": [
         "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "d12284e",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/pluschat-schedule.json",
+        "data/rescene-schedule.ics",
+        "data/schedule-data.js",
+        "data/schedule.json",
+        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc"
       ]
     },
     {
