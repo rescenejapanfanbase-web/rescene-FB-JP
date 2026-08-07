@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T04:36:34Z",
-  "startedAt": "2026-08-07T04:36:29Z",
-  "elapsedSeconds": 4.56,
+  "generatedAt": "2026-08-07T22:19:19Z",
+  "startedAt": "2026-08-07T22:19:15Z",
+  "elapsedSeconds": 4.24,
   "summary": {
-    "checked": 88,
-    "ok": 87,
-    "warning": 1,
+    "checked": 81,
+    "ok": 79,
+    "warning": 2,
     "broken": 0,
     "hosts": 17
   },
@@ -14,6 +14,14 @@
     {
       "key": "facebook",
       "label": "Facebook",
+      "checked": 1,
+      "ok": 0,
+      "warning": 1,
+      "broken": 0
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
       "checked": 1,
       "ok": 0,
       "warning": 1,
@@ -60,14 +68,6 @@
       "broken": 0
     },
     {
-      "key": "instagram",
-      "label": "Instagram",
-      "checked": 1,
-      "ok": 1,
-      "warning": 0,
-      "broken": 0
-    },
-    {
       "key": "mnetplus",
       "label": "Mnet Plus",
       "checked": 4,
@@ -110,8 +110,8 @@
     {
       "key": "x",
       "label": "X",
-      "checked": 23,
-      "ok": 23,
+      "checked": 16,
+      "ok": 16,
       "warning": 0,
       "broken": 0
     },
@@ -140,6 +140,29 @@
           "file": "data/official-links.json",
           "line": 96,
           "label": "Facebook"
+        }
+      ]
+    },
+    {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "warning",
+      "httpStatus": 429,
+      "message": "HTTP 429（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 54,
+          "label": "Instagram"
+        },
+        {
+          "file": "index.html",
+          "line": 142,
+          "label": "Instagram"
         }
       ]
     },
@@ -174,7 +197,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 625,
+          "line": 513,
           "label": "SHOW CHAMPION 出演"
         }
       ]
@@ -210,7 +233,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 539,
+          "line": 427,
           "label": "THE SHOW 出演"
         }
       ]
@@ -228,7 +251,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 380,
+          "line": 268,
           "label": "Music Bank 出演"
         },
         {
@@ -256,7 +279,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 329,
+          "line": 217,
           "label": "M COUNTDOWN 出演"
         }
       ]
@@ -274,7 +297,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 469,
+          "line": 357,
           "label": "人気歌謡 出演"
         }
       ]
@@ -851,29 +874,6 @@
       ]
     },
     {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 54,
-          "label": "Instagram"
-        },
-        {
-          "file": "index.html",
-          "line": 142,
-          "label": "Instagram"
-        }
-      ]
-    },
-    {
       "url": "https://artist.mnetplus.world/main/stg/rescene-official",
       "normalizedUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
       "finalUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
@@ -909,7 +909,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 281,
+          "line": 169,
           "label": "「Pretty Girl」スペシャルシングル発売"
         }
       ]
@@ -927,7 +927,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 1006,
+          "line": 894,
           "label": "2026 영주 시원나잇 페스타"
         }
       ]
@@ -945,7 +945,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 1209,
+          "line": 1081,
           "label": "2026 천안 K-컬처 박람회 개막 公演"
         }
       ]
@@ -1131,7 +1131,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1786077393174&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1786141158456&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1159,7 +1159,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 1260,
+          "line": 1151,
           "label": "2026 THE FACT MUSIC AWARDS(TMA)"
         }
       ]
@@ -1220,7 +1220,7 @@
         },
         {
           "file": "data/schedule.json",
-          "line": 1190,
+          "line": 1062,
           "label": "2026 K-WORLD DREAM AWARDS(KWDA)"
         }
       ]
@@ -1374,132 +1374,6 @@
       ]
     },
     {
-      "url": "https://x.com/resceneofficial/status/1794020530368004488?s=46",
-      "normalizedUrl": "https://x.com/resceneofficial/status/1794020530368004488",
-      "finalUrl": "https://x.com/resceneofficial/status/1794020530368004488",
-      "service": "X",
-      "serviceKey": "x",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Xの公開投稿を確認しました。",
-      "method": "x-oembed",
-      "sources": [
-        {
-          "file": "data/schedule.json",
-          "line": 22,
-          "label": "WONI HappyBirthday🎂"
-        }
-      ]
-    },
-    {
-      "url": "https://x.com/resceneofficial/status/1825193436473163857?s=46",
-      "normalizedUrl": "https://x.com/resceneofficial/status/1825193436473163857",
-      "finalUrl": "https://x.com/resceneofficial/status/1825193436473163857",
-      "service": "X",
-      "serviceKey": "x",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Xの公開投稿を確認しました。",
-      "method": "x-oembed",
-      "sources": [
-        {
-          "file": "data/schedule.json",
-          "line": 38,
-          "label": "MAY HappyBirthday🎂"
-        }
-      ]
-    },
-    {
-      "url": "https://x.com/resceneofficial/status/1844392451383099779?s=46",
-      "normalizedUrl": "https://x.com/resceneofficial/status/1844392451383099779",
-      "finalUrl": "https://x.com/resceneofficial/status/1844392451383099779",
-      "service": "X",
-      "serviceKey": "x",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Xの公開投稿を確認しました。",
-      "method": "x-oembed",
-      "sources": [
-        {
-          "file": "data/schedule.json",
-          "line": 54,
-          "label": "LIV HappyBirthday🎂"
-        }
-      ]
-    },
-    {
-      "url": "https://x.com/resceneofficial/status/1861424680885703044?s=46",
-      "normalizedUrl": "https://x.com/resceneofficial/status/1861424680885703044",
-      "finalUrl": "https://x.com/resceneofficial/status/1861424680885703044",
-      "service": "X",
-      "serviceKey": "x",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Xの公開投稿を確認しました。",
-      "method": "x-oembed",
-      "sources": [
-        {
-          "file": "data/schedule.json",
-          "line": 70,
-          "label": "ZENA HappyBirthday🎂"
-        }
-      ]
-    },
-    {
-      "url": "https://x.com/resceneofficial/status/1862149453336961505?s=46",
-      "normalizedUrl": "https://x.com/resceneofficial/status/1862149453336961505",
-      "finalUrl": "https://x.com/resceneofficial/status/1862149453336961505",
-      "service": "X",
-      "serviceKey": "x",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Xの公開投稿を確認しました。",
-      "method": "x-oembed",
-      "sources": [
-        {
-          "file": "data/schedule.json",
-          "line": 86,
-          "label": "MINAMI HappyBirthday🎂"
-        }
-      ]
-    },
-    {
-      "url": "https://x.com/resceneofficial/status/1926292114792481201?s=46",
-      "normalizedUrl": "https://x.com/resceneofficial/status/1926292114792481201",
-      "finalUrl": "https://x.com/resceneofficial/status/1926292114792481201",
-      "service": "X",
-      "serviceKey": "x",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Xの公開投稿を確認しました。",
-      "method": "x-oembed",
-      "sources": [
-        {
-          "file": "data/schedule.json",
-          "line": 102,
-          "label": "WONI HappyBirthday🎂"
-        }
-      ]
-    },
-    {
-      "url": "https://x.com/resceneofficial/status/1957457462501752852?s=46",
-      "normalizedUrl": "https://x.com/resceneofficial/status/1957457462501752852",
-      "finalUrl": "https://x.com/resceneofficial/status/1957457462501752852",
-      "service": "X",
-      "serviceKey": "x",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "Xの公開投稿を確認しました。",
-      "method": "x-oembed",
-      "sources": [
-        {
-          "file": "data/schedule.json",
-          "line": 118,
-          "label": "MAY HappyBirthday🎂"
-        }
-      ]
-    },
-    {
       "url": "https://x.com/resceneofficial/status/1976664019990925638?s=46",
       "normalizedUrl": "https://x.com/resceneofficial/status/1976664019990925638",
       "finalUrl": "https://x.com/resceneofficial/status/1976664019990925638",
@@ -1512,7 +1386,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 134,
+          "line": 22,
           "label": "LIV HappyBirthday🎂"
         }
       ]
@@ -1530,7 +1404,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 150,
+          "line": 38,
           "label": "ZENA HappyBirthday🎂"
         }
       ]
@@ -1548,7 +1422,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 166,
+          "line": 54,
           "label": "MINAMI HappyBirthday🎂"
         }
       ]
@@ -1599,7 +1473,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 230,
+          "line": 118,
           "label": "WONI HappyBirthday🎂"
         }
       ]
@@ -1655,7 +1529,7 @@
         },
         {
           "file": "data/schedule.json",
-          "line": 1244,
+          "line": 1116,
           "label": "SPOTV K-POP AWARDS(SKA)"
         }
       ]
@@ -1683,7 +1557,7 @@
         },
         {
           "file": "data/schedule.json",
-          "line": 1362,
+          "line": 1205,
           "label": "Asia Artist Awards(AAA)2026"
         }
       ]
