@@ -1,14 +1,14 @@
 window.RESCENE_SCHEDULE_PAYLOAD = {
-  "generatedAt": "2026-08-04T20:14:27.918Z",
+  "generatedAt": "2026-08-07T04:38:24.932Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
     "notion": 43,
-    "plusChatAvailable": 57,
-    "plusChatAdded": 36,
+    "plusChatAvailable": 58,
+    "plusChatAdded": 37,
     "plusChatDuplicates": 21
   },
-  "plusChatGeneratedAt": "2026-08-04T20:14:27Z",
+  "plusChatGeneratedAt": "2026-08-07T04:38:24Z",
   "events": [
     {
       "id": "39d229d2-19da-800c-94bb-c8304114547b",
@@ -1247,6 +1247,25 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
       "translations": {},
       "notionUrl": "https://app.notion.com/p/SPOTV-K-POP-AWARDS-SKA-3af229d219da8084a9dfec3d8bb30680",
       "source": "notion"
+    },
+    {
+      "id": "pluschat-2026-09-10-all-day-spotify-house-seoul",
+      "title": "Spotify House Seoul",
+      "originalTitle": "Spotify House Seoul",
+      "translationStatus": "original",
+      "date": "2026-09-10",
+      "start": "2026-09-10",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-09"
     },
     {
       "id": "3a4229d2-19da-80aa-96ec-e26ef4a93b6d",

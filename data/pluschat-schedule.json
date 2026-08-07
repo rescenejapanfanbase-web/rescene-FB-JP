@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T20:14:27Z",
+  "generatedAt": "2026-08-07T04:38:24Z",
   "source": "pluschat",
   "sourceBaseUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/",
   "translationDictionary": "scripts/pluschat-schedule-translations.json",
@@ -7,8 +7,8 @@
     "2026-08",
     "2026-09"
   ],
-  "eventCount": 57,
-  "refreshedEventCount": 15,
+  "eventCount": 58,
+  "refreshedEventCount": 16,
   "failures": [],
   "months": {
     "2026-07": {
@@ -37,12 +37,13 @@
     },
     "2026-09": {
       "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09",
-      "fetchedAt": "2026-08-04T20:14:27Z",
-      "eventCount": 5,
+      "fetchedAt": "2026-08-07T04:38:24Z",
+      "eventCount": 6,
       "status": "ok",
       "warnings": [
         "翻訳辞書への追加候補: 2026 천안 K-컬처 박람회 개막 공연 -> 2026 천안 K-컬처 박람회 개막 公演",
         "翻訳辞書への追加候補: 원 썸머 나잇 위드 케이팝 시즌 2 -> 원 썸머 나잇 위드 케이팝 시즌 2",
+        "翻訳辞書への追加候補: Spotify House Seoul -> Spotify House Seoul",
         "翻訳辞書への追加候補: 2026 더팩트 뮤직 어워즈(TMA) -> 2026 더팩트 뮤직 어워즈(TMA",
         "翻訳辞書への追加候補: OBJET K-POP FESTA 2026 (OKF2026) - 인천 -> OBJET K-POP FESTA 2026 (OKF2026 - 인천"
       ]
@@ -1084,6 +1085,25 @@
       "start": "2026-09-06T18:30:00+09:00",
       "end": "",
       "allDay": false,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-09"
+    },
+    {
+      "id": "pluschat-2026-09-10-all-day-spotify-house-seoul",
+      "title": "Spotify House Seoul",
+      "originalTitle": "Spotify House Seoul",
+      "translationStatus": "original",
+      "date": "2026-09-10",
+      "start": "2026-09-10",
+      "end": "",
+      "allDay": true,
       "category": "イベント",
       "type": "event",
       "description": "",
