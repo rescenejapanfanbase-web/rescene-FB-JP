@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T11:36:29.634Z",
+  "generatedAt": "2026-08-07T17:38:04.436Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
@@ -8,7 +8,7 @@
     "plusChatAdded": 37,
     "plusChatDuplicates": 21
   },
-  "plusChatGeneratedAt": "2026-08-07T04:38:24Z",
+  "plusChatGeneratedAt": "2026-08-07T17:38:04Z",
   "events": [
     {
       "id": "39d229d2-19da-800f-bf39-f901096b6fc6",
@@ -1086,12 +1086,12 @@
       "sourceMonth": "2026-09"
     },
     {
-      "id": "pluschat-2026-09-04-1930-2",
+      "id": "pluschat-2026-09-05-1930-2",
       "title": "원 썸머 나잇 위드 케이팝 시즌 2",
       "originalTitle": "원 썸머 나잇 위드 케이팝 시즌 2",
       "translationStatus": "original",
-      "date": "2026-09-04",
-      "start": "2026-09-04T19:30:00+09:00",
+      "date": "2026-09-05",
+      "start": "2026-09-05T19:30:00+09:00",
       "end": "",
       "allDay": false,
       "category": "イベント",
