@@ -197,6 +197,14 @@
       "rank": null
     },
     {
+      "chartAt": "2026-08-03T09:00:00+09:00",
+      "rank": 162,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/realtime/trend/ranking/107590770",
+      "checkedAt": "2026-08-08T08:56:24+09:00"
+    },
+    {
       "chartAt": "2026-08-03T21:00:00+09:00",
       "checkedAt": "2026-08-03T21:01:33+09:00",
       "rank": null
@@ -210,6 +218,14 @@
       "chartAt": "2026-08-04T07:00:00+09:00",
       "checkedAt": "2026-08-04T07:38:19+09:00",
       "rank": null
+    },
+    {
+      "chartAt": "2026-08-04T09:00:00+09:00",
+      "rank": 198,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/realtime/trend/ranking/107590770",
+      "checkedAt": "2026-08-08T08:56:24+09:00"
     },
     {
       "chartAt": "2026-08-04T17:00:00+09:00",
@@ -283,6 +299,14 @@
       "rank": null
     },
     {
+      "chartAt": "2026-08-07T09:00:00+09:00",
+      "rank": 199,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/realtime/trend/ranking/107590770",
+      "checkedAt": "2026-08-08T08:56:24+09:00"
+    },
+    {
       "chartAt": "2026-08-07T10:00:00+09:00",
       "checkedAt": "2026-08-07T10:45:01+09:00",
       "rank": null
@@ -344,15 +368,15 @@
       "observations": 11
     }
   ],
-  "generatedAt": "2026-08-08T08:07:46+09:00",
+  "generatedAt": "2026-08-08T08:56:24+09:00",
   "summary": {
-    "peakRank": 164,
+    "peakRank": 162,
     "firstChartedAt": "2026-07-15T09:00:00+09:00",
-    "lastChartedAt": "2026-08-06T09:00:00+09:00",
-    "chartDays": 14,
+    "lastChartedAt": "2026-08-07T09:00:00+09:00",
+    "chartDays": 17,
     "currentRank": null,
     "status": "out",
-    "pointCount": 54
+    "pointCount": 57
   },
   "sources": [
     {
@@ -365,8 +389,8 @@
   "backfill": {
     "source": "가이섬",
     "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/realtime/trend/ranking/107590770",
-    "lastRunAt": "2026-08-02T00:25:42+09:00",
-    "importedThisRun": 0,
+    "lastRunAt": "2026-08-08T08:56:24+09:00",
+    "importedThisRun": 3,
     "updatedThisRun": 0
   }
 }
