@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-08-05T10:14:25Z",
+  "generatedAt": "2026-08-08T08:08:42Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -1788,6 +1788,33 @@
         }
       ],
       "default": "assets/optimized/8ea2220fc379e42d/record-3a9229d219da80bc9e28d5df2d5d167b-8ea2220f-w768.webp"
+    },
+    "assets/records/notion/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf5496c7.jpg": {
+      "asset": "1e87bf5496c7642b",
+      "originalBytes": 115895,
+      "width": 957,
+      "height": 525,
+      "variants": [
+        {
+          "src": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w480.webp",
+          "width": 480,
+          "height": 263,
+          "bytes": 32756
+        },
+        {
+          "src": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w768.webp",
+          "width": 768,
+          "height": 421,
+          "bytes": 63850
+        },
+        {
+          "src": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w957.webp",
+          "width": 957,
+          "height": 525,
+          "bytes": 87486
+        }
+      ],
+      "default": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w957.webp"
     },
     "assets/voting/apps/bigc.webp": {
       "asset": "27f361fbd4cf2415",
@@ -7488,6 +7515,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/1e27887afa79d81e/music-show-list-w1440.webp"
+    },
+    "1e87bf5496c7642b": {
+      "hash": "1e87bf5496c7642b72567fe0f0de8c629b13718e3b7291047d3a44bbf6438284",
+      "width": 957,
+      "height": 525,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w480.webp",
+          "width": 480,
+          "height": 263,
+          "bytes": 32756
+        },
+        {
+          "src": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w768.webp",
+          "width": 768,
+          "height": 421,
+          "bytes": 63850
+        },
+        {
+          "src": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w957.webp",
+          "width": 957,
+          "height": 525,
+          "bytes": 87486
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w957.webp"
     },
     "222523db69c7fbbb": {
       "hash": "222523db69c7fbbb3606054230d63dd5943b090f8da255086b5060e92cfebcd8",
