@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-07T23:51:08.631625+00:00",
+  "generatedAt": "2026-08-08T00:03:31.890478+00:00",
   "items": [
+    {
+      "date": "2026-08-08",
+      "title": "fix: repair Daily charts and restore chart navigation",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "4247f7a",
+      "files": [
+        "404.html",
+        "about.html",
+        "analytics.html",
+        "article.html",
+        "busy-boy-release.html",
+        "chants.html",
+        "contact.html",
+        "data/korean-charts-data.js"
+      ]
+    },
     {
       "date": "2026-08-07",
       "title": "chore: update external link report",
@@ -30,16 +46,16 @@
       "date": "2026-08-07",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "ae9e37b",
+      "commit": "a2a61b3",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
         "data/language-catalog.json",
         "data/mv-candidates-data.js",
         "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/quality-report.json"
+        "data/seo-status.json",
+        "data/site-updates-data.js",
+        "data/site-updates.json"
       ]
     },
     {
@@ -49,6 +65,22 @@
       "commit": "c314ece",
       "files": [
         "data/youtube-channels.json"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "title": "chore: backfill Korean chart history",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "8c5f38e",
+      "files": [
+        "data/korean-chart-config.json",
+        "data/korean-chart-history/bloom--youtube-kr.json",
+        "data/korean-chart-history/busy-boy--youtube-kr.json",
+        "data/korean-chart-history/deja-vu--bugs-daily.json",
+        "data/korean-chart-history/deja-vu--bugs.json",
+        "data/korean-chart-history/deja-vu--flo.json",
+        "data/korean-chart-history/deja-vu--genie-daily.json",
+        "data/korean-chart-history/deja-vu--genie.json"
       ]
     },
     {
