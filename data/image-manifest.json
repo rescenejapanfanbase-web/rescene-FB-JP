@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-08-08T08:08:42Z",
+  "generatedAt": "2026-08-08T08:30:32Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -1390,6 +1390,33 @@
       ],
       "default": "assets/optimized/40e2d9234fa5c0a2/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d923-w964.webp"
     },
+    "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg": {
+      "asset": "1e87bf5496c7642b",
+      "originalBytes": 115895,
+      "width": 957,
+      "height": 525,
+      "variants": [
+        {
+          "src": "assets/optimized/1e87bf5496c7642b/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf54-w480.webp",
+          "width": 480,
+          "height": 263,
+          "bytes": 32756
+        },
+        {
+          "src": "assets/optimized/1e87bf5496c7642b/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf54-w768.webp",
+          "width": 768,
+          "height": 421,
+          "bytes": 63850
+        },
+        {
+          "src": "assets/optimized/1e87bf5496c7642b/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf54-w957.webp",
+          "width": 957,
+          "height": 525,
+          "bytes": 87486
+        }
+      ],
+      "default": "assets/optimized/1e87bf5496c7642b/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf54-w957.webp"
+    },
     "assets/platform-icons/apple-music.png": {
       "asset": "dfbcce2c96eda8d7",
       "originalBytes": 27243,
@@ -1796,25 +1823,25 @@
       "height": 525,
       "variants": [
         {
-          "src": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w480.webp",
+          "src": "assets/optimized/1e87bf5496c7642b/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf54-w480.webp",
           "width": 480,
           "height": 263,
           "bytes": 32756
         },
         {
-          "src": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w768.webp",
+          "src": "assets/optimized/1e87bf5496c7642b/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf54-w768.webp",
           "width": 768,
           "height": 421,
           "bytes": 63850
         },
         {
-          "src": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w957.webp",
+          "src": "assets/optimized/1e87bf5496c7642b/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf54-w957.webp",
           "width": 957,
           "height": 525,
           "bytes": 87486
         }
       ],
-      "default": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w957.webp"
+      "default": "assets/optimized/1e87bf5496c7642b/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf54-w957.webp"
     },
     "assets/voting/apps/bigc.webp": {
       "asset": "27f361fbd4cf2415",
@@ -7525,26 +7552,26 @@
       "quality": 84,
       "variants": [
         {
-          "src": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w480.webp",
+          "src": "assets/optimized/1e87bf5496c7642b/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf54-w480.webp",
           "width": 480,
           "height": 263,
           "bytes": 32756
         },
         {
-          "src": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w768.webp",
+          "src": "assets/optimized/1e87bf5496c7642b/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf54-w768.webp",
           "width": 768,
           "height": 421,
           "bytes": 63850
         },
         {
-          "src": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w957.webp",
+          "src": "assets/optimized/1e87bf5496c7642b/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf54-w957.webp",
           "width": 957,
           "height": 525,
           "bytes": 87486
         }
       ],
       "skippedWidths": [],
-      "default": "assets/optimized/1e87bf5496c7642b/record-3b6229d219da8002984bd7d2c17b8d6e-1e87bf54-w957.webp"
+      "default": "assets/optimized/1e87bf5496c7642b/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf54-w957.webp"
     },
     "222523db69c7fbbb": {
       "hash": "222523db69c7fbbb3606054230d63dd5943b090f8da255086b5060e92cfebcd8",
