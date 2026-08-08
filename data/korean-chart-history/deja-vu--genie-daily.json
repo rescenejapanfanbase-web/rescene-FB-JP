@@ -288,12 +288,12 @@
       "role": "historical-backfill"
     }
   ],
-  "generatedAt": "2026-08-08T08:56:24+09:00",
+  "generatedAt": "2026-08-08T09:07:21+09:00",
   "backfill": {
     "source": "가이섬",
     "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/110778923",
-    "lastRunAt": "2026-08-08T08:56:24+09:00",
-    "importedThisRun": 6,
+    "lastRunAt": "2026-08-08T09:07:21+09:00",
+    "importedThisRun": 0,
     "updatedThisRun": 0
   }
 }

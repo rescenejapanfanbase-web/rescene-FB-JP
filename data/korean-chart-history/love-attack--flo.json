@@ -36324,18 +36324,26 @@
       "checkedAt": "2026-08-08T08:07:46+09:00",
       "rank": 1,
       "sourceRank": 1
+    },
+    {
+      "chartAt": "2026-08-08T09:00:00+09:00",
+      "rank": 1,
+      "origin": "guyso",
+      "sourceName": "가이섬",
+      "sourceUrl": "https://xn--o39an51b2re.com/chart/flo/24hour/trend/ranking/512384615",
+      "checkedAt": "2026-08-08T09:07:21+09:00"
     }
   ],
   "outOfChartHistory": [],
-  "generatedAt": "2026-08-08T08:56:24+09:00",
+  "generatedAt": "2026-08-08T09:07:21+09:00",
   "summary": {
     "peakRank": 1,
     "firstChartedAt": "2024-10-08T20:00:00+09:00",
-    "lastChartedAt": "2026-08-08T08:00:00+09:00",
+    "lastChartedAt": "2026-08-08T09:00:00+09:00",
     "chartDays": 202,
     "currentRank": 1,
     "status": "in",
-    "pointCount": 4549
+    "pointCount": 4550
   },
   "sources": [
     {
@@ -36348,8 +36356,8 @@
   "backfill": {
     "source": "가이섬",
     "sourceUrl": "https://xn--o39an51b2re.com/chart/flo/24hour/trend/ranking/512384615",
-    "lastRunAt": "2026-08-08T08:56:24+09:00",
-    "importedThisRun": 117,
+    "lastRunAt": "2026-08-08T09:07:21+09:00",
+    "importedThisRun": 1,
     "updatedThisRun": 0
   }
 }
