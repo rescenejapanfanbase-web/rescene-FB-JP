@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T17:49:17.342899+00:00",
+  "generatedAt": "2026-08-08T19:46:43.383000+00:00",
   "items": [
     {
       "date": "2026-08-08",
@@ -40,22 +40,6 @@
       "commit": "1b35d2e",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-08-08",
-      "title": "chore: backfill Korean chart history",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "46abc8d",
-      "files": [
-        "data/korean-chart-config.json",
-        "data/korean-chart-history/bloom--youtube-kr.json",
-        "data/korean-chart-history/busy-boy--youtube-kr.json",
-        "data/korean-chart-history/deja-vu--bugs-daily.json",
-        "data/korean-chart-history/deja-vu--bugs.json",
-        "data/korean-chart-history/deja-vu--flo.json",
-        "data/korean-chart-history/deja-vu--genie-daily.json",
-        "data/korean-chart-history/deja-vu--genie.json"
       ]
     },
     {
