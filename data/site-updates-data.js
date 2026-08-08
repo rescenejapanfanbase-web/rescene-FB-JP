@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-08T14:09:03.076894+00:00",
+  "generatedAt": "2026-08-08T15:04:23.528027+00:00",
   "items": [
     {
       "date": "2026-08-08",
@@ -53,7 +53,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-08-08",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "2cc7916",
+      "commit": "d96a2fd",
       "files": [
         "data/youtube-channels.json"
       ]
@@ -72,22 +72,6 @@ window.RESCENE_SITE_UPDATES = {
         "data/korean-chart-history/deja-vu--flo.json",
         "data/korean-chart-history/deja-vu--genie-daily.json",
         "data/korean-chart-history/deja-vu--genie.json"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "3a665d0",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/quality-report.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
       ]
     },
     {
