@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-08T11:15:55.294828+00:00",
+  "generatedAt": "2026-08-08T14:09:03.076894+00:00",
   "items": [
     {
       "date": "2026-08-08",
@@ -37,23 +37,23 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-08-08",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "fa49848",
+      "commit": "af9968b",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
         "data/language-catalog.json",
         "data/mv-candidates-data.js",
         "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/seo-status.json"
+        "data/seo-status.json",
+        "data/site-updates-data.js",
+        "data/site-updates.json"
       ]
     },
     {
       "date": "2026-08-08",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "4c8617b",
+      "commit": "2cc7916",
       "files": [
         "data/youtube-channels.json"
       ]
@@ -72,15 +72,6 @@ window.RESCENE_SITE_UPDATES = {
         "data/korean-chart-history/deja-vu--flo.json",
         "data/korean-chart-history/deja-vu--genie-daily.json",
         "data/korean-chart-history/deja-vu--genie.json"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "f98fe98",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {
