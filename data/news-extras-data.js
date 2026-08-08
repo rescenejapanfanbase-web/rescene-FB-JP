@@ -1,6 +1,6 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-08-08T08:20:27.938Z",
-  "sourceNewsGeneratedAt": "2026-08-08T08:20:27.848Z",
+  "generatedAt": "2026-08-08T08:25:49.942Z",
+  "sourceNewsGeneratedAt": "2026-08-08T08:25:49.858Z",
   "related": {
     "fanbase-site": [
       {
@@ -9,7 +9,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.08",
         "label": "4th WIN",
         "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
+        "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
         "score": 5,
         "reasons": [
           "同じカテゴリー"
@@ -160,7 +160,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.08",
         "label": "4th WIN",
         "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
+        "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -200,7 +200,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.08",
         "label": "4th WIN",
         "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
+        "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -302,7 +302,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.08",
         "label": "4th WIN",
         "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
+        "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
         "score": 22,
         "reasons": [
           "同じカテゴリー",
@@ -358,7 +358,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.08",
         "label": "4th WIN",
         "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
+        "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -397,7 +397,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.08",
         "label": "4th WIN",
         "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
+        "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -449,7 +449,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.08",
         "label": "4th WIN",
         "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
+        "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -463,7 +463,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.08",
         "label": "4th WIN",
         "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
+        "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
         "score": 22,
         "reasons": [
           "同じカテゴリー",
@@ -591,7 +591,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.08",
         "label": "4th WIN",
         "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
+        "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
         "score": 13,
         "reasons": [
           "共通キーワード",
@@ -850,7 +850,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.08.08",
         "label": "4th WIN",
         "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
-        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
+        "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
@@ -1206,7 +1206,7 @@ window.RESCENE_NEWS_EXTRAS = {
       "url": "https://rescene-fb.jp/articles/rescene-pretty-girl-3-1-f2e88c9a20.html",
       "hashtags": "#RESCENE #리센느 #リセンヌ",
       "xText": "【2026.08.08】 RESCENEが「Pretty Girl」で3度目の1位を獲得！\n\nhttps://rescene-fb.jp/articles/rescene-pretty-girl-3-1-f2e88c9a20.html\n\n#RESCENE #리센느 #リセンヌ",
-      "lineText": "RESCENEが「Pretty Girl」で3度目の1位を獲得！\n2026年7月25日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
+      "lineText": "RESCENEが「Pretty Girl」で3度目の1位を獲得！\n2026年8月8日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
       "charCount": 138
     },
     {
