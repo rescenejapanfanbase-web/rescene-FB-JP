@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-08-02T10:26:26.360Z",
+  "generatedAt": "2026-08-08T08:20:27.848Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 9,
-  "notionNews": 9,
-  "notionImages": 9,
+  "queriedPages": 10,
+  "notionNews": 10,
+  "notionImages": 10,
   "rows": [
+    {
+      "title": "RESCENEが「Pretty Girl」で3度目の1位を獲得！",
+      "pageId": "3b6229d2-19da-8052-9093-fcf2e88c9a20",
+      "lastEditedTime": "2026-08-08T08:19:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "9C6F99E3-B429-4359-8E87-8130AE2444AF.heic",
+      "imagePath": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
+      "imageBytes": 115895,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立",
       "pageId": "3b0229d2-19da-803f-a497-c9a4a47b4969",
@@ -52,7 +63,7 @@
     {
       "title": "RESCENEが「LOVE ATTACK」で1位を獲得！",
       "pageId": "3a9229d2-19da-8095-a896-f2e44b1f8e6e",
-      "lastEditedTime": "2026-07-31T10:53:00.000Z",
+      "lastEditedTime": "2026-08-08T08:18:00.000Z",
       "imageStatus": "notion-file",
       "imageProperty": "画像",
       "imageFilename": "IMG_9429.jpeg",

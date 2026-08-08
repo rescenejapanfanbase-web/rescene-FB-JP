@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "rescene-pretty-girl-3-1-f2e88c9a20",
+    "date": "2026.08.08",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "4th WIN",
+    "title": "RESCENEが「Pretty Girl」で3度目の1位を獲得！",
+    "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。",
+    "body": "2026年7月25日放送のMBC「SHOW!音楽中心」で、RESCENEが「Pretty Girl」で3度目の1位を獲得しました。\n「Pretty Girl」では通算3冠目、グループとして通算4冠目となりました。",
+    "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
+    "sourceLink": "",
+    "sourceLabel": "",
+    "translations": {},
+    "notionPageId": "3b6229d2-19da-8052-9093-fcf2e88c9a20",
+    "notionUrl": "https://app.notion.com/p/RESCENE-Pretty-Girl-3-1-3b6229d219da80529093fcf2e88c9a20"
+  },
+  {
     "slug": "love-attack-melon-5-1-a4a47b4969",
     "date": "2026.08.02",
     "category": "notice",
@@ -82,7 +98,7 @@ window.RESCENE_NEWS = [
     "label": "3rd WIN",
     "title": "RESCENEが「LOVE ATTACK」で1位を獲得！",
     "text": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。",
-    "body": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。\nオリジナル曲として初の1位獲得となりました。",
+    "body": "2026年7月26日放送のSBS「人気歌謡」で、RESCENEが「LOVE ATTACK」で1位を獲得しました。\nグループとしては通算3冠目、オリジナル曲として初の1位獲得となりました。",
     "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
     "sourceLink": "https://youtu.be/rzfjou7vPP0?si=3ne6BycHt-dLz3Uo",
     "sourceLabel": "1位獲得時の映像を見る",
