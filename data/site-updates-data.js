@@ -1,22 +1,6 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-08T15:04:23.528027+00:00",
+  "generatedAt": "2026-08-08T17:49:17.342899+00:00",
   "items": [
-    {
-      "date": "2026-08-08",
-      "title": "fix: repair Daily charts and restore chart navigation",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "4247f7a",
-      "files": [
-        "404.html",
-        "about.html",
-        "analytics.html",
-        "article.html",
-        "busy-boy-release.html",
-        "chants.html",
-        "contact.html",
-        "data/korean-charts-data.js"
-      ]
-    },
     {
       "date": "2026-08-08",
       "title": "chore: critical schedule sync",
@@ -37,23 +21,23 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-08-08",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "af9968b",
+      "commit": "3423771",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
         "data/language-catalog.json",
         "data/mv-candidates-data.js",
         "data/mv-candidates.json",
-        "data/seo-status.json",
-        "data/site-updates-data.js",
-        "data/site-updates.json"
+        "data/mv-data.js",
+        "data/mv.json",
+        "data/seo-status.json"
       ]
     },
     {
       "date": "2026-08-08",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "d96a2fd",
+      "commit": "1b35d2e",
       "files": [
         "data/youtube-channels.json"
       ]
@@ -63,38 +47,6 @@ window.RESCENE_SITE_UPDATES = {
       "title": "chore: backfill Korean chart history",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "46abc8d",
-      "files": [
-        "data/korean-chart-config.json",
-        "data/korean-chart-history/bloom--youtube-kr.json",
-        "data/korean-chart-history/busy-boy--youtube-kr.json",
-        "data/korean-chart-history/deja-vu--bugs-daily.json",
-        "data/korean-chart-history/deja-vu--bugs.json",
-        "data/korean-chart-history/deja-vu--flo.json",
-        "data/korean-chart-history/deja-vu--genie-daily.json",
-        "data/korean-chart-history/deja-vu--genie.json"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "a2a61b3",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/seo-status.json",
-        "data/site-updates-data.js",
-        "data/site-updates.json"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "title": "chore: backfill Korean chart history",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "8c5f38e",
       "files": [
         "data/korean-chart-config.json",
         "data/korean-chart-history/bloom--youtube-kr.json",
