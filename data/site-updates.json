@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T17:52:14.483927+00:00",
+  "generatedAt": "2026-08-09T19:52:34.634814+00:00",
   "items": [
     {
       "date": "2026-08-09",
@@ -40,31 +40,6 @@
       "commit": "e777e06",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-08-08",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "97ceb10",
-      "files": [
-        "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-08-08",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "64160ac",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc",
-        "scripts/__pycache__/check-site-links.cpython-313.pyc"
       ]
     },
     {
