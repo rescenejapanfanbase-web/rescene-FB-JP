@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T08:16:20+09:00",
+  "generatedAt": "2026-08-10T08:53:50+09:00",
   "configSource": "notion",
   "charts": [
     {
@@ -2380,13 +2380,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-09T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-          "observations": 9
+          "lastObservedAt": "2026-08-10T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+          "observations": 10
         }
       ],
-      "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-      "chartAt": "2026-08-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+      "chartAt": "2026-08-10T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/uhuh--vibe.json"
     },
     {
@@ -2408,13 +2408,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-09T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-          "observations": 9
+          "lastObservedAt": "2026-08-10T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+          "observations": 10
         }
       ],
-      "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-      "chartAt": "2026-08-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+      "chartAt": "2026-08-10T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/yoyo--vibe.json"
     },
     {
@@ -2429,12 +2429,12 @@
       "status": "in",
       "peakRank": 2,
       "firstChartedAt": "2026-06-01T00:00:00+09:00",
-      "lastChartedAt": "2026-08-09T00:00:00+09:00",
-      "chartDays": 70,
+      "lastChartedAt": "2026-08-10T00:00:00+09:00",
+      "chartDays": 71,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-      "chartAt": "2026-08-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+      "chartAt": "2026-08-10T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/love-attack--vibe.json"
     },
     {
@@ -2456,13 +2456,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-09T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-          "observations": 9
+          "lastObservedAt": "2026-08-10T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+          "observations": 10
         }
       ],
-      "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-      "chartAt": "2026-08-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+      "chartAt": "2026-08-10T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pinball--vibe.json"
     },
     {
@@ -2484,13 +2484,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-09T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-          "observations": 9
+          "lastObservedAt": "2026-08-10T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+          "observations": 10
         }
       ],
-      "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-      "chartAt": "2026-08-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+      "chartAt": "2026-08-10T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/glow-up--vibe.json"
     },
     {
@@ -2499,18 +2499,18 @@
       "chartId": "vibe",
       "chartName": "VIBE Today TOP 100",
       "currentRank": 29,
-      "previousRank": 30,
-      "movement": 1,
-      "movementType": "up",
+      "previousRank": 29,
+      "movement": 0,
+      "movementType": "same",
       "status": "in",
       "peakRank": 29,
       "firstChartedAt": "2026-07-19T00:00:00+09:00",
-      "lastChartedAt": "2026-08-09T00:00:00+09:00",
-      "chartDays": 22,
+      "lastChartedAt": "2026-08-10T00:00:00+09:00",
+      "chartDays": 23,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-      "chartAt": "2026-08-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+      "chartAt": "2026-08-10T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/deja-vu--vibe.json"
     },
     {
@@ -2532,13 +2532,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-09T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-          "observations": 9
+          "lastObservedAt": "2026-08-10T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+          "observations": 10
         }
       ],
-      "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-      "chartAt": "2026-08-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+      "chartAt": "2026-08-10T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/heart-drop--vibe.json"
     },
     {
@@ -2560,13 +2560,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-09T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-          "observations": 9
+          "lastObservedAt": "2026-08-10T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+          "observations": 10
         }
       ],
-      "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-      "chartAt": "2026-08-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+      "chartAt": "2026-08-10T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/bloom--vibe.json"
     },
     {
@@ -2588,13 +2588,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-09T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-          "observations": 9
+          "lastObservedAt": "2026-08-10T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+          "observations": 10
         }
       ],
-      "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-      "chartAt": "2026-08-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+      "chartAt": "2026-08-10T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/busy-boy--vibe.json"
     },
     {
@@ -2616,13 +2616,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-09T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-          "observations": 9
+          "lastObservedAt": "2026-08-10T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+          "observations": 10
         }
       ],
-      "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-      "chartAt": "2026-08-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+      "chartAt": "2026-08-10T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/runaway--vibe.json"
     },
     {
@@ -2637,12 +2637,12 @@
       "status": "in",
       "peakRank": 5,
       "firstChartedAt": "2026-07-10T00:00:00+09:00",
-      "lastChartedAt": "2026-08-09T00:00:00+09:00",
-      "chartDays": 31,
+      "lastChartedAt": "2026-08-10T00:00:00+09:00",
+      "chartDays": 32,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-08-09T08:48:48+09:00",
-      "chartAt": "2026-08-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-10T08:53:50+09:00",
+      "chartAt": "2026-08-10T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pretty-girl--vibe.json"
     },
     {
@@ -3297,15 +3297,15 @@
       "chartName": "VIBE Today TOP 100",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-09T08:48:48+09:00",
-      "lastSuccessAt": "2026-08-09T08:48:48+09:00",
-      "chartAt": "2026-08-09T00:00:00+09:00",
+      "lastAttemptAt": "2026-08-10T08:53:50+09:00",
+      "lastSuccessAt": "2026-08-10T08:53:50+09:00",
+      "chartAt": "2026-08-10T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 3,
       "error": "",
       "metadata": {
         "nativeTitle": "오늘 Top 100",
-        "nativeDate": "1786226400000"
+        "nativeDate": "1786312800000"
       }
     },
     "spotify-kr": {
