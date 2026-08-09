@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T16:01:22Z",
+  "generatedAt": "2026-08-09T05:37:25Z",
   "source": "pluschat",
   "sourceBaseUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/",
   "translationDictionary": "scripts/pluschat-schedule-translations.json",
@@ -20,7 +20,7 @@
     },
     "2026-08": {
       "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08",
-      "fetchedAt": "2026-08-08T16:01:08Z",
+      "fetchedAt": "2026-08-09T05:37:12Z",
       "eventCount": 11,
       "status": "ok",
       "warnings": [
@@ -907,14 +907,14 @@
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-08-09-1830-2026",
+      "id": "pluschat-2026-08-09-all-day-2026",
       "title": "「2026 쿠팡플레이 시리즈」 프리뷰쇼",
       "originalTitle": "<2026 쿠팡플레이 시리즈> 프리뷰쇼",
       "translationStatus": "partial",
       "date": "2026-08-09",
-      "start": "2026-08-09T18:30:00+09:00",
+      "start": "2026-08-09",
       "end": "",
-      "allDay": false,
+      "allDay": true,
       "category": "イベント",
       "type": "event",
       "description": "",
