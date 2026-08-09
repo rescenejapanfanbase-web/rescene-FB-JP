@@ -1,20 +1,29 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-09T21:54:10.329210+00:00",
+  "generatedAt": "2026-08-09T23:03:34.447786+00:00",
   "items": [
+    {
+      "date": "2026-08-09",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "5fb2725",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
     {
       "date": "2026-08-09",
       "title": "chore: critical schedule sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "fc44da2",
+      "commit": "26d31b8",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
         "data/language-catalog.json",
-        "data/quality-report.json",
         "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
         "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
         "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
+        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc",
+        "scripts/__pycache__/check-site-links.cpython-313.pyc"
       ]
     },
     {
