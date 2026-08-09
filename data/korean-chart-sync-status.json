@@ -1,13 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T14:35:41+09:00",
+  "generatedAt": "2026-08-09T14:56:07+09:00",
   "workflow": "Sync Korean Charts",
-  "ok": true,
-  "partial": false,
+  "ok": false,
+  "partial": true,
   "successfulCharts": [
-    "youtube-kr"
+    "bugs-daily"
   ],
-  "failedCharts": {},
+  "failedCharts": {
+    "genie-daily": "RuntimeError: RuntimeError: Genie Dailyの日付が未更新または確認不能です: expected=2026-08-08, page=1 / RuntimeError: Genie Dailyの日付が未更新または確認不能です: expected=2026-08-08, page=1 / RuntimeError: Genie Dailyの日付が未更新または確認不能です: expected=2026-08-08, page=1"
+  },
   "configuration": {
     "source": "notion",
     "notionOk": true,
@@ -155,17 +157,17 @@
       "chartName": "Bugs Daily",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-08T14:32:08+09:00",
-      "lastSuccessAt": "2026-08-08T14:32:08+09:00",
-      "chartAt": "2026-08-07T00:00:00+09:00",
+      "lastAttemptAt": "2026-08-09T14:56:07+09:00",
+      "lastSuccessAt": "2026-08-09T14:56:07+09:00",
+      "chartAt": "2026-08-08T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
       "metadata": {
         "period": "daily",
         "sourceMode": "official-html",
-        "sourceUrl": "https://music.bugs.co.kr/chart/track/day/total?chartdate=20260807",
-        "nativeDate": "2026-08-07",
+        "sourceUrl": "https://music.bugs.co.kr/chart/track/day/total?chartdate=20260808",
+        "nativeDate": "2026-08-08",
         "publishedAt": "12:00 KST",
         "chartDateRule": "source-verified-previous-day",
         "total": 100
@@ -176,8 +178,8 @@
       "chartName": "Genie Daily",
       "ok": false,
       "retainedPrevious": true,
-      "lastAttemptAt": "2026-08-08T14:32:08+09:00",
-      "error": "RuntimeError: RuntimeError: Genie Dailyの日付が未更新または確認不能です: expected=2026-08-07, page=1 / RuntimeError: Genie Dailyの日付が未更新または確認不能です: expected=2026-08-07, page=1 / RuntimeError: Genie Dailyの日付が未更新または確認不能です: expected=2026-08-07, page=1",
+      "lastAttemptAt": "2026-08-09T14:56:07+09:00",
+      "error": "RuntimeError: RuntimeError: Genie Dailyの日付が未更新または確認不能です: expected=2026-08-08, page=1 / RuntimeError: Genie Dailyの日付が未更新または確認不能です: expected=2026-08-08, page=1 / RuntimeError: Genie Dailyの日付が未更新または確認不能です: expected=2026-08-08, page=1",
       "lastSuccessAt": "2026-08-02T08:51:59+09:00",
       "chartAt": "2026-08-01T00:00:00+09:00",
       "itemCount": 200,
@@ -208,14 +210,15 @@
   "automation": {
     "eventName": "schedule",
     "scheduled": true,
-    "schedule": "40 2 * * *",
+    "schedule": "17 3 * * *",
     "resolvedCharts": [
-      "youtube-kr"
+      "genie-daily",
+      "bugs-daily"
     ],
-    "runId": "31297014630",
-    "runNumber": "108",
+    "runId": "31297752433",
+    "runNumber": "109",
     "runAttempt": "1",
-    "sha": "54cc69c61e47afcfcb3c3ad4391923935ee7c614",
-    "completedAt": "2026-08-09T14:35:46+09:00"
+    "sha": "afa5186c362fcabeddfa9f54e80bde3e2cfefac7",
+    "completedAt": "2026-08-09T14:56:28+09:00"
   }
 }
