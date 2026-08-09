@@ -1,15 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T14:56:07+09:00",
+  "generatedAt": "2026-08-09T15:07:31+09:00",
   "workflow": "Sync Korean Charts",
-  "ok": false,
-  "partial": true,
+  "ok": true,
+  "partial": false,
   "successfulCharts": [
-    "bugs-daily"
+    "melon-daily"
   ],
-  "failedCharts": {
-    "genie-daily": "RuntimeError: RuntimeError: Genie Dailyの日付が未更新または確認不能です: expected=2026-08-08, page=1 / RuntimeError: Genie Dailyの日付が未更新または確認不能です: expected=2026-08-08, page=1 / RuntimeError: Genie Dailyの日付が未更新または確認不能です: expected=2026-08-08, page=1"
-  },
+  "failedCharts": {},
   "configuration": {
     "source": "notion",
     "notionOk": true,
@@ -136,17 +134,17 @@
       "chartName": "Melon Daily",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-08T15:03:36+09:00",
-      "lastSuccessAt": "2026-08-08T15:03:36+09:00",
-      "chartAt": "2026-08-07T00:00:00+09:00",
+      "lastAttemptAt": "2026-08-09T15:07:31+09:00",
+      "lastSuccessAt": "2026-08-09T15:07:31+09:00",
+      "chartAt": "2026-08-08T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 4,
       "error": "",
       "metadata": {
         "period": "daily",
         "sourceMode": "official-html",
-        "sourceUrl": "https://www.melon.com/chart/day/index.htm?chartSearchData=20260807",
-        "nativeDate": "2026-08-07",
+        "sourceUrl": "https://www.melon.com/chart/day/index.htm?chartSearchData=20260808",
+        "nativeDate": "2026-08-08",
         "publishedAt": "12:40 KST",
         "chartDateRule": "source-verified-previous-day",
         "total": 100
@@ -210,15 +208,14 @@
   "automation": {
     "eventName": "schedule",
     "scheduled": true,
-    "schedule": "17 3 * * *",
+    "schedule": "57 3 * * *",
     "resolvedCharts": [
-      "genie-daily",
-      "bugs-daily"
+      "melon-daily"
     ],
-    "runId": "31297752433",
-    "runNumber": "109",
+    "runId": "31298171919",
+    "runNumber": "111",
     "runAttempt": "1",
-    "sha": "afa5186c362fcabeddfa9f54e80bde3e2cfefac7",
-    "completedAt": "2026-08-09T14:56:28+09:00"
+    "sha": "81fca4cdd92568d519059df901c394db68ee066d",
+    "completedAt": "2026-08-09T15:07:34+09:00"
   }
 }
