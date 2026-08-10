@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T04:20:35.014Z",
+  "generatedAt": "2026-08-10T05:12:52.085Z",
   "source": "git-history",
   "guides": [
     {
@@ -9,7 +9,7 @@
       "url": "chants.html",
       "category": "FANCHANT",
       "updatedAt": "2026-08-08T00:03:44Z",
-      "commit": "48fbaf8"
+      "commit": "48fbaf8f"
     },
     {
       "key": "youtube",
@@ -18,7 +18,7 @@
       "url": "youtube.html",
       "category": "YOUTUBE",
       "updatedAt": "2026-08-08T00:03:44Z",
-      "commit": "48fbaf8"
+      "commit": "48fbaf8f"
     },
     {
       "key": "mv",
@@ -27,7 +27,7 @@
       "url": "mv.html",
       "category": "MUSIC VIDEO",
       "updatedAt": "2026-08-08T00:03:44Z",
-      "commit": "48fbaf8"
+      "commit": "48fbaf8f"
     },
     {
       "key": "discography",
@@ -36,7 +36,7 @@
       "url": "discography.html",
       "category": "DISCOGRAPHY",
       "updatedAt": "2026-07-31T23:58:43Z",
-      "commit": "8423b7b"
+      "commit": "8423b7b6"
     },
     {
       "key": "voting",
@@ -45,7 +45,7 @@
       "url": "voting.html",
       "category": "VOTING",
       "updatedAt": "2026-07-31T15:33:42Z",
-      "commit": "6644ce4"
+      "commit": "6644ce44"
     },
     {
       "key": "streaming",
@@ -54,7 +54,7 @@
       "url": "streaming.html",
       "category": "STREAMING",
       "updatedAt": "2026-07-21T15:46:39Z",
-      "commit": "ba9fff6"
+      "commit": "ba9fff68"
     }
   ]
 }
