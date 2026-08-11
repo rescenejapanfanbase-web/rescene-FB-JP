@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-08-10T14:44:15.694Z",
+  "generatedAt": "2026-08-11T07:23:25.752Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -208,8 +208,8 @@ window.RESCENE_RECORDS = {
       "releaseDate": "2025-07-02",
       "top100Peak": 13,
       "top100PeakDate": "2026-08-10",
-      "dailyPeak": 9,
-      "dailyPeakDate": "2026-08-09",
+      "dailyPeak": 8,
+      "dailyPeakDate": "2026-08-10",
       "description": "Melon TOP100で最高13位、Melon日間チャートで最高11位を記録。",
       "mvUrl": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
       "image": "assets/records/notion/record-3a8229d219da808f8987fa4744ed3cd4-ca377427c398.jpg",
