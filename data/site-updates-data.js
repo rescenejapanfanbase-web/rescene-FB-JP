@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-11T07:23:34.290332+00:00",
+  "generatedAt": "2026-08-11T09:11:28.627404+00:00",
   "items": [
     {
       "date": "2026-08-11",
@@ -15,6 +15,24 @@ window.RESCENE_SITE_UPDATES = {
         "data/mv-data.js",
         "data/mv.json",
         "data/quality-report.json"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "title": "chore: critical YouTube sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "2027ac8",
+      "files": [
+        "data/youtube-channels.json"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Add files via upload",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "ad59784",
+      "files": [
+        ".github/workflows/rescene-maintenance-bridge.yml"
       ]
     },
     {
