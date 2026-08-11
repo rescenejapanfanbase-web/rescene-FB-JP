@@ -1,0 +1,83 @@
+RESCENE JAPAN FANBASE 複合修正 2026-08-11
+
+今回の修正
+==========
+1. Melon記録 / Deja Vu
+   Notion「Deja Vu — Melonチャート」を正として同期。
+   現在のNotion入力：
+   ・TOP100最高順位 6位
+   ・TOP100最高順位獲得日 2026-08-10
+   ・日間最高順位 8位
+   ・日間最高順位獲得日 2026-08-10
+   ・発売日 2025-07-02
+   ・説明文・MVリンクもNotionから取得
+   既存の手動フォールバック13位を上書きする。
+
+2. Genie Daily
+   HTMLの日付文字列チェックを廃止。
+   Genie公式 j_RankSongList.json の ditc=D を使用。
+   25曲×8ページ=TOP200を取得し、12:05以降は前日チャートとして保存。
+   Maintenance Bridgeが前日分未取得の場合だけ自動更新する。
+
+3. ディスコグラフィ
+   カテゴリー絞り込みに加え、
+   ・新しい順
+   ・古い順
+   を追加。カテゴリー内でも選択した順番で並べる。
+
+4. ニュース いいね・共有数
+   Supabaseに全ユーザー共通の保存先を作成済み。
+   記事に
+   ・いいね数
+   ・共有合計
+   を表示。
+   共有合計 = 共有 + X + LINE + URLコピー。
+   いいねは同一ブラウザから同一記事へ1回まで。
+   新しく生成される記事にもMaintenance Bridgeが自動挿入する。
+
+5. アンケート
+   Notionに「RESCENE カムバックアンケート」DBを作成済み。
+   Database ID:
+   d97ca2f185b442019b612765869a6cbd
+   Data Source ID:
+   19105aab-de7a-4890-b42e-c46108f83bb2
+
+   項目：
+   回答 / 企画名 / 対象作品 / 好きな曲 / 推しメンバー /
+   楽曲評価 / MV評価 / ステージ評価 / 自由コメント / サイト掲載許可
+
+   Notion APIからフォームビューの作成結果を確認できなかったため、
+   Notion UIでこのDBを開き、
+   ＋ビューを追加 → フォーム → Webで共有
+   を1回だけ行う。
+   以後は「好きな曲」の選択肢へ新曲を足していけば同じフォームを継続利用できる。
+
+反映方法
+========
+ZIPを展開して、以下をリポジトリ最上部へアップロードして上書き。
+
+js/discography.js
+js/news-engagement.js
+scripts/sync-korean-charts-fixed.py
+scripts/sync-dejavu-melon-record.py
+scripts/inject-news-engagement.py
+.github/workflows/rescene-maintenance-bridge.yml
+
+Commit directly to the main branch でコミット。
+
+初回実行
+========
+GitHub Actions
+→ RESCENE Site Maintenance Bridge
+→ Run workflow
+
+これを1回実行する。
+
+初回実行で、
+・Deja VuをNotion値へ更新
+・Genie Dailyが前日分へ更新
+・既存ニュース記事へいいね/共有UIを挿入
+を行う。
+
+その後は「Sync Notion News」が完了するたびMaintenance Bridgeが続けて動くため、
+Deja VuのNotion変更、Genie Dailyの前日分、ニュース新規記事の反応UIを追従する。
