@@ -1,14 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T17:41:38+09:00",
+  "generatedAt": "2026-08-11T17:43:41+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
   "successfulCharts": [
-    "bugs",
-    "flo",
-    "genie",
-    "melon"
+    "genie-daily"
   ],
   "failedCharts": {},
   "configuration": {
@@ -177,21 +174,21 @@
     "genie-daily": {
       "chartId": "genie-daily",
       "chartName": "Genie Daily",
-      "ok": false,
-      "retainedPrevious": true,
-      "lastAttemptAt": "2026-08-11T13:39:03+09:00",
-      "error": "RuntimeError: RuntimeError: Genie Dailyの日付が未更新または確認不能です: expected=2026-08-10, page=1 / RuntimeError: Genie Dailyの日付が未更新または確認不能です: expected=2026-08-10, page=1 / RuntimeError: Genie Dailyの日付が未更新または確認不能です: expected=2026-08-10, page=1",
-      "lastSuccessAt": "2026-08-02T08:51:59+09:00",
-      "chartAt": "2026-08-01T00:00:00+09:00",
+      "ok": true,
+      "retainedPrevious": false,
+      "lastAttemptAt": "2026-08-11T17:43:41+09:00",
+      "error": "",
+      "lastSuccessAt": "2026-08-11T17:43:41+09:00",
+      "chartAt": "2026-08-10T00:00:00+09:00",
       "itemCount": 200,
       "matchedCount": 4,
       "metadata": {
-        "nativeTime": "2026-08-02T08:51:59+09:00",
         "period": "daily",
-        "periodCode": "D",
-        "endpoint": "https://app.genie.co.kr/chart/j_RankSongList.json",
+        "sourceMode": "official-json",
+        "sourceUrl": "https://app.genie.co.kr/chart/j_RankSongList.json",
+        "nativeDate": "2026-08-10",
         "publishedAt": "12:00 KST",
-        "chartDateRule": "previous-day",
+        "chartDateRule": "previous-day-after-publication",
         "pageSize": 25,
         "pageCount": 8,
         "pageItemCounts": [
@@ -209,19 +206,16 @@
     }
   },
   "automation": {
-    "eventName": "push",
+    "eventName": "maintenance-bridge",
     "scheduled": false,
-    "schedule": "",
+    "schedule": "genie-daily-stale-check",
     "resolvedCharts": [
-      "melon",
-      "genie",
-      "bugs",
-      "flo"
+      "genie-daily"
     ],
-    "runId": "31474314022",
-    "runNumber": "151",
+    "runId": "31474465928",
+    "runNumber": "1",
     "runAttempt": "1",
-    "sha": "ce65612695fd84a35cdffa8d163d08f6e578424d",
-    "completedAt": "2026-08-11T17:41:45+09:00"
+    "sha": "2bd93cf53a877cfd031236b037fc21d17dc745d3",
+    "completedAt": "2026-08-11T17:43:56+09:00"
   }
 }
