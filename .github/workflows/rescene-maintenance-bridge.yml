@@ -1,0 +1,119 @@
+name: RESCENE Site Maintenance Bridge
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Sync Notion News"
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rescene-maintenance-bridge
+  cancel-in-progress: false
+
+jobs:
+  maintain:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install chart dependencies
+        run: python -m pip install --disable-pip-version-check --upgrade beautifulsoup4 yt-dlp
+
+      - name: Sync Deja Vu Melon record from Notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python scripts/sync-dejavu-melon-record.py
+
+      - name: Refresh Genie Daily when yesterday is missing
+        shell: bash
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_KOREAN_CHARTS_DATA_SOURCE_ID: ${{ vars.NOTION_KOREAN_CHARTS_DATA_SOURCE_ID }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_KOREA_PLAYLIST_ID: ${{ vars.SPOTIFY_KOREA_PLAYLIST_ID || '37i9dQZEVXbNxXF4SkHj9F' }}
+          YOUTUBE_MUSIC_KOREA_PLAYLIST_URL: ${{ vars.YOUTUBE_MUSIC_KOREA_PLAYLIST_URL || 'https://www.youtube.com/playlist?list=PL4fGSI1pDJn6jXS_Tv_N9B8Z0HTRVJE0m' }}
+          RUN_EVENT_NAME: maintenance-bridge
+          RUN_EVENT_SCHEDULE: genie-daily-stale-check
+          RUN_ID: ${{ github.run_id }}
+          RUN_NUMBER: ${{ github.run_number }}
+          RUN_ATTEMPT: ${{ github.run_attempt }}
+          RUN_SHA: ${{ github.sha }}
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          set -euo pipefail
+          due="$(PYTHONPATH=scripts python - <<'PY'
+          import json
+          from datetime import datetime,timedelta,timezone,time
+          from pathlib import Path
+          kst=timezone(timedelta(hours=9))
+          now=datetime.now(kst)
+          if now.timetz().replace(tzinfo=None)<time(12,10):
+              print("no")
+              raise SystemExit
+          target=(now.date()-timedelta(days=1)).isoformat()
+          try:
+              data=json.loads(Path("data/korean-chart-sync-status.json").read_text(encoding="utf-8"))
+              current=str(((data.get("sourceStatus") or {}).get("genie-daily") or {}).get("chartAt") or "")[:10]
+          except Exception:
+              current=""
+          print("yes" if current!=target else "no")
+          PY
+          )"
+          if [[ "${due}" == "yes" ]]; then
+            PYTHONPATH=scripts python scripts/sync-korean-charts-fixed.py --self-test
+            PYTHONPATH=scripts python scripts/sync-korean-charts-fixed.py --charts genie-daily --attempts 3 --workers 1
+            PYTHONPATH=scripts python scripts/stamp-korean-chart-run.py --charts genie-daily
+          else
+            echo "Genie Daily is current or publication time has not arrived."
+          fi
+
+      - name: Inject engagement UI into generated news articles
+        run: python scripts/inject-news-engagement.py
+
+      - name: Commit maintenance changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="main"
+          git add \
+            data/records.json \
+            data/records-data.js \
+            data/korean-chart-config.json \
+            data/korean-charts.json \
+            data/korean-charts-data.js \
+            data/korean-chart-sync-status.json \
+            data/korean-chart-history \
+            articles \
+            article.html
+          if git diff --cached --quiet; then
+            echo "No maintenance changes."
+            exit 0
+          fi
+          git commit -m "chore: sync records charts and news engagement"
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${branch}"; then exit 0; fi
+            git pull --rebase origin "${branch}"
+            sleep $((attempt * 5))
+          done
+          exit 1
