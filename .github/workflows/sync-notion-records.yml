@@ -46,12 +46,23 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Standard Notion records sync.
           node scripts/sync-notion-records.mjs
+
+          # Deja Vu must always follow the authoritative Notion record.
+          # The repository previously contained a legacy notionGuard that forced
+          # TOP100 #13. Re-apply the current Notion values after the standard
+          # merge and permanently refresh the manual fallback.
+          python scripts/sync-dejavu-melon-record.py
+          python scripts/fix-dejavu-manual-fallback.py
+
           python scripts/generate-seo.py
           python scripts/sync-site-shell.py
           python scripts/add-image-dimensions.py
           python scripts/generate-pwa.py
           bash scripts/run-prepublish-checks.sh
+
           if git diff --quiet && test -z "$(git status --porcelain)"; then
             echo "音楽記録に変更はありません。"
             exit 0
