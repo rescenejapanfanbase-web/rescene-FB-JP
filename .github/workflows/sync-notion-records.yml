@@ -56,12 +56,21 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          # Standard Notion sync. On the first run the old #13 guard may still
+          # print a warning here; the steps below permanently remove it.
           node scripts/sync-notion-records.mjs
 
-          # Keep Deja Vu authoritative from Notion and remove the obsolete
-          # hard-coded TOP100 #13 fallback protection.
+          # Make Deja Vu follow the authoritative Notion values.
           python scripts/sync-dejavu-melon-record.py
           python scripts/fix-dejavu-manual-fallback.py
+
+          # Re-render the record HTML after overriding the JSON values.
+          node scripts/render-record-pages.mjs
+
+          # Remove the obsolete regression test that hard-coded Deja Vu at #13.
+          # The replacement checks that the current data and generated HTML agree,
+          # so future Notion peak updates do not require editing the test again.
+          python scripts/fix-dejavu-regression-check.py
 
           python scripts/generate-seo.py
           python scripts/sync-site-shell.py
