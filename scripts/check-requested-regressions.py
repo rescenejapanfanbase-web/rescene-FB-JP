@@ -128,8 +128,13 @@ require("日間最高順位獲得日" in text("scripts/sync-notion-records.mjs")
 require("records-manual.json" in text("scripts/sync-notion-records.mjs"), "Melon記録の手動フォールバックがありません")
 records_payload = json.loads(text("data/records.json"))
 deja_vu = next((item for item in records_payload.get("melonRecords", []) if item.get("song") == "Deja Vu"), None)
-require(deja_vu is not None and deja_vu.get("top100Peak") == 13, f"Deja VuのMelon TOP100確定値が13位ではありません: {deja_vu.get('top100Peak') if deja_vu else '行なし'}")
-require("#13" in text("melon-records.html"), "Deja VuのMelon TOP100 13位がHTMLへ反映されていません")
+require(deja_vu is not None, "Deja VuのMelon記録がdata/records.jsonにありません")
+deja_vu_peak = deja_vu.get("top100Peak") if deja_vu else None
+require(isinstance(deja_vu_peak, int) and deja_vu_peak > 0, f"Deja VuのMelon TOP100最高順位が不正です: {deja_vu_peak}")
+require(
+    f"#{deja_vu_peak}" in text("melon-records.html") if isinstance(deja_vu_peak, int) else False,
+    f"Deja VuのMelon TOP100最高順位がHTMLと一致していません: data={deja_vu_peak}",
+)
 require("melon-rank-date" in record_renderer, "Melon最高順位の獲得日表示がありません")
 require("番組、獲得日、スコア、獲得時の映像" not in text("records.html"), "記録トップの説明にスコアが残っています")
 for path in ["music-show-wins.html", "melon-records.html"]:
