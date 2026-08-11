@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "",
+  "generatedAt": "2026-08-11T12:34:36.213Z",
   "source": "notion",
   "dataSourceId": "19105aab-de7a-4890-b42e-c46108f83bb2",
   "surveyTitle": "RESCENE好きな曲アンケート",
@@ -21,6 +21,7 @@
   "meta": {
     "rawResponsesPublished": false,
     "commentsRequirePermission": true,
-    "updateIntervalMinutes": 60
+    "updateIntervalMinutes": 60,
+    "discoveredFields": []
   }
 }

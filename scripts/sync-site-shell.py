@@ -55,7 +55,19 @@ def translated_attrs(item):
 
 def normalized_nav_items(management):
     items=management.get('navigation') if isinstance(management,dict) else None
-    source=items if isinstance(items,list) and items else DEFAULT_NAVIGATION
+    source=list(items) if isinstance(items,list) and items else list(DEFAULT_NAVIGATION)
+    # アンケートはサイト機能として常設。Notion側に同じリンクが追加された場合は重複させません。
+    if not any(str(item.get("linkUrl") or "").strip().split("#")[0]=="survey.html" for item in source if isinstance(item,dict)):
+        source.append({
+            "heading":"アンケート",
+            "linkUrl":"survey.html",
+            "note":"リンク",
+            "order":71.5,
+            "translations":{
+                "ko":{"heading":"설문조사"},
+                "en":{"heading":"Survey"},
+            },
+        })
     rows=[]
     for index,item in enumerate(source):
         if not isinstance(item,dict): continue
@@ -175,6 +187,7 @@ def main()->int:
             'favorites.html':'お気に入りはこの端末のブラウザ内だけに保存されます。',
             'youtube.html':'掲載動画の権利は各権利者に帰属します。公式情報は各チャンネルの案内もあわせてご確認ください。',
             'korean-charts.html':'各チャートの仕様変更や一時的な取得失敗時は、前回の正常データを表示します。',
+            'survey.html':'アンケート結果はNotionの回答を自動集計して表示しています。',
         }
         desktop_nav,mobile_nav=build_navigation(root_prefix(path),site_management,relative)
         replacements={'MUSIC_OPEN':' open' if relative in {'discography.html','mv.html','youtube.html','records.html','music-show-wins.html','melon-records.html','korean-charts.html'} else '', 'LINKS_OPEN':' open' if relative in {'links.html','fan-services.html','contact.html'} else '', 'SEARCH_CURRENT':' aria-current="page"' if relative=='search.html' else '', 'FOOTER_NOTE':footer_notes.get(relative,'公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。'),'YEAR_ATTR':'data-year=""' if relative=='sync-status.html' else 'data-year','DESKTOP_NAV':desktop_nav,'MOBILE_NAV':mobile_nav}

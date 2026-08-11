@@ -124,6 +124,14 @@ PAGE_META = {
         "priority": "0.9",
         "changefreq": "hourly",
     },
+    "survey.html": {
+        "title": f"アンケート | {SITE_NAME}",
+        "description": "RESCENE JAPAN FANBASEのアンケート結果をNotion回答から自動集計し、好きな曲ランキングや評価、掲載許可済みコメントを表示します。",
+        "image": "assets/group/rescene-group.jpg",
+        "label": "FAN SURVEY",
+        "priority": "0.7",
+        "changefreq": "hourly",
+    },
     "streaming.html": {
         "title": f"ストリーミングガイド | {SITE_NAME}",
         "description": "YouTube、Spotify、Apple Music、Stationhead、TikTokなどでRESCENEを応援する方法を案内します。",
