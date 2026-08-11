@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "dataSourceId": "19105aab-de7a-4890-b42e-c46108f83bb2",
+  "surveyTitle": "RESCENE好きな曲アンケート",
+  "defaultCampaign": "RESCENE好きな曲アンケート",
+  "formUrl": "",
+  "formStatus": "open",
+  "updateIntervalMinutes": 60,
+  "rankingTitle": "好きな曲ランキング",
+  "rankingDescription": "回答者が選んだ楽曲を1曲につき1票として集計します。複数選択式のため、選択率の合計は100%を超える場合があります。",
+  "songFieldCandidates": [
+    "好きな曲",
+    "対象作品"
+  ],
+  "campaignFieldCandidates": [
+    "企画名",
+    "アンケート名",
+    "キャンペーン"
+  ],
+  "memberFieldCandidates": [
+    "推しメンバー",
+    "推し"
+  ],
+  "commentFieldCandidates": [
+    "テキスト",
+    "自由コメント",
+    "コメント",
+    "感想"
+  ],
+  "authorFieldCandidates": [
+    "ニックネーム",
+    "回答者名"
+  ],
+  "permissionFieldCandidates": [
+    "サイト掲載許可",
+    "掲載許可"
+  ],
+  "ratingFields": [
+    {
+      "key": "song",
+      "label": "楽曲評価",
+      "candidates": [
+        "楽曲評価"
+      ]
+    },
+    {
+      "key": "mv",
+      "label": "MV評価",
+      "candidates": [
+        "MV評価"
+      ]
+    },
+    {
+      "key": "stage",
+      "label": "ステージ評価",
+      "candidates": [
+        "ステージ評価"
+      ]
+    }
+  ],
+  "maxPublicComments": 20,
+  "excludeMarkers": [
+    "[TEST]",
+    "【TEST】"
+  ],
+  "showSelectionShare": true,
+  "privacyMode": "permission-only"
+}

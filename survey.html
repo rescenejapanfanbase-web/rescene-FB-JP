@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/survey.css">
+<title>アンケート | RESCENE JAPAN FANBASE</title>
+<meta name="description" content="RESCENE JAPAN FANBASEのアンケート結果をNotion回答から自動集計して掲載します。">
+<!-- APP-HEAD-START -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="css/notion-theme.css">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icons/app-icon-192.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="application-name" content="RESCENE FB">
+<script>(()=>{try{const saved=localStorage.getItem('rescene-theme-mode')||localStorage.getItem('rescene-theme')||'system';const mode=['system','light','dark'].includes(saved)?saved:'system';const light=mode==='light'||(mode==='system'&&matchMedia('(prefers-color-scheme: light)').matches);document.documentElement.classList.toggle('light-mode',light);document.documentElement.dataset.theme=light?'light':'dark';document.documentElement.dataset.themePreference=mode;}catch(e){}})();</script>
+<!-- APP-HEAD-END -->
+</head>
+<body class="page-survey">
+<!-- SITE-HEADER-START -->
+<header>
+<div class="nav">
+<a class="logo" href="index.html"><span>RESCENE</span> JAPAN FANBASE</a>
+<nav class="nav-links" aria-label="メインナビゲーション"><a href="index.html">ホーム</a><div class="dropdown"><span class="dropdown-toggle">RESCENE</span><div class="dropdown-menu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></div><a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a><div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a><a href="records.html">記録</a><a href="korean-charts.html">韓国チャート</a></div></div><div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a></div></div><div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu"><a href="links.html">公式リンク</a><a href="fan-services.html">ファンサービスガイド</a><a href="survey.html">アンケート</a><a href="contact.html">お問い合わせ</a></div></div></nav>
+<div class="nav-actions"><a class="search-toggle" href="search.html" aria-label="サイト内検索" title="サイト内検索"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m20.7 19.3-4.2-4.2a7.5 7.5 0 1 0-1.4 1.4l4.2 4.2a1 1 0 0 0 1.4-1.4ZM5 10.5a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0Z"/></svg></a><button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマ切り替え">☾</button><button class="hamburger" id="hamburger" type="button" aria-label="メニューを開く" aria-controls="mobileMenu" aria-expanded="false">☰</button></div>
+</div>
+</header>
+<nav class="mobile-menu" id="mobileMenu" aria-label="モバイルナビゲーション"><a class="mobile-search-link" href="search.html">サイト内検索</a><a href="index.html">ホーム</a><details class="mobile-group"><summary>RESCENE</summary><div class="mobile-submenu"><a href="about.html">RESCENEについて</a><a href="members.html">メンバー</a></div></details><a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a><details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a><a href="records.html">記録</a><a href="korean-charts.html">韓国チャート</a></div></details><details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声ガイド</a></div></details><details class="mobile-group" open><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a><a href="fan-services.html">ファンサービスガイド</a><a href="survey.html">アンケート</a><a href="contact.html">お問い合わせ</a></div></details></nav>
+<div class="menu-backdrop" id="menuBackdrop"></div>
+<div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+<!-- SITE-HEADER-END -->
+
+<main class="container">
+<nav class="article-breadcrumb" aria-label="パンくず"><a href="index.html">ホーム</a><span>›</span><span>アンケート</span></nav>
+<section class="page-header section" id="top">
+  <span class="page-kicker">FAN SURVEY</span>
+  <h1 id="surveyTitle">RESCENE アンケート</h1>
+  <p>REMINEの皆さんから届いた回答をNotionから自動集計し、結果を公開しています。</p>
+  <div class="survey-hero-grid" aria-label="アンケート集計概要">
+    <article class="card survey-stat-card"><small>RESPONSES</small><strong id="surveyResponseCount">—</strong><span>回答数</span></article>
+    <article class="card survey-stat-card"><small>SELECTIONS</small><strong id="surveySelectionCount">—</strong><span>楽曲選択数</span></article>
+    <article class="card survey-stat-card"><small>LAST RESPONSE</small><strong id="surveyLastResponse">—</strong><span>最新回答</span></article>
+    <article class="card survey-stat-card"><small>LAST SYNC</small><strong id="surveyLastSync">—</strong><span>最終集計</span></article>
+  </div>
+</section>
+
+<section class="section" id="surveyFormCta" hidden>
+  <div class="card survey-form-cta">
+    <div class="survey-form-copy"><span class="survey-form-status" id="surveyFormStatus">現在受付中</span><strong>あなたの回答もぜひ教えてください！</strong><p>回答はNotionフォームから送信できます。</p></div>
+    <a class="btn btn-primary" id="surveyFormButton" href="#" target="_blank" rel="noopener noreferrer">アンケートに回答する</a>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="surveyRankingTitle">
+  <div class="section-head"><div><span class="section-kicker">LIVE RESULTS</span><h2 class="section-title" id="surveyRankingTitle">好きな曲ランキング</h2></div><p class="section-note" id="surveyAutoUpdate">60分ごとに自動集計</p></div>
+  <div class="card survey-toolbar"><label class="survey-select-label" id="surveyCampaignWrap" hidden><span>アンケート・企画</span><select id="surveyCampaign" aria-label="アンケート企画を選択"></select></label><span class="survey-auto-update" id="surveyRankingDescription">回答者が選択した楽曲を集計します。</span></div>
+  <div class="survey-data-message card" id="surveyLoading">集計結果を読み込んでいます…</div>
+  <div class="survey-data-message card" id="surveyDataError" hidden></div>
+  <div class="survey-ranking" id="surveyRanking" aria-live="polite"></div>
+  <div class="survey-data-message card" id="surveyRankingEmpty" hidden>まだランキングを表示できる回答がありません。</div>
+</section>
+
+<section class="section" id="surveyRatingsSection" hidden aria-labelledby="surveyRatingsTitle"><div class="section-head"><div><span class="section-kicker">RATINGS</span><h2 class="section-title" id="surveyRatingsTitle">平均評価</h2></div></div><div class="survey-rating-grid" id="surveyRatings"></div></section>
+<section class="section" id="surveyMembersSection" hidden aria-labelledby="surveyMembersTitle"><div class="section-head"><div><span class="section-kicker">MEMBER PICK</span><h2 class="section-title" id="surveyMembersTitle">推しメンバー</h2></div></div><div class="survey-member-list" id="surveyMembers"></div></section>
+<section class="section" id="surveyCommentsSection" hidden aria-labelledby="surveyCommentsTitle"><div class="section-head"><div><span class="section-kicker">REMINE VOICE</span><h2 class="section-title" id="surveyCommentsTitle">みんなのコメント</h2></div><p class="section-note">「サイト掲載許可」がONの回答のみ掲載します。</p></div><div class="survey-comments" id="surveyComments"></div></section>
+<section class="section" aria-labelledby="surveyMethodTitle"><div class="section-head"><div><span class="section-kicker">ABOUT DATA</span><h2 class="section-title" id="surveyMethodTitle">集計について</h2></div></div><div class="card survey-method-card"><p><strong>ランキング：</strong>複数選択の場合も、同じ回答内の1曲を1票として集計します。「選択率」は回答者のうち何%がその曲を選んだかを表します。</p><p><strong>プライバシー：</strong>公開用データには回答者ごとの生データを保存しません。自由コメントは「サイト掲載許可」がONの場合だけ公開用JSONへ出力します。</p><p><strong>更新：</strong>GitHub ActionsがNotionの回答を定期取得し、集計データだけを静的ファイルへ反映します。</p></div></section>
+</main>
+
+<!-- SITE-FOOTER-START -->
+<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="favorites.html">FAVORITES</a><a href="updates.html">UPDATES</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">アンケート結果はNotionの回答を自動集計して表示しています。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
+<!-- SITE-FOOTER-END -->
+<script src="data/homepage-data.js"></script>
+<script src="js/common.js"></script>
+<script src="js/site-content.js"></script>
+<script src="data/survey-results-data.js"></script>
+<script src="js/survey.js"></script>
+</body>
+</html>
