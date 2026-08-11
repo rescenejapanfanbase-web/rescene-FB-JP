@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T10:26:05.383609+00:00",
+  "generatedAt": "2026-08-11T10:59:20.470535+00:00",
   "items": [
     {
       "date": "2026-08-11",
@@ -21,7 +21,7 @@
       "date": "2026-08-11",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "1f848db",
+      "commit": "561cd84",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -30,7 +30,7 @@
         "data/mv-candidates.json",
         "data/mv-data.js",
         "data/mv.json",
-        "data/quality-report.json"
+        "data/seo-status.json"
       ]
     },
     {
@@ -46,7 +46,7 @@
       "date": "2026-08-11",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "f640484",
+      "commit": "fb9c798",
       "files": [
         ".github/workflows/sync-notion-records.yml"
       ]
