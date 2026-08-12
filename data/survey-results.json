@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T02:47:54.215Z",
+  "generatedAt": "2026-08-12T05:06:53.860Z",
   "source": "notion",
   "dataSourceId": "19105aab-de7a-4890-b42e-c46108f83bb2",
   "surveyTitle": "RESCENE好きな曲アンケート",
@@ -8,20 +8,51 @@
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 0,
-      "totalSelections": 0,
-      "firstResponseAt": "",
-      "lastResponseAt": "",
-      "ranking": [],
+      "responseCount": 1,
+      "totalSelections": 3,
+      "firstResponseAt": "2026-08-12T03:14:00.000Z",
+      "lastResponseAt": "2026-08-12T03:14:00.000Z",
+      "ranking": [
+        {
+          "name": "Busy Boy",
+          "votes": 1,
+          "respondentRate": 100,
+          "selectionShare": 33.3
+        },
+        {
+          "name": "Love Echo",
+          "votes": 1,
+          "respondentRate": 100,
+          "selectionShare": 33.3
+        },
+        {
+          "name": "Runaway",
+          "votes": 1,
+          "respondentRate": 100,
+          "selectionShare": 33.3
+        }
+      ],
       "ratings": [],
       "memberDistribution": [],
-      "publicComments": []
+      "publicComments": [
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-12"
+        }
+      ]
     }
   ],
   "meta": {
     "rawResponsesPublished": false,
     "commentsRequirePermission": true,
     "updateIntervalMinutes": 60,
-    "discoveredFields": []
+    "discoveredFields": [
+      "サイト掲載許可",
+      "テキスト",
+      "回答日時",
+      "自由コメント",
+      "対象作品"
+    ]
   }
 }
