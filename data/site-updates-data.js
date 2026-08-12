@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-12T02:39:15.766621+00:00",
+  "generatedAt": "2026-08-12T05:43:58.908769+00:00",
   "items": [
     {
       "date": "2026-08-11",
@@ -49,15 +49,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "75f81a5",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "title": "Add files via upload",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "95b17b6",
-      "files": [
-        ".github/workflows/sync-notion-survey.yml"
       ]
     },
     {
