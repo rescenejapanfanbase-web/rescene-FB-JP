@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T13:59:48+09:00",
+  "generatedAt": "2026-08-13T14:03:25+09:00",
   "configSource": "notion",
   "charts": [
     {
@@ -1325,13 +1325,13 @@
         {
           "startAt": "2026-08-10T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-11T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-          "observations": 2
+          "lastObservedAt": "2026-08-12T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+          "observations": 3
         }
       ],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/uhuh--genie-daily.json"
     },
     {
@@ -1353,13 +1353,13 @@
         {
           "startAt": "2026-08-10T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-11T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-          "observations": 2
+          "lastObservedAt": "2026-08-12T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+          "observations": 3
         }
       ],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/yoyo--genie-daily.json"
     },
     {
@@ -1367,19 +1367,19 @@
       "songTitle": "LOVE ATTACK",
       "chartId": "genie-daily",
       "chartName": "Genie Daily",
-      "currentRank": 2,
+      "currentRank": 1,
       "previousRank": 2,
-      "movement": 0,
-      "movementType": "same",
+      "movement": 1,
+      "movementType": "up",
       "status": "in",
-      "peakRank": 2,
+      "peakRank": 1,
       "firstChartedAt": "2024-09-27T00:00:00+09:00",
-      "lastChartedAt": "2026-08-11T00:00:00+09:00",
-      "chartDays": 337,
+      "lastChartedAt": "2026-08-12T00:00:00+09:00",
+      "chartDays": 338,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/love-attack--genie-daily.json"
     },
     {
@@ -1401,13 +1401,13 @@
         {
           "startAt": "2026-08-10T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-11T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-          "observations": 2
+          "lastObservedAt": "2026-08-12T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+          "observations": 3
         }
       ],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pinball--genie-daily.json"
     },
     {
@@ -1429,13 +1429,13 @@
         {
           "startAt": "2026-08-10T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-11T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-          "observations": 2
+          "lastObservedAt": "2026-08-12T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+          "observations": 3
         }
       ],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/glow-up--genie-daily.json"
     },
     {
@@ -1443,19 +1443,19 @@
       "songTitle": "Deja Vu",
       "chartId": "genie-daily",
       "chartName": "Genie Daily",
-      "currentRank": 27,
-      "previousRank": 29,
+      "currentRank": 25,
+      "previousRank": 27,
       "movement": 2,
       "movementType": "up",
       "status": "in",
-      "peakRank": 27,
+      "peakRank": 25,
       "firstChartedAt": "2026-07-05T00:00:00+09:00",
-      "lastChartedAt": "2026-08-11T00:00:00+09:00",
-      "chartDays": 35,
+      "lastChartedAt": "2026-08-12T00:00:00+09:00",
+      "chartDays": 36,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/deja-vu--genie-daily.json"
     },
     {
@@ -1477,13 +1477,13 @@
         {
           "startAt": "2026-08-10T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-11T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-          "observations": 2
+          "lastObservedAt": "2026-08-12T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+          "observations": 3
         }
       ],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/heart-drop--genie-daily.json"
     },
     {
@@ -1505,13 +1505,13 @@
         {
           "startAt": "2026-08-10T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-11T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-          "observations": 2
+          "lastObservedAt": "2026-08-12T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+          "observations": 3
         }
       ],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/bloom--genie-daily.json"
     },
     {
@@ -1533,13 +1533,13 @@
         {
           "startAt": "2026-08-10T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-11T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-          "observations": 2
+          "lastObservedAt": "2026-08-12T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+          "observations": 3
         }
       ],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/busy-boy--genie-daily.json"
     },
     {
@@ -1547,19 +1547,19 @@
       "songTitle": "Runaway",
       "chartId": "genie-daily",
       "chartName": "Genie Daily",
-      "currentRank": 155,
-      "previousRank": 152,
-      "movement": -3,
-      "movementType": "down",
+      "currentRank": 148,
+      "previousRank": 155,
+      "movement": 7,
+      "movementType": "up",
       "status": "in",
-      "peakRank": 152,
+      "peakRank": 148,
       "firstChartedAt": "2026-07-12T00:00:00+09:00",
-      "lastChartedAt": "2026-08-11T00:00:00+09:00",
-      "chartDays": 28,
+      "lastChartedAt": "2026-08-12T00:00:00+09:00",
+      "chartDays": 29,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/runaway--genie-daily.json"
     },
     {
@@ -1568,18 +1568,18 @@
       "chartId": "genie-daily",
       "chartName": "Genie Daily",
       "currentRank": 7,
-      "previousRank": 8,
-      "movement": 1,
-      "movementType": "up",
+      "previousRank": 7,
+      "movement": 0,
+      "movementType": "same",
       "status": "in",
       "peakRank": 7,
       "firstChartedAt": "2026-08-10T00:00:00+09:00",
-      "lastChartedAt": "2026-08-11T00:00:00+09:00",
-      "chartDays": 2,
+      "lastChartedAt": "2026-08-12T00:00:00+09:00",
+      "chartDays": 3,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pretty-girl--genie-daily.json"
     },
     {
@@ -1898,13 +1898,13 @@
         {
           "startAt": "2026-07-31T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-11T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-          "observations": 12
+          "lastObservedAt": "2026-08-12T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+          "observations": 13
         }
       ],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/uhuh--bugs-daily.json"
     },
     {
@@ -1926,13 +1926,13 @@
         {
           "startAt": "2026-07-31T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-11T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-          "observations": 12
+          "lastObservedAt": "2026-08-12T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+          "observations": 13
         }
       ],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/yoyo--bugs-daily.json"
     },
     {
@@ -1947,12 +1947,12 @@
       "status": "in",
       "peakRank": 1,
       "firstChartedAt": "2024-09-22T00:00:00+09:00",
-      "lastChartedAt": "2026-08-11T00:00:00+09:00",
-      "chartDays": 326,
+      "lastChartedAt": "2026-08-12T00:00:00+09:00",
+      "chartDays": 327,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/love-attack--bugs-daily.json"
     },
     {
@@ -1960,15 +1960,15 @@
       "songTitle": "Pinball",
       "chartId": "bugs-daily",
       "chartName": "Bugs Daily",
-      "currentRank": 66,
-      "previousRank": 76,
-      "movement": 10,
+      "currentRank": 58,
+      "previousRank": 66,
+      "movement": 8,
       "movementType": "up",
       "status": "in",
-      "peakRank": 66,
+      "peakRank": 58,
       "firstChartedAt": "2026-07-20T00:00:00+09:00",
-      "lastChartedAt": "2026-08-11T00:00:00+09:00",
-      "chartDays": 15,
+      "lastChartedAt": "2026-08-12T00:00:00+09:00",
+      "chartDays": 16,
       "outOfChartCount": 1,
       "outOfChartHistory": [
         {
@@ -1979,8 +1979,8 @@
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pinball--bugs-daily.json"
     },
     {
@@ -2002,13 +2002,13 @@
         {
           "startAt": "2026-07-31T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-11T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-          "observations": 12
+          "lastObservedAt": "2026-08-12T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+          "observations": 13
         }
       ],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/glow-up--bugs-daily.json"
     },
     {
@@ -2023,12 +2023,12 @@
       "status": "in",
       "peakRank": 9,
       "firstChartedAt": "2026-06-09T00:00:00+09:00",
-      "lastChartedAt": "2026-08-11T00:00:00+09:00",
-      "chartDays": 64,
+      "lastChartedAt": "2026-08-12T00:00:00+09:00",
+      "chartDays": 65,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/deja-vu--bugs-daily.json"
     },
     {
@@ -2050,13 +2050,13 @@
         {
           "startAt": "2026-07-31T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-11T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-          "observations": 12
+          "lastObservedAt": "2026-08-12T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+          "observations": 13
         }
       ],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/heart-drop--bugs-daily.json"
     },
     {
@@ -2078,13 +2078,13 @@
         {
           "startAt": "2026-07-31T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-11T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-          "observations": 12
+          "lastObservedAt": "2026-08-12T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+          "observations": 13
         }
       ],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/bloom--bugs-daily.json"
     },
     {
@@ -2106,13 +2106,13 @@
         {
           "startAt": "2026-07-31T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-08-11T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-          "observations": 12
+          "lastObservedAt": "2026-08-12T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+          "observations": 13
         }
       ],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/busy-boy--bugs-daily.json"
     },
     {
@@ -2127,12 +2127,12 @@
       "status": "in",
       "peakRank": 26,
       "firstChartedAt": "2026-06-08T00:00:00+09:00",
-      "lastChartedAt": "2026-08-11T00:00:00+09:00",
-      "chartDays": 65,
+      "lastChartedAt": "2026-08-12T00:00:00+09:00",
+      "chartDays": 66,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/runaway--bugs-daily.json"
     },
     {
@@ -2140,19 +2140,19 @@
       "songTitle": "Pretty Girl",
       "chartId": "bugs-daily",
       "chartName": "Bugs Daily",
-      "currentRank": 12,
-      "previousRank": 11,
-      "movement": -1,
-      "movementType": "down",
+      "currentRank": 11,
+      "previousRank": 12,
+      "movement": 1,
+      "movementType": "up",
       "status": "in",
       "peakRank": 9,
       "firstChartedAt": "2026-07-31T00:00:00+09:00",
-      "lastChartedAt": "2026-08-11T00:00:00+09:00",
-      "chartDays": 12,
+      "lastChartedAt": "2026-08-12T00:00:00+09:00",
+      "chartDays": 13,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastCheckedAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pretty-girl--bugs-daily.json"
     },
     {
@@ -3463,17 +3463,17 @@
       "chartName": "Bugs Daily",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-12T14:01:03+09:00",
-      "lastSuccessAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastAttemptAt": "2026-08-13T14:03:25+09:00",
+      "lastSuccessAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
       "metadata": {
         "period": "daily",
         "sourceMode": "official-html",
-        "sourceUrl": "https://music.bugs.co.kr/chart/track/day/total?chartdate=20260811",
-        "nativeDate": "2026-08-11",
+        "sourceUrl": "https://music.bugs.co.kr/chart/track/day/total?chartdate=20260812",
+        "nativeDate": "2026-08-12",
         "publishedAt": "12:00 KST",
         "chartDateRule": "source-verified-previous-day",
         "total": 100
@@ -3484,17 +3484,17 @@
       "chartName": "Genie Daily",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-12T14:01:03+09:00",
+      "lastAttemptAt": "2026-08-13T14:03:25+09:00",
       "error": "",
-      "lastSuccessAt": "2026-08-12T14:01:03+09:00",
-      "chartAt": "2026-08-11T00:00:00+09:00",
+      "lastSuccessAt": "2026-08-13T14:03:25+09:00",
+      "chartAt": "2026-08-12T00:00:00+09:00",
       "itemCount": 200,
       "matchedCount": 4,
       "metadata": {
         "period": "daily",
         "sourceMode": "official-json",
         "sourceUrl": "https://app.genie.co.kr/chart/j_RankSongList.json",
-        "nativeDate": "2026-08-11",
+        "nativeDate": "2026-08-12",
         "publishedAt": "12:00 KST",
         "chartDateRule": "previous-day-after-publication",
         "pageSize": 25,
