@@ -1,11 +1,20 @@
 {
-  "generatedAt": "2026-08-13T17:09:18.439223+00:00",
+  "generatedAt": "2026-08-13T22:55:01.369269+00:00",
   "items": [
+    {
+      "date": "2026-08-13",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "48e1317",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
     {
       "date": "2026-08-13",
       "title": "chore: critical schedule sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "69a72b4",
+      "commit": "76b8ec9",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
