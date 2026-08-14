@@ -1,5 +1,5 @@
 window.RESCENE_MV_CANDIDATES = {
-  "generatedAt": "2026-08-14T13:34:56.256Z",
+  "generatedAt": "2026-08-14T14:34:58.695Z",
   "dataSourceId": "e85d399d-5506-4ab3-8355-e94325fbf5b1",
   "notionDatabaseUrl": "https://app.notion.com/p/5f26ec69338a46f1ad9a82e070e92ad9",
   "count": 0,
