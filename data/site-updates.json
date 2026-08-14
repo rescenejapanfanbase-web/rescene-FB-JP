@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T10:34:02.261355+00:00",
+  "generatedAt": "2026-08-14T11:04:28.978053+00:00",
   "items": [
     {
       "date": "2026-08-14",
@@ -21,7 +21,7 @@
       "date": "2026-08-14",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "6bb40ae",
+      "commit": "452f79f",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
