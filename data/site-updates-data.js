@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-14T11:04:28.978053+00:00",
+  "generatedAt": "2026-08-14T13:34:56.387598+00:00",
   "items": [
     {
       "date": "2026-08-14",
@@ -21,50 +21,25 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-08-14",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "452f79f",
+      "commit": "bd1f5c0",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
         "data/language-catalog.json",
         "data/mv-candidates-data.js",
         "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/quality-report.json"
+        "data/seo-status.json",
+        "data/site-updates-data.js",
+        "data/site-updates.json"
       ]
     },
     {
       "date": "2026-08-14",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "d51daef",
+      "commit": "08761a9",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "48e1317",
-      "files": [
-        "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "76b8ec9",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc",
-        "scripts/__pycache__/check-site-links.cpython-313.pyc"
       ]
     },
     {
