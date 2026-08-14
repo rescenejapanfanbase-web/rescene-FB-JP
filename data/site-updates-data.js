@@ -1,6 +1,22 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-14T07:46:49.820959+00:00",
+  "generatedAt": "2026-08-14T10:34:02.261355+00:00",
   "items": [
+    {
+      "date": "2026-08-14",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "68e8b6e",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
+        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
+        "scripts/__pycache__/check-external-links.cpython-313.pyc",
+        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc",
+        "scripts/__pycache__/check-site-links.cpython-313.pyc"
+      ]
+    },
     {
       "date": "2026-08-14",
       "title": "chore: critical full content sync",
@@ -15,6 +31,15 @@ window.RESCENE_SITE_UPDATES = {
         "data/mv-data.js",
         "data/mv.json",
         "data/quality-report.json"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "title": "chore: critical YouTube sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "d51daef",
+      "files": [
+        "data/youtube-channels.json"
       ]
     },
     {
