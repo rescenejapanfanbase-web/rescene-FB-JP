@@ -1,78 +1,53 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-15T13:45:28.639Z",
+  "generatedAt": "2026-08-15T13:57:32.237Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 26,
-      "totalSelections": 61,
+      "responseCount": 32,
+      "totalSelections": 79,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-15T13:43:00.000Z",
+      "lastResponseAt": "2026-08-15T13:55:00.000Z",
       "ranking": [
         {
           "name": "Cotton Candy",
-          "votes": 11,
-          "respondentRate": 42.3,
-          "selectionShare": 18
+          "votes": 14,
+          "respondentRate": 43.8,
+          "selectionShare": 17.7
         },
         {
           "name": "Deja Vu",
-          "votes": 10,
-          "respondentRate": 38.5,
-          "selectionShare": 16.4
+          "votes": 12,
+          "respondentRate": 37.5,
+          "selectionShare": 15.2
         },
         {
           "name": "LOVE ATTACK",
-          "votes": 8,
-          "respondentRate": 30.8,
-          "selectionShare": 13.1
-        },
-        {
-          "name": "Glow Up",
-          "votes": 4,
-          "respondentRate": 15.4,
-          "selectionShare": 6.6
+          "votes": 9,
+          "respondentRate": 28.1,
+          "selectionShare": 11.4
         },
         {
           "name": "Pinball",
-          "votes": 4,
-          "respondentRate": 15.4,
-          "selectionShare": 6.6
+          "votes": 6,
+          "respondentRate": 18.8,
+          "selectionShare": 7.6
+        },
+        {
+          "name": "Glow Up",
+          "votes": 5,
+          "respondentRate": 15.6,
+          "selectionShare": 6.3
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
         {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
+          "text": "生で聴くMVPがMVPです☺️",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         },
@@ -87,47 +62,12 @@ window.RESCENE_SURVEY_RESULTS = {
           "date": "2026-08-15"
         },
         {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
           "text": "甘くて美味しい",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         },
         {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
           "text": "全てメロディーが美しい",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         },
