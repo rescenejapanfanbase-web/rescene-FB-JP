@@ -1,8 +1,8 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-15T09:44:06.501Z",
+  "generatedAt": "2026-08-15T10:42:18.682Z",
   "source": "survey",
-"surveyTitle": "RESCENE好きな曲アンケート",
+  "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
