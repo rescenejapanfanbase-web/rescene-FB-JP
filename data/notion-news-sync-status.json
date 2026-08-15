@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-15T07:58:43.744Z",
+  "generatedAt": "2026-08-15T12:34:32.206Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 11,
-  "notionNews": 11,
-  "notionImages": 11,
+  "queriedPages": 12,
+  "notionNews": 12,
+  "notionImages": 12,
   "rows": [
     {
       "title": "「Pretty Girl」で4度目の1位を獲得！",
@@ -14,6 +14,17 @@
       "imageFilename": "29323829-7CA0-4D65-BCDB-2C6B7520FB1C.heic",
       "imagePath": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
       "imageBytes": 319897,
+      "imageContentType": "image/jpeg"
+    },
+    {
+      "title": "RESCENE好きな曲アンケートを実施！",
+      "pageId": "3ba229d2-19da-80ae-92dc-e17234a5e06b",
+      "lastEditedTime": "2026-08-15T12:33:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "IMG_9775.jpeg",
+      "imagePath": "assets/news/notion/notion-3ba229d219da80ae92dce17234a5e06b-89da53b66c86.jpg",
+      "imageBytes": 839550,
       "imageContentType": "image/jpeg"
     },
     {
