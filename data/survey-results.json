@@ -1,51 +1,66 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-15T19:37:52.781Z",
+  "generatedAt": "2026-08-15T20:42:02.472Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 84,
-      "totalSelections": 229,
+      "responseCount": 87,
+      "totalSelections": 234,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-15T18:58:00.000Z",
+      "lastResponseAt": "2026-08-15T20:40:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
           "votes": 32,
-          "respondentRate": 38.1,
-          "selectionShare": 14
+          "respondentRate": 36.8,
+          "selectionShare": 13.7
         },
         {
           "name": "Cotton Candy",
           "votes": 24,
-          "respondentRate": 28.6,
-          "selectionShare": 10.5
+          "respondentRate": 27.6,
+          "selectionShare": 10.3
         },
         {
           "name": "LOVE ATTACK",
-          "votes": 19,
-          "respondentRate": 22.6,
-          "selectionShare": 8.3
+          "votes": 20,
+          "respondentRate": 23,
+          "selectionShare": 8.5
         },
         {
           "name": "Bloom",
-          "votes": 17,
-          "respondentRate": 20.2,
-          "selectionShare": 7.4
+          "votes": 18,
+          "respondentRate": 20.7,
+          "selectionShare": 7.7
         },
         {
           "name": "Runaway",
           "votes": 14,
-          "respondentRate": 16.7,
-          "selectionShare": 6.1
+          "respondentRate": 16.1,
+          "selectionShare": 6
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "なんだかんだこれに戻ってきてしまう。",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "새 제출물",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
         {
           "text": "新規送信",
           "author": "匿名REMINE",
@@ -128,21 +143,6 @@
         },
         {
           "text": "聴いてて落ち着くのに、歌にどこか強さがあって心の中で盛り上がれる歌で大好きです🥹でも全部良曲すぎて選べません😭",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "初めてのサノクで発狂しまくりました",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "東京タワーで生で聴いた時感動やばかった！",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "syndromeのリリースと車の納車の時期が被って、初めてのドライブのお供曲たち",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
