@@ -1,51 +1,66 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-15T14:41:58.087Z",
+  "generatedAt": "2026-08-15T15:02:30.450Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 50,
-      "totalSelections": 129,
+      "responseCount": 54,
+      "totalSelections": 139,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-15T14:38:00.000Z",
+      "lastResponseAt": "2026-08-15T15:01:00.000Z",
       "ranking": [
         {
           "name": "Cotton Candy",
           "votes": 23,
-          "respondentRate": 46,
-          "selectionShare": 17.8
+          "respondentRate": 42.6,
+          "selectionShare": 16.5
         },
         {
           "name": "Deja Vu",
-          "votes": 15,
-          "respondentRate": 30,
-          "selectionShare": 11.6
+          "votes": 18,
+          "respondentRate": 33.3,
+          "selectionShare": 12.9
         },
         {
           "name": "LOVE ATTACK",
           "votes": 10,
-          "respondentRate": 20,
-          "selectionShare": 7.8
+          "respondentRate": 18.5,
+          "selectionShare": 7.2
         },
         {
           "name": "Runaway",
           "votes": 8,
-          "respondentRate": 16,
-          "selectionShare": 6.2
+          "respondentRate": 14.8,
+          "selectionShare": 5.8
         },
         {
-          "name": "New World",
-          "votes": 6,
-          "respondentRate": 12,
-          "selectionShare": 4.7
+          "name": "Bloom",
+          "votes": 7,
+          "respondentRate": 13,
+          "selectionShare": 5
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "Deja Vuの二段階サビが大大大大大好きです💚",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "一番好きな曲「Deja Vu」は、どこか懐かしさを感じさせてくれる曲。東京の多摩地域で撮影されたMVにも親近感！",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "YoYo-音楽センスの塊みたいな曲。メロディーももちろんいいけど、後ろで鳴ってるシンセの音が神。オシャレがすぎます。",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
         {
           "text": "聴いてて落ち着くのに、歌にどこか強さがあって心の中で盛り上がれる歌で大好きです🥹でも全部良曲すぎて選べません😭",
           "author": "匿名REMINE",
@@ -63,51 +78,6 @@
         },
         {
           "text": "syndromeのリリースと車の納車の時期が被って、初めてのドライブのお供曲たち",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         },
