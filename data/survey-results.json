@@ -1,51 +1,61 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-15T21:37:24.128Z",
+  "generatedAt": "2026-08-15T22:40:56.567Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 91,
-      "totalSelections": 243,
+      "responseCount": 94,
+      "totalSelections": 252,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-15T21:35:00.000Z",
+      "lastResponseAt": "2026-08-15T22:07:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
           "votes": 35,
-          "respondentRate": 38.5,
-          "selectionShare": 14.4
+          "respondentRate": 37.2,
+          "selectionShare": 13.9
         },
         {
           "name": "Cotton Candy",
-          "votes": 24,
-          "respondentRate": 26.4,
+          "votes": 25,
+          "respondentRate": 26.6,
           "selectionShare": 9.9
         },
         {
           "name": "LOVE ATTACK",
           "votes": 21,
-          "respondentRate": 23.1,
-          "selectionShare": 8.6
+          "respondentRate": 22.3,
+          "selectionShare": 8.3
         },
         {
           "name": "Bloom",
           "votes": 18,
-          "respondentRate": 19.8,
-          "selectionShare": 7.4
+          "respondentRate": 19.1,
+          "selectionShare": 7.1
         },
         {
           "name": "New World",
-          "votes": 14,
-          "respondentRate": 15.4,
-          "selectionShare": 5.8
+          "votes": 15,
+          "respondentRate": 16,
+          "selectionShare": 6
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "YoYoとUhUhが始まりであり至高だから。未だに初めて聞いたときの衝撃を超えてない。",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
         {
           "text": "新規送信",
           "author": "匿名REMINE",
@@ -133,16 +143,6 @@
         },
         {
           "text": "聴いてて落ち着くのに、歌にどこか強さがあって心の中で盛り上がれる歌で大好きです🥹でも全部良曲すぎて選べません😭",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "初めてのサノクで発狂しまくりました",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "東京タワーで生で聴いた時感動やばかった！",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
