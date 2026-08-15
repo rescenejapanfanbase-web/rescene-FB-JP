@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-08-08T08:30:32Z",
+  "generatedAt": "2026-08-15T08:04:11Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -1416,6 +1416,33 @@
         }
       ],
       "default": "assets/optimized/1e87bf5496c7642b/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf54-w957.webp"
+    },
+    "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg": {
+      "asset": "b300ab472a70a6fc",
+      "originalBytes": 319897,
+      "width": 1991,
+      "height": 1179,
+      "variants": [
+        {
+          "src": "assets/optimized/b300ab472a70a6fc/notion-3bd229d219da80079890d3d2818f7a01-b300ab47-w480.webp",
+          "width": 480,
+          "height": 284,
+          "bytes": 34062
+        },
+        {
+          "src": "assets/optimized/b300ab472a70a6fc/notion-3bd229d219da80079890d3d2818f7a01-b300ab47-w768.webp",
+          "width": 768,
+          "height": 455,
+          "bytes": 66432
+        },
+        {
+          "src": "assets/optimized/b300ab472a70a6fc/notion-3bd229d219da80079890d3d2818f7a01-b300ab47-w1440.webp",
+          "width": 1440,
+          "height": 853,
+          "bytes": 131496
+        }
+      ],
+      "default": "assets/optimized/b300ab472a70a6fc/notion-3bd229d219da80079890d3d2818f7a01-b300ab47-w1440.webp"
     },
     "assets/platform-icons/apple-music.png": {
       "asset": "dfbcce2c96eda8d7",
@@ -10764,6 +10791,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/b15a7cabad71cfed/debut-2nd-anniversary-w1440.webp"
+    },
+    "b300ab472a70a6fc": {
+      "hash": "b300ab472a70a6fca247d28efd125557346780ef21644ca32247935d3493fdc1",
+      "width": 1991,
+      "height": 1179,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/b300ab472a70a6fc/notion-3bd229d219da80079890d3d2818f7a01-b300ab47-w480.webp",
+          "width": 480,
+          "height": 284,
+          "bytes": 34062
+        },
+        {
+          "src": "assets/optimized/b300ab472a70a6fc/notion-3bd229d219da80079890d3d2818f7a01-b300ab47-w768.webp",
+          "width": 768,
+          "height": 455,
+          "bytes": 66432
+        },
+        {
+          "src": "assets/optimized/b300ab472a70a6fc/notion-3bd229d219da80079890d3d2818f7a01-b300ab47-w1440.webp",
+          "width": 1440,
+          "height": 853,
+          "bytes": 131496
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/b300ab472a70a6fc/notion-3bd229d219da80079890d3d2818f7a01-b300ab47-w1440.webp"
     },
     "b3d23cc923724311": {
       "hash": "b3d23cc92372431197389a39c83806dde9f08ddbeacd6c01eb0d89ae0e006540",
