@@ -1,63 +1,53 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-15T22:40:56.567Z",
+  "generatedAt": "2026-08-15T23:36:41.495Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 94,
-      "totalSelections": 252,
+      "responseCount": 97,
+      "totalSelections": 259,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-15T22:07:00.000Z",
+      "lastResponseAt": "2026-08-15T23:29:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
-          "votes": 35,
-          "respondentRate": 37.2,
+          "votes": 36,
+          "respondentRate": 37.1,
           "selectionShare": 13.9
         },
         {
           "name": "Cotton Candy",
-          "votes": 25,
-          "respondentRate": 26.6,
-          "selectionShare": 9.9
+          "votes": 26,
+          "respondentRate": 26.8,
+          "selectionShare": 10
         },
         {
           "name": "LOVE ATTACK",
-          "votes": 21,
-          "respondentRate": 22.3,
-          "selectionShare": 8.3
+          "votes": 22,
+          "respondentRate": 22.7,
+          "selectionShare": 8.5
         },
         {
           "name": "Bloom",
-          "votes": 18,
-          "respondentRate": 19.1,
-          "selectionShare": 7.1
+          "votes": 19,
+          "respondentRate": 19.6,
+          "selectionShare": 7.3
         },
         {
-          "name": "New World",
-          "votes": 15,
-          "respondentRate": 16,
-          "selectionShare": 6
+          "name": "Runaway",
+          "votes": 17,
+          "respondentRate": 17.5,
+          "selectionShare": 6.6
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
         {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
           "text": "YoYoとUhUhが始まりであり至高だから。未だに初めて聞いたときの衝撃を超えてない。",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "新規送信",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         },
@@ -143,6 +133,16 @@ window.RESCENE_SURVEY_RESULTS = {
         },
         {
           "text": "聴いてて落ち着くのに、歌にどこか強さがあって心の中で盛り上がれる歌で大好きです🥹でも全部良曲すぎて選べません😭",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "初めてのサノクで発狂しまくりました",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "東京タワーで生で聴いた時感動やばかった！",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
