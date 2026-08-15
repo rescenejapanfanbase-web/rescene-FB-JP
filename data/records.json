@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T08:03:54.456Z",
+  "generatedAt": "2026-08-15T08:28:33.881Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -59,6 +59,20 @@
       "translations": {},
       "notionPageId": "3b6229d2-19da-8002-984b-d7d2c17b8d6e",
       "notionUrl": "https://app.notion.com/p/2026-08-08-Pretty-Girl-SHOW-3b6229d219da8002984bd7d2c17b8d6e"
+    },
+    {
+      "title": "2026.08.15 Pretty Girl — SHOW! 音楽中心",
+      "song": "Pretty Girl",
+      "date": "2026-08-15",
+      "program": "SHOW! 音楽中心",
+      "description": "2026年8月15日放送のSHOW!音楽中心にてPretty Girl 4冠目の1位を獲得。グループ通算5冠目。",
+      "videoUrl": "",
+      "videoLabel": "",
+      "image": "assets/records/notion/record-3bd229d219da8099b4dedd05ce997932-b300ab472a70.jpg",
+      "order": 9999,
+      "translations": {},
+      "notionPageId": "3bd229d2-19da-8099-b4de-dd05ce997932",
+      "notionUrl": "https://app.notion.com/p/2026-08-15-Pretty-Girl-SHOW-3bd229d219da8099b4dedd05ce997932"
     }
   ],
   "melonRecords": [
@@ -214,7 +228,7 @@
       "mvUrl": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
       "image": "assets/records/notion/record-3a8229d219da808f8987fa4744ed3cd4-ca377427c398.jpg",
       "order": 9999,
-      "source": "manual-fallback",
+      "source": "notion",
       "translations": {
         "ko": {
           "title": "Deja Vu — Melon 차트",
