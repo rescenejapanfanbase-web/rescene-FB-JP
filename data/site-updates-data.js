@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-15T14:32:12.272495+00:00",
+  "generatedAt": "2026-08-15T16:36:45.223858+00:00",
   "items": [
     {
       "date": "2026-08-15",
@@ -12,25 +12,9 @@ window.RESCENE_SITE_UPDATES = {
     },
     {
       "date": "2026-08-15",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "dcb5267",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc",
-        "scripts/__pycache__/check-site-links.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-08-15",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "df1fa5a",
+      "commit": "086b019",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -39,14 +23,14 @@ window.RESCENE_SITE_UPDATES = {
         "data/mv-candidates.json",
         "data/mv-data.js",
         "data/mv.json",
-        "data/quality-report.json"
+        "data/notion-records-sync-status.json"
       ]
     },
     {
       "date": "2026-08-15",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "11f9f1c",
+      "commit": "9dbd208",
       "files": [
         "data/youtube-channels.json"
       ]
