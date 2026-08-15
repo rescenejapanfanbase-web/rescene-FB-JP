@@ -27,7 +27,7 @@
     const host = $("#surveyRanking");
     const empty = $("#surveyRankingEmpty");
     host.replaceChildren();
-    const rows = Array.isArray(campaign?.ranking) ? campaign.ranking : [];
+    const rows = Array.isArray(campaign?.ranking) ? campaign.ranking.slice(0, 5) : [];
     hidden(empty, rows.length > 0);
     if (!rows.length) return;
     const maxVotes = Math.max(...rows.map((item) => Number(item.votes || 0)), 1);
@@ -40,8 +40,7 @@
       top.append(node("strong", "survey-rank-song", item.name || "—"), node("span", "survey-rank-votes", `${number(item.votes)}票 · 選択率 ${percent(item.respondentRate)}`));
       const track = document.createElement("div"); track.className = "survey-rank-track";
       const fill = document.createElement("span"); fill.className = "survey-rank-fill"; fill.style.width = `${Math.max(2, (Number(item.votes || 0) / maxVotes) * 100)}%`; track.append(fill);
-      const sub = node("div", "survey-rank-sub", config.showSelectionShare !== false ? `全選択票に占める割合 ${percent(item.selectionShare)}` : "");
-      body.append(top, track, sub); row.append(rank, body); host.append(row);
+body.append(top, track); row.append(rank, body); host.append(row);
     });
   }
   function ratings(campaign) {
@@ -81,8 +80,7 @@
   }
   function campaign(campaign, config, payload) {
     $("#surveyResponseCount").textContent = number(campaign?.responseCount);
-    $("#surveySelectionCount").textContent = number(campaign?.totalSelections);
-    $("#surveyLastSync").textContent = dateTime(payload.generatedAt);
+$("#surveyLastSync").textContent = dateTime(payload.generatedAt);
     $("#surveyLastResponse").textContent = campaign?.lastResponseAt ? dateTime(campaign.lastResponseAt) : "—";
     $("#surveyRankingTitle").textContent = config.rankingTitle || "好きな曲ランキング";
     $("#surveyRankingDescription").textContent = config.rankingDescription || "回答者が選択した楽曲を集計しています。";

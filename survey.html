@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/survey.css">
 <title>アンケート | RESCENE JAPAN FANBASE</title>
-<meta name="description" content="RESCENE JAPAN FANBASEのアンケート結果をNotion回答から自動集計し、好きな曲ランキングや評価、掲載許可済みコメントを表示します。">
+<meta name="description" content="RESCENE JAPAN FANBASEのアンケート結果から、好きな曲ランキング上位5曲や掲載許可済みのコメントを紹介します。">
 <!-- SEO-AUTO-START -->
 <link rel="canonical" href="https://rescene-fb.jp/survey.html">
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -19,7 +19,7 @@
 <meta property="og:locale" content="ja_JP">
 <meta property="og:type" content="website">
 <meta property="og:title" content="アンケート | RESCENE JAPAN FANBASE">
-<meta property="og:description" content="RESCENE JAPAN FANBASEのアンケート結果をNotion回答から自動集計し、好きな曲ランキングや評価、掲載許可済みコメントを表示します。">
+<meta property="og:description" content="RESCENE JAPAN FANBASEのアンケート結果から、好きな曲ランキング上位5曲や掲載許可済みのコメントを紹介します。">
 <meta property="og:url" content="https://rescene-fb.jp/survey.html">
 <meta property="og:image" content="https://rescene-fb.jp/assets/ogp/survey.jpg">
 <meta property="og:image:width" content="1200">
@@ -27,10 +27,10 @@
 <meta property="og:image:alt" content="アンケート | RESCENE JAPAN FANBASE">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="アンケート | RESCENE JAPAN FANBASE">
-<meta name="twitter:description" content="RESCENE JAPAN FANBASEのアンケート結果をNotion回答から自動集計し、好きな曲ランキングや評価、掲載許可済みコメントを表示します。">
+<meta name="twitter:description" content="RESCENE JAPAN FANBASEのアンケート結果から、好きな曲ランキング上位5曲や掲載許可済みのコメントを紹介します。">
 <meta name="twitter:image" content="https://rescene-fb.jp/assets/ogp/survey.jpg">
 <meta name="twitter:image:alt" content="アンケート | RESCENE JAPAN FANBASE">
-<script type="application/ld+json" data-seo-structured>{"@context":"https://schema.org","@type":"WebPage","@id":"https://rescene-fb.jp/survey.html#webpage","url":"https://rescene-fb.jp/survey.html","name":"アンケート | RESCENE JAPAN FANBASE","description":"RESCENE JAPAN FANBASEのアンケート結果をNotion回答から自動集計し、好きな曲ランキングや評価、掲載許可済みコメントを表示します。","inLanguage":"ja-JP","isPartOf":{"@id":"https://rescene-fb.jp/#website"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://rescene-fb.jp/assets/ogp/survey.jpg","width":1200,"height":630},"breadcrumb":{"@id":"https://rescene-fb.jp/survey.html#breadcrumb"}}</script>
+<script type="application/ld+json" data-seo-structured>{"@context":"https://schema.org","@type":"WebPage","@id":"https://rescene-fb.jp/survey.html#webpage","url":"https://rescene-fb.jp/survey.html","name":"アンケート | RESCENE JAPAN FANBASE","description":"RESCENE JAPAN FANBASEのアンケート結果から、好きな曲ランキング上位5曲や掲載許可済みのコメントを紹介します。","inLanguage":"ja-JP","isPartOf":{"@id":"https://rescene-fb.jp/#website"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://rescene-fb.jp/assets/ogp/survey.jpg","width":1200,"height":630},"breadcrumb":{"@id":"https://rescene-fb.jp/survey.html#breadcrumb"}}</script>
 <script type="application/ld+json" data-seo-structured>{"@context":"https://schema.org","@type":"BreadcrumbList","@id":"https://rescene-fb.jp/survey.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://rescene-fb.jp/"},{"@type":"ListItem","position":2,"name":"アンケート","item":"https://rescene-fb.jp/survey.html"}]}</script>
 <!-- SEO-AUTO-END -->
 
@@ -64,10 +64,9 @@
 <section class="page-header section" id="top">
   <span class="page-kicker">FAN SURVEY</span>
   <h1 id="surveyTitle">RESCENE アンケート</h1>
-  <p>REMINEの皆さんから届いた回答をNotionから自動集計し、結果を公開しています。</p>
+  <p>REMINEの皆さんから届いた回答を集計し、結果を公開しています。</p>
   <div class="survey-hero-grid" aria-label="アンケート集計概要">
     <article class="card survey-stat-card"><small>RESPONSES</small><strong id="surveyResponseCount">—</strong><span>回答数</span></article>
-    <article class="card survey-stat-card"><small>SELECTIONS</small><strong id="surveySelectionCount">—</strong><span>楽曲選択数</span></article>
     <article class="card survey-stat-card"><small>LAST RESPONSE</small><strong id="surveyLastResponse">—</strong><span>最新回答</span></article>
     <article class="card survey-stat-card"><small>LAST SYNC</small><strong id="surveyLastSync">—</strong><span>最終集計</span></article>
   </div>
@@ -75,7 +74,7 @@
 
 <section class="section" id="surveyFormCta" hidden>
   <div class="card survey-form-cta">
-    <div class="survey-form-copy"><span class="survey-form-status" id="surveyFormStatus">現在受付中</span><strong>あなたの回答もぜひ教えてください！</strong><p>回答はNotionフォームから送信できます。</p></div>
+    <div class="survey-form-copy"><span class="survey-form-status" id="surveyFormStatus">現在受付中</span><strong>あなたの回答もぜひ教えてください！</strong><p>回答フォームから送信できます。</p></div>
     <a class="btn btn-primary" id="surveyFormButton" href="#" target="_blank" rel="noopener noreferrer">アンケートに回答する</a>
   </div>
 </section>
@@ -92,11 +91,11 @@
 <section class="section" id="surveyRatingsSection" hidden aria-labelledby="surveyRatingsTitle"><div class="section-head"><div><span class="section-kicker">RATINGS</span><h2 class="section-title" id="surveyRatingsTitle">平均評価</h2></div></div><div class="survey-rating-grid" id="surveyRatings"></div></section>
 <section class="section" id="surveyMembersSection" hidden aria-labelledby="surveyMembersTitle"><div class="section-head"><div><span class="section-kicker">MEMBER PICK</span><h2 class="section-title" id="surveyMembersTitle">推しメンバー</h2></div></div><div class="survey-member-list" id="surveyMembers"></div></section>
 <section class="section" id="surveyCommentsSection" hidden aria-labelledby="surveyCommentsTitle"><div class="section-head"><div><span class="section-kicker">REMINE VOICE</span><h2 class="section-title" id="surveyCommentsTitle">みんなのコメント</h2></div><p class="section-note">「サイト掲載許可」がONの回答のみ掲載します。</p></div><div class="survey-comments" id="surveyComments"></div></section>
-<section class="section" aria-labelledby="surveyMethodTitle"><div class="section-head"><div><span class="section-kicker">ABOUT DATA</span><h2 class="section-title" id="surveyMethodTitle">集計について</h2></div></div><div class="card survey-method-card"><p><strong>ランキング：</strong>複数選択の場合も、同じ回答内の1曲を1票として集計します。「選択率」は回答者のうち何%がその曲を選んだかを表します。</p><p><strong>プライバシー：</strong>公開用データには回答者ごとの生データを保存しません。自由コメントは「サイト掲載許可」がONの場合だけ公開用JSONへ出力します。</p><p><strong>更新：</strong>GitHub ActionsがNotionの回答を定期取得し、集計データだけを静的ファイルへ反映します。</p></div></section>
+<section class="section" aria-labelledby="surveyMethodTitle"><div class="section-head"><div><span class="section-kicker">ABOUT RESULTS</span><h2 class="section-title" id="surveyMethodTitle">集計について</h2></div></div><div class="card survey-method-card"><p><strong>ランキング：</strong>アンケートで選ばれた楽曲を1曲につき1票として集計し、得票数上位5曲を掲載しています。「選択率」は回答者のうち何%がその曲を選んだかを表します。</p><p><strong>コメント：</strong>自由コメントは「サイト掲載許可」がある回答のみ掲載しています。</p><p><strong>更新：</strong>結果は定期的に集計・更新しています。回答後、反映まで時間がかかる場合があります。</p></div></section>
 </main>
 
 <!-- SITE-FOOTER-START -->
-<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="favorites.html">FAVORITES</a><a href="updates.html">UPDATES</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">アンケート結果はNotionの回答を自動集計して表示しています。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
+<footer class="site-footer"><div class="footer-inner"><div><strong>RESCENE JAPAN FANBASE</strong><p>RESCENEを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="favorites.html">FAVORITES</a><a href="updates.html">UPDATES</a><a href="sync-status.html">SYNC STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">アンケート結果は定期的に集計・更新しています。 © <span data-year></span> RESCENE JAPAN FANBASE</div></footer>
 <!-- SITE-FOOTER-END -->
 <script src="data/homepage-data.js"></script>
 <script src="js/common.js"></script>

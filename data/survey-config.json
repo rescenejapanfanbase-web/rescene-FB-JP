@@ -7,7 +7,7 @@
   "formStatus": "open",
   "updateIntervalMinutes": 60,
   "rankingTitle": "好きな曲ランキング",
-  "rankingDescription": "回答者が選んだ楽曲を1曲につき1票として集計します。複数選択式のため、選択率の合計は100%を超える場合があります。",
+  "rankingDescription": "アンケートで選ばれた楽曲のうち、得票数上位5曲を掲載しています。",
   "songFieldCandidates": [
     "好きな曲",
     "対象作品"
@@ -63,6 +63,6 @@
     "[TEST]",
     "【TEST】"
   ],
-  "showSelectionShare": true,
+  "showSelectionShare": false,
   "privacyMode": "permission-only"
 }

@@ -157,7 +157,7 @@ const publicCampaigns = [...campaigns.values()].map((campaign) => {
     name, votes,
     respondentRate: campaign.responseCount ? round((votes / campaign.responseCount) * 100, 1) : 0,
     selectionShare: campaign.totalSelections ? round((votes / campaign.totalSelections) * 100, 1) : 0,
-  })).sort((a, b) => b.votes - a.votes || a.name.localeCompare(b.name, "ja"));
+  })).sort((a, b) => b.votes - a.votes || a.name.localeCompare(b.name, "ja")).slice(0, 5);
   const ratings = [...campaign.ratingValues.values()].map((rating) => ({
     key: rating.key,
     label: rating.label,
@@ -179,8 +179,7 @@ const activeCampaign = publicCampaigns.some((item) => item.name === configuredAc
 const payload = {
   version: 1,
   generatedAt: new Date().toISOString(),
-  source: "notion",
-  dataSourceId,
+  source: "survey",
   surveyTitle: String(config.surveyTitle || "RESCENE アンケート"),
   activeCampaign,
   campaigns: publicCampaigns,
@@ -193,4 +192,4 @@ const payload = {
 };
 await writeFile(OUTPUT_JSON, JSON.stringify(payload, null, 2) + "\n", "utf8");
 await writeFile(OUTPUT_JS, `window.RESCENE_SURVEY_RESULTS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
-console.log(`Notionアンケート集計完了: ${publicCampaigns.length}企画 / ${publicCampaigns.reduce((sum, item) => sum + item.responseCount, 0)}回答 / ${publicCampaigns.reduce((sum, item) => sum + item.totalSelections, 0)}楽曲選択`);
+console.log(`アンケート集計完了: ${publicCampaigns.length}企画 / ${publicCampaigns.reduce((sum, item) => sum + item.responseCount, 0)}回答 / ${publicCampaigns.reduce((sum, item) => sum + item.totalSelections, 0)}楽曲選択`);

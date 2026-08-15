@@ -18,7 +18,7 @@ def patch_seo() -> bool:
     marker = '    "streaming.html": {\n'
     block = '''    "survey.html": {
         "title": f"アンケート | {SITE_NAME}",
-        "description": "RESCENE JAPAN FANBASEのアンケート結果をNotion回答から自動集計し、好きな曲ランキングや評価、掲載許可済みコメントを表示します。",
+        "description": "RESCENE JAPAN FANBASEのアンケート結果から、好きな曲ランキング上位5曲や掲載許可済みのコメントを紹介します。",
         "image": "assets/group/rescene-group.jpg",
         "label": "FAN SURVEY",
         "priority": "0.7",
@@ -31,7 +31,7 @@ def patch_navigation() -> bool:
     path = ROOT / 'scripts' / 'sync-site-shell.py'
     old = '    source=items if isinstance(items,list) and items else DEFAULT_NAVIGATION\n'
     new = '''    source=list(items) if isinstance(items,list) and items else list(DEFAULT_NAVIGATION)
-    # アンケートはサイト機能として常設。Notion側に同じリンクが追加された場合は重複させません。
+    # アンケートはサイト機能として常設。同じリンクが追加された場合は重複させません。
     if not any(str(item.get("linkUrl") or "").strip().split("#")[0]=="survey.html" for item in source if isinstance(item,dict)):
         source.append({
             "heading":"アンケート",
@@ -51,7 +51,7 @@ def patch_navigation() -> bool:
         if footer_marker in source:
             source = source.replace(
                 footer_marker,
-                footer_marker + "            'survey.html':'アンケート結果はNotionの回答を自動集計して表示しています。',\n",
+                footer_marker + "            'survey.html':'アンケート結果は定期的に集計・更新しています。',\n",
                 1,
             )
             path.write_text(source, encoding='utf-8')

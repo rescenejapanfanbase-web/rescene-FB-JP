@@ -126,7 +126,7 @@ PAGE_META = {
     },
     "survey.html": {
         "title": f"アンケート | {SITE_NAME}",
-        "description": "RESCENE JAPAN FANBASEのアンケート結果をNotion回答から自動集計し、好きな曲ランキングや評価、掲載許可済みコメントを表示します。",
+        "description": "RESCENE JAPAN FANBASEのアンケート結果から、好きな曲ランキング上位5曲や掲載許可済みのコメントを紹介します。",
         "image": "assets/group/rescene-group.jpg",
         "label": "FAN SURVEY",
         "priority": "0.7",
