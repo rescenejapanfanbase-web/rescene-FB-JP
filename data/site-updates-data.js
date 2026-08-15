@@ -1,20 +1,13 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-15T12:55:36.132675+00:00",
+  "generatedAt": "2026-08-15T14:32:12.272495+00:00",
   "items": [
     {
       "date": "2026-08-15",
       "title": "chore: refine public survey display",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "c8ab6bf",
+      "commit": "7c09723",
       "files": [
-        "css/survey.css",
-        "data/seo-status.json",
-        "data/survey-config.json",
-        "data/survey-results-data.js",
-        "data/survey-results.json",
-        "js/survey.js",
-        "scripts/generate-seo.py",
-        "scripts/install-survey-integration.py"
+        "data/seo-status.json"
       ]
     },
     {
@@ -53,7 +46,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-08-15",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "eb4a5cf",
+      "commit": "11f9f1c",
       "files": [
         "data/youtube-channels.json"
       ]

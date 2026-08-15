@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-08-15T12:55:26.681Z",
+  "generatedAt": "2026-08-15T14:32:02.925Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -65,7 +65,7 @@ window.RESCENE_RECORDS = {
       "song": "Pretty Girl",
       "date": "2026-08-15",
       "program": "SHOW! 音楽中心",
-      "description": "2026年8月15日放送のSHOW!音楽中心にてPretty Girl 4冠目の1位を獲得。グループ通算5冠目。",
+      "description": "2026年8月15日放送のSHOW!音楽中心にてPretty Girl4冠目の1位を獲得。\nグループ初のトリプルクラウン達成。グループ通算5冠目。",
       "videoUrl": "",
       "videoLabel": "",
       "image": "assets/records/notion/record-3bd229d219da8099b4dedd05ce997932-b300ab472a70.jpg",
@@ -228,7 +228,7 @@ window.RESCENE_RECORDS = {
       "mvUrl": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
       "image": "assets/records/notion/record-3a8229d219da808f8987fa4744ed3cd4-ca377427c398.jpg",
       "order": 9999,
-      "source": "notion",
+      "source": "manual-fallback",
       "translations": {
         "ko": {
           "title": "Deja Vu — Melon 차트",
