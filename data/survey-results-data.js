@@ -1,46 +1,46 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-15T17:38:22.223Z",
+  "generatedAt": "2026-08-15T18:49:31.103Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 79,
-      "totalSelections": 214,
+      "responseCount": 82,
+      "totalSelections": 223,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-15T17:25:00.000Z",
+      "lastResponseAt": "2026-08-15T18:12:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
           "votes": 32,
-          "respondentRate": 40.5,
-          "selectionShare": 15
+          "respondentRate": 39,
+          "selectionShare": 14.3
         },
         {
           "name": "Cotton Candy",
           "votes": 24,
-          "respondentRate": 30.4,
-          "selectionShare": 11.2
+          "respondentRate": 29.3,
+          "selectionShare": 10.8
+        },
+        {
+          "name": "LOVE ATTACK",
+          "votes": 18,
+          "respondentRate": 22,
+          "selectionShare": 8.1
         },
         {
           "name": "Bloom",
           "votes": 17,
-          "respondentRate": 21.5,
-          "selectionShare": 7.9
+          "respondentRate": 20.7,
+          "selectionShare": 7.6
         },
         {
-          "name": "LOVE ATTACK",
-          "votes": 17,
-          "respondentRate": 21.5,
-          "selectionShare": 7.9
-        },
-        {
-          "name": "New World",
+          "name": "Busy Boy",
           "votes": 12,
-          "respondentRate": 15.2,
-          "selectionShare": 5.6
+          "respondentRate": 14.6,
+          "selectionShare": 5.4
         }
       ],
       "ratings": [],
