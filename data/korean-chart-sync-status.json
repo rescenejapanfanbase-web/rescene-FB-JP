@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T21:34:43+09:00",
+  "generatedAt": "2026-08-15T21:54:52+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
@@ -22,8 +22,8 @@
       "chartName": "FLO Chart",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-15T21:34:43+09:00",
-      "lastSuccessAt": "2026-08-15T21:34:43+09:00",
+      "lastAttemptAt": "2026-08-15T21:54:52+09:00",
+      "lastSuccessAt": "2026-08-15T21:54:52+09:00",
       "chartAt": "2026-08-15T21:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
@@ -37,8 +37,8 @@
       "chartName": "Bugs Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-15T21:34:43+09:00",
-      "lastSuccessAt": "2026-08-15T21:34:43+09:00",
+      "lastAttemptAt": "2026-08-15T21:54:52+09:00",
+      "lastSuccessAt": "2026-08-15T21:54:52+09:00",
       "chartAt": "2026-08-15T21:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
@@ -52,8 +52,8 @@
       "chartName": "Melon TOP100",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-15T21:34:43+09:00",
-      "lastSuccessAt": "2026-08-15T21:34:43+09:00",
+      "lastAttemptAt": "2026-08-15T21:54:52+09:00",
+      "lastSuccessAt": "2026-08-15T21:54:52+09:00",
       "chartAt": "2026-08-15T21:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 4,
@@ -68,8 +68,8 @@
       "chartName": "Genie Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-15T21:34:43+09:00",
-      "lastSuccessAt": "2026-08-15T21:34:43+09:00",
+      "lastAttemptAt": "2026-08-15T21:54:52+09:00",
+      "lastSuccessAt": "2026-08-15T21:54:52+09:00",
       "chartAt": "2026-08-15T21:00:00+09:00",
       "itemCount": 200,
       "matchedCount": 4,
@@ -209,19 +209,19 @@
     }
   },
   "automation": {
-    "eventName": "notion-news-integration",
-    "scheduled": false,
-    "schedule": "stale-check-after-news-sync",
+    "eventName": "schedule",
+    "scheduled": true,
+    "schedule": "7 * * * *",
     "resolvedCharts": [
       "melon",
       "genie",
       "bugs",
       "flo"
     ],
-    "runId": "31884925921",
-    "runNumber": "29",
+    "runId": "31885799931",
+    "runNumber": "242",
     "runAttempt": "1",
-    "sha": "c51d642549dd4774aedf594ffa58307d981c4668",
-    "completedAt": "2026-08-15T21:34:45+09:00"
+    "sha": "9cc2dd6bb608209e2dfbbf2b7a3706778f30d9c9",
+    "completedAt": "2026-08-15T21:54:57+09:00"
   }
 }
