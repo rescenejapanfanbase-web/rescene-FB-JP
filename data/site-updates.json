@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-08-15T08:04:02.879001+00:00",
+  "generatedAt": "2026-08-15T10:32:11.347810+00:00",
   "items": [
+    {
+      "date": "2026-08-15",
+      "title": "chore: refine public survey display",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "c8ab6bf",
+      "files": [
+        "css/survey.css",
+        "data/seo-status.json",
+        "data/survey-config.json",
+        "data/survey-results-data.js",
+        "data/survey-results.json",
+        "js/survey.js",
+        "scripts/generate-seo.py",
+        "scripts/install-survey-integration.py"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "dcb5267",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
+        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
+        "scripts/__pycache__/check-external-links.cpython-313.pyc",
+        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc",
+        "scripts/__pycache__/check-site-links.cpython-313.pyc"
+      ]
+    },
     {
       "date": "2026-08-15",
       "title": "chore: critical full content sync",
@@ -18,19 +50,22 @@
       ]
     },
     {
-      "date": "2026-08-14",
-      "title": "chore: critical full content sync",
+      "date": "2026-08-15",
+      "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "329695e",
+      "commit": "530570d",
       "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/quality-report.json"
+        "data/youtube-channels.json"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Add files via upload",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "fe31582",
+      "files": [
+        "README.txt",
+        "scripts/apply-survey-public-ui.py"
       ]
     },
     {
