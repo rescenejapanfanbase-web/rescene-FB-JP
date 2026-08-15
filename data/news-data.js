@@ -18,7 +18,7 @@ window.RESCENE_NEWS = [
     "label": "5th WIN",
     "title": "「Pretty Girl」で4度目の1位を獲得！",
     "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
-    "body": "2026年8月15日放送のMBC「SHOW!音楽中心」で「Pretty Girl」で4度目の1位を獲得しました。\n「Pretty Girl」では通算4冠目、グループとして通算5冠目となりました。",
+    "body": "2026年8月15日放送のMBC「SHOW!音楽中心」で「Pretty Girl」で4度目の1位を獲得しました。\nグループ初のトリプルクラウン達成。\n「Pretty Girl」では通算4冠目、グループとして通算5冠目となりました。",
     "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
     "sourceLink": "",
     "sourceLabel": "",
