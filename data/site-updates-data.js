@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-15T16:36:45.223858+00:00",
+  "generatedAt": "2026-08-15T18:43:42.236454+00:00",
   "items": [
     {
       "date": "2026-08-15",
@@ -33,16 +33,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "9dbd208",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "title": "Add files via upload",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "fe31582",
-      "files": [
-        "README.txt",
-        "scripts/apply-survey-public-ui.py"
       ]
     },
     {
