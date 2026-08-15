@@ -1,51 +1,71 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-15T15:02:30.450Z",
+  "generatedAt": "2026-08-15T15:38:16.725Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 54,
-      "totalSelections": 139,
+      "responseCount": 62,
+      "totalSelections": 163,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-15T15:01:00.000Z",
+      "lastResponseAt": "2026-08-15T15:37:00.000Z",
       "ranking": [
         {
           "name": "Cotton Candy",
           "votes": 23,
-          "respondentRate": 42.6,
-          "selectionShare": 16.5
+          "respondentRate": 37.1,
+          "selectionShare": 14.1
         },
         {
           "name": "Deja Vu",
-          "votes": 18,
-          "respondentRate": 33.3,
-          "selectionShare": 12.9
+          "votes": 23,
+          "respondentRate": 37.1,
+          "selectionShare": 14.1
         },
         {
           "name": "LOVE ATTACK",
-          "votes": 10,
-          "respondentRate": 18.5,
-          "selectionShare": 7.2
-        },
-        {
-          "name": "Runaway",
-          "votes": 8,
-          "respondentRate": 14.8,
-          "selectionShare": 5.8
+          "votes": 12,
+          "respondentRate": 19.4,
+          "selectionShare": 7.4
         },
         {
           "name": "Bloom",
-          "votes": 7,
-          "respondentRate": 13,
-          "selectionShare": 5
+          "votes": 10,
+          "respondentRate": 16.1,
+          "selectionShare": 6.1
+        },
+        {
+          "name": "Busy Boy",
+          "votes": 9,
+          "respondentRate": 14.5,
+          "selectionShare": 5.5
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "新的提交内容",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "Deja Vuは、良すぎる",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "Heart Dropはもっと評価されても良い曲。Instが好きすぎる",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "RunawayはRESCENEの曲の中でも一番好きな曲です！裏メロが綺麗で何度も聴きたくなって毎日聴いています。Bloomは第三世代のKPOPの曲のような雰囲気と、曲の始まりの部分がすごく好きです。Deja Vuは曲ももちろんですが、聴くとつい掛け声がしたくなります。ライブで聴きたい曲の一つです。",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
         {
           "text": "Deja Vuの二段階サビが大大大大大好きです💚",
           "author": "匿名REMINE",
