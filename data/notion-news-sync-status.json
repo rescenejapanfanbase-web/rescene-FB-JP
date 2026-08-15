@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-08-08T08:51:24.806Z",
+  "generatedAt": "2026-08-15T07:58:43.744Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 10,
-  "notionNews": 10,
-  "notionImages": 10,
+  "queriedPages": 11,
+  "notionNews": 11,
+  "notionImages": 11,
   "rows": [
+    {
+      "title": "「Pretty Girl」で4度目の1位を獲得！",
+      "pageId": "3bd229d2-19da-8007-9890-d3d2818f7a01",
+      "lastEditedTime": "2026-08-15T07:57:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "29323829-7CA0-4D65-BCDB-2C6B7520FB1C.heic",
+      "imagePath": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
+      "imageBytes": 319897,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "「Pretty Girl」で3度目の1位を獲得！",
       "pageId": "3b6229d2-19da-8052-9093-fcf2e88c9a20",

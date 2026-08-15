@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "pretty-girl-4-1-d2818f7a01",
+    "date": "2026.08.15",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "5th WIN",
+    "title": "「Pretty Girl」で4度目の1位を獲得！",
+    "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
+    "body": "2026年8月15日放送のMBC「SHOW!音楽中心」で「Pretty Girl」で4度目の1位を獲得しました。\n「Pretty Girl」では通算4冠目、グループとして通算5冠目となりました。",
+    "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
+    "sourceLink": "",
+    "sourceLabel": "",
+    "translations": {},
+    "notionPageId": "3bd229d2-19da-8007-9890-d3d2818f7a01",
+    "notionUrl": "https://app.notion.com/p/Pretty-Girl-4-1-3bd229d219da80079890d3d2818f7a01"
+  },
+  {
     "slug": "pretty-girl-3-1-f2e88c9a20",
     "date": "2026.08.08",
     "category": "notice",
