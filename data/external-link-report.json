@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-14T20:58:45Z",
-  "startedAt": "2026-08-14T20:58:40Z",
-  "elapsedSeconds": 4.55,
+  "generatedAt": "2026-08-15T20:51:23Z",
+  "startedAt": "2026-08-15T20:51:17Z",
+  "elapsedSeconds": 5.98,
   "summary": {
-    "checked": 81,
-    "ok": 79,
+    "checked": 82,
+    "ok": 80,
     "warning": 2,
     "broken": 0,
-    "hosts": 17
+    "hosts": 18
   },
   "services": [
     {
@@ -30,8 +30,8 @@
     {
       "key": "other",
       "label": "analytics.google.com",
-      "checked": 3,
-      "ok": 3,
+      "checked": 4,
+      "ok": 4,
       "warning": 0,
       "broken": 0
     },
@@ -504,8 +504,31 @@
         },
         {
           "file": "data/news.json",
-          "line": 140,
+          "line": 172,
           "label": "2026愛知・名古屋アジア競技大会の広報大使に任命！"
+        }
+      ]
+    },
+    {
+      "url": "https://dot-beat-fed.notion.site/3b9229d219da804d9f1ff3577f2c37a5?pvs=105",
+      "normalizedUrl": "https://dot-beat-fed.notion.site/3b9229d219da804d9f1ff3577f2c37a5?pvs=105",
+      "finalUrl": "https://dot-beat-fed.notion.site/3b9229d219da804d9f1ff3577f2c37a5?pvs=105",
+      "service": "dot-beat-fed.notion.site",
+      "serviceKey": "other",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "articles/rescene-7234a5e06b.html",
+          "line": 63,
+          "label": "アンケートに回答する ↗"
+        },
+        {
+          "file": "data/news.json",
+          "line": 44,
+          "label": "RESCENE好きな曲アンケートを実施！"
         }
       ]
     },
@@ -973,7 +996,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 230,
+          "line": 262,
           "label": "京畿道 高陽市 広報大使に任命"
         },
         {
@@ -1006,7 +1029,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 241,
+          "line": 273,
           "label": "慶尚北道 慶州市 広報大使に任命"
         },
         {
@@ -1039,7 +1062,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 252,
+          "line": 284,
           "label": "京畿道 水原市 広報大使に任命"
         },
         {
@@ -1072,7 +1095,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 263,
+          "line": 295,
           "label": "慶尚南道 巨済市 広報大使に任命"
         },
         {
@@ -1131,7 +1154,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1786741123751&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1786827081190&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1187,7 +1210,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 197,
+          "line": 229,
           "label": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得"
         },
         {
@@ -1215,7 +1238,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 172,
+          "line": 204,
           "label": "2026 K-WORLD DREAM AWARDS(KWDA)に出演が決定！"
         },
         {
@@ -1281,7 +1304,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 296,
+          "line": 328,
           "label": "デビュー2周年広告プロジェクト"
         },
         {
@@ -1309,7 +1332,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 92,
+          "line": 124,
           "label": "｢LOVE ATTACK｣で初のRAKを達成！"
         }
       ]
@@ -1450,7 +1473,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 285,
+          "line": 317,
           "label": "RESCENE Debut 2nd Anniversary"
         },
         {
@@ -1496,12 +1519,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 124,
+          "line": 156,
           "label": "「Pretty Girl」で地上波音楽番組初の1位を獲得！"
         },
         {
           "file": "music-show-wins.html",
-          "line": 92,
+          "line": 100,
           "label": "メンバーのリアクションを見る ↗"
         }
       ]
@@ -1524,7 +1547,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 60,
+          "line": 92,
           "label": "SPOTV K-POP AWARDS(SKA)に出演が決定！"
         },
         {
@@ -1552,7 +1575,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 76,
+          "line": 108,
           "label": "Asia Artist Awards(AAA)に出演が決定！"
         },
         {
@@ -1641,7 +1664,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 208,
+          "line": 240,
           "label": "RESCENEがMelon TOP100で初の1位を記録"
         },
         {
@@ -1692,12 +1715,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 186,
+          "line": 218,
           "label": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得"
         },
         {
           "file": "music-show-wins.html",
-          "line": 102,
+          "line": 110,
           "label": "1位獲得時の映像を見る ↗"
         },
         {
@@ -1761,7 +1784,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 156,
+          "line": 188,
           "label": "第7回 島の日の広報大使に任命！"
         }
       ]
@@ -1874,12 +1897,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 108,
+          "line": 140,
           "label": "「LOVE ATTACK」で1位を獲得！"
         },
         {
           "file": "music-show-wins.html",
-          "line": 85,
+          "line": 93,
           "label": "1位獲得時の映像を見る ↗"
         }
       ]
