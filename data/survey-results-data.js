@@ -1,51 +1,71 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-15T16:44:18.701Z",
+  "generatedAt": "2026-08-15T17:38:22.223Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 72,
-      "totalSelections": 193,
+      "responseCount": 79,
+      "totalSelections": 214,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-15T16:42:00.000Z",
+      "lastResponseAt": "2026-08-15T17:25:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
-          "votes": 28,
-          "respondentRate": 38.9,
-          "selectionShare": 14.5
+          "votes": 32,
+          "respondentRate": 40.5,
+          "selectionShare": 15
         },
         {
           "name": "Cotton Candy",
           "votes": 24,
-          "respondentRate": 33.3,
-          "selectionShare": 12.4
+          "respondentRate": 30.4,
+          "selectionShare": 11.2
         },
         {
           "name": "Bloom",
-          "votes": 16,
-          "respondentRate": 22.2,
-          "selectionShare": 8.3
+          "votes": 17,
+          "respondentRate": 21.5,
+          "selectionShare": 7.9
         },
         {
           "name": "LOVE ATTACK",
-          "votes": 15,
-          "respondentRate": 20.8,
-          "selectionShare": 7.8
+          "votes": 17,
+          "respondentRate": 21.5,
+          "selectionShare": 7.9
         },
         {
-          "name": "Busy Boy",
-          "votes": 11,
-          "respondentRate": 15.3,
-          "selectionShare": 5.7
+          "name": "New World",
+          "votes": 12,
+          "respondentRate": 15.2,
+          "selectionShare": 5.6
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "３つでは足りない！が神曲ばかりでしょ！",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "透明感があって儚く雰囲気が好きだから",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "Deja Vuこそが至高だと思います！",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "全部好きでこの３曲が、というのは難しい。一番好きなのは　Deja vu　で耳に残るテンポや歌詞が良く、MVともピッタリ合って、グループのイメージを一番体現していると思って好きてす。",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
         {
           "text": "好き好き大好き！",
           "author": "匿名REMINE",
@@ -123,26 +143,6 @@ window.RESCENE_SURVEY_RESULTS = {
         },
         {
           "text": "生で聴くMVPがMVPです☺️",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "UhUh   華やかなメロディー、きらびやかなMV、あどけなくて可愛らしいビジュアルはまさに憧れ　　Deja Vu   私が知らなかっただけで、実はもっとずっと前からresceneは存在していたのかも、と思わせてくれる不思議な空気感とこの曲でしか感じられない心地よい湿度がお気に入り　　MVP   もっと多くの人に知られるべき隠れた名曲  みんなの音色がとっても美しく溶け込んでいて、遅めのテンポの中に確かにあるresceneらしさがすごく良い",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "本当に綺麗なメロディーで聞き心地が良すぎる。新しい世界で主人公になったような明るい気持ちになれる。",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "甘くて美味しい",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "全てメロディーが美しい",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
