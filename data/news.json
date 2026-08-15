@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-15T12:45:07.675Z",
+  "generatedAt": "2026-08-15T12:47:01.668Z",
   "source": "manual+notion",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "notionCount": 11,
+  "notionCount": 12,
   "news": [
     {
       "slug": "fanbase-site",
@@ -30,6 +30,22 @@
       "translations": {},
       "notionPageId": "3bd229d2-19da-8007-9890-d3d2818f7a01",
       "notionUrl": "https://app.notion.com/p/Pretty-Girl-4-1-3bd229d219da80079890d3d2818f7a01"
+    },
+    {
+      "slug": "rescene-7234a5e06b",
+      "date": "2026.08.15",
+      "category": "notice",
+      "categoryName": "アンケート",
+      "label": "Survey",
+      "title": "RESCENE好きな曲アンケートを実施！",
+      "text": "リマインの皆さん！RESCENEの楽曲の中で好きな曲を教えてください🙌",
+      "body": "リマインの皆さん！RESCENEの楽曲の中で好きな曲を教えてください🙌\n右上の三本線を押して｢リンク｣から｢アンケート｣にいくと投票結果が閲覧できます！",
+      "image": "assets/news/notion/notion-3ba229d219da80ae92dce17234a5e06b-89da53b66c86.jpg",
+      "sourceLink": "https://dot-beat-fed.notion.site/3b9229d219da804d9f1ff3577f2c37a5?pvs=105",
+      "sourceLabel": "アンケートに回答する",
+      "translations": {},
+      "notionPageId": "3ba229d2-19da-80ae-92dc-e17234a5e06b",
+      "notionUrl": "https://app.notion.com/p/RESCENE-3ba229d219da80ae92dce17234a5e06b"
     },
     {
       "slug": "pretty-girl-3-1-f2e88c9a20",
