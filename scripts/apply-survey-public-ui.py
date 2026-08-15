@@ -46,13 +46,16 @@ def patch_survey_html(changes: list[str]) -> None:
     )
 
     source = re.sub(
-        r"\s*<article class=\"card survey-stat-card\"><small>SELECTIONS</small><strong id=\"surveySelectionCount\">—</strong><span>楽曲選択数</span></article>",
+        r'\s*<article class="card survey-stat-card"><small>SELECTIONS</small><strong id="surveySelectionCount">—</strong><span>楽曲選択数</span></article>',
         "",
         source,
         count=1,
     )
 
-    source = source.replace("<span class=\"section-kicker\">ABOUT DATA</span>", "<span class=\"section-kicker\">ABOUT RESULTS</span>")
+    source = source.replace(
+        '<span class="section-kicker">ABOUT DATA</span>',
+        '<span class="section-kicker">ABOUT RESULTS</span>',
+    )
 
     method_content = (
         '<p><strong>ランキング：</strong>アンケートで選ばれた楽曲を1曲につき1票として集計し、得票数上位5曲を掲載しています。'
@@ -145,8 +148,15 @@ def patch_sync_script(changes: list[str]) -> None:
             raise RuntimeError("sync-notion-survey.mjs: 楽曲ランキングの並び替え処理を特定できません。")
         source = source.replace(ranking_sort, ranking_top5, 1)
 
-    source = source.replace('  source: "notion",\n  dataSourceId,\n', '  source: "survey",\n', 1)
-    source = source.replace("Notionアンケート集計完了:", "アンケート集計完了:")
+    source = source.replace(
+        '  source: "notion",\n  dataSourceId,\n',
+        '  source: "survey",\n',
+        1,
+    )
+    source = source.replace(
+        "Notionアンケート集計完了:",
+        "アンケート集計完了:",
+    )
 
     write_if_changed(path, source, original, changes)
 
@@ -165,7 +175,13 @@ def patch_public_results(changes: list[str]) -> None:
     if js_path.exists():
         original = read(js_path)
         source = original.replace('"source": "notion"', '"source": "survey"')
-        source = re.sub(r'^\s*"dataSourceId":\s*"[^"]+",?\s*\n?', "", source, count=1, flags=re.M)
+        source = re.sub(
+            r'^\s*"dataSourceId":\s*"[^"]+",?\s*\n?',
+            "",
+            source,
+            count=1,
+            flags=re.M,
+        )
         write_if_changed(js_path, source, original, changes)
 
 
@@ -173,11 +189,13 @@ def patch_generate_seo(changes: list[str]) -> None:
     path = ROOT / "scripts" / "generate-seo.py"
     original = read(path)
     source = original
+
     for old in [
         "RESCENE JAPAN FANBASEのアンケート結果をNotion回答から自動集計し、好きな曲ランキングや評価、掲載許可済みコメントを表示します。",
         "RESCENE JAPAN FANBASEのアンケート結果をNotion回答から自動集計して掲載します。",
     ]:
         source = source.replace(old, NEW_SEO_DESCRIPTION)
+
     write_if_changed(path, source, original, changes)
 
 
@@ -195,8 +213,10 @@ def patch_installer(changes: list[str]) -> None:
     path = ROOT / "scripts" / "install-survey-integration.py"
     if not path.exists():
         return
+
     original = read(path)
     source = original
+
     source = source.replace(
         "RESCENE JAPAN FANBASEのアンケート結果をNotion回答から自動集計し、好きな曲ランキングや評価、掲載許可済みコメントを表示します。",
         NEW_SEO_DESCRIPTION,
@@ -205,20 +225,11 @@ def patch_installer(changes: list[str]) -> None:
         "アンケート結果はNotionの回答を自動集計して表示しています。",
         NEW_FOOTER_NOTE,
     )
-    # This comment is not public, but removing the vendor name keeps future maintenance output neutral.
     source = source.replace(
         "# アンケートはサイト機能として常設。Notion側に同じリンクが追加された場合は重複させません。",
         "# アンケートはサイト機能として常設。同じリンクが追加された場合は重複させません。",
     )
-    write_if_changed(path, source, original, changes)
 
-
-def patch_workflow_name(changes: list[str]) -> None:
-    path = ROOT / ".github" / "workflows" / "sync-notion-survey.yml"
-    if not path.exists():
-        return
-    original = read(path)
-    source = original.replace("name: Sync Notion Survey Results", "name: Sync Survey Results", 1)
     write_if_changed(path, source, original, changes)
 
 
@@ -283,8 +294,8 @@ def main() -> int:
         patch_generate_seo(changes)
         patch_site_shell(changes)
         patch_installer(changes)
-        patch_workflow_name(changes)
         verify()
+
         if changes:
             print("アンケート公開表示を更新しました:")
             for path in changes:
@@ -294,6 +305,7 @@ def main() -> int:
     else:
         verify()
         print("✅ アンケート公開表示チェック成功")
+
     return 0
 
 
