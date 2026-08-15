@@ -1,53 +1,73 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-15T15:38:16.725Z",
+  "generatedAt": "2026-08-15T16:44:18.701Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 62,
-      "totalSelections": 163,
+      "responseCount": 72,
+      "totalSelections": 193,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-15T15:37:00.000Z",
+      "lastResponseAt": "2026-08-15T16:42:00.000Z",
       "ranking": [
         {
-          "name": "Cotton Candy",
-          "votes": 23,
-          "respondentRate": 37.1,
-          "selectionShare": 14.1
-        },
-        {
           "name": "Deja Vu",
-          "votes": 23,
-          "respondentRate": 37.1,
-          "selectionShare": 14.1
+          "votes": 28,
+          "respondentRate": 38.9,
+          "selectionShare": 14.5
         },
         {
-          "name": "LOVE ATTACK",
-          "votes": 12,
-          "respondentRate": 19.4,
-          "selectionShare": 7.4
+          "name": "Cotton Candy",
+          "votes": 24,
+          "respondentRate": 33.3,
+          "selectionShare": 12.4
         },
         {
           "name": "Bloom",
-          "votes": 10,
-          "respondentRate": 16.1,
-          "selectionShare": 6.1
+          "votes": 16,
+          "respondentRate": 22.2,
+          "selectionShare": 8.3
+        },
+        {
+          "name": "LOVE ATTACK",
+          "votes": 15,
+          "respondentRate": 20.8,
+          "selectionShare": 7.8
         },
         {
           "name": "Busy Boy",
-          "votes": 9,
-          "respondentRate": 14.5,
-          "selectionShare": 5.5
+          "votes": 11,
+          "respondentRate": 15.3,
+          "selectionShare": 5.7
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
         {
-          "text": "新的提交内容",
+          "text": "好き好き大好き！",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "Deja Ve、あるはずの無い記憶まで呼び起こすノスタルジーを感じて、毎日聴いてます！ New World、等身大なRESCENEを感じられる良曲です！Bloom、Bloom～ah～の溜めてからの解放感が聴いてて気持ち良い！",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "Kruppom",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "全曲好きなんで選べない　が、あえて選ぶとすれば　この3曲。どの曲も　これぞリセンヌって感じ",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         },
@@ -123,11 +143,6 @@
         },
         {
           "text": "全てメロディーが美しい",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "3つに絞れというのは酷だと思います",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
