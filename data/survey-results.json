@@ -1,51 +1,136 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-15T13:01:23.345Z",
+  "generatedAt": "2026-08-15T13:45:28.639Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 5,
-      "totalSelections": 10,
+      "responseCount": 26,
+      "totalSelections": 61,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-15T12:58:00.000Z",
+      "lastResponseAt": "2026-08-15T13:43:00.000Z",
       "ranking": [
         {
-          "name": "Bloom",
-          "votes": 1,
-          "respondentRate": 20,
-          "selectionShare": 10
-        },
-        {
           "name": "Cotton Candy",
-          "votes": 1,
-          "respondentRate": 20,
-          "selectionShare": 10
+          "votes": 11,
+          "respondentRate": 42.3,
+          "selectionShare": 18
         },
         {
           "name": "Deja Vu",
-          "votes": 1,
-          "respondentRate": 20,
-          "selectionShare": 10
+          "votes": 10,
+          "respondentRate": 38.5,
+          "selectionShare": 16.4
+        },
+        {
+          "name": "LOVE ATTACK",
+          "votes": 8,
+          "respondentRate": 30.8,
+          "selectionShare": 13.1
         },
         {
           "name": "Glow Up",
-          "votes": 1,
-          "respondentRate": 20,
-          "selectionShare": 10
+          "votes": 4,
+          "respondentRate": 15.4,
+          "selectionShare": 6.6
         },
         {
-          "name": "Hello XO",
-          "votes": 1,
-          "respondentRate": 20,
-          "selectionShare": 10
+          "name": "Pinball",
+          "votes": 4,
+          "respondentRate": 15.4,
+          "selectionShare": 6.6
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "UhUh   華やかなメロディー、きらびやかなMV、あどけなくて可愛らしいビジュアルはまさに憧れ　　Deja Vu   私が知らなかっただけで、実はもっとずっと前からresceneは存在していたのかも、と思わせてくれる不思議な空気感とこの曲でしか感じられない心地よい湿度がお気に入り　　MVP   もっと多くの人に知られるべき隠れた名曲  みんなの音色がとっても美しく溶け込んでいて、遅めのテンポの中に確かにあるresceneらしさがすごく良い",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "本当に綺麗なメロディーで聞き心地が良すぎる。新しい世界で主人公になったような明るい気持ちになれる。",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "甘くて美味しい",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "全てメロディーが美しい",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
         {
           "text": "3つに絞れというのは酷だと思います",
           "author": "匿名REMINE",
