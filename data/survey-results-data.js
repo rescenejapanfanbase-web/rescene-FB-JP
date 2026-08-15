@@ -1,51 +1,56 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-15T18:49:31.103Z",
+  "generatedAt": "2026-08-15T19:37:52.781Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 82,
-      "totalSelections": 223,
+      "responseCount": 84,
+      "totalSelections": 229,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-15T18:12:00.000Z",
+      "lastResponseAt": "2026-08-15T18:58:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
           "votes": 32,
-          "respondentRate": 39,
-          "selectionShare": 14.3
+          "respondentRate": 38.1,
+          "selectionShare": 14
         },
         {
           "name": "Cotton Candy",
           "votes": 24,
-          "respondentRate": 29.3,
-          "selectionShare": 10.8
+          "respondentRate": 28.6,
+          "selectionShare": 10.5
         },
         {
           "name": "LOVE ATTACK",
-          "votes": 18,
-          "respondentRate": 22,
-          "selectionShare": 8.1
+          "votes": 19,
+          "respondentRate": 22.6,
+          "selectionShare": 8.3
         },
         {
           "name": "Bloom",
           "votes": 17,
-          "respondentRate": 20.7,
-          "selectionShare": 7.6
+          "respondentRate": 20.2,
+          "selectionShare": 7.4
         },
         {
-          "name": "Busy Boy",
-          "votes": 12,
-          "respondentRate": 14.6,
-          "selectionShare": 5.4
+          "name": "Runaway",
+          "votes": 14,
+          "respondentRate": 16.7,
+          "selectionShare": 6.1
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
+        },
         {
           "text": "３つでは足りない！が神曲ばかりでしょ！",
           "author": "匿名REMINE",
@@ -138,11 +143,6 @@ window.RESCENE_SURVEY_RESULTS = {
         },
         {
           "text": "syndromeのリリースと車の納車の時期が被って、初めてのドライブのお供曲たち",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "生で聴くMVPがMVPです☺️",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
