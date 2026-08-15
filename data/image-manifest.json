@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-08-15T08:04:11Z",
+  "generatedAt": "2026-08-15T08:41:55Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -1869,6 +1869,33 @@
         }
       ],
       "default": "assets/optimized/1e87bf5496c7642b/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf54-w957.webp"
+    },
+    "assets/records/notion/record-3bd229d219da8099b4dedd05ce997932-b300ab472a70.jpg": {
+      "asset": "b300ab472a70a6fc",
+      "originalBytes": 319897,
+      "width": 1991,
+      "height": 1179,
+      "variants": [
+        {
+          "src": "assets/optimized/b300ab472a70a6fc/notion-3bd229d219da80079890d3d2818f7a01-b300ab47-w480.webp",
+          "width": 480,
+          "height": 284,
+          "bytes": 34062
+        },
+        {
+          "src": "assets/optimized/b300ab472a70a6fc/notion-3bd229d219da80079890d3d2818f7a01-b300ab47-w768.webp",
+          "width": 768,
+          "height": 455,
+          "bytes": 66432
+        },
+        {
+          "src": "assets/optimized/b300ab472a70a6fc/notion-3bd229d219da80079890d3d2818f7a01-b300ab47-w1440.webp",
+          "width": 1440,
+          "height": 853,
+          "bytes": 131496
+        }
+      ],
+      "default": "assets/optimized/b300ab472a70a6fc/notion-3bd229d219da80079890d3d2818f7a01-b300ab47-w1440.webp"
     },
     "assets/voting/apps/bigc.webp": {
       "asset": "27f361fbd4cf2415",
