@@ -1,51 +1,61 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-16T05:46:03.119Z",
+  "generatedAt": "2026-08-16T07:02:20.026Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 118,
-      "totalSelections": 314,
+      "responseCount": 123,
+      "totalSelections": 329,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-16T05:28:00.000Z",
+      "lastResponseAt": "2026-08-16T06:57:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
-          "votes": 48,
-          "respondentRate": 40.7,
-          "selectionShare": 15.3
+          "votes": 51,
+          "respondentRate": 41.5,
+          "selectionShare": 15.5
         },
         {
           "name": "Cotton Candy",
-          "votes": 28,
-          "respondentRate": 23.7,
-          "selectionShare": 8.9
+          "votes": 29,
+          "respondentRate": 23.6,
+          "selectionShare": 8.8
         },
         {
           "name": "LOVE ATTACK",
+          "votes": 26,
+          "respondentRate": 21.1,
+          "selectionShare": 7.9
+        },
+        {
+          "name": "Runaway",
           "votes": 24,
-          "respondentRate": 20.3,
-          "selectionShare": 7.6
+          "respondentRate": 19.5,
+          "selectionShare": 7.3
         },
         {
           "name": "Bloom",
           "votes": 22,
-          "respondentRate": 18.6,
-          "selectionShare": 7
-        },
-        {
-          "name": "Runaway",
-          "votes": 22,
-          "respondentRate": 18.6,
-          "selectionShare": 7
+          "respondentRate": 17.9,
+          "selectionShare": 6.7
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "どれも良い曲で悩んだけど、歌詞もメロディラインも歌唱、ハーモニー全てが良くてSEにも使えるから。",
+          "author": "匿名REMINE",
+          "date": "2026-08-16"
+        },
+        {
+          "text": "もちろん全ての曲が大好きで選べませんが、｢RESCENEと言ったらこの曲！｣というものを選びました！！",
+          "author": "匿名REMINE",
+          "date": "2026-08-16"
+        },
         {
           "text": "曲、振付け、最高！本当はもっともっと好きな曲ある(笑)",
           "author": "匿名REMINE",
@@ -133,16 +143,6 @@ window.RESCENE_SURVEY_RESULTS = {
         },
         {
           "text": "Deja Vuは、良すぎる",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "Heart Dropはもっと評価されても良い曲。Instが好きすぎる",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "RunawayはRESCENEの曲の中でも一番好きな曲です！裏メロが綺麗で何度も聴きたくなって毎日聴いています。Bloomは第三世代のKPOPの曲のような雰囲気と、曲の始まりの部分がすごく好きです。Deja Vuは曲ももちろんですが、聴くとつい掛け声がしたくなります。ライブで聴きたい曲の一つです。",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
