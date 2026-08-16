@@ -1,51 +1,56 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-16T01:59:07.793Z",
+  "generatedAt": "2026-08-16T03:14:51.882Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 101,
-      "totalSelections": 269,
+      "responseCount": 104,
+      "totalSelections": 278,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-16T00:43:00.000Z",
+      "lastResponseAt": "2026-08-16T03:05:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
-          "votes": 38,
-          "respondentRate": 37.6,
-          "selectionShare": 14.1
+          "votes": 41,
+          "respondentRate": 39.4,
+          "selectionShare": 14.7
         },
         {
           "name": "Cotton Candy",
-          "votes": 26,
-          "respondentRate": 25.7,
+          "votes": 27,
+          "respondentRate": 26,
           "selectionShare": 9.7
         },
         {
           "name": "LOVE ATTACK",
           "votes": 23,
-          "respondentRate": 22.8,
-          "selectionShare": 8.6
+          "respondentRate": 22.1,
+          "selectionShare": 8.3
         },
         {
           "name": "Bloom",
-          "votes": 19,
-          "respondentRate": 18.8,
-          "selectionShare": 7.1
+          "votes": 20,
+          "respondentRate": 19.2,
+          "selectionShare": 7.2
         },
         {
           "name": "Runaway",
           "votes": 18,
-          "respondentRate": 17.8,
-          "selectionShare": 6.7
+          "respondentRate": 17.3,
+          "selectionShare": 6.5
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "RESCENEを詳しく知るきっかけの曲がGlow Upでした",
+          "author": "匿名REMINE",
+          "date": "2026-08-16"
+        },
         {
           "text": "独特の、少女の秘密の様な、儚げな雰囲気が最高！",
           "author": "匿名REMINE",
@@ -138,11 +143,6 @@
         },
         {
           "text": "聴いてて落ち着くのに、歌にどこか強さがあって心の中で盛り上がれる歌で大好きです🥹でも全部良曲すぎて選べません😭",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "初めてのサノクで発狂しまくりました",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
