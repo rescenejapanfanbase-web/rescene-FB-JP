@@ -1,51 +1,56 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-15T23:36:41.495Z",
+  "generatedAt": "2026-08-16T00:59:03.202Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 97,
-      "totalSelections": 259,
+      "responseCount": 101,
+      "totalSelections": 269,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-15T23:29:00.000Z",
+      "lastResponseAt": "2026-08-16T00:43:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
-          "votes": 36,
-          "respondentRate": 37.1,
-          "selectionShare": 13.9
+          "votes": 38,
+          "respondentRate": 37.6,
+          "selectionShare": 14.1
         },
         {
           "name": "Cotton Candy",
           "votes": 26,
-          "respondentRate": 26.8,
-          "selectionShare": 10
+          "respondentRate": 25.7,
+          "selectionShare": 9.7
         },
         {
           "name": "LOVE ATTACK",
-          "votes": 22,
-          "respondentRate": 22.7,
-          "selectionShare": 8.5
+          "votes": 23,
+          "respondentRate": 22.8,
+          "selectionShare": 8.6
         },
         {
           "name": "Bloom",
           "votes": 19,
-          "respondentRate": 19.6,
-          "selectionShare": 7.3
+          "respondentRate": 18.8,
+          "selectionShare": 7.1
         },
         {
           "name": "Runaway",
-          "votes": 17,
-          "respondentRate": 17.5,
-          "selectionShare": 6.6
+          "votes": 18,
+          "respondentRate": 17.8,
+          "selectionShare": 6.7
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "独特の、少女の秘密の様な、儚げな雰囲気が最高！",
+          "author": "匿名REMINE",
+          "date": "2026-08-16"
+        },
         {
           "text": "YoYoとUhUhが始まりであり至高だから。未だに初めて聞いたときの衝撃を超えてない。",
           "author": "匿名REMINE",
@@ -138,11 +143,6 @@ window.RESCENE_SURVEY_RESULTS = {
         },
         {
           "text": "初めてのサノクで発狂しまくりました",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "東京タワーで生で聴いた時感動やばかった！",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
