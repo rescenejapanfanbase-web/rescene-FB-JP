@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-08-15T12:55:45Z",
+  "generatedAt": "2026-08-16T01:54:32Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -818,25 +818,31 @@
       "default": "assets/optimized/06d228a3ff0a0329/qn7v87hzmr8-w768.webp"
     },
     "assets/mv/youtube/WNl67k6StWY.jpg": {
-      "asset": "222523db69c7fbbb",
-      "originalBytes": 107330,
+      "asset": "1d800a497e5ec743",
+      "originalBytes": 155137,
       "width": 1280,
       "height": 720,
       "variants": [
         {
-          "src": "assets/optimized/222523db69c7fbbb/wnl67k6stwy-w480.webp",
+          "src": "assets/optimized/1d800a497e5ec743/wnl67k6stwy-w480.webp",
           "width": 480,
           "height": 270,
-          "bytes": 38472
+          "bytes": 38784
         },
         {
-          "src": "assets/optimized/222523db69c7fbbb/wnl67k6stwy-w768.webp",
+          "src": "assets/optimized/1d800a497e5ec743/wnl67k6stwy-w768.webp",
           "width": 768,
           "height": 432,
-          "bytes": 73932
+          "bytes": 76052
+        },
+        {
+          "src": "assets/optimized/1d800a497e5ec743/wnl67k6stwy-w1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 148128
         }
       ],
-      "default": "assets/optimized/222523db69c7fbbb/wnl67k6stwy-w768.webp"
+      "default": "assets/optimized/1d800a497e5ec743/wnl67k6stwy-w1280.webp"
     },
     "assets/mv/youtube/WQuoPINWLU8.jpg": {
       "asset": "15e9c2470a88e592",
@@ -7593,6 +7599,36 @@
         1280
       ],
       "default": "assets/optimized/1d7d8bd6090a5e96/0ifsswwxvhc-w768.webp"
+    },
+    "1d800a497e5ec743": {
+      "hash": "1d800a497e5ec74305becd9b072748008a0f4a7692bffbc3eab3b02582ca1d03",
+      "width": 1280,
+      "height": 720,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/1d800a497e5ec743/wnl67k6stwy-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 38784
+        },
+        {
+          "src": "assets/optimized/1d800a497e5ec743/wnl67k6stwy-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 76052
+        },
+        {
+          "src": "assets/optimized/1d800a497e5ec743/wnl67k6stwy-w1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 148128
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/1d800a497e5ec743/wnl67k6stwy-w1280.webp"
     },
     "1e27887afa79d81e": {
       "hash": "1e27887afa79d81e4d324d717e1fcdfd7e84c78cec9be7e58e7be3b7493f27e2",

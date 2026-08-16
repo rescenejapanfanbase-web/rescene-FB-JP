@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-15T22:31:55.398154+00:00",
+  "generatedAt": "2026-08-16T01:54:23.814095+00:00",
   "items": [
     {
       "date": "2026-08-15",
@@ -8,15 +8,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "5609f12",
       "files": [
         "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "title": "chore: refine public survey display",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "7c09723",
-      "files": [
-        "data/seo-status.json"
       ]
     },
     {
@@ -39,7 +30,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-08-15",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "086b019",
+      "commit": "e00fd7b",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -48,7 +39,7 @@ window.RESCENE_SITE_UPDATES = {
         "data/mv-candidates.json",
         "data/mv-data.js",
         "data/mv.json",
-        "data/notion-records-sync-status.json"
+        "data/quality-report.json"
       ]
     },
     {
