@@ -1,51 +1,61 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-16T03:14:51.882Z",
+  "generatedAt": "2026-08-16T04:02:28.367Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 104,
-      "totalSelections": 278,
+      "responseCount": 112,
+      "totalSelections": 296,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-16T03:05:00.000Z",
+      "lastResponseAt": "2026-08-16T03:59:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
-          "votes": 41,
-          "respondentRate": 39.4,
-          "selectionShare": 14.7
+          "votes": 44,
+          "respondentRate": 39.3,
+          "selectionShare": 14.9
         },
         {
           "name": "Cotton Candy",
-          "votes": 27,
-          "respondentRate": 26,
-          "selectionShare": 9.7
+          "votes": 28,
+          "respondentRate": 25,
+          "selectionShare": 9.5
         },
         {
           "name": "LOVE ATTACK",
-          "votes": 23,
-          "respondentRate": 22.1,
-          "selectionShare": 8.3
+          "votes": 24,
+          "respondentRate": 21.4,
+          "selectionShare": 8.1
         },
         {
           "name": "Bloom",
-          "votes": 20,
-          "respondentRate": 19.2,
-          "selectionShare": 7.2
+          "votes": 21,
+          "respondentRate": 18.8,
+          "selectionShare": 7.1
         },
         {
           "name": "Runaway",
-          "votes": 18,
-          "respondentRate": 17.3,
-          "selectionShare": 6.5
+          "votes": 20,
+          "respondentRate": 17.9,
+          "selectionShare": 6.8
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "全員の歌唱力の高さと歌声を味わえる名曲だと思います。",
+          "author": "匿名REMINE",
+          "date": "2026-08-16"
+        },
+        {
+          "text": "メロディと歌声がとてもいいです(^^♪",
+          "author": "匿名REMINE",
+          "date": "2026-08-16"
+        },
         {
           "text": "RESCENEを詳しく知るきっかけの曲がGlow Upでした",
           "author": "匿名REMINE",
@@ -133,16 +143,6 @@
         },
         {
           "text": "一番好きな曲「Deja Vu」は、どこか懐かしさを感じさせてくれる曲。東京の多摩地域で撮影されたMVにも親近感！",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "YoYo-音楽センスの塊みたいな曲。メロディーももちろんいいけど、後ろで鳴ってるシンセの音が神。オシャレがすぎます。",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "聴いてて落ち着くのに、歌にどこか強さがあって心の中で盛り上がれる歌で大好きです🥹でも全部良曲すぎて選べません😭",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
