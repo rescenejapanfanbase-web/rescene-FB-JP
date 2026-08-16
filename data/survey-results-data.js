@@ -1,51 +1,61 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-16T10:42:46.861Z",
+  "generatedAt": "2026-08-16T11:37:39.967Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 134,
-      "totalSelections": 360,
+      "responseCount": 138,
+      "totalSelections": 372,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-16T10:32:00.000Z",
+      "lastResponseAt": "2026-08-16T11:27:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
-          "votes": 55,
-          "respondentRate": 41,
-          "selectionShare": 15.3
+          "votes": 58,
+          "respondentRate": 42,
+          "selectionShare": 15.6
         },
         {
           "name": "Cotton Candy",
-          "votes": 31,
-          "respondentRate": 23.1,
+          "votes": 32,
+          "respondentRate": 23.2,
           "selectionShare": 8.6
         },
         {
           "name": "LOVE ATTACK",
           "votes": 28,
-          "respondentRate": 20.9,
-          "selectionShare": 7.8
+          "respondentRate": 20.3,
+          "selectionShare": 7.5
         },
         {
           "name": "Runaway",
           "votes": 26,
-          "respondentRate": 19.4,
-          "selectionShare": 7.2
+          "respondentRate": 18.8,
+          "selectionShare": 7
         },
         {
           "name": "Bloom",
-          "votes": 23,
-          "respondentRate": 17.2,
-          "selectionShare": 6.4
+          "votes": 24,
+          "respondentRate": 17.4,
+          "selectionShare": 6.5
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "新的提交内容",
+          "author": "匿名REMINE",
+          "date": "2026-08-16"
+        },
+        {
+          "text": "私の中でRESCENEのお陰で今の気分が幸せと思える曲です！",
+          "author": "匿名REMINE",
+          "date": "2026-08-16"
+        },
         {
           "text": "サイコー！",
           "author": "匿名REMINE",
@@ -133,16 +143,6 @@ window.RESCENE_SURVEY_RESULTS = {
         },
         {
           "text": "全部好きでこの３曲が、というのは難しい。一番好きなのは　Deja vu　で耳に残るテンポや歌詞が良く、MVともピッタリ合って、グループのイメージを一番体現していると思って好きてす。",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "好き好き大好き！",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "Deja Ve、あるはずの無い記憶まで呼び起こすノスタルジーを感じて、毎日聴いてます！ New World、等身大なRESCENEを感じられる良曲です！Bloom、Bloom～ah～の溜めてからの解放感が聴いてて気持ち良い！",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
