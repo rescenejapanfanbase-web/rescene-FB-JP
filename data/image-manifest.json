@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-08-16T04:44:34Z",
+  "generatedAt": "2026-08-16T08:42:57Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -1471,6 +1471,33 @@
       ],
       "default": "assets/optimized/b300ab472a70a6fc/notion-3bd229d219da80079890d3d2818f7a01-b300ab47-w1440.webp"
     },
+    "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg": {
+      "asset": "369490594f8ecc06",
+      "originalBytes": 170931,
+      "width": 1366,
+      "height": 768,
+      "variants": [
+        {
+          "src": "assets/optimized/369490594f8ecc06/notion-3be229d219da80c98f38f4d8bbf4caa9-36949059-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 25356
+        },
+        {
+          "src": "assets/optimized/369490594f8ecc06/notion-3be229d219da80c98f38f4d8bbf4caa9-36949059-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 45660
+        },
+        {
+          "src": "assets/optimized/369490594f8ecc06/notion-3be229d219da80c98f38f4d8bbf4caa9-36949059-w1366.webp",
+          "width": 1366,
+          "height": 768,
+          "bytes": 94708
+        }
+      ],
+      "default": "assets/optimized/369490594f8ecc06/notion-3be229d219da80c98f38f4d8bbf4caa9-36949059-w1366.webp"
+    },
     "assets/platform-icons/apple-music.png": {
       "asset": "dfbcce2c96eda8d7",
       "originalBytes": 27243,
@@ -1923,6 +1950,33 @@
         }
       ],
       "default": "assets/optimized/b300ab472a70a6fc/notion-3bd229d219da80079890d3d2818f7a01-b300ab47-w1440.webp"
+    },
+    "assets/records/notion/record-3be229d219da80aab16cf60efbfcf5b7-369490594f8e.jpg": {
+      "asset": "369490594f8ecc06",
+      "originalBytes": 170931,
+      "width": 1366,
+      "height": 768,
+      "variants": [
+        {
+          "src": "assets/optimized/369490594f8ecc06/notion-3be229d219da80c98f38f4d8bbf4caa9-36949059-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 25356
+        },
+        {
+          "src": "assets/optimized/369490594f8ecc06/notion-3be229d219da80c98f38f4d8bbf4caa9-36949059-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 45660
+        },
+        {
+          "src": "assets/optimized/369490594f8ecc06/notion-3be229d219da80c98f38f4d8bbf4caa9-36949059-w1366.webp",
+          "width": 1366,
+          "height": 768,
+          "bytes": 94708
+        }
+      ],
+      "default": "assets/optimized/369490594f8ecc06/notion-3be229d219da80c98f38f4d8bbf4caa9-36949059-w1366.webp"
     },
     "assets/voting/apps/bigc.webp": {
       "asset": "27f361fbd4cf2415",
@@ -7893,6 +7947,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/361f6ce00ebb4cb6/suwon-ambassador-w1200.webp"
+    },
+    "369490594f8ecc06": {
+      "hash": "369490594f8ecc06d694b9a96d0d5c68e37912dd2b329229588b18e2e7fa0035",
+      "width": 1366,
+      "height": 768,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/369490594f8ecc06/notion-3be229d219da80c98f38f4d8bbf4caa9-36949059-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 25356
+        },
+        {
+          "src": "assets/optimized/369490594f8ecc06/notion-3be229d219da80c98f38f4d8bbf4caa9-36949059-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 45660
+        },
+        {
+          "src": "assets/optimized/369490594f8ecc06/notion-3be229d219da80c98f38f4d8bbf4caa9-36949059-w1366.webp",
+          "width": 1366,
+          "height": 768,
+          "bytes": 94708
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/369490594f8ecc06/notion-3be229d219da80c98f38f4d8bbf4caa9-36949059-w1366.webp"
     },
     "382ae2de996880aa": {
       "hash": "382ae2de996880aa2b4ab1c8cf5f27de282772a7bfe17e7c641e590fbe034370",

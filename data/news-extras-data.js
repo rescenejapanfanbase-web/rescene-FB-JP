@@ -1,8 +1,20 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-08-15T12:47:01.751Z",
-  "sourceNewsGeneratedAt": "2026-08-15T13:12:18.604Z",
+  "generatedAt": "2026-08-16T08:42:48.568Z",
+  "sourceNewsGeneratedAt": "2026-08-16T08:42:26.278Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "pretty-girl-4-1-d2818f7a01",
         "title": "「Pretty Girl」で4度目の1位を獲得！",
@@ -26,17 +38,49 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "同じカテゴリー"
         ]
+      }
+    ],
+    "love-attack-2-1-d8bbf4caa9": [
+      {
+        "slug": "love-attack-1-e44b1f8e6e",
+        "title": "「LOVE ATTACK」で1位を獲得！",
+        "date": "2026.07.26",
+        "label": "3rd WIN",
+        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
+        "text": "2026年7月26日放送のSBS「人気歌謡」で、「LOVE ATTACK」で1位を獲得しました。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
       },
       {
-        "slug": "pretty-girl-3-1-f2e88c9a20",
-        "title": "「Pretty Girl」で3度目の1位を獲得！",
-        "date": "2026.08.08",
-        "label": "4th WIN",
-        "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
-        "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
-        "score": 5,
+        "slug": "love-attack-inkigayo-realtime-first",
+        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
+        "date": "2026.07.12",
+        "label": "RECORD",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
+        "score": 20,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "love-attack-rak-53bcbaebf5",
+        "title": "｢LOVE ATTACK｣で初のRAKを達成！",
+        "date": "2026.07.28",
+        "label": "1st RAK",
+        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
+        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "score": 18,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
         ]
       }
     ],
@@ -86,6 +130,18 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "rescene-7234a5e06b": [
       {
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "pretty-girl-4-1-d2818f7a01",
         "title": "「Pretty Girl」で4度目の1位を獲得！",
         "date": "2026.08.15",
@@ -104,18 +160,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "4th WIN",
         "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
         "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "love-attack-melon-5-1-a4a47b4969",
-        "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立",
-        "date": "2026.08.02",
-        "label": "New Record",
-        "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
-        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -182,12 +226,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "love-attack-rak-53bcbaebf5",
-        "title": "｢LOVE ATTACK｣で初のRAKを達成！",
-        "date": "2026.07.28",
-        "label": "1st RAK",
-        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
-        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
         "score": 16,
         "reasons": [
           "同じカテゴリー",
@@ -196,12 +240,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "love-attack-1-e44b1f8e6e",
-        "title": "「LOVE ATTACK」で1位を獲得！",
-        "date": "2026.07.26",
-        "label": "3rd WIN",
-        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
-        "text": "2026年7月26日放送のSBS「人気歌謡」で、「LOVE ATTACK」で1位を獲得しました。",
+        "slug": "love-attack-rak-53bcbaebf5",
+        "title": "｢LOVE ATTACK｣で初のRAKを達成！",
+        "date": "2026.07.28",
+        "label": "1st RAK",
+        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
+        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
         "score": 16,
         "reasons": [
           "同じカテゴリー",
@@ -238,12 +282,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "pretty-girl-4-1-d2818f7a01",
-        "title": "「Pretty Girl」で4度目の1位を獲得！",
-        "date": "2026.08.15",
-        "label": "5th WIN",
-        "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
-        "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -278,12 +322,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "pretty-girl-4-1-d2818f7a01",
-        "title": "「Pretty Girl」で4度目の1位を獲得！",
-        "date": "2026.08.15",
-        "label": "5th WIN",
-        "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
-        "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -291,6 +335,20 @@ window.RESCENE_NEWS_EXTRAS = {
       }
     ],
     "love-attack-rak-53bcbaebf5": [
+      {
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
+        "score": 18,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
       {
         "slug": "love-attack-1-e44b1f8e6e",
         "title": "「LOVE ATTACK」で1位を獲得！",
@@ -318,23 +376,23 @@ window.RESCENE_NEWS_EXTRAS = {
           "共通キーワード",
           "同じ作品"
         ]
-      },
+      }
+    ],
+    "love-attack-1-e44b1f8e6e": [
       {
-        "slug": "love-attack-melon-5-1-a4a47b4969",
-        "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立",
-        "date": "2026.08.02",
-        "label": "New Record",
-        "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
-        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
-        "score": 16,
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
+        "score": 22,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード",
           "同じ作品"
         ]
-      }
-    ],
-    "love-attack-1-e44b1f8e6e": [
+      },
       {
         "slug": "love-attack-inkigayo-realtime-first",
         "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
@@ -357,20 +415,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
         "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
         "score": 18,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード",
-          "同じ作品"
-        ]
-      },
-      {
-        "slug": "love-attack-melon-5-1-a4a47b4969",
-        "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立",
-        "date": "2026.08.02",
-        "label": "New Record",
-        "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
-        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
-        "score": 16,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード",
@@ -437,24 +481,24 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "pretty-girl-4-1-d2818f7a01",
-        "title": "「Pretty Girl」で4度目の1位を獲得！",
-        "date": "2026.08.15",
-        "label": "5th WIN",
-        "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
-        "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "rescene-7234a5e06b",
-        "title": "RESCENE好きな曲アンケートを実施！",
+        "slug": "pretty-girl-4-1-d2818f7a01",
+        "title": "「Pretty Girl」で4度目の1位を獲得！",
         "date": "2026.08.15",
-        "label": "Survey",
-        "image": "assets/news/notion/notion-3ba229d219da80ae92dce17234a5e06b-89da53b66c86.jpg",
-        "text": "リマインの皆さん！RESCENEの楽曲の中で好きな曲を教えてください🙌",
+        "label": "5th WIN",
+        "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
+        "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -476,24 +520,24 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "pretty-girl-4-1-d2818f7a01",
-        "title": "「Pretty Girl」で4度目の1位を獲得！",
-        "date": "2026.08.15",
-        "label": "5th WIN",
-        "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
-        "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "rescene-7234a5e06b",
-        "title": "RESCENE好きな曲アンケートを実施！",
+        "slug": "pretty-girl-4-1-d2818f7a01",
+        "title": "「Pretty Girl」で4度目の1位を獲得！",
         "date": "2026.08.15",
-        "label": "Survey",
-        "image": "assets/news/notion/notion-3ba229d219da80ae92dce17234a5e06b-89da53b66c86.jpg",
-        "text": "リマインの皆さん！RESCENEの楽曲の中で好きな曲を教えてください🙌",
+        "label": "5th WIN",
+        "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
+        "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -528,12 +572,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "pretty-girl-4-1-d2818f7a01",
-        "title": "「Pretty Girl」で4度目の1位を獲得！",
-        "date": "2026.08.15",
-        "label": "5th WIN",
-        "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
-        "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -586,6 +630,20 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "love-attack-inkigayo-realtime-first": [
       {
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
+        "score": 20,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
         "slug": "love-attack-1-e44b1f8e6e",
         "title": "「LOVE ATTACK」で1位を獲得！",
         "date": "2026.07.26",
@@ -606,20 +664,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
         "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
-        "score": 18,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード",
-          "同じ作品"
-        ]
-      },
-      {
-        "slug": "love-attack-rak-53bcbaebf5",
-        "title": "｢LOVE ATTACK｣で初のRAKを達成！",
-        "date": "2026.07.28",
-        "label": "1st RAK",
-        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
-        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
         "score": 18,
         "reasons": [
           "同じカテゴリー",
@@ -930,24 +974,24 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "pretty-girl-4-1-d2818f7a01",
-        "title": "「Pretty Girl」で4度目の1位を獲得！",
-        "date": "2026.08.15",
-        "label": "5th WIN",
-        "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
-        "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "rescene-7234a5e06b",
-        "title": "RESCENE好きな曲アンケートを実施！",
+        "slug": "pretty-girl-4-1-d2818f7a01",
+        "title": "「Pretty Girl」で4度目の1位を獲得！",
         "date": "2026.08.15",
-        "label": "Survey",
-        "image": "assets/news/notion/notion-3ba229d219da80ae92dce17234a5e06b-89da53b66c86.jpg",
-        "text": "リマインの皆さん！RESCENEの楽曲の中で好きな曲を教えてください🙌",
+        "label": "5th WIN",
+        "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
+        "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
@@ -1218,12 +1262,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "love-attack-1-e44b1f8e6e",
-        "title": "「LOVE ATTACK」で1位を獲得！",
-        "date": "2026.07.26",
-        "label": "3rd WIN",
-        "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
-        "text": "2026年7月26日放送のSBS「人気歌謡」で、「LOVE ATTACK」で1位を獲得しました。",
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
         "score": 11,
         "reasons": [
           "共通キーワード",
@@ -1283,6 +1327,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "love-attack-2-1-d8bbf4caa9",
+      "date": "2026.08.16",
+      "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+      "url": "https://rescene-fb.jp/articles/love-attack-2-1-d8bbf4caa9.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.08.16】 「LOVE ATTACK」で2度目の1位を獲得！\n\nhttps://rescene-fb.jp/articles/love-attack-2-1-d8bbf4caa9.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "「LOVE ATTACK」で2度目の1位を獲得！\n2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
+      "charCount": 122
     },
     {
       "slug": "pretty-girl-4-1-d2818f7a01",

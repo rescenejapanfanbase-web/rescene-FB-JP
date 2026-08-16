@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T14:32:02.925Z",
+  "generatedAt": "2026-08-16T08:42:39.691Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -73,6 +73,20 @@
       "translations": {},
       "notionPageId": "3bd229d2-19da-8099-b4de-dd05ce997932",
       "notionUrl": "https://app.notion.com/p/2026-08-15-Pretty-Girl-SHOW-3bd229d219da8099b4dedd05ce997932"
+    },
+    {
+      "title": "2026.08.16 LOVE ATTACK — 人気歌謡",
+      "song": "LOVE ATTACK",
+      "date": "2026-08-16",
+      "program": "人気歌謡",
+      "description": "2026年8月16日放送の人気歌謡にてLOVE ATTACK 2冠目の1位を獲得。グループ通算6冠目。",
+      "videoUrl": "",
+      "videoLabel": "",
+      "image": "assets/records/notion/record-3be229d219da80aab16cf60efbfcf5b7-369490594f8e.jpg",
+      "order": 9999,
+      "translations": {},
+      "notionPageId": "3be229d2-19da-80aa-b16c-f60efbfcf5b7",
+      "notionUrl": "https://app.notion.com/p/2026-08-16-LOVE-ATTACK-3be229d219da80aab16cf60efbfcf5b7"
     }
   ],
   "melonRecords": [

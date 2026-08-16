@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "love-attack-2-1-d8bbf4caa9",
+    "date": "2026.08.16",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "6th WIN",
+    "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+    "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
+    "body": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。\n「LOVE ATTACK」では通算2冠目、グループとして通算6冠目となりました。",
+    "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+    "sourceLink": "",
+    "sourceLabel": "",
+    "translations": {},
+    "notionPageId": "3be229d2-19da-80c9-8f38-f4d8bbf4caa9",
+    "notionUrl": "https://app.notion.com/p/LOVE-ATTACK-2-1-3be229d219da80c98f38f4d8bbf4caa9"
+  },
+  {
     "slug": "pretty-girl-4-1-d2818f7a01",
     "date": "2026.08.15",
     "category": "notice",

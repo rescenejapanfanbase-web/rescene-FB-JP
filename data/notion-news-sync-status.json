@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-08-15T13:12:18.604Z",
+  "generatedAt": "2026-08-16T08:42:26.278Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 12,
-  "notionNews": 12,
-  "notionImages": 12,
+  "queriedPages": 13,
+  "notionNews": 13,
+  "notionImages": 13,
   "rows": [
+    {
+      "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+      "pageId": "3be229d2-19da-80c9-8f38-f4d8bbf4caa9",
+      "lastEditedTime": "2026-08-16T07:18:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "8AA83BA8-A997-4073-BB3A-77DE1EC75B1F.heic",
+      "imagePath": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+      "imageBytes": 170931,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "RESCENE好きな曲アンケートを実施！",
       "pageId": "3ba229d2-19da-80ae-92dc-e17234a5e06b",
