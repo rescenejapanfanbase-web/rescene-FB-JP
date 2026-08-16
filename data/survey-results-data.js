@@ -1,51 +1,56 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-16T13:03:35.791Z",
+  "generatedAt": "2026-08-16T13:46:55.921Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 145,
-      "totalSelections": 393,
+      "responseCount": 147,
+      "totalSelections": 399,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-16T12:59:00.000Z",
+      "lastResponseAt": "2026-08-16T13:14:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
           "votes": 62,
-          "respondentRate": 42.8,
-          "selectionShare": 15.8
+          "respondentRate": 42.2,
+          "selectionShare": 15.5
         },
         {
           "name": "Cotton Candy",
           "votes": 33,
-          "respondentRate": 22.8,
-          "selectionShare": 8.4
+          "respondentRate": 22.4,
+          "selectionShare": 8.3
         },
         {
           "name": "LOVE ATTACK",
           "votes": 30,
-          "respondentRate": 20.7,
-          "selectionShare": 7.6
+          "respondentRate": 20.4,
+          "selectionShare": 7.5
         },
         {
           "name": "Runaway",
-          "votes": 26,
-          "respondentRate": 17.9,
-          "selectionShare": 6.6
+          "votes": 27,
+          "respondentRate": 18.4,
+          "selectionShare": 6.8
         },
         {
           "name": "Bloom",
           "votes": 25,
-          "respondentRate": 17.2,
-          "selectionShare": 6.4
+          "respondentRate": 17,
+          "selectionShare": 6.3
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "どの曲も自然と耳に残るのが好きです",
+          "author": "匿名REMINE",
+          "date": "2026-08-16"
+        },
         {
           "text": "推しだからとかじゃなくて本気で全曲好きでほんとに選ぶのも大変だったけどやっぱりyoyoが原点にして頂点です‼️‼️",
           "author": "匿名REMINE",
@@ -138,11 +143,6 @@ window.RESCENE_SURVEY_RESULTS = {
         },
         {
           "text": "透明感があって儚く雰囲気が好きだから",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "Deja Vuこそが至高だと思います！",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
