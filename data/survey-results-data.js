@@ -1,46 +1,46 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-17T16:48:58.794Z",
+  "generatedAt": "2026-08-17T17:47:31.476Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 155,
-      "totalSelections": 423,
+      "responseCount": 156,
+      "totalSelections": 426,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-17T12:09:00.000Z",
+      "lastResponseAt": "2026-08-17T17:10:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
-          "votes": 63,
-          "respondentRate": 40.6,
-          "selectionShare": 14.9
+          "votes": 64,
+          "respondentRate": 41,
+          "selectionShare": 15
         },
         {
           "name": "Cotton Candy",
           "votes": 36,
-          "respondentRate": 23.2,
+          "respondentRate": 23.1,
           "selectionShare": 8.5
         },
         {
           "name": "LOVE ATTACK",
-          "votes": 32,
-          "respondentRate": 20.6,
-          "selectionShare": 7.6
+          "votes": 33,
+          "respondentRate": 21.2,
+          "selectionShare": 7.7
         },
         {
           "name": "Glow Up",
           "votes": 27,
-          "respondentRate": 17.4,
-          "selectionShare": 6.4
+          "respondentRate": 17.3,
+          "selectionShare": 6.3
         },
         {
           "name": "Runaway",
           "votes": 27,
-          "respondentRate": 17.4,
-          "selectionShare": 6.4
+          "respondentRate": 17.3,
+          "selectionShare": 6.3
         }
       ],
       "ratings": [],
