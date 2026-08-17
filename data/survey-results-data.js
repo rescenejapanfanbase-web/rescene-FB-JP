@@ -1,51 +1,56 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-17T01:57:34.041Z",
+  "generatedAt": "2026-08-17T03:14:43.402Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 150,
-      "totalSelections": 408,
+      "responseCount": 151,
+      "totalSelections": 411,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-16T22:00:00.000Z",
+      "lastResponseAt": "2026-08-17T03:11:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
           "votes": 63,
-          "respondentRate": 42,
-          "selectionShare": 15.4
+          "respondentRate": 41.7,
+          "selectionShare": 15.3
         },
         {
           "name": "Cotton Candy",
           "votes": 33,
-          "respondentRate": 22,
-          "selectionShare": 8.1
+          "respondentRate": 21.9,
+          "selectionShare": 8
         },
         {
           "name": "LOVE ATTACK",
-          "votes": 31,
-          "respondentRate": 20.7,
-          "selectionShare": 7.6
+          "votes": 32,
+          "respondentRate": 21.2,
+          "selectionShare": 7.8
         },
         {
           "name": "Runaway",
           "votes": 27,
-          "respondentRate": 18,
+          "respondentRate": 17.9,
           "selectionShare": 6.6
         },
         {
-          "name": "Bloom",
-          "votes": 25,
-          "respondentRate": 16.7,
-          "selectionShare": 6.1
+          "name": "Glow Up",
+          "votes": 26,
+          "respondentRate": 17.2,
+          "selectionShare": 6.3
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "特にglowupがお気に入りです！最初リセンヌを知らなかった2年前、急にスポティファイで曲を聞いていたらリセンヌのラブアタックが流れてきて、それからお気に入りの曲になり、リセンヌの存在を知るようになりました。そして、他グル目当てで行ったケーコンジャパン2025で、お目当てグルが終わって帰ろうとしたら、知っている曲が流れ、実は同日にリセンヌがショーケースをしていました。偶然が重なってリセンヌに出会い、今とってもファンです。",
+          "author": "匿名REMINE",
+          "date": "2026-08-17"
+        },
         {
           "text": "どの曲も自然と耳に残るのが好きです",
           "author": "匿名REMINE",
@@ -138,11 +143,6 @@ window.RESCENE_SURVEY_RESULTS = {
         },
         {
           "text": "３つでは足りない！が神曲ばかりでしょ！",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "透明感があって儚く雰囲気が好きだから",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
