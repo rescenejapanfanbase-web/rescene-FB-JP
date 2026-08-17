@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-08-16T08:42:39.691Z",
+  "generatedAt": "2026-08-17T16:40:12.034Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -234,8 +234,8 @@ window.RESCENE_RECORDS = {
       "title": "Deja Vu — Melonチャート",
       "song": "Deja Vu",
       "releaseDate": "2025-07-02",
-      "top100Peak": 6,
-      "top100PeakDate": "2026-08-10",
+      "top100Peak": 5,
+      "top100PeakDate": "2026-08-18",
       "dailyPeak": 8,
       "dailyPeakDate": "2026-08-10",
       "description": "2026年7月6日に初めてTOP100に進入。リリースから約1年越しでの記録となった。MVは日本の東京都内で撮影された。",
