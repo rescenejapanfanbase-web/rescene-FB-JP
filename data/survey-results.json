@@ -1,51 +1,56 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T04:55:08.218Z",
+  "generatedAt": "2026-08-18T05:47:18.751Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 158,
-      "totalSelections": 432,
+      "responseCount": 159,
+      "totalSelections": 435,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-18T03:02:00.000Z",
+      "lastResponseAt": "2026-08-18T05:41:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
-          "votes": 66,
-          "respondentRate": 41.8,
-          "selectionShare": 15.3
+          "votes": 67,
+          "respondentRate": 42.1,
+          "selectionShare": 15.4
         },
         {
           "name": "Cotton Candy",
           "votes": 36,
-          "respondentRate": 22.8,
+          "respondentRate": 22.6,
           "selectionShare": 8.3
         },
         {
           "name": "LOVE ATTACK",
-          "votes": 33,
-          "respondentRate": 20.9,
-          "selectionShare": 7.6
+          "votes": 34,
+          "respondentRate": 21.4,
+          "selectionShare": 7.8
         },
         {
           "name": "Runaway",
           "votes": 28,
-          "respondentRate": 17.7,
-          "selectionShare": 6.5
+          "respondentRate": 17.6,
+          "selectionShare": 6.4
         },
         {
           "name": "Glow Up",
           "votes": 27,
-          "respondentRate": 17.1,
-          "selectionShare": 6.3
+          "respondentRate": 17,
+          "selectionShare": 6.2
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "神曲！！",
+          "author": "匿名REMINE",
+          "date": "2026-08-18"
+        },
         {
           "text": "特にglowupがお気に入りです！最初リセンヌを知らなかった2年前、急にスポティファイで曲を聞いていたらリセンヌのラブアタックが流れてきて、それからお気に入りの曲になり、リセンヌの存在を知るようになりました。そして、他グル目当てで行ったケーコンジャパン2025で、お目当てグルが終わって帰ろうとしたら、知っている曲が流れ、実は同日にリセンヌがショーケースをしていました。偶然が重なってリセンヌに出会い、今とってもファンです。",
           "author": "匿名REMINE",
@@ -138,11 +143,6 @@
         },
         {
           "text": "なんだかんだこれに戻ってきてしまう。",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "３つでは足りない！が神曲ばかりでしょ！",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
