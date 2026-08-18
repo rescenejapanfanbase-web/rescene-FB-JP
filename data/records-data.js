@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-08-17T16:40:12.034Z",
+  "generatedAt": "2026-08-18T22:34:11.366Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -374,8 +374,8 @@ window.RESCENE_RECORDS = {
       "title": "Pretty Girl — Melonチャート",
       "song": "Pretty Girl",
       "releaseDate": "2026-07-08",
-      "top100Peak": 4,
-      "top100PeakDate": "2026-07-09",
+      "top100Peak": 3,
+      "top100PeakDate": "2026-08-19",
       "dailyPeak": 6,
       "dailyPeakDate": "2026-07-14",
       "description": "KARAのPretty Girlをリメイク。\n初日日間順位は19位を記録。",
