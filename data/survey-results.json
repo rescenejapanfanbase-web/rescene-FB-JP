@@ -1,51 +1,56 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T07:56:29.819Z",
+  "generatedAt": "2026-08-18T08:56:01.749Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 159,
-      "totalSelections": 435,
+      "responseCount": 160,
+      "totalSelections": 438,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-18T05:41:00.000Z",
+      "lastResponseAt": "2026-08-18T08:05:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
           "votes": 67,
-          "respondentRate": 42.1,
-          "selectionShare": 15.4
+          "respondentRate": 41.9,
+          "selectionShare": 15.3
         },
         {
           "name": "Cotton Candy",
           "votes": 36,
-          "respondentRate": 22.6,
-          "selectionShare": 8.3
+          "respondentRate": 22.5,
+          "selectionShare": 8.2
         },
         {
           "name": "LOVE ATTACK",
           "votes": 34,
-          "respondentRate": 21.4,
+          "respondentRate": 21.3,
           "selectionShare": 7.8
         },
         {
           "name": "Runaway",
-          "votes": 28,
-          "respondentRate": 17.6,
-          "selectionShare": 6.4
+          "votes": 29,
+          "respondentRate": 18.1,
+          "selectionShare": 6.6
         },
         {
           "name": "Glow Up",
           "votes": 27,
-          "respondentRate": 17,
+          "respondentRate": 16.9,
           "selectionShare": 6.2
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "クセになる曲調とパフォーマンスが好き",
+          "author": "匿名REMINE",
+          "date": "2026-08-18"
+        },
         {
           "text": "神曲！！",
           "author": "匿名REMINE",
@@ -138,11 +143,6 @@
         },
         {
           "text": "リセンヌを知る曲だったから",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "なんだかんだこれに戻ってきてしまう。",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
