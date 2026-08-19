@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T13:46:21+09:00",
+  "generatedAt": "2026-08-19T14:39:27+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
@@ -22,9 +22,9 @@
       "chartName": "FLO Chart",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-19T13:46:21+09:00",
-      "lastSuccessAt": "2026-08-19T13:46:21+09:00",
-      "chartAt": "2026-08-19T13:00:00+09:00",
+      "lastAttemptAt": "2026-08-19T14:39:27+09:00",
+      "lastSuccessAt": "2026-08-19T14:39:27+09:00",
+      "chartAt": "2026-08-19T14:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
@@ -37,14 +37,14 @@
       "chartName": "Bugs Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-19T13:46:21+09:00",
-      "lastSuccessAt": "2026-08-19T13:46:21+09:00",
-      "chartAt": "2026-08-19T13:00:00+09:00",
+      "lastAttemptAt": "2026-08-19T14:39:27+09:00",
+      "lastSuccessAt": "2026-08-19T14:39:27+09:00",
+      "chartAt": "2026-08-19T14:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
       "metadata": {
-        "nativeTime": "1787112000000"
+        "nativeTime": "1787115600000"
       }
     },
     "melon": {
@@ -52,15 +52,15 @@
       "chartName": "Melon TOP100",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-19T13:46:21+09:00",
-      "lastSuccessAt": "2026-08-19T13:46:21+09:00",
-      "chartAt": "2026-08-19T13:00:00+09:00",
+      "lastAttemptAt": "2026-08-19T14:39:27+09:00",
+      "lastSuccessAt": "2026-08-19T14:39:27+09:00",
+      "chartAt": "2026-08-19T14:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 4,
       "error": "",
       "metadata": {
         "nativeDay": "2026.08.19",
-        "nativeHour": "13:00"
+        "nativeHour": "14:00"
       }
     },
     "genie": {
@@ -68,14 +68,14 @@
       "chartName": "Genie Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-19T13:46:21+09:00",
-      "lastSuccessAt": "2026-08-19T13:46:21+09:00",
-      "chartAt": "2026-08-19T13:00:00+09:00",
+      "lastAttemptAt": "2026-08-19T14:39:27+09:00",
+      "lastSuccessAt": "2026-08-19T14:39:27+09:00",
+      "chartAt": "2026-08-19T14:00:00+09:00",
       "itemCount": 200,
       "matchedCount": 4,
       "error": "",
       "metadata": {
-        "nativeTime": "13:00"
+        "nativeTime": "14:00"
       }
     },
     "vibe": {
@@ -218,10 +218,10 @@
       "bugs",
       "flo"
     ],
-    "runId": "32216947895",
-    "runNumber": "343",
+    "runId": "32220222573",
+    "runNumber": "344",
     "runAttempt": "1",
-    "sha": "fbf87ac6409ff8fa50fe23431af4f2e9f3f079dc",
-    "completedAt": "2026-08-19T13:46:24+09:00"
+    "sha": "2b8a81fabdec8055700bad3207d153a085301d87",
+    "completedAt": "2026-08-19T14:39:30+09:00"
   }
 }
