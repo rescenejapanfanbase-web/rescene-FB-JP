@@ -1,51 +1,56 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-18T23:40:41.020Z",
+  "generatedAt": "2026-08-19T01:55:25.092Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 162,
-      "totalSelections": 444,
+      "responseCount": 163,
+      "totalSelections": 447,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-18T23:08:00.000Z",
+      "lastResponseAt": "2026-08-19T01:12:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
-          "votes": 68,
-          "respondentRate": 42,
-          "selectionShare": 15.3
+          "votes": 69,
+          "respondentRate": 42.3,
+          "selectionShare": 15.4
         },
         {
           "name": "Cotton Candy",
           "votes": 37,
-          "respondentRate": 22.8,
+          "respondentRate": 22.7,
           "selectionShare": 8.3
         },
         {
           "name": "LOVE ATTACK",
-          "votes": 34,
-          "respondentRate": 21,
-          "selectionShare": 7.7
+          "votes": 35,
+          "respondentRate": 21.5,
+          "selectionShare": 7.8
         },
         {
           "name": "Runaway",
           "votes": 29,
-          "respondentRate": 17.9,
+          "respondentRate": 17.8,
           "selectionShare": 6.5
         },
         {
           "name": "Busy Boy",
           "votes": 27,
-          "respondentRate": 16.7,
-          "selectionShare": 6.1
+          "respondentRate": 16.6,
+          "selectionShare": 6
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "いつも口ずさんじゃうから！lucky youはresceneではなかなか見れない系統の曲だから！",
+          "author": "匿名REMINE",
+          "date": "2026-08-19"
+        },
         {
           "text": "クセになる曲調とパフォーマンスが好き",
           "author": "匿名REMINE",
@@ -138,11 +143,6 @@ window.RESCENE_SURVEY_RESULTS = {
         },
         {
           "text": "YoYoとUhUhが始まりであり至高だから。未だに初めて聞いたときの衝撃を超えてない。",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
-        },
-        {
-          "text": "リセンヌを知る曲だったから",
           "author": "匿名REMINE",
           "date": "2026-08-15"
         }
