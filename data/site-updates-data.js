@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-20T13:07:25.195990+00:00",
+  "generatedAt": "2026-08-20T14:46:29.449648+00:00",
   "items": [
     {
       "date": "2026-08-20",
@@ -37,7 +37,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-08-20",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "197f397",
+      "commit": "f44ac22",
       "files": [
         "data/youtube-channels.json"
       ]
