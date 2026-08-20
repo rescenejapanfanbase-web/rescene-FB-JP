@@ -1,11 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T12:26:59+09:00",
+  "generatedAt": "2026-08-20T12:54:57+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
   "successfulCharts": [
-    "youtube-kr"
+    "bugs",
+    "flo",
+    "genie",
+    "melon"
   ],
   "failedCharts": {},
   "configuration": {
@@ -19,8 +22,8 @@
       "chartName": "FLO Chart",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-20T12:05:48+09:00",
-      "lastSuccessAt": "2026-08-20T12:05:48+09:00",
+      "lastAttemptAt": "2026-08-20T12:54:57+09:00",
+      "lastSuccessAt": "2026-08-20T12:54:57+09:00",
       "chartAt": "2026-08-20T12:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
@@ -34,8 +37,8 @@
       "chartName": "Bugs Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-20T12:05:48+09:00",
-      "lastSuccessAt": "2026-08-20T12:05:48+09:00",
+      "lastAttemptAt": "2026-08-20T12:54:57+09:00",
+      "lastSuccessAt": "2026-08-20T12:54:57+09:00",
       "chartAt": "2026-08-20T12:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
@@ -49,8 +52,8 @@
       "chartName": "Melon TOP100",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-20T12:05:48+09:00",
-      "lastSuccessAt": "2026-08-20T12:05:48+09:00",
+      "lastAttemptAt": "2026-08-20T12:54:57+09:00",
+      "lastSuccessAt": "2026-08-20T12:54:57+09:00",
       "chartAt": "2026-08-20T12:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 4,
@@ -65,8 +68,8 @@
       "chartName": "Genie Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-20T12:05:48+09:00",
-      "lastSuccessAt": "2026-08-20T12:05:48+09:00",
+      "lastAttemptAt": "2026-08-20T12:54:57+09:00",
+      "lastSuccessAt": "2026-08-20T12:54:57+09:00",
       "chartAt": "2026-08-20T12:00:00+09:00",
       "itemCount": 200,
       "matchedCount": 4,
@@ -208,14 +211,17 @@
   "automation": {
     "eventName": "schedule",
     "scheduled": true,
-    "schedule": "40 2 * * *",
+    "schedule": "7 * * * *",
     "resolvedCharts": [
-      "youtube-kr"
+      "melon",
+      "genie",
+      "bugs",
+      "flo"
     ],
-    "runId": "32328244568",
-    "runNumber": "367",
+    "runId": "32329925629",
+    "runNumber": "368",
     "runAttempt": "1",
-    "sha": "2f1035f8b41b35f4242835c53ce2b685f7867c90",
-    "completedAt": "2026-08-20T12:27:02+09:00"
+    "sha": "6466d7361c0e3b7794eb7f88a04c50b212abe7f6",
+    "completedAt": "2026-08-20T12:55:00+09:00"
   }
 }
