@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T22:05:20+09:00",
+  "generatedAt": "2026-08-20T22:56:01+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
@@ -22,8 +22,8 @@
       "chartName": "FLO Chart",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-20T22:05:20+09:00",
-      "lastSuccessAt": "2026-08-20T22:05:20+09:00",
+      "lastAttemptAt": "2026-08-20T22:56:01+09:00",
+      "lastSuccessAt": "2026-08-20T22:56:01+09:00",
       "chartAt": "2026-08-20T22:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
@@ -37,8 +37,8 @@
       "chartName": "Bugs Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-20T22:05:20+09:00",
-      "lastSuccessAt": "2026-08-20T22:05:20+09:00",
+      "lastAttemptAt": "2026-08-20T22:56:01+09:00",
+      "lastSuccessAt": "2026-08-20T22:56:01+09:00",
       "chartAt": "2026-08-20T22:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
@@ -52,8 +52,8 @@
       "chartName": "Melon TOP100",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-20T22:05:20+09:00",
-      "lastSuccessAt": "2026-08-20T22:05:20+09:00",
+      "lastAttemptAt": "2026-08-20T22:56:01+09:00",
+      "lastSuccessAt": "2026-08-20T22:56:01+09:00",
       "chartAt": "2026-08-20T22:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 4,
@@ -68,11 +68,11 @@
       "chartName": "Genie Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-20T22:05:20+09:00",
-      "lastSuccessAt": "2026-08-20T22:05:20+09:00",
+      "lastAttemptAt": "2026-08-20T22:56:01+09:00",
+      "lastSuccessAt": "2026-08-20T22:56:01+09:00",
       "chartAt": "2026-08-20T22:00:00+09:00",
       "itemCount": 200,
-      "matchedCount": 4,
+      "matchedCount": 5,
       "error": "",
       "metadata": {
         "nativeTime": "22:00"
@@ -218,10 +218,10 @@
       "bugs",
       "flo"
     ],
-    "runId": "32372266665",
-    "runNumber": "379",
+    "runId": "32377072714",
+    "runNumber": "380",
     "runAttempt": "1",
-    "sha": "8e41b549b92dd38af7c351e3b15d58b0fe32a166",
-    "completedAt": "2026-08-20T22:05:23+09:00"
+    "sha": "f44ac22719344c8a6dc6f911f884f4c23cb8dac2",
+    "completedAt": "2026-08-20T22:56:04+09:00"
   }
 }
