@@ -1,6 +1,6 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-21T13:13:40.401Z",
+  "generatedAt": "2026-08-21T14:00:30.356Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
@@ -46,11 +46,6 @@ window.RESCENE_SURVEY_RESULTS = {
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
-        {
-          "text": "新規送信",
-          "author": "匿名REMINE",
-          "date": "2026-08-21"
-        },
         {
           "text": "いつも口ずさんじゃうから！lucky youはresceneではなかなか見れない系統の曲だから！",
           "author": "匿名REMINE",
@@ -145,6 +140,11 @@ window.RESCENE_SURVEY_RESULTS = {
           "text": "独特の、少女の秘密の様な、儚げな雰囲気が最高！",
           "author": "匿名REMINE",
           "date": "2026-08-16"
+        },
+        {
+          "text": "YoYoとUhUhが始まりであり至高だから。未だに初めて聞いたときの衝撃を超えてない。",
+          "author": "匿名REMINE",
+          "date": "2026-08-15"
         }
       ]
     }
