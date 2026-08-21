@@ -1,51 +1,56 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-21T05:50:33.164Z",
+  "generatedAt": "2026-08-21T07:10:10.646Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 164,
-      "totalSelections": 450,
+      "responseCount": 165,
+      "totalSelections": 453,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-19T09:46:00.000Z",
+      "lastResponseAt": "2026-08-21T06:58:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
-          "votes": 70,
-          "respondentRate": 42.7,
-          "selectionShare": 15.6
+          "votes": 71,
+          "respondentRate": 43,
+          "selectionShare": 15.7
         },
         {
           "name": "Cotton Candy",
           "votes": 37,
-          "respondentRate": 22.6,
+          "respondentRate": 22.4,
           "selectionShare": 8.2
         },
         {
           "name": "LOVE ATTACK",
-          "votes": 35,
-          "respondentRate": 21.3,
-          "selectionShare": 7.8
+          "votes": 36,
+          "respondentRate": 21.8,
+          "selectionShare": 7.9
         },
         {
           "name": "Runaway",
           "votes": 29,
-          "respondentRate": 17.7,
+          "respondentRate": 17.6,
           "selectionShare": 6.4
         },
         {
           "name": "Busy Boy",
           "votes": 28,
-          "respondentRate": 17.1,
+          "respondentRate": 17,
           "selectionShare": 6.2
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-21"
+        },
         {
           "text": "いつも口ずさんじゃうから！lucky youはresceneではなかなか見れない系統の曲だから！",
           "author": "匿名REMINE",
@@ -140,11 +145,6 @@ window.RESCENE_SURVEY_RESULTS = {
           "text": "独特の、少女の秘密の様な、儚げな雰囲気が最高！",
           "author": "匿名REMINE",
           "date": "2026-08-16"
-        },
-        {
-          "text": "YoYoとUhUhが始まりであり至高だから。未だに初めて聞いたときの衝撃を超えてない。",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
         }
       ]
     }
