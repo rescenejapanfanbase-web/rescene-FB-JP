@@ -10078,18 +10078,24 @@
       "checkedAt": "2026-08-21T20:34:59+09:00",
       "rank": 53,
       "sourceRank": 53
+    },
+    {
+      "chartAt": "2026-08-21T22:00:00+09:00",
+      "checkedAt": "2026-08-21T22:04:46+09:00",
+      "rank": 36,
+      "sourceRank": 36
     }
   ],
   "outOfChartHistory": [],
-  "generatedAt": "2026-08-21T20:34:59+09:00",
+  "generatedAt": "2026-08-21T22:04:46+09:00",
   "summary": {
     "peakRank": 14,
     "firstChartedAt": "2026-06-05T09:00:00+09:00",
-    "lastChartedAt": "2026-08-21T20:00:00+09:00",
+    "lastChartedAt": "2026-08-21T22:00:00+09:00",
     "chartDays": 77,
-    "currentRank": 53,
+    "currentRank": 36,
     "status": "in",
-    "pointCount": 1312
+    "pointCount": 1313
   },
   "sources": [
     {
