@@ -1,14 +1,14 @@
 window.RESCENE_SCHEDULE_PAYLOAD = {
-  "generatedAt": "2026-08-09T05:37:25.253Z",
+  "generatedAt": "2026-08-23T15:10:44.595Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
     "notion": 32,
-    "plusChatAvailable": 59,
-    "plusChatAdded": 38,
+    "plusChatAvailable": 60,
+    "plusChatAdded": 39,
     "plusChatDuplicates": 21
   },
-  "plusChatGeneratedAt": "2026-08-09T05:37:25Z",
+  "plusChatGeneratedAt": "2026-08-23T15:10:44Z",
   "events": [
     {
       "id": "39d229d2-19da-800f-bf39-f901096b6fc6",
@@ -1084,6 +1084,25 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
       "translations": {},
       "notionUrl": "https://app.notion.com/p/2026-K-WORLD-DREAM-AWARDS-KWDA-3af229d219da802eb4b2fceaaa75848a",
       "source": "notion"
+    },
+    {
+      "id": "pluschat-2026-08-30-2305-sbs-2",
+      "title": "SBS 열혈농구단2",
+      "originalTitle": "SBS 열혈농구단2",
+      "translationStatus": "original",
+      "date": "2026-08-30",
+      "start": "2026-08-30T23:05:00+09:00",
+      "end": "",
+      "allDay": false,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-08"
     },
     {
       "id": "pluschat-2026-09-02-all-day-2026-k",
