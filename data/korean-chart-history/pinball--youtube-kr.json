@@ -105,9 +105,9 @@
     },
     {
       "chartAt": "2026-08-17T00:00:00+09:00",
-      "checkedAt": "2026-08-17T12:30:52+09:00",
-      "rank": 30,
-      "sourceRank": 30,
+      "checkedAt": "2026-08-23T12:32:37+09:00",
+      "rank": 26,
+      "sourceRank": 26,
       "origin": "official-playlist"
     }
   ],
@@ -120,13 +120,13 @@
       "observations": 1
     }
   ],
-  "generatedAt": "2026-08-17T12:30:52+09:00",
+  "generatedAt": "2026-08-23T12:32:37+09:00",
   "summary": {
-    "peakRank": 30,
+    "peakRank": 26,
     "firstChartedAt": "2026-06-08T00:00:00+09:00",
     "lastChartedAt": "2026-08-17T00:00:00+09:00",
     "chartDays": 11,
-    "currentRank": 30,
+    "currentRank": 26,
     "status": "in",
     "pointCount": 11
   },
