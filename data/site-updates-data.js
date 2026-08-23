@@ -1,11 +1,11 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-23T08:44:06.368965+00:00",
+  "generatedAt": "2026-08-23T10:33:37.108357+00:00",
   "items": [
     {
       "date": "2026-08-23",
       "title": "chore: critical schedule sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "7b75445",
+      "commit": "70a1d37",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -37,41 +37,9 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-08-23",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "7f2b8a0",
+      "commit": "7cd8b2f",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "6fd90d8",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "77d9417",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/quality-report.json"
       ]
     },
     {
