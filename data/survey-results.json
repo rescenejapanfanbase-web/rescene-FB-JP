@@ -1,51 +1,56 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T23:37:57.612Z",
+  "generatedAt": "2026-08-23T02:01:50.370Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 165,
-      "totalSelections": 453,
+      "responseCount": 166,
+      "totalSelections": 456,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-21T06:58:00.000Z",
+      "lastResponseAt": "2026-08-23T00:43:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
           "votes": 71,
-          "respondentRate": 43,
-          "selectionShare": 15.7
+          "respondentRate": 42.8,
+          "selectionShare": 15.6
         },
         {
           "name": "Cotton Candy",
-          "votes": 37,
-          "respondentRate": 22.4,
-          "selectionShare": 8.2
+          "votes": 38,
+          "respondentRate": 22.9,
+          "selectionShare": 8.3
         },
         {
           "name": "LOVE ATTACK",
           "votes": 36,
-          "respondentRate": 21.8,
+          "respondentRate": 21.7,
           "selectionShare": 7.9
         },
         {
           "name": "Runaway",
           "votes": 29,
-          "respondentRate": 17.6,
+          "respondentRate": 17.5,
           "selectionShare": 6.4
         },
         {
           "name": "Busy Boy",
           "votes": 28,
-          "respondentRate": 17,
-          "selectionShare": 6.2
+          "respondentRate": 16.9,
+          "selectionShare": 6.1
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "Cotton CandyはあのDirty Loopsが演奏に参加していて当時発表があった時めちゃくちゃ嬉しかった記憶があります。バンドやってた人なら特にハマるはず！これだけ逆走してても全然日の目を浴びてないのでもっと広まりますように😭",
+          "author": "匿名REMINE",
+          "date": "2026-08-23"
+        },
         {
           "text": "いつも口ずさんじゃうから！lucky youはresceneではなかなか見れない系統の曲だから！",
           "author": "匿名REMINE",
@@ -140,11 +145,6 @@
           "text": "独特の、少女の秘密の様な、儚げな雰囲気が最高！",
           "author": "匿名REMINE",
           "date": "2026-08-16"
-        },
-        {
-          "text": "YoYoとUhUhが始まりであり至高だから。未だに初めて聞いたときの衝撃を超えてない。",
-          "author": "匿名REMINE",
-          "date": "2026-08-15"
         }
       ]
     }
