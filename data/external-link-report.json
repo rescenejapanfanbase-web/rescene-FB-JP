@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-22T20:52:00Z",
-  "startedAt": "2026-08-22T20:51:55Z",
-  "elapsedSeconds": 4.63,
+  "generatedAt": "2026-08-23T20:51:48Z",
+  "startedAt": "2026-08-23T20:51:42Z",
+  "elapsedSeconds": 5.41,
   "summary": {
     "checked": 82,
     "ok": 81,
@@ -968,7 +968,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 1100,
+          "line": 1119,
           "label": "2026 천안 K-컬처 박람회 개막 公演"
         }
       ]
@@ -1154,7 +1154,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1787431918811&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1787518306057&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1182,7 +1182,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 1170,
+          "line": 1189,
           "label": "2026 THE FACT MUSIC AWARDS(TMA)"
         }
       ]
@@ -1552,7 +1552,7 @@
         },
         {
           "file": "data/schedule.json",
-          "line": 1135,
+          "line": 1154,
           "label": "SPOTV K-POP AWARDS(SKA)"
         }
       ]
@@ -1580,7 +1580,7 @@
         },
         {
           "file": "data/schedule.json",
-          "line": 1224,
+          "line": 1243,
           "label": "Asia Artist Awards(AAA)2026"
         }
       ]
