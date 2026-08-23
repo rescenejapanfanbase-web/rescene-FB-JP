@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T10:33:37.108357+00:00",
+  "generatedAt": "2026-08-23T12:58:36.497315+00:00",
   "items": [
     {
       "date": "2026-08-23",
@@ -21,7 +21,7 @@
       "date": "2026-08-23",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "b934b0c",
+      "commit": "a15a6d4",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -37,7 +37,7 @@
       "date": "2026-08-23",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "7cd8b2f",
+      "commit": "3599fa5",
       "files": [
         "data/youtube-channels.json"
       ]
