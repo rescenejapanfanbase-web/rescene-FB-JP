@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-24T14:53:06.989788+00:00",
+  "generatedAt": "2026-08-24T16:52:07.504892+00:00",
   "items": [
     {
       "date": "2026-08-24",
@@ -21,7 +21,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-08-24",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "e02dd41",
+      "commit": "d93b2fd",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -37,7 +37,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-08-24",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "bbb989c",
+      "commit": "9fb10e1",
       "files": [
         "data/youtube-channels.json"
       ]
