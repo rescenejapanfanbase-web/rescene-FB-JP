@@ -296,17 +296,23 @@
       "checkedAt": "2026-08-24T13:04:11+09:00",
       "rank": 126,
       "sourceRank": 126
+    },
+    {
+      "chartAt": "2026-08-24T00:00:00+09:00",
+      "checkedAt": "2026-08-25T12:58:41+09:00",
+      "rank": 128,
+      "sourceRank": 128
     }
   ],
   "outOfChartHistory": [],
   "summary": {
     "peakRank": 126,
     "firstChartedAt": "2026-07-12T00:00:00+09:00",
-    "lastChartedAt": "2026-08-23T00:00:00+09:00",
-    "chartDays": 40,
-    "currentRank": 126,
+    "lastChartedAt": "2026-08-24T00:00:00+09:00",
+    "chartDays": 41,
+    "currentRank": 128,
     "status": "in",
-    "pointCount": 40
+    "pointCount": 41
   },
   "sources": [
     {
@@ -316,7 +322,7 @@
       "role": "historical-backfill"
     }
   ],
-  "generatedAt": "2026-08-24T13:04:11+09:00",
+  "generatedAt": "2026-08-25T12:58:41+09:00",
   "backfill": {
     "source": "가이섬",
     "sourceUrl": "https://xn--o39an51b2re.com/chart/genie/daily/trend/ranking/114544535",
