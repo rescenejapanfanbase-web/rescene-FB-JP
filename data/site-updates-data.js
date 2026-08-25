@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-25T07:04:47.600181+00:00",
+  "generatedAt": "2026-08-25T08:55:12.660059+00:00",
   "items": [
     {
       "date": "2026-08-25",
@@ -15,6 +15,15 @@ window.RESCENE_SITE_UPDATES = {
         "data/mv-data.js",
         "data/mv.json",
         "data/quality-report.json"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "title": "chore: critical YouTube sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "cf38a08",
+      "files": [
+        "data/youtube-channels.json"
       ]
     },
     {
