@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-25T04:49:56.218953+00:00",
+  "generatedAt": "2026-08-25T07:04:47.600181+00:00",
   "items": [
+    {
+      "date": "2026-08-25",
+      "title": "chore: critical full content sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "5f8e59e",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/mv-data.js",
+        "data/mv.json",
+        "data/quality-report.json"
+      ]
+    },
     {
       "date": "2026-08-24",
       "title": "chore: update external link report",
