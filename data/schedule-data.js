@@ -1,5 +1,5 @@
 window.RESCENE_SCHEDULE_PAYLOAD = {
-  "generatedAt": "2026-08-23T15:10:44.595Z",
+  "generatedAt": "2026-08-25T15:37:14.761Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
@@ -8,7 +8,7 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
     "plusChatAdded": 39,
     "plusChatDuplicates": 21
   },
-  "plusChatGeneratedAt": "2026-08-23T15:10:44Z",
+  "plusChatGeneratedAt": "2026-08-25T15:37:14Z",
   "events": [
     {
       "id": "39d229d2-19da-800f-bf39-f901096b6fc6",
@@ -1105,14 +1105,14 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-09-02-all-day-2026-k",
+      "id": "pluschat-2026-09-02-2040-2026-k",
       "title": "2026 천안 K-컬처 박람회 개막 公演",
       "originalTitle": "2026 천안 K-컬처 박람회 개막 공연",
       "translationStatus": "partial",
       "date": "2026-09-02",
-      "start": "2026-09-02",
+      "start": "2026-09-02T20:40:00+09:00",
       "end": "",
-      "allDay": true,
+      "allDay": false,
       "category": "イベント",
       "type": "event",
       "description": "",
