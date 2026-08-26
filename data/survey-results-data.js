@@ -1,45 +1,45 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-26T03:27:55.521Z",
+  "generatedAt": "2026-08-26T04:58:21.607Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 174,
-      "totalSelections": 480,
+      "responseCount": 175,
+      "totalSelections": 483,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-26T03:19:00.000Z",
+      "lastResponseAt": "2026-08-26T03:55:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
           "votes": 74,
-          "respondentRate": 42.5,
-          "selectionShare": 15.4
+          "respondentRate": 42.3,
+          "selectionShare": 15.3
         },
         {
           "name": "Cotton Candy",
           "votes": 39,
-          "respondentRate": 22.4,
+          "respondentRate": 22.3,
           "selectionShare": 8.1
         },
         {
           "name": "LOVE ATTACK",
           "votes": 36,
-          "respondentRate": 20.7,
+          "respondentRate": 20.6,
           "selectionShare": 7.5
         },
         {
           "name": "Runaway",
-          "votes": 31,
-          "respondentRate": 17.8,
-          "selectionShare": 6.5
+          "votes": 32,
+          "respondentRate": 18.3,
+          "selectionShare": 6.6
         },
         {
           "name": "Bloom",
           "votes": 29,
-          "respondentRate": 16.7,
+          "respondentRate": 16.6,
           "selectionShare": 6
         }
       ],
