@@ -1,51 +1,56 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-26T13:19:21.534Z",
+  "generatedAt": "2026-08-26T14:11:01.228Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 176,
-      "totalSelections": 486,
+      "responseCount": 177,
+      "totalSelections": 489,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-26T13:10:00.000Z",
+      "lastResponseAt": "2026-08-26T13:43:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
-          "votes": 75,
-          "respondentRate": 42.6,
-          "selectionShare": 15.4
+          "votes": 76,
+          "respondentRate": 42.9,
+          "selectionShare": 15.5
         },
         {
           "name": "Cotton Candy",
           "votes": 39,
-          "respondentRate": 22.2,
+          "respondentRate": 22,
           "selectionShare": 8
         },
         {
           "name": "LOVE ATTACK",
           "votes": 36,
-          "respondentRate": 20.5,
+          "respondentRate": 20.3,
           "selectionShare": 7.4
         },
         {
           "name": "Runaway",
           "votes": 33,
-          "respondentRate": 18.8,
-          "selectionShare": 6.8
+          "respondentRate": 18.6,
+          "selectionShare": 6.7
         },
         {
           "name": "Bloom",
           "votes": 29,
-          "respondentRate": 16.5,
-          "selectionShare": 6
+          "respondentRate": 16.4,
+          "selectionShare": 5.9
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "ワタシ　リセンヌ　スキ",
+          "author": "匿名REMINE",
+          "date": "2026-08-26"
+        },
         {
           "text": "新規送信",
           "author": "匿名REMINE",
@@ -138,11 +143,6 @@ window.RESCENE_SURVEY_RESULTS = {
         },
         {
           "text": "全員の歌唱力の高さと歌声を味わえる名曲だと思います。",
-          "author": "匿名REMINE",
-          "date": "2026-08-16"
-        },
-        {
-          "text": "メロディと歌声がとてもいいです(^^♪",
           "author": "匿名REMINE",
           "date": "2026-08-16"
         }
