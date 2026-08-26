@@ -1,14 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T10:52:20+09:00",
+  "generatedAt": "2026-08-26T11:43:54+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
   "successfulCharts": [
-    "bugs",
-    "flo",
-    "genie",
-    "melon"
+    "spotify-kr"
   ],
   "failedCharts": {},
   "configuration": {
@@ -99,10 +96,10 @@
       "chartName": "Spotify Top 50 South Korea",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-25T11:35:49+09:00",
+      "lastAttemptAt": "2026-08-26T11:43:54+09:00",
       "error": "",
-      "lastSuccessAt": "2026-08-25T11:35:49+09:00",
-      "chartAt": "2026-08-25T00:00:00+09:00",
+      "lastSuccessAt": "2026-08-26T11:43:54+09:00",
+      "chartAt": "2026-08-26T00:00:00+09:00",
       "itemCount": 50,
       "matchedCount": 4,
       "metadata": {
@@ -211,17 +208,14 @@
   "automation": {
     "eventName": "schedule",
     "scheduled": true,
-    "schedule": "7 * * * *",
+    "schedule": "30 1 * * *",
     "resolvedCharts": [
-      "melon",
-      "genie",
-      "bugs",
-      "flo"
+      "spotify-kr"
     ],
-    "runId": "32920565516",
-    "runNumber": "527",
+    "runId": "32923792666",
+    "runNumber": "528",
     "runAttempt": "1",
-    "sha": "affa58a7350a7d06dc07741fe3e8550a8e3f8354",
-    "completedAt": "2026-08-26T10:52:22+09:00"
+    "sha": "46f8d1550cb55a28450790c204181150a649838f",
+    "completedAt": "2026-08-26T11:43:56+09:00"
   }
 }
