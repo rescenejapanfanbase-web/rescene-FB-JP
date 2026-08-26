@@ -1,45 +1,45 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T11:48:01.150Z",
+  "generatedAt": "2026-08-26T13:19:21.534Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 175,
-      "totalSelections": 483,
+      "responseCount": 176,
+      "totalSelections": 486,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-26T03:55:00.000Z",
+      "lastResponseAt": "2026-08-26T13:10:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
-          "votes": 74,
-          "respondentRate": 42.3,
-          "selectionShare": 15.3
+          "votes": 75,
+          "respondentRate": 42.6,
+          "selectionShare": 15.4
         },
         {
           "name": "Cotton Candy",
           "votes": 39,
-          "respondentRate": 22.3,
-          "selectionShare": 8.1
+          "respondentRate": 22.2,
+          "selectionShare": 8
         },
         {
           "name": "LOVE ATTACK",
           "votes": 36,
-          "respondentRate": 20.6,
-          "selectionShare": 7.5
+          "respondentRate": 20.5,
+          "selectionShare": 7.4
         },
         {
           "name": "Runaway",
-          "votes": 32,
-          "respondentRate": 18.3,
-          "selectionShare": 6.6
+          "votes": 33,
+          "respondentRate": 18.8,
+          "selectionShare": 6.8
         },
         {
           "name": "Bloom",
           "votes": 29,
-          "respondentRate": 16.6,
+          "respondentRate": 16.5,
           "selectionShare": 6
         }
       ],
