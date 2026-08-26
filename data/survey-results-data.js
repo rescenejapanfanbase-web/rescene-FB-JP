@@ -1,51 +1,61 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-08-26T02:00:58.443Z",
+  "generatedAt": "2026-08-26T03:27:55.521Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 172,
-      "totalSelections": 474,
+      "responseCount": 174,
+      "totalSelections": 480,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-08-26T01:51:00.000Z",
+      "lastResponseAt": "2026-08-26T03:19:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
-          "votes": 73,
-          "respondentRate": 42.4,
+          "votes": 74,
+          "respondentRate": 42.5,
           "selectionShare": 15.4
         },
         {
           "name": "Cotton Candy",
-          "votes": 38,
-          "respondentRate": 22.1,
-          "selectionShare": 8
+          "votes": 39,
+          "respondentRate": 22.4,
+          "selectionShare": 8.1
         },
         {
           "name": "LOVE ATTACK",
           "votes": 36,
-          "respondentRate": 20.9,
-          "selectionShare": 7.6
+          "respondentRate": 20.7,
+          "selectionShare": 7.5
         },
         {
           "name": "Runaway",
-          "votes": 30,
-          "respondentRate": 17.4,
-          "selectionShare": 6.3
+          "votes": 31,
+          "respondentRate": 17.8,
+          "selectionShare": 6.5
         },
         {
           "name": "Bloom",
           "votes": 29,
-          "respondentRate": 16.9,
-          "selectionShare": 6.1
+          "respondentRate": 16.7,
+          "selectionShare": 6
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "新規送信",
+          "author": "匿名REMINE",
+          "date": "2026-08-26"
+        },
+        {
+          "text": "3曲の曲の雰囲気が好きだし、5人の歌い方が好き(囁く感じ)",
+          "author": "匿名REMINE",
+          "date": "2026-08-26"
+        },
         {
           "text": "Cotton CandyはあのDirty Loopsが演奏に参加していて当時発表があった時めちゃくちゃ嬉しかった記憶があります。バンドやってた人なら特にハマるはず！これだけ逆走してても全然日の目を浴びてないのでもっと広まりますように😭",
           "author": "匿名REMINE",
@@ -133,16 +143,6 @@ window.RESCENE_SURVEY_RESULTS = {
         },
         {
           "text": "メロディと歌声がとてもいいです(^^♪",
-          "author": "匿名REMINE",
-          "date": "2026-08-16"
-        },
-        {
-          "text": "RESCENEを詳しく知るきっかけの曲がGlow Upでした",
-          "author": "匿名REMINE",
-          "date": "2026-08-16"
-        },
-        {
-          "text": "独特の、少女の秘密の様な、儚げな雰囲気が最高！",
           "author": "匿名REMINE",
           "date": "2026-08-16"
         }
