@@ -1,5 +1,5 @@
 window.RESCENE_SCHEDULE_PAYLOAD = {
-  "generatedAt": "2026-08-25T15:37:14.761Z",
+  "generatedAt": "2026-08-26T16:08:11.366Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
@@ -8,7 +8,7 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
     "plusChatAdded": 39,
     "plusChatDuplicates": 21
   },
-  "plusChatGeneratedAt": "2026-08-25T15:37:14Z",
+  "plusChatGeneratedAt": "2026-08-26T16:08:11Z",
   "events": [
     {
       "id": "39d229d2-19da-800f-bf39-f901096b6fc6",
@@ -1087,9 +1087,9 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
     },
     {
       "id": "pluschat-2026-08-30-2305-sbs-2",
-      "title": "SBS 열혈농구단2",
-      "originalTitle": "SBS 열혈농구단2",
-      "translationStatus": "original",
+      "title": "SBS 「열혈농구단2」",
+      "originalTitle": "SBS <열혈농구단2>",
+      "translationStatus": "partial",
       "date": "2026-08-30",
       "start": "2026-08-30T23:05:00+09:00",
       "end": "",

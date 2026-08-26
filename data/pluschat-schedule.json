@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T15:37:14Z",
+  "generatedAt": "2026-08-26T16:08:11Z",
   "source": "pluschat",
   "sourceBaseUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/",
   "translationDictionary": "scripts/pluschat-schedule-translations.json",
@@ -20,7 +20,7 @@
     },
     "2026-08": {
       "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08",
-      "fetchedAt": "2026-08-23T15:10:31Z",
+      "fetchedAt": "2026-08-26T16:07:58Z",
       "eventCount": 12,
       "status": "ok",
       "warnings": [
@@ -34,7 +34,7 @@
         "翻訳辞書への追加候補: KCON LA 2026 -> KCON LA 2026",
         "翻訳辞書への追加候補: 🎉 HAPPY MAY DAY -> 🎉 HAPPY MAY DAY",
         "翻訳辞書への追加候補: 2026 K-WORLD DREAM AWARDS -> 2026 K-WORLD DREAM AWARDS",
-        "翻訳辞書への追加候補: SBS 열혈농구단2 -> SBS 열혈농구단2"
+        "翻訳辞書への追加候補: SBS <열혈농구단2> -> SBS 「열혈농구단2」"
       ]
     },
     "2026-09": {
@@ -1061,9 +1061,9 @@
     },
     {
       "id": "pluschat-2026-08-30-2305-sbs-2",
-      "title": "SBS 열혈농구단2",
-      "originalTitle": "SBS 열혈농구단2",
-      "translationStatus": "original",
+      "title": "SBS 「열혈농구단2」",
+      "originalTitle": "SBS <열혈농구단2>",
+      "translationStatus": "partial",
       "date": "2026-08-30",
       "start": "2026-08-30T23:05:00+09:00",
       "end": "",
