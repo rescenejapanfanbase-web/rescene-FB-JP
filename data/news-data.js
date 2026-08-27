@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "2026-kwda-2-7f1dbcd366",
+    "date": "2026.08.27",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "Award",
+    "title": "2026 KWDAにて2つの賞を受賞！",
+    "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
+    "body": "2026年8月27日に開催された2026KWDAでベストファンダム賞とベストビジュアルコンテンツ賞の2つの部門で受賞。",
+    "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
+    "sourceLink": "",
+    "sourceLabel": "",
+    "translations": {},
+    "notionPageId": "3c9229d2-19da-801a-ade9-ec7f1dbcd366",
+    "notionUrl": "https://app.notion.com/p/2026-KWDA-2-3c9229d219da801aade9ec7f1dbcd366"
+  },
+  {
     "slug": "love-attack-2-1-d8bbf4caa9",
     "date": "2026.08.16",
     "category": "notice",

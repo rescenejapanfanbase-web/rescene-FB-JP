@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-08-16T08:42:26.278Z",
+  "generatedAt": "2026-08-27T15:00:30.618Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 13,
-  "notionNews": 13,
-  "notionImages": 13,
+  "queriedPages": 14,
+  "notionNews": 14,
+  "notionImages": 14,
   "rows": [
+    {
+      "title": "2026 KWDAにて2つの賞を受賞！",
+      "pageId": "3c9229d2-19da-801a-ade9-ec7f1dbcd366",
+      "lastEditedTime": "2026-08-27T14:54:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "F994AD1E-14C0-452A-9641-114459D9CE14.jpeg",
+      "imagePath": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
+      "imageBytes": 534524,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "「LOVE ATTACK」で2度目の1位を獲得！",
       "pageId": "3be229d2-19da-80c9-8f38-f4d8bbf4caa9",

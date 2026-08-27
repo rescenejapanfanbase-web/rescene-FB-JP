@@ -1,8 +1,20 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-08-16T08:42:48.568Z",
-  "sourceNewsGeneratedAt": "2026-08-16T08:42:26.278Z",
+  "generatedAt": "2026-08-27T15:00:55.242Z",
+  "sourceNewsGeneratedAt": "2026-08-27T15:00:30.618Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "2026-kwda-2-7f1dbcd366",
+        "title": "2026 KWDAにて2つの賞を受賞！",
+        "date": "2026.08.27",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
+        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "love-attack-2-1-d8bbf4caa9",
         "title": "「LOVE ATTACK」で2度目の1位を獲得！",
@@ -26,17 +38,46 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "同じカテゴリー"
         ]
+      }
+    ],
+    "2026-kwda-2-7f1dbcd366": [
+      {
+        "slug": "2026-k-world-dream-awards-kwda-fec5375c61",
+        "title": "2026 K-WORLD DREAM AWARDS(KWDA)に出演が決定！",
+        "date": "2026.07.20",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da805283b1d5fec5375c61-e3dc347adb43.jpg",
+        "text": "2026年8月27日に開催されるK-WORLD DREAM AWARDS(KWDA)にRESCENEが出演決定しました！",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
       },
       {
-        "slug": "rescene-7234a5e06b",
-        "title": "RESCENE好きな曲アンケートを実施！",
-        "date": "2026.08.15",
-        "label": "Survey",
-        "image": "assets/news/notion/notion-3ba229d219da80ae92dce17234a5e06b-89da53b66c86.jpg",
-        "text": "リマインの皆さん！RESCENEの楽曲の中で好きな曲を教えてください🙌",
-        "score": 5,
+        "slug": "spotv-k-pop-awards-ska-53085d0039",
+        "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
+        "date": "2026.07.31",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
+        "text": "2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)にRESCENEが出演決定しました！",
+        "score": 9,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "asia-artist-awards-aaa-ddf38a6d89",
+        "title": "Asia Artist Awards(AAA)に出演が決定！",
+        "date": "2026.07.30",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da800391fad8ddf38a6d89-5f31c4e2cc30.jpg",
+        "text": "2026年12月5日,6日に開催されるAsia Artist Awards(AAA)にRESCENEが出演決定しました！",
+        "score": 9,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
         ]
       }
     ],
@@ -130,6 +171,18 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "rescene-7234a5e06b": [
       {
+        "slug": "2026-kwda-2-7f1dbcd366",
+        "title": "2026 KWDAにて2つの賞を受賞！",
+        "date": "2026.08.27",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
+        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "love-attack-2-1-d8bbf4caa9",
         "title": "「LOVE ATTACK」で2度目の1位を獲得！",
         "date": "2026.08.16",
@@ -148,18 +201,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "5th WIN",
         "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
         "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "pretty-girl-3-1-f2e88c9a20",
-        "title": "「Pretty Girl」で3度目の1位を獲得！",
-        "date": "2026.08.08",
-        "label": "4th WIN",
-        "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
-        "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -282,15 +323,16 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "love-attack-2-1-d8bbf4caa9",
-        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
-        "date": "2026.08.16",
-        "label": "6th WIN",
-        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
-        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
-        "score": 7,
+        "slug": "2026-kwda-2-7f1dbcd366",
+        "title": "2026 KWDAにて2つの賞を受賞！",
+        "date": "2026.08.27",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
+        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
+        "score": 9,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "共通キーワード"
         ]
       }
     ],
@@ -322,15 +364,16 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "love-attack-2-1-d8bbf4caa9",
-        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
-        "date": "2026.08.16",
-        "label": "6th WIN",
-        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
-        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
-        "score": 7,
+        "slug": "2026-kwda-2-7f1dbcd366",
+        "title": "2026 KWDAにて2つの賞を受賞！",
+        "date": "2026.08.27",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
+        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
+        "score": 9,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "共通キーワード"
         ]
       }
     ],
@@ -481,24 +524,24 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "love-attack-2-1-d8bbf4caa9",
-        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
-        "date": "2026.08.16",
-        "label": "6th WIN",
-        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
-        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
+        "slug": "2026-kwda-2-7f1dbcd366",
+        "title": "2026 KWDAにて2つの賞を受賞！",
+        "date": "2026.08.27",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
+        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "pretty-girl-4-1-d2818f7a01",
-        "title": "「Pretty Girl」で4度目の1位を獲得！",
-        "date": "2026.08.15",
-        "label": "5th WIN",
-        "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
-        "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -520,24 +563,24 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "love-attack-2-1-d8bbf4caa9",
-        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
-        "date": "2026.08.16",
-        "label": "6th WIN",
-        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
-        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
+        "slug": "2026-kwda-2-7f1dbcd366",
+        "title": "2026 KWDAにて2つの賞を受賞！",
+        "date": "2026.08.27",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
+        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "pretty-girl-4-1-d2818f7a01",
-        "title": "「Pretty Girl」で4度目の1位を獲得！",
-        "date": "2026.08.15",
-        "label": "5th WIN",
-        "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
-        "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -572,15 +615,16 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "love-attack-2-1-d8bbf4caa9",
-        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
-        "date": "2026.08.16",
-        "label": "6th WIN",
-        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
-        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
-        "score": 7,
+        "slug": "2026-kwda-2-7f1dbcd366",
+        "title": "2026 KWDAにて2つの賞を受賞！",
+        "date": "2026.08.27",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
+        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
+        "score": 11,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "共通キーワード"
         ]
       }
     ],
@@ -974,24 +1018,24 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "love-attack-2-1-d8bbf4caa9",
-        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
-        "date": "2026.08.16",
-        "label": "6th WIN",
-        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
-        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
+        "slug": "2026-kwda-2-7f1dbcd366",
+        "title": "2026 KWDAにて2つの賞を受賞！",
+        "date": "2026.08.27",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
+        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "pretty-girl-4-1-d2818f7a01",
-        "title": "「Pretty Girl」で4度目の1位を獲得！",
-        "date": "2026.08.15",
-        "label": "5th WIN",
-        "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
-        "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
@@ -1327,6 +1371,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "2026-kwda-2-7f1dbcd366",
+      "date": "2026.08.27",
+      "title": "2026 KWDAにて2つの賞を受賞！",
+      "url": "https://rescene-fb.jp/articles/2026-kwda-2-7f1dbcd366.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.08.27】 2026 KWDAにて2つの賞を受賞！\n\nhttps://rescene-fb.jp/articles/2026-kwda-2-7f1dbcd366.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "2026 KWDAにて2つの賞を受賞！\n2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
+      "charCount": 113
     },
     {
       "slug": "love-attack-2-1-d8bbf4caa9",
