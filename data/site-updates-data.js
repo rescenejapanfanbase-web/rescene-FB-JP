@@ -1,6 +1,40 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-08-27T22:13:07.506556+00:00",
+  "generatedAt": "2026-08-28T06:04:38.055677+00:00",
   "items": [
+    {
+      "date": "2026-08-28",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "2386c7b",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "53ece51",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
+        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
+        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
+        "scripts/__pycache__/check-external-links.cpython-313.pyc",
+        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "title": "chore: critical YouTube sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "99fd356",
+      "files": [
+        "data/youtube-channels.json"
+      ]
+    },
     {
       "date": "2026-08-27",
       "title": "chore: update external link report",
@@ -49,22 +83,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "12bbc64",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "ec8fe87",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/seo-status.json"
       ]
     },
     {
