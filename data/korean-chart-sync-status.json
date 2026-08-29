@@ -1,17 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T03:36:56+09:00",
+  "generatedAt": "2026-08-29T11:05:49+09:00",
   "workflow": "Sync Korean Charts",
-  "ok": false,
-  "partial": true,
+  "ok": true,
+  "partial": false,
   "successfulCharts": [
     "bugs",
     "flo",
+    "genie",
     "melon"
   ],
-  "failedCharts": {
-    "genie": "RuntimeError: RuntimeError: 取得件数が少なすぎます: 0件（最低20件） / RuntimeError: 取得件数が少なすぎます: 0件（最低20件） / RuntimeError: 取得件数が少なすぎます: 0件（最低20件）"
-  },
+  "failedCharts": {},
   "configuration": {
     "source": "notion",
     "notionOk": true,
@@ -23,9 +22,9 @@
       "chartName": "FLO Chart",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-29T03:36:56+09:00",
-      "lastSuccessAt": "2026-08-29T03:36:56+09:00",
-      "chartAt": "2026-08-29T03:00:00+09:00",
+      "lastAttemptAt": "2026-08-29T11:05:49+09:00",
+      "lastSuccessAt": "2026-08-29T11:05:49+09:00",
+      "chartAt": "2026-08-29T11:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
@@ -38,14 +37,14 @@
       "chartName": "Bugs Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-29T03:36:56+09:00",
-      "lastSuccessAt": "2026-08-29T03:36:56+09:00",
-      "chartAt": "2026-08-29T01:00:00+09:00",
+      "lastAttemptAt": "2026-08-29T11:05:49+09:00",
+      "lastSuccessAt": "2026-08-29T11:05:49+09:00",
+      "chartAt": "2026-08-29T11:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
       "metadata": {
-        "nativeTime": "1787932800000"
+        "nativeTime": "1787968800000"
       }
     },
     "melon": {
@@ -53,30 +52,30 @@
       "chartName": "Melon TOP100",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-08-29T03:36:56+09:00",
-      "lastSuccessAt": "2026-08-29T03:36:56+09:00",
-      "chartAt": "2026-08-29T03:00:00+09:00",
+      "lastAttemptAt": "2026-08-29T11:05:49+09:00",
+      "lastSuccessAt": "2026-08-29T11:05:49+09:00",
+      "chartAt": "2026-08-29T11:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 4,
       "error": "",
       "metadata": {
         "nativeDay": "2026.08.29",
-        "nativeHour": "03:00"
+        "nativeHour": "11:00"
       }
     },
     "genie": {
       "chartId": "genie",
       "chartName": "Genie Real-time",
-      "ok": false,
-      "retainedPrevious": true,
-      "lastAttemptAt": "2026-08-29T03:36:56+09:00",
-      "lastSuccessAt": "2026-08-28T14:18:10+09:00",
-      "chartAt": "2026-08-28T14:00:00+09:00",
+      "ok": true,
+      "retainedPrevious": false,
+      "lastAttemptAt": "2026-08-29T11:05:49+09:00",
+      "lastSuccessAt": "2026-08-29T11:05:49+09:00",
+      "chartAt": "2026-08-29T11:00:00+09:00",
       "itemCount": 200,
       "matchedCount": 5,
-      "error": "RuntimeError: RuntimeError: 取得件数が少なすぎます: 0件（最低20件） / RuntimeError: 取得件数が少なすぎます: 0件（最低20件） / RuntimeError: 取得件数が少なすぎます: 0件（最低20件）",
+      "error": "",
       "metadata": {
-        "nativeTime": "14:00"
+        "nativeTime": "11:00"
       }
     },
     "vibe": {
@@ -219,10 +218,10 @@
       "bugs",
       "flo"
     ],
-    "runId": "33199867929",
-    "runNumber": "562",
+    "runId": "33228068326",
+    "runNumber": "564",
     "runAttempt": "1",
-    "sha": "9c8f06b13812f1b6863dc5e4727119d9a1abe3fd",
-    "completedAt": "2026-08-29T03:37:12+09:00"
+    "sha": "901e9d51e81c704687713f2d6bec1743bfba3b1b",
+    "completedAt": "2026-08-29T11:05:53+09:00"
   }
 }
