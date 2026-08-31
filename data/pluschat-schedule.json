@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-26T16:08:11Z",
+  "generatedAt": "2026-08-31T16:47:11Z",
   "source": "pluschat",
   "sourceBaseUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/",
   "translationDictionary": "scripts/pluschat-schedule-translations.json",
   "targetMonths": [
-    "2026-08",
-    "2026-09"
+    "2026-09",
+    "2026-10"
   ],
-  "eventCount": 60,
-  "refreshedEventCount": 18,
+  "eventCount": 64,
+  "refreshedEventCount": 10,
   "failures": [],
   "months": {
     "2026-07": {
@@ -48,6 +48,18 @@
         "翻訳辞書への追加候補: Spotify House Seoul -> Spotify House Seoul",
         "翻訳辞書への追加候補: 2026 더팩트 뮤직 어워즈(TMA) -> 2026 더팩트 뮤직 어워즈(TMA",
         "翻訳辞書への追加候補: OBJET K-POP FESTA 2026 (OKF2026) - 인천 -> OBJET K-POP FESTA 2026 (OKF2026 - 인천"
+      ]
+    },
+    "2026-10": {
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "fetchedAt": "2026-08-31T16:47:11Z",
+      "eventCount": 4,
+      "status": "ok",
+      "warnings": [
+        "翻訳辞書への追加候補: 2026 입크페스티벌 -> 2026 입크페스티벌",
+        "翻訳辞書への追加候補: 2026 GHOST (경기 한류 OST 뮤직페스티벌) -> 2026 GHOST (경기 한류 OST 뮤직페스티벌",
+        "翻訳辞書への追加候補: 🎉 HAPPY LIV DAY -> 🎉 HAPPY LIV DAY",
+        "翻訳辞書への追加候補: NOL FESTIVAL - 고양 -> NOL FESTIVAL - 고양"
       ]
     }
   },
@@ -1191,6 +1203,82 @@
       "notionUrl": "",
       "source": "pluschat",
       "sourceMonth": "2026-09"
+    },
+    {
+      "id": "pluschat-2026-10-03-all-day-2026",
+      "title": "2026 입크페스티벌",
+      "originalTitle": "2026 입크페스티벌",
+      "translationStatus": "original",
+      "date": "2026-10-03",
+      "start": "2026-10-03",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "id": "pluschat-2026-10-11-all-day-2026-ghost-ost",
+      "title": "2026 GHOST (경기 한류 OST 뮤직페스티벌",
+      "originalTitle": "2026 GHOST (경기 한류 OST 뮤직페스티벌)",
+      "translationStatus": "partial",
+      "date": "2026-10-11",
+      "start": "2026-10-11",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "id": "pluschat-2026-10-11-all-day-happy-liv-day",
+      "title": "🎉 HAPPY LIV DAY",
+      "originalTitle": "🎉 HAPPY LIV DAY",
+      "translationStatus": "original",
+      "date": "2026-10-11",
+      "start": "2026-10-11",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "id": "pluschat-2026-10-17-all-day-nol-festival",
+      "title": "NOL FESTIVAL - 고양",
+      "originalTitle": "NOL FESTIVAL - 고양",
+      "translationStatus": "original",
+      "date": "2026-10-17",
+      "start": "2026-10-17",
+      "end": "",
+      "allDay": true,
+      "category": "出演",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
     }
   ]
 }
