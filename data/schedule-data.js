@@ -1,9 +1,9 @@
 window.RESCENE_SCHEDULE_PAYLOAD = {
-  "generatedAt": "2026-08-31T16:47:11.948Z",
+  "generatedAt": "2026-08-31T22:09:01.011Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
-    "notion": 32,
+    "notion": 31,
     "plusChatAvailable": 64,
     "plusChatAdded": 43,
     "plusChatDuplicates": 21
@@ -1176,22 +1176,6 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
       "notionUrl": "",
       "source": "pluschat",
       "sourceMonth": "2026-09"
-    },
-    {
-      "id": "3a4229d2-19da-80aa-96ec-e26ef4a93b6d",
-      "title": "2026 THE FACT MUSIC AWARDS(TMA)",
-      "date": "2026-09-19",
-      "start": "2026-09-19",
-      "end": "",
-      "category": "イベント",
-      "type": "event",
-      "description": "TMA にRESCENEが初出演",
-      "link": "https://www.tfmusicawards.com/",
-      "linkLabel": "TMA公式サイトを見る",
-      "image": "",
-      "translations": {},
-      "notionUrl": "https://app.notion.com/p/2026-THE-FACT-MUSIC-AWARDS-TMA-3a4229d219da80aa96ece26ef4a93b6d",
-      "source": "notion"
     },
     {
       "id": "pluschat-2026-09-19-all-day-2026-tma",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T11:36:29.628Z",
+  "generatedAt": "2026-08-31T22:09:01.004Z",
   "source": "notion",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "events": [
@@ -465,22 +465,6 @@
       "image": "",
       "translations": {},
       "notionUrl": "https://app.notion.com/p/SPOTV-K-POP-AWARDS-SKA-3af229d219da8084a9dfec3d8bb30680",
-      "source": "notion"
-    },
-    {
-      "id": "3a4229d2-19da-80aa-96ec-e26ef4a93b6d",
-      "title": "2026 THE FACT MUSIC AWARDS(TMA)",
-      "date": "2026-09-19",
-      "start": "2026-09-19",
-      "end": "",
-      "category": "イベント",
-      "type": "event",
-      "description": "TMA にRESCENEが初出演",
-      "link": "https://www.tfmusicawards.com/",
-      "linkLabel": "TMA公式サイトを見る",
-      "image": "",
-      "translations": {},
-      "notionUrl": "https://app.notion.com/p/2026-THE-FACT-MUSIC-AWARDS-TMA-3a4229d219da80aa96ece26ef4a93b6d",
       "source": "notion"
     },
     {
