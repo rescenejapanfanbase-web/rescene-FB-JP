@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-09-01T16:33:39.623560+00:00",
+  "generatedAt": "2026-09-01T20:59:03.517875+00:00",
   "items": [
     {
       "date": "2026-09-01",
@@ -46,7 +46,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-09-01",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "2316b11",
+      "commit": "6e6ccb1",
       "files": [
         "data/youtube-channels.json"
       ]
@@ -65,31 +65,6 @@ window.RESCENE_SITE_UPDATES = {
         "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
         "scripts/__pycache__/check-external-links.cpython-313.pyc",
         "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-08-31",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "09790b3",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/quality-report.json"
-      ]
-    },
-    {
-      "date": "2026-08-31",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "29109e8",
-      "files": [
-        "data/youtube-channels.json"
       ]
     },
     {
