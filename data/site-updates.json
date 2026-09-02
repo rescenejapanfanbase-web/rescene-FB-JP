@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T16:30:30.997308+00:00",
+  "generatedAt": "2026-09-02T20:58:37.261682+00:00",
   "items": [
     {
       "date": "2026-09-02",
@@ -37,18 +37,9 @@
       "date": "2026-09-02",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "fd2e980",
+      "commit": "a077762",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-09-01",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "f508c1b",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {
