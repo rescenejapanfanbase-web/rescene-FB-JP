@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-01T22:47:02Z",
-  "startedAt": "2026-09-01T22:46:57Z",
-  "elapsedSeconds": 5.04,
+  "generatedAt": "2026-09-02T22:48:09Z",
+  "startedAt": "2026-09-02T22:48:04Z",
+  "elapsedSeconds": 5.13,
   "summary": {
-    "checked": 82,
-    "ok": 80,
+    "checked": 83,
+    "ok": 81,
     "warning": 2,
     "broken": 0,
     "hosts": 17
@@ -110,8 +110,8 @@
     {
       "key": "x",
       "label": "X",
-      "checked": 16,
-      "ok": 16,
+      "checked": 17,
+      "ok": 17,
       "warning": 0,
       "broken": 0
     },
@@ -504,7 +504,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 204,
+          "line": 220,
           "label": "2026愛知・名古屋アジア競技大会の広報大使に任命！"
         }
       ]
@@ -527,7 +527,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 76,
+          "line": 92,
           "label": "RESCENE好きな曲アンケートを実施！"
         }
       ]
@@ -1014,7 +1014,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 294,
+          "line": 310,
           "label": "京畿道 高陽市 広報大使に任命"
         },
         {
@@ -1047,7 +1047,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 305,
+          "line": 321,
           "label": "慶尚北道 慶州市 広報大使に任命"
         },
         {
@@ -1080,7 +1080,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 316,
+          "line": 332,
           "label": "京畿道 水原市 広報大使に任命"
         },
         {
@@ -1113,7 +1113,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 327,
+          "line": 343,
           "label": "慶尚南道 巨済市 広報大使に任命"
         },
         {
@@ -1172,7 +1172,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1788302821546&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1788389288018&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1210,7 +1210,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 261,
+          "line": 277,
           "label": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得"
         },
         {
@@ -1238,13 +1238,36 @@
         },
         {
           "file": "data/news.json",
-          "line": 236,
+          "line": 252,
           "label": "2026 K-WORLD DREAM AWARDS(KWDA)に出演が決定！"
         },
         {
           "file": "data/schedule.json",
           "line": 1081,
           "label": "2026 K-WORLD DREAM AWARDS(KWDA)"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/kwda_official/status/2095050308900786281?s=46",
+      "normalizedUrl": "https://x.com/kwda_official/status/2095050308900786281",
+      "finalUrl": "https://x.com/kwda_official/status/2095050308900786281",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "articles/2026-kwda-2-7f1dbcd366.html",
+          "line": 63,
+          "label": "公式の画像を見る ↗"
+        },
+        {
+          "file": "data/news.json",
+          "line": 44,
+          "label": "2026 KWDAにて2つの賞を受賞！"
         }
       ]
     },
@@ -1304,7 +1327,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 360,
+          "line": 376,
           "label": "デビュー2周年広告プロジェクト"
         },
         {
@@ -1332,7 +1355,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 156,
+          "line": 172,
           "label": "｢LOVE ATTACK｣で初のRAKを達成！"
         }
       ]
@@ -1473,7 +1496,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 349,
+          "line": 365,
           "label": "RESCENE Debut 2nd Anniversary"
         },
         {
@@ -1519,7 +1542,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 188,
+          "line": 204,
           "label": "「Pretty Girl」で地上波音楽番組初の1位を獲得！"
         },
         {
@@ -1547,7 +1570,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 124,
+          "line": 140,
           "label": "SPOTV K-POP AWARDS(SKA)に出演が決定！"
         },
         {
@@ -1575,7 +1598,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 140,
+          "line": 156,
           "label": "Asia Artist Awards(AAA)に出演が決定！"
         },
         {
@@ -1664,7 +1687,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 272,
+          "line": 288,
           "label": "RESCENEがMelon TOP100で初の1位を記録"
         },
         {
@@ -1715,7 +1738,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 250,
+          "line": 266,
           "label": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得"
         },
         {
@@ -1784,7 +1807,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 220,
+          "line": 236,
           "label": "第7回 島の日の広報大使に任命！"
         }
       ]
@@ -1897,7 +1920,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 172,
+          "line": 188,
           "label": "「LOVE ATTACK」で1位を獲得！"
         },
         {
