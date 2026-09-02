@@ -242,17 +242,17 @@ window.RESCENE_RECORDS = {
       "mvUrl": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
       "image": "assets/records/notion/record-3a8229d219da808f8987fa4744ed3cd4-ca377427c398.jpg",
       "order": 9999,
-      "source": "manual-fallback",
+      "source": "notion",
       "translations": {
         "ko": {
           "title": "Deja Vu — Melon 차트",
           "song": "Deja Vu",
-          "description": "Melon TOP100 최고 6위, Melon 일간 차트 최고 8위를 기록했습니다."
+          "description": "Melon TOP100 최고 5위, Melon 일간 차트 최고 8위를 기록했습니다."
         },
         "en": {
           "title": "Deja Vu — Melon Chart",
           "song": "Deja Vu",
-          "description": "Peaked at No. 6 on the Melon TOP100 and No. 8 on the Melon Daily Chart."
+          "description": "Peaked at No. 5 on the Melon TOP100 and No. 8 on the Melon Daily Chart."
         }
       },
       "notionPageId": "3a8229d2-19da-808f-8987-fa4744ed3cd4",
