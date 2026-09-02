@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-09-02T11:12:21.094Z",
+  "generatedAt": "2026-09-02T14:08:57.005Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -236,23 +236,23 @@ window.RESCENE_RECORDS = {
       "releaseDate": "2025-07-02",
       "top100Peak": 5,
       "top100PeakDate": "2026-08-18",
-      "dailyPeak": 8,
-      "dailyPeakDate": "2026-08-10",
+      "dailyPeak": 7,
+      "dailyPeakDate": "2026-08-13",
       "description": "2026年7月6日に初めてTOP100に進入。リリースから約1年越しでの記録となった。MVは日本の東京都内で撮影された。",
       "mvUrl": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
       "image": "assets/records/notion/record-3a8229d219da808f8987fa4744ed3cd4-ca377427c398.jpg",
       "order": 9999,
-      "source": "manual-fallback",
+      "source": "notion",
       "translations": {
         "ko": {
           "title": "Deja Vu — Melon 차트",
           "song": "Deja Vu",
-          "description": "Melon TOP100 최고 6위, Melon 일간 차트 최고 8위를 기록했습니다."
+          "description": "Melon TOP100 최고 5위, Melon 일간 차트 최고 7위를 기록했습니다."
         },
         "en": {
           "title": "Deja Vu — Melon Chart",
           "song": "Deja Vu",
-          "description": "Peaked at No. 6 on the Melon TOP100 and No. 8 on the Melon Daily Chart."
+          "description": "Peaked at No. 5 on the Melon TOP100 and No. 7 on the Melon Daily Chart."
         }
       },
       "notionPageId": "3a8229d2-19da-808f-8987-fa4744ed3cd4",
@@ -376,8 +376,8 @@ window.RESCENE_RECORDS = {
       "releaseDate": "2026-07-08",
       "top100Peak": 3,
       "top100PeakDate": "2026-08-19",
-      "dailyPeak": 6,
-      "dailyPeakDate": "2026-07-14",
+      "dailyPeak": 4,
+      "dailyPeakDate": "2026-08-16",
       "description": "KARAのPretty Girlをリメイク。\n初日日間順位は19位を記録。",
       "mvUrl": "https://www.youtube.com/watch?v=qZlu2j2SiBA",
       "image": "assets/records/notion/record-3a8229d219da8127a70bcda37cd8f8da-5186e5c5727d.webp",
