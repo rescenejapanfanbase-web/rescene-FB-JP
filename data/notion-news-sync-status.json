@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-09-02T09:50:39.380Z",
+  "generatedAt": "2026-09-02T14:22:24.018Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 14,
-  "notionNews": 14,
-  "notionImages": 14,
+  "queriedPages": 15,
+  "notionNews": 15,
+  "notionImages": 15,
   "rows": [
+    {
+      "title": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立",
+      "pageId": "3cf229d2-19da-8002-8238-cfcf541f6166",
+      "lastEditedTime": "2026-09-02T14:20:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "IMG_0147.webp",
+      "imagePath": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
+      "imageBytes": 149094,
+      "imageContentType": "image/webp"
+    },
     {
       "title": "2026 KWDAにて2つの賞を受賞！",
       "pageId": "3c9229d2-19da-801a-ade9-ec7f1dbcd366",

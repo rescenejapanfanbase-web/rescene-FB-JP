@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "love-attack-melon-2026-1-cf541f6166",
+    "date": "2026.09.02",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "New Record",
+    "title": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立",
+    "text": "2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。",
+    "body": "2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。同年8月1日には、第5世代最長記録(20日)を樹立しました。※2026年9月2日時点",
+    "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
+    "sourceLink": "",
+    "sourceLabel": "",
+    "translations": {},
+    "notionPageId": "3cf229d2-19da-8002-8238-cfcf541f6166",
+    "notionUrl": "https://app.notion.com/p/LOVE-ATTACK-Melon-2026-1-3cf229d219da80028238cfcf541f6166"
+  },
+  {
     "slug": "2026-kwda-2-7f1dbcd366",
     "date": "2026.08.27",
     "category": "notice",

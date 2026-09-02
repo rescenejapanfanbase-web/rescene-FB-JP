@@ -1,8 +1,20 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-08-27T15:00:55.242Z",
-  "sourceNewsGeneratedAt": "2026-09-02T09:50:39.380Z",
+  "generatedAt": "2026-09-02T14:22:24.105Z",
+  "sourceNewsGeneratedAt": "2026-09-02T14:22:24.018Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "love-attack-melon-2026-1-cf541f6166",
+        "title": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立",
+        "date": "2026.09.02",
+        "label": "New Record",
+        "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
+        "text": "2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "2026-kwda-2-7f1dbcd366",
         "title": "2026 KWDAにて2つの賞を受賞！",
@@ -26,17 +38,49 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "同じカテゴリー"
         ]
+      }
+    ],
+    "love-attack-melon-2026-1-cf541f6166": [
+      {
+        "slug": "love-attack-melon-5-1-a4a47b4969",
+        "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立",
+        "date": "2026.08.02",
+        "label": "New Record",
+        "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
+        "text": "2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
       },
       {
-        "slug": "pretty-girl-4-1-d2818f7a01",
-        "title": "「Pretty Girl」で4度目の1位を獲得！",
-        "date": "2026.08.15",
-        "label": "5th WIN",
-        "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
-        "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
-        "score": 5,
+        "slug": "love-attack-inkigayo-realtime-first",
+        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
+        "date": "2026.07.12",
+        "label": "RECORD",
+        "image": "assets/mv/love-attack.jpg",
+        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
+        "score": 17,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "love-attack-2-1-d8bbf4caa9",
+        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
+        "date": "2026.08.16",
+        "label": "6th WIN",
+        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
+        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
+        "score": 16,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
         ]
       }
     ],
@@ -171,6 +215,18 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "rescene-7234a5e06b": [
       {
+        "slug": "love-attack-melon-2026-1-cf541f6166",
+        "title": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立",
+        "date": "2026.09.02",
+        "label": "New Record",
+        "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
+        "text": "2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "2026-kwda-2-7f1dbcd366",
         "title": "2026 KWDAにて2つの賞を受賞！",
         "date": "2026.08.27",
@@ -189,18 +245,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "6th WIN",
         "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
         "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "pretty-girl-4-1-d2818f7a01",
-        "title": "「Pretty Girl」で4度目の1位を獲得！",
-        "date": "2026.08.15",
-        "label": "5th WIN",
-        "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
-        "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -253,6 +297,20 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "love-attack-melon-5-1-a4a47b4969": [
       {
+        "slug": "love-attack-melon-2026-1-cf541f6166",
+        "title": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立",
+        "date": "2026.09.02",
+        "label": "New Record",
+        "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
+        "text": "2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
         "slug": "love-attack-inkigayo-realtime-first",
         "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
         "date": "2026.07.12",
@@ -273,20 +331,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "6th WIN",
         "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
         "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
-        "score": 16,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード",
-          "同じ作品"
-        ]
-      },
-      {
-        "slug": "love-attack-rak-53bcbaebf5",
-        "title": "｢LOVE ATTACK｣で初のRAKを達成！",
-        "date": "2026.07.28",
-        "label": "1st RAK",
-        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
-        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
         "score": 16,
         "reasons": [
           "同じカテゴリー",
@@ -524,24 +568,24 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "2026-kwda-2-7f1dbcd366",
-        "title": "2026 KWDAにて2つの賞を受賞！",
-        "date": "2026.08.27",
-        "label": "Award",
-        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
-        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
+        "slug": "love-attack-melon-2026-1-cf541f6166",
+        "title": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立",
+        "date": "2026.09.02",
+        "label": "New Record",
+        "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
+        "text": "2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "love-attack-2-1-d8bbf4caa9",
-        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
-        "date": "2026.08.16",
-        "label": "6th WIN",
-        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
-        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
+        "slug": "2026-kwda-2-7f1dbcd366",
+        "title": "2026 KWDAにて2つの賞を受賞！",
+        "date": "2026.08.27",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
+        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -563,24 +607,24 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "2026-kwda-2-7f1dbcd366",
-        "title": "2026 KWDAにて2つの賞を受賞！",
-        "date": "2026.08.27",
-        "label": "Award",
-        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
-        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
+        "slug": "love-attack-melon-2026-1-cf541f6166",
+        "title": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立",
+        "date": "2026.09.02",
+        "label": "New Record",
+        "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
+        "text": "2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "love-attack-2-1-d8bbf4caa9",
-        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
-        "date": "2026.08.16",
-        "label": "6th WIN",
-        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
-        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
+        "slug": "2026-kwda-2-7f1dbcd366",
+        "title": "2026 KWDAにて2つの賞を受賞！",
+        "date": "2026.08.27",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
+        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -1018,24 +1062,24 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "2026-kwda-2-7f1dbcd366",
-        "title": "2026 KWDAにて2つの賞を受賞！",
-        "date": "2026.08.27",
-        "label": "Award",
-        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
-        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
+        "slug": "love-attack-melon-2026-1-cf541f6166",
+        "title": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立",
+        "date": "2026.09.02",
+        "label": "New Record",
+        "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
+        "text": "2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "love-attack-2-1-d8bbf4caa9",
-        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
-        "date": "2026.08.16",
-        "label": "6th WIN",
-        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
-        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
+        "slug": "2026-kwda-2-7f1dbcd366",
+        "title": "2026 KWDAにて2つの賞を受賞！",
+        "date": "2026.08.27",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
+        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
@@ -1371,6 +1415,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "love-attack-melon-2026-1-cf541f6166",
+      "date": "2026.09.02",
+      "title": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立",
+      "url": "https://rescene-fb.jp/articles/love-attack-melon-2026-1-cf541f6166.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.09.02】 LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立\n\nhttps://rescene-fb.jp/articles/love-attack-melon-2026-1-cf541f6166.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立\n2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。",
+      "charCount": 147
     },
     {
       "slug": "2026-kwda-2-7f1dbcd366",
