@@ -20,8 +20,8 @@ window.RESCENE_NEWS = [
     "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
     "body": "2026年8月27日に開催された2026KWDAでベストファンダム賞とベストビジュアルコンテンツ賞の2つの部門で受賞。",
     "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
-    "sourceLink": "",
-    "sourceLabel": "",
+    "sourceLink": "https://x.com/kwda_official/status/2095050308900786281?s=46",
+    "sourceLabel": "公式の画像を見る",
     "translations": {},
     "notionPageId": "3c9229d2-19da-801a-ade9-ec7f1dbcd366",
     "notionUrl": "https://app.notion.com/p/2026-KWDA-2-3c9229d219da801aade9ec7f1dbcd366"
