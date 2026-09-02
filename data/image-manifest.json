@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-08-27T15:01:05Z",
+  "generatedAt": "2026-09-02T16:30:40Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -1524,6 +1524,27 @@
         }
       ],
       "default": "assets/optimized/1464b5c5a9ebd9d1/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5-w1440.webp"
+    },
+    "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp": {
+      "asset": "ed7071d3796d32ef",
+      "originalBytes": 149094,
+      "width": 964,
+      "height": 1205,
+      "variants": [
+        {
+          "src": "assets/optimized/ed7071d3796d32ef/notion-3cf229d219da80028238cfcf541f6166-ed7071d3-w480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 60148
+        },
+        {
+          "src": "assets/optimized/ed7071d3796d32ef/notion-3cf229d219da80028238cfcf541f6166-ed7071d3-w768.webp",
+          "width": 768,
+          "height": 960,
+          "bytes": 112966
+        }
+      ],
+      "default": "assets/optimized/ed7071d3796d32ef/notion-3cf229d219da80028238cfcf541f6166-ed7071d3-w768.webp"
     },
     "assets/platform-icons/apple-music.png": {
       "asset": "dfbcce2c96eda8d7",
@@ -11986,6 +12007,32 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/ec24daaf7809a6af/inkigayo-score-w1440.webp"
+    },
+    "ed7071d3796d32ef": {
+      "hash": "ed7071d3796d32efc26d6eef316571ba2bc051fd1c17cf2e20d2a6c260234694",
+      "width": 964,
+      "height": 1205,
+      "format": "webp",
+      "alpha": false,
+      "quality": 86,
+      "variants": [
+        {
+          "src": "assets/optimized/ed7071d3796d32ef/notion-3cf229d219da80028238cfcf541f6166-ed7071d3-w480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 60148
+        },
+        {
+          "src": "assets/optimized/ed7071d3796d32ef/notion-3cf229d219da80028238cfcf541f6166-ed7071d3-w768.webp",
+          "width": 768,
+          "height": 960,
+          "bytes": 112966
+        }
+      ],
+      "skippedWidths": [
+        964
+      ],
+      "default": "assets/optimized/ed7071d3796d32ef/notion-3cf229d219da80028238cfcf541f6166-ed7071d3-w768.webp"
     },
     "edc39ea4428ca2ac": {
       "hash": "edc39ea4428ca2ac58b46d68f2ca26322a8e7b2ea1f7ccad071b0634d19d0ba3",
