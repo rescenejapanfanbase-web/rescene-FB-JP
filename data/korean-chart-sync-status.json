@@ -1,14 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T08:58:35+09:00",
+  "generatedAt": "2026-09-04T09:06:51+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
   "successfulCharts": [
-    "bugs",
-    "flo",
-    "genie",
-    "melon"
+    "vibe"
   ],
   "failedCharts": {},
   "configuration": {
@@ -83,15 +80,15 @@
       "chartName": "VIBE Today TOP 100",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-03T09:16:34+09:00",
-      "lastSuccessAt": "2026-09-03T09:16:34+09:00",
-      "chartAt": "2026-09-03T00:00:00+09:00",
+      "lastAttemptAt": "2026-09-04T09:06:51+09:00",
+      "lastSuccessAt": "2026-09-04T09:06:51+09:00",
+      "chartAt": "2026-09-04T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 3,
       "error": "",
       "metadata": {
         "nativeTitle": "오늘 Top 100",
-        "nativeDate": "1788386400000"
+        "nativeDate": "1788472800000"
       }
     },
     "spotify-kr": {
@@ -211,17 +208,14 @@
   "automation": {
     "eventName": "schedule",
     "scheduled": true,
-    "schedule": "7 * * * *",
+    "schedule": "20 22 * * *",
     "resolvedCharts": [
-      "melon",
-      "genie",
-      "bugs",
-      "flo"
+      "vibe"
     ],
-    "runId": "33819814866",
-    "runNumber": "644",
+    "runId": "33820405193",
+    "runNumber": "645",
     "runAttempt": "1",
-    "sha": "d8e8ca169ca05375e40f7dd0f3e4830f1e068968",
-    "completedAt": "2026-09-04T08:58:37+09:00"
+    "sha": "e783057f9960f57fac2f103ec27c924e5eebde1a",
+    "completedAt": "2026-09-04T09:06:53+09:00"
   }
 }
