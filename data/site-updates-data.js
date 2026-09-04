@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-09-03T23:58:10.998093+00:00",
+  "generatedAt": "2026-09-04T04:22:34.044657+00:00",
   "items": [
     {
       "date": "2026-09-03",
@@ -30,7 +30,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-09-03",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "94937ea",
+      "commit": "1e0e3ac",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -49,22 +49,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "20dea71",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "3a7d3c4",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/quality-report.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc"
       ]
     },
     {
