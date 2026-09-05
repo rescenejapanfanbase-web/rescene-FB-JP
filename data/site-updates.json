@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T16:45:06.039137+00:00",
+  "generatedAt": "2026-09-05T18:12:32.549607+00:00",
   "items": [
     {
       "date": "2026-09-05",
@@ -21,7 +21,7 @@
       "date": "2026-09-05",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "bf4061e",
+      "commit": "7625ff2",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -40,15 +40,6 @@
       "commit": "281cf42",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "fc4efb4",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {
