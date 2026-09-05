@@ -1,13 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-05T16:06:04+09:00",
+  "generatedAt": "2026-09-05T16:39:13+09:00",
   "workflow": "Sync Korean Charts",
-  "ok": true,
-  "partial": false,
+  "ok": false,
+  "partial": true,
   "successfulCharts": [
-    "youtube-kr"
+    "bugs-daily"
   ],
-  "failedCharts": {},
+  "failedCharts": {
+    "genie-daily": "RuntimeError: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)> / URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)> / URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
   "configuration": {
     "source": "notion",
     "notionOk": true,
@@ -155,17 +157,17 @@
       "chartName": "Bugs Daily",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-04T16:57:54+09:00",
-      "lastSuccessAt": "2026-09-04T16:57:54+09:00",
-      "chartAt": "2026-09-03T00:00:00+09:00",
+      "lastAttemptAt": "2026-09-05T16:39:13+09:00",
+      "lastSuccessAt": "2026-09-05T16:39:13+09:00",
+      "chartAt": "2026-09-04T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
       "metadata": {
         "period": "daily",
         "sourceMode": "official-html",
-        "sourceUrl": "https://music.bugs.co.kr/chart/track/day/total?chartdate=20260903",
-        "nativeDate": "2026-09-03",
+        "sourceUrl": "https://music.bugs.co.kr/chart/track/day/total?chartdate=20260904",
+        "nativeDate": "2026-09-04",
         "publishedAt": "12:00 KST",
         "chartDateRule": "source-verified-previous-day",
         "total": 100
@@ -174,10 +176,10 @@
     "genie-daily": {
       "chartId": "genie-daily",
       "chartName": "Genie Daily",
-      "ok": true,
-      "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-04T16:57:54+09:00",
-      "error": "",
+      "ok": false,
+      "retainedPrevious": true,
+      "lastAttemptAt": "2026-09-05T16:39:13+09:00",
+      "error": "RuntimeError: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)> / URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)> / URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
       "lastSuccessAt": "2026-09-04T16:57:54+09:00",
       "chartAt": "2026-09-03T00:00:00+09:00",
       "itemCount": 200,
@@ -208,14 +210,15 @@
   "automation": {
     "eventName": "schedule",
     "scheduled": true,
-    "schedule": "40 2 * * *",
+    "schedule": "17 3 * * *",
     "resolvedCharts": [
-      "youtube-kr"
+      "genie-daily",
+      "bugs-daily"
     ],
-    "runId": "33951598868",
-    "runNumber": "663",
+    "runId": "33953127220",
+    "runNumber": "664",
     "runAttempt": "1",
-    "sha": "02be386fb39b7bf3a1470d4cbda950132dd79f2b",
-    "completedAt": "2026-09-05T16:06:09+09:00"
+    "sha": "15c79c61a3c25127bfa8d849db5ef5fb65f1d10f",
+    "completedAt": "2026-09-05T16:39:44+09:00"
   }
 }
