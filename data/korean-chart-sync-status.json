@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T08:00:40+09:00",
+  "generatedAt": "2026-09-06T08:47:24+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
@@ -22,8 +22,8 @@
       "chartName": "FLO Chart",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-06T08:00:40+09:00",
-      "lastSuccessAt": "2026-09-06T08:00:40+09:00",
+      "lastAttemptAt": "2026-09-06T08:47:24+09:00",
+      "lastSuccessAt": "2026-09-06T08:47:24+09:00",
       "chartAt": "2026-09-06T08:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
@@ -37,8 +37,8 @@
       "chartName": "Bugs Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-06T08:00:40+09:00",
-      "lastSuccessAt": "2026-09-06T08:00:40+09:00",
+      "lastAttemptAt": "2026-09-06T08:47:24+09:00",
+      "lastSuccessAt": "2026-09-06T08:47:24+09:00",
       "chartAt": "2026-09-06T08:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
@@ -52,8 +52,8 @@
       "chartName": "Melon TOP100",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-06T08:00:40+09:00",
-      "lastSuccessAt": "2026-09-06T08:00:40+09:00",
+      "lastAttemptAt": "2026-09-06T08:47:24+09:00",
+      "lastSuccessAt": "2026-09-06T08:47:24+09:00",
       "chartAt": "2026-09-06T08:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 4,
@@ -68,8 +68,8 @@
       "chartName": "Genie Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-06T08:00:40+09:00",
-      "lastSuccessAt": "2026-09-06T08:00:40+09:00",
+      "lastAttemptAt": "2026-09-06T08:47:24+09:00",
+      "lastSuccessAt": "2026-09-06T08:47:24+09:00",
       "chartAt": "2026-09-06T08:00:00+09:00",
       "itemCount": 200,
       "matchedCount": 4,
@@ -209,19 +209,19 @@
     }
   },
   "automation": {
-    "eventName": "workflow_dispatch",
-    "scheduled": false,
-    "schedule": "",
+    "eventName": "schedule",
+    "scheduled": true,
+    "schedule": "7 * * * *",
     "resolvedCharts": [
       "melon",
       "genie",
       "bugs",
       "flo"
     ],
-    "runId": "33997464499",
-    "runNumber": "674",
+    "runId": "33999575717",
+    "runNumber": "675",
     "runAttempt": "1",
-    "sha": "1ad70c444c0a69a255ced8c1dbf99929981af829",
-    "completedAt": "2026-09-06T08:00:42+09:00"
+    "sha": "f79bfc16aae11d3c6a0be3e518dbed74285261ba",
+    "completedAt": "2026-09-06T08:47:26+09:00"
   }
 }
