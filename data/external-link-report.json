@@ -1,19 +1,35 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-04T22:29:55Z",
-  "startedAt": "2026-09-04T22:29:49Z",
-  "elapsedSeconds": 5.95,
+  "generatedAt": "2026-09-05T22:12:51Z",
+  "startedAt": "2026-09-05T22:12:48Z",
+  "elapsedSeconds": 3.86,
   "summary": {
     "checked": 83,
-    "ok": 82,
-    "warning": 1,
+    "ok": 77,
+    "warning": 6,
     "broken": 0,
     "hosts": 17
   },
   "services": [
     {
+      "key": "x",
+      "label": "X",
+      "checked": 17,
+      "ok": 13,
+      "warning": 4,
+      "broken": 0
+    },
+    {
       "key": "facebook",
       "label": "Facebook",
+      "checked": 1,
+      "ok": 0,
+      "warning": 1,
+      "broken": 0
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
       "checked": 1,
       "ok": 0,
       "warning": 1,
@@ -60,14 +76,6 @@
       "broken": 0
     },
     {
-      "key": "instagram",
-      "label": "Instagram",
-      "checked": 1,
-      "ok": 1,
-      "warning": 0,
-      "broken": 0
-    },
-    {
       "key": "mnetplus",
       "label": "Mnet Plus",
       "checked": 5,
@@ -108,14 +116,6 @@
       "broken": 0
     },
     {
-      "key": "x",
-      "label": "X",
-      "checked": 17,
-      "ok": 17,
-      "warning": 0,
-      "broken": 0
-    },
-    {
       "key": "youtube",
       "label": "YouTube",
       "checked": 17,
@@ -140,6 +140,121 @@
           "file": "data/official-links.json",
           "line": 96,
           "label": "Facebook"
+        }
+      ]
+    },
+    {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "warning",
+      "httpStatus": 429,
+      "message": "HTTP 429（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 54,
+          "label": "Instagram"
+        },
+        {
+          "file": "index.html",
+          "line": 142,
+          "label": "Instagram"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/Rescene_FB_JP",
+      "normalizedUrl": "https://x.com/Rescene_FB_JP",
+      "finalUrl": "https://x.com/Rescene_FB_JP",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "warning",
+      "httpStatus": 403,
+      "message": "HTTP 403（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "articles/fanbase-site.html",
+          "line": 62,
+          "label": "RESCENE JAPAN FANBASEのXを見る ↗"
+        },
+        {
+          "file": "data/news-manual.json",
+          "line": 208,
+          "label": "RESCENE JAPAN FANBASE ウェブサイト"
+        },
+        {
+          "file": "data/news.json",
+          "line": 15,
+          "label": "RESCENE JAPAN FANBASE ウェブサイト"
+        },
+        {
+          "file": "fanbase-site.html",
+          "line": 62,
+          "label": "RESCENE JAPAN FANBASEのXを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/rescene_fb_jp?s=11",
+      "normalizedUrl": "https://x.com/rescene_fb_jp",
+      "finalUrl": "https://x.com/rescene_fb_jp",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "warning",
+      "httpStatus": 403,
+      "message": "HTTP 403（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/contact.json",
+          "line": 31,
+          "label": "メイン案内"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/RESCENE_twt",
+      "normalizedUrl": "https://x.com/RESCENE_twt",
+      "finalUrl": "https://x.com/RESCENE_twt",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "warning",
+      "httpStatus": 403,
+      "message": "HTTP 403（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 40,
+          "label": "Members X"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/RESCENEofficial",
+      "normalizedUrl": "https://x.com/RESCENEofficial",
+      "finalUrl": "https://x.com/RESCENEofficial",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "warning",
+      "httpStatus": 403,
+      "message": "HTTP 403（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 26,
+          "label": "Official X"
+        },
+        {
+          "file": "index.html",
+          "line": 142,
+          "label": "Official X"
         }
       ]
     },
@@ -874,29 +989,6 @@
       ]
     },
     {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 54,
-          "label": "Instagram"
-        },
-        {
-          "file": "index.html",
-          "line": 142,
-          "label": "Instagram"
-        }
-      ]
-    },
-    {
       "url": "https://artist.mnetplus.world/main/stg/rescene-official",
       "normalizedUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
       "finalUrl": "https://artist.mnetplus.world/main/stg/rescene-official",
@@ -1172,7 +1264,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1788560992981&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1788646370905&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1272,39 +1364,6 @@
       ]
     },
     {
-      "url": "https://x.com/Rescene_FB_JP",
-      "normalizedUrl": "https://x.com/Rescene_FB_JP",
-      "finalUrl": "https://x.com/Rescene_FB_JP",
-      "service": "X",
-      "serviceKey": "x",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "articles/fanbase-site.html",
-          "line": 62,
-          "label": "RESCENE JAPAN FANBASEのXを見る ↗"
-        },
-        {
-          "file": "data/news-manual.json",
-          "line": 208,
-          "label": "RESCENE JAPAN FANBASE ウェブサイト"
-        },
-        {
-          "file": "data/news.json",
-          "line": 15,
-          "label": "RESCENE JAPAN FANBASE ウェブサイト"
-        },
-        {
-          "file": "fanbase-site.html",
-          "line": 62,
-          "label": "RESCENE JAPAN FANBASEのXを見る ↗"
-        }
-      ]
-    },
-    {
       "url": "https://x.com/rescene_fb_jp/status/2034547997087088775?s=46",
       "normalizedUrl": "https://x.com/rescene_fb_jp/status/2034547997087088775",
       "finalUrl": "https://x.com/rescene_fb_jp/status/2034547997087088775",
@@ -1357,65 +1416,6 @@
           "file": "data/news.json",
           "line": 172,
           "label": "｢LOVE ATTACK｣で初のRAKを達成！"
-        }
-      ]
-    },
-    {
-      "url": "https://x.com/rescene_fb_jp?s=11",
-      "normalizedUrl": "https://x.com/rescene_fb_jp",
-      "finalUrl": "https://x.com/rescene_fb_jp",
-      "service": "X",
-      "serviceKey": "x",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/contact.json",
-          "line": 31,
-          "label": "メイン案内"
-        }
-      ]
-    },
-    {
-      "url": "https://x.com/RESCENE_twt",
-      "normalizedUrl": "https://x.com/RESCENE_twt",
-      "finalUrl": "https://x.com/RESCENE_twt",
-      "service": "X",
-      "serviceKey": "x",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 40,
-          "label": "Members X"
-        }
-      ]
-    },
-    {
-      "url": "https://x.com/RESCENEofficial",
-      "normalizedUrl": "https://x.com/RESCENEofficial",
-      "finalUrl": "https://x.com/RESCENEofficial",
-      "service": "X",
-      "serviceKey": "x",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 26,
-          "label": "Official X"
-        },
-        {
-          "file": "index.html",
-          "line": 142,
-          "label": "Official X"
         }
       ]
     },
