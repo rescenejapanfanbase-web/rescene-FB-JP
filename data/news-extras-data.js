@@ -1,6 +1,6 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-09-06T13:49:17.189Z",
-  "sourceNewsGeneratedAt": "2026-09-06T13:49:17.107Z",
+  "generatedAt": "2026-09-06T13:55:04.956Z",
+  "sourceNewsGeneratedAt": "2026-09-06T13:55:04.864Z",
   "related": {
     "fanbase-site": [
       {
@@ -21,7 +21,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.09.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
-        "text": "2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。",
+        "text": "2026年9月2日、LOVE ATTACKが日間チャート1位総獲得数を46回とし、2026年Melon日間チャート最多獲得記録を更新しました。",
         "score": 5,
         "reasons": [
           "同じカテゴリー"
@@ -273,7 +273,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.09.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
-        "text": "2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。",
+        "text": "2026年9月2日、LOVE ATTACKが日間チャート1位総獲得数を46回とし、2026年Melon日間チャート最多獲得記録を更新しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -343,7 +343,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.09.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
-        "text": "2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。",
+        "text": "2026年9月2日、LOVE ATTACKが日間チャート1位総獲得数を46回とし、2026年Melon日間チャート最多獲得記録を更新しました。",
         "score": 22,
         "reasons": [
           "同じカテゴリー",
@@ -614,7 +614,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.09.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
-        "text": "2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。",
+        "text": "2026年9月2日、LOVE ATTACKが日間チャート1位総獲得数を46回とし、2026年Melon日間チャート最多獲得記録を更新しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -653,7 +653,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.09.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
-        "text": "2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。",
+        "text": "2026年9月2日、LOVE ATTACKが日間チャート1位総獲得数を46回とし、2026年Melon日間チャート最多獲得記録を更新しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -1120,7 +1120,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.09.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
-        "text": "2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。",
+        "text": "2026年9月2日、LOVE ATTACKが日間チャート1位総獲得数を46回とし、2026年Melon日間チャート最多獲得記録を更新しました。",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
@@ -1474,7 +1474,7 @@ window.RESCENE_NEWS_EXTRAS = {
       "url": "https://rescene-fb.jp/articles/love-attack-melon-2026-1-cf541f6166.html",
       "hashtags": "#RESCENE #리센느 #リセンヌ",
       "xText": "【2026.09.02】 LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立\n\nhttps://rescene-fb.jp/articles/love-attack-melon-2026-1-cf541f6166.html\n\n#RESCENE #리센느 #リセンヌ",
-      "lineText": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立\n2026年9月2日、LOVE ATTACKが2026年Melon日間チャート1位最多獲得数を46回とし、記録更新しました。",
+      "lineText": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立\n2026年9月2日、LOVE ATTACKが日間チャート1位総獲得数を46回とし、2026年Melon日間チャート最多獲得記録を更新しました。",
       "charCount": 147
     },
     {
