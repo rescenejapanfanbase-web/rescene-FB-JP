@@ -34,7 +34,7 @@ window.RESCENE_NEWS = [
     "label": "New Record",
     "title": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立",
     "text": "2026年9月2日、LOVE ATTACKが日間チャート1位総獲得数を46回とし、2026年Melon日間チャート最多獲得記録を更新しました。",
-    "body": "2026年9月2日、LOVE ATTACKが日間チャート1位総獲得数を46回とし、2026年Melon日間チャート最多獲得記録を更新しました。同年8月1日には、第5世代最長記録(20日)を樹立しました。※2026年9月2日時点",
+    "body": "2026年9月2日、LOVE ATTACKが日間チャート1位総獲得数を46回とし、2026年Melon日間チャート1位最多獲得記録を更新しました。同年8月1日には、第5世代最長記録(20日)を樹立しました。※2026年9月2日時点",
     "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
     "sourceLink": "",
     "sourceLabel": "",
