@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T08:06:33+09:00",
+  "generatedAt": "2026-09-07T08:46:17+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
@@ -8,8 +8,7 @@
     "bugs",
     "flo",
     "genie",
-    "melon",
-    "vibe"
+    "melon"
   ],
   "failedCharts": {},
   "configuration": {
@@ -23,8 +22,8 @@
       "chartName": "FLO Chart",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-07T08:06:33+09:00",
-      "lastSuccessAt": "2026-09-07T08:06:33+09:00",
+      "lastAttemptAt": "2026-09-07T08:46:17+09:00",
+      "lastSuccessAt": "2026-09-07T08:46:17+09:00",
       "chartAt": "2026-09-07T08:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
@@ -38,8 +37,8 @@
       "chartName": "Bugs Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-07T08:06:33+09:00",
-      "lastSuccessAt": "2026-09-07T08:06:33+09:00",
+      "lastAttemptAt": "2026-09-07T08:46:17+09:00",
+      "lastSuccessAt": "2026-09-07T08:46:17+09:00",
       "chartAt": "2026-09-07T08:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
@@ -53,8 +52,8 @@
       "chartName": "Melon TOP100",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-07T08:06:33+09:00",
-      "lastSuccessAt": "2026-09-07T08:06:33+09:00",
+      "lastAttemptAt": "2026-09-07T08:46:17+09:00",
+      "lastSuccessAt": "2026-09-07T08:46:17+09:00",
       "chartAt": "2026-09-07T08:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
@@ -69,8 +68,8 @@
       "chartName": "Genie Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-07T08:06:33+09:00",
-      "lastSuccessAt": "2026-09-07T08:06:33+09:00",
+      "lastAttemptAt": "2026-09-07T08:46:17+09:00",
+      "lastSuccessAt": "2026-09-07T08:46:17+09:00",
       "chartAt": "2026-09-07T08:00:00+09:00",
       "itemCount": 200,
       "matchedCount": 5,
@@ -210,20 +209,19 @@
     }
   },
   "automation": {
-    "eventName": "notion-news-integration",
-    "scheduled": false,
-    "schedule": "stale-check-after-news-sync",
+    "eventName": "schedule",
+    "scheduled": true,
+    "schedule": "7 * * * *",
     "resolvedCharts": [
       "melon",
       "genie",
       "bugs",
-      "flo",
-      "vibe"
+      "flo"
     ],
-    "runId": "34065904745",
-    "runNumber": "40",
+    "runId": "34067795830",
+    "runNumber": "690",
     "runAttempt": "1",
-    "sha": "568ea022d629b33ea045bd73e47204b7f0a9c0de",
-    "completedAt": "2026-09-07T08:06:36+09:00"
+    "sha": "8a377d4f4b68fc84e8009299f930c38caea091d3",
+    "completedAt": "2026-09-07T08:46:20+09:00"
   }
 }
