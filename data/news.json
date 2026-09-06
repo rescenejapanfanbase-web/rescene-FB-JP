@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-02T14:22:24.018Z",
+  "generatedAt": "2026-09-06T13:49:17.107Z",
   "source": "manual+notion",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "notionCount": 15,
+  "notionCount": 16,
   "news": [
     {
       "slug": "fanbase-site",
@@ -14,6 +14,22 @@
       "image": "news/fanbase-site.jpg",
       "sourceLink": "https://x.com/Rescene_FB_JP",
       "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
+    },
+    {
+      "slug": "spotv-k-pop-awards-ska-2-ddb316c572",
+      "date": "2026.09.06",
+      "category": "notice",
+      "categoryName": "記録",
+      "label": "Award",
+      "title": "SPOTV K-POP AWARDS(SKA)にて2つの賞を受賞！",
+      "text": "2026年9月6日に開催されたSKAで2つの賞を受賞しました！",
+      "body": "2026年9月6日に開催されたSPOTV K-POP AWARDSでGLOBAL CONNECT賞とSPOTV AMBASSADOR賞の2つの部門で受賞。",
+      "image": "assets/news/notion/notion-3d3229d219da80ada593c1ddb316c572-3af870050127.jpg",
+      "sourceLink": "",
+      "sourceLabel": "",
+      "translations": {},
+      "notionPageId": "3d3229d2-19da-80ad-a593-c1ddb316c572",
+      "notionUrl": "https://app.notion.com/p/SPOTV-K-POP-AWARDS-SKA-2-3d3229d219da80ada593c1ddb316c572"
     },
     {
       "slug": "love-attack-melon-2026-1-cf541f6166",

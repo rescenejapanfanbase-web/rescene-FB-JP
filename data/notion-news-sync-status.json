@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-09-02T14:22:24.018Z",
+  "generatedAt": "2026-09-06T13:49:17.107Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 15,
-  "notionNews": 15,
-  "notionImages": 15,
+  "queriedPages": 16,
+  "notionNews": 16,
+  "notionImages": 16,
   "rows": [
+    {
+      "title": "SPOTV K-POP AWARDS(SKA)にて2つの賞を受賞！",
+      "pageId": "3d3229d2-19da-80ad-a593-c1ddb316c572",
+      "lastEditedTime": "2026-09-06T13:41:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "get.jpeg",
+      "imagePath": "assets/news/notion/notion-3d3229d219da80ada593c1ddb316c572-3af870050127.jpg",
+      "imageBytes": 166074,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立",
       "pageId": "3cf229d2-19da-8002-8238-cfcf541f6166",

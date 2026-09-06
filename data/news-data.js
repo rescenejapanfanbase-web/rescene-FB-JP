@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "spotv-k-pop-awards-ska-2-ddb316c572",
+    "date": "2026.09.06",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "Award",
+    "title": "SPOTV K-POP AWARDS(SKA)にて2つの賞を受賞！",
+    "text": "2026年9月6日に開催されたSKAで2つの賞を受賞しました！",
+    "body": "2026年9月6日に開催されたSPOTV K-POP AWARDSでGLOBAL CONNECT賞とSPOTV AMBASSADOR賞の2つの部門で受賞。",
+    "image": "assets/news/notion/notion-3d3229d219da80ada593c1ddb316c572-3af870050127.jpg",
+    "sourceLink": "",
+    "sourceLabel": "",
+    "translations": {},
+    "notionPageId": "3d3229d2-19da-80ad-a593-c1ddb316c572",
+    "notionUrl": "https://app.notion.com/p/SPOTV-K-POP-AWARDS-SKA-2-3d3229d219da80ada593c1ddb316c572"
+  },
+  {
     "slug": "love-attack-melon-2026-1-cf541f6166",
     "date": "2026.09.02",
     "category": "notice",
