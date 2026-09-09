@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T11:14:38.564430+00:00",
+  "generatedAt": "2026-09-09T14:25:40.754217+00:00",
   "items": [
     {
       "date": "2026-09-09",
@@ -15,6 +15,15 @@
         "data/mv-candidates.json",
         "data/mv-data.js",
         "data/mv.json"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "title": "chore: critical YouTube sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "0ce0342",
+      "files": [
+        "data/youtube-channels.json"
       ]
     },
     {
