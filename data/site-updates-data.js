@@ -1,11 +1,11 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-09-11T08:51:45.665364+00:00",
+  "generatedAt": "2026-09-11T11:11:16.010720+00:00",
   "items": [
     {
       "date": "2026-09-11",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "5097f7f",
+      "commit": "0e7cfa4",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
