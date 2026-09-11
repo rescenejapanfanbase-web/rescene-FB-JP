@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T16:23:52.882551+00:00",
+  "generatedAt": "2026-09-11T20:54:54.362110+00:00",
   "items": [
     {
       "date": "2026-09-11",
@@ -21,7 +21,7 @@
       "date": "2026-09-11",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "c093307",
+      "commit": "9137fac",
       "files": [
         "data/youtube-channels.json"
       ]
