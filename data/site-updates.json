@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-09-12T22:12:55.849832+00:00",
+  "generatedAt": "2026-09-12T23:11:46.936884+00:00",
   "items": [
+    {
+      "date": "2026-09-12",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "4e2ace0",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
     {
       "date": "2026-09-12",
       "title": "chore: critical full content sync",
