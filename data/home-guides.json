@@ -1,7 +1,16 @@
 {
-  "generatedAt": "2026-09-09T08:55:27.733Z",
+  "generatedAt": "2026-09-12T04:27:10.396Z",
   "source": "git-history",
   "guides": [
+    {
+      "key": "discography",
+      "title": "ディスコグラフィ",
+      "summary": "アルバム、シングル、OST、収録曲と配信リンクを掲載しています。",
+      "url": "discography.html",
+      "category": "DISCOGRAPHY",
+      "updatedAt": "2026-09-12T04:27:10.396Z",
+      "commit": "8423b7b6f"
+    },
     {
       "key": "chants",
       "title": "掛け声ガイド",
@@ -28,15 +37,6 @@
       "category": "MUSIC VIDEO",
       "updatedAt": "2026-08-11T12:34:43Z",
       "commit": "4acce2a52"
-    },
-    {
-      "key": "discography",
-      "title": "ディスコグラフィ",
-      "summary": "アルバム、シングル、OST、収録曲と配信リンクを掲載しています。",
-      "url": "discography.html",
-      "category": "DISCOGRAPHY",
-      "updatedAt": "2026-07-31T23:58:43Z",
-      "commit": "8423b7b6f"
     },
     {
       "key": "voting",
