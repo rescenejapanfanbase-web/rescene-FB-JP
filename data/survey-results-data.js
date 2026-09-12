@@ -1,51 +1,56 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-09-12T05:52:45.370Z",
+  "generatedAt": "2026-09-12T10:53:03.403Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 180,
-      "totalSelections": 498,
+      "responseCount": 181,
+      "totalSelections": 499,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-09-07T04:34:00.000Z",
+      "lastResponseAt": "2026-09-12T08:36:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
           "votes": 78,
-          "respondentRate": 43.3,
-          "selectionShare": 15.7
+          "respondentRate": 43.1,
+          "selectionShare": 15.6
         },
         {
           "name": "Cotton Candy",
           "votes": 39,
-          "respondentRate": 21.7,
+          "respondentRate": 21.5,
           "selectionShare": 7.8
         },
         {
           "name": "LOVE ATTACK",
           "votes": 38,
-          "respondentRate": 21.1,
+          "respondentRate": 21,
           "selectionShare": 7.6
         },
         {
           "name": "Runaway",
           "votes": 35,
-          "respondentRate": 19.4,
+          "respondentRate": 19.3,
           "selectionShare": 7
         },
         {
           "name": "Bloom",
           "votes": 30,
-          "respondentRate": 16.7,
+          "respondentRate": 16.6,
           "selectionShare": 6
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "とにかく歌詞がよい！イメージがマッチしてる！",
+          "author": "匿名REMINE",
+          "date": "2026-09-12"
+        },
         {
           "text": "ワタシ　リセンヌ　スキ",
           "author": "匿名REMINE",
@@ -138,11 +143,6 @@ window.RESCENE_SURVEY_RESULTS = {
         },
         {
           "text": "全員の歌唱力の高さと歌声を味わえる名曲だと思います。",
-          "author": "匿名REMINE",
-          "date": "2026-08-16"
-        },
-        {
-          "text": "メロディと歌声がとてもいいです(^^♪",
           "author": "匿名REMINE",
           "date": "2026-08-16"
         }
