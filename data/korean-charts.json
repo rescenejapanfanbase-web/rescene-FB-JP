@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T15:38:15+09:00",
+  "generatedAt": "2026-09-14T17:05:54+09:00",
   "configSource": "notion",
   "charts": [
     {
@@ -2903,13 +2903,13 @@
         {
           "startAt": "2026-07-27T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-07T00:00:00+09:00",
-          "lastCheckedAt": "2026-09-07T16:31:46+09:00",
-          "observations": 7
+          "lastObservedAt": "2026-09-14T00:00:00+09:00",
+          "lastCheckedAt": "2026-09-14T17:05:54+09:00",
+          "observations": 8
         }
       ],
-      "lastCheckedAt": "2026-09-13T16:38:49+09:00",
-      "chartAt": "2026-09-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-09-14T17:05:54+09:00",
+      "chartAt": "2026-09-14T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/uhuh--youtube-kr.json"
     },
     {
@@ -2931,13 +2931,13 @@
         {
           "startAt": "2026-07-27T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-07T00:00:00+09:00",
-          "lastCheckedAt": "2026-09-07T16:31:46+09:00",
-          "observations": 7
+          "lastObservedAt": "2026-09-14T00:00:00+09:00",
+          "lastCheckedAt": "2026-09-14T17:05:54+09:00",
+          "observations": 8
         }
       ],
-      "lastCheckedAt": "2026-09-13T16:38:49+09:00",
-      "chartAt": "2026-09-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-09-14T17:05:54+09:00",
+      "chartAt": "2026-09-14T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/yoyo--youtube-kr.json"
     },
     {
@@ -2952,8 +2952,8 @@
       "status": "in",
       "peakRank": 1,
       "firstChartedAt": "2024-09-23T00:00:00+09:00",
-      "lastChartedAt": "2026-09-07T00:00:00+09:00",
-      "chartDays": 37,
+      "lastChartedAt": "2026-09-14T00:00:00+09:00",
+      "chartDays": 38,
       "outOfChartCount": 1,
       "outOfChartHistory": [
         {
@@ -2964,8 +2964,8 @@
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-09-13T16:38:49+09:00",
-      "chartAt": "2026-09-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-09-14T17:05:54+09:00",
+      "chartAt": "2026-09-14T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/love-attack--youtube-kr.json"
     },
     {
@@ -2973,70 +2973,14 @@
       "songTitle": "Pinball",
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
-      "currentRank": 28,
+      "currentRank": 27,
       "previousRank": 28,
-      "movement": 0,
-      "movementType": "same",
+      "movement": 1,
+      "movementType": "up",
       "status": "in",
       "peakRank": 25,
       "firstChartedAt": "2026-06-08T00:00:00+09:00",
-      "lastChartedAt": "2026-09-07T00:00:00+09:00",
-      "chartDays": 14,
-      "outOfChartCount": 1,
-      "outOfChartHistory": [
-        {
-          "startAt": "2026-07-27T00:00:00+09:00",
-          "endAt": "2026-07-27T00:00:00+09:00",
-          "lastObservedAt": "2026-07-27T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-01T23:56:51+09:00",
-          "observations": 1
-        }
-      ],
-      "lastCheckedAt": "2026-09-13T16:38:49+09:00",
-      "chartAt": "2026-09-07T00:00:00+09:00",
-      "historyPath": "data/korean-chart-history/pinball--youtube-kr.json"
-    },
-    {
-      "songId": "glow-up",
-      "songTitle": "Glow Up",
-      "chartId": "youtube-kr",
-      "chartName": "YouTube Music Korea Top Songs",
-      "currentRank": 72,
-      "previousRank": 72,
-      "movement": 0,
-      "movementType": "same",
-      "status": "in",
-      "peakRank": 51,
-      "firstChartedAt": "2026-06-22T00:00:00+09:00",
-      "lastChartedAt": "2026-09-07T00:00:00+09:00",
-      "chartDays": 12,
-      "outOfChartCount": 1,
-      "outOfChartHistory": [
-        {
-          "startAt": "2026-07-27T00:00:00+09:00",
-          "endAt": "2026-07-27T00:00:00+09:00",
-          "lastObservedAt": "2026-07-27T00:00:00+09:00",
-          "lastCheckedAt": "2026-08-01T23:56:51+09:00",
-          "observations": 1
-        }
-      ],
-      "lastCheckedAt": "2026-09-13T16:38:49+09:00",
-      "chartAt": "2026-09-07T00:00:00+09:00",
-      "historyPath": "data/korean-chart-history/glow-up--youtube-kr.json"
-    },
-    {
-      "songId": "deja-vu",
-      "songTitle": "Deja Vu",
-      "chartId": "youtube-kr",
-      "chartName": "YouTube Music Korea Top Songs",
-      "currentRank": 10,
-      "previousRank": 10,
-      "movement": 0,
-      "movementType": "same",
-      "status": "in",
-      "peakRank": 8,
-      "firstChartedAt": "2026-06-01T00:00:00+09:00",
-      "lastChartedAt": "2026-09-07T00:00:00+09:00",
+      "lastChartedAt": "2026-09-14T00:00:00+09:00",
       "chartDays": 15,
       "outOfChartCount": 1,
       "outOfChartHistory": [
@@ -3048,8 +2992,64 @@
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-09-13T16:38:49+09:00",
-      "chartAt": "2026-09-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-09-14T17:05:54+09:00",
+      "chartAt": "2026-09-14T00:00:00+09:00",
+      "historyPath": "data/korean-chart-history/pinball--youtube-kr.json"
+    },
+    {
+      "songId": "glow-up",
+      "songTitle": "Glow Up",
+      "chartId": "youtube-kr",
+      "chartName": "YouTube Music Korea Top Songs",
+      "currentRank": 81,
+      "previousRank": 72,
+      "movement": -9,
+      "movementType": "down",
+      "status": "in",
+      "peakRank": 51,
+      "firstChartedAt": "2026-06-22T00:00:00+09:00",
+      "lastChartedAt": "2026-09-14T00:00:00+09:00",
+      "chartDays": 13,
+      "outOfChartCount": 1,
+      "outOfChartHistory": [
+        {
+          "startAt": "2026-07-27T00:00:00+09:00",
+          "endAt": "2026-07-27T00:00:00+09:00",
+          "lastObservedAt": "2026-07-27T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-01T23:56:51+09:00",
+          "observations": 1
+        }
+      ],
+      "lastCheckedAt": "2026-09-14T17:05:54+09:00",
+      "chartAt": "2026-09-14T00:00:00+09:00",
+      "historyPath": "data/korean-chart-history/glow-up--youtube-kr.json"
+    },
+    {
+      "songId": "deja-vu",
+      "songTitle": "Deja Vu",
+      "chartId": "youtube-kr",
+      "chartName": "YouTube Music Korea Top Songs",
+      "currentRank": 11,
+      "previousRank": 10,
+      "movement": -1,
+      "movementType": "down",
+      "status": "in",
+      "peakRank": 8,
+      "firstChartedAt": "2026-06-01T00:00:00+09:00",
+      "lastChartedAt": "2026-09-14T00:00:00+09:00",
+      "chartDays": 16,
+      "outOfChartCount": 1,
+      "outOfChartHistory": [
+        {
+          "startAt": "2026-07-27T00:00:00+09:00",
+          "endAt": "2026-07-27T00:00:00+09:00",
+          "lastObservedAt": "2026-07-27T00:00:00+09:00",
+          "lastCheckedAt": "2026-08-01T23:56:51+09:00",
+          "observations": 1
+        }
+      ],
+      "lastCheckedAt": "2026-09-14T17:05:54+09:00",
+      "chartAt": "2026-09-14T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/deja-vu--youtube-kr.json"
     },
     {
@@ -3071,13 +3071,13 @@
         {
           "startAt": "2026-07-27T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-07T00:00:00+09:00",
-          "lastCheckedAt": "2026-09-07T16:31:46+09:00",
-          "observations": 7
+          "lastObservedAt": "2026-09-14T00:00:00+09:00",
+          "lastCheckedAt": "2026-09-14T17:05:54+09:00",
+          "observations": 8
         }
       ],
-      "lastCheckedAt": "2026-09-13T16:38:49+09:00",
-      "chartAt": "2026-09-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-09-14T17:05:54+09:00",
+      "chartAt": "2026-09-14T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/heart-drop--youtube-kr.json"
     },
     {
@@ -3085,15 +3085,15 @@
       "songTitle": "Bloom",
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
-      "currentRank": 69,
+      "currentRank": 67,
       "previousRank": 69,
-      "movement": 0,
-      "movementType": "same",
+      "movement": 2,
+      "movementType": "up",
       "status": "in",
       "peakRank": 53,
       "firstChartedAt": "2026-07-06T00:00:00+09:00",
-      "lastChartedAt": "2026-09-07T00:00:00+09:00",
-      "chartDays": 10,
+      "lastChartedAt": "2026-09-14T00:00:00+09:00",
+      "chartDays": 11,
       "outOfChartCount": 1,
       "outOfChartHistory": [
         {
@@ -3104,8 +3104,8 @@
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-09-13T16:38:49+09:00",
-      "chartAt": "2026-09-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-09-14T17:05:54+09:00",
+      "chartAt": "2026-09-14T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/bloom--youtube-kr.json"
     },
     {
@@ -3134,13 +3134,13 @@
         {
           "startAt": "2026-08-31T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-07T00:00:00+09:00",
-          "lastCheckedAt": "2026-09-07T16:31:46+09:00",
-          "observations": 2
+          "lastObservedAt": "2026-09-14T00:00:00+09:00",
+          "lastCheckedAt": "2026-09-14T17:05:54+09:00",
+          "observations": 3
         }
       ],
-      "lastCheckedAt": "2026-09-13T16:38:49+09:00",
-      "chartAt": "2026-09-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-09-14T17:05:54+09:00",
+      "chartAt": "2026-09-14T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/busy-boy--youtube-kr.json"
     },
     {
@@ -3148,15 +3148,15 @@
       "songTitle": "Runaway",
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
-      "currentRank": 60,
+      "currentRank": 53,
       "previousRank": 60,
-      "movement": 0,
-      "movementType": "same",
+      "movement": 7,
+      "movementType": "up",
       "status": "in",
       "peakRank": 34,
       "firstChartedAt": "2026-05-25T00:00:00+09:00",
-      "lastChartedAt": "2026-09-07T00:00:00+09:00",
-      "chartDays": 16,
+      "lastChartedAt": "2026-09-14T00:00:00+09:00",
+      "chartDays": 17,
       "outOfChartCount": 1,
       "outOfChartHistory": [
         {
@@ -3167,8 +3167,8 @@
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-09-13T16:38:49+09:00",
-      "chartAt": "2026-09-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-09-14T17:05:54+09:00",
+      "chartAt": "2026-09-14T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/runaway--youtube-kr.json"
     },
     {
@@ -3176,15 +3176,15 @@
       "songTitle": "Pretty Girl",
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
-      "currentRank": 6,
+      "currentRank": 7,
       "previousRank": 6,
-      "movement": 0,
-      "movementType": "same",
+      "movement": -1,
+      "movementType": "down",
       "status": "in",
       "peakRank": 3,
       "firstChartedAt": "2026-07-06T00:00:00+09:00",
-      "lastChartedAt": "2026-09-07T00:00:00+09:00",
-      "chartDays": 10,
+      "lastChartedAt": "2026-09-14T00:00:00+09:00",
+      "chartDays": 11,
       "outOfChartCount": 1,
       "outOfChartHistory": [
         {
@@ -3195,8 +3195,8 @@
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-09-13T16:38:49+09:00",
-      "chartAt": "2026-09-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-09-14T17:05:54+09:00",
+      "chartAt": "2026-09-14T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pretty-girl--youtube-kr.json"
     },
     {
@@ -3579,11 +3579,11 @@
       "chartName": "YouTube Music Korea Top Songs",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-13T16:38:49+09:00",
+      "lastAttemptAt": "2026-09-14T17:05:54+09:00",
       "error": "",
-      "lastSuccessAt": "2026-09-13T16:38:49+09:00",
-      "chartAt": "2026-09-07T00:00:00+09:00",
-      "itemCount": 100,
+      "lastSuccessAt": "2026-09-14T17:05:54+09:00",
+      "chartAt": "2026-09-14T00:00:00+09:00",
+      "itemCount": 98,
       "matchedCount": 7,
       "metadata": {
         "playlistId": "PL4fGSI1pDJn6jXS_Tv_N9B8Z0HTRVJE0m",
