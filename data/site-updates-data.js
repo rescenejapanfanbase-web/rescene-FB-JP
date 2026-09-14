@@ -1,6 +1,15 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-09-13T20:43:23.845716+00:00",
+  "generatedAt": "2026-09-14T00:04:50.995606+00:00",
   "items": [
+    {
+      "date": "2026-09-13",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "e0e88ff",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
     {
       "date": "2026-09-13",
       "title": "chore: critical full content sync",
@@ -24,15 +33,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "639746f",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "4e2ace0",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {
