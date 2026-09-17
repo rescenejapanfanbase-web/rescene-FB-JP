@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-09-06T15:24:15Z",
+  "generatedAt": "2026-09-17T14:26:42Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -734,25 +734,25 @@
       "default": "assets/optimized/01213fb41fad9294/4h0se9m3iou-w768.webp"
     },
     "assets/mv/youtube/638f3ttCR20.jpg": {
-      "asset": "ac1da45f240557b4",
-      "originalBytes": 65210,
+      "asset": "ee03663a46ae9301",
+      "originalBytes": 93587,
       "width": 1280,
       "height": 720,
       "variants": [
         {
-          "src": "assets/optimized/ac1da45f240557b4/638f3ttcr20-w480.webp",
+          "src": "assets/optimized/ee03663a46ae9301/638f3ttcr20-w480.webp",
           "width": 480,
           "height": 270,
-          "bytes": 22968
+          "bytes": 23684
         },
         {
-          "src": "assets/optimized/ac1da45f240557b4/638f3ttcr20-w768.webp",
+          "src": "assets/optimized/ee03663a46ae9301/638f3ttcr20-w768.webp",
           "width": 768,
           "height": 432,
-          "bytes": 42990
+          "bytes": 46228
         }
       ],
-      "default": "assets/optimized/ac1da45f240557b4/638f3ttcr20-w768.webp"
+      "default": "assets/optimized/ee03663a46ae9301/638f3ttcr20-w768.webp"
     },
     "assets/mv/youtube/6tTsZnKysBc.jpg": {
       "asset": "9be43c500015e87b",
@@ -12110,6 +12110,32 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/edc39ea4428ca2ac/mubeat-vote-1-w1179.webp"
+    },
+    "ee03663a46ae9301": {
+      "hash": "ee03663a46ae93017df7622c2d08909a4229f05a65a40caa8703fc4e78d2a2f7",
+      "width": 1280,
+      "height": 720,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/ee03663a46ae9301/638f3ttcr20-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 23684
+        },
+        {
+          "src": "assets/optimized/ee03663a46ae9301/638f3ttcr20-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 46228
+        }
+      ],
+      "skippedWidths": [
+        1280
+      ],
+      "default": "assets/optimized/ee03663a46ae9301/638f3ttcr20-w768.webp"
     },
     "eee4ebc8c3ea74da": {
       "hash": "eee4ebc8c3ea74da8a1b564b02dea2fc71691588c63043e8402708511c9a0435",
