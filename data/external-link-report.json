@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-18T22:46:54Z",
-  "startedAt": "2026-09-18T22:46:50Z",
-  "elapsedSeconds": 4.69,
+  "generatedAt": "2026-09-19T22:26:32Z",
+  "startedAt": "2026-09-19T22:26:28Z",
+  "elapsedSeconds": 4.67,
   "summary": {
-    "checked": 83,
-    "ok": 78,
+    "checked": 84,
+    "ok": 79,
     "warning": 5,
     "broken": 0,
     "hosts": 17
@@ -14,8 +14,8 @@
     {
       "key": "x",
       "label": "X",
-      "checked": 17,
-      "ok": 13,
+      "checked": 18,
+      "ok": 14,
       "warning": 4,
       "broken": 0
     },
@@ -573,7 +573,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 236,
+          "line": 252,
           "label": "2026愛知・名古屋アジア競技大会の広報大使に任命！"
         }
       ]
@@ -596,7 +596,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 108,
+          "line": 124,
           "label": "RESCENE好きな曲アンケートを実施！"
         }
       ]
@@ -1106,7 +1106,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 326,
+          "line": 342,
           "label": "京畿道 高陽市 広報大使に任命"
         },
         {
@@ -1139,7 +1139,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 337,
+          "line": 353,
           "label": "慶尚北道 慶州市 広報大使に任命"
         },
         {
@@ -1172,7 +1172,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 348,
+          "line": 364,
           "label": "京畿道 水原市 広報大使に任命"
         },
         {
@@ -1205,7 +1205,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 359,
+          "line": 375,
           "label": "慶尚南道 巨済市 広報大使に任命"
         },
         {
@@ -1264,7 +1264,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1789771613582&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1789856790912&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1302,7 +1302,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 293,
+          "line": 309,
           "label": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得"
         },
         {
@@ -1330,7 +1330,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 268,
+          "line": 284,
           "label": "2026 K-WORLD DREAM AWARDS(KWDA)に出演が決定！"
         },
         {
@@ -1358,7 +1358,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 60,
+          "line": 76,
           "label": "2026 KWDAにて2つの賞を受賞！"
         }
       ]
@@ -1386,7 +1386,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 392,
+          "line": 408,
           "label": "デビュー2周年広告プロジェクト"
         },
         {
@@ -1414,7 +1414,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 188,
+          "line": 204,
           "label": "｢LOVE ATTACK｣で初のRAKを達成！"
         }
       ]
@@ -1496,7 +1496,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 381,
+          "line": 397,
           "label": "RESCENE Debut 2nd Anniversary"
         },
         {
@@ -1542,13 +1542,36 @@
         },
         {
           "file": "data/news.json",
-          "line": 220,
+          "line": 236,
           "label": "「Pretty Girl」で地上波音楽番組初の1位を獲得！"
         },
         {
           "file": "music-show-wins.html",
           "line": 107,
           "label": "メンバーのリアクションを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/resceneofficial/status/2101307838341747115?s=46",
+      "normalizedUrl": "https://x.com/resceneofficial/status/2101307838341747115",
+      "finalUrl": "https://x.com/resceneofficial/status/2101307838341747115",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "articles/2026-the-fact-music-awards-tma-2-48edbe72f9.html",
+          "line": 63,
+          "label": "公式の画像を見る ↗"
+        },
+        {
+          "file": "data/news.json",
+          "line": 28,
+          "label": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！"
         }
       ]
     },
@@ -1570,7 +1593,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 156,
+          "line": 172,
           "label": "SPOTV K-POP AWARDS(SKA)に出演が決定！"
         },
         {
@@ -1598,7 +1621,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 172,
+          "line": 188,
           "label": "Asia Artist Awards(AAA)に出演が決定！"
         },
         {
@@ -1687,7 +1710,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 304,
+          "line": 320,
           "label": "RESCENEがMelon TOP100で初の1位を記録"
         },
         {
@@ -1738,7 +1761,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 282,
+          "line": 298,
           "label": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得"
         },
         {
@@ -1807,7 +1830,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 252,
+          "line": 268,
           "label": "第7回 島の日の広報大使に任命！"
         }
       ]
@@ -1920,7 +1943,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 204,
+          "line": 220,
           "label": "「LOVE ATTACK」で1位を獲得！"
         },
         {
