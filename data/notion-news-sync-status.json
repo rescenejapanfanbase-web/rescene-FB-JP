@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-09-06T23:06:22.048Z",
+  "generatedAt": "2026-09-19T14:01:57.310Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 16,
-  "notionNews": 16,
-  "notionImages": 16,
+  "queriedPages": 17,
+  "notionNews": 17,
+  "notionImages": 17,
   "rows": [
+    {
+      "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
+      "pageId": "3e0229d2-19da-809e-90cc-c748edbe72f9",
+      "lastEditedTime": "2026-09-19T14:00:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "98F44EC7-47CF-468F-800F-30B8A1B24BAF.heic",
+      "imagePath": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
+      "imageBytes": 2770481,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "SPOTV K-POP AWARDS(SKA)にて2つの賞を受賞！",
       "pageId": "3d3229d2-19da-80ad-a593-c1ddb316c572",

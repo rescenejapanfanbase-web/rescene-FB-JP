@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
+    "date": "2026.09.19",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "Award",
+    "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
+    "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
+    "body": "2026年9月19日に開催された2026 TMAにてARTIST OF THE YEAR賞とToday's Choice賞を受賞しました！",
+    "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
+    "sourceLink": "https://x.com/resceneofficial/status/2101307838341747115?s=46",
+    "sourceLabel": "公式の画像を見る",
+    "translations": {},
+    "notionPageId": "3e0229d2-19da-809e-90cc-c748edbe72f9",
+    "notionUrl": "https://app.notion.com/p/2026-THE-FACT-MUSIC-AWARDS-TMA-2-3e0229d219da809e90ccc748edbe72f9"
+  },
+  {
     "slug": "spotv-k-pop-awards-ska-2-ddb316c572",
     "date": "2026.09.06",
     "category": "notice",

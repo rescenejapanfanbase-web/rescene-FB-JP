@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-09-06T13:55:04.956Z",
-  "sourceNewsGeneratedAt": "2026-09-06T23:06:22.048Z",
+  "generatedAt": "2026-09-19T14:01:57.400Z",
+  "sourceNewsGeneratedAt": "2026-09-19T14:01:57.310Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
+        "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
+        "date": "2026.09.19",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
+        "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "spotv-k-pop-awards-ska-2-ddb316c572",
         "title": "SPOTV K-POP AWARDS(SKA)にて2つの賞を受賞！",
@@ -26,6 +38,34 @@
         "reasons": [
           "同じカテゴリー"
         ]
+      }
+    ],
+    "2026-the-fact-music-awards-tma-2-48edbe72f9": [
+      {
+        "slug": "spotv-k-pop-awards-ska-2-ddb316c572",
+        "title": "SPOTV K-POP AWARDS(SKA)にて2つの賞を受賞！",
+        "date": "2026.09.06",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3d3229d219da80ada593c1ddb316c572-3af870050127.jpg",
+        "text": "2026年9月6日に開催されたSKAで2つの賞を受賞しました！",
+        "score": 13,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "2026-k-world-dream-awards-kwda-fec5375c61",
+        "title": "2026 K-WORLD DREAM AWARDS(KWDA)に出演が決定！",
+        "date": "2026.07.20",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da805283b1d5fec5375c61-e3dc347adb43.jpg",
+        "text": "2026年8月27日に開催されるK-WORLD DREAM AWARDS(KWDA)にRESCENEが出演決定しました！",
+        "score": 12,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
       },
       {
         "slug": "2026-kwda-2-7f1dbcd366",
@@ -34,9 +74,10 @@
         "label": "Award",
         "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
         "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
-        "score": 5,
+        "score": 11,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "共通キーワード"
         ]
       }
     ],
@@ -55,6 +96,19 @@
         ]
       },
       {
+        "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
+        "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
+        "date": "2026.09.19",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
+        "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
+        "score": 13,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
         "slug": "asia-artist-awards-aaa-ddf38a6d89",
         "title": "Asia Artist Awards(AAA)に出演が決定！",
         "date": "2026.07.30",
@@ -62,19 +116,6 @@
         "image": "assets/news/notion/notion-3ae229d219da800391fad8ddf38a6d89-5f31c4e2cc30.jpg",
         "text": "2026年12月5日,6日に開催されるAsia Artist Awards(AAA)にRESCENEが出演決定しました！",
         "score": 11,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード"
-        ]
-      },
-      {
-        "slug": "2026-k-world-dream-awards-kwda-fec5375c61",
-        "title": "2026 K-WORLD DREAM AWARDS(KWDA)に出演が決定！",
-        "date": "2026.07.20",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3ae229d219da805283b1d5fec5375c61-e3dc347adb43.jpg",
-        "text": "2026年8月27日に開催されるK-WORLD DREAM AWARDS(KWDA)にRESCENEが出演決定しました！",
-        "score": 10,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
@@ -127,6 +168,19 @@
     ],
     "2026-kwda-2-7f1dbcd366": [
       {
+        "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
+        "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
+        "date": "2026.09.19",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
+        "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
         "slug": "2026-k-world-dream-awards-kwda-fec5375c61",
         "title": "2026 K-WORLD DREAM AWARDS(KWDA)に出演が決定！",
         "date": "2026.07.20",
@@ -146,19 +200,6 @@
         "label": "Award",
         "image": "assets/news/notion/notion-3d3229d219da80ada593c1ddb316c572-3af870050127.jpg",
         "text": "2026年9月6日に開催されたSKAで2つの賞を受賞しました！",
-        "score": 9,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード"
-        ]
-      },
-      {
-        "slug": "spotv-k-pop-awards-ska-53085d0039",
-        "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
-        "date": "2026.07.31",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
-        "text": "2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)にRESCENEが出演決定しました！",
         "score": 9,
         "reasons": [
           "同じカテゴリー",
@@ -256,6 +297,18 @@
     ],
     "rescene-7234a5e06b": [
       {
+        "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
+        "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
+        "date": "2026.09.19",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
+        "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "spotv-k-pop-awards-ska-2-ddb316c572",
         "title": "SPOTV K-POP AWARDS(SKA)にて2つの賞を受賞！",
         "date": "2026.09.06",
@@ -274,18 +327,6 @@
         "label": "New Record",
         "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
         "text": "2026年9月2日、LOVE ATTACKが日間チャート1位総獲得数を46回とし、2026年Melon日間チャート最多獲得記録を更新しました。",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "2026-kwda-2-7f1dbcd366",
-        "title": "2026 KWDAにて2つの賞を受賞！",
-        "date": "2026.08.27",
-        "label": "Award",
-        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
-        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -700,13 +741,13 @@
         ]
       },
       {
-        "slug": "2026-kwda-2-7f1dbcd366",
-        "title": "2026 KWDAにて2つの賞を受賞！",
-        "date": "2026.08.27",
+        "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
+        "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
+        "date": "2026.09.19",
         "label": "Award",
-        "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
-        "text": "2026年8月27日に開催された2026KWDAで2つの賞を受賞しました！",
-        "score": 11,
+        "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
+        "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
+        "score": 12,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
@@ -1103,24 +1144,24 @@
         ]
       },
       {
-        "slug": "spotv-k-pop-awards-ska-2-ddb316c572",
-        "title": "SPOTV K-POP AWARDS(SKA)にて2つの賞を受賞！",
-        "date": "2026.09.06",
+        "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
+        "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
+        "date": "2026.09.19",
         "label": "Award",
-        "image": "assets/news/notion/notion-3d3229d219da80ada593c1ddb316c572-3af870050127.jpg",
-        "text": "2026年9月6日に開催されたSKAで2つの賞を受賞しました！",
+        "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
+        "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "love-attack-melon-2026-1-cf541f6166",
-        "title": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立",
-        "date": "2026.09.02",
-        "label": "New Record",
-        "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
-        "text": "2026年9月2日、LOVE ATTACKが日間チャート1位総獲得数を46回とし、2026年Melon日間チャート最多獲得記録を更新しました。",
+        "slug": "spotv-k-pop-awards-ska-2-ddb316c572",
+        "title": "SPOTV K-POP AWARDS(SKA)にて2つの賞を受賞！",
+        "date": "2026.09.06",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3d3229d219da80ada593c1ddb316c572-3af870050127.jpg",
+        "text": "2026年9月6日に開催されたSKAで2つの賞を受賞しました！",
         "score": 6,
         "reasons": [
           "同じカテゴリー"
@@ -1456,6 +1497,16 @@
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
+      "date": "2026.09.19",
+      "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
+      "url": "https://rescene-fb.jp/articles/2026-the-fact-music-awards-tma-2-48edbe72f9.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.09.19】 2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！\n\nhttps://rescene-fb.jp/articles/2026-the-fact-music-awards-tma-2-48edbe72f9.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！\n2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
+      "charCount": 157
     },
     {
       "slug": "spotv-k-pop-awards-ska-2-ddb316c572",
