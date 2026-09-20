@@ -1,6 +1,22 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-09-20T00:04:35.930723+00:00",
+  "generatedAt": "2026-09-20T04:47:41.282105+00:00",
   "items": [
+    {
+      "date": "2026-09-20",
+      "title": "chore: critical full content sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "1557b12",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/mv-data.js",
+        "data/mv.json",
+        "data/quality-report.json"
+      ]
+    },
     {
       "date": "2026-09-19",
       "title": "chore: update external link report",
@@ -33,15 +49,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "e2babe6",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "afc0bec",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {
