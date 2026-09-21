@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-19T14:01:57.310Z",
+  "generatedAt": "2026-09-21T04:46:16.079Z",
   "source": "manual+notion",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "notionCount": 17,
+  "notionCount": 18,
   "news": [
     {
       "slug": "fanbase-site",
@@ -16,6 +16,22 @@
       "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
     },
     {
+      "slug": "melon-music-awards-2026-mma-a5ddba3cc6",
+      "date": "2026.09.21",
+      "category": "notice",
+      "categoryName": "お知らせ",
+      "label": "An award ceremony",
+      "title": "Melon Music Awards 2026(MMA)に出演が決定！",
+      "text": "2026年11月14日,15日に開催されるMelon Music Awards 2026(MMA)にRESCENEが出演決定しました！",
+      "body": "2026年11月14日,15日に開催されるMelon Music Awards 2026(MMA)にRESCENEが出演決定しました！\nMMAは、韓国最大の音楽配信プラットフォーム「Melon」の利用データとファン投票を基に、その年最も活躍したアーティストを讃えるK-POP最大級の音楽授賞式です。",
+      "image": "assets/news/notion/notion-3e2229d219da803b9cb9f0a5ddba3cc6-8cc08e70975e.jpg",
+      "sourceLink": "https://x.com/melon/status/2101816676887183778?s=46",
+      "sourceLabel": "公式のポストを見る",
+      "translations": {},
+      "notionPageId": "3e2229d2-19da-803b-9cb9-f0a5ddba3cc6",
+      "notionUrl": "https://app.notion.com/p/Melon-Music-Awards-2026-MMA-3e2229d219da803b9cb9f0a5ddba3cc6"
+    },
+    {
       "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
       "date": "2026.09.19",
       "category": "notice",
@@ -26,7 +42,7 @@
       "body": "2026年9月19日に開催された2026 TMAにてARTIST OF THE YEAR賞とToday's Choice賞を受賞しました！",
       "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
       "sourceLink": "https://x.com/resceneofficial/status/2101307838341747115?s=46",
-      "sourceLabel": "公式の画像を見る",
+      "sourceLabel": "公式のポストを見る",
       "translations": {},
       "notionPageId": "3e0229d2-19da-809e-90cc-c748edbe72f9",
       "notionUrl": "https://app.notion.com/p/2026-THE-FACT-MUSIC-AWARDS-TMA-2-3e0229d219da809e90ccc748edbe72f9"
@@ -74,7 +90,7 @@
       "body": "2026年8月27日に開催された2026KWDAでベストファンダム賞とベストビジュアルコンテンツ賞の2つの部門で受賞しました！",
       "image": "assets/news/notion/notion-3c9229d219da801aade9ec7f1dbcd366-1464b5c5a9eb.jpg",
       "sourceLink": "https://x.com/kwda_official/status/2095050308900786281?s=46",
-      "sourceLabel": "公式の画像を見る",
+      "sourceLabel": "公式のポストを見る",
       "translations": {},
       "notionPageId": "3c9229d2-19da-801a-ade9-ec7f1dbcd366",
       "notionUrl": "https://app.notion.com/p/2026-KWDA-2-3c9229d219da801aade9ec7f1dbcd366"
