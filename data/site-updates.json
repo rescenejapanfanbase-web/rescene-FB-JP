@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-23T14:54:05.677292+00:00",
+  "generatedAt": "2026-09-23T16:49:33.999974+00:00",
   "items": [
     {
       "date": "2026-09-23",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "6cb5dd3",
+      "commit": "07b2541",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -14,7 +14,7 @@
         "data/mv-candidates.json",
         "data/mv-data.js",
         "data/mv.json",
-        "data/quality-report.json"
+        "data/seo-status.json"
       ]
     },
     {
