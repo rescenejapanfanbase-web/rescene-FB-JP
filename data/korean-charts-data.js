@@ -1,6 +1,6 @@
 window.RESCENE_KOREAN_CHARTS = {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T22:51:30+09:00",
+  "generatedAt": "2026-09-28T03:17:05+09:00",
   "configSource": "notion",
   "charts": [
     {
@@ -447,13 +447,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 596
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 597
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/uhuh--melon.json"
     },
     {
@@ -475,13 +475,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 596
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 597
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/yoyo--melon.json"
     },
     {
@@ -496,12 +496,12 @@ window.RESCENE_KOREAN_CHARTS = {
       "status": "in",
       "peakRank": 1,
       "firstChartedAt": "2025-03-31T09:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 203,
+      "lastChartedAt": "2026-09-28T03:00:00+09:00",
+      "chartDays": 204,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/love-attack--melon.json"
     },
     {
@@ -530,13 +530,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-09-07T13:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 134
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 135
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/pinball--melon.json"
     },
     {
@@ -558,13 +558,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 596
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 597
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/glow-up--melon.json"
     },
     {
@@ -572,19 +572,19 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Deja Vu",
       "chartId": "melon",
       "chartName": "Melon TOP100",
-      "currentRank": 3,
-      "previousRank": 5,
-      "movement": 2,
-      "movementType": "up",
+      "currentRank": 6,
+      "previousRank": 3,
+      "movement": -3,
+      "movementType": "down",
       "status": "in",
       "peakRank": 3,
       "firstChartedAt": "2026-07-06T08:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 84,
+      "lastChartedAt": "2026-09-28T03:00:00+09:00",
+      "chartDays": 85,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/deja-vu--melon.json"
     },
     {
@@ -606,13 +606,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 596
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 597
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/heart-drop--melon.json"
     },
     {
@@ -634,13 +634,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 596
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 597
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/bloom--melon.json"
     },
     {
@@ -662,13 +662,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 596
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 597
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/busy-boy--melon.json"
     },
     {
@@ -676,19 +676,19 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Runaway",
       "chartId": "melon",
       "chartName": "Melon TOP100",
-      "currentRank": 49,
-      "previousRank": 50,
-      "movement": 1,
-      "movementType": "up",
+      "currentRank": 57,
+      "previousRank": 49,
+      "movement": -8,
+      "movementType": "down",
       "status": "in",
       "peakRank": 16,
       "firstChartedAt": "2026-07-06T09:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 84,
+      "lastChartedAt": "2026-09-28T03:00:00+09:00",
+      "chartDays": 85,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/runaway--melon.json"
     },
     {
@@ -703,12 +703,12 @@ window.RESCENE_KOREAN_CHARTS = {
       "status": "in",
       "peakRank": 2,
       "firstChartedAt": "2026-07-08T19:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 82,
+      "lastChartedAt": "2026-09-28T03:00:00+09:00",
+      "chartDays": 83,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/pretty-girl--melon.json"
     },
     {
@@ -1006,13 +1006,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 592
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 593
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/uhuh--genie.json"
     },
     {
@@ -1034,13 +1034,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 592
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 593
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/yoyo--genie.json"
     },
     {
@@ -1048,19 +1048,19 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "LOVE ATTACK",
       "chartId": "genie",
       "chartName": "Genie Real-time",
-      "currentRank": 2,
+      "currentRank": 17,
       "previousRank": 2,
-      "movement": 0,
-      "movementType": "same",
+      "movement": -15,
+      "movementType": "down",
       "status": "in",
       "peakRank": 1,
       "firstChartedAt": "2024-09-18T23:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 411,
+      "lastChartedAt": "2026-09-28T03:00:00+09:00",
+      "chartDays": 412,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/love-attack--genie.json"
     },
     {
@@ -1068,15 +1068,15 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Pinball",
       "chartId": "genie",
       "chartName": "Genie Real-time",
-      "currentRank": 98,
-      "previousRank": 127,
-      "movement": 29,
-      "movementType": "up",
+      "currentRank": 111,
+      "previousRank": 98,
+      "movement": -13,
+      "movementType": "down",
       "status": "in",
       "peakRank": 90,
       "firstChartedAt": "2026-07-15T09:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 65,
+      "lastChartedAt": "2026-09-28T03:00:00+09:00",
+      "chartDays": 66,
       "outOfChartCount": 41,
       "outOfChartHistory": [
         {
@@ -1220,8 +1220,8 @@ window.RESCENE_KOREAN_CHARTS = {
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/pinball--genie.json"
     },
     {
@@ -1243,13 +1243,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 592
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 593
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/glow-up--genie.json"
     },
     {
@@ -1257,19 +1257,19 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Deja Vu",
       "chartId": "genie",
       "chartName": "Genie Real-time",
-      "currentRank": 22,
-      "previousRank": 10,
-      "movement": -12,
+      "currentRank": 25,
+      "previousRank": 22,
+      "movement": -3,
       "movementType": "down",
       "status": "in",
       "peakRank": 10,
       "firstChartedAt": "2026-06-08T08:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 112,
+      "lastChartedAt": "2026-09-28T03:00:00+09:00",
+      "chartDays": 113,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/deja-vu--genie.json"
     },
     {
@@ -1291,13 +1291,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 592
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 593
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/heart-drop--genie.json"
     },
     {
@@ -1319,13 +1319,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 592
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 593
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/bloom--genie.json"
     },
     {
@@ -1347,13 +1347,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 592
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 593
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/busy-boy--genie.json"
     },
     {
@@ -1361,15 +1361,15 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Runaway",
       "chartId": "genie",
       "chartName": "Genie Real-time",
-      "currentRank": 128,
-      "previousRank": 134,
-      "movement": 6,
+      "currentRank": 126,
+      "previousRank": 128,
+      "movement": 2,
       "movementType": "up",
       "status": "in",
       "peakRank": 104,
       "firstChartedAt": "2026-06-08T08:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 103,
+      "lastChartedAt": "2026-09-28T03:00:00+09:00",
+      "chartDays": 104,
       "outOfChartCount": 9,
       "outOfChartHistory": [
         {
@@ -1436,8 +1436,8 @@ window.RESCENE_KOREAN_CHARTS = {
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/runaway--genie.json"
     },
     {
@@ -1445,19 +1445,19 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Pretty Girl",
       "chartId": "genie",
       "chartName": "Genie Real-time",
-      "currentRank": 7,
-      "previousRank": 5,
-      "movement": -2,
+      "currentRank": 22,
+      "previousRank": 7,
+      "movement": -15,
       "movementType": "down",
       "status": "in",
       "peakRank": 4,
       "firstChartedAt": "2026-07-08T19:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 82,
+      "lastChartedAt": "2026-09-28T03:00:00+09:00",
+      "chartDays": 83,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/pretty-girl--genie.json"
     },
     {
@@ -1755,13 +1755,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 470
+          "lastObservedAt": "2026-09-28T01:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 471
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T01:00:00+09:00",
       "historyPath": "data/korean-chart-history/uhuh--bugs.json"
     },
     {
@@ -1783,13 +1783,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 470
+          "lastObservedAt": "2026-09-28T01:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 471
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T01:00:00+09:00",
       "historyPath": "data/korean-chart-history/yoyo--bugs.json"
     },
     {
@@ -1797,19 +1797,19 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "LOVE ATTACK",
       "chartId": "bugs",
       "chartName": "Bugs Real-time",
-      "currentRank": 4,
-      "previousRank": 2,
-      "movement": -2,
-      "movementType": "down",
+      "currentRank": 3,
+      "previousRank": 4,
+      "movement": 1,
+      "movementType": "up",
       "status": "in",
       "peakRank": 1,
       "firstChartedAt": "2024-09-22T22:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 393,
+      "lastChartedAt": "2026-09-28T01:00:00+09:00",
+      "chartDays": 394,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T01:00:00+09:00",
       "historyPath": "data/korean-chart-history/love-attack--bugs.json"
     },
     {
@@ -1817,15 +1817,15 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Pinball",
       "chartId": "bugs",
       "chartName": "Bugs Real-time",
-      "currentRank": 28,
+      "currentRank": 27,
       "previousRank": 28,
-      "movement": 0,
-      "movementType": "same",
+      "movement": 1,
+      "movementType": "up",
       "status": "in",
       "peakRank": 23,
       "firstChartedAt": "2026-07-13T09:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 73,
+      "lastChartedAt": "2026-09-28T01:00:00+09:00",
+      "chartDays": 74,
       "outOfChartCount": 5,
       "outOfChartHistory": [
         {
@@ -1864,8 +1864,8 @@ window.RESCENE_KOREAN_CHARTS = {
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T01:00:00+09:00",
       "historyPath": "data/korean-chart-history/pinball--bugs.json"
     },
     {
@@ -1887,13 +1887,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 470
+          "lastObservedAt": "2026-09-28T01:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 471
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T01:00:00+09:00",
       "historyPath": "data/korean-chart-history/glow-up--bugs.json"
     },
     {
@@ -1901,19 +1901,19 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Deja Vu",
       "chartId": "bugs",
       "chartName": "Bugs Real-time",
-      "currentRank": 10,
-      "previousRank": 7,
-      "movement": -3,
-      "movementType": "down",
+      "currentRank": 6,
+      "previousRank": 10,
+      "movement": 4,
+      "movementType": "up",
       "status": "in",
       "peakRank": 2,
       "firstChartedAt": "2026-06-05T21:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 113,
+      "lastChartedAt": "2026-09-28T01:00:00+09:00",
+      "chartDays": 114,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T01:00:00+09:00",
       "historyPath": "data/korean-chart-history/deja-vu--bugs.json"
     },
     {
@@ -1935,13 +1935,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 470
+          "lastObservedAt": "2026-09-28T01:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 471
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T01:00:00+09:00",
       "historyPath": "data/korean-chart-history/heart-drop--bugs.json"
     },
     {
@@ -1963,13 +1963,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 470
+          "lastObservedAt": "2026-09-28T01:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 471
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T01:00:00+09:00",
       "historyPath": "data/korean-chart-history/bloom--bugs.json"
     },
     {
@@ -1991,13 +1991,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 470
+          "lastObservedAt": "2026-09-28T01:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 471
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T01:00:00+09:00",
       "historyPath": "data/korean-chart-history/busy-boy--bugs.json"
     },
     {
@@ -2005,15 +2005,15 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Runaway",
       "chartId": "bugs",
       "chartName": "Bugs Real-time",
-      "currentRank": 34,
-      "previousRank": 31,
-      "movement": -3,
-      "movementType": "down",
+      "currentRank": 32,
+      "previousRank": 34,
+      "movement": 2,
+      "movementType": "up",
       "status": "in",
       "peakRank": 14,
       "firstChartedAt": "2026-06-05T09:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 114,
+      "lastChartedAt": "2026-09-28T01:00:00+09:00",
+      "chartDays": 115,
       "outOfChartCount": 2,
       "outOfChartHistory": [
         {
@@ -2031,8 +2031,8 @@ window.RESCENE_KOREAN_CHARTS = {
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T01:00:00+09:00",
       "historyPath": "data/korean-chart-history/runaway--bugs.json"
     },
     {
@@ -2040,19 +2040,19 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Pretty Girl",
       "chartId": "bugs",
       "chartName": "Bugs Real-time",
-      "currentRank": 13,
-      "previousRank": 16,
-      "movement": 3,
-      "movementType": "up",
+      "currentRank": 20,
+      "previousRank": 13,
+      "movement": -7,
+      "movementType": "down",
       "status": "in",
       "peakRank": 1,
       "firstChartedAt": "2026-07-08T19:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 82,
+      "lastChartedAt": "2026-09-28T01:00:00+09:00",
+      "chartDays": 83,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T01:00:00+09:00",
       "historyPath": "data/korean-chart-history/pretty-girl--bugs.json"
     },
     {
@@ -2350,13 +2350,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 593
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 594
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/uhuh--flo.json"
     },
     {
@@ -2378,13 +2378,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 593
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 594
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/yoyo--flo.json"
     },
     {
@@ -2399,12 +2399,12 @@ window.RESCENE_KOREAN_CHARTS = {
       "status": "in",
       "peakRank": 1,
       "firstChartedAt": "2024-10-08T20:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 252,
+      "lastChartedAt": "2026-09-28T03:00:00+09:00",
+      "chartDays": 253,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/love-attack--flo.json"
     },
     {
@@ -2412,15 +2412,15 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Pinball",
       "chartId": "flo",
       "chartName": "FLO Chart",
-      "currentRank": 67,
-      "previousRank": 68,
-      "movement": 1,
+      "currentRank": 64,
+      "previousRank": 67,
+      "movement": 3,
       "movementType": "up",
       "status": "in",
       "peakRank": 51,
       "firstChartedAt": "2026-08-05T09:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 54,
+      "lastChartedAt": "2026-09-28T03:00:00+09:00",
+      "chartDays": 55,
       "outOfChartCount": 4,
       "outOfChartHistory": [
         {
@@ -2452,8 +2452,8 @@ window.RESCENE_KOREAN_CHARTS = {
           "observations": 3
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/pinball--flo.json"
     },
     {
@@ -2475,13 +2475,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 593
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 594
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/glow-up--flo.json"
     },
     {
@@ -2489,19 +2489,19 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Deja Vu",
       "chartId": "flo",
       "chartName": "FLO Chart",
-      "currentRank": 6,
+      "currentRank": 10,
       "previousRank": 6,
-      "movement": 0,
-      "movementType": "same",
+      "movement": -4,
+      "movementType": "down",
       "status": "in",
       "peakRank": 5,
       "firstChartedAt": "2026-06-15T09:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 105,
+      "lastChartedAt": "2026-09-28T03:00:00+09:00",
+      "chartDays": 106,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/deja-vu--flo.json"
     },
     {
@@ -2523,13 +2523,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 593
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 594
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/heart-drop--flo.json"
     },
     {
@@ -2551,13 +2551,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 593
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 594
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/bloom--flo.json"
     },
     {
@@ -2579,13 +2579,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T21:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-09-27T22:00:00+09:00",
-          "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-          "observations": 593
+          "lastObservedAt": "2026-09-28T03:00:00+09:00",
+          "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+          "observations": 594
         }
       ],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/busy-boy--flo.json"
     },
     {
@@ -2593,19 +2593,19 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Runaway",
       "chartId": "flo",
       "chartName": "FLO Chart",
-      "currentRank": 85,
-      "previousRank": 91,
-      "movement": 6,
-      "movementType": "up",
+      "currentRank": 87,
+      "previousRank": 85,
+      "movement": -2,
+      "movementType": "down",
       "status": "in",
       "peakRank": 53,
       "firstChartedAt": "2026-07-08T09:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 82,
+      "lastChartedAt": "2026-09-28T03:00:00+09:00",
+      "chartDays": 83,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/runaway--flo.json"
     },
     {
@@ -2613,19 +2613,19 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Pretty Girl",
       "chartId": "flo",
       "chartName": "FLO Chart",
-      "currentRank": 8,
+      "currentRank": 15,
       "previousRank": 8,
-      "movement": 0,
-      "movementType": "same",
+      "movement": -7,
+      "movementType": "down",
       "status": "in",
       "peakRank": 4,
       "firstChartedAt": "2026-07-09T01:00:00+09:00",
-      "lastChartedAt": "2026-09-27T22:00:00+09:00",
-      "chartDays": 81,
+      "lastChartedAt": "2026-09-28T03:00:00+09:00",
+      "chartDays": 82,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastCheckedAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "historyPath": "data/korean-chart-history/pretty-girl--flo.json"
     },
     {
@@ -3524,9 +3524,9 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartName": "FLO Chart",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-27T22:51:30+09:00",
-      "lastSuccessAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastAttemptAt": "2026-09-28T03:17:05+09:00",
+      "lastSuccessAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
@@ -3539,14 +3539,14 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartName": "Bugs Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-27T22:51:30+09:00",
-      "lastSuccessAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastAttemptAt": "2026-09-28T03:17:05+09:00",
+      "lastSuccessAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T01:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
       "metadata": {
-        "nativeTime": "1790514000000"
+        "nativeTime": "1790524800000"
       }
     },
     "melon": {
@@ -3554,15 +3554,15 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartName": "Melon TOP100",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-27T22:51:30+09:00",
-      "lastSuccessAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastAttemptAt": "2026-09-28T03:17:05+09:00",
+      "lastSuccessAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 4,
       "error": "",
       "metadata": {
-        "nativeDay": "2026.09.27",
-        "nativeHour": "22:00"
+        "nativeDay": "2026.09.28",
+        "nativeHour": "03:00"
       }
     },
     "genie": {
@@ -3570,14 +3570,14 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartName": "Genie Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-09-27T22:51:30+09:00",
-      "lastSuccessAt": "2026-09-27T22:51:30+09:00",
-      "chartAt": "2026-09-27T22:00:00+09:00",
+      "lastAttemptAt": "2026-09-28T03:17:05+09:00",
+      "lastSuccessAt": "2026-09-28T03:17:05+09:00",
+      "chartAt": "2026-09-28T03:00:00+09:00",
       "itemCount": 200,
       "matchedCount": 5,
       "error": "",
       "metadata": {
-        "nativeTime": "22:00"
+        "nativeTime": "03:00"
       }
     },
     "vibe": {
