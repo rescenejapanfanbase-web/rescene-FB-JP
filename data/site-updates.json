@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-28T00:32:40.989735+00:00",
+  "generatedAt": "2026-09-28T05:15:10.115963+00:00",
   "items": [
+    {
+      "date": "2026-09-28",
+      "title": "chore: critical full content sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "4562545",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/mv-data.js",
+        "data/mv.json",
+        "data/quality-report.json"
+      ]
+    },
     {
       "date": "2026-09-27",
       "title": "chore: update external link report",
@@ -42,15 +58,6 @@
       "commit": "124db20",
       "files": [
         "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "79050bd",
-      "files": [
-        "data/youtube-channels.json"
       ]
     },
     {
