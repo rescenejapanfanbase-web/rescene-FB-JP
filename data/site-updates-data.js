@@ -1,6 +1,15 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-09-27T21:17:43.542585+00:00",
+  "generatedAt": "2026-09-28T00:32:40.989735+00:00",
   "items": [
+    {
+      "date": "2026-09-27",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "e052f80",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
     {
       "date": "2026-09-27",
       "title": "chore: critical full content sync",
@@ -33,22 +42,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "124db20",
       "files": [
         "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "f1673e2",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/quality-report.json"
       ]
     },
     {
