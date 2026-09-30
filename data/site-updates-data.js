@@ -1,6 +1,22 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-09-30T01:13:50.311086+00:00",
+  "generatedAt": "2026-09-30T05:25:15.889135+00:00",
   "items": [
+    {
+      "date": "2026-09-30",
+      "title": "chore: critical full content sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "0c5f84f",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/mv-data.js",
+        "data/mv.json",
+        "data/quality-report.json"
+      ]
+    },
     {
       "date": "2026-09-29",
       "title": "chore: update external link report",
