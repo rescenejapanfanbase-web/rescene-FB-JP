@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-29T20:43:24.225879+00:00",
+  "generatedAt": "2026-09-30T01:13:50.311086+00:00",
   "items": [
     {
       "date": "2026-09-29",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "053ab3c",
+      "commit": "22d6214",
       "files": [
         "data/external-link-report.json"
       ]
