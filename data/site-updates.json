@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-09-30T20:46:29.174238+00:00",
+  "generatedAt": "2026-10-01T01:13:21.788814+00:00",
   "items": [
+    {
+      "date": "2026-10-01",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "dfba0b4",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
     {
       "date": "2026-09-30",
       "title": "chore: critical full content sync",
