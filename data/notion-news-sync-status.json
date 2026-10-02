@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-09-21T04:46:16.079Z",
+  "generatedAt": "2026-10-02T12:05:43.627Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 18,
-  "notionNews": 18,
-  "notionImages": 18,
+  "queriedPages": 19,
+  "notionNews": 19,
+  "notionImages": 19,
   "rows": [
+    {
+      "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANに出演決定！",
+      "pageId": "3ed229d2-19da-80e8-96f4-efff397035fa",
+      "lastEditedTime": "2026-10-02T11:18:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "D2A3CC56-ACEF-43C9-A696-BE263E854DC2.jpeg",
+      "imagePath": "assets/news/notion/notion-3ed229d219da80e896f4efff397035fa-454bcb0c628c.jpg",
+      "imageBytes": 236367,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "Melon Music Awards 2026(MMA)に出演が決定！",
       "pageId": "3e2229d2-19da-803b-9cb9-f0a5ddba3cc6",

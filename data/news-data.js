@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "2026-music-bank-global-festival-in-japan-ff397035fa",
+    "date": "2026.10.02",
+    "category": "event",
+    "categoryName": "イベント",
+    "label": "Joint Concert",
+    "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANに出演決定！",
+    "text": "2026年12月12日,13日に開催される2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANにRESCENEが出演決定しました！",
+    "body": "2026年12月12日,13日に開催される2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANにRESCENEが出演決定しました！",
+    "image": "assets/news/notion/notion-3ed229d219da80e896f4efff397035fa-454bcb0c628c.jpg",
+    "sourceLink": "https://x.com/musicbankjapan/status/2105960998095966661?s=46",
+    "sourceLabel": "公式のポストを見る",
+    "translations": {},
+    "notionPageId": "3ed229d2-19da-80e8-96f4-efff397035fa",
+    "notionUrl": "https://app.notion.com/p/2026-MUSIC-BANK-GLOBAL-FESTIVAL-IN-JAPAN-3ed229d219da80e896f4efff397035fa"
+  },
+  {
     "slug": "melon-music-awards-2026-mma-a5ddba3cc6",
     "date": "2026.09.21",
     "category": "notice",

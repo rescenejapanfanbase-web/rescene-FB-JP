@@ -1,6 +1,6 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-09-21T04:46:16.173Z",
-  "sourceNewsGeneratedAt": "2026-09-21T04:46:16.079Z",
+  "generatedAt": "2026-10-02T12:05:43.725Z",
+  "sourceNewsGeneratedAt": "2026-10-02T12:05:43.627Z",
   "related": {
     "fanbase-site": [
       {
@@ -34,6 +34,44 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "Award",
         "image": "assets/news/notion/notion-3d3229d219da80ada593c1ddb316c572-3af870050127.jpg",
         "text": "2026年9月6日に開催されたSKAで2つの賞を受賞しました！",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      }
+    ],
+    "2026-music-bank-global-festival-in-japan-ff397035fa": [
+      {
+        "slug": "melon-music-awards-2026-mma-a5ddba3cc6",
+        "title": "Melon Music Awards 2026(MMA)に出演が決定！",
+        "date": "2026.09.21",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3e2229d219da803b9cb9f0a5ddba3cc6-8cc08e70975e.jpg",
+        "text": "2026年11月14日,15日に開催されるMelon Music Awards 2026(MMA)にRESCENEが出演決定しました！",
+        "score": 6,
+        "reasons": [
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
+        "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
+        "date": "2026.09.19",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
+        "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
+        "score": 6,
+        "reasons": [
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "second-anniversary-project",
+        "title": "デビュー2周年広告プロジェクト",
+        "date": "2026.03.19",
+        "label": "PROJECT",
+        "image": "news/debut-2nd-anniversary-project.jpg",
+        "text": "韓国で実施した2周年広告プロジェクトのお知らせです。",
         "score": 5,
         "reasons": [
           "同じカテゴリー"
@@ -1211,6 +1249,18 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "second-anniversary-project": [
       {
+        "slug": "2026-music-bank-global-festival-in-japan-ff397035fa",
+        "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANに出演決定！",
+        "date": "2026.10.02",
+        "label": "Joint Concert",
+        "image": "assets/news/notion/notion-3ed229d219da80e896f4efff397035fa-454bcb0c628c.jpg",
+        "text": "2026年12月12日,13日に開催される2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANにRESCENEが出演決定しました！",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "runaway-release",
         "title": "Digital Single「Runaway」配信開始",
         "date": "2026.04.08",
@@ -1227,16 +1277,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "ANNIVERSARY",
         "image": "news/debut-2nd-anniversary.jpg",
         "text": "RESCENEがデビュー2周年を迎えました。",
-        "score": 2,
-        "reasons": []
-      },
-      {
-        "slug": "busy-boy-release",
-        "title": "[RESCENE X ???]「Busy Boy」配信開始",
-        "date": "2026.02.27",
-        "label": "COLLAB SINGLE",
-        "image": "assets/mv/busy-boy.jpg",
-        "text": "コラボレーションデジタルシングル「Busy Boy」の配信がスタートしました。",
         "score": 2,
         "reasons": []
       }
@@ -1538,6 +1578,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "2026-music-bank-global-festival-in-japan-ff397035fa",
+      "date": "2026.10.02",
+      "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANに出演決定！",
+      "url": "https://rescene-fb.jp/articles/2026-music-bank-global-festival-in-japan-ff397035fa.html",
+      "hashtags": "#RESCENE_EVENT #RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.10.02】 2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANに出演決定！\n\nhttps://rescene-fb.jp/articles/2026-music-bank-global-festival-in-japan-ff397035fa.html\n\n#RESCENE_EVENT #RESCENE #리센느 #リセンヌ",
+      "lineText": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANに出演決定！\n2026年12月12日,13日に開催される2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANにRESCENEが出演決定しました！",
+      "charCount": 184
     },
     {
       "slug": "melon-music-awards-2026-mma-a5ddba3cc6",
