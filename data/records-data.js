@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-09-28T20:30:39.954Z",
+  "generatedAt": "2026-10-02T12:24:01.290Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -242,17 +242,17 @@ window.RESCENE_RECORDS = {
       "mvUrl": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
       "image": "assets/records/notion/record-3a8229d219da808f8987fa4744ed3cd4-ca377427c398.jpg",
       "order": 9999,
-      "source": "notion",
+      "source": "manual-fallback",
       "translations": {
         "ko": {
           "title": "Deja Vu — Melon 차트",
           "song": "Deja Vu",
-          "description": "Melon TOP100 최고 3위, Melon 일간 차트 최고 4위를 기록했습니다."
+          "description": "Melon TOP100 최고 5위, Melon 일간 차트 최고 5위를 기록했습니다."
         },
         "en": {
           "title": "Deja Vu — Melon Chart",
           "song": "Deja Vu",
-          "description": "Peaked at No. 3 on the Melon TOP100 and No. 4 on the Melon Daily Chart."
+          "description": "Peaked at No. 5 on the Melon TOP100 and No. 5 on the Melon Daily Chart."
         }
       },
       "notionPageId": "3a8229d2-19da-808f-8987-fa4744ed3cd4",
