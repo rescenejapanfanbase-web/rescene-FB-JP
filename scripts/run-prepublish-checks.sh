@@ -72,5 +72,6 @@ python3 scripts/validate-site.py
 
 echo "[10/10] 指定項目の回帰検査"
 python3 scripts/check-requested-regressions.py
+python3 scripts/test-pluschat-schedule.py
 
 echo "✅ 公開前チェックがすべて完了しました。"

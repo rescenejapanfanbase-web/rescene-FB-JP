@@ -9,6 +9,7 @@ the site synchronization solely because Plus Chat failed.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import shutil
@@ -219,6 +220,35 @@ def translate_title(original: str) -> tuple[str, str, str]:
     return translated, "", status
 
 
+def stable_event_id(date_value: str, stable_time: str, original_title: str) -> str:
+    """Keep Unicode titles distinct without depending on translation or row order."""
+    identity = json.dumps(
+        [date_value, stable_time, original_title], ensure_ascii=False, separators=(",", ":")
+    )
+    digest = hashlib.sha256(identity.encode("utf-8")).hexdigest()[:24]
+    return f"pluschat-{date_value}-{stable_time}-{digest}"
+
+
+def normalize_cached_events(items: list[dict]) -> list[dict]:
+    """Migrate legacy cache IDs, including months not fetched on this run."""
+    normalized = []
+    seen = set()
+    for item in items:
+        original = item.get("originalTitle") or item.get("title")
+        date_value = str(item.get("date") or item.get("start", ""))[:10]
+        start = str(item.get("start", ""))
+        if not original or not date_value:
+            normalized.append(item)
+            continue
+        stable_time = "all-day" if item.get("allDay") else start[11:16].replace(":", "")
+        event_id = stable_event_id(date_value, stable_time, str(original))
+        if event_id in seen:
+            continue
+        seen.add(event_id)
+        normalized.append({**item, "id": event_id})
+    return normalized
+
+
 def build_event(
     *,
     original_title: str,
@@ -240,11 +270,7 @@ def build_event(
         start = f"{date_value}T{hour:02d}:{minute:02d}:00+09:00"
 
     stable_time = "all-day" if all_day else start[11:16].replace(":", "")
-    event_id = re.sub(
-        r"[^a-z0-9]+",
-        "-",
-        f"pluschat-{date_value}-{stable_time}-{original_title}".lower(),
-    ).strip("-")
+    event_id = stable_event_id(date_value, stable_time, original_title)
     return Event(
         id=event_id[:180],
         title=translated_title,
@@ -466,7 +492,9 @@ def write_trial(args: argparse.Namespace) -> int:
 def write_production(args: argparse.Namespace) -> int:
     output = Path(args.output or "data/pluschat-schedule.json")
     existing = read_json(output, {"events": [], "months": {}})
-    existing_events = [item for item in existing.get("events", []) if isinstance(item, dict)]
+    existing_events = normalize_cached_events(
+        [item for item in existing.get("events", []) if isinstance(item, dict)]
+    )
     existing_by_month: dict[str, list[dict]] = {}
     for item in existing_events:
         key = str(item.get("sourceMonth") or str(item.get("date", ""))[:7])
