@@ -891,23 +891,6 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pluschat-2026-08-19-all-day-ac0fc1b93de605c5c8d8907a@rescene-fb.jp
-DTSTAMP:20261003T050537Z
-LAST-MODIFIED:20261003T050537Z
-SUMMARY:🎉 HAPPY MAY DAY
-DTSTART;VALUE=DATE:20260819
-DTEND;VALUE=DATE:20260820
-DESCRIPTION:関連リンク: https://artist.mnetplus.world/main/stg/rescene
- -official/schedule/2026/08\n\nRESCENE JAPAN FANBASE: https://rescene-fb.jp
- /schedule.html?date=2026-08-19&event=pluschat-2026-08-19-all-day-ac0fc1b93
- de605c5c8d8907a
-URL:https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/0
- 8
-CATEGORIES:イベント
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:3af229d2-19da-802e-b4b2-fceaaa75848a@rescene-fb.jp
 DTSTAMP:20261003T050537Z
 LAST-MODIFIED:20261003T050537Z
@@ -1227,23 +1210,6 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:pluschat-2026-10-11-all-day-3ef37b0149e4e20374b61ab8@rescene-fb.jp
-DTSTAMP:20261003T050537Z
-LAST-MODIFIED:20261003T050537Z
-SUMMARY:🎉 HAPPY LIV DAY
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
-DESCRIPTION:関連リンク: https://artist.mnetplus.world/main/stg/rescene
- -official/schedule/2026/10\n\nRESCENE JAPAN FANBASE: https://rescene-fb.jp
- /schedule.html?date=2026-10-11&event=pluschat-2026-10-11-all-day-3ef37b014
- 9e4e20374b61ab8
-URL:https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/1
- 0
-CATEGORIES:イベント
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:pluschat-2026-10-11-all-day-1b6ee6b6cb56d79c6dc784b3@rescene-fb.jp
 DTSTAMP:20261003T050537Z
 LAST-MODIFIED:20261003T050537Z
@@ -1339,40 +1305,6 @@ DESCRIPTION:関連リンク: https://artist.mnetplus.world/main/stg/rescene
  -official/schedule/2026/11\n\nRESCENE JAPAN FANBASE: https://rescene-fb.jp
  /schedule.html?date=2026-11-07&event=pluschat-2026-11-07-all-day-529fd0791
  30cf64660b6e77a
-URL:https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/1
- 1
-CATEGORIES:イベント
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:pluschat-2026-11-27-all-day-f6d9dbc75221d89e7409fcfc@rescene-fb.jp
-DTSTAMP:20261003T050537Z
-LAST-MODIFIED:20261003T050537Z
-SUMMARY:🎉 HAPPY ZENA DAY
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-DESCRIPTION:関連リンク: https://artist.mnetplus.world/main/stg/rescene
- -official/schedule/2026/11\n\nRESCENE JAPAN FANBASE: https://rescene-fb.jp
- /schedule.html?date=2026-11-27&event=pluschat-2026-11-27-all-day-f6d9dbc75
- 221d89e7409fcfc
-URL:https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/1
- 1
-CATEGORIES:イベント
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:pluschat-2026-11-29-all-day-26f09b363aee994e32737c25@rescene-fb.jp
-DTSTAMP:20261003T050537Z
-LAST-MODIFIED:20261003T050537Z
-SUMMARY:🎉 HAPPY MINAMI DAY
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-DESCRIPTION:関連リンク: https://artist.mnetplus.world/main/stg/rescene
- -official/schedule/2026/11\n\nRESCENE JAPAN FANBASE: https://rescene-fb.jp
- /schedule.html?date=2026-11-29&event=pluschat-2026-11-29-all-day-26f09b363
- aee994e32737c25
 URL:https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/1
  1
 CATEGORIES:イベント
