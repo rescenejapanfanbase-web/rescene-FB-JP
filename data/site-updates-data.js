@@ -1,6 +1,50 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-10-03T01:04:18.965861+00:00",
+  "generatedAt": "2026-10-03T05:11:01.453588+00:00",
   "items": [
+    {
+      "date": "2026-10-03",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "474d0fa",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/pluschat-schedule.json",
+        "data/quality-report.json",
+        "data/rescene-schedule.ics",
+        "data/schedule-data.js",
+        "data/schedule.json"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "title": "chore: critical full content sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "a9c1fdc",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/mv-data.js",
+        "data/mv.json",
+        "data/quality-report.json"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Add files via upload",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "54bb062",
+      "files": [
+        "README-ja.txt",
+        "scripts/run-prepublish-checks.sh",
+        "scripts/sync-pluschat-schedule.py",
+        "scripts/test-pluschat-schedule.py"
+      ]
+    },
     {
       "date": "2026-10-02",
       "title": "chore: update external link report",
@@ -33,22 +77,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "c43c986",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-10-01",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "6b36df9",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/quality-report.json"
       ]
     },
     {
