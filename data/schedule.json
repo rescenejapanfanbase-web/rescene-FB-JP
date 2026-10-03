@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T14:10:46.874Z",
+  "generatedAt": "2026-10-03T18:23:27.756Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
@@ -8,7 +8,7 @@
     "plusChatAdded": 61,
     "plusChatDuplicates": 21
   },
-  "plusChatGeneratedAt": "2026-10-03T14:10:46Z",
+  "plusChatGeneratedAt": "2026-10-03T18:23:27Z",
   "events": [
     {
       "id": "39d229d2-19da-800f-bf39-f901096b6fc6",
@@ -1387,9 +1387,9 @@
       "sourceMonth": "2026-10"
     },
     {
-      "id": "pluschat-2026-10-04-all-day-67dfb351da6ad48d97560747",
-      "title": "제5회 의령 리치리치 페스티벌",
-      "originalTitle": "제5회 의령 리치리치 페스티벌",
+      "id": "pluschat-2026-10-04-all-day-652a264db99894bfe5d5ece7",
+      "title": "2026 의령 리치리치페스티벌",
+      "originalTitle": "2026 의령 리치리치페스티벌",
       "translationStatus": "original",
       "date": "2026-10-04",
       "start": "2026-10-04",
@@ -1406,14 +1406,14 @@
       "sourceMonth": "2026-10"
     },
     {
-      "id": "pluschat-2026-10-09-all-day-b3237eccc0eb16ab89b65757",
-      "title": "연수 능허대 문화 축제",
-      "originalTitle": "연수 능허대 문화 축제",
+      "id": "pluschat-2026-10-09-2000-bbd20cc88ebb246d317ac885",
+      "title": "제14회 연수 능허대 문화축제",
+      "originalTitle": "제14회 연수 능허대 문화축제",
       "translationStatus": "original",
       "date": "2026-10-09",
-      "start": "2026-10-09",
+      "start": "2026-10-09T20:00:00+09:00",
       "end": "",
-      "allDay": true,
+      "allDay": false,
       "category": "イベント",
       "type": "event",
       "description": "",
@@ -1425,14 +1425,14 @@
       "sourceMonth": "2026-10"
     },
     {
-      "id": "pluschat-2026-10-10-all-day-b9b6fd9bd9ae173775eefcb9",
+      "id": "pluschat-2026-10-10-2000-5256377a6a855ea59f1ea7f9",
       "title": "2026 대전 동구동락 축제",
       "originalTitle": "2026 대전 동구동락 축제",
       "translationStatus": "original",
       "date": "2026-10-10",
-      "start": "2026-10-10",
+      "start": "2026-10-10T20:00:00+09:00",
       "end": "",
-      "allDay": true,
+      "allDay": false,
       "category": "イベント",
       "type": "event",
       "description": "",
@@ -1463,14 +1463,14 @@
       "sourceMonth": "2026-10"
     },
     {
-      "id": "pluschat-2026-10-11-all-day-1b6ee6b6cb56d79c6dc784b3",
+      "id": "pluschat-2026-10-11-1610-10cd7d8fd8d41f3213e9d0e0",
       "title": "2026 GHOST (경기 한류 OST 뮤직페스티벌",
       "originalTitle": "2026 GHOST (경기 한류 OST 뮤직페스티벌)",
       "translationStatus": "partial",
       "date": "2026-10-11",
-      "start": "2026-10-11",
+      "start": "2026-10-11T16:10:00+09:00",
       "end": "",
-      "allDay": true,
+      "allDay": false,
       "category": "イベント",
       "type": "event",
       "description": "",
@@ -1539,9 +1539,9 @@
       "sourceMonth": "2026-10"
     },
     {
-      "id": "pluschat-2026-10-31-all-day-060dd86605251d89f1d5f17f",
-      "title": "APEC 정상회의장 기념관 개관식",
-      "originalTitle": "APEC 정상회의장 기념관 개관식",
+      "id": "pluschat-2026-10-31-all-day-930e32253273efc4b972b6f0",
+      "title": "경주 APEC 정상회의장 기념관 개관식",
+      "originalTitle": "경주 APEC 정상회의장 기념관 개관식",
       "translationStatus": "original",
       "date": "2026-10-31",
       "start": "2026-10-31",
