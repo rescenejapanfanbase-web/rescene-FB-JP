@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-03T07:26:39Z",
+  "generatedAt": "2026-10-03T05:05:37Z",
   "source": "pluschat",
   "sourceBaseUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/",
   "translationDictionary": "scripts/pluschat-schedule-translations.json",
   "targetMonths": [
-    "2026-09",
-    "2026-10"
+    "2026-10",
+    "2026-11"
   ],
-  "eventCount": 70,
+  "eventCount": 80,
   "refreshedEventCount": 16,
   "failures": [],
   "months": {
@@ -56,22 +56,40 @@
     },
     "2026-10": {
       "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
-      "fetchedAt": "2026-09-03T07:26:39Z",
-      "eventCount": 6,
+      "fetchedAt": "2026-10-03T05:05:23Z",
+      "eventCount": 13,
       "status": "ok",
       "warnings": [
+        "翻訳辞書への追加候補: 계명대학교 축제 -> 계명대학교 축제",
+        "翻訳辞書への追加候補: 대구보건대학교 축제 -> 대구보건대학교 축제",
         "翻訳辞書への追加候補: 2026 입크페스티벌 -> 2026 입크페스티벌",
         "翻訳辞書への追加候補: 공주 백제문화제 -> 공주 백제문화제",
+        "翻訳辞書への追加候補: 2026 의령 리치리치 페스티벌 -> 2026 의령 리치리치 페스티벌",
+        "翻訳辞書への追加候補: 연수 능허대 문화 축제 -> 연수 능허대 문화 축제",
         "翻訳辞書への追加候補: 2026 대전 동구동락 축제 -> 2026 대전 동구동락 축제",
         "翻訳辞書への追加候補: 2026 GHOST (경기 한류 OST 뮤직페스티벌) -> 2026 GHOST (경기 한류 OST 뮤직페스티벌",
         "翻訳辞書への追加候補: 🎉 HAPPY LIV DAY -> 🎉 HAPPY LIV DAY",
-        "翻訳辞書への追加候補: NOL FESTIVAL - 고양 -> NOL FESTIVAL - 고양"
+        "翻訳辞書への追加候補: NOL FESTIVAL - 고양 -> NOL FESTIVAL - 고양",
+        "翻訳辞書への追加候補: 마산대학교 축제 -> 마산대학교 축제",
+        "翻訳辞書への追加候補: 여기어때 콘서트팩 거제 -> 여기어때 콘서트팩 거제",
+        "翻訳辞書への追加候補: APEC 정상회의장 기념관 개관식 -> APEC 정상회의장 기념관 개관식"
+      ]
+    },
+    "2026-11": {
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11",
+      "fetchedAt": "2026-10-03T05:05:37Z",
+      "eventCount": 3,
+      "status": "ok",
+      "warnings": [
+        "翻訳辞書への追加候補: 2026 KGMA (코리아 그랜드 뮤직 어워즈) -> 2026 KGMA (코리아 그랜드 뮤직 어워즈",
+        "翻訳辞書への追加候補: 🎉 HAPPY ZENA DAY -> 🎉 HAPPY ZENA DAY",
+        "翻訳辞書への追加候補: 🎉 HAPPY MINAMI DAY -> 🎉 HAPPY MINAMI DAY"
       ]
     }
   },
   "events": [
     {
-      "id": "pluschat-2026-07-07-0700-sbs",
+      "id": "pluschat-2026-07-07-0700-a9f9bd8da642f2cdc26450f8",
       "title": "SBS「人気歌謡」事前収録",
       "originalTitle": "SBS <인기가요> 사전녹화",
       "translationStatus": "exact",
@@ -90,7 +108,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-08-all-day-pretty-girl-special-single",
+      "id": "pluschat-2026-07-08-all-day-00700779aa345a24b4fdf682",
       "title": "「Pretty Girl」スペシャルシングル発売",
       "originalTitle": "Pretty Girl - Special Single",
       "translationStatus": "exact",
@@ -109,7 +127,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-09-0400-mnet-m-countdown",
+      "id": "pluschat-2026-07-09-0400-88c1b97bf52a65695c038478",
       "title": "Mnet「M COUNTDOWN」事前収録",
       "originalTitle": "Mnet <M COUNTDOWN> 사전녹화",
       "translationStatus": "exact",
@@ -128,7 +146,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-09-0940-mbc",
+      "id": "pluschat-2026-07-09-0940-e40c6ac9a6de523314b49c00",
       "title": "MBC「SHOW! 音楽中心」事前収録",
       "originalTitle": "MBC <쇼! 음악중심> 사전녹화",
       "translationStatus": "exact",
@@ -147,7 +165,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-09-1800-mnet-m-countdown",
+      "id": "pluschat-2026-07-09-1800-a88665276347fbf746ba3a36",
       "title": "Mnet「M COUNTDOWN」出演",
       "originalTitle": "Mnet <M COUNTDOWN>",
       "translationStatus": "exact",
@@ -166,7 +184,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-09-1950-mnet-check-in",
+      "id": "pluschat-2026-07-09-1950-110f55b0b36268f5a6ddb7d5",
       "title": "Mnet「Check-in! アイドルビンゴ」",
       "originalTitle": "Mnet <Check-in! 아이돌 빙고>",
       "translationStatus": "exact",
@@ -185,7 +203,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-10-0815-kbs2",
+      "id": "pluschat-2026-07-10-0815-f7f7de0b5c9a9087e439e9df",
       "title": "KBS2「MUSIC BANK」事前収録",
       "originalTitle": "KBS2 <뮤직뱅크> 사전녹화",
       "translationStatus": "exact",
@@ -204,7 +222,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-10-1700-kbs2",
+      "id": "pluschat-2026-07-10-1700-c4ad1834ffdf5909c57f4af4",
       "title": "KBS2「MUSIC BANK」出演",
       "originalTitle": "KBS2 <뮤직뱅크>",
       "translationStatus": "exact",
@@ -223,7 +241,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-10-2000-pretty-girl-by-million-music",
+      "id": "pluschat-2026-07-10-2000-2bfefba9eb3e28ead7955544",
       "title": "「Pretty Girl」対面／ビデオ通話サイン会（Million Music）",
       "originalTitle": "[Pretty Girl] 대면/영상통화 팬사인회 by million music",
       "translationStatus": "exact",
@@ -242,7 +260,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-11-1520-mbc",
+      "id": "pluschat-2026-07-11-1520-0ced523fbc1bdff44139efac",
       "title": "MBC「SHOW! 音楽中心」出演",
       "originalTitle": "MBC <쇼! 음악중심>",
       "translationStatus": "exact",
@@ -261,7 +279,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-11-2030-2026-n-round-3",
+      "id": "pluschat-2026-07-11-2030-68e1f578a1c1a91e1dac8661",
       "title": "2026 Hyundai N Festival Round 3 スペシャルパフォーマンス",
       "originalTitle": "2026 현대 N 페스티벌 Round 3 스페셜 퍼포먼스",
       "translationStatus": "exact",
@@ -280,7 +298,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-11-2310-mbc",
+      "id": "pluschat-2026-07-11-2310-fb233fc29ed8f3e7d89d7ece",
       "title": "MBC「全知的おせっかい視点」",
       "originalTitle": "MBC <전지적 참견 시점>",
       "translationStatus": "exact",
@@ -299,7 +317,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-12-1510-sbs",
+      "id": "pluschat-2026-07-12-1510-d18d5ef8cd6891fda96f827f",
       "title": "SBS「人気歌謡」出演",
       "originalTitle": "SBS <인기가요>",
       "translationStatus": "exact",
@@ -318,7 +336,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-12-1805-mbc",
+      "id": "pluschat-2026-07-12-1805-e47eb521225478d0a0eaf7ee",
       "title": "MBC「チェ・ウスサン」",
       "originalTitle": "MBC <최우수산>",
       "translationStatus": "exact",
@@ -337,7 +355,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-12-2000-pretty-girl-by-million-music",
+      "id": "pluschat-2026-07-12-2000-203967f2d37b45cc984a0eca",
       "title": "「Pretty Girl」対面／ビデオ通話サイン会（Million Music）",
       "originalTitle": "[Pretty Girl] 대면/영상통화 팬사인회 by million music",
       "translationStatus": "exact",
@@ -356,7 +374,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-14-0735-sbs-m",
+      "id": "pluschat-2026-07-14-0735-636bec24631c51e3aae005bd",
       "title": "SBS M「THE SHOW」事前収録",
       "originalTitle": "SBS M <더쇼> 사전녹화",
       "translationStatus": "exact",
@@ -375,7 +393,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-14-1800-sbs-m",
+      "id": "pluschat-2026-07-14-1800-8bd7ecf9a2a172d40471d9e3",
       "title": "SBS M「THE SHOW」出演",
       "originalTitle": "SBS M <더 쇼>",
       "translationStatus": "exact",
@@ -394,7 +412,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-14-2010-sbs-m-the-k-pop-fanpopty",
+      "id": "pluschat-2026-07-14-2010-dfe2a6e6557a4f2addccb0fc",
       "title": "SBS M「THE K-POP FANPOPTY」収録",
       "originalTitle": "SBS M <THE K-POP FANPOPTY> 녹화",
       "translationStatus": "exact",
@@ -413,7 +431,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-14-2230-kbs",
+      "id": "pluschat-2026-07-14-2230-d2011e92e5bddfc0cd22edf5",
       "title": "KBS「KISS THE RADIO」",
       "originalTitle": "KBS <키스 더 라디오>",
       "translationStatus": "exact",
@@ -432,7 +450,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-15-0500-mbc-m-1",
+      "id": "pluschat-2026-07-15-0500-7dd5a7d85e303042e553ed5d",
       "title": "MBC M「SHOW CHAMPION」事前収録1",
       "originalTitle": "MBC M <쇼! 챔피언> 사전녹화 1",
       "translationStatus": "exact",
@@ -451,7 +469,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-15-1250-mbc-m-2",
+      "id": "pluschat-2026-07-15-1250-8422e22e09261c7eb304d5a9",
       "title": "MBC M「SHOW CHAMPION」事前収録2",
       "originalTitle": "MBC M <쇼! 챔피언> 사전녹화 2",
       "translationStatus": "exact",
@@ -470,7 +488,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-15-1700-mbc-m",
+      "id": "pluschat-2026-07-15-1700-42240651e4607b45e616cc93",
       "title": "MBC M「SHOW CHAMPION」出演",
       "originalTitle": "MBC M <쇼! 챔피언>",
       "translationStatus": "exact",
@@ -489,7 +507,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-15-2100-mbc-fm4u",
+      "id": "pluschat-2026-07-15-2100-56f4f03fcf81cfc3cf40e470",
       "title": "MBC FM4U「IDOL RADIO」",
       "originalTitle": "MBC FM4U 아이돌라디오",
       "translationStatus": "exact",
@@ -508,7 +526,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-16-1100-2026",
+      "id": "pluschat-2026-07-16-1100-6d7fdc214a4091584f08b7d1",
       "title": "キャラクターライセンシングフェア2026",
       "originalTitle": "캐릭터 라이선싱 페어 2026",
       "translationStatus": "exact",
@@ -527,7 +545,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-17-0910-kbs2",
+      "id": "pluschat-2026-07-17-0910-587b0d62384ecd9873c33948",
       "title": "KBS2「MUSIC BANK」事前収録",
       "originalTitle": "KBS2 <뮤직뱅크> 사전 녹화",
       "translationStatus": "exact",
@@ -546,7 +564,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-17-1715-kbs2",
+      "id": "pluschat-2026-07-17-1715-dad4b8d9e78a23482d36b6ed",
       "title": "KBS2「MUSIC BANK」出演",
       "originalTitle": "KBS2 <뮤직뱅크>",
       "translationStatus": "exact",
@@ -565,7 +583,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-17-1820-kbs-world",
+      "id": "pluschat-2026-07-17-1820-95c7625110ef43d756ce0e90",
       "title": "KBS WORLD「My Day Trip」",
       "originalTitle": "KBS WORLD <마이데이트립>",
       "translationStatus": "exact",
@@ -584,7 +602,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-18-0815",
+      "id": "pluschat-2026-07-18-0815-8e019d61ad7aede397e2c30c",
       "title": "MBC「SHOW! 音楽中心」事前収録＋ミニファンミーティング",
       "originalTitle": "<쇼음악중심> 사전 녹화(+미니 팬미팅)",
       "translationStatus": "exact",
@@ -603,7 +621,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-18-1515-mbc",
+      "id": "pluschat-2026-07-18-1515-431a45bb4edaf2896352be22",
       "title": "MBC「SHOW! 音楽中心」出演",
       "originalTitle": "MBC <쇼! 음악중심>",
       "translationStatus": "exact",
@@ -622,7 +640,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-18-1900-pretty-girl-by-pluschat",
+      "id": "pluschat-2026-07-18-1900-4d4addf20915c8c9c7ac5aba",
       "title": "「Pretty Girl」対面サイン会（Plus Chat）",
       "originalTitle": "[Pretty Girl] 대면 팬사인회 by PlusChat",
       "translationStatus": "exact",
@@ -641,7 +659,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-19-0905-sbs",
+      "id": "pluschat-2026-07-19-0905-ea595c411f76d721ca03caf7",
       "title": "SBS「人気歌謡」事前収録",
       "originalTitle": "SBS <인기가요> 사전녹화",
       "translationStatus": "exact",
@@ -660,7 +678,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-19-1510-sbs",
+      "id": "pluschat-2026-07-19-1510-d4b882234afc110f28f9f49a",
       "title": "SBS「人気歌謡」出演",
       "originalTitle": "SBS <인기가요>",
       "translationStatus": "exact",
@@ -679,7 +697,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-21-1400",
+      "id": "pluschat-2026-07-21-1400-48d9c5037d8954eb5ff6825b",
       "title": "島の日 広報大使委嘱式",
       "originalTitle": "섬의 날 홍보대사 위촉식",
       "translationStatus": "exact",
@@ -698,7 +716,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-21-1830-kt",
+      "id": "pluschat-2026-07-21-1830-29c43a5581b3f496075c6d23",
       "title": "KTウィズ 始球・始打",
       "originalTitle": "KT위즈 시구&시투",
       "translationStatus": "exact",
@@ -717,7 +735,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-24-1600-just-makeup-in-tokyo-2027",
+      "id": "pluschat-2026-07-24-1600-05dfba2fec9914c496b455e4",
       "title": "JUST MAKEUP IN TOKYO 2027",
       "originalTitle": "JUST MAKEUP IN TOKYO 2027",
       "translationStatus": "exact",
@@ -736,7 +754,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-25-1245-2026",
+      "id": "pluschat-2026-07-25-1245-d58217930e382693fedf8c52",
       "title": "ONE UNIVERSE FESTIVAL 2026",
       "originalTitle": "2026 원 유니버스 페스티벌",
       "translationStatus": "exact",
@@ -755,7 +773,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-25-1645-kbs",
+      "id": "pluschat-2026-07-25-1645-abf32a3324e0f249d4b03aa4",
       "title": "保寧 KBS SUPER LIVE",
       "originalTitle": "보령 KBS 슈퍼라이브",
       "translationStatus": "exact",
@@ -774,7 +792,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-26-0430-sbs",
+      "id": "pluschat-2026-07-26-0430-83efc4287b583418af3bcdba",
       "title": "SBS「人気歌謡」事前収録",
       "originalTitle": "SBS <인기가요> 사전녹화",
       "translationStatus": "exact",
@@ -793,7 +811,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-26-1400-2026",
+      "id": "pluschat-2026-07-26-1400-56417fb6b08b4c6cf9f211ee",
       "title": "2026 カリビアンベイ・ウォーターミュージック・プールパーティー",
       "originalTitle": "2026 캐리비안베이 워터뮤직풀파티",
       "translationStatus": "exact",
@@ -812,7 +830,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-26-1510-sbs",
+      "id": "pluschat-2026-07-26-1510-29257aaeb1910d21841690dc",
       "title": "SBS「人気歌謡」出演",
       "originalTitle": "SBS <인기가요>",
       "translationStatus": "exact",
@@ -831,7 +849,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-26-1900",
+      "id": "pluschat-2026-07-26-1900-d47b12004ead6fdacb815cd1",
       "title": "ピョルバン睡眠会",
       "originalTitle": "별방수면회",
       "translationStatus": "exact",
@@ -850,7 +868,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-07-31-1830",
+      "id": "pluschat-2026-07-31-1830-1a1f8b8d155440eb30a2b3ef",
       "title": "ロッテ・ジャイアンツ 始球",
       "originalTitle": "롯데자이언츠 시구",
       "translationStatus": "exact",
@@ -869,7 +887,7 @@
       "sourceMonth": "2026-07"
     },
     {
-      "id": "pluschat-2026-08-02-2100-2026",
+      "id": "pluschat-2026-08-02-2100-415322bc836fa8d218ad605b",
       "title": "2026 영주 시원나잇 페스타",
       "originalTitle": "2026 영주 시원나잇 페스타",
       "translationStatus": "original",
@@ -888,7 +906,7 @@
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-08-06-2100-7",
+      "id": "pluschat-2026-08-06-2100-f509c87b8fe9254828073e63",
       "title": "제7회 섬의 날 개막 기념식",
       "originalTitle": "제7회 섬의 날 개막 기념식",
       "translationStatus": "original",
@@ -907,7 +925,7 @@
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-08-08-2310-mbc",
+      "id": "pluschat-2026-08-08-2310-364bb760ce06fa5d494f77ca",
       "title": "MBC「全知的おせっかい視点」",
       "originalTitle": "MBC <전지적 참견 시점>",
       "translationStatus": "exact",
@@ -926,7 +944,7 @@
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-08-09-all-day-2026",
+      "id": "pluschat-2026-08-09-all-day-ee3d8ffdecb56fb6a8cf4a08",
       "title": "「2026 쿠팡플레이 시리즈」 프리뷰쇼",
       "originalTitle": "<2026 쿠팡플레이 시리즈> 프리뷰쇼",
       "translationStatus": "partial",
@@ -945,7 +963,7 @@
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-08-09-2000-2026-vs-at",
+      "id": "pluschat-2026-08-09-2000-ca3d38801c69a1431a73ef95",
       "title": "「2026 쿠팡플레이 시리즈」 맨시티 vs AT마드리드 하프타임쇼",
       "originalTitle": "<2026 쿠팡플레이 시리즈> 맨시티 vs AT마드리드 하프타임쇼",
       "translationStatus": "partial",
@@ -964,7 +982,7 @@
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-08-14-all-day-kcon-la-2026",
+      "id": "pluschat-2026-08-14-all-day-366f67714101036a0c3ea506",
       "title": "KCON LA 2026",
       "originalTitle": "KCON LA 2026",
       "translationStatus": "original",
@@ -983,7 +1001,7 @@
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-08-15-all-day-kcon-la-2026",
+      "id": "pluschat-2026-08-15-all-day-7728eaaac2e5d75e22cd1594",
       "title": "KCON LA 2026",
       "originalTitle": "KCON LA 2026",
       "translationStatus": "original",
@@ -1002,7 +1020,7 @@
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-08-15-1930-tvn",
+      "id": "pluschat-2026-08-15-1930-70ae099dd6a8ae74db713d4b",
       "title": "tvN 「놀라운 토요일」",
       "originalTitle": "tvN <놀라운 토요일>",
       "translationStatus": "partial",
@@ -1021,7 +1039,7 @@
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-08-16-all-day-kcon-la-2026",
+      "id": "pluschat-2026-08-16-all-day-54b1a2251972fc0aed6e86b4",
       "title": "KCON LA 2026",
       "originalTitle": "KCON LA 2026",
       "translationStatus": "original",
@@ -1040,7 +1058,7 @@
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-08-19-all-day-happy-may-day",
+      "id": "pluschat-2026-08-19-all-day-ac0fc1b93de605c5c8d8907a",
       "title": "🎉 HAPPY MAY DAY",
       "originalTitle": "🎉 HAPPY MAY DAY",
       "translationStatus": "original",
@@ -1059,7 +1077,7 @@
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-08-27-all-day-2026-k-world-dream-awards",
+      "id": "pluschat-2026-08-27-all-day-a5a8b9c472bcfdd2ed78c715",
       "title": "2026 K-WORLD DREAM AWARDS",
       "originalTitle": "2026 K-WORLD DREAM AWARDS",
       "translationStatus": "original",
@@ -1078,7 +1096,7 @@
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-08-30-2305-sbs-2",
+      "id": "pluschat-2026-08-30-2305-c7500e15caae59a27a322e20",
       "title": "SBS 「열혈농구단2」",
       "originalTitle": "SBS <열혈농구단2>",
       "translationStatus": "partial",
@@ -1097,7 +1115,7 @@
       "sourceMonth": "2026-08"
     },
     {
-      "id": "pluschat-2026-09-02-2040-2026-k",
+      "id": "pluschat-2026-09-02-2040-15d294a300e9335637450275",
       "title": "2026 천안 K-컬처 박람회 개막 公演",
       "originalTitle": "2026 천안 K-컬처 박람회 개막 공연",
       "translationStatus": "partial",
@@ -1116,7 +1134,7 @@
       "sourceMonth": "2026-09"
     },
     {
-      "id": "pluschat-2026-09-03-1500",
+      "id": "pluschat-2026-09-03-1500-dee4ef8d5f6dd6b5cfe5dd00",
       "title": "한국放送대상 축하公演",
       "originalTitle": "한국방송대상 축하공연",
       "translationStatus": "partial",
@@ -1135,7 +1153,7 @@
       "sourceMonth": "2026-09"
     },
     {
-      "id": "pluschat-2026-09-04-2030-2026",
+      "id": "pluschat-2026-09-04-2030-7460f0b44144a246f4947c65",
       "title": "2026 살람서울페스티벌",
       "originalTitle": "2026 살람서울페스티벌",
       "translationStatus": "original",
@@ -1154,7 +1172,7 @@
       "sourceMonth": "2026-09"
     },
     {
-      "id": "pluschat-2026-09-05-1930-2",
+      "id": "pluschat-2026-09-05-1930-cc026fb04e0490664fb41372",
       "title": "원 썸머 나잇 위드 케이팝 시즌 2",
       "originalTitle": "원 썸머 나잇 위드 케이팝 시즌 2",
       "translationStatus": "original",
@@ -1173,7 +1191,7 @@
       "sourceMonth": "2026-09"
     },
     {
-      "id": "pluschat-2026-09-06-all-day-spotv-k-pop-awards-ska",
+      "id": "pluschat-2026-09-06-all-day-3a19cd81d4ebd17799e4cfae",
       "title": "SPOTV K-POP AWARDS(SKA",
       "originalTitle": "SPOTV K-POP AWARDS(SKA)",
       "translationStatus": "rules",
@@ -1192,7 +1210,7 @@
       "sourceMonth": "2026-09"
     },
     {
-      "id": "pluschat-2026-09-10-all-day-spotify-house-seoul",
+      "id": "pluschat-2026-09-10-all-day-717598fc251051c9fecd4a7d",
       "title": "Spotify House Seoul",
       "originalTitle": "Spotify House Seoul",
       "translationStatus": "original",
@@ -1211,7 +1229,7 @@
       "sourceMonth": "2026-09"
     },
     {
-      "id": "pluschat-2026-09-17-all-day",
+      "id": "pluschat-2026-09-17-all-day-49a03240882a2b0e73b7a18f",
       "title": "동국대학교 축제",
       "originalTitle": "동국대학교 축제",
       "translationStatus": "original",
@@ -1230,7 +1248,7 @@
       "sourceMonth": "2026-09"
     },
     {
-      "id": "pluschat-2026-09-18-all-day",
+      "id": "pluschat-2026-09-18-all-day-c9249b8216804006a787fb93",
       "title": "인하대학교 축제",
       "originalTitle": "인하대학교 축제",
       "translationStatus": "original",
@@ -1249,7 +1267,7 @@
       "sourceMonth": "2026-09"
     },
     {
-      "id": "pluschat-2026-09-19-all-day-2026-tma",
+      "id": "pluschat-2026-09-19-all-day-92cc8b2d692e2e8ccd80ec84",
       "title": "2026 더팩트 뮤직 어워즈(TMA",
       "originalTitle": "2026 더팩트 뮤직 어워즈(TMA)",
       "translationStatus": "partial",
@@ -1268,7 +1286,7 @@
       "sourceMonth": "2026-09"
     },
     {
-      "id": "pluschat-2026-09-27-1900-objet-k-pop-festa-2026-okf2026",
+      "id": "pluschat-2026-09-27-1900-2518f9ed88c8151e95bfad02",
       "title": "OBJET K-POP FESTA 2026 (OKF2026 - 인천",
       "originalTitle": "OBJET K-POP FESTA 2026 (OKF2026) - 인천",
       "translationStatus": "partial",
@@ -1287,7 +1305,45 @@
       "sourceMonth": "2026-09"
     },
     {
-      "id": "pluschat-2026-10-03-all-day-2026",
+      "id": "pluschat-2026-10-01-all-day-abefe0abc2fc66302cb7e45b",
+      "title": "계명대학교 축제",
+      "originalTitle": "계명대학교 축제",
+      "translationStatus": "original",
+      "date": "2026-10-01",
+      "start": "2026-10-01",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "id": "pluschat-2026-10-01-all-day-1e43020f42fbfec0e752b81a",
+      "title": "대구보건대학교 축제",
+      "originalTitle": "대구보건대학교 축제",
+      "translationStatus": "original",
+      "date": "2026-10-01",
+      "start": "2026-10-01",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "id": "pluschat-2026-10-03-all-day-7f7c5d8e4c9901193f34e0db",
       "title": "2026 입크페스티벌",
       "originalTitle": "2026 입크페스티벌",
       "translationStatus": "original",
@@ -1306,7 +1362,7 @@
       "sourceMonth": "2026-10"
     },
     {
-      "id": "pluschat-2026-10-03-all-day",
+      "id": "pluschat-2026-10-03-all-day-4fe66f90d681a196180e68cf",
       "title": "공주 백제문화제",
       "originalTitle": "공주 백제문화제",
       "translationStatus": "original",
@@ -1325,7 +1381,45 @@
       "sourceMonth": "2026-10"
     },
     {
-      "id": "pluschat-2026-10-10-all-day-2026",
+      "id": "pluschat-2026-10-04-all-day-468f0335ed2ca62e901920a6",
+      "title": "2026 의령 리치리치 페스티벌",
+      "originalTitle": "2026 의령 리치리치 페스티벌",
+      "translationStatus": "original",
+      "date": "2026-10-04",
+      "start": "2026-10-04",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "id": "pluschat-2026-10-09-all-day-b3237eccc0eb16ab89b65757",
+      "title": "연수 능허대 문화 축제",
+      "originalTitle": "연수 능허대 문화 축제",
+      "translationStatus": "original",
+      "date": "2026-10-09",
+      "start": "2026-10-09",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "id": "pluschat-2026-10-10-all-day-b9b6fd9bd9ae173775eefcb9",
       "title": "2026 대전 동구동락 축제",
       "originalTitle": "2026 대전 동구동락 축제",
       "translationStatus": "original",
@@ -1344,7 +1438,7 @@
       "sourceMonth": "2026-10"
     },
     {
-      "id": "pluschat-2026-10-11-all-day-2026-ghost-ost",
+      "id": "pluschat-2026-10-11-all-day-1b6ee6b6cb56d79c6dc784b3",
       "title": "2026 GHOST (경기 한류 OST 뮤직페스티벌",
       "originalTitle": "2026 GHOST (경기 한류 OST 뮤직페스티벌)",
       "translationStatus": "partial",
@@ -1363,7 +1457,7 @@
       "sourceMonth": "2026-10"
     },
     {
-      "id": "pluschat-2026-10-11-all-day-happy-liv-day",
+      "id": "pluschat-2026-10-11-all-day-3ef37b0149e4e20374b61ab8",
       "title": "🎉 HAPPY LIV DAY",
       "originalTitle": "🎉 HAPPY LIV DAY",
       "translationStatus": "original",
@@ -1382,7 +1476,7 @@
       "sourceMonth": "2026-10"
     },
     {
-      "id": "pluschat-2026-10-17-all-day-nol-festival",
+      "id": "pluschat-2026-10-17-all-day-90ae3f03dbf4ab6900a9689d",
       "title": "NOL FESTIVAL - 고양",
       "originalTitle": "NOL FESTIVAL - 고양",
       "translationStatus": "original",
@@ -1399,6 +1493,120 @@
       "notionUrl": "",
       "source": "pluschat",
       "sourceMonth": "2026-10"
+    },
+    {
+      "id": "pluschat-2026-10-23-all-day-ec6e43773b9cdce0ecaaf40d",
+      "title": "마산대학교 축제",
+      "originalTitle": "마산대학교 축제",
+      "translationStatus": "original",
+      "date": "2026-10-23",
+      "start": "2026-10-23",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "id": "pluschat-2026-10-24-all-day-a4f7aaa0f7f0dd2ff1eebe42",
+      "title": "여기어때 콘서트팩 거제",
+      "originalTitle": "여기어때 콘서트팩 거제",
+      "translationStatus": "original",
+      "date": "2026-10-24",
+      "start": "2026-10-24",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "id": "pluschat-2026-10-31-all-day-060dd86605251d89f1d5f17f",
+      "title": "APEC 정상회의장 기념관 개관식",
+      "originalTitle": "APEC 정상회의장 기념관 개관식",
+      "translationStatus": "original",
+      "date": "2026-10-31",
+      "start": "2026-10-31",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "id": "pluschat-2026-11-07-all-day-529fd079130cf64660b6e77a",
+      "title": "2026 KGMA (코리아 그랜드 뮤직 어워즈",
+      "originalTitle": "2026 KGMA (코리아 그랜드 뮤직 어워즈)",
+      "translationStatus": "partial",
+      "date": "2026-11-07",
+      "start": "2026-11-07",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-11"
+    },
+    {
+      "id": "pluschat-2026-11-27-all-day-f6d9dbc75221d89e7409fcfc",
+      "title": "🎉 HAPPY ZENA DAY",
+      "originalTitle": "🎉 HAPPY ZENA DAY",
+      "translationStatus": "original",
+      "date": "2026-11-27",
+      "start": "2026-11-27",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-11"
+    },
+    {
+      "id": "pluschat-2026-11-29-all-day-26f09b363aee994e32737c25",
+      "title": "🎉 HAPPY MINAMI DAY",
+      "originalTitle": "🎉 HAPPY MINAMI DAY",
+      "translationStatus": "original",
+      "date": "2026-11-29",
+      "start": "2026-11-29",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-11"
     }
   ]
 }
