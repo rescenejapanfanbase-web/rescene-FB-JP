@@ -69,7 +69,8 @@ const isRecurringSourceDuplicate = (event) => {
   const category = String(event.category || "").toLowerCase();
   for (const item of recurringDefinitions.filter((entry) => entry.member)) {
     if (date.slice(5) !== item.date.slice(5) || !title.includes(item.member)) continue;
-    if (category === "birthday" || /HAPPYBIRTHDAY|誕生日/.test(title)) return true;
+    const happyDay = new RegExp(`^[^\\p{L}\\p{N}]*HAPPY${item.member}DAY[^\\p{L}\\p{N}]*$`, "u");
+    if (category === "birthday" || /HAPPYBIRTHDAY|誕生日/.test(title) || happyDay.test(title)) return true;
   }
   return date.slice(5) === "03-26" && /RESCENE/.test(title) && /デビュー|ANNIVERSARY|周年|記念/.test(title);
 };

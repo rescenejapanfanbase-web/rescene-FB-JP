@@ -220,7 +220,10 @@
   const isRecurringDuplicate = (candidate, sourceEvents) => sourceEvents.some((event) => {
     if (!eventDates(event).includes(candidate.date)) return false;
     const titleText = String(event.title || "").toUpperCase().replace(/\s+/g, "");
-    if (candidate.recurringMember) return titleText.includes(candidate.recurringMember) && /BIRTHDAY|誕生日/.test(titleText);
+    if (candidate.recurringMember) {
+      const happyDay = new RegExp(`^[^\\p{L}\\p{N}]*HAPPY${candidate.recurringMember}DAY[^\\p{L}\\p{N}]*$`, "u");
+      return titleText.includes(candidate.recurringMember) && (/BIRTHDAY|誕生日/.test(titleText) || happyDay.test(titleText));
+    }
     return candidate.recurringAnniversary && /デビュー|ANNIVERSARY/.test(titleText);
   });
   const eventsForYears = (...years) => {
