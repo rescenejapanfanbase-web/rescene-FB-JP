@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T05:11:01.453588+00:00",
+  "generatedAt": "2026-10-03T09:48:57.655243+00:00",
   "items": [
     {
       "date": "2026-10-03",
@@ -37,12 +37,13 @@
       "date": "2026-10-03",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "54bb062",
+      "commit": "bde6938",
       "files": [
         "README-ja.txt",
+        "js/schedule.js",
+        "scripts/calendar-ics.mjs",
         "scripts/run-prepublish-checks.sh",
-        "scripts/sync-pluschat-schedule.py",
-        "scripts/test-pluschat-schedule.py"
+        "scripts/test-schedule-birthdays.mjs"
       ]
     },
     {
