@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-10-04T00:31:34.326828+00:00",
+  "generatedAt": "2026-10-04T05:43:36.530631+00:00",
   "items": [
+    {
+      "date": "2026-10-04",
+      "title": "chore: critical full content sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "5ad0f63",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "assets/mv/youtube/638f3ttCR20.jpg",
+        "assets/optimized/ee03663a46ae9301/638f3ttcr20-w480.webp",
+        "assets/optimized/ee03663a46ae9301/638f3ttcr20-w768.webp",
+        "data/image-manifest.json",
+        "data/image-optimization.json",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json"
+      ]
+    },
     {
       "date": "2026-10-03",
       "title": "chore: update external link report",
