@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T17:32:57+09:00",
+  "generatedAt": "2026-10-04T17:44:43+09:00",
   "configSource": "notion",
   "charts": [
     {
@@ -2936,7 +2936,7 @@
           "observations": 10
         }
       ],
-      "lastCheckedAt": "2026-10-03T17:32:12+09:00",
+      "lastCheckedAt": "2026-10-04T17:44:43+09:00",
       "chartAt": "2026-09-28T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/uhuh--youtube-kr.json"
     },
@@ -2945,15 +2945,15 @@
       "songTitle": "YoYo",
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
-      "currentRank": null,
+      "currentRank": 76,
       "previousRank": null,
       "movement": null,
-      "movementType": "stay-out",
-      "status": "out",
+      "movementType": "reentry",
+      "status": "in",
       "peakRank": 36,
       "firstChartedAt": "2026-09-21T00:00:00+09:00",
-      "lastChartedAt": "2026-09-21T00:00:00+09:00",
-      "chartDays": 1,
+      "lastChartedAt": "2026-09-28T00:00:00+09:00",
+      "chartDays": 2,
       "outOfChartCount": 2,
       "outOfChartHistory": [
         {
@@ -2965,13 +2965,13 @@
         },
         {
           "startAt": "2026-09-28T00:00:00+09:00",
-          "endAt": "",
+          "endAt": "2026-09-28T00:00:00+09:00",
           "lastObservedAt": "2026-09-28T00:00:00+09:00",
-          "lastCheckedAt": "2026-09-28T17:56:34+09:00",
+          "lastCheckedAt": "2026-10-04T17:44:43+09:00",
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-10-03T17:32:12+09:00",
+      "lastCheckedAt": "2026-10-04T17:44:43+09:00",
       "chartAt": "2026-09-28T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/yoyo--youtube-kr.json"
     },
@@ -2980,10 +2980,10 @@
       "songTitle": "LOVE ATTACK",
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
-      "currentRank": 5,
+      "currentRank": 4,
       "previousRank": 5,
-      "movement": 0,
-      "movementType": "same",
+      "movement": 1,
+      "movementType": "up",
       "status": "in",
       "peakRank": 1,
       "firstChartedAt": "2024-09-23T00:00:00+09:00",
@@ -2999,7 +2999,7 @@
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-10-03T17:32:12+09:00",
+      "lastCheckedAt": "2026-10-04T17:44:43+09:00",
       "chartAt": "2026-09-28T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/love-attack--youtube-kr.json"
     },
@@ -3027,7 +3027,7 @@
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-10-03T17:32:12+09:00",
+      "lastCheckedAt": "2026-10-04T17:44:43+09:00",
       "chartAt": "2026-09-28T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pinball--youtube-kr.json"
     },
@@ -3036,10 +3036,10 @@
       "songTitle": "Glow Up",
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
-      "currentRank": 89,
+      "currentRank": 79,
       "previousRank": 89,
-      "movement": 0,
-      "movementType": "same",
+      "movement": 10,
+      "movementType": "up",
       "status": "in",
       "peakRank": 51,
       "firstChartedAt": "2026-06-22T00:00:00+09:00",
@@ -3055,7 +3055,7 @@
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-10-03T17:32:12+09:00",
+      "lastCheckedAt": "2026-10-04T17:44:43+09:00",
       "chartAt": "2026-09-28T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/glow-up--youtube-kr.json"
     },
@@ -3083,7 +3083,7 @@
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-10-03T17:32:12+09:00",
+      "lastCheckedAt": "2026-10-04T17:44:43+09:00",
       "chartAt": "2026-09-28T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/deja-vu--youtube-kr.json"
     },
@@ -3118,7 +3118,7 @@
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-10-03T17:32:12+09:00",
+      "lastCheckedAt": "2026-10-04T17:44:43+09:00",
       "chartAt": "2026-09-28T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/heart-drop--youtube-kr.json"
     },
@@ -3127,10 +3127,10 @@
       "songTitle": "Bloom",
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
-      "currentRank": 81,
+      "currentRank": 75,
       "previousRank": 81,
-      "movement": 0,
-      "movementType": "same",
+      "movement": 6,
+      "movementType": "up",
       "status": "in",
       "peakRank": 53,
       "firstChartedAt": "2026-07-06T00:00:00+09:00",
@@ -3146,7 +3146,7 @@
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-10-03T17:32:12+09:00",
+      "lastCheckedAt": "2026-10-04T17:44:43+09:00",
       "chartAt": "2026-09-28T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/bloom--youtube-kr.json"
     },
@@ -3181,7 +3181,7 @@
           "observations": 5
         }
       ],
-      "lastCheckedAt": "2026-10-03T17:32:12+09:00",
+      "lastCheckedAt": "2026-10-04T17:44:43+09:00",
       "chartAt": "2026-09-28T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/busy-boy--youtube-kr.json"
     },
@@ -3209,7 +3209,7 @@
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-10-03T17:32:12+09:00",
+      "lastCheckedAt": "2026-10-04T17:44:43+09:00",
       "chartAt": "2026-09-28T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/runaway--youtube-kr.json"
     },
@@ -3218,10 +3218,10 @@
       "songTitle": "Pretty Girl",
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
-      "currentRank": 8,
+      "currentRank": 6,
       "previousRank": 8,
-      "movement": 0,
-      "movementType": "same",
+      "movement": 2,
+      "movementType": "up",
       "status": "in",
       "peakRank": 3,
       "firstChartedAt": "2026-07-06T00:00:00+09:00",
@@ -3237,7 +3237,7 @@
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-10-03T17:32:12+09:00",
+      "lastCheckedAt": "2026-10-04T17:44:43+09:00",
       "chartAt": "2026-09-28T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pretty-girl--youtube-kr.json"
     },
@@ -3635,12 +3635,12 @@
       "chartName": "YouTube Music Korea Top Songs",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-10-03T17:32:12+09:00",
+      "lastAttemptAt": "2026-10-04T17:44:43+09:00",
       "error": "",
-      "lastSuccessAt": "2026-10-03T17:32:12+09:00",
+      "lastSuccessAt": "2026-10-04T17:44:43+09:00",
       "chartAt": "2026-09-28T00:00:00+09:00",
-      "itemCount": 100,
-      "matchedCount": 7,
+      "itemCount": 99,
+      "matchedCount": 8,
       "metadata": {
         "playlistId": "PL4fGSI1pDJn6jXS_Tv_N9B8Z0HTRVJE0m",
         "playlistTitle": "Top 100 Songs South Korea",
@@ -3727,7 +3727,7 @@
   "summary": {
     "publishedSongs": 11,
     "chartCount": 10,
-    "inChartCount": 48,
+    "inChartCount": 49,
     "freshSourceCount": 10,
     "staleSourceCount": 0
   },
