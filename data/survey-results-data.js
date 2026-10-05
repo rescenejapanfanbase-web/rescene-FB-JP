@@ -1,51 +1,56 @@
 window.RESCENE_SURVEY_RESULTS = {
   "version": 1,
-  "generatedAt": "2026-10-05T01:00:08.588Z",
+  "generatedAt": "2026-10-05T07:08:10.355Z",
   "source": "survey",
   "surveyTitle": "RESCENE好きな曲アンケート",
   "activeCampaign": "RESCENE好きな曲アンケート",
   "campaigns": [
     {
       "name": "RESCENE好きな曲アンケート",
-      "responseCount": 188,
-      "totalSelections": 520,
+      "responseCount": 189,
+      "totalSelections": 523,
       "firstResponseAt": "2026-08-15T12:53:00.000Z",
-      "lastResponseAt": "2026-10-03T07:24:00.000Z",
+      "lastResponseAt": "2026-10-05T01:06:00.000Z",
       "ranking": [
         {
           "name": "Deja Vu",
-          "votes": 84,
-          "respondentRate": 44.7,
-          "selectionShare": 16.2
+          "votes": 85,
+          "respondentRate": 45,
+          "selectionShare": 16.3
         },
         {
           "name": "LOVE ATTACK",
-          "votes": 41,
-          "respondentRate": 21.8,
-          "selectionShare": 7.9
+          "votes": 42,
+          "respondentRate": 22.2,
+          "selectionShare": 8
+        },
+        {
+          "name": "Runaway",
+          "votes": 40,
+          "respondentRate": 21.2,
+          "selectionShare": 7.6
         },
         {
           "name": "Cotton Candy",
           "votes": 39,
-          "respondentRate": 20.7,
-          "selectionShare": 7.5
-        },
-        {
-          "name": "Runaway",
-          "votes": 39,
-          "respondentRate": 20.7,
+          "respondentRate": 20.6,
           "selectionShare": 7.5
         },
         {
           "name": "Bloom",
           "votes": 31,
-          "respondentRate": 16.5,
-          "selectionShare": 6
+          "respondentRate": 16.4,
+          "selectionShare": 5.9
         }
       ],
       "ratings": [],
       "memberDistribution": [],
       "publicComments": [
+        {
+          "text": "何度でも聞きたくなる曲",
+          "author": "匿名REMINE",
+          "date": "2026-10-05"
+        },
         {
           "text": "New submission",
           "author": "匿名REMINE",
@@ -138,11 +143,6 @@ window.RESCENE_SURVEY_RESULTS = {
         },
         {
           "text": "曲、振付け、最高！本当はもっともっと好きな曲ある(笑)",
-          "author": "匿名REMINE",
-          "date": "2026-08-16"
-        },
-        {
-          "text": "Every time I hear and watch the 'Deja Vu' MV, the song really makes me feel a pleasant nostalgia even though I don't have those memories in real life. Then about 'Crash', when listening to this song it feels like floating, it always gives me goosebumps! And lastly 'UhUh', I love the melodies in this song, it's really perfect. From instruments, backing vocals, to ad-libs, it's so beautiful. Unfortunately I can only choose 3, it's so hard to choose. Hahahaha",
           "author": "匿名REMINE",
           "date": "2026-08-16"
         }
