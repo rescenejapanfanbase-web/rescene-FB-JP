@@ -1,6 +1,6 @@
 window.RESCENE_KOREAN_CHARTS = {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T19:24:05+09:00",
+  "generatedAt": "2026-10-05T19:53:27+09:00",
   "configSource": "notion",
   "charts": [
     {
@@ -730,13 +730,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-10-03T00:00:00+09:00",
-          "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-          "observations": 63
+          "lastObservedAt": "2026-10-04T00:00:00+09:00",
+          "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+          "observations": 64
         }
       ],
-      "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-      "chartAt": "2026-10-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+      "chartAt": "2026-10-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/uhuh--melon-daily.json"
     },
     {
@@ -758,13 +758,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-10-03T00:00:00+09:00",
-          "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-          "observations": 63
+          "lastObservedAt": "2026-10-04T00:00:00+09:00",
+          "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+          "observations": 64
         }
       ],
-      "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-      "chartAt": "2026-10-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+      "chartAt": "2026-10-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/yoyo--melon-daily.json"
     },
     {
@@ -779,12 +779,12 @@ window.RESCENE_KOREAN_CHARTS = {
       "status": "in",
       "peakRank": 1,
       "firstChartedAt": "2025-04-06T00:00:00+09:00",
-      "lastChartedAt": "2026-10-03T00:00:00+09:00",
-      "chartDays": 207,
+      "lastChartedAt": "2026-10-04T00:00:00+09:00",
+      "chartDays": 208,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-      "chartAt": "2026-10-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+      "chartAt": "2026-10-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/love-attack--melon-daily.json"
     },
     {
@@ -806,13 +806,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-10-03T00:00:00+09:00",
-          "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-          "observations": 63
+          "lastObservedAt": "2026-10-04T00:00:00+09:00",
+          "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+          "observations": 64
         }
       ],
-      "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-      "chartAt": "2026-10-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+      "chartAt": "2026-10-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pinball--melon-daily.json"
     },
     {
@@ -834,13 +834,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-10-03T00:00:00+09:00",
-          "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-          "observations": 63
+          "lastObservedAt": "2026-10-04T00:00:00+09:00",
+          "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+          "observations": 64
         }
       ],
-      "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-      "chartAt": "2026-10-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+      "chartAt": "2026-10-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/glow-up--melon-daily.json"
     },
     {
@@ -855,12 +855,12 @@ window.RESCENE_KOREAN_CHARTS = {
       "status": "in",
       "peakRank": 4,
       "firstChartedAt": "2026-07-06T00:00:00+09:00",
-      "lastChartedAt": "2026-10-03T00:00:00+09:00",
-      "chartDays": 89,
+      "lastChartedAt": "2026-10-04T00:00:00+09:00",
+      "chartDays": 90,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-      "chartAt": "2026-10-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+      "chartAt": "2026-10-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/deja-vu--melon-daily.json"
     },
     {
@@ -882,13 +882,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-10-03T00:00:00+09:00",
-          "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-          "observations": 63
+          "lastObservedAt": "2026-10-04T00:00:00+09:00",
+          "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+          "observations": 64
         }
       ],
-      "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-      "chartAt": "2026-10-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+      "chartAt": "2026-10-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/heart-drop--melon-daily.json"
     },
     {
@@ -910,13 +910,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-10-03T00:00:00+09:00",
-          "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-          "observations": 63
+          "lastObservedAt": "2026-10-04T00:00:00+09:00",
+          "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+          "observations": 64
         }
       ],
-      "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-      "chartAt": "2026-10-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+      "chartAt": "2026-10-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/bloom--melon-daily.json"
     },
     {
@@ -938,13 +938,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-10-03T00:00:00+09:00",
-          "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-          "observations": 63
+          "lastObservedAt": "2026-10-04T00:00:00+09:00",
+          "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+          "observations": 64
         }
       ],
-      "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-      "chartAt": "2026-10-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+      "chartAt": "2026-10-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/busy-boy--melon-daily.json"
     },
     {
@@ -952,19 +952,19 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Runaway",
       "chartId": "melon-daily",
       "chartName": "Melon Daily",
-      "currentRank": 60,
-      "previousRank": 58,
-      "movement": -2,
-      "movementType": "down",
+      "currentRank": 57,
+      "previousRank": 60,
+      "movement": 3,
+      "movementType": "up",
       "status": "in",
       "peakRank": 50,
       "firstChartedAt": "2026-07-06T00:00:00+09:00",
-      "lastChartedAt": "2026-10-03T00:00:00+09:00",
-      "chartDays": 89,
+      "lastChartedAt": "2026-10-04T00:00:00+09:00",
+      "chartDays": 90,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-      "chartAt": "2026-10-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+      "chartAt": "2026-10-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/runaway--melon-daily.json"
     },
     {
@@ -973,18 +973,18 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartId": "melon-daily",
       "chartName": "Melon Daily",
       "currentRank": 5,
-      "previousRank": 6,
-      "movement": 1,
-      "movementType": "up",
+      "previousRank": 5,
+      "movement": 0,
+      "movementType": "same",
       "status": "in",
       "peakRank": 4,
       "firstChartedAt": "2026-08-01T00:00:00+09:00",
-      "lastChartedAt": "2026-10-03T00:00:00+09:00",
-      "chartDays": 63,
+      "lastChartedAt": "2026-10-04T00:00:00+09:00",
+      "chartDays": 64,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-10-04T19:14:24+09:00",
-      "chartAt": "2026-10-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-10-05T19:53:27+09:00",
+      "chartAt": "2026-10-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pretty-girl--melon-daily.json"
     },
     {
@@ -3653,17 +3653,17 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartName": "Melon Daily",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-10-04T19:14:24+09:00",
-      "lastSuccessAt": "2026-10-04T19:14:24+09:00",
-      "chartAt": "2026-10-03T00:00:00+09:00",
+      "lastAttemptAt": "2026-10-05T19:53:27+09:00",
+      "lastSuccessAt": "2026-10-05T19:53:27+09:00",
+      "chartAt": "2026-10-04T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 4,
       "error": "",
       "metadata": {
         "period": "daily",
         "sourceMode": "official-html",
-        "sourceUrl": "https://www.melon.com/chart/day/index.htm?chartSearchData=20261003",
-        "nativeDate": "2026-10-03",
+        "sourceUrl": "https://www.melon.com/chart/day/index.htm?chartSearchData=20261004",
+        "nativeDate": "2026-10-04",
         "publishedAt": "12:40 KST",
         "chartDateRule": "source-verified-previous-day",
         "total": 100
