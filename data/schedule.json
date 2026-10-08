@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-03T18:23:27.756Z",
+  "generatedAt": "2026-10-08T16:12:20.889Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
     "notion": 31,
-    "plusChatAvailable": 82,
-    "plusChatAdded": 61,
+    "plusChatAvailable": 83,
+    "plusChatAdded": 62,
     "plusChatDuplicates": 21
   },
-  "plusChatGeneratedAt": "2026-10-03T18:23:27Z",
+  "plusChatGeneratedAt": "2026-10-08T16:12:20Z",
   "events": [
     {
       "id": "39d229d2-19da-800f-bf39-f901096b6fc6",
@@ -1412,6 +1412,25 @@
       "translationStatus": "original",
       "date": "2026-10-09",
       "start": "2026-10-09T20:00:00+09:00",
+      "end": "",
+      "allDay": false,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "id": "pluschat-2026-10-09-2030-29cfb4dc312e020094a6560d",
+      "title": "KBS 2TV 「해피투게더 - 혼자가 아니어서 좋아」",
+      "originalTitle": "KBS 2TV <해피투게더 - 혼자가 아니어서 좋아>",
+      "translationStatus": "partial",
+      "date": "2026-10-09",
+      "start": "2026-10-09T20:30:00+09:00",
       "end": "",
       "allDay": false,
       "category": "イベント",
