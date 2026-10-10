@@ -1,6 +1,31 @@
 {
-  "generatedAt": "2026-10-09T20:49:24.817593+00:00",
+  "generatedAt": "2026-10-10T01:40:24.523768+00:00",
   "items": [
+    {
+      "date": "2026-10-10",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "1555df4",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "3bccc60",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/quality-report.json",
+        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
+        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
+        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
+        "scripts/__pycache__/check-external-links.cpython-313.pyc"
+      ]
+    },
     {
       "date": "2026-10-09",
       "title": "chore: update external link report",
@@ -53,22 +78,6 @@
     },
     {
       "date": "2026-10-08",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "7521ef5",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/pluschat-schedule.json",
-        "data/rescene-schedule.ics",
-        "data/schedule-data.js",
-        "data/schedule.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-10-08",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "8eef11c",
@@ -81,15 +90,6 @@
         "data/mv-data.js",
         "data/mv.json",
         "data/quality-report.json"
-      ]
-    },
-    {
-      "date": "2026-10-08",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "8042415",
-      "files": [
-        "data/youtube-channels.json"
       ]
     },
     {
