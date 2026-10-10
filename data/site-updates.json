@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:27:19.571315+00:00",
+  "generatedAt": "2026-10-10T20:01:41.520260+00:00",
   "items": [
     {
       "date": "2026-10-10",
@@ -30,7 +30,7 @@
       "date": "2026-10-10",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "991361a",
+      "commit": "2e5dc9a",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -39,7 +39,7 @@
         "data/mv-candidates.json",
         "data/mv-data.js",
         "data/mv.json",
-        "data/quality-report.json"
+        "data/notion-records-sync-status.json"
       ]
     },
     {
