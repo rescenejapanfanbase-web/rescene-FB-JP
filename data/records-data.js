@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-10-09T01:59:23.765Z",
+  "generatedAt": "2026-10-10T15:08:40.542Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -180,8 +180,8 @@ window.RESCENE_RECORDS = {
       "releaseDate": "2024-08-27",
       "top100Peak": 56,
       "top100PeakDate": "2026-07-09",
-      "dailyPeak": 91,
-      "dailyPeakDate": "2026-10-07",
+      "dailyPeak": 89,
+      "dailyPeakDate": "2026-10-10",
       "description": "SCENEDROMEのダブルタイトルの1つ。\n2026年1月21日にはJapanese Versionを配信。",
       "mvUrl": "https://youtu.be/B8JJ8RNM-60?si=5JXK-pjGyxuXXK08",
       "image": "assets/records/notion/record-3a8229d219da8064ac9dfaa0f279109b-fe3201e24352.jpg",
@@ -242,7 +242,7 @@ window.RESCENE_RECORDS = {
       "mvUrl": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
       "image": "assets/records/notion/record-3a8229d219da808f8987fa4744ed3cd4-ca377427c398.jpg",
       "order": 9999,
-      "source": "manual-fallback",
+      "source": "notion",
       "translations": {
         "ko": {
           "title": "Deja Vu — Melon 차트",
