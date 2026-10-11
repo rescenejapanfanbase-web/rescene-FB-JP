@@ -1,11 +1,27 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-10-10T23:29:49.714089+00:00",
+  "generatedAt": "2026-10-11T00:50:42.762734+00:00",
   "items": [
+    {
+      "date": "2026-10-11",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "c508d86",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
+        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
+        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
+        "scripts/__pycache__/check-external-links.cpython-313.pyc",
+        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
+      ]
+    },
     {
       "date": "2026-10-10",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "1555df4",
+      "commit": "861d160",
       "files": [
         "data/external-link-report.json"
       ]
@@ -47,31 +63,6 @@ window.RESCENE_SITE_UPDATES = {
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "cfb3ec5",
-      "files": [
-        "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "0a9a1f6",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/quality-report.json"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "04adc43",
       "files": [
         "data/youtube-channels.json"
       ]
