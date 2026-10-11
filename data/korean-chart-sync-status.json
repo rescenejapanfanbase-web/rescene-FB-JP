@@ -1,12 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T18:58:35+09:00",
+  "generatedAt": "2026-10-11T19:20:44+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
   "successfulCharts": [
-    "bugs-daily",
-    "genie-daily"
+    "melon-daily"
   ],
   "failedCharts": {},
   "configuration": {
@@ -135,17 +134,17 @@
       "chartName": "Melon Daily",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-10-10T19:09:22+09:00",
-      "lastSuccessAt": "2026-10-10T19:09:22+09:00",
-      "chartAt": "2026-10-09T00:00:00+09:00",
+      "lastAttemptAt": "2026-10-11T19:20:44+09:00",
+      "lastSuccessAt": "2026-10-11T19:20:44+09:00",
+      "chartAt": "2026-10-10T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
       "metadata": {
         "period": "daily",
         "sourceMode": "official-html",
-        "sourceUrl": "https://www.melon.com/chart/day/index.htm?chartSearchData=20261009",
-        "nativeDate": "2026-10-09",
+        "sourceUrl": "https://www.melon.com/chart/day/index.htm?chartSearchData=20261010",
+        "nativeDate": "2026-10-10",
         "publishedAt": "12:40 KST",
         "chartDateRule": "source-verified-previous-day",
         "total": 100
@@ -209,15 +208,14 @@
   "automation": {
     "eventName": "schedule",
     "scheduled": true,
-    "schedule": "17 3 * * *",
+    "schedule": "57 3 * * *",
     "resolvedCharts": [
-      "genie-daily",
-      "bugs-daily"
+      "melon-daily"
     ],
-    "runId": "38130260442",
-    "runNumber": "1066",
+    "runId": "38131589741",
+    "runNumber": "1067",
     "runAttempt": "1",
-    "sha": "86337f579510e9f45d7f43be30f4ffe5918d34f9",
-    "completedAt": "2026-10-11T18:58:44+09:00"
+    "sha": "1017c9ac6bae8ee553a1ab962af8748b9b653162",
+    "completedAt": "2026-10-11T19:20:47+09:00"
   }
 }
