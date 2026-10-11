@@ -1,14 +1,14 @@
 window.RESCENE_SCHEDULE_PAYLOAD = {
-  "generatedAt": "2026-10-08T16:12:20.889Z",
+  "generatedAt": "2026-10-11T15:23:00.249Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
     "notion": 31,
-    "plusChatAvailable": 83,
-    "plusChatAdded": 62,
+    "plusChatAvailable": 84,
+    "plusChatAdded": 63,
     "plusChatDuplicates": 21
   },
-  "plusChatGeneratedAt": "2026-10-08T16:12:20Z",
+  "plusChatGeneratedAt": "2026-10-11T15:23:00Z",
   "events": [
     {
       "id": "39d229d2-19da-800f-bf39-f901096b6fc6",
@@ -1488,6 +1488,25 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
       "translationStatus": "partial",
       "date": "2026-10-11",
       "start": "2026-10-11T16:10:00+09:00",
+      "end": "",
+      "allDay": false,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "id": "pluschat-2026-10-11-2000-e87484507cf016d22c01bf7c",
+      "title": "SBS 8 뉴스",
+      "originalTitle": "SBS 8 뉴스",
+      "translationStatus": "original",
+      "date": "2026-10-11",
+      "start": "2026-10-11T20:00:00+09:00",
       "end": "",
       "allDay": false,
       "category": "イベント",
