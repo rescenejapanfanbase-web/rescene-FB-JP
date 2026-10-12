@@ -1,6 +1,6 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-10-12T00:38:30.321Z",
-  "sourceNewsGeneratedAt": "2026-10-12T00:44:35.872Z",
+  "generatedAt": "2026-10-12T00:53:38.529Z",
+  "sourceNewsGeneratedAt": "2026-10-12T00:53:38.440Z",
   "related": {
     "fanbase-site": [
       {
@@ -9,7 +9,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.10.12",
         "label": "New Record",
         "image": "assets/news/notion/notion-3f7229d219da80ffb229c5814a3b80ac-ed7071d3796d.webp",
-        "text": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日かんとし、第5世代最多獲得記録を更新しました。",
+        "text": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日とし、第5世代最多獲得記録を更新しました。",
         "score": 5,
         "reasons": [
           "同じカテゴリー"
@@ -266,7 +266,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.10.12",
         "label": "New Record",
         "image": "assets/news/notion/notion-3f7229d219da80ffb229c5814a3b80ac-ed7071d3796d.webp",
-        "text": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日かんとし、第5世代最多獲得記録を更新しました。",
+        "text": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日とし、第5世代最多獲得記録を更新しました。",
         "score": 20,
         "reasons": [
           "同じカテゴリー",
@@ -521,7 +521,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "date": "2026.10.12",
         "label": "New Record",
         "image": "assets/news/notion/notion-3f7229d219da80ffb229c5814a3b80ac-ed7071d3796d.webp",
-        "text": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日かんとし、第5世代最多獲得記録を更新しました。",
+        "text": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日とし、第5世代最多獲得記録を更新しました。",
         "score": 19,
         "reasons": [
           "同じカテゴリー",
@@ -1630,7 +1630,7 @@ window.RESCENE_NEWS_EXTRAS = {
       "url": "https://rescene-fb.jp/articles/love-attack-spotify-5-1-814a3b80ac.html",
       "hashtags": "#RESCENE #리센느 #リセンヌ",
       "xText": "【2026.10.12】 LOVE ATTACKが韓国Spotifyチャートで第5世代ガールズグループ最多1位記録を樹立！\n\nhttps://rescene-fb.jp/articles/love-attack-spotify-5-1-814a3b80ac.html\n\n#RESCENE #리센느 #リセンヌ",
-      "lineText": "LOVE ATTACKが韓国Spotifyチャートで第5世代ガールズグループ最多1位記録を樹立！\n2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日かんとし、第5世代最多獲得記録を更新しました。",
+      "lineText": "LOVE ATTACKが韓国Spotifyチャートで第5世代ガールズグループ最多1位記録を樹立！\n2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日とし、第5世代最多獲得記録を更新しました。",
       "charCount": 154
     },
     {
