@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T18:42:52+09:00",
+  "generatedAt": "2026-10-12T19:46:39+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
   "successfulCharts": [
-    "youtube-kr"
+    "bugs-daily",
+    "genie-daily"
   ],
   "failedCharts": {},
   "configuration": {
@@ -155,17 +156,17 @@
       "chartName": "Bugs Daily",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-10-11T18:58:35+09:00",
-      "lastSuccessAt": "2026-10-11T18:58:35+09:00",
-      "chartAt": "2026-10-10T00:00:00+09:00",
+      "lastAttemptAt": "2026-10-12T19:46:39+09:00",
+      "lastSuccessAt": "2026-10-12T19:46:39+09:00",
+      "chartAt": "2026-10-11T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
       "metadata": {
         "period": "daily",
         "sourceMode": "official-html",
-        "sourceUrl": "https://music.bugs.co.kr/chart/track/day/total?chartdate=20261010",
-        "nativeDate": "2026-10-10",
+        "sourceUrl": "https://music.bugs.co.kr/chart/track/day/total?chartdate=20261011",
+        "nativeDate": "2026-10-11",
         "publishedAt": "12:00 KST",
         "chartDateRule": "source-verified-previous-day",
         "total": 100
@@ -176,17 +177,17 @@
       "chartName": "Genie Daily",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-10-11T18:58:35+09:00",
+      "lastAttemptAt": "2026-10-12T19:46:39+09:00",
       "error": "",
-      "lastSuccessAt": "2026-10-11T18:58:35+09:00",
-      "chartAt": "2026-10-10T00:00:00+09:00",
+      "lastSuccessAt": "2026-10-12T19:46:39+09:00",
+      "chartAt": "2026-10-11T00:00:00+09:00",
       "itemCount": 200,
       "matchedCount": 5,
       "metadata": {
         "period": "daily",
         "sourceMode": "official-json",
         "sourceUrl": "https://app.genie.co.kr/chart/j_RankSongList.json",
-        "nativeDate": "2026-10-10",
+        "nativeDate": "2026-10-11",
         "publishedAt": "12:00 KST",
         "chartDateRule": "previous-day-after-publication",
         "pageSize": 25,
@@ -208,14 +209,15 @@
   "automation": {
     "eventName": "schedule",
     "scheduled": true,
-    "schedule": "40 2 * * *",
+    "schedule": "17 3 * * *",
     "resolvedCharts": [
-      "youtube-kr"
+      "genie-daily",
+      "bugs-daily"
     ],
-    "runId": "38231611860",
-    "runNumber": "1076",
+    "runId": "38238387334",
+    "runNumber": "1077",
     "runAttempt": "1",
-    "sha": "b13a4cffc58f32d417fc1572877b3d77993c9a43",
-    "completedAt": "2026-10-12T18:42:57+09:00"
+    "sha": "8d2d254821175632aa5c2897ecdddaac98d28e07",
+    "completedAt": "2026-10-12T19:46:46+09:00"
   }
 }
