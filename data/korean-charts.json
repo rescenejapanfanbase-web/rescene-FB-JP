@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T09:38:39+09:00",
+  "generatedAt": "2026-10-12T10:20:04+09:00",
   "configSource": "notion",
   "charts": [
     {
@@ -2666,7 +2666,7 @@
           "observations": 73
         }
       ],
-      "lastCheckedAt": "2026-10-12T09:38:39+09:00",
+      "lastCheckedAt": "2026-10-12T10:20:04+09:00",
       "chartAt": "2026-10-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/uhuh--vibe.json"
     },
@@ -2694,7 +2694,7 @@
           "observations": 73
         }
       ],
-      "lastCheckedAt": "2026-10-12T09:38:39+09:00",
+      "lastCheckedAt": "2026-10-12T10:20:04+09:00",
       "chartAt": "2026-10-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/yoyo--vibe.json"
     },
@@ -2714,7 +2714,7 @@
       "chartDays": 134,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-10-12T09:38:39+09:00",
+      "lastCheckedAt": "2026-10-12T10:20:04+09:00",
       "chartAt": "2026-10-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/love-attack--vibe.json"
     },
@@ -2742,7 +2742,7 @@
           "observations": 73
         }
       ],
-      "lastCheckedAt": "2026-10-12T09:38:39+09:00",
+      "lastCheckedAt": "2026-10-12T10:20:04+09:00",
       "chartAt": "2026-10-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pinball--vibe.json"
     },
@@ -2770,7 +2770,7 @@
           "observations": 73
         }
       ],
-      "lastCheckedAt": "2026-10-12T09:38:39+09:00",
+      "lastCheckedAt": "2026-10-12T10:20:04+09:00",
       "chartAt": "2026-10-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/glow-up--vibe.json"
     },
@@ -2790,7 +2790,7 @@
       "chartDays": 86,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-10-12T09:38:39+09:00",
+      "lastCheckedAt": "2026-10-12T10:20:04+09:00",
       "chartAt": "2026-10-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/deja-vu--vibe.json"
     },
@@ -2818,7 +2818,7 @@
           "observations": 73
         }
       ],
-      "lastCheckedAt": "2026-10-12T09:38:39+09:00",
+      "lastCheckedAt": "2026-10-12T10:20:04+09:00",
       "chartAt": "2026-10-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/heart-drop--vibe.json"
     },
@@ -2846,7 +2846,7 @@
           "observations": 73
         }
       ],
-      "lastCheckedAt": "2026-10-12T09:38:39+09:00",
+      "lastCheckedAt": "2026-10-12T10:20:04+09:00",
       "chartAt": "2026-10-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/bloom--vibe.json"
     },
@@ -2874,7 +2874,7 @@
           "observations": 73
         }
       ],
-      "lastCheckedAt": "2026-10-12T09:38:39+09:00",
+      "lastCheckedAt": "2026-10-12T10:20:04+09:00",
       "chartAt": "2026-10-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/busy-boy--vibe.json"
     },
@@ -2902,7 +2902,7 @@
           "observations": 73
         }
       ],
-      "lastCheckedAt": "2026-10-12T09:38:39+09:00",
+      "lastCheckedAt": "2026-10-12T10:20:04+09:00",
       "chartAt": "2026-10-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/runaway--vibe.json"
     },
@@ -2922,7 +2922,7 @@
       "chartDays": 95,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-10-12T09:38:39+09:00",
+      "lastCheckedAt": "2026-10-12T10:20:04+09:00",
       "chartAt": "2026-10-12T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pretty-girl--vibe.json"
     },
@@ -3620,8 +3620,8 @@
       "chartName": "VIBE Today TOP 100",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-10-12T09:38:39+09:00",
-      "lastSuccessAt": "2026-10-12T09:38:39+09:00",
+      "lastAttemptAt": "2026-10-12T10:20:04+09:00",
+      "lastSuccessAt": "2026-10-12T10:20:04+09:00",
       "chartAt": "2026-10-12T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 3,
