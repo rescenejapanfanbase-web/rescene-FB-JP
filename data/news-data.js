@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "love-attack-spotify-5-1-814a3b80ac",
+    "date": "2026.10.12",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "New Record",
+    "title": "LOVE ATTACKが韓国Spotifyチャートで第5世代ガールズグループ最多1位記録を樹立！",
+    "text": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日かんとし、第5世代最多獲得記録を更新しました。",
+    "body": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日とし、第5世代最多獲得記録を更新しました。\n※2026年10月12日時点",
+    "image": "assets/news/notion/notion-3f7229d219da80ffb229c5814a3b80ac-ed7071d3796d.webp",
+    "sourceLink": "",
+    "sourceLabel": "",
+    "translations": {},
+    "notionPageId": "3f7229d2-19da-80ff-b229-c5814a3b80ac",
+    "notionUrl": "https://app.notion.com/p/LOVE-ATTACK-Spotify-5-1-3f7229d219da80ffb229c5814a3b80ac"
+  },
+  {
     "slug": "2026-music-bank-global-festival-in-japan-ff397035fa",
     "date": "2026.10.02",
     "category": "event",
