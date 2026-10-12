@@ -20,8 +20,8 @@ window.RESCENE_NEWS = [
     "text": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日かんとし、第5世代最多獲得記録を更新しました。",
     "body": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日とし、第5世代最多獲得記録を更新しました。\n※2026年10月12日時点",
     "image": "assets/news/notion/notion-3f7229d219da80ffb229c5814a3b80ac-ed7071d3796d.webp",
-    "sourceLink": "",
-    "sourceLabel": "",
+    "sourceLink": "https://open.spotify.com/track/6uosenLUNFZtOIih5T0qfV?si=llaTVK7RQjuclpLOvyZyjQ&utm_source=copy-link",
+    "sourceLabel": "SpotifyでLOVE ATTACKを聴く🎧",
     "translations": {},
     "notionPageId": "3f7229d2-19da-80ff-b229-c5814a3b80ac",
     "notionUrl": "https://app.notion.com/p/LOVE-ATTACK-Spotify-5-1-3f7229d219da80ffb229c5814a3b80ac"
