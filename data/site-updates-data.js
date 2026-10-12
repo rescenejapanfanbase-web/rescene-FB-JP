@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-10-12T05:48:00.127489+00:00",
+  "generatedAt": "2026-10-12T15:13:28.727612+00:00",
   "items": [
     {
       "date": "2026-10-12",
@@ -21,16 +21,25 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-10-12",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "57bb7f6",
+      "commit": "98ae955",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
-        "assets/mv/youtube/WNl67k6StWY.jpg",
-        "assets/optimized/1d800a497e5ec743/wnl67k6stwy-w1280.webp",
-        "assets/optimized/1d800a497e5ec743/wnl67k6stwy-w480.webp",
-        "assets/optimized/1d800a497e5ec743/wnl67k6stwy-w768.webp",
-        "data/image-manifest.json",
-        "data/image-optimization.json",
-        "data/language-catalog-data.js"
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/mv-data.js",
+        "data/mv.json",
+        "data/notion-records-sync-status.json"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "title": "chore: critical YouTube sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "aa21521",
+      "files": [
+        "data/youtube-channels.json"
       ]
     },
     {
