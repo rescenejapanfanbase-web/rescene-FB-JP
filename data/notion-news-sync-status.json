@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-10-12T00:53:38.440Z",
+  "generatedAt": "2026-10-13T11:47:45.164Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 20,
-  "notionNews": 20,
-  "notionImages": 20,
+  "queriedPages": 21,
+  "notionNews": 21,
+  "notionImages": 21,
   "rows": [
+    {
+      "title": "RESCENE 4th Mini Album『PULSE』の日本共同購入がスタート！",
+      "pageId": "3f8229d2-19da-80d1-8fb0-d3a7a231ff6f",
+      "lastEditedTime": "2026-10-13T11:46:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "6D6ECCD1-4563-4023-A28A-E6A5B3270D5B.jpeg",
+      "imagePath": "assets/news/notion/notion-3f8229d219da80d18fb0d3a7a231ff6f-ce7aa3fcf98e.jpg",
+      "imageBytes": 57317,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "LOVE ATTACKが韓国Spotifyチャートで第5世代ガールズグループ最多1位記録を樹立！",
       "pageId": "3f7229d2-19da-80ff-b229-c5814a3b80ac",

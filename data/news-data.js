@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "rescene-4th-mini-album-pulse-a7a231ff6f",
+    "date": "2026.10.13",
+    "category": "notice",
+    "categoryName": "お知らせ",
+    "label": "Joint purchase",
+    "title": "RESCENE 4th Mini Album『PULSE』の日本共同購入がスタート！",
+    "text": "RESCENE 4th Mini Album\n『PULSE』の日本共同購入がスタート！💿💗",
+    "body": "RESCENE 4th Mini Album\n『PULSE』の日本共同購入がスタート！💿💗\nKtown4u様との共同購入により、\n✨最大40%OFF✨の特別割引価格でご購入いただけます！\nRESCENEとして初となる日本共同購入です🇯🇵\nアルバムを購入予定のREMINEの皆さまは、ぜひご利用ください🫶",
+    "image": "assets/news/notion/notion-3f8229d219da80d18fb0d3a7a231ff6f-ce7aa3fcf98e.jpg",
+    "sourceLink": "https://jp.ktown4u.com/eventinfo?eve_no=44546496&biz_no=783",
+    "sourceLabel": "購入はこちら",
+    "translations": {},
+    "notionPageId": "3f8229d2-19da-80d1-8fb0-d3a7a231ff6f",
+    "notionUrl": "https://app.notion.com/p/RESCENE-4th-Mini-Album-PULSE-3f8229d219da80d18fb0d3a7a231ff6f"
+  },
+  {
     "slug": "love-attack-spotify-5-1-814a3b80ac",
     "date": "2026.10.12",
     "category": "notice",

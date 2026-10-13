@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-10-12T00:53:38.529Z",
-  "sourceNewsGeneratedAt": "2026-10-12T00:53:38.440Z",
+  "generatedAt": "2026-10-13T11:47:45.256Z",
+  "sourceNewsGeneratedAt": "2026-10-13T11:47:45.164Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "rescene-4th-mini-album-pulse-a7a231ff6f",
+        "title": "RESCENE 4th Mini Album『PULSE』の日本共同購入がスタート！",
+        "date": "2026.10.13",
+        "label": "Joint purchase",
+        "image": "assets/news/notion/notion-3f8229d219da80d18fb0d3a7a231ff6f-ce7aa3fcf98e.jpg",
+        "text": "RESCENE 4th Mini Album\n『PULSE』の日本共同購入がスタート！💿💗",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "love-attack-spotify-5-1-814a3b80ac",
         "title": "LOVE ATTACKが韓国Spotifyチャートで第5世代ガールズグループ最多1位記録を樹立！",
@@ -26,15 +38,42 @@
         "reasons": [
           "同じカテゴリー"
         ]
+      }
+    ],
+    "rescene-4th-mini-album-pulse-a7a231ff6f": [
+      {
+        "slug": "pretty-girl-3-1-f2e88c9a20",
+        "title": "「Pretty Girl」で3度目の1位を獲得！",
+        "date": "2026.08.08",
+        "label": "4th WIN",
+        "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
+        "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
+        "score": 8,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
       },
       {
-        "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
-        "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
-        "date": "2026.09.19",
-        "label": "Award",
-        "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
-        "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
-        "score": 5,
+        "slug": "love-attack-spotify-5-1-814a3b80ac",
+        "title": "LOVE ATTACKが韓国Spotifyチャートで第5世代ガールズグループ最多1位記録を樹立！",
+        "date": "2026.10.12",
+        "label": "New Record",
+        "image": "assets/news/notion/notion-3f7229d219da80ffb229c5814a3b80ac-ed7071d3796d.webp",
+        "text": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日とし、第5世代最多獲得記録を更新しました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
+        "slug": "melon-music-awards-2026-mma-a5ddba3cc6",
+        "title": "Melon Music Awards 2026(MMA)に出演が決定！",
+        "date": "2026.09.21",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3e2229d219da803b9cb9f0a5ddba3cc6-8cc08e70975e.jpg",
+        "text": "2026年11月14日,15日に開催されるMelon Music Awards 2026(MMA)にRESCENEが出演決定しました！",
+        "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
@@ -1622,6 +1661,16 @@
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "rescene-4th-mini-album-pulse-a7a231ff6f",
+      "date": "2026.10.13",
+      "title": "RESCENE 4th Mini Album『PULSE』の日本共同購入がスタート！",
+      "url": "https://rescene-fb.jp/articles/rescene-4th-mini-album-pulse-a7a231ff6f.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.10.13】 RESCENE 4th Mini Album『PULSE』の日本共同購入がスタート！\n\nhttps://rescene-fb.jp/articles/rescene-4th-mini-album-pulse-a7a231ff6f.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "RESCENE 4th Mini Album『PULSE』の日本共同購入がスタート！\nRESCENE 4th Mini Album\n『PULSE』の日本共同購入がスタート！💿💗",
+      "charCount": 153
     },
     {
       "slug": "love-attack-spotify-5-1-814a3b80ac",
