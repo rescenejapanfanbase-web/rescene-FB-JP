@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-10-13T11:47:45.164Z",
+  "generatedAt": "2026-10-13T14:44:19.586Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 21,
-  "notionNews": 21,
-  "notionImages": 21,
+  "queriedPages": 22,
+  "notionNews": 22,
+  "notionImages": 22,
   "rows": [
+    {
+      "title": "2026 MAMA AWARDSに出演決定！",
+      "pageId": "3f8229d2-19da-80f1-a216-e8caaa5f7b37",
+      "lastEditedTime": "2026-10-13T14:42:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "222512B6-D66D-4875-B879-6F91ADD5C1CB.jpeg",
+      "imagePath": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
+      "imageBytes": 169764,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "RESCENE 4th Mini Album『PULSE』の日本共同購入がスタート！",
       "pageId": "3f8229d2-19da-80d1-8fb0-d3a7a231ff6f",
@@ -41,7 +52,7 @@
     {
       "title": "Melon Music Awards 2026(MMA)に出演が決定！",
       "pageId": "3e2229d2-19da-803b-9cb9-f0a5ddba3cc6",
-      "lastEditedTime": "2026-09-21T04:44:00.000Z",
+      "lastEditedTime": "2026-10-13T14:39:00.000Z",
       "imageStatus": "notion-file",
       "imageProperty": "画像",
       "imageFilename": "6527CD1F-E480-494F-A290-4BEBC5C0DFB0.jpeg",
@@ -151,7 +162,7 @@
     {
       "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
       "pageId": "3ae229d2-19da-80b6-b2d5-ce53085d0039",
-      "lastEditedTime": "2026-08-08T08:44:00.000Z",
+      "lastEditedTime": "2026-10-13T14:39:00.000Z",
       "imageStatus": "notion-file",
       "imageProperty": "画像",
       "imageFilename": "1CD58A7B-D9AB-4F68-A1E9-8DB58B414086.jpeg",
@@ -162,7 +173,7 @@
     {
       "title": "Asia Artist Awards(AAA)に出演が決定！",
       "pageId": "3ae229d2-19da-8003-91fa-d8ddf38a6d89",
-      "lastEditedTime": "2026-08-08T08:41:00.000Z",
+      "lastEditedTime": "2026-10-13T14:39:00.000Z",
       "imageStatus": "notion-file",
       "imageProperty": "画像",
       "imageFilename": "3AB52832-4528-4CB5-8273-3581040C012B.jpeg",
@@ -228,7 +239,7 @@
     {
       "title": "2026 K-WORLD DREAM AWARDS(KWDA)に出演が決定！",
       "pageId": "3ae229d2-19da-8052-83b1-d5fec5375c61",
-      "lastEditedTime": "2026-08-08T08:43:00.000Z",
+      "lastEditedTime": "2026-10-13T14:40:00.000Z",
       "imageStatus": "notion-file",
       "imageProperty": "画像",
       "imageFilename": "A0393448-6098-4BB2-8761-D0D04116DD01.jpeg",
