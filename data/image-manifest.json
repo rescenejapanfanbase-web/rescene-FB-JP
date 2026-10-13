@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-10-12T15:13:39Z",
+  "generatedAt": "2026-10-13T03:00:54Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -776,31 +776,25 @@
       "default": "assets/optimized/9be43c500015e87b/6ttsznkysbc-w768.webp"
     },
     "assets/mv/youtube/Gu_4J16N2fY.jpg": {
-      "asset": "ff296c2ee5f41da4",
-      "originalBytes": 139845,
+      "asset": "d80d755a6ce54b21",
+      "originalBytes": 40160,
       "width": 1280,
       "height": 720,
       "variants": [
         {
-          "src": "assets/optimized/ff296c2ee5f41da4/gu_4j16n2fy-w480.webp",
+          "src": "assets/optimized/d80d755a6ce54b21/gu_4j16n2fy-w480.webp",
           "width": 480,
           "height": 270,
-          "bytes": 15642
+          "bytes": 14708
         },
         {
-          "src": "assets/optimized/ff296c2ee5f41da4/gu_4j16n2fy-w768.webp",
+          "src": "assets/optimized/d80d755a6ce54b21/gu_4j16n2fy-w768.webp",
           "width": 768,
           "height": 432,
-          "bytes": 30468
-        },
-        {
-          "src": "assets/optimized/ff296c2ee5f41da4/gu_4j16n2fy-w1280.webp",
-          "width": 1280,
-          "height": 720,
-          "bytes": 62556
+          "bytes": 26574
         }
       ],
-      "default": "assets/optimized/ff296c2ee5f41da4/gu_4j16n2fy-w1280.webp"
+      "default": "assets/optimized/d80d755a6ce54b21/gu_4j16n2fy-w768.webp"
     },
     "assets/mv/youtube/QN7V87Hzmr8.jpg": {
       "asset": "06d228a3ff0a0329",
@@ -12612,36 +12606,6 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/fe692f924ea3e195/discography-w1200.webp"
-    },
-    "ff296c2ee5f41da4": {
-      "hash": "ff296c2ee5f41da445dab4c3a582ecd87ffef49153988da34ab8df4c4d57906f",
-      "width": 1280,
-      "height": 720,
-      "format": "jpg",
-      "alpha": false,
-      "quality": 84,
-      "variants": [
-        {
-          "src": "assets/optimized/ff296c2ee5f41da4/gu_4j16n2fy-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 15642
-        },
-        {
-          "src": "assets/optimized/ff296c2ee5f41da4/gu_4j16n2fy-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 30468
-        },
-        {
-          "src": "assets/optimized/ff296c2ee5f41da4/gu_4j16n2fy-w1280.webp",
-          "width": 1280,
-          "height": 720,
-          "bytes": 62556
-        }
-      ],
-      "skippedWidths": [],
-      "default": "assets/optimized/ff296c2ee5f41da4/gu_4j16n2fy-w1280.webp"
     }
   }
 }

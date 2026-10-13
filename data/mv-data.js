@@ -1,7 +1,7 @@
 window.RESCENE_MV = {
-  "generatedAt": "2026-10-12T15:13:28.595Z",
+  "generatedAt": "2026-10-13T03:00:42.887Z",
   "source": "youtube+notion",
-  "youtubeGeneratedAt": "2026-10-12T18:51:04.911Z",
+  "youtubeGeneratedAt": "2026-10-12T23:36:40.973Z",
   "dataSourceId": "e85d399d-5506-4ab3-8355-e94325fbf5b1",
   "notionDatabaseUrl": "https://app.notion.com/p/5f26ec69338a46f1ad9a82e070e92ad9",
   "years": [
@@ -43,7 +43,7 @@ window.RESCENE_MV = {
       "title": "Runaway",
       "sourceTitle": "RESCENE (리센느) 'Runaway' Performance Video",
       "url": "https://www.youtube.com/watch?v=Gu_4J16N2fY",
-      "remoteThumbnail": "https://i.ytimg.com/vi/Gu_4J16N2fY/hq720.jpg",
+      "remoteThumbnail": "https://i.ytimg.com/vi_webp/Gu_4J16N2fY/maxresdefault.webp",
       "date": "2026-04-09",
       "publishedAt": "2026-04-09T00:00:00.000Z",
       "kind": "PERFORMANCE VIDEO",
