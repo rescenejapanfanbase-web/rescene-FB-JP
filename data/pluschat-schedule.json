@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T15:23:00Z",
+  "generatedAt": "2026-10-13T16:47:16Z",
   "source": "pluschat",
   "sourceBaseUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/",
   "translationDictionary": "scripts/pluschat-schedule-translations.json",
@@ -7,8 +7,8 @@
     "2026-10",
     "2026-11"
   ],
-  "eventCount": 84,
-  "refreshedEventCount": 20,
+  "eventCount": 85,
+  "refreshedEventCount": 21,
   "failures": [],
   "months": {
     "2026-07": {
@@ -80,8 +80,8 @@
     },
     "2026-11": {
       "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11",
-      "fetchedAt": "2026-10-03T14:10:46Z",
-      "eventCount": 4,
+      "fetchedAt": "2026-10-13T16:47:16Z",
+      "eventCount": 5,
       "status": "ok",
       "warnings": [
         "翻訳辞書への追加候補: 2026 KGMA (코리아 그랜드 뮤직 어워즈) -> 2026 KGMA (코리아 그랜드 뮤직 어워즈",
@@ -1622,6 +1622,25 @@
       "allDay": true,
       "category": "リリース",
       "type": "release",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-11"
+    },
+    {
+      "id": "pluschat-2026-11-03-2000-638f3822195379c62eaa8b0d",
+      "title": "「PULSE」 SHOWCASE",
+      "originalTitle": "[PULSE] SHOWCASE",
+      "translationStatus": "rules",
+      "date": "2026-11-03",
+      "start": "2026-11-03T20:00:00+09:00",
+      "end": "",
+      "allDay": false,
+      "category": "イベント",
+      "type": "event",
       "description": "",
       "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11",
       "linkLabel": "Plus Chat公式スケジュールで確認",
