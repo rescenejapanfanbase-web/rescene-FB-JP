@@ -242,7 +242,7 @@
       "mvUrl": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
       "image": "assets/records/notion/record-3a8229d219da808f8987fa4744ed3cd4-ca377427c398.jpg",
       "order": 9999,
-      "source": "manual-fallback",
+      "source": "notion",
       "translations": {
         "ko": {
           "title": "Deja Vu — Melon 차트",
