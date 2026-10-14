@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T17:04:08.572570+00:00",
+  "generatedAt": "2026-10-14T21:36:54.809943+00:00",
   "items": [
     {
       "date": "2026-10-14",
@@ -37,7 +37,7 @@
       "date": "2026-10-14",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "78338c1",
+      "commit": "f7d261f",
       "files": [
         "data/youtube-channels.json"
       ]
@@ -49,47 +49,6 @@
       "commit": "7ab1d7f",
       "files": [
         "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "50d3a00",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/pluschat-schedule.json",
-        "data/rescene-schedule.ics",
-        "data/schedule-data.js",
-        "data/schedule.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "12c0fa5",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/quality-report.json"
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "7b1abee",
-      "files": [
-        "data/youtube-channels.json"
       ]
     },
     {
