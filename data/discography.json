@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T04:26:59.822Z",
+  "generatedAt": "2026-10-15T09:40:10.380Z",
   "source": "notion",
   "dataSourceId": "8f582d52-96eb-4148-a24b-add07379ee07",
   "notionDatabaseUrl": "https://app.notion.com/p/ca4fadead9d64128a5e8dc9730e0033d",
@@ -41,6 +41,33 @@
     }
   ],
   "releases": [
+    {
+      "anchor": "release-tata-feat-minami-of-rescene",
+      "slug": "tata-feat-minami-of-rescene",
+      "title": "TATA(feat. MINAMI of RESCENE)",
+      "releaseDate": "2026-10-15",
+      "category": "special",
+      "categoryName": "featuring",
+      "mark": "FT",
+      "badge": "DIGITAL SINGLE",
+      "type": "featuring",
+      "description": "",
+      "tracks": [
+        {
+          "no": "01",
+          "title": "TATA (feat. MINAMI of RESCENE)",
+          "video": "https://youtu.be/_dq1wwT5Bn0?si=iJqw2xuKIyrT6MyZ",
+          "note": ""
+        }
+      ],
+      "appleMusic": "https://music.apple.com/jp/album/tata-feat-minami-of-rescene/6821782173?i=6821782174",
+      "spotify": "https://open.spotify.com/album/16mb3LzNV9LPFcYq7a04fU?si=kO5z4ozdR7GirJM9trCKsw&utm_source=copy-link",
+      "cover": "",
+      "order": 9999,
+      "published": true,
+      "notionPageId": "3fa229d2-19da-80d6-8d15-ee34950cffb9",
+      "notionUrl": "https://app.notion.com/p/TATA-feat-MINAMI-of-RESCENE-3fa229d219da80d68d15ee34950cffb9"
+    },
     {
       "anchor": "release-pretty-girl",
       "slug": "pretty-girl",
