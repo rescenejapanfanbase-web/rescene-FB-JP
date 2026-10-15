@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T09:40:10.380Z",
+  "generatedAt": "2026-10-15T09:47:54.338Z",
   "source": "notion",
   "dataSourceId": "8f582d52-96eb-4148-a24b-add07379ee07",
   "notionDatabaseUrl": "https://app.notion.com/p/ca4fadead9d64128a5e8dc9730e0033d",
@@ -50,8 +50,8 @@
       "categoryName": "featuring",
       "mark": "FT",
       "badge": "DIGITAL SINGLE",
-      "type": "featuring",
-      "description": "",
+      "type": "featuring参加",
+      "description": "ラッパーのLocoによる独特の感性を込めたラブソング。\nRESCENE MINAMIがフィーチャリング参加した楽曲。",
       "tracks": [
         {
           "no": "01",
