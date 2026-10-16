@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-16T04:22:41.642721+00:00",
+  "generatedAt": "2026-10-16T11:14:47.193961+00:00",
   "items": [
     {
       "date": "2026-10-16",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "45e8bb2",
+      "commit": "e73f16c",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -14,7 +14,16 @@
         "data/mv-candidates.json",
         "data/mv-data.js",
         "data/mv.json",
-        "data/seo-status.json"
+        "data/quality-report.json"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "chore: critical YouTube sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "0b14b5e",
+      "files": [
+        "data/youtube-channels.json"
       ]
     },
     {
