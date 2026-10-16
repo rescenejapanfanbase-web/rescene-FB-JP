@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-10-16T14:44:47Z",
+  "generatedAt": "2026-10-16T20:59:51Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -944,31 +944,25 @@
       "default": "assets/optimized/3e585ce6126f67f2/bnhosyv7ehy-w768.webp"
     },
     "assets/mv/youtube/d64dH8mnw9Q.jpg": {
-      "asset": "4094e6158720e831",
-      "originalBytes": 76974,
+      "asset": "b066e4117f21757e",
+      "originalBytes": 50504,
       "width": 1280,
       "height": 720,
       "variants": [
         {
-          "src": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w480.webp",
+          "src": "assets/optimized/b066e4117f21757e/d64dh8mnw9q-w480.webp",
           "width": 480,
           "height": 270,
-          "bytes": 15564
+          "bytes": 14936
         },
         {
-          "src": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w768.webp",
+          "src": "assets/optimized/b066e4117f21757e/d64dh8mnw9q-w768.webp",
           "width": 768,
           "height": 432,
-          "bytes": 31686
-        },
-        {
-          "src": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w1280.webp",
-          "width": 1280,
-          "height": 720,
-          "bytes": 72880
+          "bytes": 28418
         }
       ],
-      "default": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w1280.webp"
+      "default": "assets/optimized/b066e4117f21757e/d64dh8mnw9q-w768.webp"
     },
     "assets/mv/youtube/dvX4jNqqlS4.jpg": {
       "asset": "fcf58f78944dc729",
@@ -8580,36 +8574,6 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/4084253b26b5693b/fancast-earn-3-w1032.webp"
-    },
-    "4094e6158720e831": {
-      "hash": "4094e6158720e831880007954a09f5e22f7b47ab58697e44a122f48440c7f91d",
-      "width": 1280,
-      "height": 720,
-      "format": "jpg",
-      "alpha": false,
-      "quality": 84,
-      "variants": [
-        {
-          "src": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 15564
-        },
-        {
-          "src": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 31686
-        },
-        {
-          "src": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w1280.webp",
-          "width": 1280,
-          "height": 720,
-          "bytes": 72880
-        }
-      ],
-      "skippedWidths": [],
-      "default": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w1280.webp"
     },
     "40e2d9234fa5c0a2": {
       "hash": "40e2d9234fa5c0a2367d9f23de77ebe17fd196cc607783d33b122fbebe0d8e97",

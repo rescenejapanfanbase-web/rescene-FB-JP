@@ -1,7 +1,7 @@
 window.RESCENE_MV = {
-  "generatedAt": "2026-10-16T14:44:38.134Z",
+  "generatedAt": "2026-10-16T20:59:39.747Z",
   "source": "youtube+notion",
-  "youtubeGeneratedAt": "2026-10-16T13:54:28.035Z",
+  "youtubeGeneratedAt": "2026-10-16T19:55:02.871Z",
   "dataSourceId": "e85d399d-5506-4ab3-8355-e94325fbf5b1",
   "notionDatabaseUrl": "https://app.notion.com/p/5f26ec69338a46f1ad9a82e070e92ad9",
   "years": [
@@ -218,7 +218,7 @@ window.RESCENE_MV = {
       "title": "Deja Vu",
       "sourceTitle": "RESCENE (리센느) 'Deja Vu' MV (Performance ver.)",
       "url": "https://www.youtube.com/watch?v=d64dH8mnw9Q",
-      "remoteThumbnail": "https://i.ytimg.com/vi/d64dH8mnw9Q/hq720.jpg",
+      "remoteThumbnail": "https://i.ytimg.com/vi_webp/d64dH8mnw9Q/maxresdefault.webp",
       "date": "2025-07-10",
       "publishedAt": "2025-07-10T00:00:00.000Z",
       "kind": "PERFORMANCE VIDEO",
