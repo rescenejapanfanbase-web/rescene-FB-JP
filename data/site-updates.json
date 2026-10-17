@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T17:00:29.503949+00:00",
+  "generatedAt": "2026-10-17T18:25:55.784997+00:00",
   "items": [
     {
       "date": "2026-10-17",
@@ -21,7 +21,7 @@
       "date": "2026-10-17",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "1757ab3",
+      "commit": "1036704",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -65,22 +65,6 @@
         "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
         "scripts/__pycache__/check-external-links.cpython-313.pyc",
         "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "8523fe2",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "assets/mv/youtube/d64dH8mnw9Q.jpg",
-        "assets/optimized/4094e6158720e831/d64dh8mnw9q-w1280.webp",
-        "assets/optimized/4094e6158720e831/d64dh8mnw9q-w480.webp",
-        "assets/optimized/4094e6158720e831/d64dh8mnw9q-w768.webp",
-        "data/image-manifest.json",
-        "data/image-optimization.json",
-        "data/language-catalog-data.js"
       ]
     },
     {
