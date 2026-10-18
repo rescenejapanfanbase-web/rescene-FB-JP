@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T15:14:20+09:00",
+  "generatedAt": "2026-10-18T16:24:58+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
   "successfulCharts": [
-    "spotify-kr"
+    "youtube-kr"
   ],
   "failedCharts": {},
   "configuration": {
@@ -116,9 +116,9 @@
       "chartName": "YouTube Music Korea Top Songs",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-10-17T16:10:40+09:00",
+      "lastAttemptAt": "2026-10-18T16:24:58+09:00",
       "error": "",
-      "lastSuccessAt": "2026-10-17T16:10:40+09:00",
+      "lastSuccessAt": "2026-10-18T16:24:58+09:00",
       "chartAt": "2026-10-12T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 7,
@@ -126,7 +126,7 @@
         "playlistId": "PL4fGSI1pDJn6jXS_Tv_N9B8Z0HTRVJE0m",
         "playlistTitle": "Top 100 Songs South Korea",
         "guysoEnrichedCount": 0,
-        "guysoEnrichmentError": ""
+        "guysoEnrichmentError": "HTTPError: HTTP Error 500: Internal Server Error"
       }
     },
     "melon-daily": {
@@ -208,14 +208,14 @@
   "automation": {
     "eventName": "schedule",
     "scheduled": true,
-    "schedule": "30 1 * * *",
+    "schedule": "40 2 * * *",
     "resolvedCharts": [
-      "spotify-kr"
+      "youtube-kr"
     ],
-    "runId": "39103299156",
-    "runNumber": "1146",
+    "runId": "39107537534",
+    "runNumber": "1147",
     "runAttempt": "1",
-    "sha": "d7849b4d73a0b89b8d37690e6f0a0f9739485014",
-    "completedAt": "2026-10-18T15:14:21+09:00"
+    "sha": "7c965e389b3e58f6453c691ef62c43a19fbccf3c",
+    "completedAt": "2026-10-18T16:25:07+09:00"
   }
 }
