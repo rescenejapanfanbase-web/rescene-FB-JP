@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-10-19T10:14:59Z",
+  "generatedAt": "2026-10-19T10:29:05Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -233,31 +233,31 @@
       "default": "assets/optimized/963879f527005a22/minami-w1440.webp"
     },
     "assets/members/notion/liv-preview.jpg": {
-      "asset": "a3d7413162740293",
-      "originalBytes": 432645,
-      "width": 1438,
-      "height": 2048,
+      "asset": "d0e1d5e738eff421",
+      "originalBytes": 474417,
+      "width": 1057,
+      "height": 1506,
       "variants": [
         {
-          "src": "assets/optimized/a3d7413162740293/liv-preview-w480.webp",
+          "src": "assets/optimized/d0e1d5e738eff421/liv-preview-w480.webp",
           "width": 480,
           "height": 684,
-          "bytes": 47752
+          "bytes": 50968
         },
         {
-          "src": "assets/optimized/a3d7413162740293/liv-preview-w768.webp",
+          "src": "assets/optimized/d0e1d5e738eff421/liv-preview-w768.webp",
           "width": 768,
           "height": 1094,
-          "bytes": 121388
+          "bytes": 128274
         },
         {
-          "src": "assets/optimized/a3d7413162740293/liv-preview-w1438.webp",
-          "width": 1438,
-          "height": 2048,
-          "bytes": 379170
+          "src": "assets/optimized/d0e1d5e738eff421/liv-preview-w1057.webp",
+          "width": 1057,
+          "height": 1506,
+          "bytes": 216282
         }
       ],
-      "default": "assets/optimized/a3d7413162740293/liv-preview-w1438.webp"
+      "default": "assets/optimized/d0e1d5e738eff421/liv-preview-w1057.webp"
     },
     "assets/members/notion/may-preview.jpg": {
       "asset": "20933d0902c1c196",
@@ -287,31 +287,31 @@
       "default": "assets/optimized/20933d0902c1c196/may-preview-w1366.webp"
     },
     "assets/members/notion/minami-preview.jpg": {
-      "asset": "a3fbebe62a9515bb",
-      "originalBytes": 299730,
-      "width": 2048,
-      "height": 1366,
+      "asset": "401e551a2e79aa28",
+      "originalBytes": 396007,
+      "width": 1010,
+      "height": 1515,
       "variants": [
         {
-          "src": "assets/optimized/a3fbebe62a9515bb/minami-preview-w480.webp",
+          "src": "assets/optimized/401e551a2e79aa28/minami-preview-w480.webp",
           "width": 480,
-          "height": 320,
-          "bytes": 19614
+          "height": 720,
+          "bytes": 37562
         },
         {
-          "src": "assets/optimized/a3fbebe62a9515bb/minami-preview-w768.webp",
+          "src": "assets/optimized/401e551a2e79aa28/minami-preview-w768.webp",
           "width": 768,
-          "height": 512,
-          "bytes": 42284
+          "height": 1152,
+          "bytes": 89132
         },
         {
-          "src": "assets/optimized/a3fbebe62a9515bb/minami-preview-w1440.webp",
-          "width": 1440,
-          "height": 960,
-          "bytes": 121622
+          "src": "assets/optimized/401e551a2e79aa28/minami-preview-w1010.webp",
+          "width": 1010,
+          "height": 1515,
+          "bytes": 147380
         }
       ],
-      "default": "assets/optimized/a3fbebe62a9515bb/minami-preview-w1440.webp"
+      "default": "assets/optimized/401e551a2e79aa28/minami-preview-w1010.webp"
     },
     "assets/members/notion/woni-preview.jpg": {
       "asset": "284831348936acec",
@@ -341,31 +341,31 @@
       "default": "assets/optimized/284831348936acec/woni-preview-w1366.webp"
     },
     "assets/members/notion/zena-preview.jpg": {
-      "asset": "6d1b06ba9c10a381",
-      "originalBytes": 349750,
-      "width": 1366,
-      "height": 2048,
+      "asset": "50063afb159a0deb",
+      "originalBytes": 494648,
+      "width": 1177,
+      "height": 1766,
       "variants": [
         {
-          "src": "assets/optimized/6d1b06ba9c10a381/zena-preview-w480.webp",
+          "src": "assets/optimized/50063afb159a0deb/zena-preview-w480.webp",
           "width": 480,
           "height": 720,
-          "bytes": 42098
+          "bytes": 40190
         },
         {
-          "src": "assets/optimized/6d1b06ba9c10a381/zena-preview-w768.webp",
+          "src": "assets/optimized/50063afb159a0deb/zena-preview-w768.webp",
           "width": 768,
-          "height": 1151,
-          "bytes": 99856
+          "height": 1152,
+          "bytes": 92082
         },
         {
-          "src": "assets/optimized/6d1b06ba9c10a381/zena-preview-w1366.webp",
-          "width": 1366,
-          "height": 2048,
-          "bytes": 286664
+          "src": "assets/optimized/50063afb159a0deb/zena-preview-w1177.webp",
+          "width": 1177,
+          "height": 1766,
+          "bytes": 198018
         }
       ],
-      "default": "assets/optimized/6d1b06ba9c10a381/zena-preview-w1366.webp"
+      "default": "assets/optimized/50063afb159a0deb/zena-preview-w1177.webp"
     },
     "assets/members/woni-desktop.jpg": {
       "asset": "3cc1d51f863e3696",
@@ -8740,6 +8740,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/3ef44937192567b6/muniverse-earn-1-w1179.webp"
     },
+    "401e551a2e79aa28": {
+      "hash": "401e551a2e79aa2887253392d11ea775d44e685c5ba6d2463cab748f7c444e5b",
+      "width": 1010,
+      "height": 1515,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/401e551a2e79aa28/minami-preview-w480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 37562
+        },
+        {
+          "src": "assets/optimized/401e551a2e79aa28/minami-preview-w768.webp",
+          "width": 768,
+          "height": 1152,
+          "bytes": 89132
+        },
+        {
+          "src": "assets/optimized/401e551a2e79aa28/minami-preview-w1010.webp",
+          "width": 1010,
+          "height": 1515,
+          "bytes": 147380
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/401e551a2e79aa28/minami-preview-w1010.webp"
+    },
     "4084253b26b5693b": {
       "hash": "4084253b26b5693bae8a22aa27eeee5f598165daae432b67958f62a6229c2026",
       "width": 1032,
@@ -9215,6 +9245,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/4f031a010c08e76c/melon-top100-first-number-one-w1200.webp"
+    },
+    "50063afb159a0deb": {
+      "hash": "50063afb159a0debb66bf53b0c9595efdb08918f1bf6e7ce1eda15e97bcaf066",
+      "width": 1177,
+      "height": 1766,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/50063afb159a0deb/zena-preview-w480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 40190
+        },
+        {
+          "src": "assets/optimized/50063afb159a0deb/zena-preview-w768.webp",
+          "width": 768,
+          "height": 1152,
+          "bytes": 92082
+        },
+        {
+          "src": "assets/optimized/50063afb159a0deb/zena-preview-w1177.webp",
+          "width": 1177,
+          "height": 1766,
+          "bytes": 198018
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/50063afb159a0deb/zena-preview-w1177.webp"
     },
     "50dd387dbd2b5f7f": {
       "hash": "50dd387dbd2b5f7fef892ffee1f95fb0823aa80e69ff087297c3eac9a5777186",
@@ -9921,36 +9981,6 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/6bf301e3bea18e0f/debut-era-w1440.webp"
-    },
-    "6d1b06ba9c10a381": {
-      "hash": "6d1b06ba9c10a3812781c691aebace7df2bfcd3dcb9c23757e1d9ba81c337e43",
-      "width": 1366,
-      "height": 2048,
-      "format": "jpg",
-      "alpha": false,
-      "quality": 84,
-      "variants": [
-        {
-          "src": "assets/optimized/6d1b06ba9c10a381/zena-preview-w480.webp",
-          "width": 480,
-          "height": 720,
-          "bytes": 42098
-        },
-        {
-          "src": "assets/optimized/6d1b06ba9c10a381/zena-preview-w768.webp",
-          "width": 768,
-          "height": 1151,
-          "bytes": 99856
-        },
-        {
-          "src": "assets/optimized/6d1b06ba9c10a381/zena-preview-w1366.webp",
-          "width": 1366,
-          "height": 2048,
-          "bytes": 286664
-        }
-      ],
-      "skippedWidths": [],
-      "default": "assets/optimized/6d1b06ba9c10a381/zena-preview-w1366.webp"
     },
     "6edc8760c2f6799b": {
       "hash": "6edc8760c2f6799be89ca46f15b4bc1a40e7a5c4df265623b8f61cc752f04f41",
@@ -11122,66 +11152,6 @@
       "skippedWidths": [],
       "default": "assets/optimized/a2d99454b93da480/pinball-jp-w1440.webp"
     },
-    "a3d7413162740293": {
-      "hash": "a3d7413162740293651bdb35115873767072575a8af8596e89925cce2eabec9a",
-      "width": 1438,
-      "height": 2048,
-      "format": "jpg",
-      "alpha": false,
-      "quality": 84,
-      "variants": [
-        {
-          "src": "assets/optimized/a3d7413162740293/liv-preview-w480.webp",
-          "width": 480,
-          "height": 684,
-          "bytes": 47752
-        },
-        {
-          "src": "assets/optimized/a3d7413162740293/liv-preview-w768.webp",
-          "width": 768,
-          "height": 1094,
-          "bytes": 121388
-        },
-        {
-          "src": "assets/optimized/a3d7413162740293/liv-preview-w1438.webp",
-          "width": 1438,
-          "height": 2048,
-          "bytes": 379170
-        }
-      ],
-      "skippedWidths": [],
-      "default": "assets/optimized/a3d7413162740293/liv-preview-w1438.webp"
-    },
-    "a3fbebe62a9515bb": {
-      "hash": "a3fbebe62a9515bb0440a762dc926a41e9835dba241f4c35ca4b907d839258cb",
-      "width": 2048,
-      "height": 1366,
-      "format": "jpg",
-      "alpha": false,
-      "quality": 84,
-      "variants": [
-        {
-          "src": "assets/optimized/a3fbebe62a9515bb/minami-preview-w480.webp",
-          "width": 480,
-          "height": 320,
-          "bytes": 19614
-        },
-        {
-          "src": "assets/optimized/a3fbebe62a9515bb/minami-preview-w768.webp",
-          "width": 768,
-          "height": 512,
-          "bytes": 42284
-        },
-        {
-          "src": "assets/optimized/a3fbebe62a9515bb/minami-preview-w1440.webp",
-          "width": 1440,
-          "height": 960,
-          "bytes": 121622
-        }
-      ],
-      "skippedWidths": [],
-      "default": "assets/optimized/a3fbebe62a9515bb/minami-preview-w1440.webp"
-    },
     "a422090f0c752a82": {
       "hash": "a422090f0c752a82600cb2a4915b662ea1d250529d70f88515157f16c649fac1",
       "width": 1600,
@@ -11969,6 +11939,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/ce7aa3fcf98edf81/notion-3f8229d219da80d18fb0d3a7a231ff6f-ce7aa3fc-w900.webp"
+    },
+    "d0e1d5e738eff421": {
+      "hash": "d0e1d5e738eff421f91c944dc6f1761c8850030760344b12fe74bd9d49b9e801",
+      "width": 1057,
+      "height": 1506,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/d0e1d5e738eff421/liv-preview-w480.webp",
+          "width": 480,
+          "height": 684,
+          "bytes": 50968
+        },
+        {
+          "src": "assets/optimized/d0e1d5e738eff421/liv-preview-w768.webp",
+          "width": 768,
+          "height": 1094,
+          "bytes": 128274
+        },
+        {
+          "src": "assets/optimized/d0e1d5e738eff421/liv-preview-w1057.webp",
+          "width": 1057,
+          "height": 1506,
+          "bytes": 216282
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/d0e1d5e738eff421/liv-preview-w1057.webp"
     },
     "d12680a96965a2e2": {
       "hash": "d12680a96965a2e27a5e3e3bd288668b57b5e0b2ac75fb32d47507ec6d645d72",
