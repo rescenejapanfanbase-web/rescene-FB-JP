@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:56:55.948Z",
+  "generatedAt": "2026-10-19T14:38:54.962Z",
   "source": "notion",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "events": [
@@ -492,8 +492,8 @@
       "category": "カムバスケジュール",
       "type": "event",
       "description": "",
-      "link": "",
-      "linkLabel": "詳細を見る",
+      "link": "https://x.com/resceneofficial/status/2112107737765085188?s=46",
+      "linkLabel": "公式のポストを見る",
       "image": "",
       "translations": {},
       "notionUrl": "https://app.notion.com/p/4th-mini-Album-PULSE-CONCEPT-PHOTO-A-3fe229d219da807ebb60d4eaafad78c1",

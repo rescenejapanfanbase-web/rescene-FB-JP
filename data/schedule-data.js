@@ -1,5 +1,5 @@
 window.RESCENE_SCHEDULE_PAYLOAD = {
-  "generatedAt": "2026-10-19T10:56:55.954Z",
+  "generatedAt": "2026-10-19T14:38:54.967Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
@@ -1563,8 +1563,8 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
       "category": "カムバスケジュール",
       "type": "event",
       "description": "",
-      "link": "",
-      "linkLabel": "詳細を見る",
+      "link": "https://x.com/resceneofficial/status/2112107737765085188?s=46",
+      "linkLabel": "公式のポストを見る",
       "image": "",
       "translations": {},
       "notionUrl": "https://app.notion.com/p/4th-mini-Album-PULSE-CONCEPT-PHOTO-A-3fe229d219da807ebb60d4eaafad78c1",
