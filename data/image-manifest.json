@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-10-16T20:59:51Z",
+  "generatedAt": "2026-10-19T10:14:59Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -58,32 +58,32 @@
       ],
       "default": "assets/optimized/3a498f1607257e1a/rescene-group-w1440.webp"
     },
-    "assets/home/notion/hero-407e64a5378f.jpg": {
-      "asset": "407e64a5378f7401",
-      "originalBytes": 2063418,
-      "width": 3277,
-      "height": 4096,
+    "assets/home/notion/hero-1ce417e0ff01.jpg": {
+      "asset": "1ce417e0ff01f6fd",
+      "originalBytes": 440093,
+      "width": 2048,
+      "height": 1912,
       "variants": [
         {
-          "src": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w480.webp",
+          "src": "assets/optimized/1ce417e0ff01f6fd/hero-1ce417e0ff01-w480.webp",
           "width": 480,
-          "height": 600,
-          "bytes": 48978
+          "height": 448,
+          "bytes": 24188
         },
         {
-          "src": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w768.webp",
+          "src": "assets/optimized/1ce417e0ff01f6fd/hero-1ce417e0ff01-w768.webp",
           "width": 768,
-          "height": 960,
-          "bytes": 97082
+          "height": 717,
+          "bytes": 50948
         },
         {
-          "src": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w1440.webp",
+          "src": "assets/optimized/1ce417e0ff01f6fd/hero-1ce417e0ff01-w1440.webp",
           "width": 1440,
-          "height": 1800,
-          "bytes": 295900
+          "height": 1344,
+          "bytes": 166656
         }
       ],
-      "default": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w1440.webp"
+      "default": "assets/optimized/1ce417e0ff01f6fd/hero-1ce417e0ff01-w1440.webp"
     },
     "assets/icons/app-icon-512.png": {
       "asset": "5e864561ff2e5bcd",
@@ -231,6 +231,141 @@
         }
       ],
       "default": "assets/optimized/963879f527005a22/minami-w1440.webp"
+    },
+    "assets/members/notion/liv-preview.jpg": {
+      "asset": "a3d7413162740293",
+      "originalBytes": 432645,
+      "width": 1438,
+      "height": 2048,
+      "variants": [
+        {
+          "src": "assets/optimized/a3d7413162740293/liv-preview-w480.webp",
+          "width": 480,
+          "height": 684,
+          "bytes": 47752
+        },
+        {
+          "src": "assets/optimized/a3d7413162740293/liv-preview-w768.webp",
+          "width": 768,
+          "height": 1094,
+          "bytes": 121388
+        },
+        {
+          "src": "assets/optimized/a3d7413162740293/liv-preview-w1438.webp",
+          "width": 1438,
+          "height": 2048,
+          "bytes": 379170
+        }
+      ],
+      "default": "assets/optimized/a3d7413162740293/liv-preview-w1438.webp"
+    },
+    "assets/members/notion/may-preview.jpg": {
+      "asset": "20933d0902c1c196",
+      "originalBytes": 268713,
+      "width": 1366,
+      "height": 2048,
+      "variants": [
+        {
+          "src": "assets/optimized/20933d0902c1c196/may-preview-w480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 35210
+        },
+        {
+          "src": "assets/optimized/20933d0902c1c196/may-preview-w768.webp",
+          "width": 768,
+          "height": 1151,
+          "bytes": 73384
+        },
+        {
+          "src": "assets/optimized/20933d0902c1c196/may-preview-w1366.webp",
+          "width": 1366,
+          "height": 2048,
+          "bytes": 196362
+        }
+      ],
+      "default": "assets/optimized/20933d0902c1c196/may-preview-w1366.webp"
+    },
+    "assets/members/notion/minami-preview.jpg": {
+      "asset": "a3fbebe62a9515bb",
+      "originalBytes": 299730,
+      "width": 2048,
+      "height": 1366,
+      "variants": [
+        {
+          "src": "assets/optimized/a3fbebe62a9515bb/minami-preview-w480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 19614
+        },
+        {
+          "src": "assets/optimized/a3fbebe62a9515bb/minami-preview-w768.webp",
+          "width": 768,
+          "height": 512,
+          "bytes": 42284
+        },
+        {
+          "src": "assets/optimized/a3fbebe62a9515bb/minami-preview-w1440.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 121622
+        }
+      ],
+      "default": "assets/optimized/a3fbebe62a9515bb/minami-preview-w1440.webp"
+    },
+    "assets/members/notion/woni-preview.jpg": {
+      "asset": "284831348936acec",
+      "originalBytes": 311575,
+      "width": 1366,
+      "height": 2048,
+      "variants": [
+        {
+          "src": "assets/optimized/284831348936acec/woni-preview-w480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 42424
+        },
+        {
+          "src": "assets/optimized/284831348936acec/woni-preview-w768.webp",
+          "width": 768,
+          "height": 1151,
+          "bytes": 89588
+        },
+        {
+          "src": "assets/optimized/284831348936acec/woni-preview-w1366.webp",
+          "width": 1366,
+          "height": 2048,
+          "bytes": 239248
+        }
+      ],
+      "default": "assets/optimized/284831348936acec/woni-preview-w1366.webp"
+    },
+    "assets/members/notion/zena-preview.jpg": {
+      "asset": "6d1b06ba9c10a381",
+      "originalBytes": 349750,
+      "width": 1366,
+      "height": 2048,
+      "variants": [
+        {
+          "src": "assets/optimized/6d1b06ba9c10a381/zena-preview-w480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 42098
+        },
+        {
+          "src": "assets/optimized/6d1b06ba9c10a381/zena-preview-w768.webp",
+          "width": 768,
+          "height": 1151,
+          "bytes": 99856
+        },
+        {
+          "src": "assets/optimized/6d1b06ba9c10a381/zena-preview-w1366.webp",
+          "width": 1366,
+          "height": 2048,
+          "bytes": 286664
+        }
+      ],
+      "default": "assets/optimized/6d1b06ba9c10a381/zena-preview-w1366.webp"
     },
     "assets/members/woni-desktop.jpg": {
       "asset": "3cc1d51f863e3696",
@@ -7841,6 +7976,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/1a77f0125c0b3cf8/higher-vote-3-w1008.webp"
     },
+    "1ce417e0ff01f6fd": {
+      "hash": "1ce417e0ff01f6fd1fe5bc9055a2daf53ddb372b59f57fac7d90906d1a05dbef",
+      "width": 2048,
+      "height": 1912,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/1ce417e0ff01f6fd/hero-1ce417e0ff01-w480.webp",
+          "width": 480,
+          "height": 448,
+          "bytes": 24188
+        },
+        {
+          "src": "assets/optimized/1ce417e0ff01f6fd/hero-1ce417e0ff01-w768.webp",
+          "width": 768,
+          "height": 717,
+          "bytes": 50948
+        },
+        {
+          "src": "assets/optimized/1ce417e0ff01f6fd/hero-1ce417e0ff01-w1440.webp",
+          "width": 1440,
+          "height": 1344,
+          "bytes": 166656
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/1ce417e0ff01f6fd/hero-1ce417e0ff01-w1440.webp"
+    },
     "1d7083954b4cc14b": {
       "hash": "1d7083954b4cc14b924c52526cb5ae39394898eba16723f5b3fce604c830c65e",
       "width": 1014,
@@ -7956,6 +8121,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/1e87bf5496c7642b/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf54-w957.webp"
+    },
+    "20933d0902c1c196": {
+      "hash": "20933d0902c1c1965c87ab5c71c75dcf8978a5185056cef0f5a0d484d21113e1",
+      "width": 1366,
+      "height": 2048,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/20933d0902c1c196/may-preview-w480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 35210
+        },
+        {
+          "src": "assets/optimized/20933d0902c1c196/may-preview-w768.webp",
+          "width": 768,
+          "height": 1151,
+          "bytes": 73384
+        },
+        {
+          "src": "assets/optimized/20933d0902c1c196/may-preview-w1366.webp",
+          "width": 1366,
+          "height": 2048,
+          "bytes": 196362
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/20933d0902c1c196/may-preview-w1366.webp"
     },
     "222523db69c7fbbb": {
       "hash": "222523db69c7fbbb3606054230d63dd5943b090f8da255086b5060e92cfebcd8",
@@ -8116,6 +8311,36 @@
         1024
       ],
       "default": "assets/optimized/27f361fbd4cf2415/bigc-w768.webp"
+    },
+    "284831348936acec": {
+      "hash": "284831348936acecc8155ee7189a3e6d726ada7bf615d3748ffaaec437d73b8b",
+      "width": 1366,
+      "height": 2048,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/284831348936acec/woni-preview-w480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 42424
+        },
+        {
+          "src": "assets/optimized/284831348936acec/woni-preview-w768.webp",
+          "width": 768,
+          "height": 1151,
+          "bytes": 89588
+        },
+        {
+          "src": "assets/optimized/284831348936acec/woni-preview-w1366.webp",
+          "width": 1366,
+          "height": 2048,
+          "bytes": 239248
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/284831348936acec/woni-preview-w1366.webp"
     },
     "2b21d9d37d04b812": {
       "hash": "2b21d9d37d04b8121e6150f6d3daa549aa0d05c86d816f5e047f19c255089b57",
@@ -8514,36 +8739,6 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/3ef44937192567b6/muniverse-earn-1-w1179.webp"
-    },
-    "407e64a5378f7401": {
-      "hash": "407e64a5378f7401edc311d2d7dca4779dbb675b10a693c86364d3e3c77e2932",
-      "width": 3277,
-      "height": 4096,
-      "format": "jpg",
-      "alpha": false,
-      "quality": 84,
-      "variants": [
-        {
-          "src": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w480.webp",
-          "width": 480,
-          "height": 600,
-          "bytes": 48978
-        },
-        {
-          "src": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w768.webp",
-          "width": 768,
-          "height": 960,
-          "bytes": 97082
-        },
-        {
-          "src": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w1440.webp",
-          "width": 1440,
-          "height": 1800,
-          "bytes": 295900
-        }
-      ],
-      "skippedWidths": [],
-      "default": "assets/optimized/407e64a5378f7401/hero-407e64a5378f-w1440.webp"
     },
     "4084253b26b5693b": {
       "hash": "4084253b26b5693bae8a22aa27eeee5f598165daae432b67958f62a6229c2026",
@@ -9727,6 +9922,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/6bf301e3bea18e0f/debut-era-w1440.webp"
     },
+    "6d1b06ba9c10a381": {
+      "hash": "6d1b06ba9c10a3812781c691aebace7df2bfcd3dcb9c23757e1d9ba81c337e43",
+      "width": 1366,
+      "height": 2048,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/6d1b06ba9c10a381/zena-preview-w480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 42098
+        },
+        {
+          "src": "assets/optimized/6d1b06ba9c10a381/zena-preview-w768.webp",
+          "width": 768,
+          "height": 1151,
+          "bytes": 99856
+        },
+        {
+          "src": "assets/optimized/6d1b06ba9c10a381/zena-preview-w1366.webp",
+          "width": 1366,
+          "height": 2048,
+          "bytes": 286664
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/6d1b06ba9c10a381/zena-preview-w1366.webp"
+    },
     "6edc8760c2f6799b": {
       "hash": "6edc8760c2f6799be89ca46f15b4bc1a40e7a5c4df265623b8f61cc752f04f41",
       "width": 1280,
@@ -10896,6 +11121,66 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/a2d99454b93da480/pinball-jp-w1440.webp"
+    },
+    "a3d7413162740293": {
+      "hash": "a3d7413162740293651bdb35115873767072575a8af8596e89925cce2eabec9a",
+      "width": 1438,
+      "height": 2048,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/a3d7413162740293/liv-preview-w480.webp",
+          "width": 480,
+          "height": 684,
+          "bytes": 47752
+        },
+        {
+          "src": "assets/optimized/a3d7413162740293/liv-preview-w768.webp",
+          "width": 768,
+          "height": 1094,
+          "bytes": 121388
+        },
+        {
+          "src": "assets/optimized/a3d7413162740293/liv-preview-w1438.webp",
+          "width": 1438,
+          "height": 2048,
+          "bytes": 379170
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/a3d7413162740293/liv-preview-w1438.webp"
+    },
+    "a3fbebe62a9515bb": {
+      "hash": "a3fbebe62a9515bb0440a762dc926a41e9835dba241f4c35ca4b907d839258cb",
+      "width": 2048,
+      "height": 1366,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/a3fbebe62a9515bb/minami-preview-w480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 19614
+        },
+        {
+          "src": "assets/optimized/a3fbebe62a9515bb/minami-preview-w768.webp",
+          "width": 768,
+          "height": 512,
+          "bytes": 42284
+        },
+        {
+          "src": "assets/optimized/a3fbebe62a9515bb/minami-preview-w1440.webp",
+          "width": 1440,
+          "height": 960,
+          "bytes": 121622
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/a3fbebe62a9515bb/minami-preview-w1440.webp"
     },
     "a422090f0c752a82": {
       "hash": "a422090f0c752a82600cb2a4915b662ea1d250529d70f88515157f16c649fac1",

@@ -1,5 +1,5 @@
 window.RESCENE_HOMEPAGE = {
-  "generatedAt": "2026-08-01T15:44:09.651Z",
+  "generatedAt": "2026-10-19T10:14:45.809Z",
   "source": "notion",
   "dataSourceId": "1a98fbc6-21d6-4a11-8ed9-19b228250182",
   "notionDatabaseUrl": "https://app.notion.com/p/23afd46c4c68443d89de65c74f605d68",
@@ -1325,7 +1325,7 @@ window.RESCENE_HOMEPAGE = {
       "secondaryLinkUrl": "schedule.html",
       "thirdButtonLabel": "応援方法を見る",
       "thirdLinkUrl": "streaming.html",
-      "image": "assets/home/notion/hero-407e64a5378f.jpg",
+      "image": "assets/home/notion/hero-1ce417e0ff01.jpg",
       "icon": "",
       "anchor": "hero",
       "order": 10,
