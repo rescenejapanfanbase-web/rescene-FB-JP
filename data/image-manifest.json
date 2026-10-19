@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-10-19T10:29:05Z",
+  "generatedAt": "2026-10-19T10:33:38Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -287,31 +287,31 @@
       "default": "assets/optimized/20933d0902c1c196/may-preview-w1366.webp"
     },
     "assets/members/notion/minami-preview.jpg": {
-      "asset": "401e551a2e79aa28",
-      "originalBytes": 396007,
-      "width": 1010,
-      "height": 1515,
+      "asset": "f9180a3838a485e1",
+      "originalBytes": 259080,
+      "width": 790,
+      "height": 1185,
       "variants": [
         {
-          "src": "assets/optimized/401e551a2e79aa28/minami-preview-w480.webp",
+          "src": "assets/optimized/f9180a3838a485e1/minami-preview-w480.webp",
           "width": 480,
           "height": 720,
-          "bytes": 37562
+          "bytes": 42772
         },
         {
-          "src": "assets/optimized/401e551a2e79aa28/minami-preview-w768.webp",
+          "src": "assets/optimized/f9180a3838a485e1/minami-preview-w768.webp",
           "width": 768,
           "height": 1152,
-          "bytes": 89132
+          "bytes": 93930
         },
         {
-          "src": "assets/optimized/401e551a2e79aa28/minami-preview-w1010.webp",
-          "width": 1010,
-          "height": 1515,
-          "bytes": 147380
+          "src": "assets/optimized/f9180a3838a485e1/minami-preview-w790.webp",
+          "width": 790,
+          "height": 1185,
+          "bytes": 102486
         }
       ],
-      "default": "assets/optimized/401e551a2e79aa28/minami-preview-w1010.webp"
+      "default": "assets/optimized/f9180a3838a485e1/minami-preview-w790.webp"
     },
     "assets/members/notion/woni-preview.jpg": {
       "asset": "284831348936acec",
@@ -8740,36 +8740,6 @@
       "skippedWidths": [],
       "default": "assets/optimized/3ef44937192567b6/muniverse-earn-1-w1179.webp"
     },
-    "401e551a2e79aa28": {
-      "hash": "401e551a2e79aa2887253392d11ea775d44e685c5ba6d2463cab748f7c444e5b",
-      "width": 1010,
-      "height": 1515,
-      "format": "jpg",
-      "alpha": false,
-      "quality": 84,
-      "variants": [
-        {
-          "src": "assets/optimized/401e551a2e79aa28/minami-preview-w480.webp",
-          "width": 480,
-          "height": 720,
-          "bytes": 37562
-        },
-        {
-          "src": "assets/optimized/401e551a2e79aa28/minami-preview-w768.webp",
-          "width": 768,
-          "height": 1152,
-          "bytes": 89132
-        },
-        {
-          "src": "assets/optimized/401e551a2e79aa28/minami-preview-w1010.webp",
-          "width": 1010,
-          "height": 1515,
-          "bytes": 147380
-        }
-      ],
-      "skippedWidths": [],
-      "default": "assets/optimized/401e551a2e79aa28/minami-preview-w1010.webp"
-    },
     "4084253b26b5693b": {
       "hash": "4084253b26b5693bae8a22aa27eeee5f598165daae432b67958f62a6229c2026",
       "width": 1032,
@@ -12859,6 +12829,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/f57af44cf51c3109/gyeongju-ambassador-w1200.webp"
+    },
+    "f9180a3838a485e1": {
+      "hash": "f9180a3838a485e139b4ce2edb77f8e0baa015f8acfd9ac576cc11629b45158d",
+      "width": 790,
+      "height": 1185,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/f9180a3838a485e1/minami-preview-w480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 42772
+        },
+        {
+          "src": "assets/optimized/f9180a3838a485e1/minami-preview-w768.webp",
+          "width": 768,
+          "height": 1152,
+          "bytes": 93930
+        },
+        {
+          "src": "assets/optimized/f9180a3838a485e1/minami-preview-w790.webp",
+          "width": 790,
+          "height": 1185,
+          "bytes": 102486
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/f9180a3838a485e1/minami-preview-w790.webp"
     },
     "fb6e040048f3e88c": {
       "hash": "fb6e040048f3e88c2776db28b6e9d9357a75f93da4fe7dba269105c2bb1be162",
