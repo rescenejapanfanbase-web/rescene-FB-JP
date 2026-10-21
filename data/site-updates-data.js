@@ -1,20 +1,29 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-10-20T21:33:12.154869+00:00",
+  "generatedAt": "2026-10-21T00:32:16.614138+00:00",
   "items": [
+    {
+      "date": "2026-10-20",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "585274e",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
     {
       "date": "2026-10-20",
       "title": "chore: critical schedule sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "6c7f496",
+      "commit": "0b88f4a",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
         "data/language-catalog.json",
+        "data/quality-report.json",
         "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
         "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
         "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
+        "scripts/__pycache__/check-external-links.cpython-313.pyc"
       ]
     },
     {
@@ -40,15 +49,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "a083ba9",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "f6c51db",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {
