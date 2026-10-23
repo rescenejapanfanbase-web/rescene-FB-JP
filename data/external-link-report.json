@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T23:31:41Z",
-  "startedAt": "2026-10-22T23:31:34Z",
-  "elapsedSeconds": 6.29,
+  "generatedAt": "2026-10-23T23:24:44Z",
+  "startedAt": "2026-10-23T23:24:40Z",
+  "elapsedSeconds": 4.63,
   "summary": {
-    "checked": 92,
+    "checked": 93,
     "ok": 87,
-    "warning": 5,
+    "warning": 6,
     "broken": 0,
     "hosts": 18
   },
@@ -14,14 +14,22 @@
     {
       "key": "x",
       "label": "X",
-      "checked": 23,
-      "ok": 19,
+      "checked": 24,
+      "ok": 20,
       "warning": 4,
       "broken": 0
     },
     {
       "key": "facebook",
       "label": "Facebook",
+      "checked": 1,
+      "ok": 0,
+      "warning": 1,
+      "broken": 0
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
       "checked": 1,
       "ok": 0,
       "warning": 1,
@@ -64,14 +72,6 @@
       "label": "Google Play",
       "checked": 8,
       "ok": 8,
-      "warning": 0,
-      "broken": 0
-    },
-    {
-      "key": "instagram",
-      "label": "Instagram",
-      "checked": 1,
-      "ok": 1,
       "warning": 0,
       "broken": 0
     },
@@ -140,6 +140,29 @@
           "file": "data/official-links.json",
           "line": 96,
           "label": "Facebook"
+        }
+      ]
+    },
+    {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "warning",
+      "httpStatus": 429,
+      "message": "HTTP 429（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 54,
+          "label": "Instagram"
+        },
+        {
+          "file": "index.html",
+          "line": 142,
+          "label": "Instagram"
         }
       ]
     },
@@ -573,7 +596,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 332,
+          "line": 348,
           "label": "2026愛知・名古屋アジア競技大会の広報大使に任命！"
         }
       ]
@@ -596,7 +619,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 204,
+          "line": 220,
           "label": "RESCENE好きな曲アンケートを実施！"
         }
       ]
@@ -966,29 +989,6 @@
       ]
     },
     {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 54,
-          "label": "Instagram"
-        },
-        {
-          "file": "index.html",
-          "line": 142,
-          "label": "Instagram"
-        }
-      ]
-    },
-    {
       "url": "https://jp.ktown4u.com/eventinfo?eve_no=44546496&biz_no=783",
       "normalizedUrl": "https://jp.ktown4u.com/eventinfo?eve_no=44546496&biz_no=783",
       "finalUrl": "https://jp.ktown4u.com/eventinfo?eve_no=44546496&biz_no=783",
@@ -1006,7 +1006,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 44,
+          "line": 60,
           "label": "RESCENE 4th Mini Album『PULSE』の日本共同購入がスタート！"
         }
       ]
@@ -1119,7 +1119,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 1770,
+          "line": 1808,
           "label": "The 4th Mini Album 「PULSE」"
         }
       ]
@@ -1147,7 +1147,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 422,
+          "line": 438,
           "label": "京畿道 高陽市 広報大使に任命"
         },
         {
@@ -1180,7 +1180,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 433,
+          "line": 449,
           "label": "慶尚北道 慶州市 広報大使に任命"
         },
         {
@@ -1213,7 +1213,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 444,
+          "line": 460,
           "label": "京畿道 水原市 広報大使に任命"
         },
         {
@@ -1246,7 +1246,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 455,
+          "line": 471,
           "label": "慶尚南道 巨済市 広報大使に任命"
         },
         {
@@ -1297,7 +1297,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 60,
+          "line": 76,
           "label": "LOVE ATTACKが韓国Spotifyチャートで第5世代ガールズグループ最多1位記録を樹立！"
         }
       ]
@@ -1328,7 +1328,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1792711898796&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1792797883394&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1366,7 +1366,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 389,
+          "line": 405,
           "label": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得"
         },
         {
@@ -1394,7 +1394,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 364,
+          "line": 380,
           "label": "2026 K-WORLD DREAM AWARDS(KWDA)に出演が決定！"
         },
         {
@@ -1422,7 +1422,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 156,
+          "line": 172,
           "label": "2026 KWDAにて2つの賞を受賞！"
         }
       ]
@@ -1445,7 +1445,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 92,
+          "line": 108,
           "label": "Melon Music Awards 2026(MMA)に出演が決定！"
         }
       ]
@@ -1468,7 +1468,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 28,
+          "line": 44,
           "label": "2026 MAMA AWARDSに出演決定！"
         }
       ]
@@ -1491,7 +1491,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 76,
+          "line": 92,
           "label": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANに出演決定！"
         }
       ]
@@ -1519,7 +1519,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 488,
+          "line": 504,
           "label": "デビュー2周年広告プロジェクト"
         },
         {
@@ -1547,7 +1547,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 284,
+          "line": 300,
           "label": "｢LOVE ATTACK｣で初のRAKを達成！"
         }
       ]
@@ -1629,7 +1629,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 477,
+          "line": 493,
           "label": "RESCENE Debut 2nd Anniversary"
         },
         {
@@ -1675,7 +1675,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 316,
+          "line": 332,
           "label": "「Pretty Girl」で地上波音楽番組初の1位を獲得！"
         },
         {
@@ -1703,7 +1703,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 108,
+          "line": 124,
           "label": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！"
         }
       ]
@@ -1745,6 +1745,29 @@
       ]
     },
     {
+      "url": "https://x.com/sbsnow/status/2113504367009792014?s=46",
+      "normalizedUrl": "https://x.com/sbsnow/status/2113504367009792014",
+      "finalUrl": "https://x.com/sbsnow/status/2113504367009792014",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "Xの公開投稿を確認しました。",
+      "method": "x-oembed",
+      "sources": [
+        {
+          "file": "articles/2026-sbs-f6b8857108.html",
+          "line": 63,
+          "label": "公式のポストを見る ↗"
+        },
+        {
+          "file": "data/news.json",
+          "line": 28,
+          "label": "2026 SBS 가요대전に出演決定！"
+        }
+      ]
+    },
+    {
       "url": "https://x.com/ska_spotv/status/2083013556250054837?s=46",
       "normalizedUrl": "https://x.com/ska_spotv/status/2083013556250054837",
       "finalUrl": "https://x.com/ska_spotv/status/2083013556250054837",
@@ -1762,7 +1785,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 252,
+          "line": 268,
           "label": "SPOTV K-POP AWARDS(SKA)に出演が決定！"
         },
         {
@@ -1790,12 +1813,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 268,
+          "line": 284,
           "label": "Asia Artist Awards(AAA)に出演が決定！"
         },
         {
           "file": "data/schedule.json",
-          "line": 1862,
+          "line": 1900,
           "label": "Asia Artist Awards(AAA)2026"
         }
       ]
@@ -1879,7 +1902,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 400,
+          "line": 416,
           "label": "RESCENEがMelon TOP100で初の1位を記録"
         },
         {
@@ -1930,7 +1953,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 378,
+          "line": 394,
           "label": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得"
         },
         {
@@ -1999,7 +2022,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 348,
+          "line": 364,
           "label": "第7回 島の日の広報大使に任命！"
         }
       ]
@@ -2112,7 +2135,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 300,
+          "line": 316,
           "label": "「LOVE ATTACK」で1位を獲得！"
         },
         {
