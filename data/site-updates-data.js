@@ -1,20 +1,20 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-10-23T11:30:51.593066+00:00",
+  "generatedAt": "2026-10-23T14:55:18.723094+00:00",
   "items": [
     {
       "date": "2026-10-23",
       "title": "chore: critical schedule sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "65648ee",
+      "commit": "7ac2024",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
+        "assets/optimized/d61d0ac09c5d12f5/notion-402229d219da809886a1f7f6b8857108-d61d0ac0-w1440.webp",
+        "assets/optimized/d61d0ac09c5d12f5/notion-402229d219da809886a1f7f6b8857108-d61d0ac0-w480.webp",
+        "assets/optimized/d61d0ac09c5d12f5/notion-402229d219da809886a1f7f6b8857108-d61d0ac0-w768.webp",
+        "data/image-manifest.json",
+        "data/image-optimization.json",
         "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/pluschat-schedule.json",
-        "data/rescene-schedule.ics",
-        "data/schedule-data.js",
-        "data/schedule.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc"
+        "data/language-catalog.json"
       ]
     },
     {
@@ -37,7 +37,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-10-23",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "bbbbdb8",
+      "commit": "1313545",
       "files": [
         "data/youtube-channels.json"
       ]
@@ -65,22 +65,6 @@ window.RESCENE_SITE_UPDATES = {
         "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
         "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
         "scripts/__pycache__/check-external-links.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "0f01b74",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/seo-status.json",
-        "data/site-updates-data.js",
-        "data/site-updates.json"
       ]
     },
     {
