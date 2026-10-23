@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T21:11:43+09:00",
+  "generatedAt": "2026-10-23T22:36:39+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
@@ -22,9 +22,9 @@
       "chartName": "FLO Chart",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-10-23T21:11:43+09:00",
-      "lastSuccessAt": "2026-10-23T21:11:43+09:00",
-      "chartAt": "2026-10-23T21:00:00+09:00",
+      "lastAttemptAt": "2026-10-23T22:36:39+09:00",
+      "lastSuccessAt": "2026-10-23T22:36:39+09:00",
+      "chartAt": "2026-10-23T22:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
@@ -37,14 +37,14 @@
       "chartName": "Bugs Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-10-23T21:11:43+09:00",
-      "lastSuccessAt": "2026-10-23T21:11:43+09:00",
-      "chartAt": "2026-10-23T21:00:00+09:00",
+      "lastAttemptAt": "2026-10-23T22:36:39+09:00",
+      "lastSuccessAt": "2026-10-23T22:36:39+09:00",
+      "chartAt": "2026-10-23T22:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
       "metadata": {
-        "nativeTime": "1792756800000"
+        "nativeTime": "1792760400000"
       }
     },
     "melon": {
@@ -52,15 +52,15 @@
       "chartName": "Melon TOP100",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-10-23T21:11:43+09:00",
-      "lastSuccessAt": "2026-10-23T21:11:43+09:00",
-      "chartAt": "2026-10-23T21:00:00+09:00",
+      "lastAttemptAt": "2026-10-23T22:36:39+09:00",
+      "lastSuccessAt": "2026-10-23T22:36:39+09:00",
+      "chartAt": "2026-10-23T22:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 5,
       "error": "",
       "metadata": {
         "nativeDay": "2026.10.23",
-        "nativeHour": "21:00"
+        "nativeHour": "22:00"
       }
     },
     "genie": {
@@ -68,14 +68,14 @@
       "chartName": "Genie Real-time",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-10-23T21:11:43+09:00",
-      "lastSuccessAt": "2026-10-23T21:11:43+09:00",
-      "chartAt": "2026-10-23T21:00:00+09:00",
+      "lastAttemptAt": "2026-10-23T22:36:39+09:00",
+      "lastSuccessAt": "2026-10-23T22:36:39+09:00",
+      "chartAt": "2026-10-23T22:00:00+09:00",
       "itemCount": 200,
       "matchedCount": 5,
       "error": "",
       "metadata": {
-        "nativeTime": "21:00"
+        "nativeTime": "22:00"
       }
     },
     "vibe": {
@@ -209,19 +209,19 @@
     }
   },
   "automation": {
-    "eventName": "notion-news-integration",
+    "eventName": "workflow_dispatch",
     "scheduled": false,
-    "schedule": "stale-check-after-news-sync",
+    "schedule": "",
     "resolvedCharts": [
       "melon",
       "genie",
       "bugs",
       "flo"
     ],
-    "runId": "39951357765",
-    "runNumber": "49",
+    "runId": "39962558245",
+    "runNumber": "1217",
     "runAttempt": "1",
-    "sha": "c56fb00308d4c9afde278c1d8ceee1e552781510",
-    "completedAt": "2026-10-23T21:11:46+09:00"
+    "sha": "e3b6bfc3571e0b469dee50d98ee5832f4663533f",
+    "completedAt": "2026-10-23T22:36:41+09:00"
   }
 }
