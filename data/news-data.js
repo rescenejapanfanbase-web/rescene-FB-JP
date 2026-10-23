@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "2026-sbs-f6b8857108",
+    "date": "2026.10.23",
+    "category": "event",
+    "categoryName": "イベント",
+    "label": "Joint Concert",
+    "title": "2026 SBS 가요대전に出演決定！",
+    "text": "2026年12月24日,25日に開催される2026 SBS 가요대전にRESCENEが出演決定しました！",
+    "body": "2026年12月24日,25日に開催される2026 SBS 가요대전にRESCENEが出演決定しました！",
+    "image": "assets/news/notion/notion-402229d219da809886a1f7f6b8857108-d61d0ac09c5d.jpg",
+    "sourceLink": "https://x.com/sbsnow/status/2113504367009792014?s=46",
+    "sourceLabel": "公式のポストを見る",
+    "translations": {},
+    "notionPageId": "402229d2-19da-8098-86a1-f7f6b8857108",
+    "notionUrl": "https://app.notion.com/p/2026-SBS-402229d219da809886a1f7f6b8857108"
+  },
+  {
     "slug": "2026-mama-awards-caaa5f7b37",
     "date": "2026.10.13",
     "category": "notice",

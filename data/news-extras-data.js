@@ -1,6 +1,6 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-10-13T14:44:19.674Z",
-  "sourceNewsGeneratedAt": "2026-10-13T14:44:19.586Z",
+  "generatedAt": "2026-10-23T12:11:27.009Z",
+  "sourceNewsGeneratedAt": "2026-10-23T12:11:26.919Z",
   "related": {
     "fanbase-site": [
       {
@@ -37,6 +37,45 @@ window.RESCENE_NEWS_EXTRAS = {
         "score": 5,
         "reasons": [
           "同じカテゴリー"
+        ]
+      }
+    ],
+    "2026-sbs-f6b8857108": [
+      {
+        "slug": "2026-music-bank-global-festival-in-japan-ff397035fa",
+        "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANに出演決定！",
+        "date": "2026.10.02",
+        "label": "Joint Concert",
+        "image": "assets/news/notion/notion-3ed229d219da80e896f4efff397035fa-454bcb0c628c.jpg",
+        "text": "2026年12月12日,13日に開催される2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANにRESCENEが出演決定しました！",
+        "score": 13,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "second-anniversary-project",
+        "title": "デビュー2周年広告プロジェクト",
+        "date": "2026.03.19",
+        "label": "PROJECT",
+        "image": "news/debut-2nd-anniversary-project.jpg",
+        "text": "韓国で実施した2周年広告プロジェクトのお知らせです。",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
+        "slug": "2026-mama-awards-caaa5f7b37",
+        "title": "2026 MAMA AWARDSに出演決定！",
+        "date": "2026.10.13",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
+        "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
+        "score": 4,
+        "reasons": [
+          "共通キーワード"
         ]
       }
     ],
@@ -166,6 +205,19 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "2026-music-bank-global-festival-in-japan-ff397035fa": [
       {
+        "slug": "2026-sbs-f6b8857108",
+        "title": "2026 SBS 가요대전に出演決定！",
+        "date": "2026.10.23",
+        "label": "Joint Concert",
+        "image": "assets/news/notion/notion-402229d219da809886a1f7f6b8857108-d61d0ac09c5d.jpg",
+        "text": "2026年12月24日,25日に開催される2026 SBS 가요대전にRESCENEが出演決定しました！",
+        "score": 13,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
         "slug": "melon-music-awards-2026-mma-a5ddba3cc6",
         "title": "Melon Music Awards 2026(MMA)に出演が決定！",
         "date": "2026.09.21",
@@ -187,18 +239,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "score": 6,
         "reasons": [
           "共通キーワード"
-        ]
-      },
-      {
-        "slug": "second-anniversary-project",
-        "title": "デビュー2周年広告プロジェクト",
-        "date": "2026.03.19",
-        "label": "PROJECT",
-        "image": "news/debut-2nd-anniversary-project.jpg",
-        "text": "韓国で実施した2周年広告プロジェクトのお知らせです。",
-        "score": 5,
-        "reasons": [
-          "同じカテゴリー"
         ]
       }
     ],
@@ -1373,6 +1413,18 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "second-anniversary-project": [
       {
+        "slug": "2026-sbs-f6b8857108",
+        "title": "2026 SBS 가요대전に出演決定！",
+        "date": "2026.10.23",
+        "label": "Joint Concert",
+        "image": "assets/news/notion/notion-402229d219da809886a1f7f6b8857108-d61d0ac09c5d.jpg",
+        "text": "2026年12月24日,25日に開催される2026 SBS 가요대전にRESCENEが出演決定しました！",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "2026-music-bank-global-festival-in-japan-ff397035fa",
         "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANに出演決定！",
         "date": "2026.10.02",
@@ -1391,16 +1443,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "DIGITAL SINGLE",
         "image": "assets/mv/runaway.jpg",
         "text": "RESCENE初のDigital Single「Runaway」の配信がスタートしました。",
-        "score": 2,
-        "reasons": []
-      },
-      {
-        "slug": "second-anniversary",
-        "title": "RESCENE Debut 2nd Anniversary",
-        "date": "2026.03.26",
-        "label": "ANNIVERSARY",
-        "image": "news/debut-2nd-anniversary.jpg",
-        "text": "RESCENEがデビュー2周年を迎えました。",
         "score": 2,
         "reasons": []
       }
@@ -1702,6 +1744,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "2026-sbs-f6b8857108",
+      "date": "2026.10.23",
+      "title": "2026 SBS 가요대전に出演決定！",
+      "url": "https://rescene-fb.jp/articles/2026-sbs-f6b8857108.html",
+      "hashtags": "#RESCENE_EVENT #RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.10.23】 2026 SBS 가요대전に出演決定！\n\nhttps://rescene-fb.jp/articles/2026-sbs-f6b8857108.html\n\n#RESCENE_EVENT #RESCENE #리센느 #リセンヌ",
+      "lineText": "2026 SBS 가요대전に出演決定！\n2026年12月24日,25日に開催される2026 SBS 가요대전にRESCENEが出演決定しました！",
+      "charCount": 125
     },
     {
       "slug": "2026-mama-awards-caaa5f7b37",

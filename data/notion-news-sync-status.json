@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-10-13T14:44:19.586Z",
+  "generatedAt": "2026-10-23T12:11:26.919Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 22,
-  "notionNews": 22,
-  "notionImages": 22,
+  "queriedPages": 23,
+  "notionNews": 23,
+  "notionImages": 23,
   "rows": [
+    {
+      "title": "2026 SBS 가요대전に出演決定！",
+      "pageId": "402229d2-19da-8098-86a1-f7f6b8857108",
+      "lastEditedTime": "2026-10-23T12:07:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "340DD7A2-E4B2-4202-8354-196B94FCB835.jpeg",
+      "imagePath": "assets/news/notion/notion-402229d219da809886a1f7f6b8857108-d61d0ac09c5d.jpg",
+      "imageBytes": 1246387,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "2026 MAMA AWARDSに出演決定！",
       "pageId": "3f8229d2-19da-80f1-a216-e8caaa5f7b37",
