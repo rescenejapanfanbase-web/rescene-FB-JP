@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T16:47:16Z",
+  "generatedAt": "2026-10-23T09:30:18Z",
   "source": "pluschat",
   "sourceBaseUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/",
   "translationDictionary": "scripts/pluschat-schedule-translations.json",
@@ -7,8 +7,8 @@
     "2026-10",
     "2026-11"
   ],
-  "eventCount": 85,
-  "refreshedEventCount": 21,
+  "eventCount": 87,
+  "refreshedEventCount": 23,
   "failures": [],
   "months": {
     "2026-07": {
@@ -56,8 +56,8 @@
     },
     "2026-10": {
       "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
-      "fetchedAt": "2026-10-11T15:22:47Z",
-      "eventCount": 16,
+      "fetchedAt": "2026-10-23T09:30:06Z",
+      "eventCount": 18,
       "status": "ok",
       "warnings": [
         "翻訳辞書への追加候補: 계명대학교 축제 -> 계명대학교 축제",
@@ -73,8 +73,10 @@
         "翻訳辞書への追加候補: 2026 GHOST (경기 한류 OST 뮤직페스티벌) -> 2026 GHOST (경기 한류 OST 뮤직페스티벌",
         "翻訳辞書への追加候補: SBS 8 뉴스 -> SBS 8 뉴스",
         "翻訳辞書への追加候補: NOL FESTIVAL - 고양 -> NOL FESTIVAL - 고양",
+        "翻訳辞書への追加候補: 동아대학교 축제 (승학캠) -> 동아대학교 축제 (승학캠",
         "翻訳辞書への追加候補: 마산대학교 축제 -> 마산대학교 축제",
         "翻訳辞書への追加候補: 여기어때 콘서트팩 거제 -> 여기어때 콘서트팩 거제",
+        "翻訳辞書への追加候補: 한화오션 오션하모니 -> 한화오션 오션하모니",
         "翻訳辞書への追加候補: 경주 APEC 정상회의장 기념관 개관식 -> 경주 APEC 정상회의장 기념관 개관식"
       ]
     },
@@ -1555,6 +1557,25 @@
       "sourceMonth": "2026-10"
     },
     {
+      "id": "pluschat-2026-10-23-all-day-1429be03cc3bcd27d0f028f8",
+      "title": "동아대학교 축제 (승학캠",
+      "originalTitle": "동아대학교 축제 (승학캠)",
+      "translationStatus": "partial",
+      "date": "2026-10-23",
+      "start": "2026-10-23",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
       "id": "pluschat-2026-10-23-all-day-ec6e43773b9cdce0ecaaf40d",
       "title": "마산대학교 축제",
       "originalTitle": "마산대학교 축제",
@@ -1577,6 +1598,25 @@
       "id": "pluschat-2026-10-24-all-day-a4f7aaa0f7f0dd2ff1eebe42",
       "title": "여기어때 콘서트팩 거제",
       "originalTitle": "여기어때 콘서트팩 거제",
+      "translationStatus": "original",
+      "date": "2026-10-24",
+      "start": "2026-10-24",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "id": "pluschat-2026-10-24-all-day-ad667fc323e4d85291a5b491",
+      "title": "한화오션 오션하모니",
+      "originalTitle": "한화오션 오션하모니",
       "translationStatus": "original",
       "date": "2026-10-24",
       "start": "2026-10-24",

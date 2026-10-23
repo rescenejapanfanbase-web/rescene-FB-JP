@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-20T10:50:08.407Z",
+  "generatedAt": "2026-10-23T09:30:19.031Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
     "notion": 41,
-    "plusChatAvailable": 85,
-    "plusChatAdded": 64,
+    "plusChatAvailable": 87,
+    "plusChatAdded": 66,
     "plusChatDuplicates": 21
   },
-  "plusChatGeneratedAt": "2026-10-13T16:47:16Z",
+  "plusChatGeneratedAt": "2026-10-23T09:30:18Z",
   "events": [
     {
       "id": "39d229d2-19da-800f-bf39-f901096b6fc6",
@@ -1603,6 +1603,25 @@
       "source": "notion"
     },
     {
+      "id": "pluschat-2026-10-23-all-day-1429be03cc3bcd27d0f028f8",
+      "title": "동아대학교 축제 (승학캠",
+      "originalTitle": "동아대학교 축제 (승학캠)",
+      "translationStatus": "partial",
+      "date": "2026-10-23",
+      "start": "2026-10-23",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
       "id": "pluschat-2026-10-23-all-day-ec6e43773b9cdce0ecaaf40d",
       "title": "마산대학교 축제",
       "originalTitle": "마산대학교 축제",
@@ -1657,6 +1676,25 @@
       "id": "pluschat-2026-10-24-all-day-a4f7aaa0f7f0dd2ff1eebe42",
       "title": "여기어때 콘서트팩 거제",
       "originalTitle": "여기어때 콘서트팩 거제",
+      "translationStatus": "original",
+      "date": "2026-10-24",
+      "start": "2026-10-24",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-10"
+    },
+    {
+      "id": "pluschat-2026-10-24-all-day-ad667fc323e4d85291a5b491",
+      "title": "한화오션 오션하모니",
+      "originalTitle": "한화오션 오션하모니",
       "translationStatus": "original",
       "date": "2026-10-24",
       "start": "2026-10-24",
