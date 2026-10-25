@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-10-25T18:59:50.817183+00:00",
+  "generatedAt": "2026-10-25T22:30:26.287159+00:00",
   "items": [
     {
       "date": "2026-10-25",
@@ -65,15 +65,6 @@ window.RESCENE_SITE_UPDATES = {
         "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
         "scripts/__pycache__/check-external-links.cpython-313.pyc",
         "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "3f4970c",
-      "files": [
-        "data/youtube-channels.json"
       ]
     },
     {
