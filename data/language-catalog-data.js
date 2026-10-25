@@ -1,5 +1,5 @@
 window.RESCENE_LANGUAGE_CATALOG = {
-  "generatedAt": "2026-10-25T11:16:14.381Z",
+  "generatedAt": "2026-10-25T13:37:22.395Z",
   "sourceFiles": [
     "data/homepage.json",
     "data/news.json",
