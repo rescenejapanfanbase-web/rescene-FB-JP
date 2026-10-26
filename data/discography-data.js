@@ -1,5 +1,5 @@
 window.RESCENE_DISCOGRAPHY = {
-  "generatedAt": "2026-10-15T09:47:54.338Z",
+  "generatedAt": "2026-10-26T13:45:34.420Z",
   "source": "notion",
   "dataSourceId": "8f582d52-96eb-4148-a24b-add07379ee07",
   "notionDatabaseUrl": "https://app.notion.com/p/ca4fadead9d64128a5e8dc9730e0033d",
@@ -316,6 +316,57 @@ window.RESCENE_DISCOGRAPHY = {
       "published": true,
       "notionPageId": "3a3229d2-19da-815a-9b48-ed96a6598a50",
       "notionUrl": "https://app.notion.com/p/YoYo-Japanese-Version-3a3229d219da815a9b48ed96a6598a50"
+    },
+    {
+      "anchor": "release-pulse",
+      "slug": "pulse",
+      "title": "PULSE",
+      "releaseDate": "2026-11-03",
+      "category": "mini",
+      "categoryName": "ミニアルバム",
+      "mark": "04",
+      "badge": "MINI ALBUM",
+      "type": "4th MINI ALBUM",
+      "description": "5曲を収録した4th Mini Album。",
+      "tracks": [
+        {
+          "no": "01",
+          "title": "FINEST THING",
+          "video": "",
+          "note": "TRACK"
+        },
+        {
+          "no": "02",
+          "title": "WITH",
+          "video": "",
+          "note": "TRACK"
+        },
+        {
+          "no": "03",
+          "title": "백화요란(INSIDE OUT)",
+          "video": "",
+          "note": "TRACK"
+        },
+        {
+          "no": "04",
+          "title": "MEME",
+          "video": "",
+          "note": "TRACK"
+        },
+        {
+          "no": "05",
+          "title": "DRAGON",
+          "video": "",
+          "note": "TRACK"
+        }
+      ],
+      "appleMusic": "",
+      "spotify": "https://open.spotify.com/prerelease/0bzZk1q9pdCEUSGm2tNGBO?si=8c9hwE33QA2LA2ySxoHjwQ&utm_source=copy-link&dlsi=b0ab2604f7b84553&nd=1&utm_medium=organic&_branch_referrer=H4sIAAAAAAAAA83OwU6DQBSF4ae57AQ6Q7E1IQal1IXRNK0bN2QYLgUZZsbLEMRFn91Q4zu4PudPvsY5O9wFwWCNa%2BvZF9b6qtVdcG%2FJVKN0ibGoPWBRPSpVjKSSZkmAp8ByYPky%2B3%2B1ND2w3BISKhQDAsvD8vu9W31ubfW4ezvue%2BZe9g%2BvwPOhBZ5t5LaZdpwfUvacsvn4ZZ4%2BpgOweHR9MZiRJALPpLHzzaICFlfqGpahKFkcRvVtuYnWa34VCqVKIbv%2FqwQW6wp4tvIushFao0rc1DqH5NUo3EiYGDoL3UrvQlgjUavPRUlmGpCS0%2B%2F1B7dZfImzAQAA&product=open&%24full_url=https%3A%2F%2Fopen.spotify.com%2Fprerelease%2F0bzZk1q9pdCEUSGm2tNGBO%3Fsi%3D8c9hwE33QA2LA2ySxoHjwQ%26utm_source%3Dcopy-link%26dlsi%3Db0ab2604f7b84553&~channel=twitter&feature=organic&_branch_match_id=1622870692964582996",
+      "cover": "",
+      "order": 9999,
+      "published": true,
+      "notionPageId": "3f7229d2-19da-80af-9e25-e88a692fed00",
+      "notionUrl": "https://app.notion.com/p/PULSE-3f7229d219da80af9e25e88a692fed00"
     },
     {
       "anchor": "release-lip-bomb",
