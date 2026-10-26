@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-10-23T12:11:27.009Z",
-  "sourceNewsGeneratedAt": "2026-10-23T12:11:26.919Z",
+  "generatedAt": "2026-10-26T10:16:13.788Z",
+  "sourceNewsGeneratedAt": "2026-10-26T10:16:13.698Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "rescene-official-light-stick-v2-8a21df0051",
+        "title": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始！",
+        "date": "2026.10.26",
+        "label": "light stick",
+        "image": "assets/news/notion/notion-405229d219da800a9956d68a21df0051-8659c9e00c7e.jpg",
+        "text": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始しました！",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "2026-mama-awards-caaa5f7b37",
         "title": "2026 MAMA AWARDSに出演決定！",
@@ -26,6 +38,32 @@
         "reasons": [
           "同じカテゴリー"
         ]
+      }
+    ],
+    "rescene-official-light-stick-v2-8a21df0051": [
+      {
+        "slug": "2026-mama-awards-caaa5f7b37",
+        "title": "2026 MAMA AWARDSに出演決定！",
+        "date": "2026.10.13",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
+        "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
+        "slug": "rescene-4th-mini-album-pulse-a7a231ff6f",
+        "title": "RESCENE 4th Mini Album『PULSE』の日本共同購入がスタート！",
+        "date": "2026.10.13",
+        "label": "Joint purchase",
+        "image": "assets/news/notion/notion-3f8229d219da80d18fb0d3a7a231ff6f-ce7aa3fcf98e.jpg",
+        "text": "RESCENE 4th Mini Album\n『PULSE』の日本共同購入がスタート！💿💗",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
       },
       {
         "slug": "love-attack-spotify-5-1-814a3b80ac",
@@ -34,7 +72,7 @@
         "label": "New Record",
         "image": "assets/news/notion/notion-3f7229d219da80ffb229c5814a3b80ac-ed7071d3796d.webp",
         "text": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日とし、第5世代最多獲得記録を更新しました。",
-        "score": 5,
+        "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
@@ -135,24 +173,24 @@
         ]
       },
       {
-        "slug": "2026-mama-awards-caaa5f7b37",
-        "title": "2026 MAMA AWARDSに出演決定！",
-        "date": "2026.10.13",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
-        "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
+        "slug": "rescene-official-light-stick-v2-8a21df0051",
+        "title": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始！",
+        "date": "2026.10.26",
+        "label": "light stick",
+        "image": "assets/news/notion/notion-405229d219da800a9956d68a21df0051-8659c9e00c7e.jpg",
+        "text": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "love-attack-spotify-5-1-814a3b80ac",
-        "title": "LOVE ATTACKが韓国Spotifyチャートで第5世代ガールズグループ最多1位記録を樹立！",
-        "date": "2026.10.12",
-        "label": "New Record",
-        "image": "assets/news/notion/notion-3f7229d219da80ffb229c5814a3b80ac-ed7071d3796d.webp",
-        "text": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日とし、第5世代最多獲得記録を更新しました。",
+        "slug": "2026-mama-awards-caaa5f7b37",
+        "title": "2026 MAMA AWARDSに出演決定！",
+        "date": "2026.10.13",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
+        "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -1744,6 +1782,16 @@
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "rescene-official-light-stick-v2-8a21df0051",
+      "date": "2026.10.26",
+      "title": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始！",
+      "url": "https://rescene-fb.jp/articles/rescene-official-light-stick-v2-8a21df0051.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.10.26】 RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始！\n\nhttps://rescene-fb.jp/articles/rescene-official-light-stick-v2-8a21df0051.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始！\nRESCENE OFFICIAL LIGHT STICK V2 予約販売が開始しました！",
+      "charCount": 154
     },
     {
       "slug": "2026-sbs-f6b8857108",

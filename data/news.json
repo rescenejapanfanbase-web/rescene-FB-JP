@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-23T12:11:26.919Z",
+  "generatedAt": "2026-10-26T10:16:13.698Z",
   "source": "manual+notion",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "notionCount": 23,
+  "notionCount": 24,
   "news": [
     {
       "slug": "fanbase-site",
@@ -14,6 +14,22 @@
       "image": "news/fanbase-site.jpg",
       "sourceLink": "https://x.com/Rescene_FB_JP",
       "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
+    },
+    {
+      "slug": "rescene-official-light-stick-v2-8a21df0051",
+      "date": "2026.10.26",
+      "category": "notice",
+      "categoryName": "お知らせ",
+      "label": "light stick",
+      "title": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始！",
+      "text": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始しました！",
+      "body": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始しました！\n購入予定の方は下のリンクから",
+      "image": "assets/news/notion/notion-405229d219da800a9956d68a21df0051-8659c9e00c7e.jpg",
+      "sourceLink": "https://withmuu.com/jp/goods/goods_view.php?goodsNo=1000018348",
+      "sourceLabel": "購入はこちら",
+      "translations": {},
+      "notionPageId": "405229d2-19da-800a-9956-d68a21df0051",
+      "notionUrl": "https://app.notion.com/p/RESCENE-OFFICIAL-LIGHT-STICK-V2-405229d219da800a9956d68a21df0051"
     },
     {
       "slug": "2026-sbs-f6b8857108",

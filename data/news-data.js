@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "rescene-official-light-stick-v2-8a21df0051",
+    "date": "2026.10.26",
+    "category": "notice",
+    "categoryName": "お知らせ",
+    "label": "light stick",
+    "title": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始！",
+    "text": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始しました！",
+    "body": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始しました！\n購入予定の方は下のリンクから",
+    "image": "assets/news/notion/notion-405229d219da800a9956d68a21df0051-8659c9e00c7e.jpg",
+    "sourceLink": "https://withmuu.com/jp/goods/goods_view.php?goodsNo=1000018348",
+    "sourceLabel": "購入はこちら",
+    "translations": {},
+    "notionPageId": "405229d2-19da-800a-9956-d68a21df0051",
+    "notionUrl": "https://app.notion.com/p/RESCENE-OFFICIAL-LIGHT-STICK-V2-405229d219da800a9956d68a21df0051"
+  },
+  {
     "slug": "2026-sbs-f6b8857108",
     "date": "2026.10.23",
     "category": "event",

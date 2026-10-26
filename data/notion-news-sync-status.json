@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-10-23T12:11:26.919Z",
+  "generatedAt": "2026-10-26T10:16:13.698Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 23,
-  "notionNews": 23,
-  "notionImages": 23,
+  "queriedPages": 24,
+  "notionNews": 24,
+  "notionImages": 24,
   "rows": [
+    {
+      "title": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始！",
+      "pageId": "405229d2-19da-800a-9956-d68a21df0051",
+      "lastEditedTime": "2026-10-26T10:14:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "B0A61B7A-4C7B-4C93-A1B1-4552FA231780.jpeg",
+      "imagePath": "assets/news/notion/notion-405229d219da800a9956d68a21df0051-8659c9e00c7e.jpg",
+      "imageBytes": 181413,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "2026 SBS 가요대전に出演決定！",
       "pageId": "402229d2-19da-8098-86a1-f7f6b8857108",
