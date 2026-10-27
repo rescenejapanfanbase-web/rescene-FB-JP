@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T13:45:34.420Z",
+  "generatedAt": "2026-10-27T08:29:55.479Z",
   "source": "notion",
   "dataSourceId": "8f582d52-96eb-4148-a24b-add07379ee07",
   "notionDatabaseUrl": "https://app.notion.com/p/ca4fadead9d64128a5e8dc9730e0033d",
@@ -78,7 +78,7 @@
       "mark": "SP",
       "badge": "SPECIAL SINGLE",
       "type": "SPECIAL SINGLE",
-      "description": "スペシャルシングルとしてリリースされた楽曲。",
+      "description": "｢グレープフルーツ｣をメインの香りにし、スペシャルシングルとしてリリースされた楽曲。",
       "tracks": [
         {
           "no": "01",
@@ -105,7 +105,7 @@
       "mark": "DG",
       "badge": "DIGITAL SINGLE",
       "type": "1ST DIGITAL SINGLE",
-      "description": "デジタルシングルとして公開された楽曲。",
+      "description": "｢インセンス｣をメインの香りとした作品。\nデジタルシングルとして公開された楽曲。",
       "tracks": [
         {
           "no": "01",
@@ -327,7 +327,7 @@
       "mark": "04",
       "badge": "MINI ALBUM",
       "type": "4th MINI ALBUM",
-      "description": "5曲を収録した4th Mini Album。",
+      "description": "｢ムスク｣の香りをメインにした作品。\n5曲を収録した4th Mini Album。",
       "tracks": [
         {
           "no": "01",
@@ -378,7 +378,7 @@
       "mark": "03",
       "badge": "MINI ALBUM",
       "type": "3RD MINI ALBUM",
-      "description": "5曲を収録した3rd Mini Album。",
+      "description": "メインの香りに｢Berry｣を掲げた作品。\n5曲を収録した3rd Mini Album。",
       "tracks": [
         {
           "no": "01",
@@ -429,7 +429,7 @@
       "mark": "02",
       "badge": "MINI ALBUM",
       "type": "2ND MINI ALBUM",
-      "description": "5曲を収録した2nd Mini Album。",
+      "description": "澄んだ石けんの香りをメインにした作品。\n5曲を収録した2nd Mini Album。",
       "tracks": [
         {
           "no": "01",
@@ -480,7 +480,7 @@
       "mark": "01",
       "badge": "MINI ALBUM",
       "type": "1ST MINI ALBUM",
-      "description": "4曲を収録した1st Mini Album。",
+      "description": "海のAmbergris(アンバーグリス)の香りをテーマにした作品。\n4曲を収録した1st Mini Album。",
       "tracks": [
         {
           "no": "01",
@@ -525,7 +525,7 @@
       "mark": "02",
       "badge": "SINGLE ALBUM",
       "type": "2ND SINGLE ALBUM",
-      "description": "2曲を収録した2nd Single Album。",
+      "description": "雨に濡れた草葉の香りをメインにした作品。\n2曲を収録した2nd Single Album。",
       "tracks": [
         {
           "no": "01",
@@ -558,7 +558,7 @@
       "mark": "01",
       "badge": "SINGLE ALBUM",
       "type": "1ST SINGLE ALBUM",
-      "description": "RESCENEのデビューを飾った1st Single Album。",
+      "description": "フローラルの香りをメインにしたRESCENEのデビューを飾った1st Single Album。",
       "tracks": [
         {
           "no": "01",
