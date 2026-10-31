@@ -1,15 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T18:36:52+09:00",
+  "generatedAt": "2026-10-31T18:57:09+09:00",
   "workflow": "Sync Korean Charts",
-  "ok": false,
-  "partial": true,
+  "ok": true,
+  "partial": false,
   "successfulCharts": [
-    "bugs-daily"
+    "genie-daily"
   ],
-  "failedCharts": {
-    "genie-daily": "RuntimeError: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)> / URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)> / URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
-  },
+  "failedCharts": {},
   "configuration": {
     "source": "notion",
     "notionOk": true,
@@ -176,19 +174,19 @@
     "genie-daily": {
       "chartId": "genie-daily",
       "chartName": "Genie Daily",
-      "ok": false,
-      "retainedPrevious": true,
-      "lastAttemptAt": "2026-10-31T18:36:52+09:00",
-      "error": "RuntimeError: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)> / URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)> / URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
-      "lastSuccessAt": "2026-10-30T18:58:56+09:00",
-      "chartAt": "2026-10-29T00:00:00+09:00",
+      "ok": true,
+      "retainedPrevious": false,
+      "lastAttemptAt": "2026-10-31T18:57:09+09:00",
+      "error": "",
+      "lastSuccessAt": "2026-10-31T18:57:09+09:00",
+      "chartAt": "2026-10-30T00:00:00+09:00",
       "itemCount": 200,
       "matchedCount": 5,
       "metadata": {
         "period": "daily",
         "sourceMode": "official-json",
         "sourceUrl": "https://app.genie.co.kr/chart/j_RankSongList.json",
-        "nativeDate": "2026-10-29",
+        "nativeDate": "2026-10-30",
         "publishedAt": "12:00 KST",
         "chartDateRule": "previous-day-after-publication",
         "pageSize": 25,
@@ -208,17 +206,16 @@
     }
   },
   "automation": {
-    "eventName": "schedule",
-    "scheduled": true,
-    "schedule": "17 3 * * *",
+    "eventName": "workflow_dispatch",
+    "scheduled": false,
+    "schedule": "",
     "resolvedCharts": [
-      "genie-daily",
-      "bugs-daily"
+      "genie-daily"
     ],
-    "runId": "41189379429",
-    "runNumber": "1314",
+    "runId": "41190724969",
+    "runNumber": "1315",
     "runAttempt": "1",
-    "sha": "811d8a2e7703a9a4cfd004caff2da0dbf2932280",
-    "completedAt": "2026-10-31T18:37:12+09:00"
+    "sha": "76b8a1d5279f2f655729680526f8c32624c8ae5f",
+    "completedAt": "2026-10-31T18:57:30+09:00"
   }
 }
