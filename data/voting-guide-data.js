@@ -1,5 +1,5 @@
 window.RESCENE_VOTING_GUIDE = {
-  "generatedAt": "2026-07-31T15:33:25.390Z",
+  "generatedAt": "2026-11-02T15:35:15.123Z",
   "source": "notion",
   "dataSourceId": "8e870649-722b-45aa-9b0f-3da6d51b139b",
   "notionDatabaseUrl": "https://app.notion.com/p/db7689f9a5b2445fbe3fb9f7cd9a04de",
@@ -450,7 +450,7 @@ window.RESCENE_VOTING_GUIDE = {
     {
       "title": "Mubeat",
       "subtitle": "Show! Music Core",
-      "description": "Show! Music Core",
+      "description": "SHOW K-POP & Show! Music Core",
       "icon": "assets/voting/apps/mubeat.png",
       "tags": [
         "Heart Beats",

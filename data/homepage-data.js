@@ -1,5 +1,5 @@
 window.RESCENE_HOMEPAGE = {
-  "generatedAt": "2026-10-19T10:14:45.809Z",
+  "generatedAt": "2026-11-02T15:35:18.504Z",
   "source": "notion",
   "dataSourceId": "1a98fbc6-21d6-4a11-8ed9-19b228250182",
   "notionDatabaseUrl": "https://app.notion.com/p/23afd46c4c68443d89de65c74f605d68",
@@ -533,8 +533,12 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-index",
         "order": 3000,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "description": "RESCENE를 일본에서 응원하는 비공식 팬베이스. 최신 정보, 일정, 작품, 스트리밍, 투표 가이드를 정리하고 있습니다."
+          },
+          "en": {
+            "description": "An unofficial fan base that supports RESCENE from Japan. It summarizes the latest information, schedules, works, streaming, and voting guides."
+          }
         },
         "notionPageId": "3ae229d2-19da-819b-9e68-e206e933dd76",
         "notionUrl": "https://app.notion.com/p/RESCENEJAPAN-FANBASE-3ae229d219da819b9e68e206e933dd76"
@@ -561,8 +565,12 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-about",
         "order": 3001,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "description": "RESCENE의 컨셉, 그룹명, 데뷔 정보, 5명의 멤버를 소개합니다."
+          },
+          "en": {
+            "description": "We will introduce the concept of RESCENE, group name, debut information, and 5 members."
+          }
         },
         "notionPageId": "3ae229d2-19da-8164-a930-e48a4c1cf928",
         "notionUrl": "https://app.notion.com/p/RESCENE-3ae229d219da8164a930e48a4c1cf928"
@@ -589,8 +597,12 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-members",
         "order": 3002,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "description": "WONI, LIV, MINAMI, MAY, ZENA의 프로필과 활동 정보를 소개합니다."
+          },
+          "en": {
+            "description": "We will introduce the profiles and activity information of WONI, LIV, MINAMI, MAY, and ZENA."
+          }
         },
         "notionPageId": "3ae229d2-19da-81d7-819a-ce9c9d08432a",
         "notionUrl": "https://app.notion.com/p/3ae229d219da81d7819ace9c9d08432a"
@@ -617,8 +629,12 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-schedule",
         "order": 3003,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "description": "RESCENE의 이벤트, 음악 방송, 릴리스, 투표, 기념일 등 최신 일정을 게시하고 있습니다."
+          },
+          "en": {
+            "description": "The latest schedule of RESCENE events, music broadcasts, releases, voting, anniversaries, etc. are posted."
+          }
         },
         "notionPageId": "3ae229d2-19da-81a0-96e9-e7d037703854",
         "notionUrl": "https://app.notion.com/p/3ae229d219da81a096e9e7d037703854"
@@ -645,8 +661,12 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-news",
         "order": 3004,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "description": "RESCENE의 릴리스, 기록, 이벤트, 홍보 대사 등 최신 뉴스를 게재하고 있습니다."
+          },
+          "en": {
+            "description": "The latest news such as RESCENE releases, records, events, and public relations ambassadors are posted."
+          }
         },
         "notionPageId": "3ae229d2-19da-819d-9a6d-e5dc7634bdbd",
         "notionUrl": "https://app.notion.com/p/3ae229d219da819d9a6de5dc7634bdbd"
@@ -673,8 +693,13 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-discography",
         "order": 3005,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "description": "RESCENE의 앨범, 싱글, OST, 수록곡, Apple Music·Spotify 등 스트리밍 링크를 정리하고 있습니다."
+          },
+          "en": {
+            "heading": "Discography",
+            "description": "It summarizes distribution links for RESCENE's albums, singles, OSTs, songs, Apple Music, Spotify, etc."
+          }
         },
         "notionPageId": "3ae229d2-19da-816c-bf18-fae08d56c8d5",
         "notionUrl": "https://app.notion.com/p/3ae229d219da816cbf18fae08d56c8d5"
@@ -701,8 +726,14 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-mv",
         "order": 3006,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "heading": "MV 일람",
+            "description": "RESCENE의 공식 뮤직비디오와 퍼포먼스 영상 등을 작품별로 정리하고 있습니다."
+          },
+          "en": {
+            "heading": "MV List",
+            "description": "RESCENE's official music videos, performance videos, etc. are summarized by work."
+          }
         },
         "notionPageId": "3ae229d2-19da-81e2-855e-e77d78e24c7d",
         "notionUrl": "https://app.notion.com/p/MV-3ae229d219da81e2855ee77d78e24c7d"
@@ -729,8 +760,14 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-youtube",
         "order": 3007,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "heading": "유튜브",
+            "description": "RESCENE Official와 워니의 YouTube 채널에 공개된 동영상, 쇼트, 라이브를 정리하고 있습니다."
+          },
+          "en": {
+            "heading": "YouTube",
+            "description": "It summarizes the videos, shorts, and live performances published on RESCENE Official and Woni's YouTube channel."
+          }
         },
         "notionPageId": "3ae229d2-19da-81d3-825c-f50cc9880ebe",
         "notionUrl": "https://app.notion.com/p/YouTube-3ae229d219da81d3825cf50cc9880ebe"
@@ -757,8 +794,14 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-records",
         "order": 3008,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "heading": "기록",
+            "description": "RESCENE의 음악 방송 1위 획득 기록과 Melon 차트 기록을 영상·최고 순위·MV 링크와 함께 게재하고 있습니다."
+          },
+          "en": {
+            "heading": "Record",
+            "description": "RESCENE's music broadcast No. 1 record and Melon chart record are posted with video, highest ranking, and MV link."
+          }
         },
         "notionPageId": "3ae229d2-19da-8102-afbc-c53bfebe395d",
         "notionUrl": "https://app.notion.com/p/3ae229d219da8102afbcc53bfebe395d"
@@ -785,8 +828,14 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-music-show-wins",
         "order": 3009,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "heading": "음악 방송 1위 획득 기록",
+            "description": "RESCENE의 음악 방송 1위 획득 기록을 총 획득 수·프로그램·날짜·영상 링크와 함께 게재하고 있습니다."
+          },
+          "en": {
+            "heading": "Record of winning first place on music broadcasts",
+            "description": "RESCENE's music broadcast No. 1 record is posted along with the total number of acquisitions, programs, dates, and video links."
+          }
         },
         "notionPageId": "3ae229d2-19da-8150-aa95-e9d3e9aa43f6",
         "notionUrl": "https://app.notion.com/p/1-3ae229d219da8150aa95e9d3e9aa43f6"
@@ -813,8 +862,14 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-melon-records",
         "order": 3010,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "heading": "Melon 차트 기록",
+            "description": "RESCENE의 곡을 발매 순서대로 정렬하고, Melon TOP100 최고 순위, 일일 최고 순위, MV 링크를 게시하고 있습니다."
+          },
+          "en": {
+            "heading": "Melon chart record",
+            "description": "RESCENE's songs are listed in order of release, and Melon TOP100 highest ranking, highest daily ranking, and MV links are posted."
+          }
         },
         "notionPageId": "3ae229d2-19da-81b5-ba2e-d225d0e5385c",
         "notionUrl": "https://app.notion.com/p/Melon-3ae229d219da81b5ba2ed225d0e5385c"
@@ -841,8 +896,14 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-streaming",
         "order": 3011,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "heading": "스트리밍",
+            "description": "YouTube, Spotify, Apple Music, Stationhead, TikTok 등에서 RESCENE를 응원하는 방법을 안내해 드립니다."
+          },
+          "en": {
+            "heading": "Streaming",
+            "description": "We will show you how to support RESCENE on YouTube, Spotify, Apple Music, Stationhead, TikTok, etc."
+          }
         },
         "notionPageId": "3ae229d2-19da-81b9-b6d1-d1febeb0900f",
         "notionUrl": "https://app.notion.com/p/3ae229d219da81b9b6d1d1febeb0900f"
@@ -869,8 +930,14 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-korean-charts",
         "order": 3011,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "heading": "한국 차트",
+            "description": "RESCENE의 곡에 대해, Melon·Genie·Bugs·FLO·VIBE·YouTube Music Korea·Spotify Korea의 현재 순위와 진행을 게재하고 있습니다."
+          },
+          "en": {
+            "heading": "Korean chart",
+            "description": "Regarding RESCENE's songs, the current ranking and trend of Melon, Genie, Bugs, FLO, VIBE, YouTube Music Korea, and Spotify Korea are posted."
+          }
         },
         "notionPageId": "3af229d2-19da-81c7-8c4c-dc2282505c7c",
         "notionUrl": "https://app.notion.com/p/3af229d219da81c78c4cdc2282505c7c"
@@ -897,8 +964,14 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-voting",
         "order": 3012,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "heading": "리센느 투표 가이드",
+            "description": "RESCENE를 응원하기 위한 음악 프로그램 투표, 투표 앱, 집계 방법, 투표권 적립 방법을 안내해 드립니다."
+          },
+          "en": {
+            "heading": "RESCENE Voting guide",
+            "description": "We will guide you through music program voting, voting apps, counting methods, and how to save voting tickets to support RESCENE."
+          }
         },
         "notionPageId": "3ae229d2-19da-815b-8bcd-eb0244a25c99",
         "notionUrl": "https://app.notion.com/p/RESCENE-3ae229d219da815b8bcdeb0244a25c99"
@@ -925,8 +998,14 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-chants",
         "order": 3013,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "heading": "응원법",
+            "description": "RESCENE의 곡별 구호 가이드와 공식·비공식 안내를 정리하고 있습니다."
+          },
+          "en": {
+            "heading": "Fanchant Guide",
+            "description": "It summarizes RESCENE's song-specific shout guide and official and unofficial information."
+          }
         },
         "notionPageId": "3ae229d2-19da-8154-a140-e64171491c4e",
         "notionUrl": "https://app.notion.com/p/3ae229d219da8154a140e64171491c4e"
@@ -953,8 +1032,14 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-links",
         "order": 3014,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "heading": "공식 링크",
+            "description": "RESCENE의 공식 SNS, 팬 커뮤니티, 공식 YouTube, 음악 스트리밍 서비스에 대한 입구를 정리하고 있습니다."
+          },
+          "en": {
+            "heading": "Official link",
+            "description": "It summarizes the entrance to RESCENE's official SNS, fan community, official YouTube, and music distribution service."
+          }
         },
         "notionPageId": "3ae229d2-19da-81b1-9036-c5d795bed01b",
         "notionUrl": "https://app.notion.com/p/3ae229d219da81b19036c5d795bed01b"
@@ -981,8 +1066,14 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-fan-services",
         "order": 3015,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "heading": "팬서비스 가이드",
+            "description": "RESCENE의 Plus Chat 멤버십 및 bubble 이용 안내와 등록 전 확인 사항을 정리하고 있습니다."
+          },
+          "en": {
+            "heading": "Fan Service Guide",
+            "description": "It summarizes RESCENE's Plus Chat membership, bubble usage information, and pre-registration checks."
+          }
         },
         "notionPageId": "3ae229d2-19da-81f6-b672-e6fe32a091aa",
         "notionUrl": "https://app.notion.com/p/3ae229d219da81f6b672e6fe32a091aa"
@@ -1009,8 +1100,14 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-contact",
         "order": 3016,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "heading": "문의",
+            "description": "RESCENE JAPAN FANBASE에 대한 문의 방법 및 공식 정보에 관한 주의사항을 안내해 드립니다."
+          },
+          "en": {
+            "heading": "Inquiries",
+            "description": "We will inform you how to contact RESCENE JAPAN FANBASE and precautions regarding official information."
+          }
         },
         "notionPageId": "3ae229d2-19da-819c-884d-ea5d8e219aba",
         "notionUrl": "https://app.notion.com/p/3ae229d219da819c884dea5d8e219aba"
@@ -1037,8 +1134,14 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-search",
         "order": 3017,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "heading": "사이트 내 검색",
+            "description": "뉴스, 일정, 멤버, 작품, MV, YouTube, 기록, 구호, 투표 가이드를 교차 검색할 수 있습니다."
+          },
+          "en": {
+            "heading": "Site internal search",
+            "description": "You can search across news, schedules, members, works, MVs, YouTube, records, shouts, and voting guides."
+          }
         },
         "notionPageId": "3ae229d2-19da-814c-9e65-cfc7a6d0244c",
         "notionUrl": "https://app.notion.com/p/3ae229d219da814c9e65cfc7a6d0244c"
@@ -1065,8 +1168,14 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "page-favorites",
         "order": 3018,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "heading": "즐겨찾기",
+            "description": "단말기에 저장된 멤버, 구호, 투표 가이드를 한 번에 확인할 수 있습니다."
+          },
+          "en": {
+            "heading": "Favorite",
+            "description": "You can check the members, shouts, and voting guides saved in the terminal together."
+          }
         },
         "notionPageId": "3ae229d2-19da-8120-b2c5-c209103fb178",
         "notionUrl": "https://app.notion.com/p/3ae229d219da8120b2c5c209103fb178"
@@ -1207,8 +1316,12 @@ window.RESCENE_HOMEPAGE = {
         "anchor": "link-bubble-app",
         "order": 5000,
         "translations": {
-          "ko": {},
-          "en": {}
+          "ko": {
+            "buttonLabel": "RESCENE bubble 열기 ↗"
+          },
+          "en": {
+            "buttonLabel": "Open RESCENE bubble ↗"
+          }
         },
         "notionPageId": "3ae229d2-19da-8101-945c-cbe165965b39",
         "notionUrl": "https://app.notion.com/p/RESCENE-bubble-3ae229d219da8101945ccbe165965b39"
@@ -1302,8 +1415,12 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "home-settings",
       "order": 0,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "description": "향기처럼 기억에 남는 RESCENE의 음악과 순간을 일본의 REMINE으로. 최신 뉴스, 일정, 작품, 응원 정보를 정리하고 있습니다."
+        },
+        "en": {
+          "description": "The music and moments of RESCENE that will remain in your memory like a fragrance, go to REMINE in Japan. The latest news, schedules, works, and support information are summarized."
+        }
       },
       "notionPageId": "3a3229d2-19da-816a-89a2-ebda0d0656b9",
       "notionUrl": "https://app.notion.com/p/3a3229d219da816a89a2ebda0d0656b9"
@@ -1330,8 +1447,18 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "hero",
       "order": 10,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "description": "향기처럼 기억에 남는 RESCENE의 음악과 순간을 일본의 REMINE으로. 최신 뉴스, 일정, 작품, 응원 정보를 정리하고 있습니다.",
+          "buttonLabel": "최신 정보를 확인합니다",
+          "secondaryButtonLabel": "스케줄",
+          "thirdButtonLabel": "응원 방법 보기"
+        },
+        "en": {
+          "description": "The music and moments of RESCENE that will remain in your memory like a fragrance, go to REMINE in Japan. The latest news, schedules, works, and support information are summarized.",
+          "buttonLabel": "See the latest information",
+          "secondaryButtonLabel": "Schedule",
+          "thirdButtonLabel": "See how to support"
+        }
       },
       "notionPageId": "3a3229d2-19da-8138-9cf5-f02dfda70b46",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81389cf5f02dfda70b46"
@@ -1358,8 +1485,12 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "latest",
       "order": 20,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "heading": "최신 정보 요약"
+        },
+        "en": {
+          "heading": "Summary of the latest information"
+        }
       },
       "notionPageId": "3a3229d2-19da-81cd-950b-eaa7d6d3da99",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81cd950beaa7d6d3da99"
@@ -1386,8 +1517,14 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "quick-heading",
       "order": 30,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "heading": "먼저 보는 페이지",
+          "buttonLabel": "뉴스 목록으로 →"
+        },
+        "en": {
+          "heading": "First page to view",
+          "buttonLabel": "To the news list →"
+        }
       },
       "notionPageId": "3a3229d2-19da-8111-9402-e4ff914cf438",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81119402e4ff914cf438"
@@ -1414,8 +1551,14 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "quick-news",
       "order": 31,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "heading": "뉴스",
+          "description": "릴리스·이벤트·공지"
+        },
+        "en": {
+          "heading": "NEWS",
+          "description": "Release, event, announcement"
+        }
       },
       "notionPageId": "3a3229d2-19da-816e-bb6a-d18aea03fd87",
       "notionUrl": "https://app.notion.com/p/3a3229d219da816ebb6ad18aea03fd87"
@@ -1442,8 +1585,12 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "quick-schedule",
       "order": 32,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "heading": "스케줄"
+        },
+        "en": {
+          "heading": "Schedule"
+        }
       },
       "notionPageId": "3a3229d2-19da-81f6-a67c-c5d9ce8fd556",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81f6a67cc5d9ce8fd556"
@@ -1470,8 +1617,14 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "quick-streaming",
       "order": 33,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "heading": "스트리밍",
+          "description": "음원·MV 재생 가이드"
+        },
+        "en": {
+          "heading": "Streaming",
+          "description": "Sound source and MV playback guide"
+        }
       },
       "notionPageId": "3a3229d2-19da-8155-bb53-cd5f9bd21d84",
       "notionUrl": "https://app.notion.com/p/3a3229d219da8155bb53cd5f9bd21d84"
@@ -1498,8 +1651,14 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "quick-voting",
       "order": 34,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "heading": "투표 가이드",
+          "description": "음악 방송을 응원하는 방법"
+        },
+        "en": {
+          "heading": "Voting guide",
+          "description": "How to support the music show"
+        }
       },
       "notionPageId": "3a3229d2-19da-81c3-abb3-c7c8fe39d017",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81c3abb3c7c8fe39d017"
@@ -1526,8 +1685,16 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "about-focus",
       "order": 40,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "description": "향을 통해 장면을 떠올리듯, 음악은 사람들의 기억에 오래 남습니다. RESCENE의 세계관과 5명의 멤버를 소개합니다.",
+          "buttonLabel": "RESCENE을 알다",
+          "secondaryButtonLabel": "멤버 보기"
+        },
+        "en": {
+          "description": "It remains in people's memory for a long time with music, just like remembering the scene through the scent. We will introduce the worldview of RESCENE and the 5 members.",
+          "buttonLabel": "Get to know RESCENE",
+          "secondaryButtonLabel": "See the members"
+        }
       },
       "notionPageId": "3a3229d2-19da-81da-91c1-c77c3987a475",
       "notionUrl": "https://app.notion.com/p/RESCENE-3a3229d219da81da91c1c77c3987a475"
@@ -1638,8 +1805,12 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "routes-heading",
       "order": 50,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "heading": "처음 온 분께"
+        },
+        "en": {
+          "heading": "To the first visitor"
+        }
       },
       "notionPageId": "3a3229d2-19da-810f-b5f4-ee9b3239b66e",
       "notionUrl": "https://app.notion.com/p/3a3229d219da810fb5f4ee9b3239b66e"
@@ -1666,8 +1837,14 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "route-about",
       "order": 51,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "heading": "RESCENE을 배우세요",
+          "description": "그룹의 콘셉트와 걸음"
+        },
+        "en": {
+          "heading": "Learn RESCENE",
+          "description": "The concept and pace of the group"
+        }
       },
       "notionPageId": "3a3229d2-19da-8162-96c9-e157c554d289",
       "notionUrl": "https://app.notion.com/p/RESCENE-3a3229d219da816296c9e157c554d289"
@@ -1694,8 +1871,12 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "route-members",
       "order": 52,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "heading": "5명을 배우다"
+        },
+        "en": {
+          "heading": "Get to know 5 people"
+        }
       },
       "notionPageId": "3a3229d2-19da-81cd-a5d0-c98b76c8b294",
       "notionUrl": "https://app.notion.com/p/5-3a3229d219da81cda5d0c98b76c8b294"
@@ -1722,8 +1903,13 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "route-music",
       "order": 53,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "heading": "음악을 듣다"
+        },
+        "en": {
+          "heading": "Listening to music",
+          "description": "Album, single, MV"
+        }
       },
       "notionPageId": "3a3229d2-19da-81c7-87ef-da21043b7fcc",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81c787efda21043b7fcc"
@@ -1750,8 +1936,14 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "route-support",
       "order": 54,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "heading": "함께 응원한다",
+          "description": "스트리밍과 투표의 기본"
+        },
+        "en": {
+          "heading": "We support you together",
+          "description": "Basics of streaming and voting"
+        }
       },
       "notionPageId": "3a3229d2-19da-8116-b639-c63f220a2f32",
       "notionUrl": "https://app.notion.com/p/3a3229d219da8116b639c63f220a2f32"
@@ -1778,8 +1970,14 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "members-heading",
       "order": 60,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "heading": "멤버",
+          "buttonLabel": "프로필 보기 →"
+        },
+        "en": {
+          "heading": "Member",
+          "buttonLabel": "View profile →"
+        }
       },
       "notionPageId": "3a3229d2-19da-810b-97a7-e3f86c51e38d",
       "notionUrl": "https://app.notion.com/p/3a3229d219da810b97a7e3f86c51e38d"
@@ -1806,8 +2004,14 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "official-heading",
       "order": 70,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "heading": "공식 링크",
+          "buttonLabel": "전체 보기 →"
+        },
+        "en": {
+          "heading": "Official link",
+          "buttonLabel": "See all →"
+        }
       },
       "notionPageId": "3a3229d2-19da-81c6-93a2-e5e7c35a67ff",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81c693a2e5e7c35a67ff"
@@ -1834,8 +2038,12 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "footer-main",
       "order": 80,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "description": "RESCENE를 일본에서 응원하는 비공식 팬베이스입니다."
+        },
+        "en": {
+          "description": "It is an unofficial fan base that supports RESCENE from Japan."
+        }
       },
       "notionPageId": "3a3229d2-19da-8130-af12-dafb87073752",
       "notionUrl": "https://app.notion.com/p/3a3229d219da8130af12dafb87073752"
@@ -1862,8 +2070,12 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "footer-note",
       "order": 81,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "description": "공식 정보는 RESCENE 및 소속 사무소·각 주최자의 안내도 함께 확인해 주시기 바랍니다."
+        },
+        "en": {
+          "description": "Please also check the official information of RESCENE and the information of the agency and each organizer."
+        }
       },
       "notionPageId": "3a3229d2-19da-8187-8a69-dab1354edfea",
       "notionUrl": "https://app.notion.com/p/3a3229d219da81878a69dab1354edfea"
@@ -1890,8 +2102,14 @@ window.RESCENE_HOMEPAGE = {
       "anchor": "not-found",
       "order": 90,
       "translations": {
-        "ko": {},
-        "en": {}
+        "ko": {
+          "heading": "페이지를 찾을 수 없습니다",
+          "buttonLabel": "홈으로 돌아가기"
+        },
+        "en": {
+          "heading": "I can't find the page",
+          "buttonLabel": "Back to the home page"
+        }
       },
       "notionPageId": "3a3229d2-19da-81da-89f3-c18d28fb9a9b",
       "notionUrl": "https://app.notion.com/p/404-3a3229d219da81da89f3c18d28fb9a9b"

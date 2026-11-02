@@ -1,79 +1,31 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-10-26T12:50:00.522841+00:00",
+  "generatedAt": "2026-11-02T15:35:20.427195+00:00",
   "items": [
     {
-      "date": "2026-10-26",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "aaf275b",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/quality-report.json"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "8e5be20",
-      "files": [
-        "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-10-25",
+      "date": "2026-11-01",
       "title": "chore: update external link report",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "ab3862f",
+      "commit": "2418b59",
       "files": [
         "data/external-link-report.json"
       ]
     },
     {
-      "date": "2026-10-25",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "1cd79ef",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "85a3a02",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/seo-status.json"
-      ]
-    },
-    {
-      "date": "2026-10-25",
+      "date": "2026-11-01",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "0240d5f",
+      "commit": "83c2f8f",
       "files": [
         "data/youtube-channels.json"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "356cb38",
+      "files": [
+        "data/external-link-report.json"
       ]
     },
     {
