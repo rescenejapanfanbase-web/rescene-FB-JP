@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T11:16:25.493Z",
+  "generatedAt": "2026-11-03T11:50:23.127Z",
   "source": "git-history",
   "guides": [
     {
@@ -8,8 +8,8 @@
       "summary": "アルバム、シングル、OST、収録曲と配信リンクを掲載しています。",
       "url": "discography.html",
       "category": "DISCOGRAPHY",
-      "updatedAt": "2026-11-03T11:16:25.493Z",
-      "commit": "69e4dedd0"
+      "updatedAt": "2026-11-03T11:16:45Z",
+      "commit": "6bd64ca28"
     },
     {
       "key": "voting",
