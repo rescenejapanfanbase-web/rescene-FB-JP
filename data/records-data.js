@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-11-02T15:35:09.567Z",
+  "generatedAt": "2026-11-03T09:11:14.512Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -397,6 +397,22 @@ window.RESCENE_RECORDS = {
       },
       "notionPageId": "3a8229d2-19da-8127-a70b-cda37cd8f8da",
       "notionUrl": "https://app.notion.com/p/Pretty-Girl-Melon-3a8229d219da8127a70bcda37cd8f8da"
+    },
+    {
+      "title": "WITH — Melonチャート",
+      "song": "WITH",
+      "releaseDate": "2026-11-03",
+      "top100Peak": null,
+      "top100PeakDate": "",
+      "dailyPeak": null,
+      "dailyPeakDate": "",
+      "description": "2026年初のアルバム｢PULSE｣のタイトル曲",
+      "mvUrl": "https://youtu.be/pey3E47eSc8?si=bPDY2K1aXB0y6k1-",
+      "image": "assets/records/notion/record-3f7229d219da80aba7a3f046c6177f47-d35442fd0de3.jpg",
+      "order": 9999,
+      "translations": {},
+      "notionPageId": "3f7229d2-19da-80ab-a7a3-f046c6177f47",
+      "notionUrl": "https://app.notion.com/p/WITH-Melon-3f7229d219da80aba7a3f046c6177f47"
     }
   ]
 };

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-11-03T06:37:12Z",
+  "generatedAt": "2026-11-03T09:11:37Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -2385,6 +2385,33 @@
         }
       ],
       "default": "assets/optimized/369490594f8ecc06/notion-3be229d219da80c98f38f4d8bbf4caa9-36949059-w1366.webp"
+    },
+    "assets/records/notion/record-3f7229d219da80aba7a3f046c6177f47-d35442fd0de3.jpg": {
+      "asset": "d35442fd0de3063f",
+      "originalBytes": 195439,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/d35442fd0de3063f/record-3f7229d219da80aba7a3f046c6177f47-d35442fd-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 27744
+        },
+        {
+          "src": "assets/optimized/d35442fd0de3063f/record-3f7229d219da80aba7a3f046c6177f47-d35442fd-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 57088
+        },
+        {
+          "src": "assets/optimized/d35442fd0de3063f/record-3f7229d219da80aba7a3f046c6177f47-d35442fd-w1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 127138
+        }
+      ],
+      "default": "assets/optimized/d35442fd0de3063f/record-3f7229d219da80aba7a3f046c6177f47-d35442fd-w1280.webp"
     },
     "assets/voting/apps/bigc.webp": {
       "asset": "27f361fbd4cf2415",
@@ -12220,6 +12247,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/d2dd3d0d18bab28d/bigc-earn-1-w1014.webp"
+    },
+    "d35442fd0de3063f": {
+      "hash": "d35442fd0de3063f81e9e99bbdc51c6fe461231f29459b270c298b1b0a69db7f",
+      "width": 1280,
+      "height": 720,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/d35442fd0de3063f/record-3f7229d219da80aba7a3f046c6177f47-d35442fd-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 27744
+        },
+        {
+          "src": "assets/optimized/d35442fd0de3063f/record-3f7229d219da80aba7a3f046c6177f47-d35442fd-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 57088
+        },
+        {
+          "src": "assets/optimized/d35442fd0de3063f/record-3f7229d219da80aba7a3f046c6177f47-d35442fd-w1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 127138
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/d35442fd0de3063f/record-3f7229d219da80aba7a3f046c6177f47-d35442fd-w1280.webp"
     },
     "d61d0ac09c5d12f5": {
       "hash": "d61d0ac09c5d12f5fb8b5bd9b1ad89e71b42b36e9f74a52ab48c5c3b68503b6b",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T06:36:59.258Z",
+  "generatedAt": "2026-11-03T09:11:25.131Z",
   "source": "git-history",
   "guides": [
     {
@@ -8,8 +8,8 @@
       "summary": "音楽番組の投票方法、アプリ、スコア配分を確認できます。",
       "url": "voting.html",
       "category": "VOTING",
-      "updatedAt": "2026-11-03T06:36:59.258Z",
-      "commit": "69e4dedd0"
+      "updatedAt": "2026-11-03T06:37:18Z",
+      "commit": "46ba6fbcb"
     },
     {
       "key": "discography",
