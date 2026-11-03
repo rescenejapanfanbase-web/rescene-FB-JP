@@ -1,5 +1,5 @@
 window.RESCENE_CHANTS = {
-  "generatedAt": "2026-07-20T09:41:04.951Z",
+  "generatedAt": "2026-11-03T11:16:19.354Z",
   "source": "notion",
   "dataSourceId": "bc32e32a-adcb-418d-828b-03ea458d4560",
   "notionDatabaseUrl": "https://app.notion.com/p/1616bd27522949b582095498f939aea9",
@@ -48,6 +48,11 @@ window.RESCENE_CHANTS = {
       "key": "re-scene",
       "title": "Re:Scene",
       "order": 90
+    },
+    {
+      "key": "pulse",
+      "title": "PULSE",
+      "order": 100
     }
   ],
   "chants": [
@@ -266,6 +271,24 @@ window.RESCENE_CHANTS = {
       "published": true,
       "notionPageId": "3a3229d2-19da-8165-9692-e6ea4fad3160",
       "notionUrl": "https://app.notion.com/p/YoYo-3a3229d219da81659692e6ea4fad3160"
+    },
+    {
+      "anchor": "chant-with",
+      "slug": "with",
+      "title": "With",
+      "album": "PULSE",
+      "categoryKey": "pulse",
+      "categoryTitle": "PULSE",
+      "categoryOrder": 100,
+      "image": "assets/chants/notion/with.png",
+      "videoUrl": "https://youtu.be/cLtl2aFq_6M?si=vLAcLBUzGJRrsGlC",
+      "videoType": "公式",
+      "note": "",
+      "buttonLabel": "公式掛け声動画を見る",
+      "order": 9999,
+      "published": true,
+      "notionPageId": "3f7229d2-19da-800a-b00c-c607b6cf9fd0",
+      "notionUrl": "https://app.notion.com/p/With-3f7229d219da800ab00cc607b6cf9fd0"
     }
   ]
 };

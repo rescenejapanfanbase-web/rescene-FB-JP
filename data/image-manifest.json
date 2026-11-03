@@ -1,9 +1,36 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-11-03T09:11:37Z",
+  "generatedAt": "2026-11-03T11:16:39Z",
   "baseDirectory": "assets/optimized",
   "images": {
+    "assets/chants/notion/with.png": {
+      "asset": "26955591e1bc6756",
+      "originalBytes": 2277827,
+      "width": 1600,
+      "height": 900,
+      "variants": [
+        {
+          "src": "assets/optimized/26955591e1bc6756/with-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 25772
+        },
+        {
+          "src": "assets/optimized/26955591e1bc6756/with-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 59306
+        },
+        {
+          "src": "assets/optimized/26955591e1bc6756/with-w1440.webp",
+          "width": 1440,
+          "height": 810,
+          "bytes": 153860
+        }
+      ],
+      "default": "assets/optimized/26955591e1bc6756/with-w1440.webp"
+    },
     "assets/group/debut-era.png": {
       "asset": "6bf301e3bea18e0f",
       "originalBytes": 6287764,
@@ -8327,6 +8354,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/23d27070b0fc1675/bubble-w512.webp"
+    },
+    "26955591e1bc6756": {
+      "hash": "26955591e1bc67562e0fa71a78b75017b39d7d14ec167e2220603e7cfe718295",
+      "width": 1600,
+      "height": 900,
+      "format": "png",
+      "alpha": true,
+      "quality": 91,
+      "variants": [
+        {
+          "src": "assets/optimized/26955591e1bc6756/with-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 25772
+        },
+        {
+          "src": "assets/optimized/26955591e1bc6756/with-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 59306
+        },
+        {
+          "src": "assets/optimized/26955591e1bc6756/with-w1440.webp",
+          "width": 1440,
+          "height": 810,
+          "bytes": 153860
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/26955591e1bc6756/with-w1440.webp"
     },
     "271d0b11817bd3fe": {
       "hash": "271d0b11817bd3fe9185a57afbb65093919b03c5ab14cb8c19660465eceb8458",
