@@ -1,9 +1,36 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-11-03T11:16:39Z",
+  "generatedAt": "2026-11-03T13:11:20Z",
   "baseDirectory": "assets/optimized",
   "images": {
+    "assets/chants/notion/insideout.png": {
+      "asset": "3aa8c732c32c1c19",
+      "originalBytes": 2399958,
+      "width": 1600,
+      "height": 900,
+      "variants": [
+        {
+          "src": "assets/optimized/3aa8c732c32c1c19/insideout-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 29748
+        },
+        {
+          "src": "assets/optimized/3aa8c732c32c1c19/insideout-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 67896
+        },
+        {
+          "src": "assets/optimized/3aa8c732c32c1c19/insideout-w1440.webp",
+          "width": 1440,
+          "height": 810,
+          "bytes": 180602
+        }
+      ],
+      "default": "assets/optimized/3aa8c732c32c1c19/insideout-w1440.webp"
+    },
     "assets/chants/notion/with.png": {
       "asset": "26955591e1bc6756",
       "originalBytes": 2277827,
@@ -8700,6 +8727,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/3a498f1607257e1a/rescene-group-w1440.webp"
+    },
+    "3aa8c732c32c1c19": {
+      "hash": "3aa8c732c32c1c195afe7d76c19728e460740441d3b1a5849818540d39c38cc5",
+      "width": 1600,
+      "height": 900,
+      "format": "png",
+      "alpha": true,
+      "quality": 91,
+      "variants": [
+        {
+          "src": "assets/optimized/3aa8c732c32c1c19/insideout-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 29748
+        },
+        {
+          "src": "assets/optimized/3aa8c732c32c1c19/insideout-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 67896
+        },
+        {
+          "src": "assets/optimized/3aa8c732c32c1c19/insideout-w1440.webp",
+          "width": 1440,
+          "height": 810,
+          "bytes": 180602
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/3aa8c732c32c1c19/insideout-w1440.webp"
     },
     "3af87005012759bb": {
       "hash": "3af87005012759bb1c3785a1844580c87646e13d58f46177444c7f3f3e80be2f",

@@ -1,5 +1,5 @@
 window.RESCENE_CHANTS = {
-  "generatedAt": "2026-11-03T11:16:19.354Z",
+  "generatedAt": "2026-11-03T13:10:59.370Z",
   "source": "notion",
   "dataSourceId": "bc32e32a-adcb-418d-828b-03ea458d4560",
   "notionDatabaseUrl": "https://app.notion.com/p/1616bd27522949b582095498f939aea9",
@@ -289,6 +289,24 @@ window.RESCENE_CHANTS = {
       "published": true,
       "notionPageId": "3f7229d2-19da-800a-b00c-c607b6cf9fd0",
       "notionUrl": "https://app.notion.com/p/With-3f7229d219da800ab00cc607b6cf9fd0"
+    },
+    {
+      "anchor": "chant-insideout",
+      "slug": "insideout",
+      "title": "백화요란(Inside Out)",
+      "album": "PULSE",
+      "categoryKey": "pulse",
+      "categoryTitle": "PULSE",
+      "categoryOrder": 9999,
+      "image": "assets/chants/notion/insideout.png",
+      "videoUrl": "https://youtu.be/cL_B5W4gBRU?si=6ZJ3dGV_jodyXitw",
+      "videoType": "公式",
+      "note": "",
+      "buttonLabel": "公式掛け声動画を見る",
+      "order": 9999,
+      "published": true,
+      "notionPageId": "40d229d2-19da-80f7-aaaf-deb167c64fec",
+      "notionUrl": "https://app.notion.com/p/Inside-Out-40d229d219da80f7aaafdeb167c64fec"
     }
   ]
 };
