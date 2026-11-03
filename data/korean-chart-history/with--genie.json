@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "songId": "with",
-  "songTitle": "WITH",
+  "songTitle": "With",
   "chartId": "genie",
   "chartName": "Genie Real-time",
   "points": [
@@ -414,25 +414,31 @@
       "chartAt": "2026-11-03T18:00:00+09:00",
       "checkedAt": "2026-11-03T18:43:40+09:00",
       "rank": null
+    },
+    {
+      "chartAt": "2026-11-03T23:00:00+09:00",
+      "checkedAt": "2026-11-03T23:59:32+09:00",
+      "rank": 1,
+      "sourceRank": 1
     }
   ],
   "outOfChartHistory": [
     {
       "startAt": "2026-10-23T18:00:00+09:00",
-      "endAt": "",
+      "endAt": "2026-11-03T23:00:00+09:00",
       "lastObservedAt": "2026-11-03T18:00:00+09:00",
-      "lastCheckedAt": "2026-11-03T18:43:40+09:00",
+      "lastCheckedAt": "2026-11-03T23:59:32+09:00",
       "observations": 82
     }
   ],
-  "generatedAt": "2026-11-03T18:43:40+09:00",
+  "generatedAt": "2026-11-03T23:59:32+09:00",
   "summary": {
-    "peakRank": null,
-    "firstChartedAt": "",
-    "lastChartedAt": "",
-    "chartDays": 0,
-    "currentRank": null,
-    "status": "out",
-    "pointCount": 82
+    "peakRank": 1,
+    "firstChartedAt": "2026-11-03T23:00:00+09:00",
+    "lastChartedAt": "2026-11-03T23:00:00+09:00",
+    "chartDays": 1,
+    "currentRank": 1,
+    "status": "in",
+    "pointCount": 83
   }
 }
