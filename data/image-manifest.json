@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-11-03T13:11:20Z",
+  "generatedAt": "2026-11-03T13:29:36Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/chants/notion/insideout.png": {
@@ -2466,6 +2466,114 @@
         }
       ],
       "default": "assets/optimized/d35442fd0de3063f/record-3f7229d219da80aba7a3f046c6177f47-d35442fd-w1280.webp"
+    },
+    "assets/records/notion/record-40d229d219da80048a6bd524a9022aa6-301f9aa1968e.jpg": {
+      "asset": "301f9aa1968e89b3",
+      "originalBytes": 205486,
+      "width": 1366,
+      "height": 2048,
+      "variants": [
+        {
+          "src": "assets/optimized/301f9aa1968e89b3/record-40d229d219da80048a6bd524a9022aa6-301f9aa1-w480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 30164
+        },
+        {
+          "src": "assets/optimized/301f9aa1968e89b3/record-40d229d219da80048a6bd524a9022aa6-301f9aa1-w768.webp",
+          "width": 768,
+          "height": 1151,
+          "bytes": 59126
+        },
+        {
+          "src": "assets/optimized/301f9aa1968e89b3/record-40d229d219da80048a6bd524a9022aa6-301f9aa1-w1366.webp",
+          "width": 1366,
+          "height": 2048,
+          "bytes": 151184
+        }
+      ],
+      "default": "assets/optimized/301f9aa1968e89b3/record-40d229d219da80048a6bd524a9022aa6-301f9aa1-w1366.webp"
+    },
+    "assets/records/notion/record-40d229d219da80a09074f692147da3ec-60d61a50ca66.png": {
+      "asset": "60d61a50ca66c868",
+      "originalBytes": 1233827,
+      "width": 1280,
+      "height": 960,
+      "variants": [
+        {
+          "src": "assets/optimized/60d61a50ca66c868/record-40d229d219da80a09074f692147da3ec-60d61a50-w480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 33286
+        },
+        {
+          "src": "assets/optimized/60d61a50ca66c868/record-40d229d219da80a09074f692147da3ec-60d61a50-w768.webp",
+          "width": 768,
+          "height": 576,
+          "bytes": 63628
+        },
+        {
+          "src": "assets/optimized/60d61a50ca66c868/record-40d229d219da80a09074f692147da3ec-60d61a50-w1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 125242
+        }
+      ],
+      "default": "assets/optimized/60d61a50ca66c868/record-40d229d219da80a09074f692147da3ec-60d61a50-w1280.webp"
+    },
+    "assets/records/notion/record-40d229d219da80a4a547df25cc06469f-94d2c7ee6d3d.jpg": {
+      "asset": "94d2c7ee6d3d1616",
+      "originalBytes": 329218,
+      "width": 2048,
+      "height": 1390,
+      "variants": [
+        {
+          "src": "assets/optimized/94d2c7ee6d3d1616/record-40d229d219da80a4a547df25cc06469f-94d2c7ee-w480.webp",
+          "width": 480,
+          "height": 326,
+          "bytes": 28016
+        },
+        {
+          "src": "assets/optimized/94d2c7ee6d3d1616/record-40d229d219da80a4a547df25cc06469f-94d2c7ee-w768.webp",
+          "width": 768,
+          "height": 521,
+          "bytes": 57012
+        },
+        {
+          "src": "assets/optimized/94d2c7ee6d3d1616/record-40d229d219da80a4a547df25cc06469f-94d2c7ee-w1440.webp",
+          "width": 1440,
+          "height": 977,
+          "bytes": 153788
+        }
+      ],
+      "default": "assets/optimized/94d2c7ee6d3d1616/record-40d229d219da80a4a547df25cc06469f-94d2c7ee-w1440.webp"
+    },
+    "assets/records/notion/record-40d229d219da80cf9d07fa1e3d1f8a3f-19f88b3740eb.png": {
+      "asset": "19f88b3740ebb45d",
+      "originalBytes": 1506890,
+      "width": 1280,
+      "height": 960,
+      "variants": [
+        {
+          "src": "assets/optimized/19f88b3740ebb45d/record-40d229d219da80cf9d07fa1e3d1f8a3f-19f88b37-w480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 42114
+        },
+        {
+          "src": "assets/optimized/19f88b3740ebb45d/record-40d229d219da80cf9d07fa1e3d1f8a3f-19f88b37-w768.webp",
+          "width": 768,
+          "height": 576,
+          "bytes": 85852
+        },
+        {
+          "src": "assets/optimized/19f88b3740ebb45d/record-40d229d219da80cf9d07fa1e3d1f8a3f-19f88b37-w1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 172646
+        }
+      ],
+      "default": "assets/optimized/19f88b3740ebb45d/record-40d229d219da80cf9d07fa1e3d1f8a3f-19f88b37-w1280.webp"
     },
     "assets/voting/apps/bigc.webp": {
       "asset": "27f361fbd4cf2415",
@@ -8102,6 +8210,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/19e3024ce1d3cb7f/mnetplus-vote-2-w1052.webp"
     },
+    "19f88b3740ebb45d": {
+      "hash": "19f88b3740ebb45d89f5c3362ec8e15689f0185fc5e53459821158cba51c9249",
+      "width": 1280,
+      "height": 960,
+      "format": "png",
+      "alpha": true,
+      "quality": 91,
+      "variants": [
+        {
+          "src": "assets/optimized/19f88b3740ebb45d/record-40d229d219da80cf9d07fa1e3d1f8a3f-19f88b37-w480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 42114
+        },
+        {
+          "src": "assets/optimized/19f88b3740ebb45d/record-40d229d219da80cf9d07fa1e3d1f8a3f-19f88b37-w768.webp",
+          "width": 768,
+          "height": 576,
+          "bytes": 85852
+        },
+        {
+          "src": "assets/optimized/19f88b3740ebb45d/record-40d229d219da80cf9d07fa1e3d1f8a3f-19f88b37-w1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 172646
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/19f88b3740ebb45d/record-40d229d219da80cf9d07fa1e3d1f8a3f-19f88b37-w1280.webp"
+    },
     "1a77f0125c0b3cf8": {
       "hash": "1a77f0125c0b3cf8f402bfd75e4201bbd65f194416e5e27e3c9b609a4a672596",
       "width": 1008,
@@ -8577,6 +8715,36 @@
         512
       ],
       "default": "assets/optimized/2b9e76d19c189832/app-icon-maskable-512-w480.webp"
+    },
+    "301f9aa1968e89b3": {
+      "hash": "301f9aa1968e89b3f3c3a069e88b1ebd4245ec105deb7de2a2032cf8029ce0b2",
+      "width": 1366,
+      "height": 2048,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/301f9aa1968e89b3/record-40d229d219da80048a6bd524a9022aa6-301f9aa1-w480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 30164
+        },
+        {
+          "src": "assets/optimized/301f9aa1968e89b3/record-40d229d219da80048a6bd524a9022aa6-301f9aa1-w768.webp",
+          "width": 768,
+          "height": 1151,
+          "bytes": 59126
+        },
+        {
+          "src": "assets/optimized/301f9aa1968e89b3/record-40d229d219da80048a6bd524a9022aa6-301f9aa1-w1366.webp",
+          "width": 1366,
+          "height": 2048,
+          "bytes": 151184
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/301f9aa1968e89b3/record-40d229d219da80048a6bd524a9022aa6-301f9aa1-w1366.webp"
     },
     "361f6ce00ebb4cb6": {
       "hash": "361f6ce00ebb4cb609858c65ea3fd2ae7c0081001cbc1bc229f8757d68bb6941",
@@ -9912,6 +10080,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/6092fb4f1c5b6213/heart-drop-w1280.webp"
     },
+    "60d61a50ca66c868": {
+      "hash": "60d61a50ca66c868950f4e4009ea88643e9d1676ea56ee46d85065f55d6fd9f3",
+      "width": 1280,
+      "height": 960,
+      "format": "png",
+      "alpha": true,
+      "quality": 91,
+      "variants": [
+        {
+          "src": "assets/optimized/60d61a50ca66c868/record-40d229d219da80a09074f692147da3ec-60d61a50-w480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 33286
+        },
+        {
+          "src": "assets/optimized/60d61a50ca66c868/record-40d229d219da80a09074f692147da3ec-60d61a50-w768.webp",
+          "width": 768,
+          "height": 576,
+          "bytes": 63628
+        },
+        {
+          "src": "assets/optimized/60d61a50ca66c868/record-40d229d219da80a09074f692147da3ec-60d61a50-w1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 125242
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/60d61a50ca66c868/record-40d229d219da80a09074f692147da3ec-60d61a50-w1280.webp"
+    },
     "6272e2bbb871c10b": {
       "hash": "6272e2bbb871c10bad784bf05671135ba294365bce385939ba0e9f5e79680c6f",
       "width": 1280,
@@ -11001,6 +11199,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/94ce4c0204ee1dcf/idolchamp-earn-1-w1024.webp"
+    },
+    "94d2c7ee6d3d1616": {
+      "hash": "94d2c7ee6d3d1616d475540d62eaf5e2427230506742a71f05de079c65a1c5f5",
+      "width": 2048,
+      "height": 1390,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/94d2c7ee6d3d1616/record-40d229d219da80a4a547df25cc06469f-94d2c7ee-w480.webp",
+          "width": 480,
+          "height": 326,
+          "bytes": 28016
+        },
+        {
+          "src": "assets/optimized/94d2c7ee6d3d1616/record-40d229d219da80a4a547df25cc06469f-94d2c7ee-w768.webp",
+          "width": 768,
+          "height": 521,
+          "bytes": 57012
+        },
+        {
+          "src": "assets/optimized/94d2c7ee6d3d1616/record-40d229d219da80a4a547df25cc06469f-94d2c7ee-w1440.webp",
+          "width": 1440,
+          "height": 977,
+          "bytes": 153788
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/94d2c7ee6d3d1616/record-40d229d219da80a4a547df25cc06469f-94d2c7ee-w1440.webp"
     },
     "963879f527005a22": {
       "hash": "963879f527005a22c68c634aa07cc6814863d7b2c3b72a899d687412ab9421bd",
