@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-10-26T12:50:12Z",
+  "generatedAt": "2026-11-03T06:37:12Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/group/debut-era.png": {
@@ -3522,6 +3522,27 @@
         }
       ],
       "default": "assets/optimized/ab09e0ec14e2083b/coogoong-40-w400.webp"
+    },
+    "assets/voting/notion/icons/show-k-pop-9999.png": {
+      "asset": "e3a76a3752846559",
+      "originalBytes": 181355,
+      "width": 512,
+      "height": 512,
+      "variants": [
+        {
+          "src": "assets/optimized/e3a76a3752846559/mubeat-w480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 7874
+        },
+        {
+          "src": "assets/optimized/e3a76a3752846559/mubeat-w512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 8494
+        }
+      ],
+      "default": "assets/optimized/e3a76a3752846559/mubeat-w512.webp"
     },
     "assets/voting/showchampion-score.png": {
       "asset": "07b17c8bb644b227",

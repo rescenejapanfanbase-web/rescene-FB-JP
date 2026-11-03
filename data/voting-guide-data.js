@@ -1,5 +1,5 @@
 window.RESCENE_VOTING_GUIDE = {
-  "generatedAt": "2026-11-02T15:35:15.123Z",
+  "generatedAt": "2026-11-03T06:36:54.688Z",
   "source": "notion",
   "dataSourceId": "8e870649-722b-45aa-9b0f-3da6d51b139b",
   "notionDatabaseUrl": "https://app.notion.com/p/db7689f9a5b2445fbe3fb9f7cd9a04de",
@@ -293,6 +293,50 @@ window.RESCENE_VOTING_GUIDE = {
         "note": ""
       },
       "notionUrl": "https://app.notion.com/p/Inkigayo-3a3229d219da810faa3cfcc12e2ad843"
+    },
+    {
+      "title": "SHOW K-POP",
+      "subtitle": "Arirang TV・月曜日",
+      "mark": "SK",
+      "voteType": "事前・リアルタイム",
+      "app": "Mubeat",
+      "currency": "Heart Beats",
+      "period": "事前・リアルタイム",
+      "note": "",
+      "icon": "assets/voting/notion/icons/show-k-pop-9999.png",
+      "order": 9999,
+      "score": {
+        "image": "",
+        "meta": "月曜日 / Mubeat",
+        "items": [
+          {
+            "label": "音源",
+            "value": "45%"
+          },
+          {
+            "label": "音盤",
+            "value": "10%"
+          },
+          {
+            "label": "SNS・ファン指標",
+            "value": "15%"
+          },
+          {
+            "label": "事前投票",
+            "value": "15%"
+          },
+          {
+            "label": "リアルタイム・当日投票",
+            "value": "15%"
+          },
+          {
+            "label": "放送・その他",
+            "value": "放送スコア 5%"
+          }
+        ],
+        "note": ""
+      },
+      "notionUrl": "https://app.notion.com/p/SHOW-K-POP-40c229d219da8092b099c6d17a81bd9d"
     }
   ],
   "apps": [
