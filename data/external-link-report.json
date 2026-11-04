@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T02:35:42Z",
-  "startedAt": "2026-11-03T02:35:38Z",
-  "elapsedSeconds": 4.12,
+  "generatedAt": "2026-11-04T00:49:54Z",
+  "startedAt": "2026-11-04T00:49:48Z",
+  "elapsedSeconds": 6.4,
   "summary": {
-    "checked": 95,
+    "checked": 96,
     "ok": 90,
-    "warning": 5,
+    "warning": 6,
     "broken": 0,
     "hosts": 19
   },
@@ -22,6 +22,14 @@
     {
       "key": "facebook",
       "label": "Facebook",
+      "checked": 1,
+      "ok": 0,
+      "warning": 1,
+      "broken": 0
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
       "checked": 1,
       "ok": 0,
       "warning": 1,
@@ -68,14 +76,6 @@
       "broken": 0
     },
     {
-      "key": "instagram",
-      "label": "Instagram",
-      "checked": 1,
-      "ok": 1,
-      "warning": 0,
-      "broken": 0
-    },
-    {
       "key": "mnetplus",
       "label": "Mnet Plus",
       "checked": 7,
@@ -118,8 +118,8 @@
     {
       "key": "youtube",
       "label": "YouTube",
-      "checked": 17,
-      "ok": 17,
+      "checked": 18,
+      "ok": 18,
       "warning": 0,
       "broken": 0
     }
@@ -140,6 +140,29 @@
           "file": "data/official-links.json",
           "line": 96,
           "label": "Facebook"
+        }
+      ]
+    },
+    {
+      "url": "https://www.instagram.com/rescene_official/",
+      "normalizedUrl": "https://www.instagram.com/rescene_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "warning",
+      "httpStatus": 429,
+      "message": "HTTP 429（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 54,
+          "label": "Instagram"
+        },
+        {
+          "file": "index.html",
+          "line": 142,
+          "label": "Instagram"
         }
       ]
     },
@@ -325,7 +348,7 @@
         },
         {
           "file": "data/voting-guide.json",
-          "line": 405,
+          "line": 449,
           "label": "coogoong"
         },
         {
@@ -384,7 +407,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 308,
+          "line": 352,
           "label": "BIGC"
         },
         {
@@ -407,7 +430,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 459,
+          "line": 503,
           "label": "Mubeat"
         },
         {
@@ -430,7 +453,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 547,
+          "line": 591,
           "label": "HIGHER"
         },
         {
@@ -453,7 +476,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 508,
+          "line": 552,
           "label": "LiNC"
         },
         {
@@ -476,7 +499,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 342,
+          "line": 386,
           "label": "IDOLCHAMP"
         },
         {
@@ -499,7 +522,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 376,
+          "line": 420,
           "label": "Mnet Plus"
         },
         {
@@ -522,7 +545,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 581,
+          "line": 625,
           "label": "Muniverse"
         },
         {
@@ -794,7 +817,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 406,
+          "line": 450,
           "label": "coogoong"
         },
         {
@@ -817,7 +840,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 548,
+          "line": 592,
           "label": "HIGHER"
         },
         {
@@ -840,7 +863,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 343,
+          "line": 387,
           "label": "IDOLCHAMP"
         },
         {
@@ -863,7 +886,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 582,
+          "line": 626,
           "label": "Muniverse"
         },
         {
@@ -886,7 +909,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 460,
+          "line": 504,
           "label": "Mubeat"
         },
         {
@@ -909,7 +932,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 309,
+          "line": 353,
           "label": "BIGC"
         },
         {
@@ -932,7 +955,7 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 509,
+          "line": 553,
           "label": "LiNC"
         },
         {
@@ -955,36 +978,13 @@
       "sources": [
         {
           "file": "data/voting-guide.json",
-          "line": 377,
+          "line": 421,
           "label": "Mnet Plus"
         },
         {
           "file": "voting.html",
           "line": 166,
           "label": "Google Play ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.instagram.com/rescene_official/",
-      "normalizedUrl": "https://www.instagram.com/rescene_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frescene_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 54,
-          "label": "Instagram"
-        },
-        {
-          "file": "index.html",
-          "line": 142,
-          "label": "Instagram"
         }
       ]
     },
@@ -1346,7 +1346,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1793673341067&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1793753392745&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -2136,6 +2136,24 @@
         {
           "file": "melon-records.html",
           "line": 129,
+          "label": "MVを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://youtu.be/pey3E47eSc8?si=bPDY2K1aXB0y6k1-",
+      "normalizedUrl": "https://www.youtube.com/watch?v=pey3E47eSc8",
+      "finalUrl": "https://www.youtube.com/watch?v=pey3E47eSc8",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：RESCENE (리센느) 'With' Official MV。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "melon-records.html",
+          "line": 180,
           "label": "MVを見る ↗"
         }
       ]
