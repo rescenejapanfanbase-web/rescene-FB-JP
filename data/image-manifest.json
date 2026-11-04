@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-11-03T16:08:54Z",
+  "generatedAt": "2026-11-04T13:43:18Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/chants/notion/insideout.png": {
@@ -32,31 +32,31 @@
       "default": "assets/optimized/3aa8c732c32c1c19/insideout-w1440.webp"
     },
     "assets/chants/notion/with.png": {
-      "asset": "26955591e1bc6756",
-      "originalBytes": 2277827,
+      "asset": "563d10dc3c137396",
+      "originalBytes": 2278572,
       "width": 1600,
       "height": 900,
       "variants": [
         {
-          "src": "assets/optimized/26955591e1bc6756/with-w480.webp",
+          "src": "assets/optimized/563d10dc3c137396/with-w480.webp",
           "width": 480,
           "height": 270,
-          "bytes": 25772
+          "bytes": 25802
         },
         {
-          "src": "assets/optimized/26955591e1bc6756/with-w768.webp",
+          "src": "assets/optimized/563d10dc3c137396/with-w768.webp",
           "width": 768,
           "height": 432,
-          "bytes": 59306
+          "bytes": 59418
         },
         {
-          "src": "assets/optimized/26955591e1bc6756/with-w1440.webp",
+          "src": "assets/optimized/563d10dc3c137396/with-w1440.webp",
           "width": 1440,
           "height": 810,
-          "bytes": 153860
+          "bytes": 154230
         }
       ],
-      "default": "assets/optimized/26955591e1bc6756/with-w1440.webp"
+      "default": "assets/optimized/563d10dc3c137396/with-w1440.webp"
     },
     "assets/group/debut-era.png": {
       "asset": "6bf301e3bea18e0f",
@@ -8520,36 +8520,6 @@
       "skippedWidths": [],
       "default": "assets/optimized/23d27070b0fc1675/bubble-w512.webp"
     },
-    "26955591e1bc6756": {
-      "hash": "26955591e1bc67562e0fa71a78b75017b39d7d14ec167e2220603e7cfe718295",
-      "width": 1600,
-      "height": 900,
-      "format": "png",
-      "alpha": true,
-      "quality": 91,
-      "variants": [
-        {
-          "src": "assets/optimized/26955591e1bc6756/with-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 25772
-        },
-        {
-          "src": "assets/optimized/26955591e1bc6756/with-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 59306
-        },
-        {
-          "src": "assets/optimized/26955591e1bc6756/with-w1440.webp",
-          "width": 1440,
-          "height": 810,
-          "bytes": 153860
-        }
-      ],
-      "skippedWidths": [],
-      "default": "assets/optimized/26955591e1bc6756/with-w1440.webp"
-    },
     "271d0b11817bd3fe": {
       "hash": "271d0b11817bd3fe9185a57afbb65093919b03c5ab14cb8c19660465eceb8458",
       "width": 1280,
@@ -9765,6 +9735,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/54565f5c45641106/second-anniversary-project-w1200.webp"
+    },
+    "563d10dc3c137396": {
+      "hash": "563d10dc3c137396105a6c46438b208453e7052ca32f70d26b8f17d4df4a27b5",
+      "width": 1600,
+      "height": 900,
+      "format": "png",
+      "alpha": true,
+      "quality": 91,
+      "variants": [
+        {
+          "src": "assets/optimized/563d10dc3c137396/with-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 25802
+        },
+        {
+          "src": "assets/optimized/563d10dc3c137396/with-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 59418
+        },
+        {
+          "src": "assets/optimized/563d10dc3c137396/with-w1440.webp",
+          "width": 1440,
+          "height": 810,
+          "bytes": 154230
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/563d10dc3c137396/with-w1440.webp"
     },
     "593d06a85356ec9e": {
       "hash": "593d06a85356ec9e10edf0852c87c4695e345cdc144da14889267da39b5bad23",
