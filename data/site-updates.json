@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T02:09:06.654800+00:00",
+  "generatedAt": "2026-11-04T06:04:43.454380+00:00",
   "items": [
     {
       "date": "2026-11-04",
@@ -27,12 +27,19 @@
       ]
     },
     {
-      "date": "2026-11-03",
-      "title": "chore: update external link report",
+      "date": "2026-11-04",
+      "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "b6f794e",
+      "commit": "f38e60f",
       "files": [
-        "data/external-link-report.json"
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/quality-report.json",
+        "data/seo-status.json",
+        "data/site-updates-data.js"
       ]
     },
     {
