@@ -1,8 +1,20 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-10-26T10:16:13.788Z",
-  "sourceNewsGeneratedAt": "2026-10-26T10:16:13.698Z",
+  "generatedAt": "2026-11-04T15:18:18.936Z",
+  "sourceNewsGeneratedAt": "2026-11-04T15:17:51.960Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "with-rak-1ff7016932",
+        "title": "｢With｣で初のRAKを達成！",
+        "date": "2026.11.05",
+        "label": "1st RAK",
+        "image": "assets/news/notion/notion-40e229d219da806abd06e21ff7016932-86a0a834f955.jpg",
+        "text": "2026年11月5日0時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "rescene-official-light-stick-v2-8a21df0051",
         "title": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始！",
@@ -26,21 +38,65 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "同じカテゴリー"
         ]
+      }
+    ],
+    "with-rak-1ff7016932": [
+      {
+        "slug": "love-attack-rak-53bcbaebf5",
+        "title": "｢LOVE ATTACK｣で初のRAKを達成！",
+        "date": "2026.07.28",
+        "label": "1st RAK",
+        "image": "assets/news/notion/notion-3ad229d219da80e4b912ce53bcbaebf5-40e2d9234fa5.jpg",
+        "text": "2026年7月28日23時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "score": 21,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
       },
       {
-        "slug": "rescene-4th-mini-album-pulse-a7a231ff6f",
-        "title": "RESCENE 4th Mini Album『PULSE』の日本共同購入がスタート！",
-        "date": "2026.10.13",
-        "label": "Joint purchase",
-        "image": "assets/news/notion/notion-3f8229d219da80d18fb0d3a7a231ff6f-ce7aa3fcf98e.jpg",
-        "text": "RESCENE 4th Mini Album\n『PULSE』の日本共同購入がスタート！💿💗",
-        "score": 5,
+        "slug": "love-attack-spotify-5-1-814a3b80ac",
+        "title": "LOVE ATTACKが韓国Spotifyチャートで第5世代ガールズグループ最多1位記録を樹立！",
+        "date": "2026.10.12",
+        "label": "New Record",
+        "image": "assets/news/notion/notion-3f7229d219da80ffb229c5814a3b80ac-ed7071d3796d.webp",
+        "text": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日とし、第5世代最多獲得記録を更新しました。",
+        "score": 16,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "love-attack-melon-2026-1-cf541f6166",
+        "title": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立",
+        "date": "2026.09.02",
+        "label": "New Record",
+        "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
+        "text": "2026年9月2日、LOVE ATTACKが日間チャート1位総獲得数を46回とし、2026年Melon日間チャート最多獲得記録を更新しました。",
+        "score": 15,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
         ]
       }
     ],
     "rescene-official-light-stick-v2-8a21df0051": [
+      {
+        "slug": "with-rak-1ff7016932",
+        "title": "｢With｣で初のRAKを達成！",
+        "date": "2026.11.05",
+        "label": "1st RAK",
+        "image": "assets/news/notion/notion-40e229d219da806abd06e21ff7016932-86a0a834f955.jpg",
+        "text": "2026年11月5日0時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "2026-mama-awards-caaa5f7b37",
         "title": "2026 MAMA AWARDSに出演決定！",
@@ -60,18 +116,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "Joint purchase",
         "image": "assets/news/notion/notion-3f8229d219da80d18fb0d3a7a231ff6f-ce7aa3fcf98e.jpg",
         "text": "RESCENE 4th Mini Album\n『PULSE』の日本共同購入がスタート！💿💗",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "love-attack-spotify-5-1-814a3b80ac",
-        "title": "LOVE ATTACKが韓国Spotifyチャートで第5世代ガールズグループ最多1位記録を樹立！",
-        "date": "2026.10.12",
-        "label": "New Record",
-        "image": "assets/news/notion/notion-3f7229d219da80ffb229c5814a3b80ac-ed7071d3796d.webp",
-        "text": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日とし、第5世代最多獲得記録を更新しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -160,6 +204,19 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "rescene-4th-mini-album-pulse-a7a231ff6f": [
       {
+        "slug": "with-rak-1ff7016932",
+        "title": "｢With｣で初のRAKを達成！",
+        "date": "2026.11.05",
+        "label": "1st RAK",
+        "image": "assets/news/notion/notion-40e229d219da806abd06e21ff7016932-86a0a834f955.jpg",
+        "text": "2026年11月5日0時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "score": 14,
+        "reasons": [
+          "同じカテゴリー",
+          "同じ作品"
+        ]
+      },
+      {
         "slug": "pretty-girl-3-1-f2e88c9a20",
         "title": "「Pretty Girl」で3度目の1位を獲得！",
         "date": "2026.08.08",
@@ -179,18 +236,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "light stick",
         "image": "assets/news/notion/notion-405229d219da800a9956d68a21df0051-8659c9e00c7e.jpg",
         "text": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始しました！",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "2026-mama-awards-caaa5f7b37",
-        "title": "2026 MAMA AWARDSに出演決定！",
-        "date": "2026.10.13",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
-        "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -786,6 +831,20 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "love-attack-rak-53bcbaebf5": [
       {
+        "slug": "with-rak-1ff7016932",
+        "title": "｢With｣で初のRAKを達成！",
+        "date": "2026.11.05",
+        "label": "1st RAK",
+        "image": "assets/news/notion/notion-40e229d219da806abd06e21ff7016932-86a0a834f955.jpg",
+        "text": "2026年11月5日0時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "score": 21,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
         "slug": "love-attack-2-1-d8bbf4caa9",
         "title": "「LOVE ATTACK」で2度目の1位を獲得！",
         "date": "2026.08.16",
@@ -806,20 +865,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "3rd WIN",
         "image": "assets/news/notion/notion-3a9229d219da8095a896f2e44b1f8e6e-ce5b428f0828.jpg",
         "text": "2026年7月26日放送のSBS「人気歌謡」で、「LOVE ATTACK」で1位を獲得しました。",
-        "score": 18,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード",
-          "同じ作品"
-        ]
-      },
-      {
-        "slug": "love-attack-inkigayo-realtime-first",
-        "title": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得",
-        "date": "2026.07.12",
-        "label": "RECORD",
-        "image": "assets/mv/love-attack.jpg",
-        "text": "2026年7月12日放送のSBS「人気歌謡」で、「LOVE ATTACK」がリアルタイム投票1位を獲得しました。RESCENEにとって、音楽番組のリアルタイム投票1位は今回が初めてです。",
         "score": 18,
         "reasons": [
           "同じカテゴリー",
@@ -1717,12 +1762,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "love-attack-2-1-d8bbf4caa9",
-        "title": "「LOVE ATTACK」で2度目の1位を獲得！",
-        "date": "2026.08.16",
-        "label": "6th WIN",
-        "image": "assets/news/notion/notion-3be229d219da80c98f38f4d8bbf4caa9-369490594f8e.jpg",
-        "text": "2026年8月16日放送のSBS「人気歌謡」で、「LOVE ATTACK」で2度目の1位を獲得しました。",
+        "slug": "with-rak-1ff7016932",
+        "title": "｢With｣で初のRAKを達成！",
+        "date": "2026.11.05",
+        "label": "1st RAK",
+        "image": "assets/news/notion/notion-40e229d219da806abd06e21ff7016932-86a0a834f955.jpg",
+        "text": "2026年11月5日0時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
         "score": 11,
         "reasons": [
           "共通キーワード",
@@ -1782,6 +1827,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "with-rak-1ff7016932",
+      "date": "2026.11.05",
+      "title": "｢With｣で初のRAKを達成！",
+      "url": "https://rescene-fb.jp/articles/with-rak-1ff7016932.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.11.05】 ｢With｣で初のRAKを達成！\n\nhttps://rescene-fb.jp/articles/with-rak-1ff7016932.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "｢With｣で初のRAKを達成！\n2026年11月5日0時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+      "charCount": 107
     },
     {
       "slug": "rescene-official-light-stick-v2-8a21df0051",

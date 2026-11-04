@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "with-rak-1ff7016932",
+    "date": "2026.11.05",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "1st RAK",
+    "title": "｢With｣で初のRAKを達成！",
+    "text": "2026年11月5日0時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+    "body": "2026年11月5日0時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。※RAKとはREAL TIME ALL KILLの略。Melon,Genie,Bugs,FLO全ての音源チャートのリアルタイム順位で1位を獲得すること。",
+    "image": "assets/news/notion/notion-40e229d219da806abd06e21ff7016932-86a0a834f955.jpg",
+    "sourceLink": "https://x.com/rescene_fb_jp/status/2117995661698457939?a=qSlcuEOphuPWHUI3jeU&s=46",
+    "sourceLabel": "FBのポストを見る",
+    "translations": {},
+    "notionPageId": "40e229d2-19da-806a-bd06-e21ff7016932",
+    "notionUrl": "https://app.notion.com/p/With-RAK-40e229d219da806abd06e21ff7016932"
+  },
+  {
     "slug": "rescene-official-light-stick-v2-8a21df0051",
     "date": "2026.10.26",
     "category": "notice",

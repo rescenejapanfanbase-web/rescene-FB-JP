@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-10-26T10:16:13.698Z",
+  "generatedAt": "2026-11-04T15:17:51.960Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 24,
-  "notionNews": 24,
-  "notionImages": 24,
+  "queriedPages": 25,
+  "notionNews": 25,
+  "notionImages": 25,
   "rows": [
+    {
+      "title": "｢With｣で初のRAKを達成！",
+      "pageId": "40e229d2-19da-806a-bd06-e21ff7016932",
+      "lastEditedTime": "2026-11-04T15:15:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "729519CF-B941-41B4-AE68-F87CF6C0E453.jpeg",
+      "imagePath": "assets/news/notion/notion-40e229d219da806abd06e21ff7016932-86a0a834f955.jpg",
+      "imageBytes": 567068,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始！",
       "pageId": "405229d2-19da-800a-9956-d68a21df0051",
