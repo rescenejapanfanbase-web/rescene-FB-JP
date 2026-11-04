@@ -1,6 +1,6 @@
 window.RESCENE_KOREAN_CHARTS = {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T15:42:32+09:00",
+  "generatedAt": "2026-11-04T16:43:23+09:00",
   "configSource": "notion",
   "charts": [
     {
@@ -3603,13 +3603,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-03T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-          "observations": 95
+          "lastObservedAt": "2026-11-04T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+          "observations": 96
         }
       ],
-      "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-      "chartAt": "2026-11-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+      "chartAt": "2026-11-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/uhuh--spotify-kr.json"
     },
     {
@@ -3631,13 +3631,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-03T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-          "observations": 95
+          "lastObservedAt": "2026-11-04T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+          "observations": 96
         }
       ],
-      "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-      "chartAt": "2026-11-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+      "chartAt": "2026-11-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/yoyo--spotify-kr.json"
     },
     {
@@ -3646,18 +3646,18 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartId": "spotify-kr",
       "chartName": "Spotify Top 50 South Korea",
       "currentRank": 6,
-      "previousRank": 4,
-      "movement": -2,
-      "movementType": "down",
+      "previousRank": 6,
+      "movement": 0,
+      "movementType": "same",
       "status": "in",
       "peakRank": 1,
       "firstChartedAt": "2026-08-01T00:00:00+09:00",
-      "lastChartedAt": "2026-11-03T00:00:00+09:00",
-      "chartDays": 95,
+      "lastChartedAt": "2026-11-04T00:00:00+09:00",
+      "chartDays": 96,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-      "chartAt": "2026-11-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+      "chartAt": "2026-11-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/love-attack--spotify-kr.json"
     },
     {
@@ -3665,15 +3665,15 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Pinball",
       "chartId": "spotify-kr",
       "chartName": "Spotify Top 50 South Korea",
-      "currentRank": 43,
-      "previousRank": 41,
-      "movement": -2,
-      "movementType": "down",
+      "currentRank": 42,
+      "previousRank": 43,
+      "movement": 1,
+      "movementType": "up",
       "status": "in",
       "peakRank": 24,
       "firstChartedAt": "2026-09-24T00:00:00+09:00",
-      "lastChartedAt": "2026-11-03T00:00:00+09:00",
-      "chartDays": 39,
+      "lastChartedAt": "2026-11-04T00:00:00+09:00",
+      "chartDays": 40,
       "outOfChartCount": 3,
       "outOfChartHistory": [
         {
@@ -3698,8 +3698,8 @@ window.RESCENE_KOREAN_CHARTS = {
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-      "chartAt": "2026-11-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+      "chartAt": "2026-11-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pinball--spotify-kr.json"
     },
     {
@@ -3721,13 +3721,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-03T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-          "observations": 95
+          "lastObservedAt": "2026-11-04T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+          "observations": 96
         }
       ],
-      "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-      "chartAt": "2026-11-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+      "chartAt": "2026-11-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/glow-up--spotify-kr.json"
     },
     {
@@ -3735,19 +3735,19 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Deja Vu",
       "chartId": "spotify-kr",
       "chartName": "Spotify Top 50 South Korea",
-      "currentRank": 10,
+      "currentRank": 11,
       "previousRank": 10,
-      "movement": 0,
-      "movementType": "same",
+      "movement": -1,
+      "movementType": "down",
       "status": "in",
       "peakRank": 4,
       "firstChartedAt": "2026-08-01T00:00:00+09:00",
-      "lastChartedAt": "2026-11-03T00:00:00+09:00",
-      "chartDays": 95,
+      "lastChartedAt": "2026-11-04T00:00:00+09:00",
+      "chartDays": 96,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-      "chartAt": "2026-11-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+      "chartAt": "2026-11-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/deja-vu--spotify-kr.json"
     },
     {
@@ -3769,13 +3769,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-03T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-          "observations": 95
+          "lastObservedAt": "2026-11-04T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+          "observations": 96
         }
       ],
-      "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-      "chartAt": "2026-11-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+      "chartAt": "2026-11-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/heart-drop--spotify-kr.json"
     },
     {
@@ -3797,13 +3797,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-03T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-          "observations": 95
+          "lastObservedAt": "2026-11-04T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+          "observations": 96
         }
       ],
-      "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-      "chartAt": "2026-11-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+      "chartAt": "2026-11-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/bloom--spotify-kr.json"
     },
     {
@@ -3825,13 +3825,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-03T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-          "observations": 95
+          "lastObservedAt": "2026-11-04T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+          "observations": 96
         }
       ],
-      "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-      "chartAt": "2026-11-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+      "chartAt": "2026-11-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/busy-boy--spotify-kr.json"
     },
     {
@@ -3839,19 +3839,19 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Runaway",
       "chartId": "spotify-kr",
       "chartName": "Spotify Top 50 South Korea",
-      "currentRank": 47,
-      "previousRank": 39,
-      "movement": -8,
-      "movementType": "down",
+      "currentRank": 41,
+      "previousRank": 47,
+      "movement": 6,
+      "movementType": "up",
       "status": "in",
       "peakRank": 24,
       "firstChartedAt": "2026-08-01T00:00:00+09:00",
-      "lastChartedAt": "2026-11-03T00:00:00+09:00",
-      "chartDays": 95,
+      "lastChartedAt": "2026-11-04T00:00:00+09:00",
+      "chartDays": 96,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-      "chartAt": "2026-11-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+      "chartAt": "2026-11-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/runaway--spotify-kr.json"
     },
     {
@@ -3859,20 +3859,48 @@ window.RESCENE_KOREAN_CHARTS = {
       "songTitle": "Pretty Girl",
       "chartId": "spotify-kr",
       "chartName": "Spotify Top 50 South Korea",
-      "currentRank": 15,
-      "previousRank": 12,
-      "movement": -3,
+      "currentRank": 17,
+      "previousRank": 15,
+      "movement": -2,
       "movementType": "down",
       "status": "in",
       "peakRank": 4,
       "firstChartedAt": "2026-08-01T00:00:00+09:00",
-      "lastChartedAt": "2026-11-03T00:00:00+09:00",
-      "chartDays": 95,
+      "lastChartedAt": "2026-11-04T00:00:00+09:00",
+      "chartDays": 96,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-11-03T17:11:32+09:00",
-      "chartAt": "2026-11-03T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+      "chartAt": "2026-11-04T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pretty-girl--spotify-kr.json"
+    },
+    {
+      "songId": "with",
+      "songTitle": "With",
+      "chartId": "spotify-kr",
+      "chartName": "Spotify Top 50 South Korea",
+      "currentRank": null,
+      "previousRank": null,
+      "movement": null,
+      "movementType": "stay-out",
+      "status": "out",
+      "peakRank": null,
+      "firstChartedAt": "",
+      "lastChartedAt": "",
+      "chartDays": 0,
+      "outOfChartCount": 1,
+      "outOfChartHistory": [
+        {
+          "startAt": "2026-10-24T00:00:00+09:00",
+          "endAt": "",
+          "lastObservedAt": "2026-11-04T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+          "observations": 12
+        }
+      ],
+      "lastCheckedAt": "2026-11-04T16:43:23+09:00",
+      "chartAt": "2026-11-04T00:00:00+09:00",
+      "historyPath": "data/korean-chart-history/with--spotify-kr.json"
     }
   ],
   "sourceStatus": {
@@ -3958,10 +3986,10 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartName": "Spotify Top 50 South Korea",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-11-03T17:11:32+09:00",
+      "lastAttemptAt": "2026-11-04T16:43:23+09:00",
       "error": "",
-      "lastSuccessAt": "2026-11-03T17:11:32+09:00",
-      "chartAt": "2026-11-03T00:00:00+09:00",
+      "lastSuccessAt": "2026-11-04T16:43:23+09:00",
+      "chartAt": "2026-11-04T00:00:00+09:00",
       "itemCount": 50,
       "matchedCount": 5,
       "metadata": {
