@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T19:15:56Z",
+  "generatedAt": "2026-11-04T10:02:42Z",
   "source": "pluschat",
   "sourceBaseUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/",
   "translationDictionary": "scripts/pluschat-schedule-translations.json",
@@ -7,8 +7,8 @@
     "2026-11",
     "2026-12"
   ],
-  "eventCount": 94,
-  "refreshedEventCount": 12,
+  "eventCount": 98,
+  "refreshedEventCount": 16,
   "failures": [],
   "months": {
     "2026-07": {
@@ -82,8 +82,8 @@
     },
     "2026-11": {
       "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11",
-      "fetchedAt": "2026-11-02T19:15:42Z",
-      "eventCount": 11,
+      "fetchedAt": "2026-11-04T10:02:30Z",
+      "eventCount": 13,
       "status": "ok",
       "warnings": [
         "翻訳辞書への追加候補: 2026 KGMA (코리아 그랜드 뮤직 어워즈) -> 2026 KGMA (코리아 그랜드 뮤직 어워즈",
@@ -98,8 +98,8 @@
     },
     "2026-12": {
       "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12",
-      "fetchedAt": "2026-11-02T19:15:56Z",
-      "eventCount": 1,
+      "fetchedAt": "2026-11-04T10:02:42Z",
+      "eventCount": 3,
       "status": "ok",
       "warnings": []
     }
@@ -1702,6 +1702,44 @@
       "sourceMonth": "2026-11"
     },
     {
+      "id": "pluschat-2026-11-05-all-day-e91ffe644f68447b49ad8835",
+      "title": "MBC 「SHOW! 音楽中心」 事前収録",
+      "originalTitle": "MBC <쇼음악중심> 사전 녹화",
+      "translationStatus": "rules",
+      "date": "2026-11-05",
+      "start": "2026-11-05",
+      "end": "",
+      "allDay": true,
+      "category": "音楽番組",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-11"
+    },
+    {
+      "id": "pluschat-2026-11-05-all-day-42e1a4b3e25bfea9c7df117c",
+      "title": "SBS 「人気歌謡」 事前収録",
+      "originalTitle": "SBS <인기가요> 사전 녹화",
+      "translationStatus": "rules",
+      "date": "2026-11-05",
+      "start": "2026-11-05",
+      "end": "",
+      "allDay": true,
+      "category": "音楽番組",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-11"
+    },
+    {
       "id": "pluschat-2026-11-07-all-day-529fd079130cf64660b6e77a",
       "title": "2026 KGMA (코리아 그랜드 뮤직 어워즈",
       "originalTitle": "2026 KGMA (코리아 그랜드 뮤직 어워즈)",
@@ -1871,6 +1909,44 @@
       "notionUrl": "",
       "source": "pluschat",
       "sourceMonth": "2026-11"
+    },
+    {
+      "id": "pluschat-2026-12-08-2000-247872c966383fe8ad60aba6",
+      "title": "「PULSE」 ビデオ通話サイン会 by WITHMUU",
+      "originalTitle": "[PULSE] 영상통화 팬사인회 by WITHMUU",
+      "translationStatus": "rules",
+      "date": "2026-12-08",
+      "start": "2026-12-08T20:00:00+09:00",
+      "end": "",
+      "allDay": false,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-12"
+    },
+    {
+      "id": "pluschat-2026-12-10-2000-267b66628044dc79f1b31ae5",
+      "title": "「PULSE」 ビデオ通話サイン会 by WITHMUU",
+      "originalTitle": "[PULSE] 영상통화 팬사인회 by WITHMUU",
+      "translationStatus": "rules",
+      "date": "2026-12-10",
+      "start": "2026-12-10T20:00:00+09:00",
+      "end": "",
+      "allDay": false,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-12"
     },
     {
       "id": "pluschat-2026-12-13-all-day-82fd9fb35b6b6400df33e3a4",
