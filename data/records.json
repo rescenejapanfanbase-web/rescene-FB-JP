@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T12:09:40.896Z",
+  "generatedAt": "2026-11-05T23:34:45.537Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -454,7 +454,7 @@
       "top100PeakDate": "2026-11-03",
       "dailyPeak": 13,
       "dailyPeakDate": "2026-11-03",
-      "description": "2026年初のアルバム｢PULSE｣の収録曲",
+      "description": "2026年初のアルバム｢PULSE｣の収録曲\n歌詞が全て英語。",
       "mvUrl": "",
       "image": "assets/records/notion/record-40d229d219da80a09074f692147da3ec-60d61a50ca66.png",
       "order": 9999,
