@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T10:29:02+09:00",
+  "generatedAt": "2026-11-06T11:26:50+09:00",
   "configSource": "notion",
   "charts": [
     {
@@ -2913,13 +2913,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-05T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-          "observations": 97
+          "lastObservedAt": "2026-11-06T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+          "observations": 98
         }
       ],
-      "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-      "chartAt": "2026-11-05T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+      "chartAt": "2026-11-06T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/uhuh--vibe.json"
     },
     {
@@ -2941,13 +2941,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-05T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-          "observations": 97
+          "lastObservedAt": "2026-11-06T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+          "observations": 98
         }
       ],
-      "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-      "chartAt": "2026-11-05T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+      "chartAt": "2026-11-06T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/yoyo--vibe.json"
     },
     {
@@ -2956,18 +2956,18 @@
       "chartId": "vibe",
       "chartName": "VIBE Today TOP 100",
       "currentRank": 5,
-      "previousRank": 4,
-      "movement": -1,
-      "movementType": "down",
+      "previousRank": 5,
+      "movement": 0,
+      "movementType": "same",
       "status": "in",
       "peakRank": 1,
       "firstChartedAt": "2026-06-01T00:00:00+09:00",
-      "lastChartedAt": "2026-11-05T00:00:00+09:00",
-      "chartDays": 158,
+      "lastChartedAt": "2026-11-06T00:00:00+09:00",
+      "chartDays": 159,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-      "chartAt": "2026-11-05T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+      "chartAt": "2026-11-06T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/love-attack--vibe.json"
     },
     {
@@ -2989,13 +2989,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-05T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-          "observations": 97
+          "lastObservedAt": "2026-11-06T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+          "observations": 98
         }
       ],
-      "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-      "chartAt": "2026-11-05T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+      "chartAt": "2026-11-06T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pinball--vibe.json"
     },
     {
@@ -3017,13 +3017,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-05T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-          "observations": 97
+          "lastObservedAt": "2026-11-06T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+          "observations": 98
         }
       ],
-      "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-      "chartAt": "2026-11-05T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+      "chartAt": "2026-11-06T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/glow-up--vibe.json"
     },
     {
@@ -3031,19 +3031,19 @@
       "songTitle": "Deja Vu",
       "chartId": "vibe",
       "chartName": "VIBE Today TOP 100",
-      "currentRank": 22,
-      "previousRank": 21,
+      "currentRank": 23,
+      "previousRank": 22,
       "movement": -1,
       "movementType": "down",
       "status": "in",
       "peakRank": 11,
       "firstChartedAt": "2026-07-19T00:00:00+09:00",
-      "lastChartedAt": "2026-11-05T00:00:00+09:00",
-      "chartDays": 110,
+      "lastChartedAt": "2026-11-06T00:00:00+09:00",
+      "chartDays": 111,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-      "chartAt": "2026-11-05T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+      "chartAt": "2026-11-06T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/deja-vu--vibe.json"
     },
     {
@@ -3065,13 +3065,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-05T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-          "observations": 97
+          "lastObservedAt": "2026-11-06T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+          "observations": 98
         }
       ],
-      "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-      "chartAt": "2026-11-05T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+      "chartAt": "2026-11-06T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/heart-drop--vibe.json"
     },
     {
@@ -3093,13 +3093,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-05T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-          "observations": 97
+          "lastObservedAt": "2026-11-06T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+          "observations": 98
         }
       ],
-      "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-      "chartAt": "2026-11-05T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+      "chartAt": "2026-11-06T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/bloom--vibe.json"
     },
     {
@@ -3121,13 +3121,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-05T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-          "observations": 97
+          "lastObservedAt": "2026-11-06T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+          "observations": 98
         }
       ],
-      "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-      "chartAt": "2026-11-05T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+      "chartAt": "2026-11-06T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/busy-boy--vibe.json"
     },
     {
@@ -3149,13 +3149,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-05T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-          "observations": 97
+          "lastObservedAt": "2026-11-06T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+          "observations": 98
         }
       ],
-      "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-      "chartAt": "2026-11-05T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+      "chartAt": "2026-11-06T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/runaway--vibe.json"
     },
     {
@@ -3163,19 +3163,19 @@
       "songTitle": "Pretty Girl",
       "chartId": "vibe",
       "chartName": "VIBE Today TOP 100",
-      "currentRank": 16,
-      "previousRank": 14,
+      "currentRank": 18,
+      "previousRank": 16,
       "movement": -2,
       "movementType": "down",
       "status": "in",
       "peakRank": 5,
       "firstChartedAt": "2026-07-10T00:00:00+09:00",
-      "lastChartedAt": "2026-11-05T00:00:00+09:00",
-      "chartDays": 119,
+      "lastChartedAt": "2026-11-06T00:00:00+09:00",
+      "chartDays": 120,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-      "chartAt": "2026-11-05T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+      "chartAt": "2026-11-06T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pretty-girl--vibe.json"
     },
     {
@@ -3183,15 +3183,15 @@
       "songTitle": "With",
       "chartId": "vibe",
       "chartName": "VIBE Today TOP 100",
-      "currentRank": 12,
-      "previousRank": 80,
-      "movement": 68,
+      "currentRank": 9,
+      "previousRank": 12,
+      "movement": 3,
       "movementType": "up",
       "status": "in",
-      "peakRank": 12,
+      "peakRank": 9,
       "firstChartedAt": "2026-11-04T00:00:00+09:00",
-      "lastChartedAt": "2026-11-05T00:00:00+09:00",
-      "chartDays": 2,
+      "lastChartedAt": "2026-11-06T00:00:00+09:00",
+      "chartDays": 3,
       "outOfChartCount": 1,
       "outOfChartHistory": [
         {
@@ -3202,8 +3202,8 @@
           "observations": 11
         }
       ],
-      "lastCheckedAt": "2026-11-05T11:28:59+09:00",
-      "chartAt": "2026-11-05T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-06T11:26:50+09:00",
+      "chartAt": "2026-11-06T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/with--vibe.json"
     },
     {
@@ -3970,15 +3970,15 @@
       "chartName": "VIBE Today TOP 100",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-11-05T11:28:59+09:00",
-      "lastSuccessAt": "2026-11-05T11:28:59+09:00",
-      "chartAt": "2026-11-05T00:00:00+09:00",
+      "lastAttemptAt": "2026-11-06T11:26:50+09:00",
+      "lastSuccessAt": "2026-11-06T11:26:50+09:00",
+      "chartAt": "2026-11-06T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 4,
       "error": "",
       "metadata": {
         "nativeTitle": "오늘 Top 100",
-        "nativeDate": "1793829600000"
+        "nativeDate": "1793916000000"
       }
     },
     "spotify-kr": {
