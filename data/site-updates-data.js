@@ -1,6 +1,31 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-05T23:34:58.456972+00:00",
+  "generatedAt": "2026-11-06T02:14:13.041850+00:00",
   "items": [
+    {
+      "date": "2026-11-06",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "7684fa4",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "fa00039",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/quality-report.json",
+        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
+        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
+        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
+        "scripts/__pycache__/check-external-links.cpython-313.pyc"
+      ]
+    },
     {
       "date": "2026-11-05",
       "title": "chore: update external link report",
@@ -53,22 +78,6 @@ window.RESCENE_SITE_UPDATES = {
     },
     {
       "date": "2026-11-04",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "7ad9ff6",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/pluschat-schedule.json",
-        "data/quality-report.json",
-        "data/rescene-schedule.ics",
-        "data/schedule-data.js",
-        "data/schedule.json"
-      ]
-    },
-    {
-      "date": "2026-11-04",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "d9048ce",
@@ -81,15 +90,6 @@ window.RESCENE_SITE_UPDATES = {
         "data/mv-data.js",
         "data/mv.json",
         "data/quality-report.json"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "26da40e",
-      "files": [
-        "data/youtube-channels.json"
       ]
     },
     {
