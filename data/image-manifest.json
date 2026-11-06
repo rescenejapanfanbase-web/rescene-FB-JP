@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-11-06T11:16:46Z",
+  "generatedAt": "2026-11-06T15:53:37Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/chants/notion/insideout.png": {
@@ -1236,27 +1236,6 @@
         }
       ],
       "default": "assets/optimized/703e7507f9e9bc11/ou2y2vgkcyy-w768.webp"
-    },
-    "assets/mv/youtube/pey3E47eSc8.jpg": {
-      "asset": "77e12c519052606f",
-      "originalBytes": 60376,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/77e12c519052606f/pey3e47esc8-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 13514
-        },
-        {
-          "src": "assets/optimized/77e12c519052606f/pey3e47esc8-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 27040
-        }
-      ],
-      "default": "assets/optimized/77e12c519052606f/pey3e47esc8-w768.webp"
     },
     "assets/mv/youtube/tGxv4kiPqec.jpg": {
       "asset": "a4a3195fa02d990a",
@@ -10610,32 +10589,6 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/738f6fade171e534/debut-2nd-anniversary-project-w1173.webp"
-    },
-    "77e12c519052606f": {
-      "hash": "77e12c519052606f78169770127184a34893f35c66b8636baf652c69a6dd1369",
-      "width": 1280,
-      "height": 720,
-      "format": "jpg",
-      "alpha": false,
-      "quality": 84,
-      "variants": [
-        {
-          "src": "assets/optimized/77e12c519052606f/pey3e47esc8-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 13514
-        },
-        {
-          "src": "assets/optimized/77e12c519052606f/pey3e47esc8-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 27040
-        }
-      ],
-      "skippedWidths": [
-        1280
-      ],
-      "default": "assets/optimized/77e12c519052606f/pey3e47esc8-w768.webp"
     },
     "78ade12270c43ad6": {
       "hash": "78ade12270c43ad64fe7eaf3b1645219c8671394ec13bc3e63fcc48c7abb1201",
