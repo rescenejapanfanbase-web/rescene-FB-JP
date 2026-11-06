@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-11-05T23:35:11Z",
+  "generatedAt": "2026-11-06T11:16:46Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/chants/notion/insideout.png": {
@@ -3744,6 +3744,33 @@
         }
       ],
       "default": "assets/optimized/80e99ff7ab1f3e7b/musiccore-score-w1440.webp"
+    },
+    "assets/voting/notion/guides/bigc-10-1.jpg": {
+      "asset": "236d37ddead0744a",
+      "originalBytes": 396672,
+      "width": 1206,
+      "height": 2315,
+      "variants": [
+        {
+          "src": "assets/optimized/236d37ddead0744a/bigc-10-1-w480.webp",
+          "width": 480,
+          "height": 921,
+          "bytes": 47040
+        },
+        {
+          "src": "assets/optimized/236d37ddead0744a/bigc-10-1-w768.webp",
+          "width": 768,
+          "height": 1474,
+          "bytes": 90562
+        },
+        {
+          "src": "assets/optimized/236d37ddead0744a/bigc-10-1-w1206.webp",
+          "width": 1206,
+          "height": 2315,
+          "bytes": 146192
+        }
+      ],
+      "default": "assets/optimized/236d37ddead0744a/bigc-10-1-w1206.webp"
     },
     "assets/voting/notion/icons/coogoong-40.jpg": {
       "asset": "ab09e0ec14e2083b",
@@ -8543,6 +8570,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/23109869b762e65e/suwon-ambassador-w647.webp"
+    },
+    "236d37ddead0744a": {
+      "hash": "236d37ddead0744adba0fe72aea403ab083a6ca761b872b74e29b714691274c6",
+      "width": 1206,
+      "height": 2315,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/236d37ddead0744a/bigc-10-1-w480.webp",
+          "width": 480,
+          "height": 921,
+          "bytes": 47040
+        },
+        {
+          "src": "assets/optimized/236d37ddead0744a/bigc-10-1-w768.webp",
+          "width": 768,
+          "height": 1474,
+          "bytes": 90562
+        },
+        {
+          "src": "assets/optimized/236d37ddead0744a/bigc-10-1-w1206.webp",
+          "width": 1206,
+          "height": 2315,
+          "bytes": 146192
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/236d37ddead0744a/bigc-10-1-w1206.webp"
     },
     "23d27070b0fc1675": {
       "hash": "23d27070b0fc16755d0177ee670eca80a037fb870dffb10c2ab371da3be1496e",

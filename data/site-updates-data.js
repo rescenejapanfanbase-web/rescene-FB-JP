@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-06T04:33:34.315963+00:00",
+  "generatedAt": "2026-11-06T11:16:32.293270+00:00",
   "items": [
     {
       "date": "2026-11-06",
@@ -40,15 +40,6 @@ window.RESCENE_SITE_UPDATES = {
         "data/quality-report.json",
         "data/seo-status.json",
         "data/site-updates-data.js"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "6b3ab84",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {

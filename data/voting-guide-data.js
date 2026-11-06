@@ -1,5 +1,5 @@
 window.RESCENE_VOTING_GUIDE = {
-  "generatedAt": "2026-11-03T06:36:54.688Z",
+  "generatedAt": "2026-11-06T11:16:27.164Z",
   "source": "notion",
   "dataSourceId": "8e870649-722b-45aa-9b0f-3da6d51b139b",
   "notionDatabaseUrl": "https://app.notion.com/p/db7689f9a5b2445fbe3fb9f7cd9a04de",
@@ -354,7 +354,7 @@ window.RESCENE_VOTING_GUIDE = {
       "guide": {
         "steps": [
           {
-            "image": "assets/voting/guides/bigc-earn-1.jpg",
+            "image": "assets/voting/notion/guides/bigc-10-1.jpg",
             "title": "1. FREE GEMを集める",
             "text": "出席チェックやミッションでFREE GEMを集めます。"
           },
