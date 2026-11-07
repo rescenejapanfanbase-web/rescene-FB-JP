@@ -1,14 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T18:55:30+09:00",
+  "generatedAt": "2026-11-07T19:03:59+09:00",
   "workflow": "Sync Korean Charts",
   "ok": true,
   "partial": false,
   "successfulCharts": [
-    "bugs",
-    "flo",
-    "genie",
-    "melon"
+    "bugs-daily",
+    "genie-daily"
   ],
   "failedCharts": {},
   "configuration": {
@@ -158,8 +156,8 @@
       "chartName": "Bugs Daily",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-11-07T14:04:45+09:00",
-      "lastSuccessAt": "2026-11-07T14:04:45+09:00",
+      "lastAttemptAt": "2026-11-07T19:03:59+09:00",
+      "lastSuccessAt": "2026-11-07T19:03:59+09:00",
       "chartAt": "2026-11-06T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 6,
@@ -179,9 +177,9 @@
       "chartName": "Genie Daily",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-11-07T14:04:45+09:00",
+      "lastAttemptAt": "2026-11-07T19:03:59+09:00",
       "error": "",
-      "lastSuccessAt": "2026-11-07T14:04:45+09:00",
+      "lastSuccessAt": "2026-11-07T19:03:59+09:00",
       "chartAt": "2026-11-06T00:00:00+09:00",
       "itemCount": 200,
       "matchedCount": 6,
@@ -211,17 +209,15 @@
   "automation": {
     "eventName": "schedule",
     "scheduled": true,
-    "schedule": "7 * * * *",
+    "schedule": "17 3 * * *",
     "resolvedCharts": [
-      "melon",
-      "genie",
-      "bugs",
-      "flo"
+      "genie-daily",
+      "bugs-daily"
     ],
-    "runId": "42361716838",
-    "runNumber": "1398",
+    "runId": "42362314576",
+    "runNumber": "1399",
     "runAttempt": "1",
-    "sha": "173fa63d06c00dc11a26456d3fd40a383d483f11",
-    "completedAt": "2026-11-07T18:55:32+09:00"
+    "sha": "3359c0a6a9b6d86ad4d2952bd451797c66ba2809",
+    "completedAt": "2026-11-07T19:04:12+09:00"
   }
 }
