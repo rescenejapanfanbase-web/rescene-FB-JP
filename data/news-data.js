@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "2026-kgma-4-76cbf9c655",
+    "date": "2026.11.07",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "Award",
+    "title": "2026 KGMAにて4つの賞を受賞！",
+    "text": "2026年11月7日に開催された2026KGMAで4つの賞を受賞しました！",
+    "body": "2026年11月7日に開催された2026KGMAでBest Artist賞、Berriz Global Fan’s Choice賞、Best Memory賞、2026 Grand Honor’s Choice賞の4つの部門で受賞しました！\nまた、THE MUZE CEO 이주헌がBest Producer賞を受賞しました！",
+    "image": "assets/news/notion/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88c095.jpg",
+    "sourceLink": "https://x.com/ilgansports/status/2119054405530230852?a=n7lAi9eZdmGMKwa0krY&s=46",
+    "sourceLabel": "公式のポストを見る",
+    "translations": {},
+    "notionPageId": "411229d2-19da-80dc-aa29-ca76cbf9c655",
+    "notionUrl": "https://app.notion.com/p/2026-KGMA-4-411229d219da80dcaa29ca76cbf9c655"
+  },
+  {
     "slug": "with-rak-1ff7016932",
     "date": "2026.11.05",
     "category": "notice",

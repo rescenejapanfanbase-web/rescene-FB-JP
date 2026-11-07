@@ -1,8 +1,20 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-11-04T15:18:18.936Z",
-  "sourceNewsGeneratedAt": "2026-11-07T05:04:29.774Z",
+  "generatedAt": "2026-11-07T14:30:00.608Z",
+  "sourceNewsGeneratedAt": "2026-11-07T14:30:00.520Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "2026-kgma-4-76cbf9c655",
+        "title": "2026 KGMAにて4つの賞を受賞！",
+        "date": "2026.11.07",
+        "label": "Award",
+        "image": "assets/news/notion/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88c095.jpg",
+        "text": "2026年11月7日に開催された2026KGMAで4つの賞を受賞しました！",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "with-rak-1ff7016932",
         "title": "｢With｣で初のRAKを達成！",
@@ -26,7 +38,9 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "同じカテゴリー"
         ]
-      },
+      }
+    ],
+    "2026-kgma-4-76cbf9c655": [
       {
         "slug": "2026-mama-awards-caaa5f7b37",
         "title": "2026 MAMA AWARDSに出演決定！",
@@ -34,9 +48,36 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "An award ceremony",
         "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
         "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
-        "score": 5,
+        "score": 11,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "melon-music-awards-2026-mma-a5ddba3cc6",
+        "title": "Melon Music Awards 2026(MMA)に出演が決定！",
+        "date": "2026.09.21",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3e2229d219da803b9cb9f0a5ddba3cc6-8cc08e70975e.jpg",
+        "text": "2026年11月14日,15日に開催されるMelon Music Awards 2026(MMA)にRESCENEが出演決定しました！",
+        "score": 10,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
+        "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
+        "date": "2026.09.19",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
+        "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
+        "score": 10,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
         ]
       }
     ],
@@ -86,6 +127,18 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "rescene-official-light-stick-v2-8a21df0051": [
       {
+        "slug": "2026-kgma-4-76cbf9c655",
+        "title": "2026 KGMAにて4つの賞を受賞！",
+        "date": "2026.11.07",
+        "label": "Award",
+        "image": "assets/news/notion/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88c095.jpg",
+        "text": "2026年11月7日に開催された2026KGMAで4つの賞を受賞しました！",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "with-rak-1ff7016932",
         "title": "｢With｣で初のRAKを達成！",
         "date": "2026.11.05",
@@ -104,18 +157,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "An award ceremony",
         "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
         "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "rescene-4th-mini-album-pulse-a7a231ff6f",
-        "title": "RESCENE 4th Mini Album『PULSE』の日本共同購入がスタート！",
-        "date": "2026.10.13",
-        "label": "Joint purchase",
-        "image": "assets/news/notion/notion-3f8229d219da80d18fb0d3a7a231ff6f-ce7aa3fcf98e.jpg",
-        "text": "RESCENE 4th Mini Album\n『PULSE』の日本共同購入がスタート！💿💗",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -149,12 +190,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "2026-mama-awards-caaa5f7b37",
-        "title": "2026 MAMA AWARDSに出演決定！",
-        "date": "2026.10.13",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
-        "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
+        "slug": "2026-kgma-4-76cbf9c655",
+        "title": "2026 KGMAにて4つの賞を受賞！",
+        "date": "2026.11.07",
+        "label": "Award",
+        "image": "assets/news/notion/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88c095.jpg",
+        "text": "2026年11月7日に開催された2026KGMAで4つの賞を受賞しました！",
         "score": 4,
         "reasons": [
           "共通キーワード"
@@ -230,12 +271,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "rescene-official-light-stick-v2-8a21df0051",
-        "title": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始！",
-        "date": "2026.10.26",
-        "label": "light stick",
-        "image": "assets/news/notion/notion-405229d219da800a9956d68a21df0051-8659c9e00c7e.jpg",
-        "text": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始しました！",
+        "slug": "2026-kgma-4-76cbf9c655",
+        "title": "2026 KGMAにて4つの賞を受賞！",
+        "date": "2026.11.07",
+        "label": "Award",
+        "image": "assets/news/notion/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88c095.jpg",
+        "text": "2026年11月7日に開催された2026KGMAで4つの賞を受賞しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -301,24 +342,24 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "melon-music-awards-2026-mma-a5ddba3cc6",
-        "title": "Melon Music Awards 2026(MMA)に出演が決定！",
-        "date": "2026.09.21",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3e2229d219da803b9cb9f0a5ddba3cc6-8cc08e70975e.jpg",
-        "text": "2026年11月14日,15日に開催されるMelon Music Awards 2026(MMA)にRESCENEが出演決定しました！",
+        "slug": "2026-kgma-4-76cbf9c655",
+        "title": "2026 KGMAにて4つの賞を受賞！",
+        "date": "2026.11.07",
+        "label": "Award",
+        "image": "assets/news/notion/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88c095.jpg",
+        "text": "2026年11月7日に開催された2026KGMAで4つの賞を受賞しました！",
         "score": 6,
         "reasons": [
           "共通キーワード"
         ]
       },
       {
-        "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
-        "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
-        "date": "2026.09.19",
-        "label": "Award",
-        "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
-        "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
+        "slug": "melon-music-awards-2026-mma-a5ddba3cc6",
+        "title": "Melon Music Awards 2026(MMA)に出演が決定！",
+        "date": "2026.09.21",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3e2229d219da803b9cb9f0a5ddba3cc6-8cc08e70975e.jpg",
+        "text": "2026年11月14日,15日に開催されるMelon Music Awards 2026(MMA)にRESCENEが出演決定しました！",
         "score": 6,
         "reasons": [
           "共通キーワード"
@@ -1827,6 +1868,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "2026-kgma-4-76cbf9c655",
+      "date": "2026.11.07",
+      "title": "2026 KGMAにて4つの賞を受賞！",
+      "url": "https://rescene-fb.jp/articles/2026-kgma-4-76cbf9c655.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.11.07】 2026 KGMAにて4つの賞を受賞！\n\nhttps://rescene-fb.jp/articles/2026-kgma-4-76cbf9c655.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "2026 KGMAにて4つの賞を受賞！\n2026年11月7日に開催された2026KGMAで4つの賞を受賞しました！",
+      "charCount": 113
     },
     {
       "slug": "with-rak-1ff7016932",
