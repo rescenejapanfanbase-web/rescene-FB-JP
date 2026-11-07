@@ -1,21 +1,17 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-11-06T15:53:37Z",
+  "generatedAt": "2026-11-07T01:47:32Z",
   "sourceFiles": 318,
   "uniqueImages": 216,
-  "optimizedImages": 308,
-  "uniqueOptimizedAssets": 206,
-  "derivatives": 561,
-  "generatedNow": 0,
+  "optimizedImages": 309,
+  "uniqueOptimizedAssets": 207,
+  "derivatives": 563,
+  "generatedNow": 2,
   "reusedNow": 561,
-  "skippedImages": 10,
-  "skippedUniqueImages": 10,
+  "skippedImages": 9,
+  "skippedUniqueImages": 9,
   "skipped": [
-    {
-      "path": "assets/mv/youtube/pey3E47eSc8.jpg",
-      "reason": "元画像がすでに十分軽量なため、WebP派生画像の生成は不要です。"
-    },
     {
       "path": "assets/platform-icons/stationhead.webp",
       "reason": "元画像がすでに十分軽量なため、WebP派生画像の生成は不要です。"
@@ -55,12 +51,12 @@
   ],
   "failedImages": 0,
   "failures": [],
-  "originalBytes": 127507021,
-  "estimatedDeliveryBytes": 33949253,
-  "estimatedSavedBytes": 93557768,
+  "originalBytes": 127556132,
+  "estimatedDeliveryBytes": 33965028,
+  "estimatedSavedBytes": 93591104,
   "estimatedSavingPercent": 73.4,
-  "generatedStorageBytes": 39911606,
-  "removedOrphans": 2,
+  "generatedStorageBytes": 39952160,
+  "removedOrphans": 0,
   "misplacedGeneratedFilesRemoved": 0,
   "misplacedGeneratedDirectoriesRemoved": 0,
   "notes": [

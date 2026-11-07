@@ -1,5 +1,5 @@
 window.RESCENE_MV_CANDIDATES = {
-  "generatedAt": "2026-11-06T21:27:53.659Z",
+  "generatedAt": "2026-11-07T01:47:21.242Z",
   "dataSourceId": "e85d399d-5506-4ab3-8355-e94325fbf5b1",
   "notionDatabaseUrl": "https://app.notion.com/p/5f26ec69338a46f1ad9a82e070e92ad9",
   "count": 1,
@@ -9,9 +9,9 @@ window.RESCENE_MV_CANDIDATES = {
       "title": "With",
       "sourceTitle": "RESCENE (리센느) 'With' Official MV",
       "url": "https://www.youtube.com/watch?v=pey3E47eSc8",
-      "remoteThumbnail": "https://i1.ytimg.com/vi/pey3E47eSc8/hqdefault.jpg",
+      "remoteThumbnail": "https://i.ytimg.com/vi_webp/pey3E47eSc8/maxresdefault.webp",
       "date": "2026-11-03",
-      "publishedAt": "2026-11-03T09:00:00+00:00",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
       "kind": "OFFICIAL MV",
       "type": "official",
       "note": "",
