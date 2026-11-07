@@ -18,7 +18,7 @@ window.RESCENE_NEWS = [
     "label": "Award",
     "title": "2026 KGMAにて4つの賞を受賞！",
     "text": "2026年11月7日に開催された2026KGMAで4つの賞を受賞しました！",
-    "body": "2026年11月7日に開催された2026KGMAでBest Artist賞、Berriz Global Fan’s Choice賞、Best Memory賞、2026 Grand Honor’s Choice賞の4つの部門で受賞しました！\nまた、THE MUZE CEO 이주헌がBest Producer賞を受賞しました！",
+    "body": "2026年11月7日に開催された2026KGMAでBest Artist賞、Berriz Global Fan’s Choice賞、Best Memory賞、2026 Grand Honor’s Choice賞の4つの部門で受賞しました！\nまた、所属事務所THE MUZE ENT CEO 이주헌がBest Producer賞を受賞しました！",
     "image": "assets/news/notion/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88c095.jpg",
     "sourceLink": "https://x.com/ilgansports/status/2119054405530230852?a=n7lAi9eZdmGMKwa0krY&s=46",
     "sourceLabel": "公式のポストを見る",
