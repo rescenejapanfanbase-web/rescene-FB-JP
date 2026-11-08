@@ -1,11 +1,11 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-08T13:15:07.439936+00:00",
+  "generatedAt": "2026-11-08T18:46:24.233433+00:00",
   "items": [
     {
       "date": "2026-11-08",
       "title": "chore: critical schedule sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "60a6177",
+      "commit": "d1e86ef",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -37,7 +37,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-08",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "2f8e194",
+      "commit": "ee44087",
       "files": [
         "data/youtube-channels.json"
       ]
