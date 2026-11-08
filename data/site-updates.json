@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T18:46:24.233433+00:00",
+  "generatedAt": "2026-11-08T20:25:39.826318+00:00",
   "items": [
     {
       "date": "2026-11-08",
@@ -21,7 +21,7 @@
       "date": "2026-11-08",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "390515e",
+      "commit": "0d5b3e8",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -30,7 +30,7 @@
         "data/mv-candidates.json",
         "data/mv-data.js",
         "data/mv.json",
-        "data/notion-records-sync-status.json"
+        "data/quality-report.json"
       ]
     },
     {
@@ -53,22 +53,6 @@
     },
     {
       "date": "2026-11-07",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "5afb6de",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "assets/optimized/3f905d88c0957653/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88-w1440.webp",
-        "assets/optimized/3f905d88c0957653/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88-w480.webp",
-        "assets/optimized/3f905d88c0957653/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88-w768.webp",
-        "data/image-manifest.json",
-        "data/image-optimization.json",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json"
-      ]
-    },
-    {
-      "date": "2026-11-07",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "f7addec",
@@ -81,15 +65,6 @@
         "data/mv-data.js",
         "data/mv.json",
         "data/notion-records-sync-status.json"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "befe668",
-      "files": [
-        "data/youtube-channels.json"
       ]
     },
     {
