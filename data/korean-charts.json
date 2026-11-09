@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T20:28:24+09:00",
+  "generatedAt": "2026-11-09T21:12:39+09:00",
   "configSource": "notion",
   "charts": [
     {
@@ -793,13 +793,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-07T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-          "observations": 98
+          "lastObservedAt": "2026-11-08T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+          "observations": 99
         }
       ],
-      "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-      "chartAt": "2026-11-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+      "chartAt": "2026-11-08T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/uhuh--melon-daily.json"
     },
     {
@@ -821,13 +821,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-07T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-          "observations": 98
+          "lastObservedAt": "2026-11-08T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+          "observations": 99
         }
       ],
-      "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-      "chartAt": "2026-11-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+      "chartAt": "2026-11-08T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/yoyo--melon-daily.json"
     },
     {
@@ -835,19 +835,19 @@
       "songTitle": "LOVE ATTACK",
       "chartId": "melon-daily",
       "chartName": "Melon Daily",
-      "currentRank": 5,
+      "currentRank": 6,
       "previousRank": 5,
-      "movement": 0,
-      "movementType": "same",
+      "movement": -1,
+      "movementType": "down",
       "status": "in",
       "peakRank": 1,
       "firstChartedAt": "2025-04-06T00:00:00+09:00",
-      "lastChartedAt": "2026-11-07T00:00:00+09:00",
-      "chartDays": 242,
+      "lastChartedAt": "2026-11-08T00:00:00+09:00",
+      "chartDays": 243,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-      "chartAt": "2026-11-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+      "chartAt": "2026-11-08T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/love-attack--melon-daily.json"
     },
     {
@@ -855,15 +855,15 @@
       "songTitle": "Pinball",
       "chartId": "melon-daily",
       "chartName": "Melon Daily",
-      "currentRank": 35,
-      "previousRank": 38,
-      "movement": 3,
+      "currentRank": 34,
+      "previousRank": 35,
+      "movement": 1,
       "movementType": "up",
       "status": "in",
-      "peakRank": 35,
+      "peakRank": 34,
       "firstChartedAt": "2026-10-05T00:00:00+09:00",
-      "lastChartedAt": "2026-11-07T00:00:00+09:00",
-      "chartDays": 34,
+      "lastChartedAt": "2026-11-08T00:00:00+09:00",
+      "chartDays": 35,
       "outOfChartCount": 1,
       "outOfChartHistory": [
         {
@@ -874,8 +874,8 @@
           "observations": 64
         }
       ],
-      "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-      "chartAt": "2026-11-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+      "chartAt": "2026-11-08T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pinball--melon-daily.json"
     },
     {
@@ -897,13 +897,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-07T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-          "observations": 98
+          "lastObservedAt": "2026-11-08T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+          "observations": 99
         }
       ],
-      "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-      "chartAt": "2026-11-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+      "chartAt": "2026-11-08T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/glow-up--melon-daily.json"
     },
     {
@@ -911,19 +911,19 @@
       "songTitle": "Deja Vu",
       "chartId": "melon-daily",
       "chartName": "Melon Daily",
-      "currentRank": 7,
+      "currentRank": 8,
       "previousRank": 7,
-      "movement": 0,
-      "movementType": "same",
+      "movement": -1,
+      "movementType": "down",
       "status": "in",
       "peakRank": 3,
       "firstChartedAt": "2026-07-06T00:00:00+09:00",
-      "lastChartedAt": "2026-11-07T00:00:00+09:00",
-      "chartDays": 124,
+      "lastChartedAt": "2026-11-08T00:00:00+09:00",
+      "chartDays": 125,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-      "chartAt": "2026-11-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+      "chartAt": "2026-11-08T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/deja-vu--melon-daily.json"
     },
     {
@@ -945,13 +945,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-07T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-          "observations": 98
+          "lastObservedAt": "2026-11-08T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+          "observations": 99
         }
       ],
-      "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-      "chartAt": "2026-11-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+      "chartAt": "2026-11-08T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/heart-drop--melon-daily.json"
     },
     {
@@ -973,13 +973,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-07T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-          "observations": 98
+          "lastObservedAt": "2026-11-08T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+          "observations": 99
         }
       ],
-      "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-      "chartAt": "2026-11-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+      "chartAt": "2026-11-08T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/bloom--melon-daily.json"
     },
     {
@@ -1001,13 +1001,13 @@
         {
           "startAt": "2026-08-01T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-07T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-          "observations": 98
+          "lastObservedAt": "2026-11-08T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+          "observations": 99
         }
       ],
-      "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-      "chartAt": "2026-11-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+      "chartAt": "2026-11-08T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/busy-boy--melon-daily.json"
     },
     {
@@ -1015,19 +1015,19 @@
       "songTitle": "Runaway",
       "chartId": "melon-daily",
       "chartName": "Melon Daily",
-      "currentRank": 23,
-      "previousRank": 24,
+      "currentRank": 22,
+      "previousRank": 23,
       "movement": 1,
       "movementType": "up",
       "status": "in",
       "peakRank": 21,
       "firstChartedAt": "2026-07-06T00:00:00+09:00",
-      "lastChartedAt": "2026-11-07T00:00:00+09:00",
-      "chartDays": 124,
+      "lastChartedAt": "2026-11-08T00:00:00+09:00",
+      "chartDays": 125,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-      "chartAt": "2026-11-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+      "chartAt": "2026-11-08T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/runaway--melon-daily.json"
     },
     {
@@ -1035,19 +1035,19 @@
       "songTitle": "Pretty Girl",
       "chartId": "melon-daily",
       "chartName": "Melon Daily",
-      "currentRank": 10,
-      "previousRank": 11,
-      "movement": 1,
-      "movementType": "up",
+      "currentRank": 12,
+      "previousRank": 10,
+      "movement": -2,
+      "movementType": "down",
       "status": "in",
       "peakRank": 4,
       "firstChartedAt": "2026-08-01T00:00:00+09:00",
-      "lastChartedAt": "2026-11-07T00:00:00+09:00",
-      "chartDays": 98,
+      "lastChartedAt": "2026-11-08T00:00:00+09:00",
+      "chartDays": 99,
       "outOfChartCount": 0,
       "outOfChartHistory": [],
-      "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-      "chartAt": "2026-11-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+      "chartAt": "2026-11-08T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pretty-girl--melon-daily.json"
     },
     {
@@ -1056,14 +1056,14 @@
       "chartId": "melon-daily",
       "chartName": "Melon Daily",
       "currentRank": 3,
-      "previousRank": 2,
-      "movement": -1,
-      "movementType": "down",
+      "previousRank": 3,
+      "movement": 0,
+      "movementType": "same",
       "status": "in",
       "peakRank": 2,
       "firstChartedAt": "2026-11-03T00:00:00+09:00",
-      "lastChartedAt": "2026-11-07T00:00:00+09:00",
-      "chartDays": 5,
+      "lastChartedAt": "2026-11-08T00:00:00+09:00",
+      "chartDays": 6,
       "outOfChartCount": 1,
       "outOfChartHistory": [
         {
@@ -1074,8 +1074,8 @@
           "observations": 11
         }
       ],
-      "lastCheckedAt": "2026-11-08T19:47:44+09:00",
-      "chartAt": "2026-11-07T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-09T21:12:39+09:00",
+      "chartAt": "2026-11-08T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/with--melon-daily.json"
     },
     {
@@ -4038,17 +4038,17 @@
       "chartName": "Melon Daily",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-11-08T19:47:44+09:00",
-      "lastSuccessAt": "2026-11-08T19:47:44+09:00",
-      "chartAt": "2026-11-07T00:00:00+09:00",
+      "lastAttemptAt": "2026-11-09T21:12:39+09:00",
+      "lastSuccessAt": "2026-11-09T21:12:39+09:00",
+      "chartAt": "2026-11-08T00:00:00+09:00",
       "itemCount": 100,
       "matchedCount": 6,
       "error": "",
       "metadata": {
         "period": "daily",
         "sourceMode": "official-html",
-        "sourceUrl": "https://www.melon.com/chart/day/index.htm?chartSearchData=20261107",
-        "nativeDate": "2026-11-07",
+        "sourceUrl": "https://www.melon.com/chart/day/index.htm?chartSearchData=20261108",
+        "nativeDate": "2026-11-08",
         "publishedAt": "12:40 KST",
         "chartDateRule": "source-verified-previous-day",
         "total": 100
