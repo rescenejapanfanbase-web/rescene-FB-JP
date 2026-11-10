@@ -1,6 +1,6 @@
 window.RESCENE_NEWS_EXTRAS = {
   "generatedAt": "2026-11-10T10:44:19.129Z",
-  "sourceNewsGeneratedAt": "2026-11-10T10:43:53.635Z",
+  "sourceNewsGeneratedAt": "2026-11-10T11:58:05.392Z",
   "related": {
     "fanbase-site": [
       {
