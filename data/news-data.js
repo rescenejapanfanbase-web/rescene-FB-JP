@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "with-1-d9daa3489d",
+    "date": "2026.11.10",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "7th WIN",
+    "title": "「With」で初の1位を獲得！",
+    "text": "2026年11月10日放送のSBS Life「THE SHOW」で、\n｢With｣で初の1位を獲得しました。",
+    "body": "2026年11月10日放送のSBS Life「THE SHOW」で、\n｢With｣で初の1位を獲得しました。\n「With」では初、グループとして通算7冠目となりました。",
+    "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-90ce9e27e311.jpg",
+    "sourceLink": "",
+    "sourceLabel": "",
+    "translations": {},
+    "notionPageId": "414229d2-19da-801b-9118-ced9daa3489d",
+    "notionUrl": "https://app.notion.com/p/With-1-414229d219da801b9118ced9daa3489d"
+  },
+  {
     "slug": "2026-kgma-4-76cbf9c655",
     "date": "2026.11.07",
     "category": "notice",

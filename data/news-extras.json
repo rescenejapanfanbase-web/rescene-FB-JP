@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-11-07T14:30:00.608Z",
-  "sourceNewsGeneratedAt": "2026-11-07T14:33:23.261Z",
+  "generatedAt": "2026-11-10T10:41:02.029Z",
+  "sourceNewsGeneratedAt": "2026-11-10T10:40:35.597Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "with-1-d9daa3489d",
+        "title": "「With」で初の1位を獲得！",
+        "date": "2026.11.10",
+        "label": "7th WIN",
+        "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-90ce9e27e311.jpg",
+        "text": "2026年11月10日放送のSBS Life「THE SHOW」で、\n｢With｣で初の1位を獲得しました。",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "2026-kgma-4-76cbf9c655",
         "title": "2026 KGMAにて4つの賞を受賞！",
@@ -26,17 +38,46 @@
         "reasons": [
           "同じカテゴリー"
         ]
+      }
+    ],
+    "with-1-d9daa3489d": [
+      {
+        "slug": "with-rak-1ff7016932",
+        "title": "｢With｣で初のRAKを達成！",
+        "date": "2026.11.05",
+        "label": "1st RAK",
+        "image": "assets/news/notion/notion-40e229d219da806abd06e21ff7016932-86a0a834f955.jpg",
+        "text": "2026年11月5日0時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "score": 14,
+        "reasons": [
+          "同じカテゴリー",
+          "同じ作品"
+        ]
       },
       {
-        "slug": "rescene-official-light-stick-v2-8a21df0051",
-        "title": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始！",
-        "date": "2026.10.26",
-        "label": "light stick",
-        "image": "assets/news/notion/notion-405229d219da800a9956d68a21df0051-8659c9e00c7e.jpg",
-        "text": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始しました！",
-        "score": 5,
+        "slug": "rescene-4th-mini-album-pulse-a7a231ff6f",
+        "title": "RESCENE 4th Mini Album『PULSE』の日本共同購入がスタート！",
+        "date": "2026.10.13",
+        "label": "Joint purchase",
+        "image": "assets/news/notion/notion-3f8229d219da80d18fb0d3a7a231ff6f-ce7aa3fcf98e.jpg",
+        "text": "RESCENE 4th Mini Album\n『PULSE』の日本共同購入がスタート！💿💗",
+        "score": 14,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "pretty-girl-first-music-show-win",
+        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
+        "date": "2026.07.14",
+        "label": "1ST WIN",
+        "image": "news/the-show-first-win.jpeg",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、「Pretty Girl」がRESCENE初の音楽番組1位を獲得しました。10,000点のフルスコアでの1位となり、THE SHOWでフルスコアを記録したのはBTS、Wanna Oneに続く3組目です。",
+        "score": 12,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
         ]
       }
     ],
@@ -127,6 +168,18 @@
     ],
     "rescene-official-light-stick-v2-8a21df0051": [
       {
+        "slug": "with-1-d9daa3489d",
+        "title": "「With」で初の1位を獲得！",
+        "date": "2026.11.10",
+        "label": "7th WIN",
+        "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-90ce9e27e311.jpg",
+        "text": "2026年11月10日放送のSBS Life「THE SHOW」で、\n｢With｣で初の1位を獲得しました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "2026-kgma-4-76cbf9c655",
         "title": "2026 KGMAにて4つの賞を受賞！",
         "date": "2026.11.07",
@@ -145,18 +198,6 @@
         "label": "1st RAK",
         "image": "assets/news/notion/notion-40e229d219da806abd06e21ff7016932-86a0a834f955.jpg",
         "text": "2026年11月5日0時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "2026-mama-awards-caaa5f7b37",
-        "title": "2026 MAMA AWARDSに出演決定！",
-        "date": "2026.10.13",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
-        "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -245,6 +286,19 @@
     ],
     "rescene-4th-mini-album-pulse-a7a231ff6f": [
       {
+        "slug": "with-1-d9daa3489d",
+        "title": "「With」で初の1位を獲得！",
+        "date": "2026.11.10",
+        "label": "7th WIN",
+        "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-90ce9e27e311.jpg",
+        "text": "2026年11月10日放送のSBS Life「THE SHOW」で、\n｢With｣で初の1位を獲得しました。",
+        "score": 14,
+        "reasons": [
+          "同じカテゴリー",
+          "同じ作品"
+        ]
+      },
+      {
         "slug": "with-rak-1ff7016932",
         "title": "｢With｣で初のRAKを達成！",
         "date": "2026.11.05",
@@ -268,18 +322,6 @@
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
-        ]
-      },
-      {
-        "slug": "2026-kgma-4-76cbf9c655",
-        "title": "2026 KGMAにて4つの賞を受賞！",
-        "date": "2026.11.07",
-        "label": "Award",
-        "image": "assets/news/notion/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88c095.jpg",
-        "text": "2026年11月7日に開催された2026KGMAで4つの賞を受賞しました！",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
         ]
       }
     ],
@@ -1868,6 +1910,16 @@
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "with-1-d9daa3489d",
+      "date": "2026.11.10",
+      "title": "「With」で初の1位を獲得！",
+      "url": "https://rescene-fb.jp/articles/with-1-d9daa3489d.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.11.10】 「With」で初の1位を獲得！\n\nhttps://rescene-fb.jp/articles/with-1-d9daa3489d.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "「With」で初の1位を獲得！\n2026年11月10日放送のSBS Life「THE SHOW」で、\n｢With｣で初の1位を獲得しました。",
+      "charCount": 104
     },
     {
       "slug": "2026-kgma-4-76cbf9c655",

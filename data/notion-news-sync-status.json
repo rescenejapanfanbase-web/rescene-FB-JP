@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-11-07T14:33:23.261Z",
+  "generatedAt": "2026-11-10T10:40:35.597Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 26,
-  "notionNews": 26,
-  "notionImages": 26,
+  "queriedPages": 27,
+  "notionNews": 27,
+  "notionImages": 27,
   "rows": [
+    {
+      "title": "「With」で初の1位を獲得！",
+      "pageId": "414229d2-19da-801b-9118-ced9daa3489d",
+      "lastEditedTime": "2026-11-10T10:39:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "4E08FBCC-FDEA-4F9A-A4DE-245E9FA43E62.heic",
+      "imagePath": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-90ce9e27e311.jpg",
+      "imageBytes": 183412,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "2026 KGMAにて4つの賞を受賞！",
       "pageId": "411229d2-19da-80dc-aa29-ca76cbf9c655",
