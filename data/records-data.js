@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-11-08T11:13:33.403Z",
+  "generatedAt": "2026-11-10T10:30:06.808Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -87,6 +87,20 @@ window.RESCENE_RECORDS = {
       "translations": {},
       "notionPageId": "3be229d2-19da-80aa-b16c-f60efbfcf5b7",
       "notionUrl": "https://app.notion.com/p/2026-08-16-LOVE-ATTACK-3be229d219da80aab16cf60efbfcf5b7"
+    },
+    {
+      "title": "2026.11.10 With — THE SHOW",
+      "song": "With",
+      "date": "2026-11-10",
+      "program": "THE SHOW",
+      "description": "2026年11月10日放送のTHE SHOWにてWithで初の1位を獲得。グループ通算7冠目。",
+      "videoUrl": "",
+      "videoLabel": "",
+      "image": "assets/records/notion/record-414229d219da80e9990cf1ee98940dc3-90ce9e27e311.jpg",
+      "order": 9999,
+      "translations": {},
+      "notionPageId": "414229d2-19da-80e9-990c-f1ee98940dc3",
+      "notionUrl": "https://app.notion.com/p/2026-11-10-With-THE-SHOW-414229d219da80e9990cf1ee98940dc3"
     }
   ],
   "melonRecords": [
@@ -242,7 +256,7 @@ window.RESCENE_RECORDS = {
       "mvUrl": "https://youtu.be/ZbO9PBdFRdc?si=97RL6dcp_oeCB-XU",
       "image": "assets/records/notion/record-3a8229d219da808f8987fa4744ed3cd4-ca377427c398.jpg",
       "order": 9999,
-      "source": "manual-fallback",
+      "source": "notion",
       "translations": {
         "ko": {
           "title": "Deja Vu — Melon 차트",
