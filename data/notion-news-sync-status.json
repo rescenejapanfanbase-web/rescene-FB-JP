@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-10T10:40:35.597Z",
+  "generatedAt": "2026-11-10T10:43:53.635Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 27,
-  "notionNews": 27,
+  "queriedPages": 28,
+  "notionNews": 28,
   "notionImages": 27,
   "rows": [
     {
       "title": "「With」で初の1位を獲得！",
       "pageId": "414229d2-19da-801b-9118-ced9daa3489d",
-      "lastEditedTime": "2026-11-10T10:39:00.000Z",
+      "lastEditedTime": "2026-11-10T10:42:00.000Z",
       "imageStatus": "notion-file",
       "imageProperty": "画像",
-      "imageFilename": "4E08FBCC-FDEA-4F9A-A4DE-245E9FA43E62.heic",
-      "imagePath": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-90ce9e27e311.jpg",
-      "imageBytes": 183412,
+      "imageFilename": "2191C06A-84DE-43C3-B01A-8543B51DB80F.jpeg",
+      "imagePath": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-f2300f6238a9.jpg",
+      "imageBytes": 346609,
       "imageContentType": "image/jpeg"
     },
     {
@@ -301,6 +301,17 @@
       "imagePath": "assets/news/notion/notion-3ae229d219da805283b1d5fec5375c61-e3dc347adb43.jpg",
       "imageBytes": 247972,
       "imageContentType": "image/jpeg"
+    },
+    {
+      "title": "「Pretty Girl」で音楽番組初の1位を獲得！",
+      "pageId": "3a2229d2-19da-806e-a09b-c4bc9d88fde7",
+      "lastEditedTime": "2026-11-10T10:42:00.000Z",
+      "imageStatus": "local-path",
+      "imageProperty": "",
+      "imageFilename": "",
+      "imagePath": "news/the-show-first-win.jpeg",
+      "imageBytes": 0,
+      "imageContentType": ""
     }
   ]
 }

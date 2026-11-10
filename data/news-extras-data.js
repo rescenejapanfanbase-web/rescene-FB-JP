@@ -1,6 +1,6 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-11-10T10:41:02.029Z",
-  "sourceNewsGeneratedAt": "2026-11-10T10:40:35.597Z",
+  "generatedAt": "2026-11-10T10:44:19.129Z",
+  "sourceNewsGeneratedAt": "2026-11-10T10:43:53.635Z",
   "related": {
     "fanbase-site": [
       {
@@ -8,7 +8,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "「With」で初の1位を獲得！",
         "date": "2026.11.10",
         "label": "7th WIN",
-        "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-90ce9e27e311.jpg",
+        "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-f2300f6238a9.jpg",
         "text": "2026年11月10日放送のSBS Life「THE SHOW」で、\n｢With｣で初の1位を獲得しました。",
         "score": 5,
         "reasons": [
@@ -68,12 +68,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "pretty-girl-first-music-show-win",
-        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
+        "slug": "pretty-girl-1-bc9d88fde7",
+        "title": "「Pretty Girl」で音楽番組初の1位を獲得！",
         "date": "2026.07.14",
-        "label": "1ST WIN",
+        "label": "1st WIN",
         "image": "news/the-show-first-win.jpeg",
-        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、「Pretty Girl」がRESCENE初の音楽番組1位を獲得しました。10,000点のフルスコアでの1位となり、THE SHOWでフルスコアを記録したのはBTS、Wanna Oneに続く3組目です。",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nグループ初の音楽番組1位を獲得しました。",
         "score": 12,
         "reasons": [
           "同じカテゴリー",
@@ -172,7 +172,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "「With」で初の1位を獲得！",
         "date": "2026.11.10",
         "label": "7th WIN",
-        "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-90ce9e27e311.jpg",
+        "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-f2300f6238a9.jpg",
         "text": "2026年11月10日放送のSBS Life「THE SHOW」で、\n｢With｣で初の1位を獲得しました。",
         "score": 7,
         "reasons": [
@@ -290,7 +290,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "「With」で初の1位を獲得！",
         "date": "2026.11.10",
         "label": "7th WIN",
-        "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-90ce9e27e311.jpg",
+        "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-f2300f6238a9.jpg",
         "text": "2026年11月10日放送のSBS Life「THE SHOW」で、\n｢With｣で初の1位を獲得しました。",
         "score": 14,
         "reasons": [
@@ -690,12 +690,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "pretty-girl-first-music-show-win",
-        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
+        "slug": "pretty-girl-1-bc9d88fde7",
+        "title": "「Pretty Girl」で音楽番組初の1位を獲得！",
         "date": "2026.07.14",
-        "label": "1ST WIN",
+        "label": "1st WIN",
         "image": "news/the-show-first-win.jpeg",
-        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、「Pretty Girl」がRESCENE初の音楽番組1位を獲得しました。10,000点のフルスコアでの1位となり、THE SHOWでフルスコアを記録したのはBTS、Wanna Oneに続く3組目です。",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nグループ初の音楽番組1位を獲得しました。",
         "score": 22,
         "reasons": [
           "同じカテゴリー",
@@ -772,12 +772,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "pretty-girl-first-music-show-win",
-        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
+        "slug": "pretty-girl-1-bc9d88fde7",
+        "title": "「Pretty Girl」で音楽番組初の1位を獲得！",
         "date": "2026.07.14",
-        "label": "1ST WIN",
+        "label": "1st WIN",
         "image": "news/the-show-first-win.jpeg",
-        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、「Pretty Girl」がRESCENE初の音楽番組1位を獲得しました。10,000点のフルスコアでの1位となり、THE SHOWでフルスコアを記録したのはBTS、Wanna Oneに続く3組目です。",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nグループ初の音楽番組1位を獲得しました。",
         "score": 22,
         "reasons": [
           "同じカテゴリー",
@@ -1030,12 +1030,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "pretty-girl-first-music-show-win",
-        "title": "RESCENEが「Pretty Girl」で音楽番組初の1位を獲得",
+        "slug": "pretty-girl-1-bc9d88fde7",
+        "title": "「Pretty Girl」で音楽番組初の1位を獲得！",
         "date": "2026.07.14",
-        "label": "1ST WIN",
+        "label": "1st WIN",
         "image": "news/the-show-first-win.jpeg",
-        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、「Pretty Girl」がRESCENE初の音楽番組1位を獲得しました。10,000点のフルスコアでの1位となり、THE SHOWでフルスコアを記録したのはBTS、Wanna Oneに続く3組目です。",
+        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nグループ初の音楽番組1位を獲得しました。",
         "score": 22,
         "reasons": [
           "同じカテゴリー",
@@ -1160,6 +1160,50 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
+        ]
+      }
+    ],
+    "pretty-girl-1-bc9d88fde7": [
+      {
+        "slug": "pretty-girl-4-1-d2818f7a01",
+        "title": "「Pretty Girl」で4度目の1位を獲得！",
+        "date": "2026.08.15",
+        "label": "5th WIN",
+        "image": "assets/news/notion/notion-3bd229d219da80079890d3d2818f7a01-b300ab472a70.jpg",
+        "text": "2026年8月15日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "pretty-girl-3-1-f2e88c9a20",
+        "title": "「Pretty Girl」で3度目の1位を獲得！",
+        "date": "2026.08.08",
+        "label": "4th WIN",
+        "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
+        "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "pretty-girl-1-8a4e50d816",
+        "title": "「Pretty Girl」で地上波音楽番組初の1位を獲得！",
+        "date": "2026.07.25",
+        "label": "2nd WIN",
+        "image": "assets/news/notion/notion-3a8229d219da8057ba8ce48a4e50d816-59823cf86990.jpg",
+        "text": "2026年7月25日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」でグループ初となる\n地上波の音楽番組では初の1位を獲得しました。",
+        "score": 22,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
         ]
       }
     ],
@@ -2180,6 +2224,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【2026.07.20】 2026 K-WORLD DREAM AWARDS(KWDA)に出演が決定！\n\nhttps://rescene-fb.jp/articles/2026-k-world-dream-awards-kwda-fec5375c61.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "2026 K-WORLD DREAM AWARDS(KWDA)に出演が決定！\n2026年8月27日に開催されるK-WORLD DREAM AWARDS(KWDA)にRESCENEが出演決定しました！",
       "charCount": 151
+    },
+    {
+      "slug": "pretty-girl-1-bc9d88fde7",
+      "date": "2026.07.14",
+      "title": "「Pretty Girl」で音楽番組初の1位を獲得！",
+      "url": "https://rescene-fb.jp/articles/pretty-girl-1-bc9d88fde7.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.07.14】 「Pretty Girl」で音楽番組初の1位を獲得！\n\nhttps://rescene-fb.jp/articles/pretty-girl-1-bc9d88fde7.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "「Pretty Girl」で音楽番組初の1位を獲得！\n2026年7月14日放送のSBS Life「THE SHOW」で、\nグループ初の音楽番組1位を獲得しました。",
+      "charCount": 122
     },
     {
       "slug": "pretty-girl-first-music-show-win",

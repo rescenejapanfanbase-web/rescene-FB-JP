@@ -19,9 +19,9 @@ window.RESCENE_NEWS = [
     "title": "「With」で初の1位を獲得！",
     "text": "2026年11月10日放送のSBS Life「THE SHOW」で、\n｢With｣で初の1位を獲得しました。",
     "body": "2026年11月10日放送のSBS Life「THE SHOW」で、\n｢With｣で初の1位を獲得しました。\n「With」では初、グループとして通算7冠目となりました。",
-    "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-90ce9e27e311.jpg",
-    "sourceLink": "",
-    "sourceLabel": "",
+    "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-f2300f6238a9.jpg",
+    "sourceLink": "https://x.com/theshow_offcl/status/2120101787973857705?a=6Dv3HPOdG0QrK3jVPwg&s=46",
+    "sourceLabel": "公式のポストを見る",
     "translations": {},
     "notionPageId": "414229d2-19da-801b-9118-ced9daa3489d",
     "notionUrl": "https://app.notion.com/p/With-1-414229d219da801b9118ced9daa3489d"
@@ -441,6 +441,22 @@ window.RESCENE_NEWS = [
     "translations": {},
     "notionPageId": "3ae229d2-19da-8052-83b1-d5fec5375c61",
     "notionUrl": "https://app.notion.com/p/2026-K-WORLD-DREAM-AWARDS-KWDA-3ae229d219da805283b1d5fec5375c61"
+  },
+  {
+    "slug": "pretty-girl-1-bc9d88fde7",
+    "date": "2026.07.14",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "1st WIN",
+    "title": "「Pretty Girl」で音楽番組初の1位を獲得！",
+    "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nグループ初の音楽番組1位を獲得しました。",
+    "body": "2026年7月14日放送のSBS Life「THE SHOW」で、\n「Pretty Girl」でグループ初となる\n音楽番組1位を獲得しました。\n最終スコアは10,000点のフルスコアとなりました。",
+    "image": "news/the-show-first-win.jpeg",
+    "sourceLink": "https://www.youtube.com/watch?v=lzYGfa9XTYI",
+    "sourceLabel": "THE K-POP公式動画を見る",
+    "translations": {},
+    "notionPageId": "3a2229d2-19da-806e-a09b-c4bc9d88fde7",
+    "notionUrl": "https://app.notion.com/p/Pretty-Girl-1-3a2229d219da806ea09bc4bc9d88fde7"
   },
   {
     "slug": "pretty-girl-first-music-show-win",
