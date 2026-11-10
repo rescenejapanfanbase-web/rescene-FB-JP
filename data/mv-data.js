@@ -1,7 +1,7 @@
 window.RESCENE_MV = {
-  "generatedAt": "2026-10-16T20:59:39.747Z",
+  "generatedAt": "2026-11-10T02:41:16.944Z",
   "source": "youtube+notion",
-  "youtubeGeneratedAt": "2026-11-09T19:41:31.450Z",
+  "youtubeGeneratedAt": "2026-11-10T00:40:47.906Z",
   "dataSourceId": "e85d399d-5506-4ab3-8355-e94325fbf5b1",
   "notionDatabaseUrl": "https://app.notion.com/p/5f26ec69338a46f1ad9a82e070e92ad9",
   "years": [
@@ -358,7 +358,7 @@ window.RESCENE_MV = {
       "thumbnail": "assets/mv/pinball.jpg",
       "date": "2024-09-21",
       "year": "2024",
-      "publishedAt": "2024-09-21T00:00:00.000Z",
+      "publishedAt": "2024-09-21T09:00:08.000Z",
       "kind": "OFFICIAL MV",
       "badge": "OFFICIAL MV",
       "type": "official",
