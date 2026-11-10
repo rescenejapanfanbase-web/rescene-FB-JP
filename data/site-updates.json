@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T20:46:44.610819+00:00",
+  "generatedAt": "2026-11-10T21:47:19.724221+00:00",
   "items": [
     {
       "date": "2026-11-10",
@@ -30,16 +30,16 @@
       "date": "2026-11-10",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "8d45a69",
+      "commit": "67a61ca",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/seo-status.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc"
+        "assets/mv/youtube/638f3ttCR20.jpg",
+        "assets/mv/youtube/Gu_4J16N2fY.jpg",
+        "assets/mv/youtube/WQuoPINWLU8.jpg",
+        "assets/mv/youtube/_zzAi5x0cXc.jpg",
+        "assets/optimized/0352e799dbd54266/wquopinwlu8-w1280.webp",
+        "assets/optimized/0352e799dbd54266/wquopinwlu8-w480.webp",
+        "assets/optimized/0352e799dbd54266/wquopinwlu8-w768.webp"
       ]
     },
     {
