@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-08T23:57:36Z",
-  "startedAt": "2026-11-08T23:57:26Z",
-  "elapsedSeconds": 10.76,
+  "generatedAt": "2026-11-10T02:52:57Z",
+  "startedAt": "2026-11-10T02:52:49Z",
+  "elapsedSeconds": 7.6,
   "summary": {
     "checked": 98,
     "ok": 92,
@@ -1137,7 +1137,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 2182,
+          "line": 2296,
           "label": "「PULSE」 ビデオ通話サイン会 by WITHMUU"
         }
       ]
@@ -1346,7 +1346,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1794182249709&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1794279173965&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1905,7 +1905,7 @@
         },
         {
           "file": "data/schedule.json",
-          "line": 2147,
+          "line": 2261,
           "label": "Asia Artist Awards(AAA)2026"
         }
       ]
