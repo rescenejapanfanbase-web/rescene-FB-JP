@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-11-11T11:26:40Z",
+  "generatedAt": "2026-11-11T14:06:37Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/chants/notion/insideout.png": {
@@ -902,25 +902,31 @@
       "default": "assets/optimized/1d7d8bd6090a5e96/0ifsswwxvhc-w768.webp"
     },
     "assets/mv/youtube/4h0SE9m3IoU.jpg": {
-      "asset": "01213fb41fad9294",
-      "originalBytes": 25488,
+      "asset": "2376b79131cf6cb1",
+      "originalBytes": 63112,
       "width": 1280,
       "height": 720,
       "variants": [
         {
-          "src": "assets/optimized/01213fb41fad9294/4h0se9m3iou-w480.webp",
+          "src": "assets/optimized/2376b79131cf6cb1/4h0se9m3iou-w480.webp",
           "width": 480,
           "height": 270,
-          "bytes": 10266
+          "bytes": 10660
         },
         {
-          "src": "assets/optimized/01213fb41fad9294/4h0se9m3iou-w768.webp",
+          "src": "assets/optimized/2376b79131cf6cb1/4h0se9m3iou-w768.webp",
           "width": 768,
           "height": 432,
-          "bytes": 18064
+          "bytes": 18810
+        },
+        {
+          "src": "assets/optimized/2376b79131cf6cb1/4h0se9m3iou-w1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 39462
         }
       ],
-      "default": "assets/optimized/01213fb41fad9294/4h0se9m3iou-w768.webp"
+      "default": "assets/optimized/2376b79131cf6cb1/4h0se9m3iou-w1280.webp"
     },
     "assets/mv/youtube/638f3ttCR20.jpg": {
       "asset": "ac1da45f240557b4",
@@ -1133,31 +1139,25 @@
       "default": "assets/optimized/3e585ce6126f67f2/bnhosyv7ehy-w768.webp"
     },
     "assets/mv/youtube/d64dH8mnw9Q.jpg": {
-      "asset": "4094e6158720e831",
-      "originalBytes": 76974,
+      "asset": "b066e4117f21757e",
+      "originalBytes": 50504,
       "width": 1280,
       "height": 720,
       "variants": [
         {
-          "src": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w480.webp",
+          "src": "assets/optimized/b066e4117f21757e/d64dh8mnw9q-w480.webp",
           "width": 480,
           "height": 270,
-          "bytes": 15564
+          "bytes": 14936
         },
         {
-          "src": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w768.webp",
+          "src": "assets/optimized/b066e4117f21757e/d64dh8mnw9q-w768.webp",
           "width": 768,
           "height": 432,
-          "bytes": 31686
-        },
-        {
-          "src": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w1280.webp",
-          "width": 1280,
-          "height": 720,
-          "bytes": 72880
+          "bytes": 28418
         }
       ],
-      "default": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w1280.webp"
+      "default": "assets/optimized/b066e4117f21757e/d64dh8mnw9q-w768.webp"
     },
     "assets/mv/youtube/dvX4jNqqlS4.jpg": {
       "asset": "fcf58f78944dc729",
@@ -8769,6 +8769,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/236d37ddead0744a/bigc-10-1-w1206.webp"
     },
+    "2376b79131cf6cb1": {
+      "hash": "2376b79131cf6cb19131dbcc9287141c55d6175ede1570c432b44a18fd8bd5be",
+      "width": 1280,
+      "height": 720,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/2376b79131cf6cb1/4h0se9m3iou-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 10660
+        },
+        {
+          "src": "assets/optimized/2376b79131cf6cb1/4h0se9m3iou-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 18810
+        },
+        {
+          "src": "assets/optimized/2376b79131cf6cb1/4h0se9m3iou-w1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 39462
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/2376b79131cf6cb1/4h0se9m3iou-w1280.webp"
+    },
     "23d27070b0fc1675": {
       "hash": "23d27070b0fc16755d0177ee670eca80a037fb870dffb10c2ab371da3be1496e",
       "width": 512,
@@ -9426,36 +9456,6 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/4084253b26b5693b/fancast-earn-3-w1032.webp"
-    },
-    "4094e6158720e831": {
-      "hash": "4094e6158720e831880007954a09f5e22f7b47ab58697e44a122f48440c7f91d",
-      "width": 1280,
-      "height": 720,
-      "format": "jpg",
-      "alpha": false,
-      "quality": 84,
-      "variants": [
-        {
-          "src": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 15564
-        },
-        {
-          "src": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 31686
-        },
-        {
-          "src": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w1280.webp",
-          "width": 1280,
-          "height": 720,
-          "bytes": 72880
-        }
-      ],
-      "skippedWidths": [],
-      "default": "assets/optimized/4094e6158720e831/d64dh8mnw9q-w1280.webp"
     },
     "40e2d9234fa5c0a2": {
       "hash": "40e2d9234fa5c0a2367d9f23de77ebe17fd196cc607783d33b122fbebe0d8e97",
