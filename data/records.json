@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T11:58:16.108Z",
+  "generatedAt": "2026-11-11T09:46:16.595Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -101,6 +101,20 @@
       "translations": {},
       "notionPageId": "414229d2-19da-80e9-990c-f1ee98940dc3",
       "notionUrl": "https://app.notion.com/p/2026-11-10-With-THE-SHOW-414229d219da80e9990cf1ee98940dc3"
+    },
+    {
+      "title": "2026.11.11 With — SHOW CHAMPION",
+      "song": "With",
+      "date": "2026-11-11",
+      "program": "SHOW CHAMPION",
+      "description": "2026年11月11日放送のSHOW CHAMPIONにてWithで2冠目の1位を獲得。グループ通算8冠目。",
+      "videoUrl": "",
+      "videoLabel": "",
+      "image": "assets/records/notion/record-413229d219da80f988d4c10ca0cd4486-74a8337b73db.jpg",
+      "order": 9999,
+      "translations": {},
+      "notionPageId": "413229d2-19da-80f9-88d4-c10ca0cd4486",
+      "notionUrl": "https://app.notion.com/p/2026-11-11-With-SHOW-CHAMPION-413229d219da80f988d4c10ca0cd4486"
     }
   ],
   "melonRecords": [

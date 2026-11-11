@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "with-2-1-e431b66922",
+    "date": "2026.11.11",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "8th WIN",
+    "title": "「With」で2度目の1位を獲得！",
+    "text": "2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。",
+    "body": "2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。\n「With」では通算2冠目、グループとして通算8冠目となりました。",
+    "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-74a8337b73db.jpg",
+    "sourceLink": "",
+    "sourceLabel": "",
+    "translations": {},
+    "notionPageId": "414229d2-19da-80f4-a83b-f3e431b66922",
+    "notionUrl": "https://app.notion.com/p/With-2-1-414229d219da80f4a83bf3e431b66922"
+  },
+  {
     "slug": "rescene-bfd705a9a7",
     "date": "2026.11.11",
     "category": "event",

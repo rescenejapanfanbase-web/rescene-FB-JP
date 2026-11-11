@@ -1,8 +1,20 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-11-11T07:00:25.775Z",
-  "sourceNewsGeneratedAt": "2026-11-11T07:00:00.196Z",
+  "generatedAt": "2026-11-11T09:46:29.625Z",
+  "sourceNewsGeneratedAt": "2026-11-11T09:46:01.575Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "with-2-1-e431b66922",
+        "title": "「With」で2度目の1位を獲得！",
+        "date": "2026.11.11",
+        "label": "8th WIN",
+        "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-74a8337b73db.jpg",
+        "text": "2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "with-1-d9daa3489d",
         "title": "「With」で初の1位を獲得！",
@@ -26,6 +38,22 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "同じカテゴリー"
         ]
+      }
+    ],
+    "with-2-1-e431b66922": [
+      {
+        "slug": "with-1-d9daa3489d",
+        "title": "「With」で初の1位を獲得！",
+        "date": "2026.11.10",
+        "label": "7th WIN",
+        "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-f2300f6238a9.jpg",
+        "text": "2026年11月10日放送のSBS Life「THE SHOW」で、\n｢With｣で初の1位を獲得しました。",
+        "score": 18,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
       },
       {
         "slug": "with-rak-1ff7016932",
@@ -34,9 +62,23 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "1st RAK",
         "image": "assets/news/notion/notion-40e229d219da806abd06e21ff7016932-86a0a834f955.jpg",
         "text": "2026年11月5日0時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
-        "score": 5,
+        "score": 14,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "rescene-4th-mini-album-pulse-a7a231ff6f",
+        "title": "RESCENE 4th Mini Album『PULSE』の日本共同購入がスタート！",
+        "date": "2026.10.13",
+        "label": "Joint purchase",
+        "image": "assets/news/notion/notion-3f8229d219da80d18fb0d3a7a231ff6f-ce7aa3fcf98e.jpg",
+        "text": "RESCENE 4th Mini Album\n『PULSE』の日本共同購入がスタート！💿💗",
+        "score": 14,
+        "reasons": [
+          "同じカテゴリー",
+          "同じ作品"
         ]
       }
     ],
@@ -82,6 +124,20 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "with-1-d9daa3489d": [
       {
+        "slug": "with-2-1-e431b66922",
+        "title": "「With」で2度目の1位を獲得！",
+        "date": "2026.11.11",
+        "label": "8th WIN",
+        "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-74a8337b73db.jpg",
+        "text": "2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。",
+        "score": 18,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
         "slug": "with-rak-1ff7016932",
         "title": "｢With｣で初のRAKを達成！",
         "date": "2026.11.05",
@@ -105,19 +161,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "同じカテゴリー",
           "同じ作品"
-        ]
-      },
-      {
-        "slug": "pretty-girl-1-bc9d88fde7",
-        "title": "「Pretty Girl」で音楽番組初の1位を獲得！",
-        "date": "2026.07.14",
-        "label": "1st WIN",
-        "image": "news/the-show-first-win.jpeg",
-        "text": "2026年7月14日放送のSBS Life「THE SHOW」で、\nグループ初の音楽番組1位を獲得しました。",
-        "score": 12,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード"
         ]
       }
     ],
@@ -208,6 +251,18 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "rescene-official-light-stick-v2-8a21df0051": [
       {
+        "slug": "with-2-1-e431b66922",
+        "title": "「With」で2度目の1位を獲得！",
+        "date": "2026.11.11",
+        "label": "8th WIN",
+        "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-74a8337b73db.jpg",
+        "text": "2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "with-1-d9daa3489d",
         "title": "「With」で初の1位を獲得！",
         "date": "2026.11.10",
@@ -226,18 +281,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "Award",
         "image": "assets/news/notion/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88c095.jpg",
         "text": "2026年11月7日に開催された2026KGMAで4つの賞を受賞しました！",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "with-rak-1ff7016932",
-        "title": "｢With｣で初のRAKを達成！",
-        "date": "2026.11.05",
-        "label": "1st RAK",
-        "image": "assets/news/notion/notion-40e229d219da806abd06e21ff7016932-86a0a834f955.jpg",
-        "text": "2026年11月5日0時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -327,6 +370,19 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "rescene-4th-mini-album-pulse-a7a231ff6f": [
       {
+        "slug": "with-2-1-e431b66922",
+        "title": "「With」で2度目の1位を獲得！",
+        "date": "2026.11.11",
+        "label": "8th WIN",
+        "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-74a8337b73db.jpg",
+        "text": "2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。",
+        "score": 14,
+        "reasons": [
+          "同じカテゴリー",
+          "同じ作品"
+        ]
+      },
+      {
         "slug": "with-1-d9daa3489d",
         "title": "「With」で初の1位を獲得！",
         "date": "2026.11.10",
@@ -350,19 +406,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "同じカテゴリー",
           "同じ作品"
-        ]
-      },
-      {
-        "slug": "pretty-girl-3-1-f2e88c9a20",
-        "title": "「Pretty Girl」で3度目の1位を獲得！",
-        "date": "2026.08.08",
-        "label": "4th WIN",
-        "image": "assets/news/notion/notion-3b6229d219da80529093fcf2e88c9a20-1e87bf5496c7.jpg",
-        "text": "2026年8月8日放送のMBC「SHOW!音楽中心」で、「Pretty Girl」で3度目の1位を獲得しました。",
-        "score": 8,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード"
         ]
       }
     ],
@@ -1997,6 +2040,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "with-2-1-e431b66922",
+      "date": "2026.11.11",
+      "title": "「With」で2度目の1位を獲得！",
+      "url": "https://rescene-fb.jp/articles/with-2-1-e431b66922.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.11.11】 「With」で2度目の1位を獲得！\n\nhttps://rescene-fb.jp/articles/with-2-1-e431b66922.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "「With」で2度目の1位を獲得！\n2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。",
+      "charCount": 108
     },
     {
       "slug": "rescene-bfd705a9a7",

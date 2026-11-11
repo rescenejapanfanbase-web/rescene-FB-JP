@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-11-11T07:00:39Z",
+  "generatedAt": "2026-11-11T09:46:38Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/chants/notion/insideout.png": {
@@ -2068,6 +2068,33 @@
       ],
       "default": "assets/optimized/f2300f6238a9222e/notion-414229d219da801b9118ced9daa3489d-f2300f62-w1440.webp"
     },
+    "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-74a8337b73db.jpg": {
+      "asset": "74a8337b73dbcddd",
+      "originalBytes": 298623,
+      "width": 2000,
+      "height": 973,
+      "variants": [
+        {
+          "src": "assets/optimized/74a8337b73dbcddd/notion-414229d219da80f4a83bf3e431b66922-74a8337b-w480.webp",
+          "width": 480,
+          "height": 234,
+          "bytes": 34226
+        },
+        {
+          "src": "assets/optimized/74a8337b73dbcddd/notion-414229d219da80f4a83bf3e431b66922-74a8337b-w768.webp",
+          "width": 768,
+          "height": 374,
+          "bytes": 70538
+        },
+        {
+          "src": "assets/optimized/74a8337b73dbcddd/notion-414229d219da80f4a83bf3e431b66922-74a8337b-w1440.webp",
+          "width": 1440,
+          "height": 701,
+          "bytes": 162132
+        }
+      ],
+      "default": "assets/optimized/74a8337b73dbcddd/notion-414229d219da80f4a83bf3e431b66922-74a8337b-w1440.webp"
+    },
     "assets/news/notion/notion-415229d219da80ff9c6cd6bfd705a9a7-4b98d7b6aa21.jpg": {
       "asset": "4b98d7b6aa2195d5",
       "originalBytes": 147693,
@@ -2709,6 +2736,33 @@
         }
       ],
       "default": "assets/optimized/19f88b3740ebb45d/record-40d229d219da80cf9d07fa1e3d1f8a3f-19f88b37-w1280.webp"
+    },
+    "assets/records/notion/record-413229d219da80f988d4c10ca0cd4486-74a8337b73db.jpg": {
+      "asset": "74a8337b73dbcddd",
+      "originalBytes": 298623,
+      "width": 2000,
+      "height": 973,
+      "variants": [
+        {
+          "src": "assets/optimized/74a8337b73dbcddd/notion-414229d219da80f4a83bf3e431b66922-74a8337b-w480.webp",
+          "width": 480,
+          "height": 234,
+          "bytes": 34226
+        },
+        {
+          "src": "assets/optimized/74a8337b73dbcddd/notion-414229d219da80f4a83bf3e431b66922-74a8337b-w768.webp",
+          "width": 768,
+          "height": 374,
+          "bytes": 70538
+        },
+        {
+          "src": "assets/optimized/74a8337b73dbcddd/notion-414229d219da80f4a83bf3e431b66922-74a8337b-w1440.webp",
+          "width": 1440,
+          "height": 701,
+          "bytes": 162132
+        }
+      ],
+      "default": "assets/optimized/74a8337b73dbcddd/notion-414229d219da80f4a83bf3e431b66922-74a8337b-w1440.webp"
     },
     "assets/records/notion/record-414229d219da80e9990cf1ee98940dc3-f2300f6238a9.jpg": {
       "asset": "f2300f6238a9222e",
@@ -10814,6 +10868,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/738f6fade171e534/debut-2nd-anniversary-project-w1173.webp"
+    },
+    "74a8337b73dbcddd": {
+      "hash": "74a8337b73dbcdddae2aa7e33dc715dbf9d243045bbdadc0764c6292f0eda815",
+      "width": 2000,
+      "height": 973,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/74a8337b73dbcddd/notion-414229d219da80f4a83bf3e431b66922-74a8337b-w480.webp",
+          "width": 480,
+          "height": 234,
+          "bytes": 34226
+        },
+        {
+          "src": "assets/optimized/74a8337b73dbcddd/notion-414229d219da80f4a83bf3e431b66922-74a8337b-w768.webp",
+          "width": 768,
+          "height": 374,
+          "bytes": 70538
+        },
+        {
+          "src": "assets/optimized/74a8337b73dbcddd/notion-414229d219da80f4a83bf3e431b66922-74a8337b-w1440.webp",
+          "width": 1440,
+          "height": 701,
+          "bytes": 162132
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/74a8337b73dbcddd/notion-414229d219da80f4a83bf3e431b66922-74a8337b-w1440.webp"
     },
     "77e12c519052606f": {
       "hash": "77e12c519052606f78169770127184a34893f35c66b8636baf652c69a6dd1369",
