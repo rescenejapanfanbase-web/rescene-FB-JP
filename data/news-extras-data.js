@@ -1,6 +1,6 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-11-11T09:46:29.625Z",
-  "sourceNewsGeneratedAt": "2026-11-11T09:46:01.575Z",
+  "generatedAt": "2026-11-11T11:26:28.862Z",
+  "sourceNewsGeneratedAt": "2026-11-11T11:25:59.610Z",
   "related": {
     "fanbase-site": [
       {
@@ -8,7 +8,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "「With」で2度目の1位を獲得！",
         "date": "2026.11.11",
         "label": "8th WIN",
-        "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-74a8337b73db.jpg",
+        "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-5bb6d55c25ec.jpg",
         "text": "2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。",
         "score": 5,
         "reasons": [
@@ -128,7 +128,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "「With」で2度目の1位を獲得！",
         "date": "2026.11.11",
         "label": "8th WIN",
-        "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-74a8337b73db.jpg",
+        "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-5bb6d55c25ec.jpg",
         "text": "2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。",
         "score": 18,
         "reasons": [
@@ -255,7 +255,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "「With」で2度目の1位を獲得！",
         "date": "2026.11.11",
         "label": "8th WIN",
-        "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-74a8337b73db.jpg",
+        "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-5bb6d55c25ec.jpg",
         "text": "2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
@@ -374,7 +374,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "「With」で2度目の1位を獲得！",
         "date": "2026.11.11",
         "label": "8th WIN",
-        "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-74a8337b73db.jpg",
+        "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-5bb6d55c25ec.jpg",
         "text": "2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。",
         "score": 14,
         "reasons": [
