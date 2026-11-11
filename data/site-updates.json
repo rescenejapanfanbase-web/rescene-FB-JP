@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T21:16:43.724932+00:00",
+  "generatedAt": "2026-11-11T22:39:15.610250+00:00",
   "items": [
     {
       "date": "2026-11-11",
@@ -14,48 +14,7 @@
       "date": "2026-11-11",
       "title": "chore: critical schedule sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "ab891dc",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/pluschat-schedule.json",
-        "data/quality-report.json",
-        "data/rescene-schedule.ics",
-        "data/schedule-data.js",
-        "data/schedule.json"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "78e7b4a",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/quality-report.json",
-        "data/seo-status.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "2a10451",
-      "files": [
-        "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "a6cc986",
+      "commit": "fea1953",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -68,26 +27,26 @@
       ]
     },
     {
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "67a61ca",
+      "commit": "d5fb89d",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
-        "assets/mv/youtube/638f3ttCR20.jpg",
-        "assets/mv/youtube/Gu_4J16N2fY.jpg",
-        "assets/mv/youtube/WQuoPINWLU8.jpg",
-        "assets/mv/youtube/_zzAi5x0cXc.jpg",
-        "assets/optimized/0352e799dbd54266/wquopinwlu8-w1280.webp",
-        "assets/optimized/0352e799dbd54266/wquopinwlu8-w480.webp",
-        "assets/optimized/0352e799dbd54266/wquopinwlu8-w768.webp"
+        "assets/mv/youtube/pey3E47eSc8.jpg",
+        "assets/optimized/660d4c6314e1b1e9/pey3e47esc8-w1280.webp",
+        "assets/optimized/660d4c6314e1b1e9/pey3e47esc8-w480.webp",
+        "assets/optimized/660d4c6314e1b1e9/pey3e47esc8-w768.webp",
+        "assets/optimized/77e12c519052606f/pey3e47esc8-w480.webp",
+        "assets/optimized/77e12c519052606f/pey3e47esc8-w768.webp",
+        "data/image-manifest.json"
       ]
     },
     {
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "51057e3",
+      "commit": "2a10451",
       "files": [
         "data/youtube-channels.json"
       ]
