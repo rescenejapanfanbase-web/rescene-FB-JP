@@ -1,6 +1,31 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-10T21:47:19.724221+00:00",
+  "generatedAt": "2026-11-11T01:51:03.577565+00:00",
   "items": [
+    {
+      "date": "2026-11-11",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "b619502",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "478b2e1",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/quality-report.json",
+        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
+        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
+        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
+        "scripts/__pycache__/check-external-links.cpython-313.pyc"
+      ]
+    },
     {
       "date": "2026-11-10",
       "title": "chore: update external link report",
@@ -53,22 +78,6 @@ window.RESCENE_SITE_UPDATES = {
     },
     {
       "date": "2026-11-09",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "8fe9ca4",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/quality-report.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-11-09",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "b38d399",
@@ -81,15 +90,6 @@ window.RESCENE_SITE_UPDATES = {
         "data/mv-data.js",
         "data/mv.json",
         "data/seo-status.json"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "2ec75ab",
-      "files": [
-        "data/youtube-channels.json"
       ]
     },
     {
