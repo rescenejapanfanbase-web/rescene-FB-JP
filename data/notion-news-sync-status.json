@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-11-10T11:58:05.392Z",
+  "generatedAt": "2026-11-11T07:00:00.196Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 28,
-  "notionNews": 28,
-  "notionImages": 27,
+  "queriedPages": 29,
+  "notionNews": 29,
+  "notionImages": 28,
   "rows": [
+    {
+      "title": "RESCENE 初の単独コンサート開催決定！",
+      "pageId": "415229d2-19da-80ff-9c6c-d6bfd705a9a7",
+      "lastEditedTime": "2026-11-11T06:58:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "224211AD-18BC-429C-9769-C6AE9C7D7A57.jpeg",
+      "imagePath": "assets/news/notion/notion-415229d219da80ff9c6cd6bfd705a9a7-4b98d7b6aa21.jpg",
+      "imageBytes": 147693,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "「With」で初の1位を獲得！",
       "pageId": "414229d2-19da-801b-9118-ced9daa3489d",

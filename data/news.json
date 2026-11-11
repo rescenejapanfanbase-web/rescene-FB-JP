@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-10T11:58:05.392Z",
+  "generatedAt": "2026-11-11T07:00:00.196Z",
   "source": "manual+notion",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "notionCount": 28,
+  "notionCount": 29,
   "news": [
     {
       "slug": "fanbase-site",
@@ -14,6 +14,22 @@
       "image": "news/fanbase-site.jpg",
       "sourceLink": "https://x.com/Rescene_FB_JP",
       "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
+    },
+    {
+      "slug": "rescene-bfd705a9a7",
+      "date": "2026.11.11",
+      "category": "event",
+      "categoryName": "イベント",
+      "label": "Concert",
+      "title": "RESCENE 初の単独コンサート開催決定！",
+      "text": "RESCENEがデビュー約3年で、初となる単独コンサートの開催を発表しました！",
+      "body": "RESCENEがデビュー約3年で、初となる単独コンサート｢ 2027 RESCENE CONCERT\n『NOTES : BLOOMING』IN SEOUL｣の開催を発表しました！\n日時:2027年2月19日～21日\n場所:韓国 ソウル・オリンピック公園 オリンピックホール\nチケット予約:2026年12月予定\n※詳しい予約日程・公演情報は後日公開予定です。",
+      "image": "assets/news/notion/notion-415229d219da80ff9c6cd6bfd705a9a7-4b98d7b6aa21.jpg",
+      "sourceLink": "https://x.com/coupangplay/status/2120311020577239430?a=7qpa8pnaS5MfhBmfVa8&s=46",
+      "sourceLabel": "関連ポストを見る",
+      "translations": {},
+      "notionPageId": "415229d2-19da-80ff-9c6c-d6bfd705a9a7",
+      "notionUrl": "https://app.notion.com/p/RESCENE-415229d219da80ff9c6cd6bfd705a9a7"
     },
     {
       "slug": "with-1-d9daa3489d",

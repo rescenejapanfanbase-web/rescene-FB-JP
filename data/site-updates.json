@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T03:56:52.226024+00:00",
+  "generatedAt": "2026-11-11T07:00:25.876786+00:00",
   "items": [
     {
       "date": "2026-11-11",
@@ -40,15 +40,6 @@
         "data/mv-data.js",
         "data/mv.json",
         "data/seo-status.json"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "20a666d",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {

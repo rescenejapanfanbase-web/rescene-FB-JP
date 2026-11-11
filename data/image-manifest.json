@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-11-11T03:57:05Z",
+  "generatedAt": "2026-11-11T07:00:39Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/chants/notion/insideout.png": {
@@ -2067,6 +2067,33 @@
         }
       ],
       "default": "assets/optimized/f2300f6238a9222e/notion-414229d219da801b9118ced9daa3489d-f2300f62-w1440.webp"
+    },
+    "assets/news/notion/notion-415229d219da80ff9c6cd6bfd705a9a7-4b98d7b6aa21.jpg": {
+      "asset": "4b98d7b6aa2195d5",
+      "originalBytes": 147693,
+      "width": 848,
+      "height": 1199,
+      "variants": [
+        {
+          "src": "assets/optimized/4b98d7b6aa2195d5/notion-415229d219da80ff9c6cd6bfd705a9a7-4b98d7b6-w480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 36320
+        },
+        {
+          "src": "assets/optimized/4b98d7b6aa2195d5/notion-415229d219da80ff9c6cd6bfd705a9a7-4b98d7b6-w768.webp",
+          "width": 768,
+          "height": 1086,
+          "bytes": 78988
+        },
+        {
+          "src": "assets/optimized/4b98d7b6aa2195d5/notion-415229d219da80ff9c6cd6bfd705a9a7-4b98d7b6-w848.webp",
+          "width": 848,
+          "height": 1199,
+          "bytes": 97156
+        }
+      ],
+      "default": "assets/optimized/4b98d7b6aa2195d5/notion-415229d219da80ff9c6cd6bfd705a9a7-4b98d7b6-w848.webp"
     },
     "assets/platform-icons/apple-music.png": {
       "asset": "dfbcce2c96eda8d7",
@@ -9701,6 +9728,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/49801116f05fcb95/pretty-girl-first-music-show-win-w1200.webp"
+    },
+    "4b98d7b6aa2195d5": {
+      "hash": "4b98d7b6aa2195d5e15dde141f02e91054e9e2f3d7f3ee2f111bc0a6b6b33e0b",
+      "width": 848,
+      "height": 1199,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/4b98d7b6aa2195d5/notion-415229d219da80ff9c6cd6bfd705a9a7-4b98d7b6-w480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 36320
+        },
+        {
+          "src": "assets/optimized/4b98d7b6aa2195d5/notion-415229d219da80ff9c6cd6bfd705a9a7-4b98d7b6-w768.webp",
+          "width": 768,
+          "height": 1086,
+          "bytes": 78988
+        },
+        {
+          "src": "assets/optimized/4b98d7b6aa2195d5/notion-415229d219da80ff9c6cd6bfd705a9a7-4b98d7b6-w848.webp",
+          "width": 848,
+          "height": 1199,
+          "bytes": 97156
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/4b98d7b6aa2195d5/notion-415229d219da80ff9c6cd6bfd705a9a7-4b98d7b6-w848.webp"
     },
     "4bff958cf724ec17": {
       "hash": "4bff958cf724ec1724eecfd4cb70f6a7fedd426f8e60c863fd9332a1a2794ec5",
