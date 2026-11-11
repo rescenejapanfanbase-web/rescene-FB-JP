@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T10:42:02.264Z",
+  "generatedAt": "2026-11-11T12:04:33.931Z",
   "source": "YouTube channel tabs via yt-dlp",
   "collectionMode": "all-public-videos-with-verified-publish-dates",
   "classificationVersion": 2,
@@ -12,10 +12,10 @@
       "url": "https://www.youtube.com/@RESCENE_official",
       "description": "ミュージックビデオ、Re:log、ビハインドなどRESCENEの公式コンテンツ。",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtKtCiaWRz-d3EZn2xd1mdA",
-      "totalVideos": 1825,
+      "totalVideos": 1815,
       "typeCounts": {
         "video": 284,
-        "short": 1323,
+        "short": 1313,
         "live": 218
       },
       "videos": [
@@ -276,8 +276,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "IrcrSlCCkGo",
@@ -456,8 +455,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "2-PnDIvhIzc",
@@ -476,7 +474,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "_ldpW3AQWWA",
@@ -575,8 +574,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "cLtl2aFq_6M",
@@ -595,8 +593,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "pey3E47eSc8",
@@ -615,8 +612,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "KcTEkBTAP3I",
@@ -675,8 +671,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "EYrU4Zphz8s",
@@ -795,7 +790,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "_KseVSTX0KU",
@@ -1074,7 +1070,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "wzgKCSJlgKw",
@@ -1113,13 +1110,14 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "C3rVwz4OD9I",
           "title": "all eternity.",
           "url": "https://www.youtube.com/watch?v=C3rVwz4OD9I",
-          "thumbnail": "https://i.ytimg.com/vi_webp/C3rVwz4OD9I/maxresdefault.webp",
+          "thumbnail": "https://i.ytimg.com/vi/C3rVwz4OD9I/hq720.jpg",
           "publishedAt": "2026-10-23T00:00:00.000Z",
           "updatedAt": "2026-10-23T00:00:00.000Z",
           "videoType": "video",
@@ -1132,7 +1130,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "gfEWFQP4nLU",
@@ -1151,7 +1150,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "jCUVvU05r1k",
@@ -1170,7 +1170,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "XOEZAjPh4Nw",
@@ -1189,13 +1190,14 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "JCdkBe3d2b8",
           "title": "RESCENE [PULSE] Concept Trailer",
           "url": "https://www.youtube.com/watch?v=JCdkBe3d2b8",
-          "thumbnail": "https://i.ytimg.com/vi_webp/JCdkBe3d2b8/maxresdefault.webp",
+          "thumbnail": "https://i.ytimg.com/vi/JCdkBe3d2b8/hq720.jpg",
           "publishedAt": "2026-10-22T00:00:00.000Z",
           "updatedAt": "2026-10-22T00:00:00.000Z",
           "videoType": "video",
@@ -1208,7 +1210,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "xcGwV9UO_ZY",
@@ -1227,8 +1230,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "HE9S7yp_hV0",
@@ -1367,7 +1369,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "H0rmUNUSA5I",
@@ -1446,8 +1449,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "YJr1crCM1Fk",
@@ -1546,8 +1548,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "lkHYRzXyGnk",
@@ -1606,8 +1607,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "1mG07rXW1hM",
@@ -1626,8 +1626,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "jmR6pAUw5Ps",
@@ -1866,7 +1865,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "uvnpuCAz-FE",
@@ -1985,8 +1985,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "hXtUcbHIsOk",
@@ -2205,7 +2204,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "jGyDVoKfmOY",
@@ -2284,8 +2284,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "YjDFbRB29FA",
@@ -2424,7 +2423,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "JPAKX4X_9WU",
@@ -2823,7 +2823,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "d1fl84PzL2c",
@@ -2982,7 +2983,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "CSIJgpCNoO4",
@@ -3181,8 +3183,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "dgUOLHElpJg",
@@ -3241,8 +3242,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "bDE6e40utiY",
@@ -3321,8 +3321,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "Pxh0l3o8H14",
@@ -3381,7 +3380,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "igJq3rvLld8",
@@ -3600,8 +3600,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "kalnsqjQD0Y",
@@ -4007,7 +4006,7 @@
           "videoId": "dglF9_PJqto",
           "title": "RESCENE (리센느) 'Pretty Girl' Dance Practice",
           "url": "https://www.youtube.com/watch?v=dglF9_PJqto",
-          "thumbnail": "https://i.ytimg.com/vi_webp/dglF9_PJqto/maxresdefault.webp",
+          "thumbnail": "https://i.ytimg.com/vi/dglF9_PJqto/hq720.jpg",
           "publishedAt": "2026-07-16T00:00:00.000Z",
           "updatedAt": "2026-07-16T00:00:00.000Z",
           "videoType": "video",
@@ -4020,7 +4019,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "zDTijSf4UHo",
@@ -4039,7 +4039,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "46SJ_LDyEDw",
@@ -4578,7 +4579,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "VVz51TxI8a0",
@@ -4697,7 +4699,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "s5ve_1aD74k",
@@ -4896,7 +4899,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "e_RTmXn5nPo",
@@ -4955,7 +4959,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "4E6aUYPMmas",
@@ -4974,7 +4979,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "u0YZVUvlGSk",
@@ -5133,7 +5139,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "vRnXOGS8ne8",
@@ -5252,7 +5259,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "j8dkkFeaq4Q",
@@ -5391,7 +5399,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "Ax10wKRN10Q",
@@ -5530,7 +5539,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "jvIClammRHs",
@@ -5629,7 +5639,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "aEaCLkOJdG8",
@@ -5848,7 +5859,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "O_QATiHzjK4",
@@ -5947,7 +5959,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "I_C6jACrTSI",
@@ -6066,7 +6079,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "egyho1BVbhU",
@@ -6105,7 +6119,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "qnHKH05VqU4",
@@ -6244,7 +6259,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "bClA2Os6vpE",
@@ -6383,7 +6399,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "rsDGUsjekn0",
@@ -6602,7 +6619,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "ymDN-fE7tEI",
@@ -6981,7 +6999,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "fNvJkt1ZkVQ",
@@ -7060,7 +7079,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "wea0W6E0a_E",
@@ -7159,7 +7179,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "dzTYVtH8XJw",
@@ -7338,7 +7359,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "n2mgA4HQdcI",
@@ -7737,7 +7759,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "Yf1DMWGvWxA",
@@ -7956,7 +7979,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "r4KtC_X87uQ",
@@ -8295,7 +8319,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "b8vrQtvW2HM",
@@ -8594,7 +8619,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "bDV1iZpWTi8",
@@ -8853,7 +8879,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "hDWUlMcr8vA",
@@ -8932,7 +8959,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "iPXWk8tbpmA",
@@ -9011,7 +9039,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "HJSWawrN0MY",
@@ -9110,7 +9139,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "SsZwyvEUi2A",
@@ -9149,7 +9179,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "LtwcIffpIqc",
@@ -9248,7 +9279,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "tLRsC95ILBw",
@@ -9287,7 +9319,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "V3zzQr244dc",
@@ -9326,7 +9359,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "VR0U-SQfc_c",
@@ -9765,7 +9799,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "ZoKjU232QKg",
@@ -10004,7 +10039,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "ibXfcqYoeW4",
@@ -10103,7 +10139,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "sqT3TPgiYMs",
@@ -10322,7 +10359,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "xtFS2K9aA9Q",
@@ -10841,7 +10879,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "FtxkInW30-c",
@@ -11040,7 +11079,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "2zykenbgorw",
@@ -11079,7 +11119,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "8MOVpzXlRow",
@@ -11358,7 +11399,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "HTj4NplR11M",
@@ -11437,7 +11479,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "CYi5QwYnPj8",
@@ -11736,7 +11779,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "dwknw3eWQ0g",
@@ -12035,7 +12079,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "pu2zJ8dw1EI",
@@ -12194,7 +12239,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "wdJgOyvLfns",
@@ -12353,7 +12399,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "pKk_XZxxFX0",
@@ -12512,7 +12559,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "LN6hykgu01c",
@@ -12711,7 +12759,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "WdSrNnj0sZE",
@@ -12850,7 +12899,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "TD9f8ymdq14",
@@ -12869,7 +12919,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "GQt6kIgfbvQ",
@@ -12908,7 +12959,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "lrab7TYy6UE",
@@ -12947,7 +12999,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "TS0gWNB3_bw",
@@ -13046,7 +13099,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "2ryUBaAqygw",
@@ -13105,7 +13159,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "sOp-isQ1MAE",
@@ -13124,7 +13179,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "Txha4_7eHYo",
@@ -13343,7 +13399,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "FxVpjcr7b88",
@@ -13382,7 +13439,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "lk4M8L6nCtA",
@@ -13481,7 +13539,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "4sarCqCOCFA",
@@ -13700,7 +13759,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "YcbwWtrYZQM",
@@ -13839,7 +13899,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "aa2XkGuslag",
@@ -14058,7 +14119,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "6r_Xb4e3cQU",
@@ -14197,7 +14259,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "UUvDItkBMMY",
@@ -14216,7 +14279,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "9h91_mbfbws",
@@ -14315,7 +14379,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "J5aD2N04BCQ",
@@ -14634,7 +14699,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "wA0SLPlRXes",
@@ -14833,7 +14899,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "ZYoxSGcZBQM",
@@ -14912,7 +14979,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "rCHmke2xrbg",
@@ -14991,7 +15059,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "MAGjOr5W9rU",
@@ -15030,7 +15099,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "tTbkcE6cWEM",
@@ -15069,7 +15139,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "5lMHym1ioK8",
@@ -15208,7 +15279,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "G95ac3qS2f8",
@@ -15267,7 +15339,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "yO9EwNLSUdI",
@@ -15446,7 +15519,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "Lyipu8YHFps",
@@ -15725,7 +15799,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "WWI3a1ZdC-o",
@@ -15884,7 +15959,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "NBSFagbxBek",
@@ -16243,7 +16319,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "agtZ5J1MXOg",
@@ -16402,7 +16479,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "EsXDnEwXztw",
@@ -16481,7 +16559,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "-85ikAuV4M0",
@@ -16520,7 +16599,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "bxWaT4GjgGQ",
@@ -16579,7 +16659,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "2tfe_d4i--U",
@@ -16638,7 +16719,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "nO9U9dx1ILY",
@@ -16657,7 +16739,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "Btex-qIePJ8",
@@ -16696,7 +16779,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "-DFvaSYBLlY",
@@ -16835,7 +16919,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "WPra128W_jQ",
@@ -17054,7 +17139,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "3aBKVZc7xJ0",
@@ -17133,7 +17219,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "yH3_XtSKW9U",
@@ -17232,7 +17319,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "icSF3JyWY4A",
@@ -17411,7 +17499,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "N06m6oN44Uo",
@@ -17530,7 +17619,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "ea0xsUGjAHo",
@@ -17749,7 +17839,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "3zWV9lPx8YY",
@@ -18008,7 +18099,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "44d_XKn-yXs",
@@ -18207,7 +18299,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "o3U_sfcLtqk",
@@ -18386,7 +18479,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "JnN4wITPDHw",
@@ -18425,7 +18519,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "2pXEWmJAT4I",
@@ -18484,7 +18579,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "GJt7tayeACg",
@@ -18583,7 +18679,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "siVpQ_yKpho",
@@ -18622,7 +18719,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "95V4tkGpdhM",
@@ -18701,7 +18799,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "F5SzzzdAswU",
@@ -18800,7 +18899,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "xB7zYBVeug0",
@@ -18959,7 +19059,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "2G5PsJzv23A",
@@ -19018,7 +19119,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "FsYTspqcI-w",
@@ -19117,7 +19219,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "jxyTHnMvmRI",
@@ -19376,7 +19479,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "yfjJ8qdeFl8",
@@ -19402,9 +19506,9 @@
           "videoId": "gSDodK69puY",
           "title": "[BASE NOTES] RESCENE (리센느) 'Deja Vu' 음악방송 Behind",
           "url": "https://www.youtube.com/watch?v=gSDodK69puY",
-          "thumbnail": "https://i.ytimg.com/vi/gSDodK69puY/maxresdefault.jpg",
-          "publishedAt": "2025-07-23T12:59:01.000Z",
-          "updatedAt": "2025-07-23T12:59:01.000Z",
+          "thumbnail": "https://i.ytimg.com/vi_webp/gSDodK69puY/maxresdefault.webp",
+          "publishedAt": "2025-07-23T00:00:00.000Z",
+          "updatedAt": "2025-07-23T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -19415,7 +19519,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "rAhHTMrV6XM",
@@ -19494,7 +19599,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "_RRTrgg1Vxc",
@@ -19637,25 +19743,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "EeHhcBwq0hQ",
-          "title": "[BASE NOTES] RESCENE (리센느) 'Deja Vu' MV Behind",
-          "url": "https://www.youtube.com/watch?v=EeHhcBwq0hQ",
-          "thumbnail": "https://i.ytimg.com/vi/EeHhcBwq0hQ/maxresdefault.jpg",
-          "publishedAt": "2025-07-18T12:59:01.000Z",
-          "updatedAt": "2025-07-18T12:59:01.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "EeHhcBwq0hQ"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "-E6EnqRIPmk",
           "title": "💃➡️👩",
           "url": "https://www.youtube.com/watch?v=-E6EnqRIPmk",
@@ -19696,6 +19783,26 @@
           "classificationVersion": 2
         },
         {
+          "videoId": "EeHhcBwq0hQ",
+          "title": "[BASE NOTES] RESCENE (리센느) 'Deja Vu' MV Behind",
+          "url": "https://www.youtube.com/watch?v=EeHhcBwq0hQ",
+          "thumbnail": "https://i.ytimg.com/vi_webp/EeHhcBwq0hQ/maxresdefault.webp",
+          "publishedAt": "2025-07-18T00:00:00.000Z",
+          "updatedAt": "2025-07-18T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "EeHhcBwq0hQ"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
           "videoId": "k2vT9x9_wQE",
           "title": "RESCENE (리센느) 'Deja Vu' After School Live Clip",
           "url": "https://www.youtube.com/watch?v=k2vT9x9_wQE",
@@ -19712,7 +19819,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "yuVQvvFkOQ4",
@@ -19875,25 +19983,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "edszA3S4eRs",
-          "title": "[BASE NOTES] RESCENE (리센느) 'Dearest' Jacket Photoshoot Behind",
-          "url": "https://www.youtube.com/watch?v=edszA3S4eRs",
-          "thumbnail": "https://i.ytimg.com/vi/edszA3S4eRs/maxresdefault.jpg",
-          "publishedAt": "2025-07-16T13:01:20.000Z",
-          "updatedAt": "2025-07-16T13:01:20.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "edszA3S4eRs"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "-PwtaoLvyaY",
           "title": "뽀롱뽀롱 리센느",
           "url": "https://www.youtube.com/watch?v=-PwtaoLvyaY",
@@ -19926,6 +20015,26 @@
           ],
           "sourceVideoIds": [
             "a7GQTqhUFCE"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "edszA3S4eRs",
+          "title": "[BASE NOTES] RESCENE (리센느) 'Dearest' Jacket Photoshoot Behind",
+          "url": "https://www.youtube.com/watch?v=edszA3S4eRs",
+          "thumbnail": "https://i.ytimg.com/vi_webp/edszA3S4eRs/maxresdefault.webp",
+          "publishedAt": "2025-07-16T00:00:00.000Z",
+          "updatedAt": "2025-07-16T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "edszA3S4eRs"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -20274,25 +20383,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "FzUeh7XBOmI",
-          "title": "꽃길 - 김세정 | Cover by 규빈 X 미나미 of RESCENE",
-          "url": "https://www.youtube.com/watch?v=FzUeh7XBOmI",
-          "thumbnail": "https://i.ytimg.com/vi/FzUeh7XBOmI/maxresdefault.jpg",
-          "publishedAt": "2025-07-11T08:00:30.000Z",
-          "updatedAt": "2025-07-11T08:00:30.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "FzUeh7XBOmI"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "17bq11fiiF4",
           "title": "#엄지 선배님과 함께 #DejaVu_Challenge 🌱",
           "url": "https://www.youtube.com/watch?v=17bq11fiiF4",
@@ -20305,6 +20395,26 @@
           ],
           "sourceVideoIds": [
             "17bq11fiiF4"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "FzUeh7XBOmI",
+          "title": "꽃길 - 김세정 | Cover by 규빈 X 미나미 of RESCENE",
+          "url": "https://www.youtube.com/watch?v=FzUeh7XBOmI",
+          "thumbnail": "https://i.ytimg.com/vi_webp/FzUeh7XBOmI/maxresdefault.webp",
+          "publishedAt": "2025-07-11T00:00:00.000Z",
+          "updatedAt": "2025-07-11T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "FzUeh7XBOmI"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -20376,7 +20486,7 @@
           "videoId": "wbeO_JG9IU0",
           "title": "RESCENE (리센느) 'Deja Vu' Dance Practice",
           "url": "https://www.youtube.com/watch?v=wbeO_JG9IU0",
-          "thumbnail": "https://i.ytimg.com/vi/wbeO_JG9IU0/hq720.jpg",
+          "thumbnail": "https://i.ytimg.com/vi_webp/wbeO_JG9IU0/maxresdefault.webp",
           "publishedAt": "2025-07-11T00:00:00.000Z",
           "updatedAt": "2025-07-11T00:00:00.000Z",
           "videoType": "video",
@@ -20389,7 +20499,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "XBMgL_iGofE",
@@ -20410,25 +20521,6 @@
           "liveMetadataVerified": true,
           "liveStatus": "not_live",
           "classificationVersion": 2
-        },
-        {
-          "videoId": "d64dH8mnw9Q",
-          "title": "RESCENE (리센느) 'Deja Vu' MV (Performance ver.)",
-          "url": "https://www.youtube.com/watch?v=d64dH8mnw9Q",
-          "thumbnail": "https://i.ytimg.com/vi/d64dH8mnw9Q/maxresdefault.jpg",
-          "publishedAt": "2025-07-10T12:59:00.000Z",
-          "updatedAt": "2025-07-10T12:59:00.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "d64dH8mnw9Q"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
         },
         {
           "videoId": "2rTAktjB1s4",
@@ -20511,6 +20603,26 @@
           "classificationVersion": 2
         },
         {
+          "videoId": "d64dH8mnw9Q",
+          "title": "RESCENE (리센느) 'Deja Vu' MV (Performance ver.)",
+          "url": "https://www.youtube.com/watch?v=d64dH8mnw9Q",
+          "thumbnail": "https://i.ytimg.com/vi_webp/d64dH8mnw9Q/maxresdefault.webp",
+          "publishedAt": "2025-07-10T00:00:00.000Z",
+          "updatedAt": "2025-07-10T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "d64dH8mnw9Q"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
           "videoId": "jRKuHMpbrvk",
           "title": "😚🤗🤭🤫🥰",
           "url": "https://www.youtube.com/watch?v=jRKuHMpbrvk",
@@ -20549,25 +20661,6 @@
           "liveMetadataVerified": true,
           "liveStatus": "not_live",
           "classificationVersion": 2
-        },
-        {
-          "videoId": "BV4CrS9QdwU",
-          "title": "RESCENE (리센느) X JUSTICEBACTERIA - Deja Vu mini desk ver.",
-          "url": "https://www.youtube.com/watch?v=BV4CrS9QdwU",
-          "thumbnail": "https://i.ytimg.com/vi_webp/BV4CrS9QdwU/maxresdefault.webp",
-          "publishedAt": "2025-07-09T13:00:17.000Z",
-          "updatedAt": "2025-07-09T13:00:17.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "BV4CrS9QdwU"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
         },
         {
           "videoId": "-Lp6KmsGdLM",
@@ -20622,6 +20715,26 @@
           ],
           "sourceVideoIds": [
             "Ay2nF2eQNWQ"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "BV4CrS9QdwU",
+          "title": "RESCENE (리센느) X JUSTICEBACTERIA - Deja Vu mini desk ver.",
+          "url": "https://www.youtube.com/watch?v=BV4CrS9QdwU",
+          "thumbnail": "https://i.ytimg.com/vi_webp/BV4CrS9QdwU/maxresdefault.webp",
+          "publishedAt": "2025-07-09T00:00:00.000Z",
+          "updatedAt": "2025-07-09T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "BV4CrS9QdwU"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -21073,7 +21186,7 @@
           "videoId": "LeZdjeSxZTY",
           "title": "RESCENE (리센느) 'Deja Vu' MV Reaction",
           "url": "https://www.youtube.com/watch?v=LeZdjeSxZTY",
-          "thumbnail": "https://i.ytimg.com/vi/LeZdjeSxZTY/hq720.jpg",
+          "thumbnail": "https://i.ytimg.com/vi_webp/LeZdjeSxZTY/maxresdefault.webp",
           "publishedAt": "2025-07-04T00:00:00.000Z",
           "updatedAt": "2025-07-04T00:00:00.000Z",
           "videoType": "video",
@@ -21086,7 +21199,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "Ny5SHiJjdRg",
@@ -21147,25 +21261,6 @@
           "liveMetadataVerified": true,
           "liveStatus": "not_live",
           "classificationVersion": 2
-        },
-        {
-          "videoId": "v5we0mJpoDM",
-          "title": "RESCENE (리센느) 'Mood': The film",
-          "url": "https://www.youtube.com/watch?v=v5we0mJpoDM",
-          "thumbnail": "https://i.ytimg.com/vi/v5we0mJpoDM/maxresdefault.jpg",
-          "publishedAt": "2025-07-03T15:00:42.000Z",
-          "updatedAt": "2025-07-03T15:00:42.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "v5we0mJpoDM"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
         },
         {
           "videoId": "9ZsyhAf6eNU",
@@ -21248,29 +21343,30 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "ZbO9PBdFRdc",
-          "title": "RESCENE (리센느) 'Deja Vu' Official MV",
-          "url": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
-          "thumbnail": "https://i.ytimg.com/vi/ZbO9PBdFRdc/maxresdefault.jpg",
-          "publishedAt": "2025-07-02T09:00:00.000Z",
-          "updatedAt": "2025-07-02T09:00:00.000Z",
+          "videoId": "v5we0mJpoDM",
+          "title": "RESCENE (리센느) 'Mood': The film",
+          "url": "https://www.youtube.com/watch?v=v5we0mJpoDM",
+          "thumbnail": "https://i.ytimg.com/vi_webp/v5we0mJpoDM/maxresdefault.webp",
+          "publishedAt": "2025-07-03T00:00:00.000Z",
+          "updatedAt": "2025-07-03T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
           ],
           "sourceVideoIds": [
-            "ZbO9PBdFRdc"
+            "v5we0mJpoDM"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "9FlQOv6-Mjc",
           "title": "RESCENE (리센느) 'Deja Vu' 응원법 (Fanchant Guide)",
           "url": "https://www.youtube.com/watch?v=9FlQOv6-Mjc",
-          "thumbnail": "https://i.ytimg.com/vi/9FlQOv6-Mjc/hq720.jpg",
+          "thumbnail": "https://i.ytimg.com/vi_webp/9FlQOv6-Mjc/maxresdefault.webp",
           "publishedAt": "2025-07-02T00:00:00.000Z",
           "updatedAt": "2025-07-02T00:00:00.000Z",
           "videoType": "video",
@@ -21283,7 +21379,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "nZpzNuAMxn0",
@@ -21346,23 +21443,24 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "ykajWhay6p8",
-          "title": "RESCENE (리센느) 'Dearest' Album Unboxing",
-          "url": "https://www.youtube.com/watch?v=ykajWhay6p8",
-          "thumbnail": "https://i.ytimg.com/vi/ykajWhay6p8/maxresdefault.jpg",
-          "publishedAt": "2025-07-01T13:01:58.000Z",
-          "updatedAt": "2025-07-01T13:01:58.000Z",
+          "videoId": "ZbO9PBdFRdc",
+          "title": "RESCENE (리센느) 'Deja Vu' Official MV",
+          "url": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
+          "thumbnail": "https://i.ytimg.com/vi_webp/ZbO9PBdFRdc/maxresdefault.webp",
+          "publishedAt": "2025-07-02T00:00:00.000Z",
+          "updatedAt": "2025-07-02T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
           ],
           "sourceVideoIds": [
-            "ykajWhay6p8"
+            "ZbO9PBdFRdc"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "1-IOC-BAHU4",
@@ -21385,12 +21483,32 @@
           "classificationVersion": 2
         },
         {
+          "videoId": "ykajWhay6p8",
+          "title": "RESCENE (리센느) 'Dearest' Album Unboxing",
+          "url": "https://www.youtube.com/watch?v=ykajWhay6p8",
+          "thumbnail": "https://i.ytimg.com/vi_webp/ykajWhay6p8/maxresdefault.webp",
+          "publishedAt": "2025-07-01T00:00:00.000Z",
+          "updatedAt": "2025-07-01T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "ykajWhay6p8"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
           "videoId": "MX87YV6FWhg",
           "title": "RESCENE (리센느) 'Deja Vu' Official MV Teaser",
           "url": "https://www.youtube.com/watch?v=MX87YV6FWhg",
-          "thumbnail": "https://i.ytimg.com/vi/MX87YV6FWhg/maxresdefault.jpg",
-          "publishedAt": "2025-06-30T13:00:01.000Z",
-          "updatedAt": "2025-06-30T13:00:01.000Z",
+          "thumbnail": "https://i.ytimg.com/vi_webp/MX87YV6FWhg/maxresdefault.webp",
+          "publishedAt": "2025-06-30T00:00:00.000Z",
+          "updatedAt": "2025-06-30T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -21401,7 +21519,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "ybJFf4TeeXg",
@@ -21447,9 +21566,9 @@
           "videoId": "g9wp5ONbrH8",
           "title": "\"After Rain, Green Whispers\"",
           "url": "https://www.youtube.com/watch?v=g9wp5ONbrH8",
-          "thumbnail": "https://i.ytimg.com/vi/g9wp5ONbrH8/maxresdefault.jpg",
-          "publishedAt": "2025-06-24T12:59:00.000Z",
-          "updatedAt": "2025-06-24T12:59:00.000Z",
+          "thumbnail": "https://i.ytimg.com/vi_webp/g9wp5ONbrH8/maxresdefault.webp",
+          "publishedAt": "2025-06-24T00:00:00.000Z",
+          "updatedAt": "2025-06-24T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -21460,7 +21579,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "d1va-qw2GVI",
@@ -21726,9 +21846,9 @@
           "videoId": "rVPh9-CtmiA",
           "title": "RESCENE (리센느) '마지막처럼' Dance Practice (원곡: BLACKPINK)",
           "url": "https://www.youtube.com/watch?v=rVPh9-CtmiA",
-          "thumbnail": "https://i.ytimg.com/vi/rVPh9-CtmiA/maxresdefault.jpg",
-          "publishedAt": "2025-06-16T11:01:32.000Z",
-          "updatedAt": "2025-06-16T11:01:32.000Z",
+          "thumbnail": "https://i.ytimg.com/vi_webp/rVPh9-CtmiA/maxresdefault.webp",
+          "publishedAt": "2025-06-16T00:00:00.000Z",
+          "updatedAt": "2025-06-16T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -21739,13 +21859,14 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "uuCBqyINkhw",
           "title": "[BASE NOTES] RESCENE (리센느) KCON JAPAN 2025 Behind",
           "url": "https://www.youtube.com/watch?v=uuCBqyINkhw",
-          "thumbnail": "https://i.ytimg.com/vi/uuCBqyINkhw/hq720.jpg",
+          "thumbnail": "https://i.ytimg.com/vi_webp/uuCBqyINkhw/maxresdefault.webp",
           "publishedAt": "2025-06-16T00:00:00.000Z",
           "updatedAt": "2025-06-16T00:00:00.000Z",
           "videoType": "video",
@@ -21758,7 +21879,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "E_zJs_5kbkA",
@@ -21824,7 +21946,7 @@
           "videoId": "Qz5c8QVnsFU",
           "title": "[Re:Creation] 리센느 전원일기 EP.03 🍀 | RESCENE (리센느)",
           "url": "https://www.youtube.com/watch?v=Qz5c8QVnsFU",
-          "thumbnail": "https://i.ytimg.com/vi/Qz5c8QVnsFU/hq720.jpg",
+          "thumbnail": "https://i.ytimg.com/vi_webp/Qz5c8QVnsFU/maxresdefault.webp",
           "publishedAt": "2025-06-14T00:00:00.000Z",
           "updatedAt": "2025-06-14T00:00:00.000Z",
           "videoType": "video",
@@ -21837,7 +21959,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "chTehUvNx9c",
@@ -21881,11 +22004,11 @@
         },
         {
           "videoId": "wyTLakQ1Fdg",
-          "title": "[Re:Creation] 리센느 전원일기 EP.02 🍀 | RESCENE (리센느)",
+          "title": "[Re:Creation] RESCENE Country Diary EP.02 🍀 | RESCENE",
           "url": "https://www.youtube.com/watch?v=wyTLakQ1Fdg",
-          "thumbnail": "https://i.ytimg.com/vi/wyTLakQ1Fdg/maxresdefault.jpg",
-          "publishedAt": "2025-06-12T11:30:47.000Z",
-          "updatedAt": "2025-06-12T11:30:47.000Z",
+          "thumbnail": "https://i.ytimg.com/vi_webp/wyTLakQ1Fdg/maxresdefault.webp",
+          "publishedAt": "2025-06-12T00:00:00.000Z",
+          "updatedAt": "2025-06-12T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -21896,7 +22019,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "6S5Kka-R1Ns",
@@ -21959,25 +22083,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "GV_6frhuxPs",
-          "title": "[Re:Creation] 리센느 전원일기 EP.01 🍀 | RESCENE (리센느)",
-          "url": "https://www.youtube.com/watch?v=GV_6frhuxPs",
-          "thumbnail": "https://i.ytimg.com/vi/GV_6frhuxPs/maxresdefault.jpg",
-          "publishedAt": "2025-06-05T11:30:12.000Z",
-          "updatedAt": "2025-06-05T11:30:12.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "GV_6frhuxPs"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "e97EWZMJ9O8",
           "title": "원작가의 Q&A💗",
           "url": "https://www.youtube.com/watch?v=e97EWZMJ9O8",
@@ -21990,6 +22095,26 @@
           ],
           "sourceVideoIds": [
             "e97EWZMJ9O8"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "GV_6frhuxPs",
+          "title": "[Re:Creation] 리센느 전원일기 EP.01 🍀 | RESCENE (리센느)",
+          "url": "https://www.youtube.com/watch?v=GV_6frhuxPs",
+          "thumbnail": "https://i.ytimg.com/vi/GV_6frhuxPs/hq720.jpg",
+          "publishedAt": "2025-06-05T00:00:00.000Z",
+          "updatedAt": "2025-06-05T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "GV_6frhuxPs"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -22138,25 +22263,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "yPRYmyMw4g0",
-          "title": "오늘만큼은, 나를 위한 시간 🎁ㅣWONI HBD TO ME🎂ㅣW:One Day Vlog",
-          "url": "https://www.youtube.com/watch?v=yPRYmyMw4g0",
-          "thumbnail": "https://i.ytimg.com/vi/yPRYmyMw4g0/maxresdefault.jpg",
-          "publishedAt": "2025-05-25T09:01:21.000Z",
-          "updatedAt": "2025-05-25T09:01:21.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "yPRYmyMw4g0"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "58iQGmXK1WA",
           "title": "Happy birthday to me 🕯️",
           "url": "https://www.youtube.com/watch?v=58iQGmXK1WA",
@@ -22189,6 +22295,26 @@
           ],
           "sourceVideoIds": [
             "JNI3e-4LlyI"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "yPRYmyMw4g0",
+          "title": "오늘만큼은, 나를 위한 시간 🎁ㅣWONI HBD TO ME🎂ㅣW:One Day Vlog",
+          "url": "https://www.youtube.com/watch?v=yPRYmyMw4g0",
+          "thumbnail": "https://i.ytimg.com/vi_webp/yPRYmyMw4g0/maxresdefault.webp",
+          "publishedAt": "2025-05-25T00:00:00.000Z",
+          "updatedAt": "2025-05-25T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "yPRYmyMw4g0"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -22573,7 +22699,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "LHJNCuB2EJ4",
@@ -22639,9 +22766,9 @@
           "videoId": "xeEMSoqKfBY",
           "title": "𝗥𝗘𝗦𝗖𝗘𝗡𝗘 𝗣𝗟𝗔𝗬𝗟𝗜𝗦𝗧 | 풀냄새 맡았더니 나도 모르게 플레이 누름🌿 | 리센느가 풀밭에서 추천한 노래들💿",
           "url": "https://www.youtube.com/watch?v=xeEMSoqKfBY",
-          "thumbnail": "https://i.ytimg.com/vi/xeEMSoqKfBY/maxresdefault.jpg",
-          "publishedAt": "2025-04-30T09:01:28.000Z",
-          "updatedAt": "2025-04-30T09:01:28.000Z",
+          "thumbnail": "https://i.ytimg.com/vi_webp/xeEMSoqKfBY/maxresdefault.webp",
+          "publishedAt": "2025-04-30T00:00:00.000Z",
+          "updatedAt": "2025-04-30T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -22652,7 +22779,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "86JsX9_Khm0",
@@ -22811,7 +22939,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "FxeciB7rH5o",
@@ -22890,7 +23019,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "XS84PgPR3uw",
@@ -23033,25 +23163,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "n4V9YxSyxfs",
-          "title": "RESCENE (리센느) LOVE ATTACK (Acoustic Ver.) Live",
-          "url": "https://www.youtube.com/watch?v=n4V9YxSyxfs",
-          "thumbnail": "https://i.ytimg.com/vi/n4V9YxSyxfs/maxresdefault.jpg",
-          "publishedAt": "2025-04-04T11:30:37.000Z",
-          "updatedAt": "2025-04-04T11:30:37.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "n4V9YxSyxfs"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "HgyrPSophZ0",
           "title": "괜챠나 ~ 🎶🎵🎶🎵🎶🎵",
           "url": "https://www.youtube.com/watch?v=HgyrPSophZ0",
@@ -23064,6 +23175,26 @@
           ],
           "sourceVideoIds": [
             "HgyrPSophZ0"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "n4V9YxSyxfs",
+          "title": "RESCENE (리센느) LOVE ATTACK (Acoustic Ver.) Live",
+          "url": "https://www.youtube.com/watch?v=n4V9YxSyxfs",
+          "thumbnail": "https://i.ytimg.com/vi_webp/n4V9YxSyxfs/maxresdefault.webp",
+          "publishedAt": "2025-04-04T00:00:00.000Z",
+          "updatedAt": "2025-04-04T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "n4V9YxSyxfs"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -23135,7 +23266,7 @@
           "videoId": "D2bd-ABAbPo",
           "title": "[BASE NOTES] RESCENE (리센느) 2024 대구 한국가스공사 페가수스 시투 Behind",
           "url": "https://www.youtube.com/watch?v=D2bd-ABAbPo",
-          "thumbnail": "https://i.ytimg.com/vi/D2bd-ABAbPo/hq720.jpg",
+          "thumbnail": "https://i.ytimg.com/vi_webp/D2bd-ABAbPo/maxresdefault.webp",
           "publishedAt": "2025-04-02T00:00:00.000Z",
           "updatedAt": "2025-04-02T00:00:00.000Z",
           "videoType": "video",
@@ -23148,15 +23279,16 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "i0UW8-8UCvc",
           "title": "미나미 (MINAMI) 'Dry Flower' COVER (원곡: Yuuri)",
           "url": "https://www.youtube.com/watch?v=i0UW8-8UCvc",
-          "thumbnail": "https://i.ytimg.com/vi/i0UW8-8UCvc/maxresdefault.jpg",
-          "publishedAt": "2025-04-01T09:00:49.000Z",
-          "updatedAt": "2025-04-01T09:00:49.000Z",
+          "thumbnail": "https://i.ytimg.com/vi_webp/i0UW8-8UCvc/maxresdefault.webp",
+          "publishedAt": "2025-04-01T00:00:00.000Z",
+          "updatedAt": "2025-04-01T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -23167,7 +23299,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "mnvhEw6vhnY",
@@ -23310,25 +23443,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "Wa7Cs87L7SU",
-          "title": "[RESCENE HAPPY 1st ANNIVERSARY] FAKE RE:SCENE ㅣ 리센느, 연습생으로 돌아가다?!",
-          "url": "https://www.youtube.com/watch?v=Wa7Cs87L7SU",
-          "thumbnail": "https://i.ytimg.com/vi/Wa7Cs87L7SU/maxresdefault.jpg",
-          "publishedAt": "2025-03-26T09:00:40.000Z",
-          "updatedAt": "2025-03-26T09:00:40.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "Wa7Cs87L7SU"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "8-FF7PUAiso",
           "title": "뭐 ? 리센느가 벌써 1주년이라고 ?",
           "url": "https://www.youtube.com/watch?v=8-FF7PUAiso",
@@ -23361,6 +23475,26 @@
           ],
           "sourceVideoIds": [
             "knM9M-eoypw"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "Wa7Cs87L7SU",
+          "title": "[RESCENE HAPPY 1st ANNIVERSARY] FAKE RE:SCENE | RESCENE, back to being trainees?!",
+          "url": "https://www.youtube.com/watch?v=Wa7Cs87L7SU",
+          "thumbnail": "https://i.ytimg.com/vi_webp/Wa7Cs87L7SU/maxresdefault.webp",
+          "publishedAt": "2025-03-26T00:00:00.000Z",
+          "updatedAt": "2025-03-26T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "Wa7Cs87L7SU"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -23525,7 +23659,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "ENT8-sG1EbE",
@@ -23631,7 +23766,7 @@
           "videoId": "FaNaH1a1c3k",
           "title": "[BASE NOTES] RESCENE (리센느) 2024 아시아 모델 어워즈 Behind",
           "url": "https://www.youtube.com/watch?v=FaNaH1a1c3k",
-          "thumbnail": "https://i.ytimg.com/vi/FaNaH1a1c3k/hq720.jpg",
+          "thumbnail": "https://i.ytimg.com/vi_webp/FaNaH1a1c3k/maxresdefault.webp",
           "publishedAt": "2025-03-15T00:00:00.000Z",
           "updatedAt": "2025-03-15T00:00:00.000Z",
           "videoType": "video",
@@ -23644,7 +23779,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "Elj0eeFvOek",
@@ -23831,8 +23967,8 @@
           "title": "[BASE NOTES] RESCENE (리센느) 'Glow Up' MV Behind",
           "url": "https://www.youtube.com/watch?v=860263NHDAI",
           "thumbnail": "https://i.ytimg.com/vi_webp/860263NHDAI/maxresdefault.webp",
-          "publishedAt": "2025-03-07T11:00:09.000Z",
-          "updatedAt": "2025-03-07T11:00:09.000Z",
+          "publishedAt": "2025-03-07T00:00:00.000Z",
+          "updatedAt": "2025-03-07T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -23843,7 +23979,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "eoRptRVB8rg",
@@ -23884,25 +24021,6 @@
           "liveMetadataVerified": true,
           "liveStatus": "not_live",
           "classificationVersion": 2
-        },
-        {
-          "videoId": "zCdmGbkZDwo",
-          "title": "[BASE NOTES] RESCENE (리센느) 'Glow Up' Showcase Behind",
-          "url": "https://www.youtube.com/watch?v=zCdmGbkZDwo",
-          "thumbnail": "https://i.ytimg.com/vi_webp/zCdmGbkZDwo/maxresdefault.webp",
-          "publishedAt": "2025-03-05T11:01:28.000Z",
-          "updatedAt": "2025-03-05T11:01:28.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "zCdmGbkZDwo"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
         },
         {
           "videoId": "3M4NLDVNGKQ",
@@ -23965,6 +24083,26 @@
           "classificationVersion": 2
         },
         {
+          "videoId": "zCdmGbkZDwo",
+          "title": "[BASE NOTES] RESCENE (리센느) 'Glow Up' Showcase Behind",
+          "url": "https://www.youtube.com/watch?v=zCdmGbkZDwo",
+          "thumbnail": "https://i.ytimg.com/vi_webp/zCdmGbkZDwo/maxresdefault.webp",
+          "publishedAt": "2025-03-05T00:00:00.000Z",
+          "updatedAt": "2025-03-05T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "zCdmGbkZDwo"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
           "videoId": "7ALQVuM_4rs",
           "title": "에헤라디오 고민 상담소🎧💗 (메라디오가 뭐죠?)",
           "url": "https://www.youtube.com/watch?v=7ALQVuM_4rs",
@@ -23977,6 +24115,26 @@
           ],
           "sourceVideoIds": [
             "7ALQVuM_4rs"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "voJbMfriFbI",
+          "title": "[BASE NOTES] RESCENE (리센느) 'Glow Up' 음악방송 Behind",
+          "url": "https://www.youtube.com/watch?v=voJbMfriFbI",
+          "thumbnail": "https://i.ytimg.com/vi_webp/voJbMfriFbI/maxresdefault.webp",
+          "publishedAt": "2025-03-03T11:01:25.000Z",
+          "updatedAt": "2025-03-03T11:01:25.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "voJbMfriFbI"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -24045,25 +24203,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "voJbMfriFbI",
-          "title": "[BASE NOTES] RESCENE (리센느) 'Glow Up' 음악방송 Behind",
-          "url": "https://www.youtube.com/watch?v=voJbMfriFbI",
-          "thumbnail": "https://i.ytimg.com/vi/voJbMfriFbI/hq720.jpg",
-          "publishedAt": "2025-03-03T00:00:00.000Z",
-          "updatedAt": "2025-03-03T00:00:00.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "voJbMfriFbI"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "OMiFkqmPWgc",
           "title": "오늘은 아니지만 🫣✌️",
           "url": "https://www.youtube.com/watch?v=OMiFkqmPWgc",
@@ -24104,25 +24243,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "EicUPexKEDE",
-          "title": "[BASE NOTES] RESCENE (리센느) 'Glow Up' JACKET & TRAILER Behind #2",
-          "url": "https://www.youtube.com/watch?v=EicUPexKEDE",
-          "thumbnail": "https://i.ytimg.com/vi/EicUPexKEDE/maxresdefault.jpg",
-          "publishedAt": "2025-03-01T14:00:19.000Z",
-          "updatedAt": "2025-03-01T14:00:19.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "EicUPexKEDE"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "3__J74KOOdg",
           "title": "=͟͟͞͞➳❥  💗 =͟͟͞͞",
           "url": "https://www.youtube.com/watch?v=3__J74KOOdg",
@@ -24135,6 +24255,26 @@
           ],
           "sourceVideoIds": [
             "3__J74KOOdg"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "EicUPexKEDE",
+          "title": "[BASE NOTES] RESCENE (리센느) 'Glow Up' JACKET & TRAILER Behind #2",
+          "url": "https://www.youtube.com/watch?v=EicUPexKEDE",
+          "thumbnail": "https://i.ytimg.com/vi_webp/EicUPexKEDE/maxresdefault.webp",
+          "publishedAt": "2025-03-01T00:00:00.000Z",
+          "updatedAt": "2025-03-01T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "EicUPexKEDE"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -24163,26 +24303,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "3jsmp7-_OQI",
-          "title": "(｡・‧̫・｡)o🪄",
-          "url": "https://www.youtube.com/watch?v=3jsmp7-_OQI",
-          "thumbnail": "https://i.ytimg.com/vi_webp/3jsmp7-_OQI/maxresdefault.webp",
-          "publishedAt": "2025-02-28T00:00:00.000Z",
-          "updatedAt": "2025-02-28T00:00:00.000Z",
-          "videoType": "short",
-          "sourceTypes": [
-            "short"
-          ],
-          "sourceVideoIds": [
-            "3jsmp7-_OQI"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
-        },
-        {
           "videoId": "m6B8pRG5nz0",
           "title": "눈부시게 담긴 한 장면 속 넌 영원해 ✧･ﾟ: *",
           "url": "https://www.youtube.com/watch?v=m6B8pRG5nz0",
@@ -24203,25 +24323,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "ZcOIlhAih38",
-          "title": "[BASE NOTES] RESCENE (리센느) 'Glow Up' JACKET & TRAILER Behind #1",
-          "url": "https://www.youtube.com/watch?v=ZcOIlhAih38",
-          "thumbnail": "https://i.ytimg.com/vi/ZcOIlhAih38/maxresdefault.jpg",
-          "publishedAt": "2025-02-27T11:00:47.000Z",
-          "updatedAt": "2025-02-27T11:00:47.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "ZcOIlhAih38"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "F8umC7kBwD8",
           "title": "💋 gℓσω υρ",
           "url": "https://www.youtube.com/watch?v=F8umC7kBwD8",
@@ -24234,6 +24335,26 @@
           ],
           "sourceVideoIds": [
             "F8umC7kBwD8"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "ZcOIlhAih38",
+          "title": "[BASE NOTES] RESCENE (리센느) 'Glow Up' JACKET & TRAILER Behind #1",
+          "url": "https://www.youtube.com/watch?v=ZcOIlhAih38",
+          "thumbnail": "https://i.ytimg.com/vi/ZcOIlhAih38/hq720.jpg",
+          "publishedAt": "2025-02-27T00:00:00.000Z",
+          "updatedAt": "2025-02-27T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "ZcOIlhAih38"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -24402,25 +24523,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "QEkzEM_kJCI",
-          "title": "RESCENE (리센느) 'Glow Up' Recording Behind",
-          "url": "https://www.youtube.com/watch?v=QEkzEM_kJCI",
-          "thumbnail": "https://i.ytimg.com/vi/QEkzEM_kJCI/maxresdefault.jpg",
-          "publishedAt": "2025-02-24T11:00:37.000Z",
-          "updatedAt": "2025-02-24T11:00:37.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "QEkzEM_kJCI"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "AUbP4dURlVE",
           "title": "오늘도 난 고잉 고ㅇㅣㅇ...😌🎧🎶",
           "url": "https://www.youtube.com/watch?v=AUbP4dURlVE",
@@ -24481,38 +24583,18 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "tZSToKqoNCk",
-          "title": "The best moment🤤",
-          "url": "https://www.youtube.com/watch?v=tZSToKqoNCk",
-          "thumbnail": "https://i.ytimg.com/vi_webp/tZSToKqoNCk/maxresdefault.webp",
+          "videoId": "QEkzEM_kJCI",
+          "title": "RESCENE 'Glow Up' Recording Behind",
+          "url": "https://www.youtube.com/watch?v=QEkzEM_kJCI",
+          "thumbnail": "https://i.ytimg.com/vi_webp/QEkzEM_kJCI/maxresdefault.webp",
           "publishedAt": "2025-02-24T00:00:00.000Z",
           "updatedAt": "2025-02-24T00:00:00.000Z",
-          "videoType": "short",
+          "videoType": "video",
           "sourceTypes": [
-            "short"
+            "video"
           ],
           "sourceVideoIds": [
-            "tZSToKqoNCk"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
-        },
-        {
-          "videoId": "86R-0sINdq8",
-          "title": "Boogie Trio👯‍♀️",
-          "url": "https://www.youtube.com/watch?v=86R-0sINdq8",
-          "thumbnail": "https://i.ytimg.com/vi_webp/86R-0sINdq8/maxresdefault.webp",
-          "publishedAt": "2025-02-23T00:00:00.000Z",
-          "updatedAt": "2025-02-23T00:00:00.000Z",
-          "videoType": "short",
-          "sourceTypes": [
-            "short"
-          ],
-          "sourceVideoIds": [
-            "86R-0sINdq8"
+            "QEkzEM_kJCI"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -24621,25 +24703,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "YD_yMm-e3JI",
-          "title": "RESCENE (리센느) 'Glow Up' Album Live",
-          "url": "https://www.youtube.com/watch?v=YD_yMm-e3JI",
-          "thumbnail": "https://i.ytimg.com/vi/YD_yMm-e3JI/maxresdefault.jpg",
-          "publishedAt": "2025-02-21T12:00:55.000Z",
-          "updatedAt": "2025-02-21T12:00:55.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "YD_yMm-e3JI"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "DmSmP7DNqYs",
           "title": "멀리〰️🖐️",
           "url": "https://www.youtube.com/watch?v=DmSmP7DNqYs",
@@ -24692,6 +24755,26 @@
           ],
           "sourceVideoIds": [
             "sM0BWfigP7g"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "YD_yMm-e3JI",
+          "title": "RESCENE (리센느) 'Glow Up' Album Live",
+          "url": "https://www.youtube.com/watch?v=YD_yMm-e3JI",
+          "thumbnail": "https://i.ytimg.com/vi_webp/YD_yMm-e3JI/maxresdefault.webp",
+          "publishedAt": "2025-02-21T00:00:00.000Z",
+          "updatedAt": "2025-02-21T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "YD_yMm-e3JI"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -24860,26 +24943,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "6482G4GFAN8",
-          "title": "2월의 Glow Up 🌹",
-          "url": "https://www.youtube.com/watch?v=6482G4GFAN8",
-          "thumbnail": "https://i.ytimg.com/vi_webp/6482G4GFAN8/maxresdefault.webp",
-          "publishedAt": "2025-02-16T00:00:00.000Z",
-          "updatedAt": "2025-02-16T00:00:00.000Z",
-          "videoType": "short",
-          "sourceTypes": [
-            "short"
-          ],
-          "sourceVideoIds": [
-            "6482G4GFAN8"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
-        },
-        {
           "videoId": "awXkCW7Hrz0",
           "title": "멀리〰️🖐️",
           "url": "https://www.youtube.com/watch?v=awXkCW7Hrz0",
@@ -24900,26 +24963,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "eb_Z8lFKFvU",
-          "title": "Polaroid Love 💓",
-          "url": "https://www.youtube.com/watch?v=eb_Z8lFKFvU",
-          "thumbnail": "https://i.ytimg.com/vi_webp/eb_Z8lFKFvU/maxresdefault.webp",
-          "publishedAt": "2025-02-16T00:00:00.000Z",
-          "updatedAt": "2025-02-16T00:00:00.000Z",
-          "videoType": "short",
-          "sourceTypes": [
-            "short"
-          ],
-          "sourceVideoIds": [
-            "eb_Z8lFKFvU"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
-        },
-        {
           "videoId": "mnZCtrpuKYs",
           "title": "𝐺𝑙𝑜𝑤 𝑈𝑝 ✨",
           "url": "https://www.youtube.com/watch?v=mnZCtrpuKYs",
@@ -24932,26 +24975,6 @@
           ],
           "sourceVideoIds": [
             "mnZCtrpuKYs"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
-        },
-        {
-          "videoId": "PWYvb_QxL44",
-          "title": "Happiness 🌈",
-          "url": "https://www.youtube.com/watch?v=PWYvb_QxL44",
-          "thumbnail": "https://i.ytimg.com/vi_webp/PWYvb_QxL44/maxresdefault.webp",
-          "publishedAt": "2025-02-16T00:00:00.000Z",
-          "updatedAt": "2025-02-16T00:00:00.000Z",
-          "videoType": "short",
-          "sourceTypes": [
-            "short"
-          ],
-          "sourceVideoIds": [
-            "PWYvb_QxL44"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -25021,11 +25044,11 @@
         },
         {
           "videoId": "-Zun-ku7oxE",
-          "title": "RESCENE (리센느) 'Glow Up' Album Unboxing",
+          "title": "RESCENE 'Glow Up' Album Unboxing",
           "url": "https://www.youtube.com/watch?v=-Zun-ku7oxE",
-          "thumbnail": "https://i.ytimg.com/vi/-Zun-ku7oxE/maxresdefault.jpg",
-          "publishedAt": "2025-02-14T13:30:00.000Z",
-          "updatedAt": "2025-02-14T13:30:00.000Z",
+          "thumbnail": "https://i.ytimg.com/vi_webp/-Zun-ku7oxE/maxresdefault.webp",
+          "publishedAt": "2025-02-14T00:00:00.000Z",
+          "updatedAt": "2025-02-14T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -25036,7 +25059,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "G8Xu6ZXx37g",
@@ -25135,7 +25159,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "y7lAixpeK78",
@@ -25294,7 +25319,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "soiQFAd98ck",
@@ -25357,26 +25383,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "zkXtmOkziS0",
-          "title": "샤르르 반짝일래 🌟",
-          "url": "https://www.youtube.com/watch?v=zkXtmOkziS0",
-          "thumbnail": "https://i.ytimg.com/vi_webp/zkXtmOkziS0/maxresdefault.webp",
-          "publishedAt": "2025-02-12T00:00:00.000Z",
-          "updatedAt": "2025-02-12T00:00:00.000Z",
-          "videoType": "short",
-          "sourceTypes": [
-            "short"
-          ],
-          "sourceVideoIds": [
-            "zkXtmOkziS0"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
-        },
-        {
           "videoId": "4f0yqeTFUes",
           "title": "반짝일래✨💛",
           "url": "https://www.youtube.com/watch?v=4f0yqeTFUes",
@@ -25397,26 +25403,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "OmAY7xoLPrY",
-          "title": "반짝일래✨💜",
-          "url": "https://www.youtube.com/watch?v=OmAY7xoLPrY",
-          "thumbnail": "https://i.ytimg.com/vi_webp/OmAY7xoLPrY/maxresdefault.webp",
-          "publishedAt": "2025-02-11T00:00:00.000Z",
-          "updatedAt": "2025-02-11T00:00:00.000Z",
-          "videoType": "short",
-          "sourceTypes": [
-            "short"
-          ],
-          "sourceVideoIds": [
-            "OmAY7xoLPrY"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
-        },
-        {
           "videoId": "pFwd5MNcK2Q",
           "title": "계속 나를 불러 Time has come 🫧",
           "url": "https://www.youtube.com/watch?v=pFwd5MNcK2Q",
@@ -25429,26 +25415,6 @@
           ],
           "sourceVideoIds": [
             "pFwd5MNcK2Q"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
-        },
-        {
-          "videoId": "SHKWJQaSDAQ",
-          "title": "멀리〰️🖐️",
-          "url": "https://www.youtube.com/watch?v=SHKWJQaSDAQ",
-          "thumbnail": "https://i.ytimg.com/vi_webp/SHKWJQaSDAQ/maxresdefault.webp",
-          "publishedAt": "2025-02-11T00:00:00.000Z",
-          "updatedAt": "2025-02-11T00:00:00.000Z",
-          "videoType": "short",
-          "sourceTypes": [
-            "short"
-          ],
-          "sourceVideoIds": [
-            "SHKWJQaSDAQ"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -25529,26 +25495,6 @@
           ],
           "sourceVideoIds": [
             "mx-bh-89OIE"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
-        },
-        {
-          "videoId": "yy7Om8fO328",
-          "title": "반짝일래✨💙",
-          "url": "https://www.youtube.com/watch?v=yy7Om8fO328",
-          "thumbnail": "https://i.ytimg.com/vi_webp/yy7Om8fO328/maxresdefault.webp",
-          "publishedAt": "2025-02-10T00:00:00.000Z",
-          "updatedAt": "2025-02-10T00:00:00.000Z",
-          "videoType": "short",
-          "sourceTypes": [
-            "short"
-          ],
-          "sourceVideoIds": [
-            "yy7Om8fO328"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -25777,25 +25723,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "ZGftpSHtZ50",
-          "title": "RESCENE (리센느) 'Glow Up' Dance Practice",
-          "url": "https://www.youtube.com/watch?v=ZGftpSHtZ50",
-          "thumbnail": "https://i.ytimg.com/vi/ZGftpSHtZ50/maxresdefault.jpg",
-          "publishedAt": "2025-02-07T11:00:49.000Z",
-          "updatedAt": "2025-02-07T11:00:49.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "ZGftpSHtZ50"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "F1rWJ_35wUs",
           "title": "that-that-that-that-that-Glow Up 🫧",
           "url": "https://www.youtube.com/watch?v=F1rWJ_35wUs",
@@ -25816,12 +25743,32 @@
           "classificationVersion": 2
         },
         {
+          "videoId": "ZGftpSHtZ50",
+          "title": "RESCENE (리센느) 'Glow Up' Dance Practice",
+          "url": "https://www.youtube.com/watch?v=ZGftpSHtZ50",
+          "thumbnail": "https://i.ytimg.com/vi_webp/ZGftpSHtZ50/maxresdefault.webp",
+          "publishedAt": "2025-02-07T00:00:00.000Z",
+          "updatedAt": "2025-02-07T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "ZGftpSHtZ50"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
           "videoId": "-55bUrG1qjg",
           "title": "RESCENE (리센느) 'Glow Up' 응원법 (Fanchant Guide)",
           "url": "https://www.youtube.com/watch?v=-55bUrG1qjg",
-          "thumbnail": "https://i.ytimg.com/vi/-55bUrG1qjg/maxresdefault.jpg",
-          "publishedAt": "2025-02-05T09:30:00.000Z",
-          "updatedAt": "2025-02-05T09:30:00.000Z",
+          "thumbnail": "https://i.ytimg.com/vi_webp/-55bUrG1qjg/maxresdefault.webp",
+          "publishedAt": "2025-02-05T00:00:00.000Z",
+          "updatedAt": "2025-02-05T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -25832,26 +25779,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
-          "videoId": "h0xUtrb_JBc",
-          "title": "RESCENE (리센느) ‘Glow Up’ Official MV",
-          "url": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
-          "thumbnail": "https://i.ytimg.com/vi/h0xUtrb_JBc/maxresdefault.jpg",
-          "publishedAt": "2025-02-05T09:00:52.000Z",
-          "updatedAt": "2025-02-05T09:00:52.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "h0xUtrb_JBc"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "98i4tToe2OA",
@@ -25894,6 +25823,26 @@
           "classificationVersion": 2
         },
         {
+          "videoId": "h0xUtrb_JBc",
+          "title": "RESCENE (리센느) ‘Glow Up’ Official MV",
+          "url": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
+          "thumbnail": "https://i.ytimg.com/vi_webp/h0xUtrb_JBc/maxresdefault.webp",
+          "publishedAt": "2025-02-05T00:00:00.000Z",
+          "updatedAt": "2025-02-05T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "h0xUtrb_JBc"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
           "videoId": "jjtAPVz2_s8",
           "title": "RESCENE(리센느) ‘Glow Up’ Official M/V #1",
           "url": "https://www.youtube.com/watch?v=jjtAPVz2_s8",
@@ -25918,8 +25867,8 @@
           "title": "RESCENE (리센느) 'Glow Up' Official MV Teaser #2",
           "url": "https://www.youtube.com/watch?v=aTbwfDwH3n4",
           "thumbnail": "https://i.ytimg.com/vi_webp/aTbwfDwH3n4/maxresdefault.webp",
-          "publishedAt": "2025-02-04T13:00:01.000Z",
-          "updatedAt": "2025-02-04T13:00:01.000Z",
+          "publishedAt": "2025-02-04T00:00:00.000Z",
+          "updatedAt": "2025-02-04T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -25930,7 +25879,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "qpZrJLheWHY",
@@ -25977,8 +25927,8 @@
           "title": "RESCENE (리센느) 'Glow Up' Official MV Teaser #1",
           "url": "https://www.youtube.com/watch?v=GWcHydWnbxs",
           "thumbnail": "https://i.ytimg.com/vi_webp/GWcHydWnbxs/maxresdefault.webp",
-          "publishedAt": "2025-02-02T13:00:28.000Z",
-          "updatedAt": "2025-02-02T13:00:28.000Z",
+          "publishedAt": "2025-02-02T00:00:00.000Z",
+          "updatedAt": "2025-02-02T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -25989,7 +25939,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "jubn7tJGSv4",
@@ -26048,7 +25999,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "AUVAzmJXtwc",
@@ -26187,7 +26139,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "nv5JnstJCmI",
@@ -26270,25 +26223,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "e-YOF3n_O6M",
-          "title": "RESCENE (리센느) ‘Glow Up' Trailer",
-          "url": "https://www.youtube.com/watch?v=e-YOF3n_O6M",
-          "thumbnail": "https://i.ytimg.com/vi/e-YOF3n_O6M/maxresdefault.jpg",
-          "publishedAt": "2025-01-19T13:00:46.000Z",
-          "updatedAt": "2025-01-19T13:00:46.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "e-YOF3n_O6M"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "17--1NFUn2A",
           "title": "둥글게 둥글게 〰️",
           "url": "https://www.youtube.com/watch?v=17--1NFUn2A",
@@ -26349,6 +26283,26 @@
           "classificationVersion": 2
         },
         {
+          "videoId": "e-YOF3n_O6M",
+          "title": "RESCENE (리센느) ‘Glow Up' Trailer",
+          "url": "https://www.youtube.com/watch?v=e-YOF3n_O6M",
+          "thumbnail": "https://i.ytimg.com/vi_webp/e-YOF3n_O6M/maxresdefault.webp",
+          "publishedAt": "2025-01-19T00:00:00.000Z",
+          "updatedAt": "2025-01-19T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "e-YOF3n_O6M"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
           "videoId": "apoPobosOjE",
           "title": "어디까엉???",
           "url": "https://www.youtube.com/watch?v=apoPobosOjE",
@@ -26370,9 +26324,9 @@
         },
         {
           "videoId": "pYMr28ESeGM",
-          "title": "[Re:Creation] 리센느 꾸미기 #3 👚 | EP.3 - RESCENE (리센느)",
+          "title": "[Re:Creation] Decorating RESCENE #3 👚 | EP.3 - RESCENE",
           "url": "https://www.youtube.com/watch?v=pYMr28ESeGM",
-          "thumbnail": "https://i.ytimg.com/vi/pYMr28ESeGM/hq720.jpg",
+          "thumbnail": "https://i.ytimg.com/vi_webp/pYMr28ESeGM/maxresdefault.webp",
           "publishedAt": "2025-01-17T00:00:00.000Z",
           "updatedAt": "2025-01-17T00:00:00.000Z",
           "videoType": "video",
@@ -26385,7 +26339,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "uj6-zSUwlc0",
@@ -26431,9 +26386,9 @@
           "videoId": "nQiNK7p6Ohs",
           "title": "[BASE NOTES] RESCENE (리센느) 'APT.' Special Performance Behind",
           "url": "https://www.youtube.com/watch?v=nQiNK7p6Ohs",
-          "thumbnail": "https://i.ytimg.com/vi/nQiNK7p6Ohs/maxresdefault.jpg",
-          "publishedAt": "2025-01-15T11:01:07.000Z",
-          "updatedAt": "2025-01-15T11:01:07.000Z",
+          "thumbnail": "https://i.ytimg.com/vi_webp/nQiNK7p6Ohs/maxresdefault.webp",
+          "publishedAt": "2025-01-15T00:00:00.000Z",
+          "updatedAt": "2025-01-15T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -26444,7 +26399,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "UAVL6qhNeG4",
@@ -26470,7 +26426,7 @@
           "videoId": "adFSoJAc2yg",
           "title": "[Re:Creation] 리센느 꾸미기 #2 👚 | EP.2 - RESCENE (리센느)",
           "url": "https://www.youtube.com/watch?v=adFSoJAc2yg",
-          "thumbnail": "https://i.ytimg.com/vi/adFSoJAc2yg/hq720.jpg",
+          "thumbnail": "https://i.ytimg.com/vi_webp/adFSoJAc2yg/maxresdefault.webp",
           "publishedAt": "2025-01-13T00:00:00.000Z",
           "updatedAt": "2025-01-13T00:00:00.000Z",
           "videoType": "video",
@@ -26483,7 +26439,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "PPgn-Tbeo0I",
@@ -26622,7 +26579,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "kvjvqIfdwMw",
@@ -26681,7 +26639,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "zPT-NDffl8c",
@@ -26840,7 +26799,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "NpwZZXNxYAQ",
@@ -26979,26 +26939,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
-          "videoId": "t37nR21Str8",
-          "title": "[Re:Creation] 리센느 꾸미기 #1 👚 | EP.1 - RESCENE (리센느)",
-          "url": "https://www.youtube.com/watch?v=t37nR21Str8",
-          "thumbnail": "https://i.ytimg.com/vi/t37nR21Str8/maxresdefault.jpg",
-          "publishedAt": "2024-12-23T11:01:04.000Z",
-          "updatedAt": "2024-12-23T11:01:04.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "t37nR21Str8"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "eCKpavz9aZk",
@@ -27013,6 +26955,26 @@
           ],
           "sourceVideoIds": [
             "eCKpavz9aZk"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "t37nR21Str8",
+          "title": "[Re:Creation] 리센느 꾸미기 #1 👚 | EP.1 - RESCENE (리센느)",
+          "url": "https://www.youtube.com/watch?v=t37nR21Str8",
+          "thumbnail": "https://i.ytimg.com/vi_webp/t37nR21Str8/maxresdefault.webp",
+          "publishedAt": "2024-12-23T00:00:00.000Z",
+          "updatedAt": "2024-12-23T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "t37nR21Str8"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -27262,11 +27224,11 @@
         },
         {
           "videoId": "qCstak0tYos",
-          "title": "[Re-log] in LA📸 #2 | RESCENE (리센느) vlog",
+          "title": "[Re-log] in LA📸 #2 | RESCENE vlog",
           "url": "https://www.youtube.com/watch?v=qCstak0tYos",
-          "thumbnail": "https://i.ytimg.com/vi/qCstak0tYos/maxresdefault.jpg",
-          "publishedAt": "2024-12-09T11:01:03.000Z",
-          "updatedAt": "2024-12-09T11:01:03.000Z",
+          "thumbnail": "https://i.ytimg.com/vi_webp/qCstak0tYos/maxresdefault.webp",
+          "publishedAt": "2024-12-09T00:00:00.000Z",
+          "updatedAt": "2024-12-09T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -27277,7 +27239,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "RxIhBp6dJCk",
@@ -27576,7 +27539,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "oyUiOiS8T3U",
@@ -27679,25 +27643,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "qDUkVfrcWJs",
-          "title": "[Re-log] in LA📸 #1 | RESCENE (리센느) vlog",
-          "url": "https://www.youtube.com/watch?v=qDUkVfrcWJs",
-          "thumbnail": "https://i.ytimg.com/vi_webp/qDUkVfrcWJs/maxresdefault.webp",
-          "publishedAt": "2024-11-21T11:00:55.000Z",
-          "updatedAt": "2024-11-21T11:00:55.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "qDUkVfrcWJs"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "3JJMgYCfUP0",
           "title": "Just One 10 MINUTES ✨",
           "url": "https://www.youtube.com/watch?v=3JJMgYCfUP0",
@@ -27710,6 +27655,26 @@
           ],
           "sourceVideoIds": [
             "3JJMgYCfUP0"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "qDUkVfrcWJs",
+          "title": "[Re-log] in LA📸 #1 | RESCENE (리센느) vlog",
+          "url": "https://www.youtube.com/watch?v=qDUkVfrcWJs",
+          "thumbnail": "https://i.ytimg.com/vi_webp/qDUkVfrcWJs/maxresdefault.webp",
+          "publishedAt": "2024-11-21T00:00:00.000Z",
+          "updatedAt": "2024-11-21T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "qDUkVfrcWJs"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -27801,9 +27766,9 @@
           "videoId": "_3Wp8i5dfJs",
           "title": "RESCENE (리센느) 'APT.' Special Performance",
           "url": "https://www.youtube.com/watch?v=_3Wp8i5dfJs",
-          "thumbnail": "https://i.ytimg.com/vi/_3Wp8i5dfJs/maxresdefault.jpg",
-          "publishedAt": "2024-11-18T11:00:43.000Z",
-          "updatedAt": "2024-11-18T11:00:43.000Z",
+          "thumbnail": "https://i.ytimg.com/vi_webp/_3Wp8i5dfJs/maxresdefault.webp",
+          "publishedAt": "2024-11-18T00:00:00.000Z",
+          "updatedAt": "2024-11-18T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -27814,7 +27779,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "K2lJDwP3MdQ",
@@ -27913,7 +27879,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "bf2nRE9F-Ms",
@@ -27977,11 +27944,11 @@
         },
         {
           "videoId": "MdExOs06el4",
-          "title": "[BASE NOTES] RESCENE (리센느) 대학교 축제 Behind",
+          "title": "[BASE NOTES] RESCENE University Festival Behind",
           "url": "https://www.youtube.com/watch?v=MdExOs06el4",
-          "thumbnail": "https://i.ytimg.com/vi/MdExOs06el4/maxresdefault.jpg",
-          "publishedAt": "2024-11-06T11:00:24.000Z",
-          "updatedAt": "2024-11-06T11:00:24.000Z",
+          "thumbnail": "https://i.ytimg.com/vi_webp/MdExOs06el4/maxresdefault.webp",
+          "publishedAt": "2024-11-06T00:00:00.000Z",
+          "updatedAt": "2024-11-06T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -27992,7 +27959,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "-NgiROaraMw",
@@ -28155,25 +28123,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "YExvIec1mtw",
-          "title": "[BASE NOTES] RESCENE (리센느) 'Pinball' 음악방송 Behind",
-          "url": "https://www.youtube.com/watch?v=YExvIec1mtw",
-          "thumbnail": "https://i.ytimg.com/vi_webp/YExvIec1mtw/maxresdefault.webp",
-          "publishedAt": "2024-10-30T11:00:42.000Z",
-          "updatedAt": "2024-10-30T11:00:42.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "YExvIec1mtw"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "H0VhzrsNjgU",
           "title": "상대는 내 짝꿍 리브였지요..😱💖",
           "url": "https://www.youtube.com/watch?v=H0VhzrsNjgU",
@@ -28206,6 +28155,26 @@
           ],
           "sourceVideoIds": [
             "ryXPcCH0dSs"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "YExvIec1mtw",
+          "title": "[BASE NOTES] RESCENE 'Pinball' Music Show Behind",
+          "url": "https://www.youtube.com/watch?v=YExvIec1mtw",
+          "thumbnail": "https://i.ytimg.com/vi_webp/YExvIec1mtw/maxresdefault.webp",
+          "publishedAt": "2024-10-30T00:00:00.000Z",
+          "updatedAt": "2024-10-30T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "YExvIec1mtw"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -28530,7 +28499,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "wMafswIJhUg",
@@ -28893,25 +28863,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "GZ9l5koeWC4",
-          "title": "RESCENE (리센느) 'Pinball' Dance Practice (Moving ver.)",
-          "url": "https://www.youtube.com/watch?v=GZ9l5koeWC4",
-          "thumbnail": "https://i.ytimg.com/vi/GZ9l5koeWC4/maxresdefault.jpg",
-          "publishedAt": "2024-10-12T11:30:07.000Z",
-          "updatedAt": "2024-10-12T11:30:07.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "GZ9l5koeWC4"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "4jehevi5_rg",
           "title": "네모 같은 우리 완벽하게 어울려 💘",
           "url": "https://www.youtube.com/watch?v=4jehevi5_rg",
@@ -28944,6 +28895,26 @@
           ],
           "sourceVideoIds": [
             "54xaiIACqqM"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "GZ9l5koeWC4",
+          "title": "RESCENE (리센느) 'Pinball' Dance Practice (Moving ver.)",
+          "url": "https://www.youtube.com/watch?v=GZ9l5koeWC4",
+          "thumbnail": "https://i.ytimg.com/vi_webp/GZ9l5koeWC4/maxresdefault.webp",
+          "publishedAt": "2024-10-12T00:00:00.000Z",
+          "updatedAt": "2024-10-12T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "GZ9l5koeWC4"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -29312,25 +29283,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "VeLrKottXZI",
-          "title": "[BASE NOTES] RESCENE (리센느) 'Pinball' MV Behind",
-          "url": "https://www.youtube.com/watch?v=VeLrKottXZI",
-          "thumbnail": "https://i.ytimg.com/vi/VeLrKottXZI/maxresdefault.jpg",
-          "publishedAt": "2024-10-04T12:00:42.000Z",
-          "updatedAt": "2024-10-04T12:00:42.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "VeLrKottXZI"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "N7FtAmZHLjw",
           "title": "🖤💜의 Love game",
           "url": "https://www.youtube.com/watch?v=N7FtAmZHLjw",
@@ -29363,6 +29315,26 @@
           ],
           "sourceVideoIds": [
             "pv4xIwK6NRI"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "VeLrKottXZI",
+          "title": "[BASE NOTES] RESCENE (리센느) 'Pinball' MV Behind",
+          "url": "https://www.youtube.com/watch?v=VeLrKottXZI",
+          "thumbnail": "https://i.ytimg.com/vi_webp/VeLrKottXZI/maxresdefault.webp",
+          "publishedAt": "2024-10-04T00:00:00.000Z",
+          "updatedAt": "2024-10-04T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "VeLrKottXZI"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -29695,8 +29667,8 @@
           "title": "RESCENE (리센느) 'Pinball' MV (Performance ver.)",
           "url": "https://www.youtube.com/watch?v=6tTsZnKysBc",
           "thumbnail": "https://i.ytimg.com/vi_webp/6tTsZnKysBc/maxresdefault.webp",
-          "publishedAt": "2024-09-30T11:00:14.000Z",
-          "updatedAt": "2024-09-30T11:00:14.000Z",
+          "publishedAt": "2024-09-30T00:00:00.000Z",
+          "updatedAt": "2024-09-30T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -29707,7 +29679,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "cILohCXoFps",
@@ -30051,9 +30024,9 @@
         },
         {
           "videoId": "zW5BaHgazMo",
-          "title": "[BASE NOTES] RESCENE (리센느) 'LOVE ATTACK' 음악방송 Behind",
+          "title": "[BASE NOTES] RESCENE 'LOVE ATTACK' Music Show Behind",
           "url": "https://www.youtube.com/watch?v=zW5BaHgazMo",
-          "thumbnail": "https://i.ytimg.com/vi/zW5BaHgazMo/hq720.jpg",
+          "thumbnail": "https://i.ytimg.com/vi_webp/zW5BaHgazMo/maxresdefault.webp",
           "publishedAt": "2024-09-27T00:00:00.000Z",
           "updatedAt": "2024-09-27T00:00:00.000Z",
           "videoType": "video",
@@ -30066,7 +30039,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "SYYSMOS4JPg",
@@ -30127,25 +30101,6 @@
           "liveMetadataVerified": true,
           "liveStatus": "not_live",
           "classificationVersion": 2
-        },
-        {
-          "videoId": "wXn4OfIqzrs",
-          "title": "RESCENE (리센느) 'Pinball' Dance Practice (Fix ver.)",
-          "url": "https://www.youtube.com/watch?v=wXn4OfIqzrs",
-          "thumbnail": "https://i.ytimg.com/vi/wXn4OfIqzrs/maxresdefault.jpg",
-          "publishedAt": "2024-09-25T11:01:06.000Z",
-          "updatedAt": "2024-09-25T11:01:06.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "wXn4OfIqzrs"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
         },
         {
           "videoId": "6-o2Og-LS6U",
@@ -30228,23 +30183,24 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "cTACG96gK1Y",
-          "title": "RESCENE (리센느) 'Pinball' MV Reaction",
-          "url": "https://www.youtube.com/watch?v=cTACG96gK1Y",
-          "thumbnail": "https://i.ytimg.com/vi/cTACG96gK1Y/maxresdefault.jpg",
-          "publishedAt": "2024-09-24T11:00:39.000Z",
-          "updatedAt": "2024-09-24T11:00:39.000Z",
+          "videoId": "wXn4OfIqzrs",
+          "title": "RESCENE (리센느) 'Pinball' Dance Practice (Fix ver.)",
+          "url": "https://www.youtube.com/watch?v=wXn4OfIqzrs",
+          "thumbnail": "https://i.ytimg.com/vi_webp/wXn4OfIqzrs/maxresdefault.webp",
+          "publishedAt": "2024-09-25T00:00:00.000Z",
+          "updatedAt": "2024-09-25T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
           ],
           "sourceVideoIds": [
-            "cTACG96gK1Y"
+            "wXn4OfIqzrs"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "3chloGw-XLA",
@@ -30259,6 +30215,26 @@
           ],
           "sourceVideoIds": [
             "3chloGw-XLA"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "cTACG96gK1Y",
+          "title": "RESCENE 'Pinball' MV Reaction",
+          "url": "https://www.youtube.com/watch?v=cTACG96gK1Y",
+          "thumbnail": "https://i.ytimg.com/vi_webp/cTACG96gK1Y/maxresdefault.webp",
+          "publishedAt": "2024-09-24T00:00:00.000Z",
+          "updatedAt": "2024-09-24T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "cTACG96gK1Y"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -30387,44 +30363,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "lAHkez2DvwA",
-          "title": "[BASE NOTES] RESCENE (리센느) 'LOVE ATTACK' MV Behind Part 2",
-          "url": "https://www.youtube.com/watch?v=lAHkez2DvwA",
-          "thumbnail": "https://i.ytimg.com/vi_webp/lAHkez2DvwA/maxresdefault.webp",
-          "publishedAt": "2024-09-22T12:00:49.000Z",
-          "updatedAt": "2024-09-22T12:00:49.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "lAHkez2DvwA"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
-          "videoId": "YyixhiYpkkY",
-          "title": "RESCENE (리센느) 'Pinball' 응원법 (Fanchant Guide)",
-          "url": "https://www.youtube.com/watch?v=YyixhiYpkkY",
-          "thumbnail": "https://i.ytimg.com/vi_webp/YyixhiYpkkY/maxresdefault.webp",
-          "publishedAt": "2024-09-22T04:00:20.000Z",
-          "updatedAt": "2024-09-22T04:00:20.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "YyixhiYpkkY"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "J9RswGQX6qI",
           "title": "Playing Pinball 🖤 💛 💜",
           "url": "https://www.youtube.com/watch?v=J9RswGQX6qI",
@@ -30437,6 +30375,26 @@
           ],
           "sourceVideoIds": [
             "J9RswGQX6qI"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "lAHkez2DvwA",
+          "title": "[BASE NOTES] RESCENE (리센느) 'LOVE ATTACK' MV Behind Part 2",
+          "url": "https://www.youtube.com/watch?v=lAHkez2DvwA",
+          "thumbnail": "https://i.ytimg.com/vi_webp/lAHkez2DvwA/maxresdefault.webp",
+          "publishedAt": "2024-09-22T00:00:00.000Z",
+          "updatedAt": "2024-09-22T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "lAHkez2DvwA"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -30465,12 +30423,32 @@
           "classificationVersion": 2
         },
         {
+          "videoId": "YyixhiYpkkY",
+          "title": "RESCENE (리센느) 'Pinball' 응원법 (Fanchant Guide)",
+          "url": "https://www.youtube.com/watch?v=YyixhiYpkkY",
+          "thumbnail": "https://i.ytimg.com/vi_webp/YyixhiYpkkY/maxresdefault.webp",
+          "publishedAt": "2024-09-22T00:00:00.000Z",
+          "updatedAt": "2024-09-22T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "YyixhiYpkkY"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
           "videoId": "B8JJ8RNM-60",
           "title": "RESCENE (리센느) ‘Pinball’ Official MV",
           "url": "https://www.youtube.com/watch?v=B8JJ8RNM-60",
           "thumbnail": "https://i.ytimg.com/vi_webp/B8JJ8RNM-60/maxresdefault.webp",
-          "publishedAt": "2024-09-21T09:00:08.000Z",
-          "updatedAt": "2024-09-21T09:00:08.000Z",
+          "publishedAt": "2024-09-21T00:00:00.000Z",
+          "updatedAt": "2024-09-21T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -30481,7 +30459,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "G5yNyuglFok",
@@ -30740,7 +30719,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "53n0LVP8DTs",
@@ -30943,25 +30923,6 @@
           "classificationVersion": 2
         },
         {
-          "videoId": "nSVsLR9QRrM",
-          "title": "RESCENE (리센느) 'LOVE ATTACK' Special Performance",
-          "url": "https://www.youtube.com/watch?v=nSVsLR9QRrM",
-          "thumbnail": "https://i.ytimg.com/vi/nSVsLR9QRrM/maxresdefault.jpg",
-          "publishedAt": "2024-09-17T13:00:56.000Z",
-          "updatedAt": "2024-09-17T13:00:56.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "nSVsLR9QRrM"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
           "videoId": "-VscltWGPcI",
           "title": "Yeah, get it 💙",
           "url": "https://www.youtube.com/watch?v=-VscltWGPcI",
@@ -30994,6 +30955,26 @@
           ],
           "sourceVideoIds": [
             "8L3Sqj6ICGI"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "nSVsLR9QRrM",
+          "title": "RESCENE (리센느) 'LOVE ATTACK' Special Performance",
+          "url": "https://www.youtube.com/watch?v=nSVsLR9QRrM",
+          "thumbnail": "https://i.ytimg.com/vi_webp/nSVsLR9QRrM/maxresdefault.webp",
+          "publishedAt": "2024-09-17T00:00:00.000Z",
+          "updatedAt": "2024-09-17T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "nSVsLR9QRrM"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -31185,9 +31166,9 @@
           "videoId": "ZSk-lj7jX2k",
           "title": "[BASE NOTES] RESCENE (리센느) 'LOVE ATTACK' MV Behind Part 1",
           "url": "https://www.youtube.com/watch?v=ZSk-lj7jX2k",
-          "thumbnail": "https://i.ytimg.com/vi/ZSk-lj7jX2k/maxresdefault.jpg",
-          "publishedAt": "2024-09-13T13:05:39.000Z",
-          "updatedAt": "2024-09-13T13:05:39.000Z",
+          "thumbnail": "https://i.ytimg.com/vi_webp/ZSk-lj7jX2k/maxresdefault.webp",
+          "publishedAt": "2024-09-13T00:00:00.000Z",
+          "updatedAt": "2024-09-13T00:00:00.000Z",
           "videoType": "video",
           "sourceTypes": [
             "video"
@@ -31198,26 +31179,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
-        },
-        {
-          "videoId": "QNXeGm-Wkms",
-          "title": "RESCENE (리센느) ‘New World’ Official MV",
-          "url": "https://www.youtube.com/watch?v=QNXeGm-Wkms",
-          "thumbnail": "https://i.ytimg.com/vi/QNXeGm-Wkms/maxresdefault.jpg",
-          "publishedAt": "2024-09-12T11:00:17.000Z",
-          "updatedAt": "2024-09-12T11:00:17.000Z",
-          "videoType": "video",
-          "sourceTypes": [
-            "video"
-          ],
-          "sourceVideoIds": [
-            "QNXeGm-Wkms"
-          ],
-          "dateAccuracy": "exact",
-          "dateMetadataVerified": true,
-          "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "a16rsZ9syiw",
@@ -31252,6 +31215,26 @@
           ],
           "sourceVideoIds": [
             "CcilLydxEUc"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "QNXeGm-Wkms",
+          "title": "RESCENE (리센느) ‘New World’ Official MV",
+          "url": "https://www.youtube.com/watch?v=QNXeGm-Wkms",
+          "thumbnail": "https://i.ytimg.com/vi_webp/QNXeGm-Wkms/maxresdefault.webp",
+          "publishedAt": "2024-09-12T00:00:00.000Z",
+          "updatedAt": "2024-09-12T00:00:00.000Z",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "QNXeGm-Wkms"
           ],
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
@@ -31296,7 +31279,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "c8Ezfg5VSTM",
@@ -31495,7 +31479,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "hlC3ceUHF50",
@@ -31674,7 +31659,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "NR_P6NODTW0",
@@ -31913,7 +31899,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "cGosWWgsNjs",
@@ -31932,7 +31919,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "dyedIOKtdbk",
@@ -32091,7 +32079,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "VwQjpvHy2s0",
@@ -32230,7 +32219,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "qnHU_DKghxw",
@@ -32269,7 +32259,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "Mjoh-0UZPRA",
@@ -32348,7 +32339,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "xZ3giD0oDVY",
@@ -32407,7 +32399,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "C54mnDZEGS8",
@@ -32486,7 +32479,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "OWdAY9fwPyM",
@@ -32525,7 +32519,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "uMe_o1US_nU",
@@ -32604,7 +32599,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "DHUf7d4PmqA",
@@ -32803,7 +32799,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "fXLOqcmaQDA",
@@ -33102,7 +33099,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "NJAekwY6E9g",
@@ -33201,7 +33199,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "z6nVt3t_qUw",
@@ -33360,7 +33359,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "5hG1FACYnWo",
@@ -33699,7 +33699,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "jaFAldJdHJc",
@@ -33758,7 +33759,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "c4viFEXGS7w",
@@ -33797,7 +33799,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "biKOyXFy8Bk",
@@ -33836,7 +33839,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "CX_MnDiM6o4",
@@ -33895,7 +33899,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "1A_2MrMPcds",
@@ -33974,7 +33979,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "vbVE51pe4OY",
@@ -34013,7 +34019,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "_dBYm-Q3WQs",
@@ -34052,7 +34059,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "ni0lb6YYPwQ",
@@ -34071,7 +34079,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "3_bTKN1bb6o",
@@ -34130,7 +34139,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "sIcqxw_enMc",
@@ -34169,7 +34179,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "rVAL3Q47ito",
@@ -34208,7 +34219,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "ZA58hDEvUEc",
@@ -34327,7 +34339,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "aESkMeWiH2g",
@@ -34386,7 +34399,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "p1ezAw31mh0",
@@ -34412,7 +34426,7 @@
           "videoId": "4h0SE9m3IoU",
           "title": "RESCENE (리센느) 'UhUh' Special Performance Video (FLOWER_Vertical ver.)",
           "url": "https://www.youtube.com/watch?v=4h0SE9m3IoU",
-          "thumbnail": "https://i.ytimg.com/vi_webp/4h0SE9m3IoU/maxresdefault.webp",
+          "thumbnail": "https://i.ytimg.com/vi/4h0SE9m3IoU/hq720.jpg",
           "publishedAt": "2024-04-29T00:00:00.000Z",
           "updatedAt": "2024-04-29T00:00:00.000Z",
           "videoType": "video",
@@ -34425,7 +34439,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "tGxv4kiPqec",
@@ -34444,7 +34459,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "Z2D-bxU9cZA",
@@ -34503,7 +34519,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "bqEAFISE7hc",
@@ -34522,7 +34539,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "czq2GsxdmNI",
@@ -34561,7 +34579,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "B_y_aSfo7QU",
@@ -34600,7 +34619,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "_hqUldzyM6A",
@@ -34659,7 +34679,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "rDCQNWWWkE0",
@@ -34678,7 +34699,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "_tZPKM-uaQc",
@@ -34777,7 +34799,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "zJ13Pog83RA",
@@ -34816,7 +34839,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "3FU4v5wY7T8",
@@ -34855,7 +34879,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "C5NgIlSDTqY",
@@ -35094,7 +35119,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "SXAr_9coQTI",
@@ -35253,7 +35279,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "kqrbIY6mqfg",
@@ -35352,7 +35379,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "Vrlg81irVJw",
@@ -35411,7 +35439,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "wKoIL4KobIs",
@@ -35810,7 +35839,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "kYUReoNVrXs",
@@ -35829,7 +35859,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "s1S-lnU-yMI",
@@ -35848,7 +35879,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "8T0J9NrvxYs",
@@ -35907,7 +35939,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "xJTFvn450Wk",
@@ -35926,7 +35959,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "3YigfCN3rKg",
@@ -35945,7 +35979,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "BvwONwBT3w0",
@@ -35964,7 +35999,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "ONAW3Es4JwE",
@@ -35983,7 +36019,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "xkzCywGa1Eg",
@@ -36002,7 +36039,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "aA9DTVRSTbo",
@@ -36021,7 +36059,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "g-EGc6wVp9I",
@@ -36040,7 +36079,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "bJvUwy_gq3A",
@@ -36059,7 +36099,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "uDYy2UyO1X4",
@@ -36078,7 +36119,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "JR5CxaHZ1Cc",
@@ -36097,7 +36139,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "gU5fP2e777Q",
@@ -36116,7 +36159,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "l-RMOXHFMVk",
@@ -36135,7 +36179,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "I_K54WugHtQ",
@@ -36154,7 +36199,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "JnVAt6ZMuG4",
@@ -36173,7 +36219,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "D88uhaLAGoM",
@@ -36192,7 +36239,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "4fqiTeVz504",
@@ -36211,7 +36259,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "KrGrd8m2cew",
@@ -36230,7 +36279,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "V5bUfTzKEy0",
@@ -36306,8 +36356,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "Ky4R8o5cTKQ",
@@ -36326,8 +36375,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "1kHqK1oqHzc",
@@ -36346,7 +36394,8 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live"
+          "liveStatus": "not_live",
+          "classificationVersion": 2
         },
         {
           "videoId": "3Vb2TGjxDes",
@@ -36365,8 +36414,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "8e0FfuwOI9M",
@@ -36385,8 +36433,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "DKDmFgXzxs8",
@@ -36425,8 +36472,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "zxNoW_LtVLE",
@@ -36465,8 +36511,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "mFM2hP5LEhM",
@@ -36505,8 +36550,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "xCvbDeMKm3E",
@@ -36545,8 +36589,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "GsYq_ouLAMQ",
@@ -36605,8 +36648,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "7Q_myxhlcwE",
@@ -36645,8 +36687,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "COnZ3rYrAXc",
@@ -36705,8 +36746,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "WTdyA5N4K0k",
@@ -36725,8 +36765,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "o-B0F16GwL0",
@@ -36785,8 +36824,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "8r-YPb_tKlM",
@@ -36805,8 +36843,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "F5CbMShscuk",
@@ -36885,8 +36922,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "jilQNKreZBM",
@@ -36965,8 +37001,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "5qmyo1nR3no",
@@ -37045,8 +37080,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "beKjAiS8n44",
@@ -37085,8 +37119,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "Gnf3QzdopbM",
@@ -37185,8 +37218,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "5zg26mxu4_w",
@@ -37225,8 +37257,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "ORksT1QDf3k",
@@ -37325,8 +37356,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "XJQMnwcMvcw",
@@ -37465,8 +37495,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "PiKBQ65QE1g",
@@ -37645,8 +37674,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "TpajmJJlHSE",
@@ -37665,8 +37693,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "_AqXSSQ0Cmo",
@@ -37685,8 +37712,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "c8vCVztYVg8",
@@ -37825,8 +37851,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "giWNmOtwsR4",
@@ -37845,8 +37870,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "Hqv_N2h4Ym4",
@@ -37925,8 +37949,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "mDwMojRzdD0",
@@ -38005,8 +38028,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "jesKrPOh9aE",
@@ -38105,8 +38127,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "LWOehrdWzD8",
@@ -38265,8 +38286,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "UoEqF2_aIJk",
@@ -38305,8 +38325,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "JPKJA5UCkiA",
@@ -38345,8 +38364,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "2bwRDVLzho4",
@@ -38465,8 +38483,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "fbgmOeTkKHw",
@@ -38485,8 +38502,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "FvGQHwTrDuA",
@@ -38605,8 +38621,7 @@
           "dateAccuracy": "exact",
           "dateMetadataVerified": true,
           "liveMetadataVerified": true,
-          "liveStatus": "not_live",
-          "classificationVersion": 2
+          "liveStatus": "not_live"
         },
         {
           "videoId": "MJNJs0_cgUs",
