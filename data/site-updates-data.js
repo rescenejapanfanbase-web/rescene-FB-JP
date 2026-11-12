@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-12T07:01:35.718323+00:00",
+  "generatedAt": "2026-11-12T16:46:33.403909+00:00",
   "items": [
     {
       "date": "2026-11-12",
@@ -30,16 +30,16 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-12",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "9a545ca",
+      "commit": "205d969",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
-        "assets/mv/youtube/4h0SE9m3IoU.jpg",
-        "assets/optimized/2376b79131cf6cb1/4h0se9m3iou-w1280.webp",
-        "assets/optimized/2376b79131cf6cb1/4h0se9m3iou-w480.webp",
-        "assets/optimized/2376b79131cf6cb1/4h0se9m3iou-w768.webp",
-        "data/image-manifest.json",
-        "data/image-optimization.json",
-        "data/language-catalog-data.js"
+        "assets/mv/youtube/pey3E47eSc8.jpg",
+        "assets/optimized/660d4c6314e1b1e9/pey3e47esc8-w1280.webp",
+        "assets/optimized/660d4c6314e1b1e9/pey3e47esc8-w480.webp",
+        "assets/optimized/660d4c6314e1b1e9/pey3e47esc8-w768.webp",
+        "assets/optimized/77e12c519052606f/pey3e47esc8-w480.webp",
+        "assets/optimized/77e12c519052606f/pey3e47esc8-w768.webp",
+        "data/image-manifest.json"
       ]
     },
     {
