@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-11T14:06:25.166Z",
+  "generatedAt": "2026-11-12T02:50:54.680Z",
   "source": "youtube+notion",
-  "youtubeGeneratedAt": "2026-11-11T17:01:22.366Z",
+  "youtubeGeneratedAt": "2026-11-11T23:26:30.384Z",
   "dataSourceId": "e85d399d-5506-4ab3-8355-e94325fbf5b1",
   "notionDatabaseUrl": "https://app.notion.com/p/5f26ec69338a46f1ad9a82e070e92ad9",
   "years": [
@@ -531,7 +531,7 @@
       "title": "UhUh",
       "sourceTitle": "RESCENE (리센느) 'UhUh' Special Performance Video (FLOWER_Vertical ver.)",
       "url": "https://www.youtube.com/watch?v=4h0SE9m3IoU",
-      "remoteThumbnail": "https://i.ytimg.com/vi/4h0SE9m3IoU/hq720.jpg",
+      "remoteThumbnail": "https://i.ytimg.com/vi_webp/4h0SE9m3IoU/maxresdefault.webp",
       "date": "2024-04-29",
       "publishedAt": "2024-04-29T00:00:00.000Z",
       "kind": "PERFORMANCE VIDEO",

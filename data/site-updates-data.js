@@ -1,6 +1,31 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-11T22:39:15.610250+00:00",
+  "generatedAt": "2026-11-12T02:50:54.789626+00:00",
   "items": [
+    {
+      "date": "2026-11-12",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "e1a68a8",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "e3ce54b",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/pluschat-schedule.json",
+        "data/quality-report.json",
+        "data/rescene-schedule.ics",
+        "data/schedule-data.js",
+        "data/schedule.json"
+      ]
+    },
     {
       "date": "2026-11-11",
       "title": "chore: update external link report",
