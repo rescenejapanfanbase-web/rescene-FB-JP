@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T16:56:55Z",
+  "generatedAt": "2026-11-12T02:10:00Z",
   "source": "pluschat",
   "sourceBaseUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/",
   "translationDictionary": "scripts/pluschat-schedule-translations.json",
@@ -7,8 +7,8 @@
     "2026-11",
     "2026-12"
   ],
-  "eventCount": 110,
-  "refreshedEventCount": 28,
+  "eventCount": 111,
+  "refreshedEventCount": 29,
   "failures": [],
   "months": {
     "2026-07": {
@@ -100,10 +100,12 @@
     },
     "2026-12": {
       "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12",
-      "fetchedAt": "2026-11-04T16:55:48Z",
-      "eventCount": 2,
+      "fetchedAt": "2026-11-12T02:10:00Z",
+      "eventCount": 3,
       "status": "ok",
-      "warnings": []
+      "warnings": [
+        "翻訳辞書への追加候補: 2026 SBS 가요대전 -> 2026 SBS 가요대전"
+      ]
     }
   },
   "events": [
@@ -2188,6 +2190,25 @@
       "end": "",
       "allDay": true,
       "category": "音楽番組",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-12"
+    },
+    {
+      "id": "pluschat-2026-12-24-all-day-6f0d2d5742add05af7e83503",
+      "title": "2026 SBS 가요대전",
+      "originalTitle": "2026 SBS 가요대전",
+      "translationStatus": "original",
+      "date": "2026-12-24",
+      "start": "2026-12-24",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
       "type": "event",
       "description": "",
       "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12",
