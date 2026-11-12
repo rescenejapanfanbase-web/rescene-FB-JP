@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-12T21:25:32.350600+00:00",
+  "generatedAt": "2026-11-12T23:32:02.805476+00:00",
   "items": [
     {
       "date": "2026-11-12",
@@ -14,7 +14,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-12",
       "title": "chore: critical schedule sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "a7c9295",
+      "commit": "4a688ee",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
@@ -30,16 +30,16 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-12",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "205d969",
+      "commit": "39a028e",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
-        "assets/mv/youtube/pey3E47eSc8.jpg",
-        "assets/optimized/660d4c6314e1b1e9/pey3e47esc8-w1280.webp",
-        "assets/optimized/660d4c6314e1b1e9/pey3e47esc8-w480.webp",
-        "assets/optimized/660d4c6314e1b1e9/pey3e47esc8-w768.webp",
-        "assets/optimized/77e12c519052606f/pey3e47esc8-w480.webp",
-        "assets/optimized/77e12c519052606f/pey3e47esc8-w768.webp",
-        "data/image-manifest.json"
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/mv-data.js",
+        "data/mv.json",
+        "data/quality-report.json"
       ]
     },
     {
