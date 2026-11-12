@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T02:10:00Z",
+  "generatedAt": "2026-11-12T10:25:20Z",
   "source": "pluschat",
   "sourceBaseUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/",
   "translationDictionary": "scripts/pluschat-schedule-translations.json",
@@ -7,8 +7,8 @@
     "2026-11",
     "2026-12"
   ],
-  "eventCount": 111,
-  "refreshedEventCount": 29,
+  "eventCount": 112,
+  "refreshedEventCount": 30,
   "failures": [],
   "months": {
     "2026-07": {
@@ -82,8 +82,8 @@
     },
     "2026-11": {
       "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11",
-      "fetchedAt": "2026-11-11T16:56:42Z",
-      "eventCount": 26,
+      "fetchedAt": "2026-11-12T10:25:07Z",
+      "eventCount": 27,
       "status": "ok",
       "warnings": [
         "翻訳辞書への追加候補: MBC <쇼!음악중심> 사전 녹화 -> MBC 「쇼!음악중심」 事前収録",
@@ -2038,6 +2038,25 @@
       "end": "",
       "allDay": true,
       "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-11"
+    },
+    {
+      "id": "pluschat-2026-11-14-1000-b6c9aaa94aa2d7ef79b706bc",
+      "title": "MBC 「SHOW! 音楽中心」 事前収録",
+      "originalTitle": "MBC <쇼음악중심> 사전 녹화",
+      "translationStatus": "rules",
+      "date": "2026-11-14",
+      "start": "2026-11-14T10:00:00+09:00",
+      "end": "",
+      "allDay": false,
+      "category": "音楽番組",
       "type": "event",
       "description": "",
       "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11",
