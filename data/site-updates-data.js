@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-12T02:50:54.789626+00:00",
+  "generatedAt": "2026-11-12T07:01:35.718323+00:00",
   "items": [
     {
       "date": "2026-11-12",
@@ -27,12 +27,19 @@ window.RESCENE_SITE_UPDATES = {
       ]
     },
     {
-      "date": "2026-11-11",
-      "title": "chore: update external link report",
+      "date": "2026-11-12",
+      "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "b619502",
+      "commit": "9a545ca",
       "files": [
-        "data/external-link-report.json"
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "assets/mv/youtube/4h0SE9m3IoU.jpg",
+        "assets/optimized/2376b79131cf6cb1/4h0se9m3iou-w1280.webp",
+        "assets/optimized/2376b79131cf6cb1/4h0se9m3iou-w480.webp",
+        "assets/optimized/2376b79131cf6cb1/4h0se9m3iou-w768.webp",
+        "data/image-manifest.json",
+        "data/image-optimization.json",
+        "data/language-catalog-data.js"
       ]
     },
     {
