@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T12:04:41.991509+00:00",
+  "generatedAt": "2026-11-13T16:11:57.239731+00:00",
   "items": [
     {
       "date": "2026-11-13",
@@ -30,16 +30,16 @@
       "date": "2026-11-13",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "356cad5",
+      "commit": "4185743",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
         "data/language-catalog.json",
         "data/mv-candidates-data.js",
         "data/mv-candidates.json",
+        "data/quality-report.json",
         "data/seo-status.json",
-        "data/site-updates-data.js",
-        "data/site-updates.json"
+        "data/site-updates-data.js"
       ]
     },
     {
