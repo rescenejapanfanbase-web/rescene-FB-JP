@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-13T02:32:40.043835+00:00",
+  "generatedAt": "2026-11-13T06:29:08.811119+00:00",
   "items": [
     {
       "date": "2026-11-13",
@@ -24,6 +24,22 @@ window.RESCENE_SITE_UPDATES = {
         "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
         "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
         "scripts/__pycache__/check-external-links.cpython-313.pyc"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "title": "chore: critical full content sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "356cad5",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/seo-status.json",
+        "data/site-updates-data.js",
+        "data/site-updates.json"
       ]
     },
     {
@@ -74,38 +90,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "c989387",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "fea1953",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "d5fb89d",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "assets/mv/youtube/pey3E47eSc8.jpg",
-        "assets/optimized/660d4c6314e1b1e9/pey3e47esc8-w1280.webp",
-        "assets/optimized/660d4c6314e1b1e9/pey3e47esc8-w480.webp",
-        "assets/optimized/660d4c6314e1b1e9/pey3e47esc8-w768.webp",
-        "assets/optimized/77e12c519052606f/pey3e47esc8-w480.webp",
-        "assets/optimized/77e12c519052606f/pey3e47esc8-w768.webp",
-        "data/image-manifest.json"
       ]
     },
     {
