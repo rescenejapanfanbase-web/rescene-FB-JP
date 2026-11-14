@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-11-12T12:32:25Z",
+  "generatedAt": "2026-11-14T08:02:23Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/chants/notion/insideout.png": {
@@ -2116,6 +2116,33 @@
       ],
       "default": "assets/optimized/4b98d7b6aa2195d5/notion-415229d219da80ff9c6cd6bfd705a9a7-4b98d7b6-w848.webp"
     },
+    "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-e3f3e8628745.jpg": {
+      "asset": "e3f3e8628745854f",
+      "originalBytes": 349590,
+      "width": 2144,
+      "height": 1206,
+      "variants": [
+        {
+          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 31460
+        },
+        {
+          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 58824
+        },
+        {
+          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w1440.webp",
+          "width": 1440,
+          "height": 810,
+          "bytes": 112804
+        }
+      ],
+      "default": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w1440.webp"
+    },
     "assets/platform-icons/apple-music.png": {
       "asset": "dfbcce2c96eda8d7",
       "originalBytes": 27243,
@@ -2784,6 +2811,33 @@
         }
       ],
       "default": "assets/optimized/f2300f6238a9222e/notion-414229d219da801b9118ced9daa3489d-f2300f62-w1440.webp"
+    },
+    "assets/records/notion/record-418229d219da8091b4dff5ee8c316eec-e3f3e8628745.jpg": {
+      "asset": "e3f3e8628745854f",
+      "originalBytes": 349590,
+      "width": 2144,
+      "height": 1206,
+      "variants": [
+        {
+          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 31460
+        },
+        {
+          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 58824
+        },
+        {
+          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w1440.webp",
+          "width": 1440,
+          "height": 810,
+          "bytes": 112804
+        }
+      ],
+      "default": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w1440.webp"
     },
     "assets/voting/apps/bigc.webp": {
       "asset": "27f361fbd4cf2415",
@@ -13370,6 +13424,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/e3dc347adb431eeb/notion-3ae229d219da805283b1d5fec5375c61-e3dc347a-w964.webp"
+    },
+    "e3f3e8628745854f": {
+      "hash": "e3f3e8628745854ff02d123e73aa1930be4155f91dbfd8ad9fea01d677738b49",
+      "width": 2144,
+      "height": 1206,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 31460
+        },
+        {
+          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 58824
+        },
+        {
+          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w1440.webp",
+          "width": 1440,
+          "height": 810,
+          "bytes": 112804
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w1440.webp"
     },
     "e7d78b212458b9b9": {
       "hash": "e7d78b212458b9b90ffacd62fde98c7baaec75bb0266603052a2d44337877515",

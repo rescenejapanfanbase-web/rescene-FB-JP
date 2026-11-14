@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-11-11T11:26:14.629Z",
+  "generatedAt": "2026-11-14T08:02:00.217Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -115,6 +115,20 @@ window.RESCENE_RECORDS = {
       "translations": {},
       "notionPageId": "413229d2-19da-80f9-88d4-c10ca0cd4486",
       "notionUrl": "https://app.notion.com/p/2026-11-11-With-SHOW-CHAMPION-413229d219da80f988d4c10ca0cd4486"
+    },
+    {
+      "title": "2026.11.14 With — SHOW! 音楽中心",
+      "song": "With",
+      "date": "2026-11-14",
+      "program": "SHOW! 音楽中心",
+      "description": "2026年11月14日放送のSHOW!音楽中心にてWithで3冠目の1位を獲得。グループ通算9冠目。",
+      "videoUrl": "",
+      "videoLabel": "",
+      "image": "assets/records/notion/record-418229d219da8091b4dff5ee8c316eec-e3f3e8628745.jpg",
+      "order": 9999,
+      "translations": {},
+      "notionPageId": "418229d2-19da-8091-b4df-f5ee8c316eec",
+      "notionUrl": "https://app.notion.com/p/2026-11-14-With-SHOW-418229d219da8091b4dff5ee8c316eec"
     }
   ],
   "melonRecords": [

@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "with-3-1-7638c26f44",
+    "date": "2026.11.14",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "9th WIN",
+    "title": "「With」で3度目の1位を獲得！",
+    "text": "2026年11月14日放送のMBC「SHOW!音楽中心」で、「With」で3度目の1位を獲得しました。",
+    "body": "2026年11月14日放送のMBC「SHOW!音楽中心」で、「With」で3度目の1位を獲得しました。\n「With」では通算3冠目、グループとして通算9冠目となりました。",
+    "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-e3f3e8628745.jpg",
+    "sourceLink": "",
+    "sourceLabel": "",
+    "translations": {},
+    "notionPageId": "418229d2-19da-80ab-b26d-c57638c26f44",
+    "notionUrl": "https://app.notion.com/p/With-3-1-418229d219da80abb26dc57638c26f44"
+  },
+  {
     "slug": "with-2-1-e431b66922",
     "date": "2026.11.11",
     "category": "notice",
