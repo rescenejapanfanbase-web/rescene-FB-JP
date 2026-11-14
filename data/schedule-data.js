@@ -1,14 +1,14 @@
 window.RESCENE_SCHEDULE_PAYLOAD = {
-  "generatedAt": "2026-11-13T10:11:23.729Z",
+  "generatedAt": "2026-11-14T09:35:03.562Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
     "notion": 41,
-    "plusChatAvailable": 114,
-    "plusChatAdded": 93,
+    "plusChatAvailable": 115,
+    "plusChatAdded": 94,
     "plusChatDuplicates": 21
   },
-  "plusChatGeneratedAt": "2026-11-13T10:11:23Z",
+  "plusChatGeneratedAt": "2026-11-14T09:35:03Z",
   "events": [
     {
       "id": "39d229d2-19da-800f-bf39-f901096b6fc6",
@@ -2258,6 +2258,25 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
       "start": "2026-11-22T13:00:00+09:00",
       "end": "",
       "allDay": false,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-11"
+    },
+    {
+      "id": "pluschat-2026-11-24-all-day-218e900a8025aaa59c9224c6",
+      "title": "멜론 STAGE 99",
+      "originalTitle": "멜론 STAGE 99",
+      "translationStatus": "original",
+      "date": "2026-11-24",
+      "start": "2026-11-24",
+      "end": "",
+      "allDay": true,
       "category": "イベント",
       "type": "event",
       "description": "",
