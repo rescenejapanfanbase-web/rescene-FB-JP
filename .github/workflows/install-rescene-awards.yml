@@ -1,0 +1,331 @@
+name: Install RESCENE Awards Page and Notion Sync
+
+on:
+  push:
+    paths:
+      - '.github/workflows/install-rescene-awards.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-content-write
+  cancel-in-progress: false
+
+jobs:
+  install:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Install awards page and Notion support
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          #!/usr/bin/env python3
+          """Install a Notion-driven RESCENE awards page into the existing GitHub Pages repo.
+          Idempotent, and deliberately keeps the existing records/Melon/wins flows intact.
+          """
+          from pathlib import Path
+          import re
+
+          root = Path.cwd()
+
+          def change(path, old, new):
+              p = root / path
+              src = p.read_text(encoding="utf-8")
+              if new in src:
+                  return False
+              count = src.count(old)
+              if count != 1:
+                  raise RuntimeError(f'{path}: expected exactly one insertion point, found {count}: {old[:70]}')
+              p.write_text(src.replace(old, new, 1), encoding="utf-8")
+              print('patched', path)
+              return True
+
+          def ensure_after(path, marker, block, sentinel):
+              p = root / path
+              text = p.read_text(encoding='utf-8')
+              if sentinel in text:
+                  return
+              if text.count(marker) != 1:
+                  raise RuntimeError(f'{path}: insertion marker count {text.count(marker)}: {marker[:70]}')
+              p.write_text(text.replace(marker, marker + block, 1), encoding='utf-8')
+              print('patched',path)
+
+          # Expand existing Notion record classification (no new database or credentials required).
+          path = 'scripts/sync-notion-records.mjs'
+          change(path,
+              '  if (/melon|メロン/.test(text)) return "melon";',
+              '  if (/melon|メロン/.test(text)) return "melon";\n'
+              '  if (/授賞式受賞|award-?win|awardwon/.test(text)) return "award-win";\n'
+              '  if (/授賞式ノミネート|award-?nomination|nominated/.test(text)) return "award-nomination";')
+          ensure_after(path, 'const notionMelonRecords = [];', '\nconst notionAwardRecords = [];', 'const notionAwardRecords = [];')
+
+          award_branch = '''  if (type === "award-win" || type === "award-nomination") {
+              const date = dateProperty(p, ["獲得日", "日付", "Win Date"]);
+              const year = Number(propertyByAliases(p, ["授賞年度"])) || Number(date.slice(0, 4)) || null;
+              const ceremony = String(propertyByAliases(p, ["授賞式名", "授賞式", "Ceremony"]));
+              const category = String(propertyByAliases(p, ["受賞部門", "部門", "Category"]));
+              if (!ceremony || !category || !year) {
+                console.warn(`授賞式の必須項目が未入力のためスキップ: ${title}`);
+                continue;
+              }
+              notionAwardRecords.push({
+                title,
+                date,
+                year,
+                ceremony,
+                category,
+                recipient: String(propertyByAliases(p, ["受賞対象", "対象", "Recipient"])) || "RESCENE",
+                status: type === "award-win" ? "won" : "nominated",
+                description: String(propertyByAliases(p, ["記録説明", "説明", "Description"])),
+                officialUrl: validHttp(propertyByAliases(p, ["公式発表リンク", "公式リンク", "Official URL"])),
+                image: image || "",
+                order,
+                notionPageId: page.id,
+                notionUrl: page.url || "",
+              });
+              continue;
+            }
+          '''
+          p = root / path
+          text = p.read_text(encoding="utf-8")
+          needle = '  if (type === "music-show-win") {'
+          if 'const notionAwardRecords = [];' not in text: raise RuntimeError('Notion awards list missing')
+          if '    notionAwardRecords.push({' not in text:
+              if text.count(needle) != 1: raise RuntimeError('Award branch target missing')
+              p.write_text(text.replace(needle, award_branch + needle, 1), encoding='utf-8')
+              print('patched award parser')
+
+          # Prevent loss of image mapping if Notion File contents are not returned temporarily.
+          change(path,
+            'const previousByTitle = new Map([...(existing.musicShowWins || []), ...(existing.melonRecords || [])].map((item) => [String(item.title || item.song || ""), item]));',
+            'const previousByTitle = new Map([...(existing.musicShowWins || []), ...(existing.melonRecords || []), ...(existing.awardRecords || [])].map((item) => [String(item.title || item.song || ""), item]));')
+          ensure_after(path,
+            'const melonRecords = mergeRecords(manual.melonRecords || [], notionMelonRecords, { matchSong: true }).map(publicRecord);',
+            '\nconst awardRecords = notionAwardRecords.sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")) || Number(a.order ?? 9999) - Number(b.order ?? 9999));',
+            'const awardRecords = notionAwardRecords.sort(')
+          change(path,
+            'const comparable = { musicShowWins, melonRecords };',
+            'const comparable = { musicShowWins, melonRecords, awardRecords };')
+          change(path,
+            'JSON.stringify({ musicShowWins: existing.musicShowWins || [], melonRecords: existing.melonRecords || [] })',
+            'JSON.stringify({ musicShowWins: existing.musicShowWins || [], melonRecords: existing.melonRecords || [], awardRecords: existing.awardRecords || [] })')
+          change(path,
+            'notionDatabaseUrl, musicShowWins, melonRecords };',
+            'notionDatabaseUrl, musicShowWins, melonRecords, awardRecords };')
+
+          # Render a total award count alongside the original records dashboard, keeping the existing
+          # renderer authoritative for its generated overview block.
+          renderer = 'scripts/render-record-pages.mjs'
+          ensure_after(renderer,
+            'const melon = Array.isArray(payload.melonRecords) ? [...payload.melonRecords] : [];',
+            '\nconst awardRecords = Array.isArray(payload.awardRecords) ? payload.awardRecords : [];',
+            'const awardRecords = Array.isArray(payload.awardRecords)')
+          ensure_after(renderer,
+            '  <article class="card record-stat"><small>MUSIC SHOW WINS</small><strong>${wins.length}</strong><span>音楽番組1位 総獲得数</span></article>',
+            '\n  <article class="card record-stat"><small>AWARDS</small><strong>${awardRecords.filter(item => item.status === "won").length}</strong><span>授賞式の受賞数</span></article>',
+            '<small>AWARDS</small><strong>${awardRecords.filter(')
+
+          # Discoverability: add a fourth category without modifying any generated section.
+          records = root / 'records.html'
+          html = records.read_text(encoding='utf-8')
+          if 'href="awards.html"' not in html:
+              card = '''<a class="card record-category-card" href="awards.html"><div class="record-category-image awards-category-visual" aria-hidden="true"><svg viewBox="0 0 120 90" width="160" height="120" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M40 14h40v22c0 19-11 29-20 29S40 55 40 36V14Z" fill="#e5c775" stroke="#fff3cd" stroke-width="2"/><path d="M40 21H26c0 22 8 29 23 29M80 21h14c0 22-8 29-23 29" stroke="#f2d995" stroke-width="8" stroke-linecap="round"/><path d="M60 65v12M43 80h34" stroke="#e5c775" stroke-width="7" stroke-linecap="round"/></svg><span class="record-category-label">AWARDS</span></div><div class="record-category-copy"><h2>受賞歴・ノミネート</h2><p>2024年からの授賞式での受賞・ノミネートを年度別に確認できます。</p><span class="record-category-link">受賞歴を見る →</span></div></a>\n'''
+              needle = '<a class="card record-category-card" href="korean-charts.html">'
+              if html.count(needle) != 1: raise RuntimeError('records.html: category insertion point missing')
+              html = html.replace(needle, card + needle, 1)
+              html = html.replace('RESCENEの音楽番組1位獲得記録、Melon記録、韓国主要チャートの最新順位をまとめています。', 'RESCENEの受賞歴、音楽番組1位獲得記録、Melon記録、韓国主要チャートの最新順位をまとめています。')
+              records.write_text(html, encoding='utf-8')
+              print('patched records.html')
+
+          # Repurpose the complete existing page shell for identical navigation, theme and footer.
+          awards_path = root/'awards.html'
+          template = (root/'music-show-wins.html').read_text(encoding='utf-8')
+          template = template.replace('音楽番組1位獲得記録', '受賞歴・ノミネート')
+          template = template.replace('music-show-wins.html', 'awards.html')
+          template = template.replace('assets/ogp/music-show-wins.jpg', 'assets/ogp/records.jpg')
+          template = template.replace('page-music-show-wins', 'page-awards')
+          template = template.replace('RESCENEの受賞歴・ノミネートを、総獲得数・番組・日付・映像リンクとともに掲載しています。', 'RESCENEの授賞式受賞歴・ノミネート情報を、受賞年度・部門・日付・発表リンクとともに掲載しています。')
+          main = '''<main class="container">
+          <nav class="article-breadcrumb" aria-label="パンくず"><a href="index.html">ホーム</a><span>›</span><a href="records.html">記録</a><span>›</span><span>受賞歴・ノミネート</span></nav>
+          <section class="page-header section" id="top"><span class="page-kicker">AWARDS &amp; NOMINATIONS</span><h1>受賞歴・ノミネート</h1><p>RESCENEのデビューからの授賞式での受賞・ノミネートをまとめています。音楽番組1位の記録は別ページでご覧いただけます。</p>
+          <div class="record-overview" id="awardsSummary" aria-live="polite"><article class="card record-stat"><small>AWARDS</small><strong>—</strong><span>集計中</span></article></div></section>
+          <section class="section"><div class="section-head record-section-head"><div><span class="section-kicker">AWARD HISTORY</span><h2 class="section-title">授賞式の記録</h2></div></div>
+          <div class="award-filter-row" aria-label="受賞結果の絞り込み" role="group"><button type="button" class="filter active" data-awards-filter="all" aria-pressed="true">すべて</button><button type="button" class="filter" data-awards-filter="won" aria-pressed="false">受賞</button><button type="button" class="filter" data-awards-filter="nominated" aria-pressed="false">ノミネート</button></div>
+          <div id="awardsList" aria-live="polite"><div class="card record-empty" style="padding:24px">受賞歴を読み込んでいます。</div></div>
+          <p class="update-note">※音楽番組1位と個人の記録は集計に含めていません。授賞式の結果は主催者や報道機関の発表をもとに掲載しています。</p></section>
+          <section class="section"><div class="record-related-grid"><a class="card record-related-card" href="records.html"><small>ALL RECORDS</small><strong>記録トップ</strong><span>記録のカテゴリーへ戻る →</span></a><a class="card record-related-card" href="music-show-wins.html"><small>MUSIC SHOW WINS</small><strong>音楽番組1位獲得記録</strong><span>音楽番組の1位を確認 →</span></a><a class="card record-related-card" href="melon-records.html"><small>MELON CHART</small><strong>Melonチャート記録</strong><span>Melon記録を見る →</span></a></div></section>
+          </main>'''
+          source, count = re.subn(r'<main class="container">[\s\S]*?</main>', lambda m: main, template, count=1)
+          if count != 1: raise RuntimeError('Cannot locate page main in existing template')
+          source = source.replace('<script src="js/image-optimizer.js"></script>', '<script src="data/records-data.js"></script>\n<script src="js/awards.js"></script>\n<script src="js/image-optimizer.js"></script>')
+          # Keep title, canonical, OGP, structuredData as inherited, with route and labels replaced.
+          if not awards_path.exists() or awards_path.read_text(encoding='utf-8') != source:
+              awards_path.write_text(source, encoding='utf-8')
+              print('generated awards.html')
+
+          js = r'''(()=>{
+            'use strict';
+            const payload=window.RESCENE_RECORDS||{};
+            const awards=Array.isArray(payload.awardRecords)?payload.awardRecords:[];
+            const summary=document.getElementById('awardsSummary');
+            const list=document.getElementById('awardsList');
+            const controls=[...document.querySelectorAll('[data-awards-filter]')];
+            const escape=(x='')=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+            const fmt=(x)=>/^\d{4}-\d{2}-\d{2}$/.test(String(x||'').slice(0,10))?String(x).slice(0,10).replaceAll('-','.'):'';
+            const safeUrl=(x)=>/^https:\/\/[^\s<>"']+$/i.test(String(x||''))?String(x):'';
+            const safeImage=(x)=>/^(?:assets\/[a-z0-9_./%-]+\.(?:jpg|jpeg|png|webp|gif))$/i.test(String(x||''))&&!String(x).includes('..')?String(x):'';
+            const sorted=[...awards].filter(x=>x&&Number(x.year)>=2024&&['won','nominated'].includes(x.status)).sort((a,b)=>Number(b.year)-Number(a.year)||String(b.date||'').localeCompare(String(a.date||''))||Number(a.order??9999)-Number(b.order??9999));
+            const wins=sorted.filter(x=>x.status==='won').length;
+            const nominations=sorted.filter(x=>x.status==='nominated').length;
+            const first=sorted.filter(x=>x.status==='won').at(-1);
+            if(summary)summary.innerHTML=`<article class="card record-stat"><small>AWARDS WON</small><strong>${wins}</strong><span>授賞式の受賞数</span></article><article class="card record-stat"><small>NOMINATIONS</small><strong>${nominations}</strong><span>ノミネート数（受賞を除く）</span></article><article class="card record-stat"><small>FIRST AWARD</small><strong>${first?escape(first.year):'—'}</strong><span>${first?escape(fmt(first.date)||first.ceremony):'確認中'}</span></article>`;
+            function render(filter){
+              const items=sorted.filter(a=>filter==='all'||a.status===filter);
+              if(!items.length){list.innerHTML='<div class="card record-empty" style="padding:24px">この条件に該当する記録はありません。</div>';return;}
+              const years=[...new Set(items.map(a=>Number(a.year)))].sort((a,b)=>b-a);
+              list.innerHTML=years.map(y=>{
+                const rows=items.filter(a=>Number(a.year)===y).map(a=>{
+                  const badge=a.status==='won'?'受賞':'ノミネート';
+                  const image=safeImage(a.image);
+                  const official=safeUrl(a.officialUrl);
+                  const img=image?`<div class="award-photo"><img src="${escape(image)}" alt="${escape(a.ceremony||'授賞式')}の画像" loading="lazy"></div>`:'';
+                  return `<article class="card award-entry">${img}<div class="award-copy"><div class="award-meta"><span class="award-status ${a.status==='won'?'is-won':'is-nominated'}">${badge}</span>${fmt(a.date)?`<time datetime="${escape(String(a.date).slice(0,10))}">${escape(fmt(a.date))}</time>`:''}</div><p class="award-ceremony">${escape(a.ceremony||'授賞式')}</p><h3>${escape(a.category||a.title||'受賞部門')}</h3>${a.recipient?`<p class="award-recipient">対象：${escape(a.recipient)}</p>`:''}${a.description?`<p class="award-desc">${escape(a.description)}</p>`:''}${official?`<a class="award-source" href="${escape(official)}" target="_blank" rel="noopener noreferrer">発表・報道元を見る ↗</a>`:''}</div></article>`;
+                }).join('');
+                return `<section class="awards-year-group" aria-label="${y}年の受賞歴"><h2 class="awards-year">${y}<small>年</small></h2><div class="awards-grid">${rows}</div></section>`;
+              }).join('');
+            }
+            for(const button of controls)button.addEventListener('click',()=>{controls.forEach(x=>{const active=x===button;x.classList.toggle('active',active);x.setAttribute('aria-pressed',String(active));});render(button.dataset.awardsFilter||'all');});
+            render('all');
+          })();
+          '''
+          (root/'js/awards.js').write_text(js, encoding='utf-8')
+
+          styles = '''
+          /* AWARDS — RESCENE JAPAN FANBASE */
+          .awards-category-visual{display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 45% 40%,#76547c 0%,#3a2e45 54%,#211b30 100%);min-height:190px;position:relative}
+          .awards-category-visual svg{width:145px;height:auto;filter:drop-shadow(0 10px 18px rgba(0,0,0,.35))}
+          .award-filter-row{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 28px}
+          .awards-year-group{margin-bottom:38px}.awards-year{font-size:1.65rem;letter-spacing:.04em;margin:12px 0 16px}.awards-year small{font-size:.9rem;margin-left:.3em;font-weight:400;opacity:.66}
+          .awards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:16px}
+          .award-entry{overflow:hidden;padding:0;display:flex;flex-direction:column}
+          .award-photo{max-height:240px;overflow:hidden}.award-photo img{width:100%;height:100%;max-height:240px;object-fit:cover;display:block}
+          .award-copy{padding:20px;display:flex;flex-direction:column;gap:9px;flex:1}
+          .award-meta{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:.81rem;opacity:.9}
+          .award-status{border-radius:999px;padding:5px 11px;font-size:.75rem;font-weight:700;display:inline-block;background:rgba(118,135,170,.18)}
+          .award-status.is-won{background:rgba(220,174,73,.20);color:#e8bb65}
+          .light-mode .award-status.is-won{color:#835900}
+          .award-ceremony{font-size:.83rem;opacity:.72;margin:0}
+          .award-copy h3{font-size:1.22rem;line-height:1.5;margin:0}
+          .award-recipient,.award-desc{font-size:.88rem;line-height:1.7;margin:0;opacity:.82}
+          .award-source{font-size:.86rem;margin-top:auto;padding-top:8px;display:inline-block}
+          @media(max-width:719px){.awards-grid{grid-template-columns:1fr}.award-copy{padding:17px}.awards-year{font-size:1.45rem}}
+          '''
+          cssfile=root/'common.css'
+          css=cssfile.read_text(encoding='utf-8')
+          if '/* AWARDS — RESCENE JAPAN FANBASE */' not in css:
+              cssfile.write_text(css+'\n'+styles,encoding='utf-8')
+              print('patched common.css')
+
+          # Register the new page with the repository's canonical SEO/sitemap generator.
+          seo_path = root/'scripts/generate-seo.py'
+          seo = seo_path.read_text(encoding='utf-8')
+          if '    "awards.html": {' not in seo:
+              anchor = '    "melon-records.html": {'
+              metadata = '''    "awards.html": {
+                  "title": f"受賞歴・ノミネート | {SITE_NAME}",
+                  "description": "RESCENEの授賞式受賞歴・ノミネートを年度別に掲載。受賞部門、日付、出典を確認できます。",
+                  "image": "assets/group/rescene-group.jpg",
+                  "label": "AWARDS & NOMINATIONS",
+                  "priority": "0.8",
+                  "changefreq": "daily",
+              },
+          '''
+              if seo.count(anchor) != 1: raise RuntimeError('SEO page map insertion point missing')
+              seo = seo.replace(anchor, metadata + anchor, 1)
+              seo_path.write_text(seo, encoding='utf-8')
+              print('patched SEO/sitemap page registry')
+
+          # Keep the Music navigation open on the awards page, and add a durable menu item
+          # even if the Notion navigation source lacks it.
+          shell_path = root/'scripts/sync-site-shell.py'
+          shell = shell_path.read_text(encoding='utf-8')
+          if '"linkUrl":"awards.html"' not in shell:
+              old = '    # アンケートはサイト機能として常設。'
+              addition = '''    # 授賞式の受賞歴もサイトの常設コンテンツに含めます。
+              if not any(str(item.get("linkUrl") or "").strip().split("#")[0] == "awards.html" for item in source if isinstance(item, dict)):
+                  source.append({"heading":"受賞歴・ノミネート", "linkUrl":"awards.html", "note":"音楽", "order":53.5})
+          '''
+              if shell.count(old) != 1: raise RuntimeError('site shell navigation insertion point missing')
+              shell = shell.replace(old, addition + old, 1)
+              shell = shell.replace("'music-show-wins.html','melon-records.html','korean-charts.html'", "'music-show-wins.html','melon-records.html','korean-charts.html','awards.html'")
+              shell_path.write_text(shell, encoding='utf-8')
+              print('patched shared navigation')
+
+          # Notion updates publish automatically (every 2 hours) and remain manually runnable.
+          workflow_path = root/'.github/workflows/sync-notion-records.yml'
+          workflow_text = workflow_path.read_text(encoding='utf-8')
+          if "  schedule:" not in workflow_text:
+              old = 'on:\n  workflow_dispatch:\n'
+              new = "on:\n  workflow_dispatch:\n  schedule:\n    - cron: '17 */2 * * *'\n"
+              if workflow_text.count(old) != 1:
+                  raise RuntimeError('Existing Notion sync workflow dispatch block not found')
+              workflow_path.write_text(workflow_text.replace(old,new,1), encoding='utf-8')
+              print('updated recurring Notion sync schedule')
+
+          print('RESCENE awards page installed')
+          PY
+          node --check scripts/sync-notion-records.mjs
+          node --check scripts/render-record-pages.mjs
+          node --check js/awards.js
+      - name: Sync confirmed awards from existing Notion records database
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_RECORDS_DATA_SOURCE_ID: ${{ vars.NOTION_RECORDS_DATA_SOURCE_ID }}
+          PYTHON_COMMAND: python
+        shell: bash
+        run: |
+          set -euo pipefail
+          node scripts/sync-notion-records.mjs
+          node scripts/render-record-pages.mjs
+          python scripts/generate-seo.py
+          python scripts/sync-site-shell.py
+          node - <<'NODE'
+          const fs=require('fs');
+          const d=JSON.parse(fs.readFileSync('data/records.json','utf8'));
+          if(!Array.isArray(d.awardRecords) || d.awardRecords.length<13) throw new Error('Notion award records missing — refusing to publish blank page');
+          if(!fs.existsSync('awards.html')) throw new Error('awards.html missing');
+          if(!fs.readFileSync('records.html','utf8').includes('href="awards.html"')) throw new Error('Records landing link missing');
+          console.log('Synced awards:',d.awardRecords.length);
+          NODE
+          git diff --check
+      - name: Commit and publish generated site
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'Awards page already installed.'
+            exit 0
+          fi
+          git commit -m 'feat: add Notion-powered awards and nominations page'
+          git push origin HEAD:main
