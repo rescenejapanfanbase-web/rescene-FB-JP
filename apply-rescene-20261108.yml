@@ -1,0 +1,104 @@
+name: Apply RESCENE Voting Guide Update (2026-11-08)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/apply-rescene-20261108.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-content-write
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Apply uploaded site update package
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+          root = Path.cwd()
+          bundles = [
+              p for p in root.iterdir()
+              if p.is_dir() and p.name.startswith('RESCENE_FB_')
+              and p.name.endswith('_20261108')
+              and (p / 'apply_rescene_site_update.py').is_file()
+          ]
+          if len(bundles) != 1:
+              raise SystemExit(f'Expected exactly one uploaded update package; found {len(bundles)}')
+          script = bundles[0] / 'apply_rescene_site_update.py'
+          subprocess.run(['python', str(script), str(root), '--check'], check=True)
+          subprocess.run(['python', str(script), str(root)], check=True)
+          PY
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          root = Path.cwd()
+          voting = (root / 'voting.html').read_text(encoding='utf-8')
+          schedule = (root / 'schedule.html').read_text(encoding='utf-8')
+          melon = (root / 'melon-records.html').read_text(encoding='utf-8')
+          assert 'assets/voting/music-shows-overview-20261108.jpg' in voting
+          assert 'assets/voting/vote-points-summary-20261108.jpg' in voting
+          assert 'assets/voting/guides/bigc-vote-flow-20261108.jpg' in voting
+          assert 'schedule/music-show-schedule-20261108.jpg' in schedule
+          assert 'MVなし／未登録' not in melon
+          for path in (
+              'assets/voting/music-shows-overview-20261108.jpg',
+              'assets/voting/vote-points-summary-20261108.jpg',
+              'assets/voting/guides/bigc-vote-flow-20261108.jpg',
+              'schedule/music-show-schedule-20261108.jpg',
+          ):
+              assert (root / path).is_file(), path
+          guide = json.loads((root / 'data/voting-guide.json').read_text(encoding='utf-8'))
+          bigc = next(app for app in guide['apps'] if app['title'] == 'BIGC')
+          step = next(s for s in bigc['guide']['steps'] if '投票の流れ' in s['title'])
+          assert step['image'] == 'assets/voting/guides/bigc-vote-flow-20261108.jpg'
+          print('Site update validation passed.')
+          PY
+          git diff --check
+
+      - name: Commit updated site files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- \
+            voting.html \
+            schedule.html \
+            melon-records.html \
+            js/voting.js \
+            data/voting-guide.json \
+            data/voting-guide-data.js \
+            scripts/sync-notion-voting.mjs \
+            scripts/render-record-pages.mjs \
+            assets/voting/music-shows-overview-20261108.jpg \
+            assets/voting/vote-points-summary-20261108.jpg \
+            schedule/music-show-schedule-20261108.jpg \
+            assets/voting/guides/bigc-vote-flow-20261108.jpg
+          if git diff --cached --quiet; then
+            echo 'No change to commit.'
+            exit 0
+          fi
+          git commit -m 'Update voting guide images and remove missing MV labels'
+          git push origin HEAD:main
