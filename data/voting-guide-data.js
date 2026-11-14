@@ -364,7 +364,7 @@ window.RESCENE_VOTING_GUIDE = {
             "text": "広告視聴などで投票に必要なGEMを事前に確保しておきます。"
           },
           {
-            "image": "",
+            "image": "assets/voting/guides/bigc-vote-flow-20261108.jpg",
             "title": "3. 投票の流れ",
             "text": "THE SHOW 投票 → THE K-POP → PRE-VOTE 1st Place Nominees → RESCENE の順に進み、投票数を入力して完了です。"
           }

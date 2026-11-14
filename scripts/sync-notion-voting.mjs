@@ -255,6 +255,12 @@ for (const page of pages) {
 
 programs.sort((a, b) => a.order - b.order || a.title.localeCompare(b.title, "ja"));
 apps.sort((a, b) => a.order - b.order || a.title.localeCompare(b.title, "ja"));
+// The BIGC voting-flow screenshot is maintained by RESCENE JAPAN FANBASE.
+// Preserve it when Notion data is refreshed.
+const bigcApp = apps.find(app => String(app.title || "").toUpperCase() === "BIGC");
+const bigcVoteStep = bigcApp?.guide?.steps?.find(step => /投票の流れ/.test(step.title || ""));
+if (bigcVoteStep) bigcVoteStep.image = "assets/voting/guides/bigc-vote-flow-20261108.jpg";
+
 status ??= {
   title: "現在の投票案内",
   description: "現在、常設で案内しているRESCENE対象の投票はありません。",

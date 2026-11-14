@@ -102,7 +102,7 @@ const melonList = melon.length ? `<div class="melon-sort-toolbar card" aria-labe
   return `<article class="card melon-record-card" data-release-date="${esc(releaseDate)}" data-daily-peak="${esc(dailyPeak)}" data-original-index="${index}">
     <div class="melon-record-index">${String(index + 1).padStart(2, "0")}</div>
     <div class="melon-record-art"><img src="${esc(image)}" alt="${esc(item.song || item.title)}" loading="lazy"></div>
-    <div class="melon-record-copy"><small>RELEASE ${esc(dateJa(item.releaseDate))}</small><h2>${esc(item.song || item.title)}</h2><p>${esc(item.description || "Melonチャート記録")}</p>${mv ? `<a class="record-inline-link" href="${esc(mv)}" target="_blank" rel="noopener noreferrer">MVを見る ↗</a>` : '<span class="record-link-pending">MVなし／未登録</span>'}</div>
+    <div class="melon-record-copy"><small>RELEASE ${esc(dateJa(item.releaseDate))}</small><h2>${esc(item.song || item.title)}</h2><p>${esc(item.description || "Melonチャート記録")}</p>${mv ? `<a class="record-inline-link" href="${esc(mv)}" target="_blank" rel="noopener noreferrer">MVを見る ↗</a>` : ''}</div>
     <dl class="melon-rank-grid"><div><dt>TOP100最高順位</dt><dd>${esc(rank(item.top100Peak))}</dd>${item.top100PeakDate ? `<small class="melon-rank-date"><span>獲得日</span><time datetime="${esc(item.top100PeakDate)}">${esc(dateJa(item.top100PeakDate))}</time></small>` : ""}</div><div><dt>日間最高順位</dt><dd>${esc(rank(item.dailyPeak))}</dd>${item.dailyPeakDate ? `<small class="melon-rank-date"><span>獲得日</span><time datetime="${esc(item.dailyPeakDate)}">${esc(dateJa(item.dailyPeakDate))}</time></small>` : ""}</div></dl>
   </article>`;
 }).join("\n")}</div>` : '<div class="card record-empty">公開中のMelonチャート記録はまだありません。</div>';

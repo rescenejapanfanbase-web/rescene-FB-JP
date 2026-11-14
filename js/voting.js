@@ -44,7 +44,9 @@
 
   if(guideHost){
     guideHost.innerHTML=apps.map((item,index)=>{
-      const steps=Array.isArray(item?.guide?.steps)?item.guide.steps:[];
+      const steps=(Array.isArray(item?.guide?.steps)?item.guide.steps:[]).map(step=>
+        item.title==='BIGC' && /投票の流れ/.test(step.title||'')
+          ? {...step,image:'assets/voting/guides/bigc-vote-flow-20261108.jpg'} : step);
       const stepHtml=steps.map(step=>`<article class="guide-step">${step.image?`<div class="guide-image">${image(step.image,`${item.title} ${step.title||'投票ガイド'}`)}</div>`:`<div class="guide-placeholder"><strong>${escapeHtml(step.title||'画像なし')}</strong><code>Notionの「ガイド画像」へ追加できます</code></div>`}<div class="guide-caption"><b>${escapeHtml(step.title||'手順')}</b>${step.text?`<p>${escapeHtml(step.text)}</p>`:''}</div></article>`).join('');
       return `<details class="guide-details"${index===0?' open':''}><summary><span class="guide-summary-title"><span class="guide-app-icon">${image(item.icon,item.title)}</span><span>${escapeHtml(item.title||'')}<small>${escapeHtml(item.subtitle||'')}</small></span></span></summary><div class="guide-content"><div class="guide-steps">${stepHtml}</div>${item?.guide?.note?`<p class="guide-note">${lineBreaks(item.guide.note)}</p>`:''}</div></details>`;
     }).join('');
