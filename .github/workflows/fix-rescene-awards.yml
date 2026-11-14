@@ -1,0 +1,95 @@
+name: Fix and Publish RESCENE Awards
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-rescene-awards.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */2 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-content-write
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_RECORDS_DATA_SOURCE_ID: ${{ vars.NOTION_RECORDS_DATA_SOURCE_ID }}
+      PYTHON_COMMAND: python
+    steps:
+      - name: Checkout current site
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install missing image and YAML libraries
+        run: python -m pip install --disable-pip-version-check pillow pillow-heif PyYAML
+
+      - name: Run the existing awards installer and sync
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+          import yaml
+
+          source = Path('.github/workflows/install-rescene-awards.yml')
+          if not source.is_file():
+              raise SystemExit('The original install-rescene-awards.yml file is missing.')
+          original = yaml.safe_load(source.read_text(encoding='utf-8'))
+          steps = original['jobs']['install']['steps']
+          required_steps = (
+              'Install awards page and Notion support',
+              'Sync confirmed awards from existing Notion records database',
+          )
+          for name in required_steps:
+              matches = [step for step in steps if step.get('name') == name]
+              if len(matches) != 1:
+                  raise SystemExit(f'Expected exactly one step named {name!r}, found {len(matches)}')
+              script = matches[0].get('run', '')
+              if not script:
+                  raise SystemExit(f'Missing run script for {name}')
+              print(f'Executing: {name}', flush=True)
+              subprocess.run(['bash', '-e', '-o', 'pipefail', '-c', script], check=True)
+          PY
+
+      - name: Validate and publish the awards page
+        shell: bash
+        run: |
+          set -euo pipefail
+          # GitHub Actions' standard token may not have permission to change
+          # workflow definitions. This workflow itself runs the 2-hour sync,
+          # so preserving the pre-existing sync workflow is intentional.
+          git restore -- .github/workflows/sync-notion-records.yml
+          node --check scripts/sync-notion-records.mjs
+          node --check js/awards.js
+          git diff --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'Awards page and Notion data are already up to date.'
+            exit 0
+          fi
+          git commit -m 'feat: publish Notion-synced RESCENE awards page'
+          git push origin HEAD:main
