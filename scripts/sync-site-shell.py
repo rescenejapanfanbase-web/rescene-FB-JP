@@ -56,6 +56,9 @@ def translated_attrs(item):
 def normalized_nav_items(management):
     items=management.get('navigation') if isinstance(management,dict) else None
     source=list(items) if isinstance(items,list) and items else list(DEFAULT_NAVIGATION)
+    # 授賞式の受賞歴もサイトの常設コンテンツに含めます。
+    if not any(str(item.get("linkUrl") or "").strip().split("#")[0] == "awards.html" for item in source if isinstance(item, dict)):
+        source.append({"heading":"受賞歴・ノミネート", "linkUrl":"awards.html", "note":"音楽", "order":53.5})
     # アンケートはサイト機能として常設。Notion側に同じリンクが追加された場合は重複させません。
     if not any(str(item.get("linkUrl") or "").strip().split("#")[0]=="survey.html" for item in source if isinstance(item,dict)):
         source.append({
@@ -190,7 +193,7 @@ def main()->int:
             'survey.html':'アンケート結果は定期的に集計・更新しています。',
         }
         desktop_nav,mobile_nav=build_navigation(root_prefix(path),site_management,relative)
-        replacements={'MUSIC_OPEN':' open' if relative in {'discography.html','mv.html','youtube.html','records.html','music-show-wins.html','melon-records.html','korean-charts.html'} else '', 'LINKS_OPEN':' open' if relative in {'links.html','fan-services.html','contact.html'} else '', 'SEARCH_CURRENT':' aria-current="page"' if relative=='search.html' else '', 'FOOTER_NOTE':footer_notes.get(relative,'公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。'),'YEAR_ATTR':'data-year=""' if relative=='sync-status.html' else 'data-year','DESKTOP_NAV':desktop_nav,'MOBILE_NAV':mobile_nav}
+        replacements={'MUSIC_OPEN':' open' if relative in {'discography.html','mv.html','youtube.html','records.html','music-show-wins.html','melon-records.html','korean-charts.html','awards.html'} else '', 'LINKS_OPEN':' open' if relative in {'links.html','fan-services.html','contact.html'} else '', 'SEARCH_CURRENT':' aria-current="page"' if relative=='search.html' else '', 'FOOTER_NOTE':footer_notes.get(relative,'公式情報はRESCENEおよび所属事務所・各主催者の案内もあわせてご確認ください。'),'YEAR_ATTR':'data-year=""' if relative=='sync-status.html' else 'data-year','DESKTOP_NAV':desktop_nav,'MOBILE_NAV':mobile_nav}
         try: normalized,is_changed=normalize_page(path,contact_header_template if is_contact else header_template,contact_footer_template if is_contact else footer_template,replacements)
         except ValueError as exc: failures.append(str(exc));continue
         if is_changed:

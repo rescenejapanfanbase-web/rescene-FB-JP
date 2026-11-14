@@ -61,6 +61,8 @@ function normalizedRecordType(value) {
   const text = String(value || "").normalize("NFKC").replace(/\s+/g, "").toLowerCase();
   if (/音楽番組.*1位|musicshow.*win|musicshowwins/.test(text)) return "music-show-win";
   if (/melon|メロン/.test(text)) return "melon";
+  if (/授賞式受賞|award-?win|awardwon/.test(text)) return "award-win";
+  if (/授賞式ノミネート|award-?nomination|nominated/.test(text)) return "award-nomination";
   return "";
 }
 function recordTranslations(properties, kind) {
@@ -251,10 +253,11 @@ const DAILY_ALIASES = ["日間最高順位", "Melon日間最高順位", "Daily P
 
 const existing = await readJson("data/records.json", { musicShowWins: [], melonRecords: [] });
 const manual = await readJson("data/records-manual.json", { musicShowWins: [], melonRecords: [] });
-const previousByTitle = new Map([...(existing.musicShowWins || []), ...(existing.melonRecords || [])].map((item) => [String(item.title || item.song || ""), item]));
+const previousByTitle = new Map([...(existing.musicShowWins || []), ...(existing.melonRecords || []), ...(existing.awardRecords || [])].map((item) => [String(item.title || item.song || ""), item]));
 const pages = await queryAllPages();
 const notionMusicShowWins = [];
 const notionMelonRecords = [];
+const notionAwardRecords = [];
 const usedImages = new Set();
 
 for (const queryPage of pages) {
@@ -272,6 +275,32 @@ for (const queryPage of pages) {
   const image = await resolveImage(page, previous.image || "");
   if (image.startsWith(imageDirectory)) usedImages.add(image);
   const order = numericProperty(p, ["表示順", "順番", "Order"]) ?? 9999;
+  if (type === "award-win" || type === "award-nomination") {
+    const date = dateProperty(p, ["獲得日", "日付", "Win Date"]);
+    const year = Number(propertyByAliases(p, ["授賞年度"])) || Number(date.slice(0, 4)) || null;
+    const ceremony = String(propertyByAliases(p, ["授賞式名", "授賞式", "Ceremony"]));
+    const category = String(propertyByAliases(p, ["受賞部門", "部門", "Category"]));
+    if (!ceremony || !category || !year) {
+      console.warn(`授賞式の必須項目が未入力のためスキップ: ${title}`);
+      continue;
+    }
+    notionAwardRecords.push({
+      title,
+      date,
+      year,
+      ceremony,
+      category,
+      recipient: String(propertyByAliases(p, ["受賞対象", "対象", "Recipient"])) || "RESCENE",
+      status: type === "award-win" ? "won" : "nominated",
+      description: String(propertyByAliases(p, ["記録説明", "説明", "Description"])),
+      officialUrl: validHttp(propertyByAliases(p, ["公式発表リンク", "公式リンク", "Official URL"])),
+      image: image || "",
+      order,
+      notionPageId: page.id,
+      notionUrl: page.url || "",
+    });
+    continue;
+  }
   if (type === "music-show-win") {
     notionMusicShowWins.push({
       title,
@@ -316,6 +345,7 @@ for (const queryPage of pages) {
 
 const musicShowWins = mergeRecords(manual.musicShowWins || [], notionMusicShowWins).map(publicRecord);
 const melonRecords = mergeRecords(manual.melonRecords || [], notionMelonRecords, { matchSong: true }).map(publicRecord);
+const awardRecords = notionAwardRecords.sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")) || Number(a.order ?? 9999) - Number(b.order ?? 9999));
 if (melonRecords.length < (manual.melonRecords || []).length) {
   throw new Error(`Melon記録の件数がフォールバックより減少しました: ${melonRecords.length}/${manual.melonRecords.length}`);
 }
@@ -329,10 +359,10 @@ for (const name of await readdir(imageDirectory).catch(() => [])) {
   if (!usedImages.has(path)) await unlink(path).catch(() => {});
 }
 
-const comparable = { musicShowWins, melonRecords };
-const changed = JSON.stringify({ musicShowWins: existing.musicShowWins || [], melonRecords: existing.melonRecords || [] }) !== JSON.stringify(comparable);
+const comparable = { musicShowWins, melonRecords, awardRecords };
+const changed = JSON.stringify({ musicShowWins: existing.musicShowWins || [], melonRecords: existing.melonRecords || [], awardRecords: existing.awardRecords || [] }) !== JSON.stringify(comparable);
 const generatedAt = changed ? new Date().toISOString() : (existing.generatedAt || new Date().toISOString());
-const payload = { generatedAt, source: "notion+manual-fallback", dataSourceId, notionDatabaseUrl, musicShowWins, melonRecords };
+const payload = { generatedAt, source: "notion+manual-fallback", dataSourceId, notionDatabaseUrl, musicShowWins, melonRecords, awardRecords };
 await mkdir("data", { recursive: true });
 await writeFile("data/records.json", `${JSON.stringify(payload, null, 2)}\n`, "utf8");
 await writeFile("data/records-data.js", `window.RESCENE_RECORDS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");

@@ -108,6 +108,14 @@ PAGE_META = {
         "priority": "0.8",
         "changefreq": "daily",
     },
+    "awards.html": {
+        "title": f"受賞歴・ノミネート | {SITE_NAME}",
+        "description": "RESCENEの授賞式受賞歴・ノミネートを年度別に掲載。受賞部門、日付、出典を確認できます。",
+        "image": "assets/group/rescene-group.jpg",
+        "label": "AWARDS & NOMINATIONS",
+        "priority": "0.8",
+        "changefreq": "daily",
+    },
     "melon-records.html": {
         "title": f"Melonチャート記録 | {SITE_NAME}",
         "description": "RESCENEの楽曲別Melon記録を、リリース日と日間最高順位で昇順・降順に並び替えて確認できます。",

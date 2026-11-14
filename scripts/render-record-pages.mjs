@@ -4,6 +4,7 @@ const dataPath = process.argv[2] || "data/records.json";
 const payload = JSON.parse(await readFile(dataPath, "utf8"));
 const wins = Array.isArray(payload.musicShowWins) ? [...payload.musicShowWins] : [];
 const melon = Array.isArray(payload.melonRecords) ? [...payload.melonRecords] : [];
+const awardRecords = Array.isArray(payload.awardRecords) ? payload.awardRecords : [];
 
 wins.sort((a, b) => String(a.date || "").localeCompare(String(b.date || "")) || Number(a.order ?? 9999) - Number(b.order ?? 9999));
 melon.sort((a, b) => String(a.releaseDate || "9999-99-99").localeCompare(String(b.releaseDate || "9999-99-99")) || Number(a.order ?? 9999) - Number(b.order ?? 9999));
@@ -46,6 +47,7 @@ const bestDaily = melon.reduce((best, item) => {
 const landingOverview = `
 <div class="record-overview" aria-label="記録の概要">
   <article class="card record-stat"><small>MUSIC SHOW WINS</small><strong>${wins.length}</strong><span>音楽番組1位 総獲得数</span></article>
+  <article class="card record-stat"><small>AWARDS</small><strong>${awardRecords.filter(item => item.status === "won").length}</strong><span>授賞式の受賞数</span></article>
   <article class="card record-stat"><small>MELON TOP100</small><strong>${bestTop100 ? `#${bestTop100}` : "—"}</strong><span>TOP100最高順位</span></article>
   <article class="card record-stat"><small>MELON DAILY</small><strong>${bestDaily ? `#${bestDaily}` : "—"}</strong><span>日間最高順位</span></article>
 </div>`;
