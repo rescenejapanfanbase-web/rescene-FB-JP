@@ -20,8 +20,8 @@ window.RESCENE_NEWS = [
     "text": "2026年11月15日放送のSBS「人気歌謡」で、「With」で4度目の1位を獲得しました。",
     "body": "2026年11月15日放送のSBS「人気歌謡」で、「With」で4度目の1位を獲得しました。\n「With」では通算4冠目、グループとして通算10冠目となりました。",
     "image": "assets/news/notion/notion-419229d219da803ab26bca10fc9578be-c9901004ba52.jpg",
-    "sourceLink": "",
-    "sourceLabel": "",
+    "sourceLink": "https://youtu.be/jYAg0rybWhQ?si=8r6gpxfOSuvxIsNr",
+    "sourceLabel": "アンコールステージを見る",
     "translations": {},
     "notionPageId": "419229d2-19da-803a-b26b-ca10fc9578be",
     "notionUrl": "https://app.notion.com/p/With-4-1-419229d219da803ab26bca10fc9578be"

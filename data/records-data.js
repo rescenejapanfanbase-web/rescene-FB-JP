@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-11-15T08:13:59.046Z",
+  "generatedAt": "2026-11-15T11:19:22.392Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -136,8 +136,8 @@ window.RESCENE_RECORDS = {
       "date": "2026-11-15",
       "program": "人気歌謡",
       "description": "2026年11月15日放送の人気歌謡にてWithで4冠目の1位を獲得。グループ通算10冠目。",
-      "videoUrl": "",
-      "videoLabel": "",
+      "videoUrl": "https://youtu.be/jYAg0rybWhQ?si=8r6gpxfOSuvxIsNr",
+      "videoLabel": "アンコールステージを見る",
       "image": "assets/records/notion/record-419229d219da80858cfad35d258f007a-c9901004ba52.jpg",
       "order": 9999,
       "translations": {},
