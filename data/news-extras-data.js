@@ -1,6 +1,6 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-11-14T08:02:14.335Z",
-  "sourceNewsGeneratedAt": "2026-11-14T08:01:39.420Z",
+  "generatedAt": "2026-11-15T02:28:40.563Z",
+  "sourceNewsGeneratedAt": "2026-11-15T02:28:06.140Z",
   "related": {
     "fanbase-site": [
       {
@@ -8,8 +8,20 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "「With」で3度目の1位を獲得！",
         "date": "2026.11.14",
         "label": "9th WIN",
-        "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-e3f3e8628745.jpg",
+        "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-402c9f0634cc.jpg",
         "text": "2026年11月14日放送のMBC「SHOW!音楽中心」で、「With」で3度目の1位を獲得しました。",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
+        "slug": "mma2026-3-c2a1da2460",
+        "title": "MMA2026にて3つの賞を受賞！",
+        "date": "2026.11.14",
+        "label": "Award",
+        "image": "assets/news/notion/notion-418229d219da80e8a539ebc2a1da2460-030f4d9f2ea0.jpg",
+        "text": "2026年11月14日に開催されたMMA2026で3つの賞を受賞しました！",
         "score": 5,
         "reasons": [
           "同じカテゴリー"
@@ -22,18 +34,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "8th WIN",
         "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-5bb6d55c25ec.jpg",
         "text": "2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。",
-        "score": 5,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "with-1-d9daa3489d",
-        "title": "「With」で初の1位を獲得！",
-        "date": "2026.11.10",
-        "label": "7th WIN",
-        "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-f2300f6238a9.jpg",
-        "text": "2026年11月10日放送のSBS Life「THE SHOW」で、\n｢With｣で初の1位を獲得しました。",
         "score": 5,
         "reasons": [
           "同じカテゴリー"
@@ -83,13 +83,54 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       }
     ],
+    "mma2026-3-c2a1da2460": [
+      {
+        "slug": "2026-kgma-4-76cbf9c655",
+        "title": "2026 KGMAにて4つの賞を受賞！",
+        "date": "2026.11.07",
+        "label": "Award",
+        "image": "assets/news/notion/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88c095.jpg",
+        "text": "2026年11月7日に開催された2026KGMAで4つの賞を受賞しました！",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "2026-mama-awards-caaa5f7b37",
+        "title": "2026 MAMA AWARDSに出演決定！",
+        "date": "2026.10.13",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
+        "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "melon-music-awards-2026-mma-a5ddba3cc6",
+        "title": "Melon Music Awards 2026(MMA)に出演が決定！",
+        "date": "2026.09.21",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3e2229d219da803b9cb9f0a5ddba3cc6-8cc08e70975e.jpg",
+        "text": "2026年11月14日,15日に開催されるMelon Music Awards 2026(MMA)にRESCENEが出演決定しました！",
+        "score": 10,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      }
+    ],
     "with-2-1-e431b66922": [
       {
         "slug": "with-3-1-7638c26f44",
         "title": "「With」で3度目の1位を獲得！",
         "date": "2026.11.14",
         "label": "9th WIN",
-        "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-e3f3e8628745.jpg",
+        "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-402c9f0634cc.jpg",
         "text": "2026年11月14日放送のMBC「SHOW!音楽中心」で、「With」で3度目の1位を獲得しました。",
         "score": 18,
         "reasons": [
@@ -172,7 +213,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "「With」で3度目の1位を獲得！",
         "date": "2026.11.14",
         "label": "9th WIN",
-        "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-e3f3e8628745.jpg",
+        "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-402c9f0634cc.jpg",
         "text": "2026年11月14日放送のMBC「SHOW!音楽中心」で、「With」で3度目の1位を獲得しました。",
         "score": 18,
         "reasons": [
@@ -217,7 +258,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "An award ceremony",
         "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
         "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
-        "score": 11,
+        "score": 13,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
@@ -230,7 +271,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "An award ceremony",
         "image": "assets/news/notion/notion-3e2229d219da803b9cb9f0a5ddba3cc6-8cc08e70975e.jpg",
         "text": "2026年11月14日,15日に開催されるMelon Music Awards 2026(MMA)にRESCENEが出演決定しました！",
-        "score": 10,
+        "score": 12,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
@@ -243,7 +284,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "Award",
         "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
         "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
-        "score": 10,
+        "score": 12,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
@@ -300,8 +341,20 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "「With」で3度目の1位を獲得！",
         "date": "2026.11.14",
         "label": "9th WIN",
-        "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-e3f3e8628745.jpg",
+        "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-402c9f0634cc.jpg",
         "text": "2026年11月14日放送のMBC「SHOW!音楽中心」で、「With」で3度目の1位を獲得しました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
+        "slug": "mma2026-3-c2a1da2460",
+        "title": "MMA2026にて3つの賞を受賞！",
+        "date": "2026.11.14",
+        "label": "Award",
+        "image": "assets/news/notion/notion-418229d219da80e8a539ebc2a1da2460-030f4d9f2ea0.jpg",
+        "text": "2026年11月14日に開催されたMMA2026で3つの賞を受賞しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -314,18 +367,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "8th WIN",
         "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-5bb6d55c25ec.jpg",
         "text": "2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "with-1-d9daa3489d",
-        "title": "「With」で初の1位を獲得！",
-        "date": "2026.11.10",
-        "label": "7th WIN",
-        "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-f2300f6238a9.jpg",
-        "text": "2026年11月10日放送のSBS Life「THE SHOW」で、\n｢With｣で初の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -419,7 +460,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "title": "「With」で3度目の1位を獲得！",
         "date": "2026.11.14",
         "label": "9th WIN",
-        "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-e3f3e8628745.jpg",
+        "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-402c9f0634cc.jpg",
         "text": "2026年11月14日放送のMBC「SHOW!音楽中心」で、「With」で3度目の1位を獲得しました。",
         "score": 14,
         "reasons": [
@@ -471,7 +512,7 @@ window.RESCENE_NEWS_EXTRAS = {
       },
       {
         "slug": "love-attack-melon-5-1-a4a47b4969",
-        "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立",
+        "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立！",
         "date": "2026.08.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
@@ -600,7 +641,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "Award",
         "image": "assets/news/notion/notion-3d3229d219da80ada593c1ddb316c572-3af870050127.jpg",
         "text": "2026年9月6日に開催されたSKAで2つの賞を受賞しました！",
-        "score": 13,
+        "score": 15,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
@@ -613,7 +654,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "An award ceremony",
         "image": "assets/news/notion/notion-3ae229d219da805283b1d5fec5375c61-e3dc347adb43.jpg",
         "text": "2026年8月27日に開催されるK-WORLD DREAM AWARDS(KWDA)にRESCENEが出演決定しました！",
-        "score": 12,
+        "score": 14,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
@@ -621,6 +662,19 @@ window.RESCENE_NEWS_EXTRAS = {
       }
     ],
     "spotv-k-pop-awards-ska-2-ddb316c572": [
+      {
+        "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
+        "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
+        "date": "2026.09.19",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
+        "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
+        "score": 15,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
       {
         "slug": "spotv-k-pop-awards-ska-53085d0039",
         "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
@@ -635,26 +689,13 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
-        "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
-        "date": "2026.09.19",
-        "label": "Award",
-        "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
-        "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
-        "score": 13,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード"
-        ]
-      },
-      {
         "slug": "melon-music-awards-2026-mma-a5ddba3cc6",
         "title": "Melon Music Awards 2026(MMA)に出演が決定！",
         "date": "2026.09.21",
         "label": "An award ceremony",
         "image": "assets/news/notion/notion-3e2229d219da803b9cb9f0a5ddba3cc6-8cc08e70975e.jpg",
         "text": "2026年11月14日,15日に開催されるMelon Music Awards 2026(MMA)にRESCENEが出演決定しました！",
-        "score": 11,
+        "score": 13,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
@@ -664,7 +705,7 @@ window.RESCENE_NEWS_EXTRAS = {
     "love-attack-melon-2026-1-cf541f6166": [
       {
         "slug": "love-attack-melon-5-1-a4a47b4969",
-        "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立",
+        "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立！",
         "date": "2026.08.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
@@ -713,7 +754,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "An award ceremony",
         "image": "assets/news/notion/notion-3e2229d219da803b9cb9f0a5ddba3cc6-8cc08e70975e.jpg",
         "text": "2026年11月14日,15日に開催されるMelon Music Awards 2026(MMA)にRESCENEが出演決定しました！",
-        "score": 11,
+        "score": 13,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
@@ -726,7 +767,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "Award",
         "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
         "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
-        "score": 11,
+        "score": 13,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
@@ -739,7 +780,7 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "An award ceremony",
         "image": "assets/news/notion/notion-3ae229d219da805283b1d5fec5375c61-e3dc347adb43.jpg",
         "text": "2026年8月27日に開催されるK-WORLD DREAM AWARDS(KWDA)にRESCENEが出演決定しました！",
-        "score": 11,
+        "score": 13,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
@@ -1412,7 +1453,7 @@ window.RESCENE_NEWS_EXTRAS = {
       },
       {
         "slug": "love-attack-melon-5-1-a4a47b4969",
-        "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立",
+        "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立！",
         "date": "2026.08.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
@@ -1428,7 +1469,7 @@ window.RESCENE_NEWS_EXTRAS = {
     "melon-top100-first-number-one": [
       {
         "slug": "love-attack-melon-5-1-a4a47b4969",
-        "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立",
+        "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立！",
         "date": "2026.08.02",
         "label": "New Record",
         "image": "assets/news/notion/notion-3b0229d219da803fa497c9a4a47b4969-40e2d9234fa5.jpg",
@@ -2097,6 +2138,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "charCount": 108
     },
     {
+      "slug": "mma2026-3-c2a1da2460",
+      "date": "2026.11.14",
+      "title": "MMA2026にて3つの賞を受賞！",
+      "url": "https://rescene-fb.jp/articles/mma2026-3-c2a1da2460.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.11.14】 MMA2026にて3つの賞を受賞！\n\nhttps://rescene-fb.jp/articles/mma2026-3-c2a1da2460.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "MMA2026にて3つの賞を受賞！\n2026年11月14日に開催されたMMA2026で3つの賞を受賞しました！",
+      "charCount": 109
+    },
+    {
       "slug": "with-2-1-e431b66922",
       "date": "2026.11.11",
       "title": "「With」で2度目の1位を獲得！",
@@ -2299,12 +2350,12 @@ window.RESCENE_NEWS_EXTRAS = {
     {
       "slug": "love-attack-melon-5-1-a4a47b4969",
       "date": "2026.08.02",
-      "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立",
+      "title": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立！",
       "url": "https://rescene-fb.jp/articles/love-attack-melon-5-1-a4a47b4969.html",
       "hashtags": "#RESCENE #리센느 #リセンヌ",
-      "xText": "【2026.08.02】 LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立\n\nhttps://rescene-fb.jp/articles/love-attack-melon-5-1-a4a47b4969.html\n\n#RESCENE #리센느 #リセンヌ",
-      "lineText": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立\n2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
-      "charCount": 141
+      "xText": "【2026.08.02】 LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立！\n\nhttps://rescene-fb.jp/articles/love-attack-melon-5-1-a4a47b4969.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "LOVE ATTACKがMelon日間チャートで第5世代最長1位記録を樹立！\n2026年8月1日、LOVE ATTACKがMelon日間チャート1位保持記録で第5世代最長記録を20日に塗り替え、更新しました。",
+      "charCount": 142
     },
     {
       "slug": "spotv-k-pop-awards-ska-53085d0039",

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-11-14T08:02:23Z",
+  "generatedAt": "2026-11-15T02:28:49Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/chants/notion/insideout.png": {
@@ -880,363 +880,6 @@
       ],
       "default": "assets/optimized/e949e2acbd295367/uhuh-w1280.webp"
     },
-    "assets/mv/youtube/0ifssWwxVhc.jpg": {
-      "asset": "1d7d8bd6090a5e96",
-      "originalBytes": 86486,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/1d7d8bd6090a5e96/0ifsswwxvhc-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 26736
-        },
-        {
-          "src": "assets/optimized/1d7d8bd6090a5e96/0ifsswwxvhc-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 54192
-        }
-      ],
-      "default": "assets/optimized/1d7d8bd6090a5e96/0ifsswwxvhc-w768.webp"
-    },
-    "assets/mv/youtube/4h0SE9m3IoU.jpg": {
-      "asset": "01213fb41fad9294",
-      "originalBytes": 25488,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/01213fb41fad9294/4h0se9m3iou-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 10266
-        },
-        {
-          "src": "assets/optimized/01213fb41fad9294/4h0se9m3iou-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 18064
-        }
-      ],
-      "default": "assets/optimized/01213fb41fad9294/4h0se9m3iou-w768.webp"
-    },
-    "assets/mv/youtube/638f3ttCR20.jpg": {
-      "asset": "ac1da45f240557b4",
-      "originalBytes": 65210,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/ac1da45f240557b4/638f3ttcr20-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 22968
-        },
-        {
-          "src": "assets/optimized/ac1da45f240557b4/638f3ttcr20-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 42990
-        }
-      ],
-      "default": "assets/optimized/ac1da45f240557b4/638f3ttcr20-w768.webp"
-    },
-    "assets/mv/youtube/6tTsZnKysBc.jpg": {
-      "asset": "9be43c500015e87b",
-      "originalBytes": 55412,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/9be43c500015e87b/6ttsznkysbc-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 19484
-        },
-        {
-          "src": "assets/optimized/9be43c500015e87b/6ttsznkysbc-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 36436
-        }
-      ],
-      "default": "assets/optimized/9be43c500015e87b/6ttsznkysbc-w768.webp"
-    },
-    "assets/mv/youtube/Gu_4J16N2fY.jpg": {
-      "asset": "d80d755a6ce54b21",
-      "originalBytes": 40160,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/d80d755a6ce54b21/gu_4j16n2fy-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 14708
-        },
-        {
-          "src": "assets/optimized/d80d755a6ce54b21/gu_4j16n2fy-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 26574
-        }
-      ],
-      "default": "assets/optimized/d80d755a6ce54b21/gu_4j16n2fy-w768.webp"
-    },
-    "assets/mv/youtube/QN7V87Hzmr8.jpg": {
-      "asset": "06d228a3ff0a0329",
-      "originalBytes": 59872,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/06d228a3ff0a0329/qn7v87hzmr8-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 28522
-        },
-        {
-          "src": "assets/optimized/06d228a3ff0a0329/qn7v87hzmr8-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 48746
-        }
-      ],
-      "default": "assets/optimized/06d228a3ff0a0329/qn7v87hzmr8-w768.webp"
-    },
-    "assets/mv/youtube/WNl67k6StWY.jpg": {
-      "asset": "222523db69c7fbbb",
-      "originalBytes": 107330,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/222523db69c7fbbb/wnl67k6stwy-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 38472
-        },
-        {
-          "src": "assets/optimized/222523db69c7fbbb/wnl67k6stwy-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 73932
-        }
-      ],
-      "default": "assets/optimized/222523db69c7fbbb/wnl67k6stwy-w768.webp"
-    },
-    "assets/mv/youtube/WQuoPINWLU8.jpg": {
-      "asset": "15e9c2470a88e592",
-      "originalBytes": 23118,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/15e9c2470a88e592/wquopinwlu8-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 12358
-        },
-        {
-          "src": "assets/optimized/15e9c2470a88e592/wquopinwlu8-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 21826
-        }
-      ],
-      "default": "assets/optimized/15e9c2470a88e592/wquopinwlu8-w768.webp"
-    },
-    "assets/mv/youtube/Wm1vxMk5YTY.jpg": {
-      "asset": "d12680a96965a2e2",
-      "originalBytes": 68644,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/d12680a96965a2e2/wm1vxmk5yty-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 27234
-        },
-        {
-          "src": "assets/optimized/d12680a96965a2e2/wm1vxmk5yty-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 48726
-        }
-      ],
-      "default": "assets/optimized/d12680a96965a2e2/wm1vxmk5yty-w768.webp"
-    },
-    "assets/mv/youtube/_zzAi5x0cXc.jpg": {
-      "asset": "c16b2783ba56c6ba",
-      "originalBytes": 85698,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/c16b2783ba56c6ba/_zzai5x0cxc-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 24552
-        },
-        {
-          "src": "assets/optimized/c16b2783ba56c6ba/_zzai5x0cxc-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 51014
-        }
-      ],
-      "default": "assets/optimized/c16b2783ba56c6ba/_zzai5x0cxc-w768.webp"
-    },
-    "assets/mv/youtube/bhgNiT3qQgU.jpg": {
-      "asset": "f3a2857a43dc9a7f",
-      "originalBytes": 67968,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/f3a2857a43dc9a7f/bhgnit3qqgu-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 28446
-        },
-        {
-          "src": "assets/optimized/f3a2857a43dc9a7f/bhgnit3qqgu-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 52248
-        }
-      ],
-      "default": "assets/optimized/f3a2857a43dc9a7f/bhgnit3qqgu-w768.webp"
-    },
-    "assets/mv/youtube/bnhoSYv7ehY.jpg": {
-      "asset": "3e585ce6126f67f2",
-      "originalBytes": 91674,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/3e585ce6126f67f2/bnhosyv7ehy-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 29606
-        },
-        {
-          "src": "assets/optimized/3e585ce6126f67f2/bnhosyv7ehy-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 60580
-        }
-      ],
-      "default": "assets/optimized/3e585ce6126f67f2/bnhosyv7ehy-w768.webp"
-    },
-    "assets/mv/youtube/d64dH8mnw9Q.jpg": {
-      "asset": "b066e4117f21757e",
-      "originalBytes": 50504,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/b066e4117f21757e/d64dh8mnw9q-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 14936
-        },
-        {
-          "src": "assets/optimized/b066e4117f21757e/d64dh8mnw9q-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 28418
-        }
-      ],
-      "default": "assets/optimized/b066e4117f21757e/d64dh8mnw9q-w768.webp"
-    },
-    "assets/mv/youtube/dvX4jNqqlS4.jpg": {
-      "asset": "fcf58f78944dc729",
-      "originalBytes": 47096,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/fcf58f78944dc729/dvx4jnqqls4-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 19532
-        },
-        {
-          "src": "assets/optimized/fcf58f78944dc729/dvx4jnqqls4-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 34058
-        }
-      ],
-      "default": "assets/optimized/fcf58f78944dc729/dvx4jnqqls4-w768.webp"
-    },
-    "assets/mv/youtube/j3mzATw-EOQ.jpg": {
-      "asset": "afa949cde6dae384",
-      "originalBytes": 49682,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/afa949cde6dae384/j3mzatw-eoq-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 16058
-        },
-        {
-          "src": "assets/optimized/afa949cde6dae384/j3mzatw-eoq-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 32140
-        }
-      ],
-      "default": "assets/optimized/afa949cde6dae384/j3mzatw-eoq-w768.webp"
-    },
-    "assets/mv/youtube/mMnImayua0U.jpg": {
-      "asset": "1993679a2184d7ba",
-      "originalBytes": 81362,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/1993679a2184d7ba/mmnimayua0u-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 24548
-        },
-        {
-          "src": "assets/optimized/1993679a2184d7ba/mmnimayua0u-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 47720
-        }
-      ],
-      "default": "assets/optimized/1993679a2184d7ba/mmnimayua0u-w768.webp"
-    },
-    "assets/mv/youtube/ou2Y2vGKCyY.jpg": {
-      "asset": "703e7507f9e9bc11",
-      "originalBytes": 47442,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/703e7507f9e9bc11/ou2y2vgkcyy-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 17144
-        },
-        {
-          "src": "assets/optimized/703e7507f9e9bc11/ou2y2vgkcyy-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 31036
-        }
-      ],
-      "default": "assets/optimized/703e7507f9e9bc11/ou2y2vgkcyy-w768.webp"
-    },
     "assets/mv/youtube/pey3E47eSc8.jpg": {
       "asset": "77e12c519052606f",
       "originalBytes": 60376,
@@ -1257,48 +900,6 @@
         }
       ],
       "default": "assets/optimized/77e12c519052606f/pey3e47esc8-w768.webp"
-    },
-    "assets/mv/youtube/tGxv4kiPqec.jpg": {
-      "asset": "a4a3195fa02d990a",
-      "originalBytes": 53960,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/a4a3195fa02d990a/tgxv4kipqec-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 19256
-        },
-        {
-          "src": "assets/optimized/a4a3195fa02d990a/tgxv4kipqec-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 36380
-        }
-      ],
-      "default": "assets/optimized/a4a3195fa02d990a/tgxv4kipqec-w768.webp"
-    },
-    "assets/mv/youtube/yAZUO4KqH6s.jpg": {
-      "asset": "627d9c6c0e8f1737",
-      "originalBytes": 95152,
-      "width": 1280,
-      "height": 720,
-      "variants": [
-        {
-          "src": "assets/optimized/627d9c6c0e8f1737/yazuo4kqh6s-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 31146
-        },
-        {
-          "src": "assets/optimized/627d9c6c0e8f1737/yazuo4kqh6s-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 68854
-        }
-      ],
-      "default": "assets/optimized/627d9c6c0e8f1737/yazuo4kqh6s-w768.webp"
     },
     "assets/mv/yoyo.jpg": {
       "asset": "3cae2916c7529b6e",
@@ -2116,32 +1717,59 @@
       ],
       "default": "assets/optimized/4b98d7b6aa2195d5/notion-415229d219da80ff9c6cd6bfd705a9a7-4b98d7b6-w848.webp"
     },
-    "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-e3f3e8628745.jpg": {
-      "asset": "e3f3e8628745854f",
-      "originalBytes": 349590,
+    "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-402c9f0634cc.jpg": {
+      "asset": "402c9f0634cc2c39",
+      "originalBytes": 335596,
       "width": 2144,
       "height": 1206,
       "variants": [
         {
-          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w480.webp",
+          "src": "assets/optimized/402c9f0634cc2c39/notion-418229d219da80abb26dc57638c26f44-402c9f06-w480.webp",
           "width": 480,
           "height": 270,
-          "bytes": 31460
+          "bytes": 29562
         },
         {
-          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w768.webp",
+          "src": "assets/optimized/402c9f0634cc2c39/notion-418229d219da80abb26dc57638c26f44-402c9f06-w768.webp",
           "width": 768,
           "height": 432,
-          "bytes": 58824
+          "bytes": 55386
         },
         {
-          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w1440.webp",
+          "src": "assets/optimized/402c9f0634cc2c39/notion-418229d219da80abb26dc57638c26f44-402c9f06-w1440.webp",
           "width": 1440,
           "height": 810,
-          "bytes": 112804
+          "bytes": 107014
         }
       ],
-      "default": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w1440.webp"
+      "default": "assets/optimized/402c9f0634cc2c39/notion-418229d219da80abb26dc57638c26f44-402c9f06-w1440.webp"
+    },
+    "assets/news/notion/notion-418229d219da80e8a539ebc2a1da2460-030f4d9f2ea0.jpg": {
+      "asset": "030f4d9f2ea0abed",
+      "originalBytes": 363748,
+      "width": 2048,
+      "height": 1536,
+      "variants": [
+        {
+          "src": "assets/optimized/030f4d9f2ea0abed/notion-418229d219da80e8a539ebc2a1da2460-030f4d9f-w480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 34916
+        },
+        {
+          "src": "assets/optimized/030f4d9f2ea0abed/notion-418229d219da80e8a539ebc2a1da2460-030f4d9f-w768.webp",
+          "width": 768,
+          "height": 576,
+          "bytes": 74188
+        },
+        {
+          "src": "assets/optimized/030f4d9f2ea0abed/notion-418229d219da80e8a539ebc2a1da2460-030f4d9f-w1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 195810
+        }
+      ],
+      "default": "assets/optimized/030f4d9f2ea0abed/notion-418229d219da80e8a539ebc2a1da2460-030f4d9f-w1440.webp"
     },
     "assets/platform-icons/apple-music.png": {
       "asset": "dfbcce2c96eda8d7",
@@ -2812,6 +2440,33 @@
       ],
       "default": "assets/optimized/f2300f6238a9222e/notion-414229d219da801b9118ced9daa3489d-f2300f62-w1440.webp"
     },
+    "assets/records/notion/record-418229d219da8091b4dff5ee8c316eec-402c9f0634cc.jpg": {
+      "asset": "402c9f0634cc2c39",
+      "originalBytes": 335596,
+      "width": 2144,
+      "height": 1206,
+      "variants": [
+        {
+          "src": "assets/optimized/402c9f0634cc2c39/notion-418229d219da80abb26dc57638c26f44-402c9f06-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 29562
+        },
+        {
+          "src": "assets/optimized/402c9f0634cc2c39/notion-418229d219da80abb26dc57638c26f44-402c9f06-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 55386
+        },
+        {
+          "src": "assets/optimized/402c9f0634cc2c39/notion-418229d219da80abb26dc57638c26f44-402c9f06-w1440.webp",
+          "width": 1440,
+          "height": 810,
+          "bytes": 107014
+        }
+      ],
+      "default": "assets/optimized/402c9f0634cc2c39/notion-418229d219da80abb26dc57638c26f44-402c9f06-w1440.webp"
+    },
     "assets/voting/apps/bigc.webp": {
       "asset": "27f361fbd4cf2415",
       "originalBytes": 667830,
@@ -3069,6 +2724,33 @@
         }
       ],
       "default": "assets/optimized/593d06a85356ec9e/bigc-earn-2-w1179.webp"
+    },
+    "assets/voting/guides/bigc-vote-flow-20261108.jpg": {
+      "asset": "c4187d171de40089",
+      "originalBytes": 143697,
+      "width": 800,
+      "height": 1536,
+      "variants": [
+        {
+          "src": "assets/optimized/c4187d171de40089/bigc-vote-flow-20261108-w480.webp",
+          "width": 480,
+          "height": 922,
+          "bytes": 46516
+        },
+        {
+          "src": "assets/optimized/c4187d171de40089/bigc-vote-flow-20261108-w768.webp",
+          "width": 768,
+          "height": 1475,
+          "bytes": 87664
+        },
+        {
+          "src": "assets/optimized/c4187d171de40089/bigc-vote-flow-20261108-w800.webp",
+          "width": 800,
+          "height": 1536,
+          "bytes": 92302
+        }
+      ],
+      "default": "assets/optimized/c4187d171de40089/bigc-vote-flow-20261108-w800.webp"
     },
     "assets/voting/guides/fancast-earn-1.jpg": {
       "asset": "ae8dda980832d153",
@@ -3880,6 +3562,33 @@
       ],
       "default": "assets/optimized/119a31f58026d3e0/mcountdown-score-w1440.webp"
     },
+    "assets/voting/music-shows-overview-20261108.jpg": {
+      "asset": "d2f28a18d2072c59",
+      "originalBytes": 491907,
+      "width": 987,
+      "height": 1536,
+      "variants": [
+        {
+          "src": "assets/optimized/d2f28a18d2072c59/music-shows-overview-20261108-w480.webp",
+          "width": 480,
+          "height": 747,
+          "bytes": 119706
+        },
+        {
+          "src": "assets/optimized/d2f28a18d2072c59/music-shows-overview-20261108-w768.webp",
+          "width": 768,
+          "height": 1195,
+          "bytes": 229990
+        },
+        {
+          "src": "assets/optimized/d2f28a18d2072c59/music-shows-overview-20261108-w987.webp",
+          "width": 987,
+          "height": 1536,
+          "bytes": 330634
+        }
+      ],
+      "default": "assets/optimized/d2f28a18d2072c59/music-shows-overview-20261108-w987.webp"
+    },
     "assets/voting/musicbank-score.png": {
       "asset": "062e5448fa2e96b6",
       "originalBytes": 196183,
@@ -4050,6 +3759,33 @@
         }
       ],
       "default": "assets/optimized/a422090f0c752a82/theshow-score-w1440.webp"
+    },
+    "assets/voting/vote-points-summary-20261108.jpg": {
+      "asset": "b439ba9dcc67dfcd",
+      "originalBytes": 561457,
+      "width": 1536,
+      "height": 1229,
+      "variants": [
+        {
+          "src": "assets/optimized/b439ba9dcc67dfcd/vote-points-summary-20261108-w480.webp",
+          "width": 480,
+          "height": 384,
+          "bytes": 70600
+        },
+        {
+          "src": "assets/optimized/b439ba9dcc67dfcd/vote-points-summary-20261108-w768.webp",
+          "width": 768,
+          "height": 614,
+          "bytes": 140492
+        },
+        {
+          "src": "assets/optimized/b439ba9dcc67dfcd/vote-points-summary-20261108-w1440.webp",
+          "width": 1440,
+          "height": 1152,
+          "bytes": 332934
+        }
+      ],
+      "default": "assets/optimized/b439ba9dcc67dfcd/vote-points-summary-20261108-w1440.webp"
     },
     "assets/voting/vote-points-summary.png": {
       "asset": "382ae2de996880aa",
@@ -6718,6 +6454,33 @@
       ],
       "default": "assets/optimized/1e27887afa79d81e/music-show-list-w1440.webp"
     },
+    "schedule/music-show-schedule-20261108.jpg": {
+      "asset": "a69dace3435614db",
+      "originalBytes": 381218,
+      "width": 1536,
+      "height": 1104,
+      "variants": [
+        {
+          "src": "assets/optimized/a69dace3435614db/music-show-schedule-20261108-w480.webp",
+          "width": 480,
+          "height": 345,
+          "bytes": 46238
+        },
+        {
+          "src": "assets/optimized/a69dace3435614db/music-show-schedule-20261108-w768.webp",
+          "width": 768,
+          "height": 552,
+          "bytes": 84176
+        },
+        {
+          "src": "assets/optimized/a69dace3435614db/music-show-schedule-20261108-w1440.webp",
+          "width": 1440,
+          "height": 1035,
+          "bytes": 187118
+        }
+      ],
+      "default": "assets/optimized/a69dace3435614db/music-show-schedule-20261108-w1440.webp"
+    },
     "schedule/music-show-schedule.png": {
       "asset": "862a50bf71112da5",
       "originalBytes": 1930593,
@@ -8011,6 +7774,36 @@
         1280
       ],
       "default": "assets/optimized/01213fb41fad9294/4h0se9m3iou-w768.webp"
+    },
+    "030f4d9f2ea0abed": {
+      "hash": "030f4d9f2ea0abed51f0814a026495f6295e43fff80dd00375738205aacd0fc0",
+      "width": 2048,
+      "height": 1536,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/030f4d9f2ea0abed/notion-418229d219da80e8a539ebc2a1da2460-030f4d9f-w480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 34916
+        },
+        {
+          "src": "assets/optimized/030f4d9f2ea0abed/notion-418229d219da80e8a539ebc2a1da2460-030f4d9f-w768.webp",
+          "width": 768,
+          "height": 576,
+          "bytes": 74188
+        },
+        {
+          "src": "assets/optimized/030f4d9f2ea0abed/notion-418229d219da80e8a539ebc2a1da2460-030f4d9f-w1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 195810
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/030f4d9f2ea0abed/notion-418229d219da80e8a539ebc2a1da2460-030f4d9f-w1440.webp"
     },
     "03aba94b0ad9801b": {
       "hash": "03aba94b0ad9801b9d01f1f17e70d2af0d2d724f0ee63399ba1fa5b382725077",
@@ -9417,6 +9210,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/3f905d88c0957653/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88-w1440.webp"
+    },
+    "402c9f0634cc2c39": {
+      "hash": "402c9f0634cc2c399e683eff21a16cd743d97b23ba44cd730798275ff1e6d59d",
+      "width": 2144,
+      "height": 1206,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/402c9f0634cc2c39/notion-418229d219da80abb26dc57638c26f44-402c9f06-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 29562
+        },
+        {
+          "src": "assets/optimized/402c9f0634cc2c39/notion-418229d219da80abb26dc57638c26f44-402c9f06-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 55386
+        },
+        {
+          "src": "assets/optimized/402c9f0634cc2c39/notion-418229d219da80abb26dc57638c26f44-402c9f06-w1440.webp",
+          "width": 1440,
+          "height": 810,
+          "bytes": 107014
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/402c9f0634cc2c39/notion-418229d219da80abb26dc57638c26f44-402c9f06-w1440.webp"
     },
     "4084253b26b5693b": {
       "hash": "4084253b26b5693bae8a22aa27eeee5f598165daae432b67958f62a6229c2026",
@@ -12152,6 +11975,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/a580e20cada9ca2f/pinball-w1440.webp"
     },
+    "a69dace3435614db": {
+      "hash": "a69dace3435614db25430f55775125f91aef2ff2522ebf7ad83c47cd9c96c379",
+      "width": 1536,
+      "height": 1104,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/a69dace3435614db/music-show-schedule-20261108-w480.webp",
+          "width": 480,
+          "height": 345,
+          "bytes": 46238
+        },
+        {
+          "src": "assets/optimized/a69dace3435614db/music-show-schedule-20261108-w768.webp",
+          "width": 768,
+          "height": 552,
+          "bytes": 84176
+        },
+        {
+          "src": "assets/optimized/a69dace3435614db/music-show-schedule-20261108-w1440.webp",
+          "width": 1440,
+          "height": 1035,
+          "bytes": 187118
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/a69dace3435614db/music-show-schedule-20261108-w1440.webp"
+    },
     "a6e0636b4a12daee": {
       "hash": "a6e0636b4a12daee9f93678ce80ee177312ec6ed3cf88684d72e44f4b57052fd",
       "width": 1179,
@@ -12518,6 +12371,36 @@
       "skippedWidths": [],
       "default": "assets/optimized/b3d23cc923724311/record-3a8229d219da807198e8fb7a1946e084-b3d23cc9-w1280.webp"
     },
+    "b439ba9dcc67dfcd": {
+      "hash": "b439ba9dcc67dfcdebaf60bcc6f80c36fc9b7569af10263bf719f88c6ad6592b",
+      "width": 1536,
+      "height": 1229,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/b439ba9dcc67dfcd/vote-points-summary-20261108-w480.webp",
+          "width": 480,
+          "height": 384,
+          "bytes": 70600
+        },
+        {
+          "src": "assets/optimized/b439ba9dcc67dfcd/vote-points-summary-20261108-w768.webp",
+          "width": 768,
+          "height": 614,
+          "bytes": 140492
+        },
+        {
+          "src": "assets/optimized/b439ba9dcc67dfcd/vote-points-summary-20261108-w1440.webp",
+          "width": 1440,
+          "height": 1152,
+          "bytes": 332934
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/b439ba9dcc67dfcd/vote-points-summary-20261108-w1440.webp"
+    },
     "bbf0b4e13886c3d8": {
       "hash": "bbf0b4e13886c3d8e5375866e2590aabbb4a15bdf359a1b07fa60ec4a49aec78",
       "width": 1200,
@@ -12733,6 +12616,36 @@
         512
       ],
       "default": "assets/optimized/c2fadba1767dd15c/muniverse-w480.webp"
+    },
+    "c4187d171de40089": {
+      "hash": "c4187d171de40089905280b2e95018cb1009f742597d19868ebe34b14402266b",
+      "width": 800,
+      "height": 1536,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/c4187d171de40089/bigc-vote-flow-20261108-w480.webp",
+          "width": 480,
+          "height": 922,
+          "bytes": 46516
+        },
+        {
+          "src": "assets/optimized/c4187d171de40089/bigc-vote-flow-20261108-w768.webp",
+          "width": 768,
+          "height": 1475,
+          "bytes": 87664
+        },
+        {
+          "src": "assets/optimized/c4187d171de40089/bigc-vote-flow-20261108-w800.webp",
+          "width": 800,
+          "height": 1536,
+          "bytes": 92302
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/c4187d171de40089/bigc-vote-flow-20261108-w800.webp"
     },
     "ca377427c398ec0a": {
       "hash": "ca377427c398ec0a779f0e51ef0493d2531de7c53b8df158dfac23c0540fd40a",
@@ -13029,6 +12942,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/d2dd3d0d18bab28d/bigc-earn-1-w1014.webp"
+    },
+    "d2f28a18d2072c59": {
+      "hash": "d2f28a18d2072c59aef8e0ae5a8ab2fb480d380f59c82b4bd7ca5cd3e4615d1f",
+      "width": 987,
+      "height": 1536,
+      "format": "jpg",
+      "alpha": false,
+      "quality": 84,
+      "variants": [
+        {
+          "src": "assets/optimized/d2f28a18d2072c59/music-shows-overview-20261108-w480.webp",
+          "width": 480,
+          "height": 747,
+          "bytes": 119706
+        },
+        {
+          "src": "assets/optimized/d2f28a18d2072c59/music-shows-overview-20261108-w768.webp",
+          "width": 768,
+          "height": 1195,
+          "bytes": 229990
+        },
+        {
+          "src": "assets/optimized/d2f28a18d2072c59/music-shows-overview-20261108-w987.webp",
+          "width": 987,
+          "height": 1536,
+          "bytes": 330634
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/d2f28a18d2072c59/music-shows-overview-20261108-w987.webp"
     },
     "d35442fd0de3063f": {
       "hash": "d35442fd0de3063f81e9e99bbdc51c6fe461231f29459b270c298b1b0a69db7f",
@@ -13397,36 +13340,6 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/e3dc347adb431eeb/notion-3ae229d219da805283b1d5fec5375c61-e3dc347a-w964.webp"
-    },
-    "e3f3e8628745854f": {
-      "hash": "e3f3e8628745854ff02d123e73aa1930be4155f91dbfd8ad9fea01d677738b49",
-      "width": 2144,
-      "height": 1206,
-      "format": "jpg",
-      "alpha": false,
-      "quality": 84,
-      "variants": [
-        {
-          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 31460
-        },
-        {
-          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 58824
-        },
-        {
-          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w1440.webp",
-          "width": 1440,
-          "height": 810,
-          "bytes": 112804
-        }
-      ],
-      "skippedWidths": [],
-      "default": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w1440.webp"
     },
     "e7d78b212458b9b9": {
       "hash": "e7d78b212458b9b90ffacd62fde98c7baaec75bb0266603052a2d44337877515",

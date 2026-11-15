@@ -1,6 +1,48 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-14T08:02:14.393114+00:00",
+  "generatedAt": "2026-11-15T02:28:40.633250+00:00",
   "items": [
+    {
+      "date": "2026-11-15",
+      "title": "fix: publish responsive awards layout and correct action checks",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "a99b37f",
+      "files": [
+        "css/common.css",
+        "data/image-manifest.json",
+        "scripts/check-requested-regressions.py",
+        "scripts/check-site-links.py",
+        "scripts/generate-pwa.py",
+        "scripts/optimize-images.py",
+        "service-worker.js"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "d103d25",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "title": "Add files via upload",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "7cd597e",
+      "files": [
+        ".github/workflows/finish-rescene-mobile-actions.yml"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "title": "feat: publish Notion-synced RESCENE awards page",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "78958f3",
+      "files": [
+        "data/seo-status.json"
+      ]
+    },
     {
       "date": "2026-11-14",
       "title": "chore: update external link report",
@@ -43,53 +85,37 @@ window.RESCENE_SITE_UPDATES = {
       ]
     },
     {
-      "date": "2026-11-13",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "9f9b687",
-      "files": [
-        "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "976c6f3",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "b3c6efa",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/seo-status.json"
-      ]
-    },
-    {
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "af6f2e7",
+      "commit": "440fc4f",
       "files": [
         "data/youtube-channels.json"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Update voting guide images and remove missing MV labels",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "0ddcbf5",
+      "files": [
+        "assets/voting/guides/bigc-vote-flow-20261108.jpg",
+        "assets/voting/music-shows-overview-20261108.jpg",
+        "assets/voting/vote-points-summary-20261108.jpg",
+        "data/voting-guide-data.js",
+        "data/voting-guide.json",
+        "js/voting.js",
+        "melon-records.html",
+        "schedule.html"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Add files via upload",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "bbca67a",
+      "files": [
+        ".github/workflows/fix-rescene-awards.yml"
       ]
     },
     {
