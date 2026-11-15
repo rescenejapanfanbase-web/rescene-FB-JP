@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-15T15:37:16.314426+00:00",
+  "generatedAt": "2026-11-15T19:42:36.941199+00:00",
   "items": [
     {
       "date": "2026-11-15",
@@ -20,7 +20,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-15",
       "title": "feat: publish Notion-synced RESCENE awards page",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "6d5f65c",
+      "commit": "dd344a0",
       "files": [
         "articles/2026-0c5361a8a6.html",
         "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
@@ -43,6 +43,22 @@ window.RESCENE_SITE_UPDATES = {
     },
     {
       "date": "2026-11-15",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "37316f8",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "articles/2026-0c5361a8a6.html",
+        "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
+        "articles/2026-kgma-4-76cbf9c655.html",
+        "articles/2026-kwda-2-7f1dbcd366.html",
+        "articles/2026-mama-awards-caaa5f7b37.html",
+        "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html",
+        "articles/2026-sbs-f6b8857108.html"
+      ]
+    },
+    {
+      "date": "2026-11-15",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "2604b25",
@@ -61,7 +77,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-15",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "4851c59",
+      "commit": "f7c2ddd",
       "files": [
         "data/youtube-channels.json"
       ]
@@ -91,15 +107,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "440fc4f",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "title": "Add files via upload",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "bbca67a",
-      "files": [
-        ".github/workflows/fix-rescene-awards.yml"
       ]
     },
     {
