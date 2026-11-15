@@ -62,6 +62,8 @@ def iter_sources() -> Iterable[Path]:
         if not path.is_file() or path.suffix.lower() not in IMAGE_EXTENSIONS:
             continue
         rel = path.relative_to(ROOT)
+        if rel.parts and rel.parts[0].startswith("RESCENE_FB_"):
+            continue  # Uploaded patch package, not deployed website imagery
         if any(part in EXCLUDED_PARTS for part in rel.parts):
             continue
         if rel.parts[:2] in {("assets", "optimized"), ("assets", "ogp")} :

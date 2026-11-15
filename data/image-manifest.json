@@ -2812,33 +2812,6 @@
       ],
       "default": "assets/optimized/f2300f6238a9222e/notion-414229d219da801b9118ced9daa3489d-f2300f62-w1440.webp"
     },
-    "assets/records/notion/record-418229d219da8091b4dff5ee8c316eec-e3f3e8628745.jpg": {
-      "asset": "e3f3e8628745854f",
-      "originalBytes": 349590,
-      "width": 2144,
-      "height": 1206,
-      "variants": [
-        {
-          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 31460
-        },
-        {
-          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 58824
-        },
-        {
-          "src": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w1440.webp",
-          "width": 1440,
-          "height": 810,
-          "bytes": 112804
-        }
-      ],
-      "default": "assets/optimized/e3f3e8628745854f/notion-418229d219da80abb26dc57638c26f44-e3f3e862-w1440.webp"
-    },
     "assets/voting/apps/bigc.webp": {
       "asset": "27f361fbd4cf2415",
       "originalBytes": 667830,

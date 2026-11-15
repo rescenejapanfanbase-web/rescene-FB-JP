@@ -2126,3 +2126,62 @@ body.page-melon-records .melon-sort-select:focus-visible{border-color:var(--memb
 body.page-melon-records .melon-record-card{transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
 body.page-melon-records .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 @media(max-width:720px){body.page-melon-records .melon-sort-toolbar{align-items:stretch;flex-direction:column;gap:11px;padding:14px}body.page-melon-records .melon-sort-field{flex-basis:auto;width:100%}body.page-melon-records .melon-sort-select{min-height:46px;font-size:.7rem}}
+
+
+/* AWARDS — RESCENE JAPAN FANBASE */
+.awards-category-visual{display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 45% 40%,#76547c 0%,#3a2e45 54%,#211b30 100%);min-height:190px;position:relative}
+.awards-category-visual svg{width:145px;height:auto;filter:drop-shadow(0 10px 18px rgba(0,0,0,.35))}
+.award-filter-row{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 28px}
+.awards-year-group{margin-bottom:38px}.awards-year{font-size:1.65rem;letter-spacing:.04em;margin:12px 0 16px}.awards-year small{font-size:.9rem;margin-left:.3em;font-weight:400;opacity:.66}
+.awards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:16px}
+.award-entry{overflow:hidden;padding:0;display:flex;flex-direction:column}
+.award-photo{max-height:240px;overflow:hidden}.award-photo img{width:100%;height:100%;max-height:240px;object-fit:cover;display:block}
+.award-copy{padding:20px;display:flex;flex-direction:column;gap:9px;flex:1}
+.award-meta{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:.81rem;opacity:.9}
+.award-status{border-radius:999px;padding:5px 11px;font-size:.75rem;font-weight:700;display:inline-block;background:rgba(118,135,170,.18)}
+.award-status.is-won{background:rgba(220,174,73,.20);color:#e8bb65}
+.light-mode .award-status.is-won{color:#835900}
+.award-ceremony{font-size:.83rem;opacity:.72;margin:0}
+.award-copy h3{font-size:1.22rem;line-height:1.5;margin:0}
+.award-recipient,.award-desc{font-size:.88rem;line-height:1.7;margin:0;opacity:.82}
+.award-source{font-size:.86rem;margin-top:auto;padding-top:8px;display:inline-block}
+@media(max-width:719px){.awards-grid{grid-template-columns:1fr}.award-copy{padding:17px}.awards-year{font-size:1.45rem}}
+
+
+
+/* RESCENE AWARDS RESPONSIVE REPAIR 2026-11-15 */
+body.page-awards .page-header h1{overflow-wrap:anywhere;line-height:1.23}
+body.page-awards .record-overview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:24px}
+body.page-awards .record-stat{display:flex;min-width:0;min-height:128px;flex-direction:column;justify-content:space-between;padding:19px;overflow:hidden}
+body.page-awards .record-stat small{display:block;color:var(--muted);font-size:.65rem;font-weight:800;letter-spacing:.05em;overflow-wrap:anywhere}
+body.page-awards .record-stat strong{display:block;margin-top:12px;color:var(--text);font-size:clamp(1.55rem,3.7vw,2.3rem);line-height:1.1;font-family:'Montserrat','Noto Sans JP',sans-serif}
+body.page-awards .record-stat span{display:block;margin-top:9px;color:var(--muted);font-size:.72rem;line-height:1.55;overflow-wrap:anywhere}
+body.page-awards .awards-year-group,body.page-awards .awards-grid,body.page-awards .award-entry,body.page-awards .award-copy{min-width:0;max-width:100%;box-sizing:border-box}
+body.page-awards .awards-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+body.page-awards .award-entry{display:flex;flex-direction:column;padding:0;overflow:hidden}
+body.page-awards .award-copy{display:flex;flex:1;flex-direction:column;gap:9px;padding:19px;overflow-wrap:anywhere;word-break:normal}
+body.page-awards .award-copy h3,body.page-awards .award-ceremony,body.page-awards .award-recipient,body.page-awards .award-desc,body.page-awards .award-source{max-width:100%;overflow-wrap:anywhere}
+body.page-awards .award-photo{width:100%;max-width:100%;overflow:hidden;max-height:240px}
+body.page-awards .award-photo img{display:block;width:100%;height:auto;max-height:240px;object-fit:cover}
+body.page-awards .award-filter-row{display:flex;flex-wrap:wrap;gap:9px}
+body.page-awards .record-related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+body.page-awards .record-related-card{display:flex;min-width:0;flex-direction:column;gap:7px;padding:18px;text-decoration:none;overflow-wrap:anywhere}
+body.page-awards .record-related-card small{color:var(--pink);font-size:.65rem;font-weight:800}
+body.page-awards .record-related-card strong{font-size:.93rem}
+body.page-awards .record-related-card span{margin-top:auto;color:var(--muted);font-size:.73rem;line-height:1.55}
+@media(max-width:900px){body.page-awards .record-overview{grid-template-columns:repeat(2,minmax(0,1fr))}body.page-awards .record-related-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){
+  body.page-awards .container{width:min(92%,1120px)}
+  body.page-awards .page-header{padding:21px 17px;border-radius:20px}
+  body.page-awards .page-header h1{font-size:clamp(1.65rem,7vw,2.25rem)}
+  body.page-awards .record-overview{grid-template-columns:1fr;gap:10px;margin-top:20px}
+  body.page-awards .record-stat{min-height:85px;padding:15px 17px}
+  body.page-awards .record-stat strong{font-size:1.95rem;margin-top:8px}
+  body.page-awards .awards-grid,body.page-awards .record-related-grid{grid-template-columns:minmax(0,1fr);gap:12px}
+  body.page-awards .award-entry{width:100%;min-width:0}
+  body.page-awards .award-copy{padding:16px}
+  body.page-awards .award-copy h3{font-size:1.08rem;line-height:1.5}
+  body.page-awards .award-ceremony{font-size:.81rem;line-height:1.6}
+  body.page-awards .award-filter-row .filter{flex:1 1 auto;min-height:40px;white-space:normal;text-align:center}
+  body.page-awards .record-related-card{padding:17px}
+}

@@ -26,6 +26,7 @@ IGNORED_FILES = {
 # links. Actual href/src references are still checked in the page that renders
 # this data.
 NON_REFERENCE_DATA_FILES = {
+    Path("data/image-manifest.json"),  # regenerated cache of image source names, not browser links
     Path("data/site-updates.json"),
     Path("data/site-updates-data.js"),
     # External-link checker output stores source filenames such as

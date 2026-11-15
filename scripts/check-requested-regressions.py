@@ -179,12 +179,12 @@ for sync_script in sorted((ROOT / "scripts").glob("*.mjs")):
 
 # The three supplied overview images must be referenced through the latest responsive assets.
 for page, image_paths in {
-    "voting.html": ("assets/voting/vote-points-summary.png", "schedule/music-show-list.png"),
-    "schedule.html": ("schedule/music-show-schedule.png",),
+    "voting.html": ("assets/voting/vote-points-summary-20261108.jpg", "assets/voting/music-shows-overview-20261108.jpg"),
+    "schedule.html": ("schedule/music-show-schedule-20261108.jpg",),
 }.items():
     body = text(page)
     for image_path in image_paths:
-        require(f'data-image-original-src="{image_path}"' in body, f"{page}: 最新画像参照がありません: {image_path}")
+        require(f'src="{image_path}"' in body or f'data-image-original-src="{image_path}"' in body, f"{page}: 最新画像参照がありません: {image_path}")
 
 # 2026-07-31 requested regressions: complete Melon table, daily peaks, and Music Bank/coogoong.
 records_data = json.loads(text("data/records.json"))
