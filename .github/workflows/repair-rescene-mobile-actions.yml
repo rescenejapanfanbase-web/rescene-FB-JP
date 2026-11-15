@@ -1,0 +1,210 @@
+name: Repair RESCENE Awards Mobile Layout and Action Checks
+
+on:
+  push:
+    paths:
+      - '.github/workflows/repair-rescene-mobile-actions.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-content-write
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      - name: Install validation dependencies
+        run: python -m pip install --disable-pip-version-check pillow pillow-heif PyYAML
+
+      - name: Fix responsive awards CSS and stale Actions checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          #!/usr/bin/env python3
+          """Repairs award page styling and stale site checks without changing Notion data."""
+          from pathlib import Path
+          import json
+
+          root = Path.cwd()
+
+          def update(path, old, new):
+              file = root / path
+              source = file.read_text(encoding='utf-8')
+              if new in source:
+                  print(f'Already patched: {path}')
+                  return
+              if source.count(old) != 1:
+                  raise SystemExit(f'Unexpected source in {path}: expected 1 exact marker, found {source.count(old)}')
+              file.write_text(source.replace(old, new, 1), encoding='utf-8')
+              print(f'Updated {path}')
+
+          # The installer wrote the awards component CSS to /common.css, while pages load
+          # /css/common.css. Copy only the self-contained awards component, not the whole
+          # outdated root stylesheet.
+          marker = '/* AWARDS — RESCENE JAPAN FANBASE */'
+          root_css = (root / 'common.css').read_text(encoding='utf-8')
+          if root_css.count(marker) != 1:
+              raise SystemExit('Cannot locate awards component styles in root common.css')
+          component_css = marker + root_css.split(marker, 1)[1]
+          css_file = root / 'css/common.css'
+          css = css_file.read_text(encoding='utf-8')
+          if marker not in css:
+              css += '\n\n' + component_css + '\n'
+              print('Moved the awards component CSS into css/common.css')
+
+          mobile_marker = '/* RESCENE AWARDS RESPONSIVE REPAIR 2026-11-15 */'
+          mobile_css = r'''/* RESCENE AWARDS RESPONSIVE REPAIR 2026-11-15 */
+          body.page-awards .page-header h1{overflow-wrap:anywhere;line-height:1.23}
+          body.page-awards .record-overview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:24px}
+          body.page-awards .record-stat{display:flex;min-width:0;min-height:128px;flex-direction:column;justify-content:space-between;padding:19px;overflow:hidden}
+          body.page-awards .record-stat small{display:block;color:var(--muted);font-size:.65rem;font-weight:800;letter-spacing:.05em;overflow-wrap:anywhere}
+          body.page-awards .record-stat strong{display:block;margin-top:12px;color:var(--text);font-size:clamp(1.55rem,3.7vw,2.3rem);line-height:1.1;font-family:'Montserrat','Noto Sans JP',sans-serif}
+          body.page-awards .record-stat span{display:block;margin-top:9px;color:var(--muted);font-size:.72rem;line-height:1.55;overflow-wrap:anywhere}
+          body.page-awards .awards-year-group,body.page-awards .awards-grid,body.page-awards .award-entry,body.page-awards .award-copy{min-width:0;max-width:100%;box-sizing:border-box}
+          body.page-awards .awards-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+          body.page-awards .award-entry{display:flex;flex-direction:column;padding:0;overflow:hidden}
+          body.page-awards .award-copy{display:flex;flex:1;flex-direction:column;gap:9px;padding:19px;overflow-wrap:anywhere;word-break:normal}
+          body.page-awards .award-copy h3,body.page-awards .award-ceremony,body.page-awards .award-recipient,body.page-awards .award-desc,body.page-awards .award-source{max-width:100%;overflow-wrap:anywhere}
+          body.page-awards .award-photo{width:100%;max-width:100%;overflow:hidden;max-height:240px}
+          body.page-awards .award-photo img{display:block;width:100%;height:auto;max-height:240px;object-fit:cover}
+          body.page-awards .award-filter-row{display:flex;flex-wrap:wrap;gap:9px}
+          body.page-awards .record-related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+          body.page-awards .record-related-card{display:flex;min-width:0;flex-direction:column;gap:7px;padding:18px;text-decoration:none;overflow-wrap:anywhere}
+          body.page-awards .record-related-card small{color:var(--pink);font-size:.65rem;font-weight:800}
+          body.page-awards .record-related-card strong{font-size:.93rem}
+          body.page-awards .record-related-card span{margin-top:auto;color:var(--muted);font-size:.73rem;line-height:1.55}
+          @media(max-width:900px){body.page-awards .record-overview{grid-template-columns:repeat(2,minmax(0,1fr))}body.page-awards .record-related-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+          @media(max-width:680px){
+            body.page-awards .container{width:min(92%,1120px)}
+            body.page-awards .page-header{padding:21px 17px;border-radius:20px}
+            body.page-awards .page-header h1{font-size:clamp(1.65rem,7vw,2.25rem)}
+            body.page-awards .record-overview{grid-template-columns:1fr;gap:10px;margin-top:20px}
+            body.page-awards .record-stat{min-height:85px;padding:15px 17px}
+            body.page-awards .record-stat strong{font-size:1.95rem;margin-top:8px}
+            body.page-awards .awards-grid,body.page-awards .record-related-grid{grid-template-columns:minmax(0,1fr);gap:12px}
+            body.page-awards .award-entry{width:100%;min-width:0}
+            body.page-awards .award-copy{padding:16px}
+            body.page-awards .award-copy h3{font-size:1.08rem;line-height:1.5}
+            body.page-awards .award-ceremony{font-size:.81rem;line-height:1.6}
+            body.page-awards .award-filter-row .filter{flex:1 1 auto;min-height:40px;white-space:normal;text-align:center}
+            body.page-awards .record-related-card{padding:17px}
+          }
+          '''
+          if mobile_marker not in css:
+              css += '\n\n' + mobile_css + '\n'
+              print('Added scoped responsive rules for the awards page')
+          css_file.write_text(css, encoding='utf-8')
+
+          # Older tests still expect the PNGs replaced in the user's November 2026 update.
+          regression = 'scripts/check-requested-regressions.py'
+          update(regression,
+                 '"voting.html": ("assets/voting/vote-points-summary.png", "schedule/music-show-list.png"),',
+                 '"voting.html": ("assets/voting/vote-points-summary-20261108.jpg", "assets/voting/music-shows-overview-20261108.jpg"),')
+          update(regression,
+                 '"schedule.html": ("schedule/music-show-schedule.png",),',
+                 '"schedule.html": ("schedule/music-show-schedule-20261108.jpg",),')
+          update(regression,
+                 'require(f\'data-image-original-src="{image_path}"\' in body, f"{page}: 最新画像参照がありません: {image_path}")',
+                 'require(f\'src="{image_path}"\' in body or f\'data-image-original-src="{image_path}"\' in body, f"{page}: 最新画像参照がありません: {image_path}")')
+
+          # The image optimizer's generated cache lists original source paths, including
+          # files later rotated out by Notion. Those paths are not live browser references.
+          # Keep strict checking of all real HTML, CSS, JS, and site data links.
+          checker = 'scripts/check-site-links.py'
+          update(checker,
+                 'NON_REFERENCE_DATA_FILES = {\n',
+                 'NON_REFERENCE_DATA_FILES = {\n    Path("data/image-manifest.json"),  # regenerated cache of image source names, not browser links\n')
+
+          # Prevent the old uploaded installer bundle from being treated as site imagery
+          # during future optimization runs (its folder name is URL encoded on GitHub).
+          optimizer = 'scripts/optimize-images.py'
+          update(optimizer,
+                 '        rel = path.relative_to(ROOT)\n        if any(part in EXCLUDED_PARTS for part in rel.parts):',
+                 '        rel = path.relative_to(ROOT)\n        if rel.parts and rel.parts[0].startswith("RESCENE_FB_"):\n            continue  # Uploaded patch package, not deployed website imagery\n        if any(part in EXCLUDED_PARTS for part in rel.parts):')
+
+          # Include the new awards page in the app cache, and refresh the service
+          # worker fingerprint when the actual CSS is deployed. This prevents mobile
+          # PWA installs from continuing to show an old cached stylesheet.
+          pwa_script = 'scripts/generate-pwa.py'
+          update(pwa_script,
+                 "'/music-show-wins.html','/melon-records.html'",
+                 "'/music-show-wins.html','/awards.html','/melon-records.html'")
+          update(pwa_script,
+                 "'/js/melon-records.js','/js/korean-charts.js'",
+                 "'/js/melon-records.js','/js/awards.js','/js/korean-charts.js'")
+
+          # Prune stale image optimizer *source* entries; leave optimized derivatives
+          # untouched. This prevents other tooling from consuming nonexistent sources.
+          manifest_file = root / 'data/image-manifest.json'
+          if manifest_file.exists():
+              manifest = json.loads(manifest_file.read_text(encoding='utf-8'))
+              images = manifest.get('images', {})
+              if isinstance(images, dict):
+                  stale = [name for name in images if name.startswith('RESCENE_FB_') or not (root / name).is_file()]
+                  for name in stale:
+                      images.pop(name, None)
+                  if stale:
+                      manifest_file.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+                  print(f'Pruned {len(stale)} stale generated image manifest source entries')
+
+          # Do not modify /awards.html, the Notion database, or generated record data here.
+          for page in ('awards.html', 'voting.html', 'schedule.html'):
+              assert (root / page).exists(), page
+          assert (root / 'css/common.css').read_text(encoding='utf-8').count(mobile_marker) == 1
+          print('RESCENE responsive and Actions check repair prepared successfully.')
+          PY
+
+      - name: Validate the repaired site
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/generate-pwa.py
+          python scripts/check-site-links.py
+          python scripts/check-requested-regressions.py
+          python scripts/sync-site-shell.py --check
+          node --check js/awards.js
+          git diff --check
+
+      - name: Commit site repair
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- \
+            css/common.css \
+            scripts/check-requested-regressions.py \
+            scripts/check-site-links.py \
+            scripts/optimize-images.py \
+            data/image-manifest.json \
+            scripts/generate-pwa.py \
+            service-worker.js
+          if git diff --cached --quiet; then
+            echo 'All repairs are already applied.'
+            exit 0
+          fi
+          git commit -m 'fix: make RESCENE awards mobile-friendly and repair site checks'
+          git push origin HEAD:main
