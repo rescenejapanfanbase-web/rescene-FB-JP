@@ -1,0 +1,99 @@
+name: Finish RESCENE Awards Mobile and Actions Repair
+
+on:
+  push:
+    paths:
+      - '.github/workflows/finish-rescene-mobile-actions.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-content-write
+  cancel-in-progress: false
+
+jobs:
+  finish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout the latest main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      - name: Install validation tools
+        run: python -m pip install --disable-pip-version-check pillow pillow-heif PyYAML
+
+      - name: Apply the existing repair and fix the trailing blank line
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+          import yaml
+
+          original = Path('.github/workflows/repair-rescene-mobile-actions.yml')
+          if not original.is_file():
+              raise SystemExit('Missing original responsive repair workflow')
+          document = yaml.safe_load(original.read_text(encoding='utf-8'))
+          steps = document['jobs']['repair']['steps']
+          matches = [step for step in steps if step.get('name') == 'Fix responsive awards CSS and stale Actions checks']
+          if len(matches) != 1 or not matches[0].get('run'):
+              raise SystemExit('Cannot identify original repair script safely')
+          print('Applying original repairs...', flush=True)
+          subprocess.run(['bash', '-e', '-o', 'pipefail', '-c', matches[0]['run']], check=True)
+
+          # Previous workflow failed only because this generated CSS ended
+          # with an extra blank line. Preserve its rules; normalize EOF.
+          stylesheet = Path('css/common.css')
+          text = stylesheet.read_text(encoding='utf-8')
+          stylesheet.write_text(text.rstrip() + '\n', encoding='utf-8')
+          print('CSS trailing blank line corrected', flush=True)
+          PY
+
+      - name: Verify the complete repair
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/generate-pwa.py
+          python scripts/check-site-links.py
+          python scripts/check-requested-regressions.py
+          python scripts/sync-site-shell.py --check
+          node --check js/awards.js
+          git diff --check
+
+      - name: Publish the corrected CSS and site checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- \
+            css/common.css \
+            scripts/check-requested-regressions.py \
+            scripts/check-site-links.py \
+            scripts/optimize-images.py \
+            data/image-manifest.json \
+            scripts/generate-pwa.py \
+            service-worker.js
+          if git diff --cached --quiet; then
+            echo 'The mobile and Actions repairs are already published.'
+            exit 0
+          fi
+          git commit -m 'fix: publish responsive awards layout and correct action checks'
+          git push origin HEAD:main
