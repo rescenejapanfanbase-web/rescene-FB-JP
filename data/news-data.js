@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "with-4-1-10fc9578be",
+    "date": "2026.11.15",
+    "category": "notice",
+    "categoryName": "記録",
+    "label": "10th WIN",
+    "title": "「With」で4度目の1位を獲得！",
+    "text": "2026年11月15日放送のSBS「人気歌謡」で、「With」で4度目の1位を獲得しました。",
+    "body": "2026年11月15日放送のSBS「人気歌謡」で、「With」で4度目の1位を獲得しました。\n「With」では通算4冠目、グループとして通算10冠目となりました。",
+    "image": "assets/news/notion/notion-419229d219da803ab26bca10fc9578be-c9901004ba52.jpg",
+    "sourceLink": "",
+    "sourceLabel": "",
+    "translations": {},
+    "notionPageId": "419229d2-19da-803a-b26b-ca10fc9578be",
+    "notionUrl": "https://app.notion.com/p/With-4-1-419229d219da803ab26bca10fc9578be"
+  },
+  {
     "slug": "with-3-1-7638c26f44",
     "date": "2026.11.14",
     "category": "notice",

@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-11-15T03:13:55.779Z",
+  "generatedAt": "2026-11-15T08:13:59.046Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -129,6 +129,20 @@ window.RESCENE_RECORDS = {
       "translations": {},
       "notionPageId": "418229d2-19da-8091-b4df-f5ee8c316eec",
       "notionUrl": "https://app.notion.com/p/2026-11-14-With-SHOW-418229d219da8091b4dff5ee8c316eec"
+    },
+    {
+      "title": "2026.11.15 With — 人気歌謡",
+      "song": "With",
+      "date": "2026-11-15",
+      "program": "人気歌謡",
+      "description": "2026年11月15日放送の人気歌謡にてWithで4冠目の1位を獲得。グループ通算10冠目。",
+      "videoUrl": "",
+      "videoLabel": "",
+      "image": "assets/records/notion/record-419229d219da80858cfad35d258f007a-c9901004ba52.jpg",
+      "order": 9999,
+      "translations": {},
+      "notionPageId": "419229d2-19da-8085-8cfa-d35d258f007a",
+      "notionUrl": "https://app.notion.com/p/2026-11-15-With-419229d219da80858cfad35d258f007a"
     }
   ],
   "melonRecords": [
