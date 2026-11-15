@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-11-15T02:28:49Z",
+  "generatedAt": "2026-11-15T03:14:23Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/chants/notion/insideout.png": {
@@ -880,6 +880,363 @@
       ],
       "default": "assets/optimized/e949e2acbd295367/uhuh-w1280.webp"
     },
+    "assets/mv/youtube/0ifssWwxVhc.jpg": {
+      "asset": "1d7d8bd6090a5e96",
+      "originalBytes": 86486,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/1d7d8bd6090a5e96/0ifsswwxvhc-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 26736
+        },
+        {
+          "src": "assets/optimized/1d7d8bd6090a5e96/0ifsswwxvhc-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 54192
+        }
+      ],
+      "default": "assets/optimized/1d7d8bd6090a5e96/0ifsswwxvhc-w768.webp"
+    },
+    "assets/mv/youtube/4h0SE9m3IoU.jpg": {
+      "asset": "01213fb41fad9294",
+      "originalBytes": 25488,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/01213fb41fad9294/4h0se9m3iou-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 10266
+        },
+        {
+          "src": "assets/optimized/01213fb41fad9294/4h0se9m3iou-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 18064
+        }
+      ],
+      "default": "assets/optimized/01213fb41fad9294/4h0se9m3iou-w768.webp"
+    },
+    "assets/mv/youtube/638f3ttCR20.jpg": {
+      "asset": "ac1da45f240557b4",
+      "originalBytes": 65210,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/ac1da45f240557b4/638f3ttcr20-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 22968
+        },
+        {
+          "src": "assets/optimized/ac1da45f240557b4/638f3ttcr20-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 42990
+        }
+      ],
+      "default": "assets/optimized/ac1da45f240557b4/638f3ttcr20-w768.webp"
+    },
+    "assets/mv/youtube/6tTsZnKysBc.jpg": {
+      "asset": "9be43c500015e87b",
+      "originalBytes": 55412,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/9be43c500015e87b/6ttsznkysbc-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 19484
+        },
+        {
+          "src": "assets/optimized/9be43c500015e87b/6ttsznkysbc-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 36436
+        }
+      ],
+      "default": "assets/optimized/9be43c500015e87b/6ttsznkysbc-w768.webp"
+    },
+    "assets/mv/youtube/Gu_4J16N2fY.jpg": {
+      "asset": "d80d755a6ce54b21",
+      "originalBytes": 40160,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/d80d755a6ce54b21/gu_4j16n2fy-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 14708
+        },
+        {
+          "src": "assets/optimized/d80d755a6ce54b21/gu_4j16n2fy-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 26574
+        }
+      ],
+      "default": "assets/optimized/d80d755a6ce54b21/gu_4j16n2fy-w768.webp"
+    },
+    "assets/mv/youtube/QN7V87Hzmr8.jpg": {
+      "asset": "06d228a3ff0a0329",
+      "originalBytes": 59872,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/06d228a3ff0a0329/qn7v87hzmr8-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 28522
+        },
+        {
+          "src": "assets/optimized/06d228a3ff0a0329/qn7v87hzmr8-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 48746
+        }
+      ],
+      "default": "assets/optimized/06d228a3ff0a0329/qn7v87hzmr8-w768.webp"
+    },
+    "assets/mv/youtube/WNl67k6StWY.jpg": {
+      "asset": "222523db69c7fbbb",
+      "originalBytes": 107330,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/222523db69c7fbbb/wnl67k6stwy-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 38472
+        },
+        {
+          "src": "assets/optimized/222523db69c7fbbb/wnl67k6stwy-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 73932
+        }
+      ],
+      "default": "assets/optimized/222523db69c7fbbb/wnl67k6stwy-w768.webp"
+    },
+    "assets/mv/youtube/WQuoPINWLU8.jpg": {
+      "asset": "15e9c2470a88e592",
+      "originalBytes": 23118,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/15e9c2470a88e592/wquopinwlu8-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 12358
+        },
+        {
+          "src": "assets/optimized/15e9c2470a88e592/wquopinwlu8-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 21826
+        }
+      ],
+      "default": "assets/optimized/15e9c2470a88e592/wquopinwlu8-w768.webp"
+    },
+    "assets/mv/youtube/Wm1vxMk5YTY.jpg": {
+      "asset": "d12680a96965a2e2",
+      "originalBytes": 68644,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/d12680a96965a2e2/wm1vxmk5yty-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 27234
+        },
+        {
+          "src": "assets/optimized/d12680a96965a2e2/wm1vxmk5yty-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 48726
+        }
+      ],
+      "default": "assets/optimized/d12680a96965a2e2/wm1vxmk5yty-w768.webp"
+    },
+    "assets/mv/youtube/_zzAi5x0cXc.jpg": {
+      "asset": "c16b2783ba56c6ba",
+      "originalBytes": 85698,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/c16b2783ba56c6ba/_zzai5x0cxc-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 24552
+        },
+        {
+          "src": "assets/optimized/c16b2783ba56c6ba/_zzai5x0cxc-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 51014
+        }
+      ],
+      "default": "assets/optimized/c16b2783ba56c6ba/_zzai5x0cxc-w768.webp"
+    },
+    "assets/mv/youtube/bhgNiT3qQgU.jpg": {
+      "asset": "f3a2857a43dc9a7f",
+      "originalBytes": 67968,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/f3a2857a43dc9a7f/bhgnit3qqgu-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 28446
+        },
+        {
+          "src": "assets/optimized/f3a2857a43dc9a7f/bhgnit3qqgu-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 52248
+        }
+      ],
+      "default": "assets/optimized/f3a2857a43dc9a7f/bhgnit3qqgu-w768.webp"
+    },
+    "assets/mv/youtube/bnhoSYv7ehY.jpg": {
+      "asset": "3e585ce6126f67f2",
+      "originalBytes": 91674,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/3e585ce6126f67f2/bnhosyv7ehy-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 29606
+        },
+        {
+          "src": "assets/optimized/3e585ce6126f67f2/bnhosyv7ehy-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 60580
+        }
+      ],
+      "default": "assets/optimized/3e585ce6126f67f2/bnhosyv7ehy-w768.webp"
+    },
+    "assets/mv/youtube/d64dH8mnw9Q.jpg": {
+      "asset": "b066e4117f21757e",
+      "originalBytes": 50504,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/b066e4117f21757e/d64dh8mnw9q-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 14936
+        },
+        {
+          "src": "assets/optimized/b066e4117f21757e/d64dh8mnw9q-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 28418
+        }
+      ],
+      "default": "assets/optimized/b066e4117f21757e/d64dh8mnw9q-w768.webp"
+    },
+    "assets/mv/youtube/dvX4jNqqlS4.jpg": {
+      "asset": "fcf58f78944dc729",
+      "originalBytes": 47096,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/fcf58f78944dc729/dvx4jnqqls4-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 19532
+        },
+        {
+          "src": "assets/optimized/fcf58f78944dc729/dvx4jnqqls4-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 34058
+        }
+      ],
+      "default": "assets/optimized/fcf58f78944dc729/dvx4jnqqls4-w768.webp"
+    },
+    "assets/mv/youtube/j3mzATw-EOQ.jpg": {
+      "asset": "afa949cde6dae384",
+      "originalBytes": 49682,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/afa949cde6dae384/j3mzatw-eoq-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 16058
+        },
+        {
+          "src": "assets/optimized/afa949cde6dae384/j3mzatw-eoq-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 32140
+        }
+      ],
+      "default": "assets/optimized/afa949cde6dae384/j3mzatw-eoq-w768.webp"
+    },
+    "assets/mv/youtube/mMnImayua0U.jpg": {
+      "asset": "1993679a2184d7ba",
+      "originalBytes": 81362,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/1993679a2184d7ba/mmnimayua0u-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 24548
+        },
+        {
+          "src": "assets/optimized/1993679a2184d7ba/mmnimayua0u-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 47720
+        }
+      ],
+      "default": "assets/optimized/1993679a2184d7ba/mmnimayua0u-w768.webp"
+    },
+    "assets/mv/youtube/ou2Y2vGKCyY.jpg": {
+      "asset": "703e7507f9e9bc11",
+      "originalBytes": 47442,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/703e7507f9e9bc11/ou2y2vgkcyy-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 17144
+        },
+        {
+          "src": "assets/optimized/703e7507f9e9bc11/ou2y2vgkcyy-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 31036
+        }
+      ],
+      "default": "assets/optimized/703e7507f9e9bc11/ou2y2vgkcyy-w768.webp"
+    },
     "assets/mv/youtube/pey3E47eSc8.jpg": {
       "asset": "77e12c519052606f",
       "originalBytes": 60376,
@@ -900,6 +1257,48 @@
         }
       ],
       "default": "assets/optimized/77e12c519052606f/pey3e47esc8-w768.webp"
+    },
+    "assets/mv/youtube/tGxv4kiPqec.jpg": {
+      "asset": "a4a3195fa02d990a",
+      "originalBytes": 53960,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/a4a3195fa02d990a/tgxv4kipqec-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 19256
+        },
+        {
+          "src": "assets/optimized/a4a3195fa02d990a/tgxv4kipqec-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 36380
+        }
+      ],
+      "default": "assets/optimized/a4a3195fa02d990a/tgxv4kipqec-w768.webp"
+    },
+    "assets/mv/youtube/yAZUO4KqH6s.jpg": {
+      "asset": "627d9c6c0e8f1737",
+      "originalBytes": 95152,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/optimized/627d9c6c0e8f1737/yazuo4kqh6s-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 31146
+        },
+        {
+          "src": "assets/optimized/627d9c6c0e8f1737/yazuo4kqh6s-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 68854
+        }
+      ],
+      "default": "assets/optimized/627d9c6c0e8f1737/yazuo4kqh6s-w768.webp"
     },
     "assets/mv/yoyo.jpg": {
       "asset": "3cae2916c7529b6e",
