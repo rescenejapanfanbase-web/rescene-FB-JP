@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-15T08:14:10.971616+00:00",
+  "generatedAt": "2026-11-15T11:54:08.655274+00:00",
   "items": [
     {
       "date": "2026-11-15",
@@ -66,22 +66,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "440fc4f",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "title": "Update voting guide images and remove missing MV labels",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "0ddcbf5",
-      "files": [
-        "assets/voting/guides/bigc-vote-flow-20261108.jpg",
-        "assets/voting/music-shows-overview-20261108.jpg",
-        "assets/voting/vote-points-summary-20261108.jpg",
-        "data/voting-guide-data.js",
-        "data/voting-guide.json",
-        "js/voting.js",
-        "melon-records.html",
-        "schedule.html"
       ]
     },
     {
