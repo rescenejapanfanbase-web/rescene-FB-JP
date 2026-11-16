@@ -1,8 +1,20 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-11-15T08:14:10.864Z",
-  "sourceNewsGeneratedAt": "2026-11-15T11:18:53.503Z",
+  "generatedAt": "2026-11-16T18:23:30.434Z",
+  "sourceNewsGeneratedAt": "2026-11-16T18:22:48.947Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "notion-news-61587e9e36",
+        "title": "ミナミが日本地上波ドラマで挿入歌に参加が決定！",
+        "date": "2026.11.16",
+        "label": "OST",
+        "image": "assets/news/notion/notion-41a229d219da8071969af161587e9e36-26a9337c4eae.jpg",
+        "text": "ミナミが日本地上波ドラマで挿入歌に参加が決定しました！",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "with-4-1-10fc9578be",
         "title": "「With」で4度目の1位を獲得！",
@@ -26,17 +38,46 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "同じカテゴリー"
         ]
+      }
+    ],
+    "notion-news-61587e9e36": [
+      {
+        "slug": "with-rak-1ff7016932",
+        "title": "｢With｣で初のRAKを達成！",
+        "date": "2026.11.05",
+        "label": "1st RAK",
+        "image": "assets/news/notion/notion-40e229d219da806abd06e21ff7016932-86a0a834f955.jpg",
+        "text": "2026年11月5日0時、LOVE ATTACKがRAK(REAL TIME ALL KILL)を達成。",
+        "score": 9,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
       },
       {
-        "slug": "mma2026-3-c2a1da2460",
-        "title": "MMA2026にて3つの賞を受賞！",
-        "date": "2026.11.14",
-        "label": "Award",
-        "image": "assets/news/notion/notion-418229d219da80e8a539ebc2a1da2460-030f4d9f2ea0.jpg",
-        "text": "2026年11月14日に開催されたMMA2026で3つの賞を受賞しました！",
-        "score": 5,
+        "slug": "love-attack-spotify-5-1-814a3b80ac",
+        "title": "LOVE ATTACKが韓国Spotifyチャートで第5世代ガールズグループ最多1位記録を樹立！",
+        "date": "2026.10.12",
+        "label": "New Record",
+        "image": "assets/news/notion/notion-3f7229d219da80ffb229c5814a3b80ac-ed7071d3796d.webp",
+        "text": "2026年10月12日、LOVE ATTACKが韓国Spotifyチャート1位獲得数を19日とし、第5世代最多獲得記録を更新しました。",
+        "score": 9,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "love-attack-melon-2026-1-cf541f6166",
+        "title": "LOVE ATTACKがMelon日間チャートで2026年単独最多1位記録を樹立",
+        "date": "2026.09.02",
+        "label": "New Record",
+        "image": "assets/news/notion/notion-3cf229d219da80028238cfcf541f6166-ed7071d3796d.webp",
+        "text": "2026年9月2日、LOVE ATTACKが日間チャート1位総獲得数を46回とし、2026年Melon日間チャート最多獲得記録を更新しました。",
+        "score": 8,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
         ]
       }
     ],
@@ -384,6 +425,18 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "rescene-official-light-stick-v2-8a21df0051": [
       {
+        "slug": "notion-news-61587e9e36",
+        "title": "ミナミが日本地上波ドラマで挿入歌に参加が決定！",
+        "date": "2026.11.16",
+        "label": "OST",
+        "image": "assets/news/notion/notion-41a229d219da8071969af161587e9e36-26a9337c4eae.jpg",
+        "text": "ミナミが日本地上波ドラマで挿入歌に参加が決定しました！",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "with-4-1-10fc9578be",
         "title": "「With」で4度目の1位を獲得！",
         "date": "2026.11.15",
@@ -402,18 +455,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "9th WIN",
         "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-402c9f0634cc.jpg",
         "text": "2026年11月14日放送のMBC「SHOW!音楽中心」で、「With」で3度目の1位を獲得しました。",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "mma2026-3-c2a1da2460",
-        "title": "MMA2026にて3つの賞を受賞！",
-        "date": "2026.11.14",
-        "label": "Award",
-        "image": "assets/news/notion/notion-418229d219da80e8a539ebc2a1da2460-030f4d9f2ea0.jpg",
-        "text": "2026年11月14日に開催されたMMA2026で3つの賞を受賞しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -2173,6 +2214,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "notion-news-61587e9e36",
+      "date": "2026.11.16",
+      "title": "ミナミが日本地上波ドラマで挿入歌に参加が決定！",
+      "url": "https://rescene-fb.jp/articles/notion-news-61587e9e36.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.11.16】 ミナミが日本地上波ドラマで挿入歌に参加が決定！\n\nhttps://rescene-fb.jp/articles/notion-news-61587e9e36.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "ミナミが日本地上波ドラマで挿入歌に参加が決定！\nミナミが日本地上波ドラマで挿入歌に参加が決定しました！",
+      "charCount": 117
     },
     {
       "slug": "with-4-1-10fc9578be",

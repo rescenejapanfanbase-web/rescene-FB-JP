@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-11-15T11:18:53.503Z",
+  "generatedAt": "2026-11-16T18:22:48.947Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 33,
-  "notionNews": 33,
-  "notionImages": 32,
+  "queriedPages": 34,
+  "notionNews": 34,
+  "notionImages": 33,
   "rows": [
+    {
+      "title": "ミナミが日本地上波ドラマで挿入歌に参加が決定！",
+      "pageId": "41a229d2-19da-8071-969a-f161587e9e36",
+      "lastEditedTime": "2026-11-16T15:22:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "E4C1B0A0-BC3D-45B9-824F-F016A1200D40.jpeg",
+      "imagePath": "assets/news/notion/notion-41a229d219da8071969af161587e9e36-26a9337c4eae.jpg",
+      "imageBytes": 124223,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "「With」で4度目の1位を獲得！",
       "pageId": "419229d2-19da-803a-b26b-ca10fc9578be",

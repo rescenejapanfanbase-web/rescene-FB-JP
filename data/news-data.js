@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "notion-news-61587e9e36",
+    "date": "2026.11.16",
+    "category": "notice",
+    "categoryName": "お知らせ",
+    "label": "OST",
+    "title": "ミナミが日本地上波ドラマで挿入歌に参加が決定！",
+    "text": "ミナミが日本地上波ドラマで挿入歌に参加が決定しました！",
+    "body": "ミナミが日本地上波ドラマ「メリーベリーラブ」で第7話の挿入歌に参加が決定しました！\n楽曲名は「사랑해볼래, 나 (Ready to Love)」\n「メリーベリーラブ」は日本テレビ系 10月期水曜ドラマ。毎週水曜よる10時放送\nTVerまたはDisney+にて配信。",
+    "image": "assets/news/notion/notion-41a229d219da8071969af161587e9e36-26a9337c4eae.jpg",
+    "sourceLink": "https://www.ntv.co.jp/merryberrylove/articles/5615j5raip6tz6yhz6sy.html",
+    "sourceLabel": "公式サイトを見る",
+    "translations": {},
+    "notionPageId": "41a229d2-19da-8071-969a-f161587e9e36",
+    "notionUrl": "https://app.notion.com/p/41a229d219da8071969af161587e9e36"
+  },
+  {
     "slug": "with-4-1-10fc9578be",
     "date": "2026.11.15",
     "category": "notice",
