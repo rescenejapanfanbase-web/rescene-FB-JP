@@ -1,11 +1,11 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-16T18:23:30.511375+00:00",
+  "generatedAt": "2026-11-16T23:19:32.597394+00:00",
   "items": [
     {
       "date": "2026-11-16",
       "title": "feat: publish Notion-synced RESCENE awards page",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "c7bbe60",
+      "commit": "07d30bb",
       "files": [
         "articles/2026-0c5361a8a6.html",
         "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
@@ -30,16 +30,16 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-16",
       "title": "chore: critical schedule sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "89015cd",
+      "commit": "e4c2f1d",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
         "data/language-catalog.json",
-        "data/quality-report.json",
         "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
         "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
         "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc"
+        "scripts/__pycache__/check-external-links.cpython-313.pyc",
+        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
       ]
     },
     {
@@ -56,6 +56,15 @@ window.RESCENE_SITE_UPDATES = {
         "data/mv-data.js",
         "data/mv.json",
         "data/quality-report.json"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "title": "chore: critical YouTube sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "e495feb",
+      "files": [
+        "data/youtube-channels.json"
       ]
     },
     {
