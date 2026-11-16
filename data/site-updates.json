@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-16T06:14:20.812689+00:00",
+  "generatedAt": "2026-11-16T12:38:32.380972+00:00",
   "items": [
     {
       "date": "2026-11-16",
       "title": "feat: publish Notion-synced RESCENE awards page",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "901ad7a",
+      "commit": "c7bbe60",
       "files": [
         "articles/2026-0c5361a8a6.html",
         "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
