@@ -1,6 +1,31 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-15T21:00:12.696923+00:00",
+  "generatedAt": "2026-11-16T01:51:40.191101+00:00",
   "items": [
+    {
+      "date": "2026-11-16",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "7e095b3",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "89015cd",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/quality-report.json",
+        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
+        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
+        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
+        "scripts/__pycache__/check-external-links.cpython-313.pyc"
+      ]
+    },
     {
       "date": "2026-11-15",
       "title": "fix: publish responsive awards layout and correct action checks",
@@ -20,7 +45,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-15",
       "title": "feat: publish Notion-synced RESCENE awards page",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "dd344a0",
+      "commit": "ec04ea7",
       "files": [
         "articles/2026-0c5361a8a6.html",
         "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
@@ -30,15 +55,6 @@ window.RESCENE_SITE_UPDATES = {
         "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html",
         "articles/2026-sbs-f6b8857108.html",
         "articles/2026-the-fact-music-awards-tma-2-48edbe72f9.html"
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "d103d25",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {
@@ -89,15 +105,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "7cd597e",
       "files": [
         ".github/workflows/finish-rescene-mobile-actions.yml"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "title": "feat: publish Notion-synced RESCENE awards page",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "78958f3",
-      "files": [
-        "data/seo-status.json"
       ]
     },
     {
