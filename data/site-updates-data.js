@@ -1,6 +1,22 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-16T01:51:40.191101+00:00",
+  "generatedAt": "2026-11-16T06:14:20.812689+00:00",
   "items": [
+    {
+      "date": "2026-11-16",
+      "title": "feat: publish Notion-synced RESCENE awards page",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "901ad7a",
+      "files": [
+        "articles/2026-0c5361a8a6.html",
+        "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
+        "articles/2026-kgma-4-76cbf9c655.html",
+        "articles/2026-kwda-2-7f1dbcd366.html",
+        "articles/2026-mama-awards-caaa5f7b37.html",
+        "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html",
+        "articles/2026-sbs-f6b8857108.html",
+        "articles/2026-the-fact-music-awards-tma-2-48edbe72f9.html"
+      ]
+    },
     {
       "date": "2026-11-16",
       "title": "chore: update external link report",
@@ -27,18 +43,19 @@ window.RESCENE_SITE_UPDATES = {
       ]
     },
     {
-      "date": "2026-11-15",
-      "title": "fix: publish responsive awards layout and correct action checks",
+      "date": "2026-11-16",
+      "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "a99b37f",
+      "commit": "cbc763c",
       "files": [
-        "css/common.css",
-        "data/image-manifest.json",
-        "scripts/check-requested-regressions.py",
-        "scripts/check-site-links.py",
-        "scripts/generate-pwa.py",
-        "scripts/optimize-images.py",
-        "service-worker.js"
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/mv-data.js",
+        "data/mv.json",
+        "data/seo-status.json"
       ]
     },
     {
@@ -96,15 +113,6 @@ window.RESCENE_SITE_UPDATES = {
       "commit": "f7c2ddd",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "title": "Add files via upload",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "7cd597e",
-      "files": [
-        ".github/workflows/finish-rescene-mobile-actions.yml"
       ]
     },
     {
