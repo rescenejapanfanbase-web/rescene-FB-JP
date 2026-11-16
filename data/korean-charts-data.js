@@ -1,6 +1,6 @@
 window.RESCENE_KOREAN_CHARTS = {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T18:28:05+09:00",
+  "generatedAt": "2026-11-16T19:08:41+09:00",
   "configSource": "notion",
   "charts": [
     {
@@ -3232,13 +3232,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-07-27T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-09T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-09T19:17:32+09:00",
-          "observations": 16
+          "lastObservedAt": "2026-11-16T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+          "observations": 17
         }
       ],
-      "lastCheckedAt": "2026-11-15T18:52:10+09:00",
-      "chartAt": "2026-11-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+      "chartAt": "2026-11-16T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/uhuh--youtube-kr.json"
     },
     {
@@ -3274,13 +3274,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-10-05T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-09T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-09T19:17:32+09:00",
-          "observations": 6
+          "lastObservedAt": "2026-11-16T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+          "observations": 7
         }
       ],
-      "lastCheckedAt": "2026-11-15T18:52:10+09:00",
-      "chartAt": "2026-11-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+      "chartAt": "2026-11-16T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/yoyo--youtube-kr.json"
     },
     {
@@ -3289,14 +3289,14 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
       "currentRank": 11,
-      "previousRank": 8,
-      "movement": -3,
-      "movementType": "down",
+      "previousRank": 11,
+      "movement": 0,
+      "movementType": "same",
       "status": "in",
       "peakRank": 1,
       "firstChartedAt": "2024-09-23T00:00:00+09:00",
-      "lastChartedAt": "2026-11-09T00:00:00+09:00",
-      "chartDays": 46,
+      "lastChartedAt": "2026-11-16T00:00:00+09:00",
+      "chartDays": 47,
       "outOfChartCount": 1,
       "outOfChartHistory": [
         {
@@ -3307,8 +3307,8 @@ window.RESCENE_KOREAN_CHARTS = {
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-11-15T18:52:10+09:00",
-      "chartAt": "2026-11-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+      "chartAt": "2026-11-16T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/love-attack--youtube-kr.json"
     },
     {
@@ -3317,14 +3317,14 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
       "currentRank": 31,
-      "previousRank": 30,
-      "movement": -1,
-      "movementType": "down",
+      "previousRank": 31,
+      "movement": 0,
+      "movementType": "same",
       "status": "in",
       "peakRank": 19,
       "firstChartedAt": "2026-06-08T00:00:00+09:00",
-      "lastChartedAt": "2026-11-09T00:00:00+09:00",
-      "chartDays": 23,
+      "lastChartedAt": "2026-11-16T00:00:00+09:00",
+      "chartDays": 24,
       "outOfChartCount": 1,
       "outOfChartHistory": [
         {
@@ -3335,8 +3335,8 @@ window.RESCENE_KOREAN_CHARTS = {
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-11-15T18:52:10+09:00",
-      "chartAt": "2026-11-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+      "chartAt": "2026-11-16T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pinball--youtube-kr.json"
     },
     {
@@ -3345,9 +3345,9 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
       "currentRank": null,
-      "previousRank": 97,
+      "previousRank": null,
       "movement": null,
-      "movementType": "out",
+      "movementType": "stay-out",
       "status": "out",
       "peakRank": 51,
       "firstChartedAt": "2026-06-22T00:00:00+09:00",
@@ -3372,13 +3372,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-11-09T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-09T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-15T18:52:10+09:00",
-          "observations": 1
+          "lastObservedAt": "2026-11-16T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+          "observations": 2
         }
       ],
-      "lastCheckedAt": "2026-11-15T18:52:10+09:00",
-      "chartAt": "2026-11-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+      "chartAt": "2026-11-16T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/glow-up--youtube-kr.json"
     },
     {
@@ -3387,14 +3387,14 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
       "currentRank": 18,
-      "previousRank": 17,
-      "movement": -1,
-      "movementType": "down",
+      "previousRank": 18,
+      "movement": 0,
+      "movementType": "same",
       "status": "in",
       "peakRank": 8,
       "firstChartedAt": "2026-06-01T00:00:00+09:00",
-      "lastChartedAt": "2026-11-09T00:00:00+09:00",
-      "chartDays": 24,
+      "lastChartedAt": "2026-11-16T00:00:00+09:00",
+      "chartDays": 25,
       "outOfChartCount": 1,
       "outOfChartHistory": [
         {
@@ -3405,8 +3405,8 @@ window.RESCENE_KOREAN_CHARTS = {
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-11-15T18:52:10+09:00",
-      "chartAt": "2026-11-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+      "chartAt": "2026-11-16T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/deja-vu--youtube-kr.json"
     },
     {
@@ -3435,13 +3435,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-09-28T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-09T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-09T19:17:32+09:00",
-          "observations": 7
+          "lastObservedAt": "2026-11-16T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+          "observations": 8
         }
       ],
-      "lastCheckedAt": "2026-11-15T18:52:10+09:00",
-      "chartAt": "2026-11-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+      "chartAt": "2026-11-16T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/heart-drop--youtube-kr.json"
     },
     {
@@ -3470,13 +3470,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-11-09T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-09T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-09T19:17:32+09:00",
-          "observations": 1
+          "lastObservedAt": "2026-11-16T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+          "observations": 2
         }
       ],
-      "lastCheckedAt": "2026-11-15T18:52:10+09:00",
-      "chartAt": "2026-11-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+      "chartAt": "2026-11-16T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/bloom--youtube-kr.json"
     },
     {
@@ -3505,13 +3505,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-08-31T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-09T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-09T19:17:32+09:00",
-          "observations": 11
+          "lastObservedAt": "2026-11-16T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+          "observations": 12
         }
       ],
-      "lastCheckedAt": "2026-11-15T18:52:10+09:00",
-      "chartAt": "2026-11-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+      "chartAt": "2026-11-16T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/busy-boy--youtube-kr.json"
     },
     {
@@ -3520,9 +3520,9 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
       "currentRank": null,
-      "previousRank": 50,
+      "previousRank": null,
       "movement": null,
-      "movementType": "out",
+      "movementType": "stay-out",
       "status": "out",
       "peakRank": 34,
       "firstChartedAt": "2026-05-25T00:00:00+09:00",
@@ -3547,13 +3547,13 @@ window.RESCENE_KOREAN_CHARTS = {
         {
           "startAt": "2026-11-09T00:00:00+09:00",
           "endAt": "",
-          "lastObservedAt": "2026-11-09T00:00:00+09:00",
-          "lastCheckedAt": "2026-11-15T18:52:10+09:00",
-          "observations": 1
+          "lastObservedAt": "2026-11-16T00:00:00+09:00",
+          "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+          "observations": 2
         }
       ],
-      "lastCheckedAt": "2026-11-15T18:52:10+09:00",
-      "chartAt": "2026-11-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+      "chartAt": "2026-11-16T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/runaway--youtube-kr.json"
     },
     {
@@ -3562,14 +3562,14 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
       "currentRank": 16,
-      "previousRank": 15,
-      "movement": -1,
-      "movementType": "down",
+      "previousRank": 16,
+      "movement": 0,
+      "movementType": "same",
       "status": "in",
       "peakRank": 3,
       "firstChartedAt": "2026-07-06T00:00:00+09:00",
-      "lastChartedAt": "2026-11-09T00:00:00+09:00",
-      "chartDays": 19,
+      "lastChartedAt": "2026-11-16T00:00:00+09:00",
+      "chartDays": 20,
       "outOfChartCount": 1,
       "outOfChartHistory": [
         {
@@ -3580,8 +3580,8 @@ window.RESCENE_KOREAN_CHARTS = {
           "observations": 1
         }
       ],
-      "lastCheckedAt": "2026-11-15T18:52:10+09:00",
-      "chartAt": "2026-11-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+      "chartAt": "2026-11-16T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/pretty-girl--youtube-kr.json"
     },
     {
@@ -3590,14 +3590,14 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartId": "youtube-kr",
       "chartName": "YouTube Music Korea Top Songs",
       "currentRank": 1,
-      "previousRank": 4,
-      "movement": 3,
-      "movementType": "up",
+      "previousRank": 1,
+      "movement": 0,
+      "movementType": "same",
       "status": "in",
       "peakRank": 1,
       "firstChartedAt": "2026-11-09T00:00:00+09:00",
-      "lastChartedAt": "2026-11-09T00:00:00+09:00",
-      "chartDays": 1,
+      "lastChartedAt": "2026-11-16T00:00:00+09:00",
+      "chartDays": 2,
       "outOfChartCount": 1,
       "outOfChartHistory": [
         {
@@ -3608,8 +3608,8 @@ window.RESCENE_KOREAN_CHARTS = {
           "observations": 3
         }
       ],
-      "lastCheckedAt": "2026-11-15T18:52:10+09:00",
-      "chartAt": "2026-11-09T00:00:00+09:00",
+      "lastCheckedAt": "2026-11-16T19:08:41+09:00",
+      "chartAt": "2026-11-16T00:00:00+09:00",
       "historyPath": "data/korean-chart-history/with--youtube-kr.json"
     },
     {
@@ -4034,10 +4034,10 @@ window.RESCENE_KOREAN_CHARTS = {
       "chartName": "YouTube Music Korea Top Songs",
       "ok": true,
       "retainedPrevious": false,
-      "lastAttemptAt": "2026-11-15T18:52:10+09:00",
+      "lastAttemptAt": "2026-11-16T19:08:41+09:00",
       "error": "",
-      "lastSuccessAt": "2026-11-15T18:52:10+09:00",
-      "chartAt": "2026-11-09T00:00:00+09:00",
+      "lastSuccessAt": "2026-11-16T19:08:41+09:00",
+      "chartAt": "2026-11-16T00:00:00+09:00",
       "itemCount": 99,
       "matchedCount": 5,
       "metadata": {
