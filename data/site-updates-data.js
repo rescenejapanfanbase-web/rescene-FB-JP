@@ -1,11 +1,11 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-17T15:54:55.053342+00:00",
+  "generatedAt": "2026-11-17T22:11:21.738817+00:00",
   "items": [
     {
       "date": "2026-11-17",
       "title": "feat: publish Notion-synced RESCENE awards page",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "5fd4b16",
+      "commit": "5c01f62",
       "files": [
         "articles/2026-0c5361a8a6.html",
         "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
@@ -30,16 +30,16 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-17",
       "title": "chore: critical schedule sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "5584167",
+      "commit": "1339b24",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
+        "articles/2026-0c5361a8a6.html",
+        "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
+        "articles/2026-kgma-4-76cbf9c655.html",
+        "articles/2026-kwda-2-7f1dbcd366.html",
+        "articles/2026-mama-awards-caaa5f7b37.html",
+        "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html",
+        "articles/2026-sbs-f6b8857108.html"
       ]
     },
     {
@@ -62,7 +62,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-17",
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "95032a6",
+      "commit": "1fb5c13",
       "files": [
         "data/youtube-channels.json"
       ]
