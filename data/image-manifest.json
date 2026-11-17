@@ -1,35 +1,35 @@
 {
   "version": 1,
   "settingsVersion": 2,
-  "generatedAt": "2026-11-16T18:23:42Z",
+  "generatedAt": "2026-11-17T23:29:30Z",
   "baseDirectory": "assets/optimized",
   "images": {
     "assets/chants/notion/insideout.png": {
-      "asset": "3aa8c732c32c1c19",
-      "originalBytes": 2399958,
+      "asset": "e467bc6416370401",
+      "originalBytes": 2401927,
       "width": 1600,
       "height": 900,
       "variants": [
         {
-          "src": "assets/optimized/3aa8c732c32c1c19/insideout-w480.webp",
+          "src": "assets/optimized/e467bc6416370401/insideout-w480.webp",
           "width": 480,
           "height": 270,
-          "bytes": 29748
+          "bytes": 30062
         },
         {
-          "src": "assets/optimized/3aa8c732c32c1c19/insideout-w768.webp",
+          "src": "assets/optimized/e467bc6416370401/insideout-w768.webp",
           "width": 768,
           "height": 432,
-          "bytes": 67896
+          "bytes": 69042
         },
         {
-          "src": "assets/optimized/3aa8c732c32c1c19/insideout-w1440.webp",
+          "src": "assets/optimized/e467bc6416370401/insideout-w1440.webp",
           "width": 1440,
           "height": 810,
-          "bytes": 180602
+          "bytes": 182342
         }
       ],
-      "default": "assets/optimized/3aa8c732c32c1c19/insideout-w1440.webp"
+      "default": "assets/optimized/e467bc6416370401/insideout-w1440.webp"
     },
     "assets/chants/notion/with.png": {
       "asset": "563d10dc3c137396",
@@ -9463,36 +9463,6 @@
       "skippedWidths": [],
       "default": "assets/optimized/3a498f1607257e1a/rescene-group-w1440.webp"
     },
-    "3aa8c732c32c1c19": {
-      "hash": "3aa8c732c32c1c195afe7d76c19728e460740441d3b1a5849818540d39c38cc5",
-      "width": 1600,
-      "height": 900,
-      "format": "png",
-      "alpha": true,
-      "quality": 91,
-      "variants": [
-        {
-          "src": "assets/optimized/3aa8c732c32c1c19/insideout-w480.webp",
-          "width": 480,
-          "height": 270,
-          "bytes": 29748
-        },
-        {
-          "src": "assets/optimized/3aa8c732c32c1c19/insideout-w768.webp",
-          "width": 768,
-          "height": 432,
-          "bytes": 67896
-        },
-        {
-          "src": "assets/optimized/3aa8c732c32c1c19/insideout-w1440.webp",
-          "width": 1440,
-          "height": 810,
-          "bytes": 180602
-        }
-      ],
-      "skippedWidths": [],
-      "default": "assets/optimized/3aa8c732c32c1c19/insideout-w1440.webp"
-    },
     "3af87005012759bb": {
       "hash": "3af87005012759bb1c3785a1844580c87646e13d58f46177444c7f3f3e80be2f",
       "width": 1170,
@@ -13880,6 +13850,36 @@
       ],
       "skippedWidths": [],
       "default": "assets/optimized/e3dc347adb431eeb/notion-3ae229d219da805283b1d5fec5375c61-e3dc347a-w964.webp"
+    },
+    "e467bc6416370401": {
+      "hash": "e467bc6416370401603ee7ddb490e8280607e51b3ecb6b01356e4f9b93776f38",
+      "width": 1600,
+      "height": 900,
+      "format": "png",
+      "alpha": true,
+      "quality": 91,
+      "variants": [
+        {
+          "src": "assets/optimized/e467bc6416370401/insideout-w480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 30062
+        },
+        {
+          "src": "assets/optimized/e467bc6416370401/insideout-w768.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 69042
+        },
+        {
+          "src": "assets/optimized/e467bc6416370401/insideout-w1440.webp",
+          "width": 1440,
+          "height": 810,
+          "bytes": 182342
+        }
+      ],
+      "skippedWidths": [],
+      "default": "assets/optimized/e467bc6416370401/insideout-w1440.webp"
     },
     "e7d78b212458b9b9": {
       "hash": "e7d78b212458b9b90ffacd62fde98c7baaec75bb0266603052a2d44337877515",
