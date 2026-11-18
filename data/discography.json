@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T11:16:14.670Z",
+  "generatedAt": "2026-11-18T12:57:05.447Z",
   "source": "notion",
   "dataSourceId": "8f582d52-96eb-4148-a24b-add07379ee07",
   "notionDatabaseUrl": "https://app.notion.com/p/ca4fadead9d64128a5e8dc9730e0033d",
@@ -580,6 +580,33 @@
       "published": true,
       "notionPageId": "3a3229d2-19da-8103-bcbe-e3dd4f6fbbdd",
       "notionUrl": "https://app.notion.com/p/Re-Scene-3a3229d219da8103bcbee3dd4f6fbbdd"
+    },
+    {
+      "anchor": "release-ready-to-love",
+      "slug": "ready-to-love",
+      "title": "사랑해볼래, 나(Ready to Love)",
+      "releaseDate": "2026-11-18",
+      "category": "ost",
+      "categoryName": "OST",
+      "mark": "RS",
+      "badge": "OST",
+      "type": "メリーベリーラブ OST",
+      "description": "日韓ドラマ「Merry Berry Love」のOST。",
+      "tracks": [
+        {
+          "no": "01",
+          "title": "사랑해볼래, 나(Ready to Love)",
+          "video": "https://youtu.be/HlR_f2gHxoo?si=iDkzbWCqMHNIer1s",
+          "note": ""
+        }
+      ],
+      "appleMusic": "https://music.apple.com/jp/album/merry-berry-love-pt-2-original-soundtrack-single/6835356540",
+      "spotify": "https://open.spotify.com/album/6aYajkK3rPYrB4WhyA1DiV?si=cT3amUxTSL2r9m1Oov_7mg&utm_source=copy-link",
+      "cover": "",
+      "order": 9999,
+      "published": true,
+      "notionPageId": "402229d2-19da-8066-95e0-eb181db4af63",
+      "notionUrl": "https://app.notion.com/p/Ready-to-Love-402229d219da806695e0eb181db4af63"
     },
     {
       "anchor": "release-even-if-i-can-t-have-you-my-love-is-enough",
