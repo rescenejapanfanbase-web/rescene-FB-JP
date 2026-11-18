@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-18T12:57:18.710318+00:00",
+  "generatedAt": "2026-11-18T17:12:10.883731+00:00",
   "items": [
     {
       "date": "2026-11-18",
@@ -43,6 +43,22 @@ window.RESCENE_SITE_UPDATES = {
       ]
     },
     {
+      "date": "2026-11-18",
+      "title": "chore: critical full content sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "d55d0ee",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/discography-data.js",
+        "data/discography.json",
+        "data/home-guides.json",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json"
+      ]
+    },
+    {
       "date": "2026-11-17",
       "title": "feat: publish Notion-synced RESCENE awards page",
       "description": "GitHubでサイト内容を更新しました。",
@@ -56,15 +72,6 @@ window.RESCENE_SITE_UPDATES = {
         "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html",
         "articles/2026-sbs-f6b8857108.html",
         "articles/2026-the-fact-music-awards-tma-2-48edbe72f9.html"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "d1746ad",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {
