@@ -53568,18 +53568,24 @@
       "checkedAt": "2026-11-18T07:11:44+09:00",
       "rank": 24,
       "sourceRank": 24
+    },
+    {
+      "chartAt": "2026-11-18T13:00:00+09:00",
+      "checkedAt": "2026-11-18T13:09:50+09:00",
+      "rank": 9,
+      "sourceRank": 9
     }
   ],
   "outOfChartHistory": [],
-  "generatedAt": "2026-11-18T07:11:44+09:00",
+  "generatedAt": "2026-11-18T13:09:50+09:00",
   "summary": {
     "peakRank": 1,
     "firstChartedAt": "2024-09-18T23:00:00+09:00",
-    "lastChartedAt": "2026-11-18T07:00:00+09:00",
+    "lastChartedAt": "2026-11-18T13:00:00+09:00",
     "chartDays": 463,
-    "currentRank": 24,
+    "currentRank": 9,
     "status": "in",
-    "pointCount": 6924
+    "pointCount": 6925
   },
   "sources": [
     {
