@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T03:05:51Z",
-  "startedAt": "2026-11-17T03:05:33Z",
-  "elapsedSeconds": 18.07,
+  "generatedAt": "2026-11-18T02:33:31Z",
+  "startedAt": "2026-11-18T02:33:26Z",
+  "elapsedSeconds": 4.86,
   "summary": {
     "checked": 104,
-    "ok": 97,
-    "warning": 7,
+    "ok": 98,
+    "warning": 6,
     "broken": 0,
     "hosts": 20
   },
@@ -32,14 +32,6 @@
       "label": "Instagram",
       "checked": 1,
       "ok": 0,
-      "warning": 1,
-      "broken": 0
-    },
-    {
-      "key": "naver",
-      "label": "NAVER",
-      "checked": 4,
-      "ok": 3,
       "warning": 1,
       "broken": 0
     },
@@ -88,6 +80,14 @@
       "label": "Mnet Plus",
       "checked": 7,
       "ok": 7,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "naver",
+      "label": "NAVER",
+      "checked": 4,
+      "ok": 4,
       "warning": 0,
       "broken": 0
     },
@@ -163,39 +163,6 @@
           "file": "index.html",
           "line": 142,
           "label": "Instagram"
-        }
-      ]
-    },
-    {
-      "url": "https://n.news.naver.com/article/030/0003430663?sid=103",
-      "normalizedUrl": "https://n.news.naver.com/article/030/0003430663?sid=103",
-      "finalUrl": "https://n.news.naver.com/article/030/0003430663?sid=103",
-      "service": "NAVER",
-      "serviceKey": "naver",
-      "status": "warning",
-      "httpStatus": null,
-      "message": "一時的な通信エラー: The read operation timed out",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "articles/geoje-ambassador.html",
-          "line": 63,
-          "label": "記事を見る ↗"
-        },
-        {
-          "file": "data/news-manual.json",
-          "line": 87,
-          "label": "慶尚南道 巨済市 広報大使に任命"
-        },
-        {
-          "file": "data/news.json",
-          "line": 647,
-          "label": "慶尚南道 巨済市 広報大使に任命"
-        },
-        {
-          "file": "geoje-ambassador.html",
-          "line": 63,
-          "label": "記事を見る ↗"
         }
       ]
     },
@@ -1275,6 +1242,39 @@
       ]
     },
     {
+      "url": "https://n.news.naver.com/article/030/0003430663?sid=103",
+      "normalizedUrl": "https://n.news.naver.com/article/030/0003430663?sid=103",
+      "finalUrl": "https://n.news.naver.com/article/030/0003430663?sid=103",
+      "service": "NAVER",
+      "serviceKey": "naver",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "articles/geoje-ambassador.html",
+          "line": 63,
+          "label": "記事を見る ↗"
+        },
+        {
+          "file": "data/news-manual.json",
+          "line": 87,
+          "label": "慶尚南道 巨済市 広報大使に任命"
+        },
+        {
+          "file": "data/news.json",
+          "line": 647,
+          "label": "慶尚南道 巨済市 広報大使に任命"
+        },
+        {
+          "file": "geoje-ambassador.html",
+          "line": 63,
+          "label": "記事を見る ↗"
+        }
+      ]
+    },
+    {
       "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S",
       "normalizedUrl": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S",
       "finalUrl": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S",
@@ -1346,7 +1346,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1794884738178&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1794969210675&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
