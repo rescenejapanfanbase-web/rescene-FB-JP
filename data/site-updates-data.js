@@ -1,11 +1,11 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-19T20:29:11.121500+00:00",
+  "generatedAt": "2026-11-19T22:06:18.541384+00:00",
   "items": [
     {
       "date": "2026-11-19",
       "title": "feat: publish Notion-synced RESCENE awards page",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "dc7dbd5",
+      "commit": "92a709e",
       "files": [
         "articles/2026-0c5361a8a6.html",
         "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
