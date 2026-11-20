@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T07:02:41.179844+00:00",
+  "generatedAt": "2026-11-20T12:44:48.610033+00:00",
   "items": [
     {
       "date": "2026-11-20",
@@ -76,15 +76,6 @@
     },
     {
       "date": "2026-11-19",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "cc766fb",
-      "files": [
-        "data/external-link-report.json"
-      ]
-    },
-    {
-      "date": "2026-11-19",
       "title": "chore: critical schedule sync",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "b3b5464",
@@ -122,22 +113,6 @@
       "commit": "ed33cfe",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "1c45c01",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
       ]
     },
     {
