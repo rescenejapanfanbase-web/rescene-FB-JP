@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T09:35:03Z",
+  "generatedAt": "2026-11-20T17:36:44Z",
   "source": "pluschat",
   "sourceBaseUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/",
   "translationDictionary": "scripts/pluschat-schedule-translations.json",
@@ -7,8 +7,8 @@
     "2026-11",
     "2026-12"
   ],
-  "eventCount": 115,
-  "refreshedEventCount": 33,
+  "eventCount": 116,
+  "refreshedEventCount": 34,
   "failures": [],
   "months": {
     "2026-07": {
@@ -101,10 +101,11 @@
     },
     "2026-12": {
       "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12",
-      "fetchedAt": "2026-11-12T02:10:00Z",
-      "eventCount": 3,
+      "fetchedAt": "2026-11-20T17:36:44Z",
+      "eventCount": 4,
       "status": "ok",
       "warnings": [
+        "翻訳辞書への追加候補: 와키윌리 팝업스토어 -> 와키윌리 팝업스토어",
         "翻訳辞書への追加候補: 2026 SBS 가요대전 -> 2026 SBS 가요대전"
       ]
     }
@@ -2237,6 +2238,25 @@
       "notionUrl": "",
       "source": "pluschat",
       "sourceMonth": "2026-11"
+    },
+    {
+      "id": "pluschat-2026-12-01-all-day-edd2585b6d3508e27507e563",
+      "title": "와키윌리 팝업스토어",
+      "originalTitle": "와키윌리 팝업스토어",
+      "translationStatus": "original",
+      "date": "2026-12-01",
+      "start": "2026-12-01",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-12"
     },
     {
       "id": "pluschat-2026-12-08-2000-247872c966383fe8ad60aba6",

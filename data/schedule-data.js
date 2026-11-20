@@ -1,14 +1,14 @@
 window.RESCENE_SCHEDULE_PAYLOAD = {
-  "generatedAt": "2026-11-14T09:35:03.562Z",
+  "generatedAt": "2026-11-20T17:36:44.770Z",
   "source": "notion+pluschat",
   "dataSourceId": "eea8a017-8ad1-4c00-ba09-8bca95cf8618",
   "sourceCounts": {
     "notion": 41,
-    "plusChatAvailable": 115,
-    "plusChatAdded": 94,
+    "plusChatAvailable": 116,
+    "plusChatAdded": 95,
     "plusChatDuplicates": 21
   },
-  "plusChatGeneratedAt": "2026-11-14T09:35:03Z",
+  "plusChatGeneratedAt": "2026-11-20T17:36:44Z",
   "events": [
     {
       "id": "39d229d2-19da-800f-bf39-f901096b6fc6",
@@ -2362,6 +2362,25 @@ window.RESCENE_SCHEDULE_PAYLOAD = {
       "notionUrl": "",
       "source": "pluschat",
       "sourceMonth": "2026-11"
+    },
+    {
+      "id": "pluschat-2026-12-01-all-day-edd2585b6d3508e27507e563",
+      "title": "와키윌리 팝업스토어",
+      "originalTitle": "와키윌리 팝업스토어",
+      "translationStatus": "original",
+      "date": "2026-12-01",
+      "start": "2026-12-01",
+      "end": "",
+      "allDay": true,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-12"
     },
     {
       "id": "3af229d2-19da-80d7-aa16-f3daf99c0fb3",
