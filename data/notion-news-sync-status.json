@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-11-16T18:22:48.947Z",
+  "generatedAt": "2026-11-20T03:04:52.506Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 34,
-  "notionNews": 34,
-  "notionImages": 33,
+  "queriedPages": 35,
+  "notionNews": 35,
+  "notionImages": 34,
   "rows": [
+    {
+      "title": "D Awardsに出演決定！",
+      "pageId": "41e229d2-19da-8066-b0b2-fe08fa00912b",
+      "lastEditedTime": "2026-11-20T00:58:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "DC520CD6-C730-446A-BE78-DEB3429B47BF.jpeg",
+      "imagePath": "assets/news/notion/notion-41e229d219da8066b0b2fe08fa00912b-486f792ba77d.jpg",
+      "imageBytes": 233675,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "ミナミが日本地上波ドラマで挿入歌に参加が決定！",
       "pageId": "41a229d2-19da-8071-969a-f161587e9e36",

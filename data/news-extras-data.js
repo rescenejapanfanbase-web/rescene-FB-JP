@@ -1,8 +1,20 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-11-16T18:23:30.434Z",
-  "sourceNewsGeneratedAt": "2026-11-16T18:22:48.947Z",
+  "generatedAt": "2026-11-20T03:05:28.811Z",
+  "sourceNewsGeneratedAt": "2026-11-20T03:04:52.506Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "d-awards-08fa00912b",
+        "title": "D Awardsに出演決定！",
+        "date": "2026.11.20",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-41e229d219da8066b0b2fe08fa00912b-486f792ba77d.jpg",
+        "text": "2027年1月15日,16日に開催されるD AwardsにRESCENEが出演決定しました！",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "notion-news-61587e9e36",
         "title": "ミナミが日本地上波ドラマで挿入歌に参加が決定！",
@@ -26,17 +38,46 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "同じカテゴリー"
         ]
+      }
+    ],
+    "d-awards-08fa00912b": [
+      {
+        "slug": "2026-mama-awards-caaa5f7b37",
+        "title": "2026 MAMA AWARDSに出演決定！",
+        "date": "2026.10.13",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
+        "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
+        "score": 15,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
       },
       {
-        "slug": "with-3-1-7638c26f44",
-        "title": "「With」で3度目の1位を獲得！",
-        "date": "2026.11.14",
-        "label": "9th WIN",
-        "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-402c9f0634cc.jpg",
-        "text": "2026年11月14日放送のMBC「SHOW!音楽中心」で、「With」で3度目の1位を獲得しました。",
-        "score": 5,
+        "slug": "melon-music-awards-2026-mma-a5ddba3cc6",
+        "title": "Melon Music Awards 2026(MMA)に出演が決定！",
+        "date": "2026.09.21",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3e2229d219da803b9cb9f0a5ddba3cc6-8cc08e70975e.jpg",
+        "text": "2026年11月14日,15日に開催されるMelon Music Awards 2026(MMA)にRESCENEが出演決定しました！",
+        "score": 14,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "spotv-k-pop-awards-ska-53085d0039",
+        "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
+        "date": "2026.07.31",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
+        "text": "2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)にRESCENEが出演決定しました！",
+        "score": 14,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
         ]
       }
     ],
@@ -171,6 +212,19 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "mma2026-3-c2a1da2460": [
       {
+        "slug": "d-awards-08fa00912b",
+        "title": "D Awardsに出演決定！",
+        "date": "2026.11.20",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-41e229d219da8066b0b2fe08fa00912b-486f792ba77d.jpg",
+        "text": "2027年1月15日,16日に開催されるD AwardsにRESCENEが出演決定しました！",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
         "slug": "2026-kgma-4-76cbf9c655",
         "title": "2026 KGMAにて4つの賞を受賞！",
         "date": "2026.11.07",
@@ -191,19 +245,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
         "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
         "score": 11,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード"
-        ]
-      },
-      {
-        "slug": "melon-music-awards-2026-mma-a5ddba3cc6",
-        "title": "Melon Music Awards 2026(MMA)に出演が決定！",
-        "date": "2026.09.21",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3e2229d219da803b9cb9f0a5ddba3cc6-8cc08e70975e.jpg",
-        "text": "2026年11月14日,15日に開催されるMelon Music Awards 2026(MMA)にRESCENEが出演決定しました！",
-        "score": 10,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
@@ -425,6 +466,18 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "rescene-official-light-stick-v2-8a21df0051": [
       {
+        "slug": "d-awards-08fa00912b",
+        "title": "D Awardsに出演決定！",
+        "date": "2026.11.20",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-41e229d219da8066b0b2fe08fa00912b-486f792ba77d.jpg",
+        "text": "2027年1月15日,16日に開催されるD AwardsにRESCENEが出演決定しました！",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "notion-news-61587e9e36",
         "title": "ミナミが日本地上波ドラマで挿入歌に参加が決定！",
         "date": "2026.11.16",
@@ -443,18 +496,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "10th WIN",
         "image": "assets/news/notion/notion-419229d219da803ab26bca10fc9578be-c9901004ba52.jpg",
         "text": "2026年11月15日放送のSBS「人気歌謡」で、「With」で4度目の1位を獲得しました。",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "with-3-1-7638c26f44",
-        "title": "「With」で3度目の1位を獲得！",
-        "date": "2026.11.14",
-        "label": "9th WIN",
-        "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-402c9f0634cc.jpg",
-        "text": "2026年11月14日放送のMBC「SHOW!音楽中心」で、「With」で3度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -503,6 +544,19 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "2026-mama-awards-caaa5f7b37": [
       {
+        "slug": "d-awards-08fa00912b",
+        "title": "D Awardsに出演決定！",
+        "date": "2026.11.20",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-41e229d219da8066b0b2fe08fa00912b-486f792ba77d.jpg",
+        "text": "2027年1月15日,16日に開催されるD AwardsにRESCENEが出演決定しました！",
+        "score": 15,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
         "slug": "melon-music-awards-2026-mma-a5ddba3cc6",
         "title": "Melon Music Awards 2026(MMA)に出演が決定！",
         "date": "2026.09.21",
@@ -522,19 +576,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "An award ceremony",
         "image": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
         "text": "2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)にRESCENEが出演決定しました！",
-        "score": 14,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード"
-        ]
-      },
-      {
-        "slug": "asia-artist-awards-aaa-ddf38a6d89",
-        "title": "Asia Artist Awards(AAA)に出演が決定！",
-        "date": "2026.07.30",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3ae229d219da800391fad8ddf38a6d89-5f31c4e2cc30.jpg",
-        "text": "2026年12月5日,6日に開催されるAsia Artist Awards(AAA)にRESCENEが出演決定しました！",
         "score": 14,
         "reasons": [
           "同じカテゴリー",
@@ -695,12 +736,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "spotv-k-pop-awards-ska-53085d0039",
-        "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
-        "date": "2026.07.31",
+        "slug": "d-awards-08fa00912b",
+        "title": "D Awardsに出演決定！",
+        "date": "2026.11.20",
         "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
-        "text": "2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)にRESCENEが出演決定しました！",
+        "image": "assets/news/notion/notion-41e229d219da8066b0b2fe08fa00912b-486f792ba77d.jpg",
+        "text": "2027年1月15日,16日に開催されるD AwardsにRESCENEが出演決定しました！",
         "score": 14,
         "reasons": [
           "同じカテゴリー",
@@ -1158,12 +1199,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "2026-mama-awards-caaa5f7b37",
-        "title": "2026 MAMA AWARDSに出演決定！",
-        "date": "2026.10.13",
+        "slug": "d-awards-08fa00912b",
+        "title": "D Awardsに出演決定！",
+        "date": "2026.11.20",
         "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
-        "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
+        "image": "assets/news/notion/notion-41e229d219da8066b0b2fe08fa00912b-486f792ba77d.jpg",
+        "text": "2027年1月15日,16日に開催されるD AwardsにRESCENEが出演決定しました！",
         "score": 14,
         "reasons": [
           "同じカテゴリー",
@@ -1409,12 +1450,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "2026-mama-awards-caaa5f7b37",
-        "title": "2026 MAMA AWARDSに出演決定！",
-        "date": "2026.10.13",
+        "slug": "d-awards-08fa00912b",
+        "title": "D Awardsに出演決定！",
+        "date": "2026.11.20",
         "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
-        "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
+        "image": "assets/news/notion/notion-41e229d219da8066b0b2fe08fa00912b-486f792ba77d.jpg",
+        "text": "2027年1月15日,16日に開催されるD AwardsにRESCENEが出演決定しました！",
         "score": 14,
         "reasons": [
           "同じカテゴリー",
@@ -2214,6 +2255,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "d-awards-08fa00912b",
+      "date": "2026.11.20",
+      "title": "D Awardsに出演決定！",
+      "url": "https://rescene-fb.jp/articles/d-awards-08fa00912b.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.11.20】 D Awardsに出演決定！\n\nhttps://rescene-fb.jp/articles/d-awards-08fa00912b.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "D Awardsに出演決定！\n2027年1月15日,16日に開催されるD AwardsにRESCENEが出演決定しました！",
+      "charCount": 105
     },
     {
       "slug": "notion-news-61587e9e36",

@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "d-awards-08fa00912b",
+    "date": "2026.11.20",
+    "category": "notice",
+    "categoryName": "授賞式",
+    "label": "An award ceremony",
+    "title": "D Awardsに出演決定！",
+    "text": "2027年1月15日,16日に開催されるD AwardsにRESCENEが出演決定しました！",
+    "body": "2027年1月15日,16日に開催されるD AwardsにRESCENEが出演決定しました！\nD AwardはパリのPlenitude Arenaで開催されるKｰPOPの授賞式。",
+    "image": "assets/news/notion/notion-41e229d219da8066b0b2fe08fa00912b-486f792ba77d.jpg",
+    "sourceLink": "https://d-awards.world/",
+    "sourceLabel": "公式サイトを見る",
+    "translations": {},
+    "notionPageId": "41e229d2-19da-8066-b0b2-fe08fa00912b",
+    "notionUrl": "https://app.notion.com/p/D-Awards-41e229d219da8066b0b2fe08fa00912b"
+  },
+  {
     "slug": "notion-news-61587e9e36",
     "date": "2026.11.16",
     "category": "notice",
