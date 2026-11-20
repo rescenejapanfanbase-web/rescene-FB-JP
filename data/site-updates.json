@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-20T12:44:48.610033+00:00",
+  "generatedAt": "2026-11-20T16:56:00.033850+00:00",
   "items": [
     {
       "date": "2026-11-20",
       "title": "feat: publish Notion-synced RESCENE awards page",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "f576f07",
+      "commit": "3d8dcbb",
       "files": [
         "articles/2026-0c5361a8a6.html",
         "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
@@ -46,16 +46,25 @@
       "date": "2026-11-20",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "3f69a9b",
+      "commit": "57043c5",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
-        "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
-        "articles/2026-mama-awards-caaa5f7b37.html",
-        "articles/asia-artist-awards-aaa-ddf38a6d89.html",
-        "articles/d-awards-08fa00912b.html",
-        "articles/fanbase-site.html",
-        "articles/melon-music-awards-2026-mma-a5ddba3cc6.html",
-        "articles/mma2026-3-c2a1da2460.html"
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/mv-data.js",
+        "data/mv.json",
+        "data/quality-report.json"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "title": "chore: critical YouTube sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "4177622",
+      "files": [
+        "data/youtube-channels.json"
       ]
     },
     {
