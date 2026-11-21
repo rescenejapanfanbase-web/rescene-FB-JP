@@ -1,11 +1,11 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-21T20:28:28.602244+00:00",
+  "generatedAt": "2026-11-21T23:06:46.911164+00:00",
   "items": [
     {
       "date": "2026-11-21",
       "title": "feat: publish Notion-synced RESCENE awards page",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "78ba6b3",
+      "commit": "c7ed4c8",
       "files": [
         "articles/2026-0c5361a8a6.html",
         "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
@@ -46,16 +46,16 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-21",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "9614589",
+      "commit": "64ad689",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/quality-report.json",
-        "data/seo-status.json",
-        "data/site-updates-data.js"
+        "assets/mv/youtube/0ifssWwxVhc.jpg",
+        "assets/mv/youtube/4h0SE9m3IoU.jpg",
+        "assets/mv/youtube/638f3ttCR20.jpg",
+        "assets/mv/youtube/6tTsZnKysBc.jpg",
+        "assets/mv/youtube/Gu_4J16N2fY.jpg",
+        "assets/mv/youtube/QN7V87Hzmr8.jpg",
+        "assets/mv/youtube/WNl67k6StWY.jpg"
       ]
     },
     {
