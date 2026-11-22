@@ -1,5 +1,5 @@
 window.RESCENE_RECORDS = {
-  "generatedAt": "2026-11-15T11:19:22.392Z",
+  "generatedAt": "2026-11-22T08:03:27.874Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -143,6 +143,20 @@ window.RESCENE_RECORDS = {
       "translations": {},
       "notionPageId": "419229d2-19da-8085-8cfa-d35d258f007a",
       "notionUrl": "https://app.notion.com/p/2026-11-15-With-419229d219da80858cfad35d258f007a"
+    },
+    {
+      "title": "2026.11.22 With — 人気歌謡",
+      "song": "With",
+      "date": "2026-11-22",
+      "program": "人気歌謡",
+      "description": "2026年11月22日放送の人気歌謡にてWithで5冠目の1位を獲得。グループ通算11冠目。",
+      "videoUrl": "",
+      "videoLabel": "",
+      "image": "assets/records/notion/record-420229d219da802d895dffcf58240e31-81e2815fe097.jpg",
+      "order": 9999,
+      "translations": {},
+      "notionPageId": "420229d2-19da-802d-895d-ffcf58240e31",
+      "notionUrl": "https://app.notion.com/p/2026-11-22-With-420229d219da802d895dffcf58240e31"
     }
   ],
   "melonRecords": [
