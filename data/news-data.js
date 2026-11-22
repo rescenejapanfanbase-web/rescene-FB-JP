@@ -27,6 +27,22 @@ window.RESCENE_NEWS = [
     "notionUrl": "https://app.notion.com/p/With-5-1-420229d219da80848552d120030fbec6"
   },
   {
+    "slug": "2026-mama-awards-best-of-next-08243c1f63",
+    "date": "2026.11.20",
+    "category": "notice",
+    "categoryName": "授賞式",
+    "label": "Award",
+    "title": "2026 MAMA AWARDSにて｢BEST OF NEXT賞｣を受賞！",
+    "text": "2026年11月20日に開催された2026 MAMA AWARDSで｢BEST OF NEXT賞｣を受賞しました！",
+    "body": "2026年11月20日に開催された2026 MAMA AWARDSで｢BEST OF NEXT賞｣を受賞しました！",
+    "image": "assets/news/notion/notion-41e229d219da80419eabfd08243c1f63-549bc08ccb81.jpg",
+    "sourceLink": "https://youtu.be/XW0jCabK8vU?si=OQ6pQvi4WgtbcM3a",
+    "sourceLabel": "ステージ映像を見る",
+    "translations": {},
+    "notionPageId": "41e229d2-19da-8041-9eab-fd08243c1f63",
+    "notionUrl": "https://app.notion.com/p/2026-MAMA-AWARDS-BEST-OF-NEXT-41e229d219da80419eabfd08243c1f63"
+  },
+  {
     "slug": "d-awards-08fa00912b",
     "date": "2026.11.20",
     "category": "notice",

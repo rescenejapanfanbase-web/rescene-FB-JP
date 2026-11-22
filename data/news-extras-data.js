@@ -1,6 +1,6 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-11-22T08:00:27.446Z",
-  "sourceNewsGeneratedAt": "2026-11-22T07:59:53.152Z",
+  "generatedAt": "2026-11-22T10:18:05.791Z",
+  "sourceNewsGeneratedAt": "2026-11-22T10:17:26.433Z",
   "related": {
     "fanbase-site": [
       {
@@ -16,24 +16,24 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "d-awards-08fa00912b",
-        "title": "D Awardsに出演決定！",
+        "slug": "2026-mama-awards-best-of-next-08243c1f63",
+        "title": "2026 MAMA AWARDSにて｢BEST OF NEXT賞｣を受賞！",
         "date": "2026.11.20",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-41e229d219da8066b0b2fe08fa00912b-486f792ba77d.jpg",
-        "text": "2027年1月15日,16日に開催されるD AwardsにRESCENEが出演決定しました！",
+        "label": "Award",
+        "image": "assets/news/notion/notion-41e229d219da80419eabfd08243c1f63-549bc08ccb81.jpg",
+        "text": "2026年11月20日に開催された2026 MAMA AWARDSで｢BEST OF NEXT賞｣を受賞しました！",
         "score": 5,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "notion-news-61587e9e36",
-        "title": "ミナミが日本地上波ドラマで挿入歌に参加が決定！",
-        "date": "2026.11.16",
-        "label": "OST",
-        "image": "assets/news/notion/notion-41a229d219da8071969af161587e9e36-26a9337c4eae.jpg",
-        "text": "ミナミが日本地上波ドラマで挿入歌に参加が決定しました！",
+        "slug": "d-awards-08fa00912b",
+        "title": "D Awardsに出演決定！",
+        "date": "2026.11.20",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-41e229d219da8066b0b2fe08fa00912b-486f792ba77d.jpg",
+        "text": "2027年1月15日,16日に開催されるD AwardsにRESCENEが出演決定しました！",
         "score": 5,
         "reasons": [
           "同じカテゴリー"
@@ -81,6 +81,47 @@ window.RESCENE_NEWS_EXTRAS = {
           "同じカテゴリー",
           "共通キーワード",
           "同じ作品"
+        ]
+      }
+    ],
+    "2026-mama-awards-best-of-next-08243c1f63": [
+      {
+        "slug": "2026-kgma-4-76cbf9c655",
+        "title": "2026 KGMAにて4つの賞を受賞！",
+        "date": "2026.11.07",
+        "label": "Award",
+        "image": "assets/news/notion/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88c095.jpg",
+        "text": "2026年11月7日に開催された2026KGMAで4つの賞を受賞しました！",
+        "score": 15,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "2026-mama-awards-caaa5f7b37",
+        "title": "2026 MAMA AWARDSに出演決定！",
+        "date": "2026.10.13",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
+        "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
+        "score": 15,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
+        "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
+        "date": "2026.09.19",
+        "label": "Award",
+        "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
+        "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
+        "score": 14,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
         ]
       }
     ],
@@ -256,6 +297,19 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "mma2026-3-c2a1da2460": [
       {
+        "slug": "2026-mama-awards-best-of-next-08243c1f63",
+        "title": "2026 MAMA AWARDSにて｢BEST OF NEXT賞｣を受賞！",
+        "date": "2026.11.20",
+        "label": "Award",
+        "image": "assets/news/notion/notion-41e229d219da80419eabfd08243c1f63-549bc08ccb81.jpg",
+        "text": "2026年11月20日に開催された2026 MAMA AWARDSで｢BEST OF NEXT賞｣を受賞しました！",
+        "score": 11,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
         "slug": "d-awards-08fa00912b",
         "title": "D Awardsに出演決定！",
         "date": "2026.11.20",
@@ -275,19 +329,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "Award",
         "image": "assets/news/notion/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88c095.jpg",
         "text": "2026年11月7日に開催された2026KGMAで4つの賞を受賞しました！",
-        "score": 11,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード"
-        ]
-      },
-      {
-        "slug": "2026-mama-awards-caaa5f7b37",
-        "title": "2026 MAMA AWARDSに出演決定！",
-        "date": "2026.10.13",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3f8229d219da80f1a216e8caaa5f7b37-97631d523ccd.jpg",
-        "text": "2026年11月20日,21日に開催される2026 MAMA AWARDSにRESCENEが出演決定しました！",
         "score": 11,
         "reasons": [
           "同じカテゴリー",
@@ -425,6 +466,19 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "2026-kgma-4-76cbf9c655": [
       {
+        "slug": "2026-mama-awards-best-of-next-08243c1f63",
+        "title": "2026 MAMA AWARDSにて｢BEST OF NEXT賞｣を受賞！",
+        "date": "2026.11.20",
+        "label": "Award",
+        "image": "assets/news/notion/notion-41e229d219da80419eabfd08243c1f63-549bc08ccb81.jpg",
+        "text": "2026年11月20日に開催された2026 MAMA AWARDSで｢BEST OF NEXT賞｣を受賞しました！",
+        "score": 15,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
         "slug": "2026-mama-awards-caaa5f7b37",
         "title": "2026 MAMA AWARDSに出演決定！",
         "date": "2026.10.13",
@@ -444,19 +498,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "An award ceremony",
         "image": "assets/news/notion/notion-3e2229d219da803b9cb9f0a5ddba3cc6-8cc08e70975e.jpg",
         "text": "2026年11月14日,15日に開催されるMelon Music Awards 2026(MMA)にRESCENEが出演決定しました！",
-        "score": 12,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード"
-        ]
-      },
-      {
-        "slug": "2026-the-fact-music-awards-tma-2-48edbe72f9",
-        "title": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！",
-        "date": "2026.09.19",
-        "label": "Award",
-        "image": "assets/news/notion/notion-3e0229d219da809e90ccc748edbe72f9-e125d14d647c.jpg",
-        "text": "2026年9月19日に開催された2026 TMAにて2つの賞を受賞しました！",
         "score": 12,
         "reasons": [
           "同じカテゴリー",
@@ -522,24 +563,24 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "d-awards-08fa00912b",
-        "title": "D Awardsに出演決定！",
+        "slug": "2026-mama-awards-best-of-next-08243c1f63",
+        "title": "2026 MAMA AWARDSにて｢BEST OF NEXT賞｣を受賞！",
         "date": "2026.11.20",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-41e229d219da8066b0b2fe08fa00912b-486f792ba77d.jpg",
-        "text": "2027年1月15日,16日に開催されるD AwardsにRESCENEが出演決定しました！",
+        "label": "Award",
+        "image": "assets/news/notion/notion-41e229d219da80419eabfd08243c1f63-549bc08ccb81.jpg",
+        "text": "2026年11月20日に開催された2026 MAMA AWARDSで｢BEST OF NEXT賞｣を受賞しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
         ]
       },
       {
-        "slug": "notion-news-61587e9e36",
-        "title": "ミナミが日本地上波ドラマで挿入歌に参加が決定！",
-        "date": "2026.11.16",
-        "label": "OST",
-        "image": "assets/news/notion/notion-41a229d219da8071969af161587e9e36-26a9337c4eae.jpg",
-        "text": "ミナミが日本地上波ドラマで挿入歌に参加が決定しました！",
+        "slug": "d-awards-08fa00912b",
+        "title": "D Awardsに出演決定！",
+        "date": "2026.11.20",
+        "label": "An award ceremony",
+        "image": "assets/news/notion/notion-41e229d219da8066b0b2fe08fa00912b-486f792ba77d.jpg",
+        "text": "2027年1月15日,16日に開催されるD AwardsにRESCENEが出演決定しました！",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -588,6 +629,19 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "2026-mama-awards-caaa5f7b37": [
       {
+        "slug": "2026-mama-awards-best-of-next-08243c1f63",
+        "title": "2026 MAMA AWARDSにて｢BEST OF NEXT賞｣を受賞！",
+        "date": "2026.11.20",
+        "label": "Award",
+        "image": "assets/news/notion/notion-41e229d219da80419eabfd08243c1f63-549bc08ccb81.jpg",
+        "text": "2026年11月20日に開催された2026 MAMA AWARDSで｢BEST OF NEXT賞｣を受賞しました！",
+        "score": 15,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
         "slug": "d-awards-08fa00912b",
         "title": "D Awardsに出演決定！",
         "date": "2026.11.20",
@@ -608,19 +662,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "image": "assets/news/notion/notion-3e2229d219da803b9cb9f0a5ddba3cc6-8cc08e70975e.jpg",
         "text": "2026年11月14日,15日に開催されるMelon Music Awards 2026(MMA)にRESCENEが出演決定しました！",
         "score": 15,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード"
-        ]
-      },
-      {
-        "slug": "spotv-k-pop-awards-ska-53085d0039",
-        "title": "SPOTV K-POP AWARDS(SKA)に出演が決定！",
-        "date": "2026.07.31",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3ae229d219da80b6b2d5ce53085d0039-ab344cb473fe.jpg",
-        "text": "2026年9月6日に開催されるSPOTV K-POP AWARDS(SKA)にRESCENEが出演決定しました！",
-        "score": 14,
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
@@ -821,12 +862,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "2026-k-world-dream-awards-kwda-fec5375c61",
-        "title": "2026 K-WORLD DREAM AWARDS(KWDA)に出演が決定！",
-        "date": "2026.07.20",
-        "label": "An award ceremony",
-        "image": "assets/news/notion/notion-3ae229d219da805283b1d5fec5375c61-e3dc347adb43.jpg",
-        "text": "2026年8月27日に開催されるK-WORLD DREAM AWARDS(KWDA)にRESCENEが出演決定しました！",
+        "slug": "2026-mama-awards-best-of-next-08243c1f63",
+        "title": "2026 MAMA AWARDSにて｢BEST OF NEXT賞｣を受賞！",
+        "date": "2026.11.20",
+        "label": "Award",
+        "image": "assets/news/notion/notion-41e229d219da80419eabfd08243c1f63-549bc08ccb81.jpg",
+        "text": "2026年11月20日に開催された2026 MAMA AWARDSで｢BEST OF NEXT賞｣を受賞しました！",
         "score": 14,
         "reasons": [
           "同じカテゴリー",
@@ -2309,6 +2350,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【2026.11.22】 「With」で5度目の1位を獲得！\n\nhttps://rescene-fb.jp/articles/with-5-1-20030fbec6.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "「With」で5度目の1位を獲得！\n2026年11月22日放送のSBS「人気歌謡」で、「With」で5度目の1位を獲得しました。",
       "charCount": 108
+    },
+    {
+      "slug": "2026-mama-awards-best-of-next-08243c1f63",
+      "date": "2026.11.20",
+      "title": "2026 MAMA AWARDSにて｢BEST OF NEXT賞｣を受賞！",
+      "url": "https://rescene-fb.jp/articles/2026-mama-awards-best-of-next-08243c1f63.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.11.20】 2026 MAMA AWARDSにて｢BEST OF NEXT賞｣を受賞！\n\nhttps://rescene-fb.jp/articles/2026-mama-awards-best-of-next-08243c1f63.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "2026 MAMA AWARDSにて｢BEST OF NEXT賞｣を受賞！\n2026年11月20日に開催された2026 MAMA AWARDSで｢BEST OF NEXT賞｣を受賞しました！",
+      "charCount": 149
     },
     {
       "slug": "d-awards-08fa00912b",

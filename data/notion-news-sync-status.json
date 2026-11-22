@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-22T07:59:53.152Z",
+  "generatedAt": "2026-11-22T10:17:26.433Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 36,
-  "notionNews": 36,
-  "notionImages": 35,
+  "queriedPages": 37,
+  "notionNews": 37,
+  "notionImages": 36,
   "rows": [
     {
       "title": "「With」で5度目の1位を獲得！",
@@ -14,6 +14,17 @@
       "imageFilename": "3D62EEEE-090F-4C58-A871-FBD2E17D6628.heic",
       "imagePath": "assets/news/notion/notion-420229d219da80848552d120030fbec6-81e2815fe097.jpg",
       "imageBytes": 206105,
+      "imageContentType": "image/jpeg"
+    },
+    {
+      "title": "2026 MAMA AWARDSにて｢BEST OF NEXT賞｣を受賞！",
+      "pageId": "41e229d2-19da-8041-9eab-fd08243c1f63",
+      "lastEditedTime": "2026-11-22T10:16:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "7855DB1F-26D9-43EE-964D-5947A9CD1019.jpeg",
+      "imagePath": "assets/news/notion/notion-41e229d219da80419eabfd08243c1f63-549bc08ccb81.jpg",
+      "imageBytes": 364815,
       "imageContentType": "image/jpeg"
     },
     {
