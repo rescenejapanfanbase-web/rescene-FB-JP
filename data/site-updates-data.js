@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-22T06:34:34.502931+00:00",
+  "generatedAt": "2026-11-22T08:00:27.528345+00:00",
   "items": [
     {
       "date": "2026-11-22",
@@ -72,15 +72,6 @@ window.RESCENE_SITE_UPDATES = {
         "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html",
         "articles/2026-sbs-f6b8857108.html",
         "articles/2026-the-fact-music-awards-tma-2-48edbe72f9.html"
-      ]
-    },
-    {
-      "date": "2026-11-21",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "36548e1",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {

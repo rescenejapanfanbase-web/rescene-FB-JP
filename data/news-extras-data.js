@@ -1,8 +1,20 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-11-20T03:05:28.811Z",
-  "sourceNewsGeneratedAt": "2026-11-20T03:04:52.506Z",
+  "generatedAt": "2026-11-22T08:00:27.446Z",
+  "sourceNewsGeneratedAt": "2026-11-22T07:59:53.152Z",
   "related": {
     "fanbase-site": [
+      {
+        "slug": "with-5-1-20030fbec6",
+        "title": "「With」で5度目の1位を獲得！",
+        "date": "2026.11.22",
+        "label": "11th WIN",
+        "image": "assets/news/notion/notion-420229d219da80848552d120030fbec6-81e2815fe097.jpg",
+        "text": "2026年11月22日放送のSBS「人気歌謡」で、「With」で5度目の1位を獲得しました。",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
       {
         "slug": "d-awards-08fa00912b",
         "title": "D Awardsに出演決定！",
@@ -26,7 +38,9 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "同じカテゴリー"
         ]
-      },
+      }
+    ],
+    "with-5-1-20030fbec6": [
       {
         "slug": "with-4-1-10fc9578be",
         "title": "「With」で4度目の1位を獲得！",
@@ -34,9 +48,39 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "10th WIN",
         "image": "assets/news/notion/notion-419229d219da803ab26bca10fc9578be-c9901004ba52.jpg",
         "text": "2026年11月15日放送のSBS「人気歌謡」で、「With」で4度目の1位を獲得しました。",
-        "score": 5,
+        "score": 18,
         "reasons": [
-          "同じカテゴリー"
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "with-3-1-7638c26f44",
+        "title": "「With」で3度目の1位を獲得！",
+        "date": "2026.11.14",
+        "label": "9th WIN",
+        "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-402c9f0634cc.jpg",
+        "text": "2026年11月14日放送のMBC「SHOW!音楽中心」で、「With」で3度目の1位を獲得しました。",
+        "score": 16,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
+        "slug": "with-2-1-e431b66922",
+        "title": "「With」で2度目の1位を獲得！",
+        "date": "2026.11.11",
+        "label": "8th WIN",
+        "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-5bb6d55c25ec.jpg",
+        "text": "2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。",
+        "score": 16,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
         ]
       }
     ],
@@ -124,6 +168,20 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "with-4-1-10fc9578be": [
       {
+        "slug": "with-5-1-20030fbec6",
+        "title": "「With」で5度目の1位を獲得！",
+        "date": "2026.11.22",
+        "label": "11th WIN",
+        "image": "assets/news/notion/notion-420229d219da80848552d120030fbec6-81e2815fe097.jpg",
+        "text": "2026年11月22日放送のSBS「人気歌謡」で、「With」で5度目の1位を獲得しました。",
+        "score": 18,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード",
+          "同じ作品"
+        ]
+      },
+      {
         "slug": "with-3-1-7638c26f44",
         "title": "「With」で3度目の1位を獲得！",
         "date": "2026.11.14",
@@ -144,20 +202,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "8th WIN",
         "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-5bb6d55c25ec.jpg",
         "text": "2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。",
-        "score": 16,
-        "reasons": [
-          "同じカテゴリー",
-          "共通キーワード",
-          "同じ作品"
-        ]
-      },
-      {
-        "slug": "with-1-d9daa3489d",
-        "title": "「With」で初の1位を獲得！",
-        "date": "2026.11.10",
-        "label": "7th WIN",
-        "image": "assets/news/notion/notion-414229d219da801b9118ced9daa3489d-f2300f6238a9.jpg",
-        "text": "2026年11月10日放送のSBS Life「THE SHOW」で、\n｢With｣で初の1位を獲得しました。",
         "score": 16,
         "reasons": [
           "同じカテゴリー",
@@ -196,12 +240,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "with-4-1-10fc9578be",
-        "title": "「With」で4度目の1位を獲得！",
-        "date": "2026.11.15",
-        "label": "10th WIN",
-        "image": "assets/news/notion/notion-419229d219da803ab26bca10fc9578be-c9901004ba52.jpg",
-        "text": "2026年11月15日放送のSBS「人気歌謡」で、「With」で4度目の1位を獲得しました。",
+        "slug": "with-5-1-20030fbec6",
+        "title": "「With」で5度目の1位を獲得！",
+        "date": "2026.11.22",
+        "label": "11th WIN",
+        "image": "assets/news/notion/notion-420229d219da80848552d120030fbec6-81e2815fe097.jpg",
+        "text": "2026年11月22日放送のSBS「人気歌謡」で、「With」で5度目の1位を獲得しました。",
         "score": 16,
         "reasons": [
           "同じカテゴリー",
@@ -281,12 +325,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "with-4-1-10fc9578be",
-        "title": "「With」で4度目の1位を獲得！",
-        "date": "2026.11.15",
-        "label": "10th WIN",
-        "image": "assets/news/notion/notion-419229d219da803ab26bca10fc9578be-c9901004ba52.jpg",
-        "text": "2026年11月15日放送のSBS「人気歌謡」で、「With」で4度目の1位を獲得しました。",
+        "slug": "with-5-1-20030fbec6",
+        "title": "「With」で5度目の1位を獲得！",
+        "date": "2026.11.22",
+        "label": "11th WIN",
+        "image": "assets/news/notion/notion-420229d219da80848552d120030fbec6-81e2815fe097.jpg",
+        "text": "2026年11月22日放送のSBS「人気歌謡」で、「With」で5度目の1位を獲得しました。",
         "score": 16,
         "reasons": [
           "同じカテゴリー",
@@ -365,12 +409,12 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "with-4-1-10fc9578be",
-        "title": "「With」で4度目の1位を獲得！",
-        "date": "2026.11.15",
-        "label": "10th WIN",
-        "image": "assets/news/notion/notion-419229d219da803ab26bca10fc9578be-c9901004ba52.jpg",
-        "text": "2026年11月15日放送のSBS「人気歌謡」で、「With」で4度目の1位を獲得しました。",
+        "slug": "with-5-1-20030fbec6",
+        "title": "「With」で5度目の1位を獲得！",
+        "date": "2026.11.22",
+        "label": "11th WIN",
+        "image": "assets/news/notion/notion-420229d219da80848552d120030fbec6-81e2815fe097.jpg",
+        "text": "2026年11月22日放送のSBS「人気歌謡」で、「With」で5度目の1位を獲得しました。",
         "score": 16,
         "reasons": [
           "同じカテゴリー",
@@ -466,6 +510,18 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "rescene-official-light-stick-v2-8a21df0051": [
       {
+        "slug": "with-5-1-20030fbec6",
+        "title": "「With」で5度目の1位を獲得！",
+        "date": "2026.11.22",
+        "label": "11th WIN",
+        "image": "assets/news/notion/notion-420229d219da80848552d120030fbec6-81e2815fe097.jpg",
+        "text": "2026年11月22日放送のSBS「人気歌謡」で、「With」で5度目の1位を獲得しました。",
+        "score": 7,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "d-awards-08fa00912b",
         "title": "D Awardsに出演決定！",
         "date": "2026.11.20",
@@ -484,18 +540,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "OST",
         "image": "assets/news/notion/notion-41a229d219da8071969af161587e9e36-26a9337c4eae.jpg",
         "text": "ミナミが日本地上波ドラマで挿入歌に参加が決定しました！",
-        "score": 7,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "with-4-1-10fc9578be",
-        "title": "「With」で4度目の1位を獲得！",
-        "date": "2026.11.15",
-        "label": "10th WIN",
-        "image": "assets/news/notion/notion-419229d219da803ab26bca10fc9578be-c9901004ba52.jpg",
-        "text": "2026年11月15日放送のSBS「人気歌謡」で、「With」で4度目の1位を獲得しました。",
         "score": 7,
         "reasons": [
           "同じカテゴリー"
@@ -585,6 +629,19 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "rescene-4th-mini-album-pulse-a7a231ff6f": [
       {
+        "slug": "with-5-1-20030fbec6",
+        "title": "「With」で5度目の1位を獲得！",
+        "date": "2026.11.22",
+        "label": "11th WIN",
+        "image": "assets/news/notion/notion-420229d219da80848552d120030fbec6-81e2815fe097.jpg",
+        "text": "2026年11月22日放送のSBS「人気歌謡」で、「With」で5度目の1位を獲得しました。",
+        "score": 14,
+        "reasons": [
+          "同じカテゴリー",
+          "同じ作品"
+        ]
+      },
+      {
         "slug": "with-4-1-10fc9578be",
         "title": "「With」で4度目の1位を獲得！",
         "date": "2026.11.15",
@@ -604,19 +661,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "9th WIN",
         "image": "assets/news/notion/notion-418229d219da80abb26dc57638c26f44-402c9f0634cc.jpg",
         "text": "2026年11月14日放送のMBC「SHOW!音楽中心」で、「With」で3度目の1位を獲得しました。",
-        "score": 14,
-        "reasons": [
-          "同じカテゴリー",
-          "同じ作品"
-        ]
-      },
-      {
-        "slug": "with-2-1-e431b66922",
-        "title": "「With」で2度目の1位を獲得！",
-        "date": "2026.11.11",
-        "label": "8th WIN",
-        "image": "assets/news/notion/notion-414229d219da80f4a83bf3e431b66922-5bb6d55c25ec.jpg",
-        "text": "2026年11月11日放送のMBC M「SHOW CHAMPION」で、\n｢With｣で2度目の1位を獲得しました。",
         "score": 14,
         "reasons": [
           "同じカテゴリー",
@@ -2255,6 +2299,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "with-5-1-20030fbec6",
+      "date": "2026.11.22",
+      "title": "「With」で5度目の1位を獲得！",
+      "url": "https://rescene-fb.jp/articles/with-5-1-20030fbec6.html",
+      "hashtags": "#RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.11.22】 「With」で5度目の1位を獲得！\n\nhttps://rescene-fb.jp/articles/with-5-1-20030fbec6.html\n\n#RESCENE #리센느 #リセンヌ",
+      "lineText": "「With」で5度目の1位を獲得！\n2026年11月22日放送のSBS「人気歌謡」で、「With」で5度目の1位を獲得しました。",
+      "charCount": 108
     },
     {
       "slug": "d-awards-08fa00912b",

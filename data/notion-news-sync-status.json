@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-11-20T03:04:52.506Z",
+  "generatedAt": "2026-11-22T07:59:53.152Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 35,
-  "notionNews": 35,
-  "notionImages": 34,
+  "queriedPages": 36,
+  "notionNews": 36,
+  "notionImages": 35,
   "rows": [
+    {
+      "title": "「With」で5度目の1位を獲得！",
+      "pageId": "420229d2-19da-8084-8552-d120030fbec6",
+      "lastEditedTime": "2026-11-22T07:58:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "3D62EEEE-090F-4C58-A871-FBD2E17D6628.heic",
+      "imagePath": "assets/news/notion/notion-420229d219da80848552d120030fbec6-81e2815fe097.jpg",
+      "imageBytes": 206105,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "D Awardsに出演決定！",
       "pageId": "41e229d2-19da-8066-b0b2-fe08fa00912b",
