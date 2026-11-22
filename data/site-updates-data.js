@@ -1,6 +1,31 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-21T23:06:46.911164+00:00",
+  "generatedAt": "2026-11-22T02:05:19.229062+00:00",
   "items": [
+    {
+      "date": "2026-11-22",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "434c122",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "9e2e2c5",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/pluschat-schedule.json",
+        "data/rescene-schedule.ics",
+        "data/schedule-data.js",
+        "data/schedule.json",
+        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc"
+      ]
+    },
     {
       "date": "2026-11-21",
       "title": "feat: publish Notion-synced RESCENE awards page",
@@ -113,15 +138,6 @@ window.RESCENE_SITE_UPDATES = {
         "data/mv-data.js",
         "data/mv.json",
         "data/quality-report.json"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "f72fda6",
-      "files": [
-        "data/youtube-channels.json"
       ]
     },
     {
