@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T20:41:16.218729+00:00",
+  "generatedAt": "2026-11-22T23:34:05.236130+00:00",
   "items": [
     {
       "date": "2026-11-22",
@@ -46,16 +46,16 @@
       "date": "2026-11-22",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "9422f61",
+      "commit": "59ff0e1",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/quality-report.json"
+        "articles/2026-0c5361a8a6.html",
+        "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
+        "articles/2026-kgma-4-76cbf9c655.html",
+        "articles/2026-kwda-2-7f1dbcd366.html",
+        "articles/2026-mama-awards-best-of-next-08243c1f63.html",
+        "articles/2026-mama-awards-caaa5f7b37.html",
+        "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html"
       ]
     },
     {
@@ -63,47 +63,6 @@
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "a1ea19e",
-      "files": [
-        "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-11-21",
-      "title": "feat: publish Notion-synced RESCENE awards page",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "c7ed4c8",
-      "files": [
-        "articles/2026-0c5361a8a6.html",
-        "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
-        "articles/2026-kgma-4-76cbf9c655.html",
-        "articles/2026-kwda-2-7f1dbcd366.html",
-        "articles/2026-mama-awards-caaa5f7b37.html",
-        "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html",
-        "articles/2026-sbs-f6b8857108.html",
-        "articles/2026-the-fact-music-awards-tma-2-48edbe72f9.html"
-      ]
-    },
-    {
-      "date": "2026-11-21",
-      "title": "chore: critical full content sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "64ad689",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "assets/mv/youtube/0ifssWwxVhc.jpg",
-        "assets/mv/youtube/4h0SE9m3IoU.jpg",
-        "assets/mv/youtube/638f3ttCR20.jpg",
-        "assets/mv/youtube/6tTsZnKysBc.jpg",
-        "assets/mv/youtube/Gu_4J16N2fY.jpg",
-        "assets/mv/youtube/QN7V87Hzmr8.jpg",
-        "assets/mv/youtube/WNl67k6StWY.jpg"
-      ]
-    },
-    {
-      "date": "2026-11-21",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "44b7a1e",
       "files": [
         "data/youtube-channels.json"
       ]
