@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-22T00:37:05Z",
-  "startedAt": "2026-11-22T00:37:01Z",
-  "elapsedSeconds": 4.79,
+  "generatedAt": "2026-11-23T01:05:34Z",
+  "startedAt": "2026-11-23T01:05:28Z",
+  "elapsedSeconds": 5.8,
   "summary": {
-    "checked": 105,
-    "ok": 99,
+    "checked": 106,
+    "ok": 100,
     "warning": 6,
     "broken": 0,
     "hosts": 21
@@ -118,8 +118,8 @@
     {
       "key": "youtube",
       "label": "YouTube",
-      "checked": 21,
-      "ok": 21,
+      "checked": 22,
+      "ok": 22,
       "warning": 0,
       "broken": 0
     }
@@ -596,7 +596,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 524,
+          "line": 556,
           "label": "2026愛知・名古屋アジア競技大会の広報大使に任命！"
         }
       ]
@@ -619,7 +619,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 28,
+          "line": 60,
           "label": "D Awardsに出演決定！"
         }
       ]
@@ -642,7 +642,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 396,
+          "line": 428,
           "label": "RESCENE好きな曲アンケートを実施！"
         }
       ]
@@ -1029,7 +1029,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 236,
+          "line": 268,
           "label": "RESCENE 4th Mini Album『PULSE』の日本共同購入がスタート！"
         }
       ]
@@ -1160,7 +1160,7 @@
       "sources": [
         {
           "file": "data/schedule.json",
-          "line": 2378,
+          "line": 2416,
           "label": "와키윌리 팝업스토어"
         }
       ]
@@ -1188,7 +1188,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 630,
+          "line": 662,
           "label": "京畿道 高陽市 広報大使に任命"
         },
         {
@@ -1221,7 +1221,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 641,
+          "line": 673,
           "label": "慶尚北道 慶州市 広報大使に任命"
         },
         {
@@ -1254,7 +1254,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 652,
+          "line": 684,
           "label": "京畿道 水原市 広報大使に任命"
         },
         {
@@ -1287,7 +1287,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 663,
+          "line": 695,
           "label": "慶尚南道 巨済市 広報大使に任命"
         },
         {
@@ -1338,7 +1338,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 252,
+          "line": 284,
           "label": "LOVE ATTACKが韓国Spotifyチャートで第5世代ガールズグループ最多1位記録を樹立！"
         }
       ]
@@ -1369,7 +1369,7 @@
     {
       "url": "https://weibo.com/rescene",
       "normalizedUrl": "https://weibo.com/rescene",
-      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1795307824786&sudaref=",
+      "finalUrl": "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Frescene&domain=weibo.com&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0%20Safari%2F537.36%20RESCENE-Link-Checker%2F1.0&_rand=1795395933028&sudaref=",
       "service": "Weibo",
       "serviceKey": "weibo",
       "status": "ok",
@@ -1402,7 +1402,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 188,
+          "line": 220,
           "label": "RESCENE OFFICIAL LIGHT STICK V2 予約販売が開始！"
         }
       ]
@@ -1425,7 +1425,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 44,
+          "line": 76,
           "label": "ミナミが日本地上波ドラマで挿入歌に参加が決定！"
         }
       ]
@@ -1448,7 +1448,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 124,
+          "line": 156,
           "label": "RESCENE 初の単独コンサート開催決定！"
         }
       ]
@@ -1476,7 +1476,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 597,
+          "line": 629,
           "label": "「LOVE ATTACK」がSBS「人気歌謡」リアルタイム投票1位を獲得"
         },
         {
@@ -1504,7 +1504,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 156,
+          "line": 188,
           "label": "2026 KGMAにて4つの賞を受賞！"
         }
       ]
@@ -1527,7 +1527,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 556,
+          "line": 588,
           "label": "2026 K-WORLD DREAM AWARDS(KWDA)に出演が決定！"
         },
         {
@@ -1555,7 +1555,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 348,
+          "line": 380,
           "label": "2026 KWDAにて2つの賞を受賞！"
         }
       ]
@@ -1578,7 +1578,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 284,
+          "line": 316,
           "label": "Melon Music Awards 2026(MMA)に出演が決定！"
         }
       ]
@@ -1601,7 +1601,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 220,
+          "line": 252,
           "label": "2026 MAMA AWARDSに出演決定！"
         }
       ]
@@ -1624,7 +1624,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 268,
+          "line": 300,
           "label": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANに出演決定！"
         }
       ]
@@ -1652,7 +1652,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 696,
+          "line": 728,
           "label": "デビュー2周年広告プロジェクト"
         },
         {
@@ -1680,7 +1680,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 476,
+          "line": 508,
           "label": "｢LOVE ATTACK｣で初のRAKを達成！"
         }
       ]
@@ -1703,7 +1703,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 172,
+          "line": 204,
           "label": "｢With｣で初のRAKを達成！"
         }
       ]
@@ -1785,7 +1785,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 685,
+          "line": 717,
           "label": "RESCENE Debut 2nd Anniversary"
         },
         {
@@ -1831,12 +1831,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 508,
+          "line": 540,
           "label": "「Pretty Girl」で地上波音楽番組初の1位を獲得！"
         },
         {
           "file": "music-show-wins.html",
-          "line": 135,
+          "line": 142,
           "label": "メンバーのリアクションを見る ↗"
         }
       ]
@@ -1859,7 +1859,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 300,
+          "line": 332,
           "label": "2026 THE FACT MUSIC AWARDS (TMA)にて2つの賞を受賞！"
         }
       ]
@@ -1918,7 +1918,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 92,
+          "line": 124,
           "label": "MMA2026にて3つの賞を受賞！"
         }
       ]
@@ -1941,7 +1941,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 204,
+          "line": 236,
           "label": "2026 SBS 가요대전に出演決定！"
         }
       ]
@@ -1964,7 +1964,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 444,
+          "line": 476,
           "label": "SPOTV K-POP AWARDS(SKA)に出演が決定！"
         },
         {
@@ -1992,12 +1992,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 460,
+          "line": 492,
           "label": "Asia Artist Awards(AAA)に出演が決定！"
         },
         {
           "file": "data/schedule.json",
-          "line": 2394,
+          "line": 2432,
           "label": "Asia Artist Awards(AAA)2026"
         }
       ]
@@ -2081,7 +2081,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 608,
+          "line": 640,
           "label": "RESCENEがMelon TOP100で初の1位を記録"
         },
         {
@@ -2137,12 +2137,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 572,
+          "line": 604,
           "label": "「Pretty Girl」で音楽番組初の1位を獲得！"
         },
         {
           "file": "music-show-wins.html",
-          "line": 145,
+          "line": 152,
           "label": "1位獲得時の映像を見る ↗"
         },
         {
@@ -2206,7 +2206,7 @@
         },
         {
           "file": "data/news.json",
-          "line": 540,
+          "line": 572,
           "label": "第7回 島の日の広報大使に任命！"
         }
       ]
@@ -2283,12 +2283,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 60,
+          "line": 92,
           "label": "「With」で4度目の1位を獲得！"
         },
         {
           "file": "music-show-wins.html",
-          "line": 78,
+          "line": 85,
           "label": "アンコールステージを見る ↗"
         }
       ]
@@ -2329,12 +2329,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 108,
+          "line": 140,
           "label": "「With」で2度目の1位を獲得！"
         },
         {
           "file": "music-show-wins.html",
-          "line": 92,
+          "line": 99,
           "label": "アンコールステージを見る ↗"
         }
       ]
@@ -2393,12 +2393,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 492,
+          "line": 524,
           "label": "「LOVE ATTACK」で1位を獲得！"
         },
         {
           "file": "music-show-wins.html",
-          "line": 128,
+          "line": 135,
           "label": "1位獲得時の映像を見る ↗"
         }
       ]
@@ -2421,12 +2421,12 @@
         },
         {
           "file": "data/news.json",
-          "line": 140,
+          "line": 172,
           "label": "「With」で初の1位を獲得！"
         },
         {
           "file": "music-show-wins.html",
-          "line": 99,
+          "line": 106,
           "label": "1位獲得時の映像を見る ↗"
         }
       ]
@@ -2446,6 +2446,29 @@
           "file": "melon-records.html",
           "line": 85,
           "label": "MVを見る ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://youtu.be/XW0jCabK8vU?si=OQ6pQvi4WgtbcM3a",
+      "normalizedUrl": "https://www.youtube.com/watch?v=XW0jCabK8vU",
+      "finalUrl": "https://www.youtube.com/watch?v=XW0jCabK8vU",
+      "service": "YouTube",
+      "serviceKey": "youtube",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "公開動画を確認しました：[#2026MAMA] RESCENE (리센느) - With (MAMA Ver.) + LOVE ATTACK (MAMA Ver.) | Mnet 261120 방송。",
+      "method": "youtube-oembed",
+      "sources": [
+        {
+          "file": "articles/2026-mama-awards-best-of-next-08243c1f63.html",
+          "line": 63,
+          "label": "ステージ映像を見る ↗"
+        },
+        {
+          "file": "data/news.json",
+          "line": 44,
+          "label": "2026 MAMA AWARDSにて｢BEST OF NEXT賞｣を受賞！"
         }
       ]
     },
