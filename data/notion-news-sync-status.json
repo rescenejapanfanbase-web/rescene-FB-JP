@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-11-22T10:17:26.433Z",
+  "generatedAt": "2026-11-23T02:30:23.549Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 37,
-  "notionNews": 37,
-  "notionImages": 36,
+  "queriedPages": 38,
+  "notionNews": 38,
+  "notionImages": 37,
   "rows": [
+    {
+      "title": "RESCENE 初の単独コンサートのチケット予約日程が公開！",
+      "pageId": "421229d2-19da-80cd-94a2-e8a0e56f5750",
+      "lastEditedTime": "2026-11-23T01:52:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "3FB0A98F-220A-43C7-AA1B-C1F982CE7276.jpeg",
+      "imagePath": "assets/news/notion/notion-421229d219da80cd94a2e8a0e56f5750-a27fe3837f63.jpg",
+      "imageBytes": 314596,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "「With」で5度目の1位を獲得！",
       "pageId": "420229d2-19da-8084-8552-d120030fbec6",

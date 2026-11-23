@@ -1,6 +1,6 @@
 window.RESCENE_NEWS_EXTRAS = {
-  "generatedAt": "2026-11-22T10:18:05.791Z",
-  "sourceNewsGeneratedAt": "2026-11-22T10:17:26.433Z",
+  "generatedAt": "2026-11-23T02:31:01.232Z",
+  "sourceNewsGeneratedAt": "2026-11-23T02:30:23.549Z",
   "related": {
     "fanbase-site": [
       {
@@ -37,6 +37,47 @@ window.RESCENE_NEWS_EXTRAS = {
         "score": 5,
         "reasons": [
           "同じカテゴリー"
+        ]
+      }
+    ],
+    "rescene-a0e56f5750": [
+      {
+        "slug": "rescene-bfd705a9a7",
+        "title": "RESCENE 初の単独コンサート開催決定！",
+        "date": "2026.11.11",
+        "label": "Concert",
+        "image": "assets/news/notion/notion-415229d219da80ff9c6cd6bfd705a9a7-4b98d7b6aa21.jpg",
+        "text": "RESCENEがデビュー約3年で、初となる単独コンサートの開催を発表しました！",
+        "score": 15,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "2026-sbs-f6b8857108",
+        "title": "2026 SBS 가요대전に出演決定！",
+        "date": "2026.10.23",
+        "label": "Joint Concert",
+        "image": "assets/news/notion/notion-402229d219da809886a1f7f6b8857108-d61d0ac09c5d.jpg",
+        "text": "2026年12月24日,25日に開催される2026 SBS 가요대전にRESCENEが出演決定しました！",
+        "score": 9,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
+        "slug": "2026-music-bank-global-festival-in-japan-ff397035fa",
+        "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANに出演決定！",
+        "date": "2026.10.02",
+        "label": "Joint Concert",
+        "image": "assets/news/notion/notion-3ed229d219da80e896f4efff397035fa-454bcb0c628c.jpg",
+        "text": "2026年12月12日,13日に開催される2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANにRESCENEが出演決定しました！",
+        "score": 8,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
         ]
       }
     ],
@@ -382,6 +423,19 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "rescene-bfd705a9a7": [
       {
+        "slug": "rescene-a0e56f5750",
+        "title": "RESCENE 初の単独コンサートのチケット予約日程が公開！",
+        "date": "2026.11.23",
+        "label": "Concert",
+        "image": "assets/news/notion/notion-421229d219da80cd94a2e8a0e56f5750-a27fe3837f63.jpg",
+        "text": "RESCENE 初の単独コンサート\nチケット予約日程が公開されました！",
+        "score": 15,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
         "slug": "2026-music-bank-global-festival-in-japan-ff397035fa",
         "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANに出演決定！",
         "date": "2026.10.02",
@@ -405,18 +459,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
-        ]
-      },
-      {
-        "slug": "lip-bomb-release",
-        "title": "3rd Mini Album「lip bomb」リリース",
-        "date": "2025.11.25",
-        "label": "MINI ALBUM",
-        "image": "assets/mv/bloom.jpg",
-        "text": "Heart Drop、Bloomを含む3rd Mini Album「lip bomb」がリリースされました。",
-        "score": 7,
-        "reasons": [
-          "同じ作品"
         ]
       }
     ],
@@ -602,6 +644,19 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
+        "slug": "rescene-a0e56f5750",
+        "title": "RESCENE 初の単独コンサートのチケット予約日程が公開！",
+        "date": "2026.11.23",
+        "label": "Concert",
+        "image": "assets/news/notion/notion-421229d219da80cd94a2e8a0e56f5750-a27fe3837f63.jpg",
+        "text": "RESCENE 初の単独コンサート\nチケット予約日程が公開されました！",
+        "score": 9,
+        "reasons": [
+          "同じカテゴリー",
+          "共通キーワード"
+        ]
+      },
+      {
         "slug": "rescene-bfd705a9a7",
         "title": "RESCENE 初の単独コンサート開催決定！",
         "date": "2026.11.11",
@@ -612,18 +667,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "reasons": [
           "同じカテゴリー",
           "共通キーワード"
-        ]
-      },
-      {
-        "slug": "second-anniversary-project",
-        "title": "デビュー2周年広告プロジェクト",
-        "date": "2026.03.19",
-        "label": "PROJECT",
-        "image": "news/debut-2nd-anniversary-project.jpg",
-        "text": "韓国で実施した2周年広告プロジェクトのお知らせです。",
-        "score": 5,
-        "reasons": [
-          "同じカテゴリー"
         ]
       }
     ],
@@ -781,14 +824,15 @@ window.RESCENE_NEWS_EXTRAS = {
         ]
       },
       {
-        "slug": "2026-kgma-4-76cbf9c655",
-        "title": "2026 KGMAにて4つの賞を受賞！",
-        "date": "2026.11.07",
-        "label": "Award",
-        "image": "assets/news/notion/notion-411229d219da80dcaa29ca76cbf9c655-3f905d88c095.jpg",
-        "text": "2026年11月7日に開催された2026KGMAで4つの賞を受賞しました！",
-        "score": 6,
+        "slug": "rescene-a0e56f5750",
+        "title": "RESCENE 初の単独コンサートのチケット予約日程が公開！",
+        "date": "2026.11.23",
+        "label": "Concert",
+        "image": "assets/news/notion/notion-421229d219da80cd94a2e8a0e56f5750-a27fe3837f63.jpg",
+        "text": "RESCENE 初の単独コンサート\nチケット予約日程が公開されました！",
+        "score": 8,
         "reasons": [
+          "同じカテゴリー",
           "共通キーワード"
         ]
       }
@@ -2008,6 +2052,18 @@ window.RESCENE_NEWS_EXTRAS = {
     ],
     "second-anniversary-project": [
       {
+        "slug": "rescene-a0e56f5750",
+        "title": "RESCENE 初の単独コンサートのチケット予約日程が公開！",
+        "date": "2026.11.23",
+        "label": "Concert",
+        "image": "assets/news/notion/notion-421229d219da80cd94a2e8a0e56f5750-a27fe3837f63.jpg",
+        "text": "RESCENE 初の単独コンサート\nチケット予約日程が公開されました！",
+        "score": 5,
+        "reasons": [
+          "同じカテゴリー"
+        ]
+      },
+      {
         "slug": "rescene-bfd705a9a7",
         "title": "RESCENE 初の単独コンサート開催決定！",
         "date": "2026.11.11",
@@ -2026,18 +2082,6 @@ window.RESCENE_NEWS_EXTRAS = {
         "label": "Joint Concert",
         "image": "assets/news/notion/notion-402229d219da809886a1f7f6b8857108-d61d0ac09c5d.jpg",
         "text": "2026年12月24日,25日に開催される2026 SBS 가요대전にRESCENEが出演決定しました！",
-        "score": 5,
-        "reasons": [
-          "同じカテゴリー"
-        ]
-      },
-      {
-        "slug": "2026-music-bank-global-festival-in-japan-ff397035fa",
-        "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANに出演決定！",
-        "date": "2026.10.02",
-        "label": "Joint Concert",
-        "image": "assets/news/notion/notion-3ed229d219da80e896f4efff397035fa-454bcb0c628c.jpg",
-        "text": "2026年12月12日,13日に開催される2026 MUSIC BANK GLOBAL FESTIVAL IN JAPANにRESCENEが出演決定しました！",
         "score": 5,
         "reasons": [
           "同じカテゴリー"
@@ -2340,6 +2384,16 @@ window.RESCENE_NEWS_EXTRAS = {
       "xText": "【NEWS】 RESCENE JAPAN FANBASE ウェブサイト\n\nhttps://rescene-fb.jp/articles/fanbase-site.html\n\n#RESCENE #리센느 #リセンヌ",
       "lineText": "RESCENE JAPAN FANBASE ウェブサイト\nRESCENE JAPAN FANBASEのウェブサイトが出来ました！",
       "charCount": 106
+    },
+    {
+      "slug": "rescene-a0e56f5750",
+      "date": "2026.11.23",
+      "title": "RESCENE 初の単独コンサートのチケット予約日程が公開！",
+      "url": "https://rescene-fb.jp/articles/rescene-a0e56f5750.html",
+      "hashtags": "#RESCENE_EVENT #RESCENE #리센느 #リセンヌ",
+      "xText": "【2026.11.23】 RESCENE 初の単独コンサートのチケット予約日程が公開！\n\nhttps://rescene-fb.jp/articles/rescene-a0e56f5750.html\n\n#RESCENE_EVENT #RESCENE #리센느 #リセンヌ",
+      "lineText": "RESCENE 初の単独コンサートのチケット予約日程が公開！\nRESCENE 初の単独コンサート\nチケット予約日程が公開されました！",
+      "charCount": 135
     },
     {
       "slug": "with-5-1-20030fbec6",

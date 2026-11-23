@@ -11,6 +11,22 @@ window.RESCENE_NEWS = [
     "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
   },
   {
+    "slug": "rescene-a0e56f5750",
+    "date": "2026.11.23",
+    "category": "event",
+    "categoryName": "イベント",
+    "label": "Concert",
+    "title": "RESCENE 初の単独コンサートのチケット予約日程が公開！",
+    "text": "RESCENE 初の単独コンサート\nチケット予約日程が公開されました！",
+    "body": "RESCENE 初の単独コンサート\nチケット予約日程が公開されました！\n📅 公演日程：2027年2月19日(金)〜21日(日)\n📍 会場：ソウル・オリンピックホール\n\n🎟️ チケット予約\n・ファンクラブ先行：12月10日(木) 20:00〜\n・一般販売：12月11日(金) 20:00〜\n\n📱 Coupang Playモバイルアプリにて予約予定\n\n※現時点で日本からのチケット購入方法は未発表です。今後の公式案内をお待ちください。",
+    "image": "assets/news/notion/notion-421229d219da80cd94a2e8a0e56f5750-a27fe3837f63.jpg",
+    "sourceLink": "",
+    "sourceLabel": "",
+    "translations": {},
+    "notionPageId": "421229d2-19da-80cd-94a2-e8a0e56f5750",
+    "notionUrl": "https://app.notion.com/p/RESCENE-421229d219da80cd94a2e8a0e56f5750"
+  },
+  {
     "slug": "with-5-1-20030fbec6",
     "date": "2026.11.22",
     "category": "notice",
