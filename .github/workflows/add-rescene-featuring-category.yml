@@ -1,0 +1,121 @@
+name: Add RESCENE Featuring Discography Category
+
+on:
+  push:
+    paths:
+      - '.github/workflows/add-rescene-featuring-category.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-content-write
+  cancel-in-progress: false
+
+jobs:
+  update-featuring:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout current main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      - name: Add separate Featuring category without changing other releases
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+
+          sync_file = Path('scripts/sync-notion-discography.mjs')
+          source = sync_file.read_text(encoding='utf-8')
+          new_category = '  { key: "featuring", notionName: "featuring", kicker: "FEATURING & COLLABORATIONS", title: "Featuring・参加楽曲", description: "RESCENEメンバーが他アーティストの楽曲に参加したフィーチャリング作品をまとめています。" },'
+          if new_category not in source:
+              if 'key: "featuring", notionName: "featuring"' in source:
+                  print('Featuring category already configured in sync script.')
+              else:
+                  anchor = '  { key: "ost", notionName: "OST", kicker: "ORIGINAL SOUNDTRACK", title: "OST", description: "ドラマ・番組・特別企画で発表されたOST作品をまとめています。" },'
+                  if source.count(anchor) != 1:
+                      raise SystemExit('Could not find unique OST category insertion point. No changes were published.')
+                  source = source.replace(anchor, anchor + '\n' + new_category, 1)
+                  sync_file.write_text(source, encoding='utf-8')
+                  print('Added featuring category to the Notion synchronization mapping.')
+
+          page_js = Path('js/discography.js')
+          text = page_js.read_text(encoding='utf-8')
+          old = "category.key==='single'?'single-album':'ost'"
+          new = "category.key==='single'?'single-album':category.key==='featuring'?'featuring':'ost'"
+          if new not in text:
+              if text.count(old) != 1:
+                  raise SystemExit('Could not find unique category anchor mapping in js/discography.js.')
+              page_js.write_text(text.replace(old, new, 1), encoding='utf-8')
+              print('Enabled #featuring anchor for the independent section.')
+          else:
+              print('The #featuring anchor is already configured.')
+          PY
+
+      - name: Sync all current discography rows from Notion
+        shell: bash
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DISCOGRAPHY_DATA_SOURCE_ID: ${{ vars.NOTION_DISCOGRAPHY_DATA_SOURCE_ID }}
+        run: |
+          set -euo pipefail
+          node scripts/sync-notion-discography.mjs
+
+      - name: Validate Featuring section and update app cache
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --check scripts/sync-notion-discography.mjs
+          node --check js/discography.js
+          node --input-type=module <<'JS'
+          import { readFileSync } from 'node:fs';
+          const data = JSON.parse(readFileSync('data/discography.json','utf8'));
+          const featuring = data.releases.filter(x => x.categoryName === 'featuring');
+          const separated = data.releases.filter(x => x.category === 'featuring');
+          if (!data.categories.some(x => x.key === 'featuring')) throw new Error('Featuring category is missing');
+          if (featuring.length < 3 || separated.length !== featuring.length) {
+            throw new Error(`Featuring separation incomplete: original=${featuring.length}, separated=${separated.length}`);
+          }
+          const browserData = readFileSync('data/discography-data.js','utf8');
+          if (!browserData.includes('"key": "featuring"')) throw new Error('Browser data lacks Featuring category');
+          if (!readFileSync('js/discography.js','utf8').includes("category.key==='featuring'?'featuring'")) throw new Error('Featuring anchor missing');
+          console.log(`Featuring successfully separated: ${separated.length} release(s)`);
+          console.log(`Total discography releases preserved: ${data.releases.length}`);
+          JS
+          python3 scripts/generate-pwa.py
+          git diff --check
+
+      - name: Commit and publish updated discography
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- scripts/sync-notion-discography.mjs js/discography.js data/discography.json data/discography-data.js service-worker.js assets/discography/notion
+          if git diff --cached --quiet; then
+            echo 'Featuring category is already published.'
+            exit 0
+          fi
+          git commit -m 'feat: separate Featuring releases in discography'
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo 'Featuring category published.'
+              exit 0
+            fi
+            echo "Push conflict; retrying against current main (${attempt}/3)"
+            git fetch origin main
+            git rebase origin/main
+          done
+          exit 1
