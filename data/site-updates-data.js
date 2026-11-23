@@ -1,6 +1,19 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-23T09:22:18.955971+00:00",
+  "generatedAt": "2026-11-23T14:24:31.642001+00:00",
   "items": [
+    {
+      "date": "2026-11-23",
+      "title": "feat: separate Featuring releases in discography",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "7979604",
+      "files": [
+        "data/discography-data.js",
+        "data/discography.json",
+        "js/discography.js",
+        "scripts/sync-notion-discography.mjs",
+        "service-worker.js"
+      ]
+    },
     {
       "date": "2026-11-23",
       "title": "feat: publish Notion-synced RESCENE awards page",
@@ -56,6 +69,15 @@ window.RESCENE_SITE_UPDATES = {
         "articles/second-anniversary-project.html",
         "assets/news/notion/notion-421229d219da80cd94a2e8a0e56f5750-a27fe3837f63.jpg",
         "assets/ogp/news/rescene-a0e56f5750.jpg"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Add files via upload",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "403f06a",
+      "files": [
+        ".github/workflows/add-rescene-featuring-category.yml"
       ]
     },
     {

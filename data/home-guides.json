@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T09:30:31.512Z",
+  "generatedAt": "2026-11-23T14:24:31.714Z",
   "source": "git-history",
   "guides": [
     {
@@ -8,8 +8,8 @@
       "summary": "アルバム、シングル、OST、収録曲と配信リンクを掲載しています。",
       "url": "discography.html",
       "category": "DISCOGRAPHY",
-      "updatedAt": "2026-11-23T09:30:31.512Z",
-      "commit": "d55d0ee11"
+      "updatedAt": "2026-11-23T12:03:15Z",
+      "commit": "797960412"
     },
     {
       "key": "chants",
