@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T12:57:05.447Z",
+  "generatedAt": "2026-11-23T09:30:16.017Z",
   "source": "notion",
   "dataSourceId": "8f582d52-96eb-4148-a24b-add07379ee07",
   "notionDatabaseUrl": "https://app.notion.com/p/ca4fadead9d64128a5e8dc9730e0033d",
@@ -41,6 +41,39 @@
     }
   ],
   "releases": [
+    {
+      "anchor": "release-love-again-feat-of-rescene",
+      "slug": "love-again-feat-of-rescene",
+      "title": "Love Again (feat. 제나 of RESCENE)",
+      "releaseDate": "2026-11-23",
+      "category": "special",
+      "categoryName": "featuring",
+      "mark": "FT",
+      "badge": "DIGITAL SINGLE",
+      "type": "featuring参加",
+      "description": "ハンへとムンセユンの5回目のデュエットプロジェクトにZENAがフィーチャリングで参加。",
+      "tracks": [
+        {
+          "no": "01",
+          "title": "Love Again [feat. 제나 of RESCENE]",
+          "video": "https://youtu.be/HZsx0aqg5uo?si=DcOYWNgxBtdT29ck",
+          "note": ""
+        },
+        {
+          "no": "02",
+          "title": "Love Again (Instrumental)[feat. 제나 of RESCENE]",
+          "video": "",
+          "note": "TRACK"
+        }
+      ],
+      "appleMusic": "https://music.apple.com/jp/album/love-again-feat-zena-single/6837224968",
+      "spotify": "https://open.spotify.com/album/0Xdlxm89ccLUmnJBSAFdRZ?si=6WnW1ljvSq2Q1n7Br6wOFw&utm_source=copy-link",
+      "cover": "",
+      "order": 9999,
+      "published": true,
+      "notionPageId": "41a229d2-19da-80d0-bc0b-d5605f9b2ce0",
+      "notionUrl": "https://app.notion.com/p/Love-Again-feat-of-RESCENE-41a229d219da80d0bc0bd5605f9b2ce0"
+    },
     {
       "anchor": "release-tata-feat-minami-of-rescene",
       "slug": "tata-feat-minami-of-rescene",
