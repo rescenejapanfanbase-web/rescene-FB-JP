@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T01:00:22Z",
+  "generatedAt": "2026-11-23T20:56:21Z",
   "source": "pluschat",
   "sourceBaseUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/",
   "translationDictionary": "scripts/pluschat-schedule-translations.json",
@@ -7,8 +7,8 @@
     "2026-11",
     "2026-12"
   ],
-  "eventCount": 118,
-  "refreshedEventCount": 36,
+  "eventCount": 119,
+  "refreshedEventCount": 37,
   "failures": [],
   "months": {
     "2026-07": {
@@ -103,8 +103,8 @@
     },
     "2026-12": {
       "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12",
-      "fetchedAt": "2026-11-20T17:36:44Z",
-      "eventCount": 4,
+      "fetchedAt": "2026-11-23T20:56:21Z",
+      "eventCount": 5,
       "status": "ok",
       "warnings": [
         "翻訳辞書への追加候補: 와키윌리 팝업스토어 -> 와키윌리 팝업스토어",
@@ -2305,6 +2305,25 @@
       "translationStatus": "rules",
       "date": "2026-12-08",
       "start": "2026-12-08T20:00:00+09:00",
+      "end": "",
+      "allDay": false,
+      "category": "イベント",
+      "type": "event",
+      "description": "",
+      "link": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12",
+      "linkLabel": "Plus Chat公式スケジュールで確認",
+      "image": "",
+      "notionUrl": "",
+      "source": "pluschat",
+      "sourceMonth": "2026-12"
+    },
+    {
+      "id": "pluschat-2026-12-10-2030-45f7cf878eeb41f147c3e5ad",
+      "title": "「PULSE」 ビデオ通話サイン会 by WITHMUU",
+      "originalTitle": "[PULSE] 영상통화 팬사인회 by WITHMUU",
+      "translationStatus": "rules",
+      "date": "2026-12-10",
+      "start": "2026-12-10T20:30:00+09:00",
       "end": "",
       "allDay": false,
       "category": "イベント",
