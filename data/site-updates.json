@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T02:31:01.313641+00:00",
+  "generatedAt": "2026-11-23T07:24:42.810843+00:00",
   "items": [
     {
       "date": "2026-11-23",
@@ -27,6 +27,22 @@
       ]
     },
     {
+      "date": "2026-11-23",
+      "title": "chore: critical full content sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "2135fca",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html",
+        "articles/2026-sbs-f6b8857108.html",
+        "articles/rescene-a0e56f5750.html",
+        "articles/rescene-bfd705a9a7.html",
+        "articles/second-anniversary-project.html",
+        "assets/news/notion/notion-421229d219da80cd94a2e8a0e56f5750-a27fe3837f63.jpg",
+        "assets/ogp/news/rescene-a0e56f5750.jpg"
+      ]
+    },
+    {
       "date": "2026-11-22",
       "title": "feat: publish Notion-synced RESCENE awards page",
       "description": "GitHubでサイト内容を更新しました。",
@@ -40,15 +56,6 @@
         "articles/2026-mama-awards-caaa5f7b37.html",
         "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html",
         "articles/2026-sbs-f6b8857108.html"
-      ]
-    },
-    {
-      "date": "2026-11-22",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "434c122",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {
