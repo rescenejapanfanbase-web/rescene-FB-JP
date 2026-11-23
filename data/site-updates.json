@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T14:24:31.642001+00:00",
+  "generatedAt": "2026-11-23T20:06:43.593496+00:00",
   "items": [
     {
       "date": "2026-11-23",
@@ -59,16 +59,16 @@
       "date": "2026-11-23",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "2135fca",
+      "commit": "c09db8b",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
-        "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html",
-        "articles/2026-sbs-f6b8857108.html",
-        "articles/rescene-a0e56f5750.html",
-        "articles/rescene-bfd705a9a7.html",
-        "articles/second-anniversary-project.html",
-        "assets/news/notion/notion-421229d219da80cd94a2e8a0e56f5750-a27fe3837f63.jpg",
-        "assets/ogp/news/rescene-a0e56f5750.jpg"
+        "data/home-guides.json",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/mv-candidates-data.js",
+        "data/mv-candidates.json",
+        "data/quality-report.json",
+        "data/seo-status.json"
       ]
     },
     {
