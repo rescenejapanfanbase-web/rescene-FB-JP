@@ -17,6 +17,7 @@ const categories = [
   { key: "full", notionName: "フルアルバム", kicker: "FULL ALBUM", title: "フルアルバム", description: "フルアルバムがリリースされた際に掲載します。" },
   { key: "single", notionName: "シングルアルバム", kicker: "SINGLE ALBUM", title: "シングルアルバム", description: "フィジカル・デビュー作品を含むシングルアルバム。" },
   { key: "ost", notionName: "OST", kicker: "ORIGINAL SOUNDTRACK", title: "OST", description: "ドラマ・番組・特別企画で発表されたOST作品をまとめています。" },
+  { key: "featuring", notionName: "featuring", kicker: "FEATURING & COLLABORATIONS", title: "Featuring・参加楽曲", description: "RESCENEメンバーが他アーティストの楽曲に参加したフィーチャリング作品をまとめています。" },
 ];
 const categoryMap = Object.fromEntries(categories.map((category) => [category.notionName, category.key]));
 

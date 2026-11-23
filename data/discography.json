@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T09:30:16.017Z",
+  "generatedAt": "2026-11-23T12:03:14.993Z",
   "source": "notion",
   "dataSourceId": "8f582d52-96eb-4148-a24b-add07379ee07",
   "notionDatabaseUrl": "https://app.notion.com/p/ca4fadead9d64128a5e8dc9730e0033d",
@@ -38,69 +38,16 @@
       "kicker": "ORIGINAL SOUNDTRACK",
       "title": "OST",
       "description": "ドラマ・番組・特別企画で発表されたOST作品をまとめています。"
+    },
+    {
+      "key": "featuring",
+      "notionName": "featuring",
+      "kicker": "FEATURING & COLLABORATIONS",
+      "title": "Featuring・参加楽曲",
+      "description": "RESCENEメンバーが他アーティストの楽曲に参加したフィーチャリング作品をまとめています。"
     }
   ],
   "releases": [
-    {
-      "anchor": "release-love-again-feat-of-rescene",
-      "slug": "love-again-feat-of-rescene",
-      "title": "Love Again (feat. 제나 of RESCENE)",
-      "releaseDate": "2026-11-23",
-      "category": "special",
-      "categoryName": "featuring",
-      "mark": "FT",
-      "badge": "DIGITAL SINGLE",
-      "type": "featuring参加",
-      "description": "ハンへとムンセユンの5回目のデュエットプロジェクトにZENAがフィーチャリングで参加。",
-      "tracks": [
-        {
-          "no": "01",
-          "title": "Love Again [feat. 제나 of RESCENE]",
-          "video": "https://youtu.be/HZsx0aqg5uo?si=DcOYWNgxBtdT29ck",
-          "note": ""
-        },
-        {
-          "no": "02",
-          "title": "Love Again (Instrumental)[feat. 제나 of RESCENE]",
-          "video": "",
-          "note": "TRACK"
-        }
-      ],
-      "appleMusic": "https://music.apple.com/jp/album/love-again-feat-zena-single/6837224968",
-      "spotify": "https://open.spotify.com/album/0Xdlxm89ccLUmnJBSAFdRZ?si=6WnW1ljvSq2Q1n7Br6wOFw&utm_source=copy-link",
-      "cover": "",
-      "order": 9999,
-      "published": true,
-      "notionPageId": "41a229d2-19da-80d0-bc0b-d5605f9b2ce0",
-      "notionUrl": "https://app.notion.com/p/Love-Again-feat-of-RESCENE-41a229d219da80d0bc0bd5605f9b2ce0"
-    },
-    {
-      "anchor": "release-tata-feat-minami-of-rescene",
-      "slug": "tata-feat-minami-of-rescene",
-      "title": "TATA(feat. MINAMI of RESCENE)",
-      "releaseDate": "2026-10-15",
-      "category": "special",
-      "categoryName": "featuring",
-      "mark": "FT",
-      "badge": "DIGITAL SINGLE",
-      "type": "featuring参加",
-      "description": "ラッパーのLocoによる独特の感性を込めたラブソング。\nRESCENE MINAMIがフィーチャリング参加した楽曲。",
-      "tracks": [
-        {
-          "no": "01",
-          "title": "TATA (feat. MINAMI of RESCENE)",
-          "video": "https://youtu.be/_dq1wwT5Bn0?si=iJqw2xuKIyrT6MyZ",
-          "note": ""
-        }
-      ],
-      "appleMusic": "https://music.apple.com/jp/album/tata-feat-minami-of-rescene/6821782173?i=6821782174",
-      "spotify": "https://open.spotify.com/album/16mb3LzNV9LPFcYq7a04fU?si=kO5z4ozdR7GirJM9trCKsw&utm_source=copy-link",
-      "cover": "",
-      "order": 9999,
-      "published": true,
-      "notionPageId": "3fa229d2-19da-80d6-8d15-ee34950cffb9",
-      "notionUrl": "https://app.notion.com/p/TATA-feat-MINAMI-of-RESCENE-3fa229d219da80d68d15ee34950cffb9"
-    },
     {
       "anchor": "release-pretty-girl",
       "slug": "pretty-girl",
@@ -241,33 +188,6 @@
       "published": true,
       "notionPageId": "3a3229d2-19da-8165-9e4f-f3a793343101",
       "notionUrl": "https://app.notion.com/p/Pinball-3a3229d219da81659e4ff3a793343101"
-    },
-    {
-      "anchor": "release-teachmehowtoloveyou-feat-minami-of-rescene",
-      "slug": "teachmehowtoloveyou-feat-minami-of-rescene",
-      "title": "teachmehowtoloveyou (feat. MINAMI of RESCENE)",
-      "releaseDate": "2025-10-25",
-      "category": "special",
-      "categoryName": "featuring",
-      "mark": "FT",
-      "badge": "SINGLE",
-      "type": "featuring参加",
-      "description": "プロデューサーのPATEKOとSHIRTが手がけ、RESCENE MINAMIがフィーチャリング参加した楽曲",
-      "tracks": [
-        {
-          "no": "01",
-          "title": "teachmehowtoloveyou (feat. MINAMI of RESCENE)",
-          "video": "",
-          "note": "TRACK"
-        }
-      ],
-      "appleMusic": "https://music.apple.com/jp/album/teachmehowtoloveyou-feat-minami-single/1847806389",
-      "spotify": "https://open.spotify.com/intl-ja/track/5OryQacjxyYBX2BPXxqFI5",
-      "cover": "",
-      "order": 9999,
-      "published": true,
-      "notionPageId": "3ae229d2-19da-80e2-a4c3-d30e33a34dbd",
-      "notionUrl": "https://app.notion.com/p/teachmehowtoloveyou-feat-MINAMI-of-RESCENE-3ae229d219da80e2a4c3d30e33a34dbd"
     },
     {
       "anchor": "release-glow-up-english",
@@ -781,6 +701,93 @@
       "published": true,
       "notionPageId": "3a3229d2-19da-81f4-8623-f08c73bf0439",
       "notionUrl": "https://app.notion.com/p/Counting-Star-3a3229d219da81f48623f08c73bf0439"
+    },
+    {
+      "anchor": "release-love-again-feat-of-rescene",
+      "slug": "love-again-feat-of-rescene",
+      "title": "Love Again (feat. 제나 of RESCENE)",
+      "releaseDate": "2026-11-23",
+      "category": "featuring",
+      "categoryName": "featuring",
+      "mark": "FT",
+      "badge": "DIGITAL SINGLE",
+      "type": "featuring参加",
+      "description": "ハンへとムンセユンの5回目のデュエットプロジェクトにZENAがフィーチャリングで参加。",
+      "tracks": [
+        {
+          "no": "01",
+          "title": "Love Again [feat. 제나 of RESCENE]",
+          "video": "https://youtu.be/HZsx0aqg5uo?si=DcOYWNgxBtdT29ck",
+          "note": ""
+        },
+        {
+          "no": "02",
+          "title": "Love Again (Instrumental)[feat. 제나 of RESCENE]",
+          "video": "",
+          "note": "TRACK"
+        }
+      ],
+      "appleMusic": "https://music.apple.com/jp/album/love-again-feat-zena-single/6837224968",
+      "spotify": "https://open.spotify.com/album/0Xdlxm89ccLUmnJBSAFdRZ?si=6WnW1ljvSq2Q1n7Br6wOFw&utm_source=copy-link",
+      "cover": "",
+      "order": 9999,
+      "published": true,
+      "notionPageId": "41a229d2-19da-80d0-bc0b-d5605f9b2ce0",
+      "notionUrl": "https://app.notion.com/p/Love-Again-feat-of-RESCENE-41a229d219da80d0bc0bd5605f9b2ce0"
+    },
+    {
+      "anchor": "release-tata-feat-minami-of-rescene",
+      "slug": "tata-feat-minami-of-rescene",
+      "title": "TATA(feat. MINAMI of RESCENE)",
+      "releaseDate": "2026-10-15",
+      "category": "featuring",
+      "categoryName": "featuring",
+      "mark": "FT",
+      "badge": "DIGITAL SINGLE",
+      "type": "featuring参加",
+      "description": "ラッパーのLocoによる独特の感性を込めたラブソング。\nRESCENE MINAMIがフィーチャリング参加した楽曲。",
+      "tracks": [
+        {
+          "no": "01",
+          "title": "TATA (feat. MINAMI of RESCENE)",
+          "video": "https://youtu.be/_dq1wwT5Bn0?si=iJqw2xuKIyrT6MyZ",
+          "note": ""
+        }
+      ],
+      "appleMusic": "https://music.apple.com/jp/album/tata-feat-minami-of-rescene/6821782173?i=6821782174",
+      "spotify": "https://open.spotify.com/album/16mb3LzNV9LPFcYq7a04fU?si=kO5z4ozdR7GirJM9trCKsw&utm_source=copy-link",
+      "cover": "",
+      "order": 9999,
+      "published": true,
+      "notionPageId": "3fa229d2-19da-80d6-8d15-ee34950cffb9",
+      "notionUrl": "https://app.notion.com/p/TATA-feat-MINAMI-of-RESCENE-3fa229d219da80d68d15ee34950cffb9"
+    },
+    {
+      "anchor": "release-teachmehowtoloveyou-feat-minami-of-rescene",
+      "slug": "teachmehowtoloveyou-feat-minami-of-rescene",
+      "title": "teachmehowtoloveyou (feat. MINAMI of RESCENE)",
+      "releaseDate": "2025-10-25",
+      "category": "featuring",
+      "categoryName": "featuring",
+      "mark": "FT",
+      "badge": "SINGLE",
+      "type": "featuring参加",
+      "description": "プロデューサーのPATEKOとSHIRTが手がけ、RESCENE MINAMIがフィーチャリング参加した楽曲",
+      "tracks": [
+        {
+          "no": "01",
+          "title": "teachmehowtoloveyou (feat. MINAMI of RESCENE)",
+          "video": "",
+          "note": "TRACK"
+        }
+      ],
+      "appleMusic": "https://music.apple.com/jp/album/teachmehowtoloveyou-feat-minami-single/1847806389",
+      "spotify": "https://open.spotify.com/intl-ja/track/5OryQacjxyYBX2BPXxqFI5",
+      "cover": "",
+      "order": 9999,
+      "published": true,
+      "notionPageId": "3ae229d2-19da-80e2-a4c3-d30e33a34dbd",
+      "notionUrl": "https://app.notion.com/p/teachmehowtoloveyou-feat-MINAMI-of-RESCENE-3ae229d219da80e2a4c3d30e33a34dbd"
     }
   ]
 }
