@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-23T20:06:43.593496+00:00",
+  "generatedAt": "2026-11-24T04:45:56.066468+00:00",
   "items": [
     {
       "date": "2026-11-23",
@@ -18,7 +18,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-23",
       "title": "feat: publish Notion-synced RESCENE awards page",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "08c1831",
+      "commit": "aa871b3",
       "files": [
         "articles/2026-0c5361a8a6.html",
         "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
@@ -43,7 +43,7 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-23",
       "title": "chore: critical schedule sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "373fd39",
+      "commit": "50b4e54",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "articles/2026-0c5361a8a6.html",
@@ -73,6 +73,15 @@ window.RESCENE_SITE_UPDATES = {
     },
     {
       "date": "2026-11-23",
+      "title": "chore: critical YouTube sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "b6428b3",
+      "files": [
+        "data/youtube-channels.json"
+      ]
+    },
+    {
+      "date": "2026-11-23",
       "title": "Add files via upload",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "403f06a",
@@ -98,22 +107,6 @@ window.RESCENE_SITE_UPDATES = {
     },
     {
       "date": "2026-11-22",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "6d4b48d",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc",
-        "scripts/__pycache__/check-requested-regressions.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-11-22",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "59ff0e1",
@@ -126,15 +119,6 @@ window.RESCENE_SITE_UPDATES = {
         "articles/2026-mama-awards-best-of-next-08243c1f63.html",
         "articles/2026-mama-awards-caaa5f7b37.html",
         "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html"
-      ]
-    },
-    {
-      "date": "2026-11-22",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "a1ea19e",
-      "files": [
-        "data/youtube-channels.json"
       ]
     },
     {
