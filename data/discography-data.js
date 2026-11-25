@@ -1,5 +1,5 @@
 window.RESCENE_DISCOGRAPHY = {
-  "generatedAt": "2026-11-23T12:03:14.993Z",
+  "generatedAt": "2026-11-25T09:57:18.878Z",
   "source": "notion",
   "dataSourceId": "8f582d52-96eb-4148-a24b-add07379ee07",
   "notionDatabaseUrl": "https://app.notion.com/p/ca4fadead9d64128a5e8dc9730e0033d",
@@ -535,6 +535,33 @@ window.RESCENE_DISCOGRAPHY = {
       "notionUrl": "https://app.notion.com/p/Re-Scene-3a3229d219da8103bcbee3dd4f6fbbdd"
     },
     {
+      "anchor": "release-magic-from-hexed-korean-single-version",
+      "slug": "magic-from-hexed-korean-single-version",
+      "title": "Magic (From \"Hexed\"/Korean Single Version)",
+      "releaseDate": "2026-11-24",
+      "category": "ost",
+      "categoryName": "OST",
+      "mark": "RS",
+      "badge": "OST",
+      "type": "ディズニー映画<헥스: 마녀왕국> 公式OST",
+      "description": "ディズニー映画<헥스: 마녀왕국> 公式OST",
+      "tracks": [
+        {
+          "no": "01",
+          "title": "Magic (From \"Hexed\"/Korean Single Version)",
+          "video": "",
+          "note": "TRACK"
+        }
+      ],
+      "appleMusic": "https://music.apple.com/jp/album/magic-from-hexed-korean-single-version-single/6836555473",
+      "spotify": "https://open.spotify.com/album/7epFU2M4r6gD6x0UhmJJMn?si=ct7bbERiS9q1K6kSW7xSbQ&utm_source=copy-link",
+      "cover": "",
+      "order": 9999,
+      "published": true,
+      "notionPageId": "422229d2-19da-80d2-9b30-d858a22b2af1",
+      "notionUrl": "https://app.notion.com/p/Magic-From-Hexed-Korean-Single-Version-422229d219da80d29b30d858a22b2af1"
+    },
+    {
       "anchor": "release-ready-to-love",
       "slug": "ready-to-love",
       "title": "사랑해볼래, 나(Ready to Love)",
@@ -543,7 +570,7 @@ window.RESCENE_DISCOGRAPHY = {
       "categoryName": "OST",
       "mark": "RS",
       "badge": "OST",
-      "type": "メリーベリーラブ OST",
+      "type": "メリーベリーラブ 第7話 OST",
       "description": "日韓ドラマ「Merry Berry Love」のOST。",
       "tracks": [
         {

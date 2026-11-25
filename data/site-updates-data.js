@@ -1,5 +1,5 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-25T04:52:29.461663+00:00",
+  "generatedAt": "2026-11-25T09:57:32.594667+00:00",
   "items": [
     {
       "date": "2026-11-25",
@@ -46,16 +46,16 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-25",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "7d31d1b",
+      "commit": "cf442df",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
         "data/language-catalog.json",
         "data/mv-candidates-data.js",
         "data/mv-candidates.json",
-        "data/quality-report.json",
         "data/seo-status.json",
-        "data/site-updates-data.js"
+        "data/site-updates-data.js",
+        "data/site-updates.json"
       ]
     },
     {
@@ -120,31 +120,6 @@ window.RESCENE_SITE_UPDATES = {
       "title": "chore: critical YouTube sync",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "61b4f4c",
-      "files": [
-        "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-11-23",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "50b4e54",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "articles/2026-0c5361a8a6.html",
-        "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
-        "articles/2026-kgma-4-76cbf9c655.html",
-        "articles/2026-kwda-2-7f1dbcd366.html",
-        "articles/2026-mama-awards-best-of-next-08243c1f63.html",
-        "articles/2026-mama-awards-caaa5f7b37.html",
-        "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html"
-      ]
-    },
-    {
-      "date": "2026-11-23",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "b6428b3",
       "files": [
         "data/youtube-channels.json"
       ]
