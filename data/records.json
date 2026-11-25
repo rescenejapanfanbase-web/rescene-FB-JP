@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T08:03:27.874Z",
+  "generatedAt": "2026-11-25T10:58:25.979Z",
   "source": "notion+manual-fallback",
   "dataSourceId": "12dd657f-8ca2-44b0-a10f-ee099ca9a799",
   "notionDatabaseUrl": "https://app.notion.com/p/3119e49d127048ceb8388f3434fd13d7",
@@ -550,6 +550,21 @@
     }
   ],
   "awardRecords": [
+    {
+      "title": "2026 MAMA AWARDS — BEST OF NEXT",
+      "date": "2026-11-20",
+      "year": 2026,
+      "ceremony": "2026 MAMA AWARDS",
+      "category": "BEST OF NEXT",
+      "recipient": "RESCENE",
+      "status": "won",
+      "description": "今後の活躍がさらに期待される次世代K-POPアーティストに贈られる賞",
+      "officialUrl": "https://x.com/mnetmama/status/2123832773115015231/video/1?a=UQgyZPS0fiewTjpRMyk&s=46",
+      "image": "",
+      "order": 9999,
+      "notionPageId": "423229d2-19da-800b-8a70-f3776a619c65",
+      "notionUrl": "https://app.notion.com/p/2026-MAMA-AWARDS-BEST-OF-NEXT-423229d219da800b8a70f3776a619c65"
+    },
     {
       "title": "2026 Korea Grand Music Awards — Grand Honor's Choice（大賞）",
       "date": "2026-11-07",

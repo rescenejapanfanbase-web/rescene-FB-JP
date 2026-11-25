@@ -1,5 +1,5 @@
 window.RESCENE_DISCOGRAPHY = {
-  "generatedAt": "2026-11-25T09:57:18.878Z",
+  "generatedAt": "2026-11-25T10:58:26.673Z",
   "source": "notion",
   "dataSourceId": "8f582d52-96eb-4148-a24b-add07379ee07",
   "notionDatabaseUrl": "https://app.notion.com/p/ca4fadead9d64128a5e8dc9730e0033d",
@@ -543,7 +543,7 @@ window.RESCENE_DISCOGRAPHY = {
       "categoryName": "OST",
       "mark": "RS",
       "badge": "OST",
-      "type": "ディズニー映画<헥스: 마녀왕국> 公式OST",
+      "type": "<헥스: 마녀왕국> 公式OST",
       "description": "ディズニー映画<헥스: 마녀왕국> 公式OST",
       "tracks": [
         {
