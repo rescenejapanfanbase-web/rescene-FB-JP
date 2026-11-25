@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T20:36:58.705168+00:00",
+  "generatedAt": "2026-11-25T02:20:06.872520+00:00",
   "items": [
     {
       "date": "2026-11-24",
@@ -46,16 +46,16 @@
       "date": "2026-11-24",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "83a25fe",
+      "commit": "1079be9",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/mv-candidates-data.js",
-        "data/mv-candidates.json",
-        "data/seo-status.json",
-        "data/site-updates-data.js",
-        "data/site-updates.json"
+        "assets/mv/youtube/0ifssWwxVhc.jpg",
+        "assets/mv/youtube/4h0SE9m3IoU.jpg",
+        "assets/mv/youtube/6tTsZnKysBc.jpg",
+        "assets/mv/youtube/QN7V87Hzmr8.jpg",
+        "assets/mv/youtube/WNl67k6StWY.jpg",
+        "assets/mv/youtube/WQuoPINWLU8.jpg",
+        "assets/mv/youtube/Wm1vxMk5YTY.jpg"
       ]
     },
     {
@@ -65,19 +65,6 @@
       "commit": "61b4f4c",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-11-23",
-      "title": "feat: separate Featuring releases in discography",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "7979604",
-      "files": [
-        "data/discography-data.js",
-        "data/discography.json",
-        "js/discography.js",
-        "scripts/sync-notion-discography.mjs",
-        "service-worker.js"
       ]
     },
     {
@@ -135,15 +122,6 @@
       "commit": "b6428b3",
       "files": [
         "data/youtube-channels.json"
-      ]
-    },
-    {
-      "date": "2026-11-23",
-      "title": "Add files via upload",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "403f06a",
-      "files": [
-        ".github/workflows/add-rescene-featuring-category.yml"
       ]
     },
     {
