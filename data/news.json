@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-23T02:30:23.549Z",
+  "generatedAt": "2026-11-26T13:48:49.007Z",
   "source": "manual+notion",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "notionCount": 38,
+  "notionCount": 39,
   "news": [
     {
       "slug": "fanbase-site",
@@ -14,6 +14,22 @@
       "image": "news/fanbase-site.jpg",
       "sourceLink": "https://x.com/Rescene_FB_JP",
       "sourceLabel": "RESCENE JAPAN FANBASEのXを見る"
+    },
+    {
+      "slug": "41-golden-disc-awards-41c33f0aa5",
+      "date": "2026.11.26",
+      "category": "notice",
+      "categoryName": "授賞式",
+      "label": "An award ceremony",
+      "title": "第41回 Golden disc awardsに出演決定！",
+      "text": "2027年1月9日,10日に開催される第41回 Golden disc awardsにRESCENEが出演決定しました！",
+      "body": "2027年1月9日,10日に開催される第41回 Golden disc awardsにRESCENEが出演決定しました！\nGolden disc awardsは韓国の音楽業界で最も権威のある音楽授賞式の一つです。1986年に創設され、「韓国のグラミー賞」とも称されています。\n今年はベトナム・ハノイの'VIETNAM EXPOSITION CENTER' Special Outdoor Stageにて開催。",
+      "image": "assets/news/notion/notion-424229d219da80cdbccbcc41c33f0aa5-1db4b7d7f12e.jpg",
+      "sourceLink": "https://x.com/_goldendisc/status/2125822037474308360?a=UB8gz5TQNhJH8yBcvRc&s=46",
+      "sourceLabel": "公式のポストを見る",
+      "translations": {},
+      "notionPageId": "424229d2-19da-80cd-bccb-cc41c33f0aa5",
+      "notionUrl": "https://app.notion.com/p/41-Golden-disc-awards-424229d219da80cdbccbcc41c33f0aa5"
     },
     {
       "slug": "rescene-a0e56f5750",

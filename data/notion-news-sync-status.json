@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-11-23T02:30:23.549Z",
+  "generatedAt": "2026-11-26T13:48:49.007Z",
   "dataSourceId": "3a2229d2-19da-8034-a171-000b9f6bfff2",
-  "queriedPages": 38,
-  "notionNews": 38,
-  "notionImages": 37,
+  "queriedPages": 39,
+  "notionNews": 39,
+  "notionImages": 38,
   "rows": [
+    {
+      "title": "第41回 Golden disc awardsに出演決定！",
+      "pageId": "424229d2-19da-80cd-bccb-cc41c33f0aa5",
+      "lastEditedTime": "2026-11-26T12:26:00.000Z",
+      "imageStatus": "notion-file",
+      "imageProperty": "画像",
+      "imageFilename": "A3C22AB6-F140-4E91-98BF-4B29820307FD.jpeg",
+      "imagePath": "assets/news/notion/notion-424229d219da80cdbccbcc41c33f0aa5-1db4b7d7f12e.jpg",
+      "imageBytes": 812373,
+      "imageContentType": "image/jpeg"
+    },
     {
       "title": "RESCENE 初の単独コンサートのチケット予約日程が公開！",
       "pageId": "421229d2-19da-80cd-94a2-e8a0e56f5750",

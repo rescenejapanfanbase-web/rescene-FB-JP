@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-26T10:46:18.587453+00:00",
+  "generatedAt": "2026-11-26T13:49:31.737253+00:00",
   "items": [
     {
       "date": "2026-11-26",
       "title": "feat: publish Notion-synced RESCENE awards page",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "60f208e",
+      "commit": "8a49c1e",
       "files": [
         "articles/2026-0c5361a8a6.html",
         "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
@@ -72,15 +72,6 @@
         "articles/2026-mama-awards-caaa5f7b37.html",
         "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html",
         "articles/2026-sbs-f6b8857108.html"
-      ]
-    },
-    {
-      "date": "2026-11-25",
-      "title": "chore: update external link report",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "3d323a4",
-      "files": [
-        "data/external-link-report.json"
       ]
     },
     {
