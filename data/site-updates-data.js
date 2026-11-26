@@ -1,6 +1,22 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-25T19:53:30.337637+00:00",
+  "generatedAt": "2026-11-26T01:46:02.606080+00:00",
   "items": [
+    {
+      "date": "2026-11-26",
+      "title": "feat: publish Notion-synced RESCENE awards page",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "60f208e",
+      "files": [
+        "articles/2026-0c5361a8a6.html",
+        "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
+        "articles/2026-kgma-4-76cbf9c655.html",
+        "articles/2026-kwda-2-7f1dbcd366.html",
+        "articles/2026-mama-awards-best-of-next-08243c1f63.html",
+        "articles/2026-mama-awards-caaa5f7b37.html",
+        "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html",
+        "articles/2026-sbs-f6b8857108.html"
+      ]
+    },
     {
       "date": "2026-11-25",
       "title": "feat: publish Notion-synced RESCENE awards page",
@@ -46,16 +62,16 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-25",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "cf442df",
+      "commit": "438f076",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
         "data/language-catalog.json",
         "data/mv-candidates-data.js",
         "data/mv-candidates.json",
-        "data/seo-status.json",
-        "data/site-updates-data.js",
-        "data/site-updates.json"
+        "data/mv-data.js",
+        "data/mv.json",
+        "data/seo-status.json"
       ]
     },
     {
