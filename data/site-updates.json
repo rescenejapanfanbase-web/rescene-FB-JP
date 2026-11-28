@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T12:53:10.939628+00:00",
+  "generatedAt": "2026-11-28T16:49:25.172212+00:00",
   "items": [
     {
       "date": "2026-11-28",
@@ -40,6 +40,31 @@
         "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
         "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
         "scripts/__pycache__/check-external-links.cpython-313.pyc"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "title": "chore: critical full content sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "1b4434e",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "assets/mv/youtube/638f3ttCR20.jpg",
+        "assets/mv/youtube/Gu_4J16N2fY.jpg",
+        "assets/mv/youtube/_zzAi5x0cXc.jpg",
+        "assets/optimized/9d8ff14a65f1a302/_zzai5x0cxc-w480.webp",
+        "assets/optimized/9d8ff14a65f1a302/_zzai5x0cxc-w768.webp",
+        "assets/optimized/ee03663a46ae9301/638f3ttcr20-w480.webp",
+        "assets/optimized/ee03663a46ae9301/638f3ttcr20-w768.webp"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "title": "chore: critical YouTube sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "2f46ef0",
+      "files": [
+        "data/youtube-channels.json"
       ]
     },
     {
