@@ -1,6 +1,47 @@
 window.RESCENE_SITE_UPDATES = {
-  "generatedAt": "2026-11-27T21:07:01.364129+00:00",
+  "generatedAt": "2026-11-28T07:37:26.803714+00:00",
   "items": [
+    {
+      "date": "2026-11-28",
+      "title": "feat: publish Notion-synced RESCENE awards page",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "2e57cd8",
+      "files": [
+        "articles/2026-0c5361a8a6.html",
+        "articles/2026-k-world-dream-awards-kwda-fec5375c61.html",
+        "articles/2026-kgma-4-76cbf9c655.html",
+        "articles/2026-kwda-2-7f1dbcd366.html",
+        "articles/2026-mama-awards-best-of-next-08243c1f63.html",
+        "articles/2026-mama-awards-caaa5f7b37.html",
+        "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html",
+        "articles/2026-sbs-f6b8857108.html"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "title": "chore: update external link report",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "6a64332",
+      "files": [
+        "data/external-link-report.json"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "title": "chore: critical schedule sync",
+      "description": "GitHubでサイト内容を更新しました。",
+      "commit": "41d3dc0",
+      "files": [
+        "__pycache__/check-site-links.cpython-313.pyc",
+        "data/language-catalog-data.js",
+        "data/language-catalog.json",
+        "data/quality-report.json",
+        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
+        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
+        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
+        "scripts/__pycache__/check-external-links.cpython-313.pyc"
+      ]
+    },
     {
       "date": "2026-11-27",
       "title": "feat: publish Notion-synced RESCENE awards page",
@@ -46,16 +87,16 @@ window.RESCENE_SITE_UPDATES = {
       "date": "2026-11-27",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
-      "commit": "8b98491",
+      "commit": "f31926b",
       "files": [
         "__pycache__/check-site-links.cpython-313.pyc",
         "data/language-catalog-data.js",
         "data/language-catalog.json",
         "data/mv-candidates-data.js",
         "data/mv-candidates.json",
-        "data/mv-data.js",
-        "data/mv.json",
-        "data/quality-report.json"
+        "data/seo-status.json",
+        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
+        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc"
       ]
     },
     {
@@ -85,22 +126,6 @@ window.RESCENE_SITE_UPDATES = {
     },
     {
       "date": "2026-11-26",
-      "title": "chore: critical schedule sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "afaa0e5",
-      "files": [
-        "__pycache__/check-site-links.cpython-313.pyc",
-        "data/language-catalog-data.js",
-        "data/language-catalog.json",
-        "data/quality-report.json",
-        "scripts/__pycache__/add-image-dimensions.cpython-313.pyc",
-        "scripts/__pycache__/apply-survey-public-ui.cpython-313.pyc",
-        "scripts/__pycache__/backfill-korean-chart-history.cpython-313.pyc",
-        "scripts/__pycache__/check-external-links.cpython-313.pyc"
-      ]
-    },
-    {
-      "date": "2026-11-26",
       "title": "chore: critical full content sync",
       "description": "GitHubでサイト内容を更新しました。",
       "commit": "ec3114d",
@@ -113,15 +138,6 @@ window.RESCENE_SITE_UPDATES = {
         "articles/2026-mama-awards-best-of-next-08243c1f63.html",
         "articles/2026-mama-awards-caaa5f7b37.html",
         "articles/2026-music-bank-global-festival-in-japan-ff397035fa.html"
-      ]
-    },
-    {
-      "date": "2026-11-26",
-      "title": "chore: critical YouTube sync",
-      "description": "GitHubでサイト内容を更新しました。",
-      "commit": "5e39547",
-      "files": [
-        "data/youtube-channels.json"
       ]
     },
     {
