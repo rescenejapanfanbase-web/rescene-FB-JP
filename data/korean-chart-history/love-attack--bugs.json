@@ -52702,18 +52702,24 @@
       "checkedAt": "2026-11-28T10:53:23+09:00",
       "rank": 10,
       "sourceRank": 10
+    },
+    {
+      "chartAt": "2026-11-28T19:00:00+09:00",
+      "checkedAt": "2026-11-28T19:12:36+09:00",
+      "rank": 12,
+      "sourceRank": 12
     }
   ],
   "outOfChartHistory": [],
-  "generatedAt": "2026-11-28T10:53:23+09:00",
+  "generatedAt": "2026-11-28T19:12:36+09:00",
   "summary": {
     "peakRank": 1,
     "firstChartedAt": "2024-09-22T22:00:00+09:00",
-    "lastChartedAt": "2026-11-28T10:00:00+09:00",
+    "lastChartedAt": "2026-11-28T19:00:00+09:00",
     "chartDays": 455,
-    "currentRank": 10,
+    "currentRank": 12,
     "status": "in",
-    "pointCount": 6786
+    "pointCount": 6787
   },
   "sources": [
     {
